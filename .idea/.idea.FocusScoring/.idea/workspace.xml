@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08820d0d-2374-4151-9993-205016566ea5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/ApiMethod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/Company.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/FocusScoring.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/IXmlAccess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/XmlCache.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/XmlDownload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/FocusScoring.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/FocusScoring.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/System.ValueTuple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/scoring0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/scoring1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoring/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/.nupkg.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/System.ValueTuple.4.5.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/net461/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/net47/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/version.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1719218506">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="4184" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="4184" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+              <folding>
+                <marker date="1562145116933" expanded="true" signature="6:65" ph="..." />
+                <marker date="1562145116933" expanded="true" signature="89:1043" ph="{...}" />
+                <marker date="1562145116933" expanded="true" signature="116:1041" ph="{...}" />
+                <marker date="1562145116933" expanded="true" signature="280:374" ph="{...}" />
+                <marker date="1562145116933" expanded="true" signature="469:561" ph="{...}" />
+                <marker date="1562145116933" expanded="true" signature="614:716" ph="{...}" />
+                <marker date="1562145116933" expanded="true" signature="773:842" ph="{...}" />
+                <marker date="1562145116933" expanded="true" signature="892:1035" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/Settings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <marker date="1562145058945" expanded="true" signature="22:123" ph="{...}" />
+                <marker date="1562145058945" expanded="true" signature="57:121" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/XmlCache.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <marker date="1562142690151" expanded="true" signature="6:170" ph="..." />
+                <marker date="1562142690151" expanded="true" signature="195:2340" ph="{...}" />
+                <marker date="1562142690151" expanded="true" signature="251:2338" ph="{...}" />
+                <marker date="1562142690151" expanded="true" signature="629:1144" ph="{...}" />
+                <marker date="1562142690151" expanded="true" signature="956:1133" ph="{...}" />
+                <marker date="1562142690151" expanded="true" signature="1231:1763" ph="{...}" />
+                <marker date="1562142690151" expanded="true" signature="1841:2248" ph="{...}" />
+                <marker date="1562142690151" expanded="true" signature="1992:2238" ph="{...}" />
+                <marker date="1562142690151" expanded="true" signature="2279:2332" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDownload.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding>
+                <marker date="1562142690361" expanded="false" signature="6:52" ph="..." />
+                <marker date="1562142690361" expanded="true" signature="76:1161" ph="{...}" />
+                <marker date="1562142690361" expanded="true" signature="122:1159" ph="{...}" />
+                <marker date="1562142690361" expanded="true" signature="258:316" ph="{...}" />
+                <marker date="1562142690361" expanded="true" signature="411:1153" ph="{...}" />
+                <marker date="1562142690361" expanded="true" signature="430:498" ph="/* public XmlDocument GetXml(string sUrl) ... */" />
+                <marker date="1562142690361" expanded="true" signature="982:1101" ph="/* if (netfail) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <marker date="1562143464183" expanded="true" signature="41:881" ph="{...}" />
+                <marker date="1562143464183" expanded="true" signature="75:879" ph="{...}" />
+                <marker date="1562143464183" expanded="true" signature="214:330" ph="{...}" />
+                <marker date="1562143464183" expanded="true" signature="411:873" ph="{...}" />
+                <marker date="1562143464183" expanded="true" signature="629:766" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/IXmlAccess.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding>
+                <marker date="1562142690303" expanded="true" signature="41:171" ph="{...}" />
+                <marker date="1562142690303" expanded="true" signature="77:169" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/ApiMethod.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <marker date="1562142311389" expanded="true" signature="22:121" ph="{...}" />
+                <marker date="1562142311389" expanded="true" signature="52:119" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Контур.Фокус API Extractor v0.6_source/Контур.Фокус API Extractor/Form1.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <marker date="1468848426811" expanded="true" signature="6:377" ph="..." />
+                <marker date="1468848426811" expanded="true" signature="414:19868" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="454:19865" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="483:551" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="704:725" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="788:809" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="880:911" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="975:9018" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="1376:8884" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="2573:2855" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="3741:4115" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="4214:4658" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="4756:5169" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="5268:5648" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="5740:6139" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="6182:8714" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="8514:8680" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="8714:8837" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="8901:9001" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="9107:12546" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="10048:10927" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="10339:10886" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="10563:10847" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="10958:11055" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="11088:11833" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="11122:11668" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="11707:11819" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="11868:12319" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="11918:12194" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="12217:12305" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="12351:12454" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="12454:12536" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="12736:18413" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="13029:18242" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="13136:17171" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="13289:17141" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="13508:14090" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="13630:13962" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="14131:17079" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="14447:16723" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="15117:16275" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="15673:16038" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="16038:16133" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="16811:16929" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="17200:17285" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="17314:18126" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="18284:18381" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="18539:18976" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="18565:18933" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="18655:18886" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="19052:19857" ph="{...}" />
+                <marker date="1468848426811" expanded="true" signature="19249:19394" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Контур.Фокус API Extractor v0.6_source/Контур.Фокус API Extractor/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <marker date="1465910435515" expanded="false" signature="6:124" ph="..." />
+                <marker date="1465910435515" expanded="true" signature="160:534" ph="{...}" />
+                <marker date="1465910435515" expanded="true" signature="187:532" ph="{...}" />
+                <marker date="1465910435515" expanded="true" signature="202:292" ph="/// The main entry point for the application. ... " />
+                <marker date="1465910435515" expanded="true" signature="339:526" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding>
+                <marker date="1562145001110" expanded="true" signature="6:157" ph="..." />
+                <marker date="1562145001110" expanded="true" signature="181:2005" ph="{...}" />
+                <marker date="1562145001110" expanded="true" signature="210:1993" ph="{...}" />
+                <marker date="1562145001110" expanded="true" signature="367:892" ph="{...}" />
+                <marker date="1562145001110" expanded="true" signature="451:566" ph="/* (ApiMethod.req,&quot;/ArrayOfreq/req/UL/status/statusString&quot;), ... */" />
+                <marker date="1562145001110" expanded="true" signature="1029:1442" ph="{...}" />
+                <marker date="1562145001110" expanded="true" signature="1277:1432" ph="{...}" />
+                <marker date="1562145001110" expanded="true" signature="1522:1987" ph="{...}" />
+                <marker date="1562145001110" expanded="true" signature="1743:1880" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Контур.Фокус API Extractor v0.6_source/Контур.Фокус API Extractor/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoring/ApiMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoring/IXmlAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoring/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoring/XmlDownload.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoring/XmlCache.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoring/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Контур.Фокус API Extractor v0.6_source/Контур.Фокус API Extractor/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoring/Company.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FocusScoring/XmlCashe.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/ApiMethods.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/ApiMethod.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/IXmlAccess.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/XmlCache.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/XmlDownload.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/XmlAccess.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/Program.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/Settings.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/Company.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <autoscrollFromSource SolutionExplorer="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="FocusScoring" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="FocusScoring" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="FocusScoring" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Контур.Фокус API Extractor v0.6_source/Контур.Фокус API Extractor/Контур.Фокус API Extractor.csproj" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/FocusScoring/bin/Debug/FocusScoring.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FocusScoring/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/FocusScoring/FocusScoring.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08820d0d-2374-4151-9993-205016566ea5" name="Default Changelist" comment="" />
+      <created>1562047477135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562047477135</updated>
+      <workItem from="1562047478380" duration="17617000" />
+      <workItem from="1562134509410" duration="10507000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28124000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.12178517" />
+      <window_info id="Structure" order="1" sideWeight="0.5013405" side_tool="true" weight="0.12178517" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3994638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3297587" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.3994638" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12178517" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3994638" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3297587" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.3994638" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Контур.Фокус API Extractor v0.6_source/Контур.Фокус API Extractor/Form1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <marker date="1468848426811" expanded="true" signature="6:377" ph="..." />
+            <marker date="1468848426811" expanded="true" signature="414:19868" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="454:19865" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="483:551" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="704:725" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="788:809" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="880:911" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="975:9018" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="1376:8884" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="2573:2855" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="3741:4115" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="4214:4658" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="4756:5169" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="5268:5648" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="5740:6139" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="6182:8714" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="8514:8680" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="8714:8837" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="8901:9001" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="9107:12546" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="10048:10927" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="10339:10886" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="10563:10847" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="10958:11055" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="11088:11833" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="11122:11668" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="11707:11819" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="11868:12319" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="11918:12194" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="12217:12305" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="12351:12454" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="12454:12536" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="12736:18413" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="13029:18242" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="13136:17171" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="13289:17141" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="13508:14090" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="13630:13962" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="14131:17079" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="14447:16723" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="15117:16275" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="15673:16038" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="16038:16133" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="16811:16929" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="17200:17285" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="17314:18126" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="18284:18381" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="18539:18976" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="18565:18933" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="18655:18886" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="19052:19857" ph="{...}" />
+            <marker date="1468848426811" expanded="true" signature="19249:19394" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Контур.Фокус API Extractor v0.6_source/Контур.Фокус API Extractor/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <marker date="1465910435515" expanded="false" signature="6:124" ph="..." />
+            <marker date="1465910435515" expanded="true" signature="160:534" ph="{...}" />
+            <marker date="1465910435515" expanded="true" signature="187:532" ph="{...}" />
+            <marker date="1465910435515" expanded="true" signature="202:292" ph="/// The main entry point for the application. ... " />
+            <marker date="1465910435515" expanded="true" signature="339:526" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/XmlCache.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <marker date="1562142690151" expanded="true" signature="6:170" ph="..." />
+            <marker date="1562142690151" expanded="true" signature="195:2340" ph="{...}" />
+            <marker date="1562142690151" expanded="true" signature="251:2338" ph="{...}" />
+            <marker date="1562142690151" expanded="true" signature="629:1144" ph="{...}" />
+            <marker date="1562142690151" expanded="true" signature="956:1133" ph="{...}" />
+            <marker date="1562142690151" expanded="true" signature="1231:1763" ph="{...}" />
+            <marker date="1562142690151" expanded="true" signature="1841:2248" ph="{...}" />
+            <marker date="1562142690151" expanded="true" signature="1992:2238" ph="{...}" />
+            <marker date="1562142690151" expanded="true" signature="2279:2332" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDownload.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <marker date="1562142690361" expanded="false" signature="6:52" ph="..." />
+            <marker date="1562142690361" expanded="true" signature="76:1161" ph="{...}" />
+            <marker date="1562142690361" expanded="true" signature="122:1159" ph="{...}" />
+            <marker date="1562142690361" expanded="true" signature="258:316" ph="{...}" />
+            <marker date="1562142690361" expanded="true" signature="411:1153" ph="{...}" />
+            <marker date="1562142690361" expanded="true" signature="430:498" ph="/* public XmlDocument GetXml(string sUrl) ... */" />
+            <marker date="1562142690361" expanded="true" signature="982:1101" ph="/* if (netfail) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/IXmlAccess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <marker date="1562142690303" expanded="true" signature="41:171" ph="{...}" />
+            <marker date="1562142690303" expanded="true" signature="77:169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/ApiMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1562142311389" expanded="true" signature="22:121" ph="{...}" />
+            <marker date="1562142311389" expanded="true" signature="52:119" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/Settings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <marker date="1562145058945" expanded="true" signature="22:123" ph="{...}" />
+            <marker date="1562145058945" expanded="true" signature="57:121" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <marker date="1562145001110" expanded="true" signature="6:157" ph="..." />
+            <marker date="1562145001110" expanded="true" signature="181:2005" ph="{...}" />
+            <marker date="1562145001110" expanded="true" signature="210:1993" ph="{...}" />
+            <marker date="1562145001110" expanded="true" signature="367:892" ph="{...}" />
+            <marker date="1562145001110" expanded="true" signature="451:566" ph="/* (ApiMethod.req,&quot;/ArrayOfreq/req/UL/status/statusString&quot;), ... */" />
+            <marker date="1562145001110" expanded="true" signature="1029:1442" ph="{...}" />
+            <marker date="1562145001110" expanded="true" signature="1277:1432" ph="{...}" />
+            <marker date="1562145001110" expanded="true" signature="1522:1987" ph="{...}" />
+            <marker date="1562145001110" expanded="true" signature="1743:1880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <marker date="1562143464183" expanded="true" signature="41:881" ph="{...}" />
+            <marker date="1562143464183" expanded="true" signature="75:879" ph="{...}" />
+            <marker date="1562143464183" expanded="true" signature="214:330" ph="{...}" />
+            <marker date="1562143464183" expanded="true" signature="411:873" ph="{...}" />
+            <marker date="1562143464183" expanded="true" signature="629:766" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+          <folding>
+            <marker date="1562145116933" expanded="true" signature="6:65" ph="..." />
+            <marker date="1562145116933" expanded="true" signature="89:1043" ph="{...}" />
+            <marker date="1562145116933" expanded="true" signature="116:1041" ph="{...}" />
+            <marker date="1562145116933" expanded="true" signature="280:374" ph="{...}" />
+            <marker date="1562145116933" expanded="true" signature="469:561" ph="{...}" />
+            <marker date="1562145116933" expanded="true" signature="614:716" ph="{...}" />
+            <marker date="1562145116933" expanded="true" signature="773:842" ph="{...}" />
+            <marker date="1562145116933" expanded="true" signature="892:1035" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
