@@ -11,6 +11,7 @@
         <e p="ApiMethod.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Company.cs" t="Include" />
+        <e p="DictionarySerializer.cs" t="Include" />
         <e p="FocusScoring.csproj" t="IncludeRecursive" />
         <e p="IXmlAccess.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
@@ -28,29 +29,7 @@
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\Avel\Desktop\Контур.Фокус API Extractor v0.6_source\Контур.Фокус API Extractor" t="IncludeRecursive">
-      <e p="App.config" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="data" t="Include">
-        <e p="FocusApiId" t="Include" />
-      </e>
-      <e p="FocusApiId" t="Include" />
-      <e p="Form1.cs" t="Include" />
-      <e p="Form1.Designer.cs" t="Include" />
-      <e p="Form1.resx" t="Include" />
-      <e p="obj" t="ExcludeRecursive" />
-      <e p="Program.cs" t="Include" />
-      <e p="Properties" t="Include">
-        <e p="app.manifest" t="Include" />
-        <e p="AssemblyInfo.cs" t="Include" />
-        <e p="Resources.Designer.cs" t="Include" />
-        <e p="Resources.resx" t="Include" />
-        <e p="Settings.Designer.cs" t="Include" />
-        <e p="Settings.settings" t="Include" />
-      </e>
-      <e p="Resource1.Designer.cs" t="Include" />
-      <e p="Resource1.resx" t="Include" />
       <e p="Контур.Фокус API Extractor.csproj" t="IncludeRecursive" />
-      <e p="Контур.Фокус API Extractor_TemporaryKey.pfx" t="Include" />
     </e>
   </component>
 </project>

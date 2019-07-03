@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ApiMethod.cs" />
     <Compile Include="Company.cs" />
+    <Compile Include="DictionarySerializer.cs" />
     <Compile Include="IXmlAccess.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

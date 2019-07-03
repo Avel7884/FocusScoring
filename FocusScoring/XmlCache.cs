@@ -10,21 +10,25 @@ namespace FocusScoring
 {
     internal class XmlCache : IDisposable, IXmlAccess
     {
+        private readonly string cachePath;
         private readonly TimeSpan cacheTTL;
         private readonly Dictionary<(string, ApiMethod), (long,int,DateTime)> spansDict;
         private MemoryMappedFile cacheFile;
         private Action recache;
         private long position = 0; 
 
-        public XmlCache(string cachePath="./cache", TimeSpan cacheTTL=default(TimeSpan), long initialCapacity = 10*1024*1024)
+        public XmlCache(string cachePath="./", TimeSpan cacheTTL=default(TimeSpan), long initialCapacity = 10*1024*1024)
         {
+            this.cachePath = cachePath;
             this.cacheTTL = cacheTTL == default(TimeSpan) ? TimeSpan.FromDays(7) : cacheTTL;
-            this.spansDict = new Dictionary<(string, ApiMethod), (long,int,DateTime)>();
-            cacheFile = MemoryMappedFile.CreateFromFile(cachePath, FileMode.Open,"ImgA", initialCapacity);
+            this.spansDict = File.Exists(cachePath + "cacheDict") ? 
+                DictionarySerializer.Deserialize(cachePath + "cacheDict") :
+                new Dictionary<(string, ApiMethod), (long, int, DateTime)>();
+            cacheFile = MemoryMappedFile.CreateFromFile(cachePath+"cache", FileMode.Open,"ImgA", initialCapacity);
             recache = () =>
             {
                 initialCapacity *= 2;
-                cacheFile = MemoryMappedFile.CreateFromFile(cachePath, FileMode.Open,"ImgA", initialCapacity);
+                cacheFile = MemoryMappedFile.CreateFromFile(cachePath+"cache", FileMode.Open,"ImgA", initialCapacity);
             };
         }
 
@@ -58,6 +62,7 @@ namespace FocusScoring
         public void Dispose()
         {
             cacheFile.Dispose();
+            DictionarySerializer.Serialize(spansDict, cachePath + "cacheDict");
         }
     }
 }

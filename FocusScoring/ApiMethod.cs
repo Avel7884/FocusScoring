@@ -1,6 +1,6 @@
 namespace FocusScoring
 {
-    internal enum ApiMethod
+    public enum ApiMethod
     {
         req,contacts,egrDetails,analytics,licences,buh
     }
