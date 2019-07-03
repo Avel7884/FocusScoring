@@ -20,7 +20,8 @@ namespace FocusScoring
         public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
         {
             //TODO refactor
-            var wrGETURL = WebRequest.Create($"https://focus-api.kontur.ru/api3/{GetMethodName(method)}?key={focusKey}&inn={inn}&xml");
+            var requisites = Settings.OgrnEnabled ? "ogrn" : "inn";
+            var wrGETURL = WebRequest.Create($"https://focus-api.kontur.ru/api3/{GetMethodName(method)}?key={focusKey}&{requisites}={inn}&xml");
             Stream webStream = null;
             var netfail=false;
             try{webStream = wrGETURL.GetResponse().GetResponseStream();}
