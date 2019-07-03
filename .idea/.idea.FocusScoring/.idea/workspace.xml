@@ -2,74 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08820d0d-2374-4151-9993-205016566ea5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/ApiMethod.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/Company.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/FocusScoring.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/IXmlAccess.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/Settings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/XmlCache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/XmlDownload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/FocusScoring.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/FocusScoring.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/System.ValueTuple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/scoring0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/scoring1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.csprojResolveAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusScoring/packages.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/.nupkg.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/LICENSE.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/System.ValueTuple.4.5.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/net461/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/net47/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/System.ValueTuple.4.5.0/version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,19 +45,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4184" />
+          <entry key="cs" value="4191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4184" />
+          <entry key="C#" value="4191" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -194,17 +127,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
               <folding>
-                <marker date="1562143464183" expanded="true" signature="41:881" ph="{...}" />
-                <marker date="1562143464183" expanded="true" signature="75:879" ph="{...}" />
-                <marker date="1562143464183" expanded="true" signature="214:330" ph="{...}" />
-                <marker date="1562143464183" expanded="true" signature="411:873" ph="{...}" />
-                <marker date="1562143464183" expanded="true" signature="629:766" ph="{...}" />
+                <marker date="1562148055484" expanded="true" signature="41:895" ph="{...}" />
+                <marker date="1562148055484" expanded="true" signature="75:893" ph="{...}" />
+                <marker date="1562148055484" expanded="true" signature="214:330" ph="{...}" />
+                <marker date="1562148055484" expanded="true" signature="411:887" ph="{...}" />
+                <marker date="1562148055484" expanded="true" signature="636:780" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -362,10 +295,10 @@
         <option value="$PROJECT_DIR$/FocusScoring/XmlCache.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/XmlDownload.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/XmlAccess.cs" />
-        <option value="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/Program.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/Settings.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/Company.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" />
       </list>
     </option>
   </component>
@@ -459,12 +392,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562047477135</updated>
       <workItem from="1562047478380" duration="17617000" />
-      <workItem from="1562134509410" duration="10507000" />
+      <workItem from="1562134509410" duration="12125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28124000" />
+    <option name="totallyTimeSpent" value="29742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,22 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDownload.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <marker date="1562142690361" expanded="false" signature="6:52" ph="..." />
-            <marker date="1562142690361" expanded="true" signature="76:1161" ph="{...}" />
-            <marker date="1562142690361" expanded="true" signature="122:1159" ph="{...}" />
-            <marker date="1562142690361" expanded="true" signature="258:316" ph="{...}" />
-            <marker date="1562142690361" expanded="true" signature="411:1153" ph="{...}" />
-            <marker date="1562142690361" expanded="true" signature="430:498" ph="/* public XmlDocument GetXml(string sUrl) ... */" />
-            <marker date="1562142690361" expanded="true" signature="982:1101" ph="/* if (netfail) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/IXmlAccess.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -710,20 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <marker date="1562143464183" expanded="true" signature="41:881" ph="{...}" />
-            <marker date="1562143464183" expanded="true" signature="75:879" ph="{...}" />
-            <marker date="1562143464183" expanded="true" signature="214:330" ph="{...}" />
-            <marker date="1562143464183" expanded="true" signature="411:873" ph="{...}" />
-            <marker date="1562143464183" expanded="true" signature="629:766" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -737,6 +640,36 @@
             <marker date="1562145116933" expanded="true" signature="614:716" ph="{...}" />
             <marker date="1562145116933" expanded="true" signature="773:842" ph="{...}" />
             <marker date="1562145116933" expanded="true" signature="892:1035" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDownload.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <marker date="1562142690361" expanded="false" signature="6:52" ph="..." />
+            <marker date="1562142690361" expanded="true" signature="76:1161" ph="{...}" />
+            <marker date="1562142690361" expanded="true" signature="122:1159" ph="{...}" />
+            <marker date="1562142690361" expanded="true" signature="258:316" ph="{...}" />
+            <marker date="1562142690361" expanded="true" signature="411:1153" ph="{...}" />
+            <marker date="1562142690361" expanded="true" signature="430:498" ph="/* public XmlDocument GetXml(string sUrl) ... */" />
+            <marker date="1562142690361" expanded="true" signature="982:1101" ph="/* if (netfail) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <marker date="1562148055484" expanded="true" signature="41:895" ph="{...}" />
+            <marker date="1562148055484" expanded="true" signature="75:893" ph="{...}" />
+            <marker date="1562148055484" expanded="true" signature="214:330" ph="{...}" />
+            <marker date="1562148055484" expanded="true" signature="411:887" ph="{...}" />
+            <marker date="1562148055484" expanded="true" signature="636:780" ph="{...}" />
           </folding>
         </state>
       </provider>
