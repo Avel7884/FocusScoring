@@ -1,22 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-
-//using System.Collections.Immutable;
-
 
 namespace FocusScoring
 {
     public class Company
     {
         private string inn;
-        
-//        private Dictionary<string,(ApiMethod,string)> paramDict = new Dictionary<string, (ApiMethod, string)>()
-//        {
-//            {"Dissolving", (ApiMethod.req,"/ArrayOfreq/req/UL/status/dissolving")}
-//        };
-
-        private static Dictionary<string, (ApiMethod, string)> paramDict = new Dictionary<string, (ApiMethod, string)>()
+        private Dictionary<string, (ApiMethod, string)> paramDict = new Dictionary<string, (ApiMethod, string)>()
         {
             {"Short",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/short") },
             {"Full",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/full") },
@@ -27,31 +17,24 @@ namespace FocusScoring
             {"legalName",(ApiMethod.req,"/ArrayOfreq/req/UL/history/legalNames/legalName") },
             {"kppWithDate",(ApiMethod.req,"/ArrayOfreq/req/UL/history/kpps/kppWithDate") },
             {"Reorganizing",(ApiMethod.req,"/ArrayOfreq/req/UL/status/reorganizing") },
-            {"Heads",(ApiMethod.req,"/ArrayOfreq/req/UL/heads/head") },
+            {"head",(ApiMethod.req,"/ArrayOfreq/req/UL/heads/head") },
             {"managementCompany",(ApiMethod.req,"/ArrayOfreq/req/UL/managementCompanies/managementCompany") },
             {"RegistrationDate",(ApiMethod.req,"/ArrayOfreq/req/UL/registrationDate") },
-            {"Bankruptcy",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7013")},
-            {"BankruptcyLast12m",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7014")},
-            {"BankruptcyEndProc",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7016") },
+            {"m7013",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7013")},
+            {"m7014",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7014")},
+            {"m7016",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7016") },
             {"s1001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s1001") },
-            {"RevenueP",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s6003") },
-            {"Revenue",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s6004") },
+            {"s6003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s6003") },
+            {"s6004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s6004") },
             {"s6008",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s6008") },
-            {"Sum",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/statedCapital/sum") },//If s1001 > 0.2 * s6004 & s1001 > Sum & s1001 > 100000 Then 'da'
-            {"SumDel",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s2003") },
-            {"SumDelPast",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s2004") },
-
-           // If sumDelPast > sumDel & sumDel > (sumDelPast - sumDel) / 2 & sumDel > 2000000
-
-            {"SumDel12",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s2001") },
-            {"SumDelPast12",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s2002") },
-            //If sumDelPast > sumDel & sumDel > (sumDelPast - sumDel) / 2 & sumDel > 2000000
-
-             //7If sumDel(s2003) > 0.2 * revenu & sumDel > 500000 & sumDel > sum
-             //8If sumDel(s2001) > 0.2 * revenu & sumDel > 500000 & sumDel > sum
-            {"Badfaith",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m4001") },
-            {"Disqualified",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m5008") },
-            {"IndividualBnkruptcy",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7022") },
+            {"Sum",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/statedCapital/sum") },
+            {"s2003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s2003") },
+            {"s2004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s2004") },
+            {"s2001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s2001") },
+            {"s2002",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s2002") },
+            {"m4001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m4001") },
+            {"m5008",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m5008") },
+            {"m7022",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7022") },
             {"FounderFL",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/foundersFL/founderFL") },
             {"FoundersForeign",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/foundersForeign/founderForeign") },
             {"m1003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m1003") },
@@ -76,14 +59,15 @@ namespace FocusScoring
             {"q7018",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7018") },
             {"q7020",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7020") },
             {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },
+            {"ArrayOfreq/req" ,(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req")}
 
         };
-        
+
         private ParamAccess access;
 
-        private Company()
+        private Company(ParamAccess paramAccess = null)
         {
-            access = ParamAccess.Start();
+            access = paramAccess ?? new ParamAccess(Settings.FocusKey);
         }
 
         public static Company CreateINN(string inn)
@@ -99,12 +83,6 @@ namespace FocusScoring
             return access.GetParam(method, inn, node);
         }
 
-        public string[] GetMultiParam(string paramName)
-        {
-            (ApiMethod method, string node) = paramDict[paramName];
-            return access.GetParams(method, inn, node).ToArray();
-        }
-        
         public string CompanyName()
         {
             string _short = GetParam("Short");
@@ -115,8 +93,203 @@ namespace FocusScoring
             if (full != "")
                 return full;
             if (fio != "")
-                return "ÈÏ" + " " + fio;
+                return "ИП" + " " + fio;
             return "";
         }
+
+
+        private Dictionary<string, Func<bool>> markers = new Dictionary<string, Func<bool>>()
+        {
+            #region redflag
+            //            {"CompanyStatus" , ()=> {
+            //            return (GetParam("Dissolving") == "True" || GetParam("Dissolved") == "True");
+            //            } },
+            //            {"BankruptcyStatus", ()=>{
+            //            return (GetParam("m7013") == "True" || GetParam("m7014") == "True" || GetParam("m7016") == "True");
+            //            } },
+            //            {"func4" , ()=> { 
+            //            double sum = GetParam("Sum");
+            //            double a = GetParam("s1001");
+            //            double b = GetParam("s6004");
+            //            return a > (0.2 * b) & (a > sum) & a > 100000;
+            //                //Критическая сумма исполнительных производств 
+            //                //(сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) 
+            //                //и более суммы уставного капитала, и более 100 тыс. руб.
+            //            } },
+            //            {"func5", ()=> {
+            //            double sumDel = GetParam("s2003");
+            //            double sumDelPast = GetParam("s2004");
+            //            return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
+            //                //Критический рост суммы арбитражных дел в качестве истца за последние 12 месяцев.
+            //                //Т.е. сумма дел за последние 12 месяцев составляет более 50% по сравнению с суммой дел за предыдущие 2 года.
+            //                //При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.
+            //            } },
+            //            {"func6", ()=>{
+            //            double sumDel = GetParam("s2001");
+            //            double sumDelPast = GetParam("s2002");
+            //            return (sumDelPast > sumDel) & (sumDel > (sumDelPast - sumDel) / 2) & (sumDel > 5000000);
+            //                //Критический рост суммы арбитражных дел в качестве ответчика за последние 12 месяцев. 
+            //                //Т.е. сумма дел за последние 12 месяцев составляет более 50% по сравнению с суммой дел за предыдущие 2 года.
+            //                //При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.
+            //            } },
+            //            {"func7" , ()=> {
+            //            double sumDel = GetParam("s2003");
+            //            double revenue = GetParam("s6004");
+            //            double statedCapitalFocus = GetParam("Sum");
+            //            return (sumDel > (0.2 * Revenue)) & (sumDel > 500000) & (SumDel > statedCapitalFocus);
+            //                //Критическая сумма арбитражных дел в качестве истца.
+            //                //Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период 
+            //                //и более суммы уставного капитала, и более 500 тыс. руб.
+            //            } },
+            //            {"func8" , ()=> {
+            //            double sumDel = GetParam("s2001");
+            //            double revenue = GetParam("s6004");
+            //            double statedCapitalFocus = GetParam("Sum");
+            //            return (sumDel > (0.2 * Revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
+            //                //Критическая сумма арбитражных дел в качестве истца.
+            //                //Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период 
+            //                //и более суммы уставного капитала, и более 500 тыс. руб.
+            //            } },
+            //            {"func9" , ()=> {
+            //            return (GetParam("m4001") == "True");
+            //            } },
+            //            {"func10" , ()=> {
+            //            return (GetParam("m5008") == "True");
+            //            } },
+            //            {"func11" , ()=> {
+            //            return (long.Parse(GetParam("s6004"))<0.5 * long.Parses(GetParam("6003")));
+            //            } },
+            //            {"func12" , ()=> {
+            //            return (GetParam("m7022") == "True");
+            //            } },
+            //            {"func13" , ()=> {
+            //            short affiliatesCount = 0;
+            //            short badAffiliatesCount = 0;
+            //            bool isBad= false;
+
+
+            //            } },
+            //            {"func14" , ()=> {
+
+            //            } },
+            //            {"funcn15" , ()=> {
+
+            //            } },
+            //            {"funcn16" , ()=> {
+
+            //            } },
+            //            {"func17" , ()=> {
+
+            //            } },
+            #endregion
+            //            {"func18" , ()=> {
+            //            return (GetParam("Reorganizing") == "True");
+            //            } },
+            //            {"func19" , ()=> {
+            //            return (GetParam("FoundersForeign") != "");
+            //            } },
+            //            {"func20" , ()=> {
+
+            //            } },
+            //            {"func21" , ()=> {
+            //            double sum = GetParam("sum");
+            //            double a = GetParam("s1001");
+            //            double b = GetParam("s6004");
+            //            return (a > (0.1 * b)) & (a > isum) & (a > 100000);
+
+            //            } },
+            //            {"func22" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } },
+            //            {"funcname" , ()=> {
+
+            //            } }
+
+
+        };
     }
 }
