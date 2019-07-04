@@ -10,55 +10,28 @@ namespace FocusScoring
 {
     internal class Program
     {
-        private static string focuskey = "fuck";    
-
-        static List<(ApiMethod,string)> companyParams = new List<(ApiMethod, string)>()
-        {
-            (ApiMethod.req,"/ArrayOfreq/req/UL/status/statusString"),
-            //(ApiMethod.req,"/ArrayOfreq/req/UL/status/statusString"),
-            //(ApiMethod.req,"/ArrayOfreq/req/IP/fio"),
-            (ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7019"),
-            (ApiMethod.req,"/ArrayOfreq/req/UL/status/statusString"),
-            (ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7018"),
-            (ApiMethod.req,"/ArrayOfreq/req/UL/status/statusString"),
-
-            
-        };
-
-        private static XmlCache cache;
-        private static XmlDownload xmlDownload;
+        private static string focuskey = "3c71a03f93608c782f3099113c97e28f22ad7f45";    
 
         public static void Main(string[] args)
         {
-            var inns = Console.ReadLine().Split();
-            WebResponse response;
-            byte[] buf;
 
-            cache = new XmlCache();
-            xmlDownload = new XmlDownload(focuskey);
+            Settings.FocusKey = focuskey;
 
-            foreach (var inn in inns)
-            {
-                foreach (var (method,node) in companyParams)
-                    Console.WriteLine(GetParam(method,inn,node));
-            }
-        }
-
-        public static string GetParam(ApiMethod method,string inn,string node)
-        {
-            var d = new XmlDocument();
-            if (cache.TryGetXml(inn, method, out d))
-                return d.SelectSingleNode(node).InnerText;
-
-            if (xmlDownload.TryGetXml(inn, method, out d))
-            {
-                cache.WriteCache(inn, method, d);
-                return d.SelectSingleNode(node).InnerText;
-            }
+            Console.WriteLine(Company.CreateINN("6167110026").CompanyName());
             
-            return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
+//            
+//            var inns = Console.ReadLine().Split();
+//            WebResponse response;
+//            byte[] buf;
+//
+//            cache = new XmlCache();
+//            xmlDownload = new XmlDownload(focuskey);
+//
+//            foreach (var inn in inns)
+//            {
+//                foreach (var (method,node) in companyParams)
+//                    Console.WriteLine(GetParam(method,inn,node));
+//            }
         }
     }
-    
-    
 }
