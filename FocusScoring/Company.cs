@@ -27,11 +27,6 @@ namespace FocusScoring
             return c;
         }
 
-        public static Company CreateByOGRN(string ogrn)
-        {
-            throw new NotImplementedException();
-        }
-
         public string GetParam(string paramName)
         {
             (ApiMethod method, string node) = paramDict[paramName];

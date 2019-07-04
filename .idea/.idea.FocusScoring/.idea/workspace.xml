@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08820d0d-2374-4151-9993-205016566ea5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FocusScoring/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/Settings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FocusScoring/XmlDownload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/XmlDownload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/Company.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/FocusScoring.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/FocusScoring.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,32 +46,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5097" />
+          <entry key="cs" value="5154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5097" />
+          <entry key="C#" value="5154" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="405">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
-                <marker date="1562145116933" expanded="true" signature="6:65" ph="..." />
-                <marker date="1562145116933" expanded="true" signature="89:1043" ph="{...}" />
-                <marker date="1562145116933" expanded="true" signature="116:1041" ph="{...}" />
-                <marker date="1562145116933" expanded="true" signature="280:374" ph="{...}" />
-                <marker date="1562145116933" expanded="true" signature="469:561" ph="{...}" />
-                <marker date="1562145116933" expanded="true" signature="614:716" ph="{...}" />
-                <marker date="1562145116933" expanded="true" signature="773:842" ph="{...}" />
-                <marker date="1562145116933" expanded="true" signature="892:1035" ph="{...}" />
+                <marker date="1562154384622" expanded="true" signature="6:65" ph="..." />
+                <marker date="1562154384622" expanded="true" signature="89:917" ph="{...}" />
+                <marker date="1562154384622" expanded="true" signature="116:915" ph="{...}" />
+                <marker date="1562154384622" expanded="true" signature="280:374" ph="{...}" />
+                <marker date="1562154384622" expanded="true" signature="469:561" ph="{...}" />
+                <marker date="1562154384622" expanded="true" signature="614:716" ph="{...}" />
+                <marker date="1562154384622" expanded="true" signature="766:909" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -80,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
+            <state relative-caret-position="300">
               <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <marker date="1562151190439" expanded="true" signature="6:115" ph="..." />
@@ -94,14 +93,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FocusScoring/Settings.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="105">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
-                <marker date="1562152720527" expanded="true" signature="22:178" ph="{...}" />
-                <marker date="1562152720527" expanded="true" signature="57:176" ph="{...}" />
+                <marker date="1562153435778" expanded="true" signature="22:176" ph="{...}" />
+                <marker date="1562153435778" expanded="true" signature="57:174" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -544,16 +543,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDownload.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="256">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
-                <marker date="1562153223546" expanded="true" signature="6:126" ph="..." />
-                <marker date="1562153223546" expanded="true" signature="150:1596" ph="{...}" />
-                <marker date="1562153223546" expanded="true" signature="196:1594" ph="{...}" />
-                <marker date="1562153223546" expanded="true" signature="306:364" ph="{...}" />
-                <marker date="1562153223546" expanded="true" signature="459:1034" ph="{...}" />
-                <marker date="1562153223546" expanded="true" signature="1090:1588" ph="{...}" />
-                <marker date="1562153223546" expanded="true" signature="1128:1578" ph="{...}" />
+                <marker date="1562153428270" expanded="true" signature="6:126" ph="..." />
+                <marker date="1562153428270" expanded="true" signature="150:1673" ph="{...}" />
+                <marker date="1562153428270" expanded="true" signature="196:1671" ph="{...}" />
+                <marker date="1562153428270" expanded="true" signature="306:364" ph="{...}" />
+                <marker date="1562153428270" expanded="true" signature="459:1111" ph="{...}" />
+                <marker date="1562153428270" expanded="true" signature="1167:1665" ph="{...}" />
+                <marker date="1562153428270" expanded="true" signature="1205:1655" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -636,7 +635,6 @@
         <option value="$PROJECT_DIR$/FocusScoring/ApiMethods.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/IXmlAccess.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/XmlAccess.cs" />
-        <option value="$PROJECT_DIR$/FocusScoring/Company.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/DictionarySerializatior.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/DictionarySerealizatior.cs" />
@@ -647,6 +645,7 @@
         <option value="$PROJECT_DIR$/FocusScoring/Program.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/Settings.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/XmlDownload.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/Company.cs" />
       </list>
     </option>
   </component>
@@ -740,12 +739,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562047477135</updated>
       <workItem from="1562047478380" duration="17617000" />
-      <workItem from="1562134509410" duration="17288000" />
+      <workItem from="1562134509410" duration="19166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34905000" />
+    <option name="totallyTimeSpent" value="36783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,7 +768,7 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.3297587" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
@@ -777,7 +776,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.3297587" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.3994638" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.3297587" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1361,35 +1360,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs">
+    <entry file="file://$PROJECT_DIR$/FocusScoring/ApiMethod.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
           <folding>
-            <marker date="1562151190439" expanded="true" signature="6:115" ph="..." />
-            <marker date="1562151190439" expanded="true" signature="139:1513" ph="{...}" />
-            <marker date="1562151190439" expanded="true" signature="188:1212" ph="{...}" />
-            <marker date="1562151190439" expanded="true" signature="335:731" ph="{...}" />
-            <marker date="1562151190439" expanded="true" signature="849:1206" ph="{...}" />
-            <marker date="1562151190439" expanded="true" signature="1242:1511" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <marker date="1562151939790" expanded="true" signature="6:157" ph="..." />
-            <marker date="1562151939790" expanded="true" signature="181:2005" ph="{...}" />
-            <marker date="1562151939790" expanded="true" signature="210:1993" ph="{...}" />
-            <marker date="1562151939790" expanded="true" signature="367:892" ph="{...}" />
-            <marker date="1562151939790" expanded="true" signature="451:566" ph="/* (ApiMethod.req,&quot;/ArrayOfreq/req/UL/status/statusString&quot;), ... */" />
-            <marker date="1562151939790" expanded="true" signature="1029:1442" ph="{...}" />
-            <marker date="1562151939790" expanded="true" signature="1277:1432" ph="{...}" />
-            <marker date="1562151939790" expanded="true" signature="1522:1987" ph="{...}" />
-            <marker date="1562151939790" expanded="true" signature="1743:1880" ph="{...}" />
+            <marker date="1562151219867" expanded="true" signature="22:119" ph="{...}" />
+            <marker date="1562151219867" expanded="true" signature="50:117" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1412,57 +1389,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <marker date="1562145116933" expanded="true" signature="6:65" ph="..." />
-            <marker date="1562145116933" expanded="true" signature="89:1043" ph="{...}" />
-            <marker date="1562145116933" expanded="true" signature="116:1041" ph="{...}" />
-            <marker date="1562145116933" expanded="true" signature="280:374" ph="{...}" />
-            <marker date="1562145116933" expanded="true" signature="469:561" ph="{...}" />
-            <marker date="1562145116933" expanded="true" signature="614:716" ph="{...}" />
-            <marker date="1562145116933" expanded="true" signature="773:842" ph="{...}" />
-            <marker date="1562145116933" expanded="true" signature="892:1035" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/ApiMethod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding>
-            <marker date="1562151219867" expanded="true" signature="22:119" ph="{...}" />
-            <marker date="1562151219867" expanded="true" signature="50:117" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDownload.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="256">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
-            <marker date="1562153223546" expanded="true" signature="6:126" ph="..." />
-            <marker date="1562153223546" expanded="true" signature="150:1596" ph="{...}" />
-            <marker date="1562153223546" expanded="true" signature="196:1594" ph="{...}" />
-            <marker date="1562153223546" expanded="true" signature="306:364" ph="{...}" />
-            <marker date="1562153223546" expanded="true" signature="459:1034" ph="{...}" />
-            <marker date="1562153223546" expanded="true" signature="1090:1588" ph="{...}" />
-            <marker date="1562153223546" expanded="true" signature="1128:1578" ph="{...}" />
+            <marker date="1562153428270" expanded="true" signature="6:126" ph="..." />
+            <marker date="1562153428270" expanded="true" signature="150:1673" ph="{...}" />
+            <marker date="1562153428270" expanded="true" signature="196:1671" ph="{...}" />
+            <marker date="1562153428270" expanded="true" signature="306:364" ph="{...}" />
+            <marker date="1562153428270" expanded="true" signature="459:1111" ph="{...}" />
+            <marker date="1562153428270" expanded="true" signature="1167:1665" ph="{...}" />
+            <marker date="1562153428270" expanded="true" signature="1205:1655" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/Settings.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <marker date="1562152720527" expanded="true" signature="22:178" ph="{...}" />
-            <marker date="1562152720527" expanded="true" signature="57:176" ph="{...}" />
+            <marker date="1562153435778" expanded="true" signature="22:176" ph="{...}" />
+            <marker date="1562153435778" expanded="true" signature="57:174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <marker date="1562151939790" expanded="true" signature="6:157" ph="..." />
+            <marker date="1562151939790" expanded="true" signature="181:2005" ph="{...}" />
+            <marker date="1562151939790" expanded="true" signature="210:1993" ph="{...}" />
+            <marker date="1562151939790" expanded="true" signature="367:892" ph="{...}" />
+            <marker date="1562151939790" expanded="true" signature="451:566" ph="/* (ApiMethod.req,&quot;/ArrayOfreq/req/UL/status/statusString&quot;), ... */" />
+            <marker date="1562151939790" expanded="true" signature="1029:1442" ph="{...}" />
+            <marker date="1562151939790" expanded="true" signature="1277:1432" ph="{...}" />
+            <marker date="1562151939790" expanded="true" signature="1522:1987" ph="{...}" />
+            <marker date="1562151939790" expanded="true" signature="1743:1880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <marker date="1562151190439" expanded="true" signature="6:115" ph="..." />
+            <marker date="1562151190439" expanded="true" signature="139:1513" ph="{...}" />
+            <marker date="1562151190439" expanded="true" signature="188:1212" ph="{...}" />
+            <marker date="1562151190439" expanded="true" signature="335:731" ph="{...}" />
+            <marker date="1562151190439" expanded="true" signature="849:1206" ph="{...}" />
+            <marker date="1562151190439" expanded="true" signature="1242:1511" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1562154384622" expanded="true" signature="6:65" ph="..." />
+            <marker date="1562154384622" expanded="true" signature="89:917" ph="{...}" />
+            <marker date="1562154384622" expanded="true" signature="116:915" ph="{...}" />
+            <marker date="1562154384622" expanded="true" signature="280:374" ph="{...}" />
+            <marker date="1562154384622" expanded="true" signature="469:561" ph="{...}" />
+            <marker date="1562154384622" expanded="true" signature="614:716" ph="{...}" />
+            <marker date="1562154384622" expanded="true" signature="766:909" ph="{...}" />
           </folding>
         </state>
       </provider>
