@@ -13,6 +13,7 @@ namespace FocusScoring
             var serializer = new XmlSerializer(typeof(xmlItem[]), 
                 new XmlRootAttribute() { ElementName = "items" });
             serializer.Serialize(File.Open(path,FileMode.OpenOrCreate), 
+                
                 dict.Select(kv=>new xmlItem(){node = kv.Key.node,method= kv.Key.method,pos= kv.Value.position,count = kv.Value.count,time = kv.Value.time}).ToArray() );
         }
         

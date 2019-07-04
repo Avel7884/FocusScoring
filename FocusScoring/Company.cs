@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.Xml;
+using System.Linq;
+
+//using System.Collections.Immutable;
+
 
 namespace FocusScoring
 {
@@ -13,7 +16,7 @@ namespace FocusScoring
 //            {"Dissolving", (ApiMethod.req,"/ArrayOfreq/req/UL/status/dissolving")}
 //        };
 
-        private Dictionary<string, (ApiMethod, string)> paramDict = new Dictionary<string, (ApiMethod, string)>()
+        private static Dictionary<string, (ApiMethod, string)> paramDict = new Dictionary<string, (ApiMethod, string)>()
         {
             {"Short",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/short") },
             {"Full",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/full") },
@@ -78,9 +81,9 @@ namespace FocusScoring
         
         private ParamAccess access;
 
-        private Company(ParamAccess paramAccess = null)
+        private Company()
         {
-            access = paramAccess ?? new ParamAccess(Settings.FocusKey);
+            access = ParamAccess.Start();
         }
 
         public static Company CreateINN(string inn)
@@ -94,6 +97,12 @@ namespace FocusScoring
         {
             (ApiMethod method, string node) = paramDict[paramName];
             return access.GetParam(method, inn, node);
+        }
+
+        public string[] GetMultiParam(string paramName)
+        {
+            (ApiMethod method, string node) = paramDict[paramName];
+            return access.GetParams(method, inn, node).ToArray();
         }
         
         public string CompanyName()

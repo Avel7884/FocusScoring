@@ -24,7 +24,7 @@ namespace FocusScoring
             this.spansDict = File.Exists(cachePath + "cacheDict") ? 
                 DictionarySerializer.Deserialize(cachePath + "cacheDict") :
                 new Dictionary<(string, ApiMethod), (long, int, DateTime)>();
-            cacheFile = MemoryMappedFile.CreateFromFile(cachePath+"cache", FileMode.Open,"ImgA", initialCapacity);
+            cacheFile = MemoryMappedFile.CreateFromFile(cachePath+"cache", FileMode.OpenOrCreate,"ImgA", initialCapacity);
             recache = () =>
             {
                 initialCapacity *= 2;

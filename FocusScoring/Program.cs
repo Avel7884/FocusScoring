@@ -10,12 +10,10 @@ namespace FocusScoring
 {
     internal class Program
     {
-        private static string focuskey = "3c71a03f93608c782f3099113c97e28f22ad7f45";    
-
         public static void Main(string[] args)
         {
 
-            Settings.FocusKey = focuskey;
+            Settings.FocusKey = "fuck";
 
             Console.WriteLine(Company.CreateINN("6167110026").CompanyName());
             

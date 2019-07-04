@@ -43,6 +43,9 @@ namespace FocusScoring
                 case ApiMethod.contacts: return "contacts";
                 case ApiMethod.licences: return "licences";
                 case ApiMethod.egrDetails: return "egrDetails";
+                case ApiMethod.companyAffiliatesanalytics: return "companyAffiliates/analytics";
+                case ApiMethod.companyAffiliatesegrDetails: return "companyAffiliates/egrDetails";
+                case ApiMethod.companyAffiliatesreq: return "companyAffiliates/req";
                 default: throw new ArgumentException("Unknown method wtf");
             }
         }
