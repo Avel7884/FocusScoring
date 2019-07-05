@@ -25,14 +25,12 @@ namespace FocusScoring
         {
             var d = new XmlDocument();
             if (cache.TryGetXml(inn, method, out d))
-            {
-                string test = d.SelectSingleNode(node)?.InnerText ?? "";
+            { 
                 return d.SelectSingleNode(node)?.InnerText ?? "";
             }
             if (download.TryGetXml(inn, method, out d))
             {
                 cache.WriteCache(inn, method, d);
-                var test = d.SelectSingleNode(node);
                 return d.SelectSingleNode(node)?.InnerText ?? "";
             }
             

@@ -61,7 +61,7 @@ namespace FocusScoring
             {"q7018",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7018") },
             {"q7020",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7020") },
             {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },
-            {"ArrayOfreq/req" ,(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req")}
+            {"Affilatesreq" ,(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req")}
 
         };
 
@@ -124,7 +124,9 @@ namespace FocusScoring
                     () => GetParam("Dissolving") == "True" || GetParam("Dissolved") == "True"),
                 new Marker("BankruptcyStatus",MarkerColour.Red, "Статус компании связан с произошедшей или планируемой ликвидацией", 5 ,
                     () => GetParam("m7013") == "True" || GetParam("m7014") == "True" || GetParam("m7016") == "True"),
-                new Marker("func4",MarkerColour.Red, "Критическая сумма исполнительных производств (сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) и более суммы уставного капитала, и более 100 тыс. руб.", 4 ,
+                new Marker("func4",MarkerColour.Red, "Критическая сумма исполнительных производств " +
+                "(сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) " +
+                "и более суммы уставного капитала, и более 100 тыс. руб.", 4 ,
                     () => {
                         var sum = GetParam("Sum");
                         var a = GetParam("s1001");
@@ -133,21 +135,91 @@ namespace FocusScoring
                         return double.Parse(a) > (0.2 * double.Parse(b)) & (double.Parse(a) > double.Parse(sum)) & double.Parse(a) > 100000;
                         return false;
                           }),
+
                 new Marker("func5",MarkerColour.Red, "Критический рост суммы арбитражных дел в качестве истца за последние 12 месяцев. " +
                 "Т.е. сумма дел за последние 12 месяцев составляет более 50% по сравнению с суммой дел за предыдущие 2 года. " +
-                "При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.", 4 ,
+                "При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.", 1 ,
                     () =>{
-                        var sumDel = double.Parse(GetParam("s2003"));
-                        double sumDelPast = double.Parse(GetParam("s2004"));
-                        return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000); }),
-                new Marker("func6",MarkerColour.Red, "Статус компании связан с произошедшей или планируемой ликвидацией", 4 ,
+                       if(double.TryParse(GetParam("s2003"),out double sumDel) && double.TryParse(GetParam("s2004"),out double sumDelPast))
+                           return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
+                        return false;
+                    }),
+
+                 new Marker("func6",MarkerColour.Red, "Критический рост суммы арбитражных дел в качестве ответчика за последние 12 месяцев. " +
+                "Т.е. сумма дел за последние 12 месяцев составляет более 50% по сравнению с суммой дел за предыдущие 2 года. " +
+                "При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.", 1 ,
                     () =>{
-                        double sumDel = double.Parse(GetParam("s2003"));
-                        double sumDelPast = double.Parse(GetParam("s2004"));
-                        return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000); }),
+                        if(double.TryParse(GetParam("s2001"),out double sumDel) && double.TryParse(GetParam("s2002"),out double sumDelPast))
+                           return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
+                        return false;
+                    }),
+
+                  new Marker("func7",MarkerColour.Red, "Критическая сумма арбитражных дел в качестве истца." +
+                  "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период" +
+                  "и более суммы уставного капитала, и более 500 тыс. руб.", 1 ,
+                    () =>{
+                         if(double.TryParse(GetParam("s2003"),out double sumDel) && double.TryParse(GetParam("s6004"),out double revenue)
+                             && double.TryParse(GetParam("Sum"),out double statedCapitalFocus))
+                           return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
+                        return false;
+                    }),
+
+                  new Marker("func8", MarkerColour.Red, "Критическая сумма арбитражных дел в качестве ответчика." +
+                  "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период и более суммы уставного капитала, " +
+                  "и более 500 тыс. руб.",1,
+                  () => {
+                        if(double.TryParse(GetParam("s2001"),out double sumDel) && double.TryParse(GetParam("s6004"),out double revenue)
+                             && double.TryParse(GetParam("Sum"),out double statedCapitalFocus))
+                           return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);           
+                        return false;
+                    }),
+
+                  new Marker("func9",MarkerColour.Red,"Организация была найдена в реестре недобросовестных поставщиков" +
+                  "(ФАС, Федеральное Казначейство)",3,
+                  ()=>{  return GetParam("m4001") == "True"; }),
+
+                   new Marker("func10",MarkerColour.Red,"ФИО руководителей или учредителей были найдены в реестре дисквалифицированных лиц (ФНС)",4,
+                  ()=>{  return GetParam("m5008") == "True"; }),
+
+                    new Marker("func11",MarkerColour.Red,"Выручка снизилась более, чем на 50%",1,
+                  ()=>{
+                        if(long.TryParse(GetParam("s6004"),out long s6004)&long.TryParse(GetParam("s6003"),out long s6003))
+                            return s6004<(0.5 * s6003);
+                             return false;
+                       }),
+
+                    new Marker("func12",MarkerColour.Red,"Наличие сообщений о банкротстве физлица, " +
+                    "являющегося руководителем (лицом с правом подписи без доверенности), " +
+                    "учредителем, либо индивидуальным предпринимателем. Необходимо изучить сообщения",3,
+                  ()=>{ return GetParam("m7022") == "True"; }),
+
+                    new Marker("func13",MarkerColour.Red,"У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией",4,
+                    ()=>{
+                        var str = GetMultiParam("Affilatesreq");
+                    short affiliatesCount = 0;
+                    short badAffiliatesCount = 0;
+                    bool isBad= false;
+
+
+
+
+
+                        return false;
+                    })
+
+      
+                  
+         //         new Marker("",MarkerColour.Red,"",,
+         //         ()=>{ }),
+
+
+
 
         };
-            markers = markersList.ToDictionary(x => x.Name, x => x);
+            markers = markersList.ToDictionary(x => x.Name);
+
+
+
 
         }
     }
