@@ -11,12 +11,14 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="3*" />
-            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
         
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />    
             <RowDefinition Height="2*" />
             <RowDefinition Height="10*" />
         </Grid.RowDefinitions>
@@ -26,17 +28,37 @@
         <Button Click="ButtonDataUpdate_Click" Grid.Column="2" Grid.Row="1" >Поиск</Button>     
         
       <DataGrid Grid.Column="1"
+                Grid.ColumnSpan="2"
                 Grid.Row="2"
                 AutoGenerateColumns="False" 
                 HorizontalAlignment="Center" 
-                Name="Data" 
-                VerticalAlignment="Top">
-        <DataGrid.Columns >
+                Name="CompanyTable" 
+                VerticalAlignment="Top"
+                DataContext="Binding ElementName=DataEntrydataGrid">
+          
+          <DataGrid.Columns >
           <DataGridTextColumn Binding="{Binding Path=Inn}" MinWidth="50" />
-          <DataGridTextColumn Binding="{Binding Path=Name}" MinWidth="50" />
+          <DataGridTextColumn Binding="{Binding Path=Name}" MinWidth="50" MaxWidth="300" />
           <DataGridTextColumn Binding="{Binding Path=Score}" MinWidth="50" />
         </DataGrid.Columns>
       </DataGrid>
+        
+        <TextBox Text="Найти контрагента" Name="Inn2" Grid.Column="3" Grid.Row="1" />
+
+        <Button Click="ButtonMarkersUpdate_Click" Grid.Column="4" Grid.Row="1" >Поиск</Button>    
+        
+        <DataGrid Grid.Column="3"
+                  Grid.ColumnSpan="2"
+                  Grid.Row="2"
+                  AutoGenerateColumns="False" 
+                  HorizontalAlignment="Center" 
+                  Name="MarkersTable" 
+                  VerticalAlignment="Top">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=Colour}" MaxWidth="17" />
+                <DataGridTextColumn Binding="{Binding Path=Description}" MinWidth="50" />
+            </DataGrid.Columns>
+        </DataGrid>
         
     </Grid>
 </Window>

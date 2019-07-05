@@ -37,17 +37,18 @@ namespace FocusScoring
             return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
         }
 
-        public IEnumerable<string> GetParams(ApiMethod method, string inn, string node)
+        public IEnumerable<string> GetParams(ApiMethod method, string inn, string multiNode,string node)
         {
             var d = new XmlDocument();
             XmlNodeList nodes = null; 
             if (cache.TryGetXml(inn, method, out d))
-                nodes = d.SelectNodes(node);
+                nodes = d.SelectNodes(multiNode);
+            
 
             if (download.TryGetXml(inn, method, out d))
             {
                 cache.WriteCache(inn, method, d);
-                nodes = d.SelectNodes(node);
+                nodes = d.SelectNodes(multiNode);
             }
 
             if (nodes == null)
@@ -57,8 +58,7 @@ namespace FocusScoring
             }
 
             foreach (XmlNode n in nodes)
-                yield return n.InnerText;
-
+                yield return n.SelectSingleNode(node).InnerText;
         }
     }
 }

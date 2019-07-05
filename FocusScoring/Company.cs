@@ -61,7 +61,7 @@ namespace FocusScoring
             {"q7018",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7018") },
             {"q7020",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7020") },
             {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },
-            {"Affilatesreq" ,(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req")}
+            {"Affilatesreq" ,(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req/UL")}
 
         };
 
