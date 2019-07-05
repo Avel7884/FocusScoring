@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace FocusScoring
 {
@@ -67,7 +68,7 @@ namespace FocusScoring
 
         private Company(ParamAccess paramAccess = null)
         {
-            access = paramAccess ?? new ParamAccess(Settings.FocusKey);
+            access = ParamAccess.Start();
         }
 
         public static Company CreateINN(string inn)
@@ -82,6 +83,13 @@ namespace FocusScoring
             (ApiMethod method, string node) = paramDict[paramName];
             return access.GetParam(method, inn, node);
         }
+
+        public string[] GetMultiParam(string paramName)
+        {
+            (ApiMethod method, string node) = paramDict[paramName];
+            return access.GetParams(method, inn, node).ToArray();
+        }
+
 
         public string CompanyName()
         {
