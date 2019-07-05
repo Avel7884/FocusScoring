@@ -115,9 +115,11 @@ namespace FocusScoring
 
         private Dictionary<string, Marker> markers;
 
+        private Marker[] markersList;
+
         private void InitMarkers()
         {
-            var markersList = new[]
+            markersList = new[]
             {
                 new Marker("CompanyStatus", "Статус компании связан с",
                     () => GetParam("Dissolving") == "True" || GetParam("Dissolved") == "True"),
