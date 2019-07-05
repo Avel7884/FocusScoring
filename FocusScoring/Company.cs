@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace FocusScoring
 {
@@ -93,7 +94,7 @@ namespace FocusScoring
 
         public bool GetMarker(string markerName)
         {
-          return markers[markerName].Invoke();
+          return markers[markerName].Check();
         }
 
 
@@ -112,11 +113,18 @@ namespace FocusScoring
         }
 
 
-        private Dictionary<string, Func<bool>> markers;
+        private Dictionary<string, Marker> markers;
 
         private void InitMarkers()
         {
-            markers = new Dictionary<string, Func<bool>>()
+            var markersList = new[]
+            {
+                new Marker("CompanyStatus", "Статус компании связан с",
+                    () => GetParam("Dissolving") == "True" || GetParam("Dissolved") == "True"),
+            };
+            
+            
+            markers = new Dictionary<string, Marker>()
         {
             #region redflag
                         {"CompanyStatus" , ()=> {
