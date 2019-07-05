@@ -32,7 +32,7 @@ namespace FocusScoring
             if (download.TryGetXml(inn, method, out d))
             {
                 cache.WriteCache(inn, method, d);
-                string test = d.SelectSingleNode(node)?.InnerText ?? "";
+                var test = d.SelectSingleNode(node);
                 return d.SelectSingleNode(node)?.InnerText ?? "";
             }
             

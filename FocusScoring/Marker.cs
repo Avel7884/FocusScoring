@@ -5,9 +5,10 @@ namespace FocusScoring
     public class Marker
     {
         private readonly Func<bool> check;
+        public int Score { get; }
 
-        public Marker(string Name, MarkerColour colour, string desctiption, Func<bool> check)
-        {
+        public Marker(string Name, MarkerColour colour, string desctiption, int Score, Func<bool> check)
+        { 
             this.check = check;
             this.Name = Name;
             Colour = colour;
