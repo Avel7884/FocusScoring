@@ -20,14 +20,16 @@
             <RowDefinition Height="2*" />
             <RowDefinition Height="10*" />
         </Grid.RowDefinitions>
-        
-        <Button Grid.Column="2">X</Button>
+
+        <TextBox Text="Добавить контрагента" Name="Inn" Grid.Column="1" />
+
+        <Button Click="ButtonDataUpdate_Click" Grid.Column="2">Поиск</Button>     
         
       <DataGrid Grid.Column="1"
                 Grid.Row="2"
                 AutoGenerateColumns="False" 
                 HorizontalAlignment="Center" 
-                Name="dataGrid1" 
+                Name="Data" 
                 VerticalAlignment="Top">
         <DataGrid.Columns >
           <DataGridTextColumn Binding="{Binding Path=Inn}" MinWidth="50" />
