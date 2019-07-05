@@ -69,6 +69,7 @@ namespace FocusScoring
         private Company(ParamAccess paramAccess = null)
         {
             access = ParamAccess.Start();
+            InitMarkers();
         }
 
         public static Company CreateINN(string inn)
@@ -90,6 +91,11 @@ namespace FocusScoring
             return access.GetParams(method, inn, node).ToArray();
         }
 
+        public bool GetMarker(string markerName)
+        {
+          return markers[markerName].Invoke();
+        }
+
 
         public string CompanyName()
         {
@@ -106,70 +112,74 @@ namespace FocusScoring
         }
 
 
-        private Dictionary<string, Func<bool>> markers = new Dictionary<string, Func<bool>>()
+        private Dictionary<string, Func<bool>> markers;
+
+        private void InitMarkers()
+        {
+            markers = new Dictionary<string, Func<bool>>()
         {
             #region redflag
-            //            {"CompanyStatus" , ()=> {
-            //            return (GetParam("Dissolving") == "True" || GetParam("Dissolved") == "True");
-            //            } },
-            //            {"BankruptcyStatus", ()=>{
-            //            return (GetParam("m7013") == "True" || GetParam("m7014") == "True" || GetParam("m7016") == "True");
-            //            } },
-            //            {"func4" , ()=> { 
-            //            double sum = GetParam("Sum");
-            //            double a = GetParam("s1001");
-            //            double b = GetParam("s6004");
-            //            return a > (0.2 * b) & (a > sum) & a > 100000;
-            //                //Критическая сумма исполнительных производств 
-            //                //(сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) 
-            //                //и более суммы уставного капитала, и более 100 тыс. руб.
-            //            } },
-            //            {"func5", ()=> {
-            //            double sumDel = GetParam("s2003");
-            //            double sumDelPast = GetParam("s2004");
-            //            return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
-            //                //Критический рост суммы арбитражных дел в качестве истца за последние 12 месяцев.
-            //                //Т.е. сумма дел за последние 12 месяцев составляет более 50% по сравнению с суммой дел за предыдущие 2 года.
-            //                //При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.
-            //            } },
-            //            {"func6", ()=>{
-            //            double sumDel = GetParam("s2001");
-            //            double sumDelPast = GetParam("s2002");
-            //            return (sumDelPast > sumDel) & (sumDel > (sumDelPast - sumDel) / 2) & (sumDel > 5000000);
-            //                //Критический рост суммы арбитражных дел в качестве ответчика за последние 12 месяцев. 
-            //                //Т.е. сумма дел за последние 12 месяцев составляет более 50% по сравнению с суммой дел за предыдущие 2 года.
-            //                //При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.
-            //            } },
-            //            {"func7" , ()=> {
-            //            double sumDel = GetParam("s2003");
-            //            double revenue = GetParam("s6004");
-            //            double statedCapitalFocus = GetParam("Sum");
-            //            return (sumDel > (0.2 * Revenue)) & (sumDel > 500000) & (SumDel > statedCapitalFocus);
-            //                //Критическая сумма арбитражных дел в качестве истца.
-            //                //Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период 
-            //                //и более суммы уставного капитала, и более 500 тыс. руб.
-            //            } },
-            //            {"func8" , ()=> {
-            //            double sumDel = GetParam("s2001");
-            //            double revenue = GetParam("s6004");
-            //            double statedCapitalFocus = GetParam("Sum");
-            //            return (sumDel > (0.2 * Revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
-            //                //Критическая сумма арбитражных дел в качестве истца.
-            //                //Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период 
-            //                //и более суммы уставного капитала, и более 500 тыс. руб.
-            //            } },
-            //            {"func9" , ()=> {
-            //            return (GetParam("m4001") == "True");
-            //            } },
-            //            {"func10" , ()=> {
-            //            return (GetParam("m5008") == "True");
-            //            } },
-            //            {"func11" , ()=> {
-            //            return (long.Parse(GetParam("s6004"))<0.5 * long.Parses(GetParam("6003")));
-            //            } },
-            //            {"func12" , ()=> {
-            //            return (GetParam("m7022") == "True");
-            //            } },
+                        {"CompanyStatus" , ()=> {
+                        return (GetParam("Dissolving") == "True" || GetParam("Dissolved") == "True");
+                        } },
+                        {"BankruptcyStatus", ()=>{
+                        return (GetParam("m7013") == "True" || GetParam("m7014") == "True" || GetParam("m7016") == "True");
+                        } },
+                        {"func4" , ()=> {
+                        double sum = double.Parse(GetParam("Sum"));
+                        double a = double.Parse(GetParam("s1001"));
+                        double b =  double.Parse(GetParam("s6004"));
+                        return a > (0.2 * b) & (a > sum) & a > 100000;
+                            //Критическая сумма исполнительных производств 
+                            //(сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) 
+                            //и более суммы уставного капитала, и более 100 тыс. руб.
+                        } },
+                        {"func5", ()=> {
+                        double sumDel = double.Parse(GetParam("s2003"));
+                        double sumDelPast = double.Parse(GetParam("s2004"));
+                        return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
+                            //Критический рост суммы арбитражных дел в качестве истца за последние 12 месяцев.
+                            //Т.е. сумма дел за последние 12 месяцев составляет более 50% по сравнению с суммой дел за предыдущие 2 года.
+                            //При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.
+                        } },
+                        {"func6", ()=>{
+                        double sumDel = double.Parse(GetParam("s2001"));
+                        double sumDelPast = double.Parse(GetParam("s2002"));
+                        return (sumDelPast > sumDel) & (sumDel > (sumDelPast - sumDel) / 2) & (sumDel > 5000000);
+                            //Критический рост суммы арбитражных дел в качестве ответчика за последние 12 месяцев. 
+                            //Т.е. сумма дел за последние 12 месяцев составляет более 50% по сравнению с суммой дел за предыдущие 2 года.
+                            //При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.
+                        } },
+                        {"func7" , ()=> {
+                        double sumDel = double.Parse(GetParam("s2003"));
+                        double revenue = double.Parse(GetParam("s6004"));
+                        double statedCapitalFocus = double.Parse(GetParam("Sum"));
+                        return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
+                            //Критическая сумма арбитражных дел в качестве истца.
+                            //Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период 
+                            //и более суммы уставного капитала, и более 500 тыс. руб.
+                        } },
+                        {"func8" , ()=> {
+                        double sumDel = double.Parse(GetParam("s2001"));
+                        double revenue = double.Parse(GetParam("s6004"));
+                        double statedCapitalFocus = double.Parse(GetParam("Sum"));
+                        return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
+                            //Критическая сумма арбитражных дел в качестве истца.
+                            //Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период 
+                            //и более суммы уставного капитала, и более 500 тыс. руб.
+                        } },
+                        {"func9" , ()=> {
+                        return (GetParam("m4001") == "True");
+                        } },
+                        {"func10" , ()=> {
+                        return (GetParam("m5008") == "True");
+                        } },
+                        {"func11" , ()=> {
+                        return long.Parse(GetParam("s6004"))<(0.5 * long.Parse(GetParam("6003")));
+                        } },
+                        {"func12" , ()=> {
+                        return (GetParam("m7022") == "True");
+                        } },
             //            {"func13" , ()=> {
             //            short affiliatesCount = 0;
             //            short badAffiliatesCount = 0;
@@ -189,7 +199,7 @@ namespace FocusScoring
             //            {"func17" , ()=> {
 
             //            } },
-            #endregion
+#endregion
             //            {"func18" , ()=> {
             //            return (GetParam("Reorganizing") == "True");
             //            } },
@@ -299,5 +309,6 @@ namespace FocusScoring
 
 
         };
+        }
     }
 }

@@ -1,8 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusScoring", "FocusScoring\FocusScoring.csproj", "{4E3B55A1-9A1E-46C9-BCEE-663E78B24DFD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Контур.Фокус API Extractor", "..\Контур.Фокус API Extractor v0.6_source\Контур.Фокус API Extractor\Контур.Фокус API Extractor.csproj", "{B9BD3C00-D7C2-47A5-BC0A-09227F1C651E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusScoringTests", "FocusScoringTests\FocusScoringTests.csproj", "{3C2D2D4B-29D8-471E-9045-12D8EFBF4F77}"
 EndProject
@@ -18,10 +19,6 @@ Global
 		{4E3B55A1-9A1E-46C9-BCEE-663E78B24DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E3B55A1-9A1E-46C9-BCEE-663E78B24DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E3B55A1-9A1E-46C9-BCEE-663E78B24DFD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9BD3C00-D7C2-47A5-BC0A-09227F1C651E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9BD3C00-D7C2-47A5-BC0A-09227F1C651E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9BD3C00-D7C2-47A5-BC0A-09227F1C651E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9BD3C00-D7C2-47A5-BC0A-09227F1C651E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C2D2D4B-29D8-471E-9045-12D8EFBF4F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C2D2D4B-29D8-471E-9045-12D8EFBF4F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C2D2D4B-29D8-471E-9045-12D8EFBF4F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,5 +27,11 @@ Global
 		{68FE832E-37B3-4740-92A6-6A0C38F24BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68FE832E-37B3-4740-92A6-6A0C38F24BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68FE832E-37B3-4740-92A6-6A0C38F24BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {745F85AE-8A65-4AB4-A10B-42942F97EE44}
 	EndGlobalSection
 EndGlobal

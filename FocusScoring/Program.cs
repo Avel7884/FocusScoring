@@ -13,9 +13,9 @@ namespace FocusScoring
         public static void Main(string[] args)
         {
 
-            Settings.FocusKey = "fuck";
+            Settings.FocusKey = "3c71a03f93608c782f3099113c97e28f22ad7f45";
 
-            Console.WriteLine(Company.CreateINN("6167110026").CompanyName());
+            Console.WriteLine(Company.CreateINN("6167110026").GetMarker("func4"));
             
 //            
 //            var inns = Console.ReadLine().Split();
