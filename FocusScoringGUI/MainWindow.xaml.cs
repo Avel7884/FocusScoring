@@ -1,6 +1,10 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
+using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Data;
+using System.Windows.Input;
 using FocusScoring;
 
 
@@ -13,6 +17,8 @@ namespace FocusScoringGUI
     {
         private ObservableCollection<CompanyData> dataItemsSource;
 
+        private MarkerSubData[] dataMarkersSource;
+        
         public class CompanyData
         {
             private FocusScoring.Company company;
@@ -29,6 +35,21 @@ namespace FocusScoringGUI
             public int Score { get; set; }
             public Light Light { get; set; }
         }
+
+        public class MarkerSubData
+        {
+            public MarkerSubData(Marker marker)
+            {
+                Colour = ColourCode(marker.Colour);
+                Description = marker.Desctiption;
+            }
+            
+            public static MarkerSubData Create(Marker marker)=>
+                new MarkerSubData(marker);
+            
+            public string Colour { get; }
+            public string Description { get; }
+        }
         
         //public string Inn { get; set; }
     
@@ -43,13 +64,39 @@ namespace FocusScoringGUI
             dataItemsSource.Add(new CompanyData("6167110026") );
             dataItemsSource.Add(new CompanyData("3454001339") );
             dataItemsSource.Add(new CompanyData("3444162030") );
-            Data.ItemsSource = dataItemsSource;
+            CompanyTable.ItemsSource = dataItemsSource;
+
+            MarkersTable.ItemsSource = new Company[0];
         }
 
         private void ButtonDataUpdate_Click(object s, RoutedEventArgs e)
         {
-            dataItemsSource.Add(new CompanyData(Inn.Text) );
-            Data.Items.Refresh();
+            dataItemsSource.Add(new CompanyData(Inn.Text));
+            CompanyTable.Items.Refresh();
+        }
+        
+        private void ButtonMarkersUpdate_Click(object s, RoutedEventArgs e)
+        {
+            //dataMarkersSource.Add(new CompanyData(Inn2.Text));
+            MarkersTable.ItemsSource = Company.CreateINN(Inn2.Text).GetMarkers().Select(MarkerSubData.Create);
+            MarkersTable.Items.Refresh(); 
+        }
+//
+//        private void CompanyRow_Selected(object s, MouseButtonEventArgs e)
+//        {
+//            var row = (DataGridRow) s;
+//            row.
+//        }
+
+        private static string ColourCode(MarkerColour colour)
+        {
+            switch (colour)
+            {
+                case MarkerColour.Green: return "Ok";
+                case MarkerColour.Red: return "X";
+                case MarkerColour.Yellow: return "*";
+                default: throw new AggregateException();
+            }
         }
     }
 }
