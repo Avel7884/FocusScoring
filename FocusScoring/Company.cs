@@ -70,9 +70,8 @@ namespace FocusScoring
         
         private Dictionary<string, (ApiMethod, string,string)> multiParamDict = new Dictionary<string, (ApiMethod, string,string)>()
         {
-            {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolving")},
-            {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolved")},
-            { "m7013Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "/ArrayOfanalytics/analytics/analytics/m5003")},
+            {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s1001")},
+            {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s6004")},
         };
 
         private ParamAccess access;
@@ -100,6 +99,12 @@ namespace FocusScoring
         {
             (ApiMethod method, string node) = paramDict[paramName];
             return access.GetParams(method, inn, node).ToArray();
+        }
+        //TODO Rename
+        public string[] GetMultiParam2(string paramName)
+        {
+            (ApiMethod method,string node, string child) = multiParamDict[paramName];
+            return access.GetMultiParam(method, inn, node,child).ToArray();
         }
 
         public bool GetMarker(string markerName)
