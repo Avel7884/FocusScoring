@@ -21,7 +21,7 @@ namespace FocusScoring
             {"legalName",(ApiMethod.req,"/ArrayOfreq/req/UL/history/legalNames/legalName") },
             {"kppWithDate",(ApiMethod.req,"/ArrayOfreq/req/UL/history/kpps/kppWithDate") },
             {"Reorganizing",(ApiMethod.req,"/ArrayOfreq/req/UL/status/reorganizing") },
-            {"head",(ApiMethod.req,"/ArrayOfreq/req/UL/heads/head") },
+            {"head",(ApiMethod.req,"/ArrayOfreq/req/UL/heads/head/innfl") },
             {"managementCompany",(ApiMethod.req,"/ArrayOfreq/req/UL/managementCompanies/managementCompany") },
             {"RegistrationDate",(ApiMethod.req,"/ArrayOfreq/req/UL/registrationDate") },
             {"m7013",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7013")},
@@ -39,7 +39,7 @@ namespace FocusScoring
             {"m4001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m4001") },
             {"m5008",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m5008") },
             {"m7022",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7022") },
-            {"FounderFL",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/foundersFL/founderFL") },
+            {"FounderFL",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/foundersFL/founderFL/innfl") },
             {"FoundersForeign",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/foundersForeign/founderForeign") },
             {"m1003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m1003") },
             {"m1004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m1004") },
@@ -65,14 +65,20 @@ namespace FocusScoring
             {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },  
             {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/status/dissolving")},
             {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/status/dissolved")},
-            {"InnAffilalates",(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req/inn")}
+            {"InnAffilalates",(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req/inn")},
+            {"m7013Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/m7013")},
+            {"m7014Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/m7014")},
+            {"m7016Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/m7016")},
+            {"s6003Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6003")},
+            {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6004")},
+
         };
         
         private Dictionary<string, (ApiMethod, string,string)> multiParamDict = new Dictionary<string, (ApiMethod, string,string)>()
         {
             {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolving")},
             {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolved")},
-            { "m7013Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "/ArrayOfanalytics/analytics/analytics/m5003")},
+          
         };
 
         private ParamAccess access;
@@ -147,12 +153,8 @@ namespace FocusScoring
                                                       "и более суммы уставного капитала, и более 100 тыс. руб.", 4,
                     () =>
                     {
-                        var sum = GetParam("Sum").Replace('.',',');
-                        var a = GetParam("s1001").Replace('.',',');
-                        var b = GetParam("s6004").Replace('.',',');
-                        if (sum != "" & a != "" & b != "")
-                            return double.Parse(a) > (0.2 * double.Parse(b,CultureInfo.InvariantCulture.NumberFormat)) & (double.Parse(a) > double.Parse(sum)) &
-                                   double.Parse(a) > 100000;
+                        if(double.TryParse("Sum",out double sum) && double.TryParse("s1001",out double a) && double.TryParse("s6004",out double b))
+                            return a > (0.2 * b) && a > sum & a > 100000;
                         return false;
                     }),
 
@@ -226,18 +228,50 @@ namespace FocusScoring
 
                     new Marker("func13",MarkerColour.Red,"У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией",4,
                     ()=>{
-                        var Dissolved = GetMultiParam("DissolvedAffiliates").Length;
+                    var Dissolved = GetMultiParam("DissolvedAffiliates").Length;
                     var Dissolving = GetMultiParam("DissolvingAffiliates").Length;
                     int affiliatesCount = GetMultiParam("InnAffilalates").Length;
-                        
-                    //var badAffiliatesCount = Dissolved.Zip(Dissolving, (x,y)=> x!="" || y!="").Aggregate(0,(i,x)=>i+(x?1:0));
                         return (Dissolved+Dissolving)/affiliatesCount * 100 > 50;
                     }),
                     new Marker("func14",MarkerColour.Red,"У более чем 50% связанных организаций присутствуют маркеры, свидетельствующие о вероятном банкротстве компаний",5,
                     ()=>{
-                        var a = GetMultiParam("m7013Affiliates");
+                        //TODO Check for interceptions
+                       int affiliatesCount = GetMultiParam("InnAffilalates").Length;
+                       var m7013 = GetMultiParam("m7013Affiliates").Length;
+                       var m7014 = GetMultiParam("m7014Affiliates").Length;
+                       var m7016 = GetMultiParam("m7016Affiliates").Length;
+                        return (m7013 + m7014 + m7016 )/affiliatesCount * 100 > 50;
+                    }),
+                    new Marker("func15",MarkerColour.Red,"Выручка по группе компаний снизилась более, чем на 50%",3,
+                    ()=>{
+                        double s6004;
+                        s6004 = GetMultiParam("s6004Affiliates").Select(x=>x.Replace('.',',')).Sum(x=>double.Parse(x));
+                        double s6003;
+                        s6003 = GetMultiParam("s6003Affiliates").Select(x=>x.Replace('.',',')).Sum(x=>double.Parse(x));
+                        return s6004 < 0.5 * s6003;
+                    }),
+                    //new Marker("func16",MarkerColour.Red,"Критическая сумма исполнительных производств по группе компаний",4,
+                    //()=>{
+
+                    //}),
+                    new Marker("func18",MarkerColour.Yellow,"Организация в процессе реорганизации",3,
+                    ()=>{return GetParam("Reorganizing")=="true";}),
+                    new Marker("func19",MarkerColour.Yellow,"Директор и учредитель одно физическое лицо",1,
+                    ()=>{
+                       var a = GetMultiParam("head");
+                        var b = GetMultiParam("FounderFL");
+                        return a.Any(x=>b.Any(y=>x==y));
+                    }),
+                    new Marker("func20",MarkerColour.Yellow,"Среди учредителей найдены иностранные лица",1,
+                    ()=>{return GetParam("FoundersForeign")=="";}),
+                    new Marker("func21",MarkerColour.Yellow,"Значительная сумма исполнительных производств. " +
+                    "Т.е. сумма исполнительных производств составляет более 10% от выручки организации за последний отчетный период " +
+                    "и более суммы уставного капитала, и более 100 тыс. руб.",4,
+                    ()=>{
+                         if(double.TryParse("Sum",out double sum) && double.TryParse("s1001",out double a) && double.TryParse("s6004",out double b))
+                            return a > (0.2 * b) && a > sum & a > 100000;
                         return false;
-                        }),      
+                    }),
 
          //         new Marker("",MarkerColour.Red,"",,
          //         ()=>{ }),
