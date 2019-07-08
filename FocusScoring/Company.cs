@@ -62,6 +62,9 @@ namespace FocusScoring
             {"q7018",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7018") },
             {"q7020",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7020") },
             {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },  
+            {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/status/dissolving")},
+            {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/status/dissolved")},
+            {"InnAffilalates",(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req/inn")}
         };
         
         private Dictionary<string, (ApiMethod, string,string)> multiParamDict = new Dictionary<string, (ApiMethod, string,string)>()
@@ -93,8 +96,8 @@ namespace FocusScoring
 
         public string[] GetMultiParam(string paramName)
         {
-            (ApiMethod method, string multiNode, string node) = multiParamDict[paramName];
-            return access.GetParams(method, inn, multiNode, node).ToArray();
+            (ApiMethod method, string node) = paramDict[paramName];
+            return access.GetParams(method, inn, node).ToArray();
         }
 
         public bool GetMarker(string markerName)
@@ -133,10 +136,10 @@ namespace FocusScoring
             {
                 new Marker("CompanyStatus", MarkerColour.Red,
                     "Статус компании связан с произошедшей или планируемой ликвидацией", 5,
-                    () => GetParam("Dissolving") == "True" || GetParam("Dissolved") == "True"),
+                    () => GetParam("Dissolving") == "true" || GetParam("Dissolved") == "true"),
                 new Marker("BankruptcyStatus", MarkerColour.Red,
                     "Статус компании связан с произошедшей или планируемой ликвидацией", 5,
-                    () => GetParam("m7013") == "True" || GetParam("m7014") == "True" || GetParam("m7016") == "True"),
+                    () => GetParam("m7013") == "true" || GetParam("m7014") == "true" || GetParam("m7016") == "true"),
                 new Marker("func4", MarkerColour.Red, "Критическая сумма исполнительных производств " +
                                                       "(сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) " +
                                                       "и более суммы уставного капитала, и более 100 тыс. руб.", 4,
@@ -204,11 +207,11 @@ namespace FocusScoring
                 new Marker("func9", MarkerColour.Red,
                     "Организация была найдена в реестре недобросовестных поставщиков" +
                     "(ФАС, Федеральное Казначейство)", 3,
-                    () => { return GetParam("m4001") == "True"; }),
+                    () => { return GetParam("m4001") == "true"; }),
 
                 new Marker("func10", MarkerColour.Red,
                     "ФИО руководителей или учредителей были найдены в реестре дисквалифицированных лиц (ФНС)", 4,
-                    () => { return GetParam("m5008") == "True"; }),
+                    () => { return GetParam("m5008") == "true"; }),
 
                 new Marker("func11", MarkerColour.Red, "Выручка снизилась более, чем на 50%", 1,
                     () =>
@@ -223,15 +226,16 @@ namespace FocusScoring
                                                        "являющегося руководителем (лицом с правом подписи без доверенности), " +
                                                        "учредителем, либо индивидуальным предпринимателем. Необходимо изучить сообщения",
                     3,
-                    () => { return GetParam("m7022") == "True"; }),
+                    () => { return GetParam("m7022") == "true"; }),
 
                     new Marker("func13",MarkerColour.Red,"У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией",4,
                     ()=>{
-                    var Dissolved = GetMultiParam("DissolvedAffiliates");
-                    var Dissolving = GetMultiParam("DissolvingAffiliates");
-                    int affiliatesCount = Dissolving.Length;
-                    var badAffiliatesCount = Dissolved.Zip(Dissolving, (x,y)=> x!="" || y!="").Aggregate(0,(i,x)=>i+(x?1:0));
-                        return badAffiliatesCount/affiliatesCount * 100 > 50;
+                    var Dissolved = GetMultiParam("DissolvedAffiliates").Length;
+                    var Dissolving = GetMultiParam("DissolvingAffiliates").Length;
+                    int affiliatesCount = GetMultiParam("InnAffilalates").Length;
+                        
+                    //var badAffiliatesCount = Dissolved.Zip(Dissolving, (x,y)=> x!="" || y!="").Aggregate(0,(i,x)=>i+(x?1:0));
+                        return (Dissolved+Dissolving)/affiliatesCount * 100 > 50;
                     })        
          //         new Marker("",MarkerColour.Red,"",,
          //         ()=>{ }),
