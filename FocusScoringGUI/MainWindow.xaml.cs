@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
@@ -15,9 +16,9 @@ namespace FocusScoringGUI
     /// </summary>
     public partial class MainWindow
     {
-        private ObservableCollection<CompanyData> dataItemsSource;
-
         private MarkerSubData[] dataMarkersSource;
+        private List<CompanyData> CurrentList; 
+        private Dictionary<string, List<CompanyData>> Lists;
         
         public class CompanyData
         {
@@ -56,22 +57,42 @@ namespace FocusScoringGUI
         public MainWindow()
         {
             InitializeComponent();
-
+            
             //var binding = new Binding {Source = Inn};
+            
+            Settings.FocusKey = "3c71a03f93608c782f3099113c97e28f22ad7f45";
+            Lists = new Dictionary<string, List<CompanyData>>
+            {
+                {"Good People", new List<CompanyData> {new CompanyData("6167110026"), new CompanyData("3454001339")}},
+                {"Baad People", new List<CompanyData> {new CompanyData("3444162030"), new CompanyData("3454001339")}}
+            };
 
-            FocusScoring.Settings.FocusKey = "3c71a03f93608c782f3099113c97e28f22ad7f45";
-            dataItemsSource = new ObservableCollection<CompanyData>();
-            dataItemsSource.Add(new CompanyData("6167110026") );
-            dataItemsSource.Add(new CompanyData("3454001339") );
-            dataItemsSource.Add(new CompanyData("3444162030") );
-            CompanyTable.ItemsSource = dataItemsSource;
+            ListView.ItemsSource = Lists.Keys;
+            CurrentList = Lists["Good People"];
+            CompanyTable.ItemsSource = CurrentList;
 
-            MarkersTable.ItemsSource = new Company[0];
+            //MarkersTable.ItemsSource = new Company[0];
+        }
+
+        private void ListSelected_Click(object s, RoutedEventArgs e)
+        {
+            CurrentList = Lists[(string) ListView.SelectedItem];
+            CompanyTable.ItemsSource = CurrentList; 
+            CompanyTable.Items.Refresh();
         }
 
         private void ButtonDataUpdate_Click(object s, RoutedEventArgs e)
         {
-            dataItemsSource.Add(new CompanyData(Inn.Text));
+            CurrentList.Add(new CompanyData(Inn.Text));
+            CompanyTable.Items.Refresh();
+        }
+
+        private void ButtonAddList_Click(object s, RoutedEventArgs e)
+        {
+            CurrentList = new List<CompanyData>();
+            Lists[ListName.Text] = CurrentList;
+            ListView.Items.Refresh();
+            CompanyTable.ItemsSource = CurrentList; 
             CompanyTable.Items.Refresh();
         }
         
