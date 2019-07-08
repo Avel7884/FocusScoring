@@ -27,7 +27,7 @@ namespace FocusScoring
             if (cache.TryGetXml(inn, method, out d))
             { 
                 return d.SelectSingleNode(node)?.InnerText ?? "";
-            }
+            }    
             if (download.TryGetXml(inn, method, out d))
             {
                 cache.WriteCache(inn, method, d);
@@ -58,7 +58,7 @@ namespace FocusScoring
             }
 
             foreach (XmlNode n in nodes)
-                yield return n.SelectSingleNode(node).InnerText;
+                yield return n.SelectSingleNode(node)?.InnerText ?? "";
         }
     }
 }
