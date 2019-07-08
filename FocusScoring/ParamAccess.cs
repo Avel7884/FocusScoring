@@ -58,6 +58,7 @@ namespace FocusScoring
             }
             foreach (XmlNode n in nodes)
             {
+                var a = n.SelectSingleNode(node)?.InnerText ?? "";
                 yield return n.SelectSingleNode(node)?.InnerText ?? "";
             }
         }

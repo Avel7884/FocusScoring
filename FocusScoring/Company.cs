@@ -68,6 +68,7 @@ namespace FocusScoring
         {
             {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolving")},
             {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolved")},
+            { "m7013Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "/ArrayOfanalytics/analytics/analytics/m5003")},
         };
 
         private ParamAccess access;
@@ -180,7 +181,7 @@ namespace FocusScoring
                   () => {
                         if(double.TryParse(GetParam("s2001"),out double sumDel) && double.TryParse(GetParam("s6004"),out double revenue)
                              && double.TryParse(GetParam("Sum"),out double statedCapitalFocus))
-                           return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);           
+                           return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
                     }),
 
@@ -210,7 +211,12 @@ namespace FocusScoring
                     int affiliatesCount = Dissolving.Length;
                     var badAffiliatesCount = Dissolved.Zip(Dissolving, (x,y)=> x!="" || y!="").Aggregate(0,(i,x)=>i+(x?1:0));
                         return badAffiliatesCount/affiliatesCount * 100 > 50;
-                    })        
+                    }),
+                    new Marker("func14",MarkerColour.Red,"У более чем 50% связанных организаций присутствуют маркеры, свидетельствующие о вероятном банкротстве компаний",5,
+                    ()=>{
+                        var a = GetMultiParam("m7013Affiliates");
+                        return false;
+                        }),
          //         new Marker("",MarkerColour.Red,"",,
          //         ()=>{ }),
         };  
