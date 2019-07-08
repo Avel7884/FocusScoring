@@ -13,6 +13,7 @@
         <e p="Company.cs" t="Include" />
         <e p="DictionarySerializer.cs" t="Include" />
         <e p="FocusScoring.csproj" t="IncludeRecursive" />
+        <e p="ICache.cs" t="Include" />
         <e p="IXmlAccess.cs" t="Include" />
         <e p="Marker.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
@@ -23,7 +24,8 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="Settings.cs" t="Include" />
-        <e p="XmlCache.cs" t="Include" />
+        <e p="SingleXmlMemoryCache.cs" t="Include" />
+        <e p="XmlDiscCache.cs" t="Include" />
         <e p="XmlDownload.cs" t="Include" />
       </e>
       <e p="FocusScoring.sln" t="IncludeFlat" />

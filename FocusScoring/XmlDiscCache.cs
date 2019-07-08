@@ -8,7 +8,7 @@ using System.IO.MemoryMappedFiles;
 
 namespace FocusScoring
 {
-    internal class XmlCache : IDisposable, IXmlAccess
+    internal class XmlDiscCache : IDisposable, IXmlCache
     {
         private readonly string cachePath;
         private readonly TimeSpan cacheTTL;
@@ -17,7 +17,7 @@ namespace FocusScoring
         private Action recache;
         private long position = 0; 
 
-        public XmlCache(string cachePath="./", TimeSpan cacheTTL=default(TimeSpan), long initialCapacity = 10*1024*1024)
+        public XmlDiscCache(string cachePath="./", TimeSpan cacheTTL=default(TimeSpan), long initialCapacity = 10*1024*1024)
         {
             this.cachePath = cachePath;
             this.cacheTTL = cacheTTL == default(TimeSpan) ? TimeSpan.FromDays(7) : cacheTTL;
@@ -48,14 +48,14 @@ namespace FocusScoring
               return true;
         }
 
-        public int WriteCache(string inn, ApiMethod method, XmlDocument doc)
+        public void Update(string inn, ApiMethod method, XmlDocument doc)
         {                                              //TODO file size
             using (var stream = cacheFile.CreateViewStream(position,1024*256))
             {
                 doc.Save(stream);
                 spansDict[(inn, method)] = (position,(int)stream.Position,DateTime.Today);
                 position+=(int)stream.Position;
-                return (int)stream.Position;
+                //return (int)stream.Position;
             }
         }
 

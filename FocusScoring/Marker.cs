@@ -5,7 +5,8 @@ namespace FocusScoring
     public class Marker
     {
         private readonly Func<bool> check;
-        public int Score { get; }
+        //TODO manage access
+        public int Score { get; set; }
 
         public Marker(string Name, MarkerColour colour, string desctiption, int Score, Func<bool> check)
         { 

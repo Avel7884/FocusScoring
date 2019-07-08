@@ -6,9 +6,10 @@ namespace FocusScoring
 {
     internal class ParamAccess 
     {
-        private readonly XmlCache cache;
+        private readonly XmlDiscCache discCache;
         private readonly XmlDownload download;
         private static ParamAccess paramAccess;
+        private readonly SingleXmlMemoryCache memoryCache;
 
         public static ParamAccess Start()
         {
@@ -17,47 +18,60 @@ namespace FocusScoring
         
         private ParamAccess()
         {
-            this.cache = new XmlCache();
+            this.discCache = new XmlDiscCache();
             this.download = new XmlDownload(Settings.FocusKey);
+            memoryCache = new SingleXmlMemoryCache();
         }
         
         public string GetParam(ApiMethod method,string inn,string node)
         {
-            var d = new XmlDocument();
-            if (cache.TryGetXml(inn, method, out d))
-            { 
+            if (memoryCache.TryGetXml(inn, method, out var d))
                 return d.SelectSingleNode(node)?.InnerText ?? "";
-            }    
-            if (download.TryGetXml(inn, method, out d))
+
+            if (discCache.TryGetXml(inn, method, out d))
             {
-                cache.WriteCache(inn, method, d);
+                memoryCache.Update(inn,method,d);
                 return d.SelectSingleNode(node)?.InnerText ?? "";
             }
-            
+
+            if (download.TryGetXml(inn, method, out d))
+            {
+                memoryCache.Update(inn,method,d);
+                discCache.Update(inn, method, d);
+                return d.SelectSingleNode(node)?.InnerText ?? "";
+            }
+
             return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
         }
+        
+        //TODO dry
 
         public IEnumerable<string> GetParams(ApiMethod method, string inn, string multiNode,string node)
         {
-            var d = new XmlDocument();
-            XmlNodeList nodes = null; 
-            if (cache.TryGetXml(inn, method, out d))
-                nodes = d.SelectNodes(multiNode);
-            
+            if(memoryCache.TryGetXml(inn, method, out  var d))
+                return GetParams(d, multiNode, node);
+
+            if (discCache.TryGetXml(inn, method, out d))
+            {
+                memoryCache.Update(inn,method,d);
+                return GetParams(d, multiNode, node);
+            }
 
             if (download.TryGetXml(inn, method, out d))
             {
-                cache.WriteCache(inn, method, d);
-                nodes = d.SelectNodes(multiNode);
+                memoryCache.Update(inn,method,d);
+                discCache.Update(inn, method, d);
+                return GetParams(d, multiNode, node);
             }
 
-            if (nodes == null)
-            {
-                yield return  "Ошибка! Проверьте подключение к интернет и повторите попытку.";
-                yield break;                
-            }
-            foreach (XmlNode n in nodes)
+            return  new []{"Ошибка! Проверьте подключение к интернет и повторите попытку."};                
+        }
+
+        public IEnumerable<string> GetParams(XmlDocument document, string multiNode,string node)
+        {
+            foreach (XmlNode n in document.SelectNodes(multiNode))
                 yield return n.SelectSingleNode(node)?.InnerText ?? "";
         }
+
     }
 }
