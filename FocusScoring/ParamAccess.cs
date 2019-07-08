@@ -61,7 +61,6 @@ namespace FocusScoring
                 discCache.Update(inn, method, d);
                 return GetParams(d, node);
             }
-
             return  new []{"Ошибка! Проверьте подключение к интернет и повторите попытку."};                
 
         }
