@@ -8,22 +8,21 @@ namespace FocusScoring
 {
     internal static class DictionarySerializer
     {
-        public static void Serialize(Dictionary<(string node, ApiMethod method), (long position,int count,DateTime time)> dict, string path)
+        public static void Serialize(Dictionary<(string node, ApiMethod method), (long position,int count,DateTime time)> dict, FileStream stream)
         {
             var serializer = new XmlSerializer(typeof(xmlItem[]), 
                 new XmlRootAttribute() { ElementName = "items" });
-            serializer.Serialize(File.Open(path,FileMode.OpenOrCreate), 
-                
+            serializer.Serialize(stream, 
                 dict.Select(kv=>new xmlItem(){node = kv.Key.node,method= kv.Key.method,pos= kv.Value.position,count = kv.Value.count,time = kv.Value.time}).ToArray() );
         }
         
         
-        public static Dictionary<(string, ApiMethod), (long,int,DateTime)> Deserialize(string path)
+        public static Dictionary<(string, ApiMethod), (long,int,DateTime)> Deserialize(FileStream stream)
         {
             var serializer = new XmlSerializer(typeof(xmlItem[]), 
                 new XmlRootAttribute() { ElementName = "items" });
             return ((xmlItem[])serializer
-                    .Deserialize(File.Open(path,FileMode.OpenOrCreate)))
+                    .Deserialize(stream))
                     .ToDictionary(x => (x.node,x.method), x => (x.pos,x.count,x.time));
         }
     }
