@@ -7,6 +7,7 @@ namespace FocusScoringTests
     {
         public void Test1()
         {
+            
         }
     }
 }

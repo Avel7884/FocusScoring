@@ -66,8 +66,8 @@ namespace FocusScoring
         
         private Dictionary<string, (ApiMethod, string,string)> multiParamDict = new Dictionary<string, (ApiMethod, string,string)>()
         {
-            {"DissolvingAffilates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolving")},
-            {"DissolvedAffilates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolved")},
+            {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolving")},
+            {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolved")},
         };
 
         private ParamAccess access;
@@ -187,7 +187,7 @@ namespace FocusScoring
                             return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
                     }),
-
+                
                 new Marker("func8", MarkerColour.Red, "Критическая сумма арбитражных дел в качестве ответчика." +
                                                       "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период и более суммы уставного капитала, " +
                                                       "и более 500 тыс. руб.", 1,
@@ -225,40 +225,17 @@ namespace FocusScoring
                     3,
                     () => { return GetParam("m7022") == "True"; }),
 
-                new Marker("func13", MarkerColour.Red,
-                    "У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией", 4,
-                    () =>
-                    {
-                        var str = GetMultiParam("Affilatesreq");
-                        short affiliatesCount = 0;
-                        short badAffiliatesCount = 0;
-                        bool isBad = false;
-
-
-
-
-
-                        return false;
-                    })
-
-
-
-                //         new Marker("",MarkerColour.Red,"",,
-                //         ()=>{ }),
-
-
-
-
-            };
-//
-//            markersList = new[]
-//            {
-//                new Marker("asd", MarkerColour.Green, "asdasdasdad", 3, () => true),
-//                new Marker("asds", MarkerColour.Green, "asdasdasdad", 3, () => false),
-//                new Marker("asdf", MarkerColour.Green, "asdasdasdad", 3, () => true),
-//                new Marker("asdasdf", MarkerColour.Green, "asdasdasdad", 3, () => true)
-//            };
-            
+                    new Marker("func13",MarkerColour.Red,"У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией",4,
+                    ()=>{
+                    var Dissolved = GetMultiParam("DissolvedAffiliates");
+                    var Dissolving = GetMultiParam("DissolvingAffiliates");
+                    int affiliatesCount = Dissolving.Length;
+                    var badAffiliatesCount = Dissolved.Zip(Dissolving, (x,y)=> x!="" || y!="").Aggregate(0,(i,x)=>i+(x?1:0));
+                        return badAffiliatesCount/affiliatesCount * 100 > 50;
+                    })        
+         //         new Marker("",MarkerColour.Red,"",,
+         //         ()=>{ }),
+        };  
             markers = markersList.ToDictionary(x => x.Name);
 
         }
