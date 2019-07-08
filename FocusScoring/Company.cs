@@ -76,14 +76,10 @@ namespace FocusScoring
         
         private Dictionary<string, (ApiMethod, string,string)> multiParamDict = new Dictionary<string, (ApiMethod, string,string)>()
         {
-<<<<<<< HEAD
             {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolving")},
             {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolved")},
-          
-=======
             {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s1001")},
             {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s6004")},
->>>>>>> 6441269c8b03759f0925f0b77b70e2a83ea5fecc
         };
 
         private ParamAccess access;
