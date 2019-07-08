@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08820d0d-2374-4151-9993-205016566ea5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FocusScoring/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/Company.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoring.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoring.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoring.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoring.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoringGUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoringGUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoringGUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoringGUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/cache" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csproj.GenerateResource.Cache" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csproj.GenerateResource.Cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI_MarkupCompile.lref" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +53,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="63" />
+          <entry key="cs" value="65" />
           <entry key="csproj" value="1" />
           <entry key="sln" value="1" />
           <entry key="xaml" value="6" />
@@ -46,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="63" />
+          <entry key="C#" value="65" />
           <entry key="Csproj" value="1" />
           <entry key="Solution File" value="1" />
           <entry key="XAML" value="6" />
@@ -55,13 +70,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="C# Console" value="38" />
-          <entry key="cs" value="9927" />
+          <entry key="cs" value="10309" />
           <entry key="xaml" value="658" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="9965" />
+          <entry key="C#" value="10347" />
           <entry key="XAML" value="658" />
         </counts>
       </usages-collector>
@@ -75,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+            <state relative-caret-position="141">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <marker date="1562580619936" expanded="false" signature="6:232" ph="..." />
                 <marker date="1562580619936" expanded="true" signature="260:3970" ph="{...}" />
@@ -123,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="141">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
               <folding>
                 <marker date="1562582224669" expanded="false" signature="6:70" ph="..." />
                 <marker date="1562582224669" expanded="true" signature="94:4877" ph="{...}" />
@@ -181,71 +196,88 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            <state relative-caret-position="398">
+              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
               <folding>
-                <marker date="1562568508062" expanded="false" signature="6:170" ph="..." />
-                <marker date="1562568508062" expanded="true" signature="195:2662" ph="{...}" />
-                <marker date="1562568508062" expanded="true" signature="254:2660" ph="{...}" />
-                <marker date="1562568508062" expanded="true" signature="674:1387" ph="{...}" />
-                <marker date="1562568508062" expanded="true" signature="1191:1376" ph="{...}" />
-                <marker date="1562568508062" expanded="true" signature="1474:2006" ph="{...}" />
-                <marker date="1562568508062" expanded="true" signature="2081:2490" ph="{...}" />
-                <marker date="1562568508062" expanded="true" signature="2232:2480" ph="{...}" />
-                <marker date="1562568508062" expanded="true" signature="2521:2654" ph="{...}" />
+                <marker date="1562586187738" expanded="true" signature="6:170" ph="..." />
+                <marker date="1562586187738" expanded="true" signature="195:3142" ph="{...}" />
+                <marker date="1562586187738" expanded="true" signature="254:3140" ph="{...}" />
+                <marker date="1562586187738" expanded="true" signature="728:1719" ph="{...}" />
+                <marker date="1562586187738" expanded="true" signature="926:1122" ph="{...}" />
+                <marker date="1562586187738" expanded="true" signature="1139:1348" ph="{...}" />
+                <marker date="1562586187738" expanded="true" signature="1486:1709" ph="/* recache = () =&gt; ... */" />
+                <marker date="1562586187738" expanded="true" signature="1806:2338" ph="{...}" />
+                <marker date="1562586187738" expanded="true" signature="2413:2940" ph="{...}" />
+                <marker date="1562586187738" expanded="true" signature="2564:2930" ph="{...}" />
+                <marker date="1562586187738" expanded="true" signature="2971:3134" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FocusScoring/Marker.cs">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/Settings.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
               <folding>
-                <marker date="1562567764185" expanded="true" signature="37:684" ph="{...}" />
-                <marker date="1562567764185" expanded="true" signature="63:615" ph="{...}" />
-                <marker date="1562567764185" expanded="true" signature="286:437" ph="{...}" />
-                <marker date="1562567764185" expanded="true" signature="645:682" ph="{...}" />
+                <marker date="1562234820942" expanded="true" signature="22:176" ph="{...}" />
+                <marker date="1562234820942" expanded="true" signature="57:174" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <marker date="1562584318770" expanded="false" signature="6:115" ph="..." />
+                <marker date="1562584318770" expanded="true" signature="139:1463" ph="{...}" />
+                <marker date="1562584318770" expanded="true" signature="188:1162" ph="{...}" />
+                <marker date="1562584318770" expanded="true" signature="341:706" ph="{...}" />
+                <marker date="1562584318770" expanded="true" signature="830:1156" ph="{...}" />
+                <marker date="1562584318770" expanded="true" signature="1192:1461" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="107" column="75" lean-forward="true" selection-start-line="107" selection-start-column="75" selection-end-line="107" selection-end-column="75" />
+            <state relative-caret-position="36">
+              <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
               <folding>
-                <marker date="1562582402663" expanded="true" signature="6:152" ph="..." />
-                <marker date="1562582402663" expanded="true" signature="176:15501" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="203:15499" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="360:5349" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="5501:5934" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="6029:6118" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="6171:6273" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="6323:6466" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="6523:6677" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="6756:6938" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="6988:7056" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="7094:7456" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="7587:7679" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="7723:15493" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="7778:15418" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="8717:9284" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="9705:10113" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="10538:10946" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="11303:11731" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="12155:12865" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="13498:13829" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="14474:14982" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="15182:15313" ph="{...}" />
-                <marker date="1562582402663" expanded="true" signature="15332:15408" ph="/* new Marker(&quot;&quot;,MarkerColour.Red,&quot;&quot;,, ... */" />
+                <marker date="1562582530180" expanded="true" signature="6:152" ph="..." />
+                <marker date="1562582530180" expanded="true" signature="176:15325" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="203:15323" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="360:5349" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="5501:5758" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="5853:5942" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="5995:6097" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="6147:6290" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="6347:6501" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="6580:6762" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="6812:6880" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="6918:7280" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="7411:7503" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="7547:15317" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="7602:15242" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="8541:9108" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="9529:9937" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="10362:10770" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="11127:11555" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="11979:12689" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="13322:13653" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="14298:14806" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="15006:15137" ph="{...}" />
+                <marker date="1562582530180" expanded="true" signature="15156:15232" ph="/* new Marker(&quot;&quot;,MarkerColour.Red,&quot;&quot;,, ... */" />
               </folding>
             </state>
           </provider>
@@ -281,6 +313,7 @@
       <find>getmulti</find>
       <find>mul</find>
       <find>True</find>
+      <find>Serialize</find>
     </findStrings>
     <replaceStrings>
       <replace>Gr</replace>
@@ -336,7 +369,6 @@
         <option value="$PROJECT_DIR$/FocusScoring/ApiMethod.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/XmlDownload.cs" />
         <option value="$PROJECT_DIR$/FocusScoringTests/Tests.cs" />
-        <option value="$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/Program.cs" />
         <option value="$PROJECT_DIR$/FocusScoringGUI/Light.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/Settings.cs" />
@@ -344,12 +376,13 @@
         <option value="$PROJECT_DIR$/FocusScoringGUI/DataGridClickable.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/Marker.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/ICache.cs" />
-        <option value="$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/XmlMemoryCache.cs" />
         <option value="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml" />
         <option value="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/Company.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs" />
       </list>
     </option>
   </component>
@@ -459,12 +492,12 @@
       <updated>1562047477135</updated>
       <workItem from="1562047478380" duration="17617000" />
       <workItem from="1562134509410" duration="55124000" />
-      <workItem from="1562565548442" duration="16702000" />
+      <workItem from="1562565548442" duration="20744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89443000" />
+    <option name="totallyTimeSpent" value="93485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,15 +509,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.16263238" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.16263238" />
       <window_info id="Structure" order="1" sideWeight="0.5013405" side_tool="true" weight="0.12178517" />
       <window_info id="Favorites" order="2" sideWeight="0.502" side_tool="true" weight="0.15204236" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23190348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23190348" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -563,6 +595,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="e.InnerException.Data" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Контур.Фокус API Extractor v0.6_source/Контур.Фокус API Extractor/Form1.cs">
@@ -637,13 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/Settings.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -764,20 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <marker date="1562232616233" expanded="false" signature="6:115" ph="..." />
-            <marker date="1562232616233" expanded="true" signature="188:1229" ph="{...}" />
-            <marker date="1562232616233" expanded="true" signature="335:748" ph="{...}" />
-            <marker date="1562232616233" expanded="true" signature="866:1223" ph="{...}" />
-            <marker date="1562232616233" expanded="true" signature="1259:1528" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoringGUI/DataGridClickable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -826,24 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <marker date="1562568508062" expanded="false" signature="6:170" ph="..." />
-            <marker date="1562568508062" expanded="true" signature="195:2662" ph="{...}" />
-            <marker date="1562568508062" expanded="true" signature="254:2660" ph="{...}" />
-            <marker date="1562568508062" expanded="true" signature="674:1387" ph="{...}" />
-            <marker date="1562568508062" expanded="true" signature="1191:1376" ph="{...}" />
-            <marker date="1562568508062" expanded="true" signature="1474:2006" ph="{...}" />
-            <marker date="1562568508062" expanded="true" signature="2081:2490" ph="{...}" />
-            <marker date="1562568508062" expanded="true" signature="2232:2480" ph="{...}" />
-            <marker date="1562568508062" expanded="true" signature="2521:2654" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDownload.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -856,47 +854,6 @@
             <marker date="1562224520118" expanded="true" signature="459:1111" ph="{...}" />
             <marker date="1562224520118" expanded="true" signature="1167:1946" ph="{...}" />
             <marker date="1562224520118" expanded="true" signature="1205:1936" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/SingleXmlMemoryCache.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <marker date="1562569224847" expanded="false" signature="6:31" ph="..." />
-            <marker date="1562569224847" expanded="true" signature="55:752" ph="{...}" />
-            <marker date="1562569224847" expanded="true" signature="107:750" ph="{...}" />
-            <marker date="1562569224847" expanded="true" signature="323:564" ph="{...}" />
-            <marker date="1562569224847" expanded="true" signature="386:485" ph="{...}" />
-            <marker date="1562569224847" expanded="true" signature="639:744" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
-          <folding>
-            <marker date="1562580619936" expanded="false" signature="6:232" ph="..." />
-            <marker date="1562580619936" expanded="true" signature="260:3970" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="267:345" ph="/// Interaction logic for MainWindow.xaml ... " />
-            <marker date="1562580619936" expanded="true" signature="381:3968" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="589:1067" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="692:879" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="1103:1523" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="1161:1291" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="1607:2354" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="1885:2137" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="2424:2604" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="2678:2796" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="2867:3119" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="3204:3443" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="3444:3607" ph="/* private void CompanyRow_Selected(object s, MouseButtonEventArgs e) ... */" />
-            <marker date="1562580619936" expanded="true" signature="3670:3962" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="3708:3952" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -930,10 +887,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/SingleXmlMemoryCache.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <marker date="1562569224847" expanded="false" signature="6:31" ph="..." />
+            <marker date="1562569224847" expanded="true" signature="55:752" ph="{...}" />
+            <marker date="1562569224847" expanded="true" signature="107:750" ph="{...}" />
+            <marker date="1562569224847" expanded="true" signature="323:564" ph="{...}" />
+            <marker date="1562569224847" expanded="true" signature="386:485" ph="{...}" />
+            <marker date="1562569224847" expanded="true" signature="639:744" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <marker date="1562580619936" expanded="false" signature="6:232" ph="..." />
+            <marker date="1562580619936" expanded="true" signature="260:3970" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="267:345" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1562580619936" expanded="true" signature="381:3968" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="589:1067" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="692:879" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="1103:1523" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="1161:1291" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="1607:2354" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="1885:2137" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="2424:2604" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="2678:2796" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="2867:3119" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="3204:3443" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="3444:3607" ph="/* private void CompanyRow_Selected(object s, MouseButtonEventArgs e) ... */" />
+            <marker date="1562580619936" expanded="true" signature="3670:3962" ph="{...}" />
+            <marker date="1562580619936" expanded="true" signature="3708:3952" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="141">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
             <marker date="1562582224669" expanded="false" signature="6:70" ph="..." />
             <marker date="1562582224669" expanded="true" signature="94:4877" ph="{...}" />
@@ -960,33 +958,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="107" column="75" lean-forward="true" selection-start-line="107" selection-start-column="75" selection-end-line="107" selection-end-column="75" />
+        <state relative-caret-position="36">
+          <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
           <folding>
-            <marker date="1562582402663" expanded="true" signature="6:152" ph="..." />
-            <marker date="1562582402663" expanded="true" signature="176:15501" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="203:15499" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="360:5349" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="5501:5934" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="6029:6118" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="6171:6273" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="6323:6466" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="6523:6677" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="6756:6938" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="6988:7056" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="7094:7456" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="7587:7679" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="7723:15493" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="7778:15418" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="8717:9284" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="9705:10113" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="10538:10946" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="11303:11731" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="12155:12865" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="13498:13829" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="14474:14982" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="15182:15313" ph="{...}" />
-            <marker date="1562582402663" expanded="true" signature="15332:15408" ph="/* new Marker(&quot;&quot;,MarkerColour.Red,&quot;&quot;,, ... */" />
+            <marker date="1562582530180" expanded="true" signature="6:152" ph="..." />
+            <marker date="1562582530180" expanded="true" signature="176:15325" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="203:15323" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="360:5349" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="5501:5758" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="5853:5942" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="5995:6097" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="6147:6290" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="6347:6501" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="6580:6762" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="6812:6880" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="6918:7280" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="7411:7503" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="7547:15317" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="7602:15242" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="8541:9108" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="9529:9937" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="10362:10770" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="11127:11555" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="11979:12689" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="13322:13653" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="14298:14806" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="15006:15137" ph="{...}" />
+            <marker date="1562582530180" expanded="true" signature="15156:15232" ph="/* new Marker(&quot;&quot;,MarkerColour.Red,&quot;&quot;,, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <marker date="1562584318770" expanded="false" signature="6:115" ph="..." />
+            <marker date="1562584318770" expanded="true" signature="139:1463" ph="{...}" />
+            <marker date="1562584318770" expanded="true" signature="188:1162" ph="{...}" />
+            <marker date="1562584318770" expanded="true" signature="341:706" ph="{...}" />
+            <marker date="1562584318770" expanded="true" signature="830:1156" ph="{...}" />
+            <marker date="1562584318770" expanded="true" signature="1192:1461" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/Settings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding>
+            <marker date="1562234820942" expanded="true" signature="22:176" ph="{...}" />
+            <marker date="1562234820942" expanded="true" signature="57:174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+          <folding>
+            <marker date="1562586187738" expanded="true" signature="6:170" ph="..." />
+            <marker date="1562586187738" expanded="true" signature="195:3142" ph="{...}" />
+            <marker date="1562586187738" expanded="true" signature="254:3140" ph="{...}" />
+            <marker date="1562586187738" expanded="true" signature="728:1719" ph="{...}" />
+            <marker date="1562586187738" expanded="true" signature="926:1122" ph="{...}" />
+            <marker date="1562586187738" expanded="true" signature="1139:1348" ph="{...}" />
+            <marker date="1562586187738" expanded="true" signature="1486:1709" ph="/* recache = () =&gt; ... */" />
+            <marker date="1562586187738" expanded="true" signature="1806:2338" ph="{...}" />
+            <marker date="1562586187738" expanded="true" signature="2413:2940" ph="{...}" />
+            <marker date="1562586187738" expanded="true" signature="2564:2930" ph="{...}" />
+            <marker date="1562586187738" expanded="true" signature="2971:3134" ph="{...}" />
           </folding>
         </state>
       </provider>
