@@ -22,7 +22,8 @@ namespace FocusScoring
             this.download = new XmlDownload(Settings.FocusKey);
             memoryCache = new SingleXmlMemoryCache();
         }
-        
+         
+        //TODO DRY
         public string GetParam(ApiMethod method,string inn,string node)
         {
             if (memoryCache.TryGetXml(inn, method, out var d))
@@ -42,6 +43,43 @@ namespace FocusScoring
             }
 
             return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
+        }
+
+        public IEnumerable<string> GetMultiParam(ApiMethod method,string inn,string node, string child)
+        {
+            if (memoryCache.TryGetXml(inn, method, out var d))
+                return GetChild(d, node, child);
+
+            if (discCache.TryGetXml(inn, method, out d))
+            {
+                memoryCache.Update(inn,method,d);
+                return GetChild(d, node, child);
+            }
+
+            if (download.TryGetXml(inn, method, out d))
+            {
+                memoryCache.Update(inn,method,d);
+                discCache.Update(inn, method, d);
+                return GetChild(d, node, child);
+            }
+            return  new []{"Ошибка! Проверьте подключение к интернет и повторите попытку."};                
+        }
+
+        private IEnumerable<string> GetChild(XmlDocument document,string node, string child)
+        {
+            foreach (XmlNode n in document.SelectNodes(node))
+            {
+                var mark = false;
+                foreach (XmlNode c in n.ChildNodes)
+                {
+                    if(c.Name == child)
+                        yield return c.InnerText;
+                    mark = true;
+                    break;
+                }   
+                if(!mark)
+                    yield return "";
+            }
         }
 
         public IEnumerable<string> GetParams(ApiMethod method, string inn, string node)
