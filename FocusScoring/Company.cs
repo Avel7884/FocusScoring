@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
 using FocusScoring;
@@ -146,11 +147,11 @@ namespace FocusScoring
                                                       "и более суммы уставного капитала, и более 100 тыс. руб.", 4,
                     () =>
                     {
-                        var sum = GetParam("Sum");
-                        var a = GetParam("s1001");
-                        var b = GetParam("s6004");
+                        var sum = GetParam("Sum").Replace('.',',');
+                        var a = GetParam("s1001").Replace('.',',');
+                        var b = GetParam("s6004").Replace('.',',');
                         if (sum != "" & a != "" & b != "")
-                            return double.Parse(a) > (0.2 * double.Parse(b)) & (double.Parse(a) > double.Parse(sum)) &
+                            return double.Parse(a) > (0.2 * double.Parse(b,CultureInfo.InvariantCulture.NumberFormat)) & (double.Parse(a) > double.Parse(sum)) &
                                    double.Parse(a) > 100000;
                         return false;
                     }),
@@ -161,8 +162,8 @@ namespace FocusScoring
                     "При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.", 1,
                     () =>
                     {
-                        if (double.TryParse(GetParam("s2003"), out double sumDel) &&
-                            double.TryParse(GetParam("s2004"), out double sumDelPast))
+                        if (double.TryParse(GetParam("s2003").Replace('.',','), out double sumDel) &&
+                            double.TryParse(GetParam("s2004").Replace('.',','), out double sumDelPast))
                             return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
                         return false;
                     }),
@@ -173,8 +174,8 @@ namespace FocusScoring
                     "При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.", 1,
                     () =>
                     {
-                        if (double.TryParse(GetParam("s2001"), out double sumDel) &&
-                            double.TryParse(GetParam("s2002"), out double sumDelPast))
+                        if (double.TryParse(GetParam("s2001").Replace('.',','), out double sumDel) &&
+                            double.TryParse(GetParam("s2002").Replace('.',','), out double sumDelPast))
                             return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
                         return false;
                     }),
@@ -182,7 +183,7 @@ namespace FocusScoring
                   "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период и более суммы уставного капитала, " +
                   "и более 500 тыс. руб.",1,
                   () => {
-                        if(double.TryParse(GetParam("s2001"),out double sumDel) && double.TryParse(GetParam("s6004"),out double revenue) && double.TryParse(GetParam("Sum"),out double statedCapitalFocus))
+                        if(double.TryParse(GetParam("s2001").Replace('.',','),out double sumDel) && double.TryParse(GetParam("s6004").Replace('.',','),out double revenue) && double.TryParse(GetParam("Sum").Replace('.',','),out double statedCapitalFocus))
                            return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
                   }),
@@ -191,9 +192,9 @@ namespace FocusScoring
                                                       "и более суммы уставного капитала, и более 500 тыс. руб.", 1,
                     () =>
                     {
-                        if (double.TryParse(GetParam("s2003"), out double sumDel) && double.TryParse(GetParam("s6004"),
+                        if (double.TryParse(GetParam("s2003").Replace('.',','), out double sumDel) && double.TryParse(GetParam("s6004").Replace('.',','),
                                                                                       out double revenue)
-                                                                                  && double.TryParse(GetParam("Sum"),
+                                                                                  && double.TryParse(GetParam("Sum").Replace('.',','),
                                                                                       out double statedCapitalFocus))
                             return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
@@ -211,8 +212,8 @@ namespace FocusScoring
                 new Marker("func11", MarkerColour.Red, "Выручка снизилась более, чем на 50%", 1,
                     () =>
                     {
-                        if (long.TryParse(GetParam("s6004"), out long s6004) &
-                            long.TryParse(GetParam("s6003"), out long s6003))
+                        if (long.TryParse(GetParam("s6004").Replace('.',','), out long s6004) &
+                            long.TryParse(GetParam("s6003").Replace('.',','), out long s6003))
                             return s6004 < (0.5 * s6003);
                         return false;
                     }),
@@ -225,27 +226,19 @@ namespace FocusScoring
 
                     new Marker("func13",MarkerColour.Red,"У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией",4,
                     ()=>{
-<<<<<<< HEAD
-                    var Dissolved = GetMultiParam("DissolvedAffiliates");
-                    var Dissolving = GetMultiParam("DissolvingAffiliates");
-                    int affiliatesCount = Dissolving.Length;
-                    var badAffiliatesCount = Dissolved.Zip(Dissolving, (x,y)=> x!="" || y!="").Aggregate(0,(i,x)=>i+(x?1:0));
-                        return badAffiliatesCount/affiliatesCount * 100 > 50;
-                    }),
-                    new Marker("func14",MarkerColour.Red,"У более чем 50% связанных организаций присутствуют маркеры, свидетельствующие о вероятном банкротстве компаний",5,
-                    ()=>{
-                        var a = GetMultiParam("m7013Affiliates");
-                        return false;
-                        }),
-=======
-                    var Dissolved = GetMultiParam("DissolvedAffiliates").Length;
+                        var Dissolved = GetMultiParam("DissolvedAffiliates").Length;
                     var Dissolving = GetMultiParam("DissolvingAffiliates").Length;
                     int affiliatesCount = GetMultiParam("InnAffilalates").Length;
                         
                     //var badAffiliatesCount = Dissolved.Zip(Dissolving, (x,y)=> x!="" || y!="").Aggregate(0,(i,x)=>i+(x?1:0));
                         return (Dissolved+Dissolving)/affiliatesCount * 100 > 50;
-                    })        
->>>>>>> 7c95b551dc1311a4c61f844f9ef98d3072c1c0c1
+                    }),
+                    new Marker("func14",MarkerColour.Red,"У более чем 50% связанных организаций присутствуют маркеры, свидетельствующие о вероятном банкротстве компаний",5,
+                    ()=>{
+                        var a = GetMultiParam("m7013Affiliates");
+                        return false;
+                        }),      
+
          //         new Marker("",MarkerColour.Red,"",,
          //         ()=>{ }),
         };  
