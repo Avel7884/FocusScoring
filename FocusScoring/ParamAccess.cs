@@ -56,9 +56,10 @@ namespace FocusScoring
                 yield return  "Ошибка! Проверьте подключение к интернет и повторите попытку.";
                 yield break;                
             }
-
             foreach (XmlNode n in nodes)
-                yield return n.SelectSingleNode(node).InnerText;
+            {
+                yield return n.SelectSingleNode(node)?.InnerText ?? "";
+            }
         }
     }
 }

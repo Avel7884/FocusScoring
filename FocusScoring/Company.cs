@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
+using FocusScoring;
 
 namespace FocusScoring
 {
@@ -60,9 +61,13 @@ namespace FocusScoring
             {"q7017",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7017") },
             {"q7018",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7018") },
             {"q7020",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7020") },
-            {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },
-            {"Affilatesreq" ,(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req/UL")}
-
+            {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },  
+        };
+        
+        private Dictionary<string, (ApiMethod, string,string)> multiParamDict = new Dictionary<string, (ApiMethod, string,string)>()
+        {
+            {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolving")},
+            {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolved")},
         };
 
         private ParamAccess access;
@@ -88,8 +93,8 @@ namespace FocusScoring
 
         public string[] GetMultiParam(string paramName)
         {
-            (ApiMethod method, string node) = paramDict[paramName];
-            return access.GetParams(method, inn, node).ToArray();
+            (ApiMethod method, string multiNode, string node) = multiParamDict[paramName];
+            return access.GetParams(method, inn, multiNode, node).ToArray();
         }
 
         public bool GetMarker(string markerName)
@@ -116,6 +121,11 @@ namespace FocusScoring
         private Dictionary<string, Marker> markers;
 
         private Marker[] markersList;
+
+        public Marker[] GetMarkers()
+        {
+            return markersList.Where(marker=>marker.Check()).ToArray();
+        }
         private void InitMarkers()
         {
             markersList = new[]
@@ -176,10 +186,10 @@ namespace FocusScoring
 
                   new Marker("func9",MarkerColour.Red,"Организация была найдена в реестре недобросовестных поставщиков" +
                   "(ФАС, Федеральное Казначейство)",3,
-                  ()=>{  return GetParam("m4001") == "True"; }),
+                  ()=>{  return GetParam("m4001") == "true"; }),
 
                    new Marker("func10",MarkerColour.Red,"ФИО руководителей или учредителей были найдены в реестре дисквалифицированных лиц (ФНС)",4,
-                  ()=>{  return GetParam("m5008") == "True"; }),
+                  ()=>{  return GetParam("m5008") == "true"; }),
 
                     new Marker("func11",MarkerColour.Red,"Выручка снизилась более, чем на 50%",1,
                   ()=>{
@@ -195,33 +205,17 @@ namespace FocusScoring
 
                     new Marker("func13",MarkerColour.Red,"У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией",4,
                     ()=>{
-                        var str = GetMultiParam("Affilatesreq");
-                    short affiliatesCount = 0;
-                    short badAffiliatesCount = 0;
-                    bool isBad= false;
-
-
-
-
-
-                        return false;
-                    })
-
-      
-                  
+                    var Dissolved = GetMultiParam("DissolvedAffiliates");
+                    var Dissolving = GetMultiParam("DissolvingAffiliates");
+                    int affiliatesCount = Dissolving.Length;
+                    var badAffiliatesCount = Dissolved.Zip(Dissolving, (x,y)=> x!="" || y!="").Aggregate(0,(i,x)=>i+(x?1:0));
+                        return badAffiliatesCount/affiliatesCount * 100 > 50;
+                    })        
          //         new Marker("",MarkerColour.Red,"",,
          //         ()=>{ }),
-
-
-
-
-        };
+        };  
             markers = markersList.ToDictionary(x => x.Name);
-
-
-
 
         }
     }
 }
-    
