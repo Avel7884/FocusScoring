@@ -373,10 +373,14 @@ namespace FocusScoring
                         }
                         return false;
                     }));
-            markersList.Add(new Marker("Значительное число юр.лиц по этому адресу", MarkerColour.Yellow, "Значительное количество юридических лиц на текущий момент времени", 2,
-                                () => {
-                                if}));
-
+            //markersList.Add(new Marker("Значительное число юр.лиц по этому адресу", MarkerColour.Yellow, "Значительное количество юридических лиц на текущий момент времени", 2,
+            //        () => {
+            //            if (!markersList.Where(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией").First().Check())
+            //                {
+            //                double count = GetParam("q7006").
+            //                }
+            //            return false;
+            //        }));
 
             markers = markersList.ToDictionary(x => x.Name);
 
