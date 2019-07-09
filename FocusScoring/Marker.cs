@@ -14,6 +14,7 @@ namespace FocusScoring
             this.Name = Name;
             Colour = colour;
             Desctiption = desctiption;
+            this.Score = Score;
         }
         
         public string Name { get; }

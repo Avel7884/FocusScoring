@@ -17,41 +17,9 @@ namespace FocusScoringGUI
     public partial class MainWindow
     {
         private MarkerSubData[] dataMarkersSource;
-        private List<CompanyData> CurrentList; 
+        private List<CompanyData> CurrentList;     
         private Dictionary<string, List<CompanyData>> Lists;
-        
-        public class CompanyData
-        {
-            private FocusScoring.Company company;
-            public CompanyData(string Inn)
-            {
-                this.Inn = Inn;
-                company = Company.CreateINN(Inn);
-                Name = company.GetParam("Full");
-                Score = 10;
-            }
 
-            public string Inn { get; set; }
-            public string Name { get; set; }
-            public int Score { get; set; }
-            public Light Light { get; set; }
-        }
-
-        public class MarkerSubData
-        {
-            public MarkerSubData(Marker marker)
-            {
-                Colour = ColourCode(marker.Colour);
-                Description = marker.Desctiption;
-            }
-            
-            public static MarkerSubData Create(Marker marker)=>
-                new MarkerSubData(marker);
-            
-            public string Colour { get; }
-            public string Description { get; }
-        }
-        
         //public string Inn { get; set; }
     
         public MainWindow()
@@ -69,55 +37,62 @@ namespace FocusScoringGUI
 
             ListView.ItemsSource = Lists.Keys;
             CurrentList = Lists["Good People"];
-            CompanyTable.ItemsSource = CurrentList;
+            CompanyList.ItemsSource = CurrentList;
 
             //MarkersTable.ItemsSource = new Company[0];
         }
 
+        private void MarkerSelected_Click(object s, RoutedEventArgs e)
+        {
+            if(MarkersList.SelectedItem == null)
+                return; 
+            var marker = ((MarkerSubData) MarkersList.SelectedItem).Marker;
+            new MarkerDialog(marker).ShowDialog();
+        }
+
+        private void CompanySelected_Click(object s, RoutedEventArgs e)
+        {
+            if(CompanyList.SelectedItem == null)
+                return; //TODO Message boxes here and everywhere else
+            var inn = ((CompanyData) CompanyList.SelectedItem).Inn;
+            MarkersList.ItemsSource = Company.CreateINN(inn).GetMarkers().Select(MarkerSubData.Create);
+            MarkersList.Items.Refresh();
+        }
+
         private void ListSelected_Click(object s, RoutedEventArgs e)
         {
+            if(ListView.SelectedItem == null)
+                return;
             CurrentList = Lists[(string) ListView.SelectedItem];
-            CompanyTable.ItemsSource = CurrentList; 
-            CompanyTable.Items.Refresh();
+            CompanyList.ItemsSource = CurrentList; 
+            CompanyList.Items.Refresh();
         }
 
         private void ButtonDataUpdate_Click(object s, RoutedEventArgs e)
         {
+            if (Inn.Text != "")//TODO Checks with regex 
+                return;
             CurrentList.Add(new CompanyData(Inn.Text));
-            CompanyTable.Items.Refresh();
+            CompanyList.Items.Refresh();
         }
 
         private void ButtonAddList_Click(object s, RoutedEventArgs e)
         {
+            if(ListName.Text == "")
+                return;
             CurrentList = new List<CompanyData>();
             Lists[ListName.Text] = CurrentList;
             ListView.Items.Refresh();
-            CompanyTable.ItemsSource = CurrentList; 
-            CompanyTable.Items.Refresh();
+            CompanyList.ItemsSource = CurrentList; 
+            CompanyList.Items.Refresh();
         }
-        
-        private void ButtonMarkersUpdate_Click(object s, RoutedEventArgs e)
-        {
-            //dataMarkersSource.Add(new CompanyData(Inn2.Text));
-            MarkersTable.ItemsSource = Company.CreateINN(Inn2.Text).GetMarkers().Select(MarkerSubData.Create);
-            MarkersTable.Items.Refresh(); 
-        }
-//
-//        private void CompanyRow_Selected(object s, MouseButtonEventArgs e)
-//        {
-//            var row = (DataGridRow) s;
-//            row.
-//        }
 
-        private static string ColourCode(MarkerColour colour)
+        private void DeleteList_Click(object sender, RoutedEventArgs e)
         {
-            switch (colour)
-            {
-                case MarkerColour.Green: return "Ok";
-                case MarkerColour.Red: return "X";
-                case MarkerColour.Yellow: return "*";
-                default: throw new AggregateException();
-            }
+            if(ListView.SelectedItem == null)
+                return;
+            Lists.Remove((string) ListView.SelectedItem);
+            ListView.Items.Refresh();
         }
     }
 }

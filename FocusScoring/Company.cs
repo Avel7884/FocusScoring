@@ -240,7 +240,7 @@ namespace FocusScoring
                     }),
                     new Marker("func14",MarkerColour.Red,"У более чем 50% связанных организаций присутствуют маркеры, свидетельствующие о вероятном банкротстве компаний",5,
                     ()=>{
-                        var a = GetMultiParam("m7013Affiliates");
+                        //var a = GetMultiParam("m7013Affiliates");
                         return false;
                         }),      
 

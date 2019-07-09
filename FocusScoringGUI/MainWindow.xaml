@@ -22,49 +22,14 @@
             <RowDefinition Height="1*" />    
             <RowDefinition Height="2*" />
             <RowDefinition Height="20*" />
+            <RowDefinition Height="1*" />                
         </Grid.RowDefinitions>
 
-        <TextBox Name="Inn" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="120"/>
-
-        <Button Click="ButtonDataUpdate_Click" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" >Поиск</Button>     
-        
-      <DataGrid Grid.Column="2"
-                Grid.ColumnSpan="2"
-                Grid.Row="2"
-                AutoGenerateColumns="False" 
-                HorizontalAlignment="Center" 
-                Name="CompanyTable" 
-                VerticalAlignment="Top"
-                DataContext="Binding ElementName=DataEntrydataGrid">
-          
-          <DataGrid.Columns >
-          <DataGridTextColumn Binding="{Binding Path=Inn}" MinWidth="50" />
-          <DataGridTextColumn Binding="{Binding Path=Name}" MinWidth="50" MaxWidth="300" />
-          <DataGridTextColumn Binding="{Binding Path=Score}" MinWidth="50" />
-        </DataGrid.Columns>
-      </DataGrid>
-        
-        <TextBox Name="Inn2" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="120"/>
-
-        <Button Click="ButtonMarkersUpdate_Click" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" >Поиск</Button>    
-        
-        <DataGrid Grid.Column="4"
-                  Grid.ColumnSpan="2"
-                  Grid.Row="2"
-                  AutoGenerateColumns="False" 
-                  HorizontalAlignment="Center" 
-                  Name="MarkersTable" 
-                  VerticalAlignment="Top">
-            <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Path=Colour}" MaxWidth="17" />
-                <DataGridTextColumn Binding="{Binding Path=Description}" MinWidth="50" />
-            </DataGrid.Columns>
-        </DataGrid>
-        
         
         <TextBox Grid.Column="0" Grid.Row="1" Name="ListName" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="120"/>  
         <Button Grid.Column="1" Grid.Row="1" Click="ButtonAddList_Click" Name="AddList" HorizontalAlignment="Center" VerticalAlignment="Center">Добавить</Button>  
-
+        <Button Grid.Column="1" Grid.Row="3" Click="DeleteList_Click" Name="DeleteList" HorizontalAlignment="Center" VerticalAlignment="Center">Удалить</Button>  
+        
         <ListView Grid.Column="0"
                   Grid.ColumnSpan="2"
                   Grid.Row="2"
@@ -72,6 +37,44 @@
                   MouseDoubleClick="ListSelected_Click">
             
         </ListView>
+       
+        
+        <TextBox Name="Inn" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="120"/>
+        <Button Click="ButtonDataUpdate_Click" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" >Поиск</Button>     
+        
+        <ListView Grid.Column="2"
+                  Grid.ColumnSpan="2"
+                  Grid.Row="2"
+                  Name="CompanyList"
+                  MouseDoubleClick="CompanySelected_Click">
+            
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Inn}">Инн</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="100">Компания</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Score}">Рейтинг</GridViewColumn>
+                </GridView>
+            </ListView.View>
+            
+        </ListView>
+        
+        
+        <ListView Grid.Column="4"
+                  Grid.ColumnSpan="2"
+                  Grid.Row="2"
+                  Name="MarkersList"
+                  MouseDoubleClick="MarkerSelected_Click">
+            
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Colour}">Инн</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Description}">Компания</GridViewColumn>
+                </GridView>
+            </ListView.View>
+            
+        </ListView>
+        
+        
         
     </Grid>
 </Window>

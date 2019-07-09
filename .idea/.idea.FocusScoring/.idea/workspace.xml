@@ -2,23 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08820d0d-2374-4151-9993-205016566ea5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FocusScoringGUI/MainWindow.CompanyData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoringGUI/MainWindow.MarkerSubData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoringGUI/MarkerDialog.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FocusScoringGUI/MarkerDialog.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FocusScoring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/Company.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/Marker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/Marker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/bin/Debug/FocusScoring.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/FocusScoring.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/bin/Debug/FocusScoring.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/bin/Debug/FocusScoring.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/bin/Debug/cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoring/obj/Debug/FocusScoring.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/FocusScoringGUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/FocusScoringGUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoring.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoring.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoring.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoring.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoringGUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoringGUI.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoringGUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/FocusScoringGUI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/cache" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/App.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csproj.GenerateResource.Cache" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csproj.GenerateResource.Cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/cacheDict" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/bin/Debug/cacheDict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.csprojResolveAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI_MarkupCompile.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/FocusScoringGUI_MarkupCompile.lref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FocusScoringGUI/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,31 +69,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="65" />
+          <entry key="cs" value="76" />
           <entry key="csproj" value="1" />
           <entry key="sln" value="1" />
-          <entry key="xaml" value="6" />
+          <entry key="xaml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="65" />
+          <entry key="C#" value="76" />
           <entry key="Csproj" value="1" />
           <entry key="Solution File" value="1" />
-          <entry key="XAML" value="6" />
+          <entry key="XAML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="C# Console" value="38" />
-          <entry key="cs" value="10309" />
-          <entry key="xaml" value="658" />
+          <entry key="cs" value="11283" />
+          <entry key="xaml" value="1447" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="10347" />
-          <entry key="XAML" value="658" />
+          <entry key="C#" value="11321" />
+          <entry key="XAML" value="1447" />
         </counts>
       </usages-collector>
     </session>
@@ -87,29 +103,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="465">
+              <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
               <folding>
-                <marker date="1562580619936" expanded="false" signature="6:232" ph="..." />
-                <marker date="1562580619936" expanded="true" signature="260:3970" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="267:345" ph="/// Interaction logic for MainWindow.xaml ... " />
-                <marker date="1562580619936" expanded="true" signature="381:3968" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="589:1067" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="692:879" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="1103:1523" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="1161:1291" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="1607:2354" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="1885:2137" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="2424:2604" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="2678:2796" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="2867:3119" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="3204:3443" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="3444:3607" ph="/* private void CompanyRow_Selected(object s, MouseButtonEventArgs e) ... */" />
-                <marker date="1562580619936" expanded="true" signature="3670:3962" ph="{...}" />
-                <marker date="1562580619936" expanded="true" signature="3708:3952" ph="{...}" />
+                <marker date="1562663174504" expanded="false" signature="6:232" ph="..." />
+                <marker date="1562663174504" expanded="true" signature="260:3255" ph="{...}" />
+                <marker date="1562663174504" expanded="true" signature="267:345" ph="/// Interaction logic for MainWindow.xaml ... " />
+                <marker date="1562663174504" expanded="true" signature="381:3253" ph="{...}" />
+                <marker date="1562663174504" expanded="true" signature="627:1373" ph="{...}" />
+                <marker date="1562663174504" expanded="true" signature="905:1157" ph="{...}" />
+                <marker date="1562663174504" expanded="true" signature="1445:1592" ph="{...}" />
+                <marker date="1562663174504" expanded="true" signature="1665:2017" ph="{...}" />
+                <marker date="1562663174504" expanded="true" signature="2087:2335" ph="{...}" />
+                <marker date="1562663174504" expanded="true" signature="2409:2607" ph="{...}" />
+                <marker date="1562663174504" expanded="true" signature="2678:2988" ph="{...}" />
+                <marker date="1562663174504" expanded="true" signature="3061:3247" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,18 +129,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="331">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
-                <marker date="1562580065969" expanded="true" signature="0:3423" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;    &#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;20*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &lt;TextBox Name=&quot;Inn&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;&#10;&#10;        &lt;Button Click=&quot;ButtonDataUpdate_Click&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt;     &#10;        &#10;      &lt;DataGrid Grid.Column=&quot;2&quot;&#10;                Grid.ColumnSpan=&quot;2&quot;&#10;                Grid.Row=&quot;2&quot;&#10;                AutoGenerateColumns=&quot;False&quot; &#10;                HorizontalAlignment=&quot;Center&quot; &#10;                Name=&quot;CompanyTable&quot; &#10;                VerticalAlignment=&quot;Top&quot;&#10;                DataContext=&quot;Binding ElementName=DataEntrydataGrid&quot;&gt;&#10;          &#10;          &lt;DataGrid.Columns &gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Inn}&quot; MinWidth=&quot;50&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Name}&quot; MinWidth=&quot;50&quot; MaxWidth=&quot;300&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Score}&quot; MinWidth=&quot;50&quot; /&gt;&#10;        &lt;/DataGrid.Columns&gt;&#10;      &lt;/DataGrid&gt;&#10;        &#10;        &lt;TextBox Name=&quot;Inn2&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;&#10;&#10;        &lt;Button Click=&quot;ButtonMarkersUpdate_Click&quot; Grid.Column=&quot;5&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt;    &#10;        &#10;        &lt;DataGrid Grid.Column=&quot;4&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  AutoGenerateColumns=&quot;False&quot; &#10;                  HorizontalAlignment=&quot;Center&quot; &#10;                  Name=&quot;MarkersTable&quot; &#10;                  VerticalAlignment=&quot;Top&quot;&gt;&#10;            &lt;DataGrid.Columns&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Colour}&quot; MaxWidth=&quot;17&quot; /&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Description}&quot; MinWidth=&quot;50&quot; /&gt;&#10;            &lt;/DataGrid.Columns&gt;&#10;        &lt;/DataGrid&gt;&#10;        &#10;        &#10;        &lt;TextBox Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Name=&quot;ListName&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;  &#10;        &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Click=&quot;ButtonAddList_Click&quot; Name=&quot;AddList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Добавить&lt;/Button&gt;  &#10;&#10;        &lt;ListView Grid.Column=&quot;0&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;ListView&quot;&#10;                  MouseDoubleClick=&quot;ListSelected_Click&quot;&gt;&#10;            &#10;        &lt;/ListView&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
-                <marker date="1562580065969" expanded="true" signature="503:3413" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;    &#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;20*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox Name=&quot;Inn&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Click=&quot;ButtonDataUpdate_Click&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt; &lt;DataGrid Grid.Column=&quot;2&quot;&#10;                Grid.ColumnSpan=&quot;2&quot;&#10;                Grid.Row=&quot;2&quot;&#10;                AutoGenerateColumns=&quot;False&quot; &#10;                HorizontalAlignment=&quot;Center&quot; &#10;                Name=&quot;CompanyTable&quot; &#10;                VerticalAlignment=&quot;Top&quot;&#10;                DataContext=&quot;Binding ElementName=DataEntrydataGrid&quot;&gt;&#10;          &#10;          &lt;DataGrid.Columns &gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Inn}&quot; MinWidth=&quot;50&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Name}&quot; MinWidth=&quot;50&quot; MaxWidth=&quot;300&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Score}&quot; MinWidth=&quot;50&quot; /&gt;&#10;        &lt;/DataGrid.Columns&gt;&#10;      &lt;/DataGrid&gt; &lt;TextBox Name=&quot;Inn2&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Click=&quot;ButtonMarkersUpdate_Click&quot; Grid.Column=&quot;5&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt; &lt;DataGrid Grid.Column=&quot;4&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  AutoGenerateColumns=&quot;False&quot; &#10;                  HorizontalAlignment=&quot;Center&quot; &#10;                  Name=&quot;MarkersTable&quot; &#10;                  VerticalAlignment=&quot;Top&quot;&gt;&#10;            &lt;DataGrid.Columns&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Colour}&quot; MaxWidth=&quot;17&quot; /&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Description}&quot; MinWidth=&quot;50&quot; /&gt;&#10;            &lt;/DataGrid.Columns&gt;&#10;        &lt;/DataGrid&gt; &lt;TextBox Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Name=&quot;ListName&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Click=&quot;ButtonAddList_Click&quot; Name=&quot;AddList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Добавить&lt;/Button&gt; &lt;ListView Grid.Column=&quot;0&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;ListView&quot;&#10;                  MouseDoubleClick=&quot;ListSelected_Click&quot;&gt;&#10;            &#10;        &lt;/ListView&gt;.../&gt;" />
-                <marker date="1562580065969" expanded="true" signature="518:840" ph="&lt;&lt;ColumnDefinition Width=&quot;2*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;5*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;5*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;.../&gt;" />
-                <marker date="1562580065969" expanded="true" signature="858:1041" ph="&lt;&lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;2*&quot; /&gt; &lt;RowDefinition Height=&quot;20*&quot; /&gt;.../&gt;" />
-                <marker date="1562580065969" expanded="true" signature="1342:2002" ph="&lt;&lt;DataGrid.Columns &gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Inn}&quot; MinWidth=&quot;50&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Name}&quot; MinWidth=&quot;50&quot; MaxWidth=&quot;300&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Score}&quot; MinWidth=&quot;50&quot; /&gt;&#10;        &lt;/DataGrid.Columns&gt;.../&gt;" />
-                <marker date="1562580065969" expanded="true" signature="1691:1984" ph="&lt;&lt;DataGridTextColumn Binding=&quot;{Binding Path=Inn}&quot; MinWidth=&quot;50&quot; /&gt; &lt;DataGridTextColumn Binding=&quot;{Binding Path=Name}&quot; MinWidth=&quot;50&quot; MaxWidth=&quot;300&quot; /&gt; &lt;DataGridTextColumn Binding=&quot;{Binding Path=Score}&quot; MinWidth=&quot;50&quot; /&gt;.../&gt;" />
-                <marker date="1562580065969" expanded="true" signature="2316:2845" ph="&lt;&lt;DataGrid.Columns&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Colour}&quot; MaxWidth=&quot;17&quot; /&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Description}&quot; MinWidth=&quot;50&quot; /&gt;&#10;            &lt;/DataGrid.Columns&gt;.../&gt;" />
-                <marker date="1562580065969" expanded="true" signature="2600:2825" ph="&lt;&lt;DataGridTextColumn Binding=&quot;{Binding Path=Colour}&quot; MaxWidth=&quot;17&quot; /&gt; &lt;DataGridTextColumn Binding=&quot;{Binding Path=Description}&quot; MinWidth=&quot;50&quot; /&gt;.../&gt;" />
-                <marker date="1562580065969" expanded="true" signature="3174:3392" ph="&lt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="0:3435" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;    &#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;20*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;                &#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &#10;        &lt;TextBox Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Name=&quot;ListName&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;  &#10;        &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Click=&quot;ButtonAddList_Click&quot; Name=&quot;AddList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Добавить&lt;/Button&gt;  &#10;        &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot; Click=&quot;DeleteList_Click&quot; Name=&quot;DeleteList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Удалить&lt;/Button&gt;  &#10;        &#10;        &lt;ListView Grid.Column=&quot;0&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;ListView&quot;&#10;                  MouseDoubleClick=&quot;ListSelected_Click&quot;&gt;&#10;            &#10;        &lt;/ListView&gt;&#10;       &#10;        &#10;        &lt;TextBox Name=&quot;Inn&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;&#10;        &lt;Button Click=&quot;ButtonDataUpdate_Click&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt;     &#10;        &#10;        &lt;ListView Grid.Column=&quot;2&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;CompanyList&quot;&#10;                  MouseDoubleClick=&quot;CompanySelected_Click&quot;&gt;&#10;            &#10;            &lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;&#10;            &#10;        &lt;/ListView&gt;&#10;        &#10;        &#10;        &lt;ListView Grid.Column=&quot;4&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;MarkersList&quot;&#10;                  MouseDoubleClick=&quot;MarkerSelected_Click&quot;&gt;&#10;            &#10;            &lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;&#10;            &#10;        &lt;/ListView&gt;&#10;        &#10;        &#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="503:3425" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;    &#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;20*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;                &#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Name=&quot;ListName&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Click=&quot;ButtonAddList_Click&quot; Name=&quot;AddList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Добавить&lt;/Button&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot; Click=&quot;DeleteList_Click&quot; Name=&quot;DeleteList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Удалить&lt;/Button&gt; &lt;ListView Grid.Column=&quot;0&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;ListView&quot;&#10;                  MouseDoubleClick=&quot;ListSelected_Click&quot;&gt;&#10;            &#10;        &lt;/ListView&gt; &lt;TextBox Name=&quot;Inn&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Click=&quot;ButtonDataUpdate_Click&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt; &lt;ListView Grid.Column=&quot;2&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;CompanyList&quot;&#10;                  MouseDoubleClick=&quot;CompanySelected_Click&quot;&gt;&#10;            &#10;            &lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;&#10;            &#10;        &lt;/ListView&gt; &lt;ListView Grid.Column=&quot;4&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;MarkersList&quot;&#10;                  MouseDoubleClick=&quot;MarkerSelected_Click&quot;&gt;&#10;            &#10;            &lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;&#10;            &#10;        &lt;/ListView&gt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="518:840" ph="&lt;&lt;ColumnDefinition Width=&quot;2*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;5*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;5*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="858:1099" ph="&lt;&lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;2*&quot; /&gt; &lt;RowDefinition Height=&quot;20*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="1591:1809" ph="&lt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="2127:2797" ph="&lt;&lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="2344:2764" ph="&lt;&lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="2376:2735" ph="&lt;&lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt; &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt; &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="2824:3386" ph="&lt;&lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="3040:3353" ph="&lt;&lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;.../&gt;" />
+                <marker date="1562661797612" expanded="true" signature="3072:3324" ph="&lt;&lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt; &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -138,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state relative-caret-position="78">
+              <caret line="47" column="48" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="48" />
               <folding>
                 <marker date="1562582224669" expanded="false" signature="6:70" ph="..." />
                 <marker date="1562582224669" expanded="true" signature="94:4877" ph="{...}" />
@@ -166,41 +179,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDownload.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="29" column="63" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="63" />
-              <folding>
-                <marker date="1562224520118" expanded="false" signature="6:126" ph="..." />
-                <marker date="1562224520118" expanded="true" signature="150:1954" ph="{...}" />
-                <marker date="1562224520118" expanded="true" signature="196:1952" ph="{...}" />
-                <marker date="1562224520118" expanded="true" signature="306:364" ph="{...}" />
-                <marker date="1562224520118" expanded="true" signature="459:1111" ph="{...}" />
-                <marker date="1562224520118" expanded="true" signature="1167:1946" ph="{...}" />
-                <marker date="1562224520118" expanded="true" signature="1205:1936" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FocusScoring/ApiMethod.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="109" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="109" />
-              <folding>
-                <marker date="1562224411554" expanded="true" signature="22:195" ph="{...}" />
-                <marker date="1562224411554" expanded="true" signature="50:193" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+            <state relative-caret-position="481">
+              <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
               <folding>
                 <marker date="1562586187738" expanded="true" signature="6:170" ph="..." />
                 <marker date="1562586187738" expanded="true" signature="195:3142" ph="{...}" />
@@ -213,71 +195,6 @@
                 <marker date="1562586187738" expanded="true" signature="2413:2940" ph="{...}" />
                 <marker date="1562586187738" expanded="true" signature="2564:2930" ph="{...}" />
                 <marker date="1562586187738" expanded="true" signature="2971:3134" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FocusScoring/Settings.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-              <folding>
-                <marker date="1562234820942" expanded="true" signature="22:176" ph="{...}" />
-                <marker date="1562234820942" expanded="true" signature="57:174" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding>
-                <marker date="1562584318770" expanded="false" signature="6:115" ph="..." />
-                <marker date="1562584318770" expanded="true" signature="139:1463" ph="{...}" />
-                <marker date="1562584318770" expanded="true" signature="188:1162" ph="{...}" />
-                <marker date="1562584318770" expanded="true" signature="341:706" ph="{...}" />
-                <marker date="1562584318770" expanded="true" signature="830:1156" ph="{...}" />
-                <marker date="1562584318770" expanded="true" signature="1192:1461" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
-              <folding>
-                <marker date="1562582530180" expanded="true" signature="6:152" ph="..." />
-                <marker date="1562582530180" expanded="true" signature="176:15325" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="203:15323" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="360:5349" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="5501:5758" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="5853:5942" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="5995:6097" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="6147:6290" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="6347:6501" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="6580:6762" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="6812:6880" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="6918:7280" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="7411:7503" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="7547:15317" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="7602:15242" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="8541:9108" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="9529:9937" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="10362:10770" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="11127:11555" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="11979:12689" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="13322:13653" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="14298:14806" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="15006:15137" ph="{...}" />
-                <marker date="1562582530180" expanded="true" signature="15156:15232" ph="/* new Marker(&quot;&quot;,MarkerColour.Red,&quot;&quot;,, ... */" />
               </folding>
             </state>
           </provider>
@@ -300,6 +217,74 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/Marker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <marker date="1562659616595" expanded="true" signature="37:716" ph="{...}" />
+                <marker date="1562659616595" expanded="true" signature="63:647" ph="{...}" />
+                <marker date="1562659616595" expanded="true" signature="286:469" ph="{...}" />
+                <marker date="1562659616595" expanded="true" signature="677:714" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="248" column="12" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
+              <folding>
+                <marker date="1562656799072" expanded="false" signature="6:152" ph="..." />
+                <marker date="1562656799072" expanded="true" signature="176:15327" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="203:15325" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="360:5349" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="5501:5758" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="5853:5942" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="5995:6097" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="6147:6290" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="6347:6501" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="6580:6762" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="6812:6880" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="6918:7280" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="7411:7503" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="7547:15319" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="7602:15244" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="8541:9108" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="9529:9937" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="10362:10770" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="11127:11555" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="11979:12689" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="13322:13653" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="14298:14806" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="15006:15139" ph="{...}" />
+                <marker date="1562656799072" expanded="true" signature="15158:15234" ph="/* new Marker(&quot;&quot;,MarkerColour.Red,&quot;&quot;,, ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.MarkerSubData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <folding>
+                <marker date="1562658802359" expanded="false" signature="6:33" ph="..." />
+                <marker date="1562658802359" expanded="true" signature="60:1008" ph="{...}" />
+                <marker date="1562658802359" expanded="true" signature="98:1006" ph="{...}" />
+                <marker date="1562658802359" expanded="true" signature="140:636" ph="{...}" />
+                <marker date="1562658802359" expanded="true" signature="199:362" ph="{...}" />
+                <marker date="1562658802359" expanded="true" signature="708:1000" ph="{...}" />
+                <marker date="1562658802359" expanded="true" signature="746:990" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -314,6 +299,8 @@
       <find>mul</find>
       <find>True</find>
       <find>Serialize</find>
+      <find>7013</find>
+      <find>marg</find>
     </findStrings>
     <replaceStrings>
       <replace>Gr</replace>
@@ -333,10 +320,14 @@
     <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FocusScoringGUI/App.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoringGUI/MarkerDialog.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FocusScoringGUI/Light.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoringGUI/MarkerDialog.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FocusScoring/SingleXmlMemoryCache.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FocusScoring/ICache.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/432C438A-5C35-4A95-AE26-A9890E906C4B/33/e0015c96/MemoryMappedFile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.CompanyData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.MarkerSubData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A55D587-43EC-479C-866B-425E85A3236D/e1/e7fb2e75/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A55D587-43EC-479C-866B-425E85A3236D/85/a0a12f89/TimeSpan.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs" root0="FORCE_HIGHLIGHTING" />
@@ -374,15 +365,19 @@
         <option value="$PROJECT_DIR$/FocusScoring/Settings.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/XmlCache.cs" />
         <option value="$PROJECT_DIR$/FocusScoringGUI/DataGridClickable.cs" />
-        <option value="$PROJECT_DIR$/FocusScoring/Marker.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/ICache.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/XmlMemoryCache.cs" />
-        <option value="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml" />
-        <option value="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/ParamAccess.cs" />
-        <option value="$PROJECT_DIR$/FocusScoring/Company.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/DictionarySerializer.cs" />
         <option value="$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs" />
+        <option value="$PROJECT_DIR$/FocusScoringGUI/MainWindow.CompanyData.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/Company.cs" />
+        <option value="$PROJECT_DIR$/FocusScoringGUI/MainWindow.MarkerSubData.cs" />
+        <option value="$PROJECT_DIR$/FocusScoring/Marker.cs" />
+        <option value="$PROJECT_DIR$/FocusScoringGUI/MarkerDialog.xaml.cs" />
+        <option value="$PROJECT_DIR$/FocusScoringGUI/MarkerDialog.xaml" />
+        <option value="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -430,6 +425,12 @@
               <item name="FocusScoring" type="24d0babc:SolutionExplorerModelNode" />
               <item name="FocusScoringGUI" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MainWindow.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="FocusScoring" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="FocusScoringGUI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MarkerDialog.xaml" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -492,12 +493,12 @@
       <updated>1562047477135</updated>
       <workItem from="1562047478380" duration="17617000" />
       <workItem from="1562134509410" duration="55124000" />
-      <workItem from="1562565548442" duration="20744000" />
+      <workItem from="1562565548442" duration="33407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93485000" />
+    <option name="totallyTimeSpent" value="106148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,9 +510,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="7" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.16263238" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" weight="0.16263238" />
       <window_info id="Structure" order="1" sideWeight="0.5013405" side_tool="true" weight="0.12178517" />
       <window_info id="Favorites" order="2" sideWeight="0.502" side_tool="true" weight="0.15204236" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -529,7 +531,7 @@
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.3994638" />
       <window_info anchor="bottom" id="Build" order="14" weight="0.3297587" />
-      <window_info anchor="bottom" id="XAML Preview" order="15" />
+      <window_info anchor="bottom" id="XAML Preview" order="15" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -538,12 +540,12 @@
       <window_info anchor="right" id="Unit Tests Coverage" order="5" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" weight="0.10892587" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.16263238" />
       <window_info id="Structure" order="1" sideWeight="0.5013405" side_tool="true" weight="0.12178517" />
       <window_info id="Favorites" order="2" sideWeight="0.502" side_tool="true" weight="0.15204236" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23190348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23190348" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,7 +558,7 @@
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.3994638" />
       <window_info anchor="bottom" id="Build" order="14" weight="0.3297587" />
-      <window_info anchor="bottom" id="XAML Preview" order="15" />
+      <window_info anchor="bottom" id="XAML Preview" order="15" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -818,19 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/Marker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <marker date="1562567764185" expanded="true" signature="37:684" ph="{...}" />
-            <marker date="1562567764185" expanded="true" signature="63:615" ph="{...}" />
-            <marker date="1562567764185" expanded="true" signature="286:437" ph="{...}" />
-            <marker date="1562567764185" expanded="true" signature="645:682" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/ICache.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -858,24 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <marker date="1562580065969" expanded="true" signature="0:3423" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;    &#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;20*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &lt;TextBox Name=&quot;Inn&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;&#10;&#10;        &lt;Button Click=&quot;ButtonDataUpdate_Click&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt;     &#10;        &#10;      &lt;DataGrid Grid.Column=&quot;2&quot;&#10;                Grid.ColumnSpan=&quot;2&quot;&#10;                Grid.Row=&quot;2&quot;&#10;                AutoGenerateColumns=&quot;False&quot; &#10;                HorizontalAlignment=&quot;Center&quot; &#10;                Name=&quot;CompanyTable&quot; &#10;                VerticalAlignment=&quot;Top&quot;&#10;                DataContext=&quot;Binding ElementName=DataEntrydataGrid&quot;&gt;&#10;          &#10;          &lt;DataGrid.Columns &gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Inn}&quot; MinWidth=&quot;50&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Name}&quot; MinWidth=&quot;50&quot; MaxWidth=&quot;300&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Score}&quot; MinWidth=&quot;50&quot; /&gt;&#10;        &lt;/DataGrid.Columns&gt;&#10;      &lt;/DataGrid&gt;&#10;        &#10;        &lt;TextBox Name=&quot;Inn2&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;&#10;&#10;        &lt;Button Click=&quot;ButtonMarkersUpdate_Click&quot; Grid.Column=&quot;5&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt;    &#10;        &#10;        &lt;DataGrid Grid.Column=&quot;4&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  AutoGenerateColumns=&quot;False&quot; &#10;                  HorizontalAlignment=&quot;Center&quot; &#10;                  Name=&quot;MarkersTable&quot; &#10;                  VerticalAlignment=&quot;Top&quot;&gt;&#10;            &lt;DataGrid.Columns&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Colour}&quot; MaxWidth=&quot;17&quot; /&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Description}&quot; MinWidth=&quot;50&quot; /&gt;&#10;            &lt;/DataGrid.Columns&gt;&#10;        &lt;/DataGrid&gt;&#10;        &#10;        &#10;        &lt;TextBox Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Name=&quot;ListName&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;  &#10;        &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Click=&quot;ButtonAddList_Click&quot; Name=&quot;AddList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Добавить&lt;/Button&gt;  &#10;&#10;        &lt;ListView Grid.Column=&quot;0&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;ListView&quot;&#10;                  MouseDoubleClick=&quot;ListSelected_Click&quot;&gt;&#10;            &#10;        &lt;/ListView&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1562580065969" expanded="true" signature="503:3413" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;    &#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;20*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox Name=&quot;Inn&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Click=&quot;ButtonDataUpdate_Click&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt; &lt;DataGrid Grid.Column=&quot;2&quot;&#10;                Grid.ColumnSpan=&quot;2&quot;&#10;                Grid.Row=&quot;2&quot;&#10;                AutoGenerateColumns=&quot;False&quot; &#10;                HorizontalAlignment=&quot;Center&quot; &#10;                Name=&quot;CompanyTable&quot; &#10;                VerticalAlignment=&quot;Top&quot;&#10;                DataContext=&quot;Binding ElementName=DataEntrydataGrid&quot;&gt;&#10;          &#10;          &lt;DataGrid.Columns &gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Inn}&quot; MinWidth=&quot;50&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Name}&quot; MinWidth=&quot;50&quot; MaxWidth=&quot;300&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Score}&quot; MinWidth=&quot;50&quot; /&gt;&#10;        &lt;/DataGrid.Columns&gt;&#10;      &lt;/DataGrid&gt; &lt;TextBox Name=&quot;Inn2&quot; Grid.Column=&quot;4&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Click=&quot;ButtonMarkersUpdate_Click&quot; Grid.Column=&quot;5&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt; &lt;DataGrid Grid.Column=&quot;4&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  AutoGenerateColumns=&quot;False&quot; &#10;                  HorizontalAlignment=&quot;Center&quot; &#10;                  Name=&quot;MarkersTable&quot; &#10;                  VerticalAlignment=&quot;Top&quot;&gt;&#10;            &lt;DataGrid.Columns&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Colour}&quot; MaxWidth=&quot;17&quot; /&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Description}&quot; MinWidth=&quot;50&quot; /&gt;&#10;            &lt;/DataGrid.Columns&gt;&#10;        &lt;/DataGrid&gt; &lt;TextBox Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Name=&quot;ListName&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Click=&quot;ButtonAddList_Click&quot; Name=&quot;AddList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Добавить&lt;/Button&gt; &lt;ListView Grid.Column=&quot;0&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;ListView&quot;&#10;                  MouseDoubleClick=&quot;ListSelected_Click&quot;&gt;&#10;            &#10;        &lt;/ListView&gt;.../&gt;" />
-            <marker date="1562580065969" expanded="true" signature="518:840" ph="&lt;&lt;ColumnDefinition Width=&quot;2*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;5*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;5*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;.../&gt;" />
-            <marker date="1562580065969" expanded="true" signature="858:1041" ph="&lt;&lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;2*&quot; /&gt; &lt;RowDefinition Height=&quot;20*&quot; /&gt;.../&gt;" />
-            <marker date="1562580065969" expanded="true" signature="1342:2002" ph="&lt;&lt;DataGrid.Columns &gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Inn}&quot; MinWidth=&quot;50&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Name}&quot; MinWidth=&quot;50&quot; MaxWidth=&quot;300&quot; /&gt;&#10;          &lt;DataGridTextColumn Binding=&quot;{Binding Path=Score}&quot; MinWidth=&quot;50&quot; /&gt;&#10;        &lt;/DataGrid.Columns&gt;.../&gt;" />
-            <marker date="1562580065969" expanded="true" signature="1691:1984" ph="&lt;&lt;DataGridTextColumn Binding=&quot;{Binding Path=Inn}&quot; MinWidth=&quot;50&quot; /&gt; &lt;DataGridTextColumn Binding=&quot;{Binding Path=Name}&quot; MinWidth=&quot;50&quot; MaxWidth=&quot;300&quot; /&gt; &lt;DataGridTextColumn Binding=&quot;{Binding Path=Score}&quot; MinWidth=&quot;50&quot; /&gt;.../&gt;" />
-            <marker date="1562580065969" expanded="true" signature="2316:2845" ph="&lt;&lt;DataGrid.Columns&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Colour}&quot; MaxWidth=&quot;17&quot; /&gt;&#10;                &lt;DataGridTextColumn Binding=&quot;{Binding Path=Description}&quot; MinWidth=&quot;50&quot; /&gt;&#10;            &lt;/DataGrid.Columns&gt;.../&gt;" />
-            <marker date="1562580065969" expanded="true" signature="2600:2825" ph="&lt;&lt;DataGridTextColumn Binding=&quot;{Binding Path=Colour}&quot; MaxWidth=&quot;17&quot; /&gt; &lt;DataGridTextColumn Binding=&quot;{Binding Path=Description}&quot; MinWidth=&quot;50&quot; /&gt;.../&gt;" />
-            <marker date="1562580065969" expanded="true" signature="3174:3392" ph="&lt;.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/ApiMethod.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -883,108 +854,6 @@
           <folding>
             <marker date="1562224411554" expanded="true" signature="22:195" ph="{...}" />
             <marker date="1562224411554" expanded="true" signature="50:193" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/SingleXmlMemoryCache.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <marker date="1562569224847" expanded="false" signature="6:31" ph="..." />
-            <marker date="1562569224847" expanded="true" signature="55:752" ph="{...}" />
-            <marker date="1562569224847" expanded="true" signature="107:750" ph="{...}" />
-            <marker date="1562569224847" expanded="true" signature="323:564" ph="{...}" />
-            <marker date="1562569224847" expanded="true" signature="386:485" ph="{...}" />
-            <marker date="1562569224847" expanded="true" signature="639:744" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <marker date="1562580619936" expanded="false" signature="6:232" ph="..." />
-            <marker date="1562580619936" expanded="true" signature="260:3970" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="267:345" ph="/// Interaction logic for MainWindow.xaml ... " />
-            <marker date="1562580619936" expanded="true" signature="381:3968" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="589:1067" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="692:879" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="1103:1523" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="1161:1291" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="1607:2354" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="1885:2137" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="2424:2604" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="2678:2796" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="2867:3119" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="3204:3443" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="3444:3607" ph="/* private void CompanyRow_Selected(object s, MouseButtonEventArgs e) ... */" />
-            <marker date="1562580619936" expanded="true" signature="3670:3962" ph="{...}" />
-            <marker date="1562580619936" expanded="true" signature="3708:3952" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding>
-            <marker date="1562582224669" expanded="false" signature="6:70" ph="..." />
-            <marker date="1562582224669" expanded="true" signature="94:4877" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="128:4875" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="380:469" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="508:695" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="796:1483" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="993:1137" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="1194:1388" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="1588:2248" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="1768:1895" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="1952:2129" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="2342:2790" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="2414:2780" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="2514:2700" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="2879:3521" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="3052:3173" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="3230:3401" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="3610:3734" ph="{...}" />
-            <marker date="1562582224669" expanded="true" signature="3744:4868" ph="/* TODO dry ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
-          <folding>
-            <marker date="1562582530180" expanded="true" signature="6:152" ph="..." />
-            <marker date="1562582530180" expanded="true" signature="176:15325" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="203:15323" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="360:5349" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="5501:5758" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="5853:5942" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="5995:6097" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="6147:6290" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="6347:6501" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="6580:6762" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="6812:6880" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="6918:7280" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="7411:7503" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="7547:15317" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="7602:15242" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="8541:9108" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="9529:9937" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="10362:10770" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="11127:11555" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="11979:12689" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="13322:13653" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="14298:14806" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="15006:15137" ph="{...}" />
-            <marker date="1562582530180" expanded="true" signature="15156:15232" ph="/* new Marker(&quot;&quot;,MarkerColour.Red,&quot;&quot;,, ... */" />
           </folding>
         </state>
       </provider>
@@ -1015,10 +884,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/SingleXmlMemoryCache.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <marker date="1562569224847" expanded="false" signature="6:31" ph="..." />
+            <marker date="1562569224847" expanded="true" signature="55:752" ph="{...}" />
+            <marker date="1562569224847" expanded="true" signature="107:750" ph="{...}" />
+            <marker date="1562569224847" expanded="true" signature="323:564" ph="{...}" />
+            <marker date="1562569224847" expanded="true" signature="386:485" ph="{...}" />
+            <marker date="1562569224847" expanded="true" signature="639:744" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.CompanyData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <marker date="1562656433882" expanded="true" signature="46:610" ph="{...}" />
+            <marker date="1562656433882" expanded="true" signature="84:608" ph="{...}" />
+            <marker date="1562656433882" expanded="true" signature="124:602" ph="{...}" />
+            <marker date="1562656433882" expanded="true" signature="227:414" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FocusScoring/XmlDiscCache.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+        <state relative-caret-position="481">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding>
             <marker date="1562586187738" expanded="true" signature="6:170" ph="..." />
             <marker date="1562586187738" expanded="true" signature="195:3142" ph="{...}" />
@@ -1031,6 +928,172 @@
             <marker date="1562586187738" expanded="true" signature="2413:2940" ph="{...}" />
             <marker date="1562586187738" expanded="true" signature="2564:2930" ph="{...}" />
             <marker date="1562586187738" expanded="true" signature="2971:3134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/Marker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <marker date="1562659616595" expanded="true" signature="37:716" ph="{...}" />
+            <marker date="1562659616595" expanded="true" signature="63:647" ph="{...}" />
+            <marker date="1562659616595" expanded="true" signature="286:469" ph="{...}" />
+            <marker date="1562659616595" expanded="true" signature="677:714" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/Company.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="248" column="12" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
+          <folding>
+            <marker date="1562656799072" expanded="false" signature="6:152" ph="..." />
+            <marker date="1562656799072" expanded="true" signature="176:15327" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="203:15325" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="360:5349" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="5501:5758" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="5853:5942" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="5995:6097" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="6147:6290" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="6347:6501" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="6580:6762" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="6812:6880" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="6918:7280" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="7411:7503" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="7547:15319" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="7602:15244" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="8541:9108" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="9529:9937" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="10362:10770" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="11127:11555" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="11979:12689" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="13322:13653" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="14298:14806" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="15006:15139" ph="{...}" />
+            <marker date="1562656799072" expanded="true" signature="15158:15234" ph="/* new Marker(&quot;&quot;,MarkerColour.Red,&quot;&quot;,, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.MarkerSubData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <marker date="1562658802359" expanded="false" signature="6:33" ph="..." />
+            <marker date="1562658802359" expanded="true" signature="60:1008" ph="{...}" />
+            <marker date="1562658802359" expanded="true" signature="98:1006" ph="{...}" />
+            <marker date="1562658802359" expanded="true" signature="140:636" ph="{...}" />
+            <marker date="1562658802359" expanded="true" signature="199:362" ph="{...}" />
+            <marker date="1562658802359" expanded="true" signature="708:1000" ph="{...}" />
+            <marker date="1562658802359" expanded="true" signature="746:990" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MarkerDialog.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <marker date="1562661419533" expanded="true" signature="0:3217" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;8*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;    &#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &#10;        &lt;Label Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot;&gt; Наименование: &lt;/Label&gt;&#10;        &lt;TextBox Grid.Column=&quot;1&quot; Grid.Row=&quot;0&quot; Name = &quot;Name&quot; &#10;                 HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;/&gt;&#10;        &#10;        &lt;Label Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot;&gt; Категория: &lt;/Label&gt;&#10;        &lt;ComboBox Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Name=&quot;Colour&quot;&#10;                  HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;            &lt;ComboBoxItem&gt;Зеленый&lt;/ComboBoxItem&gt;&#10;            &lt;ComboBoxItem&gt;Желтый&lt;/ComboBoxItem&gt;&#10;            &lt;ComboBoxItem&gt;Красный&lt;/ComboBoxItem&gt;&#10;        &lt;/ComboBox&gt;&#10;        &#10;        &lt;Label Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot;&gt; Важность: &lt;/Label&gt;&#10;        &lt;ComboBox Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Name=&quot;Importance&quot; &#10;                  HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;/&gt;&#10;        &#10;        &lt;Label Grid.Column=&quot;0&quot; Grid.Row=&quot;3&quot;&gt; Описание: &lt;/Label&gt;&#10;        &lt;TextBox Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;&#10;                 HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&#10;                 TextWrapping=&quot;Wrap&quot; &#10;                 AcceptsReturn=&quot;True&quot; &#10;                 Name = &quot;Description&quot; &#10;                 MinHeight=&quot;50&quot; /&gt;&#10;&#10;        &lt;Label Grid.Column=&quot;0&quot; Grid.ColumnSpan=&quot;2&quot; Grid.Row=&quot;4&quot;&gt; Код маркера: &lt;/Label&gt;&#10;        &lt;TextBox Grid.Column=&quot;0&quot; Grid.ColumnSpan=&quot;2&quot; Grid.Row=&quot;5&quot;&#10;                 TextWrapping=&quot;Wrap&quot; &#10;                 AcceptsReturn=&quot;True&quot; &#10;                 AcceptsTab=&quot;True&quot; &#10;                 VerticalScrollBarVisibility=&quot;Visible&quot;&#10;                 HorizontalScrollBarVisibility=&quot;Auto&quot;&#10;                 Name = &quot;Code&quot; &#10;                 MinHeight=&quot;50&quot;/&gt;&#10;        &#10;        &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;6&quot; Name=&quot;Cansel&quot; Click=&quot;Cansel_OnClick&quot;&#10;                HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt; Cancel &lt;/Button&gt;&#10;        &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot; Name=&quot;Ok&quot; Click=&quot;Ok_OnClick&quot; &#10;                Width=&quot;80&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt; Ok &lt;/Button&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="707:3207" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;8*&quot; /&gt;&#10;            &lt;RowDefinition  Height=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;    &#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot; Grid.Row=&quot;0&quot;&gt; Наименование: &lt;/Label&gt; &lt;TextBox Grid.Column=&quot;1&quot; Grid.Row=&quot;0&quot; Name = &quot;Name&quot; &#10;                 HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;/&gt; &lt;Label Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot;&gt; Категория: &lt;/Label&gt; &lt;ComboBox Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Name=&quot;Colour&quot;&#10;                  HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;            &lt;ComboBoxItem&gt;Зеленый&lt;/ComboBoxItem&gt;&#10;            &lt;ComboBoxItem&gt;Желтый&lt;/ComboBoxItem&gt;&#10;            &lt;ComboBoxItem&gt;Красный&lt;/ComboBoxItem&gt;&#10;        &lt;/ComboBox&gt; &lt;Label Grid.Column=&quot;0&quot; Grid.Row=&quot;2&quot;&gt; Важность: &lt;/Label&gt; &lt;ComboBox Grid.Column=&quot;1&quot; Grid.Row=&quot;2&quot; Name=&quot;Importance&quot; &#10;                  HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;/&gt; &lt;Label Grid.Column=&quot;0&quot; Grid.Row=&quot;3&quot;&gt; Описание: &lt;/Label&gt; &lt;TextBox Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot;&#10;                 HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&#10;                 TextWrapping=&quot;Wrap&quot; &#10;                 AcceptsReturn=&quot;True&quot; &#10;                 Name = &quot;Description&quot; &#10;                 MinHeight=&quot;50&quot; /&gt; &lt;Label Grid.Column=&quot;0&quot; Grid.ColumnSpan=&quot;2&quot; Grid.Row=&quot;4&quot;&gt; Код маркера: &lt;/Label&gt; &lt;TextBox Grid.Column=&quot;0&quot; Grid.ColumnSpan=&quot;2&quot; Grid.Row=&quot;5&quot;&#10;                 TextWrapping=&quot;Wrap&quot; &#10;                 AcceptsReturn=&quot;True&quot; &#10;                 AcceptsTab=&quot;True&quot; &#10;                 VerticalScrollBarVisibility=&quot;Visible&quot;&#10;                 HorizontalScrollBarVisibility=&quot;Auto&quot;&#10;                 Name = &quot;Code&quot; &#10;                 MinHeight=&quot;50&quot;/&gt; &lt;Button Grid.Column=&quot;0&quot; Grid.Row=&quot;6&quot; Name=&quot;Cansel&quot; Click=&quot;Cansel_OnClick&quot;&#10;                HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt; Cancel &lt;/Button&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;6&quot; Name=&quot;Ok&quot; Click=&quot;Ok_OnClick&quot; &#10;                Width=&quot;80&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt; Ok &lt;/Button&gt;.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="722:1075" ph="&lt;&lt;RowDefinition  Height=&quot;1*&quot; /&gt; &lt;RowDefinition  Height=&quot;1*&quot; /&gt; &lt;RowDefinition  Height=&quot;1*&quot; /&gt; &lt;RowDefinition  Height=&quot;2*&quot; /&gt; &lt;RowDefinition  Height=&quot;1*&quot; /&gt; &lt;RowDefinition  Height=&quot;8*&quot; /&gt; &lt;RowDefinition  Height=&quot;1*&quot; /&gt;.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="1093:1243" ph="&lt;&lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="1338:1463" ph="&lt;.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="1546:1837" ph="&lt;&lt;ComboBoxItem&gt;Зеленый&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;Желтый&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;Красный&lt;/ComboBoxItem&gt;.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="1919:2050" ph="&lt;.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="2132:2391" ph="&lt;.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="2488:2833" ph="&lt;.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="2851:3014" ph="&lt;Cancel.../&gt;" />
+            <marker date="1562661419533" expanded="true" signature="3023:3186" ph="&lt;Ok.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MarkerDialog.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <marker date="1562661197382" expanded="true" signature="6:74" ph="..." />
+            <marker date="1562661197382" expanded="true" signature="101:992" ph="{...}" />
+            <marker date="1562661197382" expanded="true" signature="150:990" ph="{...}" />
+            <marker date="1562661197382" expanded="true" signature="199:721" ph="{...}" />
+            <marker date="1562661197382" expanded="true" signature="792:833" ph="{...}" />
+            <marker date="1562661197382" expanded="true" signature="943:984" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoring/ParamAccess.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="48" />
+          <folding>
+            <marker date="1562582224669" expanded="false" signature="6:70" ph="..." />
+            <marker date="1562582224669" expanded="true" signature="94:4877" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="128:4875" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="380:469" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="508:695" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="796:1483" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="993:1137" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="1194:1388" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="1588:2248" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="1768:1895" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="1952:2129" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="2342:2790" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="2414:2780" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="2514:2700" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="2879:3521" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="3052:3173" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="3230:3401" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="3610:3734" ph="{...}" />
+            <marker date="1562582224669" expanded="true" signature="3744:4868" ph="/* TODO dry ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <marker date="1562661797612" expanded="true" signature="0:3435" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;    &#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;20*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;                &#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &#10;        &lt;TextBox Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Name=&quot;ListName&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;  &#10;        &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Click=&quot;ButtonAddList_Click&quot; Name=&quot;AddList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Добавить&lt;/Button&gt;  &#10;        &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot; Click=&quot;DeleteList_Click&quot; Name=&quot;DeleteList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Удалить&lt;/Button&gt;  &#10;        &#10;        &lt;ListView Grid.Column=&quot;0&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;ListView&quot;&#10;                  MouseDoubleClick=&quot;ListSelected_Click&quot;&gt;&#10;            &#10;        &lt;/ListView&gt;&#10;       &#10;        &#10;        &lt;TextBox Name=&quot;Inn&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt;&#10;        &lt;Button Click=&quot;ButtonDataUpdate_Click&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt;     &#10;        &#10;        &lt;ListView Grid.Column=&quot;2&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;CompanyList&quot;&#10;                  MouseDoubleClick=&quot;CompanySelected_Click&quot;&gt;&#10;            &#10;            &lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;&#10;            &#10;        &lt;/ListView&gt;&#10;        &#10;        &#10;        &lt;ListView Grid.Column=&quot;4&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;MarkersList&quot;&#10;                  MouseDoubleClick=&quot;MarkerSelected_Click&quot;&gt;&#10;            &#10;            &lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;&#10;            &#10;        &lt;/ListView&gt;&#10;        &#10;        &#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="503:3425" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;5*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;    &#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;20*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;1*&quot; /&gt;                &#10;        &lt;/Grid.RowDefinitions&gt; &lt;TextBox Grid.Column=&quot;0&quot; Grid.Row=&quot;1&quot; Name=&quot;ListName&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;1&quot; Click=&quot;ButtonAddList_Click&quot; Name=&quot;AddList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Добавить&lt;/Button&gt; &lt;Button Grid.Column=&quot;1&quot; Grid.Row=&quot;3&quot; Click=&quot;DeleteList_Click&quot; Name=&quot;DeleteList&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;&gt;Удалить&lt;/Button&gt; &lt;ListView Grid.Column=&quot;0&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;ListView&quot;&#10;                  MouseDoubleClick=&quot;ListSelected_Click&quot;&gt;&#10;            &#10;        &lt;/ListView&gt; &lt;TextBox Name=&quot;Inn&quot; Grid.Column=&quot;2&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; MinWidth=&quot;120&quot;/&gt; &lt;Button Click=&quot;ButtonDataUpdate_Click&quot; Grid.Column=&quot;3&quot; Grid.Row=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; &gt;Поиск&lt;/Button&gt; &lt;ListView Grid.Column=&quot;2&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;CompanyList&quot;&#10;                  MouseDoubleClick=&quot;CompanySelected_Click&quot;&gt;&#10;            &#10;            &lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;&#10;            &#10;        &lt;/ListView&gt; &lt;ListView Grid.Column=&quot;4&quot;&#10;                  Grid.ColumnSpan=&quot;2&quot;&#10;                  Grid.Row=&quot;2&quot;&#10;                  Name=&quot;MarkersList&quot;&#10;                  MouseDoubleClick=&quot;MarkerSelected_Click&quot;&gt;&#10;            &#10;            &lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;&#10;            &#10;        &lt;/ListView&gt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="518:840" ph="&lt;&lt;ColumnDefinition Width=&quot;2*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;5*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt; &lt;ColumnDefinition Width=&quot;5*&quot; /&gt; &lt;ColumnDefinition Width=&quot;1*&quot; /&gt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="858:1099" ph="&lt;&lt;RowDefinition Height=&quot;1*&quot; /&gt; &lt;RowDefinition Height=&quot;2*&quot; /&gt; &lt;RowDefinition Height=&quot;20*&quot; /&gt; &lt;RowDefinition Height=&quot;1*&quot; /&gt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="1591:1809" ph="&lt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="2127:2797" ph="&lt;&lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="2344:2764" ph="&lt;&lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="2376:2735" ph="&lt;&lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Inn}&quot;&gt;Инн&lt;/GridViewColumn&gt; &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Name}&quot; Width=&quot;100&quot;&gt;Компания&lt;/GridViewColumn&gt; &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Score}&quot;&gt;Рейтинг&lt;/GridViewColumn&gt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="2824:3386" ph="&lt;&lt;ListView.View&gt;&#10;                &lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;&#10;            &lt;/ListView.View&gt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="3040:3353" ph="&lt;&lt;GridView&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt;&#10;                    &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;&#10;                &lt;/GridView&gt;.../&gt;" />
+            <marker date="1562661797612" expanded="true" signature="3072:3324" ph="&lt;&lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Colour}&quot;&gt;Инн&lt;/GridViewColumn&gt; &lt;GridViewColumn DisplayMemberBinding=&quot;{Binding Path=Description}&quot;&gt;Компания&lt;/GridViewColumn&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FocusScoringGUI/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
+          <folding>
+            <marker date="1562663174504" expanded="false" signature="6:232" ph="..." />
+            <marker date="1562663174504" expanded="true" signature="260:3255" ph="{...}" />
+            <marker date="1562663174504" expanded="true" signature="267:345" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1562663174504" expanded="true" signature="381:3253" ph="{...}" />
+            <marker date="1562663174504" expanded="true" signature="627:1373" ph="{...}" />
+            <marker date="1562663174504" expanded="true" signature="905:1157" ph="{...}" />
+            <marker date="1562663174504" expanded="true" signature="1445:1592" ph="{...}" />
+            <marker date="1562663174504" expanded="true" signature="1665:2017" ph="{...}" />
+            <marker date="1562663174504" expanded="true" signature="2087:2335" ph="{...}" />
+            <marker date="1562663174504" expanded="true" signature="2409:2607" ph="{...}" />
+            <marker date="1562663174504" expanded="true" signature="2678:2988" ph="{...}" />
+            <marker date="1562663174504" expanded="true" signature="3061:3247" ph="{...}" />
           </folding>
         </state>
       </provider>

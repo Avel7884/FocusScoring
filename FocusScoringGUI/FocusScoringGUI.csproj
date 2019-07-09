@@ -57,14 +57,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DataGridClickable.cs" />
     <Compile Include="Light.cs" />
+    <Compile Include="MainWindow.CompanyData.cs" />
+    <Compile Include="MainWindow.MarkerSubData.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MarkerDialog.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MarkerDialog.xaml.cs">
+      <DependentUpon>MarkerDialog.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
