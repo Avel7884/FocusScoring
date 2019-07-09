@@ -51,7 +51,7 @@
             <ListView.View>
                 <GridView>
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Inn}">Инн</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="100">Компания</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Marker.Name}" Width="100">Компания</GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Score}">Рейтинг</GridViewColumn>
                 </GridView>
             </ListView.View>
@@ -74,7 +74,7 @@
             
         </ListView>
         
-        
+        <Button Name="AllMarkers" Click="AllMarkers_OnClick" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center">Все маркеры</Button>     
         
     </Grid>
 </Window>

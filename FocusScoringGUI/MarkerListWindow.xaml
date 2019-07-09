@@ -1,0 +1,21 @@
+<Window x:Class="FocusScoringGUI.MarkerListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:FocusScoringGUI"
+        mc:Ignorable="d"
+        Title="MarkerListWindow" Height="450" Width="1450">
+        
+        <ListView Name="MarkersList">
+            
+                <ListView.View>
+                        <GridView>
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Colour}"/>
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Marker.Name}">Название</GridViewColumn>
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Description}">Описание</GridViewColumn>
+                        </GridView>
+                </ListView.View>
+            
+        </ListView>
+</Window>

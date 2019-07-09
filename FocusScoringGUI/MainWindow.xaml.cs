@@ -70,7 +70,7 @@ namespace FocusScoringGUI
 
         private void ButtonDataUpdate_Click(object s, RoutedEventArgs e)
         {
-            if (Inn.Text != "")//TODO Checks with regex 
+            if (Inn.Text == "")//TODO Checks with regex 
                 return;
             CurrentList.Add(new CompanyData(Inn.Text));
             CompanyList.Items.Refresh();
@@ -93,6 +93,11 @@ namespace FocusScoringGUI
                 return;
             Lists.Remove((string) ListView.SelectedItem);
             ListView.Items.Refresh();
+        }
+        
+        private void AllMarkers_OnClick(object sender, RoutedEventArgs e)
+        {
+            new MarkerListWindow().Show();
         }
     }
 }

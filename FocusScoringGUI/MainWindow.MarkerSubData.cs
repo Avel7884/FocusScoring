@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Windows;
 using FocusScoring;
 
 namespace FocusScoringGUI
 {
     public partial class MainWindow
     {
-        private class MarkerSubData
+        internal class MarkerSubData
         {
 
             public MarkerSubData(Marker marker)
@@ -23,13 +24,16 @@ namespace FocusScoringGUI
             public string Description { get; }
         }
         
-        internal static string ColourCode(MarkerColour colour)
+        private static string ColourCode(MarkerColour colour)
         {
             switch (colour)
             {
                 case MarkerColour.Green: return "Ok";
                 case MarkerColour.Red: return "X";
                 case MarkerColour.Yellow: return "*";
+                case MarkerColour.GreenAffiliates: return "OkOk";
+                case MarkerColour.RedAffiliates: return "XX";
+                case MarkerColour.YellowAffiliates: return "**";
                 default: throw new AggregateException();
             }
         }

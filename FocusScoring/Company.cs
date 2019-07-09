@@ -10,7 +10,7 @@ namespace FocusScoring
     public class Company
     {
         private string inn;
-        private Dictionary<string, (ApiMethod, string)> paramDict = new Dictionary<string, (ApiMethod, string)>()
+        private static Dictionary<string, (ApiMethod, string)> paramDict = new Dictionary<string, (ApiMethod, string)>()
         {
             {"Short",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/short") },
             {"Full",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/full") },
@@ -147,8 +147,15 @@ namespace FocusScoring
 
         private Dictionary<string, Marker> markers;
 
-        private List<Marker> markersList;
+        private static List<Marker> markersList;
 
+        
+        //TODO move in another class, also refactor
+        public static Company DummyCompany = new Company();
+        public Marker[] GetAllMarkers => markersList.ToArray();
+
+        
+        
         public Marker[] GetMarkers()
         {
             return markersList.Where(marker=>marker.Check()).ToArray();

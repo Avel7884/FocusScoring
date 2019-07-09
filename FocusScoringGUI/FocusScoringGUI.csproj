@@ -65,10 +65,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MarkerDialog.xaml" />
+    <Page Include="MarkerListWindow.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MarkerDialog.xaml.cs">
       <DependentUpon>MarkerDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MarkerListWindow.xaml.cs">
+      <DependentUpon>MarkerListWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
