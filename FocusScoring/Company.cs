@@ -85,10 +85,11 @@ namespace FocusScoring
         
         private Dictionary<string, (ApiMethod, string,string)> multiParamDict = new Dictionary<string, (ApiMethod, string,string)>()
         {
-            {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolving")},
-            {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolved")},
+            {"SumAffiliates", (ApiMethod.companyAffiliatesegrDetails, "/ArrayOfegrDetails/egrDetails/UL/statedCapital", "sum")},
             {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s1001")},
             {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s6004")},
+            {"s2003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s2003")},
+            {"s2001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s2001")},
         };
 
         private ParamAccess access;
@@ -172,15 +173,17 @@ namespace FocusScoring
             {
                 new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,"Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
                     () => GetParam("Dissolving") == "true" || GetParam("Dissolved") == "true"),
+                
                 new Marker("Вероятное банкрротство организации", MarkerColour.Red,"Обнаружены арбитражные дела о банкротстве за последние 3 месяца \n " +
                 "Обнаружены сообщение о банкротстве за последние 12 месяцев \n " +
                 "Обнаружены признаки завершенной процедуры банкротства", 5,
                     () => GetParam("m7013") == "true" || GetParam("m7014") == "true" || GetParam("m7016") == "true"),
+                
                 new Marker("Критическая сумма исполнительных производств", MarkerColour.Red, "Критическая сумма исполнительных производств " +
                                                       "(сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) " +
                                                       "и более суммы уставного капитала, и более 100 тыс. руб.", 4,
                     () =>
-                    {
+                    { //TODO possible error need consideration...  or not  
                         if(DoubleTryParse("Sum",out double sum) && DoubleTryParse("s1001",out double a) && DoubleTryParse("s6004",out double b))
                             return a > (0.2 * b) && a > sum & a > 100000;
                         return false;
@@ -209,6 +212,7 @@ namespace FocusScoring
                             return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
                         return false;
                     }),
+                
                   new Marker("Критический сумма арбитражных дел в качестве истца", MarkerColour.Red, "Критическая сумма арбитражных дел в качестве ответчика." +
                   "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период и более суммы уставного капитала, " +
                   "и более 500 тыс. руб.",1,
@@ -217,6 +221,7 @@ namespace FocusScoring
                            return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
                   }),
+                
                 new Marker("Критический сумма арбитражных дел в качестве ответчика", MarkerColour.Red, "Критическая сумма арбитражных дел в качестве истца." +
                                                       "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период" +
                                                       "и более суммы уставного капитала, и более 500 тыс. руб.", 1,
@@ -252,14 +257,15 @@ namespace FocusScoring
                     3,
                     () => { return GetParam("m7022") == "true"; }),
 
-                    new Marker("Более половины связных организаций в стадии ликвидации",MarkerColour.Red,"У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией",4,
+                new Marker("Более половины связных организаций в стадии ликвидации",MarkerColour.RedAffiliates,"У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией",4,
                     ()=>{
                     var Dissolved = GetMultiParam("DissolvedAffiliates").Length;
                     var Dissolving = GetMultiParam("DissolvingAffiliates").Length;
                     int affiliatesCount = GetMultiParam("InnAffilalates").Length;
                         return (Dissolved+Dissolving)/affiliatesCount * 100 > 50;
                     }),
-                    new Marker("Более половины связных организаций имеют признаки банкротства",MarkerColour.Red,"У более чем 50% связанных организаций присутствуют маркеры, свидетельствующие о вероятном банкротстве компаний",5,
+                
+                new Marker("Более половины связных организаций имеют признаки банкротства",MarkerColour.RedAffiliates,"У более чем 50% связанных организаций присутствуют маркеры, свидетельствующие о вероятном банкротстве компаний",5,
                     ()=>{
                         //TODO Check for interceptions
                        int affiliatesCount = GetMultiParam("InnAffilalates").Length;
@@ -268,7 +274,8 @@ namespace FocusScoring
                        var m7016 = GetMultiParam("m7016Affiliates").Length;
                         return (m7013 + m7014 + m7016 )/affiliatesCount * 100 > 50;
                     }),
-                    new Marker("Выручка по группе компаний снизилась более, чем на 50%",MarkerColour.Red,"Выручка по группе компаний снизилась более, чем на 50%",3,
+                
+                new Marker("Выручка по группе компаний снизилась более, чем на 50%",MarkerColour.RedAffiliates,"Выручка по группе компаний снизилась более, чем на 50%",3,
                     ()=>{
                         //TODO Check for correct
                         double s6004;
@@ -277,11 +284,51 @@ namespace FocusScoring
                         s6003 = GetMultiParam("s6003Affiliates").Select(x=>x.Replace('.',',')).Sum(x=>double.Parse(x));
                         return s6004 < 0.5 * s6003;
                     }),
-                    //new Marker("Критическая сумма исполнительных производств по группе компаний",MarkerColour.Red,"Критическая сумма исполнительных производств по группе компаний",4,
-                    //()=>{
+                
+                new Marker("Критическая сумма исполнительных производств по группе компаний",MarkerColour.RedAffiliates,"Критическая сумма исполнительных производств по группе компаний",4,
+                    () =>
+                    {
+                        var revs = GetMultiParam2("s6004Affiliates");
+                        var cases = GetMultiParam2("s1001Affiliates");
+                        var sums = GetMultiParam2("SumAffiliates");
+                        
+                        if(revs.Length != cases.Length || sums.Length != cases.Length) //TODO check and remove exception
+                            throw new Exception("Looks like we will need to rewrite getmultipatams once again");
 
-                    //}),
-                    new Marker("Организация в процессе реорганизации",MarkerColour.Yellow,"Находится в процессе реорганизации в форме присоединения к другому юридическому лицу (слияние, присоединение и т.д.)",3,
+                        var count = .0;
+                        for(int i=0;i<sums.Length;i++)
+                            if(DoubleTryParse(sums[i],out double sum) && 
+                               DoubleTryParse(cases[i],out double a) && 
+                               DoubleTryParse(revs[i],out double b))
+                                if (a > (0.2 * b) && a > sum & a > 100000)
+                                    count += 1;
+
+                        return count / sums.Length > 0.3;
+
+                    }),
+                
+                new Marker("критическая сумма арбитражных дел по группе компаний",MarkerColour.RedAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",1,
+                    () => //TODO Test and check 
+                    {
+                        var casesIst = GetMultiParam2("s2003Affiliates");
+                        var sums = GetMultiParam2("SumAffiliates");
+                        var revs = GetMultiParam2("s6004Affiliates");
+                        var casesOtv = GetMultiParam2("s2001Affiliates");
+
+                        var count = .0; 
+                        for (int i = 0; i < sums.Length;i++)
+                            if(DoubleTryParse(revs[i],out double rev) && 
+                               DoubleTryParse(sums[i],out double sum) &&
+                               ((DoubleTryParse(casesIst[i], out double caseIst) &&
+                                 (caseIst > (0.2 * rev)) & (caseIst > 500000) & (caseIst > sum)) ||
+                                (DoubleTryParse(casesIst[i], out double caseOtv) &&
+                                 (caseOtv > (0.2 * rev)) & (caseOtv > 500000) & (caseOtv > sum))))
+                                count += 1;
+
+                        return count / sums.Length > 0.3;
+                    }),
+                
+                new Marker("Организация в процессе реорганизации",MarkerColour.Yellow,"Находится в процессе реорганизации в форме присоединения к другому юридическому лицу (слияние, присоединение и т.д.)",3,
                     ()=>{return GetParam("Reorganizing")=="true";}),
                     new Marker("Директор и учредитель одно физическое лицо",MarkerColour.Yellow,"Директор и учредитель одно физическое лицо",1,
                     ()=>{
@@ -289,7 +336,8 @@ namespace FocusScoring
                         var b = GetMultiParam("FounderFL");
                         return a.Any(x=>b.Any(y=>x==y));
                     }),
-                    new Marker("Среди учредителей найдены иностранные лица",MarkerColour.Yellow,"Среди учредителей найдены иностранные лица",1,
+                
+                new Marker("Среди учредителей найдены иностранные лица",MarkerColour.Yellow,"Среди учредителей найдены иностранные лица",1,
                     ()=>{return GetParam("FoundersForeign")=="";}),
                     new Marker("Значительная сумма исполнительных производств",MarkerColour.Yellow,"Значительная сумма исполнительных производств. " +
                     "Т.е. сумма исполнительных производств составляет более 10% от выручки организации за последний отчетный период " +
@@ -301,19 +349,26 @@ namespace FocusScoring
                             return  a > 0.1 * b & a > sum & a > 100000;
                         return false;
                     }),
-                    new Marker("Исполнительные производства (заработная плата)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является заработная плата",5,
+                
+                new Marker("Исполнительные производства (заработная плата)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является заработная плата",5,
                     ()=>{return GetParam("m1003")=="true";}),
-                    new Marker("Исполнительные производства (наложение ареста)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является наложение ареста",5,
+                
+                new Marker("Исполнительные производства (наложение ареста)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является наложение ареста",5,
                     ()=>{return GetParam("m1004")=="true";}),
-                    new Marker("Исполнительные производства (кредитные платежи)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является кредитные платежи",5,
+                
+                new Marker("Исполнительные производства (кредитные платежи)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является кредитные платежи",5,
                     ()=>{return GetParam("m1005")=="true";}),
-                    new Marker("Исполнительные производства (взыскание заложенного имущества",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является обращение взыскания на заложенное имущество",3,
+                
+                new Marker("Исполнительные производства (взыскание заложенного имущества",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является обращение взыскания на заложенное имущество",3,
                     ()=>{return GetParam("m1006")=="true";}),
-                    new Marker("Исполнительные производства (налоги и сборы)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых являются налоги и сборы",4,
+                
+                new Marker("Исполнительные производства (налоги и сборы)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых являются налоги и сборы",4,
                     ()=>{return GetParam("s1007")=="true";}),
-                    new Marker("Исполнительные производства (страховые взносы)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых являются страховые взносы",4,
+                
+                new Marker("Исполнительные производства (страховые взносы)",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых являются страховые взносы",4,
                     ()=>{return GetParam("s1008")=="true";}),
-                    //new Marker("Значительный рост суммы арбитражных дел в качестве истеца",MarkerColour.Yellow,"Значительный рост суммы арбитражных дел в качестве истца за последние 12 месяцев. " +
+                
+                //new Marker("Значительный рост суммы арбитражных дел в качестве истеца",MarkerColour.Yellow,"Значительный рост суммы арбитражных дел в качестве истца за последние 12 месяцев. " +
                     //"Т.е. сумма дел за последние 12 месяцев составляет более 30% по сравнению с суммой дел за предыдущие 2 года. " +
                     //"При этом сумма арбитражных дел за последние 12 месяцев более 1 млн. руб.," +
                     //"а рост составил 500 тыс. руб.",1,
@@ -340,24 +395,33 @@ namespace FocusScoring
                     //"Т.е сумма дел за последние 12 месяцев составляет более 10% от выручки организации за последний отчетный период " +
                     //"и более суммы уставного капитала, и более 500 тыс. руб.",1,
                     //()=>{ }),
-                    new Marker("Отсутствует связь по юр. адресу",MarkerColour.Yellow,"Организация была найдена в списке организаций, связь с которыми по указанному или юридическому адресу отсутствует(ФНС)",3,
+                
+                new Marker("Отсутствует связь по юр. адресу",MarkerColour.Yellow,"Организация была найдена в списке организаций, связь с которыми по указанному или юридическому адресу отсутствует(ФНС)",3,
                     ()=>{return GetParam("m5002")=="true";}),
-                    new Marker("Недостоверные сведение об адресе",MarkerColour.Yellow,"В ЕГРЮЛ указан  признак недостоверности сведений в отношении адреса",4,
+                
+                new Marker("Недостоверные сведение об адресе",MarkerColour.Yellow,"В ЕГРЮЛ указан  признак недостоверности сведений в отношении адреса",4,
                     ()=>{return GetParam("m5006")=="true";}),
-                    new Marker("Недостоверные сведения о руководителе или учредителе",MarkerColour.Yellow,"В ЕГРЮЛ указан признак недостоверности сведений в отношении руководителя или учредителей",5,
+                
+                new Marker("Недостоверные сведения о руководителе или учредителе",MarkerColour.Yellow,"В ЕГРЮЛ указан признак недостоверности сведений в отношении руководителя или учредителей",5,
                     ()=>{return GetParam("m5007")=="true";}),
-                    new Marker("Задолженность по уплате налогов",MarkerColour.Yellow,"Организация была найдена в списке юридических лиц, " +
+                
+                new Marker("Задолженность по уплате налогов",MarkerColour.Yellow,"Организация была найдена в списке юридических лиц, " +
                     "имеющих задолженность по уплате налогов более 1000руб, которая направлялась на взыскание судебному приставу-исполнителю (ФНС)",4,
                     ()=>{return GetParam("m5004")=="true";}),
-                    new Marker("Не предоставляет отчетность более года",MarkerColour.Yellow,"Организация была найдена в списке юридических лиц, не представляющих налоговую отчетность более года",5,
+                
+                new Marker("Не предоставляет отчетность более года",MarkerColour.Yellow,"Организация была найдена в списке юридических лиц, не представляющих налоговую отчетность более года",5,
                     ()=>{return GetParam("m5005")=="true";}),
-                    new Marker("Рекомендована дополнительная проверка",MarkerColour.Yellow,"Рекомендована дополнительная проверка руководства и владельцев компании на номинальности",5,
+                
+                new Marker("Рекомендована дополнительная проверка",MarkerColour.Yellow,"Рекомендована дополнительная проверка руководства и владельцев компании на номинальности",5,
                     ()=>{return GetParam("m7001")=="true";}),
-                    new Marker("Организация зарегистрирована менее 3 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 3 месяцев тому назад",4,
+                
+                new Marker("Организация зарегистрирована менее 3 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 3 месяцев тому назад",4,
                     ()=>{return GetParam("m7004")!="true" && GetParam("m7003")!="true" && GetParam("m7002")!="true"; }),
-                    new Marker("Организация зарегистрирована менее 6 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 6 месяцев тому назад",3,
+                
+                new Marker("Организация зарегистрирована менее 6 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 6 месяцев тому назад",3,
                     ()=>{return GetParam("m7004")!="true" && GetParam("m7003")=="true"; }),
-                    new Marker("Организация зарегистрирована менее 12 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 12 месяцев тому назад",2,
+                
+                new Marker("Организация зарегистрирована менее 12 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 12 месяцев тому назад",2,
                     ()=>{return GetParam("m7004")=="true"; }),
                     
 
