@@ -21,7 +21,7 @@ namespace FocusScoring
             {"legalName",(ApiMethod.req,"/ArrayOfreq/req/UL/history/legalNames/legalName") },
             {"kppWithDate",(ApiMethod.req,"/ArrayOfreq/req/UL/history/kpps/kppWithDate") },
             {"Reorganizing",(ApiMethod.req,"/ArrayOfreq/req/UL/status/reorganizing") },
-            {"head",(ApiMethod.req,"/ArrayOfreq/req/UL/heads/head") },
+            {"head",(ApiMethod.req,"/ArrayOfreq/req/UL/heads/head/innfl") },
             {"managementCompany",(ApiMethod.req,"/ArrayOfreq/req/UL/managementCompanies/managementCompany") },
             {"RegistrationDate",(ApiMethod.req,"/ArrayOfreq/req/UL/registrationDate") },
             {"m7013",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7013")},
@@ -39,12 +39,14 @@ namespace FocusScoring
             {"m4001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m4001") },
             {"m5008",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m5008") },
             {"m7022",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7022") },
-            {"FounderFL",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/foundersFL/founderFL") },
+            {"FounderFL",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/foundersFL/founderFL/innfl") },
             {"FoundersForeign",(ApiMethod.egrDetails,"/ArrayOfegrDetails/egrDetails/UL/foundersForeign/founderForeign") },
             {"m1003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m1003") },
             {"m1004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m1004") },
             {"m1005",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m1005") },
             {"m1006",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m1006") },
+            {"s1007",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s1007") },
+            {"s1008",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/s1008") },
             {"q2003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q2003") },
             {"q2004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q2004") },
             {"q2001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q2001") },
@@ -53,7 +55,12 @@ namespace FocusScoring
             {"m5003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m5003") },
             {"m5004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m5004") },
             {"m5005",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m5005") },
+            {"m5006",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m5006") },
+            {"m5007",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m5007") },
             {"m7001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7001") },
+            {"m7002",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7002") },
+            {"m7003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7003") },
+            {"m7004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7004") },
             {"q7005",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7005") },
             {"q7006",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7006") },
             {"q7007",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7007") },
@@ -65,11 +72,21 @@ namespace FocusScoring
             {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },  
             {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/status/dissolving")},
             {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/status/dissolved")},
-            {"InnAffilalates",(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req/inn")}
+            {"InnAffilalates",(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req/inn")},
+            {"m7013Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/m7013")},
+            {"m7014Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/m7014")},
+            {"m7016Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/m7016")},
+            {"s6003Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6003")},
+            {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6004")},
+            {"q7005Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/q7005")},
+
+
         };
         
         private Dictionary<string, (ApiMethod, string,string)> multiParamDict = new Dictionary<string, (ApiMethod, string,string)>()
         {
+            {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolving")},
+            {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req", "/ArrayOfreq/req/UL/status/dissolved")},
             {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s1001")},
             {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s6004")},
         };
@@ -130,7 +147,7 @@ namespace FocusScoring
 
         private Dictionary<string, Marker> markers;
 
-        private Marker[] markersList;
+        private List<Marker> markersList;
 
         public Marker[] GetMarkers()
         {
@@ -139,25 +156,23 @@ namespace FocusScoring
         
         private void InitMarkers()
         {
-            markersList = new[]
+            //TODO compare from fucn4 to func21 w/ 1C
+            //TODO rename markers
+            markersList = new List<Marker>
             {
-                new Marker("CompanyStatus", MarkerColour.Red,
-                    "Статус компании связан с произошедшей или планируемой ликвидацией", 5,
+                new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,"Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
                     () => GetParam("Dissolving") == "true" || GetParam("Dissolved") == "true"),
-                new Marker("BankruptcyStatus", MarkerColour.Red,
-                    "Статус компании связан с произошедшей или планируемой ликвидацией", 5,
+                new Marker("Вероятное банкрротство организации", MarkerColour.Red,"Обнаружены арбитражные дела о банкротстве за последние 3 месяца \n " +
+                "Обнаружены сообщение о банкротстве за последние 12 месяцев \n " +
+                "Обнаружены признаки завершенной процедуры банкротства", 5,
                     () => GetParam("m7013") == "true" || GetParam("m7014") == "true" || GetParam("m7016") == "true"),
                 new Marker("func4", MarkerColour.Red, "Критическая сумма исполнительных производств " +
                                                       "(сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) " +
                                                       "и более суммы уставного капитала, и более 100 тыс. руб.", 4,
                     () =>
                     {
-                        var sum = GetParam("Sum").Replace('.',',');
-                        var a = GetParam("s1001").Replace('.',',');
-                        var b = GetParam("s6004").Replace('.',',');
-                        if (sum != "" & a != "" & b != "")
-                            return double.Parse(a) > (0.2 * double.Parse(b,CultureInfo.InvariantCulture.NumberFormat)) & (double.Parse(a) > double.Parse(sum)) &
-                                   double.Parse(a) > 100000;
+                        if(double.TryParse("Sum",out double sum) && double.TryParse("s1001",out double a) && double.TryParse("s6004",out double b))
+                            return a > (0.2 * b) && a > sum & a > 100000;
                         return false;
                     }),
 
@@ -197,10 +212,8 @@ namespace FocusScoring
                                                       "и более суммы уставного капитала, и более 500 тыс. руб.", 1,
                     () =>
                     {
-                        if (double.TryParse(GetParam("s2003").Replace('.',','), out double sumDel) && double.TryParse(GetParam("s6004").Replace('.',','),
-                                                                                      out double revenue)
-                                                                                  && double.TryParse(GetParam("Sum").Replace('.',','),
-                                                                                      out double statedCapitalFocus))
+                        if (double.TryParse(GetParam("s2003").Replace('.',','), out double sumDel) && double.TryParse(GetParam("s6004").Replace('.',','),out double revenue)
+                                                    && double.TryParse(GetParam("Sum").Replace('.',','), out double statedCapitalFocus))
                             return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
                     }),
@@ -214,7 +227,7 @@ namespace FocusScoring
                     "ФИО руководителей или учредителей были найдены в реестре дисквалифицированных лиц (ФНС)", 4,
                     () => { return GetParam("m5008") == "true"; }),
 
-                new Marker("func11", MarkerColour.Red, "Выручка снизилась более, чем на 50%", 1,
+                new Marker("Существенное снижение выручки", MarkerColour.Red, "Выручка снизилась более, чем на 50%", 1,
                     () =>
                     {
                         if (long.TryParse(GetParam("s6004").Replace('.',','), out long s6004) &
@@ -231,24 +244,146 @@ namespace FocusScoring
 
                     new Marker("func13",MarkerColour.Red,"У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией",4,
                     ()=>{
-                        var Dissolved = GetMultiParam("DissolvedAffiliates").Length;
+                    var Dissolved = GetMultiParam("DissolvedAffiliates").Length;
                     var Dissolving = GetMultiParam("DissolvingAffiliates").Length;
                     int affiliatesCount = GetMultiParam("InnAffilalates").Length;
-                        
-                    //var badAffiliatesCount = Dissolved.Zip(Dissolving, (x,y)=> x!="" || y!="").Aggregate(0,(i,x)=>i+(x?1:0));
                         return (Dissolved+Dissolving)/affiliatesCount * 100 > 50;
                     }),
                     new Marker("func14",MarkerColour.Red,"У более чем 50% связанных организаций присутствуют маркеры, свидетельствующие о вероятном банкротстве компаний",5,
                     ()=>{
-                        //var a = GetMultiParam("m7013Affiliates");
-                        return false;
-                        }),      
+                        //TODO Check for interceptions
+                       int affiliatesCount = GetMultiParam("InnAffilalates").Length;
+                       var m7013 = GetMultiParam("m7013Affiliates").Length;
+                       var m7014 = GetMultiParam("m7014Affiliates").Length;
+                       var m7016 = GetMultiParam("m7016Affiliates").Length;
+                        return (m7013 + m7014 + m7016 )/affiliatesCount * 100 > 50;
+                    }),
+                    new Marker("func15",MarkerColour.Red,"Выручка по группе компаний снизилась более, чем на 50%",3,
+                    ()=>{
+                        //TODO Check for correct
+                        double s6004;
+                        s6004 = GetMultiParam("s6004Affiliates").Select(x=>x.Replace('.',',')).Sum(x=>double.Parse(x));
+                        double s6003;
+                        s6003 = GetMultiParam("s6003Affiliates").Select(x=>x.Replace('.',',')).Sum(x=>double.Parse(x));
+                        return s6004 < 0.5 * s6003;
+                    }),
+                    //new Marker("func16",MarkerColour.Red,"Критическая сумма исполнительных производств по группе компаний",4,
+                    //()=>{
 
-         //         new Marker("",MarkerColour.Red,"",,
-         //         ()=>{ }),
-        };  
+                    //}),
+                    new Marker("func18",MarkerColour.Yellow,"Организация в процессе реорганизации",3,
+                    ()=>{return GetParam("Reorganizing")=="true";}),
+                    new Marker("func19",MarkerColour.Yellow,"Директор и учредитель одно физическое лицо",1,
+                    ()=>{
+                       var a = GetMultiParam("head");
+                        var b = GetMultiParam("FounderFL");
+                        return a.Any(x=>b.Any(y=>x==y));
+                    }),
+                    new Marker("func20",MarkerColour.Yellow,"Среди учредителей найдены иностранные лица",1,
+                    ()=>{return GetParam("FoundersForeign")=="";}),
+                    new Marker("func21",MarkerColour.Yellow,"Значительная сумма исполнительных производств. " +
+                    "Т.е. сумма исполнительных производств составляет более 10% от выручки организации за последний отчетный период " +
+                    "и более суммы уставного капитала, и более 100 тыс. руб.",4,
+                    ()=>{
+                         if(double.TryParse(GetParam("Sum").Replace('.',','),out double sum) 
+                        && double.TryParse(GetParam("s1001").Replace('.',','),out double a) 
+                        && double.TryParse(GetParam("s6004").Replace('.',','),out double b))
+                            return  a > 0.1 * b & a > sum & a > 100000;
+                        return false;
+                    }),
+                    new Marker("func22",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является заработная плата",5,
+                    ()=>{return GetParam("m1003")=="true";}),
+                    new Marker("func23",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является наложение ареста",5,
+                    ()=>{return GetParam("m1004")=="true";}),
+                    new Marker("func24",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является кредитные платежи",5,
+                    ()=>{return GetParam("m1005")=="true";}),
+                    new Marker("func25",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых является обращение взыскания на заложенное имущество",3,
+                    ()=>{return GetParam("m1006")=="true";}),
+                    new Marker("func26",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых являются налоги и сборы",4,
+                    ()=>{return GetParam("s1007")=="true";}),
+                    new Marker("func27",MarkerColour.Yellow,"У организации были найдены исполнительные производства, предметом которых являются страховые взносы",4,
+                    ()=>{return GetParam("s1008")=="true";}),
+                    //new Marker("Значительный рост суммы арбитражных дел в качестве истеца",MarkerColour.Yellow,"Значительный рост суммы арбитражных дел в качестве истца за последние 12 месяцев. " +
+                    //"Т.е. сумма дел за последние 12 месяцев составляет более 30% по сравнению с суммой дел за предыдущие 2 года. " +
+                    //"При этом сумма арбитражных дел за последние 12 месяцев более 1 млн. руб.," +
+                    //"а рост составил 500 тыс. руб.",1,
+                    //()=>{
+                    //    //var sumDel = GetParam("s2003");
+                    //    //var sumDelPast = GetParam("s2004");
+                    //    //var revenue = GetParam("s6004");
+                    //    //var sum = GetParam("Sum");
+                    //    if(double.TryParse(GetParam("s2003"),out double sumDel) && double.TryParse(GetParam("s2004"),out double sumDelPast) 
+                    //    && double.TryParse(GetParam("s6004"),out double revenue) && double.TryParse(GetParam("Sum"), out double sum))
+                    //    {
+                    //        if(sumDel >5000000 && )                   ?????
+                    //    }
+                    //    return false;
+                    //}),
+                    //new Marker("Значительный рост суммы арбитражных дел в качестве ответчика",MarkerColour.Yellow,"Значительный рост суммы арбитражных дел в качестве ответчика за последние 12 месяцев." +
+                    //"Т.е сумма дел за последние 12 месяцев более чем на 20% больше, чем среднее значение за два предыдущих года",1,
+                    //()=>{ }),
+                    //new Marker("Значительная сумма арбитражных дел в качестве истца",MarkerColour.Yellow,"Значительная сумма арбитражных дел в качестве истеца. " +
+                    //"Т.е сумма дел за последние 12 месяцев составляет более 10% от выручки организации за последний отчетный период " +
+                    //"и более суммы уставного капитала, и более 500 тыс. руб.",1,
+                    //()=>{ }),
+                    //new Marker("Значительная сумма арбитражных дел в качестве ответчика",MarkerColour.Yellow,"Значительная сумма арбитражных дел в качестве ответчика. " +
+                    //"Т.е сумма дел за последние 12 месяцев составляет более 10% от выручки организации за последний отчетный период " +
+                    //"и более суммы уставного капитала, и более 500 тыс. руб.",1,
+                    //()=>{ }),
+                    new Marker("Отсутствует связь по юр. адресу",MarkerColour.Yellow,"Организация была найдена в списке организаций, связь с которыми по указанному или юридическому адресу отсутствует(ФНС)",3,
+                    ()=>{return GetParam("m5002")=="true";}),
+                    new Marker("Недостоверные сведение об адресе",MarkerColour.Yellow,"В ЕГРЮЛ указан  признак недостоверности сведений в отношении адреса",4,
+                    ()=>{return GetParam("m5006")=="true";}),
+                    new Marker("Недостоверные сведения о руководителе или учредителе",MarkerColour.Yellow,"В ЕГРЮЛ указан признак недостоверности сведений в отношении руководителя или учредителей",5,
+                    ()=>{return GetParam("m5007")=="true";}),
+                    new Marker("Задолженность по уплате налогов",MarkerColour.Yellow,"Организация была найдена в списке юридических лиц, " +
+                    "имеющих задолженность по уплате налогов более 1000руб, которая направлялась на взыскание судебному приставу-исполнителю (ФНС)",4,
+                    ()=>{return GetParam("m5004")=="true";}),
+                    new Marker("Не предоставляет отчетность более года",MarkerColour.Yellow,"Организация была найдена в списке юридических лиц, не представляющих налоговую отчетность более года",5,
+                    ()=>{return GetParam("m5005")=="true";}),
+                    new Marker("Рекомендована дополнительная проверка",MarkerColour.Yellow,"Рекомендована дополнительная проверка руководства и владельцев компании на номинальности",5,
+                    ()=>{return GetParam("m7001")=="true";}),
+                    new Marker("Организация зарегистрирована менее 3 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 3 месяцев тому назад",4,
+                    ()=>{return GetParam("m7004")!="true" && GetParam("m7003")!="true" && GetParam("m7002")!="true"; }),
+                    new Marker("Организация зарегистрирована менее 6 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 6 месяцев тому назад",3,
+                    ()=>{return GetParam("m7004")!="true" && GetParam("m7003")=="true"; }),
+                    new Marker("Организация зарегистрирована менее 12 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 12 месяцев тому назад",2,
+                    ()=>{return GetParam("m7004")=="true"; }),
+                    
+
+
+
+        };
+            markersList.Add(new Marker("Значительно снизилась выручка", MarkerColour.Yellow, "Выручка снизилась более чем на 30%", 3,
+                    () => {
+                        if (!(markersList.Where(x => x.Name == "Существенное снижение выручки").First().Check()))
+                        {
+                            if (DoubleTryParse(GetParam("s6004"), out double revenu) && DoubleTryParse(GetParam("s6003"), out double revenuPast))
+                                return revenu < revenuPast * 0.7;
+                        }
+                        return false;
+                    }));
+            markersList.Add(new Marker("Значительное число ликвидированных связанных компаний", MarkerColour.YellowAffiliates, "Значительное число связных компаний, которые были ликвидированы в результате банкротства",3,  
+                    () => {
+                        if (!markersList.Where(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией").First().Check())
+                        {
+                            int Affiliatescount = GetMultiParam("InnAffilalates").Count();
+                            int q7005Count = GetMultiParam("q7005Affiliates").Count();
+                            return q7005Count > 5 && q7005Count > Affiliatescount * 0.2; 
+                        }
+                        return false;
+                    }));
+            markersList.Add(new Marker("Значительное число юр.лиц по этому адресу", MarkerColour.Yellow, "Значительное количество юридических лиц на текущий момент времени", 2,
+                                () => {
+                                if}));
+
+
             markers = markersList.ToDictionary(x => x.Name);
 
+        }
+        private bool DoubleTryParse(string param, out double result)
+        {
+            return double.TryParse(param.Replace('.', ','), out result);
         }
     }
 }
