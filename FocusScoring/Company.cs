@@ -79,17 +79,11 @@ namespace FocusScoring
             {"s6003Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6003")},
             {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6004")},
             {"q7005Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/q7005")},
+            {"SumAffiliates", (ApiMethod.companyAffiliatesegrDetails, "/ArrayOfegrDetails/egrDetails/UL/statedCapital/sum")},
+            {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s1001")},
+            {"s2003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s2003")},
+            {"s2001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s2001")},
 
-
-        };
-        
-        private Dictionary<string, (ApiMethod, string,string)> multiParamDict = new Dictionary<string, (ApiMethod, string,string)>()
-        {
-            {"SumAffiliates", (ApiMethod.companyAffiliatesegrDetails, "/ArrayOfegrDetails/egrDetails/UL/statedCapital", "sum")},
-            {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s1001")},
-            {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s6004")},
-            {"s2003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s2003")},
-            {"s2001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics", "s2001")},
         };
 
         private ParamAccess access;
@@ -121,8 +115,8 @@ namespace FocusScoring
         //TODO Rename
         public string[] GetMultiParam2(string paramName)
         {
-            (ApiMethod method,string node, string child) = multiParamDict[paramName];
-            return access.GetMultiParam(method, inn, node,child).ToArray();
+            (ApiMethod method,string node) = paramDict[paramName];
+            return access.GetMultiParam(method, inn, node).ToArray();
         }
 
         public bool GetMarker(string markerName)
@@ -183,8 +177,8 @@ namespace FocusScoring
                                                       "(сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) " +
                                                       "и более суммы уставного капитала, и более 100 тыс. руб.", 4,
                     () =>
-                    { //TODO possible error need consideration...  or not  
-                        if(DoubleTryParse("Sum",out double sum) && DoubleTryParse("s1001",out double a) && DoubleTryParse("s6004",out double b))
+                    {  
+                        if(DoubleTryParse(GetParam("Sum"),out double sum) && DoubleTryParse(GetParam("s1001"),out double a) && DoubleTryParse(GetParam("s6004"),out double b))
                             return a > (0.2 * b) && a > sum & a > 500000;
                         return false;
                     }),
@@ -207,8 +201,8 @@ namespace FocusScoring
                     "При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.", 1,
                     () =>
                     {
-                        if (DoubleTryParse(GetParam("s2001").Replace('.',','), out double sumDel) &&
-                            DoubleTryParse(GetParam("s2002").Replace('.',','), out double sumDelPast))
+                        if (DoubleTryParse(GetParam("s2001"), out double sumDel) &&
+                            DoubleTryParse(GetParam("s2002"), out double sumDelPast))
                             return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
                         return false;
                     }),
@@ -217,7 +211,7 @@ namespace FocusScoring
                   "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период и более суммы уставного капитала, " +
                   "и более 500 тыс. руб.",1,
                   () => {
-                        if(DoubleTryParse(GetParam("s2001").Replace('.',','),out double sumDel) && DoubleTryParse(GetParam("s6004").Replace('.',','),out double revenue) && DoubleTryParse(GetParam("Sum").Replace('.',','),out double statedCapitalFocus))
+                        if(DoubleTryParse(GetParam("s2001"),out double sumDel) && DoubleTryParse(GetParam("s6004").Replace('.',','),out double revenue) && DoubleTryParse(GetParam("Sum").Replace('.',','),out double statedCapitalFocus))
                            return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
                   }),
@@ -292,9 +286,6 @@ namespace FocusScoring
                         var cases = GetMultiParam2("s1001Affiliates");
                         var sums = GetMultiParam2("SumAffiliates");
                         
-                        if(revs.Length != cases.Length || sums.Length != cases.Length) //TODO check and remove exception
-                            throw new Exception("Looks like we will need to rewrite getmultipatams once again");
-
                         var count = .0;
                         for(int i=0;i<sums.Length;i++)
                             if(DoubleTryParse(sums[i],out double sum) && 
@@ -308,7 +299,7 @@ namespace FocusScoring
                     }),
                 
                 new Marker("критическая сумма арбитражных дел по группе компаний",MarkerColour.RedAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",1,
-                    () => //TODO Test and check 
+                    () => 
                     {
                         var casesIst = GetMultiParam2("s2003Affiliates");
                         var sums = GetMultiParam2("SumAffiliates");
@@ -321,7 +312,7 @@ namespace FocusScoring
                                DoubleTryParse(sums[i],out double sum) &&
                                ((DoubleTryParse(casesIst[i], out double caseIst) &&
                                  (caseIst > (0.2 * rev)) & (caseIst > 500000) & (caseIst > sum)) ||
-                                (DoubleTryParse(casesIst[i], out double caseOtv) &&
+                                (DoubleTryParse(casesOtv[i], out double caseOtv) && //TODO check otv heuristic
                                  (caseOtv > (0.2 * rev)) & (caseOtv > 500000) & (caseOtv > sum))))
                                 count += 1;
 
@@ -457,7 +448,7 @@ namespace FocusScoring
             //        }));
 
             markers = markersList.ToDictionary(x => x.Name);
-
+    
         }
 
     }
