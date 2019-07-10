@@ -211,7 +211,7 @@ namespace FocusScoring
                   "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период и более суммы уставного капитала, " +
                   "и более 500 тыс. руб.",1,
                   () => {
-                        if(DoubleTryParse(GetParam("s2001"),out double sumDel) && DoubleTryParse(GetParam("s6004").Replace('.',','),out double revenue) && DoubleTryParse(GetParam("Sum").Replace('.',','),out double statedCapitalFocus))
+                        if(DoubleTryParse(GetParam("s2001"),out double sumDel) && DoubleTryParse(GetParam("s6004"),out double revenue) && DoubleTryParse(GetParam("Sum"),out double statedCapitalFocus))
                            return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
                   }),
@@ -417,7 +417,7 @@ namespace FocusScoring
                     
 
 
-
+                //asd
         };
             markersList.Add(new Marker("Значительно снизилась выручка", MarkerColour.Yellow, "Выручка снизилась более чем на 30%", 3,
                     () => {
