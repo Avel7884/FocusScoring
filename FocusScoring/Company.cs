@@ -163,7 +163,7 @@ namespace FocusScoring
         }
         private bool DoubleTryParse(string param, out double result)
         {
-            return DoubleTryParse(param.Replace('.', ','), out result);
+            return double.TryParse(param.Replace('.', ','), out result);
         }
         private void InitMarkers()
         {
@@ -195,8 +195,8 @@ namespace FocusScoring
                     "При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.", 1,
                     () =>
                     {
-                        if (DoubleTryParse(GetParam("s2003").Replace('.',','), out double sumDel) &&
-                            DoubleTryParse(GetParam("s2004").Replace('.',','), out double sumDelPast))
+                        if (DoubleTryParse(GetParam("s2003"), out double sumDel) &&
+                            DoubleTryParse(GetParam("s2004"), out double sumDelPast))
                             return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
                         return false;
                     }),
@@ -330,7 +330,7 @@ namespace FocusScoring
                 
                 new Marker("Организация в процессе реорганизации",MarkerColour.Yellow,"Находится в процессе реорганизации в форме присоединения к другому юридическому лицу (слияние, присоединение и т.д.)",3,
                     ()=>{return GetParam("Reorganizing")=="true";}),
-                    new Marker("Директор и учредитель одно физическое лицо",MarkerColour.Yellow,"Директор и учредитель одно физическое лицо",1,
+                new Marker("Директор и учредитель одно физическое лицо",MarkerColour.Yellow,"Директор и учредитель одно физическое лицо",1,
                     ()=>{
                        var a = GetMultiParam("head");
                         var b = GetMultiParam("FounderFL");
