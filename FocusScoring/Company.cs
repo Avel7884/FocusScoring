@@ -182,7 +182,7 @@ namespace FocusScoring
                     () =>
                     {
                         if(DoubleTryParse("Sum",out double sum) && DoubleTryParse("s1001",out double a) && DoubleTryParse("s6004",out double b))
-                            return a > (0.2 * b) && a > sum & a > 100000;
+                            return a > (0.2 * b) && a > sum & a > 500000;
                         return false;
                     }),
 
