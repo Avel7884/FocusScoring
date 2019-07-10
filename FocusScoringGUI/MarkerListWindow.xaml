@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MarkerListWindow" Height="450" Width="1450">
         
-        <ListView Name="MarkersList">
+        <ListView Name="MarkersList"
+                  MouseDoubleClick="MarkersList_Click">
             
                 <ListView.View>
                         <GridView>

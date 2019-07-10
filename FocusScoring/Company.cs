@@ -83,6 +83,10 @@ namespace FocusScoring
             {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s1001")},
             {"s2003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s2003")},
             {"s2001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s2001")},
+            {"s1003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1003")},
+            {"s1004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1004")},
+            {"s1005Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1005")},
+            {"s1006Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1006")},
 
         };
 
@@ -298,7 +302,7 @@ namespace FocusScoring
 
                     }),
                 
-                new Marker("критическая сумма арбитражных дел по группе компаний",MarkerColour.RedAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",1,
+                new Marker("Критическая сумма арбитражных дел по группе компаний",MarkerColour.RedAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",1,
                     () => 
                     {
                         var casesIst = GetMultiParam2("s2003Affiliates");
@@ -312,7 +316,7 @@ namespace FocusScoring
                                DoubleTryParse(sums[i],out double sum) &&
                                ((DoubleTryParse(casesIst[i], out double caseIst) &&
                                  (caseIst > (0.2 * rev)) & (caseIst > 500000) & (caseIst > sum)) ||
-                                (DoubleTryParse(casesOtv[i], out double caseOtv) && //TODO check otv heuristic
+                                (DoubleTryParse(casesOtv[i], out double caseOtv) &&
                                  (caseOtv > (0.2 * rev)) & (caseOtv > 500000) & (caseOtv > sum))))
                                 count += 1;
 
@@ -438,6 +442,86 @@ namespace FocusScoring
                         }
                         return false;
                     }));
+            
+            markersList.Add(
+                new Marker("Выручка по группе компаний снизилась более, чем на 30%",MarkerColour.YellowAffiliates,"Выручка по группе компаний снизилась более, чем на 30%",3,
+                    ()=>
+                    {
+                        if (markersList.First(x => x.Name == "Выручка по группе компаний снизилась более, чем на 50%").Check())
+                            return false;
+                        double s6004;
+                        s6004 = GetMultiParam("s6004Affiliates").Select(x=>x.Replace('.',',')).Sum(x=>double.Parse(x));
+                        double s6003;
+                        s6003 = GetMultiParam("s6003Affiliates").Select(x=>x.Replace('.',',')).Sum(x=>double.Parse(x));
+                        return s6004 < 0.3 * s6003;
+                    }));
+            
+            markersList.Add(
+                new Marker("Значительная сумма исполнительных производств по группе компаний",MarkerColour.YellowAffiliates,"Значительная сумма исполнительных производств по группе компаний",3,
+                    () =>
+                    {
+                        return false;
+                        if (markersList.Find(x => x.Name == "Критическая сумма исполнительных производств по группе компаний").Check())
+                            return false;
+                        
+                        var revs = GetMultiParam2("s6004Affiliates");
+                        var cases = GetMultiParam2("s1001Affiliates");
+                        var sums = GetMultiParam2("SumAffiliates");
+                        //TODO finish
+                        var count = .0;
+                        for(int i=0;i<sums.Length;i++)
+                            if(DoubleTryParse(sums[i],out double sum) && 
+                               DoubleTryParse(cases[i],out double a) && 
+                               DoubleTryParse(revs[i],out double b))
+                                if (a > (0.2 * b) && a > sum & a > 100000)
+                                    count += 1;
+
+                        return count / sums.Length > 0.3;
+
+                    }));
+            
+            markersList.Add(new Marker("Значительная сумма арбитражных дел по группе компаний",MarkerColour.YellowAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",5,
+                    () =>
+                    {
+                        if (markersList.Find(x => x.Name == "Критическая сумма арбитражных дел по группе компаний").Check())
+                            return false;
+                        
+                        var casesIst = GetMultiParam2("s2003Affiliates");
+                        var sums = GetMultiParam2("SumAffiliates");
+                        var revs = GetMultiParam2("s6004Affiliates");
+                        var casesOtv = GetMultiParam2("s2001Affiliates");
+
+                        var count = .0; 
+                        for (int i = 0; i < sums.Length;i++)
+                            if(DoubleTryParse(revs[i],out double rev) && 
+                               DoubleTryParse(sums[i],out double sum) &&
+                               ((DoubleTryParse(casesIst[i], out double caseIst) &&
+                                 (caseIst > (0.2 * rev)) & (caseIst > 500000) & (caseIst > sum)) ||
+                                (DoubleTryParse(casesOtv[i], out double caseOtv) &&
+                                 (caseOtv > (0.2 * rev)) & (caseOtv > 500000) & (caseOtv > sum))))
+                                count += 1;
+
+                        return count / sums.Length > 0.3;
+                    }));
+            
+            markersList.Add(new Marker("Значительнрое число компаний с особыми исполниельными производствами",MarkerColour.YellowAffiliates,"Более чем 30% связаных компаний имеют исполнительные производства предметом которых являются зарплата,наложение ареста, кредитные платежи, обращение взыскания на заложенное иммущество.",3,
+                () =>
+                {
+                    var zp = GetMultiParam2("s1003Affiliates");
+                    var na = GetMultiParam2("s1004Affiliates");
+                    var kp = GetMultiParam2("s1005Affiliates");
+                    var zi = GetMultiParam2("s1006Affiliates");
+
+                    var count = .0;
+                    for(int i=0;i<zp.Length;i++)
+                        if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
+                            count++;
+
+                    return count / zp.Length > 0.3;
+                }));
+            
+            
+            
             //markersList.Add(new Marker("Значительное число юр.лиц по этому адресу", MarkerColour.Yellow, "Значительное количество юридических лиц на текущий момент времени", 2,
             //        () => {
             //            if (!markersList.Where(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией").First().Check())
