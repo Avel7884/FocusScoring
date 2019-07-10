@@ -82,10 +82,6 @@ namespace FocusScoring
             {"s6003Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6003")},
             {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6004")},
             {"q7005Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/q7005")},
-<<<<<<< HEAD
-
-
-=======
             {"SumAffiliates", (ApiMethod.companyAffiliatesegrDetails, "/ArrayOfegrDetails/egrDetails/UL/statedCapital/sum")},
             {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s1001")},
             {"s2003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s2003")},
@@ -99,7 +95,6 @@ namespace FocusScoring
             {"m5006Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5006")},
             {"m5007Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5007")},
             {"m7001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m7001")},
->>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
         };
 
         private ParamAccess access;
@@ -312,15 +307,8 @@ namespace FocusScoring
                         return count / sums.Length > 0.3;
 
                     }),
-<<<<<<< HEAD
-
-                new Marker("критическая сумма арбитражных дел по группе компаний",MarkerColour.RedAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",1,
-                    () => //TODO Test and check 
-=======
-                
                 new Marker("Критическая сумма арбитражных дел по группе компаний",MarkerColour.RedAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",1,
                     () => 
->>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
                     {
                         var casesIst = GetMultiParam2("s2003Affiliates");
                         var sums = GetMultiParam2("SumAffiliates");
@@ -333,11 +321,7 @@ namespace FocusScoring
                                DoubleTryParse(sums[i],out double sum) &&
                                ((DoubleTryParse(casesIst[i], out double caseIst) &&
                                  (caseIst > (0.2 * rev)) & (caseIst > 500000) & (caseIst > sum)) ||
-<<<<<<< HEAD
-                                (DoubleTryParse(casesIst[i], out double caseOtv) &&
-=======
                                 (DoubleTryParse(casesOtv[i], out double caseOtv) &&
->>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
                                  (caseOtv > (0.2 * rev)) & (caseOtv > 500000) & (caseOtv > sum))))
                                 count += 1;
 
@@ -439,7 +423,6 @@ namespace FocusScoring
 
                 new Marker("Организация зарегистрирована менее 12 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 12 месяцев тому назад",2,
                     ()=>{return GetParam("m7004")=="true"; }),
-<<<<<<< HEAD
                 new Marker("Значительное кол-во учрежденных юр.лиц",MarkerColour.Yellow,"Значительное количество юрлиц, в уставном капитале которых есть доля текущего юрлица (учрежденные юрлица)",1,
                 ()=>{return int.TryParse(GetParam("q7017"),out int count)&&count>10;}),
                 new Marker("Значительное кол-во юр. лиц. руководителя (с учетом ИННФЛ)",MarkerColour.Yellow,"Значительное количество не ликвидированных юридических лиц, в которых в качестве действующего руководителя упомянут действующий руководитель текущей организации (с учетом ИННФЛ, если известен)",3,
@@ -464,14 +447,7 @@ namespace FocusScoring
                 //TODO check
                 ()=>{return GetMultiParam("Branches").Count()>0; }),
                 new Marker("Уставный капитал более 100 000 руб.",MarkerColour.Green,"Уставный капитал более 100 000 руб.",3,
-                ()=>{return int.TryParse(GetParam("Sum"),out int sum)&&sum>100000; }),
-
-
-
-
-
-=======
-                    
+                ()=>{return int.TryParse(GetParam("Sum"),out int sum)&&sum>100000; }),         
                 new Marker("Значительное количество компаний, найденных в особых реестрах ФНС",MarkerColour.YellowAffiliates,"Значительное количество компаний, найденных в особых реестрах ФНС",4,
                     () =>
                     {
@@ -480,8 +456,6 @@ namespace FocusScoring
                         var na = GetMultiParam2("m5004Affiliates");
                         var kp = GetMultiParam2("m5006Affiliates");
                         var zi = GetMultiParam2("m5007Affiliates");
->>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
-
                         var count = .0;
                         for(int i=0;i<zp.Length;i++)
                             if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
@@ -499,12 +473,9 @@ namespace FocusScoring
                         for(int i=0;i<zi.Length;i++)
                             if (zi[i] == "true")
                                 count++;
-
-<<<<<<< HEAD
-=======
                         return count / zi.Length > 0.3;
                     })
->>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
+
         };
             markersList.Add(new Marker("Значительно снизилась выручка", MarkerColour.Yellow, "Выручка снизилась более чем на 30%", 3,
                     () => {
@@ -525,7 +496,6 @@ namespace FocusScoring
                         }
                         return false;
                     }));
-<<<<<<< HEAD
             markersList.Add(new Marker("Значительное число юр.лиц по этому адресу", MarkerColour.Yellow, "Значительное количество юридических лиц на текущий момент времени", 2,
                     () =>
                     {
@@ -538,7 +508,6 @@ namespace FocusScoring
                         }
                         return false;
                     }));
-=======
             
             markersList.Add(
                 new Marker("Выручка по группе компаний снизилась более, чем на 30%",MarkerColour.YellowAffiliates,"Выручка по группе компаний снизилась более, чем на 30%",3,
@@ -627,8 +596,6 @@ namespace FocusScoring
             //                }
             //            return false;
             //        }));
->>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
-
             markers = markersList.ToDictionary(x => x.Name);
 
         }
