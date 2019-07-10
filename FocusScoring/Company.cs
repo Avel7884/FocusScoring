@@ -87,7 +87,11 @@ namespace FocusScoring
             {"s1004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1004")},
             {"s1005Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1005")},
             {"s1006Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1006")},
-
+            {"m5002Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5002")},
+            {"m5004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5004")},
+            {"m5006Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5006")},
+            {"m5007Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5007")},
+            {"m7001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m7001")},
         };
 
         private ParamAccess access;
@@ -419,9 +423,35 @@ namespace FocusScoring
                 new Marker("Организация зарегистрирована менее 12 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 12 месяцев тому назад",2,
                     ()=>{return GetParam("m7004")=="true"; }),
                     
+                new Marker("Значительное количество компаний, найденных в особых реестрах ФНС",MarkerColour.YellowAffiliates,"Значительное количество компаний, найденных в особых реестрах ФНС",4,
+                    () =>
+                    {
+                        //TODO Rename
+                        var zp = GetMultiParam2("m5002Affiliates");
+                        var na = GetMultiParam2("m5004Affiliates");
+                        var kp = GetMultiParam2("m5006Affiliates");
+                        var zi = GetMultiParam2("m5007Affiliates");
 
+                        var count = .0;
+                        for(int i=0;i<zp.Length;i++)
+                            if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
+                                count++;
 
-                //asd
+                        return count / zp.Length > 0.3;
+                    }),
+                
+                new Marker("Значительное количество компаний, по которым требуется дополнительная проверка",MarkerColour.YellowAffiliates,"Значительное количество компаний,, по которым требуется дополнительная проверка",5,
+                    () =>
+                    {
+                        var zi = GetMultiParam2("m7001Affiliates");
+                            //TODO Rename
+                        var count = .0;
+                        for(int i=0;i<zi.Length;i++)
+                            if (zi[i] == "true")
+                                count++;
+
+                        return count / zi.Length > 0.3;
+                    })
         };
             markersList.Add(new Marker("Значительно снизилась выручка", MarkerColour.Yellow, "Выручка снизилась более чем на 30%", 3,
                     () => {
