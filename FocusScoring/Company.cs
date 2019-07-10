@@ -63,6 +63,8 @@ namespace FocusScoring
             {"m7002",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7002") },
             {"m7003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7003") },
             {"m7004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7004") },
+            {"q4002",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q4002") },
+            {"q4004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q4004") },
             {"q7005",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7005") },
             {"q7006",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7006") },
             {"q7007",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7007") },
@@ -70,6 +72,7 @@ namespace FocusScoring
             {"q7009",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7009") },
             {"q7017",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7017") },
             {"q7018",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7018") },
+            {"q7019",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7019") },
             {"q7020",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7020") },
             {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },  
             {"q9001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q9001") },  
@@ -82,6 +85,8 @@ namespace FocusScoring
             {"s6003Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6003")},
             {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6004")},
             {"q7005Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/q7005")},
+            {"q4002Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/q4002")},
+            {"q4004Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/q4004")},
             {"SumAffiliates", (ApiMethod.companyAffiliatesegrDetails, "/ArrayOfegrDetails/egrDetails/UL/statedCapital/sum")},
             {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s1001")},
             {"s2003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s2003")},
@@ -128,7 +133,7 @@ namespace FocusScoring
         public string[] GetMultiParam2(string paramName)
         {
             (ApiMethod method, string node) = paramDict[paramName];
-            return access.GetParams(method, inn, node).ToArray();
+            return access.GetMultiParam(method, inn, node).ToArray();
         }
 
         public bool GetMarker(string markerName)
@@ -490,7 +495,7 @@ namespace FocusScoring
                         return count / zi.Length > 0.3;
                     }),
                 
-                new Marker("Значительное количество компаний, найденных в особых реестрах ФНС",MarkerColour.YellowAffiliates,"Значительное количество компаний, найденных в особых реестрах ФНС",4,
+                new Marker("Значительное количество компаний, у которых за постлю 12 мес. хоья бы раз менялся деректор или учередитель",MarkerColour.YellowAffiliates,"Значительное количество компаний, у которых за постлю 12 мес. хоья бы раз менялся деректор или учередитель",2,
                     () =>
                     {
                         return false;//TODO finish    
@@ -559,14 +564,14 @@ namespace FocusScoring
                 new Marker("Значительная сумма исполнительных производств по группе компаний",MarkerColour.YellowAffiliates,"Значительная сумма исполнительных производств по группе компаний",3,
                     () =>
                     {
-                        return false;
                         if (markersList.Find(x => x.Name == "Критическая сумма исполнительных производств по группе компаний").Check())
                             return false;
+                        
                         
                         var revs = GetMultiParam2("s6004Affiliates");
                         var cases = GetMultiParam2("s1001Affiliates");
                         var sums = GetMultiParam2("SumAffiliates");
-                        //TODO finish
+                        
                         var count = .0;
                         for(int i=0;i<sums.Length;i++)
                             if(DoubleTryParse(sums[i],out double sum) && 
