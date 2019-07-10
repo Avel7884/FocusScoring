@@ -82,8 +82,24 @@ namespace FocusScoring
             {"s6003Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6003")},
             {"s6004Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/s6004")},
             {"q7005Affiliates", (ApiMethod.companyAffiliatesanalytics,"/ArrayOfanalytics/analytics/analytics/q7005")},
+<<<<<<< HEAD
 
 
+=======
+            {"SumAffiliates", (ApiMethod.companyAffiliatesegrDetails, "/ArrayOfegrDetails/egrDetails/UL/statedCapital/sum")},
+            {"s1001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s1001")},
+            {"s2003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s2003")},
+            {"s2001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/s2001")},
+            {"s1003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1003")},
+            {"s1004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1004")},
+            {"s1005Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1005")},
+            {"s1006Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m1006")},
+            {"m5002Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5002")},
+            {"m5004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5004")},
+            {"m5006Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5006")},
+            {"m5007Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5007")},
+            {"m7001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m7001")},
+>>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
         };
 
         private ParamAccess access;
@@ -296,9 +312,15 @@ namespace FocusScoring
                         return count / sums.Length > 0.3;
 
                     }),
+<<<<<<< HEAD
 
                 new Marker("критическая сумма арбитражных дел по группе компаний",MarkerColour.RedAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",1,
                     () => //TODO Test and check 
+=======
+                
+                new Marker("Критическая сумма арбитражных дел по группе компаний",MarkerColour.RedAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",1,
+                    () => 
+>>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
                     {
                         var casesIst = GetMultiParam2("s2003Affiliates");
                         var sums = GetMultiParam2("SumAffiliates");
@@ -311,7 +333,11 @@ namespace FocusScoring
                                DoubleTryParse(sums[i],out double sum) &&
                                ((DoubleTryParse(casesIst[i], out double caseIst) &&
                                  (caseIst > (0.2 * rev)) & (caseIst > 500000) & (caseIst > sum)) ||
+<<<<<<< HEAD
                                 (DoubleTryParse(casesIst[i], out double caseOtv) &&
+=======
+                                (DoubleTryParse(casesOtv[i], out double caseOtv) &&
+>>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
                                  (caseOtv > (0.2 * rev)) & (caseOtv > 500000) & (caseOtv > sum))))
                                 count += 1;
 
@@ -413,6 +439,7 @@ namespace FocusScoring
 
                 new Marker("Организация зарегистрирована менее 12 мес назад",MarkerColour.Yellow,"Организация зарегистрирована менее 12 месяцев тому назад",2,
                     ()=>{return GetParam("m7004")=="true"; }),
+<<<<<<< HEAD
                 new Marker("Значительное кол-во учрежденных юр.лиц",MarkerColour.Yellow,"Значительное количество юрлиц, в уставном капитале которых есть доля текущего юрлица (учрежденные юрлица)",1,
                 ()=>{return int.TryParse(GetParam("q7017"),out int count)&&count>10;}),
                 new Marker("Значительное кол-во юр. лиц. руководителя (с учетом ИННФЛ)",MarkerColour.Yellow,"Значительное количество не ликвидированных юридических лиц, в которых в качестве действующего руководителя упомянут действующий руководитель текущей организации (с учетом ИННФЛ, если известен)",3,
@@ -443,8 +470,41 @@ namespace FocusScoring
 
 
 
+=======
+                    
+                new Marker("Значительное количество компаний, найденных в особых реестрах ФНС",MarkerColour.YellowAffiliates,"Значительное количество компаний, найденных в особых реестрах ФНС",4,
+                    () =>
+                    {
+                        //TODO Rename
+                        var zp = GetMultiParam2("m5002Affiliates");
+                        var na = GetMultiParam2("m5004Affiliates");
+                        var kp = GetMultiParam2("m5006Affiliates");
+                        var zi = GetMultiParam2("m5007Affiliates");
+>>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
 
+                        var count = .0;
+                        for(int i=0;i<zp.Length;i++)
+                            if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
+                                count++;
 
+                        return count / zp.Length > 0.3;
+                    }),
+                
+                new Marker("Значительное количество компаний, по которым требуется дополнительная проверка",MarkerColour.YellowAffiliates,"Значительное количество компаний,, по которым требуется дополнительная проверка",5,
+                    () =>
+                    {
+                        var zi = GetMultiParam2("m7001Affiliates");
+                            //TODO Rename
+                        var count = .0;
+                        for(int i=0;i<zi.Length;i++)
+                            if (zi[i] == "true")
+                                count++;
+
+<<<<<<< HEAD
+=======
+                        return count / zi.Length > 0.3;
+                    })
+>>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
         };
             markersList.Add(new Marker("Значительно снизилась выручка", MarkerColour.Yellow, "Выручка снизилась более чем на 30%", 3,
                     () => {
@@ -465,6 +525,7 @@ namespace FocusScoring
                         }
                         return false;
                     }));
+<<<<<<< HEAD
             markersList.Add(new Marker("Значительное число юр.лиц по этому адресу", MarkerColour.Yellow, "Значительное количество юридических лиц на текущий момент времени", 2,
                     () =>
                     {
@@ -477,6 +538,96 @@ namespace FocusScoring
                         }
                         return false;
                     }));
+=======
+            
+            markersList.Add(
+                new Marker("Выручка по группе компаний снизилась более, чем на 30%",MarkerColour.YellowAffiliates,"Выручка по группе компаний снизилась более, чем на 30%",3,
+                    ()=>
+                    {
+                        if (markersList.First(x => x.Name == "Выручка по группе компаний снизилась более, чем на 50%").Check())
+                            return false;
+                        double s6004;
+                        s6004 = GetMultiParam("s6004Affiliates").Select(x=>x.Replace('.',',')).Sum(x=>double.Parse(x));
+                        double s6003;
+                        s6003 = GetMultiParam("s6003Affiliates").Select(x=>x.Replace('.',',')).Sum(x=>double.Parse(x));
+                        return s6004 < 0.3 * s6003;
+                    }));
+            
+            markersList.Add(
+                new Marker("Значительная сумма исполнительных производств по группе компаний",MarkerColour.YellowAffiliates,"Значительная сумма исполнительных производств по группе компаний",3,
+                    () =>
+                    {
+                        return false;
+                        if (markersList.Find(x => x.Name == "Критическая сумма исполнительных производств по группе компаний").Check())
+                            return false;
+                        
+                        var revs = GetMultiParam2("s6004Affiliates");
+                        var cases = GetMultiParam2("s1001Affiliates");
+                        var sums = GetMultiParam2("SumAffiliates");
+                        //TODO finish
+                        var count = .0;
+                        for(int i=0;i<sums.Length;i++)
+                            if(DoubleTryParse(sums[i],out double sum) && 
+                               DoubleTryParse(cases[i],out double a) && 
+                               DoubleTryParse(revs[i],out double b))
+                                if (a > (0.2 * b) && a > sum & a > 100000)
+                                    count += 1;
+
+                        return count / sums.Length > 0.3;
+
+                    }));
+            
+            markersList.Add(new Marker("Значительная сумма арбитражных дел по группе компаний",MarkerColour.YellowAffiliates,"У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел",5,
+                    () =>
+                    {
+                        if (markersList.Find(x => x.Name == "Критическая сумма арбитражных дел по группе компаний").Check())
+                            return false;
+                        
+                        var casesIst = GetMultiParam2("s2003Affiliates");
+                        var sums = GetMultiParam2("SumAffiliates");
+                        var revs = GetMultiParam2("s6004Affiliates");
+                        var casesOtv = GetMultiParam2("s2001Affiliates");
+
+                        var count = .0; 
+                        for (int i = 0; i < sums.Length;i++)
+                            if(DoubleTryParse(revs[i],out double rev) && 
+                               DoubleTryParse(sums[i],out double sum) &&
+                               ((DoubleTryParse(casesIst[i], out double caseIst) &&
+                                 (caseIst > (0.2 * rev)) & (caseIst > 500000) & (caseIst > sum)) ||
+                                (DoubleTryParse(casesOtv[i], out double caseOtv) &&
+                                 (caseOtv > (0.2 * rev)) & (caseOtv > 500000) & (caseOtv > sum))))
+                                count += 1;
+
+                        return count / sums.Length > 0.3;
+                    }));
+            
+            markersList.Add(new Marker("Значительнрое число компаний с особыми исполниельными производствами",MarkerColour.YellowAffiliates,"Более чем 30% связаных компаний имеют исполнительные производства предметом которых являются зарплата,наложение ареста, кредитные платежи, обращение взыскания на заложенное иммущество.",3,
+                () =>
+                {
+                    var zp = GetMultiParam2("s1003Affiliates");
+                    var na = GetMultiParam2("s1004Affiliates");
+                    var kp = GetMultiParam2("s1005Affiliates");
+                    var zi = GetMultiParam2("s1006Affiliates");
+
+                    var count = .0;
+                    for(int i=0;i<zp.Length;i++)
+                        if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
+                            count++;
+
+                    return count / zp.Length > 0.3;
+                }));
+            
+            
+            
+            //markersList.Add(new Marker("Значительное число юр.лиц по этому адресу", MarkerColour.Yellow, "Значительное количество юридических лиц на текущий момент времени", 2,
+            //        () => {
+            //            if (!markersList.Where(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией").First().Check())
+            //                {
+            //                double count = GetParam("q7006").
+            //                }
+            //            return false;
+            //        }));
+>>>>>>> 0f8e350fdddedd3f28d8bd23ec5a3b091b33accc
 
             markers = markersList.ToDictionary(x => x.Name);
 
