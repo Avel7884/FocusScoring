@@ -46,15 +46,9 @@
 
             <ListView.View>
                 <GridView>
-<<<<<<< HEAD
-                    <GridViewColumn DisplayMemberBinding="{Binding Inn}" Header="Инн" />
-                    <GridViewColumn DisplayMemberBinding="{Binding Marker.Name}" Width="100" Header="Компания"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding Score}" Header="Рейтинг"/>
-=======
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Inn}">Инн</GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="100">Компания</GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Score}">Рейтинг</GridViewColumn>
->>>>>>> 36e1a6068bc40964aa9cd31dadd73ebe9e288105
                 </GridView>
             </ListView.View>
 
