@@ -22,6 +22,7 @@ namespace FocusScoring
             {"kppWithDate",(ApiMethod.req,"/ArrayOfreq/req/UL/history/kpps/kppWithDate") },
             {"Reorganizing",(ApiMethod.req,"/ArrayOfreq/req/UL/status/reorganizing") },
             {"head",(ApiMethod.req,"/ArrayOfreq/req/UL/heads/head/innfl") },
+            {"regDate",(ApiMethod.req,"/ArrayOfreq/req/UL/registrationDate") },
             {"managementCompany",(ApiMethod.req,"/ArrayOfreq/req/UL/managementCompanies/managementCompany") },
             {"RegistrationDate",(ApiMethod.req,"/ArrayOfreq/req/UL/registrationDate") },
             {"Branches",(ApiMethod.req,"ArrayOfreq/req/UL/branches/name") },
@@ -101,6 +102,10 @@ namespace FocusScoring
             {"m5007Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m5007")},
             {"m7001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m7001")},
             {"m7004Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m7004")},
+            {"q2003Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/q2003")},
+            {"q2001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/q2001")},
+            {"m6002Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m6002")},
+            {"regDateAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/registrationDate")},
         };
 
         private ParamAccess access;
@@ -454,6 +459,9 @@ namespace FocusScoring
                 ()=>{return GetMultiParam("Branches").Count()>0; }),
                 new Marker("Уставный капитал более 100 000 руб.",MarkerColour.Green,"Уставный капитал более 100 000 руб.",3,
                 ()=>{return int.TryParse(GetParam("Sum"),out int sum)&&sum>100000; }),         
+                new Marker("Организация зарегестрирована более 5 лет тому назад",MarkerColour.Green,"Организация зарегестрирована более 5 лет тому назад",4,
+                () => DateTime.TryParse(GetParam("regDate"),out var date) && (DateTime.Today - date).Days > 365*5+1),
+                
                 new Marker("Значительное количество компаний, найденных в особых реестрах ФНС",MarkerColour.YellowAffiliates,"Значительное количество компаний, найденных в особых реестрах ФНС",4,
                     () =>
                     {
@@ -514,7 +522,53 @@ namespace FocusScoring
 
                         return count / zp.Length > 0.3;
                     }),
+                
+                new Marker("У группы компаний замечена активность варбитражных делах",MarkerColour.GreenAffiliates,"Более 30% связаных компаний имеют арбитражную практику",1,
+                    () =>
+                    {
+                        var q1 = GetMultiParam2("q2001Affiliates");
+                        var q3 = GetMultiParam2("q2003Affiliates");
+                        
+                        var count = .0;
+                        for(int i=0;i<q1.Length;i++)
+                            if (q1[i]!=""||q3[i]!="")
+                                count++;
+
+                        return count / q1.Length > 0.3;
+                    }),
+                
+                new Marker("У более чем половины связанных компаний найдена бухгалтерская отчетность",MarkerColour.GreenAffiliates,"Более чем 50% связанных компаний обнаружено наличие бухгалтерской отчетности за предыдущий период",4,
+                    () =>
+                    {
+                        var m2 = GetMultiParam2("m6002Affiliates");
+                        return m2.Count(x => x != "") / (double)m2.Length > 0.5;
+                    }),
+                
+                new Marker("У группы компаний замечена активность в государственных торгахпы компаний замече",MarkerColour.GreenAffiliates,"Более 20% связанных компаний имеют государственные контракты как заказчик или поставщик",5,
+                    () =>
+                    {
+                        var q1 = GetMultiParam2("q2001Affiliates");
+                        var q3 = GetMultiParam2("q2003Affiliates");
+                        
+                        var count = .0;
+                        for(int i=0;i<q1.Length;i++)
+                            if (q1[i]!=""||q3[i]!="")
+                                count++;
+
+                        return count / q1.Length > 0.2;
+                    }),
+                
+                new Marker("Значительная часть организаций из группы компаний существуют более 5 лет", MarkerColour.GreenAffiliates,"Более 30% связанных организаций зарегистрированы более 5 лет тому назад",4,
+                    () =>
+                    {
+                        var dates = GetMultiParam2("regDateAffiliates");
+                        return dates.Count(x =>
+                                DateTime.TryParse(x, out var date) && (DateTime.Today - date).Days > 365 * 5 + 1) /
+                            dates.Length > 0.3;
+                    })
         };
+            
+            
             markersList.Add(new Marker("Значительно снизилась выручка", MarkerColour.Yellow, "Выручка снизилась более чем на 30%", 3,
                     () => {
                         if (!(markersList.Where(x => x.Name == "Существенное снижение выручки").First().Check()))
@@ -524,6 +578,7 @@ namespace FocusScoring
                         }
                         return false;
                     }));
+            
             markersList.Add(new Marker("Значительное число ликвидированных связанных компаний", MarkerColour.YellowAffiliates, "Значительное число связных компаний, которые были ликвидированы в результате банкротства",3,  
                     () => {
                         if (!markersList.Where(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией").First().Check())
@@ -534,6 +589,7 @@ namespace FocusScoring
                         }
                         return false;
                     }));
+            
             markersList.Add(new Marker("Значительное число юр.лиц по этому адресу", MarkerColour.Yellow, "Значительное количество юридических лиц на текущий момент времени", 2,
                     () =>
                     {
