@@ -45,7 +45,6 @@ namespace FocusScoring
             return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
         }
 
-
         public IEnumerable<string> GetMultiParam(ApiMethod method, string inn, string node)
         {
             if (memoryCache.TryGetXml(inn, method, out var d))
@@ -65,6 +64,7 @@ namespace FocusScoring
             }
             return  new []{"Ошибка! Проверьте подключение к интернет и повторите попытку."};                
         }
+
         private IEnumerable<string> GetChild(XmlDocument document, string node)
         {    //TODO naming
             var heres = node.Split(new[] { '/' }, 4);
