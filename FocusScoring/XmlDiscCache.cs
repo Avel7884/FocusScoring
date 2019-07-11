@@ -55,7 +55,7 @@ namespace FocusScoring
             using (var stream = cacheFile.CreateViewStream(span.offset, span.count))
                 using (var reader = XmlReader.Create(stream))
                     document.Load(reader);
-            
+                
               return true;
         }
 
