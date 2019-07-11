@@ -459,7 +459,7 @@ namespace FocusScoring
                 ()=>{return GetMultiParam("Branches").Count()>0; }),
                 new Marker("Уставный капитал более 100 000 руб.",MarkerColour.Green,"Уставный капитал более 100 000 руб.",3,
                 ()=>{return int.TryParse(GetParam("Sum"),out int sum)&&sum>100000; }),         
-                new Marker("Организация зарегестрирована более 5 лет тому назад",MarkerColour.Green,"Организация зарегестрирована более 5 лет тому назад",4,
+                new Marker("Организация зарегистрирована более 5 лет тому назад",MarkerColour.Green,"Организация зарегистрирована более 5 лет тому назад",4,
                 () => DateTime.TryParse(GetParam("regDate"),out var date) && (DateTime.Today - date).Days > 365*5+1),
                 
                 new Marker("Значительное количество компаний, найденных в особых реестрах ФНС",MarkerColour.YellowAffiliates,"Значительное количество компаний, найденных в особых реестрах ФНС",4,
@@ -523,7 +523,7 @@ namespace FocusScoring
                         return count / zp.Length > 0.3;
                     }),
                 
-                new Marker("У группы компаний замечена активность варбитражных делах",MarkerColour.GreenAffiliates,"Более 30% связаных компаний имеют арбитражную практику",1,
+                new Marker("У группы компаний замечена активность в арбитражных делах",MarkerColour.GreenAffiliates,"Более 30% связаных компаний имеют арбитражную практику",1,
                     () =>
                     {
                         var q1 = GetMultiParam2("q2001Affiliates");
@@ -544,7 +544,7 @@ namespace FocusScoring
                         return m2.Count(x => x != "") / (double)m2.Length > 0.5;
                     }),
                 
-                new Marker("У группы компаний замечена активность в государственных торгахпы компаний замече",MarkerColour.GreenAffiliates,"Более 20% связанных компаний имеют государственные контракты как заказчик или поставщик",5,
+                new Marker("У группы компаний замечена активность в государственных торгах",MarkerColour.GreenAffiliates,"Более 20% связанных компаний имеют государственные контракты как заказчик или поставщик",5,
                     () =>
                     {
                         var q1 = GetMultiParam2("q2001Affiliates");

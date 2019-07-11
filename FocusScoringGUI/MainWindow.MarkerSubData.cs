@@ -28,7 +28,7 @@ namespace FocusScoringGUI
         {
             switch (colour)
             {
-                case MarkerColour.Green: return "";
+                case MarkerColour.Green: return "Ok";
                 case MarkerColour.Red: return "X";
                 case MarkerColour.Yellow: return "*";
                 case MarkerColour.GreenAffiliates: return "OkOk";
