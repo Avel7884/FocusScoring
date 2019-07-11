@@ -14,6 +14,7 @@ namespace FocusScoringGUI
                 Marker = marker;
                 Colour = ColourCode(marker.Colour);
                 Description = marker.Desctiption;
+                Name = marker.Name;
             }
             
             public static MarkerSubData Create(Marker marker)=>
@@ -21,6 +22,7 @@ namespace FocusScoringGUI
             
             public Marker Marker { get; }
             public string Colour { get; }
+            public string Name { get; }
             public string Description { get; }
         }
         
