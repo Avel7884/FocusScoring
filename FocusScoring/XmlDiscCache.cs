@@ -61,7 +61,7 @@ namespace FocusScoring
 
         public void Update(string inn, ApiMethod method, XmlDocument doc)
         {                                              //TODO file size
-            using (var stream = cacheFile.CreateViewStream(position,1024*256))
+            using (var stream = cacheFile.CreateViewStream(position,0))
             {
                 doc.Save(stream);
                 spansDict[(inn, method)] = (position,(int)stream.Position,DateTime.Today);

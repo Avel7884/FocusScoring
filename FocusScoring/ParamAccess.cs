@@ -45,40 +45,38 @@ namespace FocusScoring
             return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
         }
 
-        public IEnumerable<string> GetMultiParam(ApiMethod method,string inn,string node, string child)
+        public IEnumerable<string> GetMultiParam(ApiMethod method, string inn, string node)
         {
             if (memoryCache.TryGetXml(inn, method, out var d))
-                return GetChild(d, node, child);
+                return GetChild(d, node);
 
             if (discCache.TryGetXml(inn, method, out d))
             {
                 memoryCache.Update(inn,method,d);
-                return GetChild(d, node, child);
+                return GetChild(d, node);
             }
 
             if (download.TryGetXml(inn, method, out d))
             {
                 memoryCache.Update(inn,method,d);
                 discCache.Update(inn, method, d);
-                return GetChild(d, node, child);
+                return GetChild(d, node);
             }
             return  new []{"Ошибка! Проверьте подключение к интернет и повторите попытку."};                
         }
 
-        private IEnumerable<string> GetChild(XmlDocument document,string node, string child)
-        {
-            foreach (XmlNode n in document.SelectNodes(node))
-            {
-                var mark = false;
-                foreach (XmlNode c in n.ChildNodes)
-                {
-                    if(c.Name == child)
-                        yield return c.InnerText;
-                    mark = true;
-                    break;
-                }   
-                if(!mark)
-                    yield return "";
+        private IEnumerable<string> GetChild(XmlDocument document, string node)
+        {    //TODO naming
+            var heres = node.Split(new[] { '/' }, 4);
+            var adr1 = '/' + heres[1] + '/' + heres[2];
+
+            foreach (XmlNode n in document.SelectNodes(adr1))
+            { 
+                var nodes = n.SelectNodes(heres[3]);
+            if (nodes.Count > 0)
+                yield return nodes.Item(0).InnerText;
+            else
+                yield return "";
             }
         }
 

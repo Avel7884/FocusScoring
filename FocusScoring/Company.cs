@@ -63,6 +63,8 @@ namespace FocusScoring
             {"m7002",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7002") },
             {"m7003",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7003") },
             {"m7004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/m7004") },
+            {"q4002",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q4002") },
+            {"q4004",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q4004") },
             {"q7005",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7005") },
             {"q7006",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7006") },
             {"q7007",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7007") },
@@ -70,6 +72,7 @@ namespace FocusScoring
             {"q7009",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7009") },
             {"q7017",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7017") },
             {"q7018",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7018") },
+            {"q7019",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7019") },
             {"q7020",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7020") },
             {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },  
             {"q9001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q9001") },  
@@ -127,7 +130,7 @@ namespace FocusScoring
         public string[] GetMultiParam2(string paramName)
         {
             (ApiMethod method, string node) = paramDict[paramName];
-            return access.GetParams(method, inn, node).ToArray();
+            return access.GetMultiParam(method, inn, node).ToArray();
         }
 
         public bool GetMarker(string markerName)
@@ -577,12 +580,10 @@ namespace FocusScoring
                     var na = GetMultiParam2("s1004Affiliates");
                     var kp = GetMultiParam2("s1005Affiliates");
                     var zi = GetMultiParam2("s1006Affiliates");
-
                     var count = .0;
                     for(int i=0;i<zp.Length;i++)
                         if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
                             count++;
-
                     return count / zp.Length > 0.3;
                 }));
             
