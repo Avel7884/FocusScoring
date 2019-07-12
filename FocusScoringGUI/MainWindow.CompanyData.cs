@@ -12,7 +12,7 @@ namespace FocusScoringGUI
                 this.Inn = Inn;
                 company = Company.CreateINN(Inn);
                 Name = company.GetParam("Full");
-                Score = 0;
+                Score = company.Score;
             }
 
             public string Inn { get; set; }
