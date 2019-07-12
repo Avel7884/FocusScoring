@@ -14,7 +14,7 @@ namespace FocusScoringGUI
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow
+    public partial class MainWindow:Window
     {
         private MarkerSubData[] dataMarkersSource;
         private List<CompanyData> CurrentList;     
@@ -25,7 +25,6 @@ namespace FocusScoringGUI
         public MainWindow()
         {
             InitializeComponent();
-            
             //var binding = new Binding {Source = Inn};
             
             Settings.FocusKey = "3c71a03f93608c782f3099113c97e28f22ad7f45";
@@ -101,6 +100,11 @@ namespace FocusScoringGUI
         }
 
         private void AddList_Click(object sender, RoutedEventArgs e)
+        {
+            new ListDialog().Show();
+        }
+
+        private void ComboBox_Drop(object sender, DragEventArgs e)
         {
 
         }

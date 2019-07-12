@@ -106,6 +106,11 @@ namespace FocusScoring
             {"q2001Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/q2001")},
             {"m6002Affiliates", (ApiMethod.companyAffiliatesanalytics, "/ArrayOfanalytics/analytics/analytics/m6002")},
             {"regDateAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/registrationDate")},
+            {"LegalAddress",(ApiMethod.req,"/ArrayOfreq/req/UL/history/legalAddress/firstDate") },
+            {"LegalName",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/date") },
+            {"kpp",(ApiMethod.req,"/ArrayOfreq/req/UL/history/kpps/date") },
+            {"heads",(ApiMethod.req,"/ArrayOfreq/req/UL/history/heads/firstDate") },
+            {"managementCompanies",(ApiMethod.req,"/ArrayOfreq/req/UL/history/managementCompanies/firstDate") },
         };
 
         private ParamAccess access;
@@ -354,9 +359,9 @@ namespace FocusScoring
                     "Т.е. сумма исполнительных производств составляет более 10% от выручки организации за последний отчетный период " +
                     "и более суммы уставного капитала, и более 100 тыс. руб.",4,
                     ()=>{
-                         if(DoubleTryParse(GetParam("Sum").Replace('.',','),out double sum)
-                        && DoubleTryParse(GetParam("s1001").Replace('.',','),out double a)
-                        && DoubleTryParse(GetParam("s6004").Replace('.',','),out double b))
+                         if(DoubleTryParse(GetParam("Sum"),out double sum)
+                        && DoubleTryParse(GetParam("s1001"),out double a)
+                        && DoubleTryParse(GetParam("s6004"),out double b))
                             return  a > 0.1 * b & a > sum & a > 100000;
                         return false;
                     }),
@@ -461,7 +466,116 @@ namespace FocusScoring
                 ()=>{return int.TryParse(GetParam("Sum"),out int sum)&&sum>100000; }),         
                 new Marker("Организация зарегистрирована более 5 лет тому назад",MarkerColour.Green,"Организация зарегистрирована более 5 лет тому назад",4,
                 () => DateTime.TryParse(GetParam("regDate"),out var date) && (DateTime.Today - date).Days > 365*5+1),
-                
+                new Marker("Компания сменила юр. адрес за последние 6 месяцев",MarkerColour.Yellow,"Компания сменила юр. адрес за последние 6 месяцев",1,
+                //TODO check
+                ()=>{return DateTime.TryParse(GetParam("LegalAddress"),out var date) && (DateTime.Today - date).Days < 365/2;}),
+                new Marker("Компания сменила юр. адрес дважды за последние 12 месяцев",MarkerColour.Yellow,"Компания сменила юр. адрес дважды за последние 12 месяцев",2,
+                //TODO check
+                ()=>{
+                    int count=0;                  
+                    var address = GetMultiParam("LegalAddress");
+                    foreach (var e in address)
+                    {
+                      if(DateTime.TryParse(e,out var date)&& (DateTime.Today - date).Days < 365)
+                            count++;
+                    }
+                    return count==2;
+                }),
+                new Marker("Компания сменила юр. адрес трижды и более за последние 12 месяцев",MarkerColour.Yellow,"Компания сменила юр. адрес трижды и более за последние 12 месяцев",5,
+                ()=>{
+                    //TODO check
+                    int count=0;                  
+                    var address = GetMultiParam("LegalAddress");
+                    foreach (var e in address)
+                    {
+                      if(DateTime.TryParse(e,out var date)&& (DateTime.Today - date).Days < 365)
+                            count++;
+                    }
+                    return count>2;
+                }),
+                new Marker("Компания сменила название за последние 6 месяцев",MarkerColour.Yellow,"Компания сменила название за последние 6 месяцев",1,
+                ()=>{return DateTime.TryParse(GetParam("LegalName"),out var date) && (DateTime.Today - date).Days < 365/2; }),
+                new Marker("Компания сменила название дважды и более за последние 12 месяцев",MarkerColour.Yellow,"Компания сменила название дважды и более за последние 12 месяцев",3,
+                ()=>{
+                     //TODO check
+                    int count=0;
+                    var names = GetMultiParam("LegalName");
+                    foreach (var e in names)
+                    {
+                      if(DateTime.TryParse(e,out var date) && (DateTime.Today - date).Days < 365)
+                            count++;
+                    }
+                    return count>2;
+                }),
+                new Marker("Изменился КПП дважды или более за последние 12 месяцев",MarkerColour.Yellow,"Изменился КПП дважды или более за последние 12 месяцев",3,
+                ()=>{   //TODO check
+                    int count=0;
+                    var kpps = GetMultiParam("kpp");
+                    foreach (var e in kpps)
+                    {
+                      if(DateTime.TryParse(e,out var date) && (DateTime.Today - date).Days < 365)
+                            count++;
+                    }
+                    return count>2;}),
+                new Marker("Компания сменила руководителя или управляющую компанию за последние 6 месяцев",MarkerColour.Yellow,"Компания сменила руководителя или управляющую компанию за последние 6 месяцев",1,
+                ()=>{
+                     int companiesCount=0;
+                    int headsCount = 0;
+                    var managementCompanies = GetMultiParam("managementCompanies");
+                    var heads = GetMultiParam("heads");
+                    foreach (var company in managementCompanies)
+                    {
+                         if(DateTime.TryParse(company,out var date) && (DateTime.Today - date).Days < 365/2)
+                            companiesCount++;
+                    }
+                    foreach(var head in heads)
+                    {
+                        if(DateTime.TryParse(head,out var date) && (DateTime.Today - date).Days < 365/2)
+                            headsCount++;
+                    }
+                    return companiesCount >0 || headsCount>0;
+                }),
+                new Marker("Компания сменила руководителя или управляющую компанию дважды за последние 12 месяцев",MarkerColour.Yellow,"Компания сменила руководителя или управляющую компанию дважды за последние 12 месяцев",3,
+                ()=>{
+                      int companiesCount=0;
+                    int headsCount = 0;
+                    var managementCompanies = GetMultiParam("managementCompanies");
+                    var heads = GetMultiParam("heads");
+                    foreach (var company in managementCompanies)
+                    {
+                         if(DateTime.TryParse(company,out var date) && (DateTime.Today - date).Days < 365/2)
+                            companiesCount++;
+                    }
+                    foreach(var head in heads)
+                    {
+                        if(DateTime.TryParse(head,out var date) && (DateTime.Today - date).Days < 365/2)
+                            headsCount++;
+                    }
+                    return companiesCount + headsCount ==2;
+                }),
+                new Marker("Компания сменила руководителя или управляющую компанию трижды и более за последние 12 месяцев",MarkerColour.Yellow,"Компания сменила руководителя или управляющую компанию трижды и более за последние 12 месяцев",5,
+                ()=>{
+                     int companiesCount=0;
+                    int headsCount = 0;
+                    var managementCompanies = GetMultiParam("managementCompanies");
+                    var heads = GetMultiParam("heads");
+                    foreach (var company in managementCompanies)
+                    {
+                         if(DateTime.TryParse(company,out var date) && (DateTime.Today - date).Days < 365/2)
+                            companiesCount++;
+                    }
+                    foreach(var head in heads)
+                    {
+                        if(DateTime.TryParse(head,out var date) && (DateTime.Today - date).Days < 365/2)
+                            headsCount++;
+                    }
+                    return companiesCount + headsCount >2;
+                }),
+                new Marker("Компания сменила учредителя за последние 6 месяцев",MarkerColour.Yellow,"Компания сменила учредителя за последние 6 месяцев",3,
+                ()=>{
+                    //TODO
+                    return false;
+                }),
                 new Marker("Значительное количество компаний, найденных в особых реестрах ФНС",MarkerColour.YellowAffiliates,"Значительное количество компаний, найденных в особых реестрах ФНС",4,
                     () =>
                     {

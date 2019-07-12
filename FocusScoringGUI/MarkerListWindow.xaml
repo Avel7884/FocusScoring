@@ -5,7 +5,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:FocusScoringGUI"
         mc:Ignorable="d"
-        Title="MarkerListWindow" Height="450" Width="1450">
+        Title="MarkerListWindow" Height="Auto" Width="Auto">
         
         <ListView Name="MarkersList"
                   MouseDoubleClick="MarkersList_Click">
