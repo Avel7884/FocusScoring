@@ -19,6 +19,7 @@ namespace FocusScoringGUI
         private MarkerSubData[] dataMarkersSource;
         private List<CompanyData> CurrentList;     
         private Dictionary<string, List<CompanyData>> Lists;
+        private CompanyListsCache companiesCache;
 
         //public string Inn { get; set; }
     
@@ -28,14 +29,18 @@ namespace FocusScoringGUI
             //var binding = new Binding {Source = Inn};
             
             Settings.FocusKey = "3c71a03f93608c782f3099113c97e28f22ad7f45";
-            Lists = new Dictionary<string, List<CompanyData>>
+            companiesCache = CompanyListsCache.Create();
+            Lists = companiesCache.GetLists();
+
+            if (Lists.Count == 0)
             {
-                {"Good People", new List<CompanyData> {new CompanyData("6167110026"), new CompanyData("3454001339")}},
-                {"Baad People", new List<CompanyData> {new CompanyData("3444162030"), new CompanyData("3454001339")}}
-            };
+                var list = new List<CompanyData>();
+                Lists["NewList"] = list;
+                companiesCache.UpdateList("NewList",list);
+            }
 
             ListView.ItemsSource = Lists.Keys;
-            CurrentList = Lists["Good People"];
+            CurrentList = Lists.First().Value;
             CompanyList.ItemsSource = CurrentList;
 
             //MarkersTable.ItemsSource = new Company[0];
