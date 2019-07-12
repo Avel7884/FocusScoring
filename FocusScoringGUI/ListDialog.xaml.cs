@@ -18,10 +18,23 @@ namespace FocusScoringGUI
     /// Логика взаимодействия для ListDialog.xaml
     /// </summary>
     public partial class ListDialog : Window
-    {
+    { 
         public ListDialog()
         {
+            this.ResizeMode = ResizeMode.NoResize;
+            this.WindowStartupLocation = WindowStartupLocation.CenterOwner;
             InitializeComponent();
+        }
+
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+        //    if (ListName.Text == "")
+        ////        return;
         }
     }
 }

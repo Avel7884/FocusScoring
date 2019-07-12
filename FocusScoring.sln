@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusScoringTests", "FocusS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusScoringGUI", "FocusScoringGUI\FocusScoringGUI.csproj", "{68FE832E-37B3-4740-92A6-6A0C38F24BBA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{24BE3E48-DB15-4089-854E-066D482F89AC}"
+	ProjectSection(SolutionItems) = preProject
+		plus.jpg = plus.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

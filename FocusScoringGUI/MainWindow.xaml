@@ -5,42 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FocusScoringGUI"
         mc:Ignorable="d"
-        Title="MainWindow"
-        Height="502.5" Width="943">
+        Title="FoucsScoring 0.1"
+        Icon="Icon1.ico"
+        Height="Auto" Width="Auto">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="138*" />
             <ColumnDefinition Width="70*" />
             <ColumnDefinition Width="190*" />
-            <ColumnDefinition Width="66*" />
-            <ColumnDefinition Width="95*"/>
+            <ColumnDefinition Width="69*" />
+            <ColumnDefinition Width="92*"/>
             <ColumnDefinition Width="308*" />
             <ColumnDefinition Width="68*" />
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="0" />
-            <RowDefinition Height="25*" />
-            <RowDefinition Height="56*"/>
-            <RowDefinition Height="338*"/>
-            <RowDefinition Height="19*" />
+            <RowDefinition Height="51*"/>
+            <RowDefinition Height="390*"/>
+            <RowDefinition Height="22*" />
         </Grid.RowDefinitions>
         <ListView Grid.Column="0"
                   Grid.ColumnSpan="2"
-                  Grid.Row="3"
+                  Grid.Row="1"
                   x:Name="ListView"
-                  MouseDoubleClick="ListSelected_Click" Background="#FF4D9068" Grid.RowSpan="2"/>
+                  MouseDoubleClick="ListSelected_Click" Background="#FF4D9068" Grid.RowSpan="2" BorderThickness="1"/>
 
-        <Button Click="ButtonDataUpdate_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Grid.Column="3" Grid.Row="2"  Width="46" Margin="10,19,10,17" Content="Поиск"/>
-        <Button Grid.Column="1" Grid.Row="5" Click="DeleteList_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="19" Margin="10,0,12,0" Width="48" Content="Удалить"/>
+        <Button Click="ButtonDataUpdate_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="3" Grid.Row="0" Content="Добавить" MinHeight="18" Margin="1,0,0,1" Width="58" Height="18" BorderBrush="{x:Null}" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="1" Grid.Row="2" Click="DeleteList_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="18" Margin="4,2,5,2" MinWidth="48" Content="Удалить" Width="48"/>
 
 
-        <TextBox x:Name="Inn" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="120" Height="20" Width="130" Margin="35,19,25,17"/>
-
+        <TextBox x:Name="Inn" Text="" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="18"  MinWidth="90"  Margin="5,0,0,0" MaxWidth="185" Width="185" Grid.ColumnSpan="2"/>
+        <Label Grid.Column="2"  Grid.Row="0" Content="Введите ИНН контрагента" Margin="0,0,0,15" Foreground="Gray" VerticalAlignment="Bottom" Height="26"/>
 
         <ListView Grid.Column="2"
                   Grid.ColumnSpan="3"
-                  Grid.Row="3"
+                  Grid.Row="1"
                   x:Name="CompanyList"
                   MouseDoubleClick="CompanySelected_Click" Grid.RowSpan="2">
 
@@ -57,21 +56,24 @@
 
         <ListView Grid.Column="5"
                   Grid.ColumnSpan="2"
-                  Grid.Row="3"
+                  Grid.Row="1"
                   x:Name="MarkersList"
                   MouseDoubleClick="MarkerSelected_Click" Grid.RowSpan="2">
 
             <ListView.View>
                 <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding Colour}"/>
-                    <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Компания"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Colour}" Width="15"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Компания" Width="Auto" />
                 </GridView>
             </ListView.View>
 
         </ListView>
 
-        <Button x:Name="AllMarkers" Click="AllMarkers_OnClick" Grid.Column="5" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Height="19" Margin="121,0,113,0" Width="74" Content="Все маркеры"/>
-        <Button Grid.Row="2"  x:Name="AddList" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="92" Margin="116,40,0,0" Content="Создать лист" Background="#FF4D9068" BorderThickness="0" Grid.ColumnSpan="2" Click="AddList_Click"/>
+        <!--<Button Click="AllMarkers_OnClick" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="19" Width="74" Content="Все маркеры" Margin="117,1"/>-->
+        <Button Grid.Row="0" Content="Создать список" x:Name="AddList" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="20" Width="92" Background="#FF4D9068" BorderThickness="1,1,1,0" Grid.ColumnSpan="2" Click="AddList_Click" Foreground="White" BorderBrush="#FFABADB3"/>
+        <ComboBox Grid.Column="6" Grid.Row="2" Margin='2,2,2,3' Text="123">
+            <Button Click="AllMarkers_OnClick" Content="Маркеры" BorderThickness="0" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        </ComboBox>
 
     </Grid>
 </Window>
