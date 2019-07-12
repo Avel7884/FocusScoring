@@ -19,15 +19,15 @@ namespace FocusScoring
         //private Action recache;
         private long position = 0; 
 
-        public XmlDiscCache(string cachePath="./", TimeSpan cacheTTL=default(TimeSpan), long initialCapacity = 10*1024*1024)
+        public XmlDiscCache(string cachePath=null, TimeSpan cacheTTL=default(TimeSpan), long initialCapacity = 10*1024*1024)
         {
-            this.cachePath = cachePath;
+            this.cachePath = cachePath ?? Settings.CachePath;
             this.cacheTTL = cacheTTL == default(TimeSpan) ? TimeSpan.FromDays(7) : cacheTTL;
 
             if (File.Exists(cachePath + "cacheDict"))
             {
                 dictCacheFile = File.Open(cachePath + "cacheDict", FileMode.OpenOrCreate);
-                spansDict = DictionarySerializer.Deserialize(dictCacheFile);
+                spansDict = CacheDictionarySerializer.Deserialize(dictCacheFile);
             }
             else
             {
@@ -67,7 +67,7 @@ namespace FocusScoring
                 spansDict[(inn, method)] = (position,(int)stream.Position,DateTime.Today);
                 position+=(int)stream.Position;
                 dictCacheFile.Position = 0;
-                DictionarySerializer.Serialize(spansDict, dictCacheFile);
+                CacheDictionarySerializer.Serialize(spansDict, dictCacheFile);
                 //return (int)stream.Position;
             }
         }
@@ -76,7 +76,7 @@ namespace FocusScoring
         {
             cacheFile.Dispose();
             dictCacheFile.Position = 0;
-            DictionarySerializer.Serialize(spansDict, dictCacheFile);
+            CacheDictionarySerializer.Serialize(spansDict, dictCacheFile);
         }
     }
 }
