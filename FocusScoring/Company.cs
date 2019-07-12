@@ -339,6 +339,9 @@ namespace FocusScoring
                         return count / sums.Length > 0.3;
                     }),
 
+                new Marker("Индивидуальный предприниматель сменил ФИО",MarkerColour.Yellow,"Индивидуальный предприниматель сменил ФИО",3,
+                    ()=> FIOCache.HasChanged(inn, GetParam("FIO"))),
+                
                 new Marker("Организация в процессе реорганизации",MarkerColour.Yellow,"Находится в процессе реорганизации в форме присоединения к другому юридическому лицу (слияние, присоединение и т.д.)",3,
                     ()=>{return GetParam("Reorganizing")=="true";}),
                 new Marker("Директор и учредитель одно физическое лицо",MarkerColour.Yellow,"Директор и учредитель одно физическое лицо",1,

@@ -65,14 +65,16 @@
   <ItemGroup>
     <Compile Include="ApiMethod.cs" />
     <Compile Include="Company.cs" />
-    <Compile Include="DictionarySerializer.cs" />
-    <Compile Include="ICache.cs" />
+    <Compile Include="CacheDictionarySerializer.cs" />
+    <Compile Include="FIOCache.cs" />
+    <Compile Include="IXmlCache.cs" />
     <Compile Include="IXmlAccess.cs" />
     <Compile Include="Marker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ParamAccess.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="FIODictionarySerializer.cs" />
     <Compile Include="XmlDiscCache.cs" />
     <Compile Include="XmlDownload.cs" />
     <Compile Include="SingleXmlMemoryCache.cs" />
