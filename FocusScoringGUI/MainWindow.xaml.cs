@@ -103,10 +103,5 @@ namespace FocusScoringGUI
         {
             new ListDialog().Show();
         }
-
-        private void ComboBox_Drop(object sender, DragEventArgs e)
-        {
-
-        }
     }
 }

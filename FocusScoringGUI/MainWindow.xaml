@@ -62,7 +62,7 @@
 
             <ListView.View>
                 <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding Colour}" Width="15"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Colour}" Width="25"/>
                     <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Компания" Width="Auto" />
                 </GridView>
             </ListView.View>

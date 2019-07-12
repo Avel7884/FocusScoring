@@ -33,8 +33,7 @@ namespace FocusScoringGUI
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-        //    if (ListName.Text == "")
-        ////        return;
+         //   List
         }
     }
 }
