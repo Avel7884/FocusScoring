@@ -21,17 +21,16 @@ namespace FocusScoringGUI
     /// 
     public partial class ListDialog : Window
     {
+        private readonly Action<string, List<MainWindow.CompanyData>> addList;
         ListView ListView = null;
         ListView CompanyList = null;
         private List<MainWindow.CompanyData> CurrentList;
-        public ListDialog(ref ListView listView, ref ListView companyList, ref List<MainWindow.CompanyData> currentList)
+        public ListDialog(Action<string,List<MainWindow.CompanyData>> addList)
         {
-            ListView = listView;
-            CompanyList = companyList;
-            CurrentList = currentList;
             this.ResizeMode = ResizeMode.NoResize;
             this.WindowStartupLocation = WindowStartupLocation.CenterOwner;
             InitializeComponent();
+            this.addList = addList;
         }
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
@@ -41,14 +40,17 @@ namespace FocusScoringGUI
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            if(ListName.Text != "")
+
+            if (ListName.Text != "")
             {
-            CurrentList = new List<MainWindow.CompanyData>();
-           // Lists[ListName.Text] = CurrentList;
-            ListView.Items.Refresh();
-            CompanyList.ItemsSource = CurrentList;
-            CompanyList.Items.Refresh();
+                addList.Invoke(ListName.Text,new List<MainWindow.CompanyData>());
+                this.Close();
+            //CurrentList = new List<MainWindow.CompanyData>();
+            //ListView.Items.Refresh();
+            //CompanyList.ItemsSource = CurrentList;
+            //CompanyList.Items.Refresh();
             }
+            else
             MessageBox.Show("Название не может быть пустым");
         }
     }

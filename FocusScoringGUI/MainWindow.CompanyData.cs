@@ -4,11 +4,7 @@ using FocusScoring;
 namespace FocusScoringGUI
 {
     public partial class MainWindow
-<<<<<<< HEAD
     { 
-=======
-    {
->>>>>>> 790bc751e7648628f2a94a9d5546fc95113d4bc6
         public class CompanyData
         {
             private FocusScoring.Company company;

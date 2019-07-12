@@ -46,6 +46,8 @@ namespace FocusScoringGUI
             //MarkersTable.ItemsSource = new Company[0];
         }
 
+        
+
         private void MarkerSelected_Click(object s, RoutedEventArgs e)
         {
             if(MarkersList.SelectedItem == null)
@@ -80,16 +82,15 @@ namespace FocusScoringGUI
             CompanyList.Items.Refresh();
         }
 
-        //private void ButtonAddList_Click(object s, RoutedEventArgs e)
-        //{
-        //    if(ListName.Text == "")
-        //        return;
-        //    CurrentList = new List<CompanyData>();
-        //    Lists[ListName.Text] = CurrentList;
-        //    ListView.Items.Refresh();
-        //    CompanyList.ItemsSource = CurrentList; 
-        //    CompanyList.Items.Refresh();
-        //}
+        private void ButtonAddList(string name, List<CompanyData> list)
+        {
+            CurrentList = list;
+            Lists[name] = CurrentList;
+            companiesCache.UpdateList(name, list);
+            ListView.Items.Refresh();
+            CompanyList.ItemsSource = CurrentList;
+            CompanyList.Items.Refresh();
+        }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)
         {
@@ -106,7 +107,7 @@ namespace FocusScoringGUI
 
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
-            new ListDialog(ref ListView, ref CompanyList,ref CurrentList).Show();
+            new ListDialog(ButtonAddList).Show();
         }
     }
 }

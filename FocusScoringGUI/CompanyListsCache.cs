@@ -30,7 +30,7 @@ namespace FocusScoringGUI
             {
                 using (var file = File.Open(filePath,FileMode.OpenOrCreate))
                 {
-                    dict[filePath.Split().Last()] = ((MainWindow.CompanyData[]) serializer
+                    dict[filePath.Split('\\').Last()] = ((MainWindow.CompanyData[]) serializer
                         .Deserialize(file)).ToList();
                 }
             }
@@ -39,8 +39,7 @@ namespace FocusScoringGUI
 
         public void UpdateList(string name, IEnumerable<MainWindow.CompanyData> data)
         {
-            foreach (var company in data)
-            {
+            if(File.Exists("./CompanyLists/" + name))
                 using (var file = File.Open("./CompanyLists/"+name,FileMode.OpenOrCreate))
                 {
                     var list = ((MainWindow.CompanyData[]) serializer.Deserialize(file)).ToList();
@@ -48,6 +47,10 @@ namespace FocusScoringGUI
                     file.Position = 0;
                     serializer.Serialize(file, list.ToArray());
                 }
+            else
+            {
+                using (var file = File.Open("./CompanyLists/" + name, FileMode.OpenOrCreate))
+                    serializer.Serialize(file, data.ToArray().ToArray());
             }
         }
     }
