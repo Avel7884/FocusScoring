@@ -17,11 +17,11 @@ namespace FocusScoringGUI
     public partial class MainWindow:Window
     {
         private MarkerSubData[] dataMarkersSource;
-        private List<CompanyData> CurrentList;     
+        private List<CompanyData> CurrentList;
         private Dictionary<string, List<CompanyData>> Lists;
 
         //public string Inn { get; set; }
-    
+
         public MainWindow()
         {
             InitializeComponent();
@@ -96,12 +96,12 @@ namespace FocusScoringGUI
         
         private void AllMarkers_OnClick(object sender, RoutedEventArgs e)
         {
-            new MarkerListWindow().Show();
+            new MarkerListWindow().Owner = this;
         }
 
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
-            new ListDialog().Show();
+            new ListDialog(ref ListView, ref CompanyList,ref CurrentList).Show();
         }
     }
 }

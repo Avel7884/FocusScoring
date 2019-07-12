@@ -4,7 +4,7 @@ namespace FocusScoringGUI
 {
     public partial class MainWindow
     { 
-        private class CompanyData
+        public class CompanyData
         {
             private FocusScoring.Company company;
             public CompanyData(string Inn)
@@ -12,7 +12,7 @@ namespace FocusScoringGUI
                 this.Inn = Inn;
                 company = Company.CreateINN(Inn);
                 Name = company.GetParam("Full");
-                Score = company.Score;
+                Score = 0;
             }
 
             public string Inn { get; set; }
