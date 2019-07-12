@@ -55,7 +55,7 @@ namespace FocusScoringGUI
             if(CompanyList.SelectedItem == null)
                 return; //TODO Message boxes here and everywhere else
             var inn = ((CompanyData) CompanyList.SelectedItem).Inn;
-            MarkersList.ItemsSource = Company.CreateINN(inn).GetMarkers().Select(MarkerSubData.Create);
+            MarkersList.ItemsSource = Company.CreateINN(inn).Markers.Select(MarkerSubData.Create);
             MarkersList.Items.Refresh();
         }
 

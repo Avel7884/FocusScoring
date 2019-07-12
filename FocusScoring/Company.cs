@@ -114,6 +114,7 @@ namespace FocusScoring
         {
             access = ParamAccess.Start();
             InitMarkers();
+            score = -1;
         }
 
         public static Company CreateINN(string inn)
@@ -143,7 +144,7 @@ namespace FocusScoring
 
         public bool GetMarker(string markerName)
         {
-            return markers[markerName].Check();
+            return markersDict[markerName].Check();
         }
 
 
@@ -162,21 +163,77 @@ namespace FocusScoring
         }
 
 
-        private Dictionary<string, Marker> markers;
+        private Dictionary<string, Marker> markersDict;
 
         private static List<Marker> markersList;
 
-        
         //TODO move in another class, also refactor
         public static Company DummyCompany = new Company();
         public Marker[] GetAllMarkers => markersList.ToArray();
 
-        
-        
-        public Marker[] GetMarkers()
+        private int score;
+        public int Score
+        {
+            get
+            {
+                if (score < 0)
+                    score = ConutScore(Markers);
+                return score;
+            }
+        }
+
+        private Marker[] markers = null;
+        public Marker[] Markers
+        {
+            get
+            {
+                if (markers == null)
+                    markers = GetMarkers();
+                return markers;
+            }
+        }
+
+        //TODO refactor all
+        private int ConutScore(Marker[] markers)
+        {
+            var redSum = 0;
+            var yellowSum = 0;
+            var greenSum = 0;
+            foreach (var marker in markers)
+            {
+                if (marker.Colour == MarkerColour.Red || marker.Colour == MarkerColour.RedAffiliates)
+                    redSum += marker.Score;
+                if (marker.Colour == MarkerColour.Yellow || marker.Colour == MarkerColour.YellowAffiliates)
+                    yellowSum += marker.Score;
+                if (marker.Colour == MarkerColour.Green|| marker.Colour == MarkerColour.GreenAffiliates)
+                    greenSum+= marker.Score;
+            }
+
+            var maxScore = redSum > 0 ? 39 : yellowSum > 0 ? 69 : 100;
+
+            redSum *= 39;
+            yellowSum *= 40;
+            greenSum *= 21;
+            
+            redSum /= markersList
+                .Where(marker => marker.Colour == MarkerColour.Red || marker.Colour == MarkerColour.RedAffiliates)
+                .Select(x => x.Score).Sum();
+            yellowSum /= markersList
+                .Where(marker => marker.Colour == MarkerColour.Yellow || marker.Colour == MarkerColour.YellowAffiliates)
+                .Select(x => x.Score).Sum();
+            greenSum /= markersList
+                .Where(marker => marker.Colour == MarkerColour.Green|| marker.Colour == MarkerColour.GreenAffiliates)
+                .Select(x => x.Score).Sum();
+
+            var score = 79 - redSum - yellowSum + greenSum;
+            return Math.Min(maxScore, score);
+        }
+        //TODO Rename Refactor AAAAAA 
+        private Marker[] GetMarkers()
         {
             return markersList.Where(marker=>marker.Check()).ToArray();
         }
+        
         private bool DoubleTryParse(string param, out double result)
         {
             return double.TryParse(param.Replace('.', ','), out result);
@@ -190,7 +247,7 @@ namespace FocusScoring
                 new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,"Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
                     () => GetParam("Dissolving") == "true" || GetParam("Dissolved") == "true"),
 
-                new Marker("Вероятное банкрротство организации", MarkerColour.Red,"Обнаружены арбитражные дела о банкротстве за последние 3 месяца \n " +
+                new Marker("Вероятное банкротство организации", MarkerColour.Red,"Обнаружены арбитражные дела о банкротстве за последние 3 месяца \n " +
                 "Обнаружены сообщение о банкротстве за последние 12 месяцев \n " +
                 "Обнаружены признаки завершенной процедуры банкротства", 5,
                     () => GetParam("m7013") == "true" || GetParam("m7014") == "true" || GetParam("m7016") == "true"),
@@ -691,7 +748,7 @@ namespace FocusScoring
             //                }
             //            return false;
             //        }));
-            markers = markersList.ToDictionary(x => x.Name);
+            markersDict = markersList.ToDictionary(x => x.Name);
 
         }
 
