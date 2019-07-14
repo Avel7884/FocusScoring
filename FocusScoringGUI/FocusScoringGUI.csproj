@@ -119,5 +119,10 @@
     <Resource Include="src\RedDot.png" />
     <Resource Include="src\YellowDot.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="src\GreenDotAffiliates.png" />
+    <Resource Include="src\RedDotAffiliates.png" />
+    <Resource Include="src\YellowDotAffiliates.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
