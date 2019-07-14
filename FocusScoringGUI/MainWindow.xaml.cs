@@ -55,7 +55,6 @@ namespace FocusScoringGUI
             var marker = ((MarkerSubData) MarkersList.SelectedItem).Marker;
             new MarkerDialog(marker).ShowDialog();
         }
-
         private void CompanySelected_Click(object s, RoutedEventArgs e)
         {
             if(CompanyList.SelectedItem == null)
@@ -102,12 +101,22 @@ namespace FocusScoringGUI
         
         private void AllMarkers_OnClick(object sender, RoutedEventArgs e)
         {
-            new MarkerListWindow().Owner = this;
+            new MarkerListWindow().Show();
         }
 
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
             new ListDialog(ButtonAddList).Show();
+        }
+
+        //private void Inn_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    e.Handled = !(Char.IsDigit(e.Key.ToString(), 0));
+        //}
+
+        private void Inn_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            e.Handled = !(Char.IsDigit(e.Text, 0));
         }
     }
 }

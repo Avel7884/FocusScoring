@@ -113,6 +113,11 @@
   <ItemGroup>
     <Resource Include="Icon1.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="src\GreenDot.png" />
+    <Resource Include="src\plus.jpg" />
+    <Resource Include="src\RedDot.png" />
+    <Resource Include="src\YellowDot.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
