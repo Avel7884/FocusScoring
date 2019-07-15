@@ -12,8 +12,16 @@
             
                 <ListView.View>
                         <GridView>
-                                <GridViewColumn DisplayMemberBinding="{Binding Path=Colour}"/>
-                                <GridViewColumn DisplayMemberBinding="{Binding Path=Marker.Name}">Название</GridViewColumn>
+                <GridViewColumn>
+                    <GridViewColumn.CellTemplate>
+                    <DataTemplate>
+                            <Image Source="{Binding Path=Colour}" Height="16" Width="16"/>
+                    </DataTemplate>
+                    </GridViewColumn.CellTemplate>
+                </GridViewColumn>
+
+
+                <GridViewColumn DisplayMemberBinding="{Binding Path=Name}">Название</GridViewColumn>
                                 <GridViewColumn DisplayMemberBinding="{Binding Path=Description}">Описание</GridViewColumn>
                         </GridView>
                 </ListView.View>

@@ -21,7 +21,9 @@ namespace FocusScoringGUI
             if(MarkersList.SelectedItem == null)
                 return;
             var marker = ((MainWindow.MarkerSubData) MarkersList.SelectedItem).Marker;
-            new MarkerDialog(marker).ShowDialog(); 
+            var MarkerDialog = new MarkerDialog(marker);
+            MarkerDialog.Owner = this;
+            MarkerDialog.Show();
         }
     }
 }
