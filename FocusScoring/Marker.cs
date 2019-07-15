@@ -23,13 +23,28 @@ namespace FocusScoring
 
         public static CSharpCodeProvider Provider = new CSharpCodeProvider();
         
-        private readonly Func<Company,bool> check;
+        private readonly Func<Company,MarkerResult> check;
         //TODO manage access
         public int Score { get; set; }
+        
+        //public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,MarkerResult>)
 
-        public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,bool> check)
+        public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,string > check)
+        {
+            this.check = x =>
+            {
+                var res = check.Invoke(x);
+                return new MarkerResult(res!=null,this,res);
+            };
+            this.Name = Name;
+            Colour = colour;
+            Description = description;
+            this.Score = Score;
+        }
+        
+        public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,bool> check, string verbose = "")
         { 
-            this.check = check;
+            this.check = x=>new MarkerResult(check.Invoke(x),this,verbose);
             this.Name = Name;
             Colour = colour;
             Description = description;
@@ -51,7 +66,7 @@ namespace FocusScoring
             //TODO Update check
         public string Code { get; set; }
         
-        public bool Check(Company company) => check(company);
+        public MarkerResult Check(Company company) => check(company);
     }
 
     public enum MarkerColour

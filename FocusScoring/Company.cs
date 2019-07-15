@@ -130,7 +130,7 @@ namespace FocusScoring
        
         public int Score { get; set; }
 
-        public Marker[] Markers { get; set; }
+        public MarkerResult[] Markers { get; set; }
         
         public string GetParam(string paramName)
         {
