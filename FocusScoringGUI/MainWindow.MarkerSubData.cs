@@ -17,15 +17,29 @@ namespace FocusScoringGUI
                 Colour =  new BitmapImage(ColourCode(marker.Colour));
                 Description = marker.Description;
                 Name = marker.Name;
+                Verbose = "";
+            }
+            
+            public MarkerSubData(MarkerResult result)
+            {
+                Marker = result.Marker;
+                Colour =  new BitmapImage(ColourCode(result.Marker.Colour));
+                Description = result.Marker.Description;
+                Verbose = result.Verbose;
+                Name = result.Marker.Name;
             }
             
             public static MarkerSubData Create(Marker marker)=>
                 new MarkerSubData(marker);
             
+            public static MarkerSubData Create(MarkerResult result)=>
+                new MarkerSubData(result);
+            
             public Marker Marker { get; }
             public BitmapImage Colour { get; }
             public string Name { get; }
             public string Description { get; }
+            public string Verbose { get; }
         }
         
         private static Uri ColourCode(MarkerColour colour)

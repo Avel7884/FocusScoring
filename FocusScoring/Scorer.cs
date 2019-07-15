@@ -17,7 +17,7 @@ namespace FocusScoring
             return markersDict[markerName].Check(company);
         }
         
-        private int ConutScore(Marker[] markers)
+        private int ConutScore(IEnumerable<Marker> markers)
         {
             var redSum = 0;
             var yellowSum = 0;
@@ -58,18 +58,18 @@ namespace FocusScoring
 
         public Marker[] GetAllMarkers => markersList.ToArray();
 
-        public Marker[] CheckMarkers(Company company)
+        public MarkerResult[] CheckMarkers(Company company)
         {
             if (company.Markers != null)
                 return company.Markers;
-            var markers = markersList.Where(marker=>marker.Check(company)).ToArray();
-            company.Markers = markers;
-            return markers;
+            var results = markersList.Select(marker=>marker.Check(company)).Where(x=>x).ToArray();
+            company.Markers = results;
+            return results;
         }
 
         public int GetScore(Company company)
         {
-            var score = ConutScore(company.Markers ?? CheckMarkers(company));
+            var score = ConutScore((company.Markers ?? CheckMarkers(company)).Select(x=>x.Marker));
             company.Score = score;
             return score;
         }
@@ -731,7 +731,7 @@ namespace FocusScoring
                 "Выручка снизилась более чем на 30%", 3,
                 company =>
                 {
-                    if (!(markersList.Where(x => x.Name == "Существенное снижение выручки").First().Check(company)))
+                    if (markersList.First(x => x.Name == "Существенное снижение выручки").Check(company))
                     {
                         if (DoubleTryParse(company.GetParam("s6004"), out double revenu) &&
                             DoubleTryParse(company.GetParam("s6003"), out double revenuPast))
@@ -746,9 +746,8 @@ namespace FocusScoring
                 "Значительное число связных компаний, которые были ликвидированы в результате банкротства", 3,
                 company =>
                 {
-                    if (!markersList
-                        .Where(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией")
-                        .First().Check(company))
+                    if (markersList
+                        .First(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией").Check(company))
                     {
                         int Affiliatescount = company.GetMultiParam("InnAffilalates").Count();
                         int q7005Count = company.GetMultiParam("q7005Affiliates").Count();
@@ -762,9 +761,9 @@ namespace FocusScoring
                 "Значительное количество юридических лиц на текущий момент времени", 2,
                 company =>
                 {
-                    if (!markersList
-                        .Where(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией")
-                        .First().Check(company))
+                    if (markersList
+                            .Where(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией")
+                            .First().Check(company))
                     {
                         if (int.TryParse(company.GetParam("q7006"), out int count1) && count1 > 10
                         ) //КоличествоНеЛиквидированныхСУчетомНомераОфиса
