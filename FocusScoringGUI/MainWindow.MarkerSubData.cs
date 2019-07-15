@@ -13,7 +13,7 @@ namespace FocusScoringGUI
             {
                 Marker = marker;
                 Colour = ColourCode(marker.Colour);
-                Description = marker.Desctiption;
+                Description = marker.Description;
                 Name = marker.Name;
             }
             

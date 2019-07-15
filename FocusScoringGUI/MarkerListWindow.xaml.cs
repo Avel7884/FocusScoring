@@ -8,11 +8,11 @@ namespace FocusScoringGUI
 {
     public partial class MarkerListWindow : Window
     {
-        public MarkerListWindow()
+        public MarkerListWindow(Marker[] markers)
         {
             InitializeComponent();
 
-            MarkersList.ItemsSource = Company.DummyCompany.GetAllMarkers.Select(MainWindow.MarkerSubData.Create);
+            MarkersList.ItemsSource = markers.Select(MainWindow.MarkerSubData.Create);
 
         }
 

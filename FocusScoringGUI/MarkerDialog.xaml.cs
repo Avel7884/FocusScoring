@@ -18,7 +18,7 @@ namespace FocusScoringGUI
             Importance.ItemsSource = Enumerable.Range(1, 5);
             Importance.SelectedIndex = marker.Score - 1;
 
-            Description.Text = marker.Desctiption;
+            Description.Text = marker.Description;
 
             Code.Text = "Unavalable, not implemented!";
         }
