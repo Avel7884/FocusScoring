@@ -68,13 +68,16 @@
 
         <!--<Button Click="AllMarkers_OnClick" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="19" Width="74" Content="Все маркеры" Margin="117,1"/>-->
         <Button Grid.Row="1" Content="Создать список" x:Name="AddList" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="20" Width="92" Background="#FF4D9068" BorderThickness="1,1,1,0" Grid.ColumnSpan="2" Click="AddList_Click" Foreground="White" BorderBrush="#FFABADB3"/>
-        <ComboBox Grid.Column="4" Grid.Row="3" Margin='2,2,2,2' VerticalAlignment="Bottom" MaxHeight="20" MaxWidth="68">
-            <Button Click="AllMarkers_OnClick" Content="Маркеры" BorderThickness="0" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        </ComboBox>
+        <ComboBox Grid.Column="4" Grid.Row="3" Margin='2,2,2,2' VerticalAlignment="Bottom" MaxHeight="20" MaxWidth="68"/>
         <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="20" Width="167">
             <TextBox x:Name="Inn" MinWidth="110" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" PreviewTextInput="Inn_PreviewTextInput" MaxLength="13"/>
             <Button Click="ButtonDataUpdate_Click"  Content="Добавить" BorderBrush="{x:Null}" Grid.Column="2" Grid.Row="1"/>
         </StackPanel>
+        <Menu HorizontalAlignment="Left"  Grid.RowSpan="3" VerticalAlignment="Top">
+            <MenuItem Header="Настройки">
+                <Button Click="AllMarkers_OnClick" Content="Маркеры" BorderThickness="0" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}"/>
+            </MenuItem>
+        </Menu>
 
     </Grid>
 </Window>

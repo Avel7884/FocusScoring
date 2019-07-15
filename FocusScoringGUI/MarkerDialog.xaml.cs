@@ -30,7 +30,7 @@ namespace FocusScoringGUI
             //TODO They shoud do sOmething!
         private void Ok_OnClick(object sender, RoutedEventArgs e)
         {
-            Close();
+            
         }
     }
 }

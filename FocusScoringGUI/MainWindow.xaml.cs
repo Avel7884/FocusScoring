@@ -101,7 +101,9 @@ namespace FocusScoringGUI
         
         private void AllMarkers_OnClick(object sender, RoutedEventArgs e)
         {
-            new MarkerListWindow().Show();
+            var a = new MarkerListWindow();
+            a.Owner = this;
+            a.Show();
         }
 
         private void AddList_Click(object sender, RoutedEventArgs e)
