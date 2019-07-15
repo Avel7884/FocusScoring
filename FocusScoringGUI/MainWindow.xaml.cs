@@ -18,6 +18,7 @@ namespace FocusScoringGUI
     {
         private MarkerSubData[] dataMarkersSource;
         private List<CompanyData> CurrentList;
+        private string currentListName;
         private Dictionary<string, List<CompanyData>> Lists;
         private CompanyListsCache companiesCache;
         public Scorer scorer;
@@ -44,6 +45,7 @@ namespace FocusScoringGUI
 
             ListView.ItemsSource = Lists.Keys;
             CurrentList = Lists.First().Value;
+            currentListName = Lists.First().Key;
             CompanyList.ItemsSource = CurrentList;
 
             //MarkersTable.ItemsSource = new Company[0];
@@ -79,7 +81,9 @@ namespace FocusScoringGUI
         {
             if (Inn.Text == "")//TODO Checks with regex 
                 return;
-            CurrentList.Add(new CompanyData(Inn.Text));
+            var data = new CompanyData(Inn.Text);
+            CurrentList.Add(data);
+            companiesCache.UpdateList(currentListName,new[]{data});
             CompanyList.Items.Refresh();
         }
 
