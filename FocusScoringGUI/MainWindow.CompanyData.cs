@@ -7,7 +7,7 @@ namespace FocusScoringGUI
     { 
         public class CompanyData
         {
-            private FocusScoring.Company company;
+            public Company Company { get; }
 
             public CompanyData()
             {
@@ -17,10 +17,11 @@ namespace FocusScoringGUI
             public CompanyData(string Inn)
             {
                 this.Inn = Inn;
-                company = Company.CreateINN(Inn);
-                Name = company.GetParam("Full");
+                Company = Company.CreateINN(Inn);
+                Name = Company.GetParam("Full");
                 Score = 0;
             }
+            
             [XmlAttribute]
             public string Inn { get; set; }
             [XmlAttribute]

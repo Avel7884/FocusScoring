@@ -15,7 +15,7 @@ namespace FocusScoringGUI
             {
                 Marker = marker;
                 Colour =  new BitmapImage(ColourCode(marker.Colour));
-                Description = marker.Desctiption;
+                Description = marker.Description;
                 Name = marker.Name;
             }
             

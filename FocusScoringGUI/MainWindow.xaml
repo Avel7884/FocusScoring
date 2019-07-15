@@ -10,11 +10,11 @@
         Height="Auto" Width="833">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="122*" />
-            <ColumnDefinition Width="62*" />
-            <ColumnDefinition Width="229*" />
-            <ColumnDefinition Width="272*" />
-            <ColumnDefinition Width="59*" />
+            <ColumnDefinition Width="135*" />
+            <ColumnDefinition Width="69*" />
+            <ColumnDefinition Width="254*" />
+            <ColumnDefinition Width="290*" />
+            <ColumnDefinition Width="77*" />
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
@@ -22,7 +22,7 @@
             <RowDefinition Height="21*"/>
             <RowDefinition Height="421*"/>
             <RowDefinition Height="24*" />
-            <RowDefinition Height="4*"/>
+            <RowDefinition Height="4*" />
         </Grid.RowDefinitions>
         <ListView Grid.Column="0"
                   Grid.ColumnSpan="2"
@@ -31,7 +31,7 @@
                   MouseDoubleClick="ListSelected_Click" Background="#FF4D9068" Grid.RowSpan="2" BorderThickness="1"/>
 
 
-        <Button Grid.Column="1" Grid.Row="3" VerticalAlignment="Bottom"  Click="DeleteList_Click" Content="Удалить" MaxHeight="20" MaxWidth="68"/>
+        <Button Grid.Column="1" Grid.Row="3" VerticalAlignment="Center"  Click="DeleteList_Click" Content="Удалить" MaxHeight="20" MaxWidth="68" Height="20"/>
         <Label Content="Введите ИНН контрагента" Foreground="Gray" VerticalAlignment="Top" HorizontalAlignment="Right" Height="24" Grid.Column="2" Width="154"/>
 
         <ListView Grid.Column="2"
@@ -59,7 +59,13 @@
 
             <ListView.View>
                 <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding Colour}" Width="25"/>
+                    <GridViewColumn>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Path=Colour}" Height="16" Width="16"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Компания" Width="Auto" />
                 </GridView>
             </ListView.View>
@@ -67,13 +73,15 @@
         </ListView>
 
         <!--<Button Click="AllMarkers_OnClick" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="19" Width="74" Content="Все маркеры" Margin="117,1"/>-->
-        <Button Grid.Row="1" Content="Создать список" x:Name="AddList" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="20" Width="92" Background="#FF4D9068" BorderThickness="1,1,1,0" Grid.ColumnSpan="2" Click="AddList_Click" Foreground="White" BorderBrush="#FFABADB3"/>
-        <ComboBox Grid.Column="4" Grid.Row="3" Margin='2,2,2,2' VerticalAlignment="Bottom" MaxHeight="20" MaxWidth="68"/>
+        <StackPanel Grid.Row="1"  Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#FF4D9068">
+            <Image Source="pack://application:,,,/src/plus.png" Cursor="Hand"/>
+            <Button Content="Создать список" x:Name="AddList" Background="#FF4D9068" BorderThickness="1,1,1,0" Click="AddList_Click" Foreground="White" BorderBrush="#FFABADB3" Cursor="Hand"/>
+        </StackPanel>
         <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="20" Width="167">
             <TextBox x:Name="Inn" MinWidth="110" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" PreviewTextInput="Inn_PreviewTextInput" MaxLength="13"/>
             <Button Click="ButtonDataUpdate_Click"  Content="Добавить" BorderBrush="{x:Null}" Grid.Column="2" Grid.Row="1"/>
         </StackPanel>
-        <Menu HorizontalAlignment="Left"  Grid.RowSpan="3" VerticalAlignment="Top">
+        <Menu Grid.Column="4" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center">
             <MenuItem Header="Настройки">
                 <Button Click="AllMarkers_OnClick" Content="Маркеры" BorderThickness="0" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}"/>
             </MenuItem>

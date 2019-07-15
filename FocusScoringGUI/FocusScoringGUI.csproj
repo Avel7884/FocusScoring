@@ -114,8 +114,9 @@
     <Resource Include="Icon1.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Counteragents.txt" />
     <Resource Include="src\GreenDot.png" />
-    <Resource Include="src\plus.jpg" />
+    <Content Include="src\plus.png" />
     <Resource Include="src\RedDot.png" />
     <Resource Include="src\YellowDot.png" />
   </ItemGroup>

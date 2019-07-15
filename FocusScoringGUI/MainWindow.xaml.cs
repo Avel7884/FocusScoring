@@ -20,6 +20,7 @@ namespace FocusScoringGUI
         private List<CompanyData> CurrentList;
         private Dictionary<string, List<CompanyData>> Lists;
         private CompanyListsCache companiesCache;
+        public Scorer scorer;
 
         //public string Inn { get; set; }
 
@@ -31,11 +32,13 @@ namespace FocusScoringGUI
             Settings.FocusKey = "3c71a03f93608c782f3099113c97e28f22ad7f45";
             companiesCache = CompanyListsCache.Create();
             Lists = companiesCache.GetLists();
-
+            scorer = new Scorer();
+            
             if (Lists.Count == 0)
             {
                 var list = new List<CompanyData>();
                 Lists["NewList"] = list;
+                
                 companiesCache.UpdateList("NewList",list);
             }
 
@@ -45,8 +48,6 @@ namespace FocusScoringGUI
 
             //MarkersTable.ItemsSource = new Company[0];
         }
-
-        
 
         private void MarkerSelected_Click(object s, RoutedEventArgs e)
         {
@@ -59,8 +60,9 @@ namespace FocusScoringGUI
         {
             if(CompanyList.SelectedItem == null)
                 return; //TODO Message boxes here and everywhere else
-            var inn = ((CompanyData) CompanyList.SelectedItem).Inn;
-            MarkersList.ItemsSource = Company.CreateINN(inn).Markers.Select(MarkerSubData.Create);
+            var companyData = ((CompanyData) CompanyList.SelectedItem);
+            MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company)
+                                            .Select(MarkerSubData.Create);
             MarkersList.Items.Refresh();
         }
 
@@ -101,7 +103,8 @@ namespace FocusScoringGUI
         
         private void AllMarkers_OnClick(object sender, RoutedEventArgs e)
         {
-            var a = new MarkerListWindow();
+
+            var a = new MarkerListWindow(scorer.GetAllMarkers);
             a.Owner = this;
             a.Show();
         }
@@ -120,5 +123,6 @@ namespace FocusScoringGUI
         {
             e.Handled = !(Char.IsDigit(e.Text, 0));
         }
+
     }
 }
