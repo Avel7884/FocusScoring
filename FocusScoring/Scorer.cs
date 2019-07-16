@@ -62,7 +62,6 @@ namespace FocusScoring
         {
             if (company.Markers != null)
                 return company.Markers;
-            //BAG
             var results = markersList.Select(marker=>marker.Check(company)).Where(x=>x).ToArray();
             company.Markers = results;
             return results;
