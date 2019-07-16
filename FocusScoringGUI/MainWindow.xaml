@@ -43,7 +43,7 @@
         </ListView>
 
         <TextBlock TextWrapping="Wrap" Name="TextBlockList" Grid.Column="2" Grid.Row="1" FontSize="18" Grid.RowSpan="2" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom"/>
-        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left" Width="0"/>
+        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left"/>
         <Button Grid.Column="1" Grid.Row="4" VerticalAlignment="Center"  Click="DeleteList_Click" Content="Удалить" MaxHeight="20" MaxWidth="68" Height="20" Margin="0,2"/>
 
 
@@ -100,7 +100,7 @@
                 <MenuItem Click="AllMarkers_OnClick" Header="Маркеры" BorderThickness="0" Background="{x:Null}" BorderBrush="{x:Null}"/>
             </MenuItem>
         </Menu>
-        
+
 
     </Grid>
 </Window>

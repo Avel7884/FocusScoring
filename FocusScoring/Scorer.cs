@@ -11,12 +11,12 @@ namespace FocusScoring
         {
             InitMarkers();
         }
-        
+
         public bool GetMarker(Company company, string markerName)
         {
             return markersDict[markerName].Check(company);
         }
-        
+
         private int ConutScore(IEnumerable<Marker> markers)
         {
             var redSum = 0;
@@ -28,8 +28,8 @@ namespace FocusScoring
                     redSum += marker.Score;
                 if (marker.Colour == MarkerColour.Yellow || marker.Colour == MarkerColour.YellowAffiliates)
                     yellowSum += marker.Score;
-                if (marker.Colour == MarkerColour.Green|| marker.Colour == MarkerColour.GreenAffiliates)
-                    greenSum+= marker.Score;
+                if (marker.Colour == MarkerColour.Green || marker.Colour == MarkerColour.GreenAffiliates)
+                    greenSum += marker.Score;
             }
 
             var maxScore = redSum > 0 ? 39 : yellowSum > 0 ? 69 : 100;
@@ -37,7 +37,7 @@ namespace FocusScoring
             redSum *= 39;
             yellowSum *= 40;
             greenSum *= 21;
-            
+
             redSum /= markersList
                 .Where(marker => marker.Colour == MarkerColour.Red || marker.Colour == MarkerColour.RedAffiliates)
                 .Select(x => x.Score).Sum();
@@ -45,13 +45,13 @@ namespace FocusScoring
                 .Where(marker => marker.Colour == MarkerColour.Yellow || marker.Colour == MarkerColour.YellowAffiliates)
                 .Select(x => x.Score).Sum();
             greenSum /= markersList
-                .Where(marker => marker.Colour == MarkerColour.Green|| marker.Colour == MarkerColour.GreenAffiliates)
+                .Where(marker => marker.Colour == MarkerColour.Green || marker.Colour == MarkerColour.GreenAffiliates)
                 .Select(x => x.Score).Sum();
 
             var score = 79 - redSum - yellowSum + greenSum;
             return Math.Min(maxScore, score);
         }
-        
+
         private Dictionary<string, Marker> markersDict;
 
         private static List<Marker> markersList;
@@ -62,18 +62,18 @@ namespace FocusScoring
         {
             if (company.Markers != null)
                 return company.Markers;
-            var results = markersList.Select(marker=>marker.Check(company)).Where(x=>x).ToArray();
+            var results = markersList.Select(marker => marker.Check(company)).Where(x => x).ToArray();
             company.Markers = results;
             return results;
         }
 
         public int GetScore(Company company)
         {
-            var score = ConutScore((company.Markers ?? CheckMarkers(company)).Select(x=>x.Marker));
+            var score = ConutScore((company.Markers ?? CheckMarkers(company)).Select(x => x.Marker));
             company.Score = score;
             return score;
         }
-        
+
         private bool DoubleTryParse(string param, out double result)
         {
             return double.TryParse(param.Replace('.', ','), out result);

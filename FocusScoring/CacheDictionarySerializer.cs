@@ -8,25 +8,25 @@ namespace FocusScoring
 {
     internal static class CacheDictionarySerializer
     {
-        public static void Serialize(Dictionary<(string node, ApiMethod method), (long position,int count,DateTime time)> dict, FileStream stream)
+        public static void Serialize(Dictionary<(string node, ApiMethod method), (long position, int count, DateTime time)> dict, FileStream stream)
         {
-            var serializer = new XmlSerializer(typeof(xmlItem[]), 
+            var serializer = new XmlSerializer(typeof(xmlItem[]),
                 new XmlRootAttribute() { ElementName = "items" });
-            serializer.Serialize(stream, 
-                dict.Select(kv=>new xmlItem(){node = kv.Key.node,method= kv.Key.method,pos= kv.Value.position,count = kv.Value.count,time = kv.Value.time}).ToArray() );
+            serializer.Serialize(stream,
+                dict.Select(kv => new xmlItem() { node = kv.Key.node, method = kv.Key.method, pos = kv.Value.position, count = kv.Value.count, time = kv.Value.time }).ToArray());
         }
-        
-        
-        public static Dictionary<(string, ApiMethod), (long,int,DateTime)> Deserialize(FileStream stream)
+
+
+        public static Dictionary<(string, ApiMethod), (long, int, DateTime)> Deserialize(FileStream stream)
         {
-            var serializer = new XmlSerializer(typeof(xmlItem[]), 
+            var serializer = new XmlSerializer(typeof(xmlItem[]),
                 new XmlRootAttribute() { ElementName = "items" });
             return ((xmlItem[])serializer
                     .Deserialize(stream))
-                .ToDictionary(x => (x.node,x.method), x => (x.pos,x.count,x.time));
+                .ToDictionary(x => (x.node, x.method), x => (x.pos, x.count, x.time));
         }
     }
-    
+
     public class xmlItem
     {
         [XmlAttribute]

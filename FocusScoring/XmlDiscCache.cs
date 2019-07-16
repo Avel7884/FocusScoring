@@ -12,14 +12,14 @@ namespace FocusScoring
     {
         private readonly string cachePath;
         private readonly TimeSpan cacheTTL;
-        private readonly Dictionary<(string, ApiMethod), (long,int,DateTime)> spansDict;
+        private readonly Dictionary<(string, ApiMethod), (long, int, DateTime)> spansDict;
         private MemoryMappedFile cacheFile;
 
         private readonly FileStream dictCacheFile;
         //private Action recache;
-        private long position = 0; 
+        private long position = 0;
 
-        public XmlDiscCache(string cachePath=null, TimeSpan cacheTTL=default(TimeSpan), long initialCapacity = 10*1024*1024)
+        public XmlDiscCache(string cachePath = null, TimeSpan cacheTTL = default(TimeSpan), long initialCapacity = 10 * 1024 * 1024)
         {
             this.cachePath = cachePath ?? Settings.CachePath;
             this.cacheTTL = cacheTTL == default(TimeSpan) ? TimeSpan.FromDays(7) : cacheTTL;
@@ -33,14 +33,14 @@ namespace FocusScoring
             {
                 dictCacheFile = File.Open(cachePath + "cacheDict", FileMode.OpenOrCreate);
                 spansDict = new Dictionary<(string, ApiMethod), (long, int, DateTime)>();
-            } 
-            
-            cacheFile = MemoryMappedFile.CreateFromFile(cachePath+"cache", FileMode.OpenOrCreate,"ImgA", initialCapacity);
-//            recache = () =>
-//            {
-//                initialCapacity *= 2;
-//                cacheFile = MemoryMappedFile.CreateFromFile(cachePath+"cache", FileMode.Open,"ImgA", initialCapacity);
-//            };
+            }
+
+            cacheFile = MemoryMappedFile.CreateFromFile(cachePath + "cache", FileMode.OpenOrCreate, "ImgA", initialCapacity);
+            //            recache = () =>
+            //            {
+            //                initialCapacity *= 2;
+            //                cacheFile = MemoryMappedFile.CreateFromFile(cachePath+"cache", FileMode.Open,"ImgA", initialCapacity);
+            //            };
         }
 
         public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
@@ -48,24 +48,24 @@ namespace FocusScoring
             document = new XmlDocument();
 
             (long offset, int count, DateTime date) span;
-            if (!spansDict.TryGetValue((inn, method), out span) || DateTime.Today-span.date > cacheTTL)
+            if (!spansDict.TryGetValue((inn, method), out span) || DateTime.Today - span.date > cacheTTL)
                 return false;
             //TODO cache deletion
-            
+
             using (var stream = cacheFile.CreateViewStream(span.offset, span.count))
-                using (var reader = XmlReader.Create(stream))
-                    document.Load(reader);
-                
-              return true;
+            using (var reader = XmlReader.Create(stream))
+                document.Load(reader);
+
+            return true;
         }
 
         public void Update(string inn, ApiMethod method, XmlDocument doc)
         {                                              //TODO file size
-            using (var stream = cacheFile.CreateViewStream(position,0))
+            using (var stream = cacheFile.CreateViewStream(position, 0))
             {
                 doc.Save(stream);
-                spansDict[(inn, method)] = (position,(int)stream.Position,DateTime.Today);
-                position+=(int)stream.Position;
+                spansDict[(inn, method)] = (position, (int)stream.Position, DateTime.Today);
+                position += (int)stream.Position;
                 dictCacheFile.Position = 0;
                 CacheDictionarySerializer.Serialize(spansDict, dictCacheFile);
                 //return (int)stream.Position;

@@ -10,26 +10,26 @@ namespace FocusScoring
     internal class XmlDownload : IXmlAccess
     {
         private readonly string focusKey;
-        
-        
+
+
         public XmlDownload(string focusKey)
         {
             this.focusKey = focusKey;
         }
-        
+
         public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
         {
             //TODO refactor
             var requisites = Settings.OgrnEnabled ? "ogrn" : "inn";
             var wrGETURL = WebRequest.Create($"https://focus-api.kontur.ru/api3/{GetMethodName(method)}?key={focusKey}&{requisites}={inn}&xml");
             Stream webStream = null;
-            var netfail=false;
-            try{webStream = wrGETURL.GetResponse().GetResponseStream();}
-            catch { netfail = true;}
+            var netfail = false;
+            try { webStream = wrGETURL.GetResponse().GetResponseStream(); }
+            catch { netfail = true; }
             document = new XmlDocument();
-            try {using (var reader = XmlReader.Create(webStream)) { document.Load(reader);}}
-            catch {netfail = true;}
-            
+            try { using (var reader = XmlReader.Create(webStream)) { document.Load(reader); } }
+            catch { netfail = true; }
+
             return !netfail;
         }
 
