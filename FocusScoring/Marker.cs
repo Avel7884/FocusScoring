@@ -71,6 +71,6 @@ namespace FocusScoring
 
     public enum MarkerColour
     {
-        Green,Yellow,Red,RedAffiliates,GreenAffiliates,YellowAffiliates
+        Green,Yellow,Red,GreenAffiliates,YellowAffiliates,RedAffiliates
     }
 }
