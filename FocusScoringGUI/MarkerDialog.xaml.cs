@@ -25,12 +25,12 @@ namespace FocusScoringGUI
             Code.Text = "Unavalable, not implemented!";
         }
 
-        private void Cansel_Click(object sender, RoutedEventArgs e)
+        private void Cansel_OnClick(object sender, RoutedEventArgs e)
         {
             Close();
         }
         
-        private void Ok_Click(object sender, RoutedEventArgs e)
+        private void Ok_OnClick(object sender, RoutedEventArgs e)
         {
             marker.Name = Name.Text;
             marker.Colour = (MarkerColour)((IsAffiliated.IsChecked.Value ? 3 : 0) + Colour.SelectedIndex);
