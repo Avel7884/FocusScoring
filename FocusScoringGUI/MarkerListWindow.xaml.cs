@@ -24,6 +24,7 @@ namespace FocusScoringGUI
             var MarkerDialog = new MarkerDialog(marker);
             MarkerDialog.Owner = this;
             MarkerDialog.Show();
+            MarkerDialog.Closed += (ev,ob) => this.MarkersList.Items.Refresh();
         }
     }
 }
