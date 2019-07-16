@@ -67,6 +67,9 @@
       <DependentUpon>ListDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.CompanyData.cs" />
+    <Compile Include="MainWindow.CompanyList.cs" />
+    <Compile Include="MainWindow.ListView.cs" />
+    <Compile Include="MainWindow.MarkersList.cs" />
     <Compile Include="MainWindow.MarkerSubData.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
