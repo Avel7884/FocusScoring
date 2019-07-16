@@ -84,7 +84,7 @@
             <Button HorizontalAlignment="Right" Content="Создать список" x:Name="AddList" Background="#FF4D9068" BorderThickness="1,1,1,0" Click="AddList_Click" Foreground="White" BorderBrush="#FFABADB3" Cursor="Hand"/>
         </StackPanel>
         <StackPanel Grid.Column="3" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="3" Height="20">
-            <TextBox x:Name="Inn" MinWidth="110" PreviewTextInput="Inn_PreviewTextInput" MaxLength="13"/>
+            <TextBox x:Name="Inn" MinWidth="110" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12"/>
             <Button Click="ButtonDataUpdate_Click"  Content="Добавить" BorderBrush="{x:Null}"/>
             <TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>
         </StackPanel>
