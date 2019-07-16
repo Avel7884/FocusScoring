@@ -64,10 +64,9 @@ namespace FocusScoringGUI
                 return; //TODO Message boxes here and everywhere else
             var companyData = ((CompanyData) CompanyList.SelectedItem);
             TextBlockName.Text = companyData.Name;
-            //BAG null reference in CheckMarkers{
-            MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company)
+            MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company ?? 
+                                                         (companyData.Company = Company.CreateINN(companyData.Inn)))
                                             .Select(MarkerSubData.Create);
-            //                    }
             MarkersList.Items.Refresh();
         }
 
@@ -80,13 +79,18 @@ namespace FocusScoringGUI
             TextBlockList.Text = SelectedList;
             CompanyList.ItemsSource = CurrentList; 
             CompanyList.Items.Refresh();
+            currentListName = SelectedList;
+        }
 
+        private bool InnCheckSum()
+        {
+            throw new NotImplementedException();
         }
 
         private void ButtonDataUpdate_Click(object s, RoutedEventArgs e)
         {
-            if (Inn.Text == "")//TODO Checks with regex 
-                return;
+            if (CurrentList.Select(x => x.Inn).Contains(Inn.Text))
+                MessageBox.Show("Company already in list");
             var data = new CompanyData(Inn.Text);
             CurrentList.Add(data);
             companiesCache.UpdateList(currentListName,new[]{data});
@@ -101,6 +105,7 @@ namespace FocusScoringGUI
             ListView.Items.Refresh();
             CompanyList.ItemsSource = CurrentList;
             CompanyList.Items.Refresh();
+            currentListName = name;
         }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)
@@ -113,7 +118,6 @@ namespace FocusScoringGUI
         
         private void AllMarkers_OnClick(object sender, RoutedEventArgs e)
         {
-
             var a = new MarkerListWindow(scorer.GetAllMarkers);
             a.Owner = this;
             a.Show();
@@ -122,7 +126,6 @@ namespace FocusScoringGUI
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
             new ListDialog(ButtonAddList).Show();
-
         }
 
         //private void Inn_KeyDown(object sender, KeyEventArgs e)

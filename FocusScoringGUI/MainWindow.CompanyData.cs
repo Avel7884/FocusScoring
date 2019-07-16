@@ -7,7 +7,7 @@ namespace FocusScoringGUI
     { 
         public class CompanyData
         {
-            public Company Company { get; }
+            internal Company Company { get; set; }
 
             public CompanyData()
             {
