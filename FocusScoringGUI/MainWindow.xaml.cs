@@ -64,12 +64,8 @@ namespace FocusScoringGUI
                 return; //TODO Message boxes here and everywhere else
             var companyData = ((CompanyData) CompanyList.SelectedItem);
             TextBlockName.Text = companyData.Name;
-<<<<<<< HEAD
-            MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company ?? (companyData.Company = Company.CreateINN(companyData.Inn)))
-=======
             MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company ?? 
                                                          (companyData.Company = Company.CreateINN(companyData.Inn)))
->>>>>>> e4d826910ae0b32ccd3c24948740e4812f982142
                                             .Select(MarkerSubData.Create);
             MarkersList.Items.Refresh();
         }
@@ -142,5 +138,9 @@ namespace FocusScoringGUI
             e.Handled = !(Char.IsDigit(e.Text, 0));
         }
 
+        private void ListView_MouseMove(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }
