@@ -14,10 +14,9 @@ namespace FocusScoringGUI
             this.marker = marker;
             InitializeComponent();
             Name.Text = marker.Name;
-            
             //Colour.ItemsSource = ((MarkerColour[]) Enum.GetValues(typeof(MarkerColour))).Select(MainWindow.ColourCode);
-            Colour.SelectedIndex = (int)marker.Colour % 3;
-            IsAffiliated.IsChecked = (int) marker.Colour / 3 > 0;
+            Colour.SelectedIndex = (int) marker.Colour % 3;
+            IsAffiliated.IsChecked = (int) marker.Colour >= 3;
             Importance.ItemsSource = Enumerable.Range(1, 5);
             Importance.SelectedIndex = marker.Score - 1;
 
@@ -34,7 +33,7 @@ namespace FocusScoringGUI
         private void Ok_OnClick(object sender, RoutedEventArgs e)
         {
             marker.Name = Name.Text;
-            marker.Colour = (MarkerColour)(IsAffiliated.IsEnabled ? 0 : 3 + Colour.SelectedIndex);
+            marker.Colour = (MarkerColour)((IsAffiliated.IsChecked.Value ? 3 : 0) + Colour.SelectedIndex);
             marker.Score = Importance.SelectedIndex + 1;
             marker.Description = Description.Text;
             //TODO do Code here

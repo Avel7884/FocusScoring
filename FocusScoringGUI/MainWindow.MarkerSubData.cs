@@ -10,23 +10,18 @@ namespace FocusScoringGUI
     {
         internal class MarkerSubData
         {
-
-            public MarkerSubData(Marker marker)
+            private MarkerSubData(Marker marker)
             {
                 Marker = marker;
-                Colour =  new BitmapImage(ColourCode(marker.Colour));
-                Description = marker.Description;
-                Name = marker.Name;
                 Verbose = "";
+                Update();
             }
-            
-            public MarkerSubData(MarkerResult result)
+
+            private MarkerSubData(MarkerResult result)
             {
                 Marker = result.Marker;
-                Colour =  new BitmapImage(ColourCode(result.Marker.Colour));
-                Description = result.Marker.Description;
                 Verbose = result.Verbose;
-                Name = result.Marker.Name;
+                Update();
             }
             
             public static MarkerSubData Create(Marker marker)=>
@@ -36,10 +31,17 @@ namespace FocusScoringGUI
                 new MarkerSubData(result);
             
             public Marker Marker { get; }
-            public BitmapImage Colour { get; }
-            public string Name { get; }
-            public string Description { get; }
+            public BitmapImage Colour { get; private set; }
+            public string Name { get; private set;}
+            public string Description { get; private set;}
             public string Verbose { get; }
+
+            public void Update()
+            {
+                Colour =  new BitmapImage(ColourCode(Marker.Colour));
+                Description = Marker.Description;
+                Name = Marker.Name;
+            }
         }
         
         private static Uri ColourCode(MarkerColour colour)

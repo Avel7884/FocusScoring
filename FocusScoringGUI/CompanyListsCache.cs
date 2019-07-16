@@ -53,5 +53,11 @@ namespace FocusScoringGUI
                     serializer.Serialize(file, data.ToArray().ToArray());
             }
         }
+
+        public void DeleteList(string name)
+        {
+            if(File.Exists("./CompanyLists/" + name))
+                File.Delete("./CompanyLists/" + name);
+        }
     }
 }

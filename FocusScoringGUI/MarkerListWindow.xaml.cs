@@ -20,11 +20,14 @@ namespace FocusScoringGUI
         {
             if(MarkersList.SelectedItem == null)
                 return;
-            var marker = ((MainWindow.MarkerSubData) MarkersList.SelectedItem).Marker;
-            var MarkerDialog = new MarkerDialog(marker);
-            MarkerDialog.Owner = this;
-            MarkerDialog.Show();
-            MarkerDialog.Closed += (ev,ob) => this.MarkersList.Items.Refresh();
+            var markerData = ((MainWindow.MarkerSubData) MarkersList.SelectedItem);
+            var dialog = new MarkerDialog(markerData.Marker);
+            dialog.Show();
+            dialog.Closed += (ev,ob) =>
+            {
+                markerData.Update();
+                MarkersList.Items.Refresh();
+            };
         }
     }
 }

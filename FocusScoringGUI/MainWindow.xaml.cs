@@ -10,7 +10,7 @@ using FocusScoring;
 
 
 namespace FocusScoringGUI
-{
+{ //TODO Refactor
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -46,6 +46,7 @@ namespace FocusScoringGUI
             ListView.ItemsSource = Lists.Keys;
             CurrentList = Lists.First().Value;
             currentListName = Lists.First().Key;
+            TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList;
 
             //MarkersTable.ItemsSource = new Company[0];
@@ -55,10 +56,14 @@ namespace FocusScoringGUI
         {
             if (MarkersList.SelectedItem == null)
                 return;
-            var marker = ((MarkerSubData)MarkersList.SelectedItem).Marker;
-            var dialog = new MarkerDialog(marker);
-            dialog.ShowDialog();
-            dialog.Closed += (ev, ob) => MarkersList.Items.Refresh();
+            var markerData = ((MarkerSubData)MarkersList.SelectedItem);
+            var dialog = new MarkerDialog(markerData.Marker);
+            dialog.Show();
+            dialog.Closed += (ev, ob) =>
+            {
+                markerData.Update();
+                MarkersList.Items.Refresh();
+            };
         }
 
         private void CompanySelected_Click(object s, RoutedEventArgs e)
@@ -82,7 +87,6 @@ namespace FocusScoringGUI
             TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList;
             CompanyList.Items.Refresh();
-            this.currentListName = currentListName;
         }
 
         private readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
@@ -137,9 +141,16 @@ namespace FocusScoringGUI
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)
         {
-            if (ListView.SelectedItem == null)
+            if (ListView.SelectedItem == null || Lists.Count <= 1)
                 return;
-            Lists.Remove((string)ListView.SelectedItem);
+            var name = (string)ListView.SelectedItem;
+            Lists.Remove(name);
+            companiesCache.DeleteList(name);
+            CurrentList = Lists.Last().Value;
+            currentListName = Lists.Last().Key;
+            CompanyList.ItemsSource = CurrentList;
+            CompanyList.Items.Refresh();
+            TextBlockList.Text = currentListName;
             ListView.Items.Refresh();
         }
 
