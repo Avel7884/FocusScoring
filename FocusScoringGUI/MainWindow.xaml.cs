@@ -56,8 +56,11 @@ namespace FocusScoringGUI
             if(MarkersList.SelectedItem == null)
                 return; 
             var marker = ((MarkerSubData) MarkersList.SelectedItem).Marker;
-            new MarkerDialog(marker).ShowDialog();
+            var dialog = new MarkerDialog(marker);
+            dialog.ShowDialog();
+            dialog.Closed += (ev, ob) => MarkersList.Items.Refresh();
         }
+        
         private void CompanySelected_Click(object s, RoutedEventArgs e)
         {
             if(CompanyList.SelectedItem == null)
