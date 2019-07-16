@@ -34,13 +34,13 @@ namespace FocusScoringGUI
             companiesCache = CompanyListsCache.Create();
             Lists = companiesCache.GetLists();
             scorer = new Scorer();
-            
+
             if (Lists.Count == 0)
             {
                 var list = new List<CompanyData>();
                 Lists["NewList"] = list;
-                
-                companiesCache.UpdateList("NewList",list);
+
+                companiesCache.UpdateList("NewList", list);
             }
 
             ListView.ItemsSource = Lists.Keys;
@@ -63,8 +63,11 @@ namespace FocusScoringGUI
             if(CompanyList.SelectedItem == null)
                 return; //TODO Message boxes here and everywhere else
             var companyData = ((CompanyData) CompanyList.SelectedItem);
+            TextBlockName.Text = companyData.Name;
+            //BAG null reference in CheckMarkers{
             MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company)
                                             .Select(MarkerSubData.Create);
+            //                    }
             MarkersList.Items.Refresh();
         }
 
@@ -72,9 +75,12 @@ namespace FocusScoringGUI
         {
             if(ListView.SelectedItem == null)
                 return;
-            CurrentList = Lists[(string) ListView.SelectedItem];
+            var SelectedList = (string)ListView.SelectedItem;
+            CurrentList = Lists[SelectedList];
+            TextBlockList.Text = SelectedList;
             CompanyList.ItemsSource = CurrentList; 
             CompanyList.Items.Refresh();
+
         }
 
         private void ButtonDataUpdate_Click(object s, RoutedEventArgs e)
@@ -116,6 +122,7 @@ namespace FocusScoringGUI
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
             new ListDialog(ButtonAddList).Show();
+
         }
 
         //private void Inn_KeyDown(object sender, KeyEventArgs e)

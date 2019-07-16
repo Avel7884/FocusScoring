@@ -62,6 +62,7 @@ namespace FocusScoring
         {
             if (company.Markers != null)
                 return company.Markers;
+            //BAG
             var results = markersList.Select(marker=>marker.Check(company)).Where(x=>x).ToArray();
             company.Markers = results;
             return results;
@@ -126,8 +127,8 @@ namespace FocusScoring
                     "При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.", 1,
                     company =>
                     {
-                        if (DoubleTryParse(company.GetParam("s2001").Replace('.', ','), out double sumDel) &&
-                            DoubleTryParse(company.GetParam("s2002").Replace('.', ','), out double sumDelPast))
+                        if (DoubleTryParse(company.GetParam("s2001"), out double sumDel) &&
+                            DoubleTryParse(company.GetParam("s2002"), out double sumDelPast))
                             return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
                         return false;
                     }),
@@ -138,9 +139,9 @@ namespace FocusScoring
                     "и более 500 тыс. руб.", 1,
                     company =>
                     {
-                        if (DoubleTryParse(company.GetParam("s2001").Replace('.', ','), out double sumDel) &&
-                            DoubleTryParse(company.GetParam("s6004").Replace('.', ','), out double revenue) &&
-                            DoubleTryParse(company.GetParam("Sum").Replace('.', ','), out double statedCapitalFocus))
+                        if (DoubleTryParse(company.GetParam("s2001"), out double sumDel) &&
+                            DoubleTryParse(company.GetParam("s6004"), out double revenue) &&
+                            DoubleTryParse(company.GetParam("Sum"), out double statedCapitalFocus))
                             return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
                     }),
@@ -211,7 +212,7 @@ namespace FocusScoring
                     "Выручка по группе компаний снизилась более, чем на 50%", 3,
                     company =>
                     {
-                        //TODO Check for correct
+                        //TODO Check correctness 
                         double s6004;
                         s6004 = company.GetMultiParam("s6004Affiliates").Select(x => x.Replace('.', ','))
                             .Sum(x => double.Parse(x));
@@ -452,7 +453,7 @@ namespace FocusScoring
                           (DateTime.Today - date).Days > 365 * 5 + 1),
                 new Marker("Компания сменила юр. адрес за последние 6 месяцев", MarkerColour.Yellow,
                     "Компания сменила юр. адрес за последние 6 месяцев", 1,
-                    //TODO check
+                    //TODO check correctness 
                     company =>
                     {
                         return DateTime.TryParse(company.GetParam("LegalAddress"), out var date) &&
@@ -460,7 +461,7 @@ namespace FocusScoring
                     }),
                 new Marker("Компания сменила юр. адрес дважды за последние 12 месяцев", MarkerColour.Yellow,
                     "Компания сменила юр. адрес дважды за последние 12 месяцев", 2,
-                    //TODO check
+                    //TODO check correctness 
                     company =>
                     {
                         int count = 0;
@@ -477,7 +478,7 @@ namespace FocusScoring
                     "Компания сменила юр. адрес трижды и более за последние 12 месяцев", 5,
                     company =>
                     {
-                        //TODO check
+                        //TODO check correctness 
                         int count = 0;
                         var address = company.GetMultiParam("LegalAddress");
                         foreach (var e in address)
@@ -499,7 +500,7 @@ namespace FocusScoring
                     "Компания сменила название дважды и более за последние 12 месяцев", 3,
                     company =>
                     {
-                        //TODO check
+                        //TODO check correctness 
                         int count = 0;
                         var names = company.GetMultiParam("LegalName");
                         foreach (var e in names)
@@ -514,7 +515,7 @@ namespace FocusScoring
                     "Изменился КПП дважды или более за последние 12 месяцев", 3,
                     company =>
                     {
-                        //TODO check
+                        //TODO check correctness 
                         int count = 0;
                         var kpps = company.GetMultiParam("kpp");
                         foreach (var e in kpps)

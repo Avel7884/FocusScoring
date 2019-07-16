@@ -156,11 +156,24 @@ namespace FocusScoring
             string full = GetParam("Full");
             string fio = GetParam("FIO");
             if (_short != "")
+            {
+                _short.Replace("Общество с ограниченной ответственностью", "ООО");
+                _short.Replace("Закрытое акционерное общество", "ЗАО");
+                _short.Replace("Акционерное общество", "АО");
                 return _short;
+            }
             if (full != "")
+            {
+                full.Replace("Общество с ограниченной ответственностью", "ООО");
+                full.Replace("Закрытое акционерное общество", "ЗАО");
+                full.Replace("Акционерное общество", "АО");
                 return full;
+            }
+
             if (fio != "")
+            {
                 return "ИП" + " " + fio;
+            }
             return "";
         }
     }
