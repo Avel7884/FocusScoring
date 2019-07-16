@@ -23,6 +23,7 @@ namespace FocusScoringGUI
                 new XmlRootAttribute() { ElementName = "items" });
         }
 
+        //Depricated
         public Dictionary<string,List<MainWindow.CompanyData>> GetLists()
         {                                     //TODO get it thought constructor
             var dict = new Dictionary<string,List<MainWindow.CompanyData>>();
@@ -35,6 +36,16 @@ namespace FocusScoringGUI
                 }
             }
             return dict;
+        }
+
+        public List<string> GetNames()=>
+            Directory.GetFiles("./CompanyLists").Select(x => x.Split('\\').Last()).ToList();
+
+        public List<MainWindow.CompanyData> GetList(string name)
+        {
+            if (!File.Exists("./CompanyLists/" + name)) throw new FileNotFoundException();
+            using (var file = File.Open("./CompanyLists/" + name, FileMode.OpenOrCreate))
+                return ((MainWindow.CompanyData[]) serializer.Deserialize(file)).ToList();
         }
 
         public void UpdateList(string name, IEnumerable<MainWindow.CompanyData> data)
