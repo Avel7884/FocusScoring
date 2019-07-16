@@ -74,8 +74,8 @@ namespace FocusScoring
             {"q7018",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7018") },
             {"q7019",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7019") },
             {"q7020",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7020") },
-            {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },  
-            {"q9001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q9001") },  
+            {"q7021",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q7021") },
+            {"q9001",(ApiMethod.analytics,"/ArrayOfanalytics/analytics/analytics/q9001") },
             {"DissolvingAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/status/dissolving")},
             {"DissolvedAffiliates", (ApiMethod.companyAffiliatesreq, "/ArrayOfreq/req/UL/status/dissolved")},
             {"InnAffilalates",(ApiMethod.companyAffiliatesreq,"/ArrayOfreq/req/inn")},
@@ -111,7 +111,7 @@ namespace FocusScoring
             {"heads",(ApiMethod.req,"/ArrayOfreq/req/UL/history/heads/firstDate") },
             {"managementCompanies",(ApiMethod.req,"/ArrayOfreq/req/UL/history/managementCompanies/firstDate") },
         };
-        
+
         public string Inn { get; set; }
         private ParamAccess access;
 
@@ -127,11 +127,11 @@ namespace FocusScoring
             c.Score = -1;
             return c;
         }
-       
+
         public int Score { get; set; }
 
         public MarkerResult[] Markers { get; set; }
-        
+
         public string GetParam(string paramName)
         {
             (ApiMethod method, string node) = paramDict[paramName];
@@ -157,16 +157,17 @@ namespace FocusScoring
             string fio = GetParam("FIO");
             if (_short != "")
             {
-                _short.Replace("Общество с ограниченной ответственностью", "ООО");
-                _short.Replace("Закрытое акционерное общество", "ЗАО");
-                _short.Replace("Акционерное общество", "АО");
+                _short = _short.Replace("Общество с ограниченной ответственностью", "ООО");
+                _short = _short.Replace("Закрытое акционерное общество", "ЗАО");
+                _short = _short.Replace("Акционерное общество", "АО");
                 return _short;
             }
             if (full != "")
             {
-                full.Replace("Общество с ограниченной ответственностью", "ООО");
-                full.Replace("Закрытое акционерное общество", "ЗАО");
-                full.Replace("Акционерное общество", "АО");
+                full = full.Replace("ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ", "ООО");
+                full = full.Replace("Общество с ограниченной ответственностью", "ООО");
+                full = full.Replace("Закрытое акционерное общество", "ЗАО");
+                full = full.Replace("Акционерное общество", "АО");
                 return full;
             }
 
@@ -174,6 +175,7 @@ namespace FocusScoring
             {
                 return "ИП" + " " + fio;
             }
+
             return "";
         }
     }

@@ -8,7 +8,7 @@ namespace FocusScoring
         private string Inn = string.Empty;
         private ApiMethod method;
         private XmlDocument document;
-        
+
         public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
         {
             if (Inn == inn && method == this.method)
