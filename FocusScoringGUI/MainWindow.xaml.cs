@@ -64,10 +64,8 @@ namespace FocusScoringGUI
                 return; //TODO Message boxes here and everywhere else
             var companyData = ((CompanyData) CompanyList.SelectedItem);
             TextBlockName.Text = companyData.Name;
-            //BAG null reference in CheckMarkers{
-            MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company)
+            MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company ?? (companyData.Company = Company.CreateINN(companyData.Inn)))
                                             .Select(MarkerSubData.Create);
-            //                    }
             MarkersList.Items.Refresh();
         }
 
