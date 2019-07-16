@@ -24,9 +24,19 @@ namespace FocusScoring
         public static CSharpCodeProvider Provider = new CSharpCodeProvider();
         
         private readonly Func<Company,MarkerResult> check;
-        //TODO manage access
-        public int Score { get; set; }
-        
+        private int score;
+
+        public int Score
+        {
+            get => score;
+            set
+            {
+                if (value>5 || value<0)
+                    throw new ArgumentException();
+                score = value;
+            }
+        }
+
         //public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,MarkerResult>)
 
         public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,string > check)

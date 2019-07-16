@@ -66,13 +66,13 @@ namespace FocusScoring
         }
 
         private IEnumerable<string> GetChild(XmlDocument document, string node)
-        {    //TODO naming
-            var heres = node.Split(new[] { '/' }, 4);
-            var adr1 = '/' + heres[1] + '/' + heres[2];
+        {    
+            var splitedNode = node.Split(new[] { '/' }, 4);
+            var parent = '/' + splitedNode[1] + '/' + splitedNode[2];
 
-            foreach (XmlNode n in document.SelectNodes(adr1))
+            foreach (XmlNode child in document.SelectNodes(parent))
             { 
-                var nodes = n.SelectNodes(heres[3]);
+                var nodes = child.SelectNodes(splitedNode[3]);
             if (nodes.Count > 0)
                 yield return nodes.Item(0).InnerText;
             else

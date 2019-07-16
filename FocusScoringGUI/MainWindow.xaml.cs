@@ -69,7 +69,7 @@ namespace FocusScoringGUI
         private void CompanySelected_Click(object s, RoutedEventArgs e)
         {
             if(CompanyList.SelectedItem == null)
-                return; //TODO Message boxes here and everywhere else
+                return;
             var companyData = ((CompanyData) CompanyList.SelectedItem);
             TextBlockName.Text = companyData.Name;
             MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company ?? 
@@ -87,8 +87,6 @@ namespace FocusScoringGUI
             TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList; 
             CompanyList.Items.Refresh();
-            
-            currentListName = currentListName;
         }
 
         private readonly int[] k = {3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8};

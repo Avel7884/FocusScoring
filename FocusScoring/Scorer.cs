@@ -100,8 +100,7 @@ namespace FocusScoring
                     "(сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) " +
                     "и более суммы уставного капитала, и более 100 тыс. руб.", 4,
                     company =>
-                    {
-                        //TODO possible error need consideration...  or not  
+                    {  
                         if (DoubleTryParse(company.GetParam("Sum"), out double sum) && DoubleTryParse(company.GetParam("s1001"), out double a) &&
                             DoubleTryParse(company.GetParam("s6004"), out double b))
                             return a > (0.2 * b) && a > sum & a > 500000;
