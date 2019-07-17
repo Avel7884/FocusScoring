@@ -7,13 +7,13 @@ namespace FocusScoring
     public class Marker
     {
         private const string codeCore = @"
-        using System;
+        using FocusScoring;
             
         namespace UserFunctions
         {                
             public class BinaryFunction
             {                
-                public static double Function(Company company)
+                public static bool Function(Company company)
                 {
                     return func_xy;
                 }
@@ -62,14 +62,24 @@ namespace FocusScoring
             this.Score = Score;
         }
 
-        //        public Marker(string Name, MarkerColour colour, string description, int Score, string code)
-        //        {                        //Make No replace
-        //            var finalCode = codeCore.Replace("func_xy",code);
-        //            Code = code;
-        //            var method = Provider.CompileAssemblyFromSource(new CompilerParameters(), finalCode).CompiledAssembly
-        //                .GetType("UserFunctions.BinaryFunction").GetMethod("Function");
-        //            this.check = (Func<Company, bool>) Delegate.CreateDelegate(typeof(Func<Company, bool>), method);
-        //        }
+        public Marker(string Name, MarkerColour colour, string description, int Score, string code,string verbose="")
+        {                        //Make No replace
+            var finalCode = codeCore.Replace("func_xy",code);
+            Code = code;
+            //var ass = typeof(Company).Assembly.CodeBase;
+            var param = new CompilerParameters();
+            param.ReferencedAssemblies.Add("./FocusScoring.dll");
+            //param.IncludeDebugInformation = true;
+            var result = Provider.CompileAssemblyFromSource(param, finalCode);
+            var method = result.CompiledAssembly.GetType("UserFunctions.BinaryFunction").GetMethod("Function");
+            var checkBool = (Func<Company, bool>) Delegate.CreateDelegate(typeof(Func<Company, bool>), method);
+            check = c => new MarkerResult(checkBool(c),this,verbose);
+            
+            this.Name = Name;
+            Colour = colour;
+            Description = description;
+            this.Score = Score;
+        }
 
         public string Name { get; set; }
         public MarkerColour Colour { get; set; }
