@@ -77,6 +77,7 @@
     <Compile Include="Scorer.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="FIODictionarySerializer.cs" />
+    <Compile Include="XmlAccess.cs" />
     <Compile Include="XmlDiscCache.cs" />
     <Compile Include="XmlDownload.cs" />
     <Compile Include="SingleXmlMemoryCache.cs" />

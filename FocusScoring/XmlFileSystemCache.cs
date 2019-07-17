@@ -22,7 +22,7 @@ namespace FocusScoring
             if (!File.Exists(path)) return false;
             document.Load(path);
             return true;
-        }
+        }  //TODO cache fluency
 
         public void Update(string inn, ApiMethod method, XmlDocument doc)
         {

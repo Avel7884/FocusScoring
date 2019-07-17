@@ -12,9 +12,9 @@ namespace FocusScoringGUI
                 return;
             var companyData = ((CompanyData) CompanyList.SelectedItem);
             TextBlockName.Text = companyData.Name;
-            MarkersList.ItemsSource = scorer.CheckMarkers(companyData.Company ??
-                                                         (companyData.Company = Company.CreateINN(companyData.Inn)))
-                                            .Select(MarkerSubData.Create);
+            MarkersList.ItemsSource = (companyData.Company ??
+                                      (companyData.Company = Company.CreateINN(companyData.Inn)))
+                                            .Markers.Select(MarkerSubData.Create);
             MarkersList.Items.Refresh();
         }
 

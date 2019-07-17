@@ -5,19 +5,19 @@ using System.Security.Policy;
 
 namespace FocusScoring
 {
-    public class Scorer
+    internal class Scorer
     {
-        public Scorer()
+        internal Scorer()
         {
             InitMarkers();
         }
 
-        public bool GetMarker(Company company, string markerName)
+        internal bool GetMarker(Company company, string markerName)
         {
             return markersDict[markerName].Check(company);
         }
 
-        private int ConutScore(IEnumerable<Marker> markers)
+        internal int CountScore(IEnumerable<Marker> markers)
         {
             var redSum = 0;
             var yellowSum = 0;
@@ -58,21 +58,8 @@ namespace FocusScoring
 
         public Marker[] GetAllMarkers => markersList.ToArray();
 
-        public MarkerResult[] CheckMarkers(Company company)
-        {
-            if (company.Markers != null)
-                return company.Markers;
-            var results = markersList.Select(marker => marker.Check(company)).Where(x => x).ToArray();
-            company.Markers = results;
-            return results;
-        }
-
-        public int GetScore(Company company)
-        {
-            var score = ConutScore((company.Markers ?? CheckMarkers(company)).Select(x => x.Marker));
-            company.Score = score;
-            return score;
-        }
+        public MarkerResult[] CheckMarkers(Company company)=>
+            markersList.Select(marker => marker.Check(company)).Where(x => x).ToArray();
 
         private bool DoubleTryParse(string param, out double result)
         {
