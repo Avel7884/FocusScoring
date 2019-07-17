@@ -12,12 +12,14 @@ namespace FocusScoringGUI
                 return;
             var companyData = ((CompanyData) CompanyList.SelectedItem);
             TextBlockName.Text = companyData.Name;
-            MarkersList.ItemsSource = (companyData.Company ??
-                                      (companyData.Company = Company.CreateINN(companyData.Inn)))
-                                            .Markers.Select(MarkerSubData.Create);
+            companyData.ReInit();
+            MarkersList.ItemsSource = companyData.Company.Markers.Select(MarkerSubData.Create);
+            CompanyList.Items.Refresh();
             MarkersList.Items.Refresh();
         }
 
+        //TODO make remove button
+        
         private readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
         private bool InnCheckSum(string inn)
         {

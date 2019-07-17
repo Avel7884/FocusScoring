@@ -52,6 +52,33 @@ namespace FocusScoring
             return Math.Min(maxScore, score);
         }
 
+        internal int CountScore2(Marker[] markers)
+        {
+            var yellowBound = 69;
+            var redBound = 39;
+            
+            if (markers.Any(m =>
+                m.Score == 5 && (m.Colour == MarkerColour.Red || m.Colour == MarkerColour.RedAffiliates)))
+                return 0;
+            var colourScore = markers.Where(m => m.Colour == MarkerColour.Red || m.Colour == MarkerColour.RedAffiliates)
+                .Select(m => m.Score).Sum();
+            
+            if (colourScore > 0)
+                return Math.Max(0, redBound - colourScore);
+            
+            colourScore = markers.Where(m => m.Colour == MarkerColour.Yellow || m.Colour == MarkerColour.YellowAffiliates)
+                .Select(m => m.Score).Sum();
+            if (colourScore > 0)
+                return Math.Max(0, yellowBound - colourScore);
+            
+            colourScore = markers.Where(m => m.Colour == MarkerColour.Green || m.Colour == MarkerColour.GreenAffiliates)
+                .Select(m => m.Score).Sum();
+            if (colourScore > 0)
+                return Math.Min(100, yellowBound + 1 + colourScore);
+
+            return 0;
+        }
+
         private Dictionary<string, Marker> markersDict;
 
         private static List<Marker> markersList;
@@ -634,30 +661,6 @@ namespace FocusScoring
                                 count++;
 
                         return count / zi.Length > 0.3;
-                    }),
-
-                new Marker(
-                    "Значительное количество компаний, у которых за постлю 12 мес. хоья бы раз менялся деректор или учередитель",
-                    MarkerColour.YellowAffiliates,
-                    "Значительное количество компаний, у которых за постлю 12 мес. хоья бы раз менялся деректор или учередитель",
-                    2,
-                    company =>
-                    {
-                        return false; //TODO finish    
-                        //TODO Rename
-                        var zp = company.GetMultiParam("m5002Affiliates");
-                        var na = company.GetMultiParam("m5004Affiliates");
-                        var kp = company.GetMultiParam("m5006Affiliates");
-                        var zi = company.GetMultiParam("m5007Affiliates");
-                        var kv = company.GetMultiParam("m5006Affiliates");
-                        var zt = company.GetMultiParam("m5007Affiliates");
-
-                        var count = .0;
-                        for (int i = 0; i < zp.Length; i++)
-                            if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
-                                count++;
-
-                        return count / zp.Length > 0.3;
                     }),
 
                 new Marker("У группы компаний замечена активность в арбитражных делах", MarkerColour.GreenAffiliates,

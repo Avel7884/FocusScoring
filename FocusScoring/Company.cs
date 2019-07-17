@@ -31,12 +31,15 @@ namespace FocusScoring
             return c;
         }
 
-        public void CountScore() => Score = scorer.CountScore(markers.Select(x=>x.Marker));
-        public int Score { get; private set; }
+        public void MakeScore()
+        {
+            Markers = scorer.CheckMarkers(this);
+            Score = scorer.CountScore2(Markers.Select(x => x.Marker).ToArray());
+        }
 
-        private MarkerResult[] markers;
-        public MarkerResult[] Markers => 
-            markers ?? (markers = scorer.CheckMarkers(this));
+        public int Score { get; private set; }
+                //TODO awful update dependencies
+        public MarkerResult[] Markers { get; private set; }
 
         public static Marker[] GetAllMarkers => scorer.GetAllMarkers;
 

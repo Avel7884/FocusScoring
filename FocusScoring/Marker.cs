@@ -80,7 +80,12 @@ namespace FocusScoring
             Description = description;
             this.Score = Score;
         }
-
+                //TODO finish
+        private Func<Company, MarkerResult> CompileCode()
+        {
+            throw  new NotImplementedException();
+        }
+        
         public string Name { get; set; }
         public MarkerColour Colour { get; set; }
         public string Description { get; set; }
