@@ -74,7 +74,8 @@ namespace FocusScoring
             {
                 new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,
                     "Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
-                    company => company.GetParam("Dissolving") == "true" || company.GetParam("Dissolved") == "true"),
+                    "company.GetParam(\"Dissolving\") == \"true\" || company.GetParam(\"Dissolved\") == \"true\""),
+                    //company => company.GetParam("Dissolving") == "true" || company.GetParam("Dissolved") == "true"),
 
                 new Marker("Вероятное банкротство организации", MarkerColour.Red,
                     "Обнаружены арбитражные дела о банкротстве за последние 3 месяца \n " +
