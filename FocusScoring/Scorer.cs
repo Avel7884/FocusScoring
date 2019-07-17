@@ -187,9 +187,9 @@ namespace FocusScoring
                     "У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией", 4,
                     company =>
                     {
-                        var Dissolved = company.GetMultiParam("DissolvedAffiliates").Length;
-                        var Dissolving = company.GetMultiParam("DissolvingAffiliates").Length;
-                        int affiliatesCount = company.GetMultiParam("InnAffilalates").Length;
+                        var Dissolved = company.GetParams("DissolvedAffiliates").Length;
+                        var Dissolving = company.GetParams("DissolvingAffiliates").Length;
+                        int affiliatesCount = company.GetParams("InnAffilalates").Length;
                         return (Dissolved + Dissolving) / affiliatesCount * 100 > 50;
                     }),
 
@@ -199,10 +199,10 @@ namespace FocusScoring
                     company =>
                     {
                         //TODO Check for interceptions
-                        int affiliatesCount = company.GetMultiParam("InnAffilalates").Length;
-                        var m7013 = company.GetMultiParam("m7013Affiliates").Length;
-                        var m7014 = company.GetMultiParam("m7014Affiliates").Length;
-                        var m7016 = company.GetMultiParam("m7016Affiliates").Length;
+                        int affiliatesCount = company.GetParams("InnAffilalates").Length;
+                        var m7013 = company.GetParams("m7013Affiliates").Length;
+                        var m7014 = company.GetParams("m7014Affiliates").Length;
+                        var m7016 = company.GetParams("m7016Affiliates").Length;
                         return (m7013 + m7014 + m7016) / affiliatesCount * 100 > 50;
                     }),
 
@@ -212,10 +212,10 @@ namespace FocusScoring
                     {
                         //TODO Check correctness 
                         double s6004;
-                        s6004 = company.GetMultiParam("s6004Affiliates").Select(x => x.Replace('.', ','))
+                        s6004 = company.GetParams("s6004Affiliates").Select(x => x.Replace('.', ','))
                             .Sum(x => double.Parse(x));
                         double s6003;
-                        s6003 = company.GetMultiParam("s6003Affiliates").Select(x => x.Replace('.', ','))
+                        s6003 = company.GetParams("s6003Affiliates").Select(x => x.Replace('.', ','))
                             .Sum(x => double.Parse(x));
                         return s6004 < 0.5 * s6003;
                     }),
@@ -224,9 +224,9 @@ namespace FocusScoring
                     MarkerColour.RedAffiliates, "Критическая сумма исполнительных производств по группе компаний", 4,
                     company =>
                     {
-                        var revs = company.GetMultiParam2("s6004Affiliates");
-                        var cases = company.GetMultiParam2("s1001Affiliates");
-                        var sums = company.GetMultiParam2("SumAffiliates");
+                        var revs = company.GetMultiParam("s6004Affiliates");
+                        var cases = company.GetMultiParam("s1001Affiliates");
+                        var sums = company.GetMultiParam("SumAffiliates");
                         var count = .0;
                         for (int i = 0; i < sums.Length; i++)
                             if (DoubleTryParse(sums[i], out double sum) &&
@@ -242,10 +242,10 @@ namespace FocusScoring
                     "У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел", 1,
                     company =>
                     {
-                        var casesIst = company.GetMultiParam2("s2003Affiliates");
-                        var sums = company.GetMultiParam2("SumAffiliates");
-                        var revs = company.GetMultiParam2("s6004Affiliates");
-                        var casesOtv = company.GetMultiParam2("s2001Affiliates");
+                        var casesIst = company.GetMultiParam("s2003Affiliates");
+                        var sums = company.GetMultiParam("SumAffiliates");
+                        var revs = company.GetMultiParam("s6004Affiliates");
+                        var casesOtv = company.GetMultiParam("s2001Affiliates");
 
                         var count = .0;
                         for (int i = 0; i < sums.Length; i++)
@@ -272,8 +272,8 @@ namespace FocusScoring
                     "Директор и учредитель одно физическое лицо", 1,
                     company =>
                     {
-                        var a = company.GetMultiParam("head");
-                        var b = company.GetMultiParam("FounderFL");
+                        var a = company.GetParams("head");
+                        var b = company.GetParams("FounderFL");
                         return a.Any(x => b.Any(y => x == y));
                     }),
 
@@ -441,7 +441,7 @@ namespace FocusScoring
                 new Marker("Наличие филиалов или представительств", MarkerColour.Green,
                     "Организация имеет филиалы или представительства", 1,
                     //TODO check
-                    company => { return company.GetMultiParam("Branches").Count() > 0; }),
+                    company => { return company.GetParams("Branches").Count() > 0; }),
                 new Marker("Уставный капитал более 100 000 руб.", MarkerColour.Green,
                     "Уставный капитал более 100 000 руб.", 3,
                     company => { return int.TryParse(company.GetParam("Sum"), out int sum) && sum > 100000; }),
@@ -463,7 +463,7 @@ namespace FocusScoring
                     company =>
                     {
                         int count = 0;
-                        var address = company.GetMultiParam("LegalAddress");
+                        var address = company.GetParams("LegalAddress");
                         foreach (var e in address)
                         {
                             if (DateTime.TryParse(e, out var date) && (DateTime.Today - date).Days < 365)
@@ -478,7 +478,7 @@ namespace FocusScoring
                     {
                         //TODO check correctness 
                         int count = 0;
-                        var address = company.GetMultiParam("LegalAddress");
+                        var address = company.GetParams("LegalAddress");
                         foreach (var e in address)
                         {
                             if (DateTime.TryParse(e, out var date) && (DateTime.Today - date).Days < 365)
@@ -500,7 +500,7 @@ namespace FocusScoring
                     {
                         //TODO check correctness 
                         int count = 0;
-                        var names = company.GetMultiParam("LegalName");
+                        var names = company.GetParams("LegalName");
                         foreach (var e in names)
                         {
                             if (DateTime.TryParse(e, out var date) && (DateTime.Today - date).Days < 365)
@@ -515,7 +515,7 @@ namespace FocusScoring
                     {
                         //TODO check correctness 
                         int count = 0;
-                        var kpps = company.GetMultiParam("kpp");
+                        var kpps = company.GetParams("kpp");
                         foreach (var e in kpps)
                         {
                             if (DateTime.TryParse(e, out var date) && (DateTime.Today - date).Days < 365)
@@ -531,8 +531,8 @@ namespace FocusScoring
                     {
                         int companiesCount = 0;
                         int headsCount = 0;
-                        var managementCompanies = company.GetMultiParam("managementCompanies");
-                        var heads = company.GetMultiParam("heads");
+                        var managementCompanies = company.GetParams("managementCompanies");
+                        var heads = company.GetParams("heads");
                         foreach (var affiliate in managementCompanies)
                         {
                             if (DateTime.TryParse(affiliate, out var date) && (DateTime.Today - date).Days < 365 / 2)
@@ -554,8 +554,8 @@ namespace FocusScoring
                     {
                         int companiesCount = 0;
                         int headsCount = 0;
-                        var managementCompanies = company.GetMultiParam("managementCompanies");
-                        var heads = company.GetMultiParam("heads");
+                        var managementCompanies = company.GetParams("managementCompanies");
+                        var heads = company.GetParams("heads");
                         foreach (var affiliate in managementCompanies)
                         {
                             if (DateTime.TryParse(affiliate, out var date) && (DateTime.Today - date).Days < 365 / 2)
@@ -578,8 +578,8 @@ namespace FocusScoring
                     {
                         int companiesCount = 0;
                         int headsCount = 0;
-                        var managementCompanies = company.GetMultiParam("managementCompanies");
-                        var heads = company.GetMultiParam("heads");
+                        var managementCompanies = company.GetParams("managementCompanies");
+                        var heads = company.GetParams("heads");
                         foreach (var affiliate in managementCompanies)
                         {
                             if (DateTime.TryParse(affiliate, out var date) && (DateTime.Today - date).Days < 365 / 2)
@@ -607,10 +607,10 @@ namespace FocusScoring
                     company =>
                     {
                         //TODO Rename
-                        var zp = company.GetMultiParam2("m5002Affiliates");
-                        var na = company.GetMultiParam2("m5004Affiliates");
-                        var kp = company.GetMultiParam2("m5006Affiliates");
-                        var zi = company.GetMultiParam2("m5007Affiliates");
+                        var zp = company.GetMultiParam("m5002Affiliates");
+                        var na = company.GetMultiParam("m5004Affiliates");
+                        var kp = company.GetMultiParam("m5006Affiliates");
+                        var zi = company.GetMultiParam("m5007Affiliates");
                         var count = .0;
                         for (int i = 0; i < zp.Length; i++)
                             if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
@@ -624,7 +624,7 @@ namespace FocusScoring
                     "Значительное количество компаний, по которым требуется дополнительная проверка", 5,
                     company =>
                     {
-                        var zi = company.GetMultiParam2("m7001Affiliates");
+                        var zi = company.GetMultiParam("m7001Affiliates");
                         //TODO Rename
                         var count = .0;
                         for (int i = 0; i < zi.Length; i++)
@@ -638,7 +638,7 @@ namespace FocusScoring
                     "Значительное количество компаний, зарегистрированных менее 12 месяцев назад", 5,
                     company =>
                     {
-                        var zi = company.GetMultiParam2("m7001Affiliates");
+                        var zi = company.GetMultiParam("m7001Affiliates");
                         //TODO Rename
                         var count = .0;
                         for (int i = 0; i < zi.Length; i++)
@@ -657,12 +657,12 @@ namespace FocusScoring
                     {
                         return false; //TODO finish    
                         //TODO Rename
-                        var zp = company.GetMultiParam2("m5002Affiliates");
-                        var na = company.GetMultiParam2("m5004Affiliates");
-                        var kp = company.GetMultiParam2("m5006Affiliates");
-                        var zi = company.GetMultiParam2("m5007Affiliates");
-                        var kv = company.GetMultiParam2("m5006Affiliates");
-                        var zt = company.GetMultiParam2("m5007Affiliates");
+                        var zp = company.GetMultiParam("m5002Affiliates");
+                        var na = company.GetMultiParam("m5004Affiliates");
+                        var kp = company.GetMultiParam("m5006Affiliates");
+                        var zi = company.GetMultiParam("m5007Affiliates");
+                        var kv = company.GetMultiParam("m5006Affiliates");
+                        var zt = company.GetMultiParam("m5007Affiliates");
 
                         var count = .0;
                         for (int i = 0; i < zp.Length; i++)
@@ -676,8 +676,8 @@ namespace FocusScoring
                     "Более 30% связаных компаний имеют арбитражную практику", 1,
                     company =>
                     {
-                        var q1 = company.GetMultiParam2("q2001Affiliates");
-                        var q3 = company.GetMultiParam2("q2003Affiliates");
+                        var q1 = company.GetMultiParam("q2001Affiliates");
+                        var q3 = company.GetMultiParam("q2003Affiliates");
 
                         var count = .0;
                         for (int i = 0; i < q1.Length; i++)
@@ -693,7 +693,7 @@ namespace FocusScoring
                     4,
                     company =>
                     {
-                        var m2 = company.GetMultiParam2("m6002Affiliates");
+                        var m2 = company.GetMultiParam("m6002Affiliates");
                         return m2.Count(x => x != "") / (double) m2.Length > 0.5;
                     }),
 
@@ -702,8 +702,8 @@ namespace FocusScoring
                     "Более 20% связанных компаний имеют государственные контракты как заказчик или поставщик", 5,
                     company =>
                     {
-                        var q1 = company.GetMultiParam2("q2001Affiliates");
-                        var q3 = company.GetMultiParam2("q2003Affiliates");
+                        var q1 = company.GetMultiParam("q2001Affiliates");
+                        var q3 = company.GetMultiParam("q2003Affiliates");
 
                         var count = .0;
                         for (int i = 0; i < q1.Length; i++)
@@ -718,7 +718,7 @@ namespace FocusScoring
                     "Более 30% связанных организаций зарегистрированы более 5 лет тому назад", 4,
                     company =>
                     {
-                        var dates = company.GetMultiParam2("regDateAffiliates");
+                        var dates = company.GetMultiParam("regDateAffiliates");
                         return dates.Count(x =>
                                    DateTime.TryParse(x, out var date) && (DateTime.Today - date).Days > 365 * 5 + 1) /
                                dates.Length > 0.3;
@@ -748,8 +748,8 @@ namespace FocusScoring
                     if (markersList
                         .First(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией").Check(company))
                     {
-                        int Affiliatescount = company.GetMultiParam("InnAffilalates").Count();
-                        int q7005Count = company.GetMultiParam("q7005Affiliates").Count();
+                        int Affiliatescount = company.GetParams("InnAffilalates").Count();
+                        int q7005Count = company.GetParams("q7005Affiliates").Count();
                         return q7005Count > 5 && q7005Count > Affiliatescount * 0.2;
                     }
 
@@ -784,10 +784,10 @@ namespace FocusScoring
                             .Check(company))
                             return false;
                         double s6004;
-                        s6004 = company.GetMultiParam("s6004Affiliates").Select(x => x.Replace('.', ','))
+                        s6004 = company.GetParams("s6004Affiliates").Select(x => x.Replace('.', ','))
                             .Sum(x => double.Parse(x));
                         double s6003;
-                        s6003 = company.GetMultiParam("s6003Affiliates").Select(x => x.Replace('.', ','))
+                        s6003 = company.GetParams("s6003Affiliates").Select(x => x.Replace('.', ','))
                             .Sum(x => double.Parse(x));
                         return s6004 < 0.3 * s6003;
                     }));
@@ -803,9 +803,9 @@ namespace FocusScoring
                             return false;
 
 
-                        var revs = company.GetMultiParam2("s6004Affiliates");
-                        var cases = company.GetMultiParam2("s1001Affiliates");
-                        var sums = company.GetMultiParam2("SumAffiliates");
+                        var revs = company.GetMultiParam("s6004Affiliates");
+                        var cases = company.GetMultiParam("s1001Affiliates");
+                        var sums = company.GetMultiParam("SumAffiliates");
 
                         var count = .0;
                         for (int i = 0; i < sums.Length; i++)
@@ -827,10 +827,10 @@ namespace FocusScoring
                     if (markersList.Find(x => x.Name == "Критическая сумма арбитражных дел по группе компаний").Check(company))
                         return false;
 
-                    var casesIst = company.GetMultiParam2("s2003Affiliates");
-                    var sums = company.GetMultiParam2("SumAffiliates");
-                    var revs = company.GetMultiParam2("s6004Affiliates");
-                    var casesOtv = company.GetMultiParam2("s2001Affiliates");
+                    var casesIst = company.GetMultiParam("s2003Affiliates");
+                    var sums = company.GetMultiParam("SumAffiliates");
+                    var revs = company.GetMultiParam("s6004Affiliates");
+                    var casesOtv = company.GetMultiParam("s2001Affiliates");
 
                     var count = .0;
                     for (int i = 0; i < sums.Length; i++)
@@ -851,10 +851,10 @@ namespace FocusScoring
                 3,
                 company =>
                 {
-                    var zp = company.GetMultiParam2("s1003Affiliates");
-                    var na = company.GetMultiParam2("s1004Affiliates");
-                    var kp = company.GetMultiParam2("s1005Affiliates");
-                    var zi = company.GetMultiParam2("s1006Affiliates");
+                    var zp = company.GetMultiParam("s1003Affiliates");
+                    var na = company.GetMultiParam("s1004Affiliates");
+                    var kp = company.GetMultiParam("s1005Affiliates");
+                    var zi = company.GetMultiParam("s1006Affiliates");
                     var count = .0;
                     for (int i = 0; i < zp.Length; i++)
                         if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")

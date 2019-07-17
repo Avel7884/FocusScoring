@@ -80,6 +80,7 @@
     <Compile Include="XmlDiscCache.cs" />
     <Compile Include="XmlDownload.cs" />
     <Compile Include="SingleXmlMemoryCache.cs" />
+    <Compile Include="XmlFileSystemCache.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

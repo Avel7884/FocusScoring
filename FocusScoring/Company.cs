@@ -117,7 +117,9 @@ namespace FocusScoring
 
         private Company(ParamAccess paramAccess = null)
         {
-            access = ParamAccess.Start();
+            access = paramAccess ??
+                     new ParamAccess(new List<IXmlCache>() {new SingleXmlMemoryCache(), new XmlFileSystemCache(),},
+                         new XmlDownload(Settings.FocusKey));
         }
 
         public static Company CreateINN(string inn)
@@ -138,13 +140,13 @@ namespace FocusScoring
             return access.GetParam(method, Inn, node);
         }
 
-        public string[] GetMultiParam(string paramName)
+        public string[] GetParams(string paramName)
         {
             (ApiMethod method, string node) = paramDict[paramName];
             return access.GetParams(method, Inn, node).ToArray();
         }
         //TODO Rename
-        public string[] GetMultiParam2(string paramName)
+        public string[] GetMultiParam(string paramName)
         {
             (ApiMethod method, string node) = paramDict[paramName];
             return access.GetMultiParam(method, Inn, node).ToArray();

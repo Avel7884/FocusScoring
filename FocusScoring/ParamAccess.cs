@@ -6,63 +6,49 @@ namespace FocusScoring
 {
     internal class ParamAccess
     {
-        private readonly XmlDiscCache discCache;
-        private readonly XmlDownload download;
-        private static ParamAccess paramAccess;
-        private readonly SingleXmlMemoryCache memoryCache;
+        private readonly List<IXmlCache> caches;
+        private readonly IXmlAccess source;
 
-        public static ParamAccess Start()
+        internal ParamAccess(List<IXmlCache> caches,IXmlAccess source)
         {
-            return paramAccess ?? (paramAccess = new ParamAccess());
+            this.caches = caches;
+            this.source = source;
         }
 
-        private ParamAccess()
+        private bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
         {
-            this.discCache = new XmlDiscCache();
-            this.download = new XmlDownload(Settings.FocusKey);
-            memoryCache = new SingleXmlMemoryCache();
+            for (int i = 0; i < caches.Count; i++)
+                if (caches[i].TryGetXml(inn, method, out document))
+                {
+                    for (int j = 0; j < i; j++)
+                        caches[j].Update(inn, method, document);
+                    return true;
+                }
+
+            if (!source.TryGetXml(inn, method, out document)) 
+                return false;
+            foreach (var cache in caches)
+                cache.Update(inn, method, document);
+            return true;
         }
 
-        //TODO DRY
-        public string GetParam(ApiMethod method, string inn, string node)
+
+        internal IEnumerable<string> GetParams(ApiMethod method, string inn, string node)
         {
-            if (memoryCache.TryGetXml(inn, method, out var d))
-                return d.SelectSingleNode(node)?.InnerText ?? "";
-
-            if (discCache.TryGetXml(inn, method, out d))
+            if (TryGetXml(inn, method, out var document))
             {
-                memoryCache.Update(inn, method, d);
-                return d.SelectSingleNode(node)?.InnerText ?? "";
+                foreach (XmlNode n in document.SelectNodes(node))
+                    yield return n.InnerText;
+                yield break;
             }
-
-            if (download.TryGetXml(inn, method, out d))
-            {
-                memoryCache.Update(inn, method, d);
-                discCache.Update(inn, method, d);
-                return d.SelectSingleNode(node)?.InnerText ?? "";
-            }
-
-            return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
+            yield return "Ошибка! Проверьте подключение к интернет и повторите попытку." ;            
         }
 
-        public IEnumerable<string> GetMultiParam(ApiMethod method, string inn, string node)
+        internal IEnumerable<string> GetMultiParam(ApiMethod method, string inn, string node)
         {
-            if (memoryCache.TryGetXml(inn, method, out var d))
-                return GetChild(d, node);
-
-            if (discCache.TryGetXml(inn, method, out d))
-            {
-                memoryCache.Update(inn, method, d);
-                return GetChild(d, node);
-            }
-
-            if (download.TryGetXml(inn, method, out d))
-            {
-                memoryCache.Update(inn, method, d);
-                discCache.Update(inn, method, d);
-                return GetChild(d, node);
-            }
-            return new[] { "Ошибка! Проверьте подключение к интернет и повторите попытку." };
+            if (TryGetXml(inn, method, out var document))
+                GetChild(document, node);
+            return new[] {"Ошибка! Проверьте подключение к интернет и повторите попытку."};
         }
 
         private IEnumerable<string> GetChild(XmlDocument document, string node)
@@ -73,39 +59,60 @@ namespace FocusScoring
             foreach (XmlNode child in document.SelectNodes(parent))
             { 
                 var nodes = child.SelectNodes(splitedNode[3]);
-            if (nodes.Count > 0)
-                yield return nodes.Item(0).InnerText;
-            else
-                yield return "";
+                if (nodes.Count > 0)
+                    yield return nodes.Item(0).InnerText;
+                else
+                    yield return "";
             }
         }
-
-        public IEnumerable<string> GetParams(ApiMethod method, string inn, string node)
+        
+        public string GetParam(ApiMethod method, string inn, string node)
         {
-            if (memoryCache.TryGetXml(inn, method, out var d))
-                return GetParams(d, node);
-
-            if (discCache.TryGetXml(inn, method, out d))
-            {
-                memoryCache.Update(inn, method, d);
-                return GetParams(d, node);
-            }
-
-            if (download.TryGetXml(inn, method, out d))
-            {
-                memoryCache.Update(inn, method, d);
-                discCache.Update(inn, method, d);
-                return GetParams(d, node);
-            }
-            return new[] { "Ошибка! Проверьте подключение к интернет и повторите попытку." };
-
+            if(TryGetXml(inn,method,out var document))
+                return document.SelectSingleNode(node)?.InnerText ?? "";
+            return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
         }
-
-        public IEnumerable<string> GetParams(XmlDocument document, string node)
-        {
-            foreach (XmlNode n in document.SelectNodes(node))
-                yield return n.InnerText;
-        }
+//
+//        public IEnumerable<string> GetMultiParam(ApiMethod method, string inn, string node)
+//        {
+//            if (memoryCache.TryGetXml(inn, method, out var d))
+//                return GetChild(d, node);
+//
+//            if (discCache.TryGetXml(inn, method, out d))
+//            {
+//                memoryCache.Update(inn, method, d);
+//                return GetChild(d, node);
+//            }
+//
+//            if (download.TryGetXml(inn, method, out d))
+//            {
+//                memoryCache.Update(inn, method, d);
+//                discCache.Update(inn, method, d);
+//                return GetChild(d, node);
+//            }
+//            return new[] { "Ошибка! Проверьте подключение к интернет и повторите попытку." };
+//        }
+//
+//        public IEnumerable<string> GetParams(ApiMethod method, string inn, string node)
+//        {
+//            if (memoryCache.TryGetXml(inn, method, out var d))
+//                return GetParams(d, node);
+//
+//            if (discCache.TryGetXml(inn, method, out d))
+//            {
+//                memoryCache.Update(inn, method, d);
+//                return GetParams(d, node);
+//            }
+//
+//            if (download.TryGetXml(inn, method, out d))
+//            {
+//                memoryCache.Update(inn, method, d);
+//                discCache.Update(inn, method, d);
+//                return GetParams(d, node);
+//            }
+//            return new[] { "Ошибка! Проверьте подключение к интернет и повторите попытку." };
+//
+//        }
 
         //        
         //        //TODO dry
