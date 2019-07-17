@@ -49,7 +49,7 @@
             </ListView.ContextMenu>
         </ListView>
 
-        <TextBlock TextWrapping="Wrap" Name="TextBlockList" Grid.Column="2" Grid.Row="2" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom" Height="22"/>
+        <TextBlock TextWrapping="Wrap" Name="TextBlockList" Grid.Column="2" Grid.Row="1" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom" Height="22"/>
         <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left" Width="0"/>
         <Button Click="DeleteList_Click" Content="Удалить" Margin="0,-76,0,76" />
 
@@ -91,18 +91,10 @@
             </ListView.View>
 
         </ListView>
-
-        <!--<Button Click="AllMarkers_OnClick" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="19" Width="74" Content="Все маркеры" Margin="117,1"/>-->
-        <!--<Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"  BorderThickness="1,1,1,0" BorderBrush="#FFABADB3" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-            <StackPanel Orientation="Horizontal"   HorizontalAlignment="Right" VerticalAlignment="Bottom" >
-                <Image Source="pack://application:,,,/src/plus.png" Cursor="Hand" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="19" Width="19"/>
-                <Button HorizontalAlignment="Right" Content="Создать список" x:Name="AddList" Background="#FF4D9068" Click="AddList_Click" Foreground="White"  Cursor="Hand" BorderBrush="{x:Null}"/>
-            </StackPanel>
-        </Border>-->
         <Button Grid.ColumnSpan="2" Grid.Row="1" Click="AddList_Click" Cursor="Hand" Background="{x:Null}" BorderBrush="#FFABADB3" BorderThickness="2,2,2,0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
                 <Image Source="pack://application:,,,/src/plus.png" Height="18" Width="18"/>
-                <TextBlock Text="Создать список" />
+                <TextBlock Text="Создать список" Foreground="White"/>
             </StackPanel>
         </Button>
         <StackPanel Grid.Column="3" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="3" Height="20" Width="311" Margin="0,0,-20,0">
@@ -110,13 +102,14 @@
             <Button Click="ButtonDataUpdate_Click"  Content="Добавить" BorderBrush="{x:Null}"/>
             <TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>
         </StackPanel>
-        <StackPanel Grid.Row="5" Grid.ColumnSpan="99" VerticalAlignment="Center">
-        <Menu HorizontalAlignment="Right">
-            <Menu.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <DockPanel HorizontalAlignment="Stretch"/>
-                </ItemsPanelTemplate>
-            </Menu.ItemsPanel>
+        <DockPanel Grid.Row="5" Grid.ColumnSpan="99">
+            <TextBlock Text="Ключ: осталось" />
+            <Menu HorizontalAlignment="Right">
+                <Menu.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <DockPanel HorizontalAlignment="Stretch"/>
+                    </ItemsPanelTemplate>
+                </Menu.ItemsPanel>
                 <MenuItem Header="Настройки"  FontSize="14" HorizontalAlignment="Right">
                     <MenuItem.Icon>
                         <Image Source="pack://application:,,,/src/stt.png"/>
@@ -124,7 +117,7 @@
                     <MenuItem Click="AllMarkers_OnClick" Header="Маркеры"/>
                 </MenuItem>
             </Menu>
-        </StackPanel>
+        </DockPanel>
 
     </Grid>
 </Window>

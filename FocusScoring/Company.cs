@@ -13,11 +13,10 @@ namespace FocusScoring
         
         public string Inn { get; set; }
         private XmlAccess access;
-        private static Scorer scorer;
+        private static Scorer scorer = new Scorer();
 
         private Company(XmlAccess paramAccess = null)
         {
-            scorer = scorer ?? new Scorer();
             access = paramAccess ??
                      new XmlAccess(new List<IXmlCache>() {new SingleXmlMemoryCache(), new XmlFileSystemCache(),},
                          new XmlDownload(Settings.FocusKey));
