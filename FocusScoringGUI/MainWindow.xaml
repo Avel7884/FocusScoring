@@ -7,51 +7,58 @@
         mc:Ignorable="d"
         Title="FoucsScoring 0.1"
         Icon="Icon1.ico"
-        Height="Auto" Width="Auto">
+        Height="Auto" Width="Auto" d:DesignHeight="560">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="124*" MinWidth="124" />
-            <ColumnDefinition Width="64*" MinWidth="61" />
-            <ColumnDefinition Width="254*" MinWidth="100"/>
-            <ColumnDefinition Width="197*" MinWidth="197" />
-            <ColumnDefinition Width="50*" MinWidth="50"/>
-            <ColumnDefinition Width="71*" MinWidth="71" />
+            <ColumnDefinition Width="137*" MinWidth="124" />
+            <ColumnDefinition Width="71*" MinWidth="61" />
+            <ColumnDefinition Width="261*" MinWidth="100"/>
+            <ColumnDefinition Width="172*"/>
+            <ColumnDefinition Width="100*" MinWidth="50"/>
+            <ColumnDefinition Width="19*"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="34*" MinHeight="34"/>
-            <RowDefinition Height="21*" MinHeight="21"/>
-            <RowDefinition Height="24*" MinHeight="24"/>
-            <RowDefinition Height="397*" MinHeight="200"/>
-            <RowDefinition Height="24*" MinHeight="24"/>
-            <RowDefinition Height="4*" MinHeight="4"/>
+            <RowDefinition Height="36*" MinHeight="34"/>
+            <RowDefinition Height="22*" MinHeight="21"/>
+            <RowDefinition Height="25*" MinHeight="24"/>
+            <RowDefinition Height="396*" MinHeight="200"/>
+            <RowDefinition MinHeight="24" Height="24*"/>
         </Grid.RowDefinitions>
-        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="15" Grid.ColumnSpan="2" Background="#FF4D9068"/>
+        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="4" Grid.ColumnSpan="2" Background="#FF4D9068"/>
         <Border BorderBrush="#FF7DD4A0" Height="1" Grid.Row="1" Grid.ColumnSpan="6" VerticalAlignment="Top" Background="#FF7DD4A0"/>
-        <TextBlock Text="Мои списки" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="#FF7DD48E"/>
+        <TextBlock Text="Мои списки" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="#FF7DD48E" Height="16" Width="66"/>
         <ListView Grid.Column="0"
                   Grid.ColumnSpan="2"
                   Grid.Row="2"
                   x:Name="ListView"
-                MouseUp="ListSelected_Click" Background="#FF4D9068" Grid.RowSpan="3" BorderThickness="1,1,1,0" Foreground="White">
+                MouseUp="ListSelected_Click" Background="#FF4D9068" Grid.RowSpan="2" BorderThickness="2" Foreground="White">
             <!--TODO OnHover Discription-->
             <ListView.Resources>
                 <Style TargetType="ListViewItem">
                     <Setter Property="ToolTip" Value="{Binding Path=Description}"/>
                 </Style>
             </ListView.Resources>
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Копировать"></MenuItem>
+                    <MenuItem Header="Вставить"></MenuItem>
+                    <MenuItem Header="Вырезать"></MenuItem>
+                    <MenuItem Header="Удалить" Click="DeleteList_Click"></MenuItem>
+                </ContextMenu>
+            </ListView.ContextMenu>
         </ListView>
 
-        <TextBlock TextWrapping="Wrap" Name="TextBlockList" Grid.Column="2" Grid.Row="1" FontSize="18" Grid.RowSpan="2" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom"/>
-        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left"/>
-        <Button Grid.Column="1" Grid.Row="4" VerticalAlignment="Center"  Click="DeleteList_Click" Content="Удалить" MaxHeight="20" MaxWidth="68" Height="20" Margin="0,2"/>
+        <TextBlock TextWrapping="Wrap" Name="TextBlockList" Grid.Column="2" Grid.Row="2" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom" Height="22"/>
+        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left" Width="0"/>
+        <Button Click="DeleteList_Click" Content="Удалить" Margin="0,-76,0,76" />
 
 
         <ListView Grid.Column="2"
                   Grid.ColumnSpan="1"
                   Grid.Row="3"
                   x:Name="CompanyList"
-                  MouseUp="CompanySelected_Click" Grid.RowSpan="2">
+                  MouseUp="CompanySelected_Click">
 
             <ListView.View>
                 <GridView>
@@ -68,7 +75,7 @@
                   Grid.ColumnSpan="3"
                   Grid.Row="3"
                   x:Name="MarkersList"
-                  MouseDoubleClick="MarkerSelected_Click" Grid.RowSpan="2">
+                  MouseDoubleClick="MarkerSelected_Click">
 
             <ListView.View>
                 <GridView>
@@ -86,21 +93,38 @@
         </ListView>
 
         <!--<Button Click="AllMarkers_OnClick" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="19" Width="74" Content="Все маркеры" Margin="117,1"/>-->
-        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Column="0" Grid.ColumnSpan="2" Height="19" Width="89">
-            <!--<Image Source="pack://application:,,,/src/plus.png" Cursor="Hand"/>-->
-            <Button HorizontalAlignment="Right" Content="Создать список" x:Name="AddList" Background="#FF4D9068" BorderThickness="1,1,1,0" Click="AddList_Click" Foreground="White" BorderBrush="#FFABADB3" Cursor="Hand"/>
-        </StackPanel>
-        <StackPanel Grid.Column="3" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="3" Height="20">
+        <!--<Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"  BorderThickness="1,1,1,0" BorderBrush="#FFABADB3" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <StackPanel Orientation="Horizontal"   HorizontalAlignment="Right" VerticalAlignment="Bottom" >
+                <Image Source="pack://application:,,,/src/plus.png" Cursor="Hand" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="19" Width="19"/>
+                <Button HorizontalAlignment="Right" Content="Создать список" x:Name="AddList" Background="#FF4D9068" Click="AddList_Click" Foreground="White"  Cursor="Hand" BorderBrush="{x:Null}"/>
+            </StackPanel>
+        </Border>-->
+        <Button Grid.ColumnSpan="2" Grid.Row="1" Click="AddList_Click" Cursor="Hand" Background="{x:Null}" BorderBrush="#FFABADB3" BorderThickness="2,2,2,0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                <Image Source="pack://application:,,,/src/plus.png" Height="18" Width="18"/>
+                <TextBlock Text="Создать список" />
+            </StackPanel>
+        </Button>
+        <StackPanel Grid.Column="3" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="3" Height="20" Width="311" Margin="0,0,-20,0">
             <TextBox x:Name="Inn" MinWidth="110" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12"/>
             <Button Click="ButtonDataUpdate_Click"  Content="Добавить" BorderBrush="{x:Null}"/>
             <TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>
         </StackPanel>
-        <Menu Grid.Column="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Height="18" Margin="0,3" Width="71">
-            <MenuItem Header="Настройки" >
-                <MenuItem Click="AllMarkers_OnClick" Header="Маркеры" BorderThickness="0" Background="{x:Null}" BorderBrush="{x:Null}"/>
-            </MenuItem>
-        </Menu>
-
+        <StackPanel Grid.Row="5" Grid.ColumnSpan="99" VerticalAlignment="Center">
+        <Menu HorizontalAlignment="Right">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <DockPanel HorizontalAlignment="Stretch"/>
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+                <MenuItem Header="Настройки"  FontSize="14" HorizontalAlignment="Right">
+                    <MenuItem.Icon>
+                        <Image Source="pack://application:,,,/src/stt.png"/>
+                    </MenuItem.Icon>
+                    <MenuItem Click="AllMarkers_OnClick" Header="Маркеры"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
 
     </Grid>
 </Window>

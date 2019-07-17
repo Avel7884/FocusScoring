@@ -61,10 +61,5 @@ namespace FocusScoringGUI
         {
             e.Handled = !(Char.IsDigit(e.Text, 0));
         }
-
-        private void ListView_MouseMove(object sender, MouseEventArgs e)
-        {
-
-        }
     }
 }
