@@ -22,7 +22,7 @@ namespace FocusScoringGUI
         //private Dictionary<string, List<CompanyData>> Lists;
         private List<string> ListNames;
         private CompanyListsCache companiesCache;
-        public Scorer scorer;
+//        public Scorer scorer;
 
         //public string Inn { get; set; }
 
@@ -34,7 +34,6 @@ namespace FocusScoringGUI
             Settings.FocusKey = "3c71a03f93608c782f3099113c97e28f22ad7f45";
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
-            scorer = new Scorer();
 
             if (ListNames.Count == 0)
             {

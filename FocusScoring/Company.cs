@@ -3,12 +3,112 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Xml;
 using FocusScoring;
 
 namespace FocusScoring
 {
     public class Company
     {
+        
+        public string Inn { get; set; }
+        private XmlAccess access;
+        private static Scorer scorer;
+
+        private Company(XmlAccess paramAccess = null)
+        {
+            scorer = scorer ?? new Scorer();
+            access = paramAccess ??
+                     new XmlAccess(new List<IXmlCache>() {new SingleXmlMemoryCache(), new XmlFileSystemCache(),},
+                         new XmlDownload(Settings.FocusKey));
+        }
+
+        public static Company CreateINN(string inn)
+        {
+            var c = new Company();
+            c.Inn = inn;
+            c.Score = -1;
+            return c;
+        }
+
+        public void CountScore() => Score = scorer.CountScore(markers.Select(x=>x.Marker));
+        public int Score { get; private set; }
+
+        private MarkerResult[] markers;
+        public MarkerResult[] Markers => 
+            markers ?? (markers = scorer.CheckMarkers(this));
+
+        public static Marker[] GetAllMarkers => scorer.GetAllMarkers;
+
+        public string GetParam(string paramName)
+        {
+            (ApiMethod method, string node) = paramDict[paramName];
+            if(access.TryGetXml(Inn,method,out var document))
+                return document.SelectSingleNode(node)?.InnerText ?? "";
+            return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
+        }
+        
+        internal string[] GetParams(string paramName)
+        {
+            (ApiMethod method, string node) = paramDict[paramName];
+            if (access.TryGetXml(Inn, method, out var document))
+                return document.SelectNodes(node).Cast<XmlNode>().Select(n => n.InnerText).ToArray();
+
+            return new[] {"Ошибка! Проверьте подключение к интернет и повторите попытку."};
+        }
+
+        internal string[] GetMultiParam(string paramName)
+        {
+            (ApiMethod method, string node) = paramDict[paramName];
+            if (access.TryGetXml(Inn, method, out var document))
+                return GetChild(document, node).ToArray();
+            return new[] {"Ошибка! Проверьте подключение к интернет и повторите попытку."};
+        }
+
+        private IEnumerable<string> GetChild(XmlDocument document, string node)
+        {    
+            var splitedNode = node.Split(new[] { '/' }, 4);
+            var parent = '/' + splitedNode[1] + '/' + splitedNode[2];
+
+            foreach (XmlNode child in document.SelectNodes(parent))
+            { 
+                var nodes = child.SelectNodes(splitedNode[3]);
+                if (nodes.Count > 0)
+                    yield return nodes.Item(0).InnerText;
+                else
+                    yield return "";
+            }
+        }
+        
+        public string CompanyName()
+        {
+            string _short = GetParam("Short");
+            string full = GetParam("Full");
+            string fio = GetParam("FIO");
+            if (_short != "")
+            {
+                _short = _short.Replace("Общество с ограниченной ответственностью", "ООО");
+                _short = _short.Replace("Закрытое акционерное общество", "ЗАО");
+                _short = _short.Replace("Акционерное общество", "АО");
+                return _short;
+            }
+            if (full != "")
+            {
+                full = full.Replace("ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ", "ООО");
+                full = full.Replace("Общество с ограниченной ответственностью", "ООО");
+                full = full.Replace("Закрытое акционерное общество", "ЗАО");
+                full = full.Replace("Акционерное общество", "АО");
+                return full;
+            }
+
+            if (fio != "")
+            {
+                return "ИП" + " " + fio;
+            }
+
+            return "";
+        }
+        
         private static Dictionary<string, (ApiMethod, string)> paramDict = new Dictionary<string, (ApiMethod, string)>()
         {
             {"Short",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/short") },
@@ -111,72 +211,5 @@ namespace FocusScoring
             {"heads",(ApiMethod.req,"/ArrayOfreq/req/UL/history/heads/firstDate") },
             {"managementCompanies",(ApiMethod.req,"/ArrayOfreq/req/UL/history/managementCompanies/firstDate") },
         };
-
-        public string Inn { get; set; }
-        private ParamAccess access;
-
-        private Company(ParamAccess paramAccess = null)
-        {
-            access = ParamAccess.Start();
-        }
-
-        public static Company CreateINN(string inn)
-        {
-            var c = new Company();
-            c.Inn = inn;
-            c.Score = -1;
-            return c;
-        }
-
-        public int Score { get; set; }
-
-        public MarkerResult[] Markers { get; set; }
-
-        public string GetParam(string paramName)
-        {
-            (ApiMethod method, string node) = paramDict[paramName];
-            return access.GetParam(method, Inn, node);
-        }
-
-        public string[] GetMultiParam(string paramName)
-        {
-            (ApiMethod method, string node) = paramDict[paramName];
-            return access.GetParams(method, Inn, node).ToArray();
-        }
-        //TODO Rename
-        public string[] GetMultiParam2(string paramName)
-        {
-            (ApiMethod method, string node) = paramDict[paramName];
-            return access.GetMultiParam(method, Inn, node).ToArray();
-        }
-
-        public string CompanyName()
-        {
-            string _short = GetParam("Short");
-            string full = GetParam("Full");
-            string fio = GetParam("FIO");
-            if (_short != "")
-            {
-                _short = _short.Replace("Общество с ограниченной ответственностью", "ООО");
-                _short = _short.Replace("Закрытое акционерное общество", "ЗАО");
-                _short = _short.Replace("Акционерное общество", "АО");
-                return _short;
-            }
-            if (full != "")
-            {
-                full = full.Replace("ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ", "ООО");
-                full = full.Replace("Общество с ограниченной ответственностью", "ООО");
-                full = full.Replace("Закрытое акционерное общество", "ЗАО");
-                full = full.Replace("Акционерное общество", "АО");
-                return full;
-            }
-
-            if (fio != "")
-            {
-                return "ИП" + " " + fio;
-            }
-
-            return "";
-        }
     }
 }

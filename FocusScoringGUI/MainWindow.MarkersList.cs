@@ -1,4 +1,5 @@
 using System.Windows;
+using FocusScoring;
 
 namespace FocusScoringGUI
 {
@@ -20,7 +21,7 @@ namespace FocusScoringGUI
 
         private void AllMarkers_OnClick(object sender, RoutedEventArgs e)
         {
-            var a = new MarkerListWindow(scorer.GetAllMarkers);
+            var a = new MarkerListWindow(Company.GetAllMarkers);
             a.Owner = this;
             a.Show();
         }
