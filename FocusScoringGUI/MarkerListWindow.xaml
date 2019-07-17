@@ -5,25 +5,32 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:FocusScoringGUI"
         mc:Ignorable="d"
-        Title="MarkerListWindow" Height="Auto" Width="Auto">
+        Title="MarkerListWindow">
 
     <ListView Name="MarkersList" MouseDoubleClick="MarkersList_Click">
-            
-                <ListView.View>
-                        <GridView>
+
+        <ListView.View>
+            <GridView>
                 <GridViewColumn>
                     <GridViewColumn.CellTemplate>
-                    <DataTemplate>
-                            <Image Source="{Binding Path=Colour}" Height="16" Width="16"/>
-                    </DataTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Path=Colour}"/>
+                        </DataTemplate>
                     </GridViewColumn.CellTemplate>
                 </GridViewColumn>
-
-
+                <GridViewColumn DisplayMemberBinding="{Binding Path=Marker.Score}">Важность</GridViewColumn>
                 <GridViewColumn DisplayMemberBinding="{Binding Path=Name}">Название</GridViewColumn>
-                                <GridViewColumn DisplayMemberBinding="{Binding Path=Description}">Описание</GridViewColumn>
-                        </GridView>
-                </ListView.View>
-            
-        </ListView>
+                <GridViewColumn Width="333">
+                    <GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock TextWrapping="Wrap" Text="{Binding Path=Description}"></TextBlock>
+                        </DataTemplate>
+                    </GridViewColumn.CellTemplate> Описание
+                </GridViewColumn>
+
+            </GridView>
+        </ListView.View>
+
+    </ListView>
 </Window>
+
