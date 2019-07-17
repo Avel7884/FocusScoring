@@ -118,8 +118,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Counteragents.txt" />
+    <Resource Include="src\plus.png" />
+    <Resource Include="src\stt.png" />
     <Resource Include="src\GreenDot.png" />
-    <Content Include="src\plus.png" />
     <Resource Include="src\RedDot.png" />
     <Resource Include="src\YellowDot.png" />
   </ItemGroup>

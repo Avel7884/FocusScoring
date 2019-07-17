@@ -6,9 +6,8 @@
         xmlns:local="clr-namespace:FocusScoringGUI"
         mc:Ignorable="d"
         Title="MarkerListWindow" Height="Auto" Width="Auto">
-        
-        <ListView Name="MarkersList"
-                  MouseDoubleClick="MarkersList_Click">
+
+    <ListView Name="MarkersList" MouseDoubleClick="MarkersList_Click">
             
                 <ListView.View>
                         <GridView>

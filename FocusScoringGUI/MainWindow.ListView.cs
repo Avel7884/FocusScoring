@@ -35,12 +35,12 @@ namespace FocusScoringGUI
                 return;
             var name = (string)ListView.SelectedItem;
             companiesCache.DeleteList(name);
+            ListNames.Remove(name);
             currentListName = ListNames.First();
             CurrentList = companiesCache.GetList(currentListName);
             CompanyList.ItemsSource = CurrentList;
             CompanyList.Items.Refresh();
             TextBlockList.Text = currentListName;
-            ListNames.Remove(name);
             ListView.Items.Refresh();
         }
 
