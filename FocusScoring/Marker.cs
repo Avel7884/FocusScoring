@@ -6,24 +6,9 @@ namespace FocusScoring
 {
     public class Marker
     {
-        private const string codeCore = @"
-        using FocusScoring;
-            
-        namespace UserFunctions
-        {                
-            public class BinaryFunction
-            {                
-                public static bool Function(Company company)
-                {
-                    return func_xy;
-                }
-            }
-        }
-    ";
-
-        public static CSharpCodeProvider Provider = new CSharpCodeProvider();
 
         private readonly Func<Company,MarkerResult> check;
+        private static readonly MarkerRTCompiler compiler = new MarkerRTCompiler();
         
         private int score;
         public int Score
@@ -37,7 +22,7 @@ namespace FocusScoring
             }
         }
         
-
+        
         //public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,MarkerResult>)
 
         public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company, string> check)
@@ -50,6 +35,7 @@ namespace FocusScoring
             this.Name = Name;
             Colour = colour;
             Description = description;
+            Code = "Unavalable";
             this.Score = Score;
         }
 
@@ -59,31 +45,18 @@ namespace FocusScoring
             this.Name = Name;
             Colour = colour;
             Description = description;
+            Code = "Unavalable";
             this.Score = Score;
         }
 
-        public Marker(string Name, MarkerColour colour, string description, int Score, string code,string verbose="")
-        {                        //Make No replace
-            var finalCode = codeCore.Replace("func_xy",code);
-            Code = code;
-            //var ass = typeof(Company).Assembly.CodeBase;
-            var param = new CompilerParameters();
-            param.ReferencedAssemblies.Add("./FocusScoring.dll");
-            //param.IncludeDebugInformation = true;
-            var result = Provider.CompileAssemblyFromSource(param, finalCode);
-            var method = result.CompiledAssembly.GetType("UserFunctions.BinaryFunction").GetMethod("Function");
-            var checkBool = (Func<Company, bool>) Delegate.CreateDelegate(typeof(Func<Company, bool>), method);
-            check = c => new MarkerResult(checkBool(c),this,verbose);
-            
+        public Marker(string Name, MarkerColour colour, string description, int Score, string code)
+        {   
             this.Name = Name;
             Colour = colour;
             Description = description;
             this.Score = Score;
-        }
-                //TODO finish
-        private Func<Company, MarkerResult> CompileCode()
-        {
-            throw  new NotImplementedException();
+            Code = code;
+            check = compiler.PostponededCompile(this);
         }
         
         public string Name { get; set; }

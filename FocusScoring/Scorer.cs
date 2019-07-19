@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Policy;
 
 namespace FocusScoring
 {
@@ -101,7 +100,7 @@ namespace FocusScoring
             {
                 new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,
                     "Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
-                    "company.GetParam(\"Dissolving\") == \"true\" || company.GetParam(\"Dissolved\") == \"true\""),
+                    "return company.GetParam(\"Dissolving\") == \"true\" || company.GetParam(\"Dissolved\") == \"true\";"),
                     //company => company.GetParam("Dissolving") == "true" || company.GetParam("Dissolved") == "true"),
 
                 new Marker("Вероятное банкротство организации", MarkerColour.Red,
