@@ -22,7 +22,7 @@ namespace FocusScoringGUI
 
             Description.Text = marker.Description;
 
-            Code.Text = "Unavalable, not implemented!";
+            Code.Text = marker.Code ?? "Unavalable, not implemented!";
         }
 
         private void Cansel_OnClick(object sender, RoutedEventArgs e)
@@ -36,7 +36,7 @@ namespace FocusScoringGUI
             marker.Colour = (MarkerColour)((IsAffiliated.IsChecked.Value ? 3 : 0) + Colour.SelectedIndex);
             marker.Score = Importance.SelectedIndex + 1;
             marker.Description = Description.Text;
-            //TODO do Code here
+            marker.Code = Code.Text;
             Close();
         }
     }

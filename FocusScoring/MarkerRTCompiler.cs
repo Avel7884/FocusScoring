@@ -1,6 +1,7 @@
 using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.NetworkInformation;
 using System.Reflection;
 using System.Text;
@@ -34,19 +35,15 @@ namespace FocusScoring
                     __Code
                 }
             }";
-        private List<ResultHolder> holders = new List<ResultHolder>();
-                        //TODO rename
-        private List<string> classes = new List<string>(); 
+        private Dictionary<Marker,ResultHolder> holders = new Dictionary<Marker, ResultHolder>();
         private bool IsCompiled;
         
         public Func<Company, MarkerResult> PostponededCompile(Marker marker)
         {
             IsCompiled = false;
-            //TODO rename
-            var ccl = new ResultHolder(marker.Name.Replace(' ','_'));
-            //TODO rewrite with @$ or something
-            classes.Add(classCore.Replace("__Name",ccl.Name).Replace("__Code",marker.Code));
-            holders.Add(ccl);
+                 
+            var ccl =  new ResultHolder(marker.Name.Replace(' ','_'),marker.Code);
+            holders[marker] = ccl;                
             
             return c =>
             {
@@ -60,8 +57,8 @@ namespace FocusScoring
         {
             IsCompiled = true;
             var sb = new StringBuilder(codeHead);
-            foreach (var @class in classes)
-                sb.Append(@class);
+            foreach (var code in holders.Values.Select(x=>x.Code))
+                sb.Append(code);
             sb.Append('}');
             
             //var ass = typeof(Company).Assembly.CodeBase;
@@ -72,19 +69,23 @@ namespace FocusScoring
             //param.IncludeDebugInformation = true;
             var result = Provider.CompileAssemblyFromSource(param, sb.ToString());
 
-            foreach (var holder in holders)
+            foreach (var holder in holders.Values)
                 holder.TakeResult(result);
         }
-        
+        //TODO rename
         private class ResultHolder
         {
             public string Name { get; }
 
-            public ResultHolder(string Name)
+            public ResultHolder(string Name, string code)
             {
                 this.Name = Name;
+                            //TODO rewrite with @$ or something
+                Code = classCore.Replace("__Name", Name).Replace("__Code", code);
             }
-
+            
+            public string Code { get; }
+            
             public void TakeResult(CompilerResults result)
             {
                 var method = result.CompiledAssembly.GetType("MarkersCheckers."+Name).GetMethod("Function");
