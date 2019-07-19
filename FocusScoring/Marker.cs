@@ -23,20 +23,20 @@ namespace FocusScoring
 
         public static CSharpCodeProvider Provider = new CSharpCodeProvider();
 
-        private readonly Func<Company,MarkerResult> check;
-        
+        private readonly Func<Company, MarkerResult> check;
+
         private int score;
         public int Score
         {
             get => score;
             set
             {
-                if (value>5 || value<0)
+                if (value > 5 || value < 0)
                     throw new ArgumentException();
                 score = value;
             }
         }
-        
+
 
         //public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,MarkerResult>)
 
@@ -62,9 +62,9 @@ namespace FocusScoring
             this.Score = Score;
         }
 
-        public Marker(string Name, MarkerColour colour, string description, int Score, string code,string verbose="")
+        public Marker(string Name, MarkerColour colour, string description, int Score, string code, string verbose = "")
         {                        //Make No replace
-            var finalCode = codeCore.Replace("func_xy",code);
+            var finalCode = codeCore.Replace("func_xy", code);
             Code = code;
             //var ass = typeof(Company).Assembly.CodeBase;
             var param = new CompilerParameters();
@@ -72,9 +72,9 @@ namespace FocusScoring
             //param.IncludeDebugInformation = true;
             var result = Provider.CompileAssemblyFromSource(param, finalCode);
             var method = result.CompiledAssembly.GetType("UserFunctions.BinaryFunction").GetMethod("Function");
-            var checkBool = (Func<Company, bool>) Delegate.CreateDelegate(typeof(Func<Company, bool>), method);
-            check = c => new MarkerResult(checkBool(c),this,verbose);
-            
+            var checkBool = (Func<Company, bool>)Delegate.CreateDelegate(typeof(Func<Company, bool>), method);
+            check = c => new MarkerResult(checkBool(c), this, verbose);
+
             this.Name = Name;
             Colour = colour;
             Description = description;
@@ -92,6 +92,6 @@ namespace FocusScoring
 
     public enum MarkerColour
     {
-        Green, Yellow, Red, RedAffiliates, GreenAffiliates, YellowAffiliates
+        Green, Yellow, Red, GreenAffiliates, YellowAffiliates, RedAffiliates
     }
 }

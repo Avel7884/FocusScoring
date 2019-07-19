@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="FoucsScoring 0.1"
         Icon="Icon1.ico"
-        Height="Auto" Width="Auto" d:DesignHeight="560">
+        d:DesignHeight="560" WindowState="Maximized">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="137*" MinWidth="124" />
@@ -36,7 +36,7 @@
             <!--TODO OnHover Discription-->
             <ListView.Resources>
                 <Style TargetType="ListViewItem">
-                    <Setter Property="ToolTip" Value="{Binding Path=Description}"/>
+                    <Setter Property="ToolTip" Value="{Binding Description}"/>
                 </Style>
             </ListView.Resources>
             <ListView.ContextMenu>
@@ -50,7 +50,7 @@
         </ListView>
 
         <TextBlock TextWrapping="Wrap" Name="TextBlockList" Grid.Column="2" Grid.Row="1" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom" Height="22"/>
-        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Left" Width="0"/>
+        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Left"/>
         <Button Click="DeleteList_Click" Content="Удалить" Margin="0,-76,0,76" />
 
 
@@ -82,11 +82,17 @@
                     <GridViewColumn>
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <Image Source="{Binding Path=Colour}" Height="16" Width="16"/>
+                                <Image Source="{Binding Path=Colour}" MaxHeight="32" MaxWidth="32"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Компания" Width="Auto" />
+                    <GridViewColumn Width="400">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextWrapping="Wrap" Text="{Binding Description}" FontSize="14"></TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
                 </GridView>
             </ListView.View>
 
@@ -97,10 +103,16 @@
                 <TextBlock Text="Создать список" Foreground="White"/>
             </StackPanel>
         </Button>
-        <StackPanel Grid.Column="3" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="3" Height="20" Width="311" Margin="0,0,-20,0">
-            <TextBox x:Name="Inn" MinWidth="110" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12"/>
-            <Button Click="ButtonDataUpdate_Click"  Content="Добавить" BorderBrush="{x:Null}"/>
+        <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="3" Height="20" Width="311" Margin="0,0,-20,0">
             <TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>
+            <TextBox x:Name="Inn" MinWidth="110" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12" TextChanged="Inn_TextChanged"/>
+            <Button Click="ButtonDataUpdate_Click"  Content="Добавить" BorderBrush="{x:Null}">
+                <Button.ToolTip>
+                    <ToolTip>
+                        Добавить ИНН в список
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
         </StackPanel>
         <DockPanel Grid.Row="5" Grid.ColumnSpan="99">
             <TextBlock Text="Ключ: осталось" />

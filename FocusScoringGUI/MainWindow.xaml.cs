@@ -60,5 +60,15 @@ namespace FocusScoringGUI
         {
             e.Handled = !(Char.IsDigit(e.Text, 0));
         }
+
+        private void Inn_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var addedlength = e.Changes.ElementAt(0).AddedLength;
+            if (!Inn.Text.All(char.IsDigit))
+            {
+                Inn.Text = Inn.Text.Remove(Inn.SelectionStart-addedlength, addedlength);
+                Inn.SelectionStart = Inn.Text.Length;
+            }
+        }
     }
 }

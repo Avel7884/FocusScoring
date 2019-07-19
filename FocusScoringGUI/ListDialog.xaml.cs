@@ -25,8 +25,11 @@ namespace FocusScoringGUI
         ListView ListView = null;
         ListView CompanyList = null;
         private List<MainWindow.CompanyData> CurrentList;
-        public ListDialog(Action<string,List<MainWindow.CompanyData>> addList)
+        private CompanyListsCache CompanyCache;
+
+        public ListDialog(Action<string,List<MainWindow.CompanyData>> addList,CompanyListsCache companyCache)
         {
+            this.CompanyCache = companyCache;
             this.ResizeMode = ResizeMode.NoResize;
             this.WindowStartupLocation = WindowStartupLocation.CenterOwner;
             InitializeComponent();
@@ -40,7 +43,11 @@ namespace FocusScoringGUI
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-
+            if (CompanyCache.GetNames().Contains(ListName.Text))
+            {
+                MessageBox.Show("Лист с данным названием уже существует");
+                return;
+            }
             if (ListName.Text != "")
             {
                 addList.Invoke(ListName.Text,new List<MainWindow.CompanyData>());
