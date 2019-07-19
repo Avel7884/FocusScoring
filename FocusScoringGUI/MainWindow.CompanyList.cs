@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using System.Windows;
 using FocusScoring;
@@ -57,6 +58,6 @@ namespace FocusScoringGUI
             CurrentList.Add(data);
             companiesCache.UpdateList(currentListName, new[] { data });
             CompanyList.Items.Refresh();
-        }
+        }     
     }
 }

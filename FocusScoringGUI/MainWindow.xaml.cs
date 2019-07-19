@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -66,9 +67,14 @@ namespace FocusScoringGUI
             var addedlength = e.Changes.ElementAt(0).AddedLength;
             if (!Inn.Text.All(char.IsDigit))
             {
-                Inn.Text = Inn.Text.Remove(Inn.SelectionStart-addedlength, addedlength);
+                Inn.Text = Inn.Text.Remove(Inn.SelectionStart - addedlength, addedlength);
                 Inn.SelectionStart = Inn.Text.Length;
             }
+        }
+
+        private void GridViewColumn_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }

@@ -58,13 +58,21 @@
                   Grid.ColumnSpan="1"
                   Grid.Row="3"
                   x:Name="CompanyList"
-                  MouseUp="CompanySelected_Click">
-
+                  MouseUp="CompanySelected_Click"
+                  GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler"
+                  >
             <ListView.View>
                 <GridView>
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Inn}">Инн</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="100">Компания</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="150">Компания</GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Score}">Рейтинг</GridViewColumn>
+                    <!--<GridViewColumn>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding CLight}" MaxHeight="32" MaxWidth="32"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>-->
                 </GridView>
             </ListView.View>
 
@@ -75,18 +83,20 @@
                   Grid.ColumnSpan="3"
                   Grid.Row="3"
                   x:Name="MarkersList"
-                  MouseDoubleClick="MarkerSelected_Click">
-
+                  MouseDoubleClick="MarkerSelected_Click"
+                 
+                  >
+ <!--GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler"-->
             <ListView.View>
                 <GridView>
-                    <GridViewColumn>
+                    <GridViewColumn Header="X">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <Image Source="{Binding Path=Colour}" MaxHeight="32" MaxWidth="32"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Width="400">
+                    <GridViewColumn Width="400" Header="Описание">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <TextBlock TextWrapping="Wrap" Text="{Binding Description}" FontSize="14"></TextBlock>
@@ -105,7 +115,13 @@
         </Button>
         <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="3" Height="20" Width="311" Margin="0,0,-20,0">
             <TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>
-            <TextBox x:Name="Inn" MinWidth="110" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12" TextChanged="Inn_TextChanged"/>
+            <TextBox x:Name="Inn" MinWidth="110" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12" TextChanged="Inn_TextChanged">
+                <TextBox.InputBindings>
+                    <KeyBinding Key="C" Modifiers="Control" Command="ApplicationCommands.NotACommand"/>
+                    <KeyBinding Key="X" Modifiers="Control" Command="ApplicationCommands.NotACommand"/>
+                    <KeyBinding Key="F" Modifiers="Control" Command="ApplicationCommands.NotACommand"/>
+                </TextBox.InputBindings>
+            </TextBox>
             <Button Click="ButtonDataUpdate_Click"  Content="Добавить" BorderBrush="{x:Null}">
                 <Button.ToolTip>
                     <ToolTip>
@@ -115,7 +131,7 @@
             </Button>
         </StackPanel>
         <DockPanel Grid.Row="5" Grid.ColumnSpan="99">
-            <TextBlock Text="Ключ: осталось" />
+            <TextBlock Text="Ключ: осталось" VerticalAlignment="Center"/>
             <Menu HorizontalAlignment="Right">
                 <Menu.ItemsPanel>
                     <ItemsPanelTemplate>
