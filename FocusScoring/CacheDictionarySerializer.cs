@@ -10,6 +10,7 @@ namespace FocusScoring
     {
         public static void Serialize(Dictionary<(string node, ApiMethod method), (long position, int count, DateTime time)> dict, FileStream stream)
         {
+            //TODO Destatic and serializer to field
             var serializer = new XmlSerializer(typeof(xmlItem[]),
                 new XmlRootAttribute() { ElementName = "items" });
             serializer.Serialize(stream,

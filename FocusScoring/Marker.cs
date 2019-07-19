@@ -1,5 +1,8 @@
 using System;
 using System.CodeDom.Compiler;
+using System.IO;
+using System.Linq;
+using System.Xml.Serialization;
 using Microsoft.CSharp;
 
 namespace FocusScoring
@@ -24,6 +27,8 @@ namespace FocusScoring
 
         //public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,MarkerResult>)
 
+        public Marker(){}
+        
         public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company, string> check)
         {
             this.check = x =>
@@ -68,7 +73,7 @@ namespace FocusScoring
             get => code;
             set
             {
-                code = value;
+                code = value;   
                 check = compiler.PostponededCompile(this);
             }
         }

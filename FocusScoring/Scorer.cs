@@ -1,14 +1,32 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Xml.Serialization;
 
 namespace FocusScoring
 {
     internal class Scorer
     {
+
+        private XmlSerializer serializer = new XmlSerializer(typeof(Marker[]),
+            new XmlRootAttribute() {ElementName = "items"});
+        
         internal Scorer()
         {
             InitMarkers();
+            //serializer.Serialize(File.Open("./markers",FileMode.OpenOrCreate),markersList.ToArray());
+            //TODO get path from setings
+            
+            Marker[] tmp;
+            using (var file = File.Open("./markers", FileMode.OpenOrCreate))
+            {
+                tmp = ((Marker[]) serializer.Deserialize(file));
+            }
+
+            foreach (var marker in tmp
+                    .Where(x => x.Code != "Unavalable"))
+                    markersDict[marker.Name] = marker;
         }
 
         internal bool GetMarker(Company company, string markerName)
@@ -82,10 +100,10 @@ namespace FocusScoring
 
         private static List<Marker> markersList;
 
-        public Marker[] GetAllMarkers => markersList.ToArray();
+        public Marker[] GetAllMarkers => markersDict.Values.ToArray();
 
         public MarkerResult[] CheckMarkers(Company company)=>
-            markersList.Select(marker => marker.Check(company)).Where(x => x).ToArray();
+            markersDict.Values.Select(marker => marker.Check(company)).Where(x => x).ToArray();
 
         private bool DoubleTryParse(string param, out double result)
         {
@@ -144,7 +162,7 @@ namespace FocusScoring
                             return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
                         return false;
                     }),
-
+                        //TODO WUT?!
                 new Marker("Критический сумма арбитражных дел в качестве истца", MarkerColour.Red,
                     "Критическая сумма арбитражных дел в качестве ответчика." +
                     "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период и более суммы уставного капитала, " +

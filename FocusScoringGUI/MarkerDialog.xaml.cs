@@ -1,6 +1,8 @@
 using System;
+using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Xml.Serialization;
 using FocusScoring;
 
 namespace FocusScoringGUI
@@ -37,6 +39,20 @@ namespace FocusScoringGUI
             marker.Score = Importance.SelectedIndex + 1;
             marker.Description = Description.Text;
             marker.Code = Code.Text;
+            
+            
+            var serializer = new XmlSerializer(typeof(Marker[]),
+                new XmlRootAttribute() {ElementName = "items"});
+
+            //serializer.Serialize(File.Open("./markers",FileMode.OpenOrCreate),markersList.ToArray());
+            //TODO remove AAAAAAAAAAAAAAAAAAA
+            using (var file = File.Open("./markers", FileMode.OpenOrCreate))
+            {
+                var tmp = (Marker[])serializer.Deserialize(file);
+                file.Position = 0;
+                serializer.Serialize(file,tmp.Concat(new[]{marker}).ToArray());
+            }
+
             Close();
         }
     }

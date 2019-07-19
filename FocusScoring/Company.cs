@@ -37,9 +37,7 @@ namespace FocusScoring
         }
 
         public int Score { get; private set; }
-                //TODO awful update dependencies
         public MarkerResult[] Markers { get; private set; }
-
         public static Marker[] GetAllMarkers => scorer.GetAllMarkers;
 
         public string GetParam(string paramName)
