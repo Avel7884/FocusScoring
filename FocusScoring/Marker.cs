@@ -6,10 +6,11 @@ namespace FocusScoring
 {
     public class Marker
     {
-        private readonly Func<Company,MarkerResult> check;
+        private Func<Company,MarkerResult> check;
         private static readonly MarkerRTCompiler compiler = new MarkerRTCompiler();
         
         private int score;
+
         public int Score
         {
             get => score;
@@ -33,7 +34,7 @@ namespace FocusScoring
             this.Name = Name;
             Colour = colour;
             Description = description;
-            Code = "Unavalable";
+            code = "Unavalable";
             this.Score = Score;
         }
 
@@ -43,7 +44,7 @@ namespace FocusScoring
             this.Name = Name;
             Colour = colour;
             Description = description;
-            Code = "Unavalable";
+            code = "Unavalable";
             this.Score = Score;
         }
 
@@ -53,15 +54,24 @@ namespace FocusScoring
             Colour = colour;
             Description = description;
             this.Score = Score;
-            Code = code;
+            this.code = code;
             check = compiler.PostponededCompile(this);
         }
         
         public string Name { get; set; }
         public MarkerColour Colour { get; set; }
         public string Description { get; set; }
-        //TODO Update check
-        public string Code { get; set; }
+
+        private string code;
+        public string Code
+        {
+            get => code;
+            set
+            {
+                code = value;
+                check = compiler.PostponededCompile(this);
+            }
+        }
 
         public MarkerResult Check(Company company) => check(company);
     }
