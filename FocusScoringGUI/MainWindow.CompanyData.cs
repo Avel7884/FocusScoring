@@ -21,6 +21,13 @@ namespace FocusScoringGUI
                 Name = Company.CompanyName();
                 Score = 0;
             }
+
+            public void ReInit()
+            {
+                Company = Company ?? Company.CreateINN(Inn);
+                Company.MakeScore();
+                Score = Company.Score;   
+            }
             
             [XmlAttribute]
             public string Inn { get; set; }

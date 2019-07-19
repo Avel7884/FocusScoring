@@ -32,7 +32,7 @@ namespace FocusScoringGUI
         
         private void Ok_OnClick(object sender, RoutedEventArgs e)
         {
-            marker.Name = Name.Text;
+            marker.Name = Name.Text; //TODO Check for names interception
             marker.Colour = (MarkerColour)((IsAffiliated.IsChecked.Value ? 3 : 0) + Colour.SelectedIndex);
             marker.Score = Importance.SelectedIndex + 1;
             marker.Description = Description.Text;
