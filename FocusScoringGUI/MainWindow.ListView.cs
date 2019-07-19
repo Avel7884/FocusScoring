@@ -20,6 +20,7 @@ namespace FocusScoringGUI
         
         private void ButtonAddList(string name, List<CompanyData> list)
         {
+
             CurrentList = list;
             currentListName = name;
             companiesCache.UpdateList(currentListName, list);
@@ -46,7 +47,7 @@ namespace FocusScoringGUI
 
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
-            new ListDialog(ButtonAddList).Show();
+            new ListDialog(ButtonAddList,companiesCache).Show();
         }
     }
 }

@@ -43,13 +43,13 @@ namespace FocusScoringGUI
         {
             if (CurrentList.Select(x => x.Inn).Contains(Inn.Text))
             {
-                MessageBox.Show("Company already in list");
+                MessageBox.Show("Компания имеется в списке");
                 return;
             }
 
-            if (!InnCheckSum(Inn.Text))
+            if (!InnCheckSum(Inn.Text) || string.IsNullOrWhiteSpace(Inn.Text))
             {
-                MessageBox.Show("Invalid inn");
+                MessageBox.Show("Не корректный ИНН");
                 return;
             }
 

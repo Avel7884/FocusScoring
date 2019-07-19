@@ -6,7 +6,6 @@ namespace FocusScoring
 {
     public class Marker
     {
-
         private Func<Company,MarkerResult> check;
         private static readonly MarkerRTCompiler compiler = new MarkerRTCompiler();
         
@@ -17,13 +16,12 @@ namespace FocusScoring
             get => score;
             set
             {
-                if (value>5 || value<0)
+                if (value > 5 || value < 0)
                     throw new ArgumentException();
                 score = value;
             }
         }
-        
-        
+
         //public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,MarkerResult>)
 
         public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company, string> check)
@@ -80,6 +78,6 @@ namespace FocusScoring
 
     public enum MarkerColour
     {
-        Green, Yellow, Red, RedAffiliates, GreenAffiliates, YellowAffiliates
+        Green, Yellow, Red, GreenAffiliates, YellowAffiliates, RedAffiliates
     }
 }

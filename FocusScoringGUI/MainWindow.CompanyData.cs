@@ -18,8 +18,8 @@ namespace FocusScoringGUI
             {
                 this.Inn = Inn;
                 Company = Company.CreateINN(Inn);
-                Name = Company.GetParam("Full");
-                Score = Company.Score;
+                Name = Company.CompanyName();
+                Score = 0;
             }
 
             public void ReInit()
