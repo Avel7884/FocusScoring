@@ -11,7 +11,6 @@ namespace FocusScoring
     {
         private readonly string focusKey;
 
-
         public XmlDownload(string focusKey)
         {
             this.focusKey = focusKey;
@@ -19,20 +18,25 @@ namespace FocusScoring
 
         public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
         {
-            //TODO refactor
             var requisites = Settings.OgrnEnabled ? "ogrn" : "inn";
-            var wrGETURL = WebRequest.Create($"https://focus-api.kontur.ru/api3/{GetMethodName(method)}?key={focusKey}&{requisites}={inn}&xml");
-            Stream webStream = null;
-            var netfail = false;
-            try { webStream = wrGETURL.GetResponse().GetResponseStream(); }
-            catch { netfail = true; }
-            document = new XmlDocument();
-            try { using (var reader = XmlReader.Create(webStream)) { document.Load(reader); } }
-            catch { netfail = true; }
-
-            return !netfail;
+            return TryGetXml(
+                $"https://focus-api.kontur.ru/api3/{GetMethodName(method)}?key={focusKey}&{requisites}={inn}&xml",
+                out document);
         }
 
+        private bool TryGetXml(string request, out XmlDocument document)
+        {
+            document = new XmlDocument();
+            try
+            {                    //TODO make errors more informative
+                var webStream = WebRequest.Create(request).GetResponse().GetResponseStream();
+                using (var reader = XmlReader.Create(webStream)) { document.Load(reader); }
+            }
+            catch { return false; }
+
+            return true;
+        }
+        
         private string GetMethodName(ApiMethod method)
         {
             switch (method)

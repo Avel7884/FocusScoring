@@ -9,7 +9,7 @@ using Microsoft.CSharp;
 
 namespace FocusScoring
 {
-    public class MarkerRTCompiler
+    internal class MarkerRTCompiler
     {
         private static readonly CSharpCodeProvider Provider = new CSharpCodeProvider();
         private const string codeHead = @"

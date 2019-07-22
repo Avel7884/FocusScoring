@@ -3,7 +3,7 @@ using System.Xml;
 
 namespace FocusScoring
 {
-    public class SingleXmlMemoryCache : IXmlCache
+    internal class SingleXmlMemoryCache : IXmlCache
     {
         private string Inn = string.Empty;
         private ApiMethod method;
