@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Xml;
 
@@ -24,7 +25,7 @@ namespace FocusScoring
                 out document);
         }
 
-        private bool TryGetXml(string request, out XmlDocument document)
+        internal bool TryGetXml(string request, out XmlDocument document)
         {
             document = new XmlDocument();
             try

@@ -8,23 +8,20 @@ using FocusScoring;
 
 namespace FocusScoring
 {
-    public class Company
+    public class Company //TODO 2 responsability class is baaad
     {
         
         public string Inn { get; set; }
+        
         private XmlAccess access;
-        private static Scorer scorer = new Scorer();
+        private Scorer scorer;
 
-        private Company(XmlAccess paramAccess = null)
+        public static Company CreateINN(string inn, FocusScoringManager manager = null)
         {
-            access = paramAccess ??
-                     new XmlAccess(new List<IXmlCache>() {new SingleXmlMemoryCache(), new XmlFileSystemCache(),},
-                         new XmlDownload(Settings.FocusKey));
-        }
-
-        public static Company CreateINN(string inn)
-        {
+            manager = manager ?? Settings.DefaultManager;
             var c = new Company();
+            c.access = manager.Access;
+            c.scorer = manager.Scorer;
             c.Inn = inn;
             c.Score = -1;
             return c;
@@ -38,7 +35,7 @@ namespace FocusScoring
 
         public int Score { get; private set; }
         public MarkerResult[] Markers { get; private set; }
-        public static Marker[] GetAllMarkers => scorer.GetAllMarkers;
+//        public static Marker[] GetAllMarkers => scorer.GetAllMarkers;
 
         public string GetParam(string paramName)
         {

@@ -39,7 +39,7 @@ namespace FocusScoringGUI
             marker.Score = Importance.SelectedIndex + 1;
             marker.Description = Description.Text;
             marker.Code = Code.Text;
-
+            //TODO make marker change after update
             marker.Save();
             //serializer.Serialize(File.Open("./markers",FileMode.OpenOrCreate),markersList.ToArray());
 //            using (var file = File.Open("./markers", FileMode.OpenOrCreate))

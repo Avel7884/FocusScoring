@@ -21,7 +21,7 @@ namespace FocusScoringGUI
 
         private void AllMarkers_OnClick(object sender, RoutedEventArgs e)
         {
-            var a = new MarkerListWindow(Company.GetAllMarkers);
+            var a = new MarkerListWindow(Settings.DefaultManager.GetAllMarkers);
             a.Owner = this;
             a.Show();
         }

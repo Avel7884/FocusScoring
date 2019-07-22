@@ -62,8 +62,7 @@ namespace FocusScoring
             Colour = colour;
             Description = description;
             this.Score = Score;
-            this.code = code;
-            check = compiler.PostponededCompile(this);
+            Code = code;
         }
         
         public string Name { get; set; }

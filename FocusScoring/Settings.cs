@@ -1,14 +1,28 @@
+using System;
 using System.IO;
 
 namespace FocusScoring
 {
     public static class Settings
     {
-        public static string FocusKey { get; set; }
-        public static bool OgrnEnabled { get; set; }
-
+        public static bool OgrnEnabled { get; set; } = false;
         public static string CachePath { get; set; } = "./";
-                //Might use dictionays in case mulitiple keys 
-        public static int UsagesLeft { get; internal set; } 
+
+        private static FocusScoringManager defaultManager;
+        public static FocusScoringManager DefaultManager
+        {
+            get
+            {
+                if(defaultManager == null) //TODO find proper exception
+                    throw new Exception("No FocusScoringManager was initialized");
+                return defaultManager;
+            }
+            set
+            {
+                if(defaultManager != null)
+                    throw new Exception("Reinitialization of default FocusScoringManager prohibited");
+                defaultManager = value;
+            }
+        }
     }
 }

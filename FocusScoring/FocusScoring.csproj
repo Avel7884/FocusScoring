@@ -67,6 +67,7 @@
     <Compile Include="Company.cs" />
     <Compile Include="CacheDictionarySerializer.cs" />
     <Compile Include="FIOCache.cs" />
+    <Compile Include="FocusScoringManager.cs" />
     <Compile Include="IXmlCache.cs" />
     <Compile Include="IXmlAccess.cs" />
     <Compile Include="Marker.cs" />
