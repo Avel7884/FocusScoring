@@ -42,7 +42,7 @@ namespace FocusScoring
         {
             IsCompiled = false;
                  
-            var ccl =  new ResultHolder(marker.Name.Replace(' ','_').Replace('.','_'),marker.Code);
+            var ccl =  new ResultHolder(marker.GetCodeClassName(),marker.Code);
             holders[marker] = ccl;                
             
             return c =>

@@ -12,6 +12,9 @@ namespace FocusScoring
         private Func<Company,MarkerResult> check;
         private static readonly MarkerRTCompiler compiler = new MarkerRTCompiler();
         
+        private static readonly XmlSerializer serializer = new XmlSerializer(typeof(Marker),
+            new XmlRootAttribute() {ElementName = "items"});
+        
         private int score;
 
         public int Score
@@ -76,6 +79,18 @@ namespace FocusScoring
                 code = value;   
                 check = compiler.PostponededCompile(this);
             }
+        }
+
+        internal string GetCodeClassName()
+        {
+            return string.Concat(Name.Split(' ','_','.',',',')','('));
+        }
+
+        public void Save()
+        {
+                        //TODO get path from setings
+            using (var file = File.Open("./Markers/"+GetCodeClassName(),FileMode.OpenOrCreate))
+                serializer.Serialize(file,this);
         }
 
         public MarkerResult Check(Company company) => check(company);

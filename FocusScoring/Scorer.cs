@@ -9,7 +9,7 @@ namespace FocusScoring
     internal class Scorer
     {
 
-        private XmlSerializer serializer = new XmlSerializer(typeof(Marker[]),
+        private XmlSerializer serializer = new XmlSerializer(typeof(Marker),
             new XmlRootAttribute() {ElementName = "items"});
         
         internal Scorer()
@@ -17,16 +17,12 @@ namespace FocusScoring
             InitMarkers();
             //serializer.Serialize(File.Open("./markers",FileMode.OpenOrCreate),markersList.ToArray());
             //TODO get path from setings
-            
-            Marker[] tmp;
-            using (var file = File.Open("./markers", FileMode.OpenOrCreate))
-            {
-                tmp = ((Marker[]) serializer.Deserialize(file));
-            }
-
-            foreach (var marker in tmp
-                    .Where(x => x.Code != "Unavalable"))
-                    markersDict[marker.Name] = marker;
+            foreach (var dir in Directory.EnumerateFiles("./Markers"))
+                using (var file = File.Open(dir, FileMode.OpenOrCreate))
+                {
+                    var marker = (Marker)serializer.Deserialize(file);
+                    markersDict[marker.GetCodeClassName()] = marker;
+                }
         }
 
         internal bool GetMarker(Company company, string markerName)
@@ -880,7 +876,7 @@ namespace FocusScoring
             //                }
             //            return false;
             //        }));
-            markersDict = markersList.ToDictionary(x => x.Name);
+            markersDict = markersList.ToDictionary(x => x.GetCodeClassName());
 
         }
     }
