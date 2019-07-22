@@ -17,7 +17,10 @@ namespace FocusScoring
         }
 
         public Marker[] GetAllMarkers => Scorer.GetAllMarkers;
-
+        
+        //TODO make it work and optimize
+        public string Usages => CheckUsages();
+        
         public static void StartAccess(string focusKey)
         {
             Settings.DefaultManager = new FocusScoringManager(focusKey);
@@ -32,16 +35,16 @@ namespace FocusScoring
             Access =new XmlAccess(new List<IXmlCache>() {new SingleXmlMemoryCache(), new XmlFileSystemCache()},downloader);
         }
 
-        public string CheckUsages()
+        private string CheckUsages()
         {
-            if (!downloader.TryGetXml("https://focus-api.kontur.ru/api3/stat?key=" + focusKey, out var doc))
+            if (!downloader.TryGetXml("https://focus-api.kontur.ru/api3/stat?xml&key=" + focusKey, out var doc))
                 return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
             
             var nominator = doc.SelectNodes("/ArrayOfstat/stat/spent")
                 .Cast<XmlNode>()
                 .Select(x => x.InnerText)
                 .Select(int.Parse).Max().ToString();
-            var denominator = doc.SelectSingleNode("/ArrayOfstat/stat/limit");
+            var denominator = doc.SelectSingleNode("/ArrayOfstat/stat/limit").InnerText;
             
             return $"{nominator}/{denominator}";
         }

@@ -48,7 +48,7 @@ namespace FocusScoringGUI
             CurrentList = companiesCache.GetList(currentListName);
             TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList;
-
+            KeyCounter.Text = "Ключ: " + Settings.DefaultManager.Usages;
             //MarkersTable.ItemsSource = new Company[0];
         }
 

@@ -89,7 +89,7 @@ namespace FocusScoring
         {
                         //TODO get path from setings
             using (var file = File.Open("./Markers/"+GetCodeClassName(),FileMode.OpenOrCreate))
-                serializer.Serialize(file,this);
+                serializer.Serialize(file,this);//TODO fix bug with overwriting here 
         }
 
         public MarkerResult Check(Company company) => check(company);
