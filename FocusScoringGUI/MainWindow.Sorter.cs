@@ -75,7 +75,11 @@ namespace FocusScoringGUI
 
             dataView.SortDescriptions.Clear();
             SortDescription sd = new SortDescription(sortBy, direction);
-            dataView.SortDescriptions.Add(sd);
+            try { dataView.SortDescriptions.Add(sd); }
+            catch
+            {
+                return;
+            }
             dataView.Refresh();
         }
     }

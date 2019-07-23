@@ -59,5 +59,9 @@ namespace FocusScoringGUI
             companiesCache.UpdateList(currentListName, new[] { data });
             CompanyList.Items.Refresh();
         }     
+        private void DeleteCompany_Click(object s, RoutedEventArgs e)
+        {
+            return;
+        }
     }
 }
