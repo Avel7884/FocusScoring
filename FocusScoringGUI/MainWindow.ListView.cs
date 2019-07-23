@@ -17,10 +17,9 @@ namespace FocusScoringGUI
             CompanyList.ItemsSource = CurrentList;
             CompanyList.Items.Refresh();
         }
-        
-        private void ButtonAddList(string name, List<CompanyData> list)
-        {
 
+        private void ButtonAddList(string name, List<CompanyData> list)
+        { 
             CurrentList = list;
             currentListName = name;
             companiesCache.UpdateList(currentListName, list);
