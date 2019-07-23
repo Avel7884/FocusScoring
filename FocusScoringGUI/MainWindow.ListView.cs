@@ -25,8 +25,11 @@ namespace FocusScoringGUI
             companiesCache.UpdateList(currentListName, list);
             ListNames.Add(name);
             ListView.Items.Refresh();
+            TextBlockList.Text = name;
             CompanyList.ItemsSource = CurrentList;
             CompanyList.Items.Refresh();
+            MarkersList.ItemsSource = null;
+            ListView.SelectedItem = ListNames.Last();
         }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)

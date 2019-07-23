@@ -23,9 +23,9 @@ namespace FocusScoringGUI
         //private Dictionary<string, List<CompanyData>> Lists;
         private List<string> ListNames;
         private CompanyListsCache companiesCache;
-        
+
         private FocusScoringManager manager;
-//        public Scorer scorer;
+        //        public Scorer scorer;
 
         //public string Inn { get; set; }
 
@@ -46,11 +46,12 @@ namespace FocusScoringGUI
             }
 
             currentListName = ListNames.First();
+            ListView.SelectedItem = currentListName;
             ListView.ItemsSource = ListNames;
             CurrentList = companiesCache.GetList(currentListName);
             TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList;
-            KeyCounter.Text = "Ключ: " + manager.Usages;
+            KeyCounter.Text = "Ключ: осталось " + manager.Usages;
             //MarkersTable.ItemsSource = new Company[0];
         }
 
@@ -76,9 +77,22 @@ namespace FocusScoringGUI
         private void Combobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var cmbbx = (ComboBox)sender;
-            if (cmbbx.SelectedItem.ToString() == "")
-            { }
+            var selectedI = (ComboBoxItem)cmbbx.SelectedItem;
+            if (selectedI.Content.ToString() == "ИНН Компании")
+            {
+                discriptionBlock.Text = "Введите ИНН контрагента для формирования отчета";
+                return;
+            }
+            if (selectedI.Content.ToString() == "Банкротство физлица")
+            {
+                discriptionBlock.Text = "Введите ФИО/ИНН/СНИЛС физлица";
+                return;
+            }
+            if (selectedI.Content.ToString() == "Паспорт")
+            {
+                discriptionBlock.Text = "Введите серию и номер паспорта(ов) через запятую. Например 1111 111111, 222222222";
+                return;
+            }
         }
-
     }
 }
