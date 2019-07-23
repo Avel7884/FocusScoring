@@ -53,10 +53,11 @@ namespace FocusScoringGUI
             if(File.Exists("./CompanyLists/" + name))
                 using (var file = File.Open("./CompanyLists/"+name,FileMode.OpenOrCreate))
                 {
-                    var list = ((MainWindow.CompanyData[]) serializer.Deserialize(file)).ToList();
-                    list.AddRange(data);
+                    var dict = ((MainWindow.CompanyData[]) serializer.Deserialize(file)).ToDictionary(x=>x.Inn);
+                    foreach (var company in data)
+                        dict[company.Inn] = company;
                     file.Position = 0;
-                    serializer.Serialize(file, list.ToArray());
+                    serializer.Serialize(file, dict.Values.ToArray());
                 }
             else
             {

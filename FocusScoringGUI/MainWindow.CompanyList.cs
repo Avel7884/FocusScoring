@@ -49,6 +49,8 @@ namespace FocusScoringGUI
         {
             foreach (var data in CurrentList)
                 data.Check(manager);
+            KeyCounter.Text = "Ключ: " + manager.Usages;
+            companiesCache.UpdateList(currentListName,CurrentList);
             CompanyList.Items.Refresh();
         }
 
@@ -74,7 +76,8 @@ namespace FocusScoringGUI
         
         private void DeleteCompany_Click(object s, RoutedEventArgs e)
         {
-            return;
+            CurrentList.Remove((CompanyData) CompanyList.SelectedItem);
+            CompanyList.Items.Refresh();            
         }
     }
 }
