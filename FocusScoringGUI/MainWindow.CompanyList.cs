@@ -18,6 +18,7 @@ namespace FocusScoringGUI
                 companyData.Check(manager);
                 MarkersList.ItemsSource = companyData.Company.Markers.Select(MarkerSubData.Create);
             }
+            else MarkersList.ItemsSource = null;
             CompanyList.Items.Refresh();
             MarkersList.Items.Refresh();
         }
@@ -50,7 +51,7 @@ namespace FocusScoringGUI
             CheckList.IsEnabled = false;
             foreach (var data in CurrentList)
                 data.Check(manager);
-            KeyCounter.Text = "Ключ: " + manager.Usages;
+            KeyCounter.Text = "Ключ: осталось " + manager.Usages;
             companiesCache.UpdateList(currentListName, CurrentList);
             CompanyList.Items.Refresh();
             CheckList.IsEnabled = CurrentList.Any(x => !x.IsChecked);

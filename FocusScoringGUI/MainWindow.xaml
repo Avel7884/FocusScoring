@@ -12,9 +12,9 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="181*" MinWidth="124" />
             <ColumnDefinition Width="93*" MinWidth="61" />
-            <ColumnDefinition Width="140*" MinWidth="100"/>
-            <ColumnDefinition Width="204*"/>
-            <ColumnDefinition Width="226*"/>
+            <ColumnDefinition Width="140*"/>
+            <ColumnDefinition Width="218*" MinWidth="200"/>
+            <ColumnDefinition Width="212*" MinWidth="200"/>
             <ColumnDefinition Width="132*" MinWidth="50"/>
             <ColumnDefinition Width="25*"/>
         </Grid.ColumnDefinitions>
@@ -59,7 +59,7 @@
                 Автопроверка
             </CheckBox>
         </StackPanel>
-        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Left" Width="0" Grid.ColumnSpan="2"/>
+        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="4" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Margin="15,0,0,0"/>
 
         <ListView Grid.Column="2"
                   Grid.ColumnSpan="2"
@@ -124,7 +124,7 @@
                 <TextBlock Text="Создать список" Foreground="White"/>
             </StackPanel>
         </Button>
-        <StackPanel Grid.Column="3" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="5" Margin="0,6">
+        <StackPanel Grid.Column="3" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="3" Height="22">
             <!--<TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>-->
             <TextBox MinWidth="330" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12" TextChanged="Inn_TextChanged">
                 <TextBox.InputBindings>
@@ -134,14 +134,14 @@
                 </TextBox.InputBindings>
             </TextBox>
             <ComboBox Name="combobox" Margin="5,0,0,0" SelectionChanged="Combobox_SelectionChanged">
-                <ComboBoxItem Name="companyinn">ИНН Компании</ComboBoxItem>
-                <ComboBoxItem Name="bankruptcy">Банкротство</ComboBoxItem>
-                <ComboBoxItem Name="passport">Паспорт</ComboBoxItem>
+                <ComboBoxItem >ИНН Компании</ComboBoxItem>
+                <ComboBoxItem >Банкротство физлица</ComboBoxItem>
+                <ComboBoxItem >Паспорт</ComboBoxItem>
             </ComboBox>
             <Button Content="Проверить" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Margin="5,0,0,0" />
         </StackPanel>
-        <TextBlock Name="discriptionBlock" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" FontFamily="Arial" FontStyle="Italic" Foreground="#FF898989">
-                   "Введите ИНН контрагента для формирования отчета"
+        <TextBlock TextWrapping="Wrap" Name="discriptionBlock" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" FontFamily="Arial" FontStyle="Italic" Foreground="#FF898989" Width="302">
+                   Введите ИНН контрагента для формирования отчета
         </TextBlock>
         <StackPanel Grid.Column="2" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="20" Width="322" Grid.ColumnSpan="2">
             <TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>
