@@ -23,6 +23,8 @@ namespace FocusScoringGUI
         //private Dictionary<string, List<CompanyData>> Lists;
         private List<string> ListNames;
         private CompanyListsCache companiesCache;
+        
+        private FocusScoringManager manager;
 //        public Scorer scorer;
 
         //public string Inn { get; set; }
@@ -32,7 +34,7 @@ namespace FocusScoringGUI
             InitializeComponent();
             //var binding = new Binding {Source = Inn};
 
-            var manager = FocusScoringManager.StartAccess("3c71a03f93608c782f3099113c97e28f22ad7f45");
+            manager = FocusScoringManager.StartAccess("3c71a03f93608c782f3099113c97e28f22ad7f45");
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
 

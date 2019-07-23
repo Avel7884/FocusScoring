@@ -16,7 +16,7 @@ namespace FocusScoring
         private XmlAccess access;
         private Scorer scorer;
 
-        public static Company CreateINN(string inn, FocusScoringManager manager = null)
+        internal static Company CreateINN(string inn, FocusScoringManager manager = null)
         {
             manager = manager ?? Settings.DefaultManager;
             var c = new Company();

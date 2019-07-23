@@ -51,7 +51,7 @@
         </ListView>
 
         <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="2" Grid.Row="3" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom" Height="22"/>
-        <Button Content="Проверить список" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
+        <Button Content="Проверить список" Click="ButtonCheckList_Click" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
         <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Left" Width="0"/>
 
         <ListView Grid.Column="2"

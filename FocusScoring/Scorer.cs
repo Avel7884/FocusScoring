@@ -52,13 +52,13 @@ namespace FocusScoring
             yellowSum *= 40;
             greenSum *= 21;
 
-            redSum /= markersList
+            redSum /= markersDict.Values
                 .Where(marker => marker.Colour == MarkerColour.Red || marker.Colour == MarkerColour.RedAffiliates)
                 .Select(x => x.Score).Sum();
-            yellowSum /= markersList
+            yellowSum /= markersDict.Values
                 .Where(marker => marker.Colour == MarkerColour.Yellow || marker.Colour == MarkerColour.YellowAffiliates)
                 .Select(x => x.Score).Sum();
-            greenSum /= markersList
+            greenSum /= markersDict.Values
                 .Where(marker => marker.Colour == MarkerColour.Green || marker.Colour == MarkerColour.GreenAffiliates)
                 .Select(x => x.Score).Sum();
 
@@ -95,8 +95,6 @@ namespace FocusScoring
 
         private Dictionary<string, Marker> markersDict;
 
-        private static List<Marker> markersList;
-
         public Marker[] GetAllMarkers => markersDict.Values.ToArray();
 
         public MarkerResult[] CheckMarkers(Company company)=>
@@ -111,7 +109,7 @@ namespace FocusScoring
         {
             //TODO compare from fucn4 to func21 w/ 1C
             //TODO rename markers
-            markersList = new List<Marker>
+            var markersList = new List<Marker>
             {
                 new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,
                     "Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
