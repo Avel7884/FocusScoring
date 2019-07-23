@@ -53,7 +53,12 @@
 
 
         <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3" FontSize="18" FontFamily="Calibri" FontStyle="Italic"/>
-        <Button Content="Проверить список" Click="ButtonCheckList_Click" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
+        <StackPanel Grid.Column="3" Grid.Row="3" Orientation="Horizontal">
+        <Button Content="Проверить список" Click="ButtonCheckList_Click"  HorizontalAlignment="Right" VerticalAlignment="Center" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
+            <CheckBox VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold">
+                Автопроверка
+            </CheckBox>
+        </StackPanel>
         <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Left" Width="0" Grid.ColumnSpan="2"/>
 
         <ListView Grid.Column="2"

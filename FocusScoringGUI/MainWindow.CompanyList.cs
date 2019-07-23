@@ -9,9 +9,9 @@ namespace FocusScoringGUI
     {
         private void CompanySelected_Click(object s, RoutedEventArgs e)
         {
-            if(CompanyList.SelectedItem == null)
+            if (CompanyList.SelectedItem == null)
                 return;
-            var companyData = ((CompanyData) CompanyList.SelectedItem);
+            var companyData = ((CompanyData)CompanyList.SelectedItem);
             TextBlockName.Text = companyData.Name;
             if (companyData.IsChecked)
             {
@@ -23,9 +23,9 @@ namespace FocusScoringGUI
         }
 
         //TODO make remove button
-        
-        
-        
+
+
+
         private readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
         private bool InnCheckSum(string inn)
         {
@@ -49,6 +49,8 @@ namespace FocusScoringGUI
         {
             foreach (var data in CurrentList)
                 data.Check(manager);
+            KeyCounter.Text = "Ключ: " + manager.Usages;
+            companiesCache.UpdateList(currentListName, CurrentList);
             CompanyList.Items.Refresh();
         }
 
@@ -70,8 +72,8 @@ namespace FocusScoringGUI
             CurrentList.Add(data);
             companiesCache.UpdateList(currentListName, new[] { data });
             CompanyList.Items.Refresh();
-        }     
-        
+        }
+
         private void DeleteCompany_Click(object s, RoutedEventArgs e)
         {
             CurrentList.Remove((CompanyData)CompanyList.SelectedItem);

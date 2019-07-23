@@ -18,7 +18,6 @@ namespace FocusScoring
 
         public Marker[] GetAllMarkers => Scorer.GetAllMarkers;
         
-        //TODO make it work and optimize
         public string Usages => CheckUsages();
         
         public static FocusScoringManager StartAccess(string focusKey)
