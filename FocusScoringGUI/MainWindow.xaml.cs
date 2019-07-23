@@ -32,7 +32,7 @@ namespace FocusScoringGUI
             InitializeComponent();
             //var binding = new Binding {Source = Inn};
 
-            FocusScoringManager.StartAccess("3c71a03f93608c782f3099113c97e28f22ad7f45");
+            var manager = FocusScoringManager.StartAccess("3c71a03f93608c782f3099113c97e28f22ad7f45");
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
 
@@ -48,7 +48,7 @@ namespace FocusScoringGUI
             CurrentList = companiesCache.GetList(currentListName);
             TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList;
-            KeyCounter.Text = "Ключ: " + Settings.DefaultManager.Usages;
+            KeyCounter.Text = "Ключ: " + manager.Usages;
             //MarkersTable.ItemsSource = new Company[0];
         }
 

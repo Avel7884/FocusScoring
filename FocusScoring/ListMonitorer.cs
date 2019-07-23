@@ -15,7 +15,7 @@ namespace FocusScoring
         private readonly XmlDownload dow;
         private Timer timer;
 
-        private ListMonitorer(string key, XmlDownload dow)
+        internal ListMonitorer(string key, XmlDownload dow)
         {
             this.key = key;
             this.dow = dow;

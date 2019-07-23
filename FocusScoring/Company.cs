@@ -45,7 +45,7 @@ namespace FocusScoring
             return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
         }
         
-        internal string[] GetParams(string paramName)
+        public string[] GetParams(string paramName)
         {
             (ApiMethod method, string node) = paramDict[paramName];
             if (access.TryGetXml(Inn, method, out var document))
@@ -54,7 +54,7 @@ namespace FocusScoring
             return new[] {"Ошибка! Проверьте подключение к интернет и повторите попытку."};
         }
 
-        internal string[] GetMultiParam(string paramName)
+        public string[] GetMultiParam(string paramName)
         {
             (ApiMethod method, string node) = paramDict[paramName];
             if (access.TryGetXml(Inn, method, out var document))

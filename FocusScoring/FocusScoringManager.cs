@@ -21,11 +21,16 @@ namespace FocusScoring
         //TODO make it work and optimize
         public string Usages => CheckUsages();
         
-        public static void StartAccess(string focusKey)
+        public static FocusScoringManager StartAccess(string focusKey)
         {
             Settings.DefaultManager = new FocusScoringManager(focusKey);
+            return Settings.DefaultManager;
         }
-        
+
+        public ListMonitorer StartMonitor()
+        {
+            return new ListMonitorer(focusKey,downloader);
+        }
 
         public FocusScoringManager(string focusKey)
         {
