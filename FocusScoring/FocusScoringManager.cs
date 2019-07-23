@@ -34,7 +34,7 @@ namespace FocusScoring
             downloader = new XmlDownload(focusKey);
             Access =new XmlAccess(new List<IXmlCache>() {new SingleXmlMemoryCache(), new XmlFileSystemCache()},downloader);
         }
-
+        
         private string CheckUsages()
         {
             if (!downloader.TryGetXml("https://focus-api.kontur.ru/api3/stat?xml&key=" + focusKey, out var doc))
