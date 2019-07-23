@@ -32,6 +32,7 @@ namespace FocusScoringGUI
         public MainWindow()
         {
             InitializeComponent();
+            
             //var binding = new Binding {Source = Inn};
             combobox.SelectedItem = combobox.Items[0];
             manager = FocusScoringManager.StartAccess("3c71a03f93608c782f3099113c97e28f22ad7f45");
