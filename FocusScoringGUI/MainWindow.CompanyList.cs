@@ -61,7 +61,8 @@ namespace FocusScoringGUI
         }     
         private void DeleteCompany_Click(object s, RoutedEventArgs e)
         {
-            return;
+            CurrentList.Remove((CompanyData)CompanyList.SelectedItem);
+            CompanyList.Items.Refresh();
         }
     }
 }

@@ -29,10 +29,10 @@ namespace FocusScoringGUI
 
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();//3c71a03f93608c782f3099113c97e28f22ad7f45
             //var binding = new Binding {Source = Inn};
-
-            var manager = FocusScoringManager.StartAccess("3c71a03f93608c782f3099113c97e28f22ad7f45");
+            combobox.SelectedItem = combobox.Items[0];
+            var manager = FocusScoringManager.StartAccess("6789c2139886dd8a902101e612fd45468021b823");
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
 
@@ -71,10 +71,12 @@ namespace FocusScoringGUI
                 Inn.SelectionStart = Inn.Text.Length;
             }
         }
-
-        private void GridViewColumn_MouseDown(object sender, MouseButtonEventArgs e)
+        private void Combobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            var cmbbx = (ComboBox)sender;
+            if (cmbbx.SelectedItem.ToString() == "")
+            { }
         }
+
     }
 }
