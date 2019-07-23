@@ -32,6 +32,11 @@ namespace FocusScoring
             return new ListMonitorer(focusKey,downloader);
         }
 
+        public Company CreateFromInn(string inn)
+        {        //TODO bring it here with constructor
+            return Company.CreateINN(inn);
+        }
+
         public FocusScoringManager(string focusKey)
         {
             this.focusKey = focusKey;

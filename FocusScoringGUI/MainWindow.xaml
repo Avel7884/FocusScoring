@@ -51,9 +51,10 @@
             </ListView.ContextMenu>
         </ListView>
 
-        <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="2" Grid.Row="3" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom" Height="22" Grid.ColumnSpan="2"/>
-        <Button Content="Проверить список" Name="CheckListButton" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
-        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Left" Width="0"/>
+
+        <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3" FontSize="18" FontFamily="Calibri" FontStyle="Italic"/>
+        <Button Content="Проверить список" Click="ButtonCheckList_Click" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
+        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Left" Width="0" Grid.ColumnSpan="2"/>
 
         <ListView Grid.Column="2"
                   Grid.ColumnSpan="2"

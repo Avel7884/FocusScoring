@@ -13,13 +13,18 @@ namespace FocusScoringGUI
                 return;
             var companyData = ((CompanyData) CompanyList.SelectedItem);
             TextBlockName.Text = companyData.Name;
-            companyData.ReInit();
-            MarkersList.ItemsSource = companyData.Company.Markers.Select(MarkerSubData.Create);
+            if (companyData.IsChecked)
+            {
+                companyData.Check(manager);
+                MarkersList.ItemsSource = companyData.Company.Markers.Select(MarkerSubData.Create);
+            }
             CompanyList.Items.Refresh();
             MarkersList.Items.Refresh();
         }
 
         //TODO make remove button
+        
+        
         
         private readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
         private bool InnCheckSum(string inn)
@@ -40,6 +45,13 @@ namespace FocusScoringGUI
             }
         }
 
+        private void ButtonCheckList_Click(object s, RoutedEventArgs e)
+        {
+            foreach (var data in CurrentList)
+                data.Check(manager);
+            CompanyList.Items.Refresh();
+        }
+
         private void ButtonDataUpdate_Click(object s, RoutedEventArgs e)
         {
             if (CurrentList.Select(x => x.Inn).Contains(Inn.Text))
@@ -54,11 +66,12 @@ namespace FocusScoringGUI
                 return;
             }
 
-            var data = new CompanyData(Inn.Text);
+            var data = new CompanyData(Inn.Text, manager);
             CurrentList.Add(data);
             companiesCache.UpdateList(currentListName, new[] { data });
             CompanyList.Items.Refresh();
         }     
+        
         private void DeleteCompany_Click(object s, RoutedEventArgs e)
         {
             CurrentList.Remove((CompanyData)CompanyList.SelectedItem);
