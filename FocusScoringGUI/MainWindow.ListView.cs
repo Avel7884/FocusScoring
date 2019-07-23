@@ -16,6 +16,7 @@ namespace FocusScoringGUI
             TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList;
             CompanyList.Items.Refresh();
+            CheckList.IsEnabled = CurrentList.Any(x => !x.IsChecked);
         }
 
         private void ButtonAddList(string name, List<CompanyData> list)

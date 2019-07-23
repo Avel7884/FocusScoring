@@ -54,7 +54,7 @@
 
         <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3" FontSize="18" FontFamily="Calibri" FontStyle="Italic"/>
         <StackPanel Grid.Column="3" Grid.Row="3" Orientation="Horizontal">
-        <Button Content="Проверить список" Click="ButtonCheckList_Click"  HorizontalAlignment="Right" VerticalAlignment="Center" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
+        <Button Content="Проверить список" Name="CheckList" Click="ButtonCheckList_Click"  HorizontalAlignment="Right" VerticalAlignment="Center" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
             <CheckBox VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold">
                 Автопроверка
             </CheckBox>
@@ -70,7 +70,7 @@
                   >
             <ListView.ContextMenu>
                 <ContextMenu>
-                    <MenuItem Header="Удалить" Click="DeleteCompany_Click"></MenuItem>
+                    <MenuItem Header="Удалить" Click="DeleteCompany_Context"></MenuItem>
                 </ContextMenu>
             </ListView.ContextMenu>
             <ListView.View>
@@ -152,7 +152,7 @@
                     <KeyBinding Key="F" Modifiers="Control" Command="ApplicationCommands.NotACommand"/>
                 </TextBox.InputBindings>
             </TextBox>
-            <Button Click="ButtonDataUpdate_Click"  Content="Добавить" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Margin="5,0,0,0">
+            <Button Click="ButtonAddCompany_Click"  Content="Добавить" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Margin="5,0,0,0">
                 <Button.ToolTip>
                     <ToolTip>
                         Добавить ИНН в список

@@ -32,6 +32,8 @@ namespace FocusScoringGUI
             public int Score { get; set; }
             [XmlAttribute]
             public Light Light { get; set; }
+            [XmlAttribute]
+            public bool Autoupdate { get; set; }
             
             internal BitmapImage CLight { get; set; }
 

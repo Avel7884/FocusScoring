@@ -47,14 +47,42 @@ namespace FocusScoringGUI
 
         private void ButtonCheckList_Click(object s, RoutedEventArgs e)
         {
+            CheckList.IsEnabled = false;
             foreach (var data in CurrentList)
                 data.Check(manager);
             KeyCounter.Text = "Ключ: " + manager.Usages;
             companiesCache.UpdateList(currentListName, CurrentList);
             CompanyList.Items.Refresh();
+            CheckList.IsEnabled = CurrentList.Any(x => !x.IsChecked);
         }
 
-        private void ButtonDataUpdate_Click(object s, RoutedEventArgs e)
+        private void CheckBoxAutoUpdate_Enabled(object s, RoutedEventArgs e)
+        {
+            monitorer.Update(CurrentList.Select(x=>x.Inn));
+            monitoredInns.AddRange(CurrentList.Select(x=>x.Inn));
+            foreach (var data in CurrentList)
+                data.Autoupdate = true;
+            companiesCache.UpdateList(currentListName, CurrentList);
+        }
+
+        private void CheckBoxAutoUpdate_Disabled(object s, RoutedEventArgs e)
+        {
+            monitoredInns.RemoveAll(CurrentList.Select(y=>y.Inn).Contains);
+            monitorer.Update(monitoredInns,false);
+            foreach (var data in CurrentList)
+                data.Autoupdate = false;
+            companiesCache.UpdateList(currentListName, CurrentList);
+        }
+
+//        private void SwitchAutoUpdate_Context()
+//        {
+//            var data = (CompanyData) CompanyList.SelectedItem;
+//            data = 
+//        }
+        
+        
+        
+        private void ButtonAddCompany_Click(object s, RoutedEventArgs e)
         {
             if (CurrentList.Select(x => x.Inn).Contains(Inn.Text))
             {
@@ -72,11 +100,13 @@ namespace FocusScoringGUI
             CurrentList.Add(data);
             companiesCache.UpdateList(currentListName, new[] { data });
             CompanyList.Items.Refresh();
+            CheckList.IsEnabled = true;    
         }
 
-        private void DeleteCompany_Click(object s, RoutedEventArgs e)
+        private void DeleteCompany_Context(object s, RoutedEventArgs e)
         {
             CurrentList.Remove((CompanyData)CompanyList.SelectedItem);
+            
             CompanyList.Items.Refresh();
         }
     }

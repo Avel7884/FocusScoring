@@ -25,6 +25,10 @@ namespace FocusScoringGUI
         private CompanyListsCache companiesCache;
         
         private FocusScoringManager manager;
+
+        private ListMonitorer monitorer;
+
+        private List<string> monitoredInns;
 //        public Scorer scorer;
 
         //public string Inn { get; set; }
@@ -37,6 +41,9 @@ namespace FocusScoringGUI
             manager = FocusScoringManager.StartAccess("3c71a03f93608c782f3099113c97e28f22ad7f45");
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
+            
+            monitorer = manager.StartMonitor();
+            monitoredInns = companiesCache.GetAllCompanies().Where(x => x.Autoupdate).Select(x => x.Inn).ToList();
 
             if (ListNames.Count == 0)
             {

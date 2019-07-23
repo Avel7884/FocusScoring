@@ -40,7 +40,7 @@ namespace FocusScoring
         
         public Func<Company, MarkerResult> PostponededCompile(Marker marker)
         {
-                IsCompiled = false;
+            IsCompiled = false;
                  
             var ccl =  new ResultHolder(marker.GetCodeClassName(),marker.Code);
             holders[marker] = ccl;                
