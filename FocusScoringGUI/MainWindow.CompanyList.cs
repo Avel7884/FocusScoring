@@ -29,7 +29,7 @@ namespace FocusScoringGUI
         {
             var numbers = inn.Select(x => new string(new[] { x })).Select(int.Parse).ToArray();
             if (numbers.All(x => x == 0))
-                return false;
+               return false;
 
             switch (numbers.Length)
             {
@@ -59,7 +59,7 @@ namespace FocusScoringGUI
         
         private void CheckBoxAutoUpdate_Click(object o,EventArgs e)
         {
-            if(AutoUpdate.IsChecked == null || !AutoUpdate.IsChecked.Value)
+            if(CurrentList.Any(x=>!x.IsChecked))//AutoUpdate.IsChecked == null || !AutoUpdate.IsChecked.Value)
                 CheckBoxAutoUpdate_Checked();
             else
                 CheckBoxAutoUpdate_Unchecked();

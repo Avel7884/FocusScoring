@@ -214,6 +214,7 @@ namespace FocusScoring
                     "У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией", 4,
                     company =>
                     {
+                        return false; //TODO Make checks here
                         var Dissolved = company.GetParams("DissolvedAffiliates").Length;
                         var Dissolving = company.GetParams("DissolvingAffiliates").Length;
                         int affiliatesCount = company.GetParams("InnAffilalates").Length;
@@ -226,6 +227,7 @@ namespace FocusScoring
                     company =>
                     {
                         //TODO Check for interceptions
+                        return false;//TODO make checks here
                         int affiliatesCount = company.GetParams("InnAffilalates").Length;
                         var m7013 = company.GetParams("m7013Affiliates").Length;
                         var m7014 = company.GetParams("m7014Affiliates").Length;
@@ -721,6 +723,7 @@ namespace FocusScoring
                     "Более 30% связанных организаций зарегистрированы более 5 лет тому назад", 4,
                     company =>
                     {
+                        return false;//TODO make checks here
                         var dates = company.GetMultiParam("regDateAffiliates");
                         return dates.Count(x =>
                                    DateTime.TryParse(x, out var date) && (DateTime.Today - date).Days > 365 * 5 + 1) /

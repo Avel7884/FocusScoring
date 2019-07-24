@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiMethod.cs" />
+    <Compile Include="AvailabilityAccess.cs" />
     <Compile Include="Company.cs" />
     <Compile Include="CacheDictionarySerializer.cs" />
     <Compile Include="FIOCache.cs" />

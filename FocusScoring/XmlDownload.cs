@@ -38,7 +38,8 @@ namespace FocusScoring
             return true;
         }
         
-        private string GetMethodName(ApiMethod method)
+        
+        internal static string GetMethodName(ApiMethod method)
         {
             switch (method)
             {
