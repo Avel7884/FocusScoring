@@ -8,7 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
 using FocusScoring;
-
+using Microsoft.Win32;
 
 namespace FocusScoringGUI
 { //TODO Refactor
@@ -25,16 +25,17 @@ namespace FocusScoringGUI
         private CompanyListsCache companiesCache;
 
         private FocusScoringManager manager;
+        private Coder coder;
         //        public Scorer scorer;
 
         //public string Inn { get; set; }
 
         public MainWindow()
         {
+            //coder.decode()
             InitializeComponent();
-            
             //var binding = new Binding {Source = Inn};
-            combobox.SelectedItem = combobox.Items[0];
+            //combobox.SelectedItem = combobox.Items[0];
             manager = FocusScoringManager.StartAccess("3c71a03f93608c782f3099113c97e28f22ad7f45");
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
@@ -52,7 +53,7 @@ namespace FocusScoringGUI
             CurrentList = companiesCache.GetList(currentListName);
             TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList;
-            KeyCounter.Text = "Ключ: осталось " + manager.Usages;
+            KeyCounter.Text = "Ключ: использовано " + manager.Usages;
             //MarkersTable.ItemsSource = new Company[0];
         }
 
@@ -75,25 +76,29 @@ namespace FocusScoringGUI
                 Inn.SelectionStart = Inn.Text.Length;
             }
         }
-        private void Combobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //private void Combobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
+        //    var cmbbx = (ComboBox)sender;
+        //    var selectedI = (ComboBoxItem)cmbbx.SelectedItem;
+        //    if (selectedI.Content.ToString() == "ИНН Компании")
+        //    {
+        //        //discriptionBlock.Text = "Введите ИНН контрагента для формирования отчета";
+        //        return;
+        //    }
+        //    if (selectedI.Content.ToString() == "Банкротство физлица")
+        //    {
+        //        discriptionBlock.Text = "Введите ФИО/ИНН/СНИЛС физлица";
+        //        return;
+        //    }
+        //    if (selectedI.Content.ToString() == "Паспорт")
+        //    {
+        //        discriptionBlock.Text = "Введите серию и номер паспорта(ов) через запятую. Например 1111 111111, 222222222";
+        //        return;
+        //    }
+        //}
+        private void FocusWindowShow(object sender, RoutedEventArgs e)
         {
-            var cmbbx = (ComboBox)sender;
-            var selectedI = (ComboBoxItem)cmbbx.SelectedItem;
-            if (selectedI.Content.ToString() == "ИНН Компании")
-            {
-                discriptionBlock.Text = "Введите ИНН контрагента для формирования отчета";
-                return;
-            }
-            if (selectedI.Content.ToString() == "Банкротство физлица")
-            {
-                discriptionBlock.Text = "Введите ФИО/ИНН/СНИЛС физлица";
-                return;
-            }
-            if (selectedI.Content.ToString() == "Паспорт")
-            {
-                discriptionBlock.Text = "Введите серию и номер паспорта(ов) через запятую. Например 1111 111111, 222222222";
-                return;
-            }
+            new FocusKeyWindow().Show();
         }
     }
 }

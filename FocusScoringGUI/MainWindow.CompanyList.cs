@@ -50,7 +50,7 @@ namespace FocusScoringGUI
         {
             foreach (var data in CurrentList)
                 data.Check(manager);
-            KeyCounter.Text = "Ключ: осталось " + manager.Usages;
+            KeyCounter.Text = "Ключ: использовано " + manager.Usages;
             companiesCache.UpdateList(currentListName, CurrentList);
             CompanyList.Items.Refresh();
         }
