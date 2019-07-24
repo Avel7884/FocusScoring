@@ -27,7 +27,7 @@ namespace FocusScoring
             };
         }
 
-        public event Action<object, EventArgs> DataUpdate; 
+        public event Action<object, MonitorEventArgs> DataUpdate; 
         
         private bool Check(out string[] changedCompanies)
         {

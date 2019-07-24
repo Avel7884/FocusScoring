@@ -19,10 +19,17 @@ namespace FocusScoringGUI
 
         private CompanyListsCache()
         {
-            serializer = new XmlSerializer(typeof(MainWindow.CompanyData[]), 
-                new XmlRootAttribute() { ElementName = "items" });
+            serializer = new XmlSerializer(typeof(MainWindow.CompanyData[]), new XmlRootAttribute("item"));
         }
 
+        public IEnumerable<MainWindow.CompanyData> GetAllCompanies()
+        {
+            foreach (var filePath in Directory.GetFiles("./CompanyLists"))
+                using (var file = File.Open(filePath,FileMode.OpenOrCreate))
+                    foreach (var company in (MainWindow.CompanyData[]) serializer.Deserialize(file))
+                        yield return company;
+        }
+        
         //Depricated
         public Dictionary<string,List<MainWindow.CompanyData>> GetLists()
         {                                     //TODO get it thought constructor
@@ -58,11 +65,12 @@ namespace FocusScoringGUI
                         dict[company.Inn] = company;
                     file.Position = 0;
                     serializer.Serialize(file, dict.Values.ToArray());
+                    file.Write(new byte[file.Length-file.Position],0,(int)(file.Length-file.Position));
                 }
             else
             {
                 using (var file = File.Open("./CompanyLists/" + name, FileMode.OpenOrCreate))
-                    serializer.Serialize(file, data.ToArray().ToArray());
+                    serializer.Serialize(file, data.ToArray());
             }
         }
 

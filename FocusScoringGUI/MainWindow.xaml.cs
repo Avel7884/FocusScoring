@@ -27,7 +27,9 @@ namespace FocusScoringGUI
         private FocusScoringManager manager;
         private Coder coder;
         //        public Scorer scorer;
+        private ListMonitorer monitorer;
 
+        private HashSet<string> monitoredInns;
         //public string Inn { get; set; }
 
         public MainWindow()
@@ -40,6 +42,12 @@ namespace FocusScoringGUI
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
 
+            monitorer = manager.StartMonitor();
+            monitoredInns =
+                new HashSet<string>(companiesCache.GetAllCompanies().Where(x => x.Autoupdate).Select(x => x.Inn));
+
+            monitorer.DataUpdate += MonitorerOnDataUpdate;
+
             if (ListNames.Count == 0)
             {
                 var list = new List<CompanyData>();
@@ -48,13 +56,26 @@ namespace FocusScoringGUI
             }
 
             currentListName = ListNames.First();
+
             ListView.SelectedItem = currentListName;
             ListView.ItemsSource = ListNames;
             CurrentList = companiesCache.GetList(currentListName);
             TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList;
+
+            RefreshCheckButton();
+            RefreshCheckBoxAutoUpdate();
+
             KeyCounter.Text = "Ключ: использовано " + manager.Usages;
+
             //MarkersTable.ItemsSource = new Company[0];
+        }
+
+        private void MonitorerOnDataUpdate(object o, ListMonitorer.MonitorEventArgs args)
+        {
+            foreach (var inn in args.ChangedCompanies)
+                manager.CreateFromInn(inn).MakeScore();
+            //TODO bug here, need to use force download update
         }
 
         //private void Inn_KeyDown(object sender, KeyEventArgs e)

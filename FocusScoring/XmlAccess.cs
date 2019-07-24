@@ -30,6 +30,11 @@ namespace FocusScoring
                 cache.Update(inn, method, document);
             return true;
         }
-        
+
+        public void Clear(string inn, ApiMethod method)
+        {
+            foreach (var cache in caches)
+                cache.Clear(inn,method);
+        }
     }
 }

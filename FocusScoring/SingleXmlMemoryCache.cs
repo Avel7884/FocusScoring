@@ -7,11 +7,12 @@ namespace FocusScoring
     {
         private string Inn = string.Empty;
         private ApiMethod method;
+        private bool cleared = false; 
         private XmlDocument document;
 
         public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
         {
-            if (Inn == inn && method == this.method)
+            if (!cleared && Inn == inn && method == this.method)
             {
                 document = this.document;
                 return true;
@@ -23,9 +24,15 @@ namespace FocusScoring
 
         public void Update(string inn, ApiMethod method, XmlDocument doc)
         {
+            cleared = false;
             Inn = inn;
             this.method = method;
             document = doc;
+        }
+
+        public void Clear(string inn, ApiMethod method)
+        {
+            cleared = true;
         }
     }
 }

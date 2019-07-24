@@ -52,10 +52,16 @@
         </ListView>
 
 
+
         <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="1" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom"/>
-        <StackPanel Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom">
-            <Button Content="Проверить список" Click="ButtonCheckList_Click"  HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
-            <CheckBox VerticalAlignment="Bottom" HorizontalAlignment="Right" FontWeight="Bold" Margin="11,0,0,0">
+        <StackPanel Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+        <Button Content="Проверить список" Name="CheckList" Click="ButtonCheckList_Click"  HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
+            <CheckBox VerticalAlignment="Center" 
+                      Name="AutoUpdate" 
+                      IsThreeState="True" 
+                      Click="CheckBoxAutoUpdate_Click"
+                      HorizontalAlignment="Right" 
+                      FontWeight="Bold" Margin="10,0,0,0">
                 Автопроверка
             </CheckBox>
         </StackPanel>
@@ -70,7 +76,9 @@
                   >
             <ListView.ContextMenu>
                 <ContextMenu>
-                    <MenuItem Header="Удалить" Click="DeleteCompany_Click"></MenuItem>
+                    <MenuItem Header="Проверить" Click="Check_Context"/>
+                    <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/>
+                    <MenuItem Header="Удалить" Click="DeleteCompany_Context"/>
                 </ContextMenu>
             </ListView.ContextMenu>
             <ListView.View>
@@ -81,7 +89,7 @@
                     <GridViewColumn>
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <Image Source="{Binding CLight}" MaxHeight="32" MaxWidth="32"/>
+                                <Image Source="{Binding Path=CLight}" MaxHeight="32" MaxWidth="32"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
@@ -152,7 +160,7 @@
                     <KeyBinding Key="F" Modifiers="Control" Command="ApplicationCommands.NotACommand"/>
                 </TextBox.InputBindings>
             </TextBox>
-            <Button Click="ButtonDataUpdate_Click"  Content="Добавить" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Margin="5,0,0,0">
+            <Button Click="ButtonAddCompany_Click"  Content="Добавить" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Margin="5,0,0,0">
                 <Button.ToolTip>
                     <ToolTip>
                         Добавить ИНН в список

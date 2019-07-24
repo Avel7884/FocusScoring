@@ -33,6 +33,13 @@ namespace FocusScoring
             Score = scorer.CountScore2(Markers.Select(x => x.Marker).ToArray());
         }
 
+        public void ForcedMakeScore()
+        {
+            foreach (var method in (ApiMethod[])Enum.GetValues(typeof(ApiMethod)))
+                access.Clear(Inn,method);
+            MakeScore();
+        }
+
         public int Score { get; private set; }
         public MarkerResult[] Markers { get; private set; }
 //        public static Marker[] GetAllMarkers => scorer.GetAllMarkers;

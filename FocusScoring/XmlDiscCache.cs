@@ -72,6 +72,11 @@ namespace FocusScoring
             }
         }
 
+        public void Clear(string inn, ApiMethod method)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Dispose()
         {
             cacheFile.Dispose();

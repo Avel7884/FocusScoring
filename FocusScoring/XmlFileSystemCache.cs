@@ -28,5 +28,10 @@ namespace FocusScoring
         {
             doc.Save($"{cacheFolder}/{inn}.{method}");
         }
+
+        public void Clear(string inn, ApiMethod method)
+        {
+            File.Delete($"{cacheFolder}/{inn}.{method}");
+        }
     }
 }
