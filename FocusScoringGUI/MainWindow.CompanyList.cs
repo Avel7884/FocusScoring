@@ -20,8 +20,6 @@ namespace FocusScoringGUI
             }
             else MarkersList.ItemsSource = null;
             
-            
-            
             CompanyList.Items.Refresh();
             MarkersList.Items.Refresh();
         }
@@ -47,13 +45,14 @@ namespace FocusScoringGUI
 
         private void ButtonCheckList_Click(object s, RoutedEventArgs e)
         {
-            //CheckList.IsEnabled = false;
+            var force = CurrentList.Any(x => !x.IsChecked);
+            
             foreach (var data in CurrentList)
-                data.Check(manager);
+                data.Check(manager,force);
+            
             KeyCounter.Text = "Ключ: осталось " + manager.Usages;
             companiesCache.UpdateList(currentListName, CurrentList);
             CompanyList.Items.Refresh();
-            //CheckList.IsEnabled = CurrentList.Any(x => !x.IsChecked);
             RefreshCheckButton();
             RefreshCheckBoxAutoUpdate();
         }

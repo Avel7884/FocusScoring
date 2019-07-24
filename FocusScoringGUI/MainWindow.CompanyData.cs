@@ -37,11 +37,14 @@ namespace FocusScoringGUI
             
             internal BitmapImage CLight { get; set; }
 
-            public void Check(FocusScoringManager manager)
+            public void Check(FocusScoringManager manager, bool force = false)
             {
                 IsChecked = true;
                 Company = Company ?? manager.CreateFromInn(Inn);
-                Company.MakeScore();
+                if(force)
+                    Company.ForcedMakeScore();
+                else
+                    Company.MakeScore();
                 Score = Company.Score;
                 InitLight();
             }
