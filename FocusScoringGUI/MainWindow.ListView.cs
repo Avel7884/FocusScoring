@@ -16,7 +16,9 @@ namespace FocusScoringGUI
             TextBlockList.Text = currentListName;
             CompanyList.ItemsSource = CurrentList;
             CompanyList.Items.Refresh();
-            CheckList.IsEnabled = CurrentList.Any(x => !x.IsChecked);
+            //CheckList.IsEnabled = CurrentList.Any(x => !x.IsChecked);
+            RefreshCheckButton();
+            RefreshCheckBoxAutoUpdate();
         }
 
         private void ButtonAddList(string name, List<CompanyData> list)
@@ -31,6 +33,9 @@ namespace FocusScoringGUI
             CompanyList.Items.Refresh();
             MarkersList.ItemsSource = null;
             ListView.SelectedItem = ListNames.Last();
+            
+            RefreshCheckButton();
+            RefreshCheckBoxAutoUpdate();
         }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)

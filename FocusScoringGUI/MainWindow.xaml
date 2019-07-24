@@ -55,7 +55,12 @@
         <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3" FontSize="18" FontFamily="Calibri" FontStyle="Italic"/>
         <StackPanel Grid.Column="3" Grid.Row="3" Orientation="Horizontal">
         <Button Content="Проверить список" Name="CheckList" Click="ButtonCheckList_Click"  HorizontalAlignment="Right" VerticalAlignment="Center" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
-            <CheckBox VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold">
+            <CheckBox VerticalAlignment="Center" 
+                      Name="AutoUpdate" 
+                      IsThreeState="True" 
+                      Click="CheckBoxAutoUpdate_Click"
+                      HorizontalAlignment="Center" 
+                      FontWeight="Bold">
                 Автопроверка
             </CheckBox>
         </StackPanel>
@@ -70,7 +75,9 @@
                   >
             <ListView.ContextMenu>
                 <ContextMenu>
-                    <MenuItem Header="Удалить" Click="DeleteCompany_Context"></MenuItem>
+                    <MenuItem Header="Проверить" Click="Check_Context"/>
+                    <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/>
+                    <MenuItem Header="Удалить" Click="DeleteCompany_Context"/>
                 </ContextMenu>
             </ListView.ContextMenu>
             <ListView.View>
@@ -81,7 +88,7 @@
                     <GridViewColumn>
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <Image Source="{Binding CLight}" MaxHeight="32" MaxWidth="32"/>
+                                <Image Source="{Binding Path=CLight}" MaxHeight="32" MaxWidth="32"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>

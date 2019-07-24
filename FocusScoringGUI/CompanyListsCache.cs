@@ -65,6 +65,7 @@ namespace FocusScoringGUI
                         dict[company.Inn] = company;
                     file.Position = 0;
                     serializer.Serialize(file, dict.Values.ToArray());
+                    file.Write(new byte[file.Length-file.Position],0,(int)(file.Length-file.Position));
                 }
             else
             {
