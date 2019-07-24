@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows;
 using FocusScoring;
 
@@ -19,7 +20,7 @@ namespace FocusScoringGUI
                 MarkersList.ItemsSource = companyData.Company.Markers.Select(MarkerSubData.Create);
             }
             else MarkersList.ItemsSource = null;
-            
+
             CompanyList.Items.Refresh();
             MarkersList.Items.Refresh();
         }
@@ -46,38 +47,40 @@ namespace FocusScoringGUI
         private void ButtonCheckList_Click(object s, RoutedEventArgs e)
         {
             var force = CurrentList.Any(x => !x.IsChecked);
-            
+
             foreach (var data in CurrentList)
-                data.Check(manager,force);
-            
-            KeyCounter.Text = "Ключ: осталось " + manager.Usages;
+                data.Check(manager);
+            KeyCounter.Text = "Ключ: использовано " + manager.Usages;
             companiesCache.UpdateList(currentListName, CurrentList);
             CompanyList.Items.Refresh();
             RefreshCheckButton();
             RefreshCheckBoxAutoUpdate();
         }
-        
-        private void CheckBoxAutoUpdate_Click(object o,EventArgs e)
+
+        private async void CheckBoxAutoUpdate_Click(object o, EventArgs e)
         {
-            if(CurrentList.Any(x=>!x.IsChecked))//AutoUpdate.IsChecked == null || !AutoUpdate.IsChecked.Value)
+            if (CurrentList.Any(x => !x.Autoupdate))
                 CheckBoxAutoUpdate_Checked();
             else
                 CheckBoxAutoUpdate_Unchecked();
+
         }
-        
+
         private void CheckBoxAutoUpdate_Checked()
         {
-            monitorer.Update(CurrentList.Select(x=>x.Inn));
-            monitoredInns.UnionWith(CurrentList.Select(x=>x.Inn));
+
+            monitorer.Update(CurrentList.Select(x => x.Inn));
+            monitoredInns.UnionWith(CurrentList.Select(x => x.Inn));
             foreach (var data in CurrentList)
                 data.Autoupdate = true;
             companiesCache.UpdateList(currentListName, CurrentList);
+
         }
 
         private void CheckBoxAutoUpdate_Unchecked()
         {
-            monitoredInns.ExceptWith(CurrentList.Select(y=>y.Inn));
-            monitorer.Update(monitoredInns,false);
+            monitoredInns.ExceptWith(CurrentList.Select(y => y.Inn));
+            monitorer.Update(monitoredInns, false);
             foreach (var data in CurrentList)
                 data.Autoupdate = false;
             companiesCache.UpdateList(currentListName, CurrentList);
@@ -86,16 +89,16 @@ namespace FocusScoringGUI
         private void SwitchAutoUpdate_Context(object s, RoutedEventArgs e)
         {
             //TODO Warning here!
-            
-            var data = (CompanyData) CompanyList.SelectedItem;
+
+            var data = (CompanyData)CompanyList.SelectedItem;
             data.Autoupdate = !data.Autoupdate;
-            companiesCache.UpdateList(currentListName, new []{data});
+            companiesCache.UpdateList(currentListName, new[] { data });
             RefreshCheckBoxAutoUpdate();
-            
+
             if (data.Autoupdate)
             {
                 monitoredInns.Add(data.Inn);
-                monitorer.Update(new[] {data.Inn});                
+                monitorer.Update(new[] { data.Inn });
             }
             else
             {
@@ -107,8 +110,8 @@ namespace FocusScoringGUI
         private void Check_Context(object s, RoutedEventArgs e)
         {
             var data = (CompanyData)CompanyList.SelectedItem;
-            if(data.IsChecked)
-            data.IsChecked = true;
+            if (data.IsChecked)
+                data.IsChecked = true;
             RefreshCheckButton();
             RefreshCheckBoxAutoUpdate();
         }
@@ -131,12 +134,12 @@ namespace FocusScoringGUI
         {
             if (CurrentList.All(x => x.Autoupdate))
                 AutoUpdate.IsChecked = true;
-            else if(CurrentList.All(x=>!x.Autoupdate))
+            else if (CurrentList.All(x => !x.Autoupdate))
                 AutoUpdate.IsChecked = false;
             else
                 AutoUpdate.IsChecked = null;
-        } 
-        
+        }
+
         private void ButtonAddCompany_Click(object s, RoutedEventArgs e)
         {
             if (CurrentList.Select(x => x.Inn).Contains(Inn.Text))
@@ -163,7 +166,7 @@ namespace FocusScoringGUI
         private void DeleteCompany_Context(object s, RoutedEventArgs e)
         {
             CurrentList.Remove((CompanyData)CompanyList.SelectedItem);
-            
+
             CompanyList.Items.Refresh();
         }
     }

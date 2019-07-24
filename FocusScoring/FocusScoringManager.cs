@@ -80,7 +80,7 @@ namespace FocusScoring
                 .Select(int.Parse).Max().ToString();
             var denominator = doc.SelectSingleNode("/ArrayOfstat/stat/limit").InnerText;
             
-            return $"{nominator}/{denominator}";
+            return $"{nominator} из {denominator}";
         }
         
         

@@ -1,0 +1,44 @@
+﻿namespace FocusScoring
+{
+    public class Coder
+    {
+        public Coder()
+        {
+
+        }
+
+        private void Encode(string dkey)
+        {
+            string ekey = "";
+            foreach (var c in dkey)
+            {
+                if (c >= 65 & c <= 90)
+                    ekey += (char)(c + 127);
+                if (c >= 97 & c <= 122)
+                    ekey += (char)(c + 121);
+                if (c >= 48 & c <= 57)
+                    ekey += (char)(c + 196);
+                if (c == 32)
+                    ekey += c;
+            }
+
+        }
+
+        public string Decode(string ekey)
+        {
+            string dkey = "";
+            foreach (var c in ekey)
+            {
+                if (c >= 192 & c <= 217)
+                    dkey += (char)(c - 127);
+                if (c >= 218 & c <= 243)
+                    dkey += (char)(c - 121);
+                if (c >= 244 & c <= 253)
+                    dkey += (char)(c - 196);
+                if (c == 32)
+                    dkey += c;
+            }
+            return dkey;
+        }
+    }
+}
