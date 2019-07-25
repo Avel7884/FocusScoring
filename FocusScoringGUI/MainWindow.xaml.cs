@@ -39,7 +39,7 @@ namespace FocusScoringGUI
             //var binding = new Binding {Source = Inn};
             
             //combobox.SelectedItem = combobox.Items[0];
-            manager = FocusScoringManager.StartAccess("6789c2139886dd8a902101e612fd45468021b823");//3c71a03f93608c782f3099113c97e28f22ad7f45
+            manager = FocusScoringManager.StartAccess("3c71a03f93608c782f3099113c97e28f22ad7f45");//6789c2139886dd8a902101e612fd45468021b823
 
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();

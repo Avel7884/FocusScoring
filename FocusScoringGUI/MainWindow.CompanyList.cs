@@ -112,8 +112,11 @@ namespace FocusScoringGUI
             var data = (CompanyData)CompanyList.SelectedItem;
             if (data.IsChecked)
                 data.IsChecked = true;
-            RefreshCheckButton();
-            RefreshCheckBoxAutoUpdate();
+            
+            data.Check(manager);
+            KeyCounter.Text = "Ключ: использовано " + manager.Usages;
+            companiesCache.UpdateList(currentListName, CurrentList);
+            CompanyList.Items.Refresh();
         }
 
         private void RefreshCheckButton()
