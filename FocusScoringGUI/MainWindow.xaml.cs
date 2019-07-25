@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -31,39 +32,19 @@ namespace FocusScoringGUI
         private HashSet<string> monitoredInns;
         //public string Inn { get; set; }
 
-        public MainWindow()
+        public MainWindow(FocusScoringManager manager)
         {
+            var a = this.Owner;
             InitializeComponent();
-            using (key = Registry.CurrentUser.CreateSubKey(@"Software\FocusScoring"))
-            {
-                if (key != null)
-                {
-                    if (key.GetValue("fkey") != null)
-                    {
-                        manager = FocusScoringManager.StartAccess(Coder.Decode(key.GetValue("fkey").ToString()));
-                    }
-                    else
-                    {
-                        this.Hide();
-                        var fKWindow = new FocusKeyWindow();
-                        fKWindow.Show();
-                        this.Owner = fKWindow;
-                        this.Close();
-                        return;
-                    }
-                }
-            }
-
-            // manager = FocusScoringManager.StartAccess("6789c2139886dd8a902101e612fd45468021b823");//3c71a03f93608c782f3099113c97e28f22ad7f45
-
+            this.manager = manager;
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
 
-            monitorer = manager.StartMonitor();
+            monitorer = null;// manager.StartMonitor();
             monitoredInns =
                 new HashSet<string>(companiesCache.GetAllCompanies().Where(x => x.Autoupdate).Select(x => x.Inn));
 
-            monitorer.DataUpdate += MonitorerOnDataUpdate;
+            //monitorer.DataUpdate += MonitorerOnDataUpdate;
 
             if (ListNames.Count == 0)
             {
@@ -135,6 +116,7 @@ namespace FocusScoringGUI
         //        return;
         //    }
         //}
+
         private void FocusWindowShow(object sender, RoutedEventArgs e)
         {
             FocusKeyWindow fkw;
@@ -142,6 +124,9 @@ namespace FocusScoringGUI
                 fkw = new FocusKeyWindow(Coder.Decode(key.GetValue("fkey").ToString()));
             fkw.Owner = this;
             fkw.Show();
+
+            fkw.KeyAccepted += (o, a) =>
+            this.manager = fkw.Manager;
         }
     }
 }

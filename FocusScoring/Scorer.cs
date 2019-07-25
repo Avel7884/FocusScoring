@@ -157,7 +157,6 @@ namespace FocusScoring
                             return (sumDelPast > sumDel) & (sumDel > ((sumDelPast - sumDel) / 2)) & (sumDel > 5000000);
                         return false;
                     }),
-                        //TODO WUT?!
                 new Marker("Критический сумма арбитражных дел в качестве истца", MarkerColour.Red,
                     "Критическая сумма арбитражных дел в качестве ответчика." +
                     "Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный период и более суммы уставного капитала, " +
@@ -214,11 +213,11 @@ namespace FocusScoring
                     "У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией", 4,
                     company =>
                     {
-                        return false; //TODO Make checks here
                         var Dissolved = company.GetParams("DissolvedAffiliates").Length;
                         var Dissolving = company.GetParams("DissolvingAffiliates").Length;
                         int affiliatesCount = company.GetParams("InnAffilalates").Length;
-                        return (Dissolved + Dissolving) / affiliatesCount * 100 > 50;
+                        if (affiliatesCount == 0) return false;
+                        return (Dissolved + Dissolving) / (double)affiliatesCount > 0.5;
                     }),
 
                 new Marker("Более половины связных организаций имеют признаки банкротства", MarkerColour.RedAffiliates,
@@ -227,12 +226,12 @@ namespace FocusScoring
                     company =>
                     {
                         //TODO Check for interceptions
-                        return false;//TODO make checks here
                         int affiliatesCount = company.GetParams("InnAffilalates").Length;
                         var m7013 = company.GetParams("m7013Affiliates").Length;
                         var m7014 = company.GetParams("m7014Affiliates").Length;
                         var m7016 = company.GetParams("m7016Affiliates").Length;
-                        return (m7013 + m7014 + m7016) / affiliatesCount * 100 > 50;
+                        if (affiliatesCount == 0) return false;
+                        return (m7013 + m7014 + m7016) / (double)affiliatesCount > 0.5;
                     }),
 
                 new Marker("Выручка по группе компаний снизилась более, чем на 50%", MarkerColour.RedAffiliates,
@@ -413,7 +412,7 @@ namespace FocusScoring
                     company =>
                     {
                         return company.GetParam("m7004") != "true" && company.GetParam("m7003") != "true" &&
-                               company.GetParam("m7002") != "true";
+                               company.GetParam("m7002") == "true";
                     }),
 
                 new Marker("Организация зарегистрирована менее 6 мес назад", MarkerColour.Yellow,
@@ -723,11 +722,12 @@ namespace FocusScoring
                     "Более 30% связанных организаций зарегистрированы более 5 лет тому назад", 4,
                     company =>
                     {
-                        return false;//TODO make checks here
                         var dates = company.GetMultiParam("regDateAffiliates");
-                        return dates.Count(x =>
-                                   DateTime.TryParse(x, out var date) && (DateTime.Today - date).Days > 365 * 5 + 1) /
-                               dates.Length > 0.3;
+                        if (dates.Length == 0)
+                            return false;
+                        return (double) dates.Count(x =>
+                                   DateTime.TryParse(x, out var date) && (DateTime.Today - date).Days > 365 * 5 + 1)
+                               / dates.Length > 0.3;
                     })
             };
 
@@ -741,9 +741,12 @@ namespace FocusScoring
                         if (DoubleTryParse(company.GetParam("s6004"), out double revenu) &&
                             DoubleTryParse(company.GetParam("s6003"), out double revenuPast))
                             return revenu < revenuPast * 0.7;
+
+                        return false;
                     }
 
                     return false;
+
                 }));
 
             markersList.Add(new Marker("Значительное число ликвидированных связанных компаний",
@@ -766,17 +769,17 @@ namespace FocusScoring
                 "Значительное количество юридических лиц на текущий момент времени", 2,
                 company =>
                 {
-                    if (markersList
-                            .Where(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией")
-                            .First().Check(company))
-                    {
-                        if (int.TryParse(company.GetParam("q7006"), out int count1) && count1 > 10
-                        ) //КоличествоНеЛиквидированныхСУчетомНомераОфиса
-                            return true;
-                        if (int.TryParse(company.GetParam("q7007"), out int count2) && count2 > 50
-                        ) //КоличествоНеЛиквидированныхБезУчетаНомераОфиса
-                            return true;
-                    }
+                    if (!markersList
+                        .First(x => x.Name == "Статус компании связан с произошедшей или планируемой ликвидацией")
+                        .Check(company)) return false;
+                    
+                    if (int.TryParse(company.GetParam("q7006"), out int count1) && count1 > 10
+                    ) //КоличествоНеЛиквидированныхСУчетомНомераОфиса
+                        return true;
+                    
+                    if (int.TryParse(company.GetParam("q7007"), out int count2) && count2 > 50
+                    ) //КоличествоНеЛиквидированныхБезУчетаНомераОфиса
+                        return true;
 
                     return false;
                 }));

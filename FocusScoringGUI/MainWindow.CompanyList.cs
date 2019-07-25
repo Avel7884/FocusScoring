@@ -112,32 +112,35 @@ namespace FocusScoringGUI
             var data = (CompanyData)CompanyList.SelectedItem;
             if (data.IsChecked)
                 data.IsChecked = true;
-            RefreshCheckButton();
-            RefreshCheckBoxAutoUpdate();
+            
+            data.Check(manager);
+            KeyCounter.Text = "Ключ: использовано " + manager.Usages;
+            companiesCache.UpdateList(currentListName, CurrentList);
+            CompanyList.Items.Refresh();
         }
 
         private void RefreshCheckButton()
         { //TODO remove, maybe
-            if (CurrentList.All(x => x.IsChecked))
-            {
-                //CheckList.IsEnabled = false;
-                AutoUpdate.IsEnabled = true;
-            }
-            else
-            {
-                //CheckList.IsEnabled = true;
-                AutoUpdate.IsEnabled = false;
-            }
+//            if (CurrentList.All(x => x.IsChecked))
+//            {
+//                //CheckList.IsEnabled = false;
+//                AutoUpdate.IsEnabled = true;
+//            }
+//            else
+//            {
+//                //CheckList.IsEnabled = true;
+//                AutoUpdate.IsEnabled = false;
+//            }
         }
 
         private void RefreshCheckBoxAutoUpdate()
         {
-            if (CurrentList.All(x => x.Autoupdate))
-                AutoUpdate.IsChecked = true;
-            else if (CurrentList.All(x => !x.Autoupdate))
-                AutoUpdate.IsChecked = false;
-            else
-                AutoUpdate.IsChecked = null;
+//            if (CurrentList.All(x => x.Autoupdate))
+//                AutoUpdate.IsChecked = true;
+//            else if (CurrentList.All(x => !x.Autoupdate))
+//                AutoUpdate.IsChecked = false;
+//            else
+//                AutoUpdate.IsChecked = null;
         }
 
         private void ButtonAddCompany_Click(object s, RoutedEventArgs e)

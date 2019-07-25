@@ -56,14 +56,14 @@
         <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="1" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom"/>
         <StackPanel Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left">
         <Button Content="Проверить список" Name="CheckList" Click="ButtonCheckList_Click"  HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
-            <CheckBox VerticalAlignment="Center" 
-                      Name="AutoUpdate" 
-                      IsThreeState="True" 
-                      Click="CheckBoxAutoUpdate_Click"
-                      HorizontalAlignment="Right" 
-                      FontWeight="Bold" Margin="10,0,0,0">
-                Автопроверка
-            </CheckBox>
+            <!-- <CheckBox VerticalAlignment="Center"  -->
+            <!--           Name="AutoUpdate"  -->
+            <!--           IsThreeState="True"  -->
+            <!--           Click="CheckBoxAutoUpdate_Click" -->
+            <!--           HorizontalAlignment="Right"  -->
+            <!--           FontWeight="Bold" Margin="10,0,0,0"> -->
+            <!--     Автопроверка -->
+            <!-- </CheckBox> -->
         </StackPanel>
         <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="5" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Margin="15,0,0,0"/>
 
@@ -77,7 +77,7 @@
             <ListView.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Проверить" Click="Check_Context"/>
-                    <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/>
+                    <!-- <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/> -->
                     <MenuItem Header="Удалить" Click="DeleteCompany_Context"/>
                 </ContextMenu>
             </ListView.ContextMenu>

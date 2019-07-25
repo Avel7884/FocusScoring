@@ -36,7 +36,8 @@ namespace FocusScoring
                 }
             }";
         private Dictionary<Marker,ResultHolder> holders = new Dictionary<Marker, ResultHolder>();
-        private bool IsCompiled;
+        public bool IsCompiled { get; private set; }
+        public CompilerErrorCollection Errors { get; private set; }
         
         public Func<Company, MarkerResult> PostponededCompile(Marker marker)
         {
@@ -49,13 +50,14 @@ namespace FocusScoring
             {
                 if (!IsCompiled)
                     Compile();
+                if (!ccl.IsCompiled)
+                    return new MarkerResult(false,marker,""); 
                 return new MarkerResult(ccl.Check(c), marker, (string) ccl.Verbose.GetValue(null));
             };
         }
 
-        private void Compile()
+        public void Compile()
         {
-            IsCompiled = true;
             var sb = new StringBuilder(codeHead);
             foreach (var code in holders.Values.Select(x=>x.Code))
                 sb.Append(code);
@@ -69,32 +71,41 @@ namespace FocusScoring
             //param.IncludeDebugInformation = true;
             var result = Provider.CompileAssemblyFromSource(param, sb.ToString());
 
+            Errors = result.Errors;
+            if (Errors.HasErrors)
+                return;
+         
+            
+            IsCompiled = true;
             foreach (var holder in holders.Values)
                 holder.TakeResult(result);
         }
+        
         //TODO rename
         private class ResultHolder
         {
-            public string Name { get; }
+            private string Name { get; }
+            public string Code { get; }
+            public bool IsCompiled { get; private set; }
+            
+            public Func<Company,bool> Check { get; private set; }
+            public FieldInfo Verbose { get; private set; }
 
             public ResultHolder(string Name, string code)
             {
                 this.Name = Name;
                             //TODO rewrite with @$ or something
                 Code = classCore.Replace("__Name", Name).Replace("__Code", code);
+                IsCompiled = false;
             }
-            
-            public string Code { get; }
             
             public void TakeResult(CompilerResults result)
             {
                 var method = result.CompiledAssembly.GetType("MarkersCheckers."+Name).GetMethod("Function");
                 Verbose= result.CompiledAssembly.GetType("MarkersCheckers."+Name).GetField("verbose");
                 Check = (Func<Company, bool>) Delegate.CreateDelegate(typeof(Func<Company, bool>), method);
-            } 
-            
-            public Func<Company,bool> Check { get; set; }
-            public FieldInfo Verbose { get; set; }
+                IsCompiled = true;
+            }
         }
     }
 }

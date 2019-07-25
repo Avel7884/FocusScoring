@@ -1,4 +1,5 @@
 using System;
+using System.CodeDom.Compiler;
 using System.IO;
 using System.Linq;
 using System.Windows;
@@ -34,11 +35,24 @@ namespace FocusScoringGUI
         
         private void Ok_OnClick(object sender, RoutedEventArgs e)
         {
+            var tmpCode = marker.Code;
+            marker.Code = Code.Text;
+
+            var errors = Marker.CheckCodeErrors();
+            if (errors != null && errors.HasErrors)
+            {
+                MessageBox.Show(String.Join("\t\n", errors.Cast<CompilerError>().Select(x => x.ErrorText)));
+                marker.Code = tmpCode;
+                return;
+            }
+
+            
             marker.Name = Name.Text; //TODO Check for names interception
             marker.Colour = (MarkerColour)((IsAffiliated.IsChecked.Value ? 3 : 0) + Colour.SelectedIndex);
             marker.Score = Importance.SelectedIndex + 1;
             marker.Description = Description.Text;
-            marker.Code = Code.Text;
+            
+            
             //TODO make marker change after update
             marker.Save();
             //serializer.Serialize(File.Open("./markers",FileMode.OpenOrCreate),markersList.ToArray());
