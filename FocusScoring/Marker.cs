@@ -89,7 +89,7 @@ namespace FocusScoring
 
         internal string GetCodeClassName()
         {
-            return string.Concat(Name.Split(' ','_','.',',',')','('));
+            return string.Concat(Name.Split(' ','_','.',',',')','(','%','&','$','#','\\','/','?','!','\'','\"'));
         }
 
         public void Save()

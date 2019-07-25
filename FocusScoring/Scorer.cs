@@ -176,10 +176,9 @@ namespace FocusScoring
                     "и более суммы уставного капитала, и более 500 тыс. руб.", 1,
                     company =>
                     {
-                        if (DoubleTryParse(company.GetParam("s2003"), out double sumDel) && DoubleTryParse(company.GetParam("s6004"),
-                                                                                     out double revenue)
-                                                                                 && DoubleTryParse(company.GetParam("Sum"),
-                                                                                     out double statedCapitalFocus))
+                        if (DoubleTryParse(company.GetParam("s2003"), out double sumDel) && 
+                            DoubleTryParse(company.GetParam("s6004"), out double revenue)&& 
+                            DoubleTryParse(company.GetParam("Sum"), out double statedCapitalFocus))
                             return (sumDel > (0.2 * revenue)) & (sumDel > 500000) & (sumDel > statedCapitalFocus);
                         return false;
                     }),
