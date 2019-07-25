@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -26,6 +27,18 @@ namespace FocusScoringGUI
             dialog.Closed += (ev,ob) =>
             {
                 markerData.Update();
+                MarkersList.Items.Refresh();
+            };
+        }
+
+        public void NewMarkerButton_Click(object obj, EventArgs args)
+        {
+            var marker = new Marker();
+            var dialog= new MarkerDialog(marker);
+            dialog.Show();
+            dialog.Closed += (ev,ob) =>
+            {
+                MarkersList.Items.Add(marker);
                 MarkersList.Items.Refresh();
             };
         }
