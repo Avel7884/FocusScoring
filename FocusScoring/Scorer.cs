@@ -217,7 +217,7 @@ namespace FocusScoring
                         var Dissolving = company.GetParams("DissolvingAffiliates").Length;
                         int affiliatesCount = company.GetParams("InnAffilalates").Length;
                         if (affiliatesCount == 0) return false;
-                        return (Dissolved + Dissolving) / (double)affiliatesCount > 0.5;
+                        return (Dissolved + Dissolving) / (double)affiliatesCount >= 0.5;
                     }),
 
                 new Marker("Более половины связных организаций имеют признаки банкротства", MarkerColour.RedAffiliates,
@@ -658,7 +658,7 @@ namespace FocusScoring
                         for (int i = 0; i < zi.Length; i++)
                             if (zi[i] == "true")
                                 count++;
-                        return count / zi.Length > 0.3;
+                        return count / zi.Length > 0.1;
                     }),
 
                 new Marker("Значительное количество компаний, зарегистрированных менее 12 месяцев назад",
