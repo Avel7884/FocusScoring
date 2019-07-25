@@ -1,13 +1,10 @@
-﻿namespace FocusScoring
+﻿using Microsoft.Win32;
+
+namespace FocusScoring
 {
     public class Coder
     {
-        public Coder()
-        {
-
-        }
-
-        private void Encode(string dkey)
+        public static void Encode(string dkey)
         {
             string ekey = "";
             foreach (var c in dkey)
@@ -21,10 +18,12 @@
                 if (c == 32)
                     ekey += c;
             }
+            using (RegistryKey key = Registry.CurrentUser.CreateSubKey(@"Software\FocusScoring"))
+                key.SetValue("fkey", ekey);
 
         }
 
-        public string Decode(string ekey)
+        public static string Decode(string ekey)
         {
             string dkey = "";
             foreach (var c in ekey)
@@ -40,5 +39,6 @@
             }
             return dkey;
         }
+        //TODO rework
     }
 }

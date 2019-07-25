@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FocusScoring;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,29 @@ namespace FocusScoringGUI
         public FocusKeyWindow()
         {
             InitializeComponent();
+        }
+        public FocusKeyWindow(string key)
+        {
+            InitializeComponent();
+            KeyBox.Password = key;
+            TextBlock.Text = "..." + key.Substring(key.Length - 5, 5);
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        private void Ok_Click(object sender, RoutedEventArgs e)
+        {
+            if (KeyBox.Password.Count() < 40)
+                MessageBox.Show("Введен некорректный ключ. Введите ключ длинной 40 знаков", "Конутр.Фокус");
+            else
+            {
+                Coder.Encode(KeyBox.Password);
+                if (this.Owner == null)
+                    new MainWindow().Show();
+                this.Close();
+            }
         }
     }
 }

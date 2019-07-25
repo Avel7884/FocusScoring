@@ -19,8 +19,6 @@ namespace FocusScoring
             }
             set
             {
-                if(defaultManager != null)
-                    throw new Exception("Reinitialization of default FocusScoringManager prohibited");
                 defaultManager = value;
             }
         }

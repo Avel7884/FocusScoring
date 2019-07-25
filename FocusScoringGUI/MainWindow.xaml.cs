@@ -25,21 +25,36 @@ namespace FocusScoringGUI
         private CompanyListsCache companiesCache;
 
         private FocusScoringManager manager;
-        private Coder coder;
         //        public Scorer scorer;
         private ListMonitorer monitorer;
-
+        RegistryKey key;
         private HashSet<string> monitoredInns;
         //public string Inn { get; set; }
 
         public MainWindow()
         {
-            //coder.decode()
             InitializeComponent();
-            //var binding = new Binding {Source = Inn};
-            
-            //combobox.SelectedItem = combobox.Items[0];
-            manager = FocusScoringManager.StartAccess("6789c2139886dd8a902101e612fd45468021b823");//3c71a03f93608c782f3099113c97e28f22ad7f45
+            using (key = Registry.CurrentUser.CreateSubKey(@"Software\FocusScoring"))
+            {
+                if (key != null)
+                {
+                    if (key.GetValue("fkey") != null)
+                    {
+                        manager = FocusScoringManager.StartAccess(Coder.Decode(key.GetValue("fkey").ToString()));
+                    }
+                    else
+                    {
+                        this.Hide();
+                        var fKWindow = new FocusKeyWindow();
+                        fKWindow.Show();
+                        this.Owner = fKWindow;
+                        this.Close();
+                        return;
+                    }
+                }
+            }
+
+            // manager = FocusScoringManager.StartAccess("6789c2139886dd8a902101e612fd45468021b823");//3c71a03f93608c782f3099113c97e28f22ad7f45
 
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
@@ -87,7 +102,8 @@ namespace FocusScoringGUI
 
         private void Inn_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            e.Handled = !(Char.IsDigit(e.Text, 0));
+            try { e.Handled = !(Char.IsDigit(e.Text, 0)); }
+            catch { }    //
         }
 
         private void Inn_TextChanged(object sender, TextChangedEventArgs e)
@@ -121,7 +137,11 @@ namespace FocusScoringGUI
         //}
         private void FocusWindowShow(object sender, RoutedEventArgs e)
         {
-            new FocusKeyWindow().Show();
+            FocusKeyWindow fkw;
+            using (key = Registry.CurrentUser.OpenSubKey(@"Software\FocusScoring"))
+                fkw = new FocusKeyWindow(Coder.Decode(key.GetValue("fkey").ToString()));
+            fkw.Owner = this;
+            fkw.Show();
         }
     }
 }
