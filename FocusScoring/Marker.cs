@@ -14,6 +14,13 @@ namespace FocusScoring
         
         private static readonly XmlSerializer serializer = new XmlSerializer(typeof(Marker),
             new XmlRootAttribute() {ElementName = "items"});
+
+        public static CompilerErrorCollection CheckCodeErrors()
+        {
+            if(!compiler.IsCompiled)
+                compiler.Compile();
+            return compiler.Errors;
+        }
         
         private int score;
 
@@ -89,7 +96,7 @@ namespace FocusScoring
         {
                         //TODO get path from setings
             using (var file = File.Open("./Markers/"+GetCodeClassName(),FileMode.OpenOrCreate))
-                serializer.Serialize(file,this);//TODO fix bug with overwriting here 
+                serializer.Serialize(file,this);//TODO fix possible bug with overwriting here 
         }
 
         public MarkerResult Check(Company company) => check(company);
