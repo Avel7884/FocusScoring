@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FocusScoring;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,60 @@ namespace FocusScoringGUI
     /// </summary>
     public partial class FocusKeyWindow : Window
     {
+        public FocusScoringManager Manager { get; set; }
+        private RegistryKey key;
+
         public FocusKeyWindow()
         {
             InitializeComponent();
+            using (key = Registry.CurrentUser.CreateSubKey(@"Software\FocusScoring"))
+            {
+                if (key != null)
+                {
+                    if (key.GetValue("fkey") != null)
+                    {
+                        this.Hide();
+                        Manager = FocusScoringManager.StartAccess(Coder.Decode(key.GetValue("fkey").ToString()));
+                        var mW = new MainWindow(Manager);
+                        mW.Owner = null;
+                        mW.Show();
+                        this.Close();
+                    }
+                }
+            }
+        }
+        public FocusKeyWindow(string key)
+        {
+            InitializeComponent();
+            KeyBox.Password = key;
+            TextBlock.Text = "..." + key.Substring(key.Length - 5, 5);
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        public event Action<object, EventArgs> KeyAccepted;
+
+        private void Ok_Click(object sender, RoutedEventArgs e)
+        {
+            if (KeyBox.Password.Count() < 40)
+                MessageBox.Show("Введен некорректный ключ. Введите ключ длинной 40 знаков", "Конутр.Фокус");
+            else
+            {
+                Manager = FocusScoringManager.StartAccess(KeyBox.Password);
+                if (Manager.Usages.StartsWith("Ошибка"))
+                {
+                    MessageBox.Show("Проверьте правильность ключа");
+                    return;
+                }
+
+                Coder.Encode(KeyBox.Password);
+                if (this.Owner == null)
+                    new MainWindow(Manager).Show();
+                this.Close();
+            }
         }
     }
 }

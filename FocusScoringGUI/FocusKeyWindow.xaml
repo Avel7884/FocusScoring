@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FocusScoringGUI"
         mc:Ignorable="d"
-        Title="Основные настройки" Height="auto" Width="auto" ResizeMode="NoResize" d:DesignWidth="576" d:DesignHeight="190">
+        Title="Основные настройки" Height="200" Width="550" ResizeMode="NoResize" d:DesignWidth="576" d:DesignHeight="190">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10*"/>
@@ -18,17 +18,19 @@
             <ColumnDefinition Width="25"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="68*"/>
-            <RowDefinition Height="31*"/>
-            <RowDefinition Height="27*"/>
+            <RowDefinition Height="82*"/>
+            <RowDefinition Height="23*"/>
             <RowDefinition Height="15*"/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="18*"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="16" Height="22" Margin="0,23" Width="105">
+        <TextBlock Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="16" Height="22" Width="105">
         Ключ доступа:
         </TextBlock>
-        <PasswordBox Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3" MaxLength="40" Margin="0,22" />
-        <Button Grid.Column="6" Grid.Row="2" Content="ОК" Background="#FF4F926A" BorderBrush="#FF256F3B" BorderThickness="2" Foreground="White"/>
-        <Button Grid.Column="4" Grid.Row="2" Content="Отмена" Background="#FFFBFBFB" />
+        <PasswordBox Name="KeyBox" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3" MaxLength="40" Height="24"/>
+        <Button Name="Ok" Grid.Column="6" Grid.Row="3" Content="ОК" Background="#FF4F926A" Click="Ok_Click" BorderBrush="#FF256F3B" BorderThickness="2" Foreground="White"/>
+        <Button Grid.Column="4" Grid.Row="3" Content="Отмена" Background="#FFFBFBFB" Click="Cancel_Click" />
+        <TextBlock Name="TextBlock" Grid.Row="1" Grid.Column="6" TextWrapping="NoWrap"/>
 
     </Grid>
 
