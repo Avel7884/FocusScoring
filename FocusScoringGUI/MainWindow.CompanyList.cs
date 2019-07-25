@@ -118,26 +118,26 @@ namespace FocusScoringGUI
 
         private void RefreshCheckButton()
         { //TODO remove, maybe
-            if (CurrentList.All(x => x.IsChecked))
-            {
-                //CheckList.IsEnabled = false;
-                AutoUpdate.IsEnabled = true;
-            }
-            else
-            {
-                //CheckList.IsEnabled = true;
-                AutoUpdate.IsEnabled = false;
-            }
+//            if (CurrentList.All(x => x.IsChecked))
+//            {
+//                //CheckList.IsEnabled = false;
+//                AutoUpdate.IsEnabled = true;
+//            }
+//            else
+//            {
+//                //CheckList.IsEnabled = true;
+//                AutoUpdate.IsEnabled = false;
+//            }
         }
 
         private void RefreshCheckBoxAutoUpdate()
         {
-            if (CurrentList.All(x => x.Autoupdate))
-                AutoUpdate.IsChecked = true;
-            else if (CurrentList.All(x => !x.Autoupdate))
-                AutoUpdate.IsChecked = false;
-            else
-                AutoUpdate.IsChecked = null;
+//            if (CurrentList.All(x => x.Autoupdate))
+//                AutoUpdate.IsChecked = true;
+//            else if (CurrentList.All(x => !x.Autoupdate))
+//                AutoUpdate.IsChecked = false;
+//            else
+//                AutoUpdate.IsChecked = null;
         }
 
         private void ButtonAddCompany_Click(object s, RoutedEventArgs e)

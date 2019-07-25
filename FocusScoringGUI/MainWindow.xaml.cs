@@ -44,11 +44,11 @@ namespace FocusScoringGUI
             companiesCache = CompanyListsCache.Create();
             ListNames = companiesCache.GetNames();
 
-            monitorer = manager.StartMonitor();
-            monitoredInns =
+            monitorer = null;// manager.StartMonitor();
+            monitoredInns = 
                 new HashSet<string>(companiesCache.GetAllCompanies().Where(x => x.Autoupdate).Select(x => x.Inn));
 
-            monitorer.DataUpdate += MonitorerOnDataUpdate;
+            //monitorer.DataUpdate += MonitorerOnDataUpdate;
 
             if (ListNames.Count == 0)
             {
