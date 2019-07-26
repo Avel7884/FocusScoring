@@ -9,6 +9,7 @@ namespace FocusScoringGUI
     { 
         public class CompanyData
         {
+            private int score;
             internal Company Company { get; set; }
 
             public CompanyData(){}
@@ -19,7 +20,7 @@ namespace FocusScoringGUI
                 Company = manager.CreateFromInn(Inn);
                 Name = Company.CompanyName();
                 IsChecked = false;
-                Score = -1;
+                score = -1;
             }
              
             [XmlAttribute]
@@ -28,8 +29,9 @@ namespace FocusScoringGUI
             public string Inn { get; set; }
             [XmlAttribute]
             public string Name { get; set; }
-            [XmlAttribute]
-            public int Score { get; set; }
+
+            [XmlAttribute] public string Score => score == -1 ? "" : score.ToString();
+
             [XmlAttribute]
             public Light Light { get; set; }
             [XmlAttribute]
@@ -45,28 +47,28 @@ namespace FocusScoringGUI
                     Company.ForcedMakeScore();
                 else
                     Company.MakeScore();
-                Score = Company.Score;
+                score = Company.Score;
                 InitLight();
             }
 
             private void InitLight()
             {
-                if (Score < 0)
+                if (score < 0)
                     return;
                 
-                if (Score <= 39)
+                if (score <= 39)
                 {
                     Light = Light.Red;
                     CLight = new BitmapImage(ShieldCode(Light.Red));                    
                 }
 
-                if (Score <= 69)
+                if (score <= 69)
                 {
                     Light = Light.Yellow;
                     CLight = new BitmapImage(ShieldCode(Light.Yellow));
                 }
 
-                if (Score > 69)
+                if (score > 69)
                 {
                     Light = Light.Green;
                     CLight = new BitmapImage(ShieldCode(Light.Green));
