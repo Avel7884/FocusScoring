@@ -18,6 +18,8 @@ namespace FocusScoring
 
         public Marker[] GetAllMarkers => Scorer.GetAllMarkers;
 
+        public void RemoveMarker(string name) => Scorer.RemoveMarker(name);
+
         public CompanyParameter[] GetAllParameters => paramDict.Values.ToArray();
         
         public string Usages => CheckUsages();

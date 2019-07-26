@@ -10,13 +10,15 @@ namespace FocusScoringGUI
 {
     public partial class MarkerListWindow : Window
     {
+        private readonly FocusScoringManager manager;
         private List<MainWindow.MarkerSubData> markersList;
 
-        public MarkerListWindow(Marker[] markers)
+        public MarkerListWindow(FocusScoringManager manager)
         {
+            this.manager = manager;
             InitializeComponent();
 
-            markersList = markers.Select(MainWindow.MarkerSubData.Create).ToList();
+            markersList = manager.GetAllMarkers.Select(MainWindow.MarkerSubData.Create).ToList();
             
             MarkersList.ItemsSource = markersList;
 
@@ -50,9 +52,11 @@ namespace FocusScoringGUI
 
         public void DeleteMarkerButton_Click(object obj, EventArgs args)
         {
-            if((MainWindow.MarkerSubData)MarkersList.SelectedItem == null)
-                return;
-            markersList.Remove((MainWindow.MarkerSubData) MarkersList.SelectedItem);
+            var marker = (MainWindow.MarkerSubData) MarkersList.SelectedItem;
+            if(marker== null) return;
+            markersList.Remove(marker);
+            marker.Marker.Delete();
+            manager.RemoveMarker(marker.Name);
             MarkersList.Items.Refresh();
         }
     }
