@@ -36,6 +36,9 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon1.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -122,10 +125,8 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Icon1.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Counteragents.txt" />
+    <Resource Include="icon1.ico" />
     <Resource Include="src\Kontur-FocusLOGO.png" />
     <Resource Include="src\key.png" />
     <Resource Include="src\flag.png" />
@@ -140,5 +141,6 @@
     <Resource Include="src\RedDotAffiliates.png" />
     <Resource Include="src\YellowDotAffiliates.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

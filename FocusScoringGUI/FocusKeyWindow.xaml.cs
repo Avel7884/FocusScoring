@@ -76,5 +76,10 @@ namespace FocusScoringGUI
                 this.Close();
             }
         }
+
+        private void CheckKey_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
