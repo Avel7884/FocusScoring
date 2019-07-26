@@ -8,7 +8,6 @@
         Icon="icon1.ico"
         Title="Marker Properties"
         ResizeMode="CanResizeWithGrip"
-        ShowInTaskbar="False"
         WindowStartupLocation="CenterOwner" 
         FocusManager.FocusedElement="{Binding ElementName=leftMarginTextBox}" d:DesignHeight="490" Width="527">
     <Grid>
@@ -36,7 +35,7 @@
 
         <Label Grid.Column="0" Grid.Row="0">Наименование:</Label>
         <TextBox Grid.Column="1" Grid.Row="0" Name = "Name" TextWrapping="Wrap"
-                 HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,8,0,6" Height="18"/>
+                 HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,8,0,6" Height="18" MinWidth="173"/>
 
         <Label Grid.Column="0" Grid.Row="1" Cursor="None">Категория:</Label>
         <ComboBox Grid.Column="1" Grid.Row="1" Name="Colour"
@@ -57,7 +56,7 @@
                  TextWrapping="Wrap" 
                  AcceptsReturn="True" 
                  Name = "Description" 
-                 MinHeight="50" Margin="0,7,0,6" Height="50"/>
+                 MinHeight="50" Margin="0,7,0,6" Height="50" MinWidth="173"/>
 
         <Label Grid.Column="0" Grid.ColumnSpan="6" Grid.Row="4">Код маркера:</Label>
         <TextBox Grid.Column="0" Grid.ColumnSpan="6" Grid.Row="5"

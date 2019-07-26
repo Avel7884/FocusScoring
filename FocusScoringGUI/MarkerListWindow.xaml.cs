@@ -23,7 +23,7 @@ namespace FocusScoringGUI
                 return;
             var markerData = ((MainWindow.MarkerSubData) MarkersList.SelectedItem);
             var dialog = new MarkerDialog(markerData.Marker);
-            dialog.Show();
+            dialog.ShowDialog();
             dialog.Closed += (ev,ob) =>
             {
                 markerData.Update();
