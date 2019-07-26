@@ -13,8 +13,8 @@
             <RowDefinition MinHeight="35" Height="31*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="48*"/>
+            <ColumnDefinition Width="47*" MinWidth="400"/>
         </Grid.ColumnDefinitions>
         <ListView Name="MarkersList" MouseDoubleClick="MarkersList_Click" Grid.ColumnSpan="2">
 
@@ -23,7 +23,7 @@
                     <GridViewColumn>
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <Image Source="{Binding Path=Colour}"/>
+                                <Image Source="{Binding Path=Colour}" MaxWidth="32" MaxHeight="32"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
@@ -41,20 +41,22 @@
             </ListView.View>
 
         </ListView>
-        <Button Grid.Column="1" Grid.Row="2" Height="22" Width="150" Click="NewMarkerButton_Click"
+        <StackPanel Orientation="Horizontal"  Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" Width="324">
+            <Button Height="22" Width="150" Click="NewMarkerButton_Click"
                 HorizontalAlignment="Right"  
                 Content="Добавить маркер" 
                 Background="#FF4F926A" 
                 BorderBrush="#FF256F3B" 
                 BorderThickness="2" 
-                Foreground="White"/>
-        <Button Grid.Column="2" Grid.Row="2" Height="22" Width="150" Click="DeleteMarkerButton_Click"
+                Foreground="White" Margin="0,0,24,0"/>
+            <Button Height="22" Width="150" Click="DeleteMarkerButton_Click"
                 HorizontalAlignment="Right"  
                 Content="Удалить маркер" 
                 Background="#FF4F926A" 
                 BorderBrush="#FF256F3B" 
                 BorderThickness="2" 
                 Foreground="White"/>
+        </StackPanel>
     </Grid>
 </Window>
 
