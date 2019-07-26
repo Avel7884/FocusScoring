@@ -19,6 +19,7 @@ namespace FocusScoring
         public Marker[] GetAllMarkers => Scorer.GetAllMarkers;
 
         public void RemoveMarker(string name) => Scorer.RemoveMarker(name);
+        public void AddMarker(Marker marker) => Scorer.AddMarker(marker);
 
         public CompanyParameter[] GetAllParameters => paramDict.Values.ToArray();
         

@@ -45,7 +45,9 @@ namespace FocusScoringGUI
             dialog.Show();
             dialog.Save.Click += (ev,ob) =>
             {
+                manager.AddMarker(marker);
                 markersList.Add(MainWindow.MarkerSubData.Create(marker));
+                MarkersList.ItemsSource = markersList;
                 MarkersList.Items.Refresh();
             };
         }
