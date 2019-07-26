@@ -18,7 +18,12 @@ namespace FocusScoring
             //serializer.Serialize(File.Open("./markers",FileMode.OpenOrCreate),markersList.ToArray());
             //TODO get path from setings
             //TODO Directory creation
-            foreach (var dir in Directory.EnumerateFiles("./Markers"))
+
+            var markersPath = Settings.CachePath + Settings.MarkersFolder;
+            if (!Directory.Exists(markersPath))
+                Directory.CreateDirectory(markersPath);
+            
+            foreach (var dir in Directory.EnumerateFiles(markersPath))
                 using (var file = File.Open(dir, FileMode.OpenOrCreate))
                 {
                     var marker = (Marker)serializer.Deserialize(file);

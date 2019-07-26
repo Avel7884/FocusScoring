@@ -77,6 +77,7 @@ namespace FocusScoring
         public string Description { get; set; }
 
         private string code;
+
         public string Code
         {
             get => code;
@@ -94,9 +95,12 @@ namespace FocusScoring
 
         public void Save()
         {
-                        //TODO get path from setings
-            using (var file = File.Open("./Markers/"+GetCodeClassName(),FileMode.OpenOrCreate))
-                serializer.Serialize(file,this);//TODO fix possible bug with overwriting here 
+            var markersPath = Settings.CachePath+Settings.MarkersFolder;
+            if (!Directory.Exists(markersPath))
+                Directory.CreateDirectory(markersPath);
+            
+            using (var file = File.Open(markersPath+"/"+GetCodeClassName(),FileMode.OpenOrCreate))
+                serializer.Serialize(file,this); 
         }
 
         public MarkerResult Check(Company company) => check(company);

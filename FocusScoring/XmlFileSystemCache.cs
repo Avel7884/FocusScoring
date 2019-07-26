@@ -10,9 +10,12 @@ namespace FocusScoring
     {
         private readonly string cacheFolder;
 
-        public XmlFileSystemCache(string cacheFolderPath = "XmlCache")
+        public XmlFileSystemCache(string cacheFolder = null)
         {
-            cacheFolder = cacheFolderPath;
+            this.cacheFolder = cacheFolder ?? Settings.XMLCacheFolder;
+            
+            if (!Directory.Exists(this.cacheFolder))
+                Directory.CreateDirectory(this.cacheFolder);
         }
 
         public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
