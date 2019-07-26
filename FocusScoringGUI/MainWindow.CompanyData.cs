@@ -10,7 +10,9 @@ namespace FocusScoringGUI
         [Serializable]
         public class CompanyData
         {
-            private int score;
+            
+            [XmlAttribute]
+            public int score;
             internal Company Company { get; set; }
 
             public CompanyData(){}
@@ -38,8 +40,7 @@ namespace FocusScoringGUI
             [XmlAttribute]
             public bool Autoupdate { get; set; }
 
-            [XmlIgnore]
-            public BitmapImage CLight { get; set; }
+            [XmlIgnore] public BitmapImage CLight => IsChecked ? new BitmapImage(ShieldCode(Light)) : null;
 
             public void Check(FocusScoringManager manager, bool force = false)
             {
@@ -61,18 +62,18 @@ namespace FocusScoringGUI
                 if (score <= 39)
                 {
                     Light = Light.Red;
-                    CLight = new BitmapImage(ShieldCode(Light.Red));                    
+                    //CLight = new BitmapImage(ShieldCode(Light.Red));                    
                 }
                 if (score>39 && score <= 69)
                 {
                     Light = Light.Yellow;
-                    CLight = new BitmapImage(ShieldCode(Light.Yellow));
+                    //CLight = new BitmapImage(ShieldCode(Light.Yellow));
                 }
 
                 if (score > 69)
                 {
                     Light = Light.Green;
-                    CLight = new BitmapImage(ShieldCode(Light.Green));
+                    //CLight = new BitmapImage(ShieldCode(Light.Green));
                 }
             }
             
