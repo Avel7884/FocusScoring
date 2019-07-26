@@ -57,6 +57,8 @@ namespace FocusScoring
             };
         }
 
+        public void RemoveFromCompilation(Marker marker) => holders.Remove(marker);
+
         public void Compile()
         {
             var sb = new StringBuilder(codeHead);

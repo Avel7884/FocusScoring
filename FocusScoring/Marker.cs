@@ -116,6 +116,7 @@ namespace FocusScoring
 
         public void Delete()
         {
+            compiler.RemoveFromCompilation(this);
             var markerPath = Settings.CachePath + Settings.MarkersFolder + "/" + GetCodeClassName();
             if (File.Exists(markerPath))
                 File.Delete(markerPath);
