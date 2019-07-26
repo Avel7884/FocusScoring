@@ -20,7 +20,7 @@
 
             <ListView.View>
                 <GridView>
-                    <GridViewColumn>
+                    <GridViewColumn Width="32">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <Image Source="{Binding Path=Colour}" MaxWidth="32" MaxHeight="32"/>
