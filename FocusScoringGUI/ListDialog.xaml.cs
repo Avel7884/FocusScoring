@@ -50,7 +50,8 @@ namespace FocusScoringGUI
                 return;
             }
 
-            var inns = Inns.Text.Split(" ,.\n\t,".ToArray(), StringSplitOptions.RemoveEmptyEntries);
+            var inns = Inns.Text.Split(@"
+ ,.    ,".ToArray(), StringSplitOptions.RemoveEmptyEntries);
             var error = addList.Invoke(ListName.Text, new List<string>(inns));
             if (error != null)
                 MessageBox.Show(error);

@@ -47,11 +47,6 @@ namespace FocusScoringGUI
 
         private void ButtonCheckList_Click(object s, RoutedEventArgs e)
         {
-           new Thread(NewMethod).Start();
-        }
-
-        private void NewMethod()
-        {
             MessageBoxResult dialogResult = MessageBox.Show("Ключ будет использован не более " + CurrentList.Where(x => !x.IsChecked).Count() + " раз", "Предупреждение", MessageBoxButton.OKCancel);
             if (dialogResult == MessageBoxResult.Cancel)
                 return;
