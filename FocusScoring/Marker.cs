@@ -100,7 +100,7 @@ namespace FocusScoring
             return string.Concat(Name.Split(' ','-','_','.',',',')','(','%','&','$','#','\\','/','?','!','\'','\"'));
         }
 
-        public void Save()
+        public void Save()//TODO move it to factory or somethin'
         {
             var markersPath = Settings.CachePath+Settings.MarkersFolder;
             if (!Directory.Exists(markersPath))
@@ -112,6 +112,13 @@ namespace FocusScoring
                 file.Write(new byte[file.Length-file.Position],0,(int)(file.Length-file.Position));
 
             } 
+        }
+
+        public void Delete()
+        {
+            var markerPath = Settings.CachePath + Settings.MarkersFolder + "/" + GetCodeClassName();
+            if (File.Exists(markerPath))
+                File.Delete(markerPath);
         }
 
         public MarkerResult Check(Company company) => check(company);

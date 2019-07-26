@@ -113,6 +113,8 @@ namespace FocusScoring
 
         public Marker[] GetAllMarkers => markersDict.Values.ToArray();
 
+        public void RemoveMarker(string Name) => markersDict.Remove(Name);
+
         public MarkerResult[] CheckMarkers(Company company)=>
             markersDict.Values.Select(marker => marker.Check(company)).Where(x => x).ToArray();
 
