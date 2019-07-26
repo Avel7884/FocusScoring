@@ -31,7 +31,7 @@
         <PasswordBox Name="KeyBox" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="4" MaxLength="40" Margin="0,26,0,27"/>
         <Button Name="Ok" Grid.Column="6" Grid.Row="2" Content="ОК" Background="#FF4F926A" Click="Ok_Click" BorderBrush="#FF256F3B" BorderThickness="2" Foreground="White"/>
         <Button Grid.Column="4" Grid.Row="2" Content="Отмена" Background="#FFFBFBFB" Click="Cancel_Click" />
-        <TextBlock Name="TextBlock" Grid.Row="1" Grid.Column="6" TextWrapping="NoWrap"/>
+        <TextBlock Name="TextBlock" Grid.Row="0" Grid.Column="6" TextWrapping="NoWrap" VerticalAlignment="Bottom"/>
 
     </Grid>
 

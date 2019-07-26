@@ -81,9 +81,9 @@ namespace FocusScoringGUI
             {
                 switch (light)
                 {
-                    case Light.Green: return new Uri("pack://application:,,,/src/GreenDot.png");
-                    case Light.Red: return new Uri("pack://application:,,,/src/RedDot.png");
-                    case Light.Yellow: return new Uri("pack://application:,,,/src/YellowDot.png");
+                    case Light.Green: return new Uri("pack://application:,,,/src/green-shield.png");
+                    case Light.Red: return new Uri("pack://application:,,,/src/red-shield.png");
+                    case Light.Yellow: return new Uri("pack://application:,,,/src/yellow-shield.png");
                     default: throw new AggregateException();
                 }
             }

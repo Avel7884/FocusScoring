@@ -16,8 +16,8 @@
             <ColumnDefinition Width="93*" MinWidth="61" />
             <ColumnDefinition Width="140*"/>
             <ColumnDefinition Width="218*" MinWidth="200"/>
-            <ColumnDefinition Width="212*" MinWidth="200"/>
-            <ColumnDefinition Width="132*" MinWidth="50"/>
+            <ColumnDefinition Width="212*" />
+            <ColumnDefinition Width="132*" />
             <ColumnDefinition Width="25*"/>
         </Grid.ColumnDefinitions>
 
@@ -27,7 +27,7 @@
             <RowDefinition Height="23*" MinHeight="21"/>
             <RowDefinition Height="26*" MinHeight="24"/>
             <RowDefinition Height="416*" MinHeight="200"/>
-            <RowDefinition MinHeight="24" Height="26*"/>
+            <RowDefinition MinHeight="26" Height="26*"/>
         </Grid.RowDefinitions>
         <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="3" Background="#FF4D9068"/>
         <Border BorderBrush="#FF7DD4A0" Height="1" Grid.Row="2" Grid.ColumnSpan="8" VerticalAlignment="Top" Background="#FF7DD4A0"/>
@@ -179,7 +179,7 @@
                         <DockPanel HorizontalAlignment="Stretch"/>
                     </ItemsPanelTemplate>
                 </Menu.ItemsPanel>
-                <MenuItem Header="Настройки"  FontSize="14" HorizontalAlignment="Right">
+                <MenuItem Header="Настройки"  FontSize="14" HorizontalAlignment="Left">
                     <MenuItem.Icon>
                         <Image Source="pack://application:,,,/src/stt.png"/>
                     </MenuItem.Icon>
