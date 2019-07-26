@@ -98,9 +98,13 @@ namespace FocusScoring
             var markersPath = Settings.CachePath+Settings.MarkersFolder;
             if (!Directory.Exists(markersPath))
                 Directory.CreateDirectory(markersPath);
-            
-            using (var file = File.Open(markersPath+"/"+GetCodeClassName(),FileMode.OpenOrCreate))
-                serializer.Serialize(file,this); 
+
+            using (var file = File.Open(markersPath + "/" + GetCodeClassName(), FileMode.OpenOrCreate))
+            {
+                serializer.Serialize(file,this);
+                file.Write(new byte[file.Length-file.Position],0,(int)(file.Length-file.Position));
+
+            } 
         }
 
         public MarkerResult Check(Company company) => check(company);

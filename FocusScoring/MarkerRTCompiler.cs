@@ -75,7 +75,6 @@ namespace FocusScoring
             Errors = result.Errors;
             if (Errors.HasErrors)
                 return;
-         
             
             IsCompiled = true;
             foreach (var holder in holders.Values)
