@@ -1,5 +1,6 @@
 using System;
 using System.CodeDom.Compiler;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows;
@@ -11,10 +12,12 @@ namespace FocusScoringGUI
     public partial class MarkerDialog : Window
     {
         private readonly Marker marker;
+        private readonly IEnumerable<MainWindow.MarkerSubData> markers;
 
-        public MarkerDialog(Marker marker)
+        public MarkerDialog(Marker marker,IEnumerable<MainWindow.MarkerSubData> markers)
         {
             this.marker = marker;
+            this.markers = markers;
             InitializeComponent();
             Name.Text = marker.Name;
             //Colour.ItemsSource = ((MarkerColour[]) Enum.GetValues(typeof(MarkerColour))).Select(MainWindow.ColourCode);
@@ -35,6 +38,13 @@ namespace FocusScoringGUI
         
         private void Ok_OnClick(object sender, RoutedEventArgs e)
         {
+            if (markers.Select(x => x.Name).Contains(Name.Text))
+            {
+                MessageBox.Show("Маркер с таким именем уже существует.");
+                return;
+            }
+            marker.Name = Name.Text; //TODO Check for names interception
+                
             var tmpCode = marker.Code;
             marker.Code = Code.Text;
 
@@ -45,9 +55,7 @@ namespace FocusScoringGUI
                 marker.Code = tmpCode;
                 return;
             }
-
             
-            marker.Name = Name.Text; //TODO Check for names interception
             marker.Colour = (MarkerColour)((IsAffiliated.IsChecked.Value ? 3 : 0) + Colour.SelectedIndex);
             marker.Score = Importance.SelectedIndex + 1;
             marker.Description = Description.Text;

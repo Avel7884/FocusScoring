@@ -37,7 +37,14 @@ namespace FocusScoring
 
         //public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,MarkerResult>)
 
-        public Marker(){}
+        public Marker()
+        {
+            Name = "NewMarker";
+            Description = "";
+            Colour = MarkerColour.Yellow;
+            Score = 3;
+            Code = "return true;";
+        }
         
         public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company, string> check)
         {
@@ -71,7 +78,7 @@ namespace FocusScoring
             this.Score = Score;
             Code = code;
         }
-        
+
         public string Name { get; set; }
         public MarkerColour Colour { get; set; }
         public string Description { get; set; }

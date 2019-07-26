@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -9,11 +10,15 @@ namespace FocusScoringGUI
 {
     public partial class MarkerListWindow : Window
     {
+        private List<MainWindow.MarkerSubData> markersList;
+
         public MarkerListWindow(Marker[] markers)
         {
             InitializeComponent();
 
-            MarkersList.ItemsSource = markers.Select(MainWindow.MarkerSubData.Create);
+            markersList = markers.Select(MainWindow.MarkerSubData.Create).ToList();
+            
+            MarkersList.ItemsSource = markersList;
 
         }
 
@@ -22,7 +27,7 @@ namespace FocusScoringGUI
             if(MarkersList.SelectedItem == null)
                 return;
             var markerData = ((MainWindow.MarkerSubData) MarkersList.SelectedItem);
-            var dialog = new MarkerDialog(markerData.Marker);
+            var dialog = new MarkerDialog(markerData.Marker,markersList);
             dialog.ShowDialog();
             dialog.Closed += (ev,ob) =>
             {
@@ -34,11 +39,11 @@ namespace FocusScoringGUI
         public void NewMarkerButton_Click(object obj, EventArgs args)
         {
             var marker = new Marker();
-            var dialog= new MarkerDialog(marker);
+            var dialog= new MarkerDialog(marker,MarkersList.Items.Cast<MainWindow.MarkerSubData>().ToArray());
             dialog.Show();
-            dialog.Closed += (ev,ob) =>
+            dialog.Save.Click += (ev,ob) =>
             {
-                MarkersList.Items.Add(marker);
+                markersList.Add(MainWindow.MarkerSubData.Create(marker));
                 MarkersList.Items.Refresh();
             };
         }
