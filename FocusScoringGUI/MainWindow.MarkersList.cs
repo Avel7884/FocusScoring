@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Windows;
 using FocusScoring;
 
@@ -10,7 +11,7 @@ namespace FocusScoringGUI
             if (MarkersList.SelectedItem == null)
                 return;
             var markerData = ((MarkerSubData)MarkersList.SelectedItem);
-            var dialog = new MarkerDialog(markerData.Marker);
+            var dialog = new MarkerDialog(markerData.Marker,MarkersList.Items.Cast<MarkerSubData>().ToArray());
             dialog.Show();
             dialog.Closed += (ev, ob) =>
             {

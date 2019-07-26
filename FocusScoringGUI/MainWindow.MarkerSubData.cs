@@ -8,7 +8,7 @@ namespace FocusScoringGUI
 {
     public partial class MainWindow
     {
-        internal class MarkerSubData
+        public class MarkerSubData
         {
             private MarkerSubData(Marker marker)
             {
