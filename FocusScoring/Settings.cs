@@ -7,6 +7,8 @@ namespace FocusScoring
     {
         public static bool OgrnEnabled { get; set; } = false;
         public static string CachePath { get; set; } = "./";
+        public static string XMLCacheFolder { get; set; } = "XmlCache";
+        public static string MarkersFolder { get; set; } = "Markers";
 
         private static FocusScoringManager defaultManager;
         public static FocusScoringManager DefaultManager

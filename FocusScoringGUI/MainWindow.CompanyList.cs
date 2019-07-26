@@ -77,6 +77,8 @@ namespace FocusScoringGUI
 
         private void CheckBoxAutoUpdate_Checked()
         {
+            if (CompanyList.SelectedItem == null)
+                return;
 
             monitorer.Update(CurrentList.Select(x => x.Inn));
             monitoredInns.UnionWith(CurrentList.Select(x => x.Inn));
@@ -179,7 +181,8 @@ namespace FocusScoringGUI
         private void DeleteCompany_Context(object s, RoutedEventArgs e)
         {
             CurrentList.Remove((CompanyData)CompanyList.SelectedItem);
-
+            companiesCache.DeleteList(currentListName);
+            companiesCache.UpdateList(currentListName,CurrentList);
             CompanyList.Items.Refresh();
         }
     }
