@@ -14,21 +14,32 @@ namespace FocusScoring
         
         internal Scorer()
         {
-            InitMarkers();
+            //InitMarkers();
             //serializer.Serialize(File.Open("./markers",FileMode.OpenOrCreate),markersList.ToArray());
-            //TODO get path from setings
-            //TODO Directory creation
 
             var markersPath = Settings.CachePath + Settings.MarkersFolder;
             if (!Directory.Exists(markersPath))
                 Directory.CreateDirectory(markersPath);
-            
+           
+            markersDict = new Dictionary<string, Marker>();
             foreach (var dir in Directory.EnumerateFiles(markersPath))
                 using (var file = File.Open(dir, FileMode.OpenOrCreate))
                 {
                     var marker = (Marker)serializer.Deserialize(file);
                     markersDict[marker.GetCodeClassName()] = marker;
                 }
+
+            var fioMarker = new Marker("Индивидуальный предприниматель сменил ФИО", MarkerColour.Yellow,
+                "Индивидуальный предприниматель сменил ФИО", 3,
+                company => FIOCache.HasChanged(company.Inn, company.GetParam("FIO")));
+
+            var tmarker =
+                new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,
+                    "Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
+                    "return company.GetParam(\"Dissolving\") == \"true\" || company.GetParam(\"Dissolved\") == \"true\";"); 
+            
+            markersDict[fioMarker.Name] = fioMarker;
+            markersDict[tmarker.Name] = tmarker;
         }
 
         internal bool GetMarker(Company company, string markerName)
