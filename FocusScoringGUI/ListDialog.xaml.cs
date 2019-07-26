@@ -21,17 +21,12 @@ namespace FocusScoringGUI
     /// 
     public partial class ListDialog : Window
     {
-        private readonly Action<string, List<MainWindow.CompanyData>> addList;
-        ListView ListView = null;
-        ListView CompanyList = null;
-        private List<MainWindow.CompanyData> CurrentList;
+        private readonly Func<string, List<string>,string> addList;
         private CompanyListsCache CompanyCache;
 
-        public ListDialog(Action<string,List<MainWindow.CompanyData>> addList,CompanyListsCache companyCache)
+        public ListDialog(Func<string,List<string>,string> addList,CompanyListsCache companyCache)
         {
-            this.CompanyCache = companyCache;
-            this.ResizeMode = ResizeMode.NoResize;
-            this.WindowStartupLocation = WindowStartupLocation.CenterOwner;
+            CompanyCache = companyCache;
             InitializeComponent();
             this.addList = addList;
         }
@@ -48,17 +43,18 @@ namespace FocusScoringGUI
                 MessageBox.Show("Лист с данным названием уже существует");
                 return;
             }
-            if (ListName.Text != "")
+
+            if (ListName.Text == "")
             {
-                addList.Invoke(ListName.Text,new List<MainWindow.CompanyData>());
-                this.Close();
-            //CurrentList = new List<MainWindow.CompanyData>();
-            //ListView.Items.Refresh();
-            //CompanyList.ItemsSource = CurrentList;
-            //CompanyList.Items.Refresh();
+                MessageBox.Show("Название не может быть пустым");
+                return;
             }
-            else
-            MessageBox.Show("Название не может быть пустым");
+
+            var inns = Inns.Text.Split(" ,.\n\t,".ToArray(), StringSplitOptions.RemoveEmptyEntries);
+            var error = addList.Invoke(ListName.Text, new List<string>(inns));
+            if (error != null)
+                MessageBox.Show(error);
+            else Close();
         }
     }
 }

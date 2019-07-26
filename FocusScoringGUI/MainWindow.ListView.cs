@@ -21,11 +21,16 @@ namespace FocusScoringGUI
             RefreshCheckBoxAutoUpdate();
         }
 
-        private void ButtonAddList(string name, List<CompanyData> list)
-        { 
-            CurrentList = list;
+        private string ButtonAddList(string name, List<string> list)
+        {
+            foreach (var inn in list)
+                if (!((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && InnCheckSum(inn)))
+                    return inn + " --некорректный инн";
+                    
+            
+            CurrentList = list.Select(x=>new CompanyData(x,manager)).ToList();
             currentListName = name;
-            companiesCache.UpdateList(currentListName, list);
+            companiesCache.UpdateList(currentListName, CurrentList);
             ListNames.Add(name);
             ListView.Items.Refresh();
             TextBlockList.Text = name;
@@ -36,6 +41,8 @@ namespace FocusScoringGUI
             
             RefreshCheckButton();
             RefreshCheckBoxAutoUpdate();
+
+            return null;
         }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)
