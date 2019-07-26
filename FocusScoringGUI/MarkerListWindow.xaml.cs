@@ -47,5 +47,13 @@ namespace FocusScoringGUI
                 MarkersList.Items.Refresh();
             };
         }
+
+        public void DeleteMarkerButton_Click(object obj, EventArgs args)
+        {
+            if((MainWindow.MarkerSubData)MarkersList.SelectedItem == null)
+                return;
+            markersList.Remove((MainWindow.MarkerSubData) MarkersList.SelectedItem);
+            MarkersList.Items.Refresh();
+        }
     }
 }
