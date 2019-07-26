@@ -7,6 +7,7 @@ namespace FocusScoringGUI
 {
     public partial class MainWindow
     { 
+        [Serializable]
         public class CompanyData
         {
             private int score;
@@ -36,8 +37,9 @@ namespace FocusScoringGUI
             public Light Light { get; set; }
             [XmlAttribute]
             public bool Autoupdate { get; set; }
-            
-            internal BitmapImage CLight { get; set; }
+
+            [XmlIgnore]
+            public BitmapImage CLight { get; set; }
 
             public void Check(FocusScoringManager manager, bool force = false)
             {
@@ -61,8 +63,7 @@ namespace FocusScoringGUI
                     Light = Light.Red;
                     CLight = new BitmapImage(ShieldCode(Light.Red));                    
                 }
-
-                if (score <= 69)
+                if (score>39 && score <= 69)
                 {
                     Light = Light.Yellow;
                     CLight = new BitmapImage(ShieldCode(Light.Yellow));

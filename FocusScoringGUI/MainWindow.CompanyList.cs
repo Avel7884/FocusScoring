@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using FocusScoring;
@@ -30,7 +31,7 @@ namespace FocusScoringGUI
         {
             var numbers = inn.Select(x => new string(new[] { x })).Select(int.Parse).ToArray();
             if (numbers.All(x => x == 0))
-               return false;
+                return false;
 
             switch (numbers.Length)
             {
@@ -46,6 +47,9 @@ namespace FocusScoringGUI
 
         private void ButtonCheckList_Click(object s, RoutedEventArgs e)
         {
+            MessageBoxResult dialogResult = MessageBox.Show("Ключ будет использован не более " + CurrentList.Where(x => !x.IsChecked).Count() + " раз", "Предупреждение", MessageBoxButton.OKCancel);
+            if (dialogResult == MessageBoxResult.Cancel)
+                return;
             var force = CurrentList.Any(x => !x.IsChecked);
 
             foreach (var data in CurrentList)
@@ -113,11 +117,9 @@ namespace FocusScoringGUI
         {
             if (CompanyList.SelectedItem == null)
                 return;
-            
             var data = (CompanyData)CompanyList.SelectedItem;
-            if (data.IsChecked)
-                data.IsChecked = true;
-            
+            data.IsChecked = true;
+
             data.Check(manager);
             KeyCounter.Text = "Ключ: использовано " + manager.Usages;
             companiesCache.UpdateList(currentListName, CurrentList);
@@ -126,26 +128,26 @@ namespace FocusScoringGUI
 
         private void RefreshCheckButton()
         { //TODO remove, maybe
-//            if (CurrentList.All(x => x.IsChecked))
-//            {
-//                //CheckList.IsEnabled = false;
-//                AutoUpdate.IsEnabled = true;
-//            }
-//            else
-//            {
-//                //CheckList.IsEnabled = true;
-//                AutoUpdate.IsEnabled = false;
-//            }
+          //            if (CurrentList.All(x => x.IsChecked))
+          //            {
+          //                //CheckList.IsEnabled = false;
+          //                AutoUpdate.IsEnabled = true;
+          //            }
+          //            else
+          //            {
+          //                //CheckList.IsEnabled = true;
+          //                AutoUpdate.IsEnabled = false;
+          //            }
         }
 
         private void RefreshCheckBoxAutoUpdate()
         {
-//            if (CurrentList.All(x => x.Autoupdate))
-//                AutoUpdate.IsChecked = true;
-//            else if (CurrentList.All(x => !x.Autoupdate))
-//                AutoUpdate.IsChecked = false;
-//            else
-//                AutoUpdate.IsChecked = null;
+            //            if (CurrentList.All(x => x.Autoupdate))
+            //                AutoUpdate.IsChecked = true;
+            //            else if (CurrentList.All(x => !x.Autoupdate))
+            //                AutoUpdate.IsChecked = false;
+            //            else
+            //                AutoUpdate.IsChecked = null;
         }
 
         private void ButtonAddCompany_Click(object s, RoutedEventArgs e)
