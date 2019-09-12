@@ -28,26 +28,26 @@ namespace FocusScoringGUI
 
         private CompanyListsCache()
         {
-            serializer = new XmlSerializer(typeof(MainWindow.CompanyData[]), new XmlRootAttribute("item"));
+            serializer = new XmlSerializer(typeof(CompanyData[]), new XmlRootAttribute("item"));
         }
 
-        public IEnumerable<MainWindow.CompanyData> GetAllCompanies()
+        public IEnumerable<CompanyData> GetAllCompanies()
         {
             foreach (var filePath in Directory.GetFiles("./CompanyLists"))
                 using (var file = File.Open(filePath,FileMode.OpenOrCreate))
-                    foreach (var company in (MainWindow.CompanyData[]) serializer.Deserialize(file))
+                    foreach (var company in (CompanyData[]) serializer.Deserialize(file))
                         yield return company;
         }
         
         //Depricated
-        public Dictionary<string,List<MainWindow.CompanyData>> GetLists()
+        public Dictionary<string,List<CompanyData>> GetLists()
         {                                     //TODO get it thought constructor
-            var dict = new Dictionary<string,List<MainWindow.CompanyData>>();
+            var dict = new Dictionary<string,List<CompanyData>>();
             foreach (var filePath in Directory.GetFiles(companyListPath))
             {
                 using (var file = File.Open(filePath,FileMode.OpenOrCreate))
                 {
-                    dict[filePath.Split('\\').Last()] = ((MainWindow.CompanyData[]) serializer
+                    dict[filePath.Split('\\').Last()] = ((CompanyData[]) serializer
                         .Deserialize(file)).ToList();
                 }
             }
@@ -59,19 +59,19 @@ namespace FocusScoringGUI
             return Directory.GetFiles(companyListPath).Select(x => x.Split('\\').Last()).ToList();
         }
 
-        public List<MainWindow.CompanyData> GetList(string name)
+        public List<CompanyData> GetList(string name)
         {
             if (!File.Exists(companyListPath + "/" + name)) throw new FileNotFoundException();
             using (var file = File.Open(companyListPath + "/" + name, FileMode.OpenOrCreate))
-                return ((MainWindow.CompanyData[]) serializer.Deserialize(file)).ToList();
+                return ((CompanyData[]) serializer.Deserialize(file)).ToList();
         }
 
-        public void UpdateList(string name, IEnumerable<MainWindow.CompanyData> data)
+        public void UpdateList(string name, IEnumerable<CompanyData> data)
         {
             if(File.Exists(companyListPath + "/" + name))
                 using (var file = File.Open(companyListPath + "/"+name,FileMode.OpenOrCreate))
                 {
-                    var dict = ((MainWindow.CompanyData[]) serializer.Deserialize(file)).ToDictionary(x=>x.Inn);
+                    var dict = ((CompanyData[]) serializer.Deserialize(file)).ToDictionary(x=>x.Inn);
                     foreach (var company in data)
                         dict[company.Inn] = company;
                     file.Position = 0;

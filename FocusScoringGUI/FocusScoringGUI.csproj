@@ -52,6 +52,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="CompanyList.xaml" />
     <Page Include="FocusKeyWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -60,6 +61,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ListOfCompanyLists.xaml" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -68,8 +70,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CompanyList.xaml.cs">
+      <DependentUpon>CompanyList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FocusKeyWindow.xaml.cs">
       <DependentUpon>FocusKeyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfCompanyLists.xaml.cs">
+      <DependentUpon>ListOfCompanyLists.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.Sorter.cs" />
     <Compile Include="CompanyListsCache.cs" />
@@ -88,6 +96,7 @@
     </Compile>
     <Page Include="MarkerDialog.xaml" />
     <Page Include="MarkerListWindow.xaml" />
+    <Page Include="MarkersList.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MarkerDialog.xaml.cs">
@@ -95,6 +104,9 @@
     </Compile>
     <Compile Include="MarkerListWindow.xaml.cs">
       <DependentUpon>MarkerListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MarkersList.xaml.cs">
+      <DependentUpon>MarkersList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

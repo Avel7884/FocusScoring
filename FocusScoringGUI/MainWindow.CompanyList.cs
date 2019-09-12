@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -26,8 +26,8 @@ namespace FocusScoringGUI
             MarkersList.Items.Refresh();
         }
 
-        private readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
-        private bool InnCheckSum(string inn)
+        private static readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
+        public static bool InnCheckSum(string inn)//TODO remove terreble naming it makes
         {
             var numbers = inn.Select(x => new string(new[] { x })).Select(int.Parse).ToArray();
             if (numbers.All(x => x == 0))
@@ -184,4 +184,4 @@ namespace FocusScoringGUI
             CompanyList.Items.Refresh();
         }
     }
-}
+}*/

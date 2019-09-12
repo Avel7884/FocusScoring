@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace FocusScoringGUI
         GridViewColumnHeader _lastHeaderClicked = null;
         ListSortDirection _lastDirection = ListSortDirection.Ascending;
 
-        void GridViewColumnHeaderClickedHandler(object sender, RoutedEventArgs e)
+        public void GridViewColumnHeaderClickedHandler(object sender, RoutedEventArgs e)
         {
             var headerClicked = e.OriginalSource as GridViewColumnHeader;
             ListSortDirection direction;
@@ -84,3 +85,4 @@ namespace FocusScoringGUI
         }
     }
 }
+*/

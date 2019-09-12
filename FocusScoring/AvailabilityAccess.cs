@@ -21,10 +21,10 @@ namespace FocusScoring
 
         public void Update(string inn, ApiMethod method, XmlDocument doc)
         {
+            
         }
 
         public void Clear(string inn, ApiMethod method)
-        {
-        }
+        {}
     }
 }

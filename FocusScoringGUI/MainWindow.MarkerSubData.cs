@@ -6,8 +6,6 @@ using FocusScoring;
 
 namespace FocusScoringGUI
 {
-    public partial class MainWindow
-    {
         public class MarkerSubData
         {
             private MarkerSubData(Marker marker)
@@ -42,20 +40,19 @@ namespace FocusScoringGUI
                 Description = Marker.Description;
                 Name = Marker.Name;
             }
-        }
-        
-        private static Uri ColourCode(MarkerColour colour)
-        {
-            switch (colour)
+            
+            private static Uri ColourCode(MarkerColour colour)
             {
-                case MarkerColour.Green: return new Uri("pack://application:,,,/src/GreenDot.png");
-                case MarkerColour.Red: return new Uri("pack://application:,,,/src/RedDot.png"); 
-                case MarkerColour.Yellow: return new Uri("pack://application:,,,/src/YellowDot.png");
-                case MarkerColour.GreenAffiliates: return new Uri("pack://application:,,,/src/GreenDotAffiliates.png");
-                case MarkerColour.RedAffiliates: return new Uri("pack://application:,,,/src/RedDotAffiliates.png");
-                case MarkerColour.YellowAffiliates: return new Uri("pack://application:,,,/src/YellowDotAffiliates.png");
-                default: throw new AggregateException();
+                switch (colour)
+                {
+                    case MarkerColour.Green: return new Uri("pack://application:,,,/src/GreenDot.png");
+                    case MarkerColour.Red: return new Uri("pack://application:,,,/src/RedDot.png"); 
+                    case MarkerColour.Yellow: return new Uri("pack://application:,,,/src/YellowDot.png");
+                    case MarkerColour.GreenAffiliates: return new Uri("pack://application:,,,/src/GreenDotAffiliates.png");
+                    case MarkerColour.RedAffiliates: return new Uri("pack://application:,,,/src/RedDotAffiliates.png");
+                    case MarkerColour.YellowAffiliates: return new Uri("pack://application:,,,/src/YellowDotAffiliates.png");
+                    default: throw new AggregateException();
+                }
             }
         }
-    }
 }

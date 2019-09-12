@@ -38,18 +38,6 @@ namespace FocusScoringGUI
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            if (CompanyCache.GetNames().Contains(ListName.Text))
-            {
-                MessageBox.Show("Лист с данным названием уже существует");
-                return;
-            }
-
-            if (ListName.Text == "")
-            {
-                MessageBox.Show("Название не может быть пустым");
-                return;
-            }
-
             var inns = Inns.Text.Split(@"
  ,.    ,".ToArray(), StringSplitOptions.RemoveEmptyEntries);
             var error = addList.Invoke(ListName.Text, new List<string>(inns));

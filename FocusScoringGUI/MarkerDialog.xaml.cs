@@ -12,9 +12,9 @@ namespace FocusScoringGUI
     public partial class MarkerDialog : Window
     {
         private readonly Marker marker;
-        private readonly IEnumerable<MainWindow.MarkerSubData> markers;
+        private readonly IEnumerable<MarkerSubData> markers;
 
-        public MarkerDialog(Marker marker,IEnumerable<MainWindow.MarkerSubData> markers)
+        public MarkerDialog(Marker marker,IEnumerable<MarkerSubData> markers)
         {
             this.marker = marker;
             this.markers = markers;

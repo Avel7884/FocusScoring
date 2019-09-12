@@ -1,4 +1,4 @@
-using System.Linq;
+/*using System.Linq;
 using System.Windows;
 using FocusScoring;
 
@@ -27,4 +27,4 @@ namespace FocusScoringGUI
             a.Show();
         }
     }
-}
+}*/

@@ -29,14 +29,16 @@
             <RowDefinition Height="416*" MinHeight="200"/>
             <RowDefinition MinHeight="26" Height="26*"/>
         </Grid.RowDefinitions>
-        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="3" Background="#FF4D9068"/>
+        
         <Border BorderBrush="#FF7DD4A0" Height="1" Grid.Row="2" Grid.ColumnSpan="8" VerticalAlignment="Top" Background="#FF7DD4A0"/>
+        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="3" Background="#FF4D9068"/>
+        <!--
         <ListView Grid.Column="0"
                   Grid.ColumnSpan="3"
                   Grid.Row="3"
                   x:Name="ListView"
                 MouseUp="ListSelected_Click" Background="#FF4D9068" Grid.RowSpan="2" BorderThickness="2" Foreground="White">
-            <!--TODO OnHover Discription-->
+            ~1~TODO OnHover Discription@1@
             <ListView.Resources>
                 <Style TargetType="ListViewItem">
                     <Setter Property="ToolTip" Value="{Binding Description}"/>
@@ -57,14 +59,14 @@
         <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="1" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom"/>
         <StackPanel Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left">
         <Button Content="Проверить список" Name="CheckList" Click="ButtonCheckList_Click"  HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
-            <!-- <CheckBox VerticalAlignment="Center"  -->
-            <!--           Name="AutoUpdate"  -->
-            <!--           IsThreeState="True"  -->
-            <!--           Click="CheckBoxAutoUpdate_Click" -->
-            <!--           HorizontalAlignment="Right"  -->
-            <!--           FontWeight="Bold" Margin="10,0,0,0"> -->
-            <!--     Автопроверка -->
-            <!-- </CheckBox> -->
+            ~1~ <CheckBox VerticalAlignment="Center"  @1@
+            ~1~           Name="AutoUpdate"  @1@
+            ~1~           IsThreeState="True"  @1@
+            ~1~           Click="CheckBoxAutoUpdate_Click" @1@
+            ~1~           HorizontalAlignment="Right"  @1@
+            ~1~           FontWeight="Bold" Margin="10,0,0,0"> @1@
+            ~1~     Автопроверка @1@
+            ~1~ </CheckBox> @1@
         </StackPanel>
         <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="5" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Margin="15,0,0,0"/>
 
@@ -78,7 +80,7 @@
             <ListView.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Проверить" Click="Check_Context"/>
-                    <!-- <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/> -->
+                    ~1~ <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/> @1@
                     <MenuItem Header="Удалить" Click="DeleteCompany_Context"/>
                 </ContextMenu>
             </ListView.ContextMenu>
@@ -106,7 +108,7 @@
                   MouseDoubleClick="MarkerSelected_Click"
                  
                   >
-            <!--GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler"-->
+            ~1~GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler"@1@
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="X">
@@ -133,8 +135,8 @@
                 <TextBlock Text="Создать список" Foreground="White"/>
             </StackPanel>
         </Button>
-        <!--<StackPanel Grid.Column="4" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="3" Height="22">
-            --><!--<TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>--><!--
+        ~1~<StackPanel Grid.Column="4" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="3" Height="22">
+            @1@~1~<TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>@1@~1~
             <TextBox MinWidth="330" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12" TextChanged="Inn_TextChanged">
                 <TextBox.InputBindings>
                     <KeyBinding Key="C" Modifiers="Control" Command="ApplicationCommands.NotACommand"/>
@@ -148,10 +150,10 @@
                 <ComboBoxItem >Паспорт</ComboBoxItem>
             </ComboBox>
             <Button Content="Проверить" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Margin="5,0,0,0" />
-        </StackPanel>-->
-        <!--<TextBlock TextWrapping="Wrap" Name="discriptionBlock" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" FontFamily="Arial" FontStyle="Italic" Foreground="#FF898989" Width="302">
+        </StackPanel>@1@
+        ~1~<TextBlock TextWrapping="Wrap" Name="discriptionBlock" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" FontFamily="Arial" FontStyle="Italic" Foreground="#FF898989" Width="302">
                    Введите ИНН контрагента для формирования отчета
-        </TextBlock>-->
+        </TextBlock>@1@
         <StackPanel Grid.Column="3" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="20" Width="322" Grid.ColumnSpan="2">
             <TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>
             <TextBox x:Name="Inn" MinWidth="110" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12" TextChanged="Inn_TextChanged" Margin="5,0,0,0">
@@ -171,6 +173,12 @@
         </StackPanel>
         <Image Source="pack://application:,,,/src/Kontur-FocusLOGO.png" Grid.ColumnSpan="3" Grid.RowSpan="2" Width="224" Height="42" HorizontalAlignment="Left" Margin="19,0,0,0"/>
         <TextBlock Text="Мои списки" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="#FF7DD48E" Height="16" Width="66" Grid.Row="1" Grid.ColumnSpan="2"/>
+        -->
+        
+        <local:MarkersList Grid.Column="5" Grid.ColumnSpan="3" Grid.Row="0" Grid.RowSpan="5"/>
+        <local:CompanyList Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5"/>
+        <local:ListOfCompanyLists Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" Grid.RowSpan="5"/>
+        
         <DockPanel Grid.Row="5" Grid.ColumnSpan="8">
             <TextBlock Name="KeyCounter" Text="Ключ: использовано" VerticalAlignment="Center"/>
             <Menu HorizontalAlignment="Right">

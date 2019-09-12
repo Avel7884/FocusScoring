@@ -11,14 +11,14 @@ namespace FocusScoringGUI
     public partial class MarkerListWindow : Window
     {
         private readonly FocusScoringManager manager;
-        private List<MainWindow.MarkerSubData> markersList;
+        private List<MarkerSubData> markersList;
 
         public MarkerListWindow(FocusScoringManager manager)
         {
             this.manager = manager;
             InitializeComponent();
 
-            markersList = manager.GetAllMarkers.Select(MainWindow.MarkerSubData.Create).ToList();
+            markersList = manager.GetAllMarkers.Select(MarkerSubData.Create).ToList();
             
             MarkersList.ItemsSource = markersList;
 
@@ -28,7 +28,7 @@ namespace FocusScoringGUI
         {
             if(MarkersList.SelectedItem == null)
                 return;
-            var markerData = ((MainWindow.MarkerSubData) MarkersList.SelectedItem);
+            var markerData = ((MarkerSubData) MarkersList.SelectedItem);
             var dialog = new MarkerDialog(markerData.Marker,markersList);
             dialog.ShowDialog();
             dialog.Closed += (ev,ob) =>
@@ -41,12 +41,12 @@ namespace FocusScoringGUI
         public void NewMarkerButton_Click(object obj, EventArgs args)
         {
             var marker = new Marker();
-            var dialog= new MarkerDialog(marker,MarkersList.Items.Cast<MainWindow.MarkerSubData>().ToArray());
+            var dialog= new MarkerDialog(marker,MarkersList.Items.Cast<MarkerSubData>().ToArray());
             dialog.Show();
             dialog.Save.Click += (ev,ob) =>
             {
                 manager.AddMarker(marker);
-                markersList.Add(MainWindow.MarkerSubData.Create(marker));
+                markersList.Add(MarkerSubData.Create(marker));
                 MarkersList.ItemsSource = markersList;
                 MarkersList.Items.Refresh();
             };
@@ -54,7 +54,7 @@ namespace FocusScoringGUI
 
         public void DeleteMarkerButton_Click(object obj, EventArgs args)
         {
-            var marker = (MainWindow.MarkerSubData) MarkersList.SelectedItem;
+            var marker = (MarkerSubData) MarkersList.SelectedItem;
             if(marker== null) return;
             markersList.Remove(marker);
             marker.Marker.Delete();
