@@ -19,16 +19,27 @@ namespace FocusScoringGUI
     public partial class MainWindow : Window
     {
         RegistryKey key;
-        public FocusScoringManager FocusManager { get; private set; }
-        public CompanyListsCache CompaniesCache { get; }
-        public MarkersList Markers { get; set; }
-        public CompanyList Companies { get; set; }
+        public FocusScoringManager FocusManager { get; set; }
+        public ListsCache<string> CompaniesCache { get; }
+        /*public MarkersList Markers { get; set; }
+        public CompanyList Companies { get; set; }*/
 
         public MainWindow(FocusScoringManager manager)
         {
-            this.FocusManager = manager;   
-            this.CompaniesCache = CompanyListsCache.Create();
+            FocusManager = manager;   
+            CompaniesCache = new ListsCache<string>("CompanyLists");
+            
             InitializeComponent();
+            
+            MarkersControl.Manager = FocusManager;
+
+            CompanyControl.Manager = FocusManager;
+            CompanyControl.markersList = MarkersControl;
+            CompanyControl.CompaniesCache = CompaniesCache;
+            
+            CompanyListsControl.Manager = FocusManager;
+            CompanyListsControl.CompanyList = CompanyControl;
+            CompanyListsControl.CompaniesCache = CompaniesCache;
         }
         
         private void FocusWindowShow(object sender, RoutedEventArgs e)

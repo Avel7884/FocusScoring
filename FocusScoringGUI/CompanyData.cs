@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Windows.Media.Imaging;
 using System.Xml.Serialization;
 using FocusScoring;
@@ -8,11 +8,13 @@ namespace FocusScoringGUI
     [Serializable]
     public class CompanyData
     {
+        //TODO Attempt to remove this class
+        
         
         [XmlAttribute]
-        public int score;
+        private int score;
         internal Company Company { get; set; }
-
+        
         public CompanyData(){}//Required for XML serialization
         
         public CompanyData(string Inn,FocusScoringManager manager)
@@ -20,29 +22,30 @@ namespace FocusScoringGUI
             this.Inn = Inn;
             Company = manager.CreateFromInn(Inn);
             Name = Company.CompanyName();
-            IsChecked = false;
+            /*IsChecked = false;#1#
             score = -1;
         }
-         
+         /*
+
         [XmlAttribute]
-        public bool IsChecked { get; set; }
-        [XmlAttribute]
+        public bool IsChecked { get; set; }#1#
+        [XmlIgnore]
         public string Inn { get; set; }
-        [XmlAttribute]
+        [XmlIgnore]
         public string Name { get; set; }
 
-        [XmlAttribute] public string Score => score == -1 ? "" : score.ToString();
+        [XmlIgnore] public string Score => score == -1 ? "" : score.ToString();
 
-        [XmlAttribute]
+        [XmlIgnore]
         public Light Light { get; set; }
-        [XmlAttribute]
-        public bool Autoupdate { get; set; }
 
-        [XmlIgnore] public BitmapImage CLight => IsChecked ? new BitmapImage(ShieldCode(Light)) : null;
+        [XmlIgnore] public BitmapImage CLight => /*IsChecked ?#1# new BitmapImage(ShieldCode(Light));/* : null;#1#
 
         public void Check(FocusScoringManager manager, bool force = false)
         {
+/*
             IsChecked = true;
+#1#
             Company = Company ?? manager.CreateFromInn(Inn);
             if(force)
                 Company.ForcedMakeScore();
@@ -62,7 +65,7 @@ namespace FocusScoringGUI
                 Light = Light.Red;
                 //CLight = new BitmapImage(ShieldCode(Light.Red));                    
             }
-            if (score>39 && score <= 69)
+            if (score > 39 && score <= 69)
             {
                 Light = Light.Yellow;
                 //CLight = new BitmapImage(ShieldCode(Light.Yellow));
@@ -87,4 +90,4 @@ namespace FocusScoringGUI
         }
     }
     
-}
+}*/

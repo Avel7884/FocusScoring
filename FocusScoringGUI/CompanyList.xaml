@@ -8,33 +8,37 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="140*"/>
             <ColumnDefinition Width="218*" MinWidth="200"/>
+            <ColumnDefinition Width="140*" />
         </Grid.ColumnDefinitions>
         
         <Grid.RowDefinitions>
             <RowDefinition Height="34*" MinHeight="34"/>
             <RowDefinition Height="31*"/>
+            <!--
             <RowDefinition Height="23*" MinHeight="21"/>
-            <RowDefinition Height="26*" MinHeight="24"/>
+            -->
+            <RowDefinition Height="30" MinHeight="24"/>
             <RowDefinition Height="416*" MinHeight="200"/>
         </Grid.RowDefinitions>
         
-        <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" FontSize="18" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Bottom"/>
+        <TextBlock TextWrapping="NoWrap" Name="TextBlockList" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" FontSize="20" FontFamily="Calibri" FontStyle="Italic" VerticalAlignment="Center" Margin="20,0,0,0"/>
         
+        <!--
         <StackPanel Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left">
         <Button Content="Проверить список" Name="CheckList" Click="ButtonCheckList_Click"  HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" Height="20" Width="103"/>
-            <!-- <CheckBox VerticalAlignment="Center"  -->
-            <!--           Name="AutoUpdate"  -->
-            <!--           IsThreeState="True"  -->
-            <!--           Click="CheckBoxAutoUpdate_Click" -->
-            <!--           HorizontalAlignment="Right"  -->
-            <!--           FontWeight="Bold" Margin="10,0,0,0"> -->
-            <!--     Автопроверка -->
-            <!-- </CheckBox> -->
+            ~1~ <CheckBox VerticalAlignment="Center"  @1@
+            ~1~           Name="AutoUpdate"  @1@
+            ~1~           IsThreeState="True"  @1@
+            ~1~           Click="CheckBoxAutoUpdate_Click" @1@
+            ~1~           HorizontalAlignment="Right"  @1@
+            ~1~           FontWeight="Bold" Margin="10,0,0,0"> @1@
+            ~1~     Автопроверка @1@
+            ~1~ </CheckBox> @1@
         </StackPanel>
+        -->
         
-        <StackPanel Grid.Column="0" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="20" Width="322" Grid.ColumnSpan="2">
+        <StackPanel Grid.Column="0" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Height="20" Margin="10,0,0,0">
             <TextBlock Text="Введите ИНН контрагента" Foreground="Gray" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"/>
             <TextBox x:Name="Inn" MinWidth="110" PreviewTextInput="Inn_PreviewTextInput" MaxLength="12" TextChanged="Inn_TextChanged" Margin="5,0,0,0">
                 <TextBox.InputBindings>
@@ -52,32 +56,50 @@
             </Button>
         </StackPanel>
         
+            <Button Grid.Column="1" x:Name="Button" Grid.Row="2" Click="ButtonCompaniesSettings_Click" Content="Настройки Компаний" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" HorizontalAlignment="Right" VerticalAlignment="Center" Height="20" Margin="0,0,10,0">
+                <Button.ToolTip>
+                    <ToolTip>
+                        Настройка отображаемой информации о компаниях
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+        
         <ListView Grid.Column="0"
                   Grid.ColumnSpan="2"
-                  Grid.Row="4"
+                  Grid.Row="3"
                   x:Name="CompanyListView"
                   MouseLeftButtonUp="CompanySelected_Click"
                   GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler"
                   >
             <ListView.ContextMenu>
                 <ContextMenu>
+                    <!--
                     <MenuItem Header="Проверить" Click="Check_Context"/>
+                    -->
                     <!-- <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/> -->
                     <MenuItem Header="Удалить" Click="DeleteCompany_Context"/>
                 </ContextMenu>
             </ListView.ContextMenu>
             <ListView.View>
                 <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Inn}">Инн</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="150">Компания</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Score}">Рейтинг</GridViewColumn>
                     <GridViewColumn>
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <Image Source="{Binding Path=CLight}" MinHeight="16" MinWidth="16" MaxHeight="32" MaxWidth="32"/>
+                                <Image MinHeight="16" MinWidth="16" MaxHeight="32" MaxWidth="32">
+                                    <Image.Source>
+                                        <Binding ConverterParameter="CLight">
+                                            <Binding.Converter>
+                                                <local:CompanyToParameterConverter />
+                                            </Binding.Converter>
+                                        </Binding>
+                                    </Image.Source>
+                                </Image>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
-                    </GridViewColumn>
+                    </GridViewColumn><!--
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Inn}">Инн</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="150">Компания</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Score}">Рейтинг</GridViewColumn>-->
                 </GridView>
             </ListView.View>
         </ListView>

@@ -8,70 +8,68 @@ using FocusScoring;
 
 namespace FocusScoringGUI
 {
-    public class CompanyListsCache
+    public class ListsCache<T>
     {
-        private static CompanyListsCache cache;
         private XmlSerializer serializer;
         private string companyListPath;
 
-        public static CompanyListsCache Create(string companyListFolder ="CompanyLists" )
+        public ListsCache(string companyListFolder = null)
         {
+            companyListFolder = companyListFolder ?? typeof(T).Name + "Lists";
+            serializer = new XmlSerializer(typeof(T[]), new XmlRootAttribute("item"));
+            companyListPath = Settings.CachePath+ companyListFolder;
             
-            var retCache = cache ?? (cache = new CompanyListsCache());
-            retCache.companyListPath = Settings.CachePath+ companyListFolder;
-            
-            if (!Directory.Exists(retCache.companyListPath))
-                Directory.CreateDirectory(retCache.companyListPath);
-            
-            return retCache;
+            if (!Directory.Exists(companyListPath))
+                Directory.CreateDirectory(companyListPath);
         }
+        
+/*
 
-        private CompanyListsCache()
-        {
-            serializer = new XmlSerializer(typeof(CompanyData[]), new XmlRootAttribute("item"));
-        }
-
-        public IEnumerable<CompanyData> GetAllCompanies()
+        public IEnumerable<T> GetAllCompanies()
         {
             foreach (var filePath in Directory.GetFiles("./CompanyLists"))
                 using (var file = File.Open(filePath,FileMode.OpenOrCreate))
-                    foreach (var company in (CompanyData[]) serializer.Deserialize(file))
+                    foreach (var company in (T[]) serializer.Deserialize(file))
                         yield return company;
         }
         
         //Depricated
-        public Dictionary<string,List<CompanyData>> GetLists()
+        public Dictionary<string,List<T>> GetLists()
         {                                     //TODO get it thought constructor
-            var dict = new Dictionary<string,List<CompanyData>>();
+            var dict = new Dictionary<string,List<T>>();
             foreach (var filePath in Directory.GetFiles(companyListPath))
             {
                 using (var file = File.Open(filePath,FileMode.OpenOrCreate))
                 {
-                    dict[filePath.Split('\\').Last()] = ((CompanyData[]) serializer
+                    dict[filePath.Split('\\').Last()] = ((T[]) serializer
                         .Deserialize(file)).ToList();
                 }
             }
             return dict;
-        }
+        }*/
 
         public List<string> GetNames()
         {
             return Directory.GetFiles(companyListPath).Select(x => x.Split('\\').Last()).ToList();
         }
 
-        public List<CompanyData> GetList(string name)
+        public List<T> GetList(string name)
         {
             if (!File.Exists(companyListPath + "/" + name)) throw new FileNotFoundException();
             using (var file = File.Open(companyListPath + "/" + name, FileMode.OpenOrCreate))
-                return ((CompanyData[]) serializer.Deserialize(file)).ToList();
+                return ((T[]) serializer.Deserialize(file)).ToList();
         }
 
-        public void UpdateList(string name, IEnumerable<CompanyData> data)
+        public void UpdateList(string name, IEnumerable<T> data)
         {
-            if(File.Exists(companyListPath + "/" + name))
+            DeleteList(name);
+            using (var file = File.Create(companyListPath + "\\" + name))
+                serializer.Serialize(file, data.ToArray());
+            
+            /*if(File.Exists(companyListPath + "/" + name))
                 using (var file = File.Open(companyListPath + "/"+name,FileMode.OpenOrCreate))
                 {
-                    var dict = ((CompanyData[]) serializer.Deserialize(file)).ToDictionary(x=>x.Inn);
+                    var dict = ((T[]) serializer.Deserialize(file)).ToDictionary(x=>x.Inn);
                     foreach (var company in data)
                         dict[company.Inn] = company;
                     file.Position = 0;
@@ -82,9 +80,9 @@ namespace FocusScoringGUI
             {
                 using (var file = File.Open(companyListPath + "/" + name, FileMode.OpenOrCreate))
                     serializer.Serialize(file, data.ToArray());
-            }
+            }*/
         }
-
+        
         public void DeleteList(string name)
         {
             if(File.Exists(companyListPath + "/" + name))

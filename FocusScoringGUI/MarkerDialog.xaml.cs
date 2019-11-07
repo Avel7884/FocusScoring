@@ -13,11 +13,13 @@ namespace FocusScoringGUI
     {
         private readonly Marker marker;
         private readonly IEnumerable<MarkerSubData> markers;
+        private readonly bool overWriteExisting;
 
-        public MarkerDialog(Marker marker,IEnumerable<MarkerSubData> markers)
+        public MarkerDialog(Marker marker,IEnumerable<MarkerSubData> markers,bool overWriteExisting = false)
         {
             this.marker = marker;
             this.markers = markers;
+            this.overWriteExisting = overWriteExisting;
             InitializeComponent();
             Name.Text = marker.Name;
             //Colour.ItemsSource = ((MarkerColour[]) Enum.GetValues(typeof(MarkerColour))).Select(MainWindow.ColourCode);
@@ -38,12 +40,12 @@ namespace FocusScoringGUI
         
         private void Ok_OnClick(object sender, RoutedEventArgs e)
         {
-            if (markers.Select(x => x.Name).Contains(Name.Text))
+            if (!overWriteExisting && markers.Select(x => x.Name).Contains(Name.Text))
             {
                 MessageBox.Show("Маркер с таким именем уже существует.");
                 return;
             }
-            marker.Name = Name.Text; //TODO Check for names interception
+            marker.Name = Name.Text; 
                 
             var tmpCode = marker.Code;
             marker.Code = Code.Text;

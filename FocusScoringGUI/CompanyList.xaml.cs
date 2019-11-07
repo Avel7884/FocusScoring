@@ -2,10 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
+using System.Windows.Shapes;
 using FocusScoring;
 
 namespace FocusScoringGUI
@@ -14,57 +18,85 @@ namespace FocusScoringGUI
     {
         public CompanyList()
         {
-            Loaded +=  Init;
+            //Loaded +=  Init;
+            //TODO create it in constructor
+            cache = new ListsCache<string>("SettingsLists");
             InitializeComponent();
         }
         
+        /*
+
         private void Init(object o, EventArgs args)
         {
             var mainWindow = (MainWindow) ((Grid) Parent).Parent;
-            companiesCache = mainWindow.CompaniesCache;
-            manager = mainWindow.FocusManager;
-            markersList = mainWindow.Markers;
+            CompaniesCache = mainWindow.CompaniesCache;
+            Manager = mainWindow.FocusManager;
+            //markersList = mainWindow.MarkersControl;
             Key = mainWindow.KeyCounter;//TODO make dedicated object for this instead
             ListSetted = false;
-            currentList = new List<CompanyData>();
+            currentList = new List<Company>();
             CompanyListView.ItemsSource = currentList;
             currentListName = "";
-            mainWindow.Companies = this;//TODO maybe remove this line 
+            //mainWindow.Companies = this;//TODO maybe remove this line 
         }
         
-        public CompanyList(CompanyListsCache cache, FocusScoringManager manager, MarkersList markersList)
+        public CompanyList(ListsCache<string> cache, FocusScoringManager manager, MarkersList markersList)
         {
-            companiesCache = cache;
-            this.manager = manager;
+            CompaniesCache = cache;
+            this.Manager = manager;
             this.markersList = markersList;
-            currentList = new List<CompanyData>();
+            currentList = new List<Company>();
             CompanyListView.ItemsSource = currentList;
             currentListName = "";
             InitializeComponent();
         }
+*/
 
         private TextBlock Key;
         private bool ListSetted;
-        private CompanyListsCache companiesCache;
-        private FocusScoringManager manager;
-        private MarkersList markersList;
-        private List<CompanyData> currentList;
+        public ListsCache<string> CompaniesCache{ get; set; }
+        public FocusScoringManager Manager { get; set; }
+        public MarkersList markersList;
+        private List<Company> currentList;
         private string currentListName;
 
         public void ShowNewList(string listName)
         {
             ListSetted = true;
-            currentList = companiesCache.GetList(listName);
-            CompanyListView.ItemsSource = currentList;
             currentListName = listName;
             TextBlockList.Text = currentListName;
+            RepopulateColumns();
+            
+            currentList = new List<Company>();//CompaniesCache.GetList(listName).Select(Manager.CreateFromInn).ToList();
+            CompanyListView.ItemsSource = currentList;
+            
+            
+            BackgroundWorker worker = new BackgroundWorker();
+            worker.WorkerReportsProgress = true;
+            worker.DoWork += (o,e)=>{
+                foreach (var inn in CompaniesCache.GetList(listName))
+                {
+                    var company = Manager.CreateFromInn(inn);
+                    company.MakeScore();
+                    currentList.Add(company);
+                    (o as BackgroundWorker).ReportProgress(50);
+                }};
+            worker.ProgressChanged += (o,e)=>CompanyListView.Items.Refresh();
+            worker.RunWorkerAsync(100000);
+        }
+        
+
+
+        private void LoadCompanies(string listName)
+        {
+            
         }
         
         private void CompanySelected_Click(object s, RoutedEventArgs e)
         {
             if (CompanyListView.SelectedItem == null)
                 return;
-            markersList.ShowNewMarkers((CompanyData)CompanyListView.SelectedItem);
+            markersList.ShowNewMarkers((Company)CompanyListView.SelectedItem);
         }
 
         private static readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
@@ -86,6 +118,41 @@ namespace FocusScoringGUI
             }
         }
 
+        private void RepopulateColumns()
+        {/*
+            var gridView = new GridView();
+            var originalView = (GridView)CompanyListView.View;
+            gridView.Columns.Add(originalView.Columns[0]);
+            CompanyListView.View = gridView;*/
+         
+            var gridView = (GridView)CompanyListView.View;
+            for(int i = gridView.Columns.Count-1;i>0;i--)
+                gridView.Columns.RemoveAt(i);
+            
+            EnsureCache();
+            //gridView.Columns.Add(new GridViewColumn{CellTemplate = new DataTemplate(new Image{Source = new Binding()})});
+            converter = new CompanyToParameterConverter();
+            foreach (var setting in cache.GetList(currentListName))
+            {
+                gridView.Columns.Add(new GridViewColumn
+                {
+                    Header = setting, 
+                    DisplayMemberBinding = new Binding
+                    {
+                        Converter = converter,
+                        ConverterParameter = setting
+                    }
+                });
+            }
+        }
+
+        private void EnsureCache()
+        {
+            if(!cache.GetNames().Contains(currentListName))
+                cache.UpdateList(currentListName,new []{"Имя","Инн"});
+        }
+
+        /*
         private void ButtonCheckList_Click(object s, RoutedEventArgs e)
         {
             var dialogResult =
@@ -97,24 +164,30 @@ namespace FocusScoringGUI
             //var force = CurrentList.Any(x => !x.IsChecked);
 
             foreach (var data in currentList)
-                data.Check(manager);
-            Key.Text = "Ключ: использовано " + manager.Usages;
-            companiesCache.UpdateList(currentListName, currentList);
+                data.Check(Manager);
+            Key.Text = "Ключ: использовано " + Manager.Usages;
+            CompaniesCache.UpdateList(currentListName, currentList);
             CompanyListView.Items.Refresh();
         }
 
         private void Check_Context(object s, RoutedEventArgs e)
         {
             if (CompanyListView.SelectedItem == null)
-                return;
-            var data = (CompanyData)CompanyListView.SelectedItem;
-            data.IsChecked = true;
+                return;    
+            var data = (Company)CompanyListView.SelectedItem;
 
-            data.Check(manager);
+            data.Check(Manager);
             
-            Key.Text = "Ключ: использовано " + manager.Usages;
-            companiesCache.UpdateList(currentListName, currentList);
+            Key.Text = "Ключ: использовано " + Manager.Usages;
+            CompaniesCache.UpdateList(currentListName, currentList);
             CompanyListView.Items.Refresh();
+        }*/
+
+        private void ButtonCompaniesSettings_Click(object s, RoutedEventArgs e)
+        {                        
+            var settingsWindow = new CompanySettings(cache, currentListName);
+            settingsWindow.Show();
+            settingsWindow.Closed += (o, a) => RepopulateColumns();
         }
 
         private void ButtonAddCompany_Click(object s, RoutedEventArgs e)
@@ -137,17 +210,17 @@ namespace FocusScoringGUI
                 return;
             }
 
-            var data = new CompanyData(Inn.Text, manager);
-            currentList.Add(data);
-            companiesCache.UpdateList(currentListName, new[] { data });
+            var company = Manager.CreateFromInn(Inn.Text);
+            company.MakeScore();
+            currentList.Add(company);
+            CompaniesCache.UpdateList(currentListName,currentList.Select(x=>x.Inn));
             CompanyListView.Items.Refresh();
         }
 
         private void DeleteCompany_Context(object s, RoutedEventArgs e)
         {
-            currentList.Remove((CompanyData)CompanyListView.SelectedItem);
-            companiesCache.DeleteList(currentListName);
-            companiesCache.UpdateList(currentListName,currentList);
+            currentList.Remove((Company)CompanyListView.SelectedItem);
+            CompaniesCache.UpdateList(currentListName,currentList.Select(x=>x.Inn));
             CompanyListView.Items.Refresh();
         }
         
@@ -172,6 +245,8 @@ namespace FocusScoringGUI
         //Some stackoverflow shit. Not my.
         GridViewColumnHeader _lastHeaderClicked = null;
         ListSortDirection _lastDirection = ListSortDirection.Ascending;
+        private ListsCache<string> cache;
+        private CompanyToParameterConverter converter { get; set; }
 
         public void GridViewColumnHeaderClickedHandler(object sender, RoutedEventArgs e)
         {

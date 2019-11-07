@@ -40,9 +40,16 @@
     <ApplicationIcon>icon1.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Itenso.Windows.Controls.ListViewLayout, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\WPF.ListViewLayoutManager.1.3.0\lib\net30\Itenso.Windows.Controls.ListViewLayout.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
@@ -53,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="CompanyList.xaml" />
+    <Page Include="CompanySettings.xaml" />
     <Page Include="FocusKeyWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -73,13 +81,18 @@
     <Compile Include="CompanyList.xaml.cs">
       <DependentUpon>CompanyList.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CompanySetting.cs" />
+    <Compile Include="CompanySettings.xaml.cs">
+      <DependentUpon>CompanySettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyToParameterConverter.cs" />
     <Compile Include="FocusKeyWindow.xaml.cs">
       <DependentUpon>FocusKeyWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListOfCompanyLists.xaml.cs">
       <DependentUpon>ListOfCompanyLists.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CompanyListsCache.cs" />
+    <Compile Include="ListsCache.cs" />
     <Compile Include="Light.cs" />
     <Compile Include="ListDialog.xaml.cs">
       <DependentUpon>ListDialog.xaml</DependentUpon>
@@ -119,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FocusScoring\FocusScoring.csproj">

@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:FocusScoringGUI"
+             xmlns:listViewLayout="clr-namespace:Itenso.Windows.Controls.ListViewLayout;assembly=Itenso.Windows.Controls.ListViewLayout"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
@@ -16,31 +17,33 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="34*" MinHeight="34"/>
             <RowDefinition Height="31*"/>
+            <!--
             <RowDefinition Height="23*" MinHeight="21"/>
-            <RowDefinition Height="26*" MinHeight="24"/>
+            -->
+            <RowDefinition Height="30" MinHeight="24"/>
             <RowDefinition Height="416*" MinHeight="200"/>
         </Grid.RowDefinitions>
         
-        <TextBlock TextWrapping="Wrap" Name="TextBlockName" Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Margin="15,0,0,0"/>
+        <TextBlock TextWrapping="Wrap" Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Margin="15,0,0,0"/>
 
         <ListView Grid.Column="0"
                   Grid.ColumnSpan="3"
-                  Grid.Row="4"
+                  Grid.Row="3"
                   x:Name="MarkersListView"
                   MouseDoubleClick="MarkerSelected_Click"
-                 
+                  listViewLayout:ListViewLayoutManager.Enabled="true"
         >
             <!--GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler"-->
-            <ListView.View>
+            <ListView.View >
                 <GridView>
-                    <GridViewColumn Header="X">
+                    <GridViewColumn Header="X" listViewLayout:FixedColumn.Width="32">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <Image Source="{Binding Path=Colour}" MinWidth="16" MinHeight="16" MaxHeight="32" MaxWidth="32"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Width="400" Header="Описание">
+                    <GridViewColumn Header="Описание" listViewLayout:ProportionalColumn.Width="1">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <TextBlock TextWrapping="Wrap" Text="{Binding Description}" FontSize="14"></TextBlock>

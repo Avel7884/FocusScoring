@@ -9,19 +9,18 @@ namespace FocusScoringGUI
 {
     public partial class MarkersList : UserControl
     {
-        private FocusScoringManager manager;
+        public FocusScoringManager Manager { get; set; }
 
         public MarkersList()
         {
-            Loaded +=  Init;
+            //Loaded +=  Init;
             InitializeComponent();
         }
 
         private void Init(object o, EventArgs args)
         {
              var mainWindow = ((MainWindow) ((Grid) Parent).Parent);
-            manager = mainWindow.FocusManager;
-            mainWindow.Markers = this;
+            Manager = mainWindow.FocusManager;
         }
 
         public MarkersList(FocusScoringManager manager)
@@ -29,15 +28,15 @@ namespace FocusScoringGUI
             InitializeComponent();
         }
 
-        public void ShowNewMarkers(CompanyData companyData)
+        public void ShowNewMarkers(Company company)
         {
-            if (companyData.IsChecked)
+            /*if (companyData.IsChecked)
             {
-                companyData.Check(manager);
+                companyData.Check(Manager);
                 MarkersListView.ItemsSource = companyData.Company.Markers.Select(MarkerSubData.Create);
             }
-            else MarkersListView.ItemsSource = new MarkerSubData[0]; 
-            
+            else MarkersListView.ItemsSource = new MarkerSubData[0]; */
+            MarkersListView.ItemsSource = company.Markers.Select(MarkerSubData.Create);
             MarkersListView.Items.Refresh();
         }
         
@@ -46,7 +45,7 @@ namespace FocusScoringGUI
             if (MarkersListView.SelectedItem == null)
                 return;
             var markerData = ((MarkerSubData)MarkersListView.SelectedItem);
-            var dialog = new MarkerDialog(markerData.Marker,MarkersListView.Items.Cast<MarkerSubData>().ToArray());
+            var dialog = new MarkerDialog(markerData.Marker,MarkersListView.Items.Cast<MarkerSubData>().ToArray(),true);
             dialog.Show();
             dialog.Closed += (ev, ob) =>
             {
