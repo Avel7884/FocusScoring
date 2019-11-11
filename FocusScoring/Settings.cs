@@ -10,8 +10,8 @@ namespace FocusScoring
         public static string XMLCacheFolder { get; set; } = "XmlCache";
         public static string MarkersFolder { get; set; } = "Markers";
 
-        private static FocusScoringManager defaultManager;
-        public static FocusScoringManager DefaultManager
+        private static FocusKeyManager defaultManager;
+        public static FocusKeyManager DefaultManager
         {
             get
             {

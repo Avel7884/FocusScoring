@@ -19,27 +19,35 @@ namespace FocusScoringGUI
     public partial class MainWindow : Window
     {
         RegistryKey key;
-        public FocusScoringManager FocusManager { get; set; }
+        public FocusKeyManager FocusManager { get; set; }
         public ListsCache<string> CompaniesCache { get; }
         /*public MarkersList Markers { get; set; }
         public CompanyList Companies { get; set; }*/
 
-        public MainWindow(FocusScoringManager manager)
+        public MainWindow(FocusKeyManager manager)
         {
             FocusManager = manager;   
             CompaniesCache = new ListsCache<string>("CompanyLists");
             
             InitializeComponent();
+            CheckFocusKey(manager);
             
             MarkersControl.Manager = FocusManager;
 
-            CompanyControl.Manager = FocusManager;
+            CompanyControl.CompanyFactory = FocusManager.CreateCompanyFactory();
             CompanyControl.markersList = MarkersControl;
             CompanyControl.CompaniesCache = CompaniesCache;
+            CompanyControl.FocusKeyUsed += (o, a) => CheckFocusKey(manager);
             
             CompanyListsControl.Manager = FocusManager;
             CompanyListsControl.CompanyList = CompanyControl;
             CompanyListsControl.CompaniesCache = CompaniesCache;
+            CompanyListsControl.FocusKeyUsed += (o, a) => CheckFocusKey(manager);
+        }
+
+        private void CheckFocusKey(FocusKeyManager manager)
+        {
+            KeyCounter.Text = "Ключ: использовано " + manager.Usages;   
         }
         
         private void FocusWindowShow(object sender, RoutedEventArgs e)
@@ -59,6 +67,11 @@ namespace FocusScoringGUI
             var a = new MarkerListWindow(FocusManager);
             a.Owner = this;
             a.Show();
+        }
+
+        private void ListCheck_OnClick(object sender, RoutedEventArgs e)
+        { 
+            CompanyControl.CheckCurrentList();
         }
     }
 }

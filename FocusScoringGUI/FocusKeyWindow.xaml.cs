@@ -21,7 +21,7 @@ namespace FocusScoringGUI
     /// </summary>
     public partial class FocusKeyWindow : Window
     {
-        public FocusScoringManager Manager { get; set; }
+        public FocusKeyManager Manager { get; set; }
         private RegistryKey key;
 
         public FocusKeyWindow()
@@ -34,7 +34,7 @@ namespace FocusScoringGUI
                     if (key.GetValue("fkey") != null)
                     {
                         this.Hide();
-                        Manager = FocusScoringManager.StartAccess(Coder.Decode(key.GetValue("fkey").ToString()));
+                        Manager = FocusKeyManager.StartAccess(Coder.Decode(key.GetValue("fkey").ToString()));
                         var mW = new MainWindow(Manager);
                         mW.Owner = null;
                         mW.Show();
@@ -63,7 +63,7 @@ namespace FocusScoringGUI
                 MessageBox.Show("Введен некорректный ключ. Введите ключ длинной 40 знаков", "Конутр.Фокус");
             else
             {
-                Manager = FocusScoringManager.StartAccess(KeyBox.Password);
+                Manager = FocusKeyManager.StartAccess(KeyBox.Password);
                 if (Manager.Usages.StartsWith("Ошибка"))
                 {
                     MessageBox.Show("Проверьте правильность ключа");

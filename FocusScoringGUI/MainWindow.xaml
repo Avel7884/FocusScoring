@@ -8,34 +8,40 @@
         Icon="icon1.ico"
         Title="FocusScoring 0.1"
         WindowStartupLocation="CenterScreen"
-        d:DesignHeight="587"  d:DesignWidth="1009">
+        d:DesignHeight="587"  d:DesignWidth="1089">
     <!-- WindowState="Maximized"-->
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150" />
             <ColumnDefinition Width="150" />
-            <ColumnDefinition Width="140*"/>
-            <ColumnDefinition Width="218*" MinWidth="200"/>
+            <ColumnDefinition Width="140*" MinWidth="340"/>
+            <ColumnDefinition Width="218*" MinWidth="140"/>
             <ColumnDefinition Width="212*" />
-            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="25*" />
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="34*" MinHeight="34"/>
-            <RowDefinition Height="31*"/>
-            <RowDefinition Height="23*" MinHeight="21"/>
-            <RowDefinition Height="30" MinHeight="24"/>
+            <RowDefinition Height="34*" MinHeight="45"/>
+            <RowDefinition Height="31*" MinHeight="20"/>
+            <RowDefinition Height="23*" MinHeight="40"/>
+            <RowDefinition Height="30" MinHeight="30"/>
             <RowDefinition Height="416*" MinHeight="200"/>
             <RowDefinition MinHeight="26" Height="26*"/>
         </Grid.RowDefinitions>
         
+        <!--
         <Border BorderBrush="#FF7DD4A0" Height="1" Grid.Row="2" Grid.ColumnSpan="8" VerticalAlignment="Top" Background="#FF7DD4A0"/>
+        -->
         <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="2" Background="#FF4D9068"/>
         
         <local:MarkersList x:Name="MarkersControl" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5" />
         <!--Manager="{Binding ElementName=_this, Path=FocusManager}"-->
         <local:CompanyList x:Name="CompanyControl" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5"/>
         <local:ListOfCompanyLists x:Name="CompanyListsControl" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5"/>
+        
+        <DockPanel Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Button Name="CheckButton" FontSize="18" HorizontalAlignment="Right" VerticalAlignment="Center" Height="45" Width="120" Click="ListCheck_OnClick" Background="#FF7DD4A0"/>
+        </DockPanel>
         
         <DockPanel Grid.Row="5" Grid.ColumnSpan="8">
             <TextBlock Name="KeyCounter" Text="Ключ: использовано" VerticalAlignment="Center"/>

@@ -55,7 +55,7 @@ namespace FocusScoringGUI
         private TextBlock Key;
         private bool ListSetted;
         public ListsCache<string> CompaniesCache{ get; set; }
-        public FocusScoringManager Manager { get; set; }
+        public ICompanyFactory CompanyFactory { get; set; }
         public MarkersList markersList;
         private List<Company> currentList;
         private string currentListName;
@@ -72,24 +72,33 @@ namespace FocusScoringGUI
             
             
             BackgroundWorker worker = new BackgroundWorker();
-            worker.WorkerReportsProgress = true;
-            worker.DoWork += (o,e)=>{
-                foreach (var inn in CompaniesCache.GetList(listName))
-                {
-                    var company = Manager.CreateFromInn(inn);
-                    company.MakeScore();
-                    currentList.Add(company);
-                    (o as BackgroundWorker).ReportProgress(50);
-                }};
-            worker.ProgressChanged += (o,e)=>CompanyListView.Items.Refresh();
-            worker.RunWorkerAsync(100000);
-        }
-        
+            /*
 
-
-        private void LoadCompanies(string listName)
-        {
+            foreach (var inn in CompaniesCache.GetList(listName))
+            {
+                var company = CompanyFactory.CreateFromInn(inn);
+                //lock (currentList)
+                currentList.Add(company);
+                //(o as BackgroundWorker).ReportProgress(50);
+            }*/
             
+            worker.WorkerReportsProgress = true;
+            worker.DoWork += (o,e)=>
+            {
+                var l = CompaniesCache.GetList(listName);
+                for(int i=0;i<l.Count;i++)
+                {
+                    var company = CompanyFactory.CreateFromInn(l[i]);
+                    //lock (currentList)
+                        //currentList.Add(company);
+                    (o as BackgroundWorker).ReportProgress(i*100/l.Count,company);
+                }};
+            worker.ProgressChanged += (o,e) =>
+            {
+                currentList.Add(e.UserState as Company);
+                CompanyListView.Items.Refresh();
+            };
+            worker.RunWorkerAsync(100000);
         }
         
         private void CompanySelected_Click(object s, RoutedEventArgs e)
@@ -210,11 +219,11 @@ namespace FocusScoringGUI
                 return;
             }
 
-            var company = Manager.CreateFromInn(Inn.Text);
-            company.MakeScore();
+            var company = CompanyFactory.CreateFromInn(Inn.Text);
             currentList.Add(company);
             CompaniesCache.UpdateList(currentListName,currentList.Select(x=>x.Inn));
             CompanyListView.Items.Refresh();
+            FocusKeyUsed.Invoke(this,null);
         }
 
         private void DeleteCompany_Context(object s, RoutedEventArgs e)
@@ -314,6 +323,37 @@ namespace FocusScoringGUI
                 return;
             }
             dataView.Refresh();
+        }
+
+        public event Action<object, EventArgs> FocusKeyUsed;
+
+        public void CheckCurrentList()
+        {
+            var pastList = currentList;
+            currentList = new List<Company>();
+            CompanyListView.ItemsSource = currentList;
+            CompanyListView.Items.Refresh();
+            
+            var worker = new BackgroundWorker();
+            
+            worker.WorkerReportsProgress = true;
+            worker.DoWork += (o,e)=>
+            {
+                for(int i=0;i<pastList.Count;i++)
+                {
+                    var company = pastList[i];
+                    company.ForcedMakeScore();
+                    (o as BackgroundWorker).ReportProgress(i*100/pastList.Count,company);
+                }};
+            
+            worker.ProgressChanged += (o,e) =>
+            {
+                currentList.Add(e.UserState as Company);
+                CompanyListView.Items.Refresh();
+            };
+            
+            worker.RunWorkerAsync(100000);
+            
         }
     }
 }

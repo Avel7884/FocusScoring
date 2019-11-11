@@ -9,7 +9,7 @@ namespace FocusScoringGUI
 {
     public partial class MarkersList : UserControl
     {
-        public FocusScoringManager Manager { get; set; }
+        public FocusKeyManager Manager { get; set; }
 
         public MarkersList()
         {
@@ -23,7 +23,7 @@ namespace FocusScoringGUI
             Manager = mainWindow.FocusManager;
         }
 
-        public MarkersList(FocusScoringManager manager)
+        public MarkersList(FocusKeyManager manager)
         {
             InitializeComponent();
         }

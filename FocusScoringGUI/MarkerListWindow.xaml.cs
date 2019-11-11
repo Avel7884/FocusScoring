@@ -10,10 +10,10 @@ namespace FocusScoringGUI
 {
     public partial class MarkerListWindow : Window
     {
-        private readonly FocusScoringManager manager;
+        private readonly FocusKeyManager manager;
         private List<MarkerSubData> markersList;
 
-        public MarkerListWindow(FocusScoringManager manager)
+        public MarkerListWindow(FocusKeyManager manager)
         {
             this.manager = manager;
             InitializeComponent();
@@ -29,7 +29,7 @@ namespace FocusScoringGUI
             if(MarkersList.SelectedItem == null)
                 return;
             var markerData = ((MarkerSubData) MarkersList.SelectedItem);
-            var dialog = new MarkerDialog(markerData.Marker,markersList);
+            var dialog = new MarkerDialog(markerData.Marker, markersList, true);
             dialog.ShowDialog();
             dialog.Closed += (ev,ob) =>
             {

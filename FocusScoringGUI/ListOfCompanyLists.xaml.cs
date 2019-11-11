@@ -23,7 +23,7 @@ namespace FocusScoringGUI
             companiesCache = mainWindow.CompaniesCache;*/
         }
         //TODO clear
-        public ListOfCompanyLists(ListsCache<string> cache, FocusScoringManager manager, CompanyList companyList)
+        public ListOfCompanyLists(ListsCache<string> cache, FocusKeyManager manager, CompanyList companyList)
         {
             InitializeComponent();
             this.Manager = manager;
@@ -57,7 +57,7 @@ namespace FocusScoringGUI
             }
         }
 
-        public FocusScoringManager Manager{ get; set; } //TODO check if key used more in namecheck
+        public FocusKeyManager Manager{ get; set; } //TODO check if key used more in namecheck
 
         //private CompanyList companyList;
         public CompanyList CompanyList { get; set; }
@@ -87,7 +87,8 @@ namespace FocusScoringGUI
             ListView.Items.Refresh();
             ListView.SelectedItem = ListNames.Last();
             CompanyList.ShowNewList(name);
-
+            FocusKeyUsed.Invoke(this,null);
+            
             return null;
         }
 
@@ -100,6 +101,8 @@ namespace FocusScoringGUI
             ListNames.Remove(name);
             ListView.Items.Refresh();
         }
+        
+        public event Action<object, EventArgs> FocusKeyUsed;
 
         private void AddList_Click(object sender, RoutedEventArgs e)
         {

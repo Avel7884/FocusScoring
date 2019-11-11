@@ -23,11 +23,11 @@ namespace FocusScoring
             timer.Elapsed += (o, e) =>
             {
                 if (Check(out var changed)) 
-                    DataUpdate(o, new MonitorEventArgs(changed));
+                    CompaniesUpdated(o, new MonitorEventArgs(changed));
             };
         }
 
-        public event Action<object, MonitorEventArgs> DataUpdate; 
+        public event Action<object, MonitorEventArgs> CompaniesUpdated; 
         
         private bool Check(out string[] changedCompanies)
         {
@@ -42,6 +42,14 @@ namespace FocusScoring
             return changedCompanies.Length != 0;
         }
         
+        public string[] MonitoringCompanies
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
+
         public bool Update(IEnumerable<string> inns,bool append = true)
         {
             var data = Encoding.ASCII.GetBytes(string.Join(" ", inns));
@@ -56,6 +64,11 @@ namespace FocusScoring
 
             var response = (HttpWebResponse)request.GetResponse();
             return (int)response.StatusCode >= 200 && (int)response.StatusCode < 300;
+        }
+
+        public void Delete()
+        {
+            
         }
 
         public class MonitorEventArgs : EventArgs

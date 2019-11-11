@@ -17,14 +17,15 @@ namespace FocusScoring
         private Scorer scorer;
         private Dictionary<string,CompanyParameter> paramDict;
 
-        internal Company(string inn, Dictionary<string, CompanyParameter> paramDict, FocusScoringManager manager = null)
-        {
+        internal Company(string inn, Dictionary<string, CompanyParameter> paramDict, FocusKeyManager manager = null)
+        {    //TODO remove singleton
             manager = manager ?? Settings.DefaultManager;
             access = manager.Access;
             scorer = manager.Scorer;
             Inn = inn;
             this.paramDict = paramDict;
             Score = -1;
+            MakeScore();
         }
 
         public void MakeScore()
@@ -35,6 +36,7 @@ namespace FocusScoring
 
         public void ForcedMakeScore()
         {
+            //TODO Check connection
             foreach (var method in (ApiMethod[])Enum.GetValues(typeof(ApiMethod)))
                 access.Clear(Inn,method);
             MakeScore();
