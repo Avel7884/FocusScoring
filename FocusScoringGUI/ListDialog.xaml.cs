@@ -42,7 +42,10 @@ namespace FocusScoringGUI
  ,.    ,".ToArray(), StringSplitOptions.RemoveEmptyEntries);
             var error = addList.Invoke(ListName.Text, new List<string>(inns));
             if (error != null)
-                MessageBox.Show(error);
+            {
+                if(error != "") 
+                    MessageBox.Show(error);
+            }
             else Close();
         }
     }

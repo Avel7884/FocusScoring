@@ -31,6 +31,8 @@ namespace FocusScoringGUI
             
             InitializeComponent();
             CheckFocusKey(manager);
+
+            CheckButton.Content = "Проверить список";
             
             MarkersControl.Manager = FocusManager;
 

@@ -17,7 +17,13 @@ namespace FocusScoringGUI
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value==null || !(value is Company company) || !(parameter is string parameterName))
+            if(value==null)
+                if (parameter == "CLight")
+                    return InitLight(0); //TODO Create new shield
+                else
+                    return "";
+            
+            if (!(value is Company company) || !(parameter is string parameterName))
                 return value;
 
             switch (parameterName)
@@ -27,7 +33,8 @@ namespace FocusScoringGUI
                 case "Инн": return company.Inn;
                 case "Рейтинг": return company.Score;
                 default:
-                    return company.GetParam(LibraryParamsDict[parameterName]);
+                    var (param,parser)= LibraryParamsDict[parameterName];
+                    return parser(company.GetParam(param));
                     /*var methodInfo = value.GetType().GetMethod(methodName, new Type[0]);
             return methodInfo == null ? value : methodInfo.Invoke(value, new object[0]);*/
             }
@@ -39,12 +46,39 @@ namespace FocusScoringGUI
             throw new NotSupportedException("MethodToValueConverter can only be used for one way conversion.");
         }
         
-        private static Dictionary<string,string> LibraryParamsDict = new Dictionary<string, string>
+        private static Dictionary<string,(string,Func<string,string>)> LibraryParamsDict = new Dictionary<string, (string,Func<string,string>)>
         {
-            {"ФИО учеридителя", "FIO"},
-            {"Адресс", "legalAddress"}
+            {"ФИО учеридителя", ("FIO",s=>s)},
+            {"Адресс", ("legalAddress",AddrParser)},
+            {"Деректор",("head",s=>s)},
+            {"Реорганизация" , ("Reorganizing",s=>s=="" ? "" : "В состоянии реорганизации")}
         };
+
+
+        static List<(string,string)> locations = new List<(string, string)>
+        {
+            ("облобласть"," обл."),
+            ("ггород"," г."),
+            ("пр-ктпроспект"," пр-кт "),
+            ("р-нрайон"," р-н"),
+            ("рпрабочий поселок"," рп "),
+            ("домдом"," дом "),
+            ("улулица"," ул."),
+            ("стрстроение"," стр."),
+            ("перпереулок","пер.")
+        };
+        private static string AddrParser(string addr)
+        {
+            if (addr == null || addr.Length == 0)
+                return addr;
+            addr = addr.TrimStart("1234567890".ToCharArray());
+            foreach (var (full,shor) in locations)
+                addr = addr.Replace(full, shor); //TODO Optimize!!!!
+            return addr.Substring(0,addr.Length-20);
+        }
         
+        
+
         private Uri InitLight(int score)
         {
             if (score <= 39)

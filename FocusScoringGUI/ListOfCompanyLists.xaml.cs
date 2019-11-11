@@ -64,14 +64,14 @@ namespace FocusScoringGUI
 
         private void ListSelected_Click(object s, RoutedEventArgs e)
         {
-            if (ListView.SelectedItem == null)
+            if (ListView.SelectedItem == null || 
+                ListView.SelectedItem.Equals(CompanyList.CurrentListName))
                 return;
             CompanyList.ShowNewList((string)ListView.SelectedItem);
         }
 
-        private string ButtonAddList(string name, List<string> list)
+        private string CheckAndAddList(string name, List<string> list)
         {
-            
             if (CompaniesCache.GetNames().Contains(name))
                 return "Лист с данным названием уже существует";
 
@@ -81,15 +81,35 @@ namespace FocusScoringGUI
             foreach (var inn in list)
                 if (!((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
                     return inn + " --некорректный инн";
+
+            var usagesNeeded = CountFocusKeyUsages(list);
+            if (usagesNeeded == 0)
+            {
+                AddList(name,list);
+                return null;
+            }
             
+            var mb = MessageBox.Show($"Ключ будет использован {usagesNeeded} раз.");
+            if (mb != MessageBoxResult.OK) 
+                return "";
+            
+            AddList(name,list);
+            return null;
+        }
+
+        private int CountFocusKeyUsages(List<string> companies)
+        {
+            return companies.Sum(x => Manager.IsCompanyUsed(x) ? 0 : 1);
+        }
+
+        private void AddList(string name, List<string> list)
+        {
             CompaniesCache.UpdateList(name, list);
             ListNames.Add(name);
             ListView.Items.Refresh();
             ListView.SelectedItem = ListNames.Last();
             CompanyList.ShowNewList(name);
             FocusKeyUsed.Invoke(this,null);
-            
-            return null;
         }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)
@@ -106,7 +126,7 @@ namespace FocusScoringGUI
 
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
-            new ListDialog(ButtonAddList,CompaniesCache).Show();
+            new ListDialog(CheckAndAddList,CompaniesCache).Show();
         }
     }
 

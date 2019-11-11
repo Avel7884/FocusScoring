@@ -28,8 +28,10 @@ namespace FocusScoring
         public static FocusKeyManager StartAccess(string focusKey)
         {
             Settings.DefaultManager = new FocusKeyManager(focusKey);
-            return Settings.DefaultManager;
+            return Settings.DefaultManager; //TODO Remove singleton
         }
+        
+        
 
         public ListMonitorer CreateMonitor()
         {
@@ -59,6 +61,14 @@ namespace FocusScoring
                     new SingleXmlMemoryCache(), 
                     new XmlFileSystemCache()
                 }, downloader);
+        }
+
+        public bool IsCompanyUsed(string inn)
+        {
+            if (!downloader.TryGetXml($"focus-api.kontur.ru/api3/req/expectedLimitUsage?key={focusKey}&inn={inn}&xml",
+                out var doc))
+                return true;
+            return doc.SelectNodes("/expectedLimitUsage/count").Cast<XmlNode>().First().InnerText=="0";
         }
         
         private ApiMethod[] GetAvailableMethods()

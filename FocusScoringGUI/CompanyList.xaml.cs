@@ -58,13 +58,13 @@ namespace FocusScoringGUI
         public ICompanyFactory CompanyFactory { get; set; }
         public MarkersList markersList;
         private List<Company> currentList;
-        private string currentListName;
+        public string CurrentListName { get; private set; }
 
         public void ShowNewList(string listName)
         {
             ListSetted = true;
-            currentListName = listName;
-            TextBlockList.Text = currentListName;
+            CurrentListName = listName;
+            TextBlockList.Text = CurrentListName;
             RepopulateColumns();
             
             currentList = new List<Company>();//CompaniesCache.GetList(listName).Select(Manager.CreateFromInn).ToList();
@@ -141,7 +141,7 @@ namespace FocusScoringGUI
             EnsureCache();
             //gridView.Columns.Add(new GridViewColumn{CellTemplate = new DataTemplate(new Image{Source = new Binding()})});
             converter = new CompanyToParameterConverter();
-            foreach (var setting in cache.GetList(currentListName))
+            foreach (var setting in cache.GetList(CurrentListName))
             {
                 gridView.Columns.Add(new GridViewColumn
                 {
@@ -157,8 +157,8 @@ namespace FocusScoringGUI
 
         private void EnsureCache()
         {
-            if(!cache.GetNames().Contains(currentListName))
-                cache.UpdateList(currentListName,new []{"Имя","Инн"});
+            if(!cache.GetNames().Contains(CurrentListName))
+                cache.UpdateList(CurrentListName,new []{"Имя","Инн"});
         }
 
         /*
@@ -194,7 +194,7 @@ namespace FocusScoringGUI
 
         private void ButtonCompaniesSettings_Click(object s, RoutedEventArgs e)
         {                        
-            var settingsWindow = new CompanySettings(cache, currentListName);
+            var settingsWindow = new CompanySettings(cache, CurrentListName);
             settingsWindow.Show();
             settingsWindow.Closed += (o, a) => RepopulateColumns();
         }
@@ -221,7 +221,7 @@ namespace FocusScoringGUI
 
             var company = CompanyFactory.CreateFromInn(Inn.Text);
             currentList.Add(company);
-            CompaniesCache.UpdateList(currentListName,currentList.Select(x=>x.Inn));
+            CompaniesCache.UpdateList(CurrentListName,currentList.Select(x=>x.Inn));
             CompanyListView.Items.Refresh();
             FocusKeyUsed.Invoke(this,null);
         }
@@ -229,7 +229,7 @@ namespace FocusScoringGUI
         private void DeleteCompany_Context(object s, RoutedEventArgs e)
         {
             currentList.Remove((Company)CompanyListView.SelectedItem);
-            CompaniesCache.UpdateList(currentListName,currentList.Select(x=>x.Inn));
+            CompaniesCache.UpdateList(CurrentListName,currentList.Select(x=>x.Inn));
             CompanyListView.Items.Refresh();
         }
         

@@ -40,7 +40,9 @@
         <local:ListOfCompanyLists x:Name="CompanyListsControl" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5"/>
         
         <DockPanel Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Center">
-            <Button Name="CheckButton" FontSize="18" HorizontalAlignment="Right" VerticalAlignment="Center" Height="45" Width="120" Click="ListCheck_OnClick" Background="#FF7DD4A0"/>
+            <Button Name="CheckButton"  
+                    FontSize="16" Foreground="White"
+                    HorizontalAlignment="Right" VerticalAlignment="Center" Height="45" Width="160" Click="ListCheck_OnClick" Background="#FF7DD4A0"/>
         </DockPanel>
         
         <DockPanel Grid.Row="5" Grid.ColumnSpan="8">
