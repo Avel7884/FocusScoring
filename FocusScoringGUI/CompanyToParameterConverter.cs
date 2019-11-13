@@ -12,8 +12,11 @@ namespace FocusScoringGUI
 {
     public class CompanyToParameterConverter : IValueConverter
     {
-        public static IEnumerable<string> SettedParameters => 
-            new[] {"Имя", "Инн", "Рейтинг" }.Concat(LibraryParamsDict.Keys);
+        public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager) =>
+            new[] {"Имя", "Инн", "Рейтинг"}.Concat(LibraryParamsDict
+                .Where(p => manager.IsParamAvailable(p.Value.Item1))
+                .Select(p => p.Key));
+
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
@@ -48,10 +51,14 @@ namespace FocusScoringGUI
         
         private static Dictionary<string,(string,Func<string,string>)> LibraryParamsDict = new Dictionary<string, (string,Func<string,string>)>
         {
-            {"ФИО учеридителя", ("FIO",s=>s)},
+            {"ФИО учеридителя", ("headName",s=>s)},
+            {"Осн. вид деятельности.", ("Activities",s=>s)},
             {"Адресс", ("legalAddress",AddrParser)},
-            {"Деректор",("head",s=>s)},
-            {"Реорганизация" , ("Reorganizing",s=>s=="" ? "" : "В состоянии реорганизации")}
+            //{"Деректор",("head",s=>s)},
+            {"Статус" , ("Status",s=>s)},//("Reorganizing",s=>s=="" ? "" : "В состоянии реорганизации")}
+            {"Дата Регистрации", ("regDate", s=>s)},
+            {"Телефон",("phone",s=>s)},
+            {"Возможный сайт",("site",s=>s)}
         };
 
 

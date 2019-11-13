@@ -70,21 +70,35 @@ namespace FocusScoring
                 return true;
             return doc.SelectNodes("/expectedLimitUsage/count").Cast<XmlNode>().First().InnerText=="0";
         }
-        
+
+        private ApiMethod[] availableMethods;
         private ApiMethod[] GetAvailableMethods()
         {    //TODO pass error here somehow 
+            if (availableMethods != null)
+                return availableMethods;
             if (!downloader.TryGetXml("https://focus-api.kontur.ru/api3/stat?xml&key=" + focusKey, out var doc))
-                return new ApiMethod[0]; // "Ошибка! Проверьте подключение к интернет и повторите попытку.";
+            {
+                availableMethods = new ApiMethod[0];
+                return availableMethods; // "Ошибка! Проверьте подключение к интернет и повторите попытку.";
+            }
             var methods = 
                 doc.SelectNodes("/ArrayOfstat/stat/methodName")
                     .Cast<XmlNode>()
                     .SelectMany(x => x.InnerText.Split(new[] {" & "}, StringSplitOptions.RemoveEmptyEntries))
                     .Select(x => string.Join("", x.Split('/').Skip(1)))
                     .ToArray();
-            return ((ApiMethod[]) Enum.GetValues(typeof(ApiMethod)))
+            availableMethods = ((ApiMethod[]) Enum.GetValues(typeof(ApiMethod)))
                 .Where(x => methods.Contains(x.ToString()))
                 .ToArray();
-        }  
+            return availableMethods;
+        }
+
+        public bool IsParamAvailable(string paramName)
+        {
+            if (!CompanyFactory.paramTupDict.TryGetValue(paramName,out var t))
+                throw new ArgumentException("InvalidParamName");
+            return GetAvailableMethods().Contains(t.Item1);
+        } 
         
         private string CheckUsages()
         {

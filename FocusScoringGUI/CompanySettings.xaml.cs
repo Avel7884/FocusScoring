@@ -10,7 +10,7 @@ namespace FocusScoringGUI
         private readonly ListsCache<string> settings;
         private readonly string listName;
 
-        public CompanySettings(ListsCache<string> settings, string listName)
+        public CompanySettings(ListsCache<string> settings, string listName, IEnumerable<string> allowedParameters)
         {
             this.settings = settings;
             this.listName = listName;
@@ -25,7 +25,7 @@ namespace FocusScoringGUI
 
             InitializeComponent();
             
-            ListView.ItemsSource = CompanyToParameterConverter.SettedParameters
+            ListView.ItemsSource = allowedParameters
                 .Select(x => new CompanySetting
                     {Check = selected.Contains(x), Name = x})
                 .ToArray();

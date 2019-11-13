@@ -77,10 +77,16 @@ namespace FocusScoringGUI
 
             if (name == "")
                 return "Название не может быть пустым";
+
+            list = list.Where(inn =>
+                    ((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
+                .ToList();
             
+            /*
+
             foreach (var inn in list)
                 if (!((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
-                    return inn + " --некорректный инн";
+                    return inn + " --некорректный инн";*/
 
             var usagesNeeded = CountFocusKeyUsages(list);
             if (usagesNeeded == 0)
@@ -118,6 +124,7 @@ namespace FocusScoringGUI
                 return;
             var name = (string)ListView.SelectedItem;
             CompaniesCache.DeleteList(name);
+            //TODO Delete list settings as well!
             ListNames.Remove(name);
             ListView.Items.Refresh();
         }

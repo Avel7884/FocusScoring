@@ -19,86 +19,66 @@ namespace FocusScoringGUI
         public CompanyList()
         {
             //Loaded +=  Init;
-            //TODO create it in constructor
+            //TODO create it in the constructor
             cache = new ListsCache<string>("SettingsLists");
             InitializeComponent();
         }
-        
-        /*
-
-        private void Init(object o, EventArgs args)
-        {
-            var mainWindow = (MainWindow) ((Grid) Parent).Parent;
-            CompaniesCache = mainWindow.CompaniesCache;
-            Manager = mainWindow.FocusManager;
-            //markersList = mainWindow.MarkersControl;
-            Key = mainWindow.KeyCounter;//TODO make dedicated object for this instead
-            ListSetted = false;
-            currentList = new List<Company>();
-            CompanyListView.ItemsSource = currentList;
-            currentListName = "";
-            //mainWindow.Companies = this;//TODO maybe remove this line 
-        }
-        
-        public CompanyList(ListsCache<string> cache, FocusScoringManager manager, MarkersList markersList)
-        {
-            CompaniesCache = cache;
-            this.Manager = manager;
-            this.markersList = markersList;
-            currentList = new List<Company>();
-            CompanyListView.ItemsSource = currentList;
-            currentListName = "";
-            InitializeComponent();
-        }
-*/
 
         private TextBlock Key;
         private bool ListSetted;
+        public FocusKeyManager Manager { get; set; } //TODO Consider refactor to not have it here 
         public ListsCache<string> CompaniesCache{ get; set; }
         public ICompanyFactory CompanyFactory { get; set; }
         public MarkersList markersList;
         private List<Company> currentList;
         public string CurrentListName { get; private set; }
+        private BackgroundWorker Worker;//TODO consider use threadpull
 
         public void ShowNewList(string listName)
         {
+            Worker?.CancelAsync();
+            
             ListSetted = true;
             CurrentListName = listName;
             TextBlockList.Text = CurrentListName;
             RepopulateColumns();
-            
-            currentList = new List<Company>();//CompaniesCache.GetList(listName).Select(Manager.CreateFromInn).ToList();
-            CompanyListView.ItemsSource = currentList;
-            
-            
-            BackgroundWorker worker = new BackgroundWorker();
-            /*
 
-            foreach (var inn in CompaniesCache.GetList(listName))
-            {
-                var company = CompanyFactory.CreateFromInn(inn);
-                //lock (currentList)
-                currentList.Add(company);
-                //(o as BackgroundWorker).ReportProgress(50);
-            }*/
-            
-            worker.WorkerReportsProgress = true;
-            worker.DoWork += (o,e)=>
-            {
-                var l = CompaniesCache.GetList(listName);
-                for(int i=0;i<l.Count;i++)
+            currentList = new List<Company>(); //CompaniesCache.GetList(listName).Select(Manager.CreateFromInn).ToList();
+            CompanyListView.ItemsSource = currentList;
+
+            ProcessCompanies(listName);
+
+        }
+
+        private void ProcessCompanies(string listName)
+        {
+            Worker = new BackgroundWorker();
+            Worker.WorkerReportsProgress = true;
+            Worker.WorkerSupportsCancellation = true;
+
+            var l = CompaniesCache.GetList(listName);
+            foreach (var inn in l)
+                Worker.DoWork += (o, e) =>
                 {
-                    var company = CompanyFactory.CreateFromInn(l[i]);
-                    //lock (currentList)
-                        //currentList.Add(company);
-                    (o as BackgroundWorker).ReportProgress(i*100/l.Count,company);
-                }};
-            worker.ProgressChanged += (o,e) =>
+                    
+                    var bv = o as BackgroundWorker;
+                    if(bv.CancellationPending) return;
+                    var company = CompanyFactory.CreateFromInn(inn);
+                    if(bv.CancellationPending) return;
+                    bv.ReportProgress(currentList.Count * 100 / l.Count, company);
+                };
+            
+            Worker.ProgressChanged += (o,e) =>
             {
-                currentList.Add(e.UserState as Company);
-                CompanyListView.Items.Refresh();
+                lock (currentList)
+                lock (CompanyListView)
+                {     
+                    currentList.Add(e.UserState as Company);
+                    CompanyListView.Items.Refresh();
+                }
             };
-            worker.RunWorkerAsync(100000);
+            
+            Worker.RunWorkerAsync(100000);
         }
         
         private void CompanySelected_Click(object s, RoutedEventArgs e)
@@ -160,41 +140,11 @@ namespace FocusScoringGUI
             if(!cache.GetNames().Contains(CurrentListName))
                 cache.UpdateList(CurrentListName,new []{"Имя","Инн"});
         }
-
-        /*
-        private void ButtonCheckList_Click(object s, RoutedEventArgs e)
-        {
-            var dialogResult =
-                MessageBox.Show(
-                    "Ключ будет использован не более " + currentList.Count(x => !x.IsChecked) + " раз",
-                    "Предупреждение", MessageBoxButton.OKCancel);
-            if (dialogResult == MessageBoxResult.Cancel)
-                return;
-            //var force = CurrentList.Any(x => !x.IsChecked);
-
-            foreach (var data in currentList)
-                data.Check(Manager);
-            Key.Text = "Ключ: использовано " + Manager.Usages;
-            CompaniesCache.UpdateList(currentListName, currentList);
-            CompanyListView.Items.Refresh();
-        }
-
-        private void Check_Context(object s, RoutedEventArgs e)
-        {
-            if (CompanyListView.SelectedItem == null)
-                return;    
-            var data = (Company)CompanyListView.SelectedItem;
-
-            data.Check(Manager);
-            
-            Key.Text = "Ключ: использовано " + Manager.Usages;
-            CompaniesCache.UpdateList(currentListName, currentList);
-            CompanyListView.Items.Refresh();
-        }*/
-
+        
         private void ButtonCompaniesSettings_Click(object s, RoutedEventArgs e)
-        {                        
-            var settingsWindow = new CompanySettings(cache, CurrentListName);
+        {            
+            var settingsWindow = new CompanySettings(cache, CurrentListName, 
+                CompanyToParameterConverter.GetAvailableParameters(Manager));
             settingsWindow.Show();
             settingsWindow.Closed += (o, a) => RepopulateColumns();
         }
@@ -329,31 +279,40 @@ namespace FocusScoringGUI
 
         public void CheckCurrentList()
         {
+            CompanyListView.ItemsSource = currentList;
+            CompanyListView.Items.Refresh();
+            
+            //TODO DRYish
             var pastList = currentList;
             currentList = new List<Company>();
             CompanyListView.ItemsSource = currentList;
             CompanyListView.Items.Refresh();
             
-            var worker = new BackgroundWorker();
-            
-            worker.WorkerReportsProgress = true;
-            worker.DoWork += (o,e)=>
-            {
-                for(int i=0;i<pastList.Count;i++)
+            Worker = new BackgroundWorker();
+            Worker.WorkerReportsProgress = true;
+            Worker.WorkerSupportsCancellation = true;
+
+            foreach (var company in pastList)
+                Worker.DoWork += (o, e) =>
                 {
-                    var company = pastList[i];
-                    company.ForcedMakeScore();
-                    (o as BackgroundWorker).ReportProgress(i*100/pastList.Count,company);
-                }};
+                    var bv = o as BackgroundWorker;
+                    if(bv.CancellationPending) return;
+                    company.ForcedMakeScore(); 
+                    if(bv.CancellationPending) return;
+                    bv.ReportProgress(currentList.Count * 100 / pastList.Count, company);
+                };
             
-            worker.ProgressChanged += (o,e) =>
+            Worker.ProgressChanged += (o,e) =>
             {
-                currentList.Add(e.UserState as Company);
-                CompanyListView.Items.Refresh();
+                lock (currentList)
+                lock (CompanyListView)
+                {     
+                    currentList.Add(e.UserState as Company);
+                    CompanyListView.Items.Refresh();
+                }
             };
             
-            worker.RunWorkerAsync(100000);
-            
+            Worker.RunWorkerAsync(100000);
         }
     }
 }

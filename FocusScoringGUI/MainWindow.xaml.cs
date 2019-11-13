@@ -37,6 +37,7 @@ namespace FocusScoringGUI
             MarkersControl.Manager = FocusManager;
 
             CompanyControl.CompanyFactory = FocusManager.CreateCompanyFactory();
+            CompanyControl.Manager = FocusManager;//TODO Attepmpt to remove it
             CompanyControl.markersList = MarkersControl;
             CompanyControl.CompaniesCache = CompaniesCache;
             CompanyControl.FocusKeyUsed += (o, a) => CheckFocusKey(manager);
@@ -61,7 +62,16 @@ namespace FocusScoringGUI
             fkw.Show();
 
             fkw.KeyAccepted += (o, a) =>
-                this.FocusManager = fkw.Manager;
+            {
+                FocusManager = fkw.Manager; 
+                
+                MarkersControl.Manager = FocusManager;
+                CompanyControl.Manager = FocusManager;
+                CompanyListsControl.Manager = FocusManager;
+                //TODO fix this when it does not work
+                
+                CheckFocusKey(FocusManager);
+            };
         }
 
         private void AllMarkers_OnClick(object sender, RoutedEventArgs e)

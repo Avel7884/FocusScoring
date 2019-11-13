@@ -33,7 +33,7 @@ namespace FocusScoringGUI
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)

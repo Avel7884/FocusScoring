@@ -35,6 +35,7 @@ namespace FocusScoringGUI
                     {
                         this.Hide();
                         Manager = FocusKeyManager.StartAccess(Coder.Decode(key.GetValue("fkey").ToString()));
+                        KeyAccepted?.Invoke(this,null);
                         var mW = new MainWindow(Manager);
                         mW.Owner = null;
                         mW.Show();
@@ -43,6 +44,7 @@ namespace FocusScoringGUI
                 }
             }
         }
+        
         public FocusKeyWindow(string key)
         {
             InitializeComponent();
@@ -70,6 +72,7 @@ namespace FocusScoringGUI
                     return;
                 }
 
+                KeyAccepted?.Invoke(this,null);
                 Coder.Encode(KeyBox.Password);
                 if (this.Owner == null)
                     new MainWindow(Manager).Show();
