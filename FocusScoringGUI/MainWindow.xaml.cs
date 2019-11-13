@@ -19,8 +19,11 @@ namespace FocusScoringGUI
     public partial class MainWindow : Window
     {
         RegistryKey key;
+        private bool isMonAvailable;
         public FocusKeyManager FocusManager { get; set; }
-        public ListsCache<string> CompaniesCache { get; }
+        private ListsCache<string> CompaniesCache { get; }
+        
+        
         /*public MarkersList Markers { get; set; }
         public CompanyList Companies { get; set; }*/
 
@@ -32,7 +35,9 @@ namespace FocusScoringGUI
             InitializeComponent();
             CheckFocusKey(manager);
 
-            CheckButton.Content = "Проверить список";
+            isMonAvailable = FocusManager.GetAvailableMethods().Contains(ApiMethod.mon);
+
+            CheckButton.Content = "Проверить список";//= isMonAvailable ? "Включить автопроверку." : "Проверить список";
             
             MarkersControl.Manager = FocusManager;
 
@@ -66,6 +71,7 @@ namespace FocusScoringGUI
                 FocusManager = fkw.Manager; 
                 
                 MarkersControl.Manager = FocusManager;
+                CompanyControl.CompanyFactory = FocusManager.CreateCompanyFactory();
                 CompanyControl.Manager = FocusManager;
                 CompanyListsControl.Manager = FocusManager;
                 //TODO fix this when it does not work
@@ -82,8 +88,12 @@ namespace FocusScoringGUI
         }
 
         private void ListCheck_OnClick(object sender, RoutedEventArgs e)
-        { 
-            CompanyControl.CheckCurrentList();
+        {
+            if (isMonAvailable)
+            {
+                CompanyControl.CheckCurrentList();
+            }
+            else CompanyControl.CheckCurrentList();
         }
     }
 }

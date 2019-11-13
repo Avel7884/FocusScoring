@@ -105,7 +105,7 @@ namespace FocusScoringGUI
 
         private int CountFocusKeyUsages(List<string> companies)
         {
-            return companies.Sum(x => Manager.IsCompanyUsed(x) ? 0 : 1);
+            return companies.Sum(x => Manager.IsCompanyUsed(x) ? 1 : 0);
         }
 
         private void AddList(string name, List<string> list)

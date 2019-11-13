@@ -65,14 +65,14 @@ namespace FocusScoring
 
         public bool IsCompanyUsed(string inn)
         {
-            if (!downloader.TryGetXml($"focus-api.kontur.ru/api3/req/expectedLimitUsage?key={focusKey}&inn={inn}&xml",
+            if (!downloader.TryGetXml($"https://focus-api.kontur.ru/api3/req/expectedLimitUsage?key={focusKey}&inn={inn}&xml",
                 out var doc))
                 return true;
-            return doc.SelectNodes("/expectedLimitUsage/count").Cast<XmlNode>().First().InnerText=="0";
+            return doc.SelectNodes("/expectedLimitUsage/count").Cast<XmlNode>().First().InnerText=="1";
         }
 
         private ApiMethod[] availableMethods;
-        private ApiMethod[] GetAvailableMethods()
+        public ApiMethod[] GetAvailableMethods()
         {    //TODO pass error here somehow 
             if (availableMethods != null)
                 return availableMethods;
