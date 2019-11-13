@@ -55,7 +55,11 @@ namespace FocusScoringGUI
 
         private void CheckFocusKey(FocusKeyManager manager)
         {
-            KeyCounter.Text = "Ключ: использовано " + manager.Usages;   
+            var worker = new BackgroundWorker();
+            worker.DoWork += (o,e)=>Thread.Sleep(5000);
+            worker.RunWorkerCompleted += (o, e) => //Not always works
+                KeyCounter.Text = "Ключ: использовано " + manager.Usages;
+            worker.RunWorkerAsync(10000);
         }
         
         private void FocusWindowShow(object sender, RoutedEventArgs e)
