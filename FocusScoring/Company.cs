@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Text;
+using System.Windows.Documents;
 using System.Xml;
 using FocusScoring;
 
@@ -83,6 +85,28 @@ namespace FocusScoring
                 else
                     yield return "";
             }
+        }
+
+        public string CompanyAddress()
+        {//TODO make it more complicated
+            var b = "/ArrayOfreq/req/UL/legalAddress/parsedAddressRF/";
+            var ends = new[]
+            {
+                "region/topoShortName", "region/topoValue",
+                "city/topoShortName", "city/topoValue",
+                "district/topoShortName", "district/topoValue", 
+                "street/topoShortName", "street/topoValue", 
+                "house/topoShortName", "house/topoValue", 
+                "bulk/topoShortName", "bulk/topoValue"
+            };
+            var sb = new List<string>();
+            if (access.TryGetXml(Inn, ApiMethod.req, out var document))
+                foreach (var end in ends)
+                {
+                    sb.Add(document.SelectSingleNode(b+end)?.InnerText ?? "");
+                    //sb.Add(end.EndsWith("me") ? ".":" ");//lol
+                }
+            return string.Join(" ",sb);
         }
         
         public string CompanyName()

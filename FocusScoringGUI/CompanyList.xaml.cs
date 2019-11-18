@@ -166,7 +166,7 @@ namespace FocusScoringGUI
         private void ButtonCompaniesSettings_Click(object s, RoutedEventArgs e)
         {            
             var settingsWindow = new CompanySettings(cache, CurrentListName, 
-                CompanyToParameterConverter.GetAvailableParameters(Manager));
+                CompanyData.GetAvailableParameters(Manager));
             cache.DeleteList(CurrentListName);
             settingsWindow.Show();
             settingsWindow.Closed += (o, a) =>

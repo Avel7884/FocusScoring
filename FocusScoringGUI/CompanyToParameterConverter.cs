@@ -11,11 +11,12 @@ using FocusScoring;
 namespace FocusScoringGUI
 {
     public class CompanyToParameterConverter : IValueConverter
-    {
+    {/*
         public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager) =>
             new[] {"Имя", "Инн", "Рейтинг"}.Concat(LibraryParamsDict
                 .Where(p => manager.IsParamAvailable(p.Value.Item1))
                 .Select(p => p.Key));
+*/
 
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)

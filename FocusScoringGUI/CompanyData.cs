@@ -50,6 +50,7 @@ namespace FocusScoringGUI
                 //case "CLight": return InitLight(company.Score); //return new DataTemplate new Image{Source = new BitmapImage(InitLight(company.Score))};
                 case "Имя": return Source.CompanyName(); 
                 case "Инн": return Inn;
+                case "Адрес": return Source.CompanyAddress();
                 case "Рейтинг": return Source.Score.ToString();
                 default:
                     var (param,parser)= LibraryParamsDict[parameter];
@@ -64,7 +65,7 @@ namespace FocusScoringGUI
         {
             {"ФИО учеридителя", ("headName",s=>s)},
             {"Осн. вид деятельности.", ("Activities",s=>s)},
-            {"Адресс", ("legalAddress",s=>s)},
+            //{"Адресс", ("legalAddress",s=>s)},
             //{"Деректор",("head",s=>s)},
             {"Статус" , ("Status",s=>s)},//("Reorganizing",s=>s=="" ? "" : "В состоянии реорганизации")}
             {"Дата Регистрации", ("regDate", s=>s)},
@@ -77,9 +78,12 @@ namespace FocusScoringGUI
             Source.ForcedMakeScore();
             InitParameters(settings);
         }
-        
-        
-        
+                
+        public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager) =>
+            new[] {"Имя", "Инн", "Рейтинг", "Адрес"}.Concat(LibraryParamsDict
+                .Where(p => manager.IsParamAvailable(p.Value.Item1))
+                .Select(p => p.Key));
+
 
         private void InitLight(int score)
         {
