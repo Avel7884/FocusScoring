@@ -21,7 +21,7 @@ namespace FocusScoringGUI
         RegistryKey key;
         private bool isMonAvailable;
         public FocusKeyManager FocusManager { get; set; }
-        private ListsCache<string> CompaniesCache { get; }
+        private ListsCache<CompanyData> CompaniesCache { get; }
         
         
         /*public MarkersList Markers { get; set; }
@@ -30,7 +30,7 @@ namespace FocusScoringGUI
         public MainWindow(FocusKeyManager manager)
         {
             FocusManager = manager;   
-            CompaniesCache = new ListsCache<string>("CompanyLists");
+            CompaniesCache = new ListsCache<CompanyData>("CompanyLists");
             
             InitializeComponent();
             CheckFocusKey(manager);

@@ -23,7 +23,7 @@ namespace FocusScoringGUI
             companiesCache = mainWindow.CompaniesCache;*/
         }
         //TODO clear
-        public ListOfCompanyLists(ListsCache<string> cache, FocusKeyManager manager, CompanyList companyList)
+        public ListOfCompanyLists(ListsCache<CompanyData> cache, FocusKeyManager manager, CompanyList companyList)
         {
             InitializeComponent();
             this.Manager = manager;
@@ -32,14 +32,14 @@ namespace FocusScoringGUI
             ListNames = CompaniesCache.GetNames();
 
             if (ListNames.Count != 0) return;
-            CompaniesCache.UpdateList("NewList", new List<string>());
+            CompaniesCache.UpdateList("NewList", new List<CompanyData>());
             companyList.ShowNewList("NewList");
         }
 
         private List<string> ListNames;
 
-        private ListsCache<string> companiesCache;
-        public ListsCache<string> CompaniesCache
+        private ListsCache<CompanyData> companiesCache;
+        public ListsCache<CompanyData> CompaniesCache
         {
             get => companiesCache;
             set
@@ -49,16 +49,19 @@ namespace FocusScoringGUI
 
                 if (CompaniesCache ==null)
                     throw new TypeLoadException("CompanyList should be initialized before CompanyListsCache.");
-                
+
                 if (ListNames.Count == 0)
-                    companiesCache.UpdateList("NewList", new List<string>());
+                {
+                    companiesCache.UpdateList("NewList", new List<CompanyData>());
+                    ListNames.Add("NewList");                    
+                }
                 ListView.ItemsSource = ListNames;
                 CompanyList.ShowNewList(ListNames.First());
             }
         }
 
-        public FocusKeyManager Manager{ get; set; } //TODO check if key used more in namecheck
-
+        public FocusKeyManager Manager{ get; set; } 
+        public ICompanyFactory CompanyFactory { get; set; }
         //private CompanyList companyList;
         public CompanyList CompanyList { get; set; }
 
@@ -78,8 +81,9 @@ namespace FocusScoringGUI
             if (name == "")
                 return "Название не может быть пустым";
 
-            list = list.Where(inn =>
-                    ((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
+            var companyList = list.Where(inn =>
+                        ((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
+                    //.Select(inn=> CompanyFactory.CreateFromInn(inn))
                 .ToList();
             
             /*
@@ -88,10 +92,10 @@ namespace FocusScoringGUI
                 if (!((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
                     return inn + " --некорректный инн";*/
 
-            var usagesNeeded = CountFocusKeyUsages(list);
+            var usagesNeeded = CountFocusKeyUsages(list);//TODO use ienumerable instead
             if (usagesNeeded == 0)
             {
-                AddList(name,list);
+                AddList(name,companyList);
                 return null;
             }
             
@@ -99,7 +103,7 @@ namespace FocusScoringGUI
             if (mb != MessageBoxResult.OK) 
                 return "";
             
-            AddList(name,list);
+            AddList(name,companyList);
             return null;
         }
 
@@ -110,11 +114,11 @@ namespace FocusScoringGUI
 
         private void AddList(string name, List<string> list)
         {
-            CompaniesCache.UpdateList(name, list);
+            //CompaniesCache.UpdateList(name, list);
             ListNames.Add(name);
             ListView.Items.Refresh();
             ListView.SelectedItem = ListNames.Last();
-            CompanyList.ShowNewList(name);
+            CompanyList.CreateNewList(name,list);
             FocusKeyUsed.Invoke(this,null);
         }
 

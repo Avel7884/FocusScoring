@@ -20,6 +20,16 @@ namespace FocusScoringGUI
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
+            
+            if (!(value is CompanyData companyData) || !(parameter is int parameterIndex))
+                return value;
+
+            if (parameterIndex >= companyData.Parameters.Length)
+                return "";//TODO Kostil!!
+            
+            return companyData.Parameters[parameterIndex];
+
+            /*
             if(value==null)
                 if (parameter == "CLight")
                     return InitLight(0); //TODO Create new shield
@@ -39,8 +49,8 @@ namespace FocusScoringGUI
                     var (param,parser)= LibraryParamsDict[parameterName];
                     return parser(company.GetParam(param));
                     /*var methodInfo = value.GetType().GetMethod(methodName, new Type[0]);
-            return methodInfo == null ? value : methodInfo.Invoke(value, new object[0]);*/
-            }
+            return methodInfo == null ? value : methodInfo.Invoke(value, new object[0]);#1#
+            }*/
         }
         
 
@@ -83,7 +93,6 @@ namespace FocusScoringGUI
                 addr = addr.Replace(full, shor); //TODO Optimize!!!!
             return addr.Substring(0,addr.Length-20);
         }
-        
         
 
         private Uri InitLight(int score)

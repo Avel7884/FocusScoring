@@ -84,15 +84,16 @@
                 <GridView>
                     <GridViewColumn>
                         <GridViewColumn.CellTemplate>
-                            <DataTemplate>
-                                <Image MinHeight="16" MinWidth="16" MaxHeight="32" MaxWidth="32">
+                            <DataTemplate DataType="local:CompanyData">
+                                <Image MinHeight="16" MinWidth="16" MaxHeight="32" MaxWidth="32" Source="{Binding Path=ShieldCode}">
+                                    <!--
                                     <Image.Source>
                                         <Binding ConverterParameter="CLight">
                                             <Binding.Converter>
                                                 <local:CompanyToParameterConverter />
                                             </Binding.Converter>
                                         </Binding>
-                                    </Image.Source>
+                                    </Image.Source>-->
                                 </Image>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>

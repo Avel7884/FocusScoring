@@ -78,6 +78,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CompaniesCache.cs" />
     <Compile Include="CompanyList.xaml.cs">
       <DependentUpon>CompanyList.xaml</DependentUpon>
     </Compile>
