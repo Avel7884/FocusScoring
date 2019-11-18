@@ -67,6 +67,8 @@ namespace FocusScoringGUI
 
         private void ListSelected_Click(object s, RoutedEventArgs e)
         {
+            if(!CompanyListReady())
+                return;            
             if (ListView.SelectedItem == null || 
                 ListView.SelectedItem.Equals(CompanyList.CurrentListName))
                 return;
@@ -114,6 +116,8 @@ namespace FocusScoringGUI
 
         private void AddList(string name, List<string> list)
         {
+            if(!CompanyListReady())
+                return;            
             //CompaniesCache.UpdateList(name, list);
             ListNames.Add(name);
             ListView.Items.Refresh();
@@ -123,7 +127,9 @@ namespace FocusScoringGUI
         }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)
-        {
+        {            
+            if(!CompanyListReady())
+                return;            
             if (ListView.SelectedItem == null || ListNames.Count <= 1)
                 return;
             var name = (string)ListView.SelectedItem;
@@ -131,6 +137,13 @@ namespace FocusScoringGUI
             //TODO Delete list settings as well!
             ListNames.Remove(name);
             ListView.Items.Refresh();
+        }
+
+        public bool CompanyListReady()
+        {
+            var b = CompanyList.IsWorkDone();
+            if (!b) MessageBox.Show("Дождитесь обработки списка.");
+            return b;
         }
         
         public event Action<object, EventArgs> FocusKeyUsed;

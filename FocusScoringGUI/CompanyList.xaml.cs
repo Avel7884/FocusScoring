@@ -59,6 +59,11 @@ namespace FocusScoringGUI
             
         }
 
+        public bool IsWorkDone()
+        {
+            return !(Worker?.IsBusy ?? false);
+        }
+
         private void ProcessCompanies(string listName)
         {
             Worker = new BackgroundWorker();
@@ -351,7 +356,7 @@ namespace FocusScoringGUI
             Worker.RunWorkerAsync(100000);
         }
 
-        public void CreateNewList(string name, IEnumerable<string> listInn)
+        public void CreateNewList(string name, IList<string> listInn)
         {
             ListSetted = true;
             CurrentListName = name;
@@ -368,26 +373,36 @@ namespace FocusScoringGUI
             CompanyListView.Items.Refresh();
         }
 
-        private void FillList(IEnumerable<string> listInn)
+        private void FillList(IList<string> listInn)
         {
+            var settings = cache.GetList(CurrentListName);
+            
             var pastList = currentList;
             currentList = new List<CompanyData>();
+
+            var stub = new string[settings.Count];
+            for (int j = 0; j < settings.Count; j++)
+                stub[j] = "";
+            
+            foreach (var inn in listInn)
+                currentList.Add(new CompanyData{CLight = Light.Red,Inn= inn, Parameters = stub});    
+            
+            
             CompanyListView.ItemsSource = currentList;
             CompanyListView.Items.Refresh();
             
             Worker = new BackgroundWorker();
             Worker.WorkerReportsProgress = true;
             Worker.WorkerSupportsCancellation = true;
-            var settings = cache.GetList(CurrentListName);
-
-            foreach (var inn in listInn)
+            
+            foreach (var (i,inn) in Enumerable.Range(0,listInn.Count).Zip(listInn,ValueTuple.Create))
                 Worker.DoWork += (o, e) =>
                 {
                     var bv = o as BackgroundWorker;
                     if(bv.CancellationPending) return;
                     var data = new CompanyData(CompanyFactory.CreateFromInn(inn),settings);
                     if(bv.CancellationPending) return;
-                    bv.ReportProgress(currentList.Count * 100 / pastList.Count, data);
+                    bv.ReportProgress(currentList.Count * 100 / pastList.Count, (data,i));
                 };
             
             Worker.ProgressChanged += (o,e) =>
@@ -395,7 +410,8 @@ namespace FocusScoringGUI
                 lock (currentList)
                 lock (CompanyListView)
                 {     
-                    currentList.Add(e.UserState as CompanyData);
+                    var (data, index) = ((CompanyData, int)) e.UserState;
+                    currentList[index] = data;
                     CompanyListView.Items.Refresh();
                 }
             };
