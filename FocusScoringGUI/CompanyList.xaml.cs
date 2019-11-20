@@ -325,28 +325,34 @@ namespace FocusScoringGUI
 
         public void CheckCurrentList()
         {
-            CompanyListView.ItemsSource = currentList;
-            CompanyListView.Items.Refresh();
+            var settings = cache.GetList(CurrentListName);
+
+            /*var stub = new string[settings.Count];
+            for (int j = 0; j < settings.Count; j++)
+                stub[j] = "";
+
+            foreach (var inn in currentList)
+            {
+                var data = new CompanyData {CLight = Light.Red, Inn = inn};
+                data.InitParameters(settings);//TODO Make better
+                currentList.Add(data);
+            }    */
             
-            //TODO DRYish
-            var pastList = currentList;
-            currentList = new List<CompanyData>();
             CompanyListView.ItemsSource = currentList;
             CompanyListView.Items.Refresh();
             
             Worker = new BackgroundWorker();
             Worker.WorkerReportsProgress = true;
             Worker.WorkerSupportsCancellation = true;
-            var settings = cache.GetList(CurrentListName);
-
-            foreach (var company in pastList)
+            
+            foreach (var (i,data) in Enumerable.Range(0,currentList.Count).Zip(currentList,ValueTuple.Create))
                 Worker.DoWork += (o, e) =>
                 {
                     var bv = o as BackgroundWorker;
                     if(bv.CancellationPending) return;
-                    company.Recheck(settings); 
+                    data.Recheck(settings);
                     if(bv.CancellationPending) return;
-                    bv.ReportProgress(currentList.Count * 100 / pastList.Count, company);
+                    bv.ReportProgress((i/currentList.Count), data);
                 };
             
             Worker.ProgressChanged += (o,e) =>
@@ -354,10 +360,12 @@ namespace FocusScoringGUI
                 lock (currentList)
                 lock (CompanyListView)
                 {     
-                    currentList.Add(e.UserState as CompanyData);
                     CompanyListView.Items.Refresh();
                 }
             };
+            
+            Worker.RunWorkerCompleted += (o,e) =>
+                CompaniesCache.UpdateList(CurrentListName,currentList);
             
             Worker.RunWorkerAsync(100000);
         }

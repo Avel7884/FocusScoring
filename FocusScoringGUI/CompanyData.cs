@@ -85,7 +85,11 @@ namespace FocusScoringGUI
         
         public void Recheck(List<string> settings)
         {
-            Source.ForcedMakeScore();
+            var tmp = Source;
+            Source = null;
+            InitParameters(settings);
+            tmp.ForcedMakeScore();
+            Source = tmp;
             InitParameters(settings);
         }
                 
