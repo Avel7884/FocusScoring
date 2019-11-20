@@ -19,8 +19,9 @@ namespace FocusScoringGUI
             InitParameters(settings);
         }
 
-        private void InitParameters(List<string> settings)
+        public void InitParameters(List<string> settings)
         {
+            InitLight(Source?.Score ?? -1);
             Parameters = settings.Select(Convert).ToArray();
         }
         
@@ -44,12 +45,16 @@ namespace FocusScoringGUI
         
         public string Convert(string parameter)
         {
-
+            if(parameter == "Инн")
+                return Inn;
+            if (Source == null)
+                return "";//TODO Make an error here
+            
             switch (parameter)
             {
-                //case "CLight": return InitLight(company.Score); //return new DataTemplate new Image{Source = new BitmapImage(InitLight(company.Score))};
-                case "Имя": return Source.CompanyName(); 
-                case "Инн": return Inn;
+                //case "CLight": return InitLight(company.Score); //return new DataTemplate new Image{Source = new BitmapImage(InitLight(company.Score))}; 
+                //case "Инн": 
+                case "Имя": return Source.CompanyName();
                 case "Адрес": return Source.CompanyAddress();
                 case "Рейтинг": return Source.Score.ToString();
                 default:
@@ -118,6 +123,7 @@ namespace FocusScoringGUI
                     case Light.Green: return new Uri("pack://application:,,,/src/green-shield.png");
                     case Light.Red: return new Uri("pack://application:,,,/src/red-shield.png");
                     case Light.Yellow: return new Uri("pack://application:,,,/src/yellow-shield.png");
+                    case Light.Loading: return new Uri("pack://application:,,,/src/loading.gif");
                     default: throw new AggregateException();
                 }
             }

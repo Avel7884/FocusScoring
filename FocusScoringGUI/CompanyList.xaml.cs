@@ -380,13 +380,16 @@ namespace FocusScoringGUI
             var pastList = currentList;
             currentList = new List<CompanyData>();
 
-            var stub = new string[settings.Count];
+            /*var stub = new string[settings.Count];
             for (int j = 0; j < settings.Count; j++)
-                stub[j] = "";
-            
+                stub[j] = "";*/
+
             foreach (var inn in listInn)
-                currentList.Add(new CompanyData{CLight = Light.Red,Inn= inn, Parameters = stub});    
-            
+            {
+                var data = new CompanyData {CLight = Light.Red, Inn = inn};
+                data.InitParameters(settings);//TODO Make better
+                currentList.Add(data);
+            }    
             
             CompanyListView.ItemsSource = currentList;
             CompanyListView.Items.Refresh();

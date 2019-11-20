@@ -2,6 +2,6 @@ namespace FocusScoringGUI
 {
     public enum Light
     {
-        Red, Yellow, Green
+        Red, Yellow, Green, Loading
     }
 }
