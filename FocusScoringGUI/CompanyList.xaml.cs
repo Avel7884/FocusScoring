@@ -35,6 +35,7 @@ namespace FocusScoringGUI
         public string CurrentListName { get; private set; }
         private BackgroundWorker Worker;//TODO consider use threadpull
         private ListsCache<string> cache;
+        private Window SettingsWindow;
         private CompanyToParameterConverter converter { get; set; }
 
         public void ShowNewList(string listName)
@@ -169,12 +170,17 @@ namespace FocusScoringGUI
         }
         
         private void ButtonCompaniesSettings_Click(object s, RoutedEventArgs e)
-        {            
-            var settingsWindow = new CompanySettings(cache, CurrentListName, 
+        {
+            if (SettingsWindow != null && SettingsWindow.IsLoaded)
+            {
+                SettingsWindow.Focus();
+                return;                
+            }
+            SettingsWindow= new CompanySettings(cache, CurrentListName, 
                 CompanyData.GetAvailableParameters(Manager));
             cache.DeleteList(CurrentListName);
-            settingsWindow.Show();
-            settingsWindow.Closed += (o, a) =>
+            SettingsWindow.Show();
+            SettingsWindow.Closed += (o, a) =>
             {
                 var settings = cache.GetList(CurrentListName);
                 currentList = currentList
@@ -366,14 +372,10 @@ namespace FocusScoringGUI
             /*currentList = listInn.Select(CompanyFactory.CreateFromInn)
                 .Select(c => new CompanyData(c, new List<string>() {"Имя", "Инн"})).ToList();*/
             
-            FillList(listInn);
-            
-            CompaniesCache.UpdateList(name,currentList);
-            CompanyListView.ItemsSource = currentList;
-            CompanyListView.Items.Refresh();
+            FillList(name, listInn);
         }
 
-        private void FillList(IList<string> listInn)
+        private void FillList(string name, IList<string> listInn)
         {
             var settings = cache.GetList(CurrentListName);
             
@@ -404,6 +406,7 @@ namespace FocusScoringGUI
                     var bv = o as BackgroundWorker;
                     if(bv.CancellationPending) return;
                     var data = new CompanyData(CompanyFactory.CreateFromInn(inn),settings);
+                    data.InitLight(data.Source.Score);//TODO Refactor here!
                     if(bv.CancellationPending) return;
                     bv.ReportProgress(currentList.Count * 100 / pastList.Count, (data,i));
                 };
@@ -418,6 +421,9 @@ namespace FocusScoringGUI
                     CompanyListView.Items.Refresh();
                 }
             };
+            
+            Worker.RunWorkerCompleted += (o,e) =>
+                CompaniesCache.UpdateList(name,currentList);
             
             Worker.RunWorkerAsync(100000);
         }

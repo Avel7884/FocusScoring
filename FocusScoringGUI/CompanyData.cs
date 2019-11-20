@@ -47,6 +47,11 @@ namespace FocusScoringGUI
         {
             if(parameter == "Инн")
                 return Inn;
+            if (parameter == "Имя")
+            {
+                var name  = Source?.CompanyName() ?? " ";
+                return name != "" ? name : "(Нет данных.)";
+            }
             if (Source == null)
                 return "";//TODO Make an error here
             
@@ -54,7 +59,7 @@ namespace FocusScoringGUI
             {
                 //case "CLight": return InitLight(company.Score); //return new DataTemplate new Image{Source = new BitmapImage(InitLight(company.Score))}; 
                 //case "Инн": 
-                case "Имя": return Source.CompanyName();
+                //case "Имя": return Source.CompanyName();
                 case "Адрес": return Source.CompanyAddress();
                 case "Рейтинг": return Source.Score.ToString();
                 default:
@@ -68,14 +73,14 @@ namespace FocusScoringGUI
         
         private static Dictionary<string,(string,Func<string,string>)> LibraryParamsDict = new Dictionary<string, (string,Func<string,string>)>
         {
-            {"ФИО учеридителя", ("headName",s=>s)},
+            {"ФИО директора", ("headName",s=>s)},
             {"Осн. вид деятельности.", ("Activities",s=>s)},
             //{"Адресс", ("legalAddress",s=>s)},
             //{"Деректор",("head",s=>s)},
             {"Статус" , ("Status",s=>s)},//("Reorganizing",s=>s=="" ? "" : "В состоянии реорганизации")}
             {"Дата Регистрации", ("regDate", s=>s)},
             {"Телефон",("phone",s=>s)},
-            {"Возможный сайт",("site",s=>s)}
+            {"Сайт",("site",s=>s)}
         };
         
         public void Recheck(List<string> settings)
@@ -90,12 +95,12 @@ namespace FocusScoringGUI
                 .Select(p => p.Key));
 
 
-        private void InitLight(int score)
+        public void InitLight(int score)
         {
             if (score < 0)
-                return;
+                CLight = Light.Loading;
             
-            if (score <= 39)
+            if (score>= 0 && score <= 39)
             {
                 CLight = Light.Red;
                 //CLight = new BitmapImage(ShieldCode(Light.Red));                    
@@ -123,7 +128,7 @@ namespace FocusScoringGUI
                     case Light.Green: return new Uri("pack://application:,,,/src/green-shield.png");
                     case Light.Red: return new Uri("pack://application:,,,/src/red-shield.png");
                     case Light.Yellow: return new Uri("pack://application:,,,/src/yellow-shield.png");
-                    case Light.Loading: return new Uri("pack://application:,,,/src/loading.gif");
+                    case Light.Loading: return new Uri("pack://application:,,,/src/loading.png");
                     default: throw new AggregateException();
                 }
             }

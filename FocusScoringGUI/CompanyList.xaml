@@ -56,13 +56,13 @@
             </Button>
         </StackPanel>
         
-            <Button Grid.Column="1" x:Name="Button" Grid.Row="2" Click="ButtonCompaniesSettings_Click" Content="Настройки Компаний" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" HorizontalAlignment="Right" VerticalAlignment="Center" Height="20" Margin="0,0,10,0">
-                <Button.ToolTip>
-                    <ToolTip>
-                        Настройка отображаемой информации о компаниях
-                    </ToolTip>
-                </Button.ToolTip>
-            </Button>
+        <Button Grid.Column="1" x:Name="Button" Grid.Row="2" Click="ButtonCompaniesSettings_Click" Content="Настройки списка" Background="#FFFBFBFB" FontFamily="Nirmala UI Semilight" HorizontalAlignment="Right" VerticalAlignment="Center" Height="20" Margin="0,0,10,0">
+            <Button.ToolTip>
+                <ToolTip>
+                    Настройка отображаемой информации о компаниях
+                </ToolTip>
+            </Button.ToolTip>
+        </Button>
         
         <ListView Grid.Column="0"
                   Grid.ColumnSpan="2"
@@ -70,6 +70,7 @@
                   x:Name="CompanyListView"
                   MouseLeftButtonUp="CompanySelected_Click"
                   GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler"
+                  
                   >
             <ListView.ContextMenu>
                 <ContextMenu>
@@ -85,7 +86,7 @@
                     <GridViewColumn>
                         <GridViewColumn.CellTemplate>
                             <DataTemplate DataType="local:CompanyData">
-                                <Image MinHeight="16" MinWidth="16" MaxHeight="32" MaxWidth="32" Source="{Binding Path=ShieldCode}">
+                                <Image MinHeight="16" MinWidth="16" MaxHeight="16" MaxWidth="16" Source="{Binding Path=ShieldCode}">
                                     <!--
                                     <Image.Source>
                                         <Binding ConverterParameter="CLight">
