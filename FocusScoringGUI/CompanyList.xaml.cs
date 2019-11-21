@@ -182,6 +182,8 @@ namespace FocusScoringGUI
             SettingsWindow.Show();
             SettingsWindow.Closed += (o, a) =>
             {
+                if(!(o as CompanySettings).OkClicked)
+                    return;
                 var settings = cache.GetList(CurrentListName);
                 currentList = currentList
                     .Select(x => x.Source ?? CompanyFactory.CreateFromInn(x.Inn))
@@ -350,6 +352,8 @@ namespace FocusScoringGUI
                 {
                     var bv = o as BackgroundWorker;
                     if(bv.CancellationPending) return;
+                    if (data.Source == null)
+                        data.Source = CompanyFactory.CreateFromInn(data.Inn);
                     data.Recheck(settings);
                     if(bv.CancellationPending) return;
                     bv.ReportProgress((i/currentList.Count), data);
@@ -434,6 +438,14 @@ namespace FocusScoringGUI
                 CompaniesCache.UpdateList(name,currentList);
             
             Worker.RunWorkerAsync(100000);
+        }
+
+        private void CopyExecuted(object sender, ExecutedRoutedEventArgs e)
+        {
+            var element = (UIElement) e.Source;
+            var grid = (GridView)CompanyListView.View;
+            
+            //Clipboard.SetText((CompanyData)CompanyListView.SelectedItem);            
         }
     }
 }

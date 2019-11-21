@@ -49,7 +49,7 @@ namespace FocusScoringGUI
                 return Inn;
             if (parameter == "Имя")
             {
-                var name  = Source?.CompanyName() ?? " ";
+                var name  = Source?.CompanyName() ?? "(Загрузка...    )";
                 return name != "" ? name : "(Нет данных.)";
             }
             if (Source == null)
@@ -78,7 +78,7 @@ namespace FocusScoringGUI
             //{"Адресс", ("legalAddress",s=>s)},
             //{"Деректор",("head",s=>s)},
             {"Статус" , ("Status",s=>s)},//("Reorganizing",s=>s=="" ? "" : "В состоянии реорганизации")}
-            {"Дата Регистрации", ("regDate", s=>s)},
+            {"Дата Регистрации", ("regDate", s => DateTime.Parse(s).ToString("dd.mm.yyyy") )},
             {"Телефон",("phone",s=>s)},
             {"Сайт",("site",s=>s)}
         };

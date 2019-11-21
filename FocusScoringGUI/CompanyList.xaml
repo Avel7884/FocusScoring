@@ -72,6 +72,10 @@
                   GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler"
                   
                   >
+            <!--
+            <CommandBinding Command="Copy" Executed="CopyExecuted"/>
+            -->
+
             <ListView.ContextMenu>
                 <ContextMenu>
                     <!--
