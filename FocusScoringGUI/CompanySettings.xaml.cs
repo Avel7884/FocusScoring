@@ -9,6 +9,7 @@ namespace FocusScoringGUI
     {
         private readonly ListsCache<string> settings;
         private readonly string listName;
+        public bool OkClicked { get; private set; }
 
         public CompanySettings(ListsCache<string> settings, string listName, IEnumerable<string> allowedParameters)
         {
@@ -38,6 +39,7 @@ namespace FocusScoringGUI
                     .Cast<CompanySetting>()
                     .Where(x => x.Check)
                     .Select(x => x.Name));
+            OkClicked = true;
             Close();
         }
     }
