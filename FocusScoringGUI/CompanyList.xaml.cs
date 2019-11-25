@@ -412,7 +412,7 @@ namespace FocusScoringGUI
             Worker.WorkerReportsProgress = true;
             Worker.WorkerSupportsCancellation = true;
             
-            foreach (var (i,inn) in Enumerable.Range(0,listInn.Count).Zip(listInn,ValueTuple.Create))
+            foreach (var (i,inn) in Enumerable.Range(0,listInn.Count).Zip(listInn, System.ValueTuple.Create))
                 Worker.DoWork += (o, e) =>
                 {
                     var bv = o as BackgroundWorker;

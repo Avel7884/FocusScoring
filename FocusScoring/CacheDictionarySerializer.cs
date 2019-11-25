@@ -23,8 +23,7 @@ namespace FocusScoring
             var serializer = new XmlSerializer(typeof(xmlItem[]),
                 new XmlRootAttribute() { ElementName = "items" });
             return ((xmlItem[])serializer
-                    .Deserialize(stream))
-                .ToDictionary(x => (x.node, x.method), x => (x.pos, x.count, x.time));
+                    .Deserialize(stream)).ToDictionary(x => (x.node, x.method), x => (x.pos, x.count, x.time));
         }
     }
 

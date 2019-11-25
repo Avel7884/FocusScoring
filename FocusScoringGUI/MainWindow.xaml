@@ -17,6 +17,7 @@
             <ColumnDefinition Width="150" />
             <ColumnDefinition Width="140*" MinWidth="340"/>
             <ColumnDefinition Width="218*" MinWidth="140"/>
+            <ColumnDefinition Width="5" />
             <ColumnDefinition Width="212*" />
             <ColumnDefinition Width="25*" />
         </Grid.ColumnDefinitions>
@@ -35,12 +36,14 @@
         -->
         <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="2" Background="#FF4D9068"/>
         
-        <local:MarkersList x:Name="MarkersControl" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5" />
+        <local:MarkersList x:Name="MarkersControl" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5" />
+        <!--<GridSplitter Grid.Column="2" Width="5" HorizontalAlignment="Stretch" />-->
         <!--Manager="{Binding ElementName=_this, Path=FocusManager}"-->
         <local:CompanyList x:Name="CompanyControl" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5"/>
+        <GridSplitter Grid.Column="4" Grid.Row="3" Grid.RowSpan="3" Width="5" HorizontalAlignment="Stretch" />
         <local:ListOfCompanyLists x:Name="CompanyListsControl" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5"/>
         
-        <DockPanel Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Center">
+        <DockPanel Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Center">
             <Button Name="CheckButton"  
                     FontSize="16" Foreground="White"
                     HorizontalAlignment="Right" VerticalAlignment="Center" Height="45" Width="160" Click="ListCheck_OnClick" Background="#FF7DD4A0"/>

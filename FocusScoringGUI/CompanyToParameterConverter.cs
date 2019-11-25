@@ -90,8 +90,8 @@ namespace FocusScoringGUI
             if (addr == null || addr.Length == 0)
                 return addr;
             addr = addr.TrimStart("1234567890".ToCharArray());
-            foreach (var (full,shor) in locations)
-                addr = addr.Replace(full, shor); //TODO Optimize!!!!
+            foreach (var (full, shor) in locations)
+                ;//addr = addr.Replace(full, shor); //TODO Optimize!!!!
             return addr.Substring(0,addr.Length-20);
         }
         
