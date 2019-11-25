@@ -9,7 +9,7 @@ namespace FocusScoringGUI
 {
     public partial class MarkersList : UserControl
     {
-        public FocusKeyManager Manager { get; set; }
+        //public FocusKeyManager Manager { get; set; }
 
         public MarkersList()
         {
@@ -17,19 +17,9 @@ namespace FocusScoringGUI
             InitializeComponent();
         }
 
-        private void Init(object o, EventArgs args)
-        {
-             var mainWindow = ((MainWindow) ((Grid) Parent).Parent);
-            Manager = mainWindow.FocusManager;
-        }
-
-        public MarkersList(FocusKeyManager manager)
-        {
-            InitializeComponent();
-        }
-
         public void ShowNewMarkers(Company company)
         {
+            
             /*if (companyData.IsChecked)
             {
                 companyData.Check(Manager);

@@ -39,7 +39,7 @@ namespace FocusScoringGUI
 
             CheckButton.Content = "Проверить список";//= isMonAvailable ? "Включить автопроверку." : "Проверить список";
             
-            MarkersControl.Manager = FocusManager;
+            //MarkersControl.Manager = FocusManager;
 
             CompanyControl.CompanyFactory = FocusManager.CreateCompanyFactory();
             CompanyControl.Manager = FocusManager;//TODO Attepmpt to remove it
@@ -55,6 +55,7 @@ namespace FocusScoringGUI
 
         private void CheckFocusKey(FocusKeyManager manager)
         {
+            KeyCounter.Text = "Ключ: использовано " + manager.Usages;
             var worker = new BackgroundWorker();
             worker.DoWork += (o,e)=>Thread.Sleep(10000);
             worker.RunWorkerCompleted += (o, e) =>
@@ -66,7 +67,9 @@ namespace FocusScoringGUI
         {
             FocusKeyWindow fkw;
             using (key = Registry.CurrentUser.OpenSubKey(@"Software\FocusScoring"))
-                fkw = new FocusKeyWindow(Coder.Decode(key.GetValue("fkey").ToString()));
+                fkw = new FocusKeyWindow(
+                    Coder.Decode(key.GetValue("fkey").ToString()),
+                    FocusManager.IsBaseMode());
             fkw.Owner = this;
             fkw.Show();
 
@@ -74,11 +77,10 @@ namespace FocusScoringGUI
             {
                 FocusManager = fkw.Manager; 
                 
-                MarkersControl.Manager = FocusManager;
+                //MarkersControl.Manager = FocusManager;
                 CompanyControl.CompanyFactory = FocusManager.CreateCompanyFactory();
                 CompanyControl.Manager = FocusManager;
                 CompanyListsControl.Manager = FocusManager;
-                //TODO fix this when it does not work
                 
                 CheckFocusKey(FocusManager);
             };

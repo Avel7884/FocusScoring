@@ -101,7 +101,8 @@ namespace FocusScoringGUI
             if (CompanyListView.SelectedItem == null)
                 return;
             var data = CompanyListView.SelectedItem as CompanyData;
-            markersList.ShowNewMarkers(data.Source ?? data.MakeSource(CompanyFactory));
+            if(!Manager.IsBaseMode())
+                markersList.ShowNewMarkers(data.Source ?? data.MakeSource(CompanyFactory));
         }
 
         private static readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
@@ -124,25 +125,13 @@ namespace FocusScoringGUI
         }
 
         private void RepopulateColumns()//bool resetCompanies = false)
-        {/*
-            var gridView = new GridView();
-            var originalView = (GridView)CompanyListView.View;
-            gridView.Columns.Add(originalView.Columns[0]);
-            CompanyListView.View = gridView;*/
+        {
             EnsureCache();
             var settings = cache.GetList(CurrentListName);
 
-            /*if (resetCompanies)
-            {
-                currentList = currentList
-                    .Select(x => x.Source ?? CompanyFactory.CreateFromInn(x.Inn))
-                    .Select(x => new CompanyData(x,settings)).ToList();
-                CompanyListView.ItemsSource = currentList;
-                CompaniesCache.UpdateList(CurrentListName,currentList);
-            }*/
-
             var gridView = (GridView)CompanyListView.View;
-            for(int i = gridView.Columns.Count-1;i>0;i--)
+            var lastColumn = Manager.IsBaseMode() ? 0 : 1;
+            for(int i = gridView.Columns.Count-1;i >= lastColumn;i--)
                 gridView.Columns.RemoveAt(i);
             
             //gridView.Columns.Add(new GridViewColumn{CellTemplate = new DataTemplate(new Image{Source = new Binding()})});
@@ -171,6 +160,12 @@ namespace FocusScoringGUI
         
         private void ButtonCompaniesSettings_Click(object s, RoutedEventArgs e)
         {
+            if(Worker!= null && Worker.IsBusy)
+            {
+                MessageBox.Show("Дождитесь окончания обработки списка.");
+                return;
+            }
+            
             if (SettingsWindow != null && SettingsWindow.IsLoaded)
             {
                 SettingsWindow.Focus();
@@ -196,6 +191,13 @@ namespace FocusScoringGUI
 
         private void ButtonAddCompany_Click(object s, RoutedEventArgs e)
         {
+            if(Worker!= null && Worker.IsBusy)
+            {
+                MessageBox.Show("Дождитесь окончания обработки списка.");
+                return;
+            }
+            
+            
             if (!ListSetted)
             {
                 MessageBox.Show("Необходимо выбрать или создать список!");
@@ -327,18 +329,10 @@ namespace FocusScoringGUI
 
         public void CheckCurrentList()
         {
+            if(Worker!= null && Worker.IsBusy)
+                return;
+            
             var settings = cache.GetList(CurrentListName);
-
-            /*var stub = new string[settings.Count];
-            for (int j = 0; j < settings.Count; j++)
-                stub[j] = "";
-
-            foreach (var inn in currentList)
-            {
-                var data = new CompanyData {CLight = Light.Red, Inn = inn};
-                data.InitParameters(settings);//TODO Make better
-                currentList.Add(data);
-            }    */
             
             CompanyListView.ItemsSource = currentList;
             CompanyListView.Items.Refresh();

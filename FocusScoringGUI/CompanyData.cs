@@ -36,7 +36,7 @@ namespace FocusScoringGUI
         
         [XmlArray]
         public string[] Parameters { get; set; }
-
+        
         public Company MakeSource(ICompanyFactory factory)
         {
             Source = factory.CreateFromInn(Inn);
@@ -92,11 +92,14 @@ namespace FocusScoringGUI
             Source = tmp;
             InitParameters(settings);
         }
-                
-        public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager) =>
-            new[] {"Имя", "Инн", "Рейтинг", "Адрес"}.Concat(LibraryParamsDict
+
+        public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager)
+        {
+            var tmp = manager.IsBaseMode() ? new[] {"Имя", "Инн", "Адрес", "Рейтинг"} : new[] {"Имя", "Инн", "Адрес", "Рейтинг"};
+            return tmp.Concat(LibraryParamsDict
                 .Where(p => manager.IsParamAvailable(p.Value.Item1))
                 .Select(p => p.Key));
+        }
 
 
         public void InitLight(int score)

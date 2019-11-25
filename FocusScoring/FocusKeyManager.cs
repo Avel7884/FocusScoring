@@ -30,8 +30,6 @@ namespace FocusScoring
             Settings.DefaultManager = new FocusKeyManager(focusKey);
             return Settings.DefaultManager; //TODO Remove singleton
         }
-        
-        
 
         public ListMonitorer CreateMonitor()
         {
@@ -41,6 +39,11 @@ namespace FocusScoring
         public ICompanyFactory CreateCompanyFactory()
         {
             return new CompanyFactory(this);
+        }
+
+        public bool IsBaseMode()
+        {
+            return !IsParamAvailable("m1003");
         }
 /*
 

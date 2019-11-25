@@ -92,6 +92,7 @@ namespace FocusScoring
             var b = "/ArrayOfreq/req/UL/legalAddress/parsedAddressRF/";
             var ends = new[]
             {
+                "regionName/topoShortName", "regionName/topoValue",
                 "region/topoShortName", "region/topoValue",
                 "city/topoShortName", "city/topoValue",
                 "district/topoShortName", "district/topoValue", 

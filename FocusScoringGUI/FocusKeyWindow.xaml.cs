@@ -21,6 +21,7 @@ namespace FocusScoringGUI
     /// </summary>
     public partial class FocusKeyWindow : Window
     {
+        private readonly bool mode;
         public FocusKeyManager Manager { get; set; }
         private RegistryKey key;
 
@@ -45,8 +46,9 @@ namespace FocusScoringGUI
             }
         }
         
-        public FocusKeyWindow(string key)
+        public FocusKeyWindow(string key, bool mode)
         {
+            this.mode = mode;
             InitializeComponent();
             KeyBox.Password = key;
             TextBlock.Text = "..." + key.Substring(key.Length - 5, 5);
@@ -71,6 +73,9 @@ namespace FocusScoringGUI
                     MessageBox.Show("Проверьте правильность ключа");
                     return;
                 }
+
+                if (Manager.IsBaseMode() != mode)
+                    MessageBox.Show("Новый ключ имеет отличный набор методов. Рекомендуется перезапуск приложения.");
 
                 KeyAccepted?.Invoke(this,null);
                 Coder.Encode(KeyBox.Password);

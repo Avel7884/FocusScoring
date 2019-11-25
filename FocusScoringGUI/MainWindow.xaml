@@ -42,7 +42,7 @@
         <local:CompanyList x:Name="CompanyControl" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5"/>
         <GridSplitter Grid.Column="4" Grid.Row="3" Grid.RowSpan="3" Width="5" HorizontalAlignment="Stretch" />
         <local:ListOfCompanyLists x:Name="CompanyListsControl" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5"/>
-        
+
         <DockPanel Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Center">
             <Button Name="CheckButton"  
                     FontSize="16" Foreground="White"
