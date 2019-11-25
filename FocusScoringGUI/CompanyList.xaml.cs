@@ -348,6 +348,7 @@ namespace FocusScoringGUI
                     if(bv.CancellationPending) return;
                     if (data.Source == null)
                         data.Source = CompanyFactory.CreateFromInn(data.Inn);
+                    bv.ReportProgress((i/currentList.Count), data);
                     data.Recheck(settings);
                     if(bv.CancellationPending) return;
                     bv.ReportProgress((i/currentList.Count), data);
