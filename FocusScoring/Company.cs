@@ -50,8 +50,16 @@ namespace FocusScoring
         public string GetParam(string paramName)
         {
             var param = paramDict[paramName];
-            if(access.TryGetXml(Inn,param.Method,out var document))
-                return document.SelectSingleNode(param.Path)?.InnerText ?? "";
+            if (access.TryGetXml(Inn, param.Method, out var document))
+            {
+                //TODO Kostyl!!!
+                var result = document.SelectSingleNode(param.Path)?.InnerText;
+                if (result != null)
+                    return result;
+                if(param.Method != ApiMethod.req)
+                    return "";
+                return document.SelectSingleNode(param.Path.Replace("UL","IP"))?.InnerText ?? "";
+            }
             return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
         }
         
