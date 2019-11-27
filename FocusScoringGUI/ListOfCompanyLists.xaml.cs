@@ -94,7 +94,7 @@ namespace FocusScoringGUI
                 if (!((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
                     return inn + " --некорректный инн";*/
 
-            var usagesNeeded = CountFocusKeyUsages(list);//TODO use ienumerable instead
+            var usagesNeeded = Manager.IsCompanyUsed(list);//TODO use ienumerable instead
             if (usagesNeeded == 0)
             {
                 AddList(name,companyList);
@@ -108,11 +108,12 @@ namespace FocusScoringGUI
             AddList(name,companyList);
             return null;
         }
+/*
 
         private int CountFocusKeyUsages(List<string> companies)
         {
             return companies.Sum(x => Manager.IsCompanyUsed(x) ? 1 : 0);
-        }
+        }*/
 
         private void AddList(string name, List<string> list)
         {
@@ -152,6 +153,17 @@ namespace FocusScoringGUI
         {
             new ListDialog(CheckAndAddList,CompaniesCache).Show();
         }
+
+        private void UnloadExcel_Click(object sender, RoutedEventArgs e)
+        {
+            if(!CompanyListReady())
+                return;            
+            if (ListView.SelectedItem == null || ListNames.Count <= 1)
+                return;
+            var name = (string)ListView.SelectedItem;
+            CompanyList.ExportExcel(name);
+        }
+        
     }
 
 }

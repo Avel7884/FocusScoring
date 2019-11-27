@@ -66,12 +66,20 @@ namespace FocusScoring
                 }, downloader);
         }
 
-        public bool IsCompanyUsed(string inn)
+        public int IsCompanyUsed(IList<string> inns)
         {
-            if (!downloader.TryGetXml($"https://focus-api.kontur.ru/api3/req/expectedLimitUsage?key={focusKey}&inn={inn}&xml",
-                out var doc))
-                return true;
-            return doc.SelectNodes("/expectedLimitUsage/count").Cast<XmlNode>().First().InnerText=="1";
+            var usagesCount = 0;
+            for (var i = 0; i < inns.Count; i += 100)
+            {
+                var innString = string.Join(",", inns.Skip(i).Take(100));
+                if (!downloader.TryGetXml(
+                    $"https://focus-api.kontur.ru/api3/req/expectedLimitUsage?key={focusKey}&inn={innString}&xml",
+                    out var doc))
+                    return 0;
+                var usagesResult = doc.SelectNodes("/expectedLimitUsage/count").Cast<XmlNode>().First().InnerText;
+                usagesCount += int.Parse(usagesResult);
+            }
+            return usagesCount;
         }
 
         private ApiMethod[] availableMethods;

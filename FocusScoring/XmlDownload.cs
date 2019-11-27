@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Timers;
 using System.Xml;
 
 namespace FocusScoring
@@ -30,8 +31,11 @@ namespace FocusScoring
             document = new XmlDocument();
             try
             {                    //TODO make errors more informative
-                var webStream = WebRequest.Create(request).GetResponse().GetResponseStream();
-                using (var reader = XmlReader.Create(webStream)) { document.Load(reader); }
+                var webStream = WebRequest.Create(request).GetResponseAsync();
+                webStream.Wait(5000);
+                if (!webStream.IsCompleted)
+                    return false;
+                using (var reader = XmlReader.Create(webStream.Result.GetResponseStream())) { document.Load(reader); }
             }
             catch { return false; }
 

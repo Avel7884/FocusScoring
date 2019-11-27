@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
 using FocusScoring;
+using OfficeOpenXml;
+
 
 namespace FocusScoringGUI
 {
@@ -22,7 +24,7 @@ namespace FocusScoringGUI
         public void InitParameters(List<string> settings)
         {
             InitLight(Source?.Score ?? -1);
-            Parameters = settings.Select(Convert).ToArray();
+            Parameters = settings.Select(getSetting).ToArray();
         }
         
         [XmlAttribute]
@@ -43,7 +45,7 @@ namespace FocusScoringGUI
             return Source;
         }
         
-        public string Convert(string parameter)
+        public string getSetting(string parameter)
         {
             if(parameter == "Инн")
                 return Inn;
@@ -95,7 +97,7 @@ namespace FocusScoringGUI
 
         public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager)
         {
-            var tmp = manager.IsBaseMode() ? new[] {"Имя", "Инн", "Адрес", "Рейтинг"} : new[] {"Имя", "Инн", "Адрес"};
+            var tmp = manager.IsBaseMode() ? new[] {"Имя", "Инн", "Адрес"} : new[] {"Имя", "Инн", "Адрес", "Рейтинг"};
             return tmp.Concat(LibraryParamsDict
                 .Where(p => manager.IsParamAvailable(p.Value.Item1))
                 .Select(p => p.Key));
