@@ -221,6 +221,13 @@ namespace FocusScoringGUI
                 return;
             }
 
+            if (!Manager.AbleToUseMore(1))
+            {
+                MessageBox.Show("Ключ требует продления!");
+                return;
+            }
+
+
             var mb = MessageBox.Show("Будет отправлен запрос.");
             if(mb != MessageBoxResult.OK)
                 return;

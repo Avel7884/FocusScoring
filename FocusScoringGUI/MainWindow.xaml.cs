@@ -50,7 +50,7 @@ namespace FocusScoringGUI
             CompanyListsControl.Manager = FocusManager;
             CompanyListsControl.CompanyList = CompanyControl;
             CompanyListsControl.CompaniesCache = CompaniesCache;
-            CompanyListsControl.FocusKeyUsed += (o, a) => CheckFocusKey(manager);
+            //CompanyListsControl.FocusKeyUsed += (o, a) => CheckFocusKey(manager);
         }
 
         private void CheckFocusKey(FocusKeyManager manager)

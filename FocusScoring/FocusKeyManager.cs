@@ -69,9 +69,9 @@ namespace FocusScoring
         public int IsCompanyUsed(IList<string> inns)
         {
             var usagesCount = 0;
-            for (var i = 0; i < inns.Count; i += 100)
+            for (var i = 0; i < inns.Count; i += 50)
             {
-                var innString = string.Join(",", inns.Skip(i).Take(100));
+                var innString = string.Join(",", inns.Skip(i).Take(50));
                 if (!downloader.TryGetXml(
                     $"https://focus-api.kontur.ru/api3/req/expectedLimitUsage?key={focusKey}&inn={innString}&xml",
                     out var doc))
@@ -109,22 +109,27 @@ namespace FocusScoring
             if (!CompanyFactory.paramTupDict.TryGetValue(paramName,out var t))
                 throw new ArgumentException("InvalidParamName");
             return GetAvailableMethods().Contains(t.Item1);
-        } 
+        }
+
+        private int nominator = int.MinValue;
+        private int denominator = int.MaxValue;
         
         private string CheckUsages()
         {
             if (!downloader.TryGetXml("https://focus-api.kontur.ru/api3/stat?xml&key=" + focusKey, out var doc))
                 return "Ошибка! Проверьте подключение к интернет и повторите попытку.";
             
-            var nominator = doc.SelectNodes("/ArrayOfstat/stat/spent")
+            nominator = int.Parse(doc.SelectNodes("/ArrayOfstat/stat/spent")
                 .Cast<XmlNode>()
                 .Select(x => x.InnerText)
-                .Select(int.Parse).Max().ToString();
-            var denominator = doc.SelectSingleNode("/ArrayOfstat/stat/limit").InnerText;
+                .Select(int.Parse).Max().ToString());
+            denominator = int.Parse(doc.SelectSingleNode("/ArrayOfstat/stat/limit").InnerText);
             
             //TODO make it return numbers, somehow
             return $"{nominator} из {denominator}";
         }
- 
+        public bool AbleToUseMore(int more) => 
+            nominator + more <= denominator;
+
     }
 }

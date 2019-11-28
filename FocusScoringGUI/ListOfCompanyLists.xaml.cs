@@ -83,6 +83,7 @@ namespace FocusScoringGUI
             if (name == "")
                 return "Название не может быть пустым";
 
+
             var companyList = list.Where(inn =>
                         ((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
                     //.Select(inn=> CompanyFactory.CreateFromInn(inn))
@@ -100,6 +101,9 @@ namespace FocusScoringGUI
                 AddList(name,companyList);
                 return null;
             }
+            
+            if (!Manager.AbleToUseMore(usagesNeeded))
+                return "Непроверенных компаний больше чем осталось использовний ключа. Уменьшите список или продлите ключ.";
             
             var mb = MessageBox.Show($"Ключ будет использован {usagesNeeded} раз.");
             if (mb != MessageBoxResult.OK) 
@@ -124,7 +128,7 @@ namespace FocusScoringGUI
             ListView.Items.Refresh();
             ListView.SelectedItem = ListNames.Last();
             CompanyList.CreateNewList(name,list);
-            FocusKeyUsed.Invoke(this,null);
+            //FocusKeyUsed.Invoke(this,null);
         }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)
@@ -147,7 +151,7 @@ namespace FocusScoringGUI
             return b;
         }
         
-        public event Action<object, EventArgs> FocusKeyUsed;
+        //public event Action<object, EventArgs> FocusKeyUsed;
 
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
