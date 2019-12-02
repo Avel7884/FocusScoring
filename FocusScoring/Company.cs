@@ -106,22 +106,30 @@ namespace FocusScoring
             var b = "/ArrayOfreq/req/UL/legalAddress/parsedAddressRF/";
             var ends = new[]
             {
-                "regionName/topoShortName", "regionName/topoValue",
-                "region/topoShortName", "region/topoValue",
-                "city/topoShortName", "city/topoValue",
-                "district/topoShortName", "district/topoValue", 
-                "street/topoShortName", "street/topoValue", 
-                "house/topoShortName", "house/topoValue", 
-                "bulk/topoShortName", "bulk/topoValue"
+                ("regionName/topoValue","regionName/topoShortName" ),
+                ("region/topoValue", "region/topoShortName"),
+                ("city/topoShortName", "city/topoValue"),
+                ("district/topoShortName", "district/topoValue"), 
+                ("street/topoShortName", "street/topoValue"), 
+                ("house/topoShortName", "house/topoValue"), 
+                ("bulk/topoShortName", "bulk/topoValue")
             };
             var sb = new List<string>();
             if (access.TryGetXml(Inn, ApiMethod.req, out var document))
-                foreach (var end in ends)
-                {
-                    sb.Add(document.SelectSingleNode(b+end)?.InnerText ?? "");
+                foreach (var (end1,end2) in ends)
+                {//TODO make it better!
+                    var tmp1 = document.SelectSingleNode(b + end1)?.InnerText ?? "";
+                    if (tmp1 == "") continue;
+                    var tmp2 = document.SelectSingleNode(b + end2)?.InnerText ?? "";
+                    if (tmp2 == "г")
+                    {
+                        sb.Add(tmp1); 
+                        continue;
+                    }
+                    sb.Add(tmp1 + " " + tmp2);
                     //sb.Add(end.EndsWith("me") ? ".":" ");//lol
                 }
-            return string.Join(" ",sb);
+            return string.Join(", ",sb);
         }
         
         public string CompanyName()
