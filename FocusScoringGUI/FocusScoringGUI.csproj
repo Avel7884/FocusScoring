@@ -92,10 +92,12 @@
       <DependentUpon>CompanySettings.xaml</DependentUpon>
     </Compile>
     <Compile Include="CompanyToParameterConverter.cs" />
+    <Compile Include="CollectionWorker.cs" />
     <Compile Include="ExcelExporter.cs" />
     <Compile Include="FocusKeyWindow.xaml.cs">
       <DependentUpon>FocusKeyWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ICollectionWorker.cs" />
     <Compile Include="IExporter.cs" />
     <Compile Include="ListOfCompanyLists.xaml.cs">
       <DependentUpon>ListOfCompanyLists.xaml</DependentUpon>

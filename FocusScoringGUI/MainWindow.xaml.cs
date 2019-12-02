@@ -21,7 +21,7 @@ namespace FocusScoringGUI
         RegistryKey key;
         private bool isMonAvailable;
         public FocusKeyManager FocusManager { get; set; }
-        private ListsCache<CompanyData> CompaniesCache { get; }
+        //private ListsCache<CompanyData> CompaniesCache { get; }
 
 
         /*public MarkersList Markers { get; set; }
@@ -30,7 +30,7 @@ namespace FocusScoringGUI
         public MainWindow(FocusKeyManager manager)
         {
             FocusManager = manager;   
-            CompaniesCache = new ListsCache<CompanyData>("CompanyLists");
+            var CompaniesCache = new ListsCache<CompanyData>("CompanyLists");
             
             var factory = FocusManager.CreateCompanyFactory();
             var SettingsCache = new ListsCache<string>("SettingsLists");
@@ -83,9 +83,11 @@ namespace FocusScoringGUI
                 FocusManager = fkw.Manager; 
                 
                 //MarkersControl.Manager = FocusManager;
-                CompanyControl.CompanyFactory = FocusManager.CreateCompanyFactory();
+                var factory = FocusManager.CreateCompanyFactory();
+                CompanyControl.CompanyFactory = factory;
                 CompanyControl.Manager = FocusManager;
                 CompanyListsControl.Manager = FocusManager;
+                CompanyListsControl.Excel = new ExcelExporter(new ListsCache<string>("SettingsLists"),new ListsCache<CompanyData>("CompanyLists"),factory);
                 
                 CheckFocusKey(FocusManager);
             };
