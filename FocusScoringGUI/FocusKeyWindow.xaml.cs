@@ -68,13 +68,13 @@ namespace FocusScoringGUI
             else
             {
                 Manager = FocusKeyManager.StartAccess(KeyBox.Password);
-                if (Manager.Usages.StartsWith("Ошибка"))
+                if (Manager.Usages.StartsWith("Ошибка"))//TODO shitty check
                 {
                     MessageBox.Show("Проверьте правильность ключа");
                     return;
                 }
 
-                if (Manager.IsBaseMode() != mode)
+                //if (Manager.IsBaseMode() != mode)
                     MessageBox.Show("Новый ключ имеет отличный набор методов. Рекомендуется перезапуск приложения.");
 
                 KeyAccepted?.Invoke(this,null);

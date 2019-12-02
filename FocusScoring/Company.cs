@@ -30,6 +30,12 @@ namespace FocusScoring
             MakeScore();
         }
 
+        public void Reinstance(FocusKeyManager manager)
+        {
+            access = manager.Access;
+            scorer = manager.Scorer;
+        }
+
         public void MakeScore()
         {
             Markers = scorer.CheckMarkers(this);
