@@ -73,8 +73,7 @@ namespace FocusScoringGUI
                     MessageBox.Show("Проверьте правильность ключа");
                     return;
                 }
-
-                //if (Manager.IsBaseMode() != mode)
+                //if (Manager.IsBaseMode() != mode) TODO fix!
                     MessageBox.Show("Новый ключ имеет отличный набор методов. Рекомендуется перезапуск приложения.");
 
                 KeyAccepted?.Invoke(this,null);
