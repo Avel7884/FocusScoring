@@ -35,14 +35,14 @@ namespace FocusScoringGUI
         public MarkersList markersList;
         private List<CompanyData> currentList;
         public string CurrentListName { get; private set; }
-        private BackgroundWorker Worker;//TODO consider use threadpull
+        private ICollectionWorker Worker;//TODO consider use threadpull
         public ListsCache<string> SettingsCache { get; set; }
         private Window SettingsWindow;
         private CompanyToParameterConverter converter { get; set; }
 
         public void ShowNewList(string listName)
         {
-            Worker?.CancelAsync();
+            Worker?.StopWork();
             
             ListSetted = true;
             CurrentListName = listName;
@@ -64,38 +64,7 @@ namespace FocusScoringGUI
 
         public bool IsWorkDone()
         {
-            return !(Worker?.IsBusy ?? false);
-        }
-
-        private void ProcessCompanies(string listName)
-        {
-            Worker = new BackgroundWorker();
-            Worker.WorkerReportsProgress = true;
-            Worker.WorkerSupportsCancellation = true;
-
-            var l = CompaniesCache.GetList(listName);
-            foreach (var inn in l)
-                Worker.DoWork += (o, e) =>
-                {
-                    
-                    var bv = o as BackgroundWorker;
-                    if(bv.CancellationPending) return;
-                    //var company = CompanyFactory.CreateFromInn(inn);
-                    if(bv.CancellationPending) return;
-                    //bv.ReportProgress(currentList.Count * 100 / l.Count, company);
-                };
-            
-            Worker.ProgressChanged += (o,e) =>
-            {
-                lock (currentList)
-                lock (CompanyListView)
-                {     
-                    //currentList.Add(e.UserState as Company);
-                    CompanyListView.Items.Refresh();
-                }
-            };
-            
-            Worker.RunWorkerAsync(100000);
+            return !(Worker?.IsBusy() ?? false);
         }
         
         private void CompanySelected_Click(object s, RoutedEventArgs e)
@@ -164,7 +133,7 @@ namespace FocusScoringGUI
         
         private void ButtonCompaniesSettings_Click(object s, RoutedEventArgs e)
         {
-            if(Worker!= null && Worker.IsBusy)
+            if(Worker!= null && Worker.IsBusy())
             {
                 MessageBox.Show("Дождитесь окончания обработки списка.");
                 return;
@@ -195,7 +164,7 @@ namespace FocusScoringGUI
 
         private void ButtonAddCompany_Click(object s, RoutedEventArgs e)
         {
-            if(Worker!= null && Worker.IsBusy)
+            if(Worker!= null && Worker.IsBusy())
             {
                 MessageBox.Show("Дождитесь окончания обработки списка.");
                 return;
@@ -262,8 +231,94 @@ namespace FocusScoringGUI
                 Inn.SelectionStart = Inn.Text.Length;
             }
         }
-        
-        
+        public void CheckCurrentList()
+        {
+            if(Worker!= null && Worker.IsBusy())
+                return;
+            
+            var settings = SettingsCache.GetList(CurrentListName);
+            CompanyListView.ItemsSource = currentList;
+            CompanyListView.Items.Refresh();
+            
+            Worker = new CollectionWorker();
+            
+            Worker.ProgressChanged += (o,e) =>
+            {
+                lock (currentList)
+                lock (CompanyListView)
+                {
+                    CompanyListView.Items.Refresh();
+                }
+            };
+            
+            Worker.RunWorkerCompleted += (o,e) =>
+            {
+                CompaniesCache.UpdateList(CurrentListName, currentList);
+            };
+            
+            Worker.WorkOn(currentList,((i, data) =>
+            {
+                if (data.Source == null)
+                    data.Source = CompanyFactory.CreateFromInn(data.Inn);
+                data.Recheck(settings);
+                return data;
+            }));
+        }
+        public event Action<object, EventArgs> FocusKeyUsed;
+
+        public void CreateNewList(string name, IList<string> listInn)
+        {
+            ListSetted = true;
+            CurrentListName = name;
+            TextBlockList.Text = CurrentListName;
+            
+            RepopulateColumns();
+            FillList(name, listInn);
+        }
+
+        private void FillList(string name, IList<string> listInn)
+        {
+            var settings = SettingsCache.GetList(CurrentListName);
+            
+            currentList = new List<CompanyData>();
+            foreach (var inn in listInn)
+            {
+                var data = new CompanyData {CLight = Light.Loading, Inn = inn};
+                data.InitParameters(settings);//TODO Make better
+                currentList.Add(data);
+            }    
+            
+            CompanyListView.ItemsSource = currentList;
+            CompanyListView.Items.Refresh();
+            Worker = new CollectionWorker();
+            
+            Worker.ProgressChanged += (o,e) =>
+            {
+                lock (currentList)
+                lock (CompanyListView)
+                {     
+                    var (data, index) = ((CompanyData, int)) e.UserState;
+                    currentList[index] = data;
+                    CompanyListView.Items.Refresh();
+                }
+            };
+            
+            Worker.RunWorkerCompleted += (o,e) =>
+            {
+                CompaniesCache.UpdateList(name, currentList);
+                FocusKeyUsed.Invoke(this,new EventArgs());
+            };
+            
+            Worker.WorkOn(listInn, (i, inn) =>
+            {
+                var data = new CompanyData(CompanyFactory.CreateFromInn(inn),settings);
+                data.InitLight(data.Source.Score);//TODO Refactor here!
+                return (data, i);
+            });
+        }
+
+
+
         //Some stackoverflow shit. Not my.
         GridViewColumnHeader _lastHeaderClicked = null;
         ListSortDirection _lastDirection = ListSortDirection.Ascending;
@@ -335,126 +390,6 @@ namespace FocusScoringGUI
             }
             dataView.Refresh();
         }
-
-        public event Action<object, EventArgs> FocusKeyUsed;
-
-        public void CheckCurrentList()
-        {
-            if(Worker!= null && Worker.IsBusy)
-                return;
-
-            var progress = new ProgressWindow();
-            progress.Show();
-            var settings = SettingsCache.GetList(CurrentListName);
-            
-            CompanyListView.ItemsSource = currentList;
-            CompanyListView.Items.Refresh();
-            
-            Worker = new BackgroundWorker();
-            Worker.WorkerReportsProgress = true;
-            Worker.WorkerSupportsCancellation = true;
-            
-            foreach (var (i,data) in Enumerable.Range(0,currentList.Count).Zip(currentList,ValueTuple.Create))
-                Worker.DoWork += (o, e) =>
-                {
-                    var bv = o as BackgroundWorker;
-                    if(bv.CancellationPending) return;
-                    if (data.Source == null)
-                        data.Source = CompanyFactory.CreateFromInn(data.Inn);
-                    bv.ReportProgress((i*100/currentList.Count), data);
-                    data.Recheck(settings);
-                    if(bv.CancellationPending) return;
-                    bv.ReportProgress((i*100/currentList.Count), data);
-                };
-            
-            Worker.ProgressChanged += (o,e) =>
-            {
-                lock (currentList)
-                lock (CompanyListView)
-                {     
-                    progress.Bar.Value = e.ProgressPercentage;
-                    CompanyListView.Items.Refresh();
-                }
-            };
-            
-            Worker.RunWorkerCompleted += (o,e) =>
-            {
-                progress.Close();
-                CompaniesCache.UpdateList(CurrentListName, currentList);
-            };
-            
-            Worker.RunWorkerAsync(100000);
-        }
-
-        public void CreateNewList(string name, IList<string> listInn)
-        {
-            ListSetted = true;
-            CurrentListName = name;
-            TextBlockList.Text = CurrentListName;
-            RepopulateColumns();
-            
-            /*currentList = listInn.Select(CompanyFactory.CreateFromInn)
-                .Select(c => new CompanyData(c, new List<string>() {"Имя", "Инн"})).ToList();*/
-            
-            FillList(name, listInn);
-        }
-
-        private void FillList(string name, IList<string> listInn)
-        {
-            var settings = SettingsCache.GetList(CurrentListName);
-            
-            var pastList = currentList;
-            currentList = new List<CompanyData>();
-
-            /*var stub = new string[settings.Count];
-            for (int j = 0; j < settings.Count; j++)
-                stub[j] = "";*/
-
-            foreach (var inn in listInn)
-            {
-                var data = new CompanyData {CLight = Light.Loading, Inn = inn};
-                data.InitParameters(settings);//TODO Make better
-                currentList.Add(data);
-            }    
-            
-            CompanyListView.ItemsSource = currentList;
-            CompanyListView.Items.Refresh();
-            
-            Worker = new BackgroundWorker();
-            Worker.WorkerReportsProgress = true;
-            Worker.WorkerSupportsCancellation = true;
-
-            foreach (var (i,inn) in Enumerable.Range(0,listInn.Count).Zip(listInn, System.ValueTuple.Create))
-                Worker.DoWork += (o, e) =>
-                {
-                    var bv = o as BackgroundWorker;
-                    if(bv.CancellationPending) return;
-                    var data = new CompanyData(CompanyFactory.CreateFromInn(inn),settings);
-                    data.InitLight(data.Source.Score);//TODO Refactor here!
-                    if(bv.CancellationPending) return;
-                    bv.ReportProgress(currentList.Count * 100 / pastList.Count, (data,i));
-                };
-            
-            Worker.ProgressChanged += (o,e) =>
-            {
-                lock (currentList)
-                lock (CompanyListView)
-                {     
-                    var (data, index) = ((CompanyData, int)) e.UserState;
-                    currentList[index] = data;
-                    CompanyListView.Items.Refresh();
-                }
-            };
-            
-            Worker.RunWorkerCompleted += (o,e) =>
-            {
-                CompaniesCache.UpdateList(name, currentList);
-                FocusKeyUsed.Invoke(this,new EventArgs());
-            };
-            
-            Worker.RunWorkerAsync(100000);
-        }
-
         private void CopyExecuted(object sender, ExecutedRoutedEventArgs e)
         {
             var element = (UIElement) e.Source;
