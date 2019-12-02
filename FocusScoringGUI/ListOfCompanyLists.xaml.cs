@@ -15,27 +15,6 @@ namespace FocusScoringGUI
             InitializeComponent();
         }
 
-        private void Init(object o, EventArgs args)
-        {/*
-            var mainWindow = (MainWindow) ((Grid) Parent).Parent;
-            manager = mainWindow.FocusManager;//TODO need to try to come up to better initialization 
-            companyList = mainWindow.Companies;
-            companiesCache = mainWindow.CompaniesCache;*/
-        }
-        //TODO clear
-        public ListOfCompanyLists(ListsCache<CompanyData> cache, FocusKeyManager manager, CompanyList companyList)
-        {
-            InitializeComponent();
-            this.Manager = manager;
-            this.CompanyList = companyList;
-            CompaniesCache = cache;
-            ListNames = CompaniesCache.GetNames();
-
-            if (ListNames.Count != 0) return;
-            CompaniesCache.UpdateList("NewList", new List<CompanyData>());
-            companyList.ShowNewList("NewList");
-        }
-
         private List<string> ListNames;
 
         private ListsCache<CompanyData> companiesCache;
@@ -61,8 +40,7 @@ namespace FocusScoringGUI
         }
 
         public FocusKeyManager Manager{ get; set; } 
-        public ICompanyFactory CompanyFactory { get; set; }
-        //private CompanyList companyList;
+        public IExporter Excel { get; set; }
         public CompanyList CompanyList { get; set; }
 
         private void ListSelected_Click(object s, RoutedEventArgs e)
@@ -165,7 +143,7 @@ namespace FocusScoringGUI
             if (ListView.SelectedItem == null || ListNames.Count <= 1)
                 return;
             var name = (string)ListView.SelectedItem;
-            CompanyList.ExportExcel(name);
+            Excel.Export(name);
         }
         
     }

@@ -22,8 +22,8 @@ namespace FocusScoringGUI
         private bool isMonAvailable;
         public FocusKeyManager FocusManager { get; set; }
         private ListsCache<CompanyData> CompaniesCache { get; }
-        
-        
+
+
         /*public MarkersList Markers { get; set; }
         public CompanyList Companies { get; set; }*/
 
@@ -31,6 +31,9 @@ namespace FocusScoringGUI
         {
             FocusManager = manager;   
             CompaniesCache = new ListsCache<CompanyData>("CompanyLists");
+            
+            var factory = FocusManager.CreateCompanyFactory();
+            var SettingsCache = new ListsCache<string>("SettingsLists");
             
             InitializeComponent();
             CheckFocusKey(manager);
@@ -41,15 +44,17 @@ namespace FocusScoringGUI
             
             //MarkersControl.Manager = FocusManager;
 
-            CompanyControl.CompanyFactory = FocusManager.CreateCompanyFactory();
+            CompanyControl.CompanyFactory = factory;
             CompanyControl.Manager = FocusManager;//TODO Attepmpt to remove it
             CompanyControl.markersList = MarkersControl;
             CompanyControl.CompaniesCache = CompaniesCache;
+            CompanyControl.SettingsCache = SettingsCache;
             CompanyControl.FocusKeyUsed += (o, a) => CheckFocusKey(manager);
             
             CompanyListsControl.Manager = FocusManager;
             CompanyListsControl.CompanyList = CompanyControl;
             CompanyListsControl.CompaniesCache = CompaniesCache;
+            CompanyListsControl.Excel = new ExcelExporter(SettingsCache,CompaniesCache,factory);
             //CompanyListsControl.FocusKeyUsed += (o, a) => CheckFocusKey(manager);
         }
 

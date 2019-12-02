@@ -92,9 +92,11 @@
       <DependentUpon>CompanySettings.xaml</DependentUpon>
     </Compile>
     <Compile Include="CompanyToParameterConverter.cs" />
+    <Compile Include="ExcelExporter.cs" />
     <Compile Include="FocusKeyWindow.xaml.cs">
       <DependentUpon>FocusKeyWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="IExporter.cs" />
     <Compile Include="ListOfCompanyLists.xaml.cs">
       <DependentUpon>ListOfCompanyLists.xaml</DependentUpon>
     </Compile>

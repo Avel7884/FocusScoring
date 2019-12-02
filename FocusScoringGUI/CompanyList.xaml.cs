@@ -24,7 +24,6 @@ namespace FocusScoringGUI
         {
             //Loaded +=  Init;
             //TODO create it in the constructor
-            cache = new ListsCache<string>("SettingsLists");
             InitializeComponent();
         }
 
@@ -37,7 +36,7 @@ namespace FocusScoringGUI
         private List<CompanyData> currentList;
         public string CurrentListName { get; private set; }
         private BackgroundWorker Worker;//TODO consider use threadpull
-        private ListsCache<string> cache;
+        public ListsCache<string> SettingsCache { get; set; }
         private Window SettingsWindow;
         private CompanyToParameterConverter converter { get; set; }
 
@@ -132,7 +131,7 @@ namespace FocusScoringGUI
         private void RepopulateColumns()//bool resetCompanies = false)
         {
             EnsureCache();
-            var settings = cache.GetList(CurrentListName);
+            var settings = SettingsCache.GetList(CurrentListName);
 
             var gridView = (GridView)CompanyListView.View;
             var lastColumn = Manager.IsBaseMode() ? 0 : 1;
@@ -159,8 +158,8 @@ namespace FocusScoringGUI
 
         private void EnsureCache()
         {
-            if(!cache.GetNames().Contains(CurrentListName))
-                cache.UpdateList(CurrentListName,new []{"Имя","Инн"});//TODO use something stat
+            if(!SettingsCache.GetNames().Contains(CurrentListName))
+                SettingsCache.UpdateList(CurrentListName,new []{"Имя","Инн"});//TODO use something stat
         }
         
         private void ButtonCompaniesSettings_Click(object s, RoutedEventArgs e)
@@ -176,15 +175,15 @@ namespace FocusScoringGUI
                 SettingsWindow.Focus();
                 return;                
             }
-            SettingsWindow= new CompanySettings(cache, CurrentListName, 
+            SettingsWindow= new CompanySettings(SettingsCache, CurrentListName, 
                 CompanyData.GetAvailableParameters(Manager));
-            cache.DeleteList(CurrentListName);
+            SettingsCache.DeleteList(CurrentListName);
             SettingsWindow.Show();
             SettingsWindow.Closed += (o, a) =>
             {
                 if(!(o as CompanySettings).OkClicked)
                     return;
-                var settings = cache.GetList(CurrentListName);
+                var settings = SettingsCache.GetList(CurrentListName);
                 currentList = currentList
                     .Select(x => x.Source ?? CompanyFactory.CreateFromInn(x.Inn))
                     .Select(x => new CompanyData(x,settings)).ToList();
@@ -233,7 +232,7 @@ namespace FocusScoringGUI
                 return;
 
             var company = CompanyFactory.CreateFromInn(Inn.Text);
-            var companyData = new CompanyData(company,cache.GetList(CurrentListName));
+            var companyData = new CompanyData(company,SettingsCache.GetList(CurrentListName));
             currentList.Add(companyData);
             CompaniesCache.UpdateList(CurrentListName,currentList);
             CompanyListView.Items.Refresh();
@@ -346,7 +345,7 @@ namespace FocusScoringGUI
 
             var progress = new ProgressWindow();
             progress.Show();
-            var settings = cache.GetList(CurrentListName);
+            var settings = SettingsCache.GetList(CurrentListName);
             
             CompanyListView.ItemsSource = currentList;
             CompanyListView.Items.Refresh();
@@ -387,21 +386,6 @@ namespace FocusScoringGUI
             Worker.RunWorkerAsync(100000);
         }
 
-        private Action<object,DoWorkEventArgs> WorkFor(int index,CompanyData data,List<string> settings)
-        {
-            return (o, e) =>
-            {
-                var bv = o as BackgroundWorker;
-                if(bv.CancellationPending) return;
-                if (data.Source == null)
-                    data.Source = CompanyFactory.CreateFromInn(data.Inn);
-                bv.ReportProgress(index/currentList.Count, data);
-                data.Recheck(settings);
-                if(bv.CancellationPending) return;
-                bv.ReportProgress(index/currentList.Count, data);
-            };
-        }
-
         public void CreateNewList(string name, IList<string> listInn)
         {
             ListSetted = true;
@@ -417,7 +401,7 @@ namespace FocusScoringGUI
 
         private void FillList(string name, IList<string> listInn)
         {
-            var settings = cache.GetList(CurrentListName);
+            var settings = SettingsCache.GetList(CurrentListName);
             
             var pastList = currentList;
             currentList = new List<CompanyData>();
@@ -471,90 +455,6 @@ namespace FocusScoringGUI
             Worker.RunWorkerAsync(100000);
         }
 
-        public void ExportExcel(string name)
-        {
-            var fd = new SaveFileDialog();
-            fd.Filter = "Excel files (*.xlsx, .xlsm or .xls)|.xlsx;*.xlsm;*.xls;";
-            fd.ShowDialog();
-            if(fd.FileName == "")
-                return;
-
-            using (var file = fd.OpenFile())
-            using (ExcelPackage excel = new ExcelPackage())
-            {
-                excel.Workbook.Worksheets.Add("Worksheet1");
-                var worksheet = excel.Workbook.Worksheets["Worksheet1"];
-
-                var settings = cache.GetList(name);
-                var companies = CompaniesCache.GetList(name);
-
-                var headerRange = "A"+ 1 + ":" + char.ConvertFromUtf32(settings.Count + 64) + 1;
-                worksheet.Cells[headerRange].LoadFromArrays(new []{settings.ToArray()});
-                
-                for(var i = 0;i<companies.Count;i++)
-                {
-                    var company = companies[i];
-                    if(company.Source==null)
-                        company.MakeSource(CompanyFactory);
-                    var companyRow =
-                        settings.Select(company.getSetting)
-                            .Concat(company.Source.Markers.Select(m => m.Marker.Description)).ToArray();
-                    var companyRange = "A"+ (i+2) + ":" + char.ConvertFromUtf32(companyRow.Length + 64) + (i+2);
-
-                    worksheet.Cells[companyRange].LoadFromArrays(new []{companyRow});
-                    
-                    worksheet.Cells["A" + (i+2)].Style.Fill.PatternType = ExcelFillStyle.Solid;
-                    worksheet.Cells["A" + (i+2)].Style.Fill.BackgroundColor.SetColor(GetExcelColor(company.CLight));
-                    worksheet.Cells["A" + (i+2)].AutoFitColumns();
-                    for (var j =0;j<company.Source.Markers.Length;j++)
-                    {
-                        var color = GetExcelColor(company.Source.Markers[j].Marker.Colour);
-                        var markerPos = char.ConvertFromUtf32(settings.Count + 1 + j + 64) + (i + 2);
-                        worksheet.Cells[markerPos].Style.Fill.PatternType = ExcelFillStyle.Solid;
-                        worksheet.Cells[markerPos].Style.Fill.BackgroundColor.SetColor(color);
-                        worksheet.Cells[markerPos].AutoFitColumns();
-                    }
-                    
-                    worksheet.Row(i+1).Style.Border.BorderAround(ExcelBorderStyle.Thin);
-                    
-/*
-                    foreach (var VARIABLE in )
-                    {
-                        
-                        worksheet.Cells[markerPos].Style.Border.BorderAround(ExcelBorderStyle.Thin);
-                    }*/
-                    //worksheet.Cells["A1:BB"+companies.Count].Style.Border.BorderAround(ExcelBorderStyle.Thin);
-                }
-  
-                //var excelFile = new FileInfo(new OpenFileDialog().file);
-                excel.SaveAs(file);
-            }
-        }
-
-        private Color GetExcelColor(Light light)
-        {
-            switch (light)
-            {
-                case Light.Green : return Color.LawnGreen;
-                case Light.Red : return Color.Red;
-                case Light.Yellow : return Color.Yellow;
-                default : return Color.White;
-            }
-        } 
-        private Color GetExcelColor(MarkerColour light)
-        {
-            switch (light)
-            {
-                case MarkerColour.Green : return Color.LawnGreen;
-                case MarkerColour.Red : return Color.Red;
-                case MarkerColour.Yellow : return Color.Yellow;
-                case MarkerColour.GreenAffiliates : return Color.LawnGreen;
-                case MarkerColour.RedAffiliates : return Color.Red;
-                case MarkerColour.YellowAffiliates : return Color.Yellow;
-                default : return Color.White;
-            }
-        } 
-
         private void CopyExecuted(object sender, ExecutedRoutedEventArgs e)
         {
             var element = (UIElement) e.Source;
@@ -562,7 +462,5 @@ namespace FocusScoringGUI
             
             //Clipboard.SetText((CompanyData)CompanyListView.SelectedItem);            
         }
-        
-        
     }
 }
