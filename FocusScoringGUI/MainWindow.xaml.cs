@@ -88,7 +88,8 @@ namespace FocusScoringGUI
                 CompanyControl.Manager = FocusManager;
                 CompanyListsControl.Manager = FocusManager;
                 CompanyListsControl.Excel = new ExcelExporter(new ListsCache<string>("SettingsLists"),new ListsCache<CompanyData>("CompanyLists"),factory);
-                
+                foreach (var companyData in CompanyControl.CurrentList)
+                    companyData.Source?.Reinstance(FocusManager);
                 CheckFocusKey(FocusManager);
             };
         }

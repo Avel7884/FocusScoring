@@ -67,6 +67,9 @@ namespace FocusScoringGUI
                     //.Select(inn=> CompanyFactory.CreateFromInn(inn))
                 .ToList();
             
+            if(!Manager.AbleToUseMore(1))
+                return "Ключ требует продления!";
+
             /*
 
             foreach (var inn in list)
@@ -90,23 +93,15 @@ namespace FocusScoringGUI
             AddList(name,companyList);
             return null;
         }
-/*
-
-        private int CountFocusKeyUsages(List<string> companies)
-        {
-            return companies.Sum(x => Manager.IsCompanyUsed(x) ? 1 : 0);
-        }*/
 
         private void AddList(string name, List<string> list)
         {
             if(!CompanyListReady())
                 return;            
-            //CompaniesCache.UpdateList(name, list);
             ListNames.Add(name);
             ListView.Items.Refresh();
             ListView.SelectedItem = ListNames.Last();
             CompanyList.CreateNewList(name,list);
-            //FocusKeyUsed.Invoke(this,null);
         }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)
@@ -128,9 +123,6 @@ namespace FocusScoringGUI
             if (!b) MessageBox.Show("Дождитесь обработки списка.");
             return b;
         }
-        
-        //public event Action<object, EventArgs> FocusKeyUsed;
-
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
             new ListDialog(CheckAndAddList,CompaniesCache).Show();

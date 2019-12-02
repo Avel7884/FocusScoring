@@ -33,7 +33,7 @@ namespace FocusScoringGUI
         public ListsCache<CompanyData> CompaniesCache{ get; set; }
         public ICompanyFactory CompanyFactory { get; set; }
         public MarkersList markersList;
-        private List<CompanyData> currentList;
+        public List<CompanyData> CurrentList { get; private set; }
         public string CurrentListName { get; private set; }
         private ICollectionWorker Worker;//TODO consider use threadpull
         public ListsCache<string> SettingsCache { get; set; }
@@ -48,12 +48,12 @@ namespace FocusScoringGUI
             CurrentListName = listName;
             TextBlockList.Text = CurrentListName;
             
-            currentList = CompaniesCache.GetList(CurrentListName);
+            CurrentList = CompaniesCache.GetList(CurrentListName);
             RepopulateColumns();
 
             //currentList = new List<CompanyData>(); //CompaniesCache.GetList(listName).Select(Manager.CreateFromInn).ToList();
             
-            CompanyListView.ItemsSource = currentList;
+            CompanyListView.ItemsSource = CurrentList;
             CompanyListView.Items.Refresh();
             
             //ProcessCompanies(listName);
@@ -153,11 +153,11 @@ namespace FocusScoringGUI
                 if(!(o as CompanySettings).OkClicked)
                     return;
                 var settings = SettingsCache.GetList(CurrentListName);
-                currentList = currentList
+                CurrentList = CurrentList
                     .Select(x => x.Source ?? CompanyFactory.CreateFromInn(x.Inn))
                     .Select(x => new CompanyData(x,settings)).ToList();
-                CompanyListView.ItemsSource = currentList;
-                CompaniesCache.UpdateList(CurrentListName,currentList);
+                CompanyListView.ItemsSource = CurrentList;
+                CompaniesCache.UpdateList(CurrentListName,CurrentList);
                 RepopulateColumns();
             };
         }
@@ -177,7 +177,7 @@ namespace FocusScoringGUI
                 return;
             }
             
-            if (currentList.Select(x => x.Inn).Contains(Inn.Text))
+            if (CurrentList.Select(x => x.Inn).Contains(Inn.Text))
             {
                 MessageBox.Show("Компания уже имеется в списке");
                 return;
@@ -202,16 +202,16 @@ namespace FocusScoringGUI
 
             var company = CompanyFactory.CreateFromInn(Inn.Text);
             var companyData = new CompanyData(company,SettingsCache.GetList(CurrentListName));
-            currentList.Add(companyData);
-            CompaniesCache.UpdateList(CurrentListName,currentList);
+            CurrentList.Add(companyData);
+            CompaniesCache.UpdateList(CurrentListName,CurrentList);
             CompanyListView.Items.Refresh();
             FocusKeyUsed.Invoke(this,null);
         }
 
         private void DeleteCompany_Context(object s, RoutedEventArgs e)
         {
-            currentList.Remove((CompanyData)CompanyListView.SelectedItem);
-            CompaniesCache.UpdateList(CurrentListName,currentList);
+            CurrentList.Remove((CompanyData)CompanyListView.SelectedItem);
+            CompaniesCache.UpdateList(CurrentListName,CurrentList);
             CompanyListView.Items.Refresh();
         }
         
@@ -237,14 +237,14 @@ namespace FocusScoringGUI
                 return;
             
             var settings = SettingsCache.GetList(CurrentListName);
-            CompanyListView.ItemsSource = currentList;
+            CompanyListView.ItemsSource = CurrentList;
             CompanyListView.Items.Refresh();
             
             Worker = new CollectionWorker();
             
             Worker.ProgressChanged += (o,e) =>
             {
-                lock (currentList)
+                lock (CurrentList)
                 lock (CompanyListView)
                 {
                     CompanyListView.Items.Refresh();
@@ -253,10 +253,10 @@ namespace FocusScoringGUI
             
             Worker.RunWorkerCompleted += (o,e) =>
             {
-                CompaniesCache.UpdateList(CurrentListName, currentList);
+                CompaniesCache.UpdateList(CurrentListName, CurrentList);
             };
             
-            Worker.WorkOn(currentList,((i, data) =>
+            Worker.WorkOn(CurrentList,((i, data) =>
             {
                 if (data.Source == null)
                     data.Source = CompanyFactory.CreateFromInn(data.Inn);
@@ -280,33 +280,33 @@ namespace FocusScoringGUI
         {
             var settings = SettingsCache.GetList(CurrentListName);
             
-            currentList = new List<CompanyData>();
+            CurrentList = new List<CompanyData>();
             foreach (var inn in listInn)
             {
                 var data = new CompanyData {CLight = Light.Loading, Inn = inn};
                 data.InitParameters(settings);//TODO Make better
-                currentList.Add(data);
+                CurrentList.Add(data);
             }    
             
-            CompanyListView.ItemsSource = currentList;
+            CompanyListView.ItemsSource = CurrentList;
             CompanyListView.Items.Refresh();
             Worker = new CollectionWorker();
             
             Worker.ProgressChanged += (o,e) =>
             {
-                lock (currentList)
+                lock (CurrentList)
                 lock (CompanyListView)
                 {     
                     var (data, index) = ((CompanyData, int)) e.UserState;
-                    currentList[index] = data;
+                    CurrentList[index] = data;
                     CompanyListView.Items.Refresh();
                 }
             };
             
             Worker.RunWorkerCompleted += (o,e) =>
             {
-                CompaniesCache.UpdateList(name, currentList);
-                FocusKeyUsed.Invoke(this,new EventArgs());
+                CompaniesCache.UpdateList(name, CurrentList);
+                FocusKeyUsed?.Invoke(this,new EventArgs());
             };
             
             Worker.WorkOn(listInn, (i, inn) =>
