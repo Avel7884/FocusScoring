@@ -80,7 +80,7 @@ namespace FocusScoringGUI
             //{"Адресс", ("legalAddress",s=>s)},
             //{"Деректор",("head",s=>s)},
             {"Статус" , ("Status",s=>s)},//("Reorganizing",s=>s=="" ? "" : "В состоянии реорганизации")}
-            {"Дата Регистрации", ("regDate", s => s.Replace('-','.'))},//(s != "" ? DateTime.Parse(s) : DateTime.MinValue).ToString("dd.mm.yyyy"))},
+            {"Дата Регистрации", ("regDate", s => s != "" ? DateTime.Parse(s).ToString("dd.MM.yyyy") : s)},//s.Replace('-','.'))},//
             {"Телефон",("phone",s=>s)},
             {"Сайт",("site",s=>s)}
         };
@@ -97,7 +97,7 @@ namespace FocusScoringGUI
 
         public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager)
         {
-            var tmp = manager.IsBaseMode() ? new[] {"Имя", "Инн", "Адрес"} : new[] {"Имя", "Инн", "Адрес", "Рейтинг"};
+            var tmp = manager.IsBaseMode() ? new[] {"Имя", "Инн", "Адрес"} : new[] {"Имя", "Инн", "Рейтинг", "Адрес"};
             return tmp.Concat(LibraryParamsDict
                 .Where(p => manager.IsParamAvailable(p.Value.Item1))
                 .Select(p => p.Key));

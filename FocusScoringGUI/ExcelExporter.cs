@@ -46,9 +46,14 @@ namespace FocusScoringGUI
                     var company = companies[i];
                     if(company.Source==null)
                         company.MakeSource(CompanyFactory);
+                    var markers = company.Source.Markers
+                        .Where(x => x.Marker.Colour == MarkerColour.Red || x.Marker.Colour == MarkerColour.RedAffiliates )
+                        .Concat(company.Source.Markers
+                            .Where(x => x.Marker.Colour != MarkerColour.Red && x.Marker.Colour != MarkerColour.RedAffiliates))
+                        .ToArray();
                     var companyRow =
                         settings.Select(company.getSetting)
-                            .Concat(company.Source.Markers.Select(m => m.Marker.Description)).ToArray();
+                            .Concat(markers.Select(x=>x.Marker.Description)).ToArray();
                     var companyRange = "A"+ (i+2) + ":" + char.ConvertFromUtf32(companyRow.Length + 64) + (i+2);
 
                     worksheet.Cells[companyRange].LoadFromArrays(new []{companyRow});
@@ -59,7 +64,7 @@ namespace FocusScoringGUI
                     var len = company.Source.Markers.Length;
                     for (var j =0;j<len;j++)
                     {
-                        var color = GetExcelColor(company.Source.Markers[j].Marker.Colour);
+                        var color = GetExcelColor(markers[j].Marker.Colour);
                         var markerPos = char.ConvertFromUtf32(settings.Count + 1 + j + 64) + (i + 2);
                         worksheet.Cells[markerPos].Style.Fill.PatternType = ExcelFillStyle.Solid;
                         worksheet.Cells[markerPos].Style.Fill.BackgroundColor.SetColor(color);
