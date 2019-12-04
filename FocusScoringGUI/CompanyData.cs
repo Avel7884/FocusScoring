@@ -80,7 +80,7 @@ namespace FocusScoringGUI
             //{"Адресс", ("legalAddress",s=>s)},
             //{"Деректор",("head",s=>s)},
             {"Статус" , ("Status",s=>s)},//("Reorganizing",s=>s=="" ? "" : "В состоянии реорганизации")}
-            {"Дата Регистрации", ("regDate", s => (s != "" ? DateTime.Parse(s) : DateTime.MinValue).ToString("dd.mm.yyyy"))},
+            {"Дата Регистрации", ("regDate", s => s.Replace('-','.'))},//(s != "" ? DateTime.Parse(s) : DateTime.MinValue).ToString("dd.mm.yyyy"))},
             {"Телефон",("phone",s=>s)},
             {"Сайт",("site",s=>s)}
         };

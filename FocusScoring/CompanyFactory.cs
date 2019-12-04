@@ -1,20 +1,34 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Controls;
 
 namespace FocusScoring
 {
     internal class CompanyFactory : ICompanyFactory
     {
         private FocusKeyManager manager;
-
+        
         public CompanyFactory(FocusKeyManager manager)
         {
             this.manager = manager;
         }
+
+        public Exception Exception { get; private set; }
+        
         
         public Company CreateFromInn(string inn)
         {
-            return new Company(inn,paramDict,manager);
+            try
+            {
+                Exception = null;
+                return new Company(inn, paramDict, manager);
+            }
+            catch(Exception e)
+            {
+                Exception = e;//TODO make better message system
+                return new Company(inn,paramDict,manager,true);
+            }
         }
         
         internal static Dictionary<string, (ApiMethod, string)> paramTupDict = new Dictionary<string, (ApiMethod, string)>()

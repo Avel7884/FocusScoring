@@ -155,6 +155,7 @@ namespace FocusScoringGUI
                 if(!(o as CompanySettings).OkClicked)
                     return;
                 var settings = SettingsCache.GetList(CurrentListName);
+                var errors = new List<string>();
                 Worker = new CollectionWorker("Прогресс настроек");
 
                 Worker.ProgressChanged += (o2, e2) =>
@@ -168,13 +169,20 @@ namespace FocusScoringGUI
                     }
                 };
 
-                Worker.RunWorkerCompleted += (o2, e2) => { 
+                Worker.RunWorkerCompleted += (o2, e2) =>
+                {
+                    if (errors.Count != 0) MessageBox.Show("Произошли следующие ошибки: " + string.Join(" ", errors));
                     CompaniesCache.UpdateList(CurrentListName, CurrentList);};
                 
                 Worker.WorkOn(CurrentList, (i, data) =>
                 {
-                    var company = data.Source ?? CompanyFactory.CreateFromInn(data.Inn);
-                    return (i,new CompanyData(company, settings));
+                    lock (CompanyFactory)
+                    {
+                        var company = data.Source ?? CompanyFactory.CreateFromInn(data.Inn);
+                        if(CompanyFactory.Exception != null) 
+                            errors.Add(CompanyFactory.Exception.Message);
+                        return (i,new CompanyData(company, settings));
+                    } 
                 });
                 /*
 
@@ -224,7 +232,11 @@ namespace FocusScoringGUI
             if(mb != MessageBoxResult.OK)
                 return;
 
-            var company = CompanyFactory.CreateFromInn(Inn.Text);
+            var company = CompanyFactory.
+                CreateFromInn(Inn.Text);
+            if (CompanyFactory.Exception != null)
+                MessageBox.Show("Ошибка при обработке:" + CompanyFactory.Exception.Message);
+                
             var companyData = new CompanyData(company,SettingsCache.GetList(CurrentListName));
             CurrentList.Add(companyData);
             CompaniesCache.UpdateList(CurrentListName,CurrentList);
@@ -260,6 +272,7 @@ namespace FocusScoringGUI
             if(Worker!= null && Worker.IsBusy())
                 return;
             
+            var errors = new List<string>();
             var settings = SettingsCache.GetList(CurrentListName);
             CompanyListView.ItemsSource = CurrentList;
             CompanyListView.Items.Refresh();
@@ -271,20 +284,25 @@ namespace FocusScoringGUI
                 lock (CurrentList)
                 lock (CompanyListView)
                 {
+                    //var data = (CompanyData) e.UserState;
                     CompanyListView.Items.Refresh();
                 }
             };
             
             Worker.RunWorkerCompleted += (o,e) =>
             {
+                if (errors.Count != 0) MessageBox.Show("Произошли следующие ошибки: " + string.Join(" ", errors));
+
                 CompaniesCache.UpdateList(CurrentListName, CurrentList);
-                MessageBox.Show($"Проверка листа завершена загружено {CurrentList.Count} компаний");
+                MessageBox.Show($"Проверка листа завершена загружено {CurrentList.Count-errors.Count} компаний");
             };
             
             Worker.WorkOn(CurrentList,((i, data) =>
             {
                 if (data.Source == null)
                     data.Source = CompanyFactory.CreateFromInn(data.Inn);
+                if (CompanyFactory.Exception != null)
+                    errors.Add(data.Inn +": "+ CompanyFactory.Exception.Message+"\t\n");
                 data.Recheck(settings);
                 return data;
             }));
@@ -304,7 +322,7 @@ namespace FocusScoringGUI
         private void FillList(string name, IList<string> listInn)
         {
             var settings = SettingsCache.GetList(CurrentListName);
-            
+            var errors = new List<string>();
             CurrentList = new List<CompanyData>();
             foreach (var inn in listInn)
             {
@@ -330,14 +348,17 @@ namespace FocusScoringGUI
             
             Worker.RunWorkerCompleted += (o,e) =>
             {
+                if (errors.Count != 0) MessageBox.Show("Произошли следующие ошибки: " + string.Join(" ", errors));
                 CompaniesCache.UpdateList(name, CurrentList);
                 FocusKeyUsed?.Invoke(this,new EventArgs());
-                MessageBox.Show($"Загрузка листа завершена загружено {CurrentList.Count} компаний");
+                MessageBox.Show($"Загрузка листа завершена загружено {CurrentList.Count-errors.Count} компаний");
             };
             
             Worker.WorkOn(listInn, (i, inn) =>
             {
                 var data = new CompanyData(CompanyFactory.CreateFromInn(inn),settings);
+                if (CompanyFactory.Exception != null)
+                    errors.Add(data.Inn + ": " + CompanyFactory.Exception.Message);//MessageBox.Show("Ошибка при обработке:" + CompanyFactory.Exception.Message);
                 data.InitLight(data.Source.Score);//TODO Refactor here!
                 return (data, i);
             });
@@ -395,6 +416,7 @@ namespace FocusScoringGUI
                     {
                         _lastHeaderClicked.Column.HeaderTemplate = null;
                     }
+                    
 
                     _lastHeaderClicked = headerClicked;
                     _lastDirection = direction;

@@ -19,7 +19,7 @@ namespace FocusScoring
         private Scorer scorer;
         private Dictionary<string,CompanyParameter> paramDict;
 
-        internal Company(string inn, Dictionary<string, CompanyParameter> paramDict, FocusKeyManager manager = null)
+        internal Company(string inn, Dictionary<string, CompanyParameter> paramDict, FocusKeyManager manager = null, bool safe = false)
         {    //TODO remove singleton
             manager = manager ?? Settings.DefaultManager;
             access = manager.Access;
@@ -27,8 +27,10 @@ namespace FocusScoring
             Inn = inn;
             this.paramDict = paramDict;
             Score = -1;
-            MakeScore();
+            if(!safe) MakeScore();
         }
+        
+        
 
         public void Reinstance(FocusKeyManager manager)
         {
