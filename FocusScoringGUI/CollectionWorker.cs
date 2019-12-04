@@ -2,27 +2,30 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Security.Principal;
 
 namespace FocusScoringGUI
 {
     public class CollectionWorker: ICollectionWorker
     {
         private BackgroundWorker Worker;
-        
-        
+        private ProgressWindow Progress;
+
+        public CollectionWorker(string WindowName = "Прогресс проверки")
+        {
+             Progress = new ProgressWindow(WindowName);
+            Progress.Show();
+            Worker = new BackgroundWorker();
+            Worker.WorkerReportsProgress = true;
+            Worker.WorkerSupportsCancellation = true;
+        }
         
         public void WorkOn<T>(ICollection<T> collection,Func<int,T,object> work)
         {
             if(Worker!= null && Worker.IsBusy)
                 return;
-
-            var progress = new ProgressWindow();
-            progress.Show();
-            Worker = new BackgroundWorker();
-            Worker.WorkerReportsProgress = true;
-            Worker.WorkerSupportsCancellation = true;
-            var len = collection.Count;
             
+            var len = collection.Count;
             //for(int i=0;i<len;i++)
             foreach (var (i,el) in Enumerable.Range(0,len).Zip(collection,ValueTuple.Create))
                 Worker.DoWork += (o, e) =>
@@ -36,13 +39,13 @@ namespace FocusScoringGUI
             
             Worker.ProgressChanged += (o,e) =>
             {
-                progress.Bar.Value = e.ProgressPercentage;
+                Progress.Bar.Value = e.ProgressPercentage;
                 ProgressChanged?.Invoke(o,e);
             };
             
             Worker.RunWorkerCompleted += (o,e) =>
             {
-                progress.Close();
+                Progress.Close();
                 RunWorkerCompleted?.Invoke(o,e);
             };
             

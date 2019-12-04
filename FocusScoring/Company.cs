@@ -109,6 +109,7 @@ namespace FocusScoring
                 ("regionName/topoValue","regionName/topoShortName" ),
                 ("region/topoValue", "region/topoShortName"),
                 ("city/topoShortName", "city/topoValue"),
+                ("settlement/topoShortName", "settlement/topoValue"), 
                 ("district/topoShortName", "district/topoValue"), 
                 ("street/topoShortName", "street/topoValue"), 
                 ("house/topoShortName", "house/topoValue"), 

@@ -150,15 +150,39 @@ namespace FocusScoringGUI
             SettingsWindow.Show();
             SettingsWindow.Closed += (o, a) =>
             {
+                RepopulateColumns();
+                
                 if(!(o as CompanySettings).OkClicked)
                     return;
                 var settings = SettingsCache.GetList(CurrentListName);
+                Worker = new CollectionWorker("Прогресс настроек");
+
+                Worker.ProgressChanged += (o2, e2) =>
+                {
+                    var (index, data) = ((int, CompanyData)) e2.UserState;
+                    lock (CurrentList)
+                    lock (CompanyListView)
+                    {     
+                        CurrentList[index] = data;
+                        CompanyListView.Items.Refresh();
+                    }
+                };
+
+                Worker.RunWorkerCompleted += (o2, e2) => { 
+                    CompaniesCache.UpdateList(CurrentListName, CurrentList);};
+                
+                Worker.WorkOn(CurrentList, (i, data) =>
+                {
+                    var company = data.Source ?? CompanyFactory.CreateFromInn(data.Inn);
+                    return (i,new CompanyData(company, settings));
+                });
+                /*
+
                 CurrentList = CurrentList
                     .Select(x => x.Source ?? CompanyFactory.CreateFromInn(x.Inn))
                     .Select(x => new CompanyData(x,settings)).ToList();
                 CompanyListView.ItemsSource = CurrentList;
-                CompaniesCache.UpdateList(CurrentListName,CurrentList);
-                RepopulateColumns();
+                CompaniesCache.UpdateList(CurrentListName,CurrentList);*/
             };
         }
 
@@ -254,6 +278,7 @@ namespace FocusScoringGUI
             Worker.RunWorkerCompleted += (o,e) =>
             {
                 CompaniesCache.UpdateList(CurrentListName, CurrentList);
+                MessageBox.Show($"Проверка листа завершена загружено {CurrentList.Count} компаний");
             };
             
             Worker.WorkOn(CurrentList,((i, data) =>
@@ -307,6 +332,7 @@ namespace FocusScoringGUI
             {
                 CompaniesCache.UpdateList(name, CurrentList);
                 FocusKeyUsed?.Invoke(this,new EventArgs());
+                MessageBox.Show($"Загрузка листа завершена загружено {CurrentList.Count} компаний");
             };
             
             Worker.WorkOn(listInn, (i, inn) =>

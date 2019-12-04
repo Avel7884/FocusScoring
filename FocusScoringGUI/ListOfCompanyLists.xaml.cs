@@ -86,8 +86,9 @@ namespace FocusScoringGUI
             if (!Manager.AbleToUseMore(usagesNeeded))
                 return "Непроверенных компаний больше чем осталось использовний ключа. Уменьшите список или продлите ключ.";
             
-            var mb = MessageBox.Show($"Ключ будет использован {usagesNeeded} раз.");
-            if (mb != MessageBoxResult.OK) 
+            var mb = MessageBox.Show($"Ключ будет использован {usagesNeeded} раз.",
+                "Внимание", MessageBoxButton.YesNo);
+            if (mb != MessageBoxResult.Yes) 
                 return "";
             
             AddList(name,companyList);

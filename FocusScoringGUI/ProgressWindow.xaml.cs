@@ -4,9 +4,10 @@ namespace FocusScoringGUI
 {
     public partial class ProgressWindow : Window
     {
-        public ProgressWindow()
+        public ProgressWindow(string windowName)
         {
             InitializeComponent();
+            Name.Text = windowName;
         }
     }
 }

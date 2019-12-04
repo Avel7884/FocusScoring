@@ -28,17 +28,19 @@ namespace FocusScoring
                     var marker = (Marker)serializer.Deserialize(file);
                     markersDict[marker.GetCodeClassName()] = marker;
                 }
-
+/*
+            //TODO Maybe bring it back 
             var fioMarker = new Marker("Индивидуальный предприниматель сменил ФИО", MarkerColour.Yellow,
                 "Индивидуальный предприниматель сменил ФИО", 3,
                 company => FIOCache.HasChanged(company.Inn, company.GetParam("FIO")));
+*/
 
             var tmarker =
                 new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,
                     "Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
                     "return company.GetParam(\"Dissolving\") == \"true\" || company.GetParam(\"Dissolved\") == \"true\";"); 
             
-            markersDict[fioMarker.Name] = fioMarker;
+            //markersDict[fioMarker.Name] = fioMarker;
             markersDict[tmarker.Name] = tmarker;
         }
 

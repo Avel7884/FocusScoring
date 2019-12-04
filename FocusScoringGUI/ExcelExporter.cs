@@ -40,7 +40,7 @@ namespace FocusScoringGUI
 
                 var headerRange = "A"+ 1 + ":" + char.ConvertFromUtf32(settings.Count + 64) + 1;
                 worksheet.Cells[headerRange].LoadFromArrays(new []{settings.ToArray()});
-                
+                var maxLen = 0;
                 for(var i = 0;i<companies.Count;i++)
                 {
                     var company = companies[i];
@@ -56,7 +56,8 @@ namespace FocusScoringGUI
                     worksheet.Cells["A" + (i+2)].Style.Fill.PatternType = ExcelFillStyle.Solid;
                     worksheet.Cells["A" + (i+2)].Style.Fill.BackgroundColor.SetColor(GetExcelColor(company.CLight));
                     worksheet.Cells["A" + (i+2)].AutoFitColumns();
-                    for (var j =0;j<company.Source.Markers.Length;j++)
+                    var len = company.Source.Markers.Length;
+                    for (var j =0;j<len;j++)
                     {
                         var color = GetExcelColor(company.Source.Markers[j].Marker.Colour);
                         var markerPos = char.ConvertFromUtf32(settings.Count + 1 + j + 64) + (i + 2);
@@ -64,9 +65,8 @@ namespace FocusScoringGUI
                         worksheet.Cells[markerPos].Style.Fill.BackgroundColor.SetColor(color);
                         worksheet.Cells[markerPos].AutoFitColumns();
                     }
-                    
-                    worksheet.Row(i+1).Style.Border.BorderAround(ExcelBorderStyle.Thin);
-                    
+
+                    if (maxLen < len) maxLen = len;
 /*
                     foreach (var VARIABLE in )
                     {
@@ -75,7 +75,13 @@ namespace FocusScoringGUI
                     }*/
                     //worksheet.Cells["A1:BB"+companies.Count].Style.Border.BorderAround(ExcelBorderStyle.Thin);
                 }
-  
+
+                for (var i = 0; i < companies.Count; i++)
+                {
+                    var markerPos = char.ConvertFromUtf32(65) + (i + 2)+':'+char.ConvertFromUtf32(64+maxLen + settings.Count) + (i + 2);
+                    worksheet.Cells[markerPos].Style.Border.BorderAround(ExcelBorderStyle.Thin);
+                }
+
                 //var excelFile = new FileInfo(new OpenFileDialog().file);
                 excel.SaveAs(file);
             }
