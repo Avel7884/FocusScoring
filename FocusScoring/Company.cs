@@ -44,12 +44,12 @@ namespace FocusScoring
             Score = scorer.CountScore2(Markers.Select(x => x.Marker).ToArray());
         }
 
-        public void ForcedMakeScore()
+        public void ForcedMakeScore(bool scoreNeeded)
         {
             //TODO Check connection
             foreach (var method in (ApiMethod[])Enum.GetValues(typeof(ApiMethod)))
                 access.Clear(Inn,method);
-            MakeScore();
+            if(scoreNeeded) MakeScore();
         }
 
         public int Score { get; private set; }

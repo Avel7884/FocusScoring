@@ -42,7 +42,7 @@ namespace FocusScoringGUI
 
             CheckButton.Content = "Проверить список";//= isMonAvailable ? "Включить автопроверку." : "Проверить список";
 
-            CheckButton.Visibility = manager.IsBaseMode() ? Visibility.Hidden : Visibility.Visible;
+            //CheckButton.Visibility = manager.IsBaseMode() ? Visibility.Hidden : Visibility.Visible;
             
             //MarkersControl.Manager = FocusManager;
             MarkersControl.IsBaseMode = manager.IsBaseMode(); 

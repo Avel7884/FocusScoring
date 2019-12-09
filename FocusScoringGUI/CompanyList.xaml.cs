@@ -239,7 +239,7 @@ namespace FocusScoringGUI
             if (CompanyFactory.Exception != null)
                 MessageBox.Show("Ошибка при обработке:" + CompanyFactory.Exception.Message);
                 
-            var companyData = new CompanyData(company,SettingsCache.GetList(CurrentListName));
+            var companyData = new CompanyData(company,SettingsCache.GetList(CurrentListName),Manager.IsBaseMode());
             CurrentList.Add(companyData);
             CompaniesCache.UpdateList(CurrentListName,CurrentList);
             CompanyListView.Items.Refresh();

@@ -91,12 +91,13 @@ namespace FocusScoringGUI
         };
         
         public void Recheck(List<string> settings,bool IsBaseMode=false)
-        {
+        {/*
             var tmp = Source;
             Source = null;
-            InitParameters(settings);//TODO remove tmp
+            InitParameters(settings, IsBaseMode);//TODO remove tmp
             tmp.ForcedMakeScore();
-            Source = tmp;
+            Source = tmp;*/
+            Source.ForcedMakeScore(IsBaseMode);
             InitParameters(settings, IsBaseMode);
         }
 
