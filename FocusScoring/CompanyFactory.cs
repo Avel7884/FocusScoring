@@ -9,25 +9,26 @@ namespace FocusScoring
     {
         private FocusKeyManager manager;
         
-        public CompanyFactory(FocusKeyManager manager)
+        public CompanyFactory(FocusKeyManager manager, bool withScore = true)
         {
             this.manager = manager;
+            enableScore = !this.manager.IsBaseMode();
         }
 
         public Exception Exception { get; private set; }
-        
+        public bool enableScore;
         
         public Company CreateFromInn(string inn)
         {
             try
             {
                 Exception = null;
-                return new Company(inn, paramDict, manager);
+                return new Company(inn, paramDict, manager, enableScore);
             }
             catch(Exception e)
             {
                 Exception = e;//TODO make better message system
-                return new Company(inn,paramDict,manager,true);
+                return new Company(inn,paramDict,manager,false);
             }
         }
         
