@@ -99,7 +99,7 @@ namespace FocusScoringGUI
 
         public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager)
         {
-            var tmp = manager.IsBaseMode() ? new[] {"Имя", "Инн", "Адрес", "Телефон", "Сайт"} : new[] {"Имя", "Инн", "Рейтинг", "Адрес", "Телефон", "Сайт"};
+            var tmp = manager.IsBaseMode() ? new[] {"Имя", "Инн", "Адрес"} : new[] {"Имя", "Инн", "Рейтинг", "Адрес", "Телефон", "Сайт"};
             return tmp.Concat(LibraryParamsDict
                 .Where(p => manager.IsParamAvailable(p.Value.Item1))
                 .Select(p => p.Key));
