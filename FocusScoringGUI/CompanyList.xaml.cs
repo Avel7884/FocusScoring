@@ -103,7 +103,7 @@ namespace FocusScoringGUI
             var settings = SettingsCache.GetList(CurrentListName);
 
             var gridView = (GridView)CompanyListView.View;
-            var lastColumn = Manager.IsBaseMode() ? 0 : 1;
+            var lastColumn = 1;//Manager.IsBaseMode() ? 0 : 1;
             for(int i = gridView.Columns.Count-1;i >= lastColumn;i--)
                 gridView.Columns.RemoveAt(i);
             
@@ -183,7 +183,7 @@ namespace FocusScoringGUI
                         var company = data.Source ?? CompanyFactory.CreateFromInn(data.Inn);
                         if(CompanyFactory.Exception != null) 
                             errors.Add(CompanyFactory.Exception.Message);
-                        return (i,new CompanyData(company, settings));
+                        return (i,new CompanyData(company, settings, Manager.IsBaseMode()));
                     } 
                 });
                 /*
@@ -305,7 +305,7 @@ namespace FocusScoringGUI
                     data.Source = CompanyFactory.CreateFromInn(data.Inn);
                 if (CompanyFactory.Exception != null)
                     errors.Add(data.Inn +": "+ CompanyFactory.Exception.Message+"\t\n");
-                data.Recheck(settings);
+                data.Recheck(settings,Manager.IsBaseMode());
                 return data;
             }));
         }
@@ -358,10 +358,10 @@ namespace FocusScoringGUI
             
             Worker.WorkOn(listInn, (i, inn) =>
             {
-                var data = new CompanyData(CompanyFactory.CreateFromInn(inn),settings);
+                var data = new CompanyData(CompanyFactory.CreateFromInn(inn),settings,Manager.IsBaseMode());
                 if (CompanyFactory.Exception != null)
                     errors.Add(data.Inn + ": " + CompanyFactory.Exception.Message);//MessageBox.Show("Ошибка при обработке:" + CompanyFactory.Exception.Message);
-                data.InitLight(data.Source.Score);//TODO Refactor here!
+                //data.InitLight(data.Source.Score);//TODO Refactor here!
                 return (data, i);
             });
         }

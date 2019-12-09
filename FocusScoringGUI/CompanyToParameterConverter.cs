@@ -53,12 +53,12 @@ namespace FocusScoringGUI
             return methodInfo == null ? value : methodInfo.Invoke(value, new object[0]);#1#
             }*/
         }
-        
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             throw new NotSupportedException("MethodToValueConverter can only be used for one way conversion.");
         }
+        //TODO clear dead code
         
         private static Dictionary<string,(string,Func<string,string>)> LibraryParamsDict = new Dictionary<string, (string,Func<string,string>)>
         {

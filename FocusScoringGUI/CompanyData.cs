@@ -14,16 +14,19 @@ namespace FocusScoringGUI
     {
         public CompanyData(){}
         
-        public CompanyData(Company company, List<string> settings)
+        public CompanyData(Company company, List<string> settings,bool IsBaseMode=false)
         {
             Inn = company.Inn;
             Source = company;
-            InitParameters(settings);
+            InitParameters(settings,IsBaseMode);
         }
 
-        public void InitParameters(List<string> settings)
+        public void InitParameters(List<string> settings,bool IsBaseMode=false)
         {
-            InitLight(Source?.Score ?? -1);
+            if(IsBaseMode)
+                InitBriefLight(Source);
+            else
+                InitLight(Source?.Score ?? -1);
             Parameters = settings.Select(getSetting).ToArray();
         }
         
@@ -87,14 +90,14 @@ namespace FocusScoringGUI
             //{"Сайт",("site",s=>s)}
         };
         
-        public void Recheck(List<string> settings)
+        public void Recheck(List<string> settings,bool IsBaseMode=false)
         {
             var tmp = Source;
             Source = null;
-            InitParameters(settings);
+            InitParameters(settings);//TODO remove tmp
             tmp.ForcedMakeScore();
             Source = tmp;
-            InitParameters(settings);
+            InitParameters(settings, IsBaseMode);
         }
 
         public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager)
@@ -105,6 +108,28 @@ namespace FocusScoringGUI
                 .Select(p => p.Key));
         }
 
+        private void InitBriefLight(Company company)
+        {
+            if (company.GetParam("ReportRed") == "true")
+            {
+                CLight = Light.Red;
+                return;
+            }
+            
+            if (company.GetParam("ReportYellow") == "true")
+            {
+                CLight = Light.Yellow;
+                return;
+            }
+            
+            if (company.GetParam("ReportGreen") == "true")
+            {
+                CLight = Light.Green;
+                return;
+            }
+
+            CLight = Light.Loading;
+        }
 
         public void InitLight(int score)
         {

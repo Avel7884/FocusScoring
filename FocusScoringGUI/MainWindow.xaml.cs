@@ -41,6 +41,8 @@ namespace FocusScoringGUI
             isMonAvailable = FocusManager.GetAvailableMethods().Contains(ApiMethod.mon);
 
             CheckButton.Content = "Проверить список";//= isMonAvailable ? "Включить автопроверку." : "Проверить список";
+
+            CheckButton.Visibility = manager.IsBaseMode() ? Visibility.Hidden : Visibility.Visible;
             
             //MarkersControl.Manager = FocusManager;
             MarkersControl.IsBaseMode = manager.IsBaseMode(); 

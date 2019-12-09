@@ -34,6 +34,9 @@ namespace FocusScoring
         
         internal static Dictionary<string, (ApiMethod, string)> paramTupDict = new Dictionary<string, (ApiMethod, string)>()
         {
+            {"ReportRed",(ApiMethod.briefReport,"/ArrayOfbriefReport/briefReport/briefReport/summary/redStatements") },
+            {"ReportYellow",(ApiMethod.briefReport,"/ArrayOfbriefReport/briefReport/briefReport/summary/yellowStatements") },
+            {"ReportGreen",(ApiMethod.briefReport,"/ArrayOfbriefReport/briefReport/briefReport/summary/greenStatements") },
             {"Report",(ApiMethod.briefReport,"/ArrayOfbriefReport/briefReport/briefReport/href") },
             {"Short",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/short") },
             {"Full",(ApiMethod.req,"/ArrayOfreq/req/UL/legalName/full") },
