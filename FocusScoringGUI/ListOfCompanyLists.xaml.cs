@@ -136,7 +136,10 @@ namespace FocusScoringGUI
             if (ListView.SelectedItem == null || ListNames.Count <= 1)
                 return;
             var name = (string)ListView.SelectedItem;
-            Excel.Export(name);
+            if(Manager.IsBaseMode())
+                Excel.BaseExport(name);
+            else
+                Excel.Export(name);
         }
         
     }

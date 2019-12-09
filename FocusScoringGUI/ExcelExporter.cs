@@ -62,6 +62,8 @@ namespace FocusScoringGUI
                     worksheet.Cells["A" + (i+2)].Style.Fill.BackgroundColor.SetColor(GetExcelColor(company.CLight));
                     worksheet.Cells["A" + (i+2)].AutoFitColumns();
                     var len = company.Source.Markers.Length;
+                    
+                    
                     for (var j =0;j<len;j++)
                     {
                         var color = GetExcelColor(markers[j].Marker.Colour);
@@ -84,6 +86,54 @@ namespace FocusScoringGUI
                 for (var i = 0; i < companies.Count; i++)
                 {
                     var markerPos = char.ConvertFromUtf32(65) + (i + 2)+':'+char.ConvertFromUtf32(64+maxLen + settings.Count) + (i + 2);
+                    worksheet.Cells[markerPos].Style.Border.BorderAround(ExcelBorderStyle.Thin);
+                }
+
+                //var excelFile = new FileInfo(new OpenFileDialog().file);
+                excel.SaveAs(file);
+            }
+        }
+            //TODO DRY IT HARD!!
+        public void BaseExport(string name)
+        {
+            var fd = new SaveFileDialog();
+            fd.Filter = "Excel files (*.xlsx, .xlsm or .xls)|.xlsx;*.xlsm;*.xls;";
+            fd.ShowDialog();
+            if(fd.FileName == "")
+                return;
+
+            using (var file = fd.OpenFile())
+            using (ExcelPackage excel = new ExcelPackage())
+            {
+                excel.Workbook.Worksheets.Add("Worksheet1");
+                var worksheet = excel.Workbook.Worksheets["Worksheet1"];
+
+                var settings = cache.GetList(name);
+                var companies = CompaniesCache.GetList(name);
+
+                var headerRange = "A"+ 1 + ":" + char.ConvertFromUtf32(settings.Count + 64) + 1;
+                worksheet.Cells[headerRange].LoadFromArrays(new []{settings.ToArray()});
+                var maxLen = 0;
+                for(var i = 0;i<companies.Count;i++)
+                {
+                    var company = companies[i];
+                    if(company.Source==null)
+                        company.MakeSource(CompanyFactory);
+                    var companyRow =
+                        settings.Select(company.getSetting)
+                            .Concat(new []{company.Source.GetParam("Report")}).ToArray();
+                    var companyRange = "A"+ (i+2) + ":" + char.ConvertFromUtf32(companyRow.Length + 64) + (i+2);
+
+                    worksheet.Cells[companyRange].LoadFromArrays(new []{companyRow});
+                    //DA Big Clusterfuck
+                    worksheet.Cells["A" + (i+2)].Style.Fill.PatternType = ExcelFillStyle.Solid;
+                    worksheet.Cells["A" + (i+2)].Style.Fill.BackgroundColor.SetColor(GetExcelColor(company.CLight));
+                    worksheet.Cells["A" + (i+2)].AutoFitColumns();
+                }
+
+                for (var i = 0; i < companies.Count; i++)
+                {
+                    var markerPos = char.ConvertFromUtf32(65) + (i + 2)+':'+char.ConvertFromUtf32(64+maxLen + settings.Count+1) + (i + 2);
                     worksheet.Cells[markerPos].Style.Border.BorderAround(ExcelBorderStyle.Thin);
                 }
 
