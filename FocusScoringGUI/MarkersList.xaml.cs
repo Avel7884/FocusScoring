@@ -31,8 +31,11 @@ namespace FocusScoringGUI
 
         public void ShowNewMarkers(Company company)
         {
-            if(IsBaseMode)
-                pdfWebViewer.Navigate($"https://focus-api.kontur.ru/api3/briefReport?key=b2c8cd69c3dfff3c1110214e8fceb55b745b72ea&inn={company.Inn}&pdf=True");
+            if (IsBaseMode)
+            {
+                var url = company.GetParam("Report");
+                pdfWebViewer.Navigate(url != "" ? url : "about:blank");
+            }
             else
             {
                 MarkersListView.ItemsSource = company.Markers.Select(MarkerSubData.Create);
