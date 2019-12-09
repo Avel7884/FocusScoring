@@ -62,10 +62,12 @@ namespace FocusScoringGUI
                 //case "CLight": return InitLight(company.Score); //return new DataTemplate new Image{Source = new BitmapImage(InitLight(company.Score))}; 
                 //case "Инн": 
                 //case "Имя": return Source.CompanyName();
+                case "Телефон": return string.Join(", ",Source.GetParams("phone"));
+                case "Сайт": return string.Join(", ",Source.GetParams("site"));
                 case "Адрес": return Source.CompanyAddress();
                 case "Рейтинг": return Source.Score.ToString();
                 default:
-                    var (param,parser)= LibraryParamsDict[parameter];
+                    var (param,parser) = LibraryParamsDict[parameter];
                     return parser(Source.GetParam(param));
                 /*var methodInfo = value.GetType().GetMethod(methodName, new Type[0]);
         return methodInfo == null ? value : methodInfo.Invoke(value, new object[0]);*/
@@ -81,8 +83,8 @@ namespace FocusScoringGUI
             //{"Деректор",("head",s=>s)},
             {"Статус" , ("Status",s=>s)},//("Reorganizing",s=>s=="" ? "" : "В состоянии реорганизации")}
             {"Дата Регистрации", ("regDate", s => s != "" ? DateTime.Parse(s).ToString("dd.MM.yyyy") : s)},//s.Replace('-','.'))},//
-            {"Телефон",("phone",s=>s)},
-            {"Сайт",("site",s=>s)}
+            //{"Телефон",("phone",s=>s)},
+            //{"Сайт",("site",s=>s)}
         };
         
         public void Recheck(List<string> settings)
@@ -97,7 +99,7 @@ namespace FocusScoringGUI
 
         public static IEnumerable<string> GetAvailableParameters(FocusKeyManager manager)
         {
-            var tmp = manager.IsBaseMode() ? new[] {"Имя", "Инн", "Адрес"} : new[] {"Имя", "Инн", "Рейтинг", "Адрес"};
+            var tmp = manager.IsBaseMode() ? new[] {"Имя", "Инн", "Адрес", "Телефон", "Сайт"} : new[] {"Имя", "Инн", "Рейтинг", "Адрес", "Телефон", "Сайт"};
             return tmp.Concat(LibraryParamsDict
                 .Where(p => manager.IsParamAvailable(p.Value.Item1))
                 .Select(p => p.Key));

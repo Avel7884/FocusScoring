@@ -37,7 +37,7 @@ namespace FocusScoringGUI
         public string CurrentListName { get; private set; }
         private ICollectionWorker Worker;//TODO consider use threadpull
         public ListsCache<string> SettingsCache { get; set; }
-        private Window SettingsWindow;
+        private CompanySettings SettingsWindow;
         private CompanyToParameterConverter converter { get; set; }
 
         public void ShowNewList(string listName)
@@ -144,12 +144,14 @@ namespace FocusScoringGUI
                 SettingsWindow.Focus();
                 return;                
             }
-            SettingsWindow= new CompanySettings(SettingsCache, CurrentListName, 
+            SettingsWindow = new CompanySettings(SettingsCache, CurrentListName, 
                 CompanyData.GetAvailableParameters(Manager));
             SettingsCache.DeleteList(CurrentListName);
             SettingsWindow.Show();
             SettingsWindow.Closed += (o, a) =>
             {
+                if(!SettingsWindow.OkClicked)
+                    return;
                 RepopulateColumns();
                 
                 if(!(o as CompanySettings).OkClicked)

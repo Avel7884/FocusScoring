@@ -64,7 +64,7 @@ namespace FocusScoringGUI
 
             var companyList = list.Where(inn =>
                         ((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
-                    //.Select(inn=> CompanyFactory.CreateFromInn(inn))
+                .ToHashSet()
                 .ToList();
             
             if(!Manager.AbleToUseMore(1))

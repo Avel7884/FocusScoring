@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace FocusScoring
 {
-    public class FocusKeyManager //TODO very weird class, consider somethin' else
+    public class FocusKeyManager
     {
         private readonly string focusKey;
         private readonly XmlDownload downloader;
@@ -45,12 +45,6 @@ namespace FocusScoring
         {
             return !IsParamAvailable("m1003");
         }
-/*
-
-        public Company CreateFromInn(string inn)
-        {        //TODO Create factory for dis remove comments
-            return new Company(inn,paramDict,this);
-        }*/
 
         public FocusKeyManager(string focusKey)
         {
@@ -113,7 +107,7 @@ namespace FocusScoring
 
         private int nominator = int.MinValue;
         private int denominator = int.MaxValue;
-        
+        private DateTime expirationDate;
         private string CheckUsages()
         {
             if (!downloader.TryGetXml("https://focus-api.kontur.ru/api3/stat?xml&key=" + focusKey, out var doc))
@@ -124,12 +118,17 @@ namespace FocusScoring
                 .Select(x => x.InnerText)
                 .Select(int.Parse).Max().ToString());
             denominator = int.Parse(doc.SelectSingleNode("/ArrayOfstat/stat/limit").InnerText);
+
+            expirationDate = doc.SelectNodes("/ArrayOfstat/stat/periodEndDate")
+                .Cast<XmlNode>()
+                .Select(x => x.InnerText)
+                .Select(DateTime.Parse).Min();
             
             //TODO make it return numbers, somehow
             return $"{nominator} из {denominator}";
         }
         public bool AbleToUseMore(int more) => 
-            nominator + more <= denominator;
+            nominator + more <= denominator && expirationDate >= DateTime.Today;
 
     }
 }
