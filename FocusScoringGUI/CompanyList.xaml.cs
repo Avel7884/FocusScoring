@@ -74,7 +74,7 @@ namespace FocusScoringGUI
             var data = CompanyListView.SelectedItem as CompanyData;
             if(data.CLight == Light.Loading)
                 return;
-            if(!Manager.IsBaseMode())
+            //if(!Manager.IsBaseMode())
                 markersList.ShowNewMarkers(data.Source ?? data.MakeSource(CompanyFactory));
         }
 

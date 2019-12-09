@@ -43,6 +43,7 @@ namespace FocusScoringGUI
             CheckButton.Content = "Проверить список";//= isMonAvailable ? "Включить автопроверку." : "Проверить список";
             
             //MarkersControl.Manager = FocusManager;
+            MarkersControl.IsBaseMode = manager.IsBaseMode(); 
 
             CompanyControl.CompanyFactory = factory;
             CompanyControl.Manager = FocusManager;//TODO Attepmpt to remove it
@@ -62,7 +63,7 @@ namespace FocusScoringGUI
         {
             KeyCounter.Text = "Ключ: использовано " + manager.Usages;
             var worker = new BackgroundWorker();
-            worker.DoWork += (o,e)=>Thread.Sleep(10000);
+            worker.DoWork += (o,e) => Thread.Sleep(10000);
             worker.RunWorkerCompleted += (o, e) =>
                 KeyCounter.Text = "Ключ: использовано " + manager.Usages;
             worker.RunWorkerAsync(20000);

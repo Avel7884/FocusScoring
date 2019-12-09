@@ -17,17 +17,33 @@ namespace FocusScoringGUI
             InitializeComponent();
         }
 
+        private bool mode;
+        public bool IsBaseMode
+        {
+            get => mode;
+            set
+            {
+                pdfWebViewer.Visibility = value ? Visibility.Visible : Visibility.Hidden;
+                MarkersListView.Visibility = value ? Visibility.Hidden : Visibility.Visible;
+                mode = value;
+            }
+        }
+
         public void ShowNewMarkers(Company company)
         {
-            
+            if(IsBaseMode)
+                pdfWebViewer.Navigate($"https://focus-api.kontur.ru/api3/briefReport?key=b2c8cd69c3dfff3c1110214e8fceb55b745b72ea&inn={company.Inn}&pdf=True");
+            else
+            {
+                MarkersListView.ItemsSource = company.Markers.Select(MarkerSubData.Create);
+                MarkersListView.Items.Refresh();
+            }
             /*if (companyData.IsChecked)
             {
                 companyData.Check(Manager);
                 MarkersListView.ItemsSource = companyData.Company.Markers.Select(MarkerSubData.Create);
             }
             else MarkersListView.ItemsSource = new MarkerSubData[0]; */
-            MarkersListView.ItemsSource = company.Markers.Select(MarkerSubData.Create);
-            MarkersListView.Items.Refresh();
         }
         
         private void MarkerSelected_Click(object s, RoutedEventArgs e)

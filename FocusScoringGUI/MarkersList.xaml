@@ -26,6 +26,11 @@
         
         <TextBlock TextWrapping="Wrap" Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Margin="15,0,0,0"/>
 
+        <WebBrowser Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    Grid.Row="3"
+                    x:Name="pdfWebViewer"></WebBrowser>
+
         <ListView Grid.Column="0"
                   Grid.ColumnSpan="3"
                   Grid.Row="3"
