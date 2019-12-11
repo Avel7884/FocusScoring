@@ -145,15 +145,19 @@ namespace FocusScoringGUI
         private void Rename_Click(object sender, RoutedEventArgs e)
         {
             var renameBox = new ListRenameWindow();
+            renameBox.Show();
             renameBox.Closed += (o, ev) =>
             {
+                if(renameBox.NewName == "")
+                    return;
                 var name = (string)ListView.SelectedItem;
                 companiesCache.UpdateList(renameBox.NewName,CompaniesCache.GetList(name));
                 companiesCache.DeleteList(name);
                 ListNames.Remove(name);
                 ListNames.Add(renameBox.NewName);
+                ListView.ItemsSource = ListNames;
+                ListView.Items.Refresh();
             };
         }
     }
-
 }

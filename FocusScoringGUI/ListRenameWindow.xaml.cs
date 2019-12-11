@@ -6,6 +6,7 @@ namespace FocusScoringGUI
     {
         public ListRenameWindow()
         {
+            NewName = "";
             InitializeComponent();
         }
 

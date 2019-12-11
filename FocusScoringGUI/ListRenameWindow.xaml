@@ -5,14 +5,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:FocusScoringGUI"
         mc:Ignorable="d"
-        Title="ListRenameWindow" Height="100" Width="200">
+        Title="ListRenameWindow" Height="140" Width="280">
     <Grid>
         <StackPanel>
-            <TextBlock DataContext="Введите новое имя" HorizontalAlignment="Center"/>
-            <TextBox Name="NameBox" HorizontalAlignment="Center"/>
-            <StackPanel Orientation="Horizontal">
-                <Button Click="OkButton_OnClick">OK</Button>
-                <Button Click="CanselButton_OnClick">Отмена</Button>
+            <TextBlock Text="Введите новое имя" Width="150" HorizontalAlignment="Center" Margin="5,5,5,5"/>
+            <TextBox Name="NameBox" HorizontalAlignment="Center" Width="150" Margin="5,5,5,5"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Click="OkButton_OnClick" Width="75" Margin="5,5,5,5">OK</Button>
+                <Button Click="CanselButton_OnClick" Width="75" Margin="5,5,5,5">Отмена</Button>
             </StackPanel>
         </StackPanel>
     </Grid>
