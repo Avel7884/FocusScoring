@@ -15,33 +15,51 @@ namespace FocusScoringGUI
         {
             //Loaded +=  Init;
             InitializeComponent();
+            markersTab = TabControl.Items[1];
         }
 
         private bool mode;
+        private object markersTab;
         public bool IsBaseMode
         {
             get => mode;
             set
             {
-                pdfWebViewer.Visibility = value ? Visibility.Visible : Visibility.Hidden;
-                MarkersListView.Visibility = value ? Visibility.Hidden : Visibility.Visible;
+                if (mode == value) return;
+                if (value)
+                    TabControl.Items.RemoveAt(0);
+                else
+                    TabControl.Items.Insert(0,markersTab);
                 mode = value;
+                /*pdfWebViewer.Visibility = value ? Visibility.Visible : Visibility.Hidden;
+                MarkersListView.Visibility = value ? Visibility.Hidden : Visibility.Visible;*/
             }
         }
+        
+        
 
+        
         public void ShowNewMarkers(Company company)
-        {
-            if (IsBaseMode)
-            {
-                var url = company.GetParam("Report");
-                pdfWebViewer.Navigate(url != "" ? url : "about:blank");
-            }
-            else
+        { 
+            if (!IsBaseMode)
             {
                 MarkersListView.ItemsSource = company.Markers.Select(MarkerSubData.Create);
                 MarkersListView.Items.Refresh();
             }
-            /*if (companyData.IsChecked)
+            var url = company.GetParam("Report");
+            pdfWebViewer.Navigate(url != "" ? url : "about:blank");
+            
+            /*if ((TabControl.SelectedItem as TabItem).Name == "Маркеры")
+            {
+                MarkersListView.ItemsSource = company.Markers.Select(MarkerSubData.Create);
+                MarkersListView.Items.Refresh();
+            }
+            else
+            {
+                var url = company.GetParam("Report");
+                pdfWebViewer.Navigate(url != "" ? url : "about:blank");
+            }
+            if (companyData.IsChecked)
             {
                 companyData.Check(Manager);
                 MarkersListView.ItemsSource = companyData.Company.Markers.Select(MarkerSubData.Create);

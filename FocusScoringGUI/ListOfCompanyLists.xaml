@@ -45,6 +45,7 @@
                 <ContextMenu>
                     <MenuItem Header="Выгрузить в Excel" Click="UnloadExcel_Click"></MenuItem>
                     <MenuItem Header="Удалить" Click="DeleteList_Click"></MenuItem>
+                    <MenuItem Header="Переименовать" Click="Rename_Click"></MenuItem>
                 </ContextMenu>
             </ListView.ContextMenu>
         </ListView>

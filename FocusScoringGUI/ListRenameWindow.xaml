@@ -1,0 +1,19 @@
+<Window x:Class="FocusScoringGUI.ListRenameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:FocusScoringGUI"
+        mc:Ignorable="d"
+        Title="ListRenameWindow" Height="100" Width="200">
+    <Grid>
+        <StackPanel>
+            <TextBlock DataContext="Введите новое имя" HorizontalAlignment="Center"/>
+            <TextBox Name="NameBox" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal">
+                <Button Click="OkButton_OnClick">OK</Button>
+                <Button Click="CanselButton_OnClick">Отмена</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

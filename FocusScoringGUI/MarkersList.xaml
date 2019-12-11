@@ -26,38 +26,37 @@
         
         <TextBlock TextWrapping="Wrap" Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Margin="15,0,0,0"/>
 
-        <WebBrowser Grid.Column="0"
+        <TabControl Name="TabControl"
+                    Grid.Column="0"
                     Grid.ColumnSpan="3"
-                    Grid.Row="3"
-                    x:Name="pdfWebViewer"></WebBrowser>
-
-        <ListView Grid.Column="0"
-                  Grid.ColumnSpan="3"
-                  Grid.Row="3"
-                  x:Name="MarkersListView"
-                  MouseDoubleClick="MarkerSelected_Click"
-                  listViewLayout:ListViewLayoutManager.Enabled="true"
-        >
-            <!--GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler"-->
-            <ListView.View >
-                <GridView>
-                    <GridViewColumn Header="X" listViewLayout:FixedColumn.Width="32">
-                        <GridViewColumn.CellTemplate>
-                            <DataTemplate>
-                                <Image Source="{Binding Path=Colour}" MinWidth="16" MinHeight="16" MaxHeight="32" MaxWidth="32"/>
-                            </DataTemplate>
-                        </GridViewColumn.CellTemplate>
-                    </GridViewColumn>
-                    <GridViewColumn Header="Описание" listViewLayout:ProportionalColumn.Width="1">
-                        <GridViewColumn.CellTemplate>
-                            <DataTemplate>
-                                <TextBlock TextWrapping="Wrap" Text="{Binding Description}" FontSize="14"></TextBlock>
-                            </DataTemplate>
-                        </GridViewColumn.CellTemplate>
-                    </GridViewColumn>
-                </GridView>
-            </ListView.View>
-
-        </ListView>
+                    Grid.Row="3">
+            <TabItem Header="Маркеры" Name="Markers">
+                <ListView x:Name="MarkersListView"
+                          MouseDoubleClick="MarkerSelected_Click"
+                          listViewLayout:ListViewLayoutManager.Enabled="true">
+                    <ListView.View >
+                        <GridView>
+                            <GridViewColumn Header="X" listViewLayout:FixedColumn.Width="32">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Image Source="{Binding Path=Colour}" MinWidth="16" MinHeight="16" MaxHeight="32" MaxWidth="32"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Описание" listViewLayout:ProportionalColumn.Width="1">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding Description}" FontSize="14"></TextBlock>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Обзор">
+                <WebBrowser x:Name="pdfWebViewer"></WebBrowser>    
+            </TabItem>
+        </TabControl>
     </Grid>
 </UserControl>

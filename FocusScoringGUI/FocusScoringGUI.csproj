@@ -75,6 +75,7 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ListOfCompanyLists.xaml" />
+    <Page Include="ListRenameWindow.xaml" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -101,6 +102,9 @@
     <Compile Include="IExporter.cs" />
     <Compile Include="ListOfCompanyLists.xaml.cs">
       <DependentUpon>ListOfCompanyLists.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListRenameWindow.xaml.cs">
+      <DependentUpon>ListRenameWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListsCache.cs" />
     <Compile Include="Light.cs" />

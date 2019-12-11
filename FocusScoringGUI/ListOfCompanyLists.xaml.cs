@@ -81,7 +81,7 @@ namespace FocusScoringGUI
             {
                 AddList(name,companyList);
                 return null;
-            }
+            } 
             
             if (!Manager.AbleToUseMore(usagesNeeded))
                 return "Непроверенных компаний больше чем осталось использовний ключа. Уменьшите список или продлите ключ.";
@@ -141,7 +141,19 @@ namespace FocusScoringGUI
             else
                 Excel.Export(name);
         }
-        
+
+        private void Rename_Click(object sender, RoutedEventArgs e)
+        {
+            var renameBox = new ListRenameWindow();
+            renameBox.Closed += (o, ev) =>
+            {
+                var name = (string)ListView.SelectedItem;
+                companiesCache.UpdateList(renameBox.NewName,CompaniesCache.GetList(name));
+                companiesCache.DeleteList(name);
+                ListNames.Remove(name);
+                ListNames.Add(renameBox.NewName);
+            };
+        }
     }
 
 }
