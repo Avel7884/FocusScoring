@@ -150,7 +150,7 @@ namespace FocusScoringGUI
                 {
                     lock (CompanyFactory)
                     {
-                        var company = data.Source ?? CompanyFactory.CreateFromInn(data.INN);
+                        var company = data.Source ?? CompanyFactory.CreateFromInn(data.Inn);
                         if(CompanyFactory.Exception != null) 
                             errors.Add(CompanyFactory.Exception.Message);
                         return (i,new CompanyData(company, CurrentList.Settings, Manager.IsBaseMode()));
@@ -181,7 +181,7 @@ namespace FocusScoringGUI
                 return;
             }
             
-            if (CurrentList.Data.Select(x => x.INN.ToString()).Contains(InnBox.Text))
+            if (CurrentList.Data.Select(x => x.Inn.ToString()).Contains(InnBox.Text))
             {
                 MessageBox.Show("Компания уже имеется в списке");
                 return;
@@ -270,9 +270,9 @@ namespace FocusScoringGUI
             Worker.WorkOn(list, ((i, data) =>
             {
                 if (data.Source == null)
-                    data.Source = CompanyFactory.CreateFromInn(data.INN);
+                    data.Source = CompanyFactory.CreateFromInn(data.Inn);
                 if (CompanyFactory.Exception != null)
-                    errors.Add(data.INN +": "+ CompanyFactory.Exception.Message+"\t\n");
+                    errors.Add(data.Inn +": "+ CompanyFactory.Exception.Message+"\t\n");
                 data.Recheck(settings,Manager.IsBaseMode());
                 return data;
             }));
@@ -297,7 +297,7 @@ namespace FocusScoringGUI
             var list = new List<CompanyData>();
             foreach (var inn in listInn)
             {
-                var data = new CompanyData {CLight = Light.Loading, INN = (INN)inn};
+                var data = new CompanyData {CLight = Light.Loading, Inn = inn};
                 data.InitParameters(CurrentList.Settings);//TODO Make better
                 list.Add(data);
             }    
@@ -329,7 +329,7 @@ namespace FocusScoringGUI
             {
                 var data = new CompanyData(CompanyFactory.CreateFromInn(inn),CurrentList.Settings,Manager.IsBaseMode());
                 if (CompanyFactory.Exception != null)
-                    errors.Add(data.INN + ": " + CompanyFactory.Exception.Message);//MessageBox.Show("Ошибка при обработке:" + CompanyFactory.Exception.Message);
+                    errors.Add(data.Inn + ": " + CompanyFactory.Exception.Message);//MessageBox.Show("Ошибка при обработке:" + CompanyFactory.Exception.Message);
                 //data.InitLight(data.Source.Score);//TODO Refactor here!
                 return (data, i);
             });

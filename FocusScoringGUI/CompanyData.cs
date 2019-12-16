@@ -16,7 +16,8 @@ namespace FocusScoringGUI
         
         public CompanyData(Company company, IList<string> settings,bool IsBaseMode=false)
         {
-            INN = company.Inn;
+            //innStr = company.Inn.ToString();
+            Inn = company.Inn;
             Source = company;
             InitParameters(settings,IsBaseMode);
         }
@@ -31,20 +32,26 @@ namespace FocusScoringGUI
         }
 
         [XmlAttribute]
-        private string inn;
-        [XmlIgnore] private INN Inn;
-        [XmlIgnore]
-        public INN INN
+        public string InnStr
         {
-            get => Inn;
+            get;
+            set;
+        }
+
+
+        [XmlIgnore]
+        public INN Inn
+        {
+            get => inn;
             set
             {
-                inn = value.ToString();
-                Inn = value;
+                inn = value;
+                InnStr = inn.ToString();
             }
-                
-    }
-        
+        }
+
+        private INN inn;
+
         [XmlAttribute]
         public Light CLight { get; set; }
         
@@ -56,14 +63,14 @@ namespace FocusScoringGUI
         
         public Company MakeSource(ICompanyFactory factory)
         {
-            Source = factory.CreateFromInn(INN);
+            Source = factory.CreateFromInn(Inn);
             return Source;
         }
         
         public string getSetting(string parameter)
         {
             if(parameter == "Инн")
-                return INN.ToString();
+                return InnStr;
             if (parameter == "Имя")
             {
                 var name  = Source?.CompanyName() ?? "(Загрузка...    )";
@@ -101,7 +108,7 @@ namespace FocusScoringGUI
             {"Телефон",("phone",s=>s)},
             {"Сайт",("site",s=>s)}
         };
-        
+
         public void Recheck(IList<string> settings,bool IsBaseMode=false)
         {/*
             var tmp = Source;

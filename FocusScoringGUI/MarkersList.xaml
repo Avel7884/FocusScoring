@@ -24,12 +24,12 @@
             <RowDefinition Height="416*" MinHeight="200"/>
         </Grid.RowDefinitions>
         
-        <TextBlock TextWrapping="Wrap" Grid.Column="0" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Margin="15,0,0,0"/>
+        <TextBlock TextWrapping="Wrap" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Margin="15,0,0,0"/>
 
         <TabControl Name="TabControl"
                     Grid.Column="0"
                     Grid.ColumnSpan="3"
-                    Grid.Row="3">
+                    Grid.Row="2">
             <TabItem Header="Обзор">
                 <WebBrowser x:Name="pdfWebViewer"></WebBrowser>    
             </TabItem>

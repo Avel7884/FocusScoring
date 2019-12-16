@@ -18,6 +18,14 @@ namespace FocusScoring
             return true;
         }
 
+        public static INN CreateUnsafe(string str)
+        {
+            var req= new INN();
+            req.isOGRN = str.Length > 12;
+            req.value = str;
+            return req;
+        }
+
         private static readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
         public static bool InnCheckSum(string inn)//TODO remove terreble naming it makes
         {
@@ -56,6 +64,5 @@ namespace FocusScoring
                 throw new FormatException();
             return req;
         }
-
     }
 }
