@@ -30,6 +30,9 @@
                     Grid.Column="0"
                     Grid.ColumnSpan="3"
                     Grid.Row="3">
+            <TabItem Header="Обзор">
+                <WebBrowser x:Name="pdfWebViewer"></WebBrowser>    
+            </TabItem>
             <TabItem Header="Маркеры" Name="Markers">
                 <ListView x:Name="MarkersListView"
                           MouseDoubleClick="MarkerSelected_Click"
@@ -53,9 +56,6 @@
                         </GridView>
                     </ListView.View>
                 </ListView>
-            </TabItem>
-            <TabItem Header="Обзор">
-                <WebBrowser x:Name="pdfWebViewer"></WebBrowser>    
             </TabItem>
         </TabControl>
     </Grid>
