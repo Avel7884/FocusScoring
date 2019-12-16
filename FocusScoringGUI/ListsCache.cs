@@ -53,6 +53,11 @@ namespace FocusScoringGUI
             return Directory.GetFiles(companyListPath).Select(x => x.Split('\\').Last()).ToList();
         }
 
+        public void Rename(string oldName, string newName)
+        {
+            File.Move(companyListPath+ "/" + oldName,companyListPath+ "/" + newName);
+        }
+
         public List<T> GetList(string name)
         {
             if (!File.Exists(companyListPath + "/" + name)) throw new FileNotFoundException();

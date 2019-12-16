@@ -15,26 +15,25 @@ namespace FocusScoringGUI
             InitializeComponent();
         }
 
-        private List<string> ListNames;
+        private ListResourceConsistencyWrapper<ListData> ListNames;
 
-        private ListsCache<CompanyData> companiesCache;
-        public ListsCache<CompanyData> CompaniesCache
+        private ListFactory listFactory;
+        public ListFactory ListFactory
         {
-            get => companiesCache;
+            get => listFactory;
             set
             {
-                companiesCache = value;
-                ListNames = companiesCache.GetNames();
-
-                if (CompaniesCache ==null)
+                listFactory = value;
+                ListNames = new ListResourceConsistencyWrapper<ListData>(
+                    listFactory.GetCachedLists(),_=>ListView.Items.Refresh());
+                ListView.ItemsSource = ListNames;
+                
+                if (ListFactory ==null)
                     throw new TypeLoadException("CompanyList should be initialized before CompanyListsCache.");
 
                 if (ListNames.Count == 0)
-                {
-                    companiesCache.UpdateList("NewList", new List<CompanyData>());
-                    ListNames.Add("NewList");                    
-                }
-                ListView.ItemsSource = ListNames;
+                    ListNames.Add(listFactory.Create("NewList"));
+                
                 CompanyList.ShowNewList(ListNames.First());
             }
         }
@@ -48,28 +47,27 @@ namespace FocusScoringGUI
             if(!CompanyListReady())
                 return;            
             if (ListView.SelectedItem == null || 
-                ListView.SelectedItem.Equals(CompanyList.CurrentListName))
+                ListView.SelectedItem.Equals(CompanyList.CurrentList))
                 return;
-            CompanyList.ShowNewList((string)ListView.SelectedItem);
+            CompanyList.ShowNewList((ListData)ListView.SelectedItem);
         }
 
         private string CheckAndAddList(string name, List<string> list)
         {
-            if (CompaniesCache.GetNames().Contains(name))
-                return "Лист с данным названием уже существует";
-
+            
             if (name == "")
                 return "Название не может быть пустым";
+            
+            if (ListNames.Any(x=>x.Name == name))
+                return "Лист с данным названием уже существует";
 
-
+            if(!Manager.AbleToUseMore(1))
+                return "Ключ требует продления!";
+            
             var companyList = list.Where(inn =>
                         ((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
                 .ToHashSet()
                 .ToList();
-            
-            if(!Manager.AbleToUseMore(1))
-                return "Ключ требует продления!";
-
             /*
 
             foreach (var inn in list)
@@ -90,19 +88,16 @@ namespace FocusScoringGUI
                 "Внимание", MessageBoxButton.YesNo);
             if (mb != MessageBoxResult.Yes) 
                 return "";
-            
+
             AddList(name,companyList);
             return null;
         }
 
-        private void AddList(string name, List<string> list)
+        private void AddList(string name, List<string> innLsit)
         {
-            if(!CompanyListReady())
-                return;            
-            ListNames.Add(name);
-            ListView.Items.Refresh();
+            var data = ListFactory.Create(name);
+            ListNames.Add(CompanyList.CreateNewList(data,innLsit));
             ListView.SelectedItem = ListNames.Last();
-            CompanyList.CreateNewList(name,list);
         }
 
         private void DeleteList_Click(object sender, RoutedEventArgs e)
@@ -111,11 +106,9 @@ namespace FocusScoringGUI
                 return;            
             if (ListView.SelectedItem == null || ListNames.Count <= 1)
                 return;
-            var name = (string)ListView.SelectedItem;
-            CompaniesCache.DeleteList(name);
-            //TODO Delete list settings as well!
-            ListNames.Remove(name);
-            ListView.Items.Refresh();
+            var data = (ListData)ListView.SelectedItem;
+            ListFactory.DeleteList(data.Name);
+            ListNames.Remove(data);
         }
 
         public bool CompanyListReady()
@@ -126,7 +119,7 @@ namespace FocusScoringGUI
         }
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
-            new ListDialog(CheckAndAddList,CompaniesCache).Show();
+            new ListDialog(CheckAndAddList).Show();
         }
 
         private void UnloadExcel_Click(object sender, RoutedEventArgs e)
@@ -135,11 +128,11 @@ namespace FocusScoringGUI
                 return;            
             if (ListView.SelectedItem == null || ListNames.Count <= 1)
                 return;
-            var name = (string)ListView.SelectedItem;
+            var data = (ListData)ListView.SelectedItem;
             if(Manager.IsBaseMode())
-                Excel.BaseExport(name);
+                Excel.BaseExport(data.Name);
             else
-                Excel.Export(name);
+                Excel.Export(data.Name);
         }
 
         private void Rename_Click(object sender, RoutedEventArgs e)
@@ -150,13 +143,9 @@ namespace FocusScoringGUI
             {
                 if(renameBox.NewName == "")
                     return;
-                var name = (string)ListView.SelectedItem;
-                companiesCache.UpdateList(renameBox.NewName,CompaniesCache.GetList(name));
-                companiesCache.DeleteList(name);
+                var name = (ListData)ListView.SelectedItem;
+                ListFactory.DeleteList(name.Name);
                 ListNames.Remove(name);
-                ListNames.Add(renameBox.NewName);
-                ListView.ItemsSource = ListNames;
-                ListView.Items.Refresh();
             };
         }
     }

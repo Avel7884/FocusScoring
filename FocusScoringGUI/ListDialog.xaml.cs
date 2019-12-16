@@ -22,11 +22,11 @@ namespace FocusScoringGUI
     public partial class ListDialog : Window
     {
         private readonly Func<string, List<string>,string> addList;
-        private ListsCache<CompanyData> CompanyCache;
+        //private ListsCache<CompanyData> CompanyCache;
 
-        public ListDialog(Func<string,List<string>,string> addList,ListsCache<CompanyData> companyCache)
+        public ListDialog(Func<string,List<string>,string> addList)//,ListsCache<CompanyData> companyCache)
         {
-            CompanyCache = companyCache;
+            //CompanyCache = companyCache;
             InitializeComponent();
             this.addList = addList;
         }

@@ -40,7 +40,19 @@
                 <Style TargetType="ListViewItem">
                     <Setter Property="ToolTip" Value="{Binding Description}"/>
                 </Style>
+                <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                </Style>
             </ListView.Resources>
+            
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource myHeaderStyle}">
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Count}"/>
+                    
+                </GridView>
+            </ListView.View>
+            
             <ListView.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Выгрузить в Excel" Click="UnloadExcel_Click"></MenuItem>

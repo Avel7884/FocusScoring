@@ -64,7 +64,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="CompanyList.xaml" />
+    <Page Include="CompaniesList.xaml" />
     <Page Include="CompanySettings.xaml" />
     <Page Include="FocusKeyWindow.xaml">
       <SubType>Designer</SubType>
@@ -85,8 +85,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CompaniesCache.cs" />
-    <Compile Include="CompanyList.xaml.cs">
-      <DependentUpon>CompanyList.xaml</DependentUpon>
+    <Compile Include="CompaniesList.xaml.cs">
+      <DependentUpon>CompaniesList.xaml</DependentUpon>
     </Compile>
     <Compile Include="CompanySetting.cs" />
     <Compile Include="CompanySettings.xaml.cs">
@@ -100,6 +100,8 @@
     </Compile>
     <Compile Include="ICollectionWorker.cs" />
     <Compile Include="IExporter.cs" />
+    <Compile Include="ListData.cs" />
+    <Compile Include="ListFactory.cs" />
     <Compile Include="ListOfCompanyLists.xaml.cs">
       <DependentUpon>ListOfCompanyLists.xaml</DependentUpon>
     </Compile>
@@ -112,6 +114,7 @@
       <DependentUpon>ListDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="CompanyData.cs" />
+    <Compile Include="ListResourceConsistencyWrapper.cs" />
     <Compile Include="MarkerSubData.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

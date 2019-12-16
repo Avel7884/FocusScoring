@@ -14,14 +14,14 @@ namespace FocusScoringGUI
     {
         public CompanyData(){}
         
-        public CompanyData(Company company, List<string> settings,bool IsBaseMode=false)
+        public CompanyData(Company company, IList<string> settings,bool IsBaseMode=false)
         {
             Inn = company.Inn;
             Source = company;
             InitParameters(settings,IsBaseMode);
         }
 
-        public void InitParameters(List<string> settings,bool IsBaseMode=false)
+        public void InitParameters(IList<string> settings,bool IsBaseMode=false)
         {
             if(IsBaseMode)
                 InitBriefLight(Source);
@@ -90,7 +90,7 @@ namespace FocusScoringGUI
             //{"Сайт",("site",s=>s)}
         };
         
-        public void Recheck(List<string> settings,bool IsBaseMode=false)
+        public void Recheck(IList<string> settings,bool IsBaseMode=false)
         {/*
             var tmp = Source;
             Source = null;

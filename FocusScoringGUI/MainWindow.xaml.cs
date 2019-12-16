@@ -50,13 +50,11 @@ namespace FocusScoringGUI
             CompanyControl.CompanyFactory = factory;
             CompanyControl.Manager = FocusManager;//TODO Attepmpt to remove it
             CompanyControl.markersList = MarkersControl;
-            CompanyControl.CompaniesCache = CompaniesCache;
-            CompanyControl.SettingsCache = SettingsCache;
             CompanyControl.FocusKeyUsed += (o, a) => CheckFocusKey(manager);
             
             CompanyListsControl.Manager = FocusManager;
             CompanyListsControl.CompanyList = CompanyControl;
-            CompanyListsControl.CompaniesCache = CompaniesCache;
+            CompanyListsControl.ListFactory = new ListFactory(CompaniesCache,SettingsCache,new ListsCache<string>("PropertiesCache"));
             CompanyListsControl.Excel = new ExcelExporter(SettingsCache,CompaniesCache,factory);
             //CompanyListsControl.FocusKeyUsed += (o, a) => CheckFocusKey(manager);
         }
@@ -91,7 +89,7 @@ namespace FocusScoringGUI
                 CompanyControl.Manager = FocusManager;
                 CompanyListsControl.Manager = FocusManager;
                 CompanyListsControl.Excel = new ExcelExporter(new ListsCache<string>("SettingsLists"),new ListsCache<CompanyData>("CompanyLists"),factory);
-                foreach (var companyData in CompanyControl.CurrentList)
+                foreach (var companyData in CompanyControl.CurrentList.Data)
                     companyData.Source?.Reinstance(FocusManager);
                 CheckFocusKey(FocusManager);
             };
