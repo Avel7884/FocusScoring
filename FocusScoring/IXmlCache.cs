@@ -4,7 +4,7 @@ namespace FocusScoring
 {
     internal interface IXmlCache : IXmlAccess
     {
-        void Update(string inn, ApiMethod method, XmlDocument doc);
-        void Clear(string inn, ApiMethod method);
+        void Update(INN inn, ApiMethod method, XmlDocument doc);
+        void Clear(INN inn, ApiMethod method);
     }
 }

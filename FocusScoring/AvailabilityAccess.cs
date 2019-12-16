@@ -13,18 +13,18 @@ namespace FocusScoring
             this.availableMethods = availableMethods;
         }
         
-        public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
+        public bool TryGetXml(INN inn, ApiMethod method, out XmlDocument document)
         {
             document=new XmlDocument();
             return !availableMethods.Contains(method);
         }
 
-        public void Update(string inn, ApiMethod method, XmlDocument doc)
+        public void Update(INN inn, ApiMethod method, XmlDocument doc)
         {
             
         }
 
-        public void Clear(string inn, ApiMethod method)
+        public void Clear(INN inn, ApiMethod method)
         {}
     }
 }

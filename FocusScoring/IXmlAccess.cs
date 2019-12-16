@@ -4,6 +4,6 @@ namespace FocusScoring
 {
     internal interface IXmlAccess
     {
-        bool TryGetXml(string inn, ApiMethod method, out XmlDocument document);
+        bool TryGetXml(INN inn, ApiMethod method, out XmlDocument document);
     }
 }

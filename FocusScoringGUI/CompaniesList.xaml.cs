@@ -76,26 +76,7 @@ namespace FocusScoringGUI
             //if(!Manager.IsBaseMode())
                 markersList.ShowNewMarkers(data.Source ?? data.MakeSource(CompanyFactory));
         }
-
-        private static readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
-        public static bool InnCheckSum(string inn)//TODO remove terreble naming it makes
-        {
-            var numbers = inn.Select(x => new string(new[] { x })).Select(int.Parse).ToArray();
-            if (numbers.All(x => x == 0))
-                return false;
-
-            switch (numbers.Length)
-            {
-                case 10:
-                    return numbers.Take(9).Zip(k.Skip(2), (x, y) => x * y).Sum() % 11 % 10 == numbers[9];
-                case 12:
-                    return numbers.Take(10).Zip(k.Skip(1), (x, y) => x * y).Sum() % 11 % 10 == numbers[10] &&
-                           numbers.Take(11).Zip(k, (x, y) => x * y).Sum() % 11 % 10 == numbers[11];
-                default:
-                    return false;
-            }
-        }
-
+        
         private void RepopulateColumns()//bool resetCompanies = false)
         {
             var gridView = (GridView)CompanyListView.View;
@@ -169,7 +150,7 @@ namespace FocusScoringGUI
                 {
                     lock (CompanyFactory)
                     {
-                        var company = data.Source ?? CompanyFactory.CreateFromInn(data.Inn);
+                        var company = data.Source ?? CompanyFactory.CreateFromInn(data.INN);
                         if(CompanyFactory.Exception != null) 
                             errors.Add(CompanyFactory.Exception.Message);
                         return (i,new CompanyData(company, CurrentList.Settings, Manager.IsBaseMode()));
@@ -200,13 +181,13 @@ namespace FocusScoringGUI
                 return;
             }
             
-            if (CurrentList.Data.Select(x => x.Inn).Contains(Inn.Text))
+            if (CurrentList.Data.Select(x => x.INN.ToString()).Contains(InnBox.Text))
             {
                 MessageBox.Show("Компания уже имеется в списке");
                 return;
             }
 
-            if (!InnCheckSum(Inn.Text) || string.IsNullOrWhiteSpace(Inn.Text))
+            if (!INN.TryParse(InnBox.Text, out var inn) || string.IsNullOrWhiteSpace(InnBox.Text))
             {
                 MessageBox.Show("Не корректный ИНН");
                 return;
@@ -223,7 +204,7 @@ namespace FocusScoringGUI
             if(mb != MessageBoxResult.OK)
                 return;
 
-            var company = CompanyFactory.CreateFromInn(Inn.Text);
+            var company = CompanyFactory.CreateFromInn(inn);
             if (CompanyFactory.Exception != null)
                 MessageBox.Show("Ошибка при обработке:" + CompanyFactory.Exception.Message);
                 
@@ -250,10 +231,10 @@ namespace FocusScoringGUI
         private void Inn_TextChanged(object sender, TextChangedEventArgs e)
         {
             var addedlength = e.Changes.ElementAt(0).AddedLength;
-            if (!Inn.Text.All(char.IsDigit))
+            if (!InnBox.Text.All(char.IsDigit))
             {
-                Inn.Text = Inn.Text.Remove(Inn.SelectionStart - addedlength, addedlength);
-                Inn.SelectionStart = Inn.Text.Length;
+                InnBox.Text = InnBox.Text.Remove(InnBox.SelectionStart - addedlength, addedlength);
+                InnBox.SelectionStart = InnBox.Text.Length;
             }
         }
         public void CheckCurrentList()
@@ -289,16 +270,16 @@ namespace FocusScoringGUI
             Worker.WorkOn(list, ((i, data) =>
             {
                 if (data.Source == null)
-                    data.Source = CompanyFactory.CreateFromInn(data.Inn);
+                    data.Source = CompanyFactory.CreateFromInn(data.INN);
                 if (CompanyFactory.Exception != null)
-                    errors.Add(data.Inn +": "+ CompanyFactory.Exception.Message+"\t\n");
+                    errors.Add(data.INN +": "+ CompanyFactory.Exception.Message+"\t\n");
                 data.Recheck(settings,Manager.IsBaseMode());
                 return data;
             }));
         }
         public event Action<object, EventArgs> FocusKeyUsed;
 
-        public ListData CreateNewList(ListData data, IList<string> listInn)
+        public ListData CreateNewList(ListData data, ICollection<INN> listInn)
         {
             CurrentList = data;
             ListSetted = true;
@@ -309,14 +290,14 @@ namespace FocusScoringGUI
             return data;
         }
 
-        private void FillList(IList<string> listInn)
+        private void FillList(ICollection<INN> listInn)
         {
             // SettingsCache.GetList(CurrentListName);
             var errors = new List<string>();
             var list = new List<CompanyData>();
             foreach (var inn in listInn)
             {
-                var data = new CompanyData {CLight = Light.Loading, Inn = inn};
+                var data = new CompanyData {CLight = Light.Loading, INN = (INN)inn};
                 data.InitParameters(CurrentList.Settings);//TODO Make better
                 list.Add(data);
             }    
@@ -348,7 +329,7 @@ namespace FocusScoringGUI
             {
                 var data = new CompanyData(CompanyFactory.CreateFromInn(inn),CurrentList.Settings,Manager.IsBaseMode());
                 if (CompanyFactory.Exception != null)
-                    errors.Add(data.Inn + ": " + CompanyFactory.Exception.Message);//MessageBox.Show("Ошибка при обработке:" + CompanyFactory.Exception.Message);
+                    errors.Add(data.INN + ": " + CompanyFactory.Exception.Message);//MessageBox.Show("Ошибка при обработке:" + CompanyFactory.Exception.Message);
                 //data.InitLight(data.Source.Score);//TODO Refactor here!
                 return (data, i);
             });

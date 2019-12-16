@@ -4,7 +4,7 @@ namespace FocusScoring
 {
     public interface ICompanyFactory
     {
-        Company CreateFromInn(string inn);
+        Company CreateFromInn(INN inn);
         Exception Exception { get; }
     }
 }

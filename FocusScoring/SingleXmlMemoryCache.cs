@@ -5,12 +5,12 @@ namespace FocusScoring
 {
     internal class SingleXmlMemoryCache : IXmlCache
     {
-        private string Inn = string.Empty;
+        private INN Inn;
         private ApiMethod method;
         private bool cleared = false; 
         private XmlDocument document;
 
-        public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
+        public bool TryGetXml(INN inn, ApiMethod method, out XmlDocument document)
         {
             if (!cleared && Inn == inn && method == this.method)
             {
@@ -22,7 +22,7 @@ namespace FocusScoring
             return false;
         }
 
-        public void Update(string inn, ApiMethod method, XmlDocument doc)
+        public void Update(INN inn, ApiMethod method, XmlDocument doc)
         {
             cleared = false;
             Inn = inn;
@@ -30,7 +30,7 @@ namespace FocusScoring
             document = doc;
         }
 
-        public void Clear(string inn, ApiMethod method)
+        public void Clear(INN inn, ApiMethod method)
         {
             cleared = true;
         }

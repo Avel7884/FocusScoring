@@ -126,7 +126,7 @@ namespace FocusScoring
             return double.TryParse(param.Replace('.', ','), out result);
         }
 
-        private void InitMarkers()
+        /*private void InitMarkers()
         {
             //TODO compare from fucn4 to func21 w/ 1C
             //TODO rename markers
@@ -307,10 +307,11 @@ namespace FocusScoring
 
                         return count / sums.Length > 0.3;
                     }),
+/*
 
                 new Marker("Индивидуальный предприниматель сменил ФИО", MarkerColour.Yellow,
                     "Индивидуальный предприниматель сменил ФИО", 3,
-                    company => FIOCache.HasChanged(company.Inn, company.GetParam("FIO"))),
+                    company => FIOCache.HasChanged(company.Inn, company.GetParam("FIO"))),#1#
 
                 new Marker("Организация в процессе реорганизации", MarkerColour.Yellow,
                     "Находится в процессе реорганизации в форме присоединения к другому юридическому лицу (слияние, присоединение и т.д.)",
@@ -904,5 +905,6 @@ namespace FocusScoring
             markersDict = markersList.ToDictionary(x => x.GetCodeClassName());
 
         }
+    */
     }
 }

@@ -18,11 +18,10 @@ namespace FocusScoring
             this.focusKey = focusKey;
         }
 
-        public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
+        public bool TryGetXml(INN inn, ApiMethod method, out XmlDocument document)
         {
-            var requisites = Settings.OgrnEnabled ? "ogrn" : "inn";
             return TryGetXml(
-                $"https://focus-api.kontur.ru/api3/{GetMethodName(method)}?key={focusKey}&{requisites}={inn}&xml",
+                $"https://focus-api.kontur.ru/api3/{GetMethodName(method)}?key={focusKey}&{inn.URL()}&xml",
                 out document);
         }
 

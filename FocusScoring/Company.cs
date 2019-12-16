@@ -13,13 +13,13 @@ namespace FocusScoring
     public class Company //TODO 2 responsability class is baaad
     {
         
-        public string Inn { get; set; }
+        public INN Inn { get; set; }
         
         private XmlAccess access;
         private Scorer scorer;
         private Dictionary<string,CompanyParameter> paramDict;
 
-        internal Company(string inn, Dictionary<string, CompanyParameter> paramDict, FocusKeyManager manager = null, bool scoringNeeded = true)
+        internal Company(INN inn, Dictionary<string, CompanyParameter> paramDict, FocusKeyManager manager = null, bool scoringNeeded = true)
         {    //TODO remove singleton
             manager = manager ?? Settings.DefaultManager;
             access = manager.Access;

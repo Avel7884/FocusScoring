@@ -18,7 +18,7 @@ namespace FocusScoring
                 Directory.CreateDirectory(this.cacheFolder);
         }
 
-        public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
+        public bool TryGetXml(INN inn, ApiMethod method, out XmlDocument document)
         {
             document = new XmlDocument();
             var path = $"{cacheFolder}/{inn}.{method}";
@@ -27,12 +27,12 @@ namespace FocusScoring
             return true;
         }  //TODO cache fluency
 
-        public void Update(string inn, ApiMethod method, XmlDocument doc)
+        public void Update(INN inn, ApiMethod method, XmlDocument doc)
         {
             doc.Save($"{cacheFolder}/{inn}.{method}");
         }
 
-        public void Clear(string inn, ApiMethod method)
+        public void Clear(INN inn, ApiMethod method)
         {
             File.Delete($"{cacheFolder}/{inn}.{method}");
         }

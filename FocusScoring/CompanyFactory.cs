@@ -18,7 +18,7 @@ namespace FocusScoring
         public Exception Exception { get; private set; }
         public bool enableScore;
         
-        public Company CreateFromInn(string inn)
+        public Company CreateFromInn(INN inn)
         {
             try
             {

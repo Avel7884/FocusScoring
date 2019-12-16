@@ -64,11 +64,17 @@ namespace FocusScoringGUI
             if(!Manager.AbleToUseMore(1))
                 return "Ключ требует продления!";
             
+            var companyList = new HashSet<INN>();
+            foreach (var innStr in list.Where(inn => inn.Length == 10 || inn.Length == 12|| inn.Length == 13))
+                if (INN.TryParse(innStr, out var inn))
+                    companyList.Add(inn);
+            
+            
+            /*
             var companyList = list.Where(inn =>
-                        ((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
+                        ((inn.Length == 10 || inn.Length == 12|| inn.Length == 13) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
                 .ToHashSet()
                 .ToList();
-            /*
 
             foreach (var inn in list)
                 if (!((inn.Length == 10 || inn.Length == 12) && inn.All(char.IsDigit) && CompanyList.InnCheckSum(inn)))
@@ -93,10 +99,10 @@ namespace FocusScoringGUI
             return null;
         }
 
-        private void AddList(string name, List<string> innLsit)
+        private void AddList(string name, ICollection<INN> innList)
         {
             var data = ListFactory.Create(name);
-            ListNames.Add(CompanyList.CreateNewList(data,innLsit));
+            ListNames.Add(CompanyList.CreateNewList(data,innList));
             ListView.SelectedItem = ListNames.Last();
         }
 

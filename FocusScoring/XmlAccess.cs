@@ -14,7 +14,7 @@ namespace FocusScoring
             this.source = source;
         }
 
-        public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
+        public bool TryGetXml(INN inn, ApiMethod method, out XmlDocument document)
         {
             for (int i = 0; i < caches.Count; i++)
                 if (caches[i].TryGetXml(inn, method, out document))
@@ -31,7 +31,7 @@ namespace FocusScoring
             return true;
         }
 
-        public void Clear(string inn, ApiMethod method)
+        public void Clear(INN inn, ApiMethod method)
         {
             foreach (var cache in caches)
                 cache.Clear(inn,method);

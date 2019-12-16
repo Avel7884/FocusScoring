@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
@@ -12,7 +12,7 @@ namespace FocusScoring
     {
         private readonly string cachePath;
         private readonly TimeSpan cacheTTL;
-        private readonly Dictionary<(string, ApiMethod), (long, int, DateTime)> spansDict;
+        private readonly Dictionary<(INN, ApiMethod), (long, int, DateTime)> spansDict;
         private MemoryMappedFile cacheFile;
 
         private readonly FileStream dictCacheFile;
@@ -32,7 +32,7 @@ namespace FocusScoring
             else
             {
                 dictCacheFile = File.Open(cachePath + "cacheDict", FileMode.OpenOrCreate);
-                spansDict = new Dictionary<(string, ApiMethod), (long, int, DateTime)>();
+                spansDict = new Dictionary<(INN, ApiMethod), (long, int, DateTime)>();
             }
 
             cacheFile = MemoryMappedFile.CreateFromFile(cachePath + "cache", FileMode.OpenOrCreate, "ImgA", initialCapacity);
@@ -43,7 +43,7 @@ namespace FocusScoring
             //            };
         }
 
-        public bool TryGetXml(string inn, ApiMethod method, out XmlDocument document)
+        public bool TryGetXml(INN inn, ApiMethod method, out XmlDocument document)
         {
             document = new XmlDocument();
 
@@ -59,7 +59,7 @@ namespace FocusScoring
             return true;
         }
 
-        public void Update(string inn, ApiMethod method, XmlDocument doc)
+        public void Update(INN inn, ApiMethod method, XmlDocument doc)
         {                                              //TODO file size
             using (var stream = cacheFile.CreateViewStream(position, 0))
             {
@@ -72,7 +72,7 @@ namespace FocusScoring
             }
         }
 
-        public void Clear(string inn, ApiMethod method)
+        public void Clear(INN inn, ApiMethod method)
         {
             throw new NotImplementedException();
         }
@@ -84,4 +84,4 @@ namespace FocusScoring
             CacheDictionarySerializer.Serialize(spansDict, dictCacheFile);
         }
     }
-}
+}*/
