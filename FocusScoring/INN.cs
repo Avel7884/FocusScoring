@@ -27,7 +27,8 @@ namespace FocusScoring
         }
 
         private static readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
-        public static bool InnCheckSum(string inn)//TODO remove terreble naming it makes
+
+        private static bool InnCheckSum(string inn)//TODO remove terreble naming it makes
         {
             var numbers = inn.Select(x => new string(new[] { x })).Select(int.Parse).ToArray();
             if (numbers.All(x => x == 0))
@@ -58,7 +59,7 @@ namespace FocusScoring
             return (isOGRN ? "ogrn" : "inn") + "=" + value;
         }
 
-        public static explicit operator INN(string val)
+        public static implicit operator INN(string val)
         {
             if(!TryParse(val,out var req))
                 throw new FormatException();

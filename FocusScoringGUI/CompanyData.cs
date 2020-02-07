@@ -31,26 +31,27 @@ namespace FocusScoringGUI
             Parameters = settings.Select(getSetting).ToArray();
         }
 
-        [XmlAttribute]
-        public string InnStr
-        {
-            get;
-            set;
-        }
+        
+        //private string innStr;
+        
+        [XmlIgnore]
+        private INN inn;
+        [XmlAttribute] 
+        public string InnStr { get; set; }
 
 
+
+        //private INN inn;
         [XmlIgnore]
         public INN Inn
         {
-            get => inn;
-            set
-            {
-                inn = value;
-                InnStr = inn.ToString();
+            get => inn ??= InnStr;
+            set {
+            inn = value;
+            InnStr = value.ToString();
             }
         }
 
-        private INN inn;
 
         [XmlAttribute]
         public Light CLight { get; set; }
@@ -70,14 +71,14 @@ namespace FocusScoringGUI
         public string getSetting(string parameter)
         {
             if(parameter == "Инн")
-                return InnStr;
+                return Inn.ToString();
             if (parameter == "Имя")
             {
                 var name  = Source?.CompanyName() ?? "(Загрузка...    )";
                 return name != "" ? name : "(Нет данных.)";
             }
             if (Source == null)
-                return "";//TODO Make an error here
+                throw new InvalidOperationException($"Impossible to access {parameter} parameter before company initialization ");//return "";//TODO Make an error here
             
             switch (parameter)
             {
