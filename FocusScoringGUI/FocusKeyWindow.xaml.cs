@@ -1,4 +1,4 @@
-﻿using FocusScoring;
+﻿using FocusApiAccess;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -67,7 +67,7 @@ namespace FocusScoringGUI
                 MessageBox.Show("Введен некорректный ключ. Введите ключ длинной 40 знаков", "Конутр.Фокус");
             else
             {
-                Manager = FocusKeyManager.StartAccess(KeyBox.Password);
+                Manager = key;//FocusKeyManager.StartAccess(KeyBox.Password);
                 if (Manager.Usages.StartsWith("Ошибка"))//TODO shitty check
                 {
                     MessageBox.Show("Проверьте правильность ключа");

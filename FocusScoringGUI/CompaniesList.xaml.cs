@@ -11,7 +11,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
-using FocusScoring;
+using FocusApiAccess;
 using Microsoft.Win32;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
@@ -31,7 +31,7 @@ namespace FocusScoringGUI
         private bool ListSetted;
         public FocusKeyManager Manager { get; set; } //TODO Consider refactor to not have it here 
         //public ListsCache<CompanyData> CompaniesCache{ get; set; }
-        public ICompanyFactory CompanyFactory { get; set; }
+        //public ICompanyFactory CompanyFactory { get; set; }
         public MarkersList markersList;
 
         private ListData currentList;

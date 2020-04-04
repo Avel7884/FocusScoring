@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Xml.Serialization;
-using FocusScoring;
+using FocusApiAccess;
 
 namespace FocusScoringGUI
 {

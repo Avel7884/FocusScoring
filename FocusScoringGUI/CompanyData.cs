@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
-using FocusScoring;
+using FocusApiAccess;
 using OfficeOpenXml;
 
 
@@ -47,26 +47,28 @@ namespace FocusScoringGUI
         {
             get => inn ??= InnStr;
             set {
-            inn = value;
-            InnStr = value.ToString();
+                inn = value;
+                InnStr = value.ToString();
             }
         }
 
 
         [XmlAttribute]
         public Light CLight { get; set; }
-        
+        /*
+
         [XmlIgnore]
-        public Company Source { get; set; }
+        public Company Source { get; set; }*/
         
         [XmlArray]
         public string[] Parameters { get; set; }
-        
+        /*
+
         public Company MakeSource(ICompanyFactory factory)
         {
             Source = factory.CreateFromInn(Inn);
             return Source;
-        }
+        }*/
         
         public string getSetting(string parameter)
         {
@@ -197,7 +199,7 @@ namespace FocusScoringGUI
 /*using System;
 using System.Windows.Media.Imaging;
 using System.Xml.Serialization;
-using FocusScoring;
+using FocusApiAccess;
 
 namespace FocusScoringGUI
 {

@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Xml.Serialization;
+using FocusApiAccess;
 using FocusScoring;
 
 namespace FocusScoringGUI

@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
-using FocusScoring;
+using FocusApiAccess;
 using Microsoft.Win32;
 
 namespace FocusScoringGUI

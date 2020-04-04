@@ -2,6 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
+using FocusApiAccess;
 using FocusScoring;
 
 namespace FocusScoringGUI

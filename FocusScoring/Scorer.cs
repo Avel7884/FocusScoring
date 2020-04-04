@@ -2,25 +2,27 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Xml.Serialization;
+using FocusApiAccess;
 
 namespace FocusScoring
 {
-    internal class Scorer
-    {
+    internal class Scorer : IScorer<INN>
+    {    
 
         private XmlSerializer serializer = new XmlSerializer(typeof(Marker),
             new XmlRootAttribute() {ElementName = "items"});
         
-        internal Scorer()
+        public Scorer()
         {
             //InitMarkers();
             //serializer.Serialize(File.Open("./markers",FileMode.OpenOrCreate),markersList.ToArray());
 
-            var markersPath = Settings.CachePath + Settings.MarkersFolder;
+            var markersPath = FocusApiAccess.Settings.CachePath + FocusApiAccess.Settings.MarkersFolder;
             if (!Directory.Exists(markersPath))
                 Directory.CreateDirectory(markersPath);
-           
+
             markersDict = new Dictionary<string, Marker>();
             foreach (var dir in Directory.EnumerateFiles(markersPath))
                 using (var file = File.Open(dir, FileMode.OpenOrCreate))
@@ -34,22 +36,47 @@ namespace FocusScoring
                 "Индивидуальный предприниматель сменил ФИО", 3,
                 company => FIOCache.HasChanged(company.Inn, company.GetParam("FIO")));
 */
-
+            /*
             var tmarker =
                 new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,
                     "Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
                     "return company.GetParam(\"Dissolving\") == \"true\" || company.GetParam(\"Dissolved\") == \"true\";"); 
-            
+            */
+
             //markersDict[fioMarker.Name] = fioMarker;
-            markersDict[tmarker.Name] = tmarker;
+            //markersDict[tmarker.Name] = tmarker;
         }
 
-        internal bool GetMarker(Company company, string markerName)
+        public bool GetMarker(INN inn, string markerName)
         {
-            return markersDict[markerName].Check(company);
+            return markersDict[markerName].Check(inn);
         }
 
-        internal int CountScore(IEnumerable<Marker> markers)
+        public IScoringResult<INN> Score(INN inn)
+        {
+            var markers = markersDict.Values.Select(marker => marker.Check(inn)).Where(x => x).ToArray();
+            return new ScoringResult<INN>(markers, CountScore2(markers.Select(x => x.Marker).ToArray()),inn);
+        }
+
+        public async Task<IScoringResult<INN>> ScoreAsync(INN inn)
+        {
+            var markers = await Task.WhenAll(markersDict.Values.Select(m=>m.CheckAsync(inn)));
+            return new ScoringResult<INN>(markers,CountScore2(markers.Where(r=>r).Select(r=>r.Marker).ToArray()),inn);
+            
+            var results = new MarkerResult[markersDict.Count];
+            markers = markersDict.Values.Select(marker => marker.Check(inn)).Where(x => x).ToArray();
+            //Task.WaitAll(Enumerable.Range(0,markersDict.Count).Select(i=>new Task()));
+        }
+
+        public async Task<IScoringResult<INN>[]> ScoreAsync(INN[] inns)
+        {
+            var results = new ScoringResult<INN>[inns.Length];
+             await Task.WhenAll(Enumerable.Range(0, inns.Length)
+                .Select(i => ScoreAsync(inns[i])).ToArray());
+            return results; //TODO error thing!
+        }
+
+        public int CountScore(IEnumerable<Marker> markers)
         {
             var redSum = 0;
             var yellowSum = 0;
@@ -84,7 +111,7 @@ namespace FocusScoring
             return Math.Min(maxScore, score);
         }
 
-        internal int CountScore2(Marker[] markers)
+        public int CountScore2(Marker[] markers)
         {
             var yellowBound = 69;
             var redBound = 39;
@@ -116,10 +143,7 @@ namespace FocusScoring
         public Marker[] GetAllMarkers => markersDict.Values.ToArray();
 
         public void RemoveMarker(string Name) => markersDict.Remove(Name);
-        public void AddMarker(Marker marker) => markersDict[marker.Name] = marker; 
-
-        public MarkerResult[] CheckMarkers(Company company)=>
-            markersDict.Values.Select(marker => marker.Check(company)).Where(x => x).ToArray();
+        public void AddMarker(Marker marker) => markersDict[marker.Name] = marker;
 
         private bool DoubleTryParse(string param, out double result)
         {

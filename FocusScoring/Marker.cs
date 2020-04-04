@@ -1,15 +1,17 @@
 using System;
 using System.CodeDom.Compiler;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Xml.Serialization;
-using Microsoft.CSharp;
+using FocusApiAccess;
 
 namespace FocusScoring
 {
     public class Marker
     {
-        private Func<Company,MarkerResult> check;
+        private Func<INN, MarkerResult> check;
         private static readonly MarkerRTCompiler compiler = new MarkerRTCompiler();
         
         private static readonly XmlSerializer serializer = new XmlSerializer(typeof(Marker),
@@ -35,8 +37,6 @@ namespace FocusScoring
             }
         }
 
-        //public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company,MarkerResult>)
-
         public Marker()
         {
             Name = "NewMarker";
@@ -46,13 +46,14 @@ namespace FocusScoring
             Code = "return true;";
         }
         
-        public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company, string> check)
+        public Marker(string Name, MarkerColour colour, string description, int Score, Func<INN, string> check)
         {
             this.check = x =>
             {
                 var res = check.Invoke(x);
                 return new MarkerResult(res != null, this, res);
             };
+            
             this.Name = Name;
             Colour = colour;
             Description = description;
@@ -60,7 +61,7 @@ namespace FocusScoring
             this.Score = Score;
         }
 
-        public Marker(string Name, MarkerColour colour, string description, int Score, Func<Company, bool> check, string verbose = "")
+        public Marker(string Name, MarkerColour colour, string description, int Score, Func<INN, bool> check, string verbose = "")
         {
             this.check = x => new MarkerResult(check.Invoke(x), this, verbose);
             this.Name = Name;
@@ -70,15 +71,17 @@ namespace FocusScoring
             this.Score = Score;
         }
 
-        public Marker(string Name, MarkerColour colour, string description, int Score, string code)
+        public Marker(string Name, MarkerColour colour, string description, int Score, ApiMethodEnum[] methods, string code)
         {   
             this.Name = Name;
+            Methods = methods.ToHashSet(); //TODO value check and error
             Colour = colour;
             Description = description;
             this.Score = Score;
             Code = code;
         }
-
+        
+        public HashSet<ApiMethodEnum> Methods {get; set;}   
         public string Name { get; set; }
         public MarkerColour Colour { get; set; }
         public string Description { get; set; }
@@ -99,6 +102,7 @@ namespace FocusScoring
         {
             return string.Concat(Name.Split(' ','-','_','.',',',')','(','%','&','$','#','\\','/','?','!','\'','\"'));
         }
+/*
 
         public void Save()//TODO move it to factory or somethin'
         {
@@ -121,8 +125,10 @@ namespace FocusScoring
             if (File.Exists(markerPath))
                 File.Delete(markerPath);
         }
+*/
 
-        public MarkerResult Check(Company company) => check(company);
+        public MarkerResult Check(INN inn) => check(inn);
+        public async Task<MarkerResult> CheckAsync(INN inn) => check(inn);
     }
 
     public enum MarkerColour

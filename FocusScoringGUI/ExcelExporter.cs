@@ -1,6 +1,7 @@
 using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
+using FocusApiAccess;
 using FocusScoring;
 using Microsoft.Win32;
 using OfficeOpenXml;
@@ -12,13 +13,12 @@ namespace FocusScoringGUI
     {
         private readonly ListsCache<string> cache;
         private readonly ListsCache<CompanyData> CompaniesCache;
-        private readonly ICompanyFactory CompanyFactory;
+        //private readonly ICompanyFactory CompanyFactory;
 
-        public ExcelExporter(ListsCache<string> settingsCache, ListsCache<CompanyData> companiesCache,
-            ICompanyFactory companyFactory)
+        public ExcelExporter(ListsCache<string> settingsCache, ListsCache<CompanyData> companiesCache)
         {
             cache = settingsCache;
-            CompanyFactory = companyFactory;
+            //CompanyFactory = companyFactory;
             CompaniesCache = companiesCache;
         }
 
@@ -135,8 +135,8 @@ namespace FocusScoringGUI
                 for(var i = 0;i<companies.Count;i++)
                 {
                     var company = companies[i];
-                    if(company.Source==null)
-                        company.MakeSource(CompanyFactory);
+                    /*if(company.Source==null)
+                        company.MakeSource(CompanyFactory)*/;
                     var companyRow =
                         settings.Select(company.getSetting)
                             .Concat(new []{company.Source.GetParam("Report")}).ToArray();

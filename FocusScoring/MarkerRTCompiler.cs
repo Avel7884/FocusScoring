@@ -2,9 +2,9 @@ using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.NetworkInformation;
 using System.Reflection;
 using System.Text;
+using FocusApiAccess;
 using Microsoft.CSharp;
 
 namespace FocusScoring
@@ -13,7 +13,7 @@ namespace FocusScoring
     {
         private static readonly CSharpCodeProvider Provider = new CSharpCodeProvider();
         private const string codeHead = @"
-        using FocusScoring;
+        using FocusApiAccess;
         using System.Collections.Generic;
         using System.Linq;
         using System;
@@ -23,15 +23,9 @@ namespace FocusScoring
 
         private const string classCore = @"
             public static class __Name
-            {
-
-                private static bool DoubleTryParse(string param, out double result)
-                {
-                    return double.TryParse(param.Replace('.', ','), out result);
-                }            
-
+            {         
                 public static string verbose = string.Empty;
-                public static bool Function(Company company)
+                public static bool Function(__Parameters)
                 {
                     __Code
                 }
@@ -40,11 +34,11 @@ namespace FocusScoring
         public bool IsCompiled { get; private set; }
         public CompilerErrorCollection Errors { get; private set; }
         
-        public Func<Company, MarkerResult> PostponededCompile(Marker marker)
+        public Func<INN, MarkerResult> PostponededCompile(Marker marker)
         {
             IsCompiled = false;
                  
-            var ccl =  new ResultHolder(marker.GetCodeClassName(),marker.Code);
+            var ccl =  new ResultHolder(marker);
             holders[marker] = ccl;                
             
             return c =>
@@ -68,7 +62,7 @@ namespace FocusScoring
             
             //var ass = typeof(Company).Assembly.CodeBase;
             var param = new CompilerParameters();
-            param.ReferencedAssemblies.Add("./FocusScoring.dll");
+            param.ReferencedAssemblies.Add("./FocusApiAccess.dll");
             param.ReferencedAssemblies.Add("./System.dll");
             param.ReferencedAssemblies.Add("./System.Core.dll");
             //param.IncludeDebugInformation = true;
@@ -90,22 +84,25 @@ namespace FocusScoring
             public string Code { get; }
             public bool IsCompiled { get; private set; }
             
-            public Func<Company,bool> Check { get; private set; }
+            public Func<INN,bool> Check { get; private set; }
             public FieldInfo Verbose { get; private set; }
 
-            public ResultHolder(string Name, string code)
+            public ResultHolder(Marker marker)
             {
-                this.Name = Name;
+                this.Name = marker.GetCodeClassName();
                             //TODO rewrite with @$ or something
-                Code = classCore.Replace("__Name", Name).Replace("__Code", code);
+                Code = classCore.Replace("__Name", Name)
+                                .Replace("__Code", marker.Code)
+                                .Replace("__Parameters",
+                                    string.Join(",",marker.Methods.Select(x => Api3.GetType(x) + " " + x)));
                 IsCompiled = false;
             }
-            
+
             public void TakeResult(CompilerResults result)
             {
                 var method = result.CompiledAssembly.GetType("MarkersCheckers."+Name).GetMethod("Function");
                 Verbose= result.CompiledAssembly.GetType("MarkersCheckers."+Name).GetField("verbose");
-                Check = (Func<Company, bool>) Delegate.CreateDelegate(typeof(Func<Company, bool>), method);
+                Check = (Func<INN, bool>) Delegate.CreateDelegate(typeof(Func<INN, bool>), method);
                 IsCompiled = true;
             }
         }

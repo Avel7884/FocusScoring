@@ -3,7 +3,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using FocusScoring;
+using FocusApiAccess;
 
 namespace FocusScoringGUI
 {
@@ -39,7 +39,7 @@ namespace FocusScoringGUI
         
 
         
-        public void ShowNewMarkers(Company company)
+        public void ShowNewMarkers(INN Inn)
         { 
             if (!IsBaseMode)
             {

@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E3B55A1-9A1E-46C9-BCEE-663E78B24DFD}</ProjectGuid>
+    <ProjectGuid>{C807F291-203D-41A8-8211-59649F8CD50F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FocusScoring</RootNamespace>
     <AssemblyName>FocusScoring</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,65 +31,33 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="mscorlib" />
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
-    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApiMethod.cs" />
-    <Compile Include="AvailabilityAccess.cs" />
-    <Compile Include="Coder.cs" />
     <Compile Include="Company.cs" />
-    <Compile Include="CacheDictionarySerializer.cs" />
-    <Compile Include="CompanyFactory.cs" />
-    <Compile Include="CompanyParameter.cs" />
     <Compile Include="FIOCache.cs" />
-    <Compile Include="FocusKeyManager.cs" />
-    <Compile Include="ICompanyFactory.cs" />
-    <Compile Include="INN.cs" />
-    <Compile Include="IXmlCache.cs" />
-    <Compile Include="IXmlAccess.cs" />
+    <Compile Include="FIODictionarySerializer.cs" />
+    <Compile Include="IScorer.cs" />
+    <Compile Include="IScoringResult.cs" />
     <Compile Include="Marker.cs" />
     <Compile Include="MarkerResult.cs" />
     <Compile Include="MarkerRTCompiler.cs" />
-    <Compile Include="ListMonitorer.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scorer.cs" />
-    <Compile Include="Settings.cs" />
-    <Compile Include="FIODictionarySerializer.cs" />
-    <Compile Include="XmlAccess.cs" />
-    <Compile Include="XmlDiscCache.cs" />
-    <Compile Include="XmlDownload.cs" />
-    <Compile Include="SingleXmlMemoryCache.cs" />
-    <Compile Include="XmlFileSystemCache.cs" />
+    <Compile Include="ScoringResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FocusApiAccess\FocusApiAccess.csproj">
+      <Project>{4e3b55a1-9a1e-46c9-bcee-663e78b24dfd}</Project>
+      <Name>FocusApiAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

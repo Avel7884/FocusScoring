@@ -89,6 +89,8 @@
     <Compile Include="CompaniesList.xaml.cs">
       <DependentUpon>CompaniesList.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Company.cs" />
+    <Compile Include="CompanyDataFactory.cs" />
     <Compile Include="CompanySetting.cs" />
     <Compile Include="CompanySettings.xaml.cs">
       <DependentUpon>CompanySettings.xaml</DependentUpon>
@@ -100,6 +102,7 @@
       <DependentUpon>FocusKeyWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="ICollectionWorker.cs" />
+    <Compile Include="ICompanyDataFactory.cs" />
     <Compile Include="IExporter.cs" />
     <Compile Include="ListData.cs" />
     <Compile Include="ListFactory.cs" />
@@ -157,12 +160,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FocusScoring\FocusScoring.csproj">
-      <Project>{4e3b55a1-9a1e-46c9-bcee-663e78b24dfd}</Project>
-      <Name>FocusScoring</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -189,6 +186,19 @@
     <Resource Include="src\RedDotAffiliates.png" />
     <Resource Include="src\YellowDotAffiliates.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\FocusApiAccess\FocusApiAccess.csproj">
+      <Project>{4e3b55a1-9a1e-46c9-bcee-663e78b24dfd}</Project>
+      <Name>FocusApiAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FocusMonitoring\FocusMonitoring.csproj">
+      <Project>{3aac4f8f-b6f2-4796-a09d-ed6ac2b201c6}</Project>
+      <Name>FocusMonitoring</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FocusScoring\FocusScoring.csproj">
+      <Project>{c807f291-203d-41a8-8211-59649f8cd50f}</Project>
+      <Name>FocusScoring</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
