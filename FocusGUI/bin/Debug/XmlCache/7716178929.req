@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7716178929</inn>
+    <ogrn>1027700164623</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700164623</focusHref>
+    <UL>
+      <kpp>771801001</kpp>
+      <okpo>18851230</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Абель МЦ"</short>
+        <full>Общество с ограниченной ответственностью "Абель МЦ"</full>
+        <date>2002-08-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107061</zipCode>
+          <kladrCode>770000000002408</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пугачевская 2-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+        </parsedAddressRF>
+        <date>2009-09-17</date>
+        <firstDate>2009-09-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-12-21</date>
+      </status>
+      <registrationDate>1999-04-08</registrationDate>
+      <dissolutionDate>2011-12-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Киняпина Дарья Александровна</fio>
+          <innfl>505203608904</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-07-28</date>
+          <firstDate>2011-07-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Донец Евгений Николаевич</fio>
+            <innfl>212913257812</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-04-08</date>
+            <firstDate>2010-04-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

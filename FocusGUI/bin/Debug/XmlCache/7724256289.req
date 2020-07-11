@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7724256289</inn>
+    <ogrn>1027724018035</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027724018035</focusHref>
+    <UL>
+      <kpp>772401001</kpp>
+      <okpo>59788420</okpo>
+      <okato>45296590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45923000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергозащита"</short>
+        <full>Общество с ограниченной ответственностью "Энергозащита"</full>
+        <date>2002-12-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115477</zipCode>
+          <kladrCode>770000000000492</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кантемировская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>53</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Эт 1 пом 6 Ком 3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 53</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+          <flatRaw>ЭТ 1 ПОМ 6 КОМ 3</flatRaw>
+        </parsedAddressRF>
+        <date>2017-12-20</date>
+        <firstDate>2017-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-12-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Шикова Ольга Николаевна</fio>
+          <position>Генеральный директор</position>
+          <date>2007-02-12</date>
+          <firstDate>2007-02-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115477</zipCode>
+              <kladrCode>770000000000492</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Кантемировская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>53</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>53</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2007-06-28</date>
+            <firstDate>2007-06-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

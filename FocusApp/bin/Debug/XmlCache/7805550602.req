@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7805550602</inn>
+    <ogrn>1117847132699</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117847132699</focusHref>
+    <UL>
+      <kpp>772601001</kpp>
+      <okpo>90853025</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МеталлТрейд"</short>
+        <full>Общество с ограниченной ответственностью "МеталлТрейд"</full>
+        <date>2011-04-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115191</zipCode>
+          <kladrCode>770000000002943</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тульская М</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>57</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 57</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2015-07-09</date>
+        <firstDate>2015-07-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-11-27</date>
+      </status>
+      <registrationDate>2011-04-12</registrationDate>
+      <dissolutionDate>2015-11-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Жигарев Виталий Леонидович</fio>
+          <innfl>100100472698</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-06-23</date>
+          <firstDate>2015-06-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>780501001</kpp>
+            <date>2011-04-12</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>198097</zipCode>
+              <kladrCode>780000000001348</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Стачек</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>47</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>47</houseRaw>
+              <bulkRaw>ЛИТЕР А</bulkRaw>
+            </parsedAddressRF>
+            <date>2011-04-12</date>
+            <firstDate>2011-04-12</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Васильев Михаил Иванович</fio>
+            <innfl>780409998395</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-04-12</date>
+            <firstDate>2011-04-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

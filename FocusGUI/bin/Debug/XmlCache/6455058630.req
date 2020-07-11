@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6455058630</inn>
+    <ogrn>1136455001760</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1136455001760</focusHref>
+    <UL>
+      <kpp>645501001</kpp>
+      <okpo>24407137</okpo>
+      <okato>63401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>63701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОМЫШЛЕННО-КОММУНАЛЬНЫЙ СЕРВИС"</full>
+        <date>2014-04-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>410012</zipCode>
+          <kladrCode>640000010001113</kladrCode>
+          <regionCode>64</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Саратовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Саратов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им Сакко и Ванцетти</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <flat>
+            <topoValue>52</topoValue>
+          </flat>
+          <houseRaw>12</houseRaw>
+          <flatRaw>52</flatRaw>
+        </parsedAddressRF>
+        <date>2013-08-05</date>
+        <firstDate>2013-08-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-03-06</date>
+      </status>
+      <registrationDate>2013-08-05</registrationDate>
+      <dissolutionDate>2017-03-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Костин Максим Евгеньевич</fio>
+          <innfl>645405265239</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2016-11-02</date>
+          <firstDate>2013-08-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

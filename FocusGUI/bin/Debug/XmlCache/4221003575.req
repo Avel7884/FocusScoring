@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4221003575</inn>
+    <ogrn>1024201467421</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201467421</focusHref>
+    <UL>
+      <kpp>422101001</kpp>
+      <okpo>36679208</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Алтекс"</short>
+        <full>Закрытое Акционерное Общество "Алтекс"</full>
+        <date>2007-02-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654084</zipCode>
+          <kladrCode>420000120000646</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новобайдаевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <flat>
+            <topoValue>27</topoValue>
+          </flat>
+          <houseRaw>16</houseRaw>
+          <flatRaw>27</flatRaw>
+        </parsedAddressRF>
+        <date>2007-02-22</date>
+        <firstDate>2007-02-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-12-30</date>
+      </status>
+      <registrationDate>1996-04-26</registrationDate>
+      <dissolutionDate>2009-12-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дмитриев Дмитрий Олегович</fio>
+          <innfl>421715881803</innfl>
+          <position>Ликвидатор</position>
+          <date>2008-05-26</date>
+          <firstDate>2008-05-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

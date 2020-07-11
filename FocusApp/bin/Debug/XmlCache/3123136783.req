@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3123136783</inn>
+    <ogrn>1063123135866</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1063123135866</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>13799654</okpo>
+      <okato>14401365000</okato>
+      <okfs>23</okfs>
+      <oktmo>14701000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергомаш (Белгород)"</short>
+        <full>Закрытое акционерное общество "Энергомаш (Белгород)"</full>
+        <date>2006-05-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308000</zipCode>
+          <kladrCode>310000010000402</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Б.Хмельницкого</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>111</topoValue>
+          </house>
+          <houseRaw>111</houseRaw>
+        </parsedAddressRF>
+        <date>2006-05-17</date>
+        <firstDate>2006-05-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-10-01</date>
+      </status>
+      <registrationDate>2006-05-17</registrationDate>
+      <dissolutionDate>2014-10-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Овчинников Андрей Валентинович</fio>
+          <innfl>312000213769</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2013-08-20</date>
+          <firstDate>2013-08-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бологов Михаил Семенович</fio>
+            <position>Конкурсный управляющий</position>
+            <date>2012-03-29</date>
+            <firstDate>2012-03-29</firstDate>
+          </head>
+          <head>
+            <fio>Маслов Игорь Николаевич</fio>
+            <position>Конкурсный управляющий</position>
+            <date>2012-11-01</date>
+            <firstDate>2012-11-01</firstDate>
+          </head>
+          <head>
+            <fio>Гладков Александр Николаевич</fio>
+            <innfl>772900286127</innfl>
+            <position>Конкурсный управляющий</position>
+            <date>2011-01-25</date>
+            <firstDate>2011-01-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217046463</inn>
+    <ogrn>1024201467454</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201467454</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>Энергоснаб ООО</short>
+        <full>Энергоснаб Общество с ограниченной ответственностью</full>
+        <date>2002-10-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654041</zipCode>
+          <kladrCode>420000120000091</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Бардина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <flat>
+            <topoValue>75</topoValue>
+          </flat>
+          <houseRaw>11</houseRaw>
+          <flatRaw>75</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-04</date>
+        <firstDate>2002-10-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-11-24</date>
+      </status>
+      <registrationDate>2001-04-16</registrationDate>
+      <dissolutionDate>2006-11-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Попов Николай Георгиевич</fio>
+          <innfl>421800118198</innfl>
+          <position>Директор</position>
+          <date>2002-10-04</date>
+          <firstDate>2002-10-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

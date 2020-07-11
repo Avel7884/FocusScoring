@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7718832819</inn>
+    <ogrn>1117746009534</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117746009534</focusHref>
+    <UL>
+      <kpp>771801001</kpp>
+      <okpo>69678856</okpo>
+      <okato>45263564000</okato>
+      <okfs>16</okfs>
+      <oktmo>45305000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Планета-Сириус"</short>
+        <full>Общество с ограниченной ответственностью "Планета-Сириус"</full>
+        <date>2011-01-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107497</zipCode>
+          <kladrCode>770000000001398</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Иртышский 2-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2Б</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>2Б</houseRaw>
+          <bulkRaw>СТР.2</bulkRaw>
+        </parsedAddressRF>
+        <date>2011-01-12</date>
+        <firstDate>2011-01-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-01-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Костин Игорь Николаевич</fio>
+          <innfl>502411300150</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-11-17</date>
+          <firstDate>2016-04-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Могучий Антон Викторович</fio>
+            <innfl>772827707001</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-01-12</date>
+            <firstDate>2011-01-12</firstDate>
+          </head>
+          <head>
+            <fio>Стаханова Ирина Валерьевна</fio>
+            <innfl>781429159801</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-05-21</date>
+            <firstDate>2014-05-21</firstDate>
+          </head>
+          <head>
+            <fio>Андреев Андрей Леонидович</fio>
+            <innfl>744908779538</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-05-05</date>
+            <firstDate>2017-05-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4345000961</inn>
+    <ogrn>1024301320966</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024301320966</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <full>Федеральное государственное унитарное предприятие "Вятское машиностроительное предприятие "Авитек"</full>
+        <date>2002-10-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610011</zipCode>
+          <kladrCode>430000010000323</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Октябрьский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-10-03</date>
+        <firstDate>2002-10-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2002-10-03</date>
+      </status>
+      <registrationDate>1991-12-19</registrationDate>
+      <dissolutionDate>2002-10-03</dissolutionDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

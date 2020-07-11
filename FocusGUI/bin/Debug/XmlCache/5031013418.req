@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5031013418</inn>
+    <ogrn>1025003917443</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025003917443</focusHref>
+    <UL>
+      <kpp>503101001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ФГУП "502 ЗРВТИ" Минобороны России</short>
+        <full>Федеральное государственное унитарное предприятие "502 завод по ремонту военно-технического имущества" Министерства обороны Российской Федерации</full>
+        <date>2002-12-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>142405</zipCode>
+          <kladrCode>50021000073</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Ногинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Ногинск-5</topoValue>
+          </settlement>
+        </parsedAddressRF>
+        <date>2002-12-15</date>
+        <firstDate>2002-12-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-05-27</date>
+      </status>
+      <registrationDate>2002-06-18</registrationDate>
+      <dissolutionDate>2009-05-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Рощупкин Юрий Антонович</fio>
+          <innfl>503109350605</innfl>
+          <position>Исполняющий Должность Генерального Директора</position>
+          <date>2008-02-28</date>
+          <firstDate>2008-02-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

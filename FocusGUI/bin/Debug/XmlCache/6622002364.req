@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6622002364</inn>
+    <ogrn>1026600784704</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026600784704</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>05118551</okpo>
+      <okato>65477000000</okato>
+      <okfs>14</okfs>
+      <oktmo>65750000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация городского округа Нижняя Салда</full>
+        <date>2006-01-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624740</zipCode>
+          <kladrCode>660000270000025</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижняя Салда</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Фрунзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-15</date>
+        <firstDate>2002-10-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-02-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Матвеева Елена Владимировна</fio>
+          <innfl>662200830977</innfl>
+          <position>Глава Городского Округа Нижняя Салда</position>
+          <date>2016-11-15</date>
+          <firstDate>2016-11-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>662201001</kpp>
+            <date>2013-03-07</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Васильев Сергей Иванович</fio>
+            <innfl>662200113810</innfl>
+            <position>Глава администрации городского округа Нижняя Салда</position>
+            <date>2009-04-06</date>
+            <firstDate>2009-04-06</firstDate>
+          </head>
+          <head>
+            <fio>Гузиков Сергей Николаевич</fio>
+            <innfl>662200626298</innfl>
+            <position>Глава Администрации Городского Округа Нижняя Салда</position>
+            <date>2012-11-23</date>
+            <firstDate>2012-11-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>12</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5403223633</inn>
+    <ogrn>1095403003717</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1095403003717</focusHref>
+    <UL>
+      <kpp>783901001</kpp>
+      <okpo>60834119</okpo>
+      <okato>40262000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40306000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А-Сибцентр"</short>
+        <full>Общество с ограниченной ответственностью "А-Сибцентр"</full>
+        <date>2009-04-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>190020</zipCode>
+          <kladrCode>780000000000947</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Обводного Канала</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>193</topoValue>
+          </house>
+          <houseRaw>193</houseRaw>
+        </parsedAddressRF>
+        <date>2012-05-21</date>
+        <firstDate>2012-05-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-28</date>
+      </status>
+      <registrationDate>2009-04-09</registrationDate>
+      <dissolutionDate>2017-12-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Белоусов Геннадий Петрович</fio>
+          <innfl>541008652930</innfl>
+          <position>Директор</position>
+          <date>2012-05-21</date>
+          <firstDate>2012-05-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>630119</zipCode>
+              <regionCode>54</regionCode>
+              <regionName>
+                <topoValue>Новосибирская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новосибирск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Петухова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>126</topoValue>
+              </house>
+              <flat>
+                <topoValue>44</topoValue>
+              </flat>
+              <houseRaw>126</houseRaw>
+              <flatRaw>44</flatRaw>
+            </parsedAddressRF>
+            <date>2009-04-09</date>
+            <firstDate>2009-04-09</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Снегирёв Александр Анатольевич</fio>
+            <position>Директор</position>
+            <date>2009-04-09</date>
+            <firstDate>2009-04-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

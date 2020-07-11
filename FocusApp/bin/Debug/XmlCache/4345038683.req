@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4345038683</inn>
+    <ogrn>1034316547209</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034316547209</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>00258253</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Вятка-Уса"</short>
+        <full>Общество с ограниченной ответственностью "Вятка-Уса"</full>
+        <date>2003-03-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610000</zipCode>
+          <kladrCode>430000010000096</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Динамовский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2003-03-25</date>
+        <firstDate>2003-03-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-12-18</date>
+      </status>
+      <registrationDate>2002-02-14</registrationDate>
+      <dissolutionDate>2008-12-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Амруллаева Елизавета Райнгольтовна</fio>
+          <innfl>434548394863</innfl>
+          <position>Ликвидатор</position>
+          <date>2008-08-22</date>
+          <firstDate>2008-08-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

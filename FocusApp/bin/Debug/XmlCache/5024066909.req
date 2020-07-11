@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5024066909</inn>
+    <ogrn>1045004466121</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045004466121</focusHref>
+    <UL>
+      <kpp>502401001</kpp>
+      <okpo>73076117</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "175 ДСК"</short>
+        <full>Общество с ограниченной ответственностью "175 Домостроительный комбинат"</full>
+        <date>2008-02-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>143432</zipCode>
+          <kladrCode>500130000280023</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Красногорский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Нахабино</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Институтская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <houseRaw>18</houseRaw>
+        </parsedAddressRF>
+        <date>2004-09-07</date>
+        <firstDate>2004-09-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-10-23</date>
+      </status>
+      <registrationDate>2004-09-07</registrationDate>
+      <dissolutionDate>2012-10-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Деветьяров Эдуард Юрьевич</fio>
+          <innfl>431208239382</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-02-12</date>
+          <firstDate>2008-02-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

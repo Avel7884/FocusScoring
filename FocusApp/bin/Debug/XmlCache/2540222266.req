@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2540222266</inn>
+    <ogrn>1162536076702</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1162536076702</focusHref>
+    <UL>
+      <kpp>254001001</kpp>
+      <okpo>03761811</okpo>
+      <okato>05401376000</okato>
+      <okfs>16</okfs>
+      <oktmo>05701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМЛК"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРИМОРСКАЯ МОРСКАЯ ЛОГИСТИЧЕСКАЯ КОМПАНИЯ"</full>
+        <date>2016-07-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>690091</zipCode>
+          <kladrCode>250000010000543</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владивосток</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тигровая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>каб</topoShortName>
+            <topoFullName>кабинет</topoFullName>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 20</houseRaw>
+          <bulkRaw>КОРПУС А</bulkRaw>
+          <flatRaw>КАБИНЕТ 2</flatRaw>
+        </parsedAddressRF>
+        <date>2017-08-25</date>
+        <firstDate>2017-08-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-07-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Войтенко Алексей Викторович</fio>
+          <innfl>250801525053</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-01-30</date>
+          <firstDate>2017-05-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>254301001</kpp>
+            <date>2017-05-25</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>690048</zipCode>
+              <kladrCode>250000010000361</kladrCode>
+              <regionCode>25</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Приморский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Владивосток</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Овчинникова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>12</topoValue>
+              </house>
+              <flat>
+                <topoShortName>кв</topoShortName>
+                <topoFullName>квартира</topoFullName>
+                <topoValue>56</topoValue>
+              </flat>
+              <houseRaw>ДОМ 12</houseRaw>
+              <flatRaw>КВАРТИРА 56</flatRaw>
+            </parsedAddressRF>
+            <date>2017-05-25</date>
+            <firstDate>2017-05-25</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>690002</zipCode>
+              <kladrCode>250000010000366</kladrCode>
+              <regionCode>25</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Приморский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Владивосток</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Океанский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>83</topoValue>
+              </house>
+              <flat>
+                <topoShortName>кв</topoShortName>
+                <topoFullName>квартира</topoFullName>
+                <topoValue>90</topoValue>
+              </flat>
+              <houseRaw>ДОМ 83</houseRaw>
+              <flatRaw>КВАРТИРА 90</flatRaw>
+            </parsedAddressRF>
+            <date>2016-07-21</date>
+            <firstDate>2016-07-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Коротаев Андрей Анатольевич</fio>
+            <innfl>254001906473</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-07-21</date>
+            <firstDate>2016-07-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

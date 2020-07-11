@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5004027299</inn>
+    <ogrn>1155004001184</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1155004001184</focusHref>
+    <UL>
+      <kpp>500401001</kpp>
+      <okpo>01415542</okpo>
+      <okato>46205501000</okato>
+      <okfs>16</okfs>
+      <oktmo>46605101001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ДИЭЛЕКТРИК"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ ДИЭЛЕКТРИК"</full>
+        <date>2015-12-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>143600</zipCode>
+          <kladrCode>500030010000053</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Волоколамский</topoValue>
+          </district>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волоколамск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Революционная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>401</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>ОФИС 401</flatRaw>
+        </parsedAddressRF>
+        <date>2016-02-28</date>
+        <firstDate>2015-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-12-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Горбачева Наталия Витальевна</fio>
+          <innfl>771306080697</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-12-09</date>
+          <firstDate>2015-12-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>143600</zipCode>
+              <kladrCode>500030010000053</kladrCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волоколамск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Революционная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>3</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>401</topoValue>
+              </flat>
+              <houseRaw>ДОМ 3</houseRaw>
+              <flatRaw>ОФИС 401</flatRaw>
+            </parsedAddressRF>
+            <date>2015-12-15</date>
+            <firstDate>2015-12-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

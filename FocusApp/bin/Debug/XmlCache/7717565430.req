@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7717565430</inn>
+    <ogrn>5067746106654</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5067746106654</focusHref>
+    <UL>
+      <kpp>771701001</kpp>
+      <okpo>96551673</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГАЛАКТИКА"</short>
+        <full>Общество с ограниченной ответственностью "ГАЛАКТИКА"</full>
+        <date>2009-05-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129226</zipCode>
+          <kladrCode>770000000002601</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сельскохозяйственная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>18</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-05-22</date>
+        <firstDate>2009-05-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-09-30</date>
+      </status>
+      <registrationDate>2006-08-14</registrationDate>
+      <dissolutionDate>2009-09-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Рыжов Сергей Александрович</fio>
+          <innfl>644306489130</innfl>
+          <position>Ликвидатор</position>
+          <date>2009-06-11</date>
+          <firstDate>2009-06-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

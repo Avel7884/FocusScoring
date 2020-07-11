@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7611012443</inn>
+    <ogrn>1027601274414</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027601274414</focusHref>
+    <UL>
+      <kpp>761101001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автотехснаб"</short>
+        <full>Общество с ограниченной ответственностью "Автотехснаб"</full>
+        <date>2002-12-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>152300</zipCode>
+          <kladrCode>760160010000001</kladrCode>
+          <regionCode>76</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ярославская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тутаев</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>50-летия Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <flat>
+            <topoValue>264</topoValue>
+          </flat>
+          <houseRaw>11</houseRaw>
+          <flatRaw>264</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-02</date>
+        <firstDate>2002-12-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2003-12-17</date>
+      </status>
+      <registrationDate>2000-01-12</registrationDate>
+      <dissolutionDate>2003-12-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Камкин Алексей Васильевич</fio>
+          <innfl>761100556400</innfl>
+          <position>Директор</position>
+          <date>2002-12-02</date>
+          <firstDate>2002-12-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>152300</zipCode>
+              <regionCode>76</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Ярославская</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Тутаевский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Тутаев</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>50-летия Победы</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>11</topoValue>
+              </house>
+              <flat>
+                <topoValue>264</topoValue>
+              </flat>
+              <houseRaw>11</houseRaw>
+              <flatRaw>264</flatRaw>
+            </parsedAddressRF>
+            <date>2002-12-02</date>
+            <firstDate>2002-12-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

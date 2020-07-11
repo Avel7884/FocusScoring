@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2224086745</inn>
+    <ogrn>1042202167303</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1042202167303</focusHref>
+    <UL>
+      <kpp>222401001</kpp>
+      <okpo>72831474</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АлтайВторМет"</short>
+        <full>Общество с ограниченной ответственностью "АлтайВторМет"</full>
+        <date>2004-04-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656010</zipCode>
+          <kladrCode>220000010000006</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Западная 1-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>49А</topoValue>
+          </house>
+          <flat>
+            <topoValue>8</topoValue>
+          </flat>
+          <houseRaw>49 А</houseRaw>
+          <flatRaw>8</flatRaw>
+        </parsedAddressRF>
+        <date>2008-08-25</date>
+        <firstDate>2008-08-25</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>659308</zipCode>
+            <kladrCode>220000040070006</kladrCode>
+            <regionCode>22</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Алтайский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Бийск</topoValue>
+            </city>
+            <settlement>
+              <topoShortName>ст</topoShortName>
+              <topoFullName>станция</topoFullName>
+              <topoValue>Чемровка</topoValue>
+            </settlement>
+            <street>
+              <topoShortName>рзд</topoShortName>
+              <topoFullName>разъезд</topoFullName>
+              <topoValue>Чемровка</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>26</topoValue>
+            </house>
+            <houseRaw>26</houseRaw>
+          </parsedAddressRF>
+          <date>2005-09-14</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-12-09</date>
+      </status>
+      <registrationDate>2004-04-21</registrationDate>
+      <dissolutionDate>2011-12-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Буймов Руслан Юрьевич</fio>
+          <innfl>222408770248</innfl>
+          <position>Генеральный дирктор</position>
+          <date>2008-08-25</date>
+          <firstDate>2008-08-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

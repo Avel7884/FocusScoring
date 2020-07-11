@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6671406828</inn>
+    <ogrn>1126671020024</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1126671020024</focusHref>
+    <UL>
+      <kpp>667101001</kpp>
+      <okpo>20611409</okpo>
+      <okato>65401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "КУБ-СЕРВИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "КУБ-СЕРВИС"</full>
+        <date>2018-08-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620102</zipCode>
+          <kladrCode>660000010001268</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шаумяна</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>83</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>306</topoValue>
+          </flat>
+          <houseRaw>ДОМ 83</houseRaw>
+          <flatRaw>ОФИС 306</flatRaw>
+        </parsedAddressRF>
+        <date>2018-01-16</date>
+        <firstDate>2018-01-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-11-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Ермошина Екатерина Сергеевна</fio>
+          <innfl>561506125417</innfl>
+          <position>Директор</position>
+          <date>2017-09-19</date>
+          <firstDate>2017-09-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ПКФ "КУБ"</short>
+            <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "КУБ"</full>
+            <date>2012-11-19</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>620102</zipCode>
+              <kladrCode>660000010001268</kladrCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Екатеринбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Шаумяна</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>83</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>234</topoValue>
+              </flat>
+              <houseRaw>83</houseRaw>
+              <flatRaw>ОФИС 234</flatRaw>
+            </parsedAddressRF>
+            <date>2012-11-19</date>
+            <firstDate>2012-11-19</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Долинов Николай Анатольевич</fio>
+            <innfl>665202594255</innfl>
+            <position>Директор</position>
+            <date>2012-11-19</date>
+            <firstDate>2012-11-19</firstDate>
+          </head>
+          <head>
+            <fio>Фалевич Евгений Александрович</fio>
+            <innfl>665899982003</innfl>
+            <position>Директор</position>
+            <date>2013-08-14</date>
+            <firstDate>2013-08-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

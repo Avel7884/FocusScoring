@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6671153856</inn>
+    <ogrn>1046604005216</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1046604005216</focusHref>
+    <UL>
+      <kpp>667101001</kpp>
+      <okpo>74370416</okpo>
+      <okato>65401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Азия-Центр"</short>
+        <full>Общество с ограниченной ответственностью "Азия-Центр"</full>
+        <date>2004-09-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620149</zipCode>
+          <kladrCode>660000010000293</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Громова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>140</topoValue>
+          </house>
+          <flat>
+            <topoValue>112</topoValue>
+          </flat>
+          <houseRaw>140</houseRaw>
+          <flatRaw>112</flatRaw>
+        </parsedAddressRF>
+        <date>2004-09-06</date>
+        <firstDate>2004-09-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-07-27</date>
+      </status>
+      <registrationDate>2004-09-06</registrationDate>
+      <dissolutionDate>2017-07-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мосиенко Никита Владимирович</fio>
+          <innfl>662331422611</innfl>
+          <position>Директор</position>
+          <date>2011-05-26</date>
+          <firstDate>2011-05-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>341600748890</inn>
+    <ogrn>305345610500201</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305345610500201</focusHref>
+    <IP>
+      <fio>Меркулов Дмитрий Александрович</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2005-04-15</registrationDate>
+      <dissolutionDate>2007-09-05</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-09-05</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>341600748890</inn>
+    <ogrn>304345604800034</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304345604800034</focusHref>
+    <IP>
+      <fio>Меркулов Дмитрий Александрович</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2003-11-06</registrationDate>
+      <dissolutionDate>2005-04-14</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-04-14</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3437013704</inn>
+    <ogrn>1093456001253</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1093456001253</focusHref>
+    <UL>
+      <kpp>343701001</kpp>
+      <okpo>64674612</okpo>
+      <okato>18420000000</okato>
+      <okfs>16</okfs>
+      <oktmo>18720000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПМ"</full>
+        <date>2017-07-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>403346</zipCode>
+          <kladrCode>340000040000282</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Михайловка</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Фрунзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>128</topoValue>
+          </house>
+          <houseRaw>128</houseRaw>
+        </parsedAddressRF>
+        <date>2015-12-30</date>
+        <firstDate>2015-12-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-12-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Задунайский Юрий Александрович</fio>
+          <innfl>342200814815</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2019-11-06</date>
+          <firstDate>2019-10-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ПеткусМ"</short>
+            <full>Общество с ограниченной ответственностью "ПеткусМ"</full>
+            <date>2009-12-23</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>403346</zipCode>
+              <kladrCode>340180010000282</kladrCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Михайловский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Михайловка</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Фрунзе</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>128</topoValue>
+              </house>
+              <houseRaw>128</houseRaw>
+            </parsedAddressRF>
+            <date>2009-12-23</date>
+            <firstDate>2009-12-23</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Меркулов Дмитрий Александрович</fio>
+            <innfl>341600748890</innfl>
+            <position>Директор</position>
+            <date>2018-11-30</date>
+            <firstDate>2009-12-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3437015194</inn>
+    <ogrn>1123456001382</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1123456001382</focusHref>
+    <UL>
+      <kpp>343701001</kpp>
+      <okpo>10515627</okpo>
+      <okato>18420000000</okato>
+      <okfs>16</okfs>
+      <oktmo>18720000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПП"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПП"</full>
+        <date>2019-05-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>403346</zipCode>
+          <kladrCode>340000040000282</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Михайловка</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Фрунзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>128</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>128</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2012-10-30</date>
+        <firstDate>2012-10-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-10-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Меркулов Дмитрий Александрович</fio>
+          <innfl>341600748890</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-11-30</date>
+          <firstDate>2012-10-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "Петкус Поволжье"</short>
+            <full>Общество с ограниченной ответственностью "Петкус Поволжье"</full>
+            <date>2012-10-30</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

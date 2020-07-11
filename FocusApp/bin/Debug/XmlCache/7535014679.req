@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7535014679</inn>
+    <ogrn>1047550016722</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047550016722</focusHref>
+    <UL>
+      <kpp>753501001</kpp>
+      <okpo>57791642</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Айлант"</short>
+        <full>Общество с ограниченной ответственностью "Айлант"</full>
+        <date>2004-07-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>672042</zipCode>
+          <kladrCode>750000010070007</kladrCode>
+          <regionCode>75</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Забайкальский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Чита</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Текстильщиков</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>мкр</topoShortName>
+            <topoFullName>микрорайон</topoFullName>
+            <topoValue>5-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>37</topoValue>
+          </house>
+          <flat>
+            <topoValue>45</topoValue>
+          </flat>
+          <houseRaw>37</houseRaw>
+          <flatRaw>45</flatRaw>
+        </parsedAddressRF>
+        <date>2008-09-04</date>
+        <firstDate>2008-09-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-12-07</date>
+      </status>
+      <registrationDate>2004-07-27</registrationDate>
+      <dissolutionDate>2010-12-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Москаленко Олег Юрьевич</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2010-06-22</date>
+          <firstDate>2010-06-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

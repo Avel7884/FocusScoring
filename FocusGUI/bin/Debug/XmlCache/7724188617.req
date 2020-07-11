@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7724188617</inn>
+    <ogrn>1027739541466</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739541466</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>46791691</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергостройкомплект - М"</short>
+        <full>Закрытое акционерное общество "Энергостройкомплект - М"</full>
+        <date>2002-11-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103473</zipCode>
+          <kladrCode>770000000000560</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Краснопролетарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 6</topoValue>
+          </flat>
+          <houseRaw>16</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+          <flatRaw>ЭТАЖ 6</flatRaw>
+        </parsedAddressRF>
+        <date>2007-02-20</date>
+        <firstDate>2007-02-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2011-11-17</date>
+      </status>
+      <registrationDate>1997-04-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Акулинин Денис Юрьевич</fio>
+          <innfl>720301783283</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2011-11-17</date>
+          <firstDate>2011-11-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Кручинин Андрей Николаевич</fio>
+            <innfl>503205611666</innfl>
+            <position>Генеральный директор</position>
+            <date>2005-02-04</date>
+            <firstDate>2005-02-04</firstDate>
+          </head>
+          <head>
+            <fio>Кручинина Валентина Митрофановна</fio>
+            <position>Генеральный директор</position>
+            <date>2011-06-14</date>
+            <firstDate>2011-06-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

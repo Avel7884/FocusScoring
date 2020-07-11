@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5406293780</inn>
+    <ogrn>1045402520800</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045402520800</focusHref>
+    <UL>
+      <kpp>540601001</kpp>
+      <okpo>74938466</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алкос М"</short>
+        <full>Общество с ограниченной ответственностью "Алкос М"</full>
+        <date>2004-10-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630091</zipCode>
+          <kladrCode>540000010000811</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мичурина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <houseRaw>12</houseRaw>
+        </parsedAddressRF>
+        <date>2004-10-26</date>
+        <firstDate>2004-10-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-12-17</date>
+      </status>
+      <registrationDate>2004-10-26</registrationDate>
+      <dissolutionDate>2012-12-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Селезнев Иван Алексеевич</fio>
+          <position>Директор</position>
+          <date>2004-10-26</date>
+          <firstDate>2004-10-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

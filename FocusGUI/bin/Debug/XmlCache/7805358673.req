@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7805358673</inn>
+    <ogrn>1047855128452</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047855128452</focusHref>
+    <UL>
+      <kpp>780501001</kpp>
+      <okpo>74793111</okpo>
+      <okato>40276565000</okato>
+      <okfs>16</okfs>
+      <oktmo>40339000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергопром ТДМ"</short>
+        <full>Закрытое акционерное общество "Энергопром ТДМ"</full>
+        <date>2004-11-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>198095</zipCode>
+          <kladrCode>780000000001480</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Химический</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>литер Бе</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>ЛИТЕР БЕ</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 5</flatRaw>
+        </parsedAddressRF>
+        <date>2004-11-03</date>
+        <firstDate>2004-11-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-04-13</date>
+      </status>
+      <registrationDate>2004-11-03</registrationDate>
+      <dissolutionDate>2016-04-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Закревский Андрей Владимирович</fio>
+          <innfl>781402341034</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-08-23</date>
+          <firstDate>2012-11-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бадмаев Владислав Борисович</fio>
+            <position>Генеральный директор</position>
+            <date>2006-11-03</date>
+            <firstDate>2006-11-03</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

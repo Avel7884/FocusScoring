@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707503756</inn>
+    <ogrn>1037739917885</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739917885</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>71290208</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АйКью Консалтинг"</short>
+        <full>Общество с ограниченной ответственностью "АйКью Консалтинг"</full>
+        <date>2003-10-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127006</zipCode>
+          <kladrCode>770000000000548</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Долгоруковская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23А</topoValue>
+          </house>
+          <houseRaw>23А</houseRaw>
+        </parsedAddressRF>
+        <date>2003-10-20</date>
+        <firstDate>2003-10-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-08-22</date>
+      </status>
+      <registrationDate>2003-10-20</registrationDate>
+      <dissolutionDate>2016-08-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Жуков Андрей Анатольевич</fio>
+          <position>Генеральный директор</position>
+          <date>2005-08-23</date>
+          <firstDate>2005-08-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7733659460</inn>
+    <ogrn>1087746737352</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1087746737352</focusHref>
+    <UL>
+      <kpp>773301001</kpp>
+      <okpo>86551755</okpo>
+      <okato>45283593000</okato>
+      <okfs>16</okfs>
+      <oktmo>45373000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АйКью Системс"</short>
+        <full>Общество с ограниченной ответственностью "АйКью Системс"</full>
+        <date>2008-06-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125362</zipCode>
+          <kladrCode>770000000001726</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Лодочная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <houseRaw>10</houseRaw>
+        </parsedAddressRF>
+        <date>2008-06-11</date>
+        <firstDate>2008-06-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-06-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Ковалев Максим Александрович</fio>
+          <innfl>502706518095</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-05-29</date>
+          <firstDate>2008-06-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

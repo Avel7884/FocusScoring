@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5504121638</inn>
+    <ogrn>1155543027045</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1155543027045</focusHref>
+    <UL>
+      <kpp>550401001</kpp>
+      <okpo>23759897</okpo>
+      <okato>52401382000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ЖЕЛЕЗОБЕТОН"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "ЖЕЛЕЗОБЕТОН"</full>
+        <date>2015-07-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644042</zipCode>
+          <kladrCode>550000010000698</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Карла Маркса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>405</topoValue>
+          </flat>
+          <houseRaw>ДОМ 34А</houseRaw>
+          <flatRaw>ОФИС 405</flatRaw>
+        </parsedAddressRF>
+        <date>2015-07-14</date>
+        <firstDate>2015-07-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-07-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Чепель Андрей Николаевич</fio>
+          <innfl>550203642545</innfl>
+          <position>Директор</position>
+          <date>2017-10-16</date>
+          <firstDate>2017-10-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Кирикова Анна Анатольевна</fio>
+            <innfl>550510587790</innfl>
+            <position>Директор</position>
+            <date>2015-07-14</date>
+            <firstDate>2015-07-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

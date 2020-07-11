@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>2</Score>
+  <Name>Значительное число юр.лиц по этому адресу</Name>
+  <Colour>Yellow</Colour>
+  <Description>Значительное количество юридических лиц на текущий момент времени</Description>
+  <Code>
+                    if (!Статускомпаниисвязанспроизошедшейилипланируемойликвидацией.Function(company)) return false;
+                    int count1;
+                    if (int.TryParse(company.GetParam("q7006"), out count1) &amp;&amp; count1 &gt; 10
+                    ) //КоличествоНеЛиквидированныхСУчетомНомераОфиса
+                        return true;
+                    int count2;
+                    if (int.TryParse(company.GetParam("q7007"), out count2) &amp;&amp; count2 &gt; 50
+                    ) //КоличествоНеЛиквидированныхБезУчетаНомераОфиса
+                        return true;
+
+                    return false;</Code>
+</items>

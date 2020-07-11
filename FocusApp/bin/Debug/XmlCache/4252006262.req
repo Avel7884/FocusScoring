@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4252006262</inn>
+    <ogrn>1144252000320</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1144252000320</focusHref>
+    <UL>
+      <kpp>425201001</kpp>
+      <okpo>22919880</okpo>
+      <okato>32219868001</okato>
+      <okfs>14</okfs>
+      <oktmo>32619468101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>АДМИНИСТРАЦИЯ ТЕРСИНСКОГО СЕЛЬСКОГО ПОСЕЛЕНИЯ</full>
+        <date>2014-04-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654235</zipCode>
+          <kladrCode>42009000121</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новокузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Чистогорский</topoValue>
+          </settlement>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21А</topoValue>
+          </house>
+          <houseRaw>21 А</houseRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2014-04-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-04-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Налимов Александр Сергеевич</fio>
+          <innfl>423800707486</innfl>
+          <position>Глава Терсинского Сельского Поселения</position>
+          <date>2017-10-24</date>
+          <firstDate>2017-10-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шенцев Роман Сергеевич</fio>
+            <innfl>423802515042</innfl>
+            <position>Глава Терсинского Сельского Поселения</position>
+            <date>2014-04-14</date>
+            <firstDate>2014-04-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

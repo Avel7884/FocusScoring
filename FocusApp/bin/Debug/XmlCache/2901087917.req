@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2901087917</inn>
+    <ogrn>1022900533281</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022900533281</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okpo>53329198</okpo>
+      <okato>45290564000</okato>
+      <okfs>16</okfs>
+      <oktmo>45388000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Инженерный центр "Энергосервис"</short>
+        <full>Закрытое акционерное общество "Инженерный центр "Энергосервис"</full>
+        <date>2002-12-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111024</zipCode>
+          <kladrCode>770000000000241</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Авиамоторная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>44</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>помещение 1а Комната 1</topoValue>
+          </flat>
+          <houseRaw>44</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 1А КОМНАТА 1</flatRaw>
+        </parsedAddressRF>
+        <date>2013-09-25</date>
+        <firstDate>2013-09-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-06-08</date>
+      </status>
+      <registrationDate>2000-04-28</registrationDate>
+      <dissolutionDate>2015-06-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Флейшман Игорь Леонидович</fio>
+          <innfl>292600449860</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-12-24</date>
+          <firstDate>2002-12-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>290101001</kpp>
+            <date>2006-02-21</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>163046</zipCode>
+              <regionCode>29</regionCode>
+              <regionName>
+                <topoValue>Архангельская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Архангельск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Котласская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>26</topoValue>
+              </house>
+              <houseRaw>26</houseRaw>
+            </parsedAddressRF>
+            <date>2005-11-21</date>
+            <firstDate>2005-11-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

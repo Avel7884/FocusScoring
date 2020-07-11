@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>4</Score>
+  <Name>У более чем половины связанных компаний найдена бухгалтерская отчетность</Name>
+  <Colour>GreenAffiliates</Colour>
+  <Description>Более чем 50% связанных компаний обнаружено наличие бухгалтерской отчетности за предыдущий период</Description>
+  <Code>
+                        var m2 = company.GetMultiParam("m6002Affiliates");
+                        return m2.Count(x =&gt; x != "") / (double) m2.Length &gt; 0.5;</Code>
+</items>

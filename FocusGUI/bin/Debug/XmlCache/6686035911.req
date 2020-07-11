@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6686035911</inn>
+    <ogrn>1136686032262</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1136686032262</focusHref>
+    <UL>
+      <kpp>668601001</kpp>
+      <okpo>31397445</okpo>
+      <okato>65401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКФ "РОСМЕТАЛЛ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "РОСМЕТАЛЛ"</full>
+        <date>2014-12-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620017</zipCode>
+          <kladrCode>660000010001202</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Фронтовых бригад</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>17Б</topoValue>
+          </bulk>
+          <houseRaw>18</houseRaw>
+          <bulkRaw>ЛИТЕР 17Б</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-10-31</date>
+        <firstDate>2013-10-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-10-31</registrationDate>
+      <heads>
+        <head>
+          <fio>Малахов Виктор Валентинович</fio>
+          <innfl>666307308707</innfl>
+          <position>Директор</position>
+          <date>2019-07-16</date>
+          <firstDate>2019-07-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "РУТОН"</short>
+            <full>Общество с ограниченной ответственностью "РУТОН"</full>
+            <date>2013-10-31</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Усик Юрий Викторович</fio>
+            <innfl>667209368361</innfl>
+            <position>Директор</position>
+            <date>2013-10-31</date>
+            <firstDate>2013-10-31</firstDate>
+          </head>
+          <head>
+            <fio>Батку Андрей Георгиевич</fio>
+            <innfl>663104682608</innfl>
+            <position>Директор</position>
+            <date>2018-12-12</date>
+            <firstDate>2018-12-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

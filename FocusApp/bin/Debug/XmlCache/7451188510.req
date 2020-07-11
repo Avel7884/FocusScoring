@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7451188510</inn>
+    <ogrn>1027402899655</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027402899655</focusHref>
+    <UL>
+      <kpp>745101001</kpp>
+      <okpo>59539243</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергокомплект"</short>
+        <full>Общество с ограниченной ответственностью "Энергокомплект"</full>
+        <date>2002-10-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454091</zipCode>
+          <kladrCode>740000010000519</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Либкнехта</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <flat>
+            <topoValue>414</topoValue>
+          </flat>
+          <houseRaw>2</houseRaw>
+          <flatRaw>414</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-18</date>
+        <firstDate>2002-10-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-09-29</date>
+      </status>
+      <registrationDate>2002-10-18</registrationDate>
+      <dissolutionDate>2012-09-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мешков Евгений Сергеевич</fio>
+          <innfl>744843346452</innfl>
+          <position>Генеральный Директор</position>
+          <date>2006-12-06</date>
+          <firstDate>2006-12-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

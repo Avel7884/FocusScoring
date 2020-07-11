@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701508010</inn>
+    <ogrn>1037739930502</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739930502</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>70286357</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алексинские краски"</short>
+        <full>Общество с ограниченной ответственностью "Алексинские краски"</full>
+        <date>2003-10-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107082</zipCode>
+          <kladrCode>770000000002356</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Почтовая Б</topoValue>
+          </street>
+          <house>
+            <topoValue>38стр.1</topoValue>
+          </house>
+          <houseRaw>38СТР.1</houseRaw>
+        </parsedAddressRF>
+        <date>2003-10-27</date>
+        <firstDate>2003-10-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-12-29</date>
+      </status>
+      <registrationDate>2003-10-27</registrationDate>
+      <dissolutionDate>2010-12-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шанкин Евгений Вячеславович</fio>
+          <innfl>772872691032</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-06-09</date>
+          <firstDate>2010-06-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

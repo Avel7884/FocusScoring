@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7704044977</inn>
+    <ogrn>1027739100916</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739100916</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>11349510</okpo>
+      <okato>45286590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45383000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ВАО Агрохимэкспорт"</short>
+        <full>Закрытое акционерное общество "ВАО Агрохимэкспорт"</full>
+        <date>2003-06-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119992</zipCode>
+          <kladrCode>770000000001141</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Знаменский Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>4</topoValue>
+          </bulk>
+          <houseRaw>2</houseRaw>
+          <bulkRaw>СТР.4</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-07-27</date>
+        <firstDate>2006-07-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-02-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Калмыков Вячеслав Михайлович</fio>
+          <innfl>772472222290</innfl>
+          <position>Зам.Генерального Директора</position>
+          <date>2002-08-22</date>
+          <firstDate>2002-08-22</firstDate>
+        </head>
+        <head>
+          <fio>Маленкин Валентин Александрович</fio>
+          <position>Зам.Генерального Директора</position>
+          <date>2002-08-22</date>
+          <firstDate>2002-08-22</firstDate>
+        </head>
+        <head>
+          <fio>Орлов Юрий Алексеевич</fio>
+          <innfl>771511028516</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-08-22</date>
+          <firstDate>2002-08-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

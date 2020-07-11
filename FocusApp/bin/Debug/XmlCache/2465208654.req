@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2465208654</inn>
+    <ogrn>1082468023043</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1082468023043</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>86614272</okpo>
+      <okato>45277556000</okato>
+      <okfs>16</okfs>
+      <oktmo>45334000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМК Сибири"</short>
+        <full>Общество с ограниченной ответственностью "Проектно-монтажная компания Сибири"</full>
+        <date>2008-05-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125040</zipCode>
+          <kladrCode>770000000002358</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Правды</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <flat>
+            <topoValue>Эт/пом/Ком 4/XXII/111</topoValue>
+          </flat>
+          <houseRaw>ДОМ 26</houseRaw>
+          <flatRaw>ЭТ/ПОМ/КОМ 4/XXII/111</flatRaw>
+        </parsedAddressRF>
+        <date>2017-11-23</date>
+        <firstDate>2017-11-23</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>ФИЛИАЛ "БАЙКАЛЬСКИЙ" ООО "ПМК СИБИРИ"</name>
+          <parsedAddressRF>
+            <zipCode>664050</zipCode>
+            <kladrCode>380000030000043</kladrCode>
+            <regionCode>38</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Иркутская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Иркутск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Байкальская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>295Б</topoValue>
+            </house>
+            <houseRaw>ДОМ 295Б</houseRaw>
+          </parsedAddressRF>
+          <date>2015-05-13</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-05-06</registrationDate>
+      <heads>
+        <head>
+          <fio>Попков Дмитрий Львович</fio>
+          <innfl>753400942002</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-09-27</date>
+          <firstDate>2017-03-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>246501001</kpp>
+            <date>2008-05-06</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>660032</zipCode>
+              <kladrCode>240000010000058</kladrCode>
+              <regionCode>24</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Красноярский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Красноярск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Белинского</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <flat>
+                <topoValue>этаж 3</topoValue>
+              </flat>
+              <houseRaw>5</houseRaw>
+              <flatRaw>ЭТАЖ 3</flatRaw>
+            </parsedAddressRF>
+            <date>2011-02-16</date>
+            <firstDate>2011-02-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Паниотов Роман Александрович</fio>
+            <innfl>244802451670</innfl>
+            <position>Директор</position>
+            <date>2011-11-03</date>
+            <firstDate>2011-11-03</firstDate>
+          </head>
+          <head>
+            <fio>Иванов Сергей Анатольевич</fio>
+            <innfl>246311055808</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-04-29</date>
+            <firstDate>2008-05-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

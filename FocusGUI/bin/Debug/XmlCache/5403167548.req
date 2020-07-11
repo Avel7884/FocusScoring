@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5403167548</inn>
+    <ogrn>1045401298909</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045401298909</focusHref>
+    <UL>
+      <kpp>540301001</kpp>
+      <okpo>72242631</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аквадом-Новосибирск"</short>
+        <full>Общество с ограниченной ответственностью "Аквадом-Новосибирск"</full>
+        <date>2004-01-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630024</zipCode>
+          <kladrCode>540000010000800</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>58</topoValue>
+          </house>
+          <houseRaw>58</houseRaw>
+        </parsedAddressRF>
+        <date>2006-07-13</date>
+        <firstDate>2006-07-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-12-11</date>
+      </status>
+      <registrationDate>2004-01-13</registrationDate>
+      <dissolutionDate>2009-12-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лозовой Дмитрий Владимирович</fio>
+          <innfl>540205357723</innfl>
+          <position>Руководитель юридического лица</position>
+          <date>2006-07-13</date>
+          <firstDate>2006-07-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

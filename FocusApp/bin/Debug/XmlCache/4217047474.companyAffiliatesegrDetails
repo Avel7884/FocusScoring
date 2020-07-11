@@ -1,0 +1,2264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>421700074290</inn>
+    <ogrn>318420500004415</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=318420500004415</focusHref>
+    <IP>
+      <okpo>0124970729</okpo>
+      <pfrRegNumber>052048041616</pfrRegNumber>
+      <fssRegNumber>421002252342113</fssRegNumber>
+      <okato>32431373000</okato>
+      <shortenedAddress>
+        <regionCode>42</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Кемеровская</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Новокузнецк</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>49.41</code>
+          <text>Деятельность автомобильного грузового транспорта</text>
+          <date>2018-01-22</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>49.42</code>
+            <text>Предоставление услуг по перевозкам</text>
+            <date>2018-01-22</date>
+          </activity>
+          <activity>
+            <code>70.22</code>
+            <text>Консультирование по вопросам коммерческой деятельности и управления</text>
+            <date>2018-01-22</date>
+          </activity>
+          <activity>
+            <code>82.11</code>
+            <text>Деятельность административно-хозяйственная комплексная по обеспечению работы организации</text>
+            <date>2018-01-22</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2018-01-22</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>4217</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Центральному району г. Новокузнецка Кемеровской области</nalogName>
+        <nalogRegDate>2018-01-22</nalogRegDate>
+        <date>2018-12-27</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>4205</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Кемерово</nalogName>
+        <date>2018-01-22</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>418420500686295</grn>
+          <date>2018-12-27</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>418420500686121</grn>
+          <date>2018-12-27</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+          <documents>
+            <document>
+              <name>Р26001 заявление о прекращении деятельности ИП</name>
+              <date>2018-12-24</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-12-18</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>418420500608492</grn>
+          <date>2018-11-12</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>418420500084202</grn>
+          <date>2018-02-07</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>418420500063272</grn>
+          <date>2018-01-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>418420500054603</grn>
+          <date>2018-01-22</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>318420500004415</grn>
+          <date>2018-01-22</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+          <documents>
+            <document>
+              <name>Р21001 заявление о регистрации ФЛ в качестве ИП</name>
+              <date>2018-01-17</date>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина РФ</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-01-16</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>421700074290</inn>
+    <ogrn>304421705000021</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304421705000021</focusHref>
+    <IP>
+      <okpo>0066183987</okpo>
+      <pfrRegNumber>052018013903</pfrRegNumber>
+      <fssRegNumber>421000324142103</fssRegNumber>
+      <okato>32431373000</okato>
+      <shortenedAddress>
+        <regionCode>42</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Кемеровская</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Новокузнецк</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>51.31</code>
+          <text>Оптовая торговля фруктами, овощами и картофелем</text>
+          <date>2004-02-19</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>51.34.1</code>
+            <text>Оптовая торговля безалкогольными напитками</text>
+            <date>2004-02-19</date>
+          </activity>
+          <activity>
+            <code>52.21</code>
+            <text>Розничная торговля фруктами, овощами и картофелем</text>
+            <date>2004-02-19</date>
+          </activity>
+          <activity>
+            <code>52.25.2</code>
+            <text>Розничная торговля безалкогольными напитками</text>
+            <date>2004-02-19</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2004-02-19</ogrnDate>
+        <regName>Администрация Центрального района города Новокузнецка</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>4217</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Центральному району г. Новокузнецка Кемеровской области</nalogName>
+        <nalogRegDate>1997-01-27</nalogRegDate>
+        <date>2010-11-25</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>4205</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Кемерово</nalogName>
+        <date>2016-01-30</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>410421733400272</grn>
+          <date>2010-11-30</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>410421732900173</grn>
+          <date>2010-11-25</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>410421732900109</grn>
+          <date>2010-11-25</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации прекращения физическим лицом деятельности в качестве индивидуального предпринимателя в связи с принятием им решения о прекращении данной деятельности</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+            <document>
+              <name>Документ, подтверждающий представление сведений в территориальный орган ПФ РФ</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003471291</serialNumber>
+              <date>2010-11-25</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>410421732700039</grn>
+          <date>2010-11-23</date>
+          <name>Внесение изменений в сведения об ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003471260</serialNumber>
+              <date>2010-11-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>409421702800901</grn>
+          <date>2009-01-28</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>408421730200078</grn>
+          <date>2008-10-28</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>406421727000740</grn>
+          <date>2006-09-27</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>406421722104472</grn>
+          <date>2006-08-09</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>304421705000021</grn>
+          <date>2004-02-19</date>
+          <name>Внесение сведений об ИП, зарегистрированном до 01.01.2004</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Города Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр индивидуальных предпринимателей записи об индивидуальном предпринимателе, зарегистрированном до 1 января 2004 г.</name>
+              <date>2004-02-17</date>
+            </document>
+            <document>
+              <name>Паспорт</name>
+            </document>
+            <document>
+              <name>Свидетельство</name>
+              <date>1997-01-24</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001722380</serialNumber>
+              <date>2004-02-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>4217033834</inn>
+    <ogrn>1034217007395</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034217007395</focusHref>
+    <UL>
+      <okpo>02355977</okpo>
+      <pfrRegNumber>064001038680</pfrRegNumber>
+      <fssRegNumber>421000187442101</fssRegNumber>
+      <fomsRegNumber>504010501238360</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>37.10.2</code>
+          <text>Обработка отходов и лома цветных металлов</text>
+        </principalActivity>
+      </activities>
+      <regInfo>
+        <ogrnDate>2003-02-05</ogrnDate>
+        <regName>Новокузнецкая Регистрационно-лицензионная палата</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>5401</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Дзержинскому району г. Новосибирска</nalogName>
+        <nalogRegDate>2005-08-23</nalogRegDate>
+        <kpp>540101001</kpp>
+        <date>2017-02-17</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>5476</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 16 по Новосибирской области</nalogName>
+        <date>2016-05-04</date>
+      </regBody>
+      <statedCapital />
+      <foundersFL>
+        <founderFL>
+          <fio>Песоцкий Виктор Александрович</fio>
+          <innfl>421700074290</innfl>
+          <share>
+            <sum>4200</sum>
+          </share>
+          <date>2003-11-20</date>
+          <firstDate>2003-11-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Корчуганов Александр Николаевич</fio>
+          <innfl>421800157006</innfl>
+          <share>
+            <sum>4200</sum>
+          </share>
+          <date>2003-11-20</date>
+          <firstDate>2003-11-20</firstDate>
+        </founderFL>
+      </foundersFL>
+      <successors>
+        <successor>
+          <name>Закрытое акционерное общество "Гарант"</name>
+          <inn>5406364632</inn>
+          <ogrn>1065406158498</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>6175476511480</grn>
+          <date>2017-07-18</date>
+          <name>Признание внесенной в ЕГРЮЛ в отношении ЮЛ записи недействительной на основании решения вышестоящего налогового органа</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2017-07-17</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2175476321491</grn>
+          <date>2017-02-17</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2175476321470</grn>
+          <date>2017-02-17</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2165476957633</grn>
+          <date>2016-06-09</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <isInvalid>true</isInvalid>
+          <invalidSince>2017-07-18</invalidSince>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2065406999821</grn>
+          <date>2006-10-12</date>
+          <name>Прекращение ЮЛ путем реорганизации в форме присоединения</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новосибирска</regName>
+          <regCode>5406</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220015067</grn>
+          <date>2005-08-23</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2005-08-17</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2005-08-08</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2005-08-08</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001940839</serialNumber>
+              <date>2005-08-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220012691</grn>
+          <date>2005-07-21</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220012658</grn>
+          <date>2005-07-20</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2005-07-15</date>
+            </document>
+            <document>
+              <name>Решение</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001887494</serialNumber>
+              <date>2005-07-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220012636</grn>
+          <date>2005-07-19</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2005-07-15</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2005-07-12</date>
+            </document>
+            <document>
+              <name>Решение акционера</name>
+              <date>2005-07-12</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001887492</serialNumber>
+              <date>2005-07-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2044220007115</grn>
+          <date>2004-10-28</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Куйбышевскому Району Города Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2044217023222</grn>
+          <date>2004-10-26</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Города Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Изменения в учредительный договор юридического лица</name>
+            </document>
+            <document>
+              <name>Изменения в устав юридического лица</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+            </document>
+            <document>
+              <name>Квитанция</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001801943</serialNumber>
+              <date>2004-10-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2044217009010</grn>
+          <date>2004-05-20</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Города Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2004-05-14</date>
+            </document>
+            <document>
+              <name>Изменения в договоре</name>
+            </document>
+            <document>
+              <name>Протокол № 8</name>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001800716</serialNumber>
+              <date>2004-05-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2034217030450</grn>
+          <date>2003-11-20</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Города Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001105450</serialNumber>
+              <date>2003-11-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1034217007395</grn>
+          <date>2003-02-05</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Города Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001818557</serialNumber>
+              <date>2003-02-05</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>4217047474</inn>
+    <ogrn>1034217010300</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034217010300</focusHref>
+    <UL>
+      <pfrRegNumber>052018006438</pfrRegNumber>
+      <fomsRegNumber>20418</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>70.20.2</code>
+          <text>Сдача внаем собственного нежилого недвижимого имущества</text>
+          <date>2004-08-02</date>
+        </principalActivity>
+      </activities>
+      <regInfo>
+        <ogrnDate>2003-02-07</ogrnDate>
+        <regName>Новокузнецкая Регистрационно-лицензионная палата</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>4217</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Центральному району г. Новокузнецка Кемеровской области</nalogName>
+        <nalogRegDate>2003-02-07</nalogRegDate>
+        <kpp>421701001</kpp>
+        <date>2006-12-27</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>4205</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Кемерово</nalogName>
+        <date>2016-01-30</date>
+      </regBody>
+      <statedCapital />
+      <foundersFL>
+        <founderFL>
+          <fio>Песоцкий Виктор Александрович</fio>
+          <innfl>421700074290</innfl>
+          <share>
+            <sum>8400</sum>
+          </share>
+          <date>2003-02-07</date>
+          <firstDate>2003-02-06</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2074217001990</grn>
+          <date>2007-01-11</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2064217219933</grn>
+          <date>2006-12-27</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2064217204819</grn>
+          <date>2006-11-24</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Справка о наличии признаков недействующего ЮЛ</name>
+              <date>2006-07-25</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+              <date>2006-07-28</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2064217089957</grn>
+          <date>2006-06-30</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054217014290</grn>
+          <date>2005-03-31</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054217014190</grn>
+          <date>2005-03-31</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Решение учредителя</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001547379</serialNumber>
+              <date>2005-03-31</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2044217014609</grn>
+          <date>2004-08-02</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Города Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001801297</serialNumber>
+              <date>2004-08-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2034217031946</grn>
+          <date>2003-12-10</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Города Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001105600</serialNumber>
+              <date>2003-12-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1034217010300</grn>
+          <date>2003-02-07</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Города Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001818929</serialNumber>
+              <date>2003-02-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>4217099842</inn>
+    <ogrn>1074217010592</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1074217010592</focusHref>
+    <UL>
+      <okpo>82745801</okpo>
+      <pfrRegNumber>064004094660</pfrRegNumber>
+      <fssRegNumber>421001129954031</fssRegNumber>
+      <fomsRegNumber>324310710171940</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.7</code>
+          <text>Торговля оптовая специализированная прочая</text>
+          <date>2009-04-23</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>46.1</code>
+            <text>Торговля оптовая за вознаграждение или на договорной основе</text>
+            <date>2009-01-29</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2007-12-20</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>5410</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Калининскому району г. Новосибирска</nalogName>
+        <nalogRegDate>2015-09-21</nalogRegDate>
+        <kpp>541001001</kpp>
+        <date>2016-12-21</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>5476</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 16 по Новосибирской области</nalogName>
+        <date>2015-09-22</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2007-12-20</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Воропаева Ольга Анатольевна</fio>
+          <innfl>421712270250</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2014-03-14</date>
+          <firstDate>2009-10-22</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>7165476689778</grn>
+          <date>2016-12-21</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>7165476689679</grn>
+          <date>2016-12-21</date>
+          <name>Ликвидация ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+          <documents>
+            <document>
+              <name>Р16001 заявление о ликвидации (по решению учредителей (участников) или иного органа ЮЛ)</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2016-12-14</date>
+            </document>
+            <document>
+              <name>Документ, подтверждающий представление сведений в ПФР</name>
+            </document>
+            <document>
+              <name>Ликвидационный баланс</name>
+            </document>
+            <document>
+              <name>Решение</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7165476689481</grn>
+          <date>2016-12-21</date>
+          <name>Составление промежуточного ликвидационного баланса ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+          <documents>
+            <document>
+              <name>Р15001 уведомление о принятии решения о ликвидации ЮЛ</name>
+            </document>
+            <document>
+              <name>Доверенность</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6165476868705</grn>
+          <date>2016-09-14</date>
+          <name>Принятие юридическим лицом решения о ликвидации и назначении ликвидатора</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+          <documents>
+            <document>
+              <name>Р15001 уведомление о принятии решения о ликвидации ЮЛ</name>
+            </document>
+            <document>
+              <name>Решение</name>
+            </document>
+            <document>
+              <name>Доверенность смирнова о.к</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6155476510887</grn>
+          <date>2015-12-08</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6155476453071</grn>
+          <date>2015-11-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6155476124028</grn>
+          <date>2015-10-02</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6155476110839</grn>
+          <date>2015-09-29</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6155476103470</grn>
+          <date>2015-09-25</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Новосибирской Области</regName>
+          <regCode>5476</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2154253084930</grn>
+          <date>2015-09-21</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2154253084929</grn>
+          <date>2015-09-21</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2154253084819</grn>
+          <date>2015-09-21</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2015-09-14</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2015-09-14</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2015-09-14</date>
+            </document>
+            <document>
+              <name>Изменения к уставу ЮЛ</name>
+              <date>2015-09-14</date>
+            </document>
+            <document>
+              <name>Договор аренды</name>
+              <date>2015-09-01</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2144253021372</grn>
+          <date>2014-03-14</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2114253119737</grn>
+          <date>2011-07-19</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2114253116371</grn>
+          <date>2011-07-12</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-07-05</date>
+            </document>
+            <document>
+              <name>Решение общего собрания участников (акционеров) юридического лица</name>
+              <date>2011-07-04</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003313953</serialNumber>
+              <date>2011-07-12</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2104221045245</grn>
+          <date>2010-11-15</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+          <documents>
+            <document>
+              <name>Решение лицензирующего органа о предоставлении лицензии</name>
+              <date>2010-10-27</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2104221045234</grn>
+          <date>2010-11-15</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+          <documents>
+            <document>
+              <name>Решение лицензирующего органа о предоставлении лицензии</name>
+              <date>2010-10-27</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2094221030737</grn>
+          <date>2009-10-22</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-10-15</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2009-10-08</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2009-10-13</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-10-13</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003289106</serialNumber>
+              <date>2009-10-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2094221013159</grn>
+          <date>2009-04-23</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-04-17</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2009-04-16</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2009-04-15</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-04-15</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003279476</serialNumber>
+              <date>2009-04-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2094221005899</grn>
+          <date>2009-02-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2094217009511</grn>
+          <date>2009-01-29</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2094217009379</grn>
+          <date>2009-01-29</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2009-01-21</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-01-21</date>
+            </document>
+            <document>
+              <name>Договор аренды</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 002905892</serialNumber>
+              <date>2009-01-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2094217009368</grn>
+          <date>2009-01-29</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 002905889</serialNumber>
+              <date>2009-01-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2084217003077</grn>
+          <date>2008-01-18</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2074217132625</grn>
+          <date>2007-12-24</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2074217131404</grn>
+          <date>2007-12-20</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1074217010592</grn>
+          <date>2007-12-20</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Центральному Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4217</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2007-12-14</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2007-12-14</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 002955096</serialNumber>
+              <date>2007-12-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>4217183886</inn>
+    <ogrn>1174205015049</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1174205015049</focusHref>
+    <UL>
+      <okpo>15973599</okpo>
+      <pfrRegNumber>052018039729</pfrRegNumber>
+      <fssRegNumber>421002228442111</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.77</code>
+          <text>Торговля оптовая отходами и ломом</text>
+          <date>2017-06-13</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>46.18</code>
+            <text>Деятельность агентов, специализирующихся на оптовой торговле прочими отдельными видами товаров</text>
+            <date>2017-06-13</date>
+          </activity>
+          <activity>
+            <code>46.72</code>
+            <text>Торговля оптовая металлами и металлическими рудами</text>
+            <date>2017-06-13</date>
+          </activity>
+          <activity>
+            <code>52.10</code>
+            <text>Деятельность по складированию и хранению</text>
+            <date>2017-06-13</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2017-06-13</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>4217</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Центральному району г. Новокузнецка Кемеровской области</nalogName>
+        <nalogRegDate>2017-06-13</nalogRegDate>
+        <kpp>421701001</kpp>
+        <date>2017-06-13</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>4205</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Кемерово</nalogName>
+        <date>2017-06-13</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2017-06-13</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Песоцкий Виктор Александрович</fio>
+          <innfl>421700074290</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2017-06-13</date>
+          <firstDate>2017-06-13</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2184205660494</grn>
+          <date>2018-11-12</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2184205593010</grn>
+          <date>2018-10-18</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2174205310893</grn>
+          <date>2017-06-22</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2174205305129</grn>
+          <date>2017-06-16</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2174205298914</grn>
+          <date>2017-06-13</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1174205015049</grn>
+          <date>2017-06-13</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+          <documents>
+            <document>
+              <name>Р11001 заявление о создании ЮЛ</name>
+              <date>2017-06-07</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2017-06-06</date>
+            </document>
+            <document>
+              <name>Решение от 06.06.2017</name>
+              <date>2017-06-06</date>
+            </document>
+            <document>
+              <name>Запрос на копию устава</name>
+            </document>
+            <document>
+              <name>Оплата за копию устава (400 руб)</name>
+              <date>2017-06-06</date>
+            </document>
+            <document>
+              <name>Заявление на уточнение платежа</name>
+              <date>2017-06-07</date>
+            </document>
+            <document>
+              <name>Гарантийное письмо</name>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2017-06-06</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>4220028136</inn>
+    <ogrn>1054220007038</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054220007038</focusHref>
+    <UL>
+      <okpo>72276989</okpo>
+      <pfrRegNumber>052016010174</pfrRegNumber>
+      <fssRegNumber>421000728242111</fssRegNumber>
+      <fomsRegNumber>324311110213775</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>51.57</code>
+          <text>Оптовая торговля отходами и ломом</text>
+          <date>2005-07-08</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>37.10.2</code>
+            <text>Обработка отходов и лома цветных металлов</text>
+            <date>2005-07-08</date>
+          </activity>
+          <activity>
+            <code>51.7</code>
+            <text>Прочая оптовая торговля</text>
+            <date>2005-07-08</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2005-04-18</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>4253</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 4 по Кемеровской области</nalogName>
+        <nalogRegDate>2010-12-27</nalogRegDate>
+        <kpp>422101001</kpp>
+        <date>2011-06-16</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>4205</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Кемерово</nalogName>
+        <date>2016-01-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2005-04-18</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Песоцкий Виктор Александрович</fio>
+          <innfl>421700074290</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2010-12-27</date>
+          <firstDate>2006-11-29</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2114253153529</grn>
+          <date>2011-11-22</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2114253113203</grn>
+          <date>2011-06-21</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2114253111300</grn>
+          <date>2011-06-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2114253111124</grn>
+          <date>2011-06-15</date>
+          <name>Ликвидация ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица в связи с его ликвидацией по решению учредителей (участников) или органа юридического лица, уполномоченного на то учредительными документами</name>
+              <date>2011-06-07</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2011-03-28</date>
+            </document>
+            <document>
+              <name>Ликвидационный баланс</name>
+              <date>2011-06-06</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений</name>
+              <date>2011-03-28</date>
+            </document>
+            <document>
+              <name>Справка</name>
+              <date>2011-06-07</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003335435</serialNumber>
+              <date>2011-06-15</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2114253093942</grn>
+          <date>2011-04-19</date>
+          <name>Составление промежуточного ликвидационного баланса ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о составлении промежуточного ликвидационного баланса юридического лица</name>
+              <date>2011-03-29</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2011-03-25</date>
+            </document>
+            <document>
+              <name>Промежуточный ликвидационный баланс</name>
+              <date>2011-03-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003379539</serialNumber>
+              <date>2011-04-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2114253093931</grn>
+          <date>2011-04-19</date>
+          <name>Внесение сведений о формировании ликвидационной комиссии, назначении ликвидатора (конкурсного управляющего)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о формировании ликвидационной комиссии юридического или назначении ликвидатора</name>
+              <date>2011-03-29</date>
+            </document>
+            <document>
+              <name>Решение о ликвидации</name>
+              <date>2011-01-19</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003379538</serialNumber>
+              <date>2011-04-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2114253093920</grn>
+          <date>2011-04-19</date>
+          <name>Принятие юридическим лицом решения о ликвидации</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Кемеровской Области</regName>
+          <regCode>4253</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о принятии решения о ликвидации юридического лица</name>
+              <date>2011-03-29</date>
+            </document>
+            <document>
+              <name>Решение о ликвидации</name>
+              <date>2011-01-19</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003379537</serialNumber>
+              <date>2011-04-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2114221000595</grn>
+          <date>2011-01-18</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2104221049854</grn>
+          <date>2010-12-29</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2100411128970</grn>
+          <date>2010-12-27</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2100411128937</grn>
+          <date>2010-12-27</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-12-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000344877</serialNumber>
+              <date>2010-12-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2100411128926</grn>
+          <date>2010-12-27</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2010-10-20</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2010-12-17</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2010-12-17</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2010-12-17</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000344876</serialNumber>
+              <date>2010-12-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411085169</grn>
+          <date>2009-09-24</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000324365</serialNumber>
+              <date>2009-09-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411085158</grn>
+          <date>2009-09-24</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000324364</serialNumber>
+              <date>2009-09-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411085147</grn>
+          <date>2009-09-24</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000324363</serialNumber>
+              <date>2009-09-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411083409</grn>
+          <date>2009-09-21</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000324321</serialNumber>
+              <date>2009-09-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411083288</grn>
+          <date>2009-09-21</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000324323</serialNumber>
+              <date>2009-09-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411083266</grn>
+          <date>2009-09-21</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000324325</serialNumber>
+              <date>2009-09-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411073509</grn>
+          <date>2009-08-20</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411072519</grn>
+          <date>2009-08-17</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000322795</serialNumber>
+              <date>2009-08-17</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411072332</grn>
+          <date>2009-08-14</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>04 000322769</serialNumber>
+              <date>2009-08-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090411072321</grn>
+          <date>2009-08-14</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №5 по Республике Алтай</regName>
+          <regCode>0411</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2094221022817</grn>
+          <date>2009-08-11</date>
+          <name>Признание записи в ЕГРЮЛ недействительной</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003279776</serialNumber>
+              <date>2009-08-11</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2094221020705</grn>
+          <date>2009-07-13</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2094221020628</grn>
+          <date>2009-07-10</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-07-03</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений</name>
+              <date>2009-07-02</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2009-07-01</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-07-02</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003279720</serialNumber>
+              <date>2009-07-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2084221008640</grn>
+          <date>2008-03-30</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2074221080140</grn>
+          <date>2007-12-04</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2074221078699</grn>
+          <date>2007-11-19</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы по Кузнецкому и Орджоникидзевскому Районам г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4221</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2074220040409</grn>
+          <date>2007-11-07</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2074220040398</grn>
+          <date>2007-11-06</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2007-10-30</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-10-29</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Договор аренды</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 002664535</serialNumber>
+              <date>2007-11-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2074220040387</grn>
+          <date>2007-11-06</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-10-30</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 002664534</serialNumber>
+              <date>2007-11-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2064220057493</grn>
+          <date>2006-11-29</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2006-11-23</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2006-11-21</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2006-11-14</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2006-11-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 002715201</serialNumber>
+              <date>2006-11-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2064220057482</grn>
+          <date>2006-11-29</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2006-11-23</date>
+            </document>
+            <document>
+              <name>Решение общего собрания</name>
+              <date>2006-11-14</date>
+            </document>
+            <document>
+              <name>Договор</name>
+              <date>2006-11-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 002715200</serialNumber>
+              <date>2006-11-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220011657</grn>
+          <date>2005-07-08</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2005-07-04</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2005-07-01</date>
+            </document>
+            <document>
+              <name>Изменения в учредительный договор</name>
+              <date>2005-07-01</date>
+            </document>
+            <document>
+              <name>Протокол № 2</name>
+              <date>2005-07-01</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+            <document>
+              <name>Договор купли-продажи</name>
+              <date>2005-07-01</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001887459</serialNumber>
+              <date>2005-07-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220011602</grn>
+          <date>2005-07-07</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2005-07-01</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001887458</serialNumber>
+              <date>2005-07-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220008093</grn>
+          <date>2005-04-29</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220007675</grn>
+          <date>2005-04-22</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220007312</grn>
+          <date>2005-04-21</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2054220007158</grn>
+          <date>2005-04-20</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1054220007038</grn>
+          <date>2005-04-18</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Куйбышевскому Району г. Новокузнецка Кемеровской Области</regName>
+          <regCode>4220</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2005-04-13</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2005-04-06</date>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+              <date>2005-04-06</date>
+            </document>
+            <document>
+              <name>Протокол № 1</name>
+              <date>2005-04-06</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 001886256</serialNumber>
+              <date>2005-04-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>4252009714</inn>
+    <ogrn>1154252001012</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1154252001012</focusHref>
+    <UL>
+      <okpo>27632969</okpo>
+      <pfrRegNumber>052032005827</pfrRegNumber>
+      <fssRegNumber>421420420142141</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.72</code>
+          <text>Торговля оптовая металлами и металлическими рудами</text>
+          <date>2015-09-25</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>41.20</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2015-09-25</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2015-09-25</date>
+          </activity>
+          <activity>
+            <code>46.12</code>
+            <text>Деятельность агентов по оптовой торговле топливом, рудами, металлами и химическими веществами</text>
+            <date>2015-09-25</date>
+          </activity>
+          <activity>
+            <code>46.69</code>
+            <text>Торговля оптовая прочими машинами и оборудованием</text>
+            <date>2015-09-25</date>
+          </activity>
+          <activity>
+            <code>46.73</code>
+            <text>Торговля оптовая лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2015-09-25</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2015-09-25</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2015-09-25</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>4252</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 13 по Кемеровской области</nalogName>
+        <nalogRegDate>2015-09-25</nalogRegDate>
+        <kpp>425201001</kpp>
+        <date>2015-09-25</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>4205</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Кемерово</nalogName>
+        <date>2016-01-30</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2015-09-25</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Грудин Максим Сергеевич</fio>
+          <innfl>421802457365</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2018-12-07</date>
+          <firstDate>2018-12-07</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2194205694527</grn>
+          <date>2019-10-11</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2184205761991</grn>
+          <date>2018-12-07</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+          <documents>
+            <document>
+              <name>Заявление по форме р14001</name>
+              <date>2018-12-01</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2154252046353</grn>
+          <date>2015-10-13</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №13 по Кемеровской Области</regName>
+          <regCode>4252</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2015-10-06</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2015-10-05</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2015-10-05</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2015-10-05</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2154252046155</grn>
+          <date>2015-10-08</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №13 по Кемеровской Области</regName>
+          <regCode>4252</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2154252046111</grn>
+          <date>2015-10-08</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №13 по Кемеровской Области</regName>
+          <regCode>4252</regCode>
+          <documents>
+            <document>
+              <name>Служебная записка</name>
+              <date>2015-10-08</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2154252045869</grn>
+          <date>2015-10-02</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №13 по Кемеровской Области</regName>
+          <regCode>4252</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2154252045418</grn>
+          <date>2015-09-25</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №13 по Кемеровской Области</regName>
+          <regCode>4252</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1154252001012</grn>
+          <date>2015-09-25</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №13 по Кемеровской Области</regName>
+          <regCode>4252</regCode>
+          <documents>
+            <document>
+              <name>Р11001 заявление о создании ЮЛ</name>
+              <date>2015-09-18</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2015-09-14</date>
+            </document>
+            <document>
+              <name>Решение о создании ЮЛ</name>
+              <date>2015-09-16</date>
+            </document>
+            <document>
+              <name>Приходный кассовый ордер</name>
+              <date>2015-09-17</date>
+            </document>
+            <document>
+              <name>Гарантийное письмо</name>
+              <date>2015-09-08</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2015-09-16</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>42 003967054</serialNumber>
+              <date>2015-09-25</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <foundersFL>
+          <founderFL>
+            <fio>Песоцкий Виктор Александрович</fio>
+            <innfl>421700074290</innfl>
+            <share>
+              <sum>10000</sum>
+              <percentagePlain>100</percentagePlain>
+            </share>
+            <date>2015-09-25</date>
+            <firstDate>2015-09-25</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

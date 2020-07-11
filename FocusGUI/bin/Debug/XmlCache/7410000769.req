@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7410000769</inn>
+    <ogrn>1027400757702</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027400757702</focusHref>
+    <UL>
+      <kpp>741001001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО PSP "Катавмаш"</short>
+        <full>Открытое акционерное общество PSP "Катав-Ивановский машиностроительный завод"</full>
+        <date>2002-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>456110</zipCode>
+          <kladrCode>740100020000074</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Катав-Ивановск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-28</date>
+        <firstDate>2002-10-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2002-10-31</date>
+      </status>
+      <registrationDate>1993-09-06</registrationDate>
+      <dissolutionDate>2002-10-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Колодкин Владимир Александрович</fio>
+          <innfl>744700776778</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2002-10-28</date>
+          <firstDate>2002-10-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>456110</zipCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Катав-Ивановский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Катав-Ивановск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Заводская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <houseRaw>1</houseRaw>
+            </parsedAddressRF>
+            <date>2002-10-28</date>
+            <firstDate>2002-10-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

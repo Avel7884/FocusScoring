@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1402012840</inn>
+    <ogrn>1021400521845</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021400521845</focusHref>
+    <UL>
+      <kpp>140201001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алданзолото" ГРК"</short>
+        <full>Общество с ограниченной ответственностью "Алданзолото" Горнорудная компания"</full>
+        <date>2002-09-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>678940</zipCode>
+          <kladrCode>140030000110021</kladrCode>
+          <regionCode>14</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Саха /Якутия</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>у</topoShortName>
+            <topoFullName>улус</topoFullName>
+            <topoValue>Алданский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Нижний Куранах</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Строительная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <houseRaw>14</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-03</date>
+        <firstDate>2002-09-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-12-16</date>
+      </status>
+      <registrationDate>2002-09-03</registrationDate>
+      <dissolutionDate>2005-12-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дулатов Рушан Риватович</fio>
+          <innfl>245711229736</innfl>
+          <position>Генеральный директор</position>
+          <date>2005-12-09</date>
+          <firstDate>2005-12-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

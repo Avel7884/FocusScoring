@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7727507300</inn>
+    <ogrn>1047796191740</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796191740</focusHref>
+    <UL>
+      <kpp>772701001</kpp>
+      <okpo>72710486</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергогигант"</short>
+        <full>Закрытое акционерное общество "Энергогигант"</full>
+        <date>2004-03-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117186</zipCode>
+          <kladrCode>770000000001945</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Нагорная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <bulk>
+            <topoValue>8</topoValue>
+          </bulk>
+          <houseRaw>15</houseRaw>
+          <bulkRaw>8</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-07-19</date>
+        <firstDate>2006-07-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-05-12</date>
+      </status>
+      <registrationDate>2004-03-24</registrationDate>
+      <dissolutionDate>2010-05-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кореняк Константин Владимирович</fio>
+          <innfl>770901745740</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-10-31</date>
+          <firstDate>2009-10-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

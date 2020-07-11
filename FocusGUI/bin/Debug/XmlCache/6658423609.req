@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658423609</inn>
+    <ogrn>1126658042312</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1126658042312</focusHref>
+    <UL>
+      <kpp>668601001</kpp>
+      <okpo>20865216</okpo>
+      <okato>65401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Комплект"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "Комплект"</full>
+        <date>2012-12-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620039</zipCode>
+          <kladrCode>660000010000004</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>22 Партсъезда</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>58</topoValue>
+          </flat>
+          <houseRaw>22</houseRaw>
+          <flatRaw>КВАРТИРА 58</flatRaw>
+        </parsedAddressRF>
+        <date>2013-11-21</date>
+        <firstDate>2013-11-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-11-18</date>
+      </status>
+      <registrationDate>2012-12-18</registrationDate>
+      <dissolutionDate>2014-11-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Олесов Сергей Витальевич</fio>
+          <innfl>667400763533</innfl>
+          <position>Ликвидатор</position>
+          <date>2014-11-06</date>
+          <firstDate>2014-11-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>665801001</kpp>
+            <date>2012-12-18</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>620014</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Екатеринбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Малышева</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>16</topoValue>
+              </flat>
+              <houseRaw>4</houseRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 16</flatRaw>
+            </parsedAddressRF>
+            <date>2012-12-18</date>
+            <firstDate>2012-12-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Кравцов Денис Александрович</fio>
+            <innfl>742005639800</innfl>
+            <position>Директор</position>
+            <date>2012-12-18</date>
+            <firstDate>2012-12-18</firstDate>
+          </head>
+          <head>
+            <fio>Хайрзаманов Альфред Ахматзиянович</fio>
+            <innfl>665801752013</innfl>
+            <position>Директор</position>
+            <date>2013-11-11</date>
+            <firstDate>2013-11-11</firstDate>
+          </head>
+          <head>
+            <fio>Казаков Сергей Игоревич</fio>
+            <innfl>661106386520</innfl>
+            <position>Ликвидатор</position>
+            <date>2014-06-30</date>
+            <firstDate>2014-06-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

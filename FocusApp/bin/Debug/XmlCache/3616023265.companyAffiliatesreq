@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3616023265</inn>
+    <ogrn>1183668047870</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1183668047870</focusHref>
+    <UL>
+      <kpp>361601001</kpp>
+      <okpo>34696361</okpo>
+      <okato>20225804001</okato>
+      <okfs>16</okfs>
+      <oktmo>20625404101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ЕВРОЛЕС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ ЕВРОЛЕС"</full>
+        <date>2018-11-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>396313</zipCode>
+          <kladrCode>360170000100014</kladrCode>
+          <regionCode>36</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Воронежская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новоусманский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Бабяково</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Совхозная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>I</topoValue>
+          </flat>
+          <houseRaw>ДОМ 5А</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ I</flatRaw>
+        </parsedAddressRF>
+        <date>2019-09-09</date>
+        <firstDate>2019-09-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-11-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Панфилов Юрий Владимирович</fio>
+          <innfl>366600125633</innfl>
+          <position>Директор</position>
+          <date>2018-11-30</date>
+          <firstDate>2018-11-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>396313</zipCode>
+              <kladrCode>360170000100014</kladrCode>
+              <regionCode>36</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Воронежская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Новоусманский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>с</topoShortName>
+                <topoFullName>село</topoFullName>
+                <topoValue>Бабяково</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Совхозная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5А</topoValue>
+              </house>
+              <houseRaw>ДОМ 5А</houseRaw>
+            </parsedAddressRF>
+            <date>2018-11-30</date>
+            <firstDate>2018-11-30</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>366600125633</inn>
+    <ogrn>305362513100060</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305362513100060</focusHref>
+    <IP>
+      <fio>Панфилов Юрий Владимирович</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1997-05-15</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Утратил государственную регистрацию в качестве индивидуального предпринимателя на основании статьи 3 ФЗ от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-05-11</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

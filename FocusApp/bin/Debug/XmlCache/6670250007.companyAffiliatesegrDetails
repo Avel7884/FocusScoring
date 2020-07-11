@@ -1,0 +1,971 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>667009343401</inn>
+    <ogrn>317665800219095</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=317665800219095</focusHref>
+    <IP>
+      <okpo>0124131158</okpo>
+      <pfrRegNumber>075030139715</pfrRegNumber>
+      <okato>65401373000</okato>
+      <shortenedAddress>
+        <regionCode>66</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Свердловская</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Екатеринбург</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>68.20</code>
+          <text>Аренда и управление собственным или арендованным недвижимым имуществом</text>
+          <date>2017-12-14</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>68.10</code>
+            <text>Покупка и продажа собственного недвижимого имущества</text>
+            <date>2017-12-14</date>
+          </activity>
+          <activity>
+            <code>68.32</code>
+            <text>Управление недвижимым имуществом за вознаграждение или на договорной основе</text>
+            <date>2017-12-14</date>
+          </activity>
+          <activity>
+            <code>77.29</code>
+            <text>Прокат и аренда прочих предметов личного пользования и хозяйственно-бытового назначения</text>
+            <date>2017-12-14</date>
+          </activity>
+          <activity>
+            <code>77.29.9</code>
+            <text>Прокат прочих бытовых изделий и предметов личного пользования для домашних хозяйств, предприятий и организаций, не включенных в другие группировки</text>
+            <date>2017-12-14</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2017-12-14</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6670</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Кировскому району г.Екатеринбурга</nalogName>
+        <nalogRegDate>2017-12-14</nalogRegDate>
+        <date>2017-12-14</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6658</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Верх-Исетскому району г.Екатеринбурга</nalogName>
+        <date>2017-12-14</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>417665801305524</grn>
+          <date>2017-12-20</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>417665801287510</grn>
+          <date>2017-12-14</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>317665800219095</grn>
+          <date>2017-12-14</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+          <documents>
+            <document>
+              <name>Р21001 заявление о регистрации ФЛ в качестве ИП</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2017-10-16</date>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина РФ</name>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>6670139577</inn>
+    <ogrn>1069670141133</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1069670141133</focusHref>
+    <UL>
+      <okpo>97389192</okpo>
+      <pfrRegNumber>075030085299</pfrRegNumber>
+      <fssRegNumber>661001290966131</fssRegNumber>
+      <fomsRegNumber>654010650202004</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>22.29</code>
+          <text>Производство прочих пластмассовых изделий</text>
+          <date>2016-03-09</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>25.11</code>
+            <text>Производство строительных металлических конструкций, изделий и их частей</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>25.12</code>
+            <text>Производство металлических дверей и окон</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>33.14</code>
+            <text>Ремонт электрического оборудования</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>33.20</code>
+            <text>Монтаж промышленных машин и оборудования</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>46.49</code>
+            <text>Торговля оптовая прочими бытовыми товарами</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>46.69.5</code>
+            <text>Торговля оптовая производственным электротехническим оборудованием, машинами, аппаратурой и материалами</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>46.77</code>
+            <text>Торговля оптовая отходами и ломом</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2008-01-22</date>
+          </activity>
+          <activity>
+            <code>47.43</code>
+            <text>Торговля розничная аудио- и видеотехникой в специализированных магазинах</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>47.52</code>
+            <text>Торговля розничная скобяными изделиями, лакокрасочными материалами и стеклом в специализированных магазинах</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>47.54</code>
+            <text>Торговля розничная бытовыми электротоварами в специализированных магазинах</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>47.59.3</code>
+            <text>Торговля розничная осветительными приборами в специализированных магазинах</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>47.78</code>
+            <text>Торговля розничная прочая в специализированных магазинах</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>47.78.3</code>
+            <text>Торговля розничная сувенирами, изделиями народных художественных промыслов</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>47.78.4</code>
+            <text>Торговля розничная предметами культового и религиозного назначения, похоронными принадлежностями в специализированных магазинах</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>73.11</code>
+            <text>Деятельность рекламных агентств</text>
+            <date>2016-03-09</date>
+          </activity>
+          <activity>
+            <code>81.22</code>
+            <text>Деятельность по чистке и уборке жилых зданий и нежилых помещений прочая</text>
+            <date>2008-01-22</date>
+          </activity>
+          <activity>
+            <code>81.29.9</code>
+            <text>Деятельность по чистке и уборке прочая, не включенная в другие группировки</text>
+            <date>2008-01-22</date>
+          </activity>
+          <activity>
+            <code>82.99</code>
+            <text>Деятельность по предоставлению прочих вспомогательных услуг для бизнеса, не включенная в другие группировки</text>
+            <date>2008-01-22</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2006-09-07</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6670</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Кировскому району г.Екатеринбурга</nalogName>
+        <nalogRegDate>2006-09-07</nalogRegDate>
+        <kpp>667001001</kpp>
+        <date>2006-09-13</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6658</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Верх-Исетскому району г.Екатеринбурга</nalogName>
+        <date>2015-03-28</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2006-09-07</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Лялин Александр Владимирович</fio>
+          <innfl>667009343401</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2013-02-20</date>
+          <firstDate>2006-09-07</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>7176658425552</grn>
+          <date>2017-12-26</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2169658498590</grn>
+          <date>2016-03-09</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2016-02-29</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2016-02-24</date>
+            </document>
+            <document>
+              <name>Решение № 1 от 29.02.2016</name>
+              <date>2016-02-29</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2016-02-29</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2169658425297</grn>
+          <date>2016-02-28</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6156658178077</grn>
+          <date>2015-12-01</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2136670061042</grn>
+          <date>2013-02-20</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-02-13</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица от 11.02.2013 № 2</name>
+              <date>2013-02-11</date>
+            </document>
+            <document>
+              <name>Заявление от 11.02.2013</name>
+              <date>2013-02-11</date>
+            </document>
+            <document>
+              <name>Договор распределения доли в уставном капитале от 11.02.2013</name>
+              <date>2013-02-11</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>66 007209383</serialNumber>
+              <date>2013-02-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2106670192836</grn>
+          <date>2010-04-08</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>66 006572723</serialNumber>
+              <date>2010-04-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2086670011371</grn>
+          <date>2008-01-22</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2008-01-15</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+              <date>2008-01-14</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2008-01-14</date>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+              <date>2008-01-14</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-01-15</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>66 005622923</serialNumber>
+              <date>2008-01-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2076670284590</grn>
+          <date>2007-12-24</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-12-17</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>66 005622122</serialNumber>
+              <date>2007-12-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2069670389413</grn>
+          <date>2006-10-25</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2069670336459</grn>
+          <date>2006-09-29</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2069670311225</grn>
+          <date>2006-09-13</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1069670141133</grn>
+          <date>2006-09-07</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2006-09-01</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2006-08-31</date>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+              <date>2006-08-31</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-08-31</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2006-09-01</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>66 004855644</serialNumber>
+              <date>2006-09-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <foundersFL>
+          <founderFL>
+            <fio>Чупин Константин Юрьевич</fio>
+            <share>
+              <sum>5000</sum>
+            </share>
+            <date>2007-12-24</date>
+            <firstDate>2007-12-24</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>6670250007</inn>
+    <ogrn>1096670008820</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1096670008820</focusHref>
+    <UL>
+      <okpo>61456918</okpo>
+      <pfrRegNumber>075030101102</pfrRegNumber>
+      <fssRegNumber>661002499766131</fssRegNumber>
+      <fomsRegNumber>654010950075213</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.73.5</code>
+          <text>Торговля оптовая листовым стеклом</text>
+          <date>2009-03-26</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>41.20</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2009-03-26</date>
+          </activity>
+          <activity>
+            <code>46.73.6</code>
+            <text>Торговля оптовая прочими строительными материалами и изделиями</text>
+            <date>2009-03-26</date>
+          </activity>
+          <activity>
+            <code>46.75.2</code>
+            <text>Торговля оптовая промышленными химикатами</text>
+            <date>2009-03-26</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2009-03-26</date>
+          </activity>
+          <activity>
+            <code>47.52</code>
+            <text>Торговля розничная скобяными изделиями, лакокрасочными материалами и стеклом в специализированных магазинах</text>
+            <date>2009-03-26</date>
+          </activity>
+          <activity>
+            <code>47.7</code>
+            <text>Торговля розничная прочими товарами в специализированных магазинах</text>
+            <date>2009-03-26</date>
+          </activity>
+          <activity>
+            <code>49.4</code>
+            <text>Деятельность автомобильного грузового транспорта и услуги по перевозкам</text>
+            <date>2009-03-26</date>
+          </activity>
+          <activity>
+            <code>68.20</code>
+            <text>Аренда и управление собственным или арендованным недвижимым имуществом</text>
+            <date>2009-03-26</date>
+          </activity>
+          <activity>
+            <code>82.99</code>
+            <text>Деятельность по предоставлению прочих вспомогательных услуг для бизнеса, не включенная в другие группировки</text>
+            <date>2009-03-26</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2009-03-26</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6670</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Кировскому району г.Екатеринбурга</nalogName>
+        <nalogRegDate>2009-03-26</nalogRegDate>
+        <kpp>667001001</kpp>
+        <date>2009-03-27</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6658</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Верх-Исетскому району г.Екатеринбурга</nalogName>
+        <date>2015-03-27</date>
+      </regBody>
+      <statedCapital>
+        <sum>15000</sum>
+        <date>2009-03-26</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Лялин Александр Владимирович</fio>
+          <innfl>667009343401</innfl>
+          <share>
+            <sum>15000</sum>
+          </share>
+          <date>2009-03-26</date>
+          <firstDate>2009-03-26</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>7176658420173</grn>
+          <date>2017-12-26</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2169658413450</grn>
+          <date>2016-02-28</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6156658177340</grn>
+          <date>2015-12-01</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2106670192825</grn>
+          <date>2010-04-08</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>66 006572722</serialNumber>
+              <date>2010-04-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096670370047</grn>
+          <date>2009-08-07</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096670170111</grn>
+          <date>2009-04-03</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096670159254</grn>
+          <date>2009-03-27</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1096670008820</grn>
+          <date>2009-03-26</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2009-03-19</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2009-03-11</date>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+              <date>2009-03-16</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-03-16</date>
+            </document>
+            <document>
+              <name>Копия паспорта</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>66 006005043</serialNumber>
+              <date>2009-03-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>6674357907</inn>
+    <ogrn>1106674011487</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1106674011487</focusHref>
+    <UL>
+      <okpo>66799134</okpo>
+      <pfrRegNumber>075032115971</pfrRegNumber>
+      <fssRegNumber>661541019566151</fssRegNumber>
+      <fomsRegNumber>654011060162506</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>27.40</code>
+          <text>Производство электрических ламп и осветительного оборудования</text>
+          <date>2015-03-16</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>23.19.6</code>
+            <text>Производство стеклянных деталей электрических ламп и осветительной арматуры, световых указателей, световых табло и аналогичных изделий</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>26.51.6</code>
+            <text>Производство прочих приборов, датчиков, аппаратуры и инструментов для измерения, контроля и испытаний</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>33.13</code>
+            <text>Ремонт электронного и оптического оборудования</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>33.14</code>
+            <text>Ремонт электрического оборудования</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>33.20</code>
+            <text>Монтаж промышленных машин и оборудования</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>46.43</code>
+            <text>Торговля оптовая бытовыми электротоварами</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>46.49</code>
+            <text>Торговля оптовая прочими бытовыми товарами</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>46.49.4</code>
+            <text>Торговля оптовая прочими потребительскими товарами</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>46.49.49</code>
+            <text>Торговля оптовая прочими потребительскими товарами, не включенными в другие группировки</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>46.49.5</code>
+            <text>Торговля оптовая неэлектрическими бытовыми приборами</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>46.69.5</code>
+            <text>Торговля оптовая производственным электротехническим оборудованием, машинами, аппаратурой и материалами</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>46.69.9</code>
+            <text>Торговля оптовая прочими машинами, приборами, аппаратурой и оборудованием общепромышленного и специального назначения</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>47.43</code>
+            <text>Торговля розничная аудио- и видеотехникой в специализированных магазинах</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>47.54</code>
+            <text>Торговля розничная бытовыми электротоварами в специализированных магазинах</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>47.59.3</code>
+            <text>Торговля розничная осветительными приборами в специализированных магазинах</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>47.78</code>
+            <text>Торговля розничная прочая в специализированных магазинах</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>62.01</code>
+            <text>Разработка компьютерного программного обеспечения</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>62.02</code>
+            <text>Деятельность консультативная и работы в области компьютерных технологий</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>62.09</code>
+            <text>Деятельность, связанная с использованием вычислительной техники и информационных технологий, прочая</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>64.19</code>
+            <text>Денежное посредничество прочее</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>68.31.2</code>
+            <text>Предоставление посреднических услуг по аренде недвижимого имущества за вознаграждение или на договорной основе</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>68.31.3</code>
+            <text>Предоставление консультационных услуг при купле-продаже недвижимого имущества за вознаграждение или на договорной основе</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>68.31.4</code>
+            <text>Предоставление консультационных услуг по аренде недвижимого имущества за вознаграждение или на договорной основе</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>72.19</code>
+            <text>Научные исследования и разработки в области естественных и технических наук прочие</text>
+            <date>2015-03-16</date>
+          </activity>
+          <activity>
+            <code>82.99</code>
+            <text>Деятельность по предоставлению прочих вспомогательных услуг для бизнеса, не включенная в другие группировки</text>
+            <date>2015-03-16</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2010-06-16</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6685</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №31 по Свердловской области</nalogName>
+        <nalogRegDate>2015-03-16</nalogRegDate>
+        <kpp>668501001</kpp>
+        <date>2015-03-16</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6658</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Верх-Исетскому району г.Екатеринбурга</nalogName>
+        <date>2015-03-26</date>
+      </regBody>
+      <statedCapital>
+        <sum>30000</sum>
+        <date>2010-06-16</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Лепихин Василий Алексеевич</fio>
+          <share>
+            <sum>15000</sum>
+            <percentagePlain>50</percentagePlain>
+          </share>
+          <date>2010-06-16</date>
+          <firstDate>2010-06-16</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Лялин Александр Владимирович</fio>
+          <innfl>667009343401</innfl>
+          <share>
+            <sum>15000</sum>
+            <percentagePlain>50</percentagePlain>
+          </share>
+          <date>2010-06-16</date>
+          <firstDate>2010-06-16</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>7169658854204</grn>
+          <date>2016-11-17</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>7169658291610</grn>
+          <date>2016-09-21</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>7169658161237</grn>
+          <date>2016-09-01</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Верх-Исетскому Району г.Екатеринбурга</regName>
+          <regCode>6658</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2156685066460</grn>
+          <date>2015-03-21</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №31 по Свердловской Области</regName>
+          <regCode>6685</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2156679059315</grn>
+          <date>2015-03-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №25 по Свердловской Области</regName>
+          <regCode>6679</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2156679059304</grn>
+          <date>2015-03-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №25 по Свердловской Области</regName>
+          <regCode>6679</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2156679059271</grn>
+          <date>2015-03-16</date>
+          <name>Внесение изменений в учредительные документы</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №25 по Свердловской Области</regName>
+          <regCode>6679</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2015-03-03</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+            </document>
+            <document>
+              <name>Договор аренды</name>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников ЮЛ</name>
+              <date>2015-03-04</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2136679097179</grn>
+          <date>2013-03-20</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №25 по Свердловской Области</regName>
+          <regCode>6679</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2106674184802</grn>
+          <date>2010-07-12</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Чкаловскому Району г.Екатеринбурга</regName>
+          <regCode>6674</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2106674167136</grn>
+          <date>2010-06-24</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Чкаловскому Району г.Екатеринбурга</regName>
+          <regCode>6674</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2106674162208</grn>
+          <date>2010-06-17</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Чкаловскому Району г.Екатеринбурга</regName>
+          <regCode>6674</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1106674011487</grn>
+          <date>2010-06-16</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Чкаловскому Району г.Екатеринбурга</regName>
+          <regCode>6674</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины от 09.06.2010 № 0185</name>
+              <date>2010-06-09</date>
+            </document>
+            <document>
+              <name>Протокол об учреждении ЮЛ от 31.05.2010 № 1</name>
+              <date>2010-05-31</date>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>66 006648681</serialNumber>
+              <date>2010-06-16</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

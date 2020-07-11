@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7809011714</inn>
+    <ogrn>1027810262831</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027810262831</focusHref>
+    <UL>
+      <kpp>781301001</kpp>
+      <okpo>23110501</okpo>
+      <okato>40288000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40394000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВСБ"</short>
+        <full>Общество с ограниченной ответственностью "Выставки-Семинары Бизнес"</full>
+        <date>2002-11-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197110</zipCode>
+          <kladrCode>780000000001057</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Петрозаводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+        </parsedAddressRF>
+        <date>2012-02-01</date>
+        <firstDate>2012-02-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-03-28</date>
+      </status>
+      <registrationDate>2002-06-17</registrationDate>
+      <dissolutionDate>2018-03-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Устинов Виталий Валентинович</fio>
+          <innfl>780501018785</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-12-30</date>
+          <firstDate>2014-12-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>188350</zipCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Красноармейская 1-я</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>13</topoValue>
+              </house>
+              <flat>
+                <topoValue>361</topoValue>
+              </flat>
+              <houseRaw>13</houseRaw>
+              <flatRaw>361</flatRaw>
+            </parsedAddressRF>
+            <date>2002-11-14</date>
+            <firstDate>2002-11-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <managementCompanies>
+          <managementCompany>
+            <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АУДИТ-ЭКСПО"</name>
+            <inn>7813167721</inn>
+            <ogrn>1037828015235</ogrn>
+            <date>2013-09-20</date>
+            <firstDate>2013-09-20</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Кирсанов Игорь Петрович</fio>
+            <innfl>781708866818</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-02-01</date>
+            <firstDate>2008-06-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

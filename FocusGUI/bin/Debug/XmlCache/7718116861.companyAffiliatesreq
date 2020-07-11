@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7718116861</inn>
+    <ogrn>1027739898746</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739898746</focusHref>
+    <UL>
+      <kpp>771801001</kpp>
+      <okpo>40433080</okpo>
+      <okato>45263594000</okato>
+      <okfs>16</okfs>
+      <oktmo>45316000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОР-М"</short>
+        <full>Общество с ограниченной ответственностью "АВТОР-М"</full>
+        <date>2002-12-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107023</zipCode>
+          <kladrCode>770000000003187</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Электрозаводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <houseRaw>21</houseRaw>
+        </parsedAddressRF>
+        <date>2008-07-18</date>
+        <firstDate>2008-07-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-07</date>
+      </status>
+      <registrationDate>1996-01-21</registrationDate>
+      <dissolutionDate>2016-09-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шехмейстер Ефим Ильич</fio>
+          <innfl>771800398058</innfl>
+          <position>Ликвидатор</position>
+          <date>2016-03-18</date>
+          <firstDate>2002-12-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

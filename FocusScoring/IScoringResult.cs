@@ -2,10 +2,11 @@ using FocusScoring;
 
 namespace FocusApiAccess
 {
-    public interface IScoringResult<out T>
+    public interface IScoringResult<T>
     {
-        MarkerResult[] Markers { get; }
+        MarkerResult<T>[] Markers { get; }
         int Score { get; }
         T Target { get; }    
+        
     }
 }

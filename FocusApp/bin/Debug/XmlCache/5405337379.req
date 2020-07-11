@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5405337379</inn>
+    <ogrn>1075405003310</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075405003310</focusHref>
+    <UL>
+      <kpp>422101001</kpp>
+      <okpo>99826277</okpo>
+      <okato>32431370000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Абашевское строительное управление"</short>
+        <full>Общество с ограниченной ответственностью "Абашевское строительное управление"</full>
+        <date>2007-02-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654086</zipCode>
+          <kladrCode>420000120000347</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Зыряновская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>81</topoValue>
+          </house>
+          <houseRaw>81</houseRaw>
+        </parsedAddressRF>
+        <date>2007-06-25</date>
+        <firstDate>2007-06-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-10-03</date>
+      </status>
+      <registrationDate>2007-02-09</registrationDate>
+      <dissolutionDate>2016-10-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Петенев Константин Владимирович</fio>
+          <innfl>422103009556</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-10-20</date>
+          <firstDate>2011-03-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

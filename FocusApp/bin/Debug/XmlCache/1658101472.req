@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1658101472</inn>
+    <ogrn>1081690046019</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1081690046019</focusHref>
+    <UL>
+      <kpp>770601001</kpp>
+      <okpo>87858770</okpo>
+      <okato>45286596000</okato>
+      <okfs>16</okfs>
+      <oktmo>45384000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ Мегапром"</short>
+        <full>Общество с ограниченной ответственностью "Производственно коммерческая фирма Мегапром"</full>
+        <date>2008-07-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119180</zipCode>
+          <kladrCode>770000000001414</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Казачий 2-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>11</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-05-25</date>
+        <firstDate>2011-03-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-05</date>
+      </status>
+      <registrationDate>2008-07-29</registrationDate>
+      <dissolutionDate>2016-09-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мингалеев Ильдус Мударисович</fio>
+          <innfl>165505669298</innfl>
+          <position>Директор</position>
+          <date>2011-02-24</date>
+          <firstDate>2011-02-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119180</zipCode>
+              <kladrCode>770000000001414</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>2-й Казачий переулок</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>11</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>11</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+            </parsedAddressRF>
+            <date>2016-05-14</date>
+            <firstDate>2016-05-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

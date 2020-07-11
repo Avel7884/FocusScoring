@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705903646</inn>
+    <ogrn>1097746744480</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097746744480</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>64419239</okpo>
+      <okato>45286560000</okato>
+      <okfs>16</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ЭНЕРГОКОМПЛЕКС"</short>
+        <full>Закрытое акционерное общество "ЭНЕРГОКОМПЛЕКС"</full>
+        <date>2009-11-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115035</zipCode>
+          <kladrCode>770000000007191</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Садовническая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25</topoValue>
+          </house>
+          <houseRaw>25</houseRaw>
+        </parsedAddressRF>
+        <date>2009-11-24</date>
+        <firstDate>2009-11-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-11-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Геймбихнер Виктор Владимирович</fio>
+          <innfl>771700586932</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-10-30</date>
+          <firstDate>2009-11-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

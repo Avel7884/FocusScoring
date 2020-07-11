@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7810255970</inn>
+    <ogrn>1037821003637</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037821003637</focusHref>
+    <UL>
+      <kpp>781001001</kpp>
+      <okpo>58300706</okpo>
+      <okato>40284561000</okato>
+      <okfs>16</okfs>
+      <oktmo>40373000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20600</okopf>
+      <opf>Ассоциации (союзы)</opf>
+      <legalName>
+        <short>АССОЦИАЦИЯ ОЭБ</short>
+        <full>АССОЦИАЦИЯ ОБЕСПЕЧЕНИЯ ЭКОЛОГИЧЕСКОЙ БЕЗОПАСНОСТИ</full>
+        <date>2015-12-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>196084</zipCode>
+          <kladrCode>780000000000852</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Московский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>74Б</topoValue>
+          </house>
+          <flat>
+            <topoValue>4</topoValue>
+          </flat>
+          <houseRaw>74 Б</houseRaw>
+          <flatRaw>4</flatRaw>
+        </parsedAddressRF>
+        <date>2003-01-04</date>
+        <firstDate>2003-01-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-08-22</date>
+      </status>
+      <registrationDate>2002-03-06</registrationDate>
+      <dissolutionDate>2016-08-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Уткина Елена Викторовна</fio>
+          <innfl>782506068511</innfl>
+          <position>Директор</position>
+          <date>2012-02-21</date>
+          <firstDate>2004-07-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>НП МАЭБ</short>
+            <full>Некоммерческое Партнерство обеспечения экологической безопасности "Международная Ассоциация Экологической Безопасности"</full>
+            <date>2003-01-04</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

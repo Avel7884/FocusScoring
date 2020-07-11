@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6648002979</inn>
+    <ogrn>1036602351884</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036602351884</focusHref>
+    <UL>
+      <kpp>664801001</kpp>
+      <okpo>26421118</okpo>
+      <okato>65232560000</okato>
+      <okfs>16</okfs>
+      <oktmo>65717000051</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "TIR"</short>
+        <full>Общество с ограниченной ответственностью "TIR"</full>
+        <date>2003-05-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622904</zipCode>
+          <kladrCode>660190000240003</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Пригородный</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Горноуральский</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новая</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2003-05-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-07-31</date>
+      </status>
+      <registrationDate>1992-10-26</registrationDate>
+      <dissolutionDate>2019-07-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Баканов Александр Алексеевич</fio>
+          <innfl>662300439076</innfl>
+          <position>Директор</position>
+          <date>2003-02-08</date>
+          <firstDate>2003-02-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

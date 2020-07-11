@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6660127886</inn>
+    <ogrn>1036603489856</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603489856</focusHref>
+    <UL>
+      <kpp>666001001</kpp>
+      <okpo>50721673</okpo>
+      <okato>65401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергоресурс-сервис"</short>
+        <full>Закрытое акционерное общество "Энергоресурс-сервис"</full>
+        <date>2003-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620137</zipCode>
+          <kladrCode>660000010000310</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Данилы Зверева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24</topoValue>
+          </house>
+          <flat>
+            <topoValue>123</topoValue>
+          </flat>
+          <houseRaw>24</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>123</flatRaw>
+        </parsedAddressRF>
+        <date>2003-02-07</date>
+        <firstDate>2003-02-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-01-27</date>
+      </status>
+      <registrationDate>1999-03-04</registrationDate>
+      <dissolutionDate>2014-01-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Хобыдов Сергей Иванович</fio>
+          <innfl>666307417054</innfl>
+          <position>Генеральный Директор</position>
+          <date>2003-02-07</date>
+          <firstDate>2003-02-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

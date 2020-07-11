@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7404045063</inn>
+    <ogrn>1067404014270</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067404014270</focusHref>
+    <UL>
+      <kpp>740401001</kpp>
+      <okpo>94787331</okpo>
+      <okato>75412000000</okato>
+      <okfs>16</okfs>
+      <oktmo>75712000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Иристон"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Иристон"</full>
+        <date>2006-08-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>456200</zipCode>
+          <kladrCode>740000040000003</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Златоуст</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>40-летия Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <flat>
+            <topoValue>40</topoValue>
+          </flat>
+          <houseRaw>22</houseRaw>
+          <bulkRaw>НЕТ</bulkRaw>
+          <flatRaw>40</flatRaw>
+        </parsedAddressRF>
+        <date>2006-08-09</date>
+        <firstDate>2006-08-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-08-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Кокоева Раиса Сослановна</fio>
+          <innfl>151203523605</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-12-15</date>
+          <firstDate>2016-12-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Хачиров Станислав Петрович</fio>
+            <innfl>740400514051</innfl>
+            <position>Управляющий - Индивидуальный Предприниматель</position>
+            <date>2015-04-23</date>
+            <firstDate>2006-08-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

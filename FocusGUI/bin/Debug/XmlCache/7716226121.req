@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7716226121</inn>
+    <ogrn>1037716003786</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037716003786</focusHref>
+    <UL>
+      <kpp>771601001</kpp>
+      <okpo>13565318</okpo>
+      <okato>45280577000</okato>
+      <okfs>16</okfs>
+      <oktmo>45360000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автоцентр Атлант-М"</short>
+        <full>Общество с ограниченной ответственностью "Автоцентр Атлант-М"</full>
+        <date>2003-02-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129128</zipCode>
+          <kladrCode>770000000000789</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бажова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <bulk>
+            <topoValue>10</topoValue>
+          </bulk>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>10</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-02-04</date>
+        <firstDate>2003-02-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-02-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Якимович Сергей Владимирович</fio>
+          <position>Генеральный Директор</position>
+          <date>2017-03-13</date>
+          <firstDate>2011-05-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774901001</kpp>
+            <date>2012-05-31</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Сонин Олег Александрович</fio>
+            <innfl>772637953150</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-07-06</date>
+            <firstDate>2018-07-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

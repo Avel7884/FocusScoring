@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7722864203</inn>
+    <ogrn>5147746387730</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5147746387730</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okpo>40246202</okpo>
+      <okato>45290564000</okato>
+      <okfs>16</okfs>
+      <oktmo>45388000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТАЛЛУРГ-МОСКВА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕТАЛЛУРГ-МОСКВА"</full>
+        <date>2014-11-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111024</zipCode>
+          <kladrCode>770000000000244</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кабельная 2-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>9</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 2</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 9</bulkRaw>
+        </parsedAddressRF>
+        <date>2014-11-24</date>
+        <firstDate>2014-11-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-01-29</date>
+      </status>
+      <registrationDate>2014-11-24</registrationDate>
+      <dissolutionDate>2018-01-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Рябушева Татьяна Васильевна</fio>
+          <innfl>501813588169</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-11-24</date>
+          <firstDate>2014-11-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

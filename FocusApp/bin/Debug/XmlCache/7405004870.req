@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7405004870</inn>
+    <ogrn>1027400663168</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027400663168</focusHref>
+    <UL>
+      <kpp>740501001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергокомплект"</short>
+        <full>Закрытое акционерное общество "Энергокомплект"</full>
+        <date>2002-11-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>456080</zipCode>
+          <kladrCode>740000140000022</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Трехгорный</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Строителей</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <flat>
+            <topoValue>204</topoValue>
+          </flat>
+          <houseRaw>13</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>204</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-20</date>
+        <firstDate>2002-11-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-12-25</date>
+      </status>
+      <registrationDate>1997-08-25</registrationDate>
+      <dissolutionDate>2007-12-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Моисеев Михаил Геннадьевич</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2007-10-25</date>
+          <firstDate>2007-10-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

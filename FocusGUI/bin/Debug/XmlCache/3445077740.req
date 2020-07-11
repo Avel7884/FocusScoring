@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3445077740</inn>
+    <ogrn>1053460089760</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1053460089760</focusHref>
+    <UL>
+      <kpp>344301001</kpp>
+      <okpo>78667171</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭнергоТехПрибор"</short>
+        <full>Общество с ограниченной ответственностью "ЭнергоТехПрибор"</full>
+        <date>2005-12-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400081</zipCode>
+          <kladrCode>340000010002302</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им Калеганова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <houseRaw>7</houseRaw>
+        </parsedAddressRF>
+        <date>2008-10-13</date>
+        <firstDate>2008-10-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-01-12</date>
+      </status>
+      <registrationDate>2005-12-22</registrationDate>
+      <dissolutionDate>2009-01-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Симухин Алексей Викторович</fio>
+          <innfl>344109875001</innfl>
+          <position>Директор</position>
+          <date>2008-10-13</date>
+          <firstDate>2008-10-13</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400081</zipCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>7</topoValue>
+              </house>
+              <houseRaw>7</houseRaw>
+            </parsedAddressRF>
+            <date>2008-10-13</date>
+            <firstDate>2008-10-13</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

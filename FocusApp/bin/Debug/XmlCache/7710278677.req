@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7710278677</inn>
+    <ogrn>1037739336260</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739336260</focusHref>
+    <UL>
+      <kpp>771001001</kpp>
+      <okpo>48544235</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЙВИСТА"</short>
+        <full>Общество с ограниченной ответственностью "Туристическое бюро АЙВИСТА"</full>
+        <date>2003-01-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103006</zipCode>
+          <kladrCode>770000000002547</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Садовая-Триумфальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <bulk>
+            <topoValue>20</topoValue>
+          </bulk>
+          <houseRaw>18</houseRaw>
+          <bulkRaw>20</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-01-31</date>
+        <firstDate>2003-01-31</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>191136</zipCode>
+            <kladrCode>780000000000710</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пр-кт</topoShortName>
+              <topoFullName>проспект</topoFullName>
+              <topoValue>Лиговский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>10</topoValue>
+            </house>
+            <houseRaw>10</houseRaw>
+          </parsedAddressRF>
+          <date>2005-02-16</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-05</date>
+      </status>
+      <registrationDate>1998-03-25</registrationDate>
+      <dissolutionDate>2016-09-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Молодкин Михаил Юрьевич</fio>
+          <innfl>503805722505</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-07-11</date>
+          <firstDate>2008-07-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

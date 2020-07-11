@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7722155091</inn>
+    <ogrn>1037739227063</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739227063</focusHref>
+    <UL>
+      <kpp>770601001</kpp>
+      <okpo>49354258</okpo>
+      <okato>45286596000</okato>
+      <okfs>23</okfs>
+      <oktmo>45384000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГЕДОРЕ ВЕРКЦОЙГЕ"</short>
+        <full>Общество с ограниченной ответственностью "ГЕДОРЕ ВЕРКЦОЙГЕ"</full>
+        <date>2003-01-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119017</zipCode>
+          <kladrCode>770000000001413</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Казачий 1-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <flat>
+            <topoValue>этаж/Ком 4/3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7</houseRaw>
+          <flatRaw>ЭТАЖ/КОМ 4/3</flatRaw>
+        </parsedAddressRF>
+        <date>2018-12-18</date>
+        <firstDate>2018-12-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-11-19</date>
+      </status>
+      <registrationDate>1998-07-27</registrationDate>
+      <dissolutionDate>2019-11-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Литвинова Яна Владимировна</fio>
+          <innfl>230210089610</innfl>
+          <position>Ликвидатор</position>
+          <date>2019-05-20</date>
+          <firstDate>2019-02-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770501001</kpp>
+            <date>2014-10-28</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>772301001</kpp>
+            <date>2014-02-06</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>772901001</kpp>
+            <date>2012-01-10</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115054</zipCode>
+              <kladrCode>770000000000818</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Бахрушина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>32</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>ДОМ 32</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+            </parsedAddressRF>
+            <date>2014-10-28</date>
+            <firstDate>2014-10-28</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>109316</zipCode>
+              <kladrCode>770000000000013</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Волгоградский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>42</topoValue>
+              </house>
+              <bulk>
+                <topoValue>23</topoValue>
+              </bulk>
+              <houseRaw>42</houseRaw>
+              <bulkRaw>23</bulkRaw>
+            </parsedAddressRF>
+            <date>2014-02-06</date>
+            <firstDate>2014-02-06</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119530</zipCode>
+              <kladrCode>770000000002181</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Очаковское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>36</topoValue>
+              </house>
+              <houseRaw>36</houseRaw>
+            </parsedAddressRF>
+            <date>2012-01-10</date>
+            <firstDate>2012-01-10</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119991</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Губкина</topoValue>
+              </street>
+              <house>
+                <topoValue>ГСП-1 д 8</topoValue>
+              </house>
+              <flat>
+                <topoValue>318</topoValue>
+              </flat>
+              <houseRaw>ГСП-1 Д 8</houseRaw>
+              <flatRaw>318</flatRaw>
+            </parsedAddressRF>
+            <date>2003-01-27</date>
+            <firstDate>2003-01-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Костюченко Валерий Вадимович</fio>
+            <position>Генеральный Директор</position>
+            <date>2012-01-10</date>
+            <firstDate>2003-01-27</firstDate>
+          </head>
+          <head>
+            <fio>Абашев Олег Юрьевич</fio>
+            <innfl>773570728263</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-09-11</date>
+            <firstDate>2014-09-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7723867581</inn>
+    <ogrn>1137746269308</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1137746269308</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>17365869</okpo>
+      <okato>45290572000</okato>
+      <okfs>16</okfs>
+      <oktmo>45390000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Норгау Холдинг"</short>
+        <full>Общество с ограниченной ответственностью "Норгау Холдинг"</full>
+        <date>2013-03-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109341</zipCode>
+          <kladrCode>770000000007152</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Перерва</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>49</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>49</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-03-27</date>
+        <firstDate>2013-03-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-03-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Костюченко Валерий Вадимович</fio>
+          <innfl>773503054308</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-03-27</date>
+          <firstDate>2013-03-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7727159340</inn>
+    <ogrn>1037739226293</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739226293</focusHref>
+    <UL>
+      <kpp>772801001</kpp>
+      <okpo>49360276</okpo>
+      <okato>45293578000</okato>
+      <okfs>16</okfs>
+      <oktmo>45905000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Норгау Руссланд"</short>
+        <full>Общество с ограниченной ответственностью "Норгау Руссланд"</full>
+        <date>2011-02-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119421</zipCode>
+          <kladrCode>770000000002006</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новаторов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2011-02-21</date>
+        <firstDate>2011-02-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-08-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Свирина Наталья Вячеславовна</fio>
+          <innfl>500307382459</innfl>
+          <position>Генеральный Директор</position>
+          <date>2010-12-08</date>
+          <firstDate>2010-12-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772701001</kpp>
+            <date>2003-02-27</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "ВЕРКЦОЙГ-ЦЕНТР"</short>
+            <full>Общество с ограниченной ответственностью "ВЕРКЦОЙГ-ЦЕНТР"</full>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>11</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7728761691</inn>
+    <ogrn>1117746044382</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117746044382</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>69712553</okpo>
+      <okato>45290582000</okato>
+      <okfs>16</okfs>
+      <oktmo>45393000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Норгау"</short>
+        <full>Общество с ограниченной ответственностью "Норгау"</full>
+        <date>2011-01-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109316</zipCode>
+          <kladrCode>770000000000013</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Волгоградский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>23</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Эт 2 пом IX каб 31</topoValue>
+          </flat>
+          <houseRaw>ДОМ 42</houseRaw>
+          <bulkRaw>КОРПУС 23</bulkRaw>
+          <flatRaw>ЭТ 2 ПОМ IX КАБ 31</flatRaw>
+        </parsedAddressRF>
+        <date>2018-11-09</date>
+        <firstDate>2018-11-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-01-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Костюченко Валерий Вадимович</fio>
+          <innfl>773503054308</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-04-20</date>
+          <firstDate>2012-04-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772801001</kpp>
+            <date>2011-01-27</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>117485</zipCode>
+              <kladrCode>770000000000919</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Бутлерова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>7</topoValue>
+              </house>
+              <houseRaw>7</houseRaw>
+            </parsedAddressRF>
+            <date>2011-01-27</date>
+            <firstDate>2011-01-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Свирина Наталья Вячеславовна</fio>
+            <position>Генеральный директор</position>
+            <date>2011-01-27</date>
+            <firstDate>2011-01-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7731399062</inn>
+    <ogrn>1187746185857</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1187746185857</focusHref>
+    <UL>
+      <kpp>773101001</kpp>
+      <okpo>25313384</okpo>
+      <okato>45268569000</okato>
+      <okfs>16</okfs>
+      <oktmo>45321000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НОРГАУ ЛАБС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "НОРГАУ ЛАБС"</full>
+        <date>2018-02-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>143026</zipCode>
+          <kladrCode>770000004300004</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <settlement>
+            <topoShortName>тер</topoShortName>
+            <topoFullName>территория</topoFullName>
+            <topoValue>Сколково инновационного центра</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Большой</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 2 пом 877</topoValue>
+          </flat>
+          <houseRaw>ДОМ 42</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ЭТАЖ 2 ПОМ 877</flatRaw>
+        </parsedAddressRF>
+        <date>2018-02-20</date>
+        <firstDate>2018-02-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-02-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Костюченко Валерий Вадимович</fio>
+          <innfl>773503054308</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-02-20</date>
+          <firstDate>2018-02-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

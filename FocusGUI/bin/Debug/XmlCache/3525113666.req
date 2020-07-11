@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3525113666</inn>
+    <ogrn>1023500888432</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023500888432</focusHref>
+    <UL>
+      <kpp>352501001</kpp>
+      <okpo>57117325</okpo>
+      <okato>19401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>19701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автотранссервис"</short>
+        <full>Общество с ограниченной ответственностью "Автотранссервис"</full>
+        <date>2002-11-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>160000</zipCode>
+          <kladrCode>350000010000304</kladrCode>
+          <regionCode>35</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Вологодская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Вологда</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чехова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <houseRaw>30</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-12</date>
+        <firstDate>2002-11-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-06-14</date>
+      </status>
+      <registrationDate>2001-09-11</registrationDate>
+      <dissolutionDate>2019-06-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Клюсов Василий Анатольевич</fio>
+          <innfl>350700011400</innfl>
+          <position>Директор</position>
+          <date>2018-04-07</date>
+          <firstDate>2002-11-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

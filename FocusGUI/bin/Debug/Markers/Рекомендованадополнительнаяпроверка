@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>5</Score>
+  <Name>Рекомендована дополнительная проверка</Name>
+  <Colour>Yellow</Colour>
+  <Description>Рекомендована дополнительная проверка руководства и владельцев компании на номинальности</Description>
+  <Code>return company.GetParam("m7001") == "true";</Code>
+</items>

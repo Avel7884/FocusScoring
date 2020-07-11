@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>9705055855</inn>
+    <ogrn>5157746145167</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5157746145167</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>52600956</okpo>
+      <okato>45286560000</okato>
+      <okfs>16</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АКРА (АО)</short>
+        <full>АНАЛИТИЧЕСКОЕ КРЕДИТНОЕ РЕЙТИНГОВОЕ АГЕНТСТВО (АКЦИОНЕРНОЕ ОБЩЕСТВО)</full>
+        <date>2015-12-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115035</zipCode>
+          <kladrCode>770000000002549</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Садовническая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>75</topoValue>
+          </house>
+          <houseRaw>ДОМ 75</houseRaw>
+        </parsedAddressRF>
+        <date>2017-11-27</date>
+        <firstDate>2016-10-19</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <foreignAddress>
+            <countryName>РЕСПУБЛИКА КАЗАХСТАН</countryName>
+            <addressString>КАЗАХСТАН,Г.НУР-СУЛТАН,РАЙОН ЕСИЛЬ,УЛ.ДОСТЫК,Д. 16,ЗДАНИЕ "ТАЛАН ТАУЭРС",ОФИС 2</addressString>
+          </foreignAddress>
+          <date>2019-05-07</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-12-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Зелезецкий Игорь Викторович</fio>
+          <innfl>772626723356</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-01-28</date>
+          <firstDate>2019-01-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115035</zipCode>
+              <kladrCode>770000000007191</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Садовническая</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>82</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>2</topoValue>
+              </bulk>
+              <houseRaw>ДОМ 82</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 2</bulkRaw>
+            </parsedAddressRF>
+            <date>2015-12-07</date>
+            <firstDate>2015-12-07</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Трофимова Екатерина Владимировна</fio>
+            <innfl>782509362180</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-12-07</date>
+            <firstDate>2015-12-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

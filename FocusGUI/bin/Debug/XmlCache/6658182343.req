@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658182343</inn>
+    <ogrn>1046602641183</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1046602641183</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okpo>72889675</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергопромкомплект"</short>
+        <full>Общество с ограниченной ответственностью "Энергопромкомплект"</full>
+        <date>2004-04-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620034</zipCode>
+          <kladrCode>660000010001125</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Толедова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>77</topoValue>
+          </flat>
+          <houseRaw>43</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>77</flatRaw>
+        </parsedAddressRF>
+        <date>2004-04-01</date>
+        <firstDate>2004-04-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-02-21</date>
+      </status>
+      <registrationDate>2004-04-01</registrationDate>
+      <dissolutionDate>2012-02-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Козлов Сергей Евгеньевич</fio>
+          <innfl>665911501421</innfl>
+          <position>Директор</position>
+          <date>2007-01-11</date>
+          <firstDate>2007-01-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

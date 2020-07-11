@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5262036483</inn>
+    <ogrn>1025203720244</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203720244</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АДС"</short>
+        <full>Общество с ограниченной ответственностью "Агентство деловой связи"</full>
+        <date>2002-07-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603002</zipCode>
+          <kladrCode>520000010001025</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <houseRaw>12</houseRaw>
+        </parsedAddressRF>
+        <date>2007-05-04</date>
+        <firstDate>2007-05-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-08-10</date>
+      </status>
+      <registrationDate>2001-08-31</registrationDate>
+      <dissolutionDate>2010-08-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чистяков Максим Николаевич</fio>
+          <innfl>524506742917</innfl>
+          <position>Генеральный Директор</position>
+          <date>2010-06-09</date>
+          <firstDate>2010-06-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

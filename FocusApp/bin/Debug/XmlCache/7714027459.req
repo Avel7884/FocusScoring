@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714027459</inn>
+    <ogrn>1027739151285</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739151285</focusHref>
+    <UL>
+      <kpp>774501001</kpp>
+      <okpo>08888284</okpo>
+      <okato>45283587000</okato>
+      <okfs>12</okfs>
+      <oktmo>45372000000</oktmo>
+      <okogu>1313500</okogu>
+      <okopf>65241</okopf>
+      <opf>Федеральные государственные унитарные предприятия</opf>
+      <legalName>
+        <short>ФГУП "ГВСУ № 2"</short>
+        <full>ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ УНИТАРНОЕ ПРЕДПРИЯТИЕ "ГЛАВНОЕ ВОЕННО-СТРОИТЕЛЬНОЕ УПРАВЛЕНИЕ № 2"</full>
+        <date>2017-08-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123182</zipCode>
+          <kladrCode>770000000001585</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Красногорский 1-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>ДОМ 5</houseRaw>
+        </parsedAddressRF>
+        <date>2017-08-08</date>
+        <firstDate>2002-10-14</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>"СЕВЕРО-ЗАПАДНЫЙ ФИЛИАЛ" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>192076</zipCode>
+            <kladrCode>780000000001308</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пр-кт</topoShortName>
+              <topoFullName>проспект</topoFullName>
+              <topoValue>Советский (Усть-Славянка)</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>49</topoValue>
+            </house>
+            <houseRaw>49</houseRaw>
+          </parsedAddressRF>
+          <date>2012-12-13</date>
+        </branch>
+        <branch>
+          <name>"ПРИВОЛЖСКИЙ ФИЛИАЛ" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>410062</zipCode>
+            <kladrCode>640000010001305</kladrCode>
+            <regionCode>64</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Саратовская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Саратов</topoValue>
+            </city>
+            <street>
+              <topoShortName>ст</topoShortName>
+              <topoFullName>станция</topoFullName>
+              <topoValue>Трофимовский-2</topoValue>
+            </street>
+            <bulk>
+              <topoValue>№ 16</topoValue>
+            </bulk>
+            <bulkRaw>№ 16</bulkRaw>
+          </parsedAddressRF>
+          <date>2012-12-13</date>
+        </branch>
+        <branch>
+          <name>"СТРОИТЕЛЬНО-МОНТАЖНОЕ УПРАВЛЕНИЕ № 211" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>141400</zipCode>
+            <kladrCode>500000300000084</kladrCode>
+            <regionCode>50</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Московская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Химки</topoValue>
+            </city>
+            <street>
+              <topoShortName>проезд</topoShortName>
+              <topoFullName>проезд</topoFullName>
+              <topoValue>Коммунальный</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>12</topoValue>
+            </house>
+            <houseRaw>12</houseRaw>
+          </parsedAddressRF>
+          <date>2012-12-13</date>
+        </branch>
+        <branch>
+          <name>"СТРОИТЕЛЬНО-МОНТАЖНОЕ УПРАВЛЕНИЕ № 212" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>123182</zipCode>
+            <kladrCode>770000000001352</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Зорге</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>14</topoValue>
+            </house>
+            <bulk>
+              <topoValue>2</topoValue>
+            </bulk>
+            <houseRaw>14</houseRaw>
+            <bulkRaw>2</bulkRaw>
+          </parsedAddressRF>
+          <date>2012-12-13</date>
+        </branch>
+        <branch>
+          <name>"УПРАВЛЕНИЕ ВСПОМОГАТЕЛЬНЫХ РАБОТ № 222" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>410062</zipCode>
+            <kladrCode>50022001000</kladrCode>
+            <regionCode>50</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Московская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Одинцово</topoValue>
+            </city>
+            <settlement>
+              <topoValue>Южная промзона</topoValue>
+            </settlement>
+          </parsedAddressRF>
+          <date>2012-12-13</date>
+        </branch>
+        <branch>
+          <name>"УПРАВЛЕНИЕ МЕХАНИЗАЦИИ И АВТОТРАНСПОРТА № 221" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>141400</zipCode>
+            <kladrCode>500000300000084</kladrCode>
+            <regionCode>50</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Московская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Химки</topoValue>
+            </city>
+            <street>
+              <topoShortName>проезд</topoShortName>
+              <topoFullName>проезд</topoFullName>
+              <topoValue>Коммунальный</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>12</topoValue>
+            </house>
+            <houseRaw>12</houseRaw>
+          </parsedAddressRF>
+          <date>2012-12-13</date>
+        </branch>
+        <branch>
+          <name>"МЕХАНИЧЕСКИЙ ЗАВОД МОНТАЖНЫХ ЗАГОТОВОК № 231" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>141400</zipCode>
+            <kladrCode>500000300000084</kladrCode>
+            <regionCode>50</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Московская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Химки</topoValue>
+            </city>
+            <street>
+              <topoShortName>проезд</topoShortName>
+              <topoFullName>проезд</topoFullName>
+              <topoValue>Коммунальный</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>12</topoValue>
+            </house>
+            <houseRaw>12</houseRaw>
+          </parsedAddressRF>
+          <date>2012-12-13</date>
+        </branch>
+        <branch>
+          <name>"СТРОИТЕЛЬНО-МОНТАЖНОЕ УПРАВЛЕНИЕ № 213" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>141400</zipCode>
+            <kladrCode>500000300000084</kladrCode>
+            <regionCode>50</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Московская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Химки</topoValue>
+            </city>
+            <street>
+              <topoShortName>проезд</topoShortName>
+              <topoFullName>проезд</topoFullName>
+              <topoValue>Коммунальный</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>12</topoValue>
+            </house>
+            <houseRaw>12</houseRaw>
+          </parsedAddressRF>
+          <date>2012-12-13</date>
+        </branch>
+        <branch>
+          <name>"ЗАВОД МОТНАЖНЫХ ЗАГОТОВОК № 232" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>192076</zipCode>
+            <kladrCode>780000000001308</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пр-кт</topoShortName>
+              <topoFullName>проспект</topoFullName>
+              <topoValue>Советский (Усть-Славянка)</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>49</topoValue>
+            </house>
+            <houseRaw>49</houseRaw>
+          </parsedAddressRF>
+          <date>2012-12-13</date>
+        </branch>
+        <branch>
+          <name>"ДАЛЬНЕВОСТОЧНЫЙ ФИЛИАЛ" ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО УНИТАРНОГО ПРЕДПРИЯТИЯ "ГЛАВНОЕ УПРАВЛЕНИЕ ИНЖЕНЕРНЫХ РАБОТ № 2 ПРИ ФЕДЕРАЛЬНОМ АГЕНТСТВЕ СПЕЦИАЛЬНОГО СТРОИТЕЛЬСТВА"</name>
+          <parsedAddressRF>
+            <zipCode>693000</zipCode>
+            <kladrCode>650000010000150</kladrCode>
+            <regionCode>65</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Сахалинская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Южно-Сахалинск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Ленина</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>441А/4</topoValue>
+            </house>
+            <houseRaw>441 А/4</houseRaw>
+          </parsedAddressRF>
+          <date>2013-05-15</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-08</date>
+      </status>
+      <registrationDate>1992-09-08</registrationDate>
+      <dissolutionDate>2017-12-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Оридорга Алексей Николаевич</fio>
+          <innfl>025005726101</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-09-08</date>
+          <firstDate>2017-08-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ФГУП "ГУИР № 2 при Спецстрое России"</short>
+            <full>Федеральное государственное унитарное предприятие "Главное управление инженерных работ № 2 при Федеральном агентстве специального строительства"</full>
+            <date>2012-12-13</date>
+          </legalName>
+          <legalName>
+            <short>ФГУП "УС № 4 при Спецстрое России"</short>
+          </legalName>
+          <legalName>
+            <full>Федеральное государственное унитарное предприятие "Управление строительства № 4 при Федеральном агентстве специального строительства"</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Власов Валерий Николаевич</fio>
+            <position>ВрИД Начальника управления</position>
+            <date>2011-09-01</date>
+            <firstDate>2011-09-01</firstDate>
+          </head>
+          <head>
+            <fio>Жуков Вадим Александрович</fio>
+            <position>Начальник управления</position>
+            <date>2011-04-15</date>
+            <firstDate>2011-04-15</firstDate>
+          </head>
+          <head>
+            <fio>Хасанов Фанис Акдасович</fio>
+            <position>Начальник управления</position>
+            <date>2012-04-02</date>
+            <firstDate>2011-10-27</firstDate>
+          </head>
+          <head>
+            <fio>Зинланд Дмитрий Анисимович</fio>
+            <innfl>782570678176</innfl>
+            <position>Начальник</position>
+            <date>2013-02-15</date>
+            <firstDate>2012-10-29</firstDate>
+          </head>
+          <head>
+            <fio>Жуков Максим Алексеевич</fio>
+            <innfl>560913610431</innfl>
+            <position>Временно Исполняющий Обязанности Начальника</position>
+            <date>2014-02-13</date>
+            <firstDate>2014-02-13</firstDate>
+          </head>
+          <head>
+            <fio>Интрилигатор Игорь Александрович</fio>
+            <innfl>772012750277</innfl>
+            <position>Временно Исполняющий Обязанности Начальника</position>
+            <date>2014-06-18</date>
+            <firstDate>2014-06-18</firstDate>
+          </head>
+          <head>
+            <fio>Сиразетдинов Олег Владимирович</fio>
+            <innfl>503200898422</innfl>
+            <position>Временно Исполняющий Обязанности Начальника</position>
+            <date>2014-11-21</date>
+            <firstDate>2014-11-21</firstDate>
+          </head>
+          <head>
+            <fio>Иванов Сергей Юрьевич</fio>
+            <innfl>027205515662</innfl>
+            <position>Временно Исполняющий Обязанности Начальника</position>
+            <date>2015-11-19</date>
+            <firstDate>2015-11-19</firstDate>
+          </head>
+          <head>
+            <fio>Палехин Андрей Валерьевич</fio>
+            <innfl>771876449390</innfl>
+            <position>Временно Исполняющий Обязанности Начальника</position>
+            <date>2016-09-21</date>
+            <firstDate>2016-09-21</firstDate>
+          </head>
+          <head>
+            <fio>Ходневич Владимир Владимирович</fio>
+            <innfl>772509803745</innfl>
+            <position>Временно Исполняющий Обязанности Начальника</position>
+            <date>2017-06-19</date>
+            <firstDate>2016-12-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

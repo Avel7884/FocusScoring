@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5257038534</inn>
+    <ogrn>1025202410507</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202410507</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТО - ТАНТ"</short>
+        <full>Общество с ограниченной ответственностью "АВТО - ТАНТ"</full>
+        <date>2002-12-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603002</zipCode>
+          <kladrCode>520000010000387</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Интернациональная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>5</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-23</date>
+        <firstDate>2002-12-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-09-12</date>
+      </status>
+      <registrationDate>2002-12-23</registrationDate>
+      <dissolutionDate>2006-09-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Толстоухова Алена Владимировна</fio>
+          <innfl>543210929019</innfl>
+          <position>Директор</position>
+          <date>2006-07-13</date>
+          <firstDate>2006-07-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

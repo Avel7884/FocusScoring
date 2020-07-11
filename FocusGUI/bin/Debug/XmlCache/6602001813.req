@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6602001813</inn>
+    <ogrn>1026600580258</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026600580258</focusHref>
+    <UL>
+      <kpp>660201001</kpp>
+      <okpo>07811983</okpo>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ФГУП 137 КЖИ М.О.Р.Ф</short>
+        <full>Федеральное государственное унитарное предприятие 137 комбинат железобетонных изделий Министерства Обороны Российской Федерации</full>
+        <date>2004-05-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>623783</zipCode>
+          <kladrCode>660030010000062</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Артемовский</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Достоевского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <houseRaw>22</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-06</date>
+        <firstDate>2002-12-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-11-03</date>
+      </status>
+      <registrationDate>1993-12-19</registrationDate>
+      <dissolutionDate>2010-11-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чувашев Александр Николаевич</fio>
+          <innfl>661100188994</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2007-02-21</date>
+          <firstDate>2007-02-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

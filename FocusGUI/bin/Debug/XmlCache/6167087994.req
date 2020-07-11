@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6167087994</inn>
+    <ogrn>1066167034416</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1066167034416</focusHref>
+    <UL>
+      <kpp>616701001</kpp>
+      <okpo>97789543</okpo>
+      <okato>60401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>60701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Велес"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Велес"</full>
+        <date>2006-10-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>344019</zipCode>
+          <kladrCode>610000010001053</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ростов-на-Дону</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мясникова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>54</topoValue>
+          </house>
+          <houseRaw>54</houseRaw>
+        </parsedAddressRF>
+        <date>2006-10-04</date>
+        <firstDate>2006-10-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-10-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Пузик Петр Михайлович</fio>
+          <innfl>610302787404</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-02-16</date>
+          <firstDate>2017-02-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Погорелов Владимир Николаевич</fio>
+            <innfl>616505699401</innfl>
+            <position>Генеральный Директор</position>
+            <date>2006-10-04</date>
+            <firstDate>2006-10-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

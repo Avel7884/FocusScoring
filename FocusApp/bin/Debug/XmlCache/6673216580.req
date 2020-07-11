@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6673216580</inn>
+    <ogrn>1106673006252</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1106673006252</focusHref>
+    <UL>
+      <kpp>667301001</kpp>
+      <okpo>66553373</okpo>
+      <okato>65401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГОСТ"</short>
+        <full>Общество с ограниченной ответственностью "ЭНЕРГОСТ"</full>
+        <date>2010-04-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620017</zipCode>
+          <kladrCode>660000010001053</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Старых Большевиков</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>литер Б</topoValue>
+          </flat>
+          <houseRaw>2</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>ЛИТЕР Б</flatRaw>
+        </parsedAddressRF>
+        <date>2010-04-22</date>
+        <firstDate>2010-04-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-11-08</date>
+      </status>
+      <registrationDate>2010-04-22</registrationDate>
+      <dissolutionDate>2013-11-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Денисов Валерий Яковлевич</fio>
+          <innfl>666000269871</innfl>
+          <position>Директор</position>
+          <date>2012-07-11</date>
+          <firstDate>2010-04-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

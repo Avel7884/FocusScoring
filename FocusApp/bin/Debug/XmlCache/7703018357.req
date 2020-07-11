@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703018357</inn>
+    <ogrn>1027739056806</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739056806</focusHref>
+    <UL>
+      <kpp>772401001</kpp>
+      <okpo>26943503</okpo>
+      <okato>45296555000</okato>
+      <okfs>42</okfs>
+      <oktmo>45912000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Тантал-Лакокраска"</short>
+        <full>Открытое акционерное общество "Тантал-Лакокраска"</full>
+        <date>2009-12-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117403</zipCode>
+          <kladrCode>770000000003743</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Никопольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>10</topoValue>
+          </bulk>
+          <houseRaw>6</houseRaw>
+          <bulkRaw>СТР.10</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-12-01</date>
+        <firstDate>2009-12-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-08-21</date>
+      </status>
+      <registrationDate>1995-09-21</registrationDate>
+      <dissolutionDate>2017-08-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Хандрамайло Лидия Викторовна</fio>
+          <innfl>504100657190</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-09-29</date>
+          <firstDate>2011-09-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Ламбрев Валентин Георгиевич</fio>
+            <innfl>770400261226</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-07-01</date>
+            <firstDate>2011-07-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

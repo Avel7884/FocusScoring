@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217127521</inn>
+    <ogrn>1104217006255</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1104217006255</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>67692326</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АИД"</short>
+        <full>Общество с ограниченной ответственностью "Александровский Издательский Дом"</full>
+        <date>2010-09-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654005</zipCode>
+          <kladrCode>420000120000742</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пирогова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Производственный Корпус</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>офис 201;203</topoValue>
+          </flat>
+          <houseRaw>9</houseRaw>
+          <bulkRaw>ПРОИЗВОДСТВЕННЫЙ КОРПУС</bulkRaw>
+          <flatRaw>ОФИС 201;203</flatRaw>
+        </parsedAddressRF>
+        <date>2010-09-22</date>
+        <firstDate>2010-09-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-11-11</date>
+      </status>
+      <registrationDate>2010-09-06</registrationDate>
+      <dissolutionDate>2013-11-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Павлов Андрей Владимирович</fio>
+          <innfl>421715316745</innfl>
+          <position>Генеральный Директор</position>
+          <date>2010-09-06</date>
+          <firstDate>2010-09-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

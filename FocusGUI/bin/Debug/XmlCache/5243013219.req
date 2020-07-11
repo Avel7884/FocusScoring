@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5243013219</inn>
+    <ogrn>1025201341990</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025201341990</focusHref>
+    <UL>
+      <kpp>524301001</kpp>
+      <okpo>47056485</okpo>
+      <okato>22403000000</okato>
+      <okfs>16</okfs>
+      <oktmo>22703000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергоприбор"</short>
+        <full>Общество с ограниченной ответственностью "Энергоприбор"</full>
+        <date>2007-07-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>607230</zipCode>
+          <kladrCode>520000040000134</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Арзамас</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пландина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+        </parsedAddressRF>
+        <date>2007-07-05</date>
+        <firstDate>2007-07-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1997-12-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Маслов Сергей Иванович</fio>
+          <innfl>524300461616</innfl>
+          <position>Директор</position>
+          <date>2017-04-01</date>
+          <firstDate>2002-12-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

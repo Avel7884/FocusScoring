@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4823023297</inn>
+    <ogrn>1034800566899</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034800566899</focusHref>
+    <UL>
+      <kpp>482301001</kpp>
+      <okpo>14889299</okpo>
+      <okato>42401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>42701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Металлосервис"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "Металлосервис"</full>
+        <date>2003-10-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>398005</zipCode>
+          <kladrCode>480000010000589</kladrCode>
+          <regionCode>48</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Липецкая</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Липецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ферросплавная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <houseRaw>10</houseRaw>
+        </parsedAddressRF>
+        <date>2003-10-09</date>
+        <firstDate>2003-10-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-10-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Мураховская Ольга Алексеевна</fio>
+          <innfl>482605858343</innfl>
+          <position>Директор</position>
+          <date>2010-03-10</date>
+          <firstDate>2010-03-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

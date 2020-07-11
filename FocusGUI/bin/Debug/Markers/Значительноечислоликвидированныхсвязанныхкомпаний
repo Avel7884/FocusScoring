@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Значительное число ликвидированных связанных компаний</Name>
+  <Colour>YellowAffiliates</Colour>
+  <Description>Значительное число связных компаний, которые были ликвидированы в результате банкротства</Description>
+  <Code>
+                    if (Статускомпаниисвязанспроизошедшейилипланируемойликвидацией.Function(company))
+                    {
+                        int Affiliatescount = company.GetParams("InnAffilalates").Count();
+                        int q7005Count = company.GetParams("q7005Affiliates").Count();
+                        return q7005Count &gt; 5 &amp;&amp; q7005Count &gt; Affiliatescount * 0.2;
+                    }
+
+                    return false;</Code>
+</items>

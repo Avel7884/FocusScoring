@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2509010453</inn>
+    <ogrn>1172536004970</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1172536004970</focusHref>
+    <UL>
+      <kpp>253701001</kpp>
+      <okpo>06607909</okpo>
+      <okato>05401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>05701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМЗ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПАРТИЗАНСКИЙ МАШИНОСТРОИТЕЛЬНЫЙ ЗАВОД"</full>
+        <date>2017-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>690021</zipCode>
+          <kladrCode>250000010000166</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владивосток</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Запорожская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>77</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>421</topoValue>
+          </flat>
+          <houseRaw>ДОМ 77</houseRaw>
+          <flatRaw>ОФИС 421</flatRaw>
+        </parsedAddressRF>
+        <date>2019-04-16</date>
+        <firstDate>2019-04-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-02-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Безкуров Константин Валентинович</fio>
+          <innfl>253811819330</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-08-23</date>
+          <firstDate>2019-08-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>250901001</kpp>
+            <date>2017-02-07</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>692853</zipCode>
+              <kladrCode>250000050000042</kladrCode>
+              <regionCode>25</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Приморский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Партизанск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Герцена</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>90</topoValue>
+              </house>
+              <houseRaw>ДОМ 90</houseRaw>
+            </parsedAddressRF>
+            <date>2017-02-07</date>
+            <firstDate>2017-02-07</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Попкова Лилия Петровна</fio>
+            <innfl>250901769078</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-02-07</date>
+            <firstDate>2017-02-07</firstDate>
+          </head>
+          <head>
+            <fio>Порунов Игорь Геннадьевич</fio>
+            <innfl>250901576799</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-04-18</date>
+            <firstDate>2017-04-18</firstDate>
+          </head>
+          <head>
+            <fio>Борисов Николай Иванович</fio>
+            <innfl>254001231365</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-08-16</date>
+            <firstDate>2018-08-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

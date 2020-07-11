@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1909020077</inn>
+    <ogrn>1021900759275</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021900759275</focusHref>
+    <UL>
+      <kpp>190901001</kpp>
+      <okpo>39086845</okpo>
+      <okato>95402000000</okato>
+      <okfs>13</okfs>
+      <oktmo>95702000001</oktmo>
+      <okogu>2300229</okogu>
+      <okopf>75203</okopf>
+      <opf>Государственные бюджетные учреждения субъектов Российской Федерации</opf>
+      <legalName>
+        <short>ГБУЗ РХ "Абазинская городская больница"</short>
+        <full>Государственное бюджетное учреждение здравоохранения Республики Хакасия "Абазинская городская больница"</full>
+        <date>2012-08-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655750</zipCode>
+          <kladrCode>190000040000058</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абаза</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16Е</topoValue>
+          </house>
+          <houseRaw>16 Е</houseRaw>
+        </parsedAddressRF>
+        <date>2009-03-20</date>
+        <firstDate>2009-03-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-03-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Поцикайло Ольга Васильевна</fio>
+          <innfl>190900172637</innfl>
+          <position>Исполняющий Обязанности Главного Врача</position>
+          <date>2019-05-17</date>
+          <firstDate>2019-05-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>МБУЗ "АГБ"</short>
+          </legalName>
+          <legalName>
+            <short>МУЗ "АГБ"</short>
+          </legalName>
+          <legalName>
+            <full>Муниципальное бюджетное учреждение здравоохранения "Абазинская городская больница"</full>
+          </legalName>
+          <legalName>
+            <full>Муниципальное учреждение здравоохранения "Абазинская городская больница"</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Титов Сергей Григорьевич</fio>
+            <innfl>190115202370</innfl>
+            <position>Главный Врач</position>
+            <date>2014-04-05</date>
+            <firstDate>2011-01-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

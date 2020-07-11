@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0278145506</inn>
+    <ogrn>1080278001704</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1080278001704</focusHref>
+    <UL>
+      <kpp>027801001</kpp>
+      <okpo>84465862</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "УПТК "АДСС"</short>
+        <full>Общество с ограниченной ответственностью "Управление производственно-технической комплектации "АДСС"</full>
+        <date>2008-02-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>450001</zipCode>
+          <kladrCode>020010010000190</kladrCode>
+          <regionCode>02</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Башкортостан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Уфа</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>8 Марта</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <houseRaw>20</houseRaw>
+        </parsedAddressRF>
+        <date>2008-02-18</date>
+        <firstDate>2008-02-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-09-19</date>
+      </status>
+      <registrationDate>2008-02-18</registrationDate>
+      <dissolutionDate>2011-09-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Загитова Айгуль Гадылхановна</fio>
+          <innfl>027316335009</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-06-02</date>
+          <firstDate>2011-06-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>450001</zipCode>
+              <regionCode>02</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Башкортостан</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Уфимский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Уфа</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>8 Марта</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>20</topoValue>
+              </house>
+              <houseRaw>20</houseRaw>
+            </parsedAddressRF>
+            <date>2008-02-18</date>
+            <firstDate>2008-02-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

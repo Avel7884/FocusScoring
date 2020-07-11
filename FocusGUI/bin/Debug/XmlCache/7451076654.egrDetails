@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>7451076654</inn>
+    <ogrn>1187456026560</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1187456026560</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2018-06-26</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7451</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Советскому району г. Челябинска</nalogName>
+        <nalogRegDate>1999-02-12</nalogRegDate>
+        <kpp>745101001</kpp>
+        <date>2018-06-26</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7456</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 17 по Челябинской области</nalogName>
+        <date>2018-06-26</date>
+      </regBody>
+      <statedCapital />
+      <egrRecords>
+        <egrRecord>
+          <grn>2187456723793</grn>
+          <date>2018-06-26</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187456722143</grn>
+          <date>2018-06-26</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1187456026560</grn>
+          <date>2018-06-26</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года на основании сведений в налоговых органах</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2018-03-02</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2018-03-02</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2018-03-02</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

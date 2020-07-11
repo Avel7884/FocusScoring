@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5250018144</inn>
+    <ogrn>1045206907239</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045206907239</focusHref>
+    <UL>
+      <kpp>525001001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Сталь-Калибр"</short>
+        <full>Общество с ограниченной ответственностью "Сталь-Калибр"</full>
+        <date>2006-07-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630090</zipCode>
+          <kladrCode>540000010000830</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Морской</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>44</topoValue>
+          </house>
+          <houseRaw>44</houseRaw>
+        </parsedAddressRF>
+        <date>2006-07-31</date>
+        <firstDate>2006-07-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-06-22</date>
+      </status>
+      <registrationDate>2004-07-28</registrationDate>
+      <dissolutionDate>2007-06-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Позднев Олег Дмитриевич</fio>
+          <innfl>434581841678</innfl>
+          <position>Директор</position>
+          <date>2006-07-31</date>
+          <firstDate>2006-07-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

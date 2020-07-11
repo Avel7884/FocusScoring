@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6165058532</inn>
+    <ogrn>1026103709708</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026103709708</focusHref>
+    <UL>
+      <kpp>616501001</kpp>
+      <okpo>42705387</okpo>
+      <okato>60401374000</okato>
+      <okfs>16</okfs>
+      <oktmo>60701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Фирма "Аква-Дон"</short>
+        <full>Общество с ограниченной ответственностью "Фирма "Аква-Дон"</full>
+        <date>2006-10-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>344064</zipCode>
+          <kladrCode>610000010000357</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ростов-на-Дону</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вавилова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>66</topoValue>
+          </house>
+          <houseRaw>66</houseRaw>
+        </parsedAddressRF>
+        <date>2002-08-20</date>
+        <firstDate>2002-08-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-05-08</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГРУППА АГРОКОМ"</name>
+          <inn>6163070862</inn>
+          <ogrn>1046163007967</ogrn>
+          <date>2013-06-20</date>
+          <firstDate>2013-06-20</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <heads>
+          <head>
+            <fio>Зайченко Сергей Александрович</fio>
+            <innfl>616401507592</innfl>
+            <position>Генеральный директор</position>
+            <date>2006-10-04</date>
+            <firstDate>2006-10-04</firstDate>
+          </head>
+          <head>
+            <fio>Калитванская Наталья Викторовна</fio>
+            <innfl>616865054906</innfl>
+            <position>Генеральный директор</position>
+            <date>2013-01-17</date>
+            <firstDate>2013-01-17</firstDate>
+          </head>
+          <head>
+            <fio>Сапотницкий Сергей Александрович</fio>
+            <innfl>616832002420</innfl>
+            <position>Представитель Управляющей компании</position>
+            <date>2013-06-20</date>
+            <firstDate>2013-06-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>7</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

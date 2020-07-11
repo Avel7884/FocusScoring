@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5406226985</inn>
+    <ogrn>1025402484348</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025402484348</focusHref>
+    <UL>
+      <kpp>540601001</kpp>
+      <okpo>58763627</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АванСиб"</short>
+        <full>Общество с ограниченной ответственностью "АванСиб"</full>
+        <date>2002-12-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630091</zipCode>
+          <kladrCode>540000010000811</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мичурина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <houseRaw>12</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-18</date>
+        <firstDate>2002-12-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-05-05</date>
+      </status>
+      <registrationDate>2002-04-18</registrationDate>
+      <dissolutionDate>2012-05-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Калашников Владимир Павлович</fio>
+          <position>Директор</position>
+          <date>2002-12-18</date>
+          <firstDate>2002-12-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

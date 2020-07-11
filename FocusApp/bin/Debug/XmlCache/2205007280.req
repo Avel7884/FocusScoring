@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2205007280</inn>
+    <ogrn>1022200706318</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200706318</focusHref>
+    <UL>
+      <kpp>220501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТОРГОВЫЙ ДОМ "АЛТАЙ-КОКС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ТОРГОВЫЙ ДОМ "АЛТАЙ-КОКС"</full>
+        <date>2002-10-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>659100</zipCode>
+          <kladrCode>22000011000</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Заринск</topoValue>
+          </city>
+        </parsedAddressRF>
+        <date>2002-10-11</date>
+        <firstDate>2002-10-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-04-14</date>
+      </status>
+      <registrationDate>2000-10-26</registrationDate>
+      <dissolutionDate>2008-04-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Юсупова Светлана Анатольевна</fio>
+          <innfl>220500969218</innfl>
+          <position>Ликвидатор</position>
+          <date>2007-08-21</date>
+          <firstDate>2007-08-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6165006020</inn>
+    <ogrn>1026103710544</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026103710544</focusHref>
+    <UL>
+      <kpp>616501001</kpp>
+      <okpo>12124405</okpo>
+      <okato>60401374000</okato>
+      <okfs>16</okfs>
+      <oktmo>60701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плюс-К"</short>
+        <full>Общество с ограниченной ответственностью "Плюс-К"</full>
+        <date>2006-07-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>344011</zipCode>
+          <kladrCode>610000010000343</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ростов-на-Дону</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Буденновский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>97</topoValue>
+          </house>
+          <houseRaw>97</houseRaw>
+        </parsedAddressRF>
+        <date>2006-07-04</date>
+        <firstDate>2006-07-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-12-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Перельман Александр Михайлович</fio>
+          <innfl>616500340785</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-08</date>
+          <firstDate>2009-04-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

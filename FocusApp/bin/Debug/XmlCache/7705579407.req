@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705579407</inn>
+    <ogrn>1047796026684</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796026684</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОПРИЗ"</short>
+        <full>Общество с ограниченной ответственностью "АВТОПРИЗ"</full>
+        <date>2004-01-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>113035</zipCode>
+          <kladrCode>770000000002144</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Садовническая</topoValue>
+          </street>
+          <house>
+            <topoValue>82стр.4</topoValue>
+          </house>
+          <houseRaw>82СТР.4</houseRaw>
+        </parsedAddressRF>
+        <date>2004-01-21</date>
+        <firstDate>2004-01-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-10-31</date>
+      </status>
+      <registrationDate>2004-01-21</registrationDate>
+      <dissolutionDate>2006-10-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Соколова Олеся Геннадьевна</fio>
+          <innfl>771544048902</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-01-21</date>
+          <firstDate>2004-01-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

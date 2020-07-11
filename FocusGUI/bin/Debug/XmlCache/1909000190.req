@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1909000190</inn>
+    <ogrn>1061902001160</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1061902001160</focusHref>
+    <UL>
+      <kpp>190901001</kpp>
+      <okpo>31904244</okpo>
+      <okato>95225840001</okato>
+      <okfs>14</okfs>
+      <oktmo>95625440101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация Таштыпского сельсовета</short>
+        <full>Администрация Таштыпского сельсовета Таштыпского района Республики Хакасия</full>
+        <date>2011-12-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655740</zipCode>
+          <kladrCode>190070000010020</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Таштыпский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Таштып</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Луначарского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2016-02-29</date>
+        <firstDate>2006-02-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-02-01</registrationDate>
+      <heads>
+        <head>
+          <fio>Салимов Рустам Хайратдинович</fio>
+          <innfl>190902352307</innfl>
+          <position>Глава Таштыпского Сельсовета</position>
+          <date>2018-10-02</date>
+          <firstDate>2017-12-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>Администрация МО Таштыпский сельсовет</short>
+          </legalName>
+          <legalName>
+            <full>Администрация муниципального образования Таштыпский сельсовет</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>655740</zipCode>
+              <kladrCode>190070000010020</kladrCode>
+              <regionCode>19</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Хакасия</topoValue>
+              </regionName>
+              <settlement>
+                <topoShortName>с</topoShortName>
+                <topoFullName>село</topoFullName>
+                <topoValue>Таштып</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Луначарского</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <houseRaw>17</houseRaw>
+            </parsedAddressRF>
+            <date>2006-02-01</date>
+            <firstDate>2006-02-01</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Дьяченко Алексей Александрович</fio>
+            <innfl>190901062980</innfl>
+            <position>Глава Муниципального Образования</position>
+            <date>2017-03-12</date>
+            <firstDate>2008-12-01</firstDate>
+          </head>
+          <head>
+            <fio>Шулбаев Иван Викторович</fio>
+            <innfl>190903238639</innfl>
+            <position>Временно Исполняющий Обязанности Главы Таштыпского Сельсовета</position>
+            <date>2017-09-28</date>
+            <firstDate>2017-09-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

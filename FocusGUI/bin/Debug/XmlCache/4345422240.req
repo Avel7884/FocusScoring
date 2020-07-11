@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4345422240</inn>
+    <ogrn>1154350003422</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1154350003422</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>42648028</okpo>
+      <okato>33401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>33701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛУТОС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛУТОС"</full>
+        <date>2015-08-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610046</zipCode>
+          <kladrCode>430000010000449</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Сельскохозяйственный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>1002</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 1002</flatRaw>
+        </parsedAddressRF>
+        <date>2015-08-11</date>
+        <firstDate>2015-08-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-08-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Кузнецов Юрий Дмитриевич</fio>
+          <innfl>434100207006</innfl>
+          <position>Директор</position>
+          <date>2015-08-11</date>
+          <firstDate>2015-08-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

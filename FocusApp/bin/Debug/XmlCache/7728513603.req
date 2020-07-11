@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7728513603</inn>
+    <ogrn>1047796358280</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796358280</focusHref>
+    <UL>
+      <kpp>772701001</kpp>
+      <okpo>74628091</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Г.Б.С."</short>
+        <full>Общество с ограниченной ответственностью "Г.Б.С."</full>
+        <date>2004-05-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117218</zipCode>
+          <kladrCode>770000000001967</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Нахимовский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42</topoValue>
+          </house>
+          <houseRaw>42</houseRaw>
+        </parsedAddressRF>
+        <date>2010-05-17</date>
+        <firstDate>2010-05-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-23</date>
+      </status>
+      <registrationDate>2004-05-24</registrationDate>
+      <dissolutionDate>2012-01-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Исмайлов Денис Владимирович</fio>
+          <innfl>525012959929</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-07-13</date>
+          <firstDate>2010-07-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

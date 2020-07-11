@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707020075</inn>
+    <ogrn>1027739676579</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739676579</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ФГУП "Издательство "Высшая школа"</short>
+        <full>Федеральное Государственное Унитарное предприятие "Издательство "Высшая школа"</full>
+        <date>2002-12-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>101430</zipCode>
+          <kladrCode>770000000000569</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Неглинная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29/14</topoValue>
+          </house>
+          <houseRaw>29/14</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-03</date>
+        <firstDate>2002-12-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-05-22</date>
+      </status>
+      <registrationDate>1991-11-29</registrationDate>
+      <dissolutionDate>2007-05-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Зорин Николай Леонидович</fio>
+          <innfl>772580072162</innfl>
+          <position>Директор</position>
+          <date>2002-12-03</date>
+          <firstDate>2002-12-03</firstDate>
+        </head>
+        <head>
+          <fio>Михайловская Светлана Владимировна</fio>
+          <position>Гл. (Ст.) Бухгалтер</position>
+          <date>2002-12-03</date>
+          <firstDate>2002-12-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

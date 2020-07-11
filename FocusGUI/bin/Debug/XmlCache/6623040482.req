@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623040482</inn>
+    <ogrn>1076623004402</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076623004402</focusHref>
+    <UL>
+      <kpp>774301001</kpp>
+      <okpo>81782214</okpo>
+      <okato>45277571000</okato>
+      <okfs>16</okfs>
+      <oktmo>45338000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автопартнёр"</short>
+        <full>Общество с ограниченной ответственностью "Автопартнёр"</full>
+        <date>2007-06-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125565</zipCode>
+          <kladrCode>770000000002411</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пулковская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>3</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-11-25</date>
+        <firstDate>2010-11-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-05-21</date>
+      </status>
+      <registrationDate>2007-06-13</registrationDate>
+      <dissolutionDate>2018-05-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шукшин Сергей Александрович</fio>
+          <innfl>662331796173</innfl>
+          <position>Директор</position>
+          <date>2012-02-28</date>
+          <firstDate>2010-11-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

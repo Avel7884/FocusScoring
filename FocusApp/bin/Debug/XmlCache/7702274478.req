@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7702274478</inn>
+    <ogrn>1027700528723</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700528723</focusHref>
+    <UL>
+      <kpp>770201001</kpp>
+      <okpo>29074054</okpo>
+      <okato>45286570000</okato>
+      <okfs>41</okfs>
+      <oktmo>45379000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20614</okopf>
+      <opf>Некоммерческие партнерства</opf>
+      <legalName>
+        <short>Некоммерческое Партнерство "АВОК" и/или НП "АВОК"</short>
+        <full>Некоммерческое партнерство "Инженеры по отоплению, вентиляции, кондиционированию воздуха, теплоснабжению и строительной теплофизике"</full>
+        <date>2012-02-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103754</zipCode>
+          <kladrCode>770000000002484</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рождественка</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <flat>
+            <topoValue>335</topoValue>
+          </flat>
+          <houseRaw>11</houseRaw>
+          <flatRaw>335</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-15</date>
+        <firstDate>2002-12-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-12-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Потапов Вадим Витальевич</fio>
+          <innfl>503202916324</innfl>
+          <position>Исполнительный директор</position>
+          <date>2013-02-05</date>
+          <firstDate>2013-02-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>НП "Инженеры по отоплению, вентиляции, кондиционированию воздуха, теплоснабжению и строительной теплофизике"</short>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Путято Надежда Алексеевна</fio>
+            <position>Исполнительный директор</position>
+            <date>2012-02-14</date>
+            <firstDate>2002-12-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

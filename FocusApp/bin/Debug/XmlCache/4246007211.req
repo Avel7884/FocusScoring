@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4246007211</inn>
+    <ogrn>1064246019199</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1064246019199</focusHref>
+    <UL>
+      <kpp>540601001</kpp>
+      <okpo>95372230</okpo>
+      <okato>50401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВЕРС"</short>
+        <full>Общество с ограниченной ответственностью "АВЕРС"</full>
+        <date>2006-06-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630000</zipCode>
+          <kladrCode>540000010000686</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Крылова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36</topoValue>
+          </house>
+          <flat>
+            <topoValue>84</topoValue>
+          </flat>
+          <houseRaw>36</houseRaw>
+          <flatRaw>84</flatRaw>
+        </parsedAddressRF>
+        <date>2010-06-30</date>
+        <firstDate>2010-06-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-20</date>
+      </status>
+      <registrationDate>2006-06-26</registrationDate>
+      <dissolutionDate>2016-12-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Долгов Константин Иванович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2015-07-02</date>
+          <firstDate>2015-07-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <managementCompanies>
+          <managementCompany>
+            <name>НЕКОММЕРЧЕСКОЕ ПЕРТНЕРСТВО "ПО РАЗВИТИЮ ЛЕСОПРОМЫШЛЕННОГО КОМПЛЕКСА СЕВЕРА КУЗБАССА АВЕРС"</name>
+            <inn>4246016174</inn>
+            <ogrn>1094200001170</ogrn>
+            <date>2009-11-12</date>
+            <firstDate>2009-11-12</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Ермак Сергей Владимирович</fio>
+            <innfl>420104687102</innfl>
+            <date>2014-11-05</date>
+            <firstDate>2009-11-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

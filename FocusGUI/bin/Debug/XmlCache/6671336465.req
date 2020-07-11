@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6671336465</inn>
+    <ogrn>1106671021038</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1106671021038</focusHref>
+    <UL>
+      <kpp>667101001</kpp>
+      <okpo>69050299</okpo>
+      <okato>65401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Активные Технологии"</short>
+        <full>Общество с ограниченной ответственностью "Активные Технологии"</full>
+        <date>2010-10-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620142</zipCode>
+          <kladrCode>660000010001232</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чапаева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <flat>
+            <topoValue>156</topoValue>
+          </flat>
+          <houseRaw>21</houseRaw>
+          <flatRaw>156</flatRaw>
+        </parsedAddressRF>
+        <date>2012-05-03</date>
+        <firstDate>2010-10-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-10-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Каплун Владимир Леонидович</fio>
+          <innfl>667340137641</innfl>
+          <position>Генеральный Директор</position>
+          <date>2011-11-24</date>
+          <firstDate>2010-10-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

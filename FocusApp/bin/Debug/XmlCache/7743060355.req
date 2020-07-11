@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7743060355</inn>
+    <ogrn>1027743001186</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027743001186</focusHref>
+    <UL>
+      <kpp>774301001</kpp>
+      <okpo>58718087</okpo>
+      <okato>45277589000</okato>
+      <okfs>16</okfs>
+      <oktmo>45345000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>65</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авант Авто"</short>
+        <full>Общество с ограниченной ответственностью "Авант Авто"</full>
+        <date>2002-08-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125080</zipCode>
+          <kladrCode>770000000001009</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Волоколамское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <houseRaw>10</houseRaw>
+        </parsedAddressRF>
+        <date>2002-08-01</date>
+        <firstDate>2002-08-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-02-03</date>
+      </status>
+      <registrationDate>2002-08-01</registrationDate>
+      <dissolutionDate>2009-02-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Соловьев Александр Валерьевич</fio>
+          <innfl>772810051829</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-06-19</date>
+          <firstDate>2006-06-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

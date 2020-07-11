@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7720224695</inn>
+    <ogrn>1027739668593</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739668593</focusHref>
+    <UL>
+      <kpp>773601001</kpp>
+      <okpo>18439699</okpo>
+      <okato>45293554000</okato>
+      <okfs>16</okfs>
+      <oktmo>45397000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автоблиц"</short>
+        <full>Общество с ограниченной ответственностью "Автоблиц"</full>
+        <date>2006-02-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117312</zipCode>
+          <kladrCode>770000000000924</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вавилова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13А</topoValue>
+          </house>
+          <houseRaw>13 А</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-02</date>
+        <firstDate>2002-12-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-08-10</date>
+      </status>
+      <registrationDate>1998-04-09</registrationDate>
+      <dissolutionDate>2015-08-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Геюшов Анар Намаз-Оглы</fio>
+          <innfl>182908730697</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-12-12</date>
+          <firstDate>2006-08-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7727573141</inn>
+    <ogrn>1067746502460</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067746502460</focusHref>
+    <UL>
+      <kpp>772701001</kpp>
+      <okpo>95182328</okpo>
+      <okato>45293554000</okato>
+      <okfs>16</okfs>
+      <oktmo>45397000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алекс, Кларк и Ко Лимитед"</short>
+        <full>Общество с ограниченной ответственностью "Алекс, Кларк и Компания Лимитед"</full>
+        <date>2006-04-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117036</zipCode>
+          <kladrCode>770000000002071</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новочерёмушкинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20/23</topoValue>
+          </house>
+          <flat>
+            <topoValue>116</topoValue>
+          </flat>
+          <houseRaw>20/23</houseRaw>
+          <flatRaw>116</flatRaw>
+        </parsedAddressRF>
+        <date>2016-06-16</date>
+        <firstDate>2006-04-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-04-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Алексеев Сергей Николаевич</fio>
+          <position>Генеральный директор</position>
+          <date>2013-03-28</date>
+          <firstDate>2006-04-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

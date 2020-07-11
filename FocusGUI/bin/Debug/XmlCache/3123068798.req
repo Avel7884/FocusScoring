@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3123068798</inn>
+    <ogrn>1023101653178</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023101653178</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>54659787</okpo>
+      <okato>14401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>14701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аквахим"</short>
+        <full>Общество с ограниченной ответственностью "Аквахим"</full>
+        <date>2002-11-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308000</zipCode>
+          <kladrCode>310000010000222</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мичурина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>39А</topoValue>
+          </house>
+          <houseRaw>39-А</houseRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-04</date>
+        <firstDate>2002-11-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-12-25</date>
+      </status>
+      <registrationDate>2001-04-12</registrationDate>
+      <dissolutionDate>2018-12-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пеньков Игорь Геннадьевич</fio>
+          <innfl>312310896561</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-12-05</date>
+          <firstDate>2014-03-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Селин Дмитрий Леонидович</fio>
+            <innfl>312310890143</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-02-02</date>
+            <firstDate>2010-02-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

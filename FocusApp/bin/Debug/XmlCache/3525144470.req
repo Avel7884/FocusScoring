@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3525144470</inn>
+    <ogrn>1043500092800</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1043500092800</focusHref>
+    <UL>
+      <kpp>352501001</kpp>
+      <okpo>75124688</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергосервис"</short>
+        <full>Общество с ограниченной ответственностью "Энергосервис"</full>
+        <date>2004-12-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>160000</zipCode>
+          <kladrCode>350000010000299</kladrCode>
+          <regionCode>35</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Вологодская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Вологда</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Челюскинцев</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>62</topoValue>
+          </house>
+          <houseRaw>62</houseRaw>
+        </parsedAddressRF>
+        <date>2006-02-13</date>
+        <firstDate>2006-02-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-04-14</date>
+      </status>
+      <registrationDate>2004-12-14</registrationDate>
+      <dissolutionDate>2011-04-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кочегаров Виктор Васильевич</fio>
+          <innfl>781405838593</innfl>
+          <position>Директор</position>
+          <date>2006-11-13</date>
+          <firstDate>2006-11-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

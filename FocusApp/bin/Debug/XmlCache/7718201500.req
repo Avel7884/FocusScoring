@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7718201500</inn>
+    <ogrn>1027700059716</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700059716</focusHref>
+    <UL>
+      <kpp>771801001</kpp>
+      <okpo>58176620</okpo>
+      <okato>45263591000</okato>
+      <okfs>24</okfs>
+      <oktmo>45315000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ТПК "Аксаут"</short>
+        <full>Общество с ограниченной ответственностью Торгово-производственная компания "Аксаут"</full>
+        <date>2002-07-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107014</zipCode>
+          <kladrCode>770000000002170</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Охотничья</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10/12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>3</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>4</topoValue>
+          </flat>
+          <houseRaw>10 /12</houseRaw>
+          <bulkRaw>3</bulkRaw>
+          <flatRaw>4</flatRaw>
+        </parsedAddressRF>
+        <date>2002-07-25</date>
+        <firstDate>2002-07-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-03-06</date>
+      </status>
+      <registrationDate>2001-12-14</registrationDate>
+      <dissolutionDate>2017-03-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Беднин Дмитрий Александрович</fio>
+          <position>Генеральный директор</position>
+          <date>2002-08-22</date>
+          <firstDate>2002-08-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

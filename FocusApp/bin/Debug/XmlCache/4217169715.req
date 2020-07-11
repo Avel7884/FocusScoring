@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217169715</inn>
+    <ogrn>1154217002521</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1154217002521</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>27615445</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛЮС-4 СЕРВИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛЮС-4 СЕРВИС"</full>
+        <date>2015-04-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654005</zipCode>
+          <kladrCode>420000120001507</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Доз (Центральный Р-Н)</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>24</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 19</houseRaw>
+          <bulkRaw>КОРПУС 24</bulkRaw>
+        </parsedAddressRF>
+        <date>2015-04-20</date>
+        <firstDate>2015-04-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-04-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Мешков Алексей Владимирович</fio>
+          <innfl>720213899401</innfl>
+          <position>Директор</position>
+          <date>2015-04-20</date>
+          <firstDate>2015-04-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>654005</zipCode>
+              <kladrCode>420000120000286</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>ДОЗ</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>19</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>корп</topoShortName>
+                <topoFullName>корпус</topoFullName>
+                <topoValue>24</topoValue>
+              </bulk>
+              <houseRaw>ДОМ 19</houseRaw>
+              <bulkRaw>КОРПУС 24</bulkRaw>
+            </parsedAddressRF>
+            <date>2015-04-20</date>
+            <firstDate>2015-04-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

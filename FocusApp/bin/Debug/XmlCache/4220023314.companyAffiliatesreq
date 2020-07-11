@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>421802154032</inn>
+    <ogrn>304421813800088</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304421813800088</focusHref>
+    <IP>
+      <fio>Юрьева Наталья Павловна</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2003-10-09</registrationDate>
+      <dissolutionDate>2004-07-07</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-07-07</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>4220023314</inn>
+    <ogrn>1024201752607</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201752607</focusHref>
+    <UL>
+      <kpp>421801001</kpp>
+      <okpo>10915901</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГОПИТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ЭНЕРГОПИТ"</full>
+        <date>2006-12-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654054</zipCode>
+          <kladrCode>420000120000653</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новоселов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <flat>
+            <topoValue>88</topoValue>
+          </flat>
+          <houseRaw>40</houseRaw>
+          <flatRaw>88</flatRaw>
+        </parsedAddressRF>
+        <date>2006-12-19</date>
+        <firstDate>2006-12-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-05-18</date>
+      </status>
+      <registrationDate>2002-09-19</registrationDate>
+      <dissolutionDate>2010-05-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Юрьева Наталья Павловна</fio>
+          <innfl>421802154032</innfl>
+          <position>Ликвидатор</position>
+          <date>2009-10-28</date>
+          <firstDate>2009-10-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

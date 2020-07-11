@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>Критическая сумма арбитражных дел по группе компаний</Name>
+  <Colour>RedAffiliates</Colour>
+  <Description>У болле чем 30% связанных организаций сработал маркер критическая сумма арбитражных дел</Description>
+  <Code>
+                        var casesIst = company.GetMultiParam("s2003Affiliates");
+                        var sums = company.GetMultiParam("SumAffiliates");
+                        var revs = company.GetMultiParam("s6004Affiliates");
+                        var casesOtv = company.GetMultiParam("s2001Affiliates");
+
+                        var count = .0;
+
+double rev;
+double sum;
+double caseIst;
+double caseOtv;
+
+                        for (int i = 0; i &lt; sums.Length; i++)
+                            if (DoubleTryParse(revs[i], out rev) &amp;&amp;
+                                DoubleTryParse(sums[i], out sum) &amp;&amp;
+                                ((DoubleTryParse(casesIst[i], out caseIst) &amp;&amp;
+                                  (caseIst &gt; (0.2 * rev)) &amp; (caseIst &gt; 500000) &amp; (caseIst &gt; sum)) ||
+                                 (DoubleTryParse(casesOtv[i], out caseOtv) &amp;&amp;
+                                  (caseOtv &gt; (0.2 * rev)) &amp; (caseOtv &gt; 500000) &amp; (caseOtv &gt; sum))))
+                                count += 1;
+
+                        return count / sums.Length &gt; 0.3;</Code>
+</items>

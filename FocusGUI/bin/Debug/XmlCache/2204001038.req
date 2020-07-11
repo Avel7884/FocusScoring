@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2204001038</inn>
+    <ogrn>1022200562757</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200562757</focusHref>
+    <UL>
+      <kpp>220401001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ФГУП "ФНПЦ "АЛТАЙ"</short>
+        <full>ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ УНИТАРНОЕ ПРЕДПРИЯТИЕ "ФЕДЕРАЛЬНЫЙ НАУЧНО-ПРОИЗВОДСТВЕННЫЙ ЦЕНТР "АЛТАЙ"</full>
+        <date>2002-10-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>659322</zipCode>
+          <kladrCode>220000040000357</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Бийск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Социалистическая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-17</date>
+        <firstDate>2002-10-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-10-01</date>
+      </status>
+      <registrationDate>1997-05-26</registrationDate>
+      <dissolutionDate>2010-10-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Жарков Александр Сергеевич</fio>
+          <innfl>222700651183</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-10-17</date>
+          <firstDate>2002-10-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6316045150</inn>
+    <ogrn>1026301157651</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026301157651</focusHref>
+    <UL>
+      <kpp>631801001</kpp>
+      <okpo>43907360</okpo>
+      <okato>36401392000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701345000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО РИА "АБСОЛЮТ"</short>
+        <full>Общество с ограниченной ответственностью Рекламно-информационное агентство "АБСОЛЮТ"</full>
+        <date>2002-09-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443117</zipCode>
+          <kladrCode>630000010000103</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Партизанская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>246</topoValue>
+          </house>
+          <houseRaw>246</houseRaw>
+        </parsedAddressRF>
+        <date>2005-12-26</date>
+        <firstDate>2005-12-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-12-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Расторгина Алла Юрьевна</fio>
+          <innfl>631606045409</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-09-23</date>
+          <firstDate>2015-09-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Расторгин Михаил Юрьевич</fio>
+            <innfl>631606045335</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-02-29</date>
+            <firstDate>2006-09-07</firstDate>
+          </head>
+          <head>
+            <fio>Расторгин Юрий Дмитриевич</fio>
+            <innfl>631916295529</innfl>
+            <position>Директор</position>
+            <date>2006-09-07</date>
+            <firstDate>2006-09-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

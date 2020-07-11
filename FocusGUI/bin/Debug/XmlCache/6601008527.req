@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6601008527</inn>
+    <ogrn>1036600004726</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036600004726</focusHref>
+    <UL>
+      <kpp>667701001</kpp>
+      <okpo>70812952</okpo>
+      <okato>65403000000</okato>
+      <okfs>23</okfs>
+      <oktmo>65728000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АМЗ"</short>
+        <full>Общество с ограниченной ответственностью "Алапаевский металлургический завод"</full>
+        <date>2003-10-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624601</zipCode>
+          <kladrCode>660000240000163</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Алапаевск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Коробкина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <houseRaw>14</houseRaw>
+        </parsedAddressRF>
+        <date>2003-10-15</date>
+        <firstDate>2003-10-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-10-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Неменов Сергей Валентинович</fio>
+          <innfl>222100358560</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-10</date>
+          <firstDate>2011-09-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>660101001</kpp>
+            <date>2013-03-07</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Новиков Виталий Александрович</fio>
+            <innfl>773710202988</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-03-10</date>
+            <firstDate>2011-03-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

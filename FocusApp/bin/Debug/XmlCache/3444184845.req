@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3444184845</inn>
+    <ogrn>1113444015662</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1113444015662</focusHref>
+    <UL>
+      <kpp>344401001</kpp>
+      <okpo>91098588</okpo>
+      <okato>18401395000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВР - Энерго"</short>
+        <full>Общество с ограниченной ответственностью "АВР - Энерго"</full>
+        <date>2011-04-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400131</zipCode>
+          <kladrCode>340000010002534</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Порт-Саида</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+        </parsedAddressRF>
+        <date>2011-04-01</date>
+        <firstDate>2011-04-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-04-01</registrationDate>
+      <heads>
+        <head>
+          <fio>Шикерин Андрей Викторович</fio>
+          <innfl>344304446782</innfl>
+          <position>Директор</position>
+          <date>2011-04-01</date>
+          <firstDate>2011-04-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

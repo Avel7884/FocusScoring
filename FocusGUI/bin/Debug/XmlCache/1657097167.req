@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1657097167</inn>
+    <ogrn>1101690048030</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1101690048030</focusHref>
+    <UL>
+      <kpp>165701001</kpp>
+      <okpo>67767998</okpo>
+      <okato>92401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ Намс"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ Намс"</full>
+        <date>2010-08-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420066</zipCode>
+          <kladrCode>160000010001583</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чистопольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>79</topoValue>
+          </house>
+          <houseRaw>79</houseRaw>
+        </parsedAddressRF>
+        <date>2010-08-26</date>
+        <firstDate>2010-08-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-08-22</date>
+      </status>
+      <registrationDate>2010-08-26</registrationDate>
+      <dissolutionDate>2016-08-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Саматов Нияз Ринатович</fio>
+          <innfl>166008339005</innfl>
+          <position>Директор</position>
+          <date>2012-10-18</date>
+          <firstDate>2010-08-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

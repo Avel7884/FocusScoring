@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7702134880</inn>
+    <ogrn>1037739223873</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739223873</focusHref>
+    <UL>
+      <kpp>773301001</kpp>
+      <okpo>32443118</okpo>
+      <okato>45283593000</okato>
+      <okfs>24</okfs>
+      <oktmo>45373000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АБИТАРЭ"</short>
+        <full>Закрытое Акционерное Общество "АБИТАРЭ"</full>
+        <date>2003-01-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125363</zipCode>
+          <kladrCode>770000000002811</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Строительный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <houseRaw>16</houseRaw>
+        </parsedAddressRF>
+        <date>2007-07-27</date>
+        <firstDate>2007-07-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-09-09</date>
+      </status>
+      <registrationDate>1993-12-21</registrationDate>
+      <dissolutionDate>2013-09-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лосев Михаил Львович</fio>
+          <innfl>504006282578</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-07-27</date>
+          <firstDate>2007-07-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

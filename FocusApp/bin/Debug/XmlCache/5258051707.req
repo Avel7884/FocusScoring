@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5258051707</inn>
+    <ogrn>1045207249702</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045207249702</focusHref>
+    <UL>
+      <kpp>525801001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто-Камаз"</short>
+        <full>Общество с ограниченной ответственностью "Авто-Камаз"</full>
+        <date>2004-08-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603076</zipCode>
+          <kladrCode>520000010000565</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>54</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>54</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-08-17</date>
+        <firstDate>2004-08-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-11-21</date>
+      </status>
+      <registrationDate>2004-08-17</registrationDate>
+      <dissolutionDate>2006-11-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дронова Галина Григорьевна</fio>
+          <innfl>525708373407</innfl>
+          <position>Директор</position>
+          <date>2004-08-17</date>
+          <firstDate>2004-08-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

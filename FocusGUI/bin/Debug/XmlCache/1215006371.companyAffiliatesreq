@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1215006371</inn>
+    <ogrn>1021200750581</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021200750581</focusHref>
+    <UL>
+      <kpp>121501001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Энергоремонт"</short>
+        <full>Открытое акционерное общество "Энергоремонт"</full>
+        <date>2002-07-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>424032</zipCode>
+          <kladrCode>120000010000138</kladrCode>
+          <regionCode>12</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Марий Эл</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Йошкар-Ола</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленинградская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2002-07-12</date>
+        <firstDate>2002-07-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-06-23</date>
+      </status>
+      <registrationDate>1996-11-19</registrationDate>
+      <dissolutionDate>2005-06-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Воздвиженский Владимир Александрович</fio>
+          <innfl>121501587027</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2005-06-23</date>
+          <firstDate>2005-06-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

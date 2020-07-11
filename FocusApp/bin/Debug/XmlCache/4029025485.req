@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4029025485</inn>
+    <ogrn>1034004751197</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034004751197</focusHref>
+    <UL>
+      <kpp>402701001</kpp>
+      <okpo>55686094</okpo>
+      <okato>29401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>29701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>ЧОУ ДПО «АКАДЕМИЯ - ЛИДЕР»</short>
+        <full>ЧАСТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ДОПОЛНИТЕЛЬНОГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ «ИНСТИТУТ ПОВЫШЕНИЯ КВАЛИФИКАЦИИ ПЕРСОНАЛА «АКАДЕМИЯ - ЛИДЕР»</full>
+        <date>2019-10-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>248000</zipCode>
+          <kladrCode>400000010000311</kladrCode>
+          <regionCode>40</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Калужская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Калуга</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Подвойского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7</houseRaw>
+          <flatRaw>ОФИС 1</flatRaw>
+        </parsedAddressRF>
+        <date>2019-10-22</date>
+        <firstDate>2019-10-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-08-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Меньшиков Александр Аркадьевич</fio>
+          <innfl>770172886025</innfl>
+          <position>Директор</position>
+          <date>2019-02-05</date>
+          <firstDate>2019-02-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ИПКП "Академия-Лидер"</short>
+            <full>Негосударственное образовательное учреждение дополнительного образования Институт повышения квалификации персонала "Академия-Лидер"</full>
+            <date>2009-10-06</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>248600</zipCode>
+              <kladrCode>400000010000186</kladrCode>
+              <regionCode>40</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Калужская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Калуга</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Космонавта Пацаева</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <houseRaw>4</houseRaw>
+            </parsedAddressRF>
+            <date>2009-10-06</date>
+            <firstDate>2009-10-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Ермаков Алексей Георгиевич</fio>
+            <innfl>402700236398</innfl>
+            <position>Директор</position>
+            <date>2018-01-16</date>
+            <firstDate>2003-01-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

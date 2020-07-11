@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>780156428289</inn>
+    <ogrn>305780113601106</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305780113601106</focusHref>
+    <IP>
+      <shortenedAddress>
+        <regionCode>78</regionCode>
+        <regionName>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Санкт-Петербург</topoValue>
+        </regionName>
+      </shortenedAddress>
+      <activities />
+      <regInfo>
+        <ogrnDate>2005-05-16</ogrnDate>
+        <regName>Территориальное управление Василеостровского административного района Санкт-Петербурга</regName>
+      </regInfo>
+      <nalogRegBody />
+      <regBody>
+        <nalogCode>7847</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №15 по Санкт-Петербургу</nalogName>
+        <date>2019-01-14</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>405780113601103</grn>
+          <date>2005-05-16</date>
+          <name>Утрата ИП государственной регистрации с 01.01.2005 (ст.3 №76-ФЗ от 23.06.2003)</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Василеостровскому Району Санкт-Петербурга</regName>
+          <regCode>7801</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>305780113601106</grn>
+          <date>2005-05-16</date>
+          <name>Внесение в ЕГРИП сведений о физическом лице, зарегистрированном в качестве ИП до 01.01.2004, на основании сведений, имеющихся в налоговых органах</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Василеостровскому Району Санкт-Петербурга</regName>
+          <regCode>7801</regCode>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>7808046270</inn>
+    <ogrn>1027809199010</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027809199010</focusHref>
+    <UL>
+      <okpo>01410527</okpo>
+      <pfrRegNumber>088027009817</pfrRegNumber>
+      <fssRegNumber>781100900778041</fssRegNumber>
+      <fomsRegNumber>400000600373048</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>68.20.2</code>
+          <text>Аренда и управление собственным или арендованным нежилым недвижимым имуществом</text>
+          <date>2015-11-27</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>52.10.9</code>
+            <text>Хранение и складирование прочих грузов</text>
+            <date>2015-11-27</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-10-24</ogrnDate>
+        <regName>Регистрационная палата Администрации Санкт-Петербурга</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7840</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №9 по Санкт-Петербургу</nalogName>
+        <nalogRegDate>2003-07-01</nalogRegDate>
+        <kpp>784001001</kpp>
+        <date>2008-05-14</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7847</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №15 по Санкт-Петербургу</nalogName>
+        <date>2005-05-14</date>
+      </regBody>
+      <shareholders>
+        <date>2019-09-30</date>
+        <shareholdersFL>
+          <shareholderFL>
+            <fio>Вычужанина Оксана Юрьевна</fio>
+            <address>Санкт-Петербург</address>
+            <votingSharesPercent>22.12</votingSharesPercent>
+            <capitalSharesPercent>24.67</capitalSharesPercent>
+            <date>2018-07-31</date>
+          </shareholderFL>
+          <shareholderFL>
+            <fio>Сторожилов Сергей Николаевич</fio>
+            <address>Санкт-Петербург</address>
+            <votingSharesPercent>11.4</votingSharesPercent>
+            <capitalSharesPercent>13.53</capitalSharesPercent>
+            <date>2012-12-31</date>
+          </shareholderFL>
+          <shareholderFL>
+            <fio>Ларионов Вадим Борисович</fio>
+            <address>Санкт-Петербург</address>
+            <votingSharesPercent>1.1</votingSharesPercent>
+            <capitalSharesPercent>6.91</capitalSharesPercent>
+            <date>2012-12-31</date>
+          </shareholderFL>
+        </shareholdersFL>
+        <shareholdersUL>
+          <shareholderUL>
+            <ogrn>1027800001778</ogrn>
+            <inn>7826667440</inn>
+            <fullName>АО «ЭлектроРадиоАвтоматика»</fullName>
+            <address>190000, Санкт-Петербург, пер. Гривцова, д.1/64</address>
+            <votingSharesPercent>38.64</votingSharesPercent>
+            <capitalSharesPercent>28.99</capitalSharesPercent>
+            <date>1994-12-08</date>
+          </shareholderUL>
+        </shareholdersUL>
+      </shareholders>
+      <statedCapital>
+        <sum>23500</sum>
+        <date>2002-10-24</date>
+      </statedCapital>
+      <egrRecords>
+        <egrRecord>
+          <grn>8167847924313</grn>
+          <date>2016-07-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Опись</name>
+            </document>
+            <document>
+              <name>Конверт</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>8167847063387</grn>
+          <date>2016-06-26</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>9157848064112</grn>
+          <date>2015-11-27</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Опись</name>
+            </document>
+            <document>
+              <name>Конверт</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7089847288128</grn>
+          <date>2008-05-14</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>8077847395255</grn>
+          <date>2007-07-26</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6067847363567</grn>
+          <date>2006-05-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2047839033230</grn>
+          <date>2004-12-08</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №9 по Санкт-Петербургу</regName>
+          <regCode>7840</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>78 004053896</serialNumber>
+              <date>2004-12-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2027809199020</grn>
+          <date>2002-10-24</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Санкт-Петербурга</regName>
+          <regCode>7825</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>78 004014024</serialNumber>
+              <date>2002-10-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1027809199010</grn>
+          <date>2002-10-24</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Центральному Району Санкт-Петербурга</regName>
+          <regCode>7825</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>78 004014023</serialNumber>
+              <date>2002-10-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <shareholders>
+          <date>2019-09-30</date>
+          <shareholdersFL>
+            <shareholderFL>
+              <fio>Шмелев Аркадий Петрович</fio>
+              <address>Санкт-Петербург</address>
+              <votingSharesPercent>34.44</votingSharesPercent>
+              <capitalSharesPercent>28.39</capitalSharesPercent>
+              <date>2012-12-31</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Антонюк Галина Ивановна</fio>
+              <address>Санкт-Петербург</address>
+              <votingSharesPercent>34.44</votingSharesPercent>
+              <capitalSharesPercent>28.39</capitalSharesPercent>
+              <date>2017-03-24</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Будилов Михаил Владимирович</fio>
+              <address>Санкт-Петербург</address>
+              <votingSharesPercent>20.000</votingSharesPercent>
+              <capitalSharesPercent>20.000</capitalSharesPercent>
+              <date>2009-03-31</date>
+            </shareholderFL>
+          </shareholdersFL>
+          <shareholdersUL>
+            <shareholderUL>
+              <ogrn>1027810260136</ogrn>
+              <inn>7812018283</inn>
+              <fullName>ОАО «ЭлектроРадиоАвтоматика»</fullName>
+              <address>190000, Санкт-Петербург, пер. Гривцова, д.1/64</address>
+              <votingSharesPercent>38.64</votingSharesPercent>
+              <capitalSharesPercent>28.99</capitalSharesPercent>
+              <date>1994-12-08</date>
+            </shareholderUL>
+          </shareholdersUL>
+        </shareholders>
+        <foundersUL>
+          <founderUL>
+            <fullName>Закрытое акционерное общество Инвестиционная компания Ленмонтажстрой</fullName>
+            <share />
+          </founderUL>
+          <founderUL>
+            <fullName>Открытое акционерное общество ЭлектроРадиоАвтоматика</fullName>
+            <share />
+          </founderUL>
+        </foundersUL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>7814039264</inn>
+    <ogrn>1027807579360</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027807579360</focusHref>
+    <UL>
+      <pfrRegNumber>088004005099</pfrRegNumber>
+      <fssRegNumber>782000166778071</fssRegNumber>
+      <activities />
+      <regInfo>
+        <ogrnDate>2002-11-27</ogrnDate>
+        <regName>Регистрационная палата Администрации Санкт-Петербурга</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7814</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №26 по Санкт-Петербургу</nalogName>
+        <nalogRegDate>1995-10-31</nalogRegDate>
+        <kpp>781401001</kpp>
+        <date>2005-09-14</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7847</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №15 по Санкт-Петербургу</nalogName>
+        <date>2005-03-05</date>
+      </regBody>
+      <statedCapital />
+      <egrRecords>
+        <egrRecord>
+          <grn>6067847603609</grn>
+          <date>2006-05-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057812541059</grn>
+          <date>2005-10-06</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057812370890</grn>
+          <date>2005-09-14</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057812370889</grn>
+          <date>2005-09-14</date>
+          <name>Ликвидация ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+          <documents>
+            <document>
+              <name>P16001 заявление о ликвидации (по решению учред.или иного органа)</name>
+              <date>2005-09-12</date>
+            </document>
+            <document>
+              <name>Ликвидационный баланс</name>
+              <date>2005-08-08</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2005-06-27</date>
+            </document>
+            <document>
+              <name>Протокол 2/2005, состав имущества</name>
+              <date>2005-08-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>78 005601911</serialNumber>
+              <date>2005-09-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057812323699</grn>
+          <date>2005-09-08</date>
+          <name>Составление промежуточного ликвидационного баланса ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+          <documents>
+            <document>
+              <name>P15003 уведомление о составл.промежут.ликвидац.баланса</name>
+              <date>2005-09-05</date>
+            </document>
+            <document>
+              <name>Промежуточный ликвидационный баланс</name>
+              <date>2005-06-01</date>
+            </document>
+            <document>
+              <name>Публикация (копия)</name>
+              <date>2004-12-23</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2005-06-01</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>78 005600466</serialNumber>
+              <date>2005-09-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057811941340</grn>
+          <date>2005-08-22</date>
+          <name>Внесение сведений о формировании ликвидационной комиссии, назначении ликвидатора (конкурсного управляющего)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+          <documents>
+            <document>
+              <name>P15002 уведомление о формиров.ликвидац.комиссии, назначении ликвидатора</name>
+              <date>2005-08-18</date>
+            </document>
+            <document>
+              <name>Документ о формировании ликвидационной комиссии</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>78 005590036</serialNumber>
+              <date>2005-08-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057810715334</grn>
+          <date>2005-06-10</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057804800777</grn>
+          <date>2005-01-17</date>
+          <name>Принятие юридическим лицом решения о ликвидации</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Приморскому Району Санкт-Петербурга</regName>
+          <regCode>7814</regCode>
+          <documents>
+            <document>
+              <name>Уведомление</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2004-12-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>78 003117152</serialNumber>
+              <date>2005-01-17</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057804800788</grn>
+          <date>2005-01-14</date>
+          <name>Принятие юридическим лицом решения о ликвидации</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Приморскому Району Санкт-Петербурга</regName>
+          <regCode>7814</regCode>
+          <documents>
+            <document>
+              <name>Уведомление</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>78 003117153</serialNumber>
+              <date>2005-01-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2027807579655</grn>
+          <date>2002-11-27</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Приморскому Району Санкт-Петербурга</regName>
+          <regCode>7814</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>78 003097567</serialNumber>
+              <date>2002-11-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1027807579360</grn>
+          <date>2002-11-27</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Приморскому Району Санкт-Петербурга</regName>
+          <regCode>7814</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>78 003097531</serialNumber>
+              <date>2002-11-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

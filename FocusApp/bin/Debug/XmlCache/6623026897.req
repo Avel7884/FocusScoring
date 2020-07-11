@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623026897</inn>
+    <ogrn>1069623000842</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1069623000842</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>93625253</okpo>
+      <okato>65476382000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГазТрансСервис"</short>
+        <full>Общество с ограниченной ответственностью "ГазТрансСервис"</full>
+        <date>2006-01-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622005</zipCode>
+          <kladrCode>660000230000029</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Балакинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2006-01-10</date>
+        <firstDate>2006-01-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-01-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Криуля Дмитрий Иванович</fio>
+          <innfl>666800342432</innfl>
+          <position>Директор</position>
+          <date>2017-11-27</date>
+          <firstDate>2010-12-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

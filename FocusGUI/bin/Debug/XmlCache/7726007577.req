@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7726007577</inn>
+    <ogrn>1027739295077</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739295077</focusHref>
+    <UL>
+      <kpp>772601001</kpp>
+      <okpo>34613346</okpo>
+      <okato>45296575000</okato>
+      <okfs>16</okfs>
+      <oktmo>45920000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ПТФ "Авторус-94"</short>
+        <full>Закрытое акционерное общество "Производственно-транспортная фирма "Авторус-94"</full>
+        <date>2002-10-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115230</zipCode>
+          <kladrCode>770000000003188</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Электролитный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7А</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>6</topoValue>
+          </bulk>
+          <houseRaw>7А</houseRaw>
+          <bulkRaw>СТР.6</bulkRaw>
+        </parsedAddressRF>
+        <date>2008-02-11</date>
+        <firstDate>2008-02-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-04-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Черный Михаил Васильевич</fio>
+          <innfl>771900620884</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2017-09-11</date>
+          <firstDate>2017-09-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Якунин Сергей Алексеевич</fio>
+            <innfl>773300340053</innfl>
+            <position>Генеральный Директор</position>
+            <date>2006-06-02</date>
+            <firstDate>2006-06-02</firstDate>
+          </head>
+          <head>
+            <fio>Демченко Валерийс</fio>
+            <position>Генеральный Директор</position>
+            <date>2016-07-01</date>
+            <firstDate>2016-07-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

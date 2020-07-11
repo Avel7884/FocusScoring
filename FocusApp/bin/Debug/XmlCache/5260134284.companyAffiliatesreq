@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5260134284</inn>
+    <ogrn>1045207457063</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045207457063</focusHref>
+    <UL>
+      <kpp>526001001</kpp>
+      <okpo>73934845</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алькон"</short>
+        <full>Общество с ограниченной ответственностью "Алькон"</full>
+        <date>2004-05-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603006</zipCode>
+          <kladrCode>520000010000022</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Алексеевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>30</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-05-24</date>
+        <firstDate>2004-05-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-07-26</date>
+      </status>
+      <registrationDate>2004-05-24</registrationDate>
+      <dissolutionDate>2011-07-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Буравкова Анна Владимировна</fio>
+          <innfl>526210152776</innfl>
+          <position>Директор</position>
+          <date>2004-05-24</date>
+          <firstDate>2004-05-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>526210152776</inn>
+    <ogrn>304526220100161</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304526220100161</focusHref>
+    <IP>
+      <fio>Буравкова Анна Владимировна</fio>
+      <okpo>0109310292</okpo>
+      <okato>22401379000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>22701000001</oktmo>
+      <registrationDate>2004-07-19</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

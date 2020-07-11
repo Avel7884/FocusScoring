@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7801605152</inn>
+    <ogrn>1137847245667</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1137847245667</focusHref>
+    <UL>
+      <kpp>780101001</kpp>
+      <okpo>23121640</okpo>
+      <okato>40263563000</okato>
+      <okfs>16</okfs>
+      <oktmo>40309000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МеталлТрейд Северо-Запад"</short>
+        <full>Общество с ограниченной ответственностью "МеталлТрейд Северо-Запад"</full>
+        <date>2013-06-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>199106</zipCode>
+          <kladrCode>780000000000846</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пл</topoShortName>
+            <topoFullName>площадь</topoFullName>
+            <topoValue>Морской Славы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2013-06-28</date>
+        <firstDate>2013-06-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-03-15</date>
+      </status>
+      <registrationDate>2013-06-28</registrationDate>
+      <dissolutionDate>2017-03-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Снегов Павел Сергеевич</fio>
+          <innfl>780162057000</innfl>
+          <position>Ликвидатор</position>
+          <date>2016-01-11</date>
+          <firstDate>2013-06-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

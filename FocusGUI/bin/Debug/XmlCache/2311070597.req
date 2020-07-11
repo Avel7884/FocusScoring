@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2311070597</inn>
+    <ogrn>1032306439736</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1032306439736</focusHref>
+    <UL>
+      <kpp>231101001</kpp>
+      <okpo>14014075</okpo>
+      <okato>03401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "777"</short>
+        <full>Общество с ограниченной ответственностью "777"</full>
+        <date>2003-03-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350051</zipCode>
+          <kladrCode>230000010001121</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>им. Репина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28</topoValue>
+          </house>
+          <houseRaw>28</houseRaw>
+        </parsedAddressRF>
+        <date>2009-01-16</date>
+        <firstDate>2009-01-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-03-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Павлов Александр Григорьевич</fio>
+          <innfl>231113492688</innfl>
+          <position>Директор</position>
+          <date>2018-04-09</date>
+          <firstDate>2007-06-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

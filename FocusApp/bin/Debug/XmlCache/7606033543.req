@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7606033543</inn>
+    <ogrn>1027600855105</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027600855105</focusHref>
+    <UL>
+      <kpp>760601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ТПП "Авторемонтсервис"</short>
+        <full>Общество с ограниченной ответственностью транспортно-производственное предприятие "Авторемонтсервис"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>150054</zipCode>
+          <kladrCode>760000010001018</kladrCode>
+          <regionCode>76</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ярославская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ярославль</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тургенева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+        </parsedAddressRF>
+        <date>2004-05-14</date>
+        <firstDate>2004-05-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-12-21</date>
+      </status>
+      <registrationDate>1999-12-27</registrationDate>
+      <dissolutionDate>2006-12-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вайн Владимир Григорьевич</fio>
+          <innfl>623100008135</innfl>
+          <position>Директор</position>
+          <date>2004-05-14</date>
+          <firstDate>2004-05-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

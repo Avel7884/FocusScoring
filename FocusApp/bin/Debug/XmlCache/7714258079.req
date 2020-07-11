@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714258079</inn>
+    <ogrn>1027700212880</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700212880</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто - ком"</short>
+        <full>Общество с ограниченной ответственностью "Авто - ком"</full>
+        <date>2002-09-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123308</zipCode>
+          <kladrCode>770000000001352</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Зорге</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <bulk>
+            <topoValue>137</topoValue>
+          </bulk>
+          <houseRaw>6</houseRaw>
+          <bulkRaw>137</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-09-12</date>
+        <firstDate>2002-09-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-10-04</date>
+      </status>
+      <registrationDate>2002-04-09</registrationDate>
+      <dissolutionDate>2008-10-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Козлова Елена Алексеевна</fio>
+          <innfl>771918407282</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-09-12</date>
+          <firstDate>2002-09-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

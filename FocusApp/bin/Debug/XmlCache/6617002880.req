@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6617002880</inn>
+    <ogrn>1026601184037</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026601184037</focusHref>
+    <UL>
+      <kpp>661701001</kpp>
+      <okpo>04042076</okpo>
+      <okato>65456000000</okato>
+      <okfs>14</okfs>
+      <oktmo>65745000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация городского округа Краснотурьинск</short>
+        <full>Администрация (исполнительно-распорядительный орган местного самоуправления) городского округа Краснотурьинск</full>
+        <date>2013-03-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624440</zipCode>
+          <kladrCode>660000100000152</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснотурьинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Молодежная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-15</date>
+        <firstDate>2002-11-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-09-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Устинов Александр Юрьевич</fio>
+          <innfl>661701365447</innfl>
+          <position>Глава городского округа Краснотурьинск</position>
+          <date>2018-04-13</date>
+          <firstDate>2013-09-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Михель Виктор Егорович</fio>
+            <innfl>661700173929</innfl>
+            <position>Глава города</position>
+            <date>2002-11-15</date>
+            <firstDate>2002-11-15</firstDate>
+          </head>
+          <head>
+            <fio>Верхотуров Сергей Валентинович</fio>
+            <innfl>661700387705</innfl>
+            <position>Глава города</position>
+            <date>2013-08-14</date>
+            <firstDate>2009-10-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

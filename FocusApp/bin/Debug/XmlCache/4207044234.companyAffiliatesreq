@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4207044234</inn>
+    <ogrn>1024240681585</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024240681585</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>43835086</okpo>
+      <okato>32401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>32701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А.Н.К."</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "А.Н.К."</full>
+        <date>2007-06-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650070</zipCode>
+          <kladrCode>420000090000555</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Свободы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>6</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-06-19</date>
+        <firstDate>2007-06-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-02-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Менх Виктор Георгиевич</fio>
+          <innfl>420700600342</innfl>
+          <position>Директор</position>
+          <date>2013-12-24</date>
+          <firstDate>2009-10-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

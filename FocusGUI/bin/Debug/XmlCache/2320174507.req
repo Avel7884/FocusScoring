@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2320174507</inn>
+    <ogrn>1092366004048</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1092366004048</focusHref>
+    <UL>
+      <kpp>232001001</kpp>
+      <okpo>61957580</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто 23 ПЛЮС"</short>
+        <full>Общество с ограниченной ответственностью "Авто 23 ПЛЮС"</full>
+        <date>2009-06-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>354003</zipCode>
+          <kladrCode>230000070000618</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сочи</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Труда</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27А</topoValue>
+          </house>
+          <houseRaw>27 А</houseRaw>
+        </parsedAddressRF>
+        <date>2009-06-11</date>
+        <firstDate>2009-06-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-11-08</date>
+      </status>
+      <registrationDate>2009-06-11</registrationDate>
+      <dissolutionDate>2012-11-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кузьмина Ольга Николаевна</fio>
+          <innfl>232012618110</innfl>
+          <position>Ликвидатор</position>
+          <date>2012-05-11</date>
+          <firstDate>2012-05-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Саульян Роман Рубенович</fio>
+            <innfl>232004324861</innfl>
+            <position>Директор</position>
+            <date>2011-02-16</date>
+            <firstDate>2011-02-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3017051947</inn>
+    <ogrn>1073017002090</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1073017002090</focusHref>
+    <UL>
+      <kpp>302501001</kpp>
+      <okpo>99742480</okpo>
+      <okato>12401381000</okato>
+      <okfs>16</okfs>
+      <oktmo>12701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "СТРОЙ-ГРАД+"</short>
+        <full>Общество с ограниченной ответственностью "Производственная коммерческая фирма "СТРОЙ-ГРАД+"</full>
+        <date>2007-06-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>414018</zipCode>
+          <kladrCode>300000010004228</kladrCode>
+          <regionCode>30</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Астраханская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Астрахань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Айвазовского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1А</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>11</topoValue>
+          </bulk>
+          <houseRaw>1А</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 11</bulkRaw>
+        </parsedAddressRF>
+        <date>2011-04-14</date>
+        <firstDate>2011-04-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-06-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Арустамян Юрий Кимикович</fio>
+          <innfl>301510923623</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-04-09</date>
+          <firstDate>2011-04-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

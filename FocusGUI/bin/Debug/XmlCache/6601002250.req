@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6601002250</inn>
+    <ogrn>1036600000348</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036600000348</focusHref>
+    <UL>
+      <kpp>667701001</kpp>
+      <okpo>04041935</okpo>
+      <okato>65403000000</okato>
+      <okfs>14</okfs>
+      <oktmo>65728000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация МО г.Алапаевск</short>
+        <full>Администрация Муниципального образования город Алапаевск</full>
+        <date>2012-06-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624601</zipCode>
+          <kladrCode>660000240000111</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Алапаевск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <houseRaw>18</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-16</date>
+        <firstDate>2003-01-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-07-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Билалов Сайгид Лабазанович</fio>
+          <innfl>660100035146</innfl>
+          <position>Глава МО г. Алапаевск</position>
+          <date>2019-01-29</date>
+          <firstDate>2019-01-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>660101001</kpp>
+            <date>2006-10-25</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>Администрация МО "город Алапаевск"</short>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Шаньгин Станислав Владимирович</fio>
+            <innfl>660100081819</innfl>
+            <position>Глава Муниципального Образования</position>
+            <date>2014-12-05</date>
+            <firstDate>2008-11-06</firstDate>
+          </head>
+          <head>
+            <fio>Беспалов Сергей Григорьевич</fio>
+            <innfl>660100109133</innfl>
+            <position>Глава МО г. Алапаевск</position>
+            <date>2017-11-17</date>
+            <firstDate>2017-11-17</firstDate>
+          </head>
+          <head>
+            <fio>Карабатов Сергей Владимирович</fio>
+            <innfl>741509800221</innfl>
+            <position>И.О. Главы МО г. Алапаевск</position>
+            <date>2018-11-12</date>
+            <firstDate>2018-11-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>8</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

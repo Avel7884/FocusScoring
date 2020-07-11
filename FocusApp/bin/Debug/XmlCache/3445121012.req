@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3445121012</inn>
+    <ogrn>1113460007737</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1113460007737</focusHref>
+    <UL>
+      <kpp>344501001</kpp>
+      <okpo>37378472</okpo>
+      <okato>18401363000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Адмирал Плаза"</short>
+        <full>Общество с ограниченной ответственностью "Адмирал Плаза"</full>
+        <date>2011-12-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400074</zipCode>
+          <kladrCode>340000010000122</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Баррикадная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1Б</topoValue>
+          </house>
+          <houseRaw>1 Б</houseRaw>
+        </parsedAddressRF>
+        <date>2013-01-22</date>
+        <firstDate>2013-01-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-12-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Согоян Вагинак Размикович</fio>
+          <innfl>344312367767</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-07-08</date>
+          <firstDate>2016-07-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400074</zipCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Баррикадная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <houseRaw>1</houseRaw>
+            </parsedAddressRF>
+            <date>2011-12-09</date>
+            <firstDate>2011-12-09</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Казанцев Сергей Александрович</fio>
+            <innfl>341500875503</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-12-09</date>
+            <firstDate>2011-12-09</firstDate>
+          </head>
+          <head>
+            <fio>Козловский Игорь Михайлович</fio>
+            <innfl>344700377677</innfl>
+            <position>Генеральный директор</position>
+            <date>2013-01-22</date>
+            <firstDate>2013-01-22</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7730163610</inn>
+    <ogrn>1037730004674</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037730004674</focusHref>
+    <UL>
+      <kpp>773001001</kpp>
+      <okpo>13570928</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ" Комсталь"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-Коммерческая Фирма "Комсталь"</full>
+        <date>2003-02-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121165</zipCode>
+          <kladrCode>770000000001464</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Киевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>Д. 22</houseRaw>
+          <bulkRaw>СТР. 2</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-02-19</date>
+        <firstDate>2003-02-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-11-24</date>
+      </status>
+      <registrationDate>2003-02-19</registrationDate>
+      <dissolutionDate>2014-11-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Слисарчук Валентин Васильевич</fio>
+          <innfl>772457082144</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-02-01</date>
+          <firstDate>2006-02-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

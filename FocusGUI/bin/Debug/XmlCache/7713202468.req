@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7713202468</inn>
+    <ogrn>1027739294241</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739294241</focusHref>
+    <UL>
+      <kpp>771301001</kpp>
+      <okpo>18770744</okpo>
+      <okato>45277592000</okato>
+      <okfs>16</okfs>
+      <oktmo>45346000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>70403</okopf>
+      <opf>Общественные фонды</opf>
+      <legalName>
+        <short>"НАМИ - ПТИА - ФОНД"</short>
+        <full>Некоммерческая организация Межотраслевой Фонд "Поддержка технических инициатив автовладельцев"</full>
+        <date>2002-10-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127434</zipCode>
+          <kladrCode>770000000001241</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Дубки</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>Д. 4</houseRaw>
+        </parsedAddressRF>
+        <date>2007-05-29</date>
+        <firstDate>2007-05-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-10-01</registrationDate>
+      <heads>
+        <head>
+          <fio>Гаронин Лев Самойлович</fio>
+          <innfl>771200574470</innfl>
+          <position>Директор</position>
+          <date>2017-09-20</date>
+          <firstDate>2002-10-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127434</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Дмитровское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9</topoValue>
+              </house>
+              <houseRaw>9</houseRaw>
+            </parsedAddressRF>
+            <date>2002-10-01</date>
+            <firstDate>2002-10-01</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

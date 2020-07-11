@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7733187056</inn>
+    <ogrn>1157746000433</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1157746000433</focusHref>
+    <UL>
+      <kpp>772401001</kpp>
+      <okpo>11327922</okpo>
+      <okato>45296571000</okato>
+      <okfs>16</okfs>
+      <oktmo>45918000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ПТЭР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ "ПТЭР"</full>
+        <date>2015-01-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115487</zipCode>
+          <kladrCode>770000000000506</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академика Миллионщикова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <flat>
+            <topoValue>Э 1 пом I К 3 о 20</topoValue>
+          </flat>
+          <houseRaw>ДОМ 17</houseRaw>
+          <flatRaw>Э 1 ПОМ I К 3 О 20</flatRaw>
+        </parsedAddressRF>
+        <date>2019-04-24</date>
+        <firstDate>2019-04-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-01-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Снитко Ирина Валерьевна</fio>
+          <innfl>772603640142</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-06-17</date>
+          <firstDate>2019-06-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771801001</kpp>
+            <date>2016-03-01</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>773301001</kpp>
+            <date>2015-01-05</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107497</zipCode>
+              <kladrCode>770000000001397</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Иркутская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>11</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>корп</topoShortName>
+                <topoFullName>корпус</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>508</topoValue>
+              </flat>
+              <houseRaw>ДОМ 11</houseRaw>
+              <bulkRaw>КОРПУС 1</bulkRaw>
+              <flatRaw>ОФИС 508</flatRaw>
+            </parsedAddressRF>
+            <date>2016-03-01</date>
+            <firstDate>2016-03-01</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125424</zipCode>
+              <kladrCode>770000000002842</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>туп</topoShortName>
+                <topoFullName>тупик</topoFullName>
+                <topoValue>Сходненский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>16</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>2</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>1</topoValue>
+              </flat>
+              <houseRaw>ДОМ 16</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 2</bulkRaw>
+              <flatRaw>ОФИС 1</flatRaw>
+            </parsedAddressRF>
+            <date>2015-01-05</date>
+            <firstDate>2015-01-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Мясоедов Роман Викторович</fio>
+            <innfl>503504795757</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-01-05</date>
+            <firstDate>2015-01-05</firstDate>
+          </head>
+          <head>
+            <fio>Ивкин Андрей Геннадьевич</fio>
+            <innfl>771533913666</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-03-01</date>
+            <firstDate>2016-03-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

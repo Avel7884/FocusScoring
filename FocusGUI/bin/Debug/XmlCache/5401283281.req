@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5401283281</inn>
+    <ogrn>1075401002313</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075401002313</focusHref>
+    <UL>
+      <kpp>540101001</kpp>
+      <okpo>99834489</okpo>
+      <okato>50401379000</okato>
+      <okfs>24</okfs>
+      <oktmo>50701000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аврасия"</short>
+        <full>Общество с ограниченной ответственностью "Аврасия"</full>
+        <date>2007-02-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630000</zipCode>
+          <kladrCode>540000010000327</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Гусинобродское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>60</topoValue>
+          </house>
+          <houseRaw>60</houseRaw>
+        </parsedAddressRF>
+        <date>2007-02-19</date>
+        <firstDate>2007-02-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-12-04</date>
+      </status>
+      <registrationDate>2007-02-19</registrationDate>
+      <dissolutionDate>2014-12-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мальбин Валерий Валентинович</fio>
+          <position>Директор</position>
+          <date>2009-08-11</date>
+          <firstDate>2009-08-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6648000259</inn>
+    <ogrn>1026602089975</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602089975</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>04642304</okpo>
+      <okato>65232852001</okato>
+      <okfs>16</okfs>
+      <oktmo>65717000371</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПМК Николо-Павловская</short>
+        <full>Общество с ограниченной ответственностью "Передвижная механизированная колонна Николо - Павловская"</full>
+        <date>2002-12-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622911</zipCode>
+          <kladrCode>660190000580026</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Пригородный</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Николо-Павловское</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Карла Маркса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>111</topoValue>
+          </house>
+          <houseRaw>111</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-02</date>
+        <firstDate>2002-12-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-03-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Шалахов Николай Михайлович</fio>
+          <innfl>664800136235</innfl>
+          <position>Директор</position>
+          <date>2015-05-25</date>
+          <firstDate>2015-05-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>664801001</kpp>
+            <date>2006-04-27</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Шилоносов Николай Васильевич</fio>
+            <position>Директор</position>
+            <date>2002-12-02</date>
+            <firstDate>2002-12-02</firstDate>
+          </head>
+          <head>
+            <fio>Ахматов Фларит Масабикович</fio>
+            <innfl>664800117465</innfl>
+            <position>Директор</position>
+            <date>2014-10-17</date>
+            <firstDate>2014-10-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

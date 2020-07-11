@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6319050141</inn>
+    <ogrn>1036300892297</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036300892297</focusHref>
+    <UL>
+      <kpp>631901001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Энергосервис"</short>
+        <full>Открытое акционерное общество "Энергосервис"</full>
+        <date>2003-03-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443087</zipCode>
+          <kladrCode>630000010000153</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Стара Загора</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>161А</topoValue>
+          </house>
+          <houseRaw>161А</houseRaw>
+        </parsedAddressRF>
+        <date>2003-03-02</date>
+        <firstDate>2003-03-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-04-24</date>
+      </status>
+      <registrationDate>1996-11-26</registrationDate>
+      <dissolutionDate>2008-04-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сергиенко Игорь Валерьевич</fio>
+          <innfl>631201305345</innfl>
+          <position>Генеральный Директор</position>
+          <date>2003-03-02</date>
+          <firstDate>2003-03-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

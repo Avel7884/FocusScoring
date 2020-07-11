@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4825023165</inn>
+    <ogrn>1024840862584</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024840862584</focusHref>
+    <UL>
+      <kpp>482401001</kpp>
+      <okpo>50259246</okpo>
+      <okato>42401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>42701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП-ТОРГСЕРВИС"</short>
+        <full>Общество с ограниченной ответственностью "ПКП-ТОРГСЕРВИС"</full>
+        <date>2002-12-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>398024</zipCode>
+          <kladrCode>480000010000430</kladrCode>
+          <regionCode>48</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Липецкая</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Липецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>72А</topoValue>
+          </house>
+          <houseRaw>72 А</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-27</date>
+        <firstDate>2002-12-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-08-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Будаев Игорь Иванович</fio>
+          <innfl>482605250315</innfl>
+          <position>Директор</position>
+          <date>2017-10-06</date>
+          <firstDate>2017-10-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Поляков Алексей Борисович</fio>
+            <innfl>482407486894</innfl>
+            <position>Директор</position>
+            <date>2009-09-15</date>
+            <firstDate>2009-09-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

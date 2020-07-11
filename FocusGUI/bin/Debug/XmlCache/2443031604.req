@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2443031604</inn>
+    <ogrn>1072443001400</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072443001400</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>81227949</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Регионстрой"</short>
+        <full>Общество с ограниченной ответственностью "Регионстрой"</full>
+        <date>2010-01-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127030</zipCode>
+          <kladrCode>770000000000533</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новослободская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <houseRaw>3</houseRaw>
+        </parsedAddressRF>
+        <date>2010-05-12</date>
+        <firstDate>2010-05-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-05-29</date>
+      </status>
+      <registrationDate>2007-08-02</registrationDate>
+      <dissolutionDate>2017-05-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кривошеин Лев Алексеевич</fio>
+          <innfl>246513677390</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-04-30</date>
+          <firstDate>2010-04-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

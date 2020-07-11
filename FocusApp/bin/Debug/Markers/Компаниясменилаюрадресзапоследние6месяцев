@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>Компания сменила юр. адрес за последние 6 месяцев</Name>
+  <Colour>Yellow</Colour>
+  <Description>Компания сменила юр. адрес за последние 6 месяцев</Description>
+  <Code>  DateTime date;
+return DateTime.TryParse(company.GetParam("LegalAddress"), out date) &amp;&amp;
+                               (DateTime.Today - date).Days &lt; 365 / 2;</Code>
+</items>

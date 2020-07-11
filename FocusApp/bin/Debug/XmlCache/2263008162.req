@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2263008162</inn>
+    <ogrn>1022202404399</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022202404399</focusHref>
+    <UL>
+      <kpp>222201001</kpp>
+      <okpo>46301511</okpo>
+      <okato>01401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>01701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "АЭСК"</short>
+        <full>"АЛТАЙЭНЕРГОСПЕЦКОМПЛЕКТ" ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО</full>
+        <date>2005-07-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656922</zipCode>
+          <kladrCode>220000010190023</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>мкр</topoShortName>
+            <topoFullName>микрорайон</topoFullName>
+            <topoValue>Новосиликатный</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Трактовая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7/4</topoValue>
+          </house>
+          <houseRaw>7/4</houseRaw>
+        </parsedAddressRF>
+        <date>2008-09-08</date>
+        <firstDate>2008-09-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-12-27</date>
+      </status>
+      <registrationDate>1997-07-21</registrationDate>
+      <dissolutionDate>2013-12-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пупков Александр Владимирович</fio>
+          <innfl>222201058556</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2012-12-28</date>
+          <firstDate>2011-09-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Губин Владимир Александрович</fio>
+            <innfl>222101647639</innfl>
+            <position>И.О. Генерального директора</position>
+            <date>2010-06-23</date>
+            <firstDate>2010-06-23</firstDate>
+          </head>
+          <head>
+            <fio>Зверев Евгений Геннадьевич</fio>
+            <position>Конкурсный управляющий</position>
+            <date>2011-08-03</date>
+            <firstDate>2011-08-03</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

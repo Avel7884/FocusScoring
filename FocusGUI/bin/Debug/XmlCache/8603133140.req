@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>8603133140</inn>
+    <ogrn>1068603062186</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1068603062186</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>95839780</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ЮГРА-ЗНАК"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ ЮГРА-ЗНАК"</full>
+        <date>2006-05-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628600</zipCode>
+          <kladrCode>860000110000125</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Индустриальная</topoValue>
+          </street>
+          <house>
+            <topoValue>Западный Промышленный Узел 36</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Панель16</topoValue>
+          </bulk>
+          <houseRaw>ЗАПАДНЫЙ ПРОМЫШЛЕННЫЙ УЗЕЛ 36</houseRaw>
+          <bulkRaw>ПАНЕЛЬ16</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-12-18</date>
+        <firstDate>2009-12-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-05-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Соколов Владимир Валерьевич</fio>
+          <innfl>860311997726</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-07-02</date>
+          <firstDate>2018-07-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Коржуков Николай Васильевич</fio>
+            <innfl>860301771800</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-06-05</date>
+            <firstDate>2015-06-05</firstDate>
+          </head>
+          <head>
+            <fio>Коржуков Виктор Васильевич</fio>
+            <innfl>860300895120</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-06-02</date>
+            <firstDate>2006-05-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

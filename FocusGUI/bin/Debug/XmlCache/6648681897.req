@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6648681897</inn>
+    <ogrn>1036602357440</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036602357440</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>71567762</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ACD-Компьютерные технологии"</short>
+        <full>Общество с ограниченной ответственностью "ACD-Компьютерные технологии"</full>
+        <date>2003-12-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622034</zipCode>
+          <kladrCode>660000230000271</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>71</topoValue>
+          </house>
+          <houseRaw>71</houseRaw>
+        </parsedAddressRF>
+        <date>2004-06-23</date>
+        <firstDate>2004-06-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-07-08</date>
+      </status>
+      <registrationDate>2003-12-04</registrationDate>
+      <dissolutionDate>2010-07-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Князев Владимир Васильевич</fio>
+          <innfl>662313847629</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-06-09</date>
+          <firstDate>2010-06-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

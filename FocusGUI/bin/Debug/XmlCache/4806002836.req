@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4806002836</inn>
+    <ogrn>1034800081304</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034800081304</focusHref>
+    <UL>
+      <kpp>480601001</kpp>
+      <okpo>59674099</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агрофирма Трио"</short>
+        <full>Общество с ограниченной ответственностью "Агрофирма Трио"</full>
+        <date>2003-02-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>399512</zipCode>
+          <kladrCode>48007000024</kladrCode>
+          <regionCode>48</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Липецкая</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Долгоруковский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Дубовец</topoValue>
+          </settlement>
+        </parsedAddressRF>
+        <date>2006-06-02</date>
+        <firstDate>2006-06-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-08-25</date>
+      </status>
+      <registrationDate>2003-02-28</registrationDate>
+      <dissolutionDate>2010-08-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Захватаев Николай Юрьевич</fio>
+          <innfl>165600064292</innfl>
+          <position>Директор</position>
+          <date>2005-09-13</date>
+          <firstDate>2005-09-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

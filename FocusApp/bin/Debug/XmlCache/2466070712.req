@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2466070712</inn>
+    <ogrn>1022402672918</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022402672918</focusHref>
+    <UL>
+      <kpp>246601001</kpp>
+      <okpo>47837521</okpo>
+      <okopf>81</okopf>
+      <opf>Учреждения</opf>
+      <legalName>
+        <short>"Академия " АйТи"</short>
+        <full>Негосударственное образовательное учреждение дополнительного образования "Академия " АйТи"</full>
+        <date>2002-12-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660049</zipCode>
+          <kladrCode>240000010000443</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36</topoValue>
+          </house>
+          <flat>
+            <topoValue>602</topoValue>
+          </flat>
+          <houseRaw>36</houseRaw>
+          <flatRaw>602</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-11</date>
+        <firstDate>2002-12-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-02-28</date>
+      </status>
+      <registrationDate>1998-01-22</registrationDate>
+      <dissolutionDate>2011-02-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ревенко Николай Михайлович</fio>
+          <innfl>246105259860</innfl>
+          <position>Директор</position>
+          <date>2005-09-22</date>
+          <firstDate>2005-09-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

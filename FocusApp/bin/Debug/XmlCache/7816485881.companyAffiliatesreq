@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7816485881</inn>
+    <ogrn>1107847108236</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107847108236</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>65940116</okpo>
+      <okato>40296000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40906000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГРЕГАТ СПБ"</short>
+        <full>Общество с ограниченной ответственностью "АГРЕГАТ СПБ"</full>
+        <date>2010-04-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192241</zipCode>
+          <kladrCode>780000000000074</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Александровской Фермы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Т</topoValue>
+          </bulk>
+          <houseRaw>29</houseRaw>
+          <bulkRaw>ЛИТ. Т</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-04-07</date>
+        <firstDate>2010-04-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-04-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Смирнов Виктор Павлович</fio>
+          <innfl>781105767020</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-04-07</date>
+          <firstDate>2010-04-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

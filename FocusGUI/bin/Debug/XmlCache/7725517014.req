@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725517014</inn>
+    <ogrn>1047796609464</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796609464</focusHref>
+    <UL>
+      <kpp>772101001</kpp>
+      <okpo>74105312</okpo>
+      <okato>45290586000</okato>
+      <okfs>16</okfs>
+      <oktmo>45394000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АВМ Групп"</short>
+        <full>Закрытое акционерное общество "АВМ Групп"</full>
+        <date>2004-08-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109456</zipCode>
+          <kladrCode>770000000000018</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Паперника</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoValue>68</topoValue>
+          </flat>
+          <houseRaw>3</houseRaw>
+          <flatRaw>68</flatRaw>
+        </parsedAddressRF>
+        <date>2011-06-07</date>
+        <firstDate>2011-06-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-01-30</date>
+      </status>
+      <registrationDate>2004-08-17</registrationDate>
+      <dissolutionDate>2017-01-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ларионов Валентин Николаевич</fio>
+          <innfl>772435892402</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-09-10</date>
+          <firstDate>2015-09-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Симонян Нуне Левоновна</fio>
+            <innfl>772152106087</innfl>
+            <position>Генеральный Директор</position>
+            <date>2011-06-07</date>
+            <firstDate>2011-06-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

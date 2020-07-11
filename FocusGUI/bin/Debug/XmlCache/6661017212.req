@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6661017212</inn>
+    <ogrn>1026605256600</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605256600</focusHref>
+    <UL>
+      <kpp>667101001</kpp>
+      <okpo>12342378</okpo>
+      <okopf>81</okopf>
+      <opf>Учреждения</opf>
+      <legalName>
+        <short>НОУВПО Евроазиатский институт управления и предпринимательства</short>
+        <full>Негосударственное образовательное учреждение высшего профессионального образования Европейско-Азиатский институт управления и предпринимательства</full>
+        <date>2004-10-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620089</zipCode>
+          <kladrCode>660000010001295</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Щорса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>54</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>54</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-12-18</date>
+        <firstDate>2003-12-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-09-16</date>
+      </status>
+      <registrationDate>1997-06-04</registrationDate>
+      <dissolutionDate>2014-09-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Буланичев Владимир Александрович</fio>
+          <innfl>666102449601</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2014-06-25</date>
+          <firstDate>2002-12-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

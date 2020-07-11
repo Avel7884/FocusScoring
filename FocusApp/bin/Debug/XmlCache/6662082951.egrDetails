@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>6662082951</inn>
+    <ogrn>1136685010395</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1136685010395</focusHref>
+    <UL>
+      <pfrRegNumber>075032009253</pfrRegNumber>
+      <activities />
+      <regInfo>
+        <ogrnDate>2013-06-10</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6685</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №31 по Свердловской области</nalogName>
+        <nalogRegDate>1996-11-12</nalogRegDate>
+        <kpp>666201001</kpp>
+        <date>2013-06-10</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6658</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Верх-Исетскому району г.Екатеринбурга</nalogName>
+        <date>2015-03-27</date>
+      </regBody>
+      <statedCapital>
+        <sum>7600</sum>
+        <date>2013-06-10</date>
+      </statedCapital>
+      <egrRecords>
+        <egrRecord>
+          <grn>2136685142185</grn>
+          <date>2013-06-18</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №31 по Свердловской Области</regName>
+          <regCode>6685</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2136685136201</grn>
+          <date>2013-06-11</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №31 по Свердловской Области</regName>
+          <regCode>6685</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии в течение последних 12 месяцев движения по б/счетам или об отсутствии у ЮЛ открытых б/счетов</name>
+              <date>2013-02-05</date>
+            </document>
+            <document>
+              <name>Cправка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2013-02-05</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>1136685010395</grn>
+          <date>2013-06-10</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002, по сведениям налоговых органов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №31 по Свердловской Области</regName>
+          <regCode>6685</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии в течение последних 12 месяцев движения по б/счетам или об отсутствии у ЮЛ открытых б/счетов</name>
+              <date>2013-02-05</date>
+            </document>
+            <document>
+              <name>Cправка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2013-02-05</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

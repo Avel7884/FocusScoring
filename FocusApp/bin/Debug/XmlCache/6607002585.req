@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6607002585</inn>
+    <ogrn>1026600787047</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026600787047</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>04041993</okpo>
+      <okato>65424000000</okato>
+      <okfs>14</okfs>
+      <oktmo>65708000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация Верхнесалдинского городского округа</short>
+        <full>Администрация Верхнесалдинского городского округа</full>
+        <date>2006-01-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624760</zipCode>
+          <kladrCode>660090010000008</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Верхнесалдинский</topoValue>
+          </district>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Верхняя Салда</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Энгельса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>46</topoValue>
+          </house>
+          <houseRaw>46</houseRaw>
+        </parsedAddressRF>
+        <date>2007-04-20</date>
+        <firstDate>2007-04-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в процессе реорганизации в форме присоединения к нему других ЮЛ</statusString>
+        <reorganizing>true</reorganizing>
+        <date>2010-01-28</date>
+      </status>
+      <registrationDate>2001-02-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Савченко Михаил Владимирович</fio>
+          <innfl>591101130129</innfl>
+          <position>Глава Верхнесалдинского Городского Округа</position>
+          <date>2018-01-31</date>
+          <firstDate>2017-10-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>660701001</kpp>
+            <date>2013-03-07</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>624760</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Верхняя Салда</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Энгельса</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>46</topoValue>
+              </house>
+              <houseRaw>46</houseRaw>
+            </parsedAddressRF>
+            <date>2007-04-20</date>
+            <firstDate>2007-04-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Нистратов Сергей Львович</fio>
+            <innfl>771120002929</innfl>
+            <position>Глава Верхнесалдинского городского округа</position>
+            <date>2011-03-21</date>
+            <firstDate>2011-03-21</firstDate>
+          </head>
+          <head>
+            <fio>Оленев Игорь Владимирович</fio>
+            <innfl>660700377720</innfl>
+            <position>Глава администрации Верхнесалдинского городского округа</position>
+            <date>2013-03-22</date>
+            <firstDate>2013-03-22</firstDate>
+          </head>
+          <head>
+            <fio>Ильичев Константин Сергеевич</fio>
+            <innfl>660700726642</innfl>
+            <position>Глава Администрации Верхнесалдинского Городского Округа</position>
+            <date>2015-03-11</date>
+            <firstDate>2015-03-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>9</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

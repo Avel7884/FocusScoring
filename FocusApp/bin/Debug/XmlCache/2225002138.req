@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2225002138</inn>
+    <ogrn>1022201761097</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022201761097</focusHref>
+    <UL>
+      <kpp>222101001</kpp>
+      <okpo>10020972</okpo>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Алтайагропромснаб"</short>
+        <full>Открытое акционерное общество "Алтайагропромснаб"</full>
+        <date>2006-07-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656031</zipCode>
+          <kladrCode>220000010000608</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Строителей</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>135</topoValue>
+          </house>
+          <houseRaw>135</houseRaw>
+        </parsedAddressRF>
+        <date>2006-07-18</date>
+        <firstDate>2006-07-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-31</date>
+      </status>
+      <registrationDate>1992-01-11</registrationDate>
+      <dissolutionDate>2012-01-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Савинцев Максим Игоревич</fio>
+          <innfl>222101412059</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2010-04-19</date>
+          <firstDate>2010-04-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Студенский Геннадий Викторович</fio>
+            <position>Генеральный директор</position>
+            <date>2007-07-20</date>
+            <firstDate>2007-07-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

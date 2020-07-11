@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623030420</inn>
+    <ogrn>1069623030730</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1069623030730</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>95017902</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоДом"</short>
+        <full>Общество с ограниченной ответственностью "АвтоДом"</full>
+        <date>2006-04-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622022</zipCode>
+          <kladrCode>660000230000245</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Краснознаменная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>59</topoValue>
+          </house>
+          <houseRaw>59</houseRaw>
+        </parsedAddressRF>
+        <date>2006-04-25</date>
+        <firstDate>2006-04-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-09-25</date>
+      </status>
+      <registrationDate>2006-04-25</registrationDate>
+      <dissolutionDate>2019-09-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галич Александр Евгеньевич</fio>
+          <innfl>662307929062</innfl>
+          <position>Директор</position>
+          <date>2013-12-12</date>
+          <firstDate>2013-12-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Гореленко Александр Кириллович</fio>
+            <innfl>662300362659</innfl>
+            <position>Директор</position>
+            <date>2006-04-25</date>
+            <firstDate>2006-04-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

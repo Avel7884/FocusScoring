@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3809007735</inn>
+    <ogrn>1023801025291</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023801025291</focusHref>
+    <UL>
+      <kpp>380801001</kpp>
+      <okpo>26082395</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО фирма "АДМ"</short>
+        <full>Общество с ограниченной ответственностью фирма "АДМ"</full>
+        <date>2003-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>664025</zipCode>
+          <kladrCode>380010010000108</kladrCode>
+          <regionCode>38</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Иркутская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Иркутск</topoValue>
+          </city>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Гагарина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <flat>
+            <topoValue>310</topoValue>
+          </flat>
+          <houseRaw>40</houseRaw>
+          <flatRaw>310</flatRaw>
+        </parsedAddressRF>
+        <date>2006-06-19</date>
+        <firstDate>2006-06-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-21</date>
+      </status>
+      <registrationDate>1993-02-03</registrationDate>
+      <dissolutionDate>2011-03-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кузаков Николай Николаевич</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2010-01-27</date>
+          <firstDate>2010-01-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

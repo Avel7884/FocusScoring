@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2348020401</inn>
+    <ogrn>1022304542468</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022304542468</focusHref>
+    <UL>
+      <kpp>234801001</kpp>
+      <okpo>05095991</okpo>
+      <okato>03243552000</okato>
+      <okfs>16</okfs>
+      <oktmo>03643152051</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авантаж"</short>
+        <full>Общество с ограниченной ответственностью "Авантаж"</full>
+        <date>2007-11-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>353235</zipCode>
+          <kladrCode>230290000070072</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Северский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Афипский</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Дорожная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-14</date>
+        <firstDate>2002-10-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-08-10</date>
+      </status>
+      <registrationDate>2000-11-20</registrationDate>
+      <dissolutionDate>2017-08-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Загурский Олег Юрьевич</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2015-06-26</date>
+          <firstDate>2015-06-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Ради Сергей Валерьевич</fio>
+            <position>Директор</position>
+            <date>2009-11-19</date>
+            <firstDate>2009-11-19</firstDate>
+          </head>
+          <head>
+            <fio>Кобелев Александр Алексеевич</fio>
+            <innfl>010600635908</innfl>
+            <position>Директор</position>
+            <date>2013-05-21</date>
+            <firstDate>2013-05-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

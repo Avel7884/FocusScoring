@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4220034370</inn>
+    <ogrn>1074200004009</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1074200004009</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>82740465</okpo>
+      <okopf>81</okopf>
+      <opf>Учреждения</opf>
+      <legalName>
+        <short>ЧОУ "АВТОШКОЛА "АВТОЛИДЕР"</short>
+        <full>ЧАСТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ "АВТОШКОЛА "АВТОЛИДЕР"</full>
+        <date>2007-07-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654007</zipCode>
+          <kladrCode>420000120000685</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Орджоникидзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <flat>
+            <topoValue>26</topoValue>
+          </flat>
+          <houseRaw>11</houseRaw>
+          <flatRaw>26</flatRaw>
+        </parsedAddressRF>
+        <date>2008-02-22</date>
+        <firstDate>2008-02-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация некоммерческой организации по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-12-19</date>
+      </status>
+      <registrationDate>2007-07-10</registrationDate>
+      <dissolutionDate>2012-12-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Трущенко Наталья Евгеньевна</fio>
+          <innfl>422002547950</innfl>
+          <position>Директор</position>
+          <date>2007-07-10</date>
+          <firstDate>2007-07-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

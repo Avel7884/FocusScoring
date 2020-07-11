@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6367000944</inn>
+    <ogrn>1036302391388</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036302391388</focusHref>
+    <UL>
+      <kpp>636701001</kpp>
+      <okpo>51875295</okpo>
+      <okato>36214557000</okato>
+      <okfs>16</okfs>
+      <oktmo>36614157051</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "РИЦ "Аверс"</short>
+        <full>Общество с ограниченной ответственностью "Региональный инструментальный центр "Аверс"</full>
+        <date>2003-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443548</zipCode>
+          <kladrCode>630280000440004</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Волжский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Смышляевка</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вокзальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>45</topoValue>
+          </house>
+          <flat>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>45</houseRaw>
+          <flatRaw>1</flatRaw>
+        </parsedAddressRF>
+        <date>2006-07-13</date>
+        <firstDate>2006-07-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-20</date>
+      </status>
+      <registrationDate>2000-01-10</registrationDate>
+      <dissolutionDate>2019-08-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Малькова Светлана Владимировна</fio>
+          <innfl>631410542815</innfl>
+          <position>Директор</position>
+          <date>2018-02-19</date>
+          <firstDate>2018-02-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Хромов Игорь Анатольевич</fio>
+            <innfl>631913916841</innfl>
+            <position>Директор</position>
+            <date>2003-08-07</date>
+            <firstDate>2003-08-07</firstDate>
+          </head>
+          <head>
+            <fio>Хромова Елена Игоревна</fio>
+            <innfl>631222956838</innfl>
+            <position>Директор</position>
+            <date>2012-04-19</date>
+            <firstDate>2012-04-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

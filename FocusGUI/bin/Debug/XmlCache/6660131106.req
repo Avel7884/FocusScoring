@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6660131106</inn>
+    <ogrn>1026604950866</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026604950866</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okpo>51817984</okpo>
+      <okato>65401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>65</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Акцептор плюс"</short>
+        <full>Общество с ограниченной ответственностью "Акцептор плюс"</full>
+        <date>2002-10-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620072</zipCode>
+          <kladrCode>660000010001011</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Сиреневый</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>59</topoValue>
+          </flat>
+          <houseRaw>4</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>59</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-24</date>
+        <firstDate>2002-10-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-04-29</date>
+      </status>
+      <registrationDate>1999-06-28</registrationDate>
+      <dissolutionDate>2005-04-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Тиханов Александр Альбертович</fio>
+          <innfl>666800530203</innfl>
+          <position>Директор</position>
+          <date>2002-10-24</date>
+          <firstDate>2002-10-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

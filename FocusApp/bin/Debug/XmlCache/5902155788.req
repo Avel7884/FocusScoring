@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5902155788</inn>
+    <ogrn>1065902055119</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1065902055119</focusHref>
+    <UL>
+      <kpp>590501001</kpp>
+      <okpo>95901846</okpo>
+      <okato>57401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>57701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ Синтез"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ Синтез"</full>
+        <date>2006-09-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614065</zipCode>
+          <kladrCode>590000010000974</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Промышленная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>110</topoValue>
+          </house>
+          <houseRaw>110</houseRaw>
+        </parsedAddressRF>
+        <date>2015-08-17</date>
+        <firstDate>2009-09-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-09-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Хусаинов Сергей Гарифуллович</fio>
+          <innfl>660702555706</innfl>
+          <position>Директор</position>
+          <date>2014-05-30</date>
+          <firstDate>2014-05-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бушмакин Павел Викторович</fio>
+            <innfl>590305125333</innfl>
+            <position>Директор</position>
+            <date>2009-09-09</date>
+            <firstDate>2009-09-09</firstDate>
+          </head>
+          <head>
+            <fio>Леснов Андрей Павлович</fio>
+            <innfl>594800278652</innfl>
+            <position>Директор</position>
+            <date>2009-09-09</date>
+            <firstDate>2009-09-09</firstDate>
+          </head>
+          <head>
+            <fio>Сеник Анатолий Андреевич</fio>
+            <innfl>590608156098</innfl>
+            <position>Директор</position>
+            <date>2013-10-04</date>
+            <firstDate>2013-10-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7720687076</inn>
+    <ogrn>1107746436841</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746436841</focusHref>
+    <UL>
+      <kpp>772001001</kpp>
+      <okpo>66818593</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ АВАНГАРД"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ АВАНГАРД"</full>
+        <date>2010-05-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111394</zipCode>
+          <kladrCode>770000000000430</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Перовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>67</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>6</topoValue>
+          </bulk>
+          <houseRaw>67</houseRaw>
+          <bulkRaw>СТР 6</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-09-29</date>
+        <firstDate>2010-09-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-04-02</date>
+      </status>
+      <registrationDate>2010-05-27</registrationDate>
+      <dissolutionDate>2012-04-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Котышкова Валентина Николаевна</fio>
+          <innfl>342898448554</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-03-16</date>
+          <firstDate>2012-03-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Медведев Андрей Александрович</fio>
+            <innfl>212709968608</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-05-27</date>
+            <firstDate>2010-05-27</firstDate>
+          </head>
+          <head>
+            <fio>Казаков Евгений Николаевич</fio>
+            <position>Генеральный директор</position>
+            <date>2011-10-06</date>
+            <firstDate>2011-10-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

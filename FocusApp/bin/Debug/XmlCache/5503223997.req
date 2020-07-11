@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5503223997</inn>
+    <ogrn>1105543034937</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1105543034937</focusHref>
+    <UL>
+      <kpp>550301001</kpp>
+      <okpo>67380839</okpo>
+      <okato>52401382000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКЦ "Промжелдортранс"</short>
+        <full>Общество с ограниченной ответственностью "Промышленно-коммерческий центр "Промжелдортранс"</full>
+        <date>2010-11-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644052</zipCode>
+          <kladrCode>550000010000036</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>21-Я Амурская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6А</topoValue>
+          </house>
+          <houseRaw>ДОМ 6 А</houseRaw>
+        </parsedAddressRF>
+        <date>2010-11-12</date>
+        <firstDate>2010-11-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-11-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Дроздов Олег Витальевич</fio>
+          <innfl>550600611293</innfl>
+          <position>Директор</position>
+          <date>2016-07-08</date>
+          <firstDate>2016-07-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>644052</zipCode>
+              <kladrCode>550000010000036</kladrCode>
+              <regionCode>55</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Омская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Омск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Амурская 21-я</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>6А</topoValue>
+              </house>
+              <houseRaw>ДОМ 6 А</houseRaw>
+            </parsedAddressRF>
+            <date>2010-11-12</date>
+            <firstDate>2010-11-12</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Горбатенко Юрий Владимирович</fio>
+            <innfl>550508231204</innfl>
+            <position>Директор</position>
+            <date>2014-03-12</date>
+            <firstDate>2010-11-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

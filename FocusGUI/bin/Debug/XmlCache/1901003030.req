@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1901003030</inn>
+    <ogrn>1021900529375</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021900529375</focusHref>
+    <UL>
+      <kpp>190101001</kpp>
+      <okpo>16270612</okpo>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "АЭМЗ"</short>
+        <full>Открытое акционерное общество "Абаканский экспериментально-механический завод"</full>
+        <date>2002-11-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655015</zipCode>
+          <kladrCode>190000010000017</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абакан</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Буденного</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>86</topoValue>
+          </house>
+          <houseRaw>86</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-01</date>
+        <firstDate>2002-11-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-07-28</date>
+      </status>
+      <registrationDate>1993-02-01</registrationDate>
+      <dissolutionDate>2009-07-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Харитонов Виктор Николаевич</fio>
+          <position>И. О. Конкурсного Управляющего</position>
+          <date>2007-07-23</date>
+          <firstDate>2007-07-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

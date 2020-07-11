@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7814004110</inn>
+    <ogrn>1027807984302</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027807984302</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>03084078</okpo>
+      <okato>40296000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40902000000</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АВТОТЕХОБСЛУЖИВАНИЕ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АВТОТЕХОБСЛУЖИВАНИЕ"</full>
+        <date>2018-07-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192102</zipCode>
+          <kladrCode>780000000001239</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Салова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>68</topoValue>
+          </house>
+          <houseRaw>ДОМ 68</houseRaw>
+        </parsedAddressRF>
+        <date>2018-07-19</date>
+        <firstDate>2002-10-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-06-06</date>
+      </status>
+      <registrationDate>1993-01-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Смоляков Константин Васильевич</fio>
+          <innfl>782505135405</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2019-06-06</date>
+          <firstDate>2002-10-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "Автотехобслуживание"</short>
+            <full>Закрытое акционерное общество "Автотехобслуживание"</full>
+            <date>2002-10-30</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

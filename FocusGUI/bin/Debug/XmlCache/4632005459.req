@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4632005459</inn>
+    <ogrn>1024600957920</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024600957920</focusHref>
+    <UL>
+      <kpp>463201001</kpp>
+      <okpo>04032008</okpo>
+      <okato>38401365000</okato>
+      <okfs>14</okfs>
+      <oktmo>38701000001</oktmo>
+      <okogu>4210007</okogu>
+      <okopf>65143</okopf>
+      <opf>Муниципальные казенные предприятия</opf>
+      <legalName>
+        <short>МКП "УКС администрации города Курска"</short>
+        <full>Муниципальное казенное предприятие "Управление капитального строительства администрации города Курска"</full>
+        <date>2007-03-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>305016</zipCode>
+          <kladrCode>460000010000684</kladrCode>
+          <regionCode>46</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Курская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Курск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>47А</topoValue>
+          </house>
+          <houseRaw>47А</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-21</date>
+        <firstDate>2003-01-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-05-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Фомкин Роман Владимирович</fio>
+          <innfl>463205709836</innfl>
+          <position>Директор</position>
+          <date>2015-10-14</date>
+          <firstDate>2015-10-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Маслов Владимир Александрович</fio>
+            <innfl>463001891523</innfl>
+            <position>Директор</position>
+            <date>2008-06-16</date>
+            <firstDate>2008-06-16</firstDate>
+          </head>
+          <head>
+            <fio>Самсонников Виктор Иванович</fio>
+            <innfl>463200889007</innfl>
+            <position>Исполняющий обязанности директора</position>
+            <date>2012-03-15</date>
+            <firstDate>2012-03-15</firstDate>
+          </head>
+          <head>
+            <fio>Никитченков Виктор Иванович</fio>
+            <innfl>463216177083</innfl>
+            <position>Директор</position>
+            <date>2012-04-19</date>
+            <firstDate>2012-04-19</firstDate>
+          </head>
+          <head>
+            <fio>Рязанцев Олег Валерьевич</fio>
+            <innfl>463209173144</innfl>
+            <position>Исполняющий Обязанности Директора</position>
+            <date>2014-12-03</date>
+            <firstDate>2014-05-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

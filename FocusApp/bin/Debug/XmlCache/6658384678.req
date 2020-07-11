@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658384678</inn>
+    <ogrn>1116658010259</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1116658010259</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okpo>91906829</okpo>
+      <okato>65401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ Меткомсталь"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ Меткомсталь"</full>
+        <date>2012-10-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620014</zipCode>
+          <kladrCode>660000010001272</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шевелева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>84</topoValue>
+          </flat>
+          <houseRaw>7</houseRaw>
+          <flatRaw>КВАРТИРА 84</flatRaw>
+        </parsedAddressRF>
+        <date>2014-11-28</date>
+        <firstDate>2014-11-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-02-18</date>
+      </status>
+      <registrationDate>2011-05-13</registrationDate>
+      <dissolutionDate>2019-02-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бурнатова Сусанна Владимировна</fio>
+          <innfl>660608086736</innfl>
+          <position>Директор</position>
+          <date>2018-09-26</date>
+          <firstDate>2017-08-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО ПКФ "Комосталь"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью ПКФ "Комосталь"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>620102</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Екатеринбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Пальмиро Тольятти</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>11А</topoValue>
+              </house>
+              <flat>
+                <topoShortName>кв</topoShortName>
+                <topoFullName>квартира</topoFullName>
+                <topoValue>89</topoValue>
+              </flat>
+              <houseRaw>11 А</houseRaw>
+              <flatRaw>кв. 89</flatRaw>
+            </parsedAddressRF>
+            <date>2011-05-13</date>
+            <firstDate>2011-05-13</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Екенин Александр Анатольевич</fio>
+            <innfl>664601355031</innfl>
+            <position>Директор</position>
+            <date>2011-05-13</date>
+            <firstDate>2011-05-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

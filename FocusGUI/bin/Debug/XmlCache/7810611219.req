@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7810611219</inn>
+    <ogrn>1027804846420</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027804846420</focusHref>
+    <UL>
+      <kpp>781001001</kpp>
+      <okpo>20818004</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АГРОЭСКОРТ"</short>
+        <full>Закрытое акционерное общество "АГРОЭСКОРТ"</full>
+        <date>2002-07-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>196084</zipCode>
+          <kladrCode>780000000000536</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Киевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Е</topoValue>
+          </bulk>
+          <houseRaw>16</houseRaw>
+          <bulkRaw>ЛИТ. Е</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-05-20</date>
+        <firstDate>2009-05-20</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>180020</zipCode>
+            <kladrCode>600000010000121</kladrCode>
+            <regionCode>60</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Псковская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Псков</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Леона Поземского</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>121</topoValue>
+            </house>
+            <flat>
+              <topoShortName>пом</topoShortName>
+              <topoFullName>помещение</topoFullName>
+              <topoValue>1002</topoValue>
+            </flat>
+            <houseRaw>121</houseRaw>
+            <flatRaw>ПОМ.1002</flatRaw>
+          </parsedAddressRF>
+          <date>2007-11-02</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-11-20</date>
+      </status>
+      <registrationDate>1995-12-15</registrationDate>
+      <dissolutionDate>2014-11-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Письман Борис Исаакович</fio>
+          <innfl>782610810507</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-10-04</date>
+          <firstDate>2007-10-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707506740</inn>
+    <ogrn>1037739989484</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739989484</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>71327101</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВИТЕСС 19"</short>
+        <full>Общество с ограниченной ответственностью "АВИТЕСС 19"</full>
+        <date>2003-11-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127055</zipCode>
+          <kladrCode>770000000000533</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новослободская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36/1</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>36/1</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-11-24</date>
+        <firstDate>2003-11-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-07-14</date>
+      </status>
+      <registrationDate>2003-11-24</registrationDate>
+      <dissolutionDate>2014-07-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Касимов Максим Радикович</fio>
+          <innfl>182908553279</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-03-31</date>
+          <firstDate>2006-03-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

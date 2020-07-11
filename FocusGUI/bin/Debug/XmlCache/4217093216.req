@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217093216</inn>
+    <ogrn>1074217004180</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1074217004180</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>80300740</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АДК "НовоКом"</short>
+        <full>Общество с ограниченной ответственностью "Агентство Деловых Коммуникаций "НовоКом"</full>
+        <date>2007-05-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654005</zipCode>
+          <kladrCode>420000120000685</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Орджоникидзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28А</topoValue>
+          </house>
+          <flat>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>28 А</houseRaw>
+          <flatRaw>5</flatRaw>
+        </parsedAddressRF>
+        <date>2010-01-12</date>
+        <firstDate>2010-01-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-09-10</date>
+      </status>
+      <registrationDate>2007-05-17</registrationDate>
+      <dissolutionDate>2014-09-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Смагин Павел Борисович</fio>
+          <innfl>421703102001</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-04-15</date>
+          <firstDate>2011-04-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

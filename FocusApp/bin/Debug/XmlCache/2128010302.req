@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2128010302</inn>
+    <ogrn>1022101151291</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022101151291</focusHref>
+    <UL>
+      <kpp>213001001</kpp>
+      <okpo>24367722</okpo>
+      <okato>97401000000</okato>
+      <okfs>34</okfs>
+      <oktmo>97701000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АББ Силовые и Автоматизированные Системы"</short>
+        <full>Общество с ограниченной ответственностью "АББ Силовые и Автоматизированные Системы"</full>
+        <date>2010-03-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>428020</zipCode>
+          <kladrCode>210000010000507</kladrCode>
+          <regionCode>21</regionCode>
+          <regionName>
+            <topoShortName>чувашия</topoShortName>
+            <topoFullName>чувашия</topoFullName>
+            <topoValue>Чувашская Республика</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Чебоксары</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>И.Я.Яковлева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2016-03-30</date>
+        <firstDate>2008-12-23</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>САНКТ-ПЕТЕРБУРГСКОЕ ПРЕДСТАВИТЕЛЬСТВО "АББ СИЛОВЫЕ И АВТОМАТИЗИРОВАННЫЕ СИСТЕМЫ"</name>
+          <parsedAddressRF>
+            <zipCode>194044</zipCode>
+            <kladrCode>780000000000292</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Гельсингфорсская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>2</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>лит</topoShortName>
+              <topoFullName>литера</topoFullName>
+              <topoValue>А</topoValue>
+            </bulk>
+            <houseRaw>2</houseRaw>
+            <bulkRaw>ЛИТЕР А</bulkRaw>
+          </parsedAddressRF>
+          <date>2013-02-06</date>
+        </branch>
+        <branch>
+          <name>МОСКОВСКОЕ ПРЕДСТАВИТЕЛЬСТВО "АББ СИЛОВЫЕ И АВТОМАТИЗИРОВАННЫЕ СИСТЕМЫ"</name>
+          <parsedAddressRF>
+            <zipCode>111024</zipCode>
+            <kladrCode>770000000000244</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Кабельная 2-я</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>2</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>3</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 2</houseRaw>
+            <bulkRaw>СТРОЕНИЕ 3</bulkRaw>
+          </parsedAddressRF>
+          <date>2015-12-08</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-06-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Фильшин Максим Валерьевич</fio>
+          <innfl>772819073104</innfl>
+          <position>Президент</position>
+          <date>2014-06-06</date>
+          <firstDate>2014-06-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Малбашич Горан</fio>
+            <position>Президент</position>
+            <date>2010-03-23</date>
+            <firstDate>2010-03-23</firstDate>
+          </head>
+          <head>
+            <fio>Дзежак Яцек Артур</fio>
+            <position>Президент</position>
+            <date>2013-05-27</date>
+            <firstDate>2013-05-27</firstDate>
+          </head>
+          <head>
+            <fio>Черников Юрий Николаевич</fio>
+            <innfl>771909032069</innfl>
+            <position>Президент</position>
+            <date>2013-02-06</date>
+            <firstDate>2013-02-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

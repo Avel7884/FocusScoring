@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5208002750</inn>
+    <ogrn>1025202122550</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202122550</focusHref>
+    <UL>
+      <kpp>520801001</kpp>
+      <okpo>43012255</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Абразив"</short>
+        <full>Общество с ограниченной ответственностью "Абразив"</full>
+        <date>2002-11-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>606150</zipCode>
+          <kladrCode>520120000010001</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Вачский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>рп</topoShortName>
+            <topoFullName>рабочий поселок</topoFullName>
+            <topoValue>Вача</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Больничная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <houseRaw>18</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-01</date>
+        <firstDate>2002-11-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-01-28</date>
+      </status>
+      <registrationDate>1997-08-13</registrationDate>
+      <dissolutionDate>2011-01-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Морозова Татьяна Владимировна</fio>
+          <innfl>524600911866</innfl>
+          <position>Председатель ликвидационной комиссии</position>
+          <date>2010-05-21</date>
+          <firstDate>2010-05-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

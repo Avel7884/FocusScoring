@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6321108141</inn>
+    <ogrn>1026302004519</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026302004519</focusHref>
+    <UL>
+      <kpp>632101001</kpp>
+      <okpo>20970002</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "В.ВАЗ.С."</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ВЯТКАВАЗСЕРВИС"</full>
+        <date>2002-12-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>445039</zipCode>
+          <kladrCode>630000070000051</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тольятти</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>40 лет Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>96</topoValue>
+          </house>
+          <flat>
+            <topoValue>411А</topoValue>
+          </flat>
+          <houseRaw>96</houseRaw>
+          <flatRaw>411А</flatRaw>
+        </parsedAddressRF>
+        <date>2007-09-11</date>
+        <firstDate>2007-09-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-05-25</date>
+      </status>
+      <registrationDate>2002-03-26</registrationDate>
+      <dissolutionDate>2011-05-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гатауллин Иршат Гильмутдинович</fio>
+          <innfl>163700128725</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2010-12-24</date>
+          <firstDate>2010-12-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

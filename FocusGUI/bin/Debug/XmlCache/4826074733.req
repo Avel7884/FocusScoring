@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4826074733</inn>
+    <ogrn>1104823013844</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1104823013844</focusHref>
+    <UL>
+      <kpp>482601001</kpp>
+      <okpo>67876380</okpo>
+      <okato>42401375000</okato>
+      <okfs>13</okfs>
+      <oktmo>42701000001</oktmo>
+      <okogu>2300280</okogu>
+      <okopf>75203</okopf>
+      <opf>Государственные бюджетные учреждения субъектов Российской Федерации</opf>
+      <legalName>
+        <short>Г(О)БУ "УПРАВЛЕНИЕ ГПСС ЛИПЕЦКОЙ ОБЛАСТИ"</short>
+        <full>Государственное (областное) бюджетное учреждение "Управление государственной противопожарной спасательной службы Липецкой области"</full>
+        <date>2014-11-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>398902</zipCode>
+          <kladrCode>480000010000875</kladrCode>
+          <regionCode>48</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Липецкая</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Липецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ангарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>влд</topoShortName>
+            <topoFullName>владение</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>ВЛАДЕНИЕ 1</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2014-11-18</date>
+        <firstDate>2014-11-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-10-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Астахов Сергей Вячеславович</fio>
+          <innfl>482403887969</innfl>
+          <position>Начальник</position>
+          <date>2018-04-09</date>
+          <firstDate>2010-10-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>Г(О)БУ "Управление ГПСС"</short>
+            <date>2011-09-21</date>
+          </legalName>
+          <legalName>
+            <short>ГОУ "Управление ГПСС"</short>
+          </legalName>
+          <legalName>
+            <full>Государственное (областное) учреждение "Управление государственной противопожарной спасательной службы Липецкой области"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>398032</zipCode>
+              <kladrCode>480000010000374</kladrCode>
+              <regionCode>48</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Липецкая</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Липецк</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Московская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>29</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>29</houseRaw>
+              <bulkRaw>СТРОЕНИЕ А</bulkRaw>
+            </parsedAddressRF>
+            <date>2010-10-18</date>
+            <firstDate>2010-10-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

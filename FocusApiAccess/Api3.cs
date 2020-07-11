@@ -49,7 +49,7 @@ namespace FocusApiAccess
         }
 
         public static Type GetType(ApiMethodEnum eValue)
-        {
+        {   // TODO implement switch
             return typeof(Api3).GetProperty(eValue.ToString())?.PropertyType.GenericTypeArguments[0];
         }
         

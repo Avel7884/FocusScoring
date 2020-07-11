@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7704139202</inn>
+    <ogrn>1037739239207</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739239207</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>63626261</okpo>
+      <okato>45280552000</okato>
+      <okfs>16</okfs>
+      <oktmo>45349000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>НПО "АЛТА"</short>
+        <full>Негосударственное образовательное учреждение "Научно-педагогическое общество "АЛТА"</full>
+        <date>2003-01-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129278</zipCode>
+          <kladrCode>770000000003329</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Павла Корчагина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2/1</topoValue>
+          </house>
+          <flat>
+            <topoValue>122</topoValue>
+          </flat>
+          <houseRaw>2/1</houseRaw>
+          <flatRaw>122</flatRaw>
+        </parsedAddressRF>
+        <date>2003-01-27</date>
+        <firstDate>2003-01-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-06-07</date>
+      </status>
+      <registrationDate>1995-11-09</registrationDate>
+      <dissolutionDate>2019-06-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Абрамов Александр Львович</fio>
+          <innfl>771703244260</innfl>
+          <position>Директор</position>
+          <date>2003-01-27</date>
+          <firstDate>2003-01-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

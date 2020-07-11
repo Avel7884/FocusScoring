@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714101920</inn>
+    <ogrn>1037739050436</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739050436</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>42969956</okpo>
+      <okato>45277553000</okato>
+      <okfs>16</okfs>
+      <oktmo>45333000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "НПО "АВИАИСТОК"</short>
+        <full>Закрытое акционерное общество "Научно-производственное объединение "АВИАИСТОК"</full>
+        <date>2003-01-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125167</zipCode>
+          <kladrCode>770000000001577</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноармейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>4</houseRaw>
+        </parsedAddressRF>
+        <date>2016-05-25</date>
+        <firstDate>2003-01-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-10-02</date>
+      </status>
+      <registrationDate>1996-08-08</registrationDate>
+      <dissolutionDate>2019-10-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Беляков Владимир Савельевич</fio>
+          <innfl>771521395265</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-04-13</date>
+          <firstDate>2003-01-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125167</zipCode>
+              <kladrCode>770000000001577</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Красноармейская улица</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <houseRaw>4</houseRaw>
+            </parsedAddressRF>
+            <date>2016-05-14</date>
+            <firstDate>2016-05-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

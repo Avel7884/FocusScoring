@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2320146370</inn>
+    <ogrn>1062320046062</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1062320046062</focusHref>
+    <UL>
+      <kpp>232001001</kpp>
+      <okpo>98814332</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агис-Сочи"</short>
+        <full>Общество с ограниченной ответственностью "Агис-Сочи"</full>
+        <date>2006-12-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>354000</zipCode>
+          <kladrCode>230000070000310</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сочи</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кубанская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А2</topoValue>
+          </bulk>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>А 2</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-12-27</date>
+        <firstDate>2006-12-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-07-27</date>
+      </status>
+      <registrationDate>2006-12-27</registrationDate>
+      <dissolutionDate>2011-07-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ажнакин Роман Сергеевич</fio>
+          <innfl>615414021871</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-12-05</date>
+          <firstDate>2007-12-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6166096643</inn>
+    <ogrn>1156196063913</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1156196063913</focusHref>
+    <UL>
+      <kpp>616601001</kpp>
+      <okpo>24243486</okpo>
+      <okato>60401378000</okato>
+      <okfs>16</okfs>
+      <oktmo>60701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "СПЕЦАВТОТЕХНИКА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ "СПЕЦАВТОТЕХНИКА"</full>
+        <date>2015-10-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>344065</zipCode>
+          <kladrCode>610000010000283</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ростов-на-Дону</topoValue>
+          </city>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Беломорский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>7</topoValue>
+          </flat>
+          <houseRaw>ДОМ 18</houseRaw>
+          <flatRaw>ОФИС 7</flatRaw>
+        </parsedAddressRF>
+        <date>2015-10-16</date>
+        <firstDate>2015-10-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-10-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Гучев Роман Юрьевич</fio>
+          <innfl>610104938066</innfl>
+          <position>Директор</position>
+          <date>2015-10-16</date>
+          <firstDate>2015-10-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

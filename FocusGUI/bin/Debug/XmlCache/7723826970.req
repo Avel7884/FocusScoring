@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7723826970</inn>
+    <ogrn>1127746072190</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127746072190</focusHref>
+    <UL>
+      <kpp>772401001</kpp>
+      <okpo>38320724</okpo>
+      <okato>45296553000</okato>
+      <okfs>16</okfs>
+      <oktmo>45911000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ РОНА"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма РОНА"</full>
+        <date>2012-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115404</zipCode>
+          <kladrCode>770000000003801</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Радиальная 6-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 17</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 2</bulkRaw>
+        </parsedAddressRF>
+        <date>2014-12-09</date>
+        <firstDate>2014-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-02-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Еськин Роман Николаевич</fio>
+          <innfl>772328556452</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-10-23</date>
+          <firstDate>2014-04-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772301001</kpp>
+            <date>2012-02-07</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>109382</zipCode>
+              <kladrCode>770000000000082</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Люблинская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>72</topoValue>
+              </house>
+              <houseRaw>72</houseRaw>
+            </parsedAddressRF>
+            <date>2012-02-07</date>
+            <firstDate>2012-02-07</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Савенко Наталия Анатольевна</fio>
+            <position>Генеральный директор</position>
+            <date>2013-09-13</date>
+            <firstDate>2012-02-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

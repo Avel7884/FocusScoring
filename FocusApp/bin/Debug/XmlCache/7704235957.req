@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7704235957</inn>
+    <ogrn>1037700177800</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037700177800</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>45124567</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алтайвагонснаб"</short>
+        <full>Общество с Ограниченной Ответственностью "Алтайвагонснаб"</full>
+        <date>2003-02-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650099</zipCode>
+          <kladrCode>420000090000428</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Николая Островского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>501</topoValue>
+          </flat>
+          <houseRaw>12</houseRaw>
+          <flatRaw>ОФИС 501</flatRaw>
+        </parsedAddressRF>
+        <date>2010-05-20</date>
+        <firstDate>2010-05-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-12-20</date>
+      </status>
+      <registrationDate>2002-01-28</registrationDate>
+      <dissolutionDate>2012-12-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Овчинников Алексей Николаевич</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2012-01-30</date>
+          <firstDate>2012-01-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бунина Наталья Владимировна</fio>
+            <innfl>420518492404</innfl>
+            <position>Директор</position>
+            <date>2010-05-20</date>
+            <firstDate>2010-05-20</firstDate>
+          </head>
+          <head>
+            <fio>Медведева Елена Анатольевна</fio>
+            <innfl>420536863362</innfl>
+            <position>Председатель Ликвидационной Комиссии</position>
+            <date>2011-10-20</date>
+            <firstDate>2011-10-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

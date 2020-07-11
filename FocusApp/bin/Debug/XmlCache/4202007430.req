@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4202007430</inn>
+    <ogrn>1024200543542</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024200543542</focusHref>
+    <UL>
+      <kpp>420201001</kpp>
+      <okpo>04029673</okpo>
+      <okato>32407000000</okato>
+      <okfs>14</okfs>
+      <oktmo>32707000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Беловского городского округа</full>
+        <date>2010-10-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652600</zipCode>
+          <kladrCode>420000150000212</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <houseRaw>21</houseRaw>
+        </parsedAddressRF>
+        <date>2012-01-11</date>
+        <firstDate>2010-11-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-10-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Курносов Алексей Викторович</fio>
+          <innfl>420200875606</innfl>
+          <position>Глава Беловского Городского Округа</position>
+          <date>2018-12-22</date>
+          <firstDate>2014-03-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Гусаров Игорь Анатольевич</fio>
+            <innfl>421204085135</innfl>
+            <position>Глава Беловского городского округа</position>
+            <date>2012-01-11</date>
+            <firstDate>2011-02-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>8</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

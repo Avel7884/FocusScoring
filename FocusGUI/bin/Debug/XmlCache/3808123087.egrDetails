@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>3808123087</inn>
+    <ogrn>1053808089653</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1053808089653</focusHref>
+    <UL>
+      <okpo>77606598</okpo>
+      <pfrRegNumber>048027074164</pfrRegNumber>
+      <fssRegNumber>380200828638141</fssRegNumber>
+      <fomsRegNumber>250000500725218</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>18.12</code>
+          <text>Прочие виды полиграфической деятельности</text>
+          <date>2005-07-19</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>41.2</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2011-10-14</date>
+          </activity>
+          <activity>
+            <code>43.12</code>
+            <text>Подготовка строительной площадки</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>43.2</code>
+            <text>Производство электромонтажных, санитарно-технических и прочих строительно-монтажных работ</text>
+            <date>2011-10-14</date>
+          </activity>
+          <activity>
+            <code>43.3</code>
+            <text>Работы строительные отделочные</text>
+            <date>2011-10-14</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>45.2</code>
+            <text>Техническое обслуживание и ремонт автотранспортных средств</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>45.3</code>
+            <text>Торговля автомобильными деталями, узлами и принадлежностями</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>46.1</code>
+            <text>Торговля оптовая за вознаграждение или на договорной основе</text>
+            <date>2011-10-14</date>
+          </activity>
+          <activity>
+            <code>46.3</code>
+            <text>Торговля оптовая пищевыми продуктами, напитками и табачными изделиями</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>46.4</code>
+            <text>Торговля оптовая непродовольственными потребительскими товарами</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>46.6</code>
+            <text>Торговля оптовая прочими машинами, оборудованием и принадлежностями</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>46.7</code>
+            <text>Торговля оптовая специализированная прочая</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>47.1</code>
+            <text>Торговля розничная в неспециализированных магазинах</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>47.2</code>
+            <text>Торговля розничная пищевыми продуктами, напитками и табачными изделиями в специализированных магазинах</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>47.30</code>
+            <text>Торговля розничная моторным топливом в специализированных магазинах</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>47.5</code>
+            <text>Торговля розничная прочими бытовыми изделиями в специализированных магазинах</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>47.73</code>
+            <text>Торговля розничная лекарственными средствами в специализированных магазинах (аптеках)</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>47.74</code>
+            <text>Торговля розничная изделиями, применяемыми в медицинских целях, ортопедическими изделиями в специализированных магазинах</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>47.75</code>
+            <text>Торговля розничная косметическими и товарами личной гигиены в специализированных магазинах</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>47.79</code>
+            <text>Торговля розничная бывшими в употреблении товарами в магазинах</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>47.9</code>
+            <text>Торговля розничная вне магазинов, палаток, рынков</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>49.3</code>
+            <text>Деятельность прочего сухопутного пассажирского транспорта</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>49.4</code>
+            <text>Деятельность автомобильного грузового транспорта и услуги по перевозкам</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>52.10</code>
+            <text>Деятельность по складированию и хранению</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>52.24</code>
+            <text>Транспортная обработка грузов</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>52.29</code>
+            <text>Деятельность вспомогательная прочая, связанная с перевозками</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>56.10</code>
+            <text>Деятельность ресторанов и услуги по доставке продуктов питания</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>56.10.1</code>
+            <text>Деятельность ресторанов и кафе с полным ресторанным обслуживанием, кафетериев, ресторанов быстрого питания и самообслуживания</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>56.10.3</code>
+            <text>Деятельность ресторанов и баров по обеспечению питанием в железнодорожных вагонах-ресторанах и на судах</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>58.11.1</code>
+            <text>Издание книг, брошюр, рекламных буклетов и аналогичных изданий, включая издание словарей и энциклопедий, в том числе для слепых, в печатном виде</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>63.11.1</code>
+            <text>Деятельность по созданию и использованию баз данных и информационных ресурсов</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>64.19</code>
+            <text>Денежное посредничество прочее</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>64.9</code>
+            <text>Деятельность по предоставлению прочих финансовых услуг, кроме услуг по страхованию и пенсионному обеспечению</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>64.99</code>
+            <text>Предоставление прочих финансовых услуг, кроме услуг по страхованию и пенсионному обеспечению, не включенных в другие группировки</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>66.11.2</code>
+            <text>Управление и контроль за деятельностью фондовых, товарных, валютных и валютно-фондовых бирж</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>66.12.1</code>
+            <text>Деятельность биржевых посредников и биржевых брокеров, совершающих товарные фьючерсные и опционные сделки в биржевой торговле</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>68.2</code>
+            <text>Аренда и управление собственным или арендованным недвижимым имуществом</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>68.3</code>
+            <text>Операции с недвижимым имуществом за вознаграждение или на договорной основе</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>70.22</code>
+            <text>Консультирование по вопросам коммерческой деятельности и управления</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>71.1</code>
+            <text>Деятельность в области архитектуры, инженерных изысканий и предоставление технических консультаций в этих областях</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>71.12.5</code>
+            <text>Деятельность в области гидрометеорологии и смежных с ней областях, мониторинга состояния окружающей среды, ее загрязнения</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>71.12.6</code>
+            <text>Деятельность в области технического регулирования, стандартизации, метрологии, аккредитации, каталогизации продукции</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>73.11</code>
+            <text>Деятельность рекламных агентств</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>77.11</code>
+            <text>Аренда и лизинг легковых автомобилей и легких автотранспортных средств</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>77.2</code>
+            <text>Прокат и аренда предметов личного пользования и хозяйственно-бытового назначения</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>77.3</code>
+            <text>Аренда и лизинг прочих машин и оборудования и материальных средств</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>77.39</code>
+            <text>Аренда и лизинг прочих видов транспорта, оборудования и материальных средств, не включенных в другие группировки</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>79.11</code>
+            <text>Деятельность туристических агентств</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>82.99</code>
+            <text>Деятельность по предоставлению прочих вспомогательных услуг для бизнеса, не включенная в другие группировки</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>93.29.9</code>
+            <text>Деятельность зрелищно-развлекательная прочая, не включенная в другие группировки</text>
+            <date>2005-07-19</date>
+          </activity>
+          <activity>
+            <code>96.04</code>
+            <text>Деятельность физкультурно-оздоровительная</text>
+            <date>2005-07-19</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2005-07-19</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>3817</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 9 по Иркутской области</nalogName>
+        <nalogRegDate>2011-10-14</nalogRegDate>
+        <kpp>381701001</kpp>
+        <date>2017-01-25</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>3850</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 17 по Иркутской области</nalogName>
+        <date>2014-05-23</date>
+      </regBody>
+      <statedCapital>
+        <sum>20000</sum>
+        <date>2011-10-14</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Чебоксарова Юлия Владимировна</fio>
+          <innfl>381708521805</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>50</percentagePlain>
+          </share>
+          <date>2011-10-14</date>
+          <firstDate>2011-10-14</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1053808089653</ogrn>
+          <inn>3808123087</inn>
+          <fullName>ООО "Авис-Арм"</fullName>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>50</percentagePlain>
+          </share>
+          <date>2012-05-04</date>
+          <firstDate>2012-05-04</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2173850087156</grn>
+          <date>2017-01-25</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2163850714344</grn>
+          <date>2016-10-10</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2016-05-26</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2016-05-26</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2016-06-10</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2163850463126</grn>
+          <date>2016-06-10</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2016-06-10</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2163850459727</grn>
+          <date>2016-06-09</date>
+          <name>Признание записи в ЕГРЮЛ недействительной</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2153850642328</grn>
+          <date>2015-11-11</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2143850799893</grn>
+          <date>2014-09-09</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных ФЛ (по данным ФМС России)</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2143850715347</grn>
+          <date>2014-07-29</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2143817003010</grn>
+          <date>2014-02-06</date>
+          <name>Признание записи в ЕГРЮЛ недействительной</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2143817002987</grn>
+          <date>2014-02-06</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <isInvalid>true</isInvalid>
+          <invalidSince>2014-02-06</invalidSince>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии в течение последних 12 месяцев движения по б/счетам или об отсутствии у ЮЛ открытых б/счетов</name>
+              <date>2013-10-10</date>
+            </document>
+            <document>
+              <name>Cправка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2013-10-10</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2133817022502</grn>
+          <date>2013-10-11</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <isInvalid>true</isInvalid>
+          <invalidSince>2016-06-09</invalidSince>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействующего юридического лица из единого государственного реестра юридических лиц</name>
+              <date>2013-10-11</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2133817014550</grn>
+          <date>2013-06-27</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2123817006828</grn>
+          <date>2012-05-04</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Иной документ в соответствии с законодательством РФ(заявление о выходе из общества)</name>
+              <date>2012-04-25</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+              <date>2012-04-24</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>38 003075032</serialNumber>
+              <date>2012-05-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2123817000305</grn>
+          <date>2012-01-12</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2113817053040</grn>
+          <date>2011-12-21</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2113817047991</grn>
+          <date>2011-10-27</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2113817047749</grn>
+          <date>2011-10-20</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2113817047650</grn>
+          <date>2011-10-19</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 9 по Иркутской Области</regName>
+          <regCode>3817</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2113850485846</grn>
+          <date>2011-10-14</date>
+          <name>Признание записи в ЕГРЮЛ недействительной</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2113850485791</grn>
+          <date>2011-10-14</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2113850485780</grn>
+          <date>2011-10-14</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2011-10-07</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2011-09-27</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2011-10-07</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников ЮЛ</name>
+              <date>2011-10-07</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2011-10-07</date>
+            </document>
+            <document>
+              <name>Заявление о принятии в об-во</name>
+              <date>2011-10-07</date>
+            </document>
+            <document>
+              <name>Квитанция к ПКО (копия)</name>
+              <date>2011-10-07</date>
+            </document>
+            <document>
+              <name>Справка</name>
+              <date>2011-10-07</date>
+            </document>
+            <document>
+              <name>Договор аренды (копия)</name>
+              <date>2011-10-07</date>
+            </document>
+            <document>
+              <name>Св-во (копия)</name>
+              <date>2011-10-07</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2011-10-07</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>38 003249173</serialNumber>
+              <date>2011-10-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2113850485770</grn>
+          <date>2011-10-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2011-10-07</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>38 003249172</serialNumber>
+              <date>2011-10-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2103850406009</grn>
+          <date>2010-07-20</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2010-07-14</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2010-07-14</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2010-07-14</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2010-07-14</date>
+            </document>
+            <document>
+              <name>Догововр аренды</name>
+              <date>2010-07-14</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2010-07-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>38 003157185</serialNumber>
+              <date>2010-07-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2103850107942</grn>
+          <date>2010-02-17</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2103850031899</grn>
+          <date>2010-01-26</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2103850031888</grn>
+          <date>2010-01-26</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2093850459932</grn>
+          <date>2009-10-23</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Иркутской Области</regName>
+          <regCode>3850</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2009-10-16</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2009-10-16</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2009-10-16</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2009-10-16</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2009-10-06</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>38 003007868</serialNumber>
+              <date>2009-10-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2073808162965</grn>
+          <date>2007-08-20</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Правобережному Округу г.Иркутска</regName>
+          <regCode>3808</regCode>
+          <documents>
+            <document>
+              <name>P13001 заявление об изм.сведений, вносимых в учред.докум.</name>
+              <date>2007-08-14</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-08-14</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2007-08-14</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2007-08-14</date>
+            </document>
+            <document>
+              <name>Договор</name>
+              <date>2007-08-14</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2007-08-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>38 002506854</serialNumber>
+              <date>2007-08-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2063808122299</grn>
+          <date>2006-04-17</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Правобережному Округу г.Иркутска</regName>
+          <regCode>3808</regCode>
+          <documents>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2006-04-04</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>38 002516957</serialNumber>
+              <date>2006-04-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2053808165266</grn>
+          <date>2005-11-14</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Правобережному Округу г.Иркутска</regName>
+          <regCode>3808</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2053808089840</grn>
+          <date>2005-07-19</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Правобережному Округу г.Иркутска</regName>
+          <regCode>3808</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1053808089653</grn>
+          <date>2005-07-19</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Правобережному Округу г.Иркутска</regName>
+          <regCode>3808</regCode>
+          <documents>
+            <document>
+              <name>P11001 заявление о создании юр.лица</name>
+              <date>2005-07-13</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2005-07-08</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2005-07-08</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2005-07-11</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2005-07-11</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>10000</sum>
+            <date>2005-07-19</date>
+          </statedCapital>
+        </statedCapitals>
+        <foundersFL>
+          <founderFL>
+            <fio>Радионов Алексей Константинович</fio>
+            <innfl>381201262494</innfl>
+            <share>
+              <sum>10000</sum>
+            </share>
+            <date>2011-10-14</date>
+            <firstDate>2009-10-23</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

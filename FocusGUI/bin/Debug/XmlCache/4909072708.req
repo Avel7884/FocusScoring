@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4909072708</inn>
+    <ogrn>1024900952372</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024900952372</focusHref>
+    <UL>
+      <kpp>490901001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <full>Общество с ограниченной ответственностью "Фирма "АДЕЛ"</full>
+        <date>2002-08-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>685000</zipCode>
+          <kladrCode>490000010000006</kladrCode>
+          <regionCode>49</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Магаданская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Магадан</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гагарина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <flat>
+            <topoValue>318</topoValue>
+          </flat>
+          <houseRaw>12</houseRaw>
+          <flatRaw>318</flatRaw>
+        </parsedAddressRF>
+        <date>2002-08-08</date>
+        <firstDate>2002-08-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2002-08-08</date>
+      </status>
+      <registrationDate>1991-11-15</registrationDate>
+      <dissolutionDate>2002-08-08</dissolutionDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

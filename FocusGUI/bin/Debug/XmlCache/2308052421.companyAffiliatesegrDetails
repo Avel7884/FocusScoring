@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>230804310617</inn>
+    <ogrn>307230811800023</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=307230811800023</focusHref>
+    <IP>
+      <okpo>0101693494</okpo>
+      <pfrRegNumber>033013042591</pfrRegNumber>
+      <fssRegNumber>230201775023023</fssRegNumber>
+      <fomsRegNumber>034010703473407</fomsRegNumber>
+      <okato>03401364000</okato>
+      <shortenedAddress>
+        <regionCode>23</regionCode>
+        <regionName>
+          <topoShortName>край</topoShortName>
+          <topoFullName>край</topoFullName>
+          <topoValue>Краснодарский</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Краснодар</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>45.32</code>
+          <text>Торговля розничная автомобильными деталями, узлами и принадлежностями</text>
+          <date>2007-04-28</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>45.20</code>
+            <text>Техническое обслуживание и ремонт автотранспортных средств</text>
+            <date>2007-04-28</date>
+          </activity>
+          <activity>
+            <code>45.31.1</code>
+            <text>Торговля оптовая автомобильными деталями, узлами и принадлежностями, кроме деятельности агентов</text>
+            <date>2007-04-28</date>
+          </activity>
+          <activity>
+            <code>47.8</code>
+            <text>Торговля розничная в нестационарных торговых объектах и на рынках</text>
+            <date>2007-04-28</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2007-04-28</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2308</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы №1 по г. Краснодару</nalogName>
+        <nalogRegDate>2007-04-28</nalogRegDate>
+        <date>2007-04-28</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2375</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</nalogName>
+        <date>2016-02-19</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>416237502457726</grn>
+          <date>2016-09-29</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>409230806900068</grn>
+          <date>2009-03-10</date>
+          <name>Внесение изменений в сведения об ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+              <date>2009-03-03</date>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>23 007507092</serialNumber>
+              <date>2009-03-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>407230829000917</grn>
+          <date>2007-10-17</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>407230811800131</grn>
+          <date>2007-04-28</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>307230811800023</grn>
+          <date>2007-04-28</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации физического лица в качестве индивидуального предпринимателя</name>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2007-04-26</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>23 006270747</serialNumber>
+              <date>2007-04-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>2308052421</inn>
+    <ogrn>1022301201482</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022301201482</focusHref>
+    <UL>
+      <okpo>47450615</okpo>
+      <pfrRegNumber>033013005642</pfrRegNumber>
+      <fssRegNumber>230100288223021</fssRegNumber>
+      <fomsRegNumber>034010601662666</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>45.20.1</code>
+          <text>Техническое обслуживание и ремонт легковых автомобилей и легких грузовых автотранспортных средств</text>
+          <date>2013-08-02</date>
+        </principalActivity>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-10-18</ogrnDate>
+        <regName>Регистрационная палата администрации г.Краснодара</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2308</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы №1 по г. Краснодару</nalogName>
+        <nalogRegDate>1997-06-25</nalogRegDate>
+        <kpp>230801001</kpp>
+        <date>2008-04-23</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2375</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</nalogName>
+        <date>2016-02-19</date>
+      </regBody>
+      <statedCapital>
+        <sum>10200</sum>
+        <date>2018-04-13</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Зубкова Марина Энверовна</fio>
+          <innfl>231102531303</innfl>
+          <share>
+            <sum>10200</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2013-05-21</date>
+          <firstDate>2007-03-20</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2182375851216</grn>
+          <date>2018-04-13</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182375851029</grn>
+          <date>2018-04-13</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182375850809</grn>
+          <date>2018-04-13</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2018-04-05</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2018-04-03</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-04-03</date>
+            </document>
+            <document>
+              <name>Договор аренды</name>
+              <date>2017-12-01</date>
+            </document>
+            <document>
+              <name>Договор купли/продажи</name>
+              <date>1995-12-09</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2018-04-03</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7172375566059</grn>
+          <date>2017-10-26</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Иной докум. в соотв.с законодательством РФ</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7172375499762</grn>
+          <date>2017-10-18</date>
+          <name>Запись о недостоверности сведений, включенных в ЕГРЮЛ</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>8162375335279</grn>
+          <date>2016-11-20</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152308227542</grn>
+          <date>2015-12-16</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <documents>
+            <document>
+              <name>Иной докум. в соотв.с законодательством РФ</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132308078384</grn>
+          <date>2013-08-02</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-07-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132308048310</grn>
+          <date>2013-05-21</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092308021012</grn>
+          <date>2009-04-01</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082308035269</grn>
+          <date>2008-04-23</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072308069821</grn>
+          <date>2007-03-20</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2042303672068</grn>
+          <date>2004-11-11</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция МНС России № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2022308007280</grn>
+          <date>2002-10-18</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция МНС России № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1022301201482</grn>
+          <date>2002-10-18</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Инспекция МНС России № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>23 000532581</serialNumber>
+              <date>2002-10-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital />
+        </statedCapitals>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2308097126</inn>
+    <ogrn>1042303643139</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1042303643139</focusHref>
+    <UL>
+      <okpo>72520165</okpo>
+      <pfrRegNumber>033013023188</pfrRegNumber>
+      <fssRegNumber>230100736123021</fssRegNumber>
+      <fomsRegNumber>034010602807982</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>45.32.1</code>
+          <text>Торговля розничная автомобильными деталями, узлами и принадлежностями в специализированных магазинах</text>
+          <date>2004-02-13</date>
+        </principalActivity>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2004-02-13</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2308</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы №1 по г. Краснодару</nalogName>
+        <nalogRegDate>2004-02-13</nalogRegDate>
+        <kpp>230801001</kpp>
+        <date>2004-07-23</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2375</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</nalogName>
+        <date>2016-02-19</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2004-02-13</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Зубков Александр Алексеевич</fio>
+          <innfl>230804310617</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2018-05-29</date>
+          <firstDate>2017-02-27</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>6182375833557</grn>
+          <date>2018-10-10</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6182375169223</grn>
+          <date>2018-06-08</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6182375103267</grn>
+          <date>2018-05-29</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2018-05-22</date>
+            </document>
+            <document>
+              <name>Договор</name>
+              <date>2018-01-01</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-05-18</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2018-05-21</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2018-05-21</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7172375566004</grn>
+          <date>2017-10-26</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7172375499795</grn>
+          <date>2017-10-18</date>
+          <name>Запись о недостоверности сведений, включенных в ЕГРЮЛ</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172375893336</grn>
+          <date>2017-04-19</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Внесение изменений при исправлении ошибок ввода данных</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172375420270</grn>
+          <date>2017-02-27</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>8162375259984</grn>
+          <date>2016-11-18</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072308098333</grn>
+          <date>2007-07-03</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2042303703451</grn>
+          <date>2004-11-11</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция МНС России № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-07-23</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция МНС России № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1042303643139</grn>
+          <date>2004-02-13</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция МНС России № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>23 000637633</serialNumber>
+              <date>2004-02-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <foundersFL>
+          <founderFL>
+            <fio>Зубков Александр Анатольевич</fio>
+            <share>
+              <sum>10000</sum>
+            </share>
+            <date>2004-02-13</date>
+            <firstDate>2004-02-13</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2310034074</inn>
+    <ogrn>1022301201471</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022301201471</focusHref>
+    <UL>
+      <okpo>41959602</okpo>
+      <pfrRegNumber>033013007946</pfrRegNumber>
+      <fssRegNumber>230100483723021</fssRegNumber>
+      <fomsRegNumber>034010601662403</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>68.20.2</code>
+          <text>Аренда и управление собственным или арендованным нежилым недвижимым имуществом</text>
+          <date>2009-01-20</date>
+        </principalActivity>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-10-18</ogrnDate>
+        <regName>Регистрационная палата администрации г.Краснодара</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2308</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы №1 по г. Краснодару</nalogName>
+        <nalogRegDate>2000-10-26</nalogRegDate>
+        <kpp>230801001</kpp>
+        <date>2008-04-23</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2375</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</nalogName>
+        <date>2016-02-19</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2018-05-29</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Зубков Александр Алексеевич</fio>
+          <innfl>230804310617</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2009-01-20</date>
+          <firstDate>2009-01-20</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>6182375103223</grn>
+          <date>2018-05-29</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2018-05-22</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-05-18</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2018-05-17</date>
+            </document>
+            <document>
+              <name>Договор</name>
+              <date>1995-12-09</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2018-05-21</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2018-05-21</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7172375559460</grn>
+          <date>2017-10-25</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+          <documents>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7172375499751</grn>
+          <date>2017-10-18</date>
+          <name>Запись о недостоверности сведений, включенных в ЕГРЮЛ</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>8162375335268</grn>
+          <date>2016-11-20</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</regName>
+          <regCode>2375</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152308228136</grn>
+          <date>2015-12-17</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <documents>
+            <document>
+              <name>Иной докум. в соотв.с законодательством РФ</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092308018944</grn>
+          <date>2009-04-01</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092308001652</grn>
+          <date>2009-01-20</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2009-01-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>23 007505290</serialNumber>
+              <date>2009-01-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092308001641</grn>
+          <date>2009-01-20</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-01-14</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2009-01-11</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-01-11</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2009-01-12</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2009-01-12</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>23 007505289</serialNumber>
+              <date>2009-01-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082308035665</grn>
+          <date>2008-04-23</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072308024501</grn>
+          <date>2007-03-02</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2042303695795</grn>
+          <date>2004-11-11</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция МНС России № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2022308005179</grn>
+          <date>2002-10-18</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция МНС России № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1022301201471</grn>
+          <date>2002-10-18</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Инспекция МНС России № 1 по г. Краснодару</regName>
+          <regCode>2308</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>23 000532580</serialNumber>
+              <date>2002-10-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>6050</sum>
+            <date>2002-10-18</date>
+          </statedCapital>
+        </statedCapitals>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

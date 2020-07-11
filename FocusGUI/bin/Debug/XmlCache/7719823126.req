@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7719823126</inn>
+    <ogrn>1127746762000</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127746762000</focusHref>
+    <UL>
+      <kpp>771901001</kpp>
+      <okpo>11574780</okpo>
+      <okato>45263588000</okato>
+      <okfs>16</okfs>
+      <oktmo>45314000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плазма-Монтаж"</short>
+        <full>Общество с ограниченной ответственностью "Плазма-Монтаж"</full>
+        <date>2012-09-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105187</zipCode>
+          <kladrCode>770000000001013</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вольная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>39</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>9</topoValue>
+          </bulk>
+          <houseRaw>39</houseRaw>
+          <bulkRaw>СТР.9</bulkRaw>
+        </parsedAddressRF>
+        <date>2012-09-24</date>
+        <firstDate>2012-09-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-09-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Широбоков Алексей Николаевич</fio>
+          <innfl>182808432591</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-09-24</date>
+          <firstDate>2012-09-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

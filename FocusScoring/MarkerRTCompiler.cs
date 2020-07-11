@@ -9,8 +9,9 @@ using Microsoft.CSharp;
 
 namespace FocusScoring
 {
-    internal class MarkerRTCompiler
-    {
+
+    internal class MarkerRTCompiler<TTarget> : MarkerCompiler<TTarget>
+    {                                        //TODO Get interface back
         private static readonly CSharpCodeProvider Provider = new CSharpCodeProvider();
         private const string codeHead = @"
         using FocusApiAccess;
@@ -30,13 +31,17 @@ namespace FocusScoring
                     __Code
                 }
             }";
-        private Dictionary<Marker,ResultHolder> holders = new Dictionary<Marker, ResultHolder>();
-        public bool IsCompiled { get; private set; }
-        public CompilerErrorCollection Errors { get; private set; }
-        
-        public Func<INN, MarkerResult> PostponededCompile(Marker marker)
+        private Dictionary<Marker<TTarget>,ResultHolder> holders = new Dictionary<Marker<TTarget>, ResultHolder>();
+        private bool isCompiled;
+        private CompilerErrorCollection errors;
+
+        public override bool IsCompiled => isCompiled;
+
+        public override CompilerErrorCollection Errors => errors;
+
+        public override Func<TTarget, MarkerResult<TTarget>> AddToCompilation(Marker<TTarget> marker)
         {
-            IsCompiled = false;
+            isCompiled = false;
                  
             var ccl =  new ResultHolder(marker);
             holders[marker] = ccl;                
@@ -46,14 +51,14 @@ namespace FocusScoring
                 if (!IsCompiled)
                     Compile();
                 if (!ccl.IsCompiled)
-                    return new MarkerResult(false,marker,""); 
-                return new MarkerResult(ccl.Check(c), marker, (string) ccl.Verbose.GetValue(null));
+                    return new MarkerResult<TTarget>(false,marker,""); 
+                return new MarkerResult<TTarget>(ccl.Check(c), marker, (string) ccl.Verbose.GetValue(null));
             };
         }
 
-        public void RemoveFromCompilation(Marker marker) => holders.Remove(marker);
+        public override void RemoveFromCompilation(Marker<TTarget> marker) => holders.Remove(marker);
 
-        public void Compile()
+        public override void Compile() //TODO save assembly (or bring it to agile)
         {
             var sb = new StringBuilder(codeHead);
             foreach (var code in holders.Values.Select(x=>x.Code))
@@ -68,11 +73,11 @@ namespace FocusScoring
             //param.IncludeDebugInformation = true;
             var result = Provider.CompileAssemblyFromSource(param, sb.ToString());
 
-            Errors = result.Errors;
+            errors = result.Errors;
             if (Errors.HasErrors)
                 return;
             
-            IsCompiled = true;
+            isCompiled = true;
             foreach (var holder in holders.Values)
                 holder.TakeResult(result);
         }
@@ -83,16 +88,15 @@ namespace FocusScoring
             private string Name { get; }
             public string Code { get; }
             public bool IsCompiled { get; private set; }
-            
-            public Func<INN,bool> Check { get; private set; }
+            public Func<TTarget,bool> Check { get; private set; }
             public FieldInfo Verbose { get; private set; }
 
-            public ResultHolder(Marker marker)
+            public ResultHolder(Marker<TTarget> marker)
             {
-                this.Name = marker.GetCodeClassName();
+                this.Name = 
                             //TODO rewrite with @$ or something
                 Code = classCore.Replace("__Name", Name)
-                                .Replace("__Code", marker.Code)
+                                .Replace("__Code", marker.Code)//CheckArguments["C#Code"])
                                 .Replace("__Parameters",
                                     string.Join(",",marker.Methods.Select(x => Api3.GetType(x) + " " + x)));
                 IsCompiled = false;
@@ -102,7 +106,7 @@ namespace FocusScoring
             {
                 var method = result.CompiledAssembly.GetType("MarkersCheckers."+Name).GetMethod("Function");
                 Verbose= result.CompiledAssembly.GetType("MarkersCheckers."+Name).GetField("verbose");
-                Check = (Func<INN, bool>) Delegate.CreateDelegate(typeof(Func<INN, bool>), method);
+                Check = (Func<TTarget, bool>) Delegate.CreateDelegate(typeof(Func<INN, bool>), method);
                 IsCompiled = true;
             }
         }

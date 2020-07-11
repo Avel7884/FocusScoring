@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5911068073</inn>
+    <ogrn>1125911002513</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1125911002513</focusHref>
+    <UL>
+      <kpp>591101001</kpp>
+      <okpo>12037089</okpo>
+      <okato>57408000000</okato>
+      <okfs>16</okfs>
+      <oktmo>57708000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ХимАгро"</short>
+        <full>Общество с ограниченной ответственностью "Производственно коммерческая фирма ХимАгро"</full>
+        <date>2012-10-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>618419</zipCode>
+          <kladrCode>590000020000316</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Березники</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Карла Маркса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>50</topoValue>
+          </house>
+          <flat>
+            <topoValue>8</topoValue>
+          </flat>
+          <houseRaw>50</houseRaw>
+          <flatRaw>8</flatRaw>
+        </parsedAddressRF>
+        <date>2012-10-05</date>
+        <firstDate>2012-10-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-10-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Латыпов Тимур Наилевич</fio>
+          <innfl>590615835100</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2019-09-11</date>
+          <firstDate>2019-09-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Баранов Виталий Николаевич</fio>
+            <innfl>591100058102</innfl>
+            <position>Ликвидатор</position>
+            <date>2019-06-11</date>
+            <firstDate>2012-10-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

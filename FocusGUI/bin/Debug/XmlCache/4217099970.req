@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217099970</inn>
+    <ogrn>1074217010691</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1074217010691</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>82746835</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АгроПромРесурс"</short>
+        <full>Общество с ограниченной ответственностью "АгроПромРесурс"</full>
+        <date>2007-12-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654041</zipCode>
+          <kladrCode>420000120000091</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Бардина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <flat>
+            <topoValue>1009</topoValue>
+          </flat>
+          <houseRaw>26</houseRaw>
+          <flatRaw>1009</flatRaw>
+        </parsedAddressRF>
+        <date>2007-12-24</date>
+        <firstDate>2007-12-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-06-29</date>
+      </status>
+      <registrationDate>2007-12-24</registrationDate>
+      <dissolutionDate>2010-06-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Таганов Константин Петрович</fio>
+          <innfl>422109413170</innfl>
+          <position>Директор</position>
+          <date>2007-12-24</date>
+          <firstDate>2007-12-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

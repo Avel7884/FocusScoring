@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>7710079216</inn>
+    <ogrn>1027700079472</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700079472</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2002-07-30</ogrnDate>
+        <regName>Государственное учреждение Московская регистрационная палата</regName>
+      </regInfo>
+      <nalogRegBody>
+        <kpp>773001001</kpp>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2008-10-12</date>
+      </regBody>
+      <statedCapital />
+      <successors>
+        <successor>
+          <name>Федеральная Служба по Интеллектуальной Собственности, Патентам и Товарным Знакам</name>
+          <ogrn>1047730015200</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2047730015210</grn>
+          <date>2004-06-23</date>
+          <name>Прекращение ЮЛ путем реорганизации в форме преобразования</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам №30 по Западному Административному Округу г.Москвы</regName>
+          <regCode>7730</regCode>
+          <documents>
+            <document>
+              <name>Р12001 заявление о создании ЮЛ при реорганизации</name>
+              <date>2004-06-22</date>
+            </document>
+            <document>
+              <name>Распоряжение</name>
+              <date>2004-03-20</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации ЮЛ</name>
+              <date>2004-04-07</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>77 000811011</serialNumber>
+              <date>2004-06-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1027700079472</grn>
+          <date>2002-07-30</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по г.Москве</regName>
+          <regCode>7700</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>77 005392497</serialNumber>
+              <date>2002-07-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

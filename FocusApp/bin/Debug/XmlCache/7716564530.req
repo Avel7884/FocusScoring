@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7716564530</inn>
+    <ogrn>1067760357785</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067760357785</focusHref>
+    <UL>
+      <kpp>771601001</kpp>
+      <okpo>98301696</okpo>
+      <okato>45280556000</okato>
+      <okfs>16</okfs>
+      <oktmo>45351000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ Цифровые приборы"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма Цифровые приборы"</full>
+        <date>2006-11-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129281</zipCode>
+          <kladrCode>770000000001265</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Енисейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24</topoValue>
+          </house>
+          <flat>
+            <topoValue>150</topoValue>
+          </flat>
+          <houseRaw>24</houseRaw>
+          <flatRaw>150</flatRaw>
+        </parsedAddressRF>
+        <date>2006-11-30</date>
+        <firstDate>2006-11-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-11-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Куриленко Юрий Владимирович</fio>
+          <innfl>771310421607</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-04-16</date>
+          <firstDate>2009-08-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

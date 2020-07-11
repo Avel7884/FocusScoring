@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6685021578</inn>
+    <ogrn>1126685028975</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1126685028975</focusHref>
+    <UL>
+      <kpp>668501001</kpp>
+      <okpo>20611763</okpo>
+      <okato>65401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ИСМ Групп"</short>
+        <full>Общество с ограниченной ответственностью "ИСМ Групп"</full>
+        <date>2012-11-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620142</zipCode>
+          <kladrCode>660000010000666</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Машинная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>418</topoValue>
+          </flat>
+          <houseRaw>ДОМ 29</houseRaw>
+          <bulkRaw>КОРПУС Б</bulkRaw>
+          <flatRaw>ОФИС 418</flatRaw>
+        </parsedAddressRF>
+        <date>2014-12-29</date>
+        <firstDate>2014-12-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-11-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Муртазин Владимир Валерьевич</fio>
+          <innfl>665204476514</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-11-19</date>
+          <firstDate>2012-11-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>624006</zipCode>
+              <kladrCode>660250000110013</kladrCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Сысертский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>п</topoShortName>
+                <topoFullName>поселок</topoFullName>
+                <topoValue>Большой Исток</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Северная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <flat>
+                <topoValue>1</topoValue>
+              </flat>
+              <houseRaw>5</houseRaw>
+              <flatRaw>1</flatRaw>
+            </parsedAddressRF>
+            <date>2012-11-19</date>
+            <firstDate>2012-11-19</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

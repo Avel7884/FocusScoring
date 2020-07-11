@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6648006250</inn>
+    <ogrn>1036602352050</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036602352050</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>32109610</okpo>
+      <okato>65232560000</okato>
+      <okfs>14</okfs>
+      <oktmo>65717000051</oktmo>
+      <okogu>4210007</okogu>
+      <okopf>75401</okopf>
+      <opf>Муниципальные автономные учреждения</opf>
+      <legalName>
+        <short>МАОУ СОШ № 24</short>
+        <full>МУНИЦИПАЛЬНОЕ АВТОНОМНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ СРЕДНЯЯ ОБЩЕОБРАЗОВАТЕЛЬНАЯ ШКОЛА № 24</full>
+        <date>2014-01-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622904</zipCode>
+          <kladrCode>66019000024</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Пригородный</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Горноуральский</topoValue>
+          </settlement>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <houseRaw>ДОМ 34</houseRaw>
+        </parsedAddressRF>
+        <date>2018-03-19</date>
+        <firstDate>2011-06-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-12-06</registrationDate>
+      <heads>
+        <head>
+          <fio>Заостровных Татьяна Михайловна</fio>
+          <innfl>664800745205</innfl>
+          <position>Директор</position>
+          <date>2003-02-08</date>
+          <firstDate>2003-02-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>664801001</kpp>
+            <date>2005-11-01</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>МКОУ СОШ № 24</short>
+          </legalName>
+          <legalName>
+            <short>МОУ СОШ № 24</short>
+          </legalName>
+          <legalName>
+            <full>Муниципальное казенное общеобразовательное учреждение средняя общеобразовательная школа № 24</full>
+          </legalName>
+          <legalName>
+            <full>Муниципальное общеобразовательное учреждение средняя общеобразовательная школа № 24</full>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7723613160</inn>
+    <ogrn>5077746780491</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5077746780491</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>80791783</okpo>
+      <okato>45290572000</okato>
+      <okfs>16</okfs>
+      <oktmo>45390000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аллегротранс"</short>
+        <full>Общество с ограниченной ответственностью "Аллегротранс"</full>
+        <date>2007-05-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109382</zipCode>
+          <kladrCode>770000000000200</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Нижние поля</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>15</topoValue>
+          </bulk>
+          <houseRaw>29</houseRaw>
+          <bulkRaw>СТР.15</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-05-11</date>
+        <firstDate>2007-05-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-11-27</date>
+      </status>
+      <registrationDate>2007-05-11</registrationDate>
+      <dissolutionDate>2017-11-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Рудин Алексей Александрович</fio>
+          <innfl>100105583377</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-05-11</date>
+          <firstDate>2007-05-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

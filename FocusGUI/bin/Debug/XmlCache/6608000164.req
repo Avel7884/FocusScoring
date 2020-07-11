@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6608000164</inn>
+    <ogrn>1026605768166</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605768166</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Агропромсервис"</short>
+        <full>Открытое акционерное общество "Агропромсервис"</full>
+        <date>2002-11-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620062</zipCode>
+          <kladrCode>660000010000605</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>60</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>60</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-08-07</date>
+        <firstDate>2006-08-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-08-22</date>
+      </status>
+      <registrationDate>2002-06-19</registrationDate>
+      <dissolutionDate>2007-08-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шалкиев Александр Юрьевич</fio>
+          <position>Ликвидатор</position>
+          <date>2007-05-25</date>
+          <firstDate>2007-05-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

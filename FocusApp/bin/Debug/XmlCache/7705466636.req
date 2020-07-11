@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705466636</inn>
+    <ogrn>1027705009672</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027705009672</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>58743071</okpo>
+      <okato>45286590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45383000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>ЧУДО "ДОШКОЛЬНЫЙ ВАЛЬДОРФСКИЙ ЦЕНТР"</short>
+        <full>ЧАСТНОЕ УЧРЕЖДЕНИЕ ДОПОЛНИТЕЛЬНОГО ОБРАЗОВАНИЯ "ДОШКОЛЬНЫЙ ВАЛЬДОРФСКИЙ ЦЕНТР"</full>
+        <date>2017-04-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119146</zipCode>
+          <kladrCode>770000000001526</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Комсомольский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>38/16</topoValue>
+          </house>
+          <houseRaw>ДОМ 38/16</houseRaw>
+        </parsedAddressRF>
+        <date>2017-04-04</date>
+        <firstDate>2017-04-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-09-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Ефремова Светлана Петровна</fio>
+          <innfl>772637558802</innfl>
+          <position>Директор</position>
+          <date>2004-11-02</date>
+          <firstDate>2004-11-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770501001</kpp>
+            <date>2004-12-28</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ЧУ ДО "Вальдорфский центр"</short>
+            <full>Частное учреждение дополнительного образования "Вальдорфский центр по переподготовке воспитателей дошкольных образовательных учреждений"</full>
+            <date>2010-04-02</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115054</zipCode>
+              <kladrCode>770000000002808</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Стремянный</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>10</topoValue>
+              </house>
+              <houseRaw>10</houseRaw>
+              <bulkRaw>----</bulkRaw>
+              <flatRaw>----</flatRaw>
+            </parsedAddressRF>
+            <date>2002-09-09</date>
+            <firstDate>2002-09-09</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6659120269</inn>
+    <ogrn>1056603167280</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1056603167280</focusHref>
+    <UL>
+      <kpp>665901001</kpp>
+      <okpo>77155530</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО НПКК "АКТЭНС"</short>
+        <full>Общество с ограниченной ответственностью Научно-производственная коммерческая компания "АКТЭНС"</full>
+        <date>2005-04-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620017</zipCode>
+          <kladrCode>660000010000522</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Космонавтов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11Б</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Д</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>17</topoValue>
+          </flat>
+          <houseRaw>11Б</houseRaw>
+          <bulkRaw>Д</bulkRaw>
+          <flatRaw>17</flatRaw>
+        </parsedAddressRF>
+        <date>2006-08-30</date>
+        <firstDate>2006-08-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-12-13</date>
+      </status>
+      <registrationDate>2005-04-28</registrationDate>
+      <dissolutionDate>2011-12-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Григорюк Александр Владимирович</fio>
+          <innfl>666100386392</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-08-30</date>
+          <firstDate>2006-08-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

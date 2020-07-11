@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7826688129</inn>
+    <ogrn>1027810296205</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027810296205</focusHref>
+    <UL>
+      <kpp>783801001</kpp>
+      <okpo>47966603</okpo>
+      <okato>40262000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40302000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Адамант-Строй"</short>
+        <full>Общество с ограниченной ответственностью "Адамант-Строй"</full>
+        <date>2002-12-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>190031</zipCode>
+          <kladrCode>780000000000328</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Канала Грибоедова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>56-58</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>помещение 19н/6</topoValue>
+          </flat>
+          <houseRaw>ДОМ 56-58</houseRaw>
+          <bulkRaw>ЛИТЕРА А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 19Н/6</flatRaw>
+        </parsedAddressRF>
+        <date>2017-09-20</date>
+        <firstDate>2017-09-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-02-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Аксенов Александр Анатольевич</fio>
+          <innfl>781910542688</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-07-30</date>
+          <firstDate>2007-09-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>190031</zipCode>
+              <kladrCode>780000000001238</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Садовая</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>39/41</topoValue>
+              </house>
+              <houseRaw>39/41</houseRaw>
+            </parsedAddressRF>
+            <date>2002-12-03</date>
+            <firstDate>2002-12-03</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

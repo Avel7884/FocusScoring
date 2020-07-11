@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217000324</inn>
+    <ogrn>1024201478663</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201478663</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>Завод железобетонных изделий "Авангард" ЗАО</short>
+        <full>Завод железобетонных изделий "Авангард" Закрытое акционерное общество</full>
+        <date>2002-12-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654010</zipCode>
+          <kladrCode>420000120001168</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Музейная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>5</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-30</date>
+        <firstDate>2002-12-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-12-07</date>
+      </status>
+      <registrationDate>1998-02-04</registrationDate>
+      <dissolutionDate>2004-12-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Митяшин Олег Анатольевич</fio>
+          <innfl>422001007493</innfl>
+          <position>Управляющий</position>
+          <date>2002-12-30</date>
+          <firstDate>2002-12-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

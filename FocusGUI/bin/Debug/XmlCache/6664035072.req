@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6664035072</inn>
+    <ogrn>1026605770828</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605770828</focusHref>
+    <UL>
+      <kpp>667401001</kpp>
+      <okpo>41743859</okpo>
+      <okato>65401390000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алстер"</short>
+        <full>Общество с ограниченной ответственностью "Алстер"</full>
+        <date>2002-11-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620073</zipCode>
+          <kladrCode>660000010000562</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Крестинского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>55</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>140</topoValue>
+          </flat>
+          <houseRaw>55</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>140</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-18</date>
+        <firstDate>2002-11-17</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>628624</zipCode>
+            <kladrCode>860000110000043</kladrCode>
+            <regionCode>86</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Нижневартовск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Мира</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>78</topoValue>
+            </house>
+            <flat>
+              <topoValue>2</topoValue>
+            </flat>
+            <houseRaw>78</houseRaw>
+            <flatRaw>2</flatRaw>
+          </parsedAddressRF>
+          <date>2007-09-12</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-07-22</date>
+      </status>
+      <registrationDate>1995-09-21</registrationDate>
+      <dissolutionDate>2014-07-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Подпорин Петр Павлович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2012-10-17</date>
+          <firstDate>2012-10-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Лубкин Александр Павлович</fio>
+            <position>Директор</position>
+            <date>2011-06-16</date>
+            <firstDate>2011-06-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1901070774</inn>
+    <ogrn>1061901001282</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1061901001282</focusHref>
+    <UL>
+      <kpp>190101001</kpp>
+      <okpo>76767253</okpo>
+      <okato>95401000000</okato>
+      <okfs>49</okfs>
+      <oktmo>95701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Гостиница "Абакан"</short>
+        <full>Общество с ограниченной ответственностью "Гостиница "Абакан"</full>
+        <date>2006-01-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655017</zipCode>
+          <kladrCode>190000010000103</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абакан</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>59</topoValue>
+          </house>
+          <houseRaw>59</houseRaw>
+        </parsedAddressRF>
+        <date>2006-01-23</date>
+        <firstDate>2006-01-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-09-24</date>
+      </status>
+      <registrationDate>2006-01-23</registrationDate>
+      <dissolutionDate>2019-09-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Каргина Юлия Николаевна</fio>
+          <innfl>190106443997</innfl>
+          <position>Директор</position>
+          <date>2014-07-08</date>
+          <firstDate>2014-07-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Романюк Надежда Александровна</fio>
+            <innfl>190102854788</innfl>
+            <position>Директор</position>
+            <date>2009-12-16</date>
+            <firstDate>2009-12-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4221003952</inn>
+    <ogrn>1024201824107</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201824107</focusHref>
+    <UL>
+      <kpp>422101001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АЛКОМ ЭЛЕКТРОНИКС"</short>
+        <full>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "АЛКОМ ЭЛЕКТРОНИКС"</full>
+        <date>2002-11-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654034</zipCode>
+          <kladrCode>420000120000140</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бугарева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <houseRaw>19</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-19</date>
+        <firstDate>2002-11-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-12-27</date>
+      </status>
+      <registrationDate>1994-11-21</registrationDate>
+      <dissolutionDate>2004-12-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Савчук Сергей Павлович</fio>
+          <innfl>421708302942</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-11-19</date>
+          <firstDate>2002-11-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5903136717</inn>
+    <ogrn>1185958004396</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1185958004396</focusHref>
+    <UL>
+      <kpp>590301001</kpp>
+      <okpo>24919357</okpo>
+      <okato>57401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>57701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ХИМАГРО-ПЕРМЬ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО КОММЕРЧЕСКАЯ ФИРМА ХИМАГРО-ПЕРМЬ"</full>
+        <date>2018-02-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614087</zipCode>
+          <kladrCode>590000010000997</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рабочая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>23</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 23</flatRaw>
+        </parsedAddressRF>
+        <date>2018-02-09</date>
+        <firstDate>2018-02-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-02-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Степанов Александр Андреевич</fio>
+          <innfl>591140149758</innfl>
+          <position>Директор</position>
+          <date>2019-10-15</date>
+          <firstDate>2019-10-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Вайгель Кристина Владимировна</fio>
+            <innfl>591154201510</innfl>
+            <position>Директор</position>
+            <date>2018-02-09</date>
+            <firstDate>2018-02-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

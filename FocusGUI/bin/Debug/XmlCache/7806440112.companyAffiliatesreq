@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>780615815456</inn>
+    <ogrn>319784700177769</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=319784700177769</focusHref>
+    <IP>
+      <fio>Тополянский Павел Абрамович</fio>
+      <okpo>0157030612</okpo>
+      <okato>40278000000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>40350000000</oktmo>
+      <registrationDate>2019-05-29</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>780622859729</inn>
+    <ogrn>315784700191472</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=315784700191472</focusHref>
+    <IP>
+      <fio>Тополянский Андрей Павлович</fio>
+      <okpo>0200602497</okpo>
+      <okato>40278000000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>40350000000</oktmo>
+      <registrationDate>2015-10-07</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7806430499</inn>
+    <ogrn>1107847113912</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107847113912</focusHref>
+    <UL>
+      <kpp>780601001</kpp>
+      <okpo>65936735</okpo>
+      <okato>40278000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40350000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВП центр"</short>
+        <full>Общество с ограниченной ответственностью "АВП центр"</full>
+        <date>2010-04-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>195112</zipCode>
+          <kladrCode>780000000000766</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Малоохтинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>68</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>103</topoValue>
+          </flat>
+          <houseRaw>ДОМ 68</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+          <flatRaw>ОФИС 103</flatRaw>
+        </parsedAddressRF>
+        <date>2018-05-30</date>
+        <firstDate>2018-05-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-04-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Тополянский Андрей Павлович</fio>
+          <innfl>780622859729</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-04-12</date>
+          <firstDate>2010-04-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>195112</zipCode>
+              <kladrCode>780000000000766</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Малоохтинский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>68</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>103</topoValue>
+              </flat>
+              <houseRaw>68</houseRaw>
+              <flatRaw>ОФ.103</flatRaw>
+            </parsedAddressRF>
+            <date>2010-04-12</date>
+            <firstDate>2010-04-12</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7806434920</inn>
+    <ogrn>1107847197347</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107847197347</focusHref>
+    <UL>
+      <kpp>780601001</kpp>
+      <okpo>67398911</okpo>
+      <okato>40278563000</okato>
+      <okfs>16</okfs>
+      <oktmo>40350000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Грант"</short>
+        <full>Общество с ограниченной ответственностью "Грант"</full>
+        <date>2010-06-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>195112</zipCode>
+          <kladrCode>780000000000766</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Малоохтинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>68</topoValue>
+          </house>
+          <flat>
+            <topoValue>103</topoValue>
+          </flat>
+          <houseRaw>68</houseRaw>
+          <flatRaw>103</flatRaw>
+        </parsedAddressRF>
+        <date>2010-06-22</date>
+        <firstDate>2010-06-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-04-29</date>
+      </status>
+      <registrationDate>2010-06-22</registrationDate>
+      <dissolutionDate>2013-04-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Симаков Павел Андреевич</fio>
+          <innfl>780616150645</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-06-22</date>
+          <firstDate>2010-06-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7806440112</inn>
+    <ogrn>1107847315674</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107847315674</focusHref>
+    <UL>
+      <kpp>780601001</kpp>
+      <okpo>67516960</okpo>
+      <okato>40278000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40350000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плазмацентр"</short>
+        <full>Общество с ограниченной ответственностью "Плазмацентр"</full>
+        <date>2010-09-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>195112</zipCode>
+          <kladrCode>780000000000766</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Малоохтинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>68</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>103</topoValue>
+          </flat>
+          <houseRaw>68</houseRaw>
+          <flatRaw>ОФ.103</flatRaw>
+        </parsedAddressRF>
+        <date>2010-09-24</date>
+        <firstDate>2010-09-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-09-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Тополянский Андрей Павлович</fio>
+          <innfl>780622859729</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-09-24</date>
+          <firstDate>2010-09-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7813235770</inn>
+    <ogrn>1157847385563</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1157847385563</focusHref>
+    <UL>
+      <kpp>781301001</kpp>
+      <okpo>31907797</okpo>
+      <okato>40288000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40394000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "РУС РЕМОНТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РУС РЕМОНТ"</full>
+        <date>2016-03-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197110</zipCode>
+          <kladrCode>780000000000608</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красного Курсанта</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>7-Н</topoValue>
+          </flat>
+          <houseRaw>ДОМ 12</houseRaw>
+          <bulkRaw>ЛИТЕРА А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 7-Н</flatRaw>
+        </parsedAddressRF>
+        <date>2016-03-14</date>
+        <firstDate>2015-11-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-11-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Лазарев Александр Владимирович</fio>
+          <innfl>761020109809</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-11-12</date>
+          <firstDate>2015-11-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7814670254</inn>
+    <ogrn>1167847420520</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1167847420520</focusHref>
+    <UL>
+      <kpp>781401001</kpp>
+      <okpo>05362742</okpo>
+      <okato>40270000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40323000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "РУС РЕМОНТ САНКТ-ПЕТЕРБУРГ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РУС РЕМОНТ САНКТ-ПЕТЕРБУРГ"</full>
+        <date>2016-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197343</zipCode>
+          <kladrCode>780000000000795</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Матроса Железняка</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>5-Н</topoValue>
+          </flat>
+          <houseRaw>ДОМ 15</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 5-Н</flatRaw>
+        </parsedAddressRF>
+        <date>2016-10-28</date>
+        <firstDate>2016-10-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-10-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Черевко Александр Сергеевич</fio>
+          <innfl>781432361302</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-05-21</date>
+          <firstDate>2019-05-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Лазарев Александр Владимирович</fio>
+            <innfl>761020109809</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-10-28</date>
+            <firstDate>2016-10-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7815006511</inn>
+    <ogrn>1037843012096</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037843012096</focusHref>
+    <UL>
+      <kpp>784201001</kpp>
+      <okpo>11141040</okpo>
+      <okato>40298565000</okato>
+      <okfs>16</okfs>
+      <oktmo>40912000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НПФ "Плазмацентр"</short>
+        <full>Общество с ограниченной ответственностью "Научно-производственная фирма "Плазмацентр"</full>
+        <date>2003-01-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>195251</zipCode>
+          <kladrCode>780000000000710</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Лиговский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>56</topoValue>
+          </house>
+          <flat>
+            <topoValue>4</topoValue>
+          </flat>
+          <houseRaw>56</houseRaw>
+          <flatRaw>4</flatRaw>
+        </parsedAddressRF>
+        <date>2003-01-21</date>
+        <firstDate>2003-01-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-23</date>
+      </status>
+      <registrationDate>1999-03-26</registrationDate>
+      <dissolutionDate>2016-12-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Тополянский Павел Абрамович</fio>
+          <innfl>780615815456</innfl>
+          <position>Генеральный директор</position>
+          <date>2003-01-21</date>
+          <firstDate>2003-01-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

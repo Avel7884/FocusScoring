@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623019829</inn>
+    <ogrn>1056601220708</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1056601220708</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>75765252</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Азот"</short>
+        <full>Общество с ограниченной ответственностью "Азот"</full>
+        <date>2005-01-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622036</zipCode>
+          <kladrCode>660000230000095</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Газетная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>75</topoValue>
+          </house>
+          <flat>
+            <topoValue>55</topoValue>
+          </flat>
+          <houseRaw>75</houseRaw>
+          <flatRaw>55</flatRaw>
+        </parsedAddressRF>
+        <date>2007-03-13</date>
+        <firstDate>2007-03-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-09-23</date>
+      </status>
+      <registrationDate>2005-01-24</registrationDate>
+      <dissolutionDate>2011-09-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кожурин Станислав Сергеевич</fio>
+          <innfl>662313899225</innfl>
+          <position>Директор</position>
+          <date>2007-03-13</date>
+          <firstDate>2007-03-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

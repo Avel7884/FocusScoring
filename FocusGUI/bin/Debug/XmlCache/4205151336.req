@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205151336</inn>
+    <ogrn>1084205004399</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1084205004399</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>82752089</okpo>
+      <okato>32401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>32701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ТРАНСПОРТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "ТРАНСПОРТ"</full>
+        <date>2008-03-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650992</zipCode>
+          <kladrCode>420000090000365</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Карболитовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>173</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>51</topoValue>
+          </flat>
+          <houseRaw>ДОМ 1</houseRaw>
+          <bulkRaw>КОРПУС 173</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 51</flatRaw>
+        </parsedAddressRF>
+        <date>2018-01-09</date>
+        <firstDate>2018-01-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-03-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Кульшин Александр Николаевич</fio>
+          <innfl>420527325657</innfl>
+          <position>Генеральный Директор</position>
+          <date>2008-03-05</date>
+          <firstDate>2008-03-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>650024</zipCode>
+              <kladrCode>420000090000785</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Кемерово</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Юрия Двужильного</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4А</topoValue>
+              </house>
+              <houseRaw>4А</houseRaw>
+            </parsedAddressRF>
+            <date>2008-03-05</date>
+            <firstDate>2008-03-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

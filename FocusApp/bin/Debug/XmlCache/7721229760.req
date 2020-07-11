@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7721229760</inn>
+    <ogrn>1037739155740</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739155740</focusHref>
+    <UL>
+      <kpp>772101001</kpp>
+      <okpo>17283120</okpo>
+      <okato>45290554000</okato>
+      <okfs>16</okfs>
+      <oktmo>45385000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>НОУ "Учебный Центр "Алгоритм-Акустика"</short>
+        <full>Негосударственное образовательное учреждение "Учебный Центр "Алгоритм-Акустика"</full>
+        <date>2003-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109145</zipCode>
+          <kladrCode>770000000003434</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пронская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-20</date>
+        <firstDate>2003-01-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-08-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Некрасов Игорь Алексеевич</fio>
+          <innfl>501804625400</innfl>
+          <position>Директор</position>
+          <date>2010-07-19</date>
+          <firstDate>2010-07-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

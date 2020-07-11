@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714196369</inn>
+    <ogrn>5087746681171</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5087746681171</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АГРОТИН ООО</short>
+        <full>Общество с ограниченной ответственностью "Агротин"</full>
+        <date>2008-12-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125083</zipCode>
+          <kladrCode>770000000001819</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Верхняя Масловка</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>Д.18</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2008-12-27</date>
+        <firstDate>2008-12-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-12-27</date>
+      </status>
+      <registrationDate>2001-01-31</registrationDate>
+      <dissolutionDate>2008-12-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кузьмин Алексей Александрович</fio>
+          <position>Руководитель</position>
+          <date>2008-12-27</date>
+          <firstDate>2008-12-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

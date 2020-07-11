@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5501238892</inn>
+    <ogrn>1125543003189</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1125543003189</focusHref>
+    <UL>
+      <kpp>540401001</kpp>
+      <okpo>30350513</okpo>
+      <okato>50401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМК-54"</short>
+        <full>Общество с ограниченной ответственностью "Передвижная механизированная колонна-54"</full>
+        <date>2012-02-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630096</zipCode>
+          <kladrCode>540000010001282</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>2-я Станционная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>34</topoValue>
+          </flat>
+          <houseRaw>ДОМ 26</houseRaw>
+          <flatRaw>ОФИС 34</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-10</date>
+        <firstDate>2015-11-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-01-10</date>
+      </status>
+      <registrationDate>2012-02-01</registrationDate>
+      <dissolutionDate>2017-01-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Овчинникова Наталья Игоревна</fio>
+          <innfl>540702459027</innfl>
+          <position>Ликвидатор</position>
+          <date>2016-09-23</date>
+          <firstDate>2016-09-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>550101001</kpp>
+            <date>2012-02-01</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>644085</zipCode>
+              <kladrCode>550000010000739</kladrCode>
+              <regionCode>55</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Омская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Омск</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Мира</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>189</topoValue>
+              </house>
+              <houseRaw>ДОМ 189</houseRaw>
+            </parsedAddressRF>
+            <date>2012-02-01</date>
+            <firstDate>2012-02-01</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Антонов Алексей Владимирович</fio>
+            <innfl>552301378758</innfl>
+            <position>Директор</position>
+            <date>2012-02-01</date>
+            <firstDate>2012-02-01</firstDate>
+          </head>
+          <head>
+            <fio>Громыко Сергей Анатольевич</fio>
+            <innfl>550409397110</innfl>
+            <position>Директор</position>
+            <date>2012-09-04</date>
+            <firstDate>2012-09-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

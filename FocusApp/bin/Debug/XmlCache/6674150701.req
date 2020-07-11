@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6674150701</inn>
+    <ogrn>1056605184316</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1056605184316</focusHref>
+    <UL>
+      <kpp>667401001</kpp>
+      <okpo>01130816</okpo>
+      <okato>65401390000</okato>
+      <okfs>12</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210001</okogu>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Второе САП"</short>
+        <full>Открытое акционерное общество "Второе Свердловское авиапредприятие"</full>
+        <date>2005-02-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620000</zipCode>
+          <kladrCode>66000001000</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoValue>Аэропорт "Уктус"</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2005-02-01</date>
+        <firstDate>2005-02-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-04-24</date>
+      </status>
+      <registrationDate>2005-02-01</registrationDate>
+      <dissolutionDate>2014-04-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лазарев Дмитрий Вениаминович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2011-01-14</date>
+          <firstDate>2009-01-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7810180065</inn>
+    <ogrn>1037821037055</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037821037055</focusHref>
+    <UL>
+      <kpp>781401001</kpp>
+      <okpo>52173454</okpo>
+      <okato>40270562000</okato>
+      <okfs>16</okfs>
+      <oktmo>40322000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Алстрим инженерные системы"</short>
+        <full>Закрытое акционерное общество "Алстрим инженерные системы"</full>
+        <date>2013-05-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197374</zipCode>
+          <kladrCode>780000000000801</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мебельная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-06-24</date>
+        <firstDate>2010-06-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-06-19</date>
+      </status>
+      <registrationDate>1999-11-24</registrationDate>
+      <dissolutionDate>2015-06-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Алексеев Максим Александрович</fio>
+          <innfl>471905586950</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-05-08</date>
+          <firstDate>2013-05-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "Торговый Дом Алстрим"</short>
+          </legalName>
+          <legalName>
+            <full>Закрытое акционерные общества "Алстрим инженерные системы"</full>
+          </legalName>
+          <legalName>
+            <full>Закрытое акционерное общество "Торговый Дом Алстрим"</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Лобанов Петр Григорьевич</fio>
+            <innfl>781912842937</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-04-07</date>
+            <firstDate>2011-04-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

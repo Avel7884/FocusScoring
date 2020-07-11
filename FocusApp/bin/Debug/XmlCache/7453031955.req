@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7453031955</inn>
+    <ogrn>1027403775827</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027403775827</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>45626636</okpo>
+      <okato>45286590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45383000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Абразивы Урала"</short>
+        <full>Закрытое акционерное общество "Абразивы Урала"</full>
+        <date>2002-12-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119021</zipCode>
+          <kladrCode>770000000001356</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Зубовский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29</topoValue>
+          </house>
+          <houseRaw>29</houseRaw>
+        </parsedAddressRF>
+        <date>2013-12-11</date>
+        <firstDate>2013-12-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-05</date>
+      </status>
+      <registrationDate>1997-02-12</registrationDate>
+      <dissolutionDate>2016-09-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Руденко Иван Анатольевич</fio>
+          <innfl>452001207011</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-11-21</date>
+          <firstDate>2013-11-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>745201001</kpp>
+            <date>2013-12-11</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454007</zipCode>
+              <kladrCode>740000010000006</kladrCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>40-летия Октября</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>29</topoValue>
+              </house>
+              <bulk>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>29</houseRaw>
+              <bulkRaw>А</bulkRaw>
+            </parsedAddressRF>
+            <date>2002-12-16</date>
+            <firstDate>2002-12-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Курносов Аркадий Петрович</fio>
+            <innfl>745301747343</innfl>
+            <position>Генеральный директор</position>
+            <date>2002-12-16</date>
+            <firstDate>2002-12-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

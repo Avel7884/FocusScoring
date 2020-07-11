@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7802719829</inn>
+    <ogrn>1107847223890</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107847223890</focusHref>
+    <UL>
+      <kpp>780601001</kpp>
+      <okpo>67430402</okpo>
+      <okato>40278000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40349000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Торговый Дом "Вибротехмаш"</short>
+        <full>Общество с ограниченной ответственностью "Торговый Дом "Вибротехмаш"</full>
+        <date>2010-07-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>195027</zipCode>
+          <kladrCode>780000000000183</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Большеохтинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>пом. 1н оф. 1е</topoValue>
+          </flat>
+          <houseRaw>ДОМ 21</houseRaw>
+          <bulkRaw>ЛИТ. А</bulkRaw>
+          <flatRaw>ПОМ. 1Н ОФ. 1Е</flatRaw>
+        </parsedAddressRF>
+        <date>2018-04-02</date>
+        <firstDate>2018-04-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-07-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Исаев Андрей Вадимович</fio>
+          <innfl>780226906534</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-02-21</date>
+          <firstDate>2010-07-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>781401001</kpp>
+            <date>2017-04-18</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>780201001</kpp>
+            <date>2010-07-16</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "ТД"Вибротехмаш"</short>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>192349</zipCode>
+              <kladrCode>780000000000788</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Маршала Новикова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>41</topoValue>
+              </house>
+              <bulk>
+                <topoValue>Корпус 1 лит. А</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>37/О</topoValue>
+              </flat>
+              <houseRaw>ДОМ 41</houseRaw>
+              <bulkRaw>КОРПУС 1 ЛИТ. А</bulkRaw>
+              <flatRaw>ОФИС 37/О</flatRaw>
+            </parsedAddressRF>
+            <date>2017-04-18</date>
+            <firstDate>2017-04-18</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>194358</zipCode>
+              <kladrCode>780000000001548</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Энгельса</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>150</topoValue>
+              </house>
+              <bulk>
+                <topoValue>Корпус 1 литер А</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>пом. Н-6</topoValue>
+              </flat>
+              <houseRaw>150</houseRaw>
+              <bulkRaw>КОРПУС 1 ЛИТЕР А</bulkRaw>
+              <flatRaw>ПОМ. Н-6</flatRaw>
+            </parsedAddressRF>
+            <date>2010-07-16</date>
+            <firstDate>2010-07-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Краюшкин Илья Андреевич</fio>
+            <innfl>781127111391</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-09-20</date>
+            <firstDate>2012-09-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7807174640</inn>
+    <ogrn>1177847261866</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1177847261866</focusHref>
+    <UL>
+      <kpp>780101001</kpp>
+      <okpo>19078080</okpo>
+      <okato>40263000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40309000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "КРАН-МОДЕРНИЗАЦИЯ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "КРАН-МОДЕРНИЗАЦИЯ"</full>
+        <date>2017-08-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>199106</zipCode>
+          <kladrCode>780000000001531</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шкиперский Проток</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Кор. 1 литер в</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>офис 218 РМ 2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 14</houseRaw>
+          <bulkRaw>КОР. 1 ЛИТЕР В</bulkRaw>
+          <flatRaw>ОФИС 218 РМ 2</flatRaw>
+        </parsedAddressRF>
+        <date>2019-09-19</date>
+        <firstDate>2019-09-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-08-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Данилов Алексей Анатольевич</fio>
+          <innfl>471500403855</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-08-02</date>
+          <firstDate>2017-08-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>780701001</kpp>
+            <date>2017-08-02</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>198206</zipCode>
+              <kladrCode>780000000001046</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Петергофское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>74</topoValue>
+              </house>
+              <bulk>
+                <topoValue>Корпус 4 литер Б</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>418</topoValue>
+              </flat>
+              <houseRaw>ДОМ 74</houseRaw>
+              <bulkRaw>КОРПУС 4 ЛИТЕР Б</bulkRaw>
+              <flatRaw>ОФИС 418</flatRaw>
+            </parsedAddressRF>
+            <date>2018-06-20</date>
+            <firstDate>2018-06-20</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>198206</zipCode>
+              <kladrCode>780000000001046</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Петергофское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>73</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>У</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>521</topoValue>
+              </flat>
+              <houseRaw>ДОМ 73</houseRaw>
+              <bulkRaw>ЛИТЕР У</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 521</flatRaw>
+            </parsedAddressRF>
+            <date>2017-08-02</date>
+            <firstDate>2017-08-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7813580576</inn>
+    <ogrn>1147847030671</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1147847030671</focusHref>
+    <UL>
+      <kpp>781101001</kpp>
+      <okpo>33158064</okpo>
+      <okato>40285000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40383000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОЕКТКРАНМОНТАЖ"</full>
+        <date>2014-01-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192029</zipCode>
+          <kladrCode>780000000000125</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Большой Смоленский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>помещение 33-Н, Комната 3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 10</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 33-Н, КОМНАТА 3</flatRaw>
+        </parsedAddressRF>
+        <date>2019-11-22</date>
+        <firstDate>2019-11-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-01-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Краюшкин Илья Андреевич</fio>
+          <innfl>781127111391</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-08-04</date>
+          <firstDate>2015-08-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>781301001</kpp>
+            <date>2014-01-30</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>193091</zipCode>
+              <kladrCode>780000000000967</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>наб</topoShortName>
+                <topoFullName>набережная</topoFullName>
+                <topoValue>Октябрьская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>42</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>Д</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>помещение 5-Н 29</topoValue>
+              </flat>
+              <houseRaw>ДОМ 42</houseRaw>
+              <bulkRaw>ЛИТЕР Д</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 5-Н 29</flatRaw>
+            </parsedAddressRF>
+            <date>2016-03-17</date>
+            <firstDate>2016-03-17</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>193091</zipCode>
+              <kladrCode>780000000000967</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>наб</topoShortName>
+                <topoFullName>набережная</topoFullName>
+                <topoValue>Октябрьская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>42</topoValue>
+              </house>
+              <bulk>
+                <topoValue>Д</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>5-Н 29</topoValue>
+              </flat>
+              <houseRaw>42</houseRaw>
+              <bulkRaw>Д</bulkRaw>
+              <flatRaw>5-Н 29</flatRaw>
+            </parsedAddressRF>
+            <date>2016-03-17</date>
+            <firstDate>2016-03-17</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>197110</zipCode>
+              <kladrCode>780000000001185</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Ремесленная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>З</topoValue>
+              </bulk>
+              <houseRaw>ДОМ 17</houseRaw>
+              <bulkRaw>ЛИТЕР З</bulkRaw>
+            </parsedAddressRF>
+            <date>2014-01-30</date>
+            <firstDate>2014-01-30</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Данилов Алексей Анатольевич</fio>
+            <innfl>471500403855</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-01-30</date>
+            <firstDate>2014-01-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7814259735</inn>
+    <ogrn>1157847243620</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1157847243620</focusHref>
+    <UL>
+      <kpp>780101001</kpp>
+      <okpo>23060022</okpo>
+      <okato>40263000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40309000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СК "КРАН-ЭКСПЕРТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СПЕЦИАЛИЗИРОВАННАЯ КОМПАНИЯ "КРАН-ЭКСПЕРТ"</full>
+        <date>2015-07-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>199106</zipCode>
+          <kladrCode>780000000001531</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шкиперский Проток</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Корпус 1 литер в</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>218</topoValue>
+          </flat>
+          <houseRaw>ДОМ 14</houseRaw>
+          <bulkRaw>КОРПУС 1 ЛИТЕР В</bulkRaw>
+          <flatRaw>ОФИС 218</flatRaw>
+        </parsedAddressRF>
+        <date>2019-07-17</date>
+        <firstDate>2019-07-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-07-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Данилов Алексей Анатольевич</fio>
+          <innfl>471500403855</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-07-15</date>
+          <firstDate>2015-07-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>780501001</kpp>
+            <date>2019-04-09</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>780701001</kpp>
+            <date>2016-06-14</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>781401001</kpp>
+            <date>2015-07-15</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>198035</zipCode>
+              <kladrCode>780000000000394</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>наб</topoShortName>
+                <topoFullName>набережная</topoFullName>
+                <topoValue>Реки Екатерингофки</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>24</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>В</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>1</topoValue>
+              </flat>
+              <houseRaw>ДОМ 24</houseRaw>
+              <bulkRaw>ЛИТЕР В</bulkRaw>
+              <flatRaw>ОФИС 1</flatRaw>
+            </parsedAddressRF>
+            <date>2019-04-09</date>
+            <firstDate>2019-04-09</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>198206</zipCode>
+              <kladrCode>780000000001046</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Петергофское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>74</topoValue>
+              </house>
+              <bulk>
+                <topoValue>Корпус 4 литер Б</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>418</topoValue>
+              </flat>
+              <houseRaw>ДОМ 74</houseRaw>
+              <bulkRaw>КОРПУС 4 ЛИТЕР Б</bulkRaw>
+              <flatRaw>ОФИС 418</flatRaw>
+            </parsedAddressRF>
+            <date>2018-06-20</date>
+            <firstDate>2018-06-20</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>198206</zipCode>
+              <kladrCode>780000000001046</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Петергофское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>73</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>У</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>521</topoValue>
+              </flat>
+              <houseRaw>ДОМ 73</houseRaw>
+              <bulkRaw>ЛИТЕР У</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 521</flatRaw>
+            </parsedAddressRF>
+            <date>2016-06-14</date>
+            <firstDate>2016-06-14</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>197183</zipCode>
+              <kladrCode>780000000001136</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Приморский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>61</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>19-Н</topoValue>
+              </flat>
+              <houseRaw>ДОМ 61</houseRaw>
+              <bulkRaw>ЛИТЕР А</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 19-Н</flatRaw>
+            </parsedAddressRF>
+            <date>2015-07-15</date>
+            <firstDate>2015-07-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

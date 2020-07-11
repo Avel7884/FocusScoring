@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7710375134</inn>
+    <ogrn>1037739687150</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739687150</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>57028768</okpo>
+      <okato>45286560000</okato>
+      <okfs>16</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "З АРТ"</short>
+        <full>Общество с ограниченной ответственностью "З АРТ"</full>
+        <date>2003-02-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115114</zipCode>
+          <kladrCode>770000000001488</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кожевническая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Эт 1 пом XI Ком 2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ЭТ 1 ПОМ XI КОМ 2</flatRaw>
+        </parsedAddressRF>
+        <date>2019-06-05</date>
+        <firstDate>2019-06-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-04-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Шмидт Галина Альбертовна</fio>
+          <position>Генеральный директор</position>
+          <date>2009-06-18</date>
+          <firstDate>2009-06-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771001001</kpp>
+            <date>2009-04-19</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>123001</zipCode>
+              <kladrCode>770000000002924</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Трёхпрудный</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>9</houseRaw>
+              <bulkRaw>СТР.1</bulkRaw>
+            </parsedAddressRF>
+            <date>2016-05-25</date>
+            <firstDate>2003-02-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

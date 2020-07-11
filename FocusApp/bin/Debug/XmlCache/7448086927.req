@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7448086927</inn>
+    <ogrn>1077448001850</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077448001850</focusHref>
+    <UL>
+      <kpp>027401001</kpp>
+      <okpo>99233933</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "УАЗ АТО"</short>
+        <full>Общество с ограниченной ответственностью "УАЗ Автотехобслуживание"</full>
+        <date>2007-02-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>450022</zipCode>
+          <kladrCode>020000010001168</kladrCode>
+          <regionCode>02</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Башкортостан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Уфа</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бехтерева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>129</topoValue>
+          </flat>
+          <houseRaw>16</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 129</flatRaw>
+        </parsedAddressRF>
+        <date>2012-09-06</date>
+        <firstDate>2012-09-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-07-08</date>
+      </status>
+      <registrationDate>2007-02-15</registrationDate>
+      <dissolutionDate>2014-07-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Зайнуллин Ринат Габидуллаевич</fio>
+          <innfl>744812286316</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-07-26</date>
+          <firstDate>2012-07-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>744801001</kpp>
+            <date>2007-02-15</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454106</zipCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Косарева</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>6</topoValue>
+              </house>
+              <houseRaw>6</houseRaw>
+            </parsedAddressRF>
+            <date>2007-02-15</date>
+            <firstDate>2007-02-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Рабинович Екатерина Николаевна</fio>
+            <position>Генеральный директор</position>
+            <date>2009-03-11</date>
+            <firstDate>2009-03-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

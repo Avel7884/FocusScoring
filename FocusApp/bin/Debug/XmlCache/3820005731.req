@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3820005731</inn>
+    <ogrn>1023802214083</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023802214083</focusHref>
+    <UL>
+      <kpp>381101001</kpp>
+      <okpo>46707808</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Актех-Байкал"</short>
+        <full>Закрытое акционерное общество "Актех-Байкал"</full>
+        <date>2002-09-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>664050</zipCode>
+          <kladrCode>380000030000043</kladrCode>
+          <regionCode>38</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Иркутская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Иркутск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Байкальская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>291</topoValue>
+          </house>
+          <flat>
+            <topoValue>601</topoValue>
+          </flat>
+          <houseRaw>291</houseRaw>
+          <flatRaw>601</flatRaw>
+        </parsedAddressRF>
+        <date>2007-06-26</date>
+        <firstDate>2007-06-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-10-22</date>
+      </status>
+      <registrationDate>2001-09-17</registrationDate>
+      <dissolutionDate>2014-10-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Фишер Валерий Рудольфович</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2011-05-10</date>
+          <firstDate>2011-05-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Жарков Алексей Викторович</fio>
+            <innfl>380402328834</innfl>
+            <position>Внешний управляющий</position>
+            <date>2010-03-30</date>
+            <firstDate>2010-03-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

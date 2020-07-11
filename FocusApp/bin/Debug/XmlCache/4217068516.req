@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217068516</inn>
+    <ogrn>1044217023840</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1044217023840</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>74295703</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАНЕТА ЭЛЕКТРИКА"</short>
+        <full>Общество с ограниченной ответственностью "ПЛАНЕТА ЭЛЕКТРИКА"</full>
+        <date>2004-10-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654005</zipCode>
+          <kladrCode>420000120000917</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Строителей</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <houseRaw>7</houseRaw>
+        </parsedAddressRF>
+        <date>2004-10-29</date>
+        <firstDate>2004-10-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-07-19</date>
+      </status>
+      <registrationDate>2004-10-29</registrationDate>
+      <dissolutionDate>2016-07-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Боровков Сергей Валерьевич</fio>
+          <innfl>540535901204</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-07-15</date>
+          <firstDate>2015-07-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шлыков Вадим Владимирович</fio>
+            <innfl>420508275009</innfl>
+            <position>Генеральный Директор</position>
+            <date>2008-11-07</date>
+            <firstDate>2008-11-07</firstDate>
+          </head>
+          <head>
+            <fio>Золотов Сергей Николаевич</fio>
+            <position>Генеральный Директор</position>
+            <date>2015-03-04</date>
+            <firstDate>2015-03-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

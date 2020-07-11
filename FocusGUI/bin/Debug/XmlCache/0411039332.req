@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0411039332</inn>
+    <ogrn>1020400734628</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020400734628</focusHref>
+    <UL>
+      <kpp>041101001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергодальсвязь"</short>
+        <full>Общество с ограниченной ответственностью "Энергодальсвязь"</full>
+        <date>2002-10-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>649006</zipCode>
+          <kladrCode>040000010000044</kladrCode>
+          <regionCode>04</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Алтай</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Горно-Алтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Коммунистический</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>53</topoValue>
+          </house>
+          <houseRaw>53</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-11</date>
+        <firstDate>2002-10-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-09-28</date>
+      </status>
+      <registrationDate>2000-09-14</registrationDate>
+      <dissolutionDate>2006-09-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Братякин Сергей Андреевич</fio>
+          <position>Ликвидатор</position>
+          <date>2006-02-03</date>
+          <firstDate>2006-02-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

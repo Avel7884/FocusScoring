@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7415028849</inn>
+    <ogrn>1027400870925</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027400870925</focusHref>
+    <UL>
+      <kpp>741501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Торговый дом "АвтоУрал", ООО "ТД АвтоУрал"</short>
+        <full>Общество с ограниченной ответственностью "Торговый дом "АвтоУрал"</full>
+        <date>2002-09-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>456304</zipCode>
+          <kladrCode>740000100000157</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Миасс</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Калинина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <flat>
+            <topoValue>310</topoValue>
+          </flat>
+          <houseRaw>13</houseRaw>
+          <flatRaw>310</flatRaw>
+        </parsedAddressRF>
+        <date>2006-08-22</date>
+        <firstDate>2006-08-22</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>105120</zipCode>
+            <kladrCode>770000000001552</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пер</topoShortName>
+              <topoFullName>переулок</topoFullName>
+              <topoValue>Костомаровский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>3</topoValue>
+            </house>
+            <bulk>
+              <topoValue>4</topoValue>
+            </bulk>
+            <flat>
+              <topoValue>305</topoValue>
+            </flat>
+            <houseRaw>3</houseRaw>
+            <bulkRaw>4</bulkRaw>
+            <flatRaw>305</flatRaw>
+          </parsedAddressRF>
+          <date>2004-10-05</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-08-27</date>
+      </status>
+      <registrationDate>2000-05-04</registrationDate>
+      <dissolutionDate>2007-08-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Авдеев Алексей Сергеевич</fio>
+          <innfl>770201726540</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2006-08-31</date>
+          <firstDate>2006-08-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

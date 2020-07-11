@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2465262404</inn>
+    <ogrn>1112468068460</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1112468068460</focusHref>
+    <UL>
+      <kpp>246501001</kpp>
+      <okpo>30466061</okpo>
+      <okato>04401374000</okato>
+      <okfs>16</okfs>
+      <oktmo>04701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКФ "СПС-Красноярск"</short>
+        <full>Общество с ограниченной ответственностью ПКФ "СибПромСбыт-Красноярск"</full>
+        <date>2011-11-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660111</zipCode>
+          <kladrCode>240000010000915</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пограничников</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>44Г</topoValue>
+          </house>
+          <houseRaw>44"Г"</houseRaw>
+        </parsedAddressRF>
+        <date>2011-11-14</date>
+        <firstDate>2011-11-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-06-18</date>
+      </status>
+      <registrationDate>2011-11-14</registrationDate>
+      <dissolutionDate>2019-06-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пилюшенко Ирина Николаевна</fio>
+          <innfl>246404345997</innfl>
+          <position>Директор</position>
+          <date>2014-03-13</date>
+          <firstDate>2011-11-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

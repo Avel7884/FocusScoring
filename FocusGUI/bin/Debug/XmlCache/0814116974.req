@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0814116974</inn>
+    <ogrn>1020800002376</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020800002376</focusHref>
+    <UL>
+      <kpp>081601001</kpp>
+      <okpo>50416740</okpo>
+      <okato>85401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>85701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Аудиторская фирма "АКиНП"</short>
+        <full>Закрытое акционерное общество "Аудиторская фирма "АКиНП"</full>
+        <date>2002-07-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>358000</zipCode>
+          <kladrCode>080000010000257</kladrCode>
+          <regionCode>08</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Калмыкия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Элиста</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ю.Клыкова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <flat>
+            <topoValue>602</topoValue>
+          </flat>
+          <houseRaw>1</houseRaw>
+          <flatRaw>602</flatRaw>
+        </parsedAddressRF>
+        <date>2003-04-29</date>
+        <firstDate>2003-04-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-07-22</date>
+      </status>
+      <registrationDate>1999-11-02</registrationDate>
+      <dissolutionDate>2015-07-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Янжинов Вадим Александрович</fio>
+          <innfl>081401584405</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2015-02-02</date>
+          <firstDate>2002-07-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>7811090061</inn>
+    <ogrn>1127847322305</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127847322305</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2012-06-14</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <kpp>781101001</kpp>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7847</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №15 по Санкт-Петербургу</nalogName>
+        <date>2012-06-14</date>
+      </regBody>
+      <statedCapital />
+      <egrRecords>
+        <egrRecord>
+          <grn>7127847389620</grn>
+          <date>2012-06-14</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2012-02-15</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2012-02-15</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2012-02-17</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>1127847322305</grn>
+          <date>2012-06-14</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002, по сведениям налоговых органов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2012-02-15</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2012-02-15</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2012-02-17</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>0</sum>
+            <date>2012-06-14</date>
+          </statedCapital>
+        </statedCapitals>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

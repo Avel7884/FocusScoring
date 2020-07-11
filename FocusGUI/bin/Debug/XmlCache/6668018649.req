@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6668018649</inn>
+    <ogrn>1036601221513</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036601221513</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>48578257</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>65</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Азия-Центр"</short>
+        <full>Общество с ограниченной ответственностью "Азия-Центр"</full>
+        <date>2003-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622001</zipCode>
+          <kladrCode>660000230000311</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Карла Маркса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <houseRaw>27</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-20</date>
+        <firstDate>2003-01-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-09-27</date>
+      </status>
+      <registrationDate>1997-12-26</registrationDate>
+      <dissolutionDate>2004-09-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Крысунова Мария Германовна</fio>
+          <innfl>510204596920</innfl>
+          <position>Директор</position>
+          <date>2004-08-25</date>
+          <firstDate>2004-08-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

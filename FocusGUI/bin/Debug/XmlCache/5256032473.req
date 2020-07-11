@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5256032473</inn>
+    <ogrn>1025202272765</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202272765</focusHref>
+    <UL>
+      <kpp>525601001</kpp>
+      <okpo>51760474</okpo>
+      <okato>22401362000</okato>
+      <okfs>14</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210007</okogu>
+      <okopf>65243</okopf>
+      <opf>Муниципальные унитарные предприятия</opf>
+      <legalName>
+        <short>МП "Автозаводский парк"</short>
+        <full>Муниципальное предприятие города Нижнего Новгорода "Автозаводский парк"</full>
+        <date>2003-08-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603101</zipCode>
+          <kladrCode>520000010000683</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Молодежный</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2016-10-05</date>
+        <firstDate>2002-12-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-08-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Рябинин Сергей Валентинович</fio>
+          <innfl>525605005553</innfl>
+          <position>Директор</position>
+          <date>2017-11-29</date>
+          <firstDate>2017-10-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Лагодич Николай Борисович</fio>
+            <position>Директор</position>
+            <date>2005-01-17</date>
+            <firstDate>2005-01-17</firstDate>
+          </head>
+          <head>
+            <fio>Крохин Борис Николаевич</fio>
+            <innfl>525601811150</innfl>
+            <position>Директор</position>
+            <date>2012-06-26</date>
+            <firstDate>2012-06-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0411091773</inn>
+    <ogrn>1020400743076</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020400743076</focusHref>
+    <UL>
+      <kpp>041101001</kpp>
+      <okpo>56037147</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автотрейд М"</short>
+        <full>Общество с ограниченной ответственностью "Автотрейд М"</full>
+        <date>2002-11-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>649000</zipCode>
+          <kladrCode>040000010000151</kladrCode>
+          <regionCode>04</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Алтай</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Горно-Алтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чорос-Гуркина Г.И</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29</topoValue>
+          </house>
+          <houseRaw>29</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-01</date>
+        <firstDate>2002-11-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-15</date>
+      </status>
+      <registrationDate>2001-03-19</registrationDate>
+      <dissolutionDate>2011-03-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Федорцев Валерий Юрьевич</fio>
+          <position>Генеральный Директор</position>
+          <date>2002-11-01</date>
+          <firstDate>2002-11-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5903104514</inn>
+    <ogrn>1135903000353</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1135903000353</focusHref>
+    <UL>
+      <kpp>590301001</kpp>
+      <okpo>12019051</okpo>
+      <okato>57401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>57701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "УМС"</short>
+        <full>Общество с ограниченной ответственностью "Производственная коммерческая фирма "УралМеталлСнаб"</full>
+        <date>2013-01-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614000</zipCode>
+          <kladrCode>590000010000925</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Плеханова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>46</topoValue>
+          </house>
+          <houseRaw>46</houseRaw>
+        </parsedAddressRF>
+        <date>2013-01-30</date>
+        <firstDate>2013-01-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-09-15</date>
+      </status>
+      <registrationDate>2013-01-30</registrationDate>
+      <dissolutionDate>2015-09-15</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АЙ"</name>
+          <inn>3702713417</inn>
+          <ogrn>1133702027953</ogrn>
+          <date>2015-07-14</date>
+          <firstDate>2015-07-14</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <heads>
+          <head>
+            <fio>Порубов Александр Владимирович</fio>
+            <innfl>590416855134</innfl>
+            <position>Директор</position>
+            <date>2013-01-30</date>
+            <firstDate>2013-01-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

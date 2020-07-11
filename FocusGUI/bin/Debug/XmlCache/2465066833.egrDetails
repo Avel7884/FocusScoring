@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>2465066833</inn>
+    <ogrn>1182468039907</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1182468039907</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2018-06-25</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2465</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Советскому району г.Красноярска</nalogName>
+        <nalogRegDate>2001-08-23</nalogRegDate>
+        <kpp>246501001</kpp>
+        <date>2018-06-25</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2468</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 23 по Красноярскому краю</nalogName>
+        <date>2018-06-25</date>
+      </regBody>
+      <statedCapital />
+      <egrRecords>
+        <egrRecord>
+          <grn>2182468672659</grn>
+          <date>2018-06-25</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182468668842</grn>
+          <date>2018-06-25</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1182468039907</grn>
+          <date>2018-06-25</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года на основании сведений в налоговых органах</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2018-02-27</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2018-02-27</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2018-03-02</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

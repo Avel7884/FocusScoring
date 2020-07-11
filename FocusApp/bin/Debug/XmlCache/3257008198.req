@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3257008198</inn>
+    <ogrn>1133256012592</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1133256012592</focusHref>
+    <UL>
+      <kpp>325701001</kpp>
+      <okpo>10466308</okpo>
+      <okato>15401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>15701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАЗМА ЦЕНТР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛАЗМА ЦЕНТР"</full>
+        <date>2013-09-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>241035</zipCode>
+          <kladrCode>320000010000410</kladrCode>
+          <regionCode>32</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Брянская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Брянск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кромская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>101</topoValue>
+          </house>
+          <flat>
+            <topoShortName>каб</topoShortName>
+            <topoFullName>кабинет</topoFullName>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>ДОМ 101</houseRaw>
+          <flatRaw>КАБИНЕТ 10</flatRaw>
+        </parsedAddressRF>
+        <date>2018-02-28</date>
+        <firstDate>2018-02-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-09-06</registrationDate>
+      <heads>
+        <head>
+          <fio>Кузьмин Андрей Александрович</fio>
+          <innfl>323212002207</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-09-06</date>
+          <firstDate>2013-09-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>241035</zipCode>
+              <kladrCode>320000010000410</kladrCode>
+              <regionCode>32</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Брянская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Брянск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Кромская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>101</topoValue>
+              </house>
+              <houseRaw>ДОМ 101</houseRaw>
+            </parsedAddressRF>
+            <date>2013-09-06</date>
+            <firstDate>2013-09-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

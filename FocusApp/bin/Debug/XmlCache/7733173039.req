@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7733173039</inn>
+    <ogrn>1037733029927</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037733029927</focusHref>
+    <UL>
+      <kpp>773301001</kpp>
+      <okpo>14633795</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВЕНИР"</short>
+        <full>Общество с ограниченной ответственностью "АВЕНИР"</full>
+        <date>2003-04-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125368</zipCode>
+          <kladrCode>770000000003524</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Барышиха</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <houseRaw>19</houseRaw>
+        </parsedAddressRF>
+        <date>2003-04-22</date>
+        <firstDate>2003-04-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-04-28</date>
+      </status>
+      <registrationDate>2003-04-22</registrationDate>
+      <dissolutionDate>2014-04-28</dissolutionDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

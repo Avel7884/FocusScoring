@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5258031281</inn>
+    <ogrn>1025202609145</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202609145</focusHref>
+    <UL>
+      <kpp>525801001</kpp>
+      <okpo>50339732</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автотелеком"</short>
+        <full>Общество с ограниченной ответственностью "Автотелеком"</full>
+        <date>2002-10-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603140</zipCode>
+          <kladrCode>520000010000565</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>106</topoValue>
+          </flat>
+          <houseRaw>16</houseRaw>
+          <bulkRaw>Б</bulkRaw>
+          <flatRaw>106</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-11</date>
+        <firstDate>2002-10-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-09-30</date>
+      </status>
+      <registrationDate>1999-01-14</registrationDate>
+      <dissolutionDate>2011-09-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Грачев Юрий Константинович</fio>
+          <innfl>525800901384</innfl>
+          <position>Директор</position>
+          <date>2002-10-11</date>
+          <firstDate>2002-10-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

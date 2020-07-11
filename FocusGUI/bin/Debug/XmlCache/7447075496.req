@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7447075496</inn>
+    <ogrn>1047421518517</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047421518517</focusHref>
+    <UL>
+      <kpp>745101001</kpp>
+      <okpo>74199483</okpo>
+      <okato>75401376000</okato>
+      <okfs>16</okfs>
+      <oktmo>75701370000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "ЭНЕРГОСТРОЙПРОЕКТ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЭНЕРГОСТРОЙПРОЕКТ"</full>
+        <date>2014-10-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454048</zipCode>
+          <kladrCode>740000010000279</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Доватора</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24Б</topoValue>
+          </house>
+          <bulk>
+            <topoValue>помещение 1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 24-Б</houseRaw>
+          <bulkRaw>ПОМЕЩЕНИЕ 1</bulkRaw>
+          <flatRaw>ОФИС 2</flatRaw>
+        </parsedAddressRF>
+        <date>2018-11-20</date>
+        <firstDate>2018-11-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-09-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Трофимченко Николай Владимирович</fio>
+          <innfl>745105724942</innfl>
+          <position>Директор</position>
+          <date>2018-12-04</date>
+          <firstDate>2018-12-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>744701001</kpp>
+            <date>2004-09-15</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "ЭнергоСтройПроект"</short>
+            <full>Закрытое акционерное общество "ЭнергоСтройПроект"</full>
+            <date>2005-03-24</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454006</zipCode>
+              <kladrCode>740000010000833</kladrCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Российская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <houseRaw>17</houseRaw>
+            </parsedAddressRF>
+            <date>2008-07-07</date>
+            <firstDate>2008-07-07</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Петухов Александр Аркадьевич</fio>
+            <position>Директор</position>
+            <date>2011-02-18</date>
+            <firstDate>2011-02-18</firstDate>
+          </head>
+          <head>
+            <fio>Резуненко Евгений Витальевич</fio>
+            <innfl>741300201699</innfl>
+            <position>Директор</position>
+            <date>2011-09-26</date>
+            <firstDate>2011-09-26</firstDate>
+          </head>
+          <head>
+            <fio>Познеев Андрей Николаевич</fio>
+            <innfl>745305586672</innfl>
+            <position>Директор</position>
+            <date>2014-05-13</date>
+            <firstDate>2014-05-13</firstDate>
+          </head>
+          <head>
+            <fio>Белов Алексей Владимирович</fio>
+            <innfl>860241710462</innfl>
+            <position>Директор</position>
+            <date>2018-07-19</date>
+            <firstDate>2018-07-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6143073311</inn>
+    <ogrn>1096174002495</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1096174002495</focusHref>
+    <UL>
+      <kpp>614301001</kpp>
+      <okpo>62266369</okpo>
+      <okato>60412000000</okato>
+      <okfs>16</okfs>
+      <oktmo>60712000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергомаш (Волгодонск) - Атоммаш"</short>
+        <full>Общество с ограниченной ответственностью "Энергомаш (Волгодонск) - Атоммаш"</full>
+        <date>2009-12-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>347360</zipCode>
+          <kladrCode>610000040000158</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгодонск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Жуковское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <houseRaw>10</houseRaw>
+        </parsedAddressRF>
+        <date>2009-12-07</date>
+        <firstDate>2009-12-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-08-24</date>
+      </status>
+      <registrationDate>2009-12-07</registrationDate>
+      <dissolutionDate>2017-08-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бондарев Александр Анатольевич</fio>
+          <innfl>501800267440</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2014-02-04</date>
+          <firstDate>2014-02-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бахито Эрик Рустемович</fio>
+            <innfl>771301494648</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-10-12</date>
+            <firstDate>2012-10-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

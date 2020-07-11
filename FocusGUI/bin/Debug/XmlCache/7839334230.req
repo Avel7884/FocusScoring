@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7839334230</inn>
+    <ogrn>1069847462960</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1069847462960</focusHref>
+    <UL>
+      <kpp>783901001</kpp>
+      <okpo>94596298</okpo>
+      <okato>40262000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40306000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авиасталь"</short>
+        <full>Общество с ограниченной ответственностью "Авиасталь"</full>
+        <date>2006-04-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>190020</zipCode>
+          <kladrCode>780000000000660</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Курляндская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>8-Н</topoValue>
+          </flat>
+          <houseRaw>25</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+          <flatRaw>ПОМ.8-Н</flatRaw>
+        </parsedAddressRF>
+        <date>2009-12-24</date>
+        <firstDate>2009-12-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2016-07-21</date>
+      </status>
+      <registrationDate>2006-04-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Галичевский Игорь Николаевич</fio>
+          <innfl>110373942081</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2016-10-19</date>
+          <firstDate>2016-10-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Абрамов Андрей Константинович</fio>
+            <position>Генеральный Директор</position>
+            <date>2012-11-01</date>
+            <firstDate>2006-04-26</firstDate>
+          </head>
+          <head>
+            <fio>Осмоловская Светлана Михайловна</fio>
+            <innfl>781126805301</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-12-25</date>
+            <firstDate>2015-12-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

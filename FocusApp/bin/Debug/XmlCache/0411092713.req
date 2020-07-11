@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0411092713</inn>
+    <ogrn>1020400759950</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020400759950</focusHref>
+    <UL>
+      <kpp>041101001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авторесурс"</short>
+        <full>Общество с ограниченной ответственностью "Авторесурс"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>649000</zipCode>
+          <kladrCode>040000010000151</kladrCode>
+          <regionCode>04</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Алтай</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Горно-Алтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чорос-Гуркина Г.И</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29</topoValue>
+          </house>
+          <houseRaw>29</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-31</date>
+        <firstDate>2002-12-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2003-09-25</date>
+      </status>
+      <registrationDate>2001-04-10</registrationDate>
+      <dissolutionDate>2003-09-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Воловик Антон Валерьевич</fio>
+          <position>Генеральный Директор</position>
+          <date>2002-12-31</date>
+          <firstDate>2002-12-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>649000</zipCode>
+              <regionCode>04</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Алтай</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Горно-Алтайск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Чорос-Гуркина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>29</topoValue>
+              </house>
+              <houseRaw>29</houseRaw>
+            </parsedAddressRF>
+            <date>2002-12-31</date>
+            <firstDate>2002-12-31</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4007012490</inn>
+    <ogrn>1034003600840</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034003600840</focusHref>
+    <UL>
+      <kpp>400701001</kpp>
+      <okpo>14039767</okpo>
+      <okato>29213510000</okato>
+      <okfs>16</okfs>
+      <oktmo>29613160001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>НУ ДОЛ "Вятичи"</short>
+        <full>Некоммерческое Учреждение Детский оздоровительный лагерь санаторного типа круглогодичного действия "Вятичи"</full>
+        <date>2003-04-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>249185</zipCode>
+          <kladrCode>400090040000005</kladrCode>
+          <regionCode>40</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Калужская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Жуковский</topoValue>
+          </district>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кременки</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+        </parsedAddressRF>
+        <date>2003-04-02</date>
+        <firstDate>2003-04-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-04-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Курсакова Инна Ивановна</fio>
+          <innfl>771306008637</innfl>
+          <position>Директор</position>
+          <date>2018-04-10</date>
+          <firstDate>2003-04-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

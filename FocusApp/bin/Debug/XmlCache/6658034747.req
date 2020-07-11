@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658034747</inn>
+    <ogrn>1026602332173</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602332173</focusHref>
+    <UL>
+      <kpp>770201001</kpp>
+      <okpo>36411807</okpo>
+      <okato>45286570000</okato>
+      <okfs>16</okfs>
+      <oktmo>45379000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕДКОМ"</short>
+        <full>Общество с ограниченной ответственностью "МЕДКОМ"</full>
+        <date>2012-03-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107045</zipCode>
+          <kladrCode>770000000001102</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Головин Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2012-03-11</date>
+        <firstDate>2012-03-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-10-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Митьков Сергей Николаевич</fio>
+          <innfl>667409530438</innfl>
+          <position>Директор</position>
+          <date>2012-01-25</date>
+          <firstDate>2012-01-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО НПФ "АБИЦЕЯ"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью Научно - производственная фирма "АБИЦЕЯ"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>620054</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Екатеринбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Адмирала Ушакова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>30</topoValue>
+              </house>
+              <houseRaw>30</houseRaw>
+            </parsedAddressRF>
+            <date>2011-05-27</date>
+            <firstDate>2011-05-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Вилижанина Галина Анатольевна</fio>
+            <position>Директор</position>
+            <date>2009-06-11</date>
+            <firstDate>2009-06-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

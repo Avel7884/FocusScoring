@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4248000677</inn>
+    <ogrn>1024201857393</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201857393</focusHref>
+    <UL>
+      <kpp>422201001</kpp>
+      <okpo>34767078</okpo>
+      <okato>32415000000</okato>
+      <okfs>14</okfs>
+      <oktmo>32715000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Калтанского городского округа</full>
+        <date>2011-04-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652740</zipCode>
+          <kladrCode>420000040000022</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Калтан</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>53</topoValue>
+          </house>
+          <houseRaw>53</houseRaw>
+          <bulkRaw>------</bulkRaw>
+          <flatRaw>-------</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-24</date>
+        <firstDate>2002-10-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-08-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Голдинов Игорь Федорович</fio>
+          <innfl>422201694420</innfl>
+          <position>Глава Калтанского городского округа</position>
+          <date>2013-07-03</date>
+          <firstDate>2011-04-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>14</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

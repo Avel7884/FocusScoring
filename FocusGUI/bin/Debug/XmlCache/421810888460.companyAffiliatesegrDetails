@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>421810888460</inn>
+    <ogrn>319420500059551</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=319420500059551</focusHref>
+    <IP>
+      <okpo>0165215771</okpo>
+      <pfrRegNumber>052048046934</pfrRegNumber>
+      <okato>32431369000</okato>
+      <shortenedAddress>
+        <regionCode>42</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Кемеровская область - Кузбасс</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Новокузнецк</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>32.12</code>
+          <text>Производство ювелирных изделий и аналогичных изделий</text>
+          <date>2019-07-05</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>47.19</code>
+            <text>Торговля розничная прочая в неспециализированных магазинах</text>
+            <date>2019-07-05</date>
+          </activity>
+          <activity>
+            <code>47.71.2</code>
+            <text>Торговля розничная нательным бельем в специализированных магазинах</text>
+            <date>2019-07-05</date>
+          </activity>
+          <activity>
+            <code>47.75.1</code>
+            <text>Торговля розничная косметическими и парфюмерными товарами, кроме мыла в специализированных магазинах</text>
+            <date>2019-07-05</date>
+          </activity>
+          <activity>
+            <code>95.25</code>
+            <text>Ремонт часов и ювелирных изделий</text>
+            <date>2019-07-05</date>
+          </activity>
+          <activity>
+            <code>95.29.9</code>
+            <text>Ремонт прочих бытовых изделий и предметов личного пользования, не вошедших в другие группировки</text>
+            <date>2019-07-05</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2019-07-05</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>4253</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 4 по Кемеровской области</nalogName>
+        <nalogRegDate>2019-07-05</nalogRegDate>
+        <date>2019-07-05</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>4205</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Кемерово</nalogName>
+        <date>2019-07-05</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>419420500628546</grn>
+          <date>2019-10-11</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>419420500369553</grn>
+          <date>2019-07-10</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>419420500360334</grn>
+          <date>2019-07-05</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>319420500059551</grn>
+          <date>2019-07-05</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+          <documents>
+            <document>
+              <name>Р21001 заявление о регистрации ФЛ в качестве ИП</name>
+              <date>2019-07-02</date>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина РФ</name>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+</ArrayOfegrDetails>

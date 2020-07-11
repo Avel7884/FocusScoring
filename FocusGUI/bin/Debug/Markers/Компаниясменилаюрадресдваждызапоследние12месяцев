@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>2</Score>
+  <Name>Компания сменила юр. адрес дважды за последние 12 месяцев</Name>
+  <Colour>Yellow</Colour>
+  <Description>Компания сменила юр. адрес дважды за последние 12 месяцев</Description>
+  <Code>DateTime date;  
+int count = 0;
+                        var address = company.GetParams("LegalAddress");
+                        foreach (var e in address)
+                        {
+                            if (DateTime.TryParse(e, out date) &amp;&amp; (DateTime.Today - date).Days &lt; 365)
+                                count++;
+                        }
+
+                        return count == 2;</Code>
+</items>

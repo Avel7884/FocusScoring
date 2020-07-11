@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707102218</inn>
+    <ogrn>1027739016183</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739016183</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okopf>97</okopf>
+      <opf>Автономные некоммерческие организации</opf>
+      <legalName>
+        <short>Адвокатское бюро "АЛМ"</short>
+        <full>АДВОКАТСКОЕ БЮРО "АЛМ" МОСКОВСКОЙ ГОРОДСКОЙ КОЛЛЕГИИ АДВОКАТОВ (АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ)</full>
+        <date>2002-07-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103051</zipCode>
+          <kladrCode>770000000000590</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Садовая-Самотечная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24/27</topoValue>
+          </house>
+          <houseRaw>24/27</houseRaw>
+        </parsedAddressRF>
+        <date>2002-07-25</date>
+        <firstDate>2002-07-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2003-07-02</date>
+      </status>
+      <registrationDate>1998-01-20</registrationDate>
+      <dissolutionDate>2003-07-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Аграновская Елена Валерьевна</fio>
+          <innfl>771403712743</innfl>
+          <position>Директор</position>
+          <date>2002-07-25</date>
+          <firstDate>2002-07-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

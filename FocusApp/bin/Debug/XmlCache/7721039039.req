@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7721039039</inn>
+    <ogrn>1027739364817</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739364817</focusHref>
+    <UL>
+      <kpp>772101001</kpp>
+      <okpo>41093097</okpo>
+      <okato>45290554000</okato>
+      <okfs>16</okfs>
+      <oktmo>45385000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО НПО "Энерготехнология"</short>
+        <full>Закрытое акционерное общество Научно-производственное объединение "Энерготехнология"</full>
+        <date>2002-10-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109542</zipCode>
+          <kladrCode>770000000000076</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Рязанский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>83/2</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>комн.Правл.ЖСК "Столичный"</topoValue>
+          </flat>
+          <houseRaw>83/2</houseRaw>
+          <bulkRaw>2</bulkRaw>
+          <flatRaw>КОМН.ПРАВЛ.ЖСК "СТОЛИЧНЫЙ"</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-11</date>
+        <firstDate>2002-10-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-05-30</date>
+      </status>
+      <registrationDate>1995-03-13</registrationDate>
+      <dissolutionDate>2019-05-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Захаров Захарья Романович</fio>
+          <innfl>771908225251</innfl>
+          <position>Директор</position>
+          <date>2002-10-11</date>
+          <firstDate>2002-10-11</firstDate>
+        </head>
+        <head>
+          <fio>Нестеркина Наталья Леонидовна</fio>
+          <innfl>771700283600</innfl>
+          <position>Гл. (Ст.) Бухгалтер</position>
+          <date>2018-04-10</date>
+          <firstDate>2002-10-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5200000046</inn>
+    <ogrn>1025202265571</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202265571</focusHref>
+    <UL>
+      <kpp>525601001</kpp>
+      <okpo>05744892</okpo>
+      <okato>22401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ПАО "ГАЗ"</short>
+        <full>ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "ГАЗ"</full>
+        <date>2016-07-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603004</zipCode>
+          <kladrCode>520000010000565</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>88</topoValue>
+          </house>
+          <houseRaw>88</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-03</date>
+        <firstDate>2002-10-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-12-21</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "УПРАВЛЯЮЩАЯ КОМПАНИЯ "ГРУППА ГАЗ"</name>
+          <inn>7730522644</inn>
+          <ogrn>1057746718193</ogrn>
+          <date>2010-02-01</date>
+          <firstDate>2010-02-01</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО "ГАЗ"</short>
+            <full>Открытое акционерное общество "ГАЗ"</full>
+            <date>2007-05-23</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Андерссон Бу Инге</fio>
+            <position>Представитель управляющей компании</position>
+            <date>2010-02-01</date>
+            <firstDate>2010-02-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>14</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>5256045828</inn>
+    <ogrn>1035204887992</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035204887992</focusHref>
+    <UL>
+      <kpp>525601001</kpp>
+      <okpo>70378349</okpo>
+      <okato>22401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЭС"</short>
+        <full>Общество с ограниченной ответственностью "Автозаводские энергетические сети"</full>
+        <date>2003-08-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603053</zipCode>
+          <kladrCode>520000010000216</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Газовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <flat>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>19</houseRaw>
+          <flatRaw>1</flatRaw>
+        </parsedAddressRF>
+        <date>2009-05-18</date>
+        <firstDate>2009-05-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-12-30</date>
+      </status>
+      <registrationDate>2003-08-11</registrationDate>
+      <dissolutionDate>2014-12-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Торгашев Валерий Павлович</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2013-07-17</date>
+          <firstDate>2013-07-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Варнаков Владимир Викторович</fio>
+            <innfl>246405317086</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-04-19</date>
+            <firstDate>2010-04-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5256054685</inn>
+    <ogrn>1055227074540</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1055227074540</focusHref>
+    <UL>
+      <kpp>525601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТЭР"</short>
+        <full>Общество с ограниченной ответственностью "Теплоэнергоремонт"</full>
+        <date>2005-08-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603041</zipCode>
+          <kladrCode>520000010001115</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Толбухина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>5</houseRaw>
+        </parsedAddressRF>
+        <date>2005-08-04</date>
+        <firstDate>2005-08-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-12-26</date>
+      </status>
+      <registrationDate>2005-08-04</registrationDate>
+      <dissolutionDate>2006-12-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чипырин Евгений Викторович</fio>
+          <innfl>525620239250</innfl>
+          <position>Ликвидатор</position>
+          <date>2006-07-26</date>
+          <firstDate>2006-07-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5256174968</inn>
+    <ogrn>1185275039069</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1185275039069</focusHref>
+    <UL>
+      <kpp>525601001</kpp>
+      <okpo>31672816</okpo>
+      <okato>22401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АРИТЕРА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АРИТЕРА"</full>
+        <date>2018-07-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603069</zipCode>
+          <kladrCode>52000001006</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Мостоотряд</topoValue>
+          </settlement>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>51</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>О</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>3-8</topoValue>
+          </flat>
+          <houseRaw>ДОМ 51</houseRaw>
+          <bulkRaw>КОРПУС О</bulkRaw>
+          <flatRaw>ОФИС 3-8</flatRaw>
+        </parsedAddressRF>
+        <date>2018-07-13</date>
+        <firstDate>2018-07-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-07-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Варнаков Владимир Викторович</fio>
+          <innfl>246405317086</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-02-09</date>
+          <firstDate>2018-07-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5260098974</inn>
+    <ogrn>1025203043161</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203043161</focusHref>
+    <UL>
+      <kpp>526001001</kpp>
+      <okpo>57842227</okpo>
+      <okopf>43</okopf>
+      <opf>Муниципальные предприятия</opf>
+      <legalName>
+        <short>МП "Городские электросети"</short>
+        <full>Муниципальное предприятие города Нижнего Новгорода "Городские электросети"</full>
+        <date>2004-03-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603000</zipCode>
+          <kladrCode>520000010000108</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Большая Покровская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>37А</topoValue>
+          </house>
+          <houseRaw>37А</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-30</date>
+        <firstDate>2002-12-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-23</date>
+      </status>
+      <registrationDate>2001-07-25</registrationDate>
+      <dissolutionDate>2012-01-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Казаков Алексей Валентинович</fio>
+          <innfl>526202446839</innfl>
+          <position>Председатель ликвидационной комиссии</position>
+          <date>2009-03-04</date>
+          <firstDate>2009-03-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Покровская Б</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>37а</topoValue>
+              </house>
+              <houseRaw>37а</houseRaw>
+            </parsedAddressRF>
+            <date>2002-12-30</date>
+            <firstDate>2002-12-30</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5260129870</inn>
+    <ogrn>1045207445304</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045207445304</focusHref>
+    <UL>
+      <kpp>526001001</kpp>
+      <okpo>72317487</okpo>
+      <okato>22401373000</okato>
+      <okfs>49</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20614</okopf>
+      <opf>Некоммерческие партнерства</opf>
+      <legalName>
+        <short>Некоммерческое партнерство "ОРП ЖКХ НО"</short>
+        <full>Некоммерческое партнерство "Объединение работодателей предприятий жилищно-коммунального хозяйства Нижегородской области"</full>
+        <date>2004-02-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603005</zipCode>
+          <kladrCode>520000010000108</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Большая Покровская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <flat>
+            <topoValue>18</topoValue>
+          </flat>
+          <houseRaw>1</houseRaw>
+          <flatRaw>18</flatRaw>
+        </parsedAddressRF>
+        <date>2012-11-21</date>
+        <firstDate>2012-11-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-02-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Сулимова Марина Вацлавовна</fio>
+          <innfl>525902040007</innfl>
+          <position>Директор</position>
+          <date>2019-05-27</date>
+          <firstDate>2019-05-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603005</zipCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Покровская Б</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <flat>
+                <topoValue>18</topoValue>
+              </flat>
+              <houseRaw>1</houseRaw>
+              <flatRaw>18</flatRaw>
+            </parsedAddressRF>
+            <date>2004-02-17</date>
+            <firstDate>2004-02-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Смирнов Алексей Григорьевич</fio>
+            <innfl>524600483353</innfl>
+            <position>Директор</position>
+            <date>2004-02-17</date>
+            <firstDate>2004-02-17</firstDate>
+          </head>
+          <head>
+            <fio>Дмитрук Лариса Викторовна</fio>
+            <innfl>524601286541</innfl>
+            <position>Директор</position>
+            <date>2011-08-22</date>
+            <firstDate>2011-08-22</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>5260138553</inn>
+    <ogrn>1045207471000</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045207471000</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>74433714</okpo>
+      <okato>45286575000</okato>
+      <okfs>14</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20614</okopf>
+      <opf>Некоммерческие партнерства</opf>
+      <legalName>
+        <short>НП "РОСГОРСВЕТ"</short>
+        <full>Некоммерческое партнерство "РОСГОРСВЕТ"</full>
+        <date>2004-09-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123104</zipCode>
+          <kladrCode>770000000000906</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бронная Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <houseRaw>14</houseRaw>
+        </parsedAddressRF>
+        <date>2005-12-28</date>
+        <firstDate>2005-12-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-09-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Шепелев Андрей Юрьевич</fio>
+          <innfl>502905671362</innfl>
+          <position>Исполнительный Директор</position>
+          <date>2018-04-07</date>
+          <firstDate>2014-01-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>526001001</kpp>
+            <date>2005-12-28</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Вутянов Вениамин Валерьевич</fio>
+            <innfl>702000065970</innfl>
+            <position>Исполнительный Директор</position>
+            <date>2008-08-15</date>
+            <firstDate>2008-08-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7703753177</inn>
+    <ogrn>1117746752848</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117746752848</focusHref>
+    <UL>
+      <kpp>525601001</kpp>
+      <okpo>30263079</okpo>
+      <okato>22401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Развитие"</short>
+        <full>Общество с ограниченной ответственностью "Развитие"</full>
+        <date>2011-09-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603004</zipCode>
+          <kladrCode>520000010000565</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>111</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>316/6</topoValue>
+          </flat>
+          <houseRaw>ДОМ 111</houseRaw>
+          <flatRaw>ОФИС 316/6</flatRaw>
+        </parsedAddressRF>
+        <date>2017-09-15</date>
+        <firstDate>2017-09-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-09-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Варнаков Владимир Викторович</fio>
+          <innfl>246405317086</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-08-08</date>
+          <firstDate>2012-04-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603004</zipCode>
+              <kladrCode>520000010000565</kladrCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Ленина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>111</topoValue>
+              </house>
+              <houseRaw>111</houseRaw>
+            </parsedAddressRF>
+            <date>2012-09-26</date>
+            <firstDate>2012-09-26</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>123022</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Рочдельская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>32</topoValue>
+              </bulk>
+              <houseRaw>15</houseRaw>
+              <bulkRaw>стр.32</bulkRaw>
+            </parsedAddressRF>
+            <date>2011-09-23</date>
+            <firstDate>2011-09-23</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Ваганова Елена Васильевна</fio>
+            <innfl>524305236251</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-09-23</date>
+            <firstDate>2011-09-23</firstDate>
+          </head>
+          <head>
+            <fio>Карташева Любовь Алексеевна</fio>
+            <innfl>525630250654</innfl>
+            <position>Генеральный Директор</position>
+            <date>2019-04-03</date>
+            <firstDate>2019-04-03</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7722532448</inn>
+    <ogrn>1047796929620</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796929620</focusHref>
+    <UL>
+      <kpp>525601001</kpp>
+      <okpo>75348206</okpo>
+      <okato>22401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "РПАС"</short>
+        <full>Общество с ограниченной ответственностью "РПАС"</full>
+        <date>2004-12-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603004</zipCode>
+          <kladrCode>520000010000565</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>88</topoValue>
+          </house>
+          <houseRaw>88</houseRaw>
+        </parsedAddressRF>
+        <date>2012-10-16</date>
+        <firstDate>2012-10-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-05-20</date>
+      </status>
+      <registrationDate>2004-12-03</registrationDate>
+      <dissolutionDate>2016-05-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сурженко Геннадий Аркадьевич</fio>
+          <innfl>525612853890</innfl>
+          <position>Ликвидатор</position>
+          <date>2014-11-17</date>
+          <firstDate>2014-11-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115088</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Новоостаповская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>14</topoValue>
+              </bulk>
+              <houseRaw>5</houseRaw>
+              <bulkRaw>СТР.14</bulkRaw>
+            </parsedAddressRF>
+            <date>2004-12-03</date>
+            <firstDate>2004-12-03</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Варнаков Владимир Викторович</fio>
+            <innfl>246405317086</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-11-15</date>
+            <firstDate>2012-11-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

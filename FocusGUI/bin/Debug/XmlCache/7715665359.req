@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7715665359</inn>
+    <ogrn>1077759922503</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077759922503</focusHref>
+    <UL>
+      <kpp>772101001</kpp>
+      <okpo>82550894</okpo>
+      <okato>45290578000</okato>
+      <okfs>16</okfs>
+      <oktmo>45392000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плазмамаш"</short>
+        <full>Общество с ограниченной ответственностью "Плазмамаш"</full>
+        <date>2007-09-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109202</zipCode>
+          <kladrCode>770000000000023</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Карачаровская 2-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>101-106</topoValue>
+          </flat>
+          <houseRaw>ДОМ 1</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>КОМНАТА 101-106</flatRaw>
+        </parsedAddressRF>
+        <date>2017-07-17</date>
+        <firstDate>2017-07-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-09-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Павлов Владимир Геннадиевич</fio>
+          <innfl>771900684359</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-02-06</date>
+          <firstDate>2007-09-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771501001</kpp>
+            <date>2007-09-10</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127566</zipCode>
+              <kladrCode>770000000000854</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Бестужевых</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>14А</topoValue>
+              </house>
+              <houseRaw>14А</houseRaw>
+            </parsedAddressRF>
+            <date>2007-09-10</date>
+            <firstDate>2007-09-10</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Комаров Александр Геннадьевич</fio>
+            <innfl>771808334793</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-02-21</date>
+            <firstDate>2017-02-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

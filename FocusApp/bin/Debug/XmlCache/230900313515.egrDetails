@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>230900313515</inn>
+    <ogrn>308230901700012</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=308230901700012</focusHref>
+    <IP>
+      <okpo>0159185025</okpo>
+      <pfrRegNumber>033014033866</pfrRegNumber>
+      <fssRegNumber>230201944523023</fssRegNumber>
+      <fomsRegNumber>034010804102211</fomsRegNumber>
+      <okato>03401369000</okato>
+      <shortenedAddress>
+        <regionCode>23</regionCode>
+        <regionName>
+          <topoShortName>край</topoShortName>
+          <topoFullName>край</topoFullName>
+          <topoValue>Краснодарский</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Краснодар</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>52.45.1</code>
+          <text>Розничная торговля бытовыми электротоварами</text>
+          <date>2008-01-17</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>52.44.2</code>
+            <text>Розничная торговля различной домашней утварью, ножевыми изделиями, посудой, изделиями из стекла и керамики, в том числе фарфора и фаянса</text>
+            <date>2008-01-17</date>
+          </activity>
+          <activity>
+            <code>52.46.1</code>
+            <text>Розничная торговля скобяными изделиями</text>
+            <date>2008-01-17</date>
+          </activity>
+          <activity>
+            <code>52.46.5</code>
+            <text>Розничная торговля санитарно-техническим оборудованием</text>
+            <date>2008-01-17</date>
+          </activity>
+          <activity>
+            <code>52.48.39</code>
+            <text>Специализированная розничная торговля прочими непродовольственными товарами, не включенными в другие группировки</text>
+            <date>2008-01-17</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2008-01-17</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2309</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы №3 по г. Краснодару</nalogName>
+        <nalogRegDate>2008-01-17</nalogRegDate>
+        <date>2012-05-23</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2375</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 16 по Краснодарскому краю</nalogName>
+        <date>2016-02-18</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>412230924100364</grn>
+          <date>2012-08-28</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 3 по г. Краснодару</regName>
+          <regCode>2309</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>412230914400176</grn>
+          <date>2012-05-23</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 3 по г. Краснодару</regName>
+          <regCode>2309</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>412230914400046</grn>
+          <date>2012-05-23</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 3 по г. Краснодару</regName>
+          <regCode>2309</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации прекращения физическим лицом деятельности в качестве индивидуального предпринимателя в связи с принятием им решения о прекращении данной деятельности</name>
+              <date>2012-05-16</date>
+            </document>
+            <document>
+              <name>Чек-ордер</name>
+              <date>2012-05-16</date>
+            </document>
+            <document>
+              <name>Справка ПФ РФ</name>
+              <date>2012-05-15</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>23 008203872</serialNumber>
+              <date>2012-05-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>411230922800460</grn>
+          <date>2011-08-16</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 3 по г. Краснодару</regName>
+          <regCode>2309</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>408230921815774</grn>
+          <date>2008-08-05</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 3 по г. Краснодару</regName>
+          <regCode>2309</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>408230901700105</grn>
+          <date>2008-01-17</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 3 по г. Краснодару</regName>
+          <regCode>2309</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>308230901700012</grn>
+          <date>2008-01-17</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы № 3 по г. Краснодару</regName>
+          <regCode>2309</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации физического лица в качестве индивидуального предпринимателя</name>
+              <date>2007-12-27</date>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-01-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>23 006854009</serialNumber>
+              <date>2008-01-17</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+</ArrayOfegrDetails>

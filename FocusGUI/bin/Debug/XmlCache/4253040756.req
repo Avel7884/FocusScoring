@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4253040756</inn>
+    <ogrn>1174205030790</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1174205030790</focusHref>
+    <UL>
+      <kpp>425301001</kpp>
+      <okpo>22069191</okpo>
+      <okato>32431367000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛЕЙСИНЕМА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛЕЙСИНЕМА"</full>
+        <date>2017-12-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654063</zipCode>
+          <kladrCode>420000120002045</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Карла Маркса (Куйбышевский Р-Н)</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 2А</houseRaw>
+          <flatRaw>ОФИС 2</flatRaw>
+        </parsedAddressRF>
+        <date>2018-05-15</date>
+        <firstDate>2018-05-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-04-01</date>
+      </status>
+      <registrationDate>2017-12-18</registrationDate>
+      <dissolutionDate>2019-04-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Полужникова Анна Николаевна</fio>
+          <innfl>421803965594</innfl>
+          <position>Ликвидатор</position>
+          <date>2018-10-16</date>
+          <firstDate>2018-08-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>654063</zipCode>
+              <kladrCode>420000120000398</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Карла Маркса</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2А</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>2</topoValue>
+              </flat>
+              <houseRaw>ДОМ 2А</houseRaw>
+              <flatRaw>ОФИС 2</flatRaw>
+            </parsedAddressRF>
+            <date>2018-05-15</date>
+            <firstDate>2018-05-15</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <kladrCode>420000120001151</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Курако</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>51</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>корп</topoShortName>
+                <topoFullName>корпус</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>15</topoValue>
+              </flat>
+              <houseRaw>ДОМ 51</houseRaw>
+              <bulkRaw>КОРПУС 1</bulkRaw>
+              <flatRaw>ОФИС 15</flatRaw>
+            </parsedAddressRF>
+            <date>2017-12-18</date>
+            <firstDate>2017-12-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Клинов Константин Александрович</fio>
+            <innfl>421713869247</innfl>
+            <position>Директор</position>
+            <date>2017-12-18</date>
+            <firstDate>2017-12-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

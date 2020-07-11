@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6670348394</inn>
+    <ogrn>1116670023887</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1116670023887</focusHref>
+    <UL>
+      <kpp>667801001</kpp>
+      <okpo>30823213</okpo>
+      <okato>65412000000</okato>
+      <okfs>16</okfs>
+      <oktmo>65731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАНЕТА ОЙЛ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛАНЕТА ОЙЛ"</full>
+        <date>2014-04-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>623700</zipCode>
+          <kladrCode>660000030000029</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Березовский</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Уральская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>140</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>В</topoValue>
+          </bulk>
+          <houseRaw>140</houseRaw>
+          <bulkRaw>ЛИТЕР В</bulkRaw>
+        </parsedAddressRF>
+        <date>2014-04-09</date>
+        <firstDate>2014-04-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-09-19</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВТО-ФОРС"</name>
+          <inn>6685001170</inn>
+          <ogrn>1126685001167</ogrn>
+          <date>2014-04-09</date>
+          <firstDate>2014-04-09</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>667001001</kpp>
+            <date>2011-09-22</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "ИСУЗУ - Урал"</short>
+            <full>Общество с ограниченной ответственностью "ИСУЗУ - Урал"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>620137</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Екатеринбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Комсомольская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <bulk>
+                <topoValue>встроенное помещение Литер Н</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>помещения 1-го этажа 17-23/25</topoValue>
+              </flat>
+              <houseRaw>5</houseRaw>
+              <bulkRaw>встроенное помещение Литер Н</bulkRaw>
+              <flatRaw>помещения 1-го этажа 17-23/25</flatRaw>
+            </parsedAddressRF>
+            <date>2011-09-19</date>
+            <firstDate>2011-09-19</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Лопаев Александр Валерьевич</fio>
+            <innfl>666000462219</innfl>
+            <position>Директор</position>
+            <date>2011-09-19</date>
+            <firstDate>2011-09-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

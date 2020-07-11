@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7712089160</inn>
+    <ogrn>1037739322950</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739322950</focusHref>
+    <UL>
+      <kpp>771301001</kpp>
+      <okpo>42950371</okpo>
+      <okato>45277568000</okato>
+      <okfs>16</okfs>
+      <oktmo>45337000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А-газ"</short>
+        <full>Общество с ограниченной ответственностью "А-газ"</full>
+        <date>2003-01-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127540</zipCode>
+          <kladrCode>770000000001242</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Дубнинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>347</topoValue>
+          </flat>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>347</flatRaw>
+        </parsedAddressRF>
+        <date>2016-05-25</date>
+        <firstDate>2007-12-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-05</date>
+      </status>
+      <registrationDate>1996-08-08</registrationDate>
+      <dissolutionDate>2016-09-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Соловьева Елена Викторовна</fio>
+          <innfl>771200734702</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-12-17</date>
+          <firstDate>2007-12-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127540</zipCode>
+              <kladrCode>770000000001242</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Дубнинская улица</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>12</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>347</topoValue>
+              </flat>
+              <houseRaw>12</houseRaw>
+              <bulkRaw>1</bulkRaw>
+              <flatRaw>347</flatRaw>
+            </parsedAddressRF>
+            <date>2016-05-14</date>
+            <firstDate>2016-05-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

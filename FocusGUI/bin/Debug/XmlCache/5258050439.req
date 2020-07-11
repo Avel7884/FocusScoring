@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5258050439</inn>
+    <ogrn>1045207245280</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045207245280</focusHref>
+    <UL>
+      <kpp>525801001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО СПП "Совхоз Цветы"</short>
+        <full>Общество с ограниченной ответственностью Сельскохозяйственное производственное предприятие "Совхоз Цветы"</full>
+        <date>2004-11-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603061</zipCode>
+          <kladrCode>520000010001162</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Глеба Успенского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>2</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-04-28</date>
+        <firstDate>2004-04-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-01-29</date>
+      </status>
+      <registrationDate>2004-04-28</registrationDate>
+      <dissolutionDate>2008-01-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Зимин Игорь Борисович</fio>
+          <innfl>525600349078</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2006-07-13</date>
+          <firstDate>2006-07-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

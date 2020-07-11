@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5403005931</inn>
+    <ogrn>1155476061256</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1155476061256</focusHref>
+    <UL>
+      <kpp>540801001</kpp>
+      <okpo>49735440</okpo>
+      <okato>50401384000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОМКОМПЛЕКТСЕРВИС"</full>
+        <date>2015-06-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <kladrCode>540000010000180</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Варшавская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7/5</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7/5</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 1</flatRaw>
+        </parsedAddressRF>
+        <date>2017-11-29</date>
+        <firstDate>2017-11-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-06-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Макаревич Дмитрий Александрович</fio>
+          <innfl>540303000898</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-06-03</date>
+          <firstDate>2015-06-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>540301001</kpp>
+            <date>2015-06-03</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>630106</zipCode>
+              <kladrCode>540000010000463</kladrCode>
+              <regionCode>54</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Новосибирская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новосибирск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Зорге</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>119</topoValue>
+              </house>
+              <flat>
+                <topoShortName>кв</topoShortName>
+                <topoFullName>квартира</topoFullName>
+                <topoValue>70</topoValue>
+              </flat>
+              <houseRaw>ДОМ 119</houseRaw>
+              <flatRaw>КВАРТИРА 70</flatRaw>
+            </parsedAddressRF>
+            <date>2015-06-03</date>
+            <firstDate>2015-06-03</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

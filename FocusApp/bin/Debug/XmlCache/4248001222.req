@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4248001222</inn>
+    <ogrn>1024201860308</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201860308</focusHref>
+    <UL>
+      <kpp>422201001</kpp>
+      <okpo>34793644</okpo>
+      <okopf>81</okopf>
+      <opf>Учреждения</opf>
+      <legalName>
+        <short>Отделение по г. Калтану УФК по Кемеровской области</short>
+        <full>Отделение по г. Калтану Управления Федерального казначейства по Кемеровской области</full>
+        <date>2005-04-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652741</zipCode>
+          <kladrCode>420000040000022</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Калтан</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+          <bulkRaw>-----------</bulkRaw>
+          <flatRaw>------------</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-23</date>
+        <firstDate>2002-12-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-08-09</date>
+      </status>
+      <registrationDate>2001-12-21</registrationDate>
+      <dissolutionDate>2011-08-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Русалеева Людмила Васильевна</fio>
+          <innfl>422203837031</innfl>
+          <position>Руководитель</position>
+          <date>2002-12-23</date>
+          <firstDate>2002-12-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

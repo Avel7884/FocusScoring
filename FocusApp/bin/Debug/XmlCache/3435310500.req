@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3435310500</inn>
+    <ogrn>1143435001291</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1143435001291</focusHref>
+    <UL>
+      <kpp>343501001</kpp>
+      <okpo>22406085</okpo>
+      <okato>18410000000</okato>
+      <okfs>16</okfs>
+      <oktmo>18710000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А ЭНД А"</short>
+        <full>Общество с ограниченной ответственностью "А ЭНД А"</full>
+        <date>2014-03-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>404102</zipCode>
+          <kladrCode>340000020000036</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волжский</topoValue>
+          </city>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Профсоюзов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30А</topoValue>
+          </house>
+          <flat>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>30А</houseRaw>
+          <flatRaw>1</flatRaw>
+        </parsedAddressRF>
+        <date>2014-03-06</date>
+        <firstDate>2014-03-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-12-29</date>
+      </status>
+      <registrationDate>2014-03-06</registrationDate>
+      <dissolutionDate>2015-12-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Таиров Рустам Владимирович</fio>
+          <innfl>151002090334</innfl>
+          <position>Директор</position>
+          <date>2015-10-19</date>
+          <firstDate>2015-10-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Рзаев Азер Адиль Оглы</fio>
+            <innfl>343594000522</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-03-06</date>
+            <firstDate>2014-03-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

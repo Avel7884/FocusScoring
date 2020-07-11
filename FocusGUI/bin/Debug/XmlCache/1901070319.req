@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1901070319</inn>
+    <ogrn>1051901113769</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1051901113769</focusHref>
+    <UL>
+      <kpp>190101001</kpp>
+      <okpo>76766683</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Абакан ДСУ"</short>
+        <full>Общество с ограниченной ответственностью "Абаканское дорожное строительное управление"</full>
+        <date>2005-12-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655017</zipCode>
+          <kladrCode>190000010000057</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абакан</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Журавлева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8А</topoValue>
+          </house>
+          <flat>
+            <topoValue>54</topoValue>
+          </flat>
+          <houseRaw>8А</houseRaw>
+          <flatRaw>54</flatRaw>
+        </parsedAddressRF>
+        <date>2005-12-20</date>
+        <firstDate>2005-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-03-11</date>
+      </status>
+      <registrationDate>2005-12-20</registrationDate>
+      <dissolutionDate>2012-03-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Нефёдова Елена Александровна</fio>
+          <innfl>190108159822</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-11-23</date>
+          <firstDate>2011-11-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Волков Алексей Петрович</fio>
+            <innfl>190100762980</innfl>
+            <position>Директор</position>
+            <date>2006-11-16</date>
+            <firstDate>2006-11-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

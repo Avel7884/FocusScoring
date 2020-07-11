@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>4</Score>
+  <Name>Значительное количество компаний, найденных в особых реестрах ФНС</Name>
+  <Colour>YellowAffiliates</Colour>
+  <Description>Значительное количество компаний, найденных в особых реестрах ФНС</Description>
+  <Code> var zp = company.GetMultiParam("m5002Affiliates");
+                        var na = company.GetMultiParam("m5004Affiliates");
+                        var kp = company.GetMultiParam("m5006Affiliates");
+                        var zi = company.GetMultiParam("m5007Affiliates");
+                        var count = .0;
+                        for (int i = 0; i &lt; zp.Length; i++)
+                            if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
+                                count++;
+
+                        return count / zp.Length &gt; 0.3;</Code>
+</items>

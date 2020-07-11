@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3812043349</inn>
+    <ogrn>1033801768054</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033801768054</focusHref>
+    <UL>
+      <kpp>381201001</kpp>
+      <okpo>33263523</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АКРОПОЛЬ"</short>
+        <full>Закрытое Акционерное Общество "АКРОПОЛЬ"</full>
+        <date>2003-11-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>664005</zipCode>
+          <kladrCode>380010010000118</kladrCode>
+          <regionCode>38</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Иркутская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Иркутск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гоголя</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <houseRaw>34</houseRaw>
+        </parsedAddressRF>
+        <date>2003-11-17</date>
+        <firstDate>2003-11-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-11-29</date>
+      </status>
+      <registrationDate>1995-11-04</registrationDate>
+      <dissolutionDate>2011-11-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мирошниченко Василий Петрович</fio>
+          <position>Генеральный директор</position>
+          <date>2003-11-17</date>
+          <firstDate>2003-11-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>664005</zipCode>
+              <regionCode>38</regionCode>
+              <regionName>
+                <topoValue>Иркутская</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Иркутский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Иркутск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Гоголя</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>34</topoValue>
+              </house>
+              <houseRaw>34</houseRaw>
+            </parsedAddressRF>
+            <date>2003-11-17</date>
+            <firstDate>2003-11-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>850600045920</inn>
+    <ogrn>305850613701352</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305850613701352</focusHref>
+    <IP>
+      <fio>Мирошниченко Василий Петрович</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2000-02-15</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Физическое лицо утратило государственную регистрацию в качестве индивидуального предпринимателя на основании ст.3 федерального закона от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-12-14</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

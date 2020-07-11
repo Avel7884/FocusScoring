@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>9705044437</inn>
+    <ogrn>1157700011226</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1157700011226</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>46429990</okpo>
+      <okato>45286560000</okato>
+      <okfs>16</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>71400</okopf>
+      <opf>Автономные некоммерческие организации</opf>
+      <legalName>
+        <short>РОСКАЧЕСТВО</short>
+        <full>АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ "РОССИЙСКАЯ СИСТЕМА КАЧЕСТВА"</full>
+        <date>2018-08-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115184</zipCode>
+          <kladrCode>770000000002102</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Овчинниковский Ср</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <houseRaw>ДОМ 12</houseRaw>
+        </parsedAddressRF>
+        <date>2015-07-21</date>
+        <firstDate>2015-07-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-07-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Протасов Максим Александрович</fio>
+          <innfl>770104444903</innfl>
+          <position>Руководитель Организации</position>
+          <date>2018-01-18</date>
+          <firstDate>2015-07-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

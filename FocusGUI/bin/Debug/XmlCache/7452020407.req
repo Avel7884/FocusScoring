@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7452020407</inn>
+    <ogrn>1027403767808</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027403767808</focusHref>
+    <UL>
+      <kpp>745201001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОР"</short>
+        <full>Общество с ограниченной ответственностью "АВТОР"</full>
+        <date>2002-09-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454071</zipCode>
+          <kladrCode>740000010000062</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бажова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>91</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>203</topoValue>
+          </flat>
+          <houseRaw>91</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>203</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-23</date>
+        <firstDate>2002-09-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2002-09-23</date>
+      </status>
+      <registrationDate>1995-09-25</registrationDate>
+      <dissolutionDate>2002-09-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Тимофеев Владимир Григорьевич</fio>
+          <position>Директор</position>
+          <date>2002-09-23</date>
+          <firstDate>2002-09-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

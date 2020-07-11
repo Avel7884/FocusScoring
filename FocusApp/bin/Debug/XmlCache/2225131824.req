@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2225131824</inn>
+    <ogrn>1122225010082</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1122225010082</focusHref>
+    <UL>
+      <kpp>222501001</kpp>
+      <okpo>21443196</okpo>
+      <okato>01401370000</okato>
+      <okfs>13</okfs>
+      <oktmo>01701000001</oktmo>
+      <okogu>2300001</okogu>
+      <okopf>65242</okopf>
+      <opf>Государственные унитарные предприятия субъектов Российской Федерации</opf>
+      <legalName>
+        <short>АКГУП санаторий "Обь"</short>
+        <full>Алтайское краевое государственное унитарное предприятие санаторий "Обь"</full>
+        <date>2012-07-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656045</zipCode>
+          <kladrCode>220000010000250</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>тракт</topoShortName>
+            <topoFullName>тракт</topoFullName>
+            <topoValue>Змеиногорский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>77</topoValue>
+          </house>
+          <houseRaw>77</houseRaw>
+        </parsedAddressRF>
+        <date>2012-07-20</date>
+        <firstDate>2012-07-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-04-07</date>
+      </status>
+      <registrationDate>2012-07-20</registrationDate>
+      <dissolutionDate>2015-04-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Трифонова Татьяна Петровна</fio>
+          <innfl>222300641007</innfl>
+          <position>Директор</position>
+          <date>2014-05-21</date>
+          <firstDate>2014-05-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бакулин Леонид Васильевич</fio>
+            <innfl>222502911658</innfl>
+            <position>Директор</position>
+            <date>2012-07-20</date>
+            <firstDate>2012-07-20</firstDate>
+          </head>
+          <head>
+            <fio>Зиновьева Елена Викторовна</fio>
+            <innfl>222507911436</innfl>
+            <position>И.О.Директора</position>
+            <date>2013-07-30</date>
+            <firstDate>2013-07-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

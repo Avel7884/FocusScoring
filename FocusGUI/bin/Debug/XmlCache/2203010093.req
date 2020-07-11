@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2203010093</inn>
+    <ogrn>1022200535499</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200535499</focusHref>
+    <UL>
+      <kpp>220301001</kpp>
+      <okpo>55995330</okpo>
+      <okato>01404000000</okato>
+      <okfs>16</okfs>
+      <oktmo>01704000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "SKI - ИНВЕСТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "SKI - ИНВЕСТ"</full>
+        <date>2006-05-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>659900</zipCode>
+          <kladrCode>220000030000068</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белокуриха</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Набережная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>4</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-27</date>
+        <firstDate>2002-09-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-08-01</registrationDate>
+      <heads>
+        <head>
+          <fio>Якимова Евгения Владимировна</fio>
+          <innfl>222308511867</innfl>
+          <position>Управляющий - индивидуальный предприниматель</position>
+          <date>2018-07-09</date>
+          <firstDate>2016-03-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Аветисян Станислав Сергеевич</fio>
+            <innfl>263403018592</innfl>
+            <position>Генеральный Директор</position>
+            <date>2010-07-01</date>
+            <firstDate>2010-07-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

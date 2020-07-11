@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5906028011</inn>
+    <ogrn>1025901377633</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025901377633</focusHref>
+    <UL>
+      <kpp>590601001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Автопредприятие МЗ"</short>
+        <full>Закрытое акционерное общество "Автопредприятие Мотовилихинских заводов"</full>
+        <date>2002-12-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614014</zipCode>
+          <kladrCode>590000010000223</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Восстания</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-11</date>
+        <firstDate>2002-12-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-02-26</date>
+      </status>
+      <registrationDate>1996-06-27</registrationDate>
+      <dissolutionDate>2004-02-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Быков Василий Григорьевич</fio>
+          <innfl>590601338211</innfl>
+          <position>Директор</position>
+          <date>2002-12-11</date>
+          <firstDate>2002-12-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

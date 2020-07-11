@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7729376646</inn>
+    <ogrn>1027700064193</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700064193</focusHref>
+    <UL>
+      <kpp>774301001</kpp>
+      <okpo>18566245</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>"А.Г.Р.О.-3"</short>
+        <full>Общество с ограниченной ответственностью "Альянс Граждан Русского Общества-3"</full>
+        <date>2002-07-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125195</zipCode>
+          <kladrCode>770000000000836</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Беломорская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>14</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-10-07</date>
+        <firstDate>2004-10-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-07-10</date>
+      </status>
+      <registrationDate>1998-10-20</registrationDate>
+      <dissolutionDate>2008-07-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Баженов Дмитрий Юрьевич</fio>
+          <position>Генеральный Директор</position>
+          <date>2002-07-25</date>
+          <firstDate>2002-07-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

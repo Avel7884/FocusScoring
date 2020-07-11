@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>246208896229</inn>
+    <ogrn>307246821100083</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=307246821100083</focusHref>
+    <IP>
+      <fio>Ануфриенок Владислав Анатольевич</fio>
+      <okpo>0155681400</okpo>
+      <okato>04401368000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2007-07-30</registrationDate>
+      <dissolutionDate>2015-12-07</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-12-07</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>2464014180</inn>
+    <ogrn>1042402507784</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1042402507784</focusHref>
+    <UL>
+      <kpp>246401001</kpp>
+      <okpo>74005527</okpo>
+      <okato>04401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>04701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ИСМ"</short>
+        <full>Общество с ограниченной ответственностью "ИСМ"</full>
+        <date>2004-05-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660012</zipCode>
+          <kladrCode>240000010000423</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Александра Матросова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1002</topoValue>
+          </flat>
+          <houseRaw>2</houseRaw>
+          <flatRaw>ОФИС 1002</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2015-11-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-29</date>
+      </status>
+      <registrationDate>2004-05-24</registrationDate>
+      <dissolutionDate>2016-12-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бахарев Иван Юрьевич</fio>
+          <innfl>246214737308</innfl>
+          <position>Директор</position>
+          <date>2012-03-11</date>
+          <firstDate>2012-03-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>660012</zipCode>
+              <kladrCode>240000010000423</kladrCode>
+              <regionCode>24</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Красноярский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Красноярск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Матросова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>1002</topoValue>
+              </flat>
+              <houseRaw>2</houseRaw>
+              <flatRaw>ОФИС 1002</flatRaw>
+            </parsedAddressRF>
+            <date>2011-06-23</date>
+            <firstDate>2011-06-23</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Павлова Елена Леонидовна</fio>
+            <position>Директор</position>
+            <date>2011-06-23</date>
+            <firstDate>2011-06-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>2464109700</inn>
+    <ogrn>1072464000894</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072464000894</focusHref>
+    <UL>
+      <kpp>246401001</kpp>
+      <okpo>99420859</okpo>
+      <okato>04401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>04701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ИСМ"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "ИСМ"</full>
+        <date>2007-02-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660079</zipCode>
+          <kladrCode>240000010000013</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>60 лет Октября</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>168</topoValue>
+          </house>
+          <houseRaw>168</houseRaw>
+        </parsedAddressRF>
+        <date>2007-02-05</date>
+        <firstDate>2007-02-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-01-09</date>
+      </status>
+      <registrationDate>2007-02-05</registrationDate>
+      <dissolutionDate>2019-01-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ануфриенок Владислав Анатольевич</fio>
+          <innfl>246208896229</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-03-07</date>
+          <firstDate>2007-02-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>2464230946</inn>
+    <ogrn>1102468060694</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1102468060694</focusHref>
+    <UL>
+      <kpp>246401001</kpp>
+      <okpo>69131750</okpo>
+      <okato>04401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>04701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКФ "Инструментстроймаркет"</short>
+        <full>Общество с ограниченной ответственностью ПКФ "Инструментстроймаркет"</full>
+        <date>2010-12-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660079</zipCode>
+          <kladrCode>240000010000215</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Затонская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>32Б</topoValue>
+          </house>
+          <houseRaw>32Б</houseRaw>
+        </parsedAddressRF>
+        <date>2010-12-28</date>
+        <firstDate>2010-12-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-01-09</date>
+      </status>
+      <registrationDate>2010-12-28</registrationDate>
+      <dissolutionDate>2019-01-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ануфриенок Владислав Анатольевич</fio>
+          <innfl>246208896229</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-04-09</date>
+          <firstDate>2010-12-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>2465055253</inn>
+    <ogrn>1032402650554</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1032402650554</focusHref>
+    <UL>
+      <kpp>246501001</kpp>
+      <okpo>52010367</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Инструментстроймаркет"</short>
+        <full>Общество с ограниченной ответственностью "Инструментстроймаркет"</full>
+        <date>2003-04-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660020</zipCode>
+          <kladrCode>240000010000063</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Березина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <houseRaw>3</houseRaw>
+        </parsedAddressRF>
+        <date>2003-04-30</date>
+        <firstDate>2003-04-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-16</date>
+      </status>
+      <registrationDate>1999-07-20</registrationDate>
+      <dissolutionDate>2012-01-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ануфриенок Владислав Анатольевич</fio>
+          <position>Директор</position>
+          <date>2003-04-30</date>
+          <firstDate>2003-04-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

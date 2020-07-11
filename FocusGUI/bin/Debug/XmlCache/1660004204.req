@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1660004204</inn>
+    <ogrn>1021603622292</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021603622292</focusHref>
+    <UL>
+      <kpp>165601001</kpp>
+      <okpo>23332696</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "фирма "АЛ ТАН"</short>
+        <full>Общество с ограниченной ответственностью "фирма "АЛ ТАН"</full>
+        <date>2002-10-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125167</zipCode>
+          <kladrCode>770000000001685</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинградский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>62</topoValue>
+          </house>
+          <houseRaw>62</houseRaw>
+        </parsedAddressRF>
+        <date>2010-03-02</date>
+        <firstDate>2010-03-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-04-08</date>
+      </status>
+      <registrationDate>1995-10-30</registrationDate>
+      <dissolutionDate>2011-04-08</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "УПРАВЛЯЮЩАЯ КОМПАНИЯ "РЕОРГАНИЗАЦИЯ И ЛИКВИДАЦИЯ"</name>
+          <inn>1655177667</inn>
+          <ogrn>1091690030640</ogrn>
+          <date>2010-02-09</date>
+          <firstDate>2010-02-09</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

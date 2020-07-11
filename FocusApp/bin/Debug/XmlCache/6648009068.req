@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6648009068</inn>
+    <ogrn>1036602351147</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036602351147</focusHref>
+    <UL>
+      <kpp>664801001</kpp>
+      <okpo>47671150</okpo>
+      <okato>65476382000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АлСэМ"</short>
+        <full>Общество с ограниченной ответственностью "АлСэМ"</full>
+        <date>2003-01-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622034</zipCode>
+          <kladrCode>660000230000179</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Индустриальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+        </parsedAddressRF>
+        <date>2006-07-21</date>
+        <firstDate>2006-07-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1997-08-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Малахова Светлана Ивановна</fio>
+          <innfl>666800541445</innfl>
+          <position>Директор</position>
+          <date>2017-04-03</date>
+          <firstDate>2014-09-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Малахов Александр Иванович</fio>
+            <innfl>662314975408</innfl>
+            <position>Директор</position>
+            <date>2010-01-11</date>
+            <firstDate>2010-01-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

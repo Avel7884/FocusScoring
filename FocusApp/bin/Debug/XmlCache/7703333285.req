@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703333285</inn>
+    <ogrn>1037739718983</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739718983</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>58538655</okpo>
+      <okato>45286575000</okato>
+      <okfs>16</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ТД "Алексинские краски"</short>
+        <full>Общество с ограниченной ответственностью Торговый дом "Алексинские краски"</full>
+        <date>2003-02-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103104</zipCode>
+          <kladrCode>770000000000907</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бронная М</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15Б</topoValue>
+          </house>
+          <houseRaw>15 Б</houseRaw>
+        </parsedAddressRF>
+        <date>2003-02-19</date>
+        <firstDate>2003-02-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-07-18</date>
+      </status>
+      <registrationDate>2002-04-18</registrationDate>
+      <dissolutionDate>2016-07-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лапупин Станислав Александрович</fio>
+          <position>Генеральный директор</position>
+          <date>2003-12-16</date>
+          <firstDate>2003-12-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

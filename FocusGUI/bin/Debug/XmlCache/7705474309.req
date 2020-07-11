@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705474309</inn>
+    <ogrn>1027705024874</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027705024874</focusHref>
+    <UL>
+      <kpp>771501001</kpp>
+      <okpo>59714158</okpo>
+      <okato>45280561000</okato>
+      <okfs>16</okfs>
+      <oktmo>45353000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агентство социальных коммуникаций"</short>
+        <full>Общество с ограниченной ответственностью "Агентство социальных коммуникаций"</full>
+        <date>2002-11-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127015</zipCode>
+          <kladrCode>770000000002025</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новодмитровская Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>6</topoValue>
+          </bulk>
+          <houseRaw>23</houseRaw>
+          <bulkRaw>СТР.6</bulkRaw>
+        </parsedAddressRF>
+        <date>2008-12-24</date>
+        <firstDate>2008-12-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-10-29</date>
+      </status>
+      <registrationDate>2002-11-04</registrationDate>
+      <dissolutionDate>2013-10-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пестряков Сергей Викторович</fio>
+          <innfl>504304108110</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-08-27</date>
+          <firstDate>2013-08-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Перепелкин Алексей Всеволодович</fio>
+            <position>Генеральный директор</position>
+            <date>2009-12-01</date>
+            <firstDate>2009-12-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

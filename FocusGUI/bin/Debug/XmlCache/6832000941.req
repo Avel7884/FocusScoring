@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6832000941</inn>
+    <ogrn>1026801224108</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026801224108</focusHref>
+    <UL>
+      <kpp>683201001</kpp>
+      <okpo>12399912</okpo>
+      <okato>68401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>68701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АгроСКИФ"</short>
+        <full>Общество с ограниченной ответственностью "АгроСКИФ"</full>
+        <date>2002-10-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>392018</zipCode>
+          <kladrCode>680000040000204</kladrCode>
+          <regionCode>68</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тамбовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тамбов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мичуринская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>50/18А</topoValue>
+          </house>
+          <houseRaw>50/18 А</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-22</date>
+        <firstDate>2002-10-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1991-11-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Музыка Дмитрий Юрьевич</fio>
+          <innfl>683210849114</innfl>
+          <position>Директор</position>
+          <date>2018-11-27</date>
+          <firstDate>2018-11-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Логачев Виктор Петрович</fio>
+            <innfl>683101336779</innfl>
+            <position>Директор</position>
+            <date>2018-04-08</date>
+            <firstDate>2002-10-22</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725182590</inn>
+    <ogrn>1177746614165</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1177746614165</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АВИСТРОЙ ООО</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВИСТРОЙ"</full>
+        <date>2017-06-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115407</zipCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>41</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>41</houseRaw>
+          <bulkRaw>СТР.3</bulkRaw>
+        </parsedAddressRF>
+        <date>2017-06-22</date>
+        <firstDate>2017-06-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-06-22</date>
+      </status>
+      <registrationDate>2002-02-21</registrationDate>
+      <dissolutionDate>2017-06-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бартникас Станислав Алексеевич</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2017-06-22</date>
+          <firstDate>2017-06-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

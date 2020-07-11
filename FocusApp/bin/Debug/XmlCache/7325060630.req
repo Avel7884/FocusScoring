@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7325060630</inn>
+    <ogrn>1067325048746</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067325048746</focusHref>
+    <UL>
+      <kpp>732501001</kpp>
+      <okpo>25517098</okpo>
+      <okato>73401384000</okato>
+      <okfs>16</okfs>
+      <oktmo>73701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто-Лидер"</short>
+        <full>Общество с ограниченной ответственностью "Авто-Лидер"</full>
+        <date>2006-04-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>432027</zipCode>
+          <kladrCode>730000010000542</kladrCode>
+          <regionCode>73</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ульяновская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ульяновск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Радищева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>143</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>57</topoValue>
+          </flat>
+          <houseRaw>143</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>57</flatRaw>
+        </parsedAddressRF>
+        <date>2010-05-06</date>
+        <firstDate>2010-05-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-09-19</date>
+      </status>
+      <registrationDate>2006-04-06</registrationDate>
+      <dissolutionDate>2017-09-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кручинин Сергей Николаевич</fio>
+          <innfl>732501434674</innfl>
+          <position>Ликвидатор</position>
+          <date>2017-06-05</date>
+          <firstDate>2010-05-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

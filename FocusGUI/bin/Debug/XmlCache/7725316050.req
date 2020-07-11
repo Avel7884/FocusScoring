@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725316050</inn>
+    <ogrn>1167746435229</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1167746435229</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okpo>02303957</okpo>
+      <okato>45296559000</okato>
+      <okfs>23</okfs>
+      <oktmo>45914000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ФОЛЛЬМЕР РУС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ФОЛЛЬМЕР РУС"</full>
+        <date>2016-04-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115432</zipCode>
+          <kladrCode>770000000000750</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Андропова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>6</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 5 офис 5-09</topoValue>
+          </flat>
+          <houseRaw>ДОМ 18</houseRaw>
+          <bulkRaw>КОРПУС 6</bulkRaw>
+          <flatRaw>ЭТАЖ 5 ОФИС 5-09</flatRaw>
+        </parsedAddressRF>
+        <date>2018-02-08</date>
+        <firstDate>2018-02-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-04-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Зайдель Михаэль</fio>
+          <position>Генеральный Директор</position>
+          <date>2018-10-31</date>
+          <firstDate>2018-10-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115432</zipCode>
+              <kladrCode>770000000000750</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Андропова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>18</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>корп</topoShortName>
+                <topoFullName>корпус</topoFullName>
+                <topoValue>6</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>5-04</topoValue>
+              </flat>
+              <houseRaw>ДОМ 18</houseRaw>
+              <bulkRaw>КОРПУС 6</bulkRaw>
+              <flatRaw>ОФИС 5-04</flatRaw>
+            </parsedAddressRF>
+            <date>2016-04-29</date>
+            <firstDate>2016-04-29</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Абашев Олег Юрьевич</fio>
+            <innfl>773570728263</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-04-29</date>
+            <firstDate>2016-04-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

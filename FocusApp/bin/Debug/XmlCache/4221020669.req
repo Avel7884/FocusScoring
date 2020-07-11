@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4221020669</inn>
+    <ogrn>1064221010149</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1064221010149</focusHref>
+    <UL>
+      <kpp>422101001</kpp>
+      <okpo>97768305</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Айрон Маркет"</short>
+        <full>Общество с ограниченной ответственностью "Айрон Маркет"</full>
+        <date>2006-12-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654034</zipCode>
+          <kladrCode>420000120000529</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>82</topoValue>
+          </house>
+          <flat>
+            <topoValue>312</topoValue>
+          </flat>
+          <houseRaw>82</houseRaw>
+          <flatRaw>312</flatRaw>
+        </parsedAddressRF>
+        <date>2006-12-13</date>
+        <firstDate>2006-12-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-09-29</date>
+      </status>
+      <registrationDate>2006-12-13</registrationDate>
+      <dissolutionDate>2010-09-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лямзин Виталий Владимирович</fio>
+          <innfl>422109174411</innfl>
+          <position>Директор</position>
+          <date>2006-12-13</date>
+          <firstDate>2006-12-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

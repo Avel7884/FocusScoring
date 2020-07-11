@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205049759</inn>
+    <ogrn>1034205045050</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034205045050</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>14790904</okpo>
+      <okato>32401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>32701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "КУЗ МП"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "КУЗБАССКИЕ МЕЖДУГОРОДНИЕ ПЕРЕВОЗКИ"</full>
+        <date>2007-02-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650033</zipCode>
+          <kladrCode>420000090000579</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Смоленская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>201</topoValue>
+          </flat>
+          <houseRaw>ДОМ 1А</houseRaw>
+          <flatRaw>ОФИС 201</flatRaw>
+        </parsedAddressRF>
+        <date>2018-01-25</date>
+        <firstDate>2018-01-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-05-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Скоробогатько Александр Васильевич</fio>
+          <innfl>420800197977</innfl>
+          <position>Директор</position>
+          <date>2017-04-06</date>
+          <firstDate>2017-04-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>650002</zipCode>
+              <kladrCode>420000090000760</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Кемерово</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Шахтеров</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <houseRaw>1</houseRaw>
+            </parsedAddressRF>
+            <date>2003-05-29</date>
+            <firstDate>2003-05-29</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Юдин Владимир Михайлович</fio>
+            <innfl>420204844302</innfl>
+            <position>Директор</position>
+            <date>2010-02-09</date>
+            <firstDate>2010-02-09</firstDate>
+          </head>
+          <head>
+            <fio>Андреева Ольга Артемовна</fio>
+            <innfl>420502662139</innfl>
+            <position>Директор</position>
+            <date>2013-12-31</date>
+            <firstDate>2013-12-31</firstDate>
+          </head>
+          <head>
+            <fio>Останин Егор Николаевич</fio>
+            <innfl>420520717493</innfl>
+            <position>Директор</position>
+            <date>2015-10-05</date>
+            <firstDate>2015-10-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

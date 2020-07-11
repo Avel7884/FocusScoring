@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7708138552</inn>
+    <ogrn>1037739736495</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739736495</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>53785633</okpo>
+      <okato>45286575000</okato>
+      <okfs>49</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20600</okopf>
+      <opf>Ассоциации (союзы)</opf>
+      <legalName>
+        <short>"МТП в России"</short>
+        <full>АССОЦИАЦИЯ "РОССИЙСКИЙ НАЦИОНАЛЬНЫЙ КОМИТЕТ МЕЖДУНАРОДНОЙ ТОРГОВОЙ ПАЛАТЫ - ВСЕМИРНОЙ ОРГАНИЗАЦИИ БИЗНЕСА"</full>
+        <date>2015-12-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123022</zipCode>
+          <kladrCode>770000000002502</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рочдельская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>8</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 15</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 8</bulkRaw>
+        </parsedAddressRF>
+        <date>2015-12-04</date>
+        <firstDate>2015-12-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-07-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Монэгэн Татьяна Валериановна</fio>
+          <position>Генеральный Секретарь</position>
+          <date>2003-02-20</date>
+          <firstDate>2003-02-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770801001</kpp>
+            <date>2010-06-22</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <full>Некоммерческое партнерство "Российский национальный комитет Международной торговой палаты - Всемирной организации бизнеса"</full>
+            <date>2003-02-20</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>103045</zipCode>
+              <kladrCode>770000000000687</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Сретенка</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>24/2</topoValue>
+              </house>
+              <flat>
+                <topoValue>202</topoValue>
+              </flat>
+              <houseRaw>24/2</houseRaw>
+              <flatRaw>202</flatRaw>
+            </parsedAddressRF>
+            <date>2003-02-20</date>
+            <firstDate>2003-02-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

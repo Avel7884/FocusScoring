@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217116978</inn>
+    <ogrn>1094217005079</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1094217005079</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>62485315</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергоснаб"</short>
+        <full>Общество с ограниченной ответственностью "Энергоснаб"</full>
+        <date>2009-08-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654063</zipCode>
+          <kladrCode>420000120000832</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рудокопровая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28</topoValue>
+          </house>
+          <bulk>
+            <topoValue>11</topoValue>
+          </bulk>
+          <houseRaw>28</houseRaw>
+          <bulkRaw>11</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-08-04</date>
+        <firstDate>2009-08-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-06-10</date>
+      </status>
+      <registrationDate>2009-08-04</registrationDate>
+      <dissolutionDate>2010-06-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ханин Дмитрий Геннадиевич</fio>
+          <innfl>421700787580</innfl>
+          <position>Директор</position>
+          <date>2009-08-04</date>
+          <firstDate>2009-08-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

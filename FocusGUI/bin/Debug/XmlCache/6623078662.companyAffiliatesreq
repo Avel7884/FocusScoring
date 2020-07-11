@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623078662</inn>
+    <ogrn>1116623004079</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1116623004079</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>91917365</okpo>
+      <okato>65232000004</okato>
+      <okfs>16</okfs>
+      <oktmo>65717000241</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ГЕСТИЯ"</short>
+        <full>Общество с ограниченной ответственностью "Производственно Коммерческая Фирма "ГЕСТИЯ"</full>
+        <date>2011-05-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622970</zipCode>
+          <kladrCode>660190000210022</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Пригородный</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Висим</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Розы Люксембург</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28</topoValue>
+          </house>
+          <houseRaw>28</houseRaw>
+        </parsedAddressRF>
+        <date>2011-05-27</date>
+        <firstDate>2011-05-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-05-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Коврижных Алексей Валерьевич</fio>
+          <innfl>662335807940</innfl>
+          <position>Директор</position>
+          <date>2011-05-27</date>
+          <firstDate>2011-05-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

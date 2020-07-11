@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6678004701</inn>
+    <ogrn>1116678004530</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1116678004530</focusHref>
+    <UL>
+      <kpp>667901001</kpp>
+      <okpo>37918626</okpo>
+      <okato>65401390000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МеталлТрейд"</short>
+        <full>Общество с ограниченной ответственностью "МеталлТрейд"</full>
+        <date>2011-12-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620010</zipCode>
+          <kladrCode>660000010000072</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Альпинистов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>57</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Р</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>306</topoValue>
+          </flat>
+          <houseRaw>57</houseRaw>
+          <bulkRaw>ЛИТЕР Р</bulkRaw>
+          <flatRaw>ОФИС 306</flatRaw>
+        </parsedAddressRF>
+        <date>2013-01-09</date>
+        <firstDate>2013-01-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-10-14</date>
+      </status>
+      <registrationDate>2011-12-01</registrationDate>
+      <dissolutionDate>2015-10-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Рыбакова Дарья Александровна</fio>
+          <innfl>665903004698</innfl>
+          <position>Ликвидатор</position>
+          <date>2014-12-30</date>
+          <firstDate>2011-12-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>620017</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Екатеринбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Космонавтов</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>Б</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>204</topoValue>
+              </flat>
+              <houseRaw>15</houseRaw>
+              <bulkRaw>литер Б</bulkRaw>
+              <flatRaw>офис 204</flatRaw>
+            </parsedAddressRF>
+            <date>2011-12-01</date>
+            <firstDate>2011-12-01</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6664000908</inn>
+    <ogrn>1026605769904</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605769904</focusHref>
+    <UL>
+      <kpp>667401001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергоприбор"</short>
+        <full>Общество с ограниченной ответственностью "Энергоприбор"</full>
+        <date>2002-11-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620010</zipCode>
+          <kladrCode>660000010000185</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вакина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>112</topoValue>
+          </house>
+          <houseRaw>112</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-18</date>
+        <firstDate>2002-11-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-01-28</date>
+      </status>
+      <registrationDate>1993-09-30</registrationDate>
+      <dissolutionDate>2008-01-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Нина Александровна</fio>
+          <innfl>667221007587</innfl>
+          <position>Директор</position>
+          <date>2007-10-26</date>
+          <firstDate>2007-10-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

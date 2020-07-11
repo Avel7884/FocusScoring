@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6672216964</inn>
+    <ogrn>1069672064835</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1069672064835</focusHref>
+    <UL>
+      <kpp>667201001</kpp>
+      <okpo>97929493</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автобан Рус"</short>
+        <full>Общество с ограниченной ответственностью "Автобан Рус"</full>
+        <date>2006-10-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620026</zipCode>
+          <kladrCode>660000010000107</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бажова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>138</topoValue>
+          </house>
+          <flat>
+            <topoValue>40</topoValue>
+          </flat>
+          <houseRaw>138</houseRaw>
+          <flatRaw>40</flatRaw>
+        </parsedAddressRF>
+        <date>2006-10-11</date>
+        <firstDate>2006-10-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-06-01</date>
+      </status>
+      <registrationDate>2006-10-11</registrationDate>
+      <dissolutionDate>2009-06-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Антушева Елена Феликсовна</fio>
+          <innfl>662300696482</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-10-11</date>
+          <firstDate>2006-10-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

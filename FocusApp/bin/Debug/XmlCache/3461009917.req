@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3461009917</inn>
+    <ogrn>1143443008390</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1143443008390</focusHref>
+    <UL>
+      <kpp>346101001</kpp>
+      <okpo>22411181</okpo>
+      <okato>18401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВ Мастер"</short>
+        <full>Общество с ограниченной ответственностью "АВ Мастер"</full>
+        <date>2014-04-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400023</zipCode>
+          <kladrCode>340000010001475</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Строительная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>45</topoValue>
+          </house>
+          <houseRaw>ДОМ 45</houseRaw>
+        </parsedAddressRF>
+        <date>2014-04-02</date>
+        <firstDate>2014-04-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-04-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Кривоносов Сергей Витальевич</fio>
+          <innfl>344703015957</innfl>
+          <position>Директор</position>
+          <date>2018-04-09</date>
+          <firstDate>2014-04-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

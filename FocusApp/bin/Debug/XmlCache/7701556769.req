@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701556769</inn>
+    <ogrn>1047796682284</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796682284</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>74457933</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО НПО "ЭНЕРГОПРИБОР"</short>
+        <full>Закрытое акционерное общество "Научно-производственное объединение "ЭНЕРГОПРИБОР"</full>
+        <date>2004-09-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105082</zipCode>
+          <kladrCode>770000000002514</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Рубцовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>2</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-09-14</date>
+        <firstDate>2004-09-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-08-05</date>
+      </status>
+      <registrationDate>2004-09-14</registrationDate>
+      <dissolutionDate>2010-08-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Зимина Галина Леонидовна</fio>
+          <innfl>501302887909</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-09-25</date>
+          <firstDate>2009-09-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

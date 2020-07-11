@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1909050963</inn>
+    <ogrn>1021900758648</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021900758648</focusHref>
+    <UL>
+      <kpp>190901001</kpp>
+      <okpo>56763402</okpo>
+      <okato>95402000000</okato>
+      <okfs>14</okfs>
+      <oktmo>95702000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>БФОА г.Абазы</short>
+        <full>Бюджетно-финансовый отдел Администрации города Абазы</full>
+        <date>2012-07-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655750</zipCode>
+          <kladrCode>190000040000058</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абаза</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20А</topoValue>
+          </house>
+          <houseRaw>20А</houseRaw>
+        </parsedAddressRF>
+        <date>2007-12-19</date>
+        <firstDate>2007-12-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-04-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Новак Андрей Васильевич</fio>
+          <innfl>190900540320</innfl>
+          <position>Руководитель</position>
+          <date>2018-04-11</date>
+          <firstDate>2002-11-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>БФО АМО г. Абаза</short>
+          </legalName>
+          <legalName>
+            <full>Бюджетно-финансовый отдел Администрации муниципального образования г. Абаза</full>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

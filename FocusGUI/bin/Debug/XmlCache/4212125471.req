@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4212125471</inn>
+    <ogrn>1034212002736</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034212002736</focusHref>
+    <UL>
+      <kpp>421201001</kpp>
+      <okpo>26642428</okpo>
+      <okato>32419000000</okato>
+      <okfs>50</okfs>
+      <oktmo>32719000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>70401</okopf>
+      <opf>Благотворительные фонды</opf>
+      <legalName>
+        <short>"БФЦОЗШ"</short>
+        <full>"Благотворительный Фонд центра охраны здоровья шахтеров"</full>
+        <date>2003-04-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652509</zipCode>
+          <kladrCode>420000100000767</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ленинск-Кузнецкий</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Лесной городок</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>52</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-03-12</date>
+        <firstDate>2010-03-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-04-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Агаларян Александр Хачатурович</fio>
+          <innfl>421201741036</innfl>
+          <position>Директор</position>
+          <date>2018-07-30</date>
+          <firstDate>2017-11-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Агаджанян Ваграм Ваганович</fio>
+            <innfl>421201009129</innfl>
+            <position>Директор</position>
+            <date>2010-12-02</date>
+            <firstDate>2010-12-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

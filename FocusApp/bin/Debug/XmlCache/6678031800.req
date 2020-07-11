@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6678031800</inn>
+    <ogrn>1136678010842</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1136678010842</focusHref>
+    <UL>
+      <kpp>667801001</kpp>
+      <okpo>25944400</okpo>
+      <okato>65412000000</okato>
+      <okfs>16</okfs>
+      <oktmo>65731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМК Инжиниринг"</short>
+        <full>Общество с ограниченной ответственностью "Промышленные Металлоконструкции Инжиниринг"</full>
+        <date>2013-07-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>623700</zipCode>
+          <kladrCode>660000030000033</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Березовский</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кирова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>ДОМ 26</houseRaw>
+          <flatRaw>ОФИС 10</flatRaw>
+        </parsedAddressRF>
+        <date>2017-10-27</date>
+        <firstDate>2017-10-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-08-15</date>
+      </status>
+      <registrationDate>2013-07-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Федоров Юрий Витальевич</fio>
+          <innfl>660603166184</innfl>
+          <position>Ликвидатор</position>
+          <date>2019-08-15</date>
+          <firstDate>2013-07-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>623701</zipCode>
+              <kladrCode>660000030000012</kladrCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Березовский</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Спортивная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>54</topoValue>
+              </flat>
+              <houseRaw>ДОМ 2</houseRaw>
+              <flatRaw>ОФИС 54</flatRaw>
+            </parsedAddressRF>
+            <date>2013-07-08</date>
+            <firstDate>2013-07-08</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Гайсин Александр Борисович</fio>
+            <innfl>660404180650</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-03-06</date>
+            <firstDate>2014-03-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

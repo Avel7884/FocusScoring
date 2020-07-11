@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7404030934</inn>
+    <ogrn>1027400579612</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027400579612</focusHref>
+    <UL>
+      <kpp>740401001</kpp>
+      <okpo>51468897</okpo>
+      <okato>75412000000</okato>
+      <okfs>16</okfs>
+      <oktmo>75712000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алмет"</short>
+        <full>Общество с ограниченной ответственностью "Алмет"</full>
+        <date>2002-11-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>456219</zipCode>
+          <kladrCode>740000040000215</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Златоуст</topoValue>
+          </city>
+          <street>
+            <topoShortName>кв-л</topoShortName>
+            <topoFullName>квартал</topoFullName>
+            <topoValue>Молодежный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2009-02-27</date>
+        <firstDate>2009-02-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-01-31</registrationDate>
+      <heads>
+        <head>
+          <fio>Перевалов Александр Александрович</fio>
+          <innfl>740404858046</innfl>
+          <position>Директор</position>
+          <date>2011-11-11</date>
+          <firstDate>2009-02-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

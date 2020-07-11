@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7825679019</inn>
+    <ogrn>1027809194863</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027809194863</focusHref>
+    <UL>
+      <kpp>782501001</kpp>
+      <okpo>46885854</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ЭНЕРГОКОМПЛЕКТ"</short>
+        <full>Закрытое акционерное общество "ЭНЕРГОКОМПЛЕКТ"</full>
+        <date>2002-10-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>193130</zipCode>
+          <kladrCode>780000000001306</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская 8-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+          <bulkRaw>--</bulkRaw>
+          <flatRaw>--</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-17</date>
+        <firstDate>2002-10-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-11</date>
+      </status>
+      <registrationDate>1997-05-08</registrationDate>
+      <dissolutionDate>2012-01-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Тынков Артем Валерьевич</fio>
+          <innfl>780512893727</innfl>
+          <position>Директор</position>
+          <date>2008-05-26</date>
+          <firstDate>2008-05-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0411064120</inn>
+    <ogrn>1030400738026</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1030400738026</focusHref>
+    <UL>
+      <kpp>041101001</kpp>
+      <okpo>49573374</okpo>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Автомир"</short>
+        <full>Закрытое акционерное общество "Автомир"</full>
+        <date>2003-01-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>649006</zipCode>
+          <kladrCode>040000010000044</kladrCode>
+          <regionCode>04</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Алтай</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Горно-Алтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Коммунистический</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>53</topoValue>
+          </house>
+          <houseRaw>53</houseRaw>
+        </parsedAddressRF>
+        <date>2003-04-08</date>
+        <firstDate>2003-04-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-28</date>
+      </status>
+      <registrationDate>1999-06-10</registrationDate>
+      <dissolutionDate>2011-03-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чирков Владимир Владимирович</fio>
+          <innfl>420524270897</innfl>
+          <position>Директор</position>
+          <date>2003-01-22</date>
+          <firstDate>2003-01-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

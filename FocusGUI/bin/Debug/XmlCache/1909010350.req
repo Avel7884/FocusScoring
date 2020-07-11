@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1909010350</inn>
+    <ogrn>1021900758076</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021900758076</focusHref>
+    <UL>
+      <kpp>190901001</kpp>
+      <okpo>31903428</okpo>
+      <okato>95402000000</okato>
+      <okfs>13</okfs>
+      <oktmo>95702000001</oktmo>
+      <okogu>2300223</okogu>
+      <okopf>75203</okopf>
+      <opf>Государственные бюджетные учреждения субъектов Российской Федерации</opf>
+      <legalName>
+        <short>ГБУ РХ "Абазинский детский дом"</short>
+        <full>ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ РЕСПУБЛИКИ ХАКАСИЯ ДЛЯ ДЕТЕЙ-СИРОТ И ДЕТЕЙ, ОСТАВШИХСЯ БЕЗ ПОПЕЧЕНИЯ РОДИТЕЛЕЙ, "АБАЗИНСКИЙ ДЕТСКИЙ ДОМ"</full>
+        <date>2015-10-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655750</zipCode>
+          <kladrCode>190000040000064</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абаза</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Макаренко</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-15</date>
+        <firstDate>2002-11-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-11-01</registrationDate>
+      <heads>
+        <head>
+          <fio>Кагаленок Инна Алексеевна</fio>
+          <innfl>190900363543</innfl>
+          <position>Директор</position>
+          <date>2017-12-15</date>
+          <firstDate>2011-08-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ГБОУ РХ "Абазинский детский дом"</short>
+            <full>Государственное бюджетное образовательное учреждение Республики Хакасия для детей-сирот и детей, оставшихся без попечения родителей, "Абазинский детский дом"</full>
+            <date>2011-12-14</date>
+          </legalName>
+          <legalName>
+            <short>РГОУ "Абазинский детский дом"</short>
+          </legalName>
+          <legalName>
+            <full>Республиканское государственное образовательное учреждение для детей-сирот и детей, оставшихся без попечения родителей "Абазинский детский дом"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>655750</zipCode>
+              <regionCode>19</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Хакасия</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Таштыпский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Абаза</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Макаренко</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <houseRaw>2</houseRaw>
+            </parsedAddressRF>
+            <date>2002-11-15</date>
+            <firstDate>2002-11-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Зубровская Екатерина Васильевна</fio>
+            <innfl>191001719400</innfl>
+            <position>И.о.директора</position>
+            <date>2009-05-04</date>
+            <firstDate>2009-05-04</firstDate>
+          </head>
+          <head>
+            <fio>Ханжин Иван Николаевич</fio>
+            <innfl>190903368099</innfl>
+            <position>Исполняющий Обязанности Директора</position>
+            <date>2014-05-23</date>
+            <firstDate>2014-05-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

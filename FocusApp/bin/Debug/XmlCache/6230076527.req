@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6230076527</inn>
+    <ogrn>1126230000731</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1126230000731</focusHref>
+    <UL>
+      <kpp>623001001</kpp>
+      <okpo>37849824</okpo>
+      <okato>61401375000</okato>
+      <okfs>16</okfs>
+      <oktmo>61701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ СТАРКО"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма СТАРКО"</full>
+        <date>2012-03-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>390046</zipCode>
+          <kladrCode>620000010000120</kladrCode>
+          <regionCode>62</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Рязанская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Рязань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Есенина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>65</topoValue>
+          </house>
+          <flat>
+            <topoValue>лит. А Н6</topoValue>
+          </flat>
+          <houseRaw>ДОМ 65</houseRaw>
+          <flatRaw>ЛИТ. А Н6</flatRaw>
+        </parsedAddressRF>
+        <date>2017-05-15</date>
+        <firstDate>2017-05-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-03-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Константинов Александр Владимирович</fio>
+          <innfl>622807334808</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-11-27</date>
+          <firstDate>2018-11-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>390046</zipCode>
+              <kladrCode>620000010000120</kladrCode>
+              <regionCode>62</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Рязанская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Рязань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Есенина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>65</topoValue>
+              </house>
+              <houseRaw>65</houseRaw>
+            </parsedAddressRF>
+            <date>2012-03-19</date>
+            <firstDate>2012-03-19</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Стародубцев Геннадий Павлович</fio>
+            <position>Генеральный директор</position>
+            <date>2012-03-19</date>
+            <firstDate>2012-03-19</firstDate>
+          </head>
+          <head>
+            <fio>Вавилов Владимир Николаевич</fio>
+            <innfl>623106005606</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-12-13</date>
+            <firstDate>2013-12-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5259007683</inn>
+    <ogrn>1025204409845</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025204409845</focusHref>
+    <UL>
+      <kpp>772901001</kpp>
+      <okpo>39247202</okpo>
+      <okato>45268592000</okato>
+      <okfs>16</okfs>
+      <oktmo>45327000000</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АвиаТехМас"</short>
+        <full>Закрытое акционерное общество "Авиационные и технические масла"</full>
+        <date>2002-10-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119571</zipCode>
+          <kladrCode>770000000000754</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академика Анохина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <houseRaw>13</houseRaw>
+        </parsedAddressRF>
+        <date>2010-03-17</date>
+        <firstDate>2010-03-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2014-06-16</date>
+      </status>
+      <registrationDate>1994-11-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Новиков Владимир Валерьевич</fio>
+          <innfl>212503069029</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2014-06-16</date>
+          <firstDate>2013-12-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Черкасов Аркадий Анатольевич</fio>
+            <innfl>772500190406</innfl>
+            <position>Внешний управляющий</position>
+            <date>2012-10-11</date>
+            <firstDate>2012-10-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

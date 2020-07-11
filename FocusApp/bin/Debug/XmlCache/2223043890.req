@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2223043890</inn>
+    <ogrn>1032202071472</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1032202071472</focusHref>
+    <UL>
+      <kpp>222301001</kpp>
+      <okpo>15368355</okpo>
+      <okato>01401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>01701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "ПО АМЗ"</short>
+        <full>Открытое акционерное общество "Производственное объединение "Алтайский моторный завод"</full>
+        <date>2006-06-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656023</zipCode>
+          <kladrCode>220000010000327</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Космонавтов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2003-09-27</date>
+        <firstDate>2003-09-27</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>107031</zipCode>
+            <kladrCode>770000000000557</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Кузнецкий Мост</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>21/5</topoValue>
+            </house>
+            <bulk>
+              <topoValue>1</topoValue>
+            </bulk>
+            <houseRaw>21/5</houseRaw>
+            <bulkRaw>1</bulkRaw>
+          </parsedAddressRF>
+          <date>2004-07-22</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-05-27</date>
+      </status>
+      <registrationDate>2003-09-27</registrationDate>
+      <dissolutionDate>2014-05-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бойм Иосиф Соломонович</fio>
+          <innfl>771300398170</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2012-08-03</date>
+          <firstDate>2011-06-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

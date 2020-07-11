@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6661075711</inn>
+    <ogrn>1036603989300</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603989300</focusHref>
+    <UL>
+      <kpp>666101001</kpp>
+      <okpo>49547187</okpo>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ГУП СО "Уралзарубежсервис"</short>
+        <full>Государственное унитарное предприятие Свердловской области "Уралзарубежсервис"</full>
+        <date>2004-04-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620014</zipCode>
+          <kladrCode>660000010000648</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Малышева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <houseRaw>9</houseRaw>
+        </parsedAddressRF>
+        <date>2004-04-06</date>
+        <firstDate>2004-04-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-10-17</date>
+      </status>
+      <registrationDate>1998-07-24</registrationDate>
+      <dissolutionDate>2011-10-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Щербина Петр Степанович</fio>
+          <innfl>667106393207</innfl>
+          <position>И.о. генерального директора</position>
+          <date>2011-10-14</date>
+          <firstDate>2008-10-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

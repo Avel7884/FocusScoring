@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5404341848</inn>
+    <ogrn>1075404030393</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075404030393</focusHref>
+    <UL>
+      <kpp>540501001</kpp>
+      <okpo>83535900</okpo>
+      <okato>50401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО СКК "АВАНГАРД"</short>
+        <full>Общество с ограниченной ответственностью Сибирская Комплексная Компания "АВАНГАРД"</full>
+        <date>2007-10-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630009</zipCode>
+          <kladrCode>540000010000386</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Добролюбова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 16</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+          <flatRaw>ЭТАЖ 1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-10-25</date>
+        <firstDate>2018-10-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-10-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Мурашкин Сергей Евгеньевич</fio>
+          <innfl>701800537331</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-03-07</date>
+          <firstDate>2018-03-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>540401001</kpp>
+            <date>2007-10-25</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>630064</zipCode>
+              <kladrCode>540000010000120</kladrCode>
+              <regionCode>54</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Новосибирская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новосибирск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Блюхера</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>20</topoValue>
+              </house>
+              <flat>
+                <topoShortName>кв</topoShortName>
+                <topoFullName>квартира</topoFullName>
+                <topoValue>24</topoValue>
+              </flat>
+              <houseRaw>ДОМ 20</houseRaw>
+              <flatRaw>КВАРТИРА 24</flatRaw>
+            </parsedAddressRF>
+            <date>2017-07-13</date>
+            <firstDate>2007-10-25</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Алексеева Татьяна Ивановна</fio>
+            <innfl>540806031130</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-05-30</date>
+            <firstDate>2007-10-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

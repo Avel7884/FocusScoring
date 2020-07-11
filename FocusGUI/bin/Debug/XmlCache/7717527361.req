@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7717527361</inn>
+    <ogrn>1057746324657</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1057746324657</focusHref>
+    <UL>
+      <kpp>771701001</kpp>
+      <okpo>76543909</okpo>
+      <okato>45280552000</okato>
+      <okfs>23</okfs>
+      <oktmo>45349000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТД "Азовобщемаш-Евразия"</short>
+        <full>Общество с ограниченной ответственностью "Торговый Дом "Азовобщемаш-Евразия"</full>
+        <date>2005-02-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129626</zipCode>
+          <kladrCode>770000000001783</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Маломосковская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>22</houseRaw>
+          <bulkRaw>СТР. 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-05-05</date>
+        <firstDate>2010-05-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-07-21</date>
+      </status>
+      <registrationDate>2005-02-28</registrationDate>
+      <dissolutionDate>2014-07-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Саадетдинова Марина Николаевна</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2013-05-29</date>
+          <firstDate>2013-05-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Волков Игорь Геннадьевич</fio>
+            <position>Генеральный директор</position>
+            <date>2012-02-14</date>
+            <firstDate>2012-02-14</firstDate>
+          </head>
+          <head>
+            <fio>Снигирь Олег Леонидович</fio>
+            <position>Генеральный директор</position>
+            <date>2012-10-05</date>
+            <firstDate>2008-01-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

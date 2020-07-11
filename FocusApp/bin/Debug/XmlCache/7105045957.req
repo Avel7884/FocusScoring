@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7105045957</inn>
+    <ogrn>1167154054320</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1167154054320</focusHref>
+    <UL>
+      <kpp>710501001</kpp>
+      <okpo>39027392</okpo>
+      <okato>70401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>70701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ТМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ ТУЛЬСКИЕ МАШИНЫ"</full>
+        <date>2016-02-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>300016</zipCode>
+          <kladrCode>710000010000587</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тула</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пржевальского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>Г</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 10</houseRaw>
+          <bulkRaw>КОРПУС Г</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-02-20</date>
+        <firstDate>2016-02-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-02-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Гришин Андрей Анатольевич</fio>
+          <innfl>710307910990</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-02-20</date>
+          <firstDate>2016-02-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

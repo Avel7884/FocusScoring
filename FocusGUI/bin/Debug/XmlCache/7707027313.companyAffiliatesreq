@@ -1,0 +1,4188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0274062111</inn>
+    <ogrn>1020280000190</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020280000190</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>32020814</okpo>
+      <okato>45286590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45383000000</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ПАО "БАНК УРАЛСИБ"</short>
+        <full>ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "БАНК УРАЛСИБ"</full>
+        <date>2015-09-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119048</zipCode>
+          <kladrCode>770000000001269</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ефремова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2005-09-20</date>
+        <firstDate>2005-09-20</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>ФИЛИАЛ ПУБЛИЧНОГО АКЦИОНЕРНОГО ОБЩЕСТВА "БАНК УРАЛСИБ" В Г. ЕКАТЕРИНБУРГ</name>
+          <parsedAddressRF>
+            <zipCode>620075</zipCode>
+            <kladrCode>660000010000940</kladrCode>
+            <regionCode>66</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Свердловская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Екатеринбург</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Розы Люксембург</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>15</topoValue>
+            </house>
+            <houseRaw>ДОМ 15</houseRaw>
+          </parsedAddressRF>
+          <date>2015-09-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ ПУБЛИЧНОГО АКЦИОНЕРНОГО ОБЩЕСТВА "БАНК УРАЛСИБ" В Г. НОВОСИБИРСК</name>
+          <parsedAddressRF>
+            <zipCode>630049</zipCode>
+            <kladrCode>540000010000666</kladrCode>
+            <regionCode>54</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Новосибирская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Новосибирск</topoValue>
+            </city>
+            <street>
+              <topoShortName>пр-кт</topoShortName>
+              <topoFullName>проспект</topoFullName>
+              <topoValue>Красный</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>184/1</topoValue>
+            </house>
+            <houseRaw>ДОМ 184/1</houseRaw>
+          </parsedAddressRF>
+          <date>2015-09-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "САНКТ-ПЕТЕРБУРГСКАЯ ДИРЕКЦИЯ" ПУБЛИЧНОГО АКЦИОНЕРНОГО ОБЩЕСТВА "БАНК УРАЛСИБ" В Г. САНКТ-ПЕТЕРБУРГ</name>
+          <parsedAddressRF>
+            <zipCode>191023</zipCode>
+            <kladrCode>780000000000477</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Инженерная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>9</topoValue>
+            </house>
+            <houseRaw>ДОМ 9</houseRaw>
+          </parsedAddressRF>
+          <date>2015-09-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ ПУБЛИЧНОГО АКЦИОНЕРНОГО ОБЩЕСТВА "БАНК УРАЛСИБ" В Г. СТАВРОПОЛЬ</name>
+          <parsedAddressRF>
+            <zipCode>355017</zipCode>
+            <kladrCode>260000010000239</kladrCode>
+            <regionCode>26</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Ставропольский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Ставрополь</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Ленина</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>235А</topoValue>
+            </house>
+            <houseRaw>ДОМ 235 А</houseRaw>
+          </parsedAddressRF>
+          <date>2015-09-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ ПУБЛИЧНОГО АКЦИОНЕРНОГО ОБЩЕСТВА "БАНК УРАЛСИБ" В Г. УФА</name>
+          <parsedAddressRF>
+            <zipCode>450000</zipCode>
+            <kladrCode>020000010000421</kladrCode>
+            <regionCode>02</regionCode>
+            <regionName>
+              <topoShortName>респ</topoShortName>
+              <topoFullName>республика</topoFullName>
+              <topoValue>Башкортостан</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Уфа</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Революционная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>41</topoValue>
+            </house>
+            <houseRaw>ДОМ 41</houseRaw>
+          </parsedAddressRF>
+          <date>2015-09-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "ЮЖНЫЙ" ПУБЛИЧНОГО АКЦИОНЕРНОГО ОБЩЕСТВА "БАНК УРАЛСИБ"</name>
+          <parsedAddressRF>
+            <zipCode>350015</zipCode>
+            <kladrCode>230000010000329</kladrCode>
+            <regionCode>23</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Краснодарский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Краснодар</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Красная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>152</topoValue>
+            </house>
+            <houseRaw>ДОМ 152</houseRaw>
+          </parsedAddressRF>
+          <date>2015-09-01</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ПУБЛИЧНОГО АКЦИОНЕРНОГО ОБЩЕСТВА "БАНК УРАЛСИБ" В Г. БЕРЛИН, ФЕДЕРАТИВНАЯ РЕСПУБЛИКА ГЕРМАНИЯ</name>
+          <foreignAddress>
+            <countryName>ФЕДЕРАТИВНАЯ РЕСПУБЛИКА ГЕРМАНИЯ</countryName>
+            <addressString>РЕГУС ЛИНДЕНКОРЗО, УНТЕР ДЕН ЛИНДЕН 21, 10117, Г. БЕРЛИН, ФЕДЕРАТИВНАЯ РЕСПУБЛИКА ГЕРМАНИЯ</addressString>
+          </foreignAddress>
+          <date>2015-09-01</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-04-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Бобров Константин Александрович</fio>
+          <innfl>780713000959</innfl>
+          <position>Председатель Правления</position>
+          <date>2019-08-13</date>
+          <firstDate>2016-06-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>775001001</kpp>
+            <date>2005-10-06</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ОАО "УРАЛСИБ"</short>
+            <full>Открытое акционерное общество "БАНК УРАЛСИБ"</full>
+            <date>2005-09-20</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Муслимов Ильдар Равильевич</fio>
+            <innfl>027406521923</innfl>
+            <position>Председатель Правления</position>
+            <date>2010-05-31</date>
+            <firstDate>2010-05-31</firstDate>
+          </head>
+          <head>
+            <fio>Салонен Илкка Сеппо</fio>
+            <position>Председатель Правления</position>
+            <date>2012-10-02</date>
+            <firstDate>2012-10-02</firstDate>
+          </head>
+          <head>
+            <fio>Гаскаров Айрат Рафикович</fio>
+            <innfl>027400824255</innfl>
+            <position>Исполняющий Обязанности Председателя Правления</position>
+            <date>2015-05-08</date>
+            <firstDate>2015-05-08</firstDate>
+          </head>
+          <head>
+            <fio>Бастрыкина Светлана Борисовна</fio>
+            <innfl>772802905153</innfl>
+            <position>Исполняющий Обязанности Председателя Правления</position>
+            <date>2016-02-10</date>
+            <firstDate>2016-02-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>178</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>5049016628</inn>
+    <ogrn>1075049000212</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075049000212</focusHref>
+    <UL>
+      <kpp>504901001</kpp>
+      <okpo>99182348</okpo>
+      <okato>46486000549</okato>
+      <okfs>16</okfs>
+      <oktmo>46786000649</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Экологическое хозяйство "Спартак"</short>
+        <full>Общество с ограниченной ответственностью "Экологическое хозяйство "Спартак"</full>
+        <date>2008-08-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>140760</zipCode>
+          <kladrCode>50038000154</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Шатурский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Середниково</topoValue>
+          </settlement>
+        </parsedAddressRF>
+        <date>2007-05-03</date>
+        <firstDate>2007-05-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-05-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Сигаева Валентина Афанасьевна</fio>
+          <innfl>323504124058</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-08-11</date>
+          <firstDate>2016-08-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Федоров Геннадий Леонидович</fio>
+            <innfl>400700778608</innfl>
+            <date>2009-05-07</date>
+            <firstDate>2009-05-07</firstDate>
+          </head>
+          <head>
+            <fio>Устименко Александр Анатольевич</fio>
+            <innfl>262500168320</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-08-17</date>
+            <firstDate>2011-08-17</firstDate>
+          </head>
+          <head>
+            <fio>Сёмиков Вячеслав Евгеньевич</fio>
+            <innfl>507001411296</innfl>
+            <position>Генеральный директор</position>
+            <date>2013-02-12</date>
+            <firstDate>2013-02-12</firstDate>
+          </head>
+          <head>
+            <fio>Завгородний Владимир Владимирович</fio>
+            <innfl>611200024589</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-10-31</date>
+            <firstDate>2013-10-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>9</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>5075024431</inn>
+    <ogrn>1135075001050</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1135075001050</focusHref>
+    <UL>
+      <kpp>507501001</kpp>
+      <okpo>13389519</okpo>
+      <okato>46466000330</okato>
+      <okfs>16</okfs>
+      <oktmo>46766000430</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Лидино"</short>
+        <full>Общество с ограниченной ответственностью "Лидино"</full>
+        <date>2013-05-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>143118</zipCode>
+          <kladrCode>50029000118</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Рузский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>д</topoShortName>
+            <topoFullName>деревня</topoFullName>
+            <topoValue>Лидино</topoValue>
+          </settlement>
+          <houseRaw>-</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2013-05-27</date>
+        <firstDate>2013-05-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-05-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Сигаева Валентина Афанасьевна</fio>
+          <innfl>323504124058</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-08-12</date>
+          <firstDate>2016-08-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Вершинин Владимир Александрович</fio>
+            <innfl>501700377544</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-05-27</date>
+            <firstDate>2013-05-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>6229048405</inn>
+    <ogrn>1046206012522</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1046206012522</focusHref>
+    <UL>
+      <kpp>623401001</kpp>
+      <okpo>74189585</okpo>
+      <okato>61401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>61701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20612</okopf>
+      <opf>Объединения работодателей</opf>
+      <legalName>
+        <short>ОР РАЭСП</short>
+        <full>Некоммерческая организация Объединение работодателей "Рязанская Ассоциация экономического сотрудничества предприятий"</full>
+        <date>2004-10-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>390000</zipCode>
+          <kladrCode>620000010000466</kladrCode>
+          <regionCode>62</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Рязанская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Рязань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Соборная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52</topoValue>
+          </house>
+          <houseRaw>ДОМ 52</houseRaw>
+        </parsedAddressRF>
+        <date>2015-12-09</date>
+        <firstDate>2015-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-10-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Кутенцын Владимир Иванович</fio>
+          <innfl>623100593983</innfl>
+          <position>Председатель Правления</position>
+          <date>2004-10-27</date>
+          <firstDate>2004-10-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>622901001</kpp>
+            <date>2008-04-07</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>390000</zipCode>
+              <kladrCode>620000010000255</kladrCode>
+              <regionCode>62</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Рязанская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Рязань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Магистральная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>10А</topoValue>
+              </house>
+              <houseRaw>10 А</houseRaw>
+            </parsedAddressRF>
+            <date>2004-10-27</date>
+            <firstDate>2004-10-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7116013611</inn>
+    <ogrn>1037101672310</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037101672310</focusHref>
+    <UL>
+      <kpp>711601001</kpp>
+      <okpo>12459264</okpo>
+      <okato>70234501000</okato>
+      <okfs>49</okfs>
+      <oktmo>70724000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20612</okopf>
+      <opf>Объединения работодателей</opf>
+      <legalName>
+        <full>Объединение работодателей муниципального образования город Новомосковск "Совет предприятий"</full>
+        <date>2011-03-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>301650</zipCode>
+          <kladrCode>710170010000023</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новомосковский</topoValue>
+          </district>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новомосковск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Комсомольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>32/32</topoValue>
+          </house>
+          <houseRaw>32/32</houseRaw>
+        </parsedAddressRF>
+        <date>2016-02-21</date>
+        <firstDate>2003-02-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1991-10-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Зиборов Геннадий Витальевич</fio>
+          <innfl>711601342888</innfl>
+          <position>Исполнительный директор</position>
+          <date>2014-04-16</date>
+          <firstDate>2010-06-22</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>301650</zipCode>
+              <kladrCode>710170010000023</kladrCode>
+              <regionCode>71</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Тульская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новомосковск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Комсомольская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>32/32</topoValue>
+              </house>
+              <houseRaw>32/32</houseRaw>
+            </parsedAddressRF>
+            <date>2003-02-07</date>
+            <firstDate>2003-02-07</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7702173960</inn>
+    <ogrn>1117746502697</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117746502697</focusHref>
+    <UL>
+      <kpp>770201010</kpp>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>НОВЫЕ БИРЖЕВЫЕ ТЕХНОЛОГИИ ЗАО</short>
+        <full>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "НОВЫЕ БИРЖЕВЫЕ ТЕХНОЛОГИИ"</full>
+        <date>2011-06-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129110</zipCode>
+          <kladrCode>770000000001078</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гиляровского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>54</topoValue>
+          </house>
+          <houseRaw>54</houseRaw>
+        </parsedAddressRF>
+        <date>2011-06-24</date>
+        <firstDate>2011-06-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-06-24</date>
+      </status>
+      <registrationDate>1996-12-10</registrationDate>
+      <dissolutionDate>2011-06-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Степанов Г А</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2011-06-24</date>
+          <firstDate>2011-06-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7702186327</inn>
+    <ogrn>1027739096351</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739096351</focusHref>
+    <UL>
+      <kpp>771001001</kpp>
+      <okpo>46823126</okpo>
+      <okato>45286575000</okato>
+      <okfs>34</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>89</okopf>
+      <opf>Прочие некоммерческие организации</opf>
+      <legalName>
+        <full>АССОЦИАЦИЯ "ВИЗА" (НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ)</full>
+        <date>2002-08-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123056</zipCode>
+          <kladrCode>770000000001067</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гашека</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>Д. 7</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-11-04</date>
+        <firstDate>2003-11-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-06-14</date>
+      </status>
+      <registrationDate>2002-08-21</registrationDate>
+      <dissolutionDate>2016-06-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вылегжанин Андрей Алексеевич</fio>
+          <innfl>332708214508</innfl>
+          <position>Председатель Ликвидационной Комиссимии</position>
+          <date>2011-09-09</date>
+          <firstDate>2011-09-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Брогна Энтони</fio>
+            <position>Председатель Совета Директоров</position>
+            <date>2008-02-19</date>
+            <firstDate>2008-02-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7702243720</inn>
+    <ogrn>1037700257110</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037700257110</focusHref>
+    <UL>
+      <kpp>770201001</kpp>
+      <okpo>18927074</okpo>
+      <okopf>97</okopf>
+      <opf>Автономные некоммерческие организации</opf>
+      <legalName>
+        <short>АНО "ДДТ "Интеллект"</short>
+        <full>Автономная некоммерческая организация "Дом Детского Творчества "Интеллект"</full>
+        <date>2003-03-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129278</zipCode>
+          <kladrCode>770000000001534</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Константинова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>10</flatRaw>
+        </parsedAddressRF>
+        <date>2003-03-04</date>
+        <firstDate>2003-03-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-04-15</date>
+      </status>
+      <registrationDate>1999-06-21</registrationDate>
+      <dissolutionDate>2015-04-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Тихомиров Сергей Анатольевич</fio>
+          <innfl>770203771796</innfl>
+          <position>Исполнительный директор</position>
+          <date>2003-03-04</date>
+          <firstDate>2003-03-04</firstDate>
+        </head>
+        <head>
+          <fio>Шибанов Анатолий Иванович</fio>
+          <position>Генеральный Директор</position>
+          <date>2003-03-04</date>
+          <firstDate>2003-03-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7702336646</inn>
+    <ogrn>1027702004681</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027702004681</focusHref>
+    <UL>
+      <kpp>770201001</kpp>
+      <okpo>59131128</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "УРАЛСИБ-Финанс"</short>
+        <full>Общество с ограниченной ответственностью "УРАЛСИБ-Финанс"</full>
+        <date>2005-05-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107045</zipCode>
+          <kladrCode>770000000002352</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Последний</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>5</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2005-05-18</date>
+        <firstDate>2005-05-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-06-24</date>
+      </status>
+      <registrationDate>2002-09-24</registrationDate>
+      <dissolutionDate>2010-06-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Калугин Сергей Витальевич</fio>
+          <innfl>501301961878</innfl>
+          <position>Генеральный директор</position>
+          <date>2005-05-18</date>
+          <firstDate>2005-05-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7704236573</inn>
+    <ogrn>1027700060354</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700060354</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>45012874</okpo>
+      <okato>45286590000</okato>
+      <okfs>23</okfs>
+      <oktmo>45383000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Финансовая корпорация НИКойл"</short>
+        <full>Общество с ограниченной ответственностью "Финансовая корпорация НИКойл"</full>
+        <date>2002-07-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119048</zipCode>
+          <kladrCode>770000000001269</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ефремова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2002-07-25</date>
+        <firstDate>2002-07-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-02-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Рыбальченко Ольга Леонидовна</fio>
+          <innfl>471404255876</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-10-02</date>
+          <firstDate>2017-10-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Мизгунов Александр Валерьевич</fio>
+            <position>Генеральный директор</position>
+            <date>2007-06-27</date>
+            <firstDate>2007-06-27</firstDate>
+          </head>
+          <head>
+            <fio>Калугин Евгений Сергеевич</fio>
+            <position>Генеральный Директор</position>
+            <date>2012-08-17</date>
+            <firstDate>2011-08-18</firstDate>
+          </head>
+          <head>
+            <fio>Дормидошин Юрий Викторович</fio>
+            <innfl>772162950405</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-09-30</date>
+            <firstDate>2014-09-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7704248650</inn>
+    <ogrn>1027702014471</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027702014471</focusHref>
+    <UL>
+      <kpp>774901001</kpp>
+      <okpo>59765436</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Деловой центр УралСиб"</short>
+        <full>Закрытое акционерное общество "Деловой центр УралСиб"</full>
+        <date>2004-04-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119048</zipCode>
+          <kladrCode>770000000001269</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ефремова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-04</date>
+        <firstDate>2002-12-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-07-07</date>
+      </status>
+      <registrationDate>2002-12-04</registrationDate>
+      <dissolutionDate>2011-07-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Липилина Елена Александровна</fio>
+          <innfl>770302808422</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-06-13</date>
+          <firstDate>2007-06-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7704272596</inn>
+    <ogrn>1067799023093</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067799023093</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>94112952</okpo>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>НОУ "Школа-пансион "Виктория"</short>
+        <full>Негосударственное образовательное учреждение "Школа-пансион "Виктория"</full>
+        <date>2006-08-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119002</zipCode>
+          <kladrCode>770000000000758</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Арбат</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36/2</topoValue>
+          </house>
+          <bulk>
+            <topoValue>6</topoValue>
+          </bulk>
+          <houseRaw>36/2</houseRaw>
+          <bulkRaw>6</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-12-15</date>
+        <firstDate>2006-12-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-03-31</date>
+      </status>
+      <registrationDate>2006-08-25</registrationDate>
+      <dissolutionDate>2016-03-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Большаков Михаил Васильевич</fio>
+          <innfl>774391288547</innfl>
+          <position>Ликвидатор</position>
+          <date>2015-12-23</date>
+          <firstDate>2015-12-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Михайловская Наталья Борисовна</fio>
+            <position>Ликвидатор</position>
+            <date>2012-03-19</date>
+            <firstDate>2010-06-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7704532798</inn>
+    <ogrn>1047796727923</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796727923</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>74649360</okpo>
+      <okato>45286590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45383000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>70403</okopf>
+      <opf>Общественные фонды</opf>
+      <legalName>
+        <short>Фонд просвещения "МЕТА"</short>
+        <full>Фонд просвещения "МЕТА"</full>
+        <date>2008-06-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119048</zipCode>
+          <kladrCode>770000000001269</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ефремова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2004-09-30</date>
+        <firstDate>2004-09-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-09-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Костин Олег Александрович</fio>
+          <innfl>773104889880</innfl>
+          <position>Председатель Правления</position>
+          <date>2016-11-29</date>
+          <firstDate>2016-11-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Сигаева Валентина Афанасьевна</fio>
+            <innfl>323504124058</innfl>
+            <position>Председатель Правления</position>
+            <date>2008-08-15</date>
+            <firstDate>2008-08-15</firstDate>
+          </head>
+          <head>
+            <fio>Мяздрикова Екатерина Владимировна</fio>
+            <innfl>772823116400</innfl>
+            <position>Председатель Правления</position>
+            <date>2016-08-25</date>
+            <firstDate>2016-08-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7704537281</inn>
+    <ogrn>1047796863179</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796863179</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>74699168</okpo>
+      <okato>45286552000</okato>
+      <okfs>50</okfs>
+      <oktmo>45374000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>70401</okopf>
+      <opf>Благотворительные фонды</opf>
+      <legalName>
+        <short>БДФ "Виктория"</short>
+        <full>Благотворительный детский фонд "Виктория"</full>
+        <date>2017-08-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119002</zipCode>
+          <kladrCode>770000000000758</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Арбат</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36/2</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>6</topoValue>
+          </bulk>
+          <houseRaw>36/2</houseRaw>
+          <bulkRaw>СТР.6</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-11-12</date>
+        <firstDate>2004-11-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-11-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Летунова Татьяна Дмитриевна</fio>
+          <innfl>771400433861</innfl>
+          <position>Председатель правления</position>
+          <date>2010-05-06</date>
+          <firstDate>2010-05-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>Детский фонд "Виктория"</short>
+          </legalName>
+          <legalName>
+            <full>Фонд помощи обездоленным детям и детям, лишённым родительской ласки - Детский фонд "Виктория"</full>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7705035943</inn>
+    <ogrn>1037700056173</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037700056173</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>41574428</okpo>
+      <okato>45286560000</okato>
+      <okfs>16</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>Институт МИРБИС</short>
+        <full>Негосударственное образовательное учреждение "Московская международная высшая школа бизнеса "МИРБИС" (Институт)</full>
+        <date>2003-01-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125047</zipCode>
+          <kladrCode>770000000000566</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Миусская 1-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>22</houseRaw>
+          <bulkRaw>СТР.3</bulkRaw>
+        </parsedAddressRF>
+        <date>2008-10-24</date>
+        <firstDate>2008-10-24</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>614016</zipCode>
+            <kladrCode>590000010000583</kladrCode>
+            <regionCode>59</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Пермский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Пермь</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Краснофлотская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>18</topoValue>
+            </house>
+            <houseRaw>18</houseRaw>
+          </parsedAddressRF>
+          <date>2013-06-26</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-05-19</date>
+      </status>
+      <registrationDate>2003-01-24</registrationDate>
+      <dissolutionDate>2016-05-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Уколов Владимир Федорович</fio>
+          <innfl>773608184488</innfl>
+          <position>Ректор</position>
+          <date>2016-03-30</date>
+          <firstDate>2016-03-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Савин Станислав Леонидович</fio>
+            <innfl>772700790707</innfl>
+            <position>Ректор</position>
+            <date>2007-04-06</date>
+            <firstDate>2007-04-06</firstDate>
+          </head>
+          <head>
+            <fio>Бешкинская Елена Витальевна</fio>
+            <innfl>772678137105</innfl>
+            <position>Ректор</position>
+            <date>2014-12-29</date>
+            <firstDate>2014-12-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7706139335</inn>
+    <ogrn>1027739575852</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739575852</focusHref>
+    <UL>
+      <kpp>540401001</kpp>
+      <okpo>46486404</okpo>
+      <okato>50401377000</okato>
+      <okfs>34</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>НЕПУБЛИЧНОЕ АО "ЛИЗИНГПОЙНТ"</short>
+        <full>НЕПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "ЛИЗИНГПОЙНТ"</full>
+        <date>2015-01-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630071</zipCode>
+          <kladrCode>540000010001281</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Станционная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>60/10</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>15</topoValue>
+          </flat>
+          <houseRaw>ДОМ 60/10</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 15</flatRaw>
+        </parsedAddressRF>
+        <date>2015-01-13</date>
+        <firstDate>2015-01-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1997-05-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Лопатин Александр Владимирович</fio>
+          <innfl>773100644287</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-12-25</date>
+          <firstDate>2009-12-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>773001001</kpp>
+            <date>2011-03-23</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "ЛизингПойнт"</short>
+            <full>Закрытое акционерное общество "ЛизингПойнт"</full>
+            <date>2007-03-23</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>121087</zipCode>
+              <kladrCode>770000000000810</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Барклая</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>6</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>5</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>22</topoValue>
+              </flat>
+              <houseRaw>6</houseRaw>
+              <bulkRaw>стр.5</bulkRaw>
+              <flatRaw>офис 22</flatRaw>
+            </parsedAddressRF>
+            <date>2011-12-27</date>
+            <firstDate>2011-12-27</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>121096</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Филевская 3-я</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <houseRaw>5</houseRaw>
+            </parsedAddressRF>
+            <date>2011-03-23</date>
+            <firstDate>2011-03-23</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7707027313</inn>
+    <ogrn>1027739136919</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739136919</focusHref>
+    <UL>
+      <kpp>775001001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО АКБ "АВТОБАНК-НИКОЙЛ"</short>
+        <full>Открытое акционерное общество Акционерный коммерческий банк "АВТОБАНК-НИКОЙЛ"</full>
+        <date>2003-06-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119048</zipCode>
+          <kladrCode>770000000001269</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ефремова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2004-12-27</date>
+        <firstDate>2004-12-27</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>344025</zipCode>
+            <kladrCode>610000010000768</kladrCode>
+            <regionCode>61</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Ростовская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Ростов-на-Дону</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Комсомольская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>4-6</topoValue>
+            </house>
+            <houseRaw>4-6</houseRaw>
+          </parsedAddressRF>
+          <date>2004-12-27</date>
+        </branch>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>353901</zipCode>
+            <kladrCode>230000060000327</kladrCode>
+            <regionCode>23</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Краснодарский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Новороссийск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Сакко и Ванцетти</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>9</topoValue>
+            </house>
+            <houseRaw>9</houseRaw>
+          </parsedAddressRF>
+          <date>2004-12-27</date>
+        </branch>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>450061</zipCode>
+            <kladrCode>020010010000346</kladrCode>
+            <regionCode>02</regionCode>
+            <regionName>
+              <topoShortName>респ</topoShortName>
+              <topoFullName>республика</topoFullName>
+              <topoValue>Башкортостан</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Уфа</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Интернациональная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>99</topoValue>
+            </house>
+            <houseRaw>99</houseRaw>
+          </parsedAddressRF>
+          <date>2004-12-27</date>
+        </branch>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>394053</zipCode>
+            <kladrCode>360000010000486</kladrCode>
+            <regionCode>36</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Воронежская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Воронеж</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Генерала Лизюкова</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>2</topoValue>
+            </house>
+            <houseRaw>2</houseRaw>
+          </parsedAddressRF>
+          <date>2004-12-27</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-09-20</date>
+      </status>
+      <registrationDate>1995-08-24</registrationDate>
+      <dissolutionDate>2005-09-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Цветков Николай Александрович</fio>
+          <innfl>773300597612</innfl>
+          <position>Председатель Банка</position>
+          <date>2003-09-23</date>
+          <firstDate>2003-09-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774401001</kpp>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7707115129</inn>
+    <ogrn>1027739501129</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739501129</focusHref>
+    <UL>
+      <kpp>774401001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Фондовое агентство"</short>
+        <full>Закрытое акционерное общество "Фондовое агентство"</full>
+        <date>2004-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119048</zipCode>
+          <kladrCode>770000000001269</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ефремова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2004-10-28</date>
+        <firstDate>2004-10-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-07-31</date>
+      </status>
+      <registrationDate>1996-06-06</registrationDate>
+      <dissolutionDate>2008-07-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Антонюк Борис Игоревич</fio>
+          <innfl>502906895686</innfl>
+          <position>Председатель Ликвидационной комиссии</position>
+          <date>2008-07-17</date>
+          <firstDate>2008-07-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7707115136</inn>
+    <ogrn>1027739022937</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739022937</focusHref>
+    <UL>
+      <kpp>771001001</kpp>
+      <okpo>44463863</okpo>
+      <okato>45286585000</okato>
+      <okfs>23</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Кастодиальное агентство"</short>
+        <full>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "КАСТОДИАЛЬНОЕ АГЕНТСТВО"</full>
+        <date>2002-07-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125009</zipCode>
+          <kladrCode>770000000002877</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тверская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16/2</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>12</topoValue>
+          </flat>
+          <houseRaw>16/2</houseRaw>
+          <bulkRaw>СТР.3</bulkRaw>
+          <flatRaw>ОФ.12</flatRaw>
+        </parsedAddressRF>
+        <date>2005-07-19</date>
+        <firstDate>2005-07-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-19</date>
+      </status>
+      <registrationDate>1996-05-27</registrationDate>
+      <dissolutionDate>2016-09-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Верещаев Александр Иванович</fio>
+          <innfl>772730637128</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-10-18</date>
+          <firstDate>2006-10-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7707168089</inn>
+    <ogrn>1027700331977</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700331977</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>57953174</okpo>
+      <okato>45286575000</okato>
+      <okfs>16</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20614</okopf>
+      <opf>Некоммерческие партнерства</opf>
+      <legalName>
+        <short>"МБС"</short>
+        <full>Некоммерческое партнерство "Московский банковский союз"</full>
+        <date>2002-10-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121069</zipCode>
+          <kladrCode>770000000002660</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Скатертный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>20</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-10-18</date>
+        <firstDate>2002-10-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-10-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Шипилов Валерий Витальевич</fio>
+          <innfl>771305731201</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-04-07</date>
+          <firstDate>2007-04-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7707312871</inn>
+    <ogrn>1027707009593</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027707009593</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>59731503</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ЧОП "Автобанк плюс"</short>
+        <full>Общество с ограниченной ответственностью Частное охранное предприятие "Автобанк плюс"</full>
+        <date>2002-11-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127055</zipCode>
+          <kladrCode>770000000000561</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Лесная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>41</topoValue>
+          </house>
+          <houseRaw>41</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-10</date>
+        <firstDate>2002-11-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-09-13</date>
+      </status>
+      <registrationDate>2002-11-10</registrationDate>
+      <dissolutionDate>2005-09-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Романцов Владимир Иванович</fio>
+          <innfl>772004456602</innfl>
+          <position>Ликвидатор</position>
+          <date>2005-09-13</date>
+          <firstDate>2005-09-13</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Цветков Николай Александрович</fio>
+            <position>Руководитель юридического лица</position>
+            <date>2004-12-16</date>
+            <firstDate>2004-12-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7708169536</inn>
+    <ogrn>1027700327456</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700327456</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>57064540</okpo>
+      <okato>45286590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45383000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "ИНЖТОРГСТРОЙ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "ИНЖТОРГСТРОЙ"</full>
+        <date>2014-12-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119048</zipCode>
+          <kladrCode>770000000001269</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ефремова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2006-03-01</date>
+        <firstDate>2006-03-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-06-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Дормидошин Юрий Викторович</fio>
+          <innfl>772162950405</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-03-12</date>
+          <firstDate>2019-03-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "ИНЖТОРГСТРОЙ"</short>
+            <full>Закрытое акционерное общество "ИНЖТОРГСТРОЙ"</full>
+            <date>2002-10-17</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Пшеничников Илья Николаевич</fio>
+            <innfl>772733420966</innfl>
+            <position>Генеральный Директор</position>
+            <date>2011-07-26</date>
+            <firstDate>2009-07-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7709383349</inn>
+    <ogrn>1027709004806</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027709004806</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okpo>59095266</okpo>
+      <okato>45286580000</okato>
+      <okfs>16</okfs>
+      <oktmo>45381000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЦЕНТР БИЗНЕС-РАЗВИТИЯ МИРБИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ЦЕНТР БИЗНЕС-РАЗВИТИЯ МИРБИС"</full>
+        <date>2016-12-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109147</zipCode>
+          <kladrCode>770000000001792</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Марксистская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>7</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>пом III, комн 1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 34</houseRaw>
+          <bulkRaw>КОРПУС 7</bulkRaw>
+          <flatRaw>ПОМ III, КОМН 1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-05-10</date>
+        <firstDate>2018-05-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-08-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Васильев Роман Романович</fio>
+          <innfl>771870593743</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-12-20</date>
+          <firstDate>2018-12-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ЭБИСС"</short>
+            <full>Общество с ограниченной ответственностью "ЭБИСС"</full>
+            <date>2002-08-23</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>109147</zipCode>
+              <kladrCode>770000000001792</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Марксистская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>34</topoValue>
+              </house>
+              <bulk>
+                <topoValue>7</topoValue>
+              </bulk>
+              <houseRaw>34</houseRaw>
+              <bulkRaw>7</bulkRaw>
+            </parsedAddressRF>
+            <date>2002-08-23</date>
+            <firstDate>2002-08-23</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Грунь Ольга Валерьевна</fio>
+            <innfl>773604690740</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-02-25</date>
+            <firstDate>2010-02-25</firstDate>
+          </head>
+          <head>
+            <fio>Гусева Ирина Олеговна</fio>
+            <innfl>771904712350</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-07-16</date>
+            <firstDate>2015-07-16</firstDate>
+          </head>
+          <head>
+            <fio>Пилипенко Валерий Владимирович</fio>
+            <innfl>402802147919</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-11-09</date>
+            <firstDate>2016-11-09</firstDate>
+          </head>
+          <head>
+            <fio>Коновалов Василий Аркадьевич</fio>
+            <innfl>504700587480</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-11-23</date>
+            <firstDate>2017-11-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7709492845</inn>
+    <ogrn>1167700057359</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1167700057359</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okpo>41574428</okpo>
+      <okato>45286580000</okato>
+      <okfs>16</okfs>
+      <oktmo>45381000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>71400</okopf>
+      <opf>Автономные некоммерческие организации</opf>
+      <legalName>
+        <short>ИНСТИТУТ МИРБИС</short>
+        <full>АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ ВЫСШЕГО ОБРАЗОВАНИЯ «МОСКОВСКАЯ МЕЖДУНАРОДНАЯ ВЫСШАЯ ШКОЛА БИЗНЕСА «МИРБИС» (ИНСТИТУТ)</full>
+        <date>2016-09-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109147</zipCode>
+          <kladrCode>770000000001792</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Марксистская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>7</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 34</houseRaw>
+          <bulkRaw>КОРПУС 7</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-05-19</date>
+        <firstDate>2016-05-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-05-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Цветков Николай Александрович</fio>
+          <innfl>773300597612</innfl>
+          <position>Ректор</position>
+          <date>2018-10-08</date>
+          <firstDate>2018-10-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <full>ОБРАЗОВАТЕЛЬНАЯ АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ ВЫСШЕГО ОБРАЗОВАНИЯ «МОСКОВСКАЯ МЕЖДУНАРОДНАЯ ВЫСШАЯ ШКОЛА БИЗНЕСА «МИРБИС» (ИНСТИТУТ)</full>
+            <date>2016-05-19</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Уколов Владимир Федорович</fio>
+            <innfl>773608184488</innfl>
+            <position>Ректор</position>
+            <date>2016-05-19</date>
+            <firstDate>2016-05-19</firstDate>
+          </head>
+          <head>
+            <fio>Соломатин Александр Васильевич</fio>
+            <innfl>772154862297</innfl>
+            <position>Ректор</position>
+            <date>2016-09-20</date>
+            <firstDate>2016-09-20</firstDate>
+          </head>
+          <head>
+            <fio>Живаев Максим Николаевич</fio>
+            <innfl>773001571694</innfl>
+            <position>Ректор</position>
+            <date>2017-07-11</date>
+            <firstDate>2017-07-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7710283490</inn>
+    <ogrn>5087746516622</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5087746516622</focusHref>
+    <UL>
+      <kpp>771001001</kpp>
+      <okpo>49289673</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>МЕДИА БАРТ ООО</short>
+        <full>ОБЩЕСТВА С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ МЕДИА БАРТ</full>
+        <date>2008-11-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103009</zipCode>
+          <kladrCode>770000000003277</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Газетный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17/9</topoValue>
+          </house>
+          <houseRaw>17/9</houseRaw>
+        </parsedAddressRF>
+        <date>2008-11-29</date>
+        <firstDate>2008-11-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-11-29</date>
+      </status>
+      <registrationDate>1998-05-06</registrationDate>
+      <dissolutionDate>2008-11-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Новиков Юрий Сергеевич</fio>
+          <position>Руководитель</position>
+          <date>2008-11-29</date>
+          <firstDate>2008-11-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Новиков Юрий Сергеевич Ю С</fio>
+            <position>Руководитель</position>
+            <date>2008-11-29</date>
+            <firstDate>2008-11-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7710352916</inn>
+    <ogrn>1027739561960</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739561960</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>54812042</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Н.А.Ц."</short>
+        <full>Общество с ограниченной ответственностью "Н.А.Ц."</full>
+        <date>2002-11-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119048</zipCode>
+          <kladrCode>770000000001269</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ефремова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-18</date>
+        <firstDate>2002-11-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-01-12</date>
+      </status>
+      <registrationDate>2000-08-17</registrationDate>
+      <dissolutionDate>2011-01-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Калугин Евгений Сергеевич</fio>
+          <innfl>501307422777</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-09-16</date>
+          <firstDate>2010-09-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7714177285</inn>
+    <ogrn>1027700402146</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700402146</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>53763376</okpo>
+      <okato>45277556000</okato>
+      <okfs>53</okfs>
+      <oktmo>45334000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Спецпроект-XXI"</short>
+        <full>Общество с ограниченной ответственностью "Спецпроект-XXI век"</full>
+        <date>2002-11-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125124</zipCode>
+          <kladrCode>770000000002451</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Расковой</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16/26</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>16/26</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-11-05</date>
+        <firstDate>2002-11-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-03-03</date>
+      </status>
+      <registrationDate>2000-06-05</registrationDate>
+      <dissolutionDate>2014-03-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ахлебинина Елена Леонидовна</fio>
+          <innfl>772708282800</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-08-08</date>
+          <firstDate>2006-12-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7721123890</inn>
+    <ogrn>5087746645058</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5087746645058</focusHref>
+    <UL>
+      <kpp>772101010</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ВЕСТЬ-СР</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ВЕСТЬ-СР</full>
+        <date>2008-12-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>101000</zipCode>
+          <kladrCode>770000000000051</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сормовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>8</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2008-12-20</date>
+        <firstDate>2008-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-12-20</date>
+      </status>
+      <registrationDate>1996-09-25</registrationDate>
+      <dissolutionDate>2008-12-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ильинская Римма Николаевна</fio>
+          <position>Руководитель</position>
+          <date>2008-12-20</date>
+          <firstDate>2008-12-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7722341108</inn>
+    <ogrn>1157746890311</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1157746890311</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okpo>49938812</okpo>
+      <okato>45290564000</okato>
+      <okfs>16</okfs>
+      <oktmo>45388000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ХЭЛФИ ФУД ПРОДАКШН"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ХЭЛФИ ФУД ПРОДАКШН"</full>
+        <date>2015-09-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111250</zipCode>
+          <kladrCode>770000000000287</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноказарменная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 15</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ЭТАЖ 1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-03-29</date>
+        <firstDate>2018-03-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-09-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Бордачева Ольга Андреевна</fio>
+          <innfl>771994335551</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-07-10</date>
+          <firstDate>2017-07-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>111024</zipCode>
+              <kladrCode>770000000000241</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Авиамоторная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>50</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>2</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>пом XIV Ком 45</topoValue>
+              </flat>
+              <houseRaw>ДОМ 50</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 2</bulkRaw>
+              <flatRaw>ПОМ XIV КОМ 45</flatRaw>
+            </parsedAddressRF>
+            <date>2015-09-29</date>
+            <firstDate>2015-09-29</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>111024</zipCode>
+              <kladrCode>770000000000241</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Авиамоторная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>50</topoValue>
+              </house>
+              <bulk>
+                <topoValue>2</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>XIV Ком 45</topoValue>
+              </flat>
+              <houseRaw>50</houseRaw>
+              <bulkRaw>2</bulkRaw>
+              <flatRaw>XIV КОМ 45</flatRaw>
+            </parsedAddressRF>
+            <date>2015-09-29</date>
+            <firstDate>2015-09-29</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Колосова Мария Александровна</fio>
+            <innfl>772013950818</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-09-29</date>
+            <firstDate>2015-09-29</firstDate>
+          </head>
+          <head>
+            <fio>Фрипту Анжела</fio>
+            <innfl>770974877770</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-03-24</date>
+            <firstDate>2016-03-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7722783515</inn>
+    <ogrn>1127746619142</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127746619142</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okpo>11379422</okpo>
+      <okato>45290564000</okato>
+      <okfs>16</okfs>
+      <oktmo>45388000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Горшочек, вари!"</short>
+        <full>Общество с ограниченной ответственностью "Горшочек, вари!"</full>
+        <date>2012-08-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111250</zipCode>
+          <kladrCode>770000000000287</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноказарменная</topoValue>
+          </street>
+          <house>
+            <topoShortName>влд</topoShortName>
+            <topoFullName>владение</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <flat>
+            <topoValue>этаж 8</topoValue>
+          </flat>
+          <houseRaw>ВЛАДЕНИЕ 15</houseRaw>
+          <flatRaw>ЭТАЖ 8</flatRaw>
+        </parsedAddressRF>
+        <date>2018-07-06</date>
+        <firstDate>2018-07-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-08-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Пронин Дмитрий Александрович</fio>
+          <innfl>502402254972</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-07-13</date>
+          <firstDate>2015-07-13</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>111024</zipCode>
+              <kladrCode>770000000000241</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Авиамоторная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>50</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>2</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>пом XIV Ком 45</topoValue>
+              </flat>
+              <houseRaw>ДОМ 50</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 2</bulkRaw>
+              <flatRaw>ПОМ XIV КОМ 45</flatRaw>
+            </parsedAddressRF>
+            <date>2016-03-16</date>
+            <firstDate>2016-03-16</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>109125</zipCode>
+              <kladrCode>770000000000055</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>б-р</topoShortName>
+                <topoFullName>бульвар</topoFullName>
+                <topoValue>Волжский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>18</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>18</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2012-08-10</date>
+            <firstDate>2012-08-10</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Бородин Евгений Геннадьевич</fio>
+            <position>Генеральный директор</position>
+            <date>2012-08-10</date>
+            <firstDate>2012-08-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7723102864</inn>
+    <ogrn>1137799010766</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1137799010766</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <legalName>
+        <short>СОЮЗ ПРОМЫШЛЕННИКОВ И ПРЕДПРИНИМАТЕЛЕЙ ЮВАО</short>
+        <full>СОЮЗ ПРОМЫШЛЕННИКОВ И ПРЕДПРИНИМАТЕЛЕЙ ЮГО-ВОСТОЧНОГО АДМИНИСТРАТИВНОГО ОКРУГА Г.МОСКВЫ</full>
+        <date>2013-05-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109383</zipCode>
+          <kladrCode>770000000000228</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шоссейная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>74</topoValue>
+          </house>
+          <houseRaw>74</houseRaw>
+        </parsedAddressRF>
+        <date>2013-05-27</date>
+        <firstDate>2013-05-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-05-27</date>
+      </status>
+      <registrationDate>1996-01-22</registrationDate>
+      <dissolutionDate>2013-05-27</dissolutionDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7728125015</inn>
+    <ogrn>1107746512500</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746512500</focusHref>
+    <UL>
+      <kpp>772801001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ИНКОМ-ЕВРОПА</short>
+        <full>Открытое акционерное общество "ИНКОМ-ЕВРОПА"</full>
+        <date>2010-06-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117420</zipCode>
+          <kladrCode>770000000001948</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Наметкина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>СТР.2</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-06-28</date>
+        <firstDate>2010-06-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-06-28</date>
+      </status>
+      <registrationDate>1995-09-06</registrationDate>
+      <dissolutionDate>2010-06-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Астафьев Александр Анатольевич</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2010-06-28</date>
+          <firstDate>2010-06-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7729507546</inn>
+    <ogrn>1047796361128</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796361128</focusHref>
+    <UL>
+      <kpp>504001001</kpp>
+      <okpo>73473692</okpo>
+      <okato>46248876001</okato>
+      <okfs>16</okfs>
+      <oktmo>46648476101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Палсад"</short>
+        <full>Общество с ограниченной ответственностью "Палсад"</full>
+        <date>2019-05-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>140126</zipCode>
+          <kladrCode>50028000201</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Раменский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Софьино</topoValue>
+          </settlement>
+          <house>
+            <topoValue>Дом Контора ЗАО "Пламя"</topoValue>
+          </house>
+          <houseRaw>ДОМ КОНТОРА ЗАО "ПЛАМЯ"</houseRaw>
+        </parsedAddressRF>
+        <date>2019-05-17</date>
+        <firstDate>2018-09-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-05-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Белозеров Евгений Александрович</fio>
+          <innfl>251007833579</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-09-27</date>
+          <firstDate>2018-09-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772901001</kpp>
+            <date>2013-10-09</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>140126</zipCode>
+              <kladrCode>50028000201</kladrCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Раменский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>с</topoShortName>
+                <topoFullName>село</topoFullName>
+                <topoValue>Софьино</topoValue>
+              </settlement>
+              <house>
+                <topoValue>Контора ЗАО "Пламя"</topoValue>
+              </house>
+              <houseRaw>КОНТОРА ЗАО "ПЛАМЯ"</houseRaw>
+            </parsedAddressRF>
+            <date>2013-10-09</date>
+            <firstDate>2013-10-09</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119361</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Озерная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>46</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>2</topoValue>
+              </bulk>
+              <houseRaw>46</houseRaw>
+              <bulkRaw>СТР.2</bulkRaw>
+            </parsedAddressRF>
+            <date>2006-04-27</date>
+            <firstDate>2006-04-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Абакумов Вадим Вячеславович</fio>
+            <position>Генеральный директор</position>
+            <date>2008-10-09</date>
+            <firstDate>2008-10-09</firstDate>
+          </head>
+          <head>
+            <fio>Шиховцев Олег Николаевич</fio>
+            <innfl>583184695600</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-01-29</date>
+            <firstDate>2013-01-29</firstDate>
+          </head>
+          <head>
+            <fio>Артюхов Андрей Вячеславович</fio>
+            <innfl>772731103841</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-01-22</date>
+            <firstDate>2018-01-22</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7732006444</inn>
+    <ogrn>1027700025682</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700025682</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>27993874</okpo>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Депозитарная компания УралСиб"</short>
+        <full>Закрытое акционерное общество "Депозитарная компания УралСиб"</full>
+        <date>2004-03-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119048</zipCode>
+          <kladrCode>770000000001269</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ефремова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2002-07-12</date>
+        <firstDate>2002-07-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-12-03</date>
+      </status>
+      <registrationDate>1993-08-10</registrationDate>
+      <dissolutionDate>2015-12-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Судьбинин Александр Георгиевич</fio>
+          <innfl>501805003472</innfl>
+          <position>Председатель Ликвидационной Комиссии</position>
+          <date>2012-02-27</date>
+          <firstDate>2009-12-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7732006469</inn>
+    <ogrn>1027700059970</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700059970</focusHref>
+    <UL>
+      <kpp>770201001</kpp>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "НЕФТЯНАЯ ИНВЕСТИЦИОННАЯ КОМПАНИЯ НИКОЙЛ"</short>
+        <full>Открытое акционерное общество "Нефтяная инвестиционная компания НИКойл"</full>
+        <date>2002-07-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129041</zipCode>
+          <kladrCode>770000000001856</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>92</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>111</topoValue>
+          </flat>
+          <houseRaw>92</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>111</flatRaw>
+        </parsedAddressRF>
+        <date>2002-07-25</date>
+        <firstDate>2002-07-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-09-16</date>
+      </status>
+      <registrationDate>1995-05-25</registrationDate>
+      <dissolutionDate>2004-09-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Радченко Андрей Александрович</fio>
+          <innfl>773165010715</innfl>
+          <position>Иное должностное лицо</position>
+          <date>2004-09-16</date>
+          <firstDate>2004-06-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "Нефтяная инвестиционная компания НИКойл"</short>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7816173995</inn>
+    <ogrn>1037835031046</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037835031046</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>54326689</okpo>
+      <okato>40296000000</okato>
+      <okfs>41</okfs>
+      <oktmo>40902000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20600</okopf>
+      <opf>Ассоциации (союзы)</opf>
+      <legalName>
+        <short>Ассоциация "Сделано в Петербурге"</short>
+        <full>Ассоциация предприятий города Санкт-Петербурга "Сделано в Петербурге"</full>
+        <date>2003-03-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192000</zipCode>
+          <kladrCode>780000000000710</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Лиговский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>201</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Л.А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>3Н</topoValue>
+          </flat>
+          <houseRaw>201</houseRaw>
+          <bulkRaw>Л.А</bulkRaw>
+          <flatRaw>ПОМ.3Н</flatRaw>
+        </parsedAddressRF>
+        <date>2003-03-04</date>
+        <firstDate>2003-03-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-12-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Некрасов Александр Иванович</fio>
+          <innfl>782614229830</innfl>
+          <position>Генеральный директор</position>
+          <date>2003-03-04</date>
+          <firstDate>2003-03-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>9701011832</inn>
+    <ogrn>1157746885670</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1157746885670</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>49919298</okpo>
+      <okato>45277598000</okato>
+      <okfs>16</okfs>
+      <oktmo>45348000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ХЭЛФИ ФУД РИТЕЙЛ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ХЭЛФИ ФУД РИТЕЙЛ"</full>
+        <date>2015-09-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125167</zipCode>
+          <kladrCode>770000000000964</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Викторенко</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 1 Ком 3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 5</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ЭТАЖ 1 КОМ 3</flatRaw>
+        </parsedAddressRF>
+        <date>2019-06-03</date>
+        <firstDate>2019-06-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-09-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Белявская Александра Александровна</fio>
+          <innfl>772383906436</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-08-09</date>
+          <firstDate>2018-08-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770101001</kpp>
+            <date>2015-09-28</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107078</zipCode>
+              <kladrCode>770000000007028</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>проезд</topoShortName>
+                <topoFullName>проезд</topoFullName>
+                <topoValue>Мясницкий</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>Эт 3 пом I комн 6</topoValue>
+              </flat>
+              <houseRaw>ДОМ 4</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+              <flatRaw>ЭТ 3 ПОМ I КОМН 6</flatRaw>
+            </parsedAddressRF>
+            <date>2015-09-28</date>
+            <firstDate>2015-09-28</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107078</zipCode>
+              <kladrCode>770000000007028</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>проезд</topoShortName>
+                <topoFullName>проезд</topoFullName>
+                <topoValue>Мясницкий</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>3 пом I комн 6</topoValue>
+              </flat>
+              <houseRaw>4</houseRaw>
+              <bulkRaw>1</bulkRaw>
+              <flatRaw>3 ПОМ I КОМН 6</flatRaw>
+            </parsedAddressRF>
+            <date>2015-09-28</date>
+            <firstDate>2015-09-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Пронин Дмитрий Александрович</fio>
+            <innfl>502402254972</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-09-28</date>
+            <firstDate>2015-09-28</firstDate>
+          </head>
+          <head>
+            <fio>Баюкова Дарья Александровна</fio>
+            <innfl>501007654216</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-03-24</date>
+            <firstDate>2016-03-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>9701039549</inn>
+    <ogrn>1167746443204</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1167746443204</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okpo>02351366</okpo>
+      <okato>45296559000</okato>
+      <okfs>16</okfs>
+      <oktmo>45914000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЗОЖ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ЗОЖ"</full>
+        <date>2016-05-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115280</zipCode>
+          <kladrCode>770000000001688</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленинская Слобода</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <flat>
+            <topoValue>Эт 3 пом IV Ком 169</topoValue>
+          </flat>
+          <houseRaw>ДОМ 26</houseRaw>
+          <flatRaw>ЭТ 3 ПОМ IV КОМ 169</flatRaw>
+        </parsedAddressRF>
+        <date>2019-02-13</date>
+        <firstDate>2019-02-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-05-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Савин Сергей Александрович</fio>
+          <innfl>771770718163</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-05-07</date>
+          <firstDate>2019-05-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770101001</kpp>
+            <date>2016-05-05</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107078</zipCode>
+              <kladrCode>770000000007028</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>проезд</topoShortName>
+                <topoFullName>проезд</topoFullName>
+                <topoValue>Мясницкий</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>Эт 3 пом I Ком 6</topoValue>
+              </flat>
+              <houseRaw>ДОМ 4</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+              <flatRaw>ЭТ 3 ПОМ I КОМ 6</flatRaw>
+            </parsedAddressRF>
+            <date>2016-05-05</date>
+            <firstDate>2016-05-05</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107078</zipCode>
+              <kladrCode>770000000007028</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>проезд</topoShortName>
+                <topoFullName>проезд</topoFullName>
+                <topoValue>Мясницкий</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>3 пом I Ком 6</topoValue>
+              </flat>
+              <houseRaw>4</houseRaw>
+              <bulkRaw>1</bulkRaw>
+              <flatRaw>3 ПОМ I КОМ 6</flatRaw>
+            </parsedAddressRF>
+            <date>2016-05-05</date>
+            <firstDate>2016-05-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Хлебин Сергей Александрович</fio>
+            <innfl>772460373753</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-05-05</date>
+            <firstDate>2016-05-05</firstDate>
+          </head>
+          <head>
+            <fio>Горилей Екатерина Сергеевна</fio>
+            <innfl>771599888890</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-11-10</date>
+            <firstDate>2017-11-10</firstDate>
+          </head>
+          <head>
+            <fio>Слободяник Наталья Викторовна</fio>
+            <innfl>590506548642</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-11-16</date>
+            <firstDate>2018-11-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>9705054192</inn>
+    <ogrn>5157746083622</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5157746083622</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>01884314</okpo>
+      <okato>45286560000</okato>
+      <okfs>23</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ИНТЕРМЕД"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ИНТЕРМЕД"</full>
+        <date>2015-11-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115093</zipCode>
+          <kladrCode>770000000002808</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Стремянный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <houseRaw>ДОМ 26</houseRaw>
+        </parsedAddressRF>
+        <date>2017-07-10</date>
+        <firstDate>2017-07-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-11-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Набиева Аида Анваровна</fio>
+          <innfl>590401614753</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-09-26</date>
+          <firstDate>2019-09-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115093</zipCode>
+              <kladrCode>770000000003175</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Щипковский 1-й</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>19/1</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>2</topoValue>
+              </bulk>
+              <houseRaw>ДОМ 19/1</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 2</bulkRaw>
+            </parsedAddressRF>
+            <date>2015-11-24</date>
+            <firstDate>2015-11-24</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Шапрова Наталья Николаевна</fio>
+            <innfl>502706796670</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-11-24</date>
+            <firstDate>2015-11-24</firstDate>
+          </head>
+          <head>
+            <fio>Барышева Татьяна Александровна</fio>
+            <innfl>503208900190</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-09-28</date>
+            <firstDate>2017-11-14</firstDate>
+          </head>
+          <head>
+            <fio>Горнастолёв Дмитрий Игоревич</fio>
+            <innfl>550710055289</innfl>
+            <position>Генеральный Директор</position>
+            <date>2019-04-09</date>
+            <firstDate>2019-04-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>9709031615</inn>
+    <ogrn>1187746456590</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1187746456590</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okpo>28460720</okpo>
+      <okato>45286580000</okato>
+      <okfs>16</okfs>
+      <oktmo>45381000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СТО"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СТРАТЕГИИ ТЕХНОЛОГИЙ ОБРАЗОВАНИЯ"</full>
+        <date>2018-05-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105120</zipCode>
+          <kladrCode>770000000001552</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Костомаровский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>4</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Эт 3 пом I Ком 17</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 4</bulkRaw>
+          <flatRaw>ЭТ 3 ПОМ I КОМ 17</flatRaw>
+        </parsedAddressRF>
+        <date>2018-05-04</date>
+        <firstDate>2018-05-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-05-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Сумбатян Михаил Суренович</fio>
+          <innfl>772806989394</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-05-04</date>
+          <firstDate>2018-05-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>9709047238</inn>
+    <ogrn>1197746230770</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1197746230770</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okpo>80983991</okpo>
+      <okato>45286580000</okato>
+      <okfs>16</okfs>
+      <oktmo>45381000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГРАНАТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГРАНАТ"</full>
+        <date>2019-04-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109147</zipCode>
+          <kladrCode>770000000001792</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Марксистская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>7</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>12А</topoValue>
+          </flat>
+          <houseRaw>ДОМ 34</houseRaw>
+          <bulkRaw>КОРПУС 7</bulkRaw>
+          <flatRaw>КОМН. 12А</flatRaw>
+        </parsedAddressRF>
+        <date>2019-04-02</date>
+        <firstDate>2019-04-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2019-04-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Калугина Елена Михайловна</fio>
+          <innfl>501302620165</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-04-02</date>
+          <firstDate>2019-04-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

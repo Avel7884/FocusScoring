@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>Значительное кол-во бывших юр. лиц. руководителя (с учетом ФИО)</Name>
+  <Colour>Yellow</Colour>
+  <Description>Значительное количество юридических лиц, в которых в качестве бывшего руководителя упомянут действующий руководитель текущей организации (с учетом только ФИО)</Description>
+  <Code>int count;
+int totalCount;
+return int.TryParse(company.GetParam("q7019"), out count) &amp;&amp;
+                               int.TryParse(company.GetParam("q7021"), out totalCount) &amp;&amp; (totalCount - count) &gt; 80;</Code>
+</items>

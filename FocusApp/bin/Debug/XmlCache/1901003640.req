@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1901003640</inn>
+    <ogrn>1021900525030</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021900525030</focusHref>
+    <UL>
+      <kpp>190101001</kpp>
+      <okpo>05196692</okpo>
+      <okato>95401000000</okato>
+      <okfs>14</okfs>
+      <oktmo>95701000001</oktmo>
+      <okogu>4210007</okogu>
+      <okopf>65243</okopf>
+      <opf>Муниципальные унитарные предприятия</opf>
+      <legalName>
+        <short>МП "АТС"</short>
+        <full>Муниципальное предприятие г. Абакана "Абаканские тепловые сети"</full>
+        <date>2003-06-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655017</zipCode>
+          <kladrCode>190000010000162</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абакан</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Промышленная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25</topoValue>
+          </house>
+          <houseRaw>25</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-07</date>
+        <firstDate>2002-10-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-06-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Демидюк Афанасий Мартынович</fio>
+          <innfl>190105358192</innfl>
+          <position>Директор</position>
+          <date>2016-10-06</date>
+          <firstDate>2016-10-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Чудин Анатолий Анатольевич</fio>
+            <innfl>190102115000</innfl>
+            <position>Директор</position>
+            <date>2007-11-29</date>
+            <firstDate>2007-11-29</firstDate>
+          </head>
+          <head>
+            <fio>Тарасенко Александр Викторович</fio>
+            <innfl>190103782670</innfl>
+            <position>Директор</position>
+            <date>2015-11-20</date>
+            <firstDate>2015-07-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

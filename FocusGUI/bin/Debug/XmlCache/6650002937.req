@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6650002937</inn>
+    <ogrn>1026601812577</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026601812577</focusHref>
+    <UL>
+      <kpp>665001001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Абсолют"</short>
+        <full>Общество с ограниченной ответственностью "Абсолют"</full>
+        <date>2002-08-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624980</zipCode>
+          <kladrCode>660000340000056</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Серов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рабочая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25</topoValue>
+          </house>
+          <houseRaw>25</houseRaw>
+          <bulkRaw>0</bulkRaw>
+          <flatRaw>0</flatRaw>
+        </parsedAddressRF>
+        <date>2002-08-14</date>
+        <firstDate>2002-08-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-11-12</date>
+      </status>
+      <registrationDate>1997-02-26</registrationDate>
+      <dissolutionDate>2004-11-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Балакин Игорь Ильич</fio>
+          <innfl>663210796759</innfl>
+          <position>Директор</position>
+          <date>2002-08-14</date>
+          <firstDate>2002-08-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

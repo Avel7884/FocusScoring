@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5042145783</inn>
+    <ogrn>1175007010661</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1175007010661</focusHref>
+    <UL>
+      <kpp>504201001</kpp>
+      <okpo>19047151</okpo>
+      <okato>46215561000</okato>
+      <okfs>34</okfs>
+      <oktmo>46615161051</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ЭРИДАН"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ ЭРИДАН"</full>
+        <date>2017-07-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141364</zipCode>
+          <kladrCode>50030000229</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Сергиево-Посадский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>рп</topoShortName>
+            <topoFullName>рабочий поселок</topoFullName>
+            <topoValue>Скоропусковский</topoValue>
+          </settlement>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16Б</topoValue>
+          </house>
+          <bulk>
+            <topoValue>помещение 1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>18</topoValue>
+          </flat>
+          <houseRaw>ДОМ 16Б</houseRaw>
+          <bulkRaw>ПОМЕЩЕНИЕ 1</bulkRaw>
+          <flatRaw>КОМНАТА 18</flatRaw>
+        </parsedAddressRF>
+        <date>2017-07-28</date>
+        <firstDate>2017-07-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-07-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Владимиров Вячеслав Владимирович</fio>
+          <innfl>504215987726</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-07-28</date>
+          <firstDate>2017-07-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

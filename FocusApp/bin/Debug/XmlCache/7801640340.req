@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7801640340</inn>
+    <ogrn>1147847351838</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1147847351838</focusHref>
+    <UL>
+      <kpp>780101001</kpp>
+      <okpo>73398252</okpo>
+      <okato>40263000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40309000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТАЛЛТОРГСНАБ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕТАЛЛТОРГСНАБ"</full>
+        <date>2014-10-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>199406</zipCode>
+          <kladrCode>780000000000277</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гаванская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>пом./офис 1н/10</topoValue>
+          </flat>
+          <houseRaw>ДОМ 34</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+          <flatRaw>ПОМ./ОФИС 1Н/10</flatRaw>
+        </parsedAddressRF>
+        <date>2017-06-15</date>
+        <firstDate>2017-06-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-05-11</date>
+      </status>
+      <registrationDate>2014-10-09</registrationDate>
+      <dissolutionDate>2018-05-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кручинин Александр Анатольевич</fio>
+          <innfl>781912624128</innfl>
+          <position>Ликвидатор</position>
+          <date>2017-11-22</date>
+          <firstDate>2014-10-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>199406</zipCode>
+              <kladrCode>780000000000277</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Гаванская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>34</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>1-Н</topoValue>
+              </flat>
+              <houseRaw>ДОМ 34</houseRaw>
+              <bulkRaw>ЛИТЕР А</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 1-Н</flatRaw>
+            </parsedAddressRF>
+            <date>2014-10-09</date>
+            <firstDate>2014-10-09</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

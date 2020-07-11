@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714709349</inn>
+    <ogrn>1077759436336</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077759436336</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>96596227</okpo>
+      <okato>45277598000</okato>
+      <okfs>34</okfs>
+      <oktmo>45348000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>АО "АВТОДОМ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АВТОДОМ"</full>
+        <date>2015-10-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125252</zipCode>
+          <kladrCode>770000000001352</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Зорге</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-08-27</date>
+        <firstDate>2007-08-27</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>"ПОРШЕ ЦЕНТР ПУЛКОВО"</name>
+          <parsedAddressRF>
+            <zipCode>196158</zipCode>
+            <kladrCode>780000000001161</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ш</topoShortName>
+              <topoFullName>шоссе</topoFullName>
+              <topoValue>Пулковское</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>14</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>лит</topoShortName>
+              <topoFullName>литера</topoFullName>
+              <topoValue>Б</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 14</houseRaw>
+            <bulkRaw>ЛИТЕРА Б</bulkRaw>
+          </parsedAddressRF>
+          <date>2014-06-24</date>
+        </branch>
+        <branch>
+          <name>"АВТОДОМ САНКТ-ПЕТЕРБУРГ"</name>
+          <parsedAddressRF>
+            <zipCode>196210</zipCode>
+            <kladrCode>780000000001343</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Стартовая</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>10</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>лит</topoShortName>
+              <topoFullName>литера</topoFullName>
+              <topoValue>А</topoValue>
+            </bulk>
+            <houseRaw>10</houseRaw>
+            <bulkRaw>ЛИТ.А</bulkRaw>
+          </parsedAddressRF>
+          <date>2010-02-08</date>
+        </branch>
+        <branch>
+          <name>"АВТОДОМ ПУЛКОВО"</name>
+          <parsedAddressRF>
+            <zipCode>196158</zipCode>
+            <kladrCode>780000000001161</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ш</topoShortName>
+              <topoFullName>шоссе</topoFullName>
+              <topoValue>Пулковское</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>14</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>лит</topoShortName>
+              <topoFullName>литера</topoFullName>
+              <topoValue>А</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 14</houseRaw>
+            <bulkRaw>ЛИТЕРА А</bulkRaw>
+          </parsedAddressRF>
+          <date>2014-06-24</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-08-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Ольховский Андрей Сергеевич</fio>
+          <innfl>550507893501</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-05-17</date>
+          <firstDate>2019-03-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774901001</kpp>
+            <date>2012-06-01</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ОАО "АВТОДОМ"</short>
+            <full>Открытое акционерное общество "АВТОДОМ"</full>
+            <date>2010-12-06</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Сокол Александр Михайлович</fio>
+            <innfl>773414433061</innfl>
+            <position>Генеральный Директор</position>
+            <date>2007-08-27</date>
+            <firstDate>2007-08-27</firstDate>
+          </head>
+          <head>
+            <fio>Костин Андрей Борисович</fio>
+            <innfl>770405053195</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-11-25</date>
+            <firstDate>2014-11-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>11</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

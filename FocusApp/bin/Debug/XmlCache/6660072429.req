@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6660072429</inn>
+    <ogrn>1036603501109</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603501109</focusHref>
+    <UL>
+      <kpp>666001001</kpp>
+      <okpo>26430815</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергокомплекс"</short>
+        <full>Общество с ограниченной ответственностью ООО "Энергокомплекс"</full>
+        <date>2003-03-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620075</zipCode>
+          <kladrCode>660000010000576</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кузнечная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>92</topoValue>
+          </house>
+          <flat>
+            <topoValue>512</topoValue>
+          </flat>
+          <houseRaw>92</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>512</flatRaw>
+        </parsedAddressRF>
+        <date>2003-03-03</date>
+        <firstDate>2003-03-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-06-18</date>
+      </status>
+      <registrationDate>1993-02-22</registrationDate>
+      <dissolutionDate>2012-06-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шубин Валентин Алексеевич</fio>
+          <innfl>666102432118</innfl>
+          <position>Генеральный Директор</position>
+          <date>2003-03-03</date>
+          <firstDate>2003-03-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

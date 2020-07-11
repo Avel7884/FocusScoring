@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2211000677</inn>
+    <ogrn>1022200882802</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200882802</focusHref>
+    <UL>
+      <kpp>221101001</kpp>
+      <okpo>05807983</okpo>
+      <okato>01430000000</okato>
+      <okfs>41</okfs>
+      <oktmo>01730000</oktmo>
+      <okogu>4210001</okogu>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "АЛТАЙХИМПРОМ"</short>
+        <full>ОРДЕНА ТРУДОВОГО КРАСНОГО ЗНАМЕНИ "ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "АЛТАЙХИМПРОМ" ИМ. Г.С. ВЕРЕЩАГИНА</full>
+        <date>2002-10-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658839</zipCode>
+          <kladrCode>220000120000052</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Яровое</topoValue>
+          </city>
+          <street>
+            <topoShortName>пл</topoShortName>
+            <topoFullName>площадь</topoFullName>
+            <topoValue>Предзаводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-30</date>
+        <firstDate>2002-10-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-02-11</date>
+      </status>
+      <registrationDate>1993-08-16</registrationDate>
+      <dissolutionDate>2015-02-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Петрущенков Павел Михайлович</fio>
+          <innfl>540112546703</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2014-12-04</date>
+          <firstDate>2014-12-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Казакина Татьяна Алексеевна</fio>
+            <innfl>780400932400</innfl>
+            <position>Конкурсный управляющий</position>
+            <date>2011-10-20</date>
+            <firstDate>2011-02-11</firstDate>
+          </head>
+          <head>
+            <fio>Петрущенков Юрий Михайлович</fio>
+            <position>Конкурсный Управляющий</position>
+            <date>2013-10-09</date>
+            <firstDate>2013-10-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

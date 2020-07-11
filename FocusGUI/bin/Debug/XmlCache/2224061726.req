@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2224061726</inn>
+    <ogrn>1022201522012</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022201522012</focusHref>
+    <UL>
+      <kpp>222401001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ДФГУП "АЛТАЙТЕХИНВЕНТАРИЗАЦИЯ"</short>
+        <full>ДОЧЕРНЕЕ ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ УНИТАРНОЕ ПРЕДРИЯТИЕ "АЛТАЙСКИЙ ГОСУДАРСТВЕННЫЙ ЦЕНТР ИНВЕНТАРИЗАЦИИ, УЧЕТА И ПРОЕКТИРОВАНИЯ ОБЪЕКТОВ НЕДВИЖИМОСТИ"</full>
+        <date>2002-10-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656038</zipCode>
+          <kladrCode>220000010000572</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Сибирский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43</topoValue>
+          </house>
+          <houseRaw>43</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-22</date>
+        <firstDate>2002-10-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-06-25</date>
+      </status>
+      <registrationDate>2001-03-26</registrationDate>
+      <dissolutionDate>2004-06-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лукьянов Виктор Николаевич</fio>
+          <innfl>222504492297</innfl>
+          <position>Директор</position>
+          <date>2002-10-22</date>
+          <firstDate>2002-10-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

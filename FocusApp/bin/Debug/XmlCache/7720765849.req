@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7720765849</inn>
+    <ogrn>1127747134008</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127747134008</focusHref>
+    <UL>
+      <kpp>772001001</kpp>
+      <okpo>14667558</okpo>
+      <okato>45263555000</okato>
+      <okfs>16</okfs>
+      <oktmo>45302000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКМИ фонда П. И. Чайковского"</short>
+        <full>Общество с ограниченной ответственностью "Производственный комбинат музыкальных инструментов фонда П.И. Чайковского"</full>
+        <date>2012-11-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111402</zipCode>
+          <kladrCode>770000000000388</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вешняковская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>97</topoValue>
+          </flat>
+          <houseRaw>5</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>97</flatRaw>
+        </parsedAddressRF>
+        <date>2012-11-12</date>
+        <firstDate>2012-11-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-11-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Валиуллин Борис Идрисович</fio>
+          <innfl>772008389040</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-11-12</date>
+          <firstDate>2012-11-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

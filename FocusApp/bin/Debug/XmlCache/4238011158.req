@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4238011158</inn>
+    <ogrn>1024202132217</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024202132217</focusHref>
+    <UL>
+      <kpp>540401001</kpp>
+      <okpo>53077095</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЗИАН ГЭЛЭКСИ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АЗИАН ГЭЛЭКСИ"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630064</zipCode>
+          <kladrCode>540000010000120</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Блюхера</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <flat>
+            <topoValue>8</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <flatRaw>8</flatRaw>
+        </parsedAddressRF>
+        <date>2003-03-17</date>
+        <firstDate>2003-03-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-12-20</date>
+      </status>
+      <registrationDate>2000-06-05</registrationDate>
+      <dissolutionDate>2012-12-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Соловьев Максим Всильевич</fio>
+          <position>Директор</position>
+          <date>2002-12-31</date>
+          <firstDate>2002-12-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

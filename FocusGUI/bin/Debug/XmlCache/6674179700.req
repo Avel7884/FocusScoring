@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6674179700</inn>
+    <ogrn>1069674044131</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1069674044131</focusHref>
+    <UL>
+      <kpp>667401001</kpp>
+      <okpo>94374913</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭнергоПневмоСервис"</short>
+        <full>Общество с ограниченной ответственностью "ЭнергоПневмоСервис"</full>
+        <date>2006-03-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620000</zipCode>
+          <kladrCode>660000010000018</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>8 Марта</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>267</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>209</topoValue>
+          </flat>
+          <houseRaw>267</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>209</flatRaw>
+        </parsedAddressRF>
+        <date>2006-03-24</date>
+        <firstDate>2006-03-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-07-08</date>
+      </status>
+      <registrationDate>2006-03-24</registrationDate>
+      <dissolutionDate>2010-07-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Давлетшин Алексей Рафаэльевич</fio>
+          <innfl>663103823599</innfl>
+          <position>Директор</position>
+          <date>2006-03-24</date>
+          <firstDate>2006-03-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>7705342341</inn>
+    <ogrn>1097760143612</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097760143612</focusHref>
+    <UL>
+      <pfrRegNumber>087105067509</pfrRegNumber>
+      <fomsRegNumber>451050000486535</fomsRegNumber>
+      <activities />
+      <regInfo>
+        <ogrnDate>2009-01-16</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7705</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы № 5 по г. Москве</nalogName>
+        <nalogRegDate>2000-03-03</nalogRegDate>
+        <kpp>770501001</kpp>
+        <date>2009-01-16</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2009-01-16</date>
+      </regBody>
+      <statedCapital>
+        <sum>8400</sum>
+        <date>2009-01-16</date>
+      </statedCapital>
+      <foundersUL>
+        <founderUL>
+          <inn>7727171308</inn>
+          <fullName>ООО Финанс Эстейт</fullName>
+          <share>
+            <sum>4200</sum>
+          </share>
+          <date>2009-01-16</date>
+          <firstDate>2009-01-16</firstDate>
+        </founderUL>
+        <founderUL>
+          <inn>7726210628</inn>
+          <fullName>ООО Огард</fullName>
+          <share>
+            <sum>4200</sum>
+          </share>
+          <date>2009-01-16</date>
+          <firstDate>2009-01-16</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2097747596802</grn>
+          <date>2009-06-04</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2097760278438</grn>
+          <date>2009-01-16</date>
+          <name>Исключение из ЕГРЮЛ (п.2 ст.21.1 ФЗ от 08.08.2001 №129-ФЗ)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1097760143612</grn>
+          <date>2009-01-16</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года на основании сведений в налоговых органах</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital />
+        </statedCapitals>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

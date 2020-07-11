@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5611025417</inn>
+    <ogrn>1025601721001</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025601721001</focusHref>
+    <UL>
+      <kpp>561101001</kpp>
+      <okpo>57282935</okpo>
+      <okato>53401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>53701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВИ-ТРЭЙД"</short>
+        <full>Общество с ограниченной ответственностью "АВИ-ТРЭЙД"</full>
+        <date>2002-12-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>460003</zipCode>
+          <kladrCode>560000010000788</kladrCode>
+          <regionCode>56</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Оренбургская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Оренбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Братьев Коростелевых</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>177</topoValue>
+          </house>
+          <houseRaw>177</houseRaw>
+        </parsedAddressRF>
+        <date>2004-03-15</date>
+        <firstDate>2004-03-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-06-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Трунов Алексей Вячеславович</fio>
+          <innfl>561009865980</innfl>
+          <position>Директор</position>
+          <date>2006-09-21</date>
+          <firstDate>2006-09-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

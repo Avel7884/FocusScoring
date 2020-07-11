@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1101300690</inn>
+    <ogrn>1021100530220</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021100530220</focusHref>
+    <UL>
+      <kpp>111701001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Агростройконструкция"</short>
+        <full>Открытое акционерное общество "Сыктывкарский завод железобетонных изделий для сельского строительства"</full>
+        <date>2002-12-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>167000</zipCode>
+          <kladrCode>110000010000072</kladrCode>
+          <regionCode>11</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Коми</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сыктывкар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Колхозная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>48</topoValue>
+          </house>
+          <houseRaw>48</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-20</date>
+        <firstDate>2002-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-11-20</date>
+      </status>
+      <registrationDate>1992-09-10</registrationDate>
+      <dissolutionDate>2006-11-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Станкевич Анатолий Алексеевич</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2004-10-28</date>
+          <firstDate>2004-10-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

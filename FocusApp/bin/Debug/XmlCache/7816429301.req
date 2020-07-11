@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7816429301</inn>
+    <ogrn>1079847107526</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1079847107526</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>83778702</okpo>
+      <okato>40296000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40902000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАСТКОН"</short>
+        <full>Общество с ограниченной ответственностью "ПЛАСТКОН"</full>
+        <date>2007-11-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192102</zipCode>
+          <kladrCode>780000000000207</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бухарестская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Корпус 1, лит.А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>помещение №68, офис №444</topoValue>
+          </flat>
+          <houseRaw>ДОМ 24</houseRaw>
+          <bulkRaw>КОРПУС 1, ЛИТ.А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ №68, ОФИС №444</flatRaw>
+        </parsedAddressRF>
+        <date>2018-10-22</date>
+        <firstDate>2018-10-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-11-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Кокурошников Евгений Владиславович</fio>
+          <innfl>782606195601</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-09-29</date>
+          <firstDate>2011-09-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>192102</zipCode>
+              <kladrCode>780000000000893</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>дор</topoShortName>
+                <topoFullName>дорога</topoFullName>
+                <topoValue>Нефтяная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>1</houseRaw>
+              <bulkRaw>ЛИТЕР А</bulkRaw>
+            </parsedAddressRF>
+            <date>2007-11-29</date>
+            <firstDate>2007-11-29</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Ларионова Татьяна Васильевна</fio>
+            <position>Генеральный директор</position>
+            <date>2008-12-17</date>
+            <firstDate>2008-12-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

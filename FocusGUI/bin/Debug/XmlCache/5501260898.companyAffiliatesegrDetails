@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>550102086193</inn>
+    <ogrn>305550111832746</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305550111832746</focusHref>
+    <IP>
+      <pfrRegNumber>065005065228</pfrRegNumber>
+      <shortenedAddress>
+        <regionCode>55</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Омская</topoValue>
+        </regionName>
+        <district>
+          <topoShortName>р-н</topoShortName>
+          <topoFullName>район</topoFullName>
+          <topoValue>Омский</topoValue>
+        </district>
+        <settlement>
+          <topoShortName>с</topoShortName>
+          <topoFullName>село</topoFullName>
+          <topoValue>Андреевка</topoValue>
+        </settlement>
+      </shortenedAddress>
+      <activities />
+      <regInfo>
+        <ogrnDate>2005-04-28</ogrnDate>
+        <regName>АДМИНИСТРАЦИЯ СОВЕТСКОГО АДМИНИСТРАТИВНОГО ОКРУГА</regName>
+      </regInfo>
+      <nalogRegBody />
+      <regBody>
+        <nalogCode>5543</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 12 по Омской области</nalogName>
+        <date>2007-08-31</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>405550114030578</grn>
+          <date>2005-05-20</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Административному Округу г.Омска</regName>
+          <regCode>5501</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>405550111834151</grn>
+          <date>2005-04-28</date>
+          <name>Утрата ИП государственной регистрации с 01.01.2005 (ст.3 №76-ФЗ от 23.06.2003)</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Административному Округу г.Омска</regName>
+          <regCode>5501</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>305550111832746</grn>
+          <date>2005-04-28</date>
+          <name>Внесение сведений об ИП, зарегистрированном до 01.01.2004, по данным налоговых органов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Административному Округу г.Омска</regName>
+          <regCode>5501</regCode>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>5501260898</inn>
+    <ogrn>1145543041270</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1145543041270</focusHref>
+    <UL>
+      <okpo>23714647</okpo>
+      <pfrRegNumber>065005114700</pfrRegNumber>
+      <fssRegNumber>550911985255091</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>41.20</code>
+          <text>Строительство жилых и нежилых зданий</text>
+          <date>2014-10-14</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>42.11</code>
+            <text>Строительство автомобильных дорог и автомагистралей</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>42.99</code>
+            <text>Строительство прочих инженерных сооружений, не включенных в другие группировки</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.11</code>
+            <text>Разборка и снос зданий</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.12.3</code>
+            <text>Производство земляных работ</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.29</code>
+            <text>Производство прочих строительно-монтажных работ</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.31</code>
+            <text>Производство штукатурных работ</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.32</code>
+            <text>Работы столярные и плотничные</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.33</code>
+            <text>Работы по устройству покрытий полов и облицовке стен</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.34</code>
+            <text>Производство малярных и стекольных работ</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.39</code>
+            <text>Производство прочих отделочных и завершающих работ</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.91</code>
+            <text>Производство кровельных работ</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2014-10-14</date>
+          </activity>
+          <activity>
+            <code>43.99.1</code>
+            <text>Работы гидроизоляционные</text>
+            <date>2014-10-14</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2014-10-14</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>5501</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Советскому административному округу г. Омска</nalogName>
+        <nalogRegDate>2014-10-14</nalogRegDate>
+        <kpp>550101001</kpp>
+        <date>2018-01-15</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>5543</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 12 по Омской области</nalogName>
+        <date>2014-10-14</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2014-10-14</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Бирюков Сергей Александрович</fio>
+          <innfl>550115670960</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2016-09-07</date>
+          <firstDate>2016-09-07</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2185543048403</grn>
+          <date>2018-01-15</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2185543047039</grn>
+          <date>2018-01-15</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2017-09-18</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2017-09-18</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2017-09-22</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2175543534692</grn>
+          <date>2017-09-22</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2017-09-22</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2165543639040</grn>
+          <date>2016-09-07</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2016-08-29</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2165543638962</grn>
+          <date>2016-09-07</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Сопроводительное письмо</name>
+              <date>2016-08-31</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2145543580851</grn>
+          <date>2014-10-23</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2145543577661</grn>
+          <date>2014-10-21</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2145543566815</grn>
+          <date>2014-10-14</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1145543041270</grn>
+          <date>2014-10-14</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>Р11001 заявление о создании ЮЛ</name>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2014-09-23</date>
+            </document>
+            <document>
+              <name>Свидетельство</name>
+              <date>2007-11-27</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2014-10-06</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2014-09-25</date>
+            </document>
+            <document>
+              <name>Гарантийное письмо</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>55 003802591</serialNumber>
+              <date>2014-10-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <foundersFL>
+          <founderFL>
+            <fio>Кошкаров Сергей Анатольевич</fio>
+            <innfl>550102086193</innfl>
+            <share>
+              <sum>10000</sum>
+              <percentagePlain>100</percentagePlain>
+            </share>
+            <date>2014-10-14</date>
+            <firstDate>2014-10-14</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>5528201748</inn>
+    <ogrn>1085543030484</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1085543030484</focusHref>
+    <UL>
+      <okpo>85349833</okpo>
+      <pfrRegNumber>065008100129</pfrRegNumber>
+      <fssRegNumber>550723793255071</fssRegNumber>
+      <fomsRegNumber>520000800091477</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>45.3</code>
+          <text>Монтаж инженерного оборудования зданий и сооружений</text>
+          <date>2008-06-18</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>45.1</code>
+            <text>Подготовка строительного участка</text>
+            <date>2008-06-18</date>
+          </activity>
+          <activity>
+            <code>45.2</code>
+            <text>Строительство зданий и сооружений</text>
+            <date>2008-06-18</date>
+          </activity>
+          <activity>
+            <code>45.4</code>
+            <text>Производство отделочных работ</text>
+            <date>2008-06-18</date>
+          </activity>
+          <activity>
+            <code>51.53</code>
+            <text>Оптовая торговля лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2008-06-18</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2008-06-18</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>5528</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 4 по Омской области</nalogName>
+        <nalogRegDate>2008-06-18</nalogRegDate>
+        <kpp>552801001</kpp>
+        <date>2012-04-18</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>5543</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 12 по Омской области</nalogName>
+        <date>2008-06-18</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2008-06-18</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Кошкаров Сергей Анатольевич</fio>
+          <innfl>550102086193</innfl>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2008-06-18</date>
+          <firstDate>2008-06-18</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2125543195150</grn>
+          <date>2012-04-18</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2011-12-12</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2011-12-12</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2011-12-16</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2125543195149</grn>
+          <date>2012-04-18</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2115543624876</grn>
+          <date>2012-04-09</date>
+          <name>Внесение сведений о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействующего юридического лица из единого государственного реестра юридических лиц</name>
+              <date>2011-12-16</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2125543155593</grn>
+          <date>2012-04-05</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2115543133088</grn>
+          <date>2011-04-05</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085543359108</grn>
+          <date>2008-06-26</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085543335964</grn>
+          <date>2008-06-18</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1085543030484</grn>
+          <date>2008-06-18</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>P11001 заявление о создании юр.лица</name>
+              <date>2008-06-09</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2008-06-07</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2008-06-07</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2008-06-07</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>55 003073611</serialNumber>
+              <date>2008-06-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>5528203209</inn>
+    <ogrn>1085543065937</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1085543065937</focusHref>
+    <UL>
+      <okpo>88628870</okpo>
+      <pfrRegNumber>065008100670</pfrRegNumber>
+      <fssRegNumber>550723810755071</fssRegNumber>
+      <fomsRegNumber>520000800178922</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>45.3</code>
+          <text>Монтаж инженерного оборудования зданий и сооружений</text>
+          <date>2008-12-23</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>45.1</code>
+            <text>Подготовка строительного участка</text>
+            <date>2008-12-23</date>
+          </activity>
+          <activity>
+            <code>45.2</code>
+            <text>Строительство зданий и сооружений</text>
+            <date>2008-12-23</date>
+          </activity>
+          <activity>
+            <code>45.4</code>
+            <text>Производство отделочных работ</text>
+            <date>2008-12-23</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2008-12-23</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>5528</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 4 по Омской области</nalogName>
+        <nalogRegDate>2008-12-23</nalogRegDate>
+        <kpp>552801001</kpp>
+        <date>2012-03-28</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>5543</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 12 по Омской области</nalogName>
+        <date>2008-12-23</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2008-12-23</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Юркин Борис Федорович</fio>
+          <innfl>550103433361</innfl>
+          <share>
+            <sum>5000</sum>
+          </share>
+          <date>2008-12-23</date>
+          <firstDate>2008-12-23</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Кошкаров Сергей Анатольевич</fio>
+          <innfl>550102086193</innfl>
+          <share>
+            <sum>5000</sum>
+          </share>
+          <date>2008-12-23</date>
+          <firstDate>2008-12-23</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2125543140820</grn>
+          <date>2012-03-28</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2011-11-28</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2011-11-28</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2011-12-02</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2125543140810</grn>
+          <date>2012-03-28</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2095543008780</grn>
+          <date>2009-01-14</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085543713836</grn>
+          <date>2008-12-26</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085543704740</grn>
+          <date>2008-12-23</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1085543065937</grn>
+          <date>2008-12-23</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Омской Области</regName>
+          <regCode>5543</regCode>
+          <documents>
+            <document>
+              <name>Заявление ф P11001</name>
+              <date>2008-12-16</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2008-12-10</date>
+            </document>
+            <document>
+              <name>Протокол об учреждении ЮЛ</name>
+              <date>2008-12-11</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2008-12-11</date>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+              <date>2008-12-11</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>55 003250385</serialNumber>
+              <date>2008-12-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

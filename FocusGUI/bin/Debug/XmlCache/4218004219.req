@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4218004219</inn>
+    <ogrn>1024201672736</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201672736</focusHref>
+    <UL>
+      <kpp>421801001</kpp>
+      <okpo>34765369</okpo>
+      <okato>32431362000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НАСТЕНЬКА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "НАСТЕНЬКА"</full>
+        <date>2016-04-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654059</zipCode>
+          <kladrCode>420000120001491</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>40 Лет ВЛКСМ (Заводской Р-Н)</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>122</topoValue>
+          </house>
+          <flat>
+            <topoValue>54</topoValue>
+          </flat>
+          <houseRaw>122</houseRaw>
+          <flatRaw>54</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-28</date>
+        <firstDate>2002-10-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-02-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Глекова Галина Петровна</fio>
+          <innfl>421803156875</innfl>
+          <position>Директор</position>
+          <date>2014-04-16</date>
+          <firstDate>2002-10-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>654059</zipCode>
+              <kladrCode>420000120000005</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>40 лет ВЛКСМ</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>122</topoValue>
+              </house>
+              <flat>
+                <topoValue>54</topoValue>
+              </flat>
+              <houseRaw>122</houseRaw>
+              <flatRaw>54</flatRaw>
+            </parsedAddressRF>
+            <date>2002-10-28</date>
+            <firstDate>2002-10-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

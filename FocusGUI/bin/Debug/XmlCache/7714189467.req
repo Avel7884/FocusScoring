@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714189467</inn>
+    <ogrn>1027739235985</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739235985</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>54931019</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВМС гмбх"</short>
+        <full>Общество с ограниченной ответственностью "Выставка Мобильной Связи гмбх"</full>
+        <date>2002-09-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103287</zipCode>
+          <kladrCode>770000000000820</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Башиловская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-09-23</date>
+        <firstDate>2002-09-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-11-06</date>
+      </status>
+      <registrationDate>2000-11-17</registrationDate>
+      <dissolutionDate>2008-11-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Орел Сергей Андреевич</fio>
+          <innfl>502503557910</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-04-08</date>
+          <firstDate>2008-04-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

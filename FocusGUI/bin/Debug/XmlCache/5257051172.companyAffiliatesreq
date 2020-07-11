@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5257051172</inn>
+    <ogrn>1025202409583</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202409583</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>55868820</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автострой-НН"</short>
+        <full>Общество с ограниченной ответственностью "Автострой-НН"</full>
+        <date>2002-12-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603086</zipCode>
+          <kladrCode>520000010001028</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Совнаркомовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>4</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-16</date>
+        <firstDate>2002-12-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-12-23</date>
+      </status>
+      <registrationDate>2001-03-19</registrationDate>
+      <dissolutionDate>2010-12-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Березовская Галина Александровна</fio>
+          <innfl>526203573734</innfl>
+          <position>Директор</position>
+          <date>2002-12-16</date>
+          <firstDate>2002-12-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5262238610</inn>
+    <ogrn>1095200000862</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1095200000862</focusHref>
+    <UL>
+      <kpp>526201001</kpp>
+      <okpo>89879806</okpo>
+      <okato>22401379000</okato>
+      <okfs>53</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4220003</okogu>
+      <okopf>20200</okopf>
+      <opf>Общественные организации</opf>
+      <legalName>
+        <short>НРОО "Гражданская служба"</short>
+        <full>Нижегородская региональная общественная организация "Гражданская служба"</full>
+        <date>2010-04-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603106</zipCode>
+          <kladrCode>520000010000480</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бориса Корнилова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <flat>
+            <topoValue>28</topoValue>
+          </flat>
+          <houseRaw>8</houseRaw>
+          <flatRaw>28</flatRaw>
+        </parsedAddressRF>
+        <date>2009-03-18</date>
+        <firstDate>2009-03-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-03-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Березовский Игорь Владимирович</fio>
+          <innfl>526200405918</innfl>
+          <position>Председатель Правления</position>
+          <date>2009-03-18</date>
+          <firstDate>2009-03-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

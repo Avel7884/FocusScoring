@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1326002037</inn>
+    <ogrn>1021300977576</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021300977576</focusHref>
+    <UL>
+      <kpp>132601001</kpp>
+      <okpo>00898774</okpo>
+      <okato>89401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>89701000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АГРОКОМПЛЕКТ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АГРОКОМПЛЕКТ"</full>
+        <date>2016-05-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>430003</zipCode>
+          <kladrCode>130000010000177</kladrCode>
+          <regionCode>13</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Мордовия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Саранск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рабочая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>185</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 185</houseRaw>
+          <bulkRaw>КОРПУС А</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-12-11</date>
+        <firstDate>2007-12-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-10-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Киселев Евгений Яковлевич</fio>
+          <innfl>132602487281</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-12-11</date>
+          <firstDate>2007-12-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО "Агрокомплект"</short>
+            <full>Открытое акционерное общество "Агрокомплект"</full>
+            <date>2002-10-21</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

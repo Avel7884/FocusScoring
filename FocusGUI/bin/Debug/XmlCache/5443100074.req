@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5443100074</inn>
+    <ogrn>1025404672370</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025404672370</focusHref>
+    <UL>
+      <kpp>544601001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Агрохимия"</short>
+        <full>Закрытое акционерное общество "Агрохимия"</full>
+        <date>2002-12-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>633204</zipCode>
+          <kladrCode>540000050000103</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Искитим</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Молдавская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>5</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-09</date>
+        <firstDate>2002-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-12-19</date>
+      </status>
+      <registrationDate>1998-06-03</registrationDate>
+      <dissolutionDate>2006-12-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Коновалов Валерий Владимирович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2006-07-24</date>
+          <firstDate>2006-07-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Захаров Геннадий Николаевич</fio>
+            <innfl>544606172406</innfl>
+            <position>Генеральный директор</position>
+            <date>2002-12-09</date>
+            <firstDate>2002-12-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

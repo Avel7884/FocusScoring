@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4347004464</inn>
+    <ogrn>1034316503011</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034316503011</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>00551481</okpo>
+      <okato>33401364028</okato>
+      <okfs>16</okfs>
+      <oktmo>33701000351</oktmo>
+      <okogu>4210004</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО АГРОКОМБИНАТ ПЛЕМЗАВОД "КРАСНОГОРСКИЙ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО АГРОКОМБИНАТ ПЛЕМЗАВОД "КРАСНОГОРСКИЙ"</full>
+        <date>2019-09-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610913</zipCode>
+          <kladrCode>430000010590002</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Костино</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Октябрьская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-16</date>
+        <firstDate>2003-01-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-03-18</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АГРОПРОМЫШЛЕННЫЙ ХОЛДИНГ "ДОРОНИЧИ"</name>
+          <inn>4345377799</inn>
+          <ogrn>1144345002218</ogrn>
+          <date>2019-11-01</date>
+          <firstDate>2019-11-01</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО Агрокомбинат племзавод "Красногорский"</short>
+            <full>Закрытое акционерное общество Агрокомбинат племзавод "Красногорский"</full>
+            <date>2003-01-16</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>610913</zipCode>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Киров</topoValue>
+              </city>
+              <settlement>
+                <topoShortName>п</topoShortName>
+                <topoFullName>поселок</topoFullName>
+                <topoValue>Костино</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Октябрьская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <houseRaw>2</houseRaw>
+            </parsedAddressRF>
+            <date>2003-01-16</date>
+            <firstDate>2003-01-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Яговкин Владимир Валентинович</fio>
+            <position>Генеральный директор</position>
+            <date>2004-12-27</date>
+            <firstDate>2004-12-27</firstDate>
+          </head>
+          <head>
+            <fio>Шутов Денис Владимирович</fio>
+            <innfl>434522070977</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-07-17</date>
+            <firstDate>2012-07-10</firstDate>
+          </head>
+          <head>
+            <fio>Гоман Владимир Валерьевич</fio>
+            <innfl>552806816890</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-10-04</date>
+            <firstDate>2016-10-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>10</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

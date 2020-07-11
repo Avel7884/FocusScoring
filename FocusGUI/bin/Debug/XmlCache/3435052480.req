@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3435052480</inn>
+    <ogrn>1033400003493</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033400003493</focusHref>
+    <UL>
+      <kpp>343501001</kpp>
+      <okpo>22445814</okpo>
+      <okato>18410000000</okato>
+      <okfs>16</okfs>
+      <oktmo>18710000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Адамант"</short>
+        <full>Общество с ограниченной ответственностью "Адамант"</full>
+        <date>2003-01-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>404130</zipCode>
+          <kladrCode>340000020000037</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волжский</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пушкина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>117</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Г</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>111</topoValue>
+          </flat>
+          <houseRaw>117</houseRaw>
+          <bulkRaw>Г</bulkRaw>
+          <flatRaw>111</flatRaw>
+        </parsedAddressRF>
+        <date>2008-12-10</date>
+        <firstDate>2008-12-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-10-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Ланской Сергей Юрьевич</fio>
+          <innfl>343507749526</innfl>
+          <position>Директор</position>
+          <date>2017-08-16</date>
+          <firstDate>2009-12-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Мирошкина Наталья Валентиновна</fio>
+            <innfl>344211030478</innfl>
+            <position>Председатель ликвидационной комиссии</position>
+            <date>2009-11-05</date>
+            <firstDate>2009-11-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

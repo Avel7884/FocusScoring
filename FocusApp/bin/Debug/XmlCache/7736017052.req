@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7736017052</inn>
+    <ogrn>1027739265355</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739265355</focusHref>
+    <UL>
+      <kpp>773601001</kpp>
+      <okpo>17508783</okpo>
+      <okato>45293558000</okato>
+      <okfs>49</okfs>
+      <oktmo>45398000000</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АКИБ "ОБРАЗОВАНИЕ" (АО)</short>
+        <full>АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ ИННОВАЦИОННЫЙ БАНК "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО)</full>
+        <date>2014-12-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119296</zipCode>
+          <kladrCode>770000000001689</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>63/2</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>63/2</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-08-01</date>
+        <firstDate>2003-10-20</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>ФИЛИАЛ АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО) В Г. ТУЛА</name>
+          <parsedAddressRF>
+            <zipCode>300041</zipCode>
+            <kladrCode>710000010000009</kladrCode>
+            <regionCode>71</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Тульская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Тула</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Оборонная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>25</topoValue>
+            </house>
+            <houseRaw>ДОМ 25</houseRaw>
+          </parsedAddressRF>
+          <date>2014-12-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО) В Г. НОВОСИБИРСК</name>
+          <parsedAddressRF>
+            <zipCode>630005</zipCode>
+            <kladrCode>540000010001467</kladrCode>
+            <regionCode>54</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Новосибирская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Новосибирск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Фрунзе</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>86</topoValue>
+            </house>
+            <houseRaw>ДОМ 86</houseRaw>
+          </parsedAddressRF>
+          <date>2014-12-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО) В Г. САНКТ-ПЕТЕРБУРГ</name>
+          <parsedAddressRF>
+            <zipCode>197046</zipCode>
+            <kladrCode>780000000001493</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Чапаева</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>3</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>лит</topoShortName>
+              <topoFullName>литера</topoFullName>
+              <topoValue>Б</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 3</houseRaw>
+            <bulkRaw>ЛИТЕРА Б</bulkRaw>
+          </parsedAddressRF>
+          <date>2014-12-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "ЮЖНЫЙ" АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО)</name>
+          <parsedAddressRF>
+            <zipCode>386200</zipCode>
+            <kladrCode>060040000010113</kladrCode>
+            <regionCode>06</regionCode>
+            <regionName>
+              <topoShortName>респ</topoShortName>
+              <topoFullName>республика</topoFullName>
+              <topoValue>Ингушетия</topoValue>
+            </regionName>
+            <district>
+              <topoShortName>р-н</topoShortName>
+              <topoFullName>район</topoFullName>
+              <topoValue>Сунженский</topoValue>
+            </district>
+            <settlement>
+              <topoShortName>ст-ца</topoShortName>
+              <topoFullName>станица</topoFullName>
+              <topoValue>Орджоникидзевская</topoValue>
+            </settlement>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Р.Люксембург</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>40</topoValue>
+            </house>
+            <houseRaw>ДОМ 40</houseRaw>
+          </parsedAddressRF>
+          <date>2014-12-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "ТВЕРСКОЙ" АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО)</name>
+          <parsedAddressRF>
+            <zipCode>170100</zipCode>
+            <kladrCode>690000010000641</kladrCode>
+            <regionCode>69</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Тверская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Тверь</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Симеоновская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>41</topoValue>
+            </house>
+            <houseRaw>ДОМ 41</houseRaw>
+          </parsedAddressRF>
+          <date>2014-12-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "КРАСНОДАРСКИЙ" АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО)</name>
+          <parsedAddressRF>
+            <zipCode>350000</zipCode>
+            <kladrCode>23000001000</kladrCode>
+            <regionCode>23</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Краснодарский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Краснодар</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>им. Кирова/Длинная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>126/82</topoValue>
+            </house>
+            <houseRaw>ДОМ 126/82</houseRaw>
+          </parsedAddressRF>
+          <date>2014-12-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "РОСТОВСКИЙ" АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО)</name>
+          <parsedAddressRF>
+            <zipCode>344082</zipCode>
+            <kladrCode>610000010001311</kladrCode>
+            <regionCode>61</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Ростовская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Ростов-на-Дону</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Пушкинская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>25/67</topoValue>
+            </house>
+            <houseRaw>ДОМ 25/67</houseRaw>
+          </parsedAddressRF>
+          <date>2014-12-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "САМАРСКИЙ" АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО)</name>
+          <parsedAddressRF>
+            <zipCode>443099</zipCode>
+            <kladrCode>630000010000822</kladrCode>
+            <regionCode>63</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Самарская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Самара</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Алексея Толстого</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>116В</topoValue>
+            </house>
+            <houseRaw>ДОМ 116 "В"</houseRaw>
+          </parsedAddressRF>
+          <date>2014-12-01</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "ПЕРМСКИЙ" АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО)</name>
+          <parsedAddressRF>
+            <zipCode>614000</zipCode>
+            <kladrCode>590000010001114</kladrCode>
+            <regionCode>59</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Пермский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Пермь</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Советская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>46</topoValue>
+            </house>
+            <houseRaw>ДОМ № 46</houseRaw>
+          </parsedAddressRF>
+          <date>2015-08-12</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "ГОРНО-АЛТАЙСКИЙ" АКЦИОНЕРНОГО КОММЕРЧЕСКОГО ИННОВАЦИОННОГО БАНКА "ОБРАЗОВАНИЕ" (АКЦИОНЕРНОЕ ОБЩЕСТВО)</name>
+          <parsedAddressRF>
+            <zipCode>649002</zipCode>
+            <kladrCode>040000010000151</kladrCode>
+            <regionCode>04</regionCode>
+            <regionName>
+              <topoShortName>респ</topoShortName>
+              <topoFullName>республика</topoFullName>
+              <topoValue>Алтай</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Горно-Алтайск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Чорос-Гуркина Г.И</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>39/12</topoValue>
+            </house>
+            <houseRaw>ДОМ 39/12</houseRaw>
+          </parsedAddressRF>
+          <date>2016-12-13</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2017-06-22</date>
+      </status>
+      <registrationDate>1991-07-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Хализев Александр Викторович</fio>
+          <innfl>772406383231</innfl>
+          <position>Представитель Конкурсного Управляющего</position>
+          <date>2019-09-20</date>
+          <firstDate>2019-09-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>775001001</kpp>
+            <date>2007-05-11</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>АКИБ "ОБРАЗОВАНИЕ" (ЗАО)</short>
+            <full>АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ ИННОВАЦИОННЫЙ БАНК "ОБРАЗОВАНИЕ" (Закрытое акционерное общество)</full>
+            <date>2005-09-29</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Мираков Александр Владимирович</fio>
+            <innfl>773606433001</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-07-08</date>
+            <firstDate>2002-09-26</firstDate>
+          </head>
+          <head>
+            <fio>Кислякова Татьяна Ивановна</fio>
+            <innfl>772316490479</innfl>
+            <position>Руководитель Временной Администрации</position>
+            <date>2017-05-04</date>
+            <firstDate>2017-05-04</firstDate>
+          </head>
+          <head>
+            <fio>Попов Вячеслав Александрович</fio>
+            <innfl>773404921006</innfl>
+            <position>Представитель Конкурсного Управляющего</position>
+            <date>2017-06-22</date>
+            <firstDate>2017-06-22</firstDate>
+          </head>
+          <head>
+            <fio>Свистунов Аркадий Николаевич</fio>
+            <innfl>772978507580</innfl>
+            <position>Представитель Конкурсного Управляющего</position>
+            <date>2018-10-10</date>
+            <firstDate>2018-10-10</firstDate>
+          </head>
+          <head>
+            <fio>Вершинин Вадим Виссарионович</fio>
+            <innfl>165018465536</innfl>
+            <position>Представитель Конкурсного Управляющего</position>
+            <date>2018-12-19</date>
+            <firstDate>2018-12-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>11</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>7702049296</inn>
+    <ogrn>1037711004870</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037711004870</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2003-07-07</ogrnDate>
+        <regName>Центральный банк Российской Федерации</regName>
+      </regInfo>
+      <nalogRegBody>
+        <kpp>774401001</kpp>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7700</nalogCode>
+        <nalogName>Управление Федеральной налоговой службы по г.Москве</nalogName>
+        <date>2003-07-07</date>
+      </regBody>
+      <statedCapital />
+      <egrRecords>
+        <egrRecord>
+          <grn>2037711004880</grn>
+          <date>2003-07-08</date>
+          <name>Ликвидация ЮЛ по решению суда</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по г.Москве</regName>
+          <regCode>7700</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>77 007377351</serialNumber>
+              <date>2003-07-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1037711004870</grn>
+          <date>2003-07-07</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по г.Москве</regName>
+          <regCode>7700</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>77 007377350</serialNumber>
+              <date>2003-07-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7744001828</inn>
+    <ogrn>1027739877857</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739877857</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>58222359</okpo>
+      <okato>45286575000</okato>
+      <okfs>23</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>"Банк "МБА-МОСКВА" ООО</short>
+        <full>"Банк "МБА-МОСКВА" Общество с ограниченной ответственностью</full>
+        <date>2012-01-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123022</zipCode>
+          <kladrCode>770000000002502</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рочдельская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 14</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-12-20</date>
+        <firstDate>2016-12-20</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>ФИЛИАЛ "МБА-МОСКВА" В САНКТ-ПЕТЕРБУРГЕ</name>
+          <parsedAddressRF>
+            <zipCode>191119</zipCode>
+            <kladrCode>780000000000774</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Марата</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>63</topoValue>
+            </house>
+            <houseRaw>63</houseRaw>
+          </parsedAddressRF>
+          <date>2012-01-18</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "БАНК "МБА-МОСКВА" ОБЩЕСТВА С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ В ЕКАТЕРИНБУРГЕ</name>
+          <parsedAddressRF>
+            <zipCode>620014</zipCode>
+            <kladrCode>66000001000</kladrCode>
+            <regionCode>66</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Свердловская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Екатеринбург</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Радищева/ул. Вайнера</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>15/46</topoValue>
+            </house>
+            <houseRaw>ДОМ 15/46</houseRaw>
+          </parsedAddressRF>
+          <date>2013-12-24</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-02-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Гараисаев Заур Фахраддин Оглы</fio>
+          <innfl>770378709781</innfl>
+          <position>Председатель Правления</position>
+          <date>2019-04-11</date>
+          <firstDate>2019-04-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>775001001</kpp>
+            <date>2011-10-14</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>774401001</kpp>
+            <date>2009-08-12</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>"МБА-МОСКВА" ООО</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью "МЕЖДУНАРОДНЫЙ БАНК АЗЕРБАЙДЖАНА-МОСКВА"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125009</zipCode>
+              <kladrCode>770000000002877</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Тверская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>6</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>2</topoValue>
+              </bulk>
+              <houseRaw>6</houseRaw>
+              <bulkRaw>СТР. 2</bulkRaw>
+            </parsedAddressRF>
+            <date>2012-01-18</date>
+            <firstDate>2002-12-25</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Абдуллаев Фуад Рагим Оглы</fio>
+            <position>Председатель Правления</position>
+            <date>2013-12-16</date>
+            <firstDate>2009-02-02</firstDate>
+          </head>
+          <head>
+            <fio>Аббасов Рафаэль Сахраддин Оглы</fio>
+            <position>Временно И.О. Председателя Правления</position>
+            <date>2018-04-19</date>
+            <firstDate>2015-08-13</firstDate>
+          </head>
+          <head>
+            <fio>Эфендиев Эмин Рамиг Оглы</fio>
+            <innfl>770509073774</innfl>
+            <position>Председатель Правления</position>
+            <date>2015-12-25</date>
+            <firstDate>2015-12-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

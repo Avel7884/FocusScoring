@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725565716</inn>
+    <ogrn>1067746417310</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067746417310</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>94485073</okpo>
+      <okato>45277598000</okato>
+      <okfs>16</okfs>
+      <oktmo>45348000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агентство Интегрированные коммуникации"</short>
+        <full>Общество с ограниченной ответственностью "Агентство Интегрированные коммуникации"</full>
+        <date>2008-09-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123290</zipCode>
+          <kladrCode>770000000001765</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Магистральная 3-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2008-09-11</date>
+        <firstDate>2008-09-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-03-12</date>
+      </status>
+      <registrationDate>2006-03-27</registrationDate>
+      <dissolutionDate>2019-03-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Родина Мария Михайловна</fio>
+          <innfl>121635234168</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-04-09</date>
+          <firstDate>2008-08-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4826060716</inn>
+    <ogrn>1084823002220</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1084823002220</focusHref>
+    <UL>
+      <kpp>482601001</kpp>
+      <okpo>93922353</okpo>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО ПО "Энергострой"</short>
+        <full>Открытое акционерное общество Производственное объединение "Энергострой"</full>
+        <date>2008-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>398902</zipCode>
+          <kladrCode>480000010000899</kladrCode>
+          <regionCode>48</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Липецкая</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Липецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Юношеская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43</topoValue>
+          </house>
+          <houseRaw>43</houseRaw>
+        </parsedAddressRF>
+        <date>2008-02-07</date>
+        <firstDate>2008-02-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-06-10</date>
+      </status>
+      <registrationDate>2008-02-07</registrationDate>
+      <dissolutionDate>2014-06-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Строганов Сергей Александрович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2012-06-19</date>
+          <firstDate>2012-06-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Зайцев Владимир Сергеевич</fio>
+            <innfl>482402134909</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-10-08</date>
+            <firstDate>2010-10-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

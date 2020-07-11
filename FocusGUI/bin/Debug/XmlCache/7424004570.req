@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7424004570</inn>
+    <ogrn>1027401402490</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027401402490</focusHref>
+    <UL>
+      <kpp>742401001</kpp>
+      <okpo>21478295</okpo>
+      <okato>75464000000</okato>
+      <okfs>16</okfs>
+      <oktmo>75764000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Аизовец"</short>
+        <full>Закрытое акционерное общество "Аизовец"</full>
+        <date>2002-11-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>457040</zipCode>
+          <kladrCode>740000160000101</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Южноуральск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-27</date>
+        <firstDate>2002-11-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1997-07-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Осипов Александр Владимирович</fio>
+          <innfl>742401313200</innfl>
+          <position>Директор</position>
+          <date>2018-04-09</date>
+          <firstDate>2014-01-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Акимов Евгений Борисович</fio>
+            <innfl>741200566880</innfl>
+            <position>Директор</position>
+            <date>2011-04-11</date>
+            <firstDate>2011-04-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

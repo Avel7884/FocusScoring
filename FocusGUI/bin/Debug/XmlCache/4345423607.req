@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4345423607</inn>
+    <ogrn>1154350004940</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1154350004940</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>42651473</okpo>
+      <okato>33401361000</okato>
+      <okfs>16</okfs>
+      <oktmo>33701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКСО"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОФЕССИОНАЛЬНАЯ КОМПЛЕКТАЦИЯ СТРОИТЕЛЬНЫХ ОБЪЕКТОВ"</full>
+        <date>2015-08-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610048</zipCode>
+          <kladrCode>430000010000383</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Производственная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>ДОМ 1</houseRaw>
+          <flatRaw>КВАРТИРА 5</flatRaw>
+        </parsedAddressRF>
+        <date>2015-08-28</date>
+        <firstDate>2015-08-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-08-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Андропова Марина Дмитриевна</fio>
+          <innfl>434700410602</innfl>
+          <position>Директор</position>
+          <date>2015-08-28</date>
+          <firstDate>2015-08-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

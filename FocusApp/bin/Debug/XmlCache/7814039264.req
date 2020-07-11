@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7814039264</inn>
+    <ogrn>1027807579360</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027807579360</focusHref>
+    <UL>
+      <kpp>781401001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергопромкомплект"</short>
+        <full>Закрытое акционерное общество "Энергопромкомплект"</full>
+        <date>2002-11-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197227</zipCode>
+          <kladrCode>780000000000131</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Байконурская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>13</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-11-27</date>
+        <firstDate>2002-11-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-09-14</date>
+      </status>
+      <registrationDate>1995-10-27</registrationDate>
+      <dissolutionDate>2005-09-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вычужанина Оксана Юрьевна</fio>
+          <innfl>780156428289</innfl>
+          <date>2005-08-22</date>
+          <firstDate>2005-08-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

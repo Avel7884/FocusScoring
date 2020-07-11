@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5225001965</inn>
+    <ogrn>1025201022220</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025201022220</focusHref>
+    <UL>
+      <kpp>522501001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>АПКЗ "Перевозский"</short>
+        <full>Государственное сельскохозяйственное предприятие Агроплемконезавод "Перевозский" Горьковской железной дороги</full>
+        <date>2002-12-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>607409</zipCode>
+          <kladrCode>52034000048</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Перевозский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Центральный</topoValue>
+          </settlement>
+        </parsedAddressRF>
+        <date>2002-12-27</date>
+        <firstDate>2002-12-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-03-14</date>
+      </status>
+      <registrationDate>1994-07-13</registrationDate>
+      <dissolutionDate>2005-03-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ситдиков Руслан Зиннятуллович</fio>
+          <innfl>522501357361</innfl>
+          <position>Исполняющий обязанности директора</position>
+          <date>2004-12-10</date>
+          <firstDate>2004-12-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7723727665</inn>
+    <ogrn>1097746514832</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097746514832</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>16958248</okpo>
+      <okato>45290594000</okato>
+      <okfs>12</okfs>
+      <oktmo>45396000000</oktmo>
+      <okogu>4210001</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "ЦРИТП"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЦЕНТР РЕАЛИЗАЦИИ ИННОВАЦИОННЫХ И ТЕХНИЧЕСКИХ ПРОЕКТОВ"</full>
+        <date>2014-12-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115193</zipCode>
+          <kladrCode>770000000000205</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Петра Романова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>7</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-09-07</date>
+        <firstDate>2009-09-07</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>"УЧЕБНЫЙ ЦЕНТР"</name>
+          <parsedAddressRF>
+            <zipCode>301654</zipCode>
+            <kladrCode>710170010000034</kladrCode>
+            <regionCode>71</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Тульская</topoValue>
+            </regionName>
+            <district>
+              <topoShortName>р-н</topoShortName>
+              <topoFullName>район</topoFullName>
+              <topoValue>Новомосковский</topoValue>
+            </district>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Новомосковск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Мира</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>5</topoValue>
+            </house>
+            <houseRaw>ДОМ 5</houseRaw>
+          </parsedAddressRF>
+          <date>2014-12-04</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2017-01-17</date>
+      </status>
+      <registrationDate>2009-09-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Никольский Иван Сергеевич</fio>
+          <innfl>773421612167</innfl>
+          <position>Председатель Ликвидационной Комиссии</position>
+          <date>2019-06-07</date>
+          <firstDate>2019-06-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО "ВГСЧ"</short>
+            <full>Открытое акционерное общество "Военизированная горноспасательная, аварийно-спасательная часть"</full>
+            <date>2009-09-07</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Син Александр Филиппович</fio>
+            <position>Генеральный директор</position>
+            <date>2010-03-05</date>
+            <firstDate>2010-03-05</firstDate>
+          </head>
+          <head>
+            <fio>Жолус Анатолий Павлович</fio>
+            <innfl>773303465269</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-12-28</date>
+            <firstDate>2010-12-28</firstDate>
+          </head>
+          <head>
+            <fio>Кладчихин Алексей Викторович</fio>
+            <innfl>420536103379</innfl>
+            <position>Руководитель ликвидационной комиссии</position>
+            <date>2017-01-17</date>
+            <firstDate>2014-07-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

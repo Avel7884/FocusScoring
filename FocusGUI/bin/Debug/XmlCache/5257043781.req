@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5257043781</inn>
+    <ogrn>1025202400915</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202400915</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>51768895</okpo>
+      <okato>22401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Айболит-2000"</short>
+        <full>Общество с ограниченной ответственностью "Айболит-2000"</full>
+        <date>2002-11-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603108</zipCode>
+          <kladrCode>520000010001264</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Электровозная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7Г</topoValue>
+          </house>
+          <houseRaw>7Г</houseRaw>
+        </parsedAddressRF>
+        <date>2004-01-26</date>
+        <firstDate>2004-01-26</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>603108</zipCode>
+            <kladrCode>520000010001264</kladrCode>
+            <regionCode>52</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Нижегородская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Нижний Новгород</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Электровозная</topoValue>
+            </street>
+          </parsedAddressRF>
+          <date>2005-05-26</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-10-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Ильин Вячеслав Абрамович</fio>
+          <innfl>524600564884</innfl>
+          <position>Директор</position>
+          <date>2017-03-27</date>
+          <firstDate>2002-11-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>7</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

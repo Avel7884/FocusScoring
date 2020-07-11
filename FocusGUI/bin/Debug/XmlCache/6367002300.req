@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6367002300</inn>
+    <ogrn>1026303512311</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026303512311</focusHref>
+    <UL>
+      <kpp>631701001</kpp>
+      <okpo>51884704</okpo>
+      <okato>36401388000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701340000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агис"</short>
+        <full>Общество с ограниченной ответственностью "Агис"</full>
+        <date>2002-11-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443010</zipCode>
+          <kladrCode>630000010000833</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Некрасовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>46</topoValue>
+          </house>
+          <flat>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>46</houseRaw>
+          <flatRaw>5</flatRaw>
+        </parsedAddressRF>
+        <date>2007-07-04</date>
+        <firstDate>2007-07-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-03-13</date>
+      </status>
+      <registrationDate>2000-03-17</registrationDate>
+      <dissolutionDate>2018-03-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Квасов Андрей Петрович</fio>
+          <innfl>631600462540</innfl>
+          <position>Директор</position>
+          <date>2007-07-04</date>
+          <firstDate>2007-07-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

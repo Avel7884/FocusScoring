@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6661079667</inn>
+    <ogrn>1036603991038</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603991038</focusHref>
+    <UL>
+      <kpp>666101001</kpp>
+      <okopf>43</okopf>
+      <opf>Муниципальные предприятия</opf>
+      <legalName>
+        <short>ЕМУП "АКАДЕМЭНЕРГО"</short>
+        <full>Екатеринбургское муниципальное унитарное предприятие "АКАДЕМЭНЕРГО"</full>
+        <date>2003-10-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620016</zipCode>
+          <kladrCode>660000010000075</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Амундсена</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>131</topoValue>
+          </house>
+          <houseRaw>131</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2003-02-08</date>
+        <firstDate>2003-02-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-10-10</date>
+      </status>
+      <registrationDate>1999-03-03</registrationDate>
+      <dissolutionDate>2008-10-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парунин Николай Иванович</fio>
+          <innfl>666401181906</innfl>
+          <position>Директор</position>
+          <date>2003-02-08</date>
+          <firstDate>2003-02-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

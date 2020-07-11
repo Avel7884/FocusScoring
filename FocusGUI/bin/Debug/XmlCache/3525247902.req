@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3525247902</inn>
+    <ogrn>1103525014273</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1103525014273</focusHref>
+    <UL>
+      <kpp>352501001</kpp>
+      <okpo>66753557</okpo>
+      <okato>19401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>19701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "СЛТ"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "СтанкоЛесТорг"</full>
+        <date>2010-10-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>160035</zipCode>
+          <kladrCode>350000010000199</kladrCode>
+          <regionCode>35</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Вологодская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Вологда</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Первомайская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23А</topoValue>
+          </house>
+          <houseRaw>23 А</houseRaw>
+        </parsedAddressRF>
+        <date>2010-10-07</date>
+        <firstDate>2010-10-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-27</date>
+      </status>
+      <registrationDate>2010-10-07</registrationDate>
+      <dissolutionDate>2017-12-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ефимов Валерий Николаевич</fio>
+          <innfl>352513396545</innfl>
+          <position>Руководитель юридического лица</position>
+          <date>2010-10-07</date>
+          <firstDate>2010-10-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

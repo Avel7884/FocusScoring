@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1505000614</inn>
+    <ogrn>1021500822023</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021500822023</focusHref>
+    <UL>
+      <kpp>150501001</kpp>
+      <okpo>07606645</okpo>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ФГУП "АЗС"</short>
+        <full>Федеральное государственное унитарное предприятие "Алагирский завод сопротивлений"</full>
+        <date>2002-09-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>363240</zipCode>
+          <kladrCode>150020010000035</kladrCode>
+          <regionCode>15</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Северная Осетия - Алания</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Алагир</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Л.Толстого</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>202</topoValue>
+          </house>
+          <houseRaw>202</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-17</date>
+        <firstDate>2002-09-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-09-15</date>
+      </status>
+      <registrationDate>2001-03-29</registrationDate>
+      <dissolutionDate>2011-09-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сопоев Анатолий Мисирикоевич</fio>
+          <innfl>150103367284</innfl>
+          <position>Директор</position>
+          <date>2002-09-17</date>
+          <firstDate>2002-09-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>363243</zipCode>
+              <regionCode>15</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Северная Осетия - Алания</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Алагирский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Алагир</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Л.Толстого</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>202</topoValue>
+              </house>
+              <houseRaw>202</houseRaw>
+              <bulkRaw>-</bulkRaw>
+              <flatRaw>-</flatRaw>
+            </parsedAddressRF>
+            <date>2002-09-17</date>
+            <firstDate>2002-09-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

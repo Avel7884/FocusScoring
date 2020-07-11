@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3666090411</inn>
+    <ogrn>1023601564250</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023601564250</focusHref>
+    <UL>
+      <kpp>366601001</kpp>
+      <okpo>56459495</okpo>
+      <okato>20401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>20701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоКарт-Воронеж"</short>
+        <full>Общество с ограниченной ответственностью "АвтоКарт-Воронеж"</full>
+        <date>2008-01-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>394036</zipCode>
+          <kladrCode>360000010000760</kladrCode>
+          <regionCode>36</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Воронежская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Воронеж</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Степана Разина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>53</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 53</houseRaw>
+          <flatRaw>ОФИС 3</flatRaw>
+        </parsedAddressRF>
+        <date>2015-06-25</date>
+        <firstDate>2015-06-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-11-06</date>
+      </status>
+      <registrationDate>2001-05-21</registrationDate>
+      <dissolutionDate>2019-11-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Логвиненко Андрей Владимирович</fio>
+          <innfl>366222673068</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-07-10</date>
+          <firstDate>2009-07-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>366401001</kpp>
+            <date>2007-07-17</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>394018</zipCode>
+              <kladrCode>360000010000691</kladrCode>
+              <regionCode>36</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Воронежская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Воронеж</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Платонова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <houseRaw>4</houseRaw>
+            </parsedAddressRF>
+            <date>2007-07-17</date>
+            <firstDate>2007-07-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

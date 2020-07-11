@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3431005753</inn>
+    <ogrn>1023405770871</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023405770871</focusHref>
+    <UL>
+      <kpp>343101001</kpp>
+      <okpo>53557004</okpo>
+      <okato>18254844001</okato>
+      <okfs>16</okfs>
+      <oktmo>18654444101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "8 Марта"</short>
+        <full>Закрытое акционерное общество "8 Марта" Урюпинского района Волгоградской области</full>
+        <date>2002-12-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>403144</zipCode>
+          <kladrCode>34031000015</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Урюпинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>х</topoShortName>
+            <topoFullName>хутор</topoFullName>
+            <topoValue>Дубовский</topoValue>
+          </settlement>
+        </parsedAddressRF>
+        <date>2002-12-27</date>
+        <firstDate>2002-12-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-05-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Долгов Василий Иванович</fio>
+          <innfl>343100521648</innfl>
+          <position>Руководитель юридического лица</position>
+          <date>2007-12-11</date>
+          <firstDate>2007-12-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5262125937</inn>
+    <ogrn>1045207800780</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045207800780</focusHref>
+    <UL>
+      <kpp>526201001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛЛОНЖ"</short>
+        <full>Общество с ограниченной ответственностью "АЛЛОНЖ"</full>
+        <date>2004-04-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603000</zipCode>
+          <kladrCode>520000010000078</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Белинского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <houseRaw>9</houseRaw>
+        </parsedAddressRF>
+        <date>2004-04-05</date>
+        <firstDate>2004-04-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-06-23</date>
+      </status>
+      <registrationDate>2004-04-05</registrationDate>
+      <dissolutionDate>2005-06-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Рябкова Екатерина Дмитриевна</fio>
+          <position>Директор</position>
+          <date>2004-04-05</date>
+          <firstDate>2004-04-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5263049260</inn>
+    <ogrn>1055255798289</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1055255798289</focusHref>
+    <UL>
+      <kpp>526301001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Квинта"</short>
+        <full>Общество с ограниченной ответственностью "Квинта"</full>
+        <date>2005-06-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603158</zipCode>
+          <kladrCode>520000010000341</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Зайцева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>31</topoValue>
+          </house>
+          <flat>
+            <topoValue>921</topoValue>
+          </flat>
+          <houseRaw>31</houseRaw>
+          <flatRaw>921</flatRaw>
+        </parsedAddressRF>
+        <date>2005-06-23</date>
+        <firstDate>2005-06-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-10-06</date>
+      </status>
+      <registrationDate>2005-06-23</registrationDate>
+      <dissolutionDate>2005-10-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Федоров Дмитрий Александрович</fio>
+          <innfl>212804480200</innfl>
+          <position>Директор</position>
+          <date>2005-06-23</date>
+          <firstDate>2005-06-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

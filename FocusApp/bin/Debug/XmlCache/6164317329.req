@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6164317329</inn>
+    <ogrn>1146164001807</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1146164001807</focusHref>
+    <UL>
+      <kpp>616401001</kpp>
+      <okpo>24223727</okpo>
+      <okato>60401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>60701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГЭС РОЗНИЦА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГАЗЭНЕРГОСЕТЬ РОЗНИЦА"</full>
+        <date>2014-04-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>344011</zipCode>
+          <kladrCode>610000010000545</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ростов-на-Дону</topoValue>
+          </city>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Доломановский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>70Д</topoValue>
+          </house>
+          <bulk>
+            <topoValue>этаж 15</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>15-25</topoValue>
+          </flat>
+          <houseRaw>ДОМ 70Д</houseRaw>
+          <bulkRaw>ЭТАЖ 15</bulkRaw>
+          <flatRaw>ОФИС 15-25</flatRaw>
+        </parsedAddressRF>
+        <date>2018-08-30</date>
+        <firstDate>2018-08-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-04-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Бандалетов Андрей Валерьевич</fio>
+          <innfl>772336571493</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-10-17</date>
+          <firstDate>2019-10-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>344011</zipCode>
+              <kladrCode>610000010000545</kladrCode>
+              <regionCode>61</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Ростовская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Ростов-на-Дону</topoValue>
+              </city>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Доломановский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>70Д</topoValue>
+              </house>
+              <houseRaw>70 Д</houseRaw>
+            </parsedAddressRF>
+            <date>2014-04-04</date>
+            <firstDate>2014-04-04</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Фролов Алексей Валентинович</fio>
+            <position>Генеральный Директор</position>
+            <date>2014-04-04</date>
+            <firstDate>2014-04-04</firstDate>
+          </head>
+          <head>
+            <fio>Ващенко Анатолий Николаевич</fio>
+            <innfl>616602746576</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-12-04</date>
+            <firstDate>2014-12-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>31</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

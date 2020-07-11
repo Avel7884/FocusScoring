@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5025002908</inn>
+    <ogrn>1035004800170</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035004800170</focusHref>
+    <UL>
+      <kpp>502501001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ФГУП "55 ПК"</short>
+        <full>Федеральное государственное унитарное предприятие "55 Промышленный комбинат Министерства обороны Российской Федерации"</full>
+        <date>2004-04-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141730</zipCode>
+          <kladrCode>500000120000007</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Лобня</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Букинское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <houseRaw>27</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-10</date>
+        <firstDate>2003-01-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-11-17</date>
+      </status>
+      <registrationDate>2000-03-09</registrationDate>
+      <dissolutionDate>2006-11-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вайдерман Дмитрий Мойшович</fio>
+          <position>Начальник</position>
+          <date>2003-01-10</date>
+          <firstDate>2003-01-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5025002908</inn>
+    <ogrn>1025003080860</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025003080860</focusHref>
+    <UL>
+      <kpp>502501001</kpp>
+      <legalName>
+        <short>ГУП 55 ПК</short>
+        <full>Государственное унитарное предприятие 55 Промышленный комбинат</full>
+        <date>2002-12-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141730</zipCode>
+          <kladrCode>500000120000007</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Лобня</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Букинское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <houseRaw>27</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-17</date>
+        <firstDate>2002-12-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Внесение записи о государственной регистрации юридического лица при создании признано ошибочным по решению регистрирующего органа</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-02-16</date>
+      </status>
+      <registrationDate>2000-03-09</registrationDate>
+      <dissolutionDate>2006-02-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вайдерман Дмитрий Мойшович</fio>
+          <position>Начальник</position>
+          <date>2002-12-17</date>
+          <firstDate>2002-12-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

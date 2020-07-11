@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5258045848</inn>
+    <ogrn>1035205149649</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035205149649</focusHref>
+    <UL>
+      <kpp>526001001</kpp>
+      <okpo>14683132</okpo>
+      <okato>22401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Совхоз Цветы"</short>
+        <full>Общество с ограниченной ответственностью "Совхоз Цветы"</full>
+        <date>2004-11-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603000</zipCode>
+          <kladrCode>520000010000799</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ошарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1/2</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>П1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 1/2</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ П1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-03-12</date>
+        <firstDate>2018-03-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-03-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Флегонтов Александр Николаевич</fio>
+          <innfl>526200563054</innfl>
+          <position>Директор</position>
+          <date>2018-10-17</date>
+          <firstDate>2018-10-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603001</zipCode>
+              <kladrCode>520000010000948</kladrCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Рождественская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <houseRaw>17</houseRaw>
+            </parsedAddressRF>
+            <date>2008-11-19</date>
+            <firstDate>2008-11-19</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Дзепа Дмитрий Николаевич</fio>
+            <innfl>525700032490</innfl>
+            <position>Директор</position>
+            <date>2014-10-07</date>
+            <firstDate>2009-07-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

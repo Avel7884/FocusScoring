@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7709537768</inn>
+    <ogrn>1047796221824</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796221824</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okpo>72923549</okpo>
+      <okato>45286555000</okato>
+      <okfs>24</okfs>
+      <oktmo>45375000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергостройпроект"</short>
+        <full>Общество с ограниченной ответственностью "Энергостройпроект"</full>
+        <date>2004-04-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105062</zipCode>
+          <kladrCode>770000000001758</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Лялин</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5/1</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>5/1</houseRaw>
+          <bulkRaw>СТР.3</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-04-05</date>
+        <firstDate>2004-04-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-09-01</date>
+      </status>
+      <registrationDate>2004-04-05</registrationDate>
+      <dissolutionDate>2014-09-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Андреева Ольга Николаевна</fio>
+          <innfl>772332240003</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-04-05</date>
+          <firstDate>2004-04-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

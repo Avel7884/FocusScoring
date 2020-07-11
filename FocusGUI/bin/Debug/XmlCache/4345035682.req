@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4345035682</inn>
+    <ogrn>1034316564336</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034316564336</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>55759491</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <full>Общество с ограниченной ответственностью "Вяткаснабкомплект"</full>
+        <date>2003-03-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610000</zipCode>
+          <kladrCode>430000010000067</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Герцена</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>5</houseRaw>
+        </parsedAddressRF>
+        <date>2003-03-31</date>
+        <firstDate>2003-03-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-07-27</date>
+      </status>
+      <registrationDate>2001-12-06</registrationDate>
+      <dissolutionDate>2011-07-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Зверев Сергей Андреевич</fio>
+          <position>Директор</position>
+          <date>2003-03-31</date>
+          <firstDate>2003-03-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

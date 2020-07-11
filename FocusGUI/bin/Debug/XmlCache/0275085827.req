@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0275085827</inn>
+    <ogrn>1140280049832</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1140280049832</focusHref>
+    <UL>
+      <kpp>027501001</kpp>
+      <okpo>26792820</okpo>
+      <okato>80401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>80701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "КИПКОМПЛЕКТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "КИПКОМПЛЕКТ"</full>
+        <date>2014-08-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>450076</zipCode>
+          <kladrCode>020000010000986</kladrCode>
+          <regionCode>02</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Башкортостан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Уфа</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Аксакова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>58</topoValue>
+          </house>
+          <houseRaw>ДОМ 58</houseRaw>
+        </parsedAddressRF>
+        <date>2014-08-13</date>
+        <firstDate>2014-08-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-10-31</date>
+      </status>
+      <registrationDate>2014-08-13</registrationDate>
+      <dissolutionDate>2017-10-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кошенко Денис Игоревич</fio>
+          <innfl>673005756679</innfl>
+          <position>Ликвидатор</position>
+          <date>2017-04-04</date>
+          <firstDate>2014-08-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

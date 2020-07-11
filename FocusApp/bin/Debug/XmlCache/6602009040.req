@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6602009040</inn>
+    <ogrn>1036600052103</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036600052103</focusHref>
+    <UL>
+      <kpp>667301001</kpp>
+      <okpo>70787579</okpo>
+      <okato>65401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоТехСервис"</short>
+        <full>Общество с ограниченной ответственностью "АвтоТехСервис"</full>
+        <date>2003-08-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620017</zipCode>
+          <kladrCode>660000010001374</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Турбинная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>70</topoValue>
+          </house>
+          <flat>
+            <topoValue>105</topoValue>
+          </flat>
+          <houseRaw>70</houseRaw>
+          <flatRaw>105</flatRaw>
+        </parsedAddressRF>
+        <date>2011-09-16</date>
+        <firstDate>2011-09-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-01-19</date>
+      </status>
+      <registrationDate>2003-08-12</registrationDate>
+      <dissolutionDate>2016-01-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шибакин Константин Михайлович</fio>
+          <innfl>664606545163</innfl>
+          <position>Директор</position>
+          <date>2012-04-06</date>
+          <firstDate>2012-04-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>623794</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Артемовский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>пгт</topoShortName>
+                <topoFullName>поселок городского типа</topoFullName>
+                <topoValue>Буланаш</topoValue>
+              </settlement>
+              <houseRaw>0</houseRaw>
+            </parsedAddressRF>
+            <date>2003-08-12</date>
+            <firstDate>2003-08-12</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Поляков Алексей Алексеевич</fio>
+            <innfl>660200366920</innfl>
+            <position>Директор</position>
+            <date>2005-08-11</date>
+            <firstDate>2005-08-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

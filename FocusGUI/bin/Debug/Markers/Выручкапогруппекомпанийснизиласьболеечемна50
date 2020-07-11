@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Выручка по группе компаний снизилась более, чем на 50%</Name>
+  <Colour>RedAffiliates</Colour>
+  <Description>Выручка по группе компаний снизилась более, чем на 50%</Description>
+  <Code> 
+                        double s6004;
+                        s6004 = company.GetParams("s6004Affiliates").Select(x =&gt; x.Replace('.', ','))
+                            .Sum(x =&gt; { 
+			double a;
+			if(double.TryParse(x,out a)) 
+				return a; 
+			else 
+				return 0.0;});
+                        double s6003;
+                        s6003 = company.GetParams("s6003Affiliates").Select(x =&gt; x.Replace('.', ','))
+                            .Sum(x =&gt;{ 
+			double a;
+			if(double.TryParse(x,out a)) 
+				return a; 
+			else 
+				return 0.0;});
+                        return s6004 &lt; 0.5 * s6003;</Code>
+</items>

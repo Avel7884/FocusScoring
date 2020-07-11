@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6671135945</inn>
+    <ogrn>1036604011135</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036604011135</focusHref>
+    <UL>
+      <kpp>667101001</kpp>
+      <okpo>15057879</okpo>
+      <okato>65401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авантаж Капитал"</short>
+        <full>Общество с ограниченной ответственностью "Авантаж Капитал"</full>
+        <date>2003-07-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620144</zipCode>
+          <kladrCode>660000010000578</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Куйбышева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>55</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>35</topoValue>
+          </flat>
+          <houseRaw>55</houseRaw>
+          <bulkRaw>ЛИТ.Б</bulkRaw>
+          <flatRaw>35</flatRaw>
+        </parsedAddressRF>
+        <date>2003-07-14</date>
+        <firstDate>2003-07-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-02-21</date>
+      </status>
+      <registrationDate>2003-07-14</registrationDate>
+      <dissolutionDate>2018-02-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Иванов Станислав Александрович</fio>
+          <innfl>667004703072</innfl>
+          <position>Директор</position>
+          <date>2006-05-24</date>
+          <firstDate>2006-05-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

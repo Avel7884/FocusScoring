@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2223049726</inn>
+    <ogrn>1052202078224</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1052202078224</focusHref>
+    <UL>
+      <kpp>540801001</kpp>
+      <okpo>77062968</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АТА"</short>
+        <full>Общество с ограниченной ответственностью "Алтайская топливная аппаратура"</full>
+        <date>2006-02-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630057</zipCode>
+          <kladrCode>540000010000180</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Варшавская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+        </parsedAddressRF>
+        <date>2009-07-30</date>
+        <firstDate>2009-07-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-09-30</date>
+      </status>
+      <registrationDate>2005-04-13</registrationDate>
+      <dissolutionDate>2010-09-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ерохин Сергей Анатольевич</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2010-09-29</date>
+          <firstDate>2010-09-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

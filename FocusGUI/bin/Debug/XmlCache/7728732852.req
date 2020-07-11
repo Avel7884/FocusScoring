@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7728732852</inn>
+    <ogrn>1107746298967</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746298967</focusHref>
+    <UL>
+      <kpp>772801001</kpp>
+      <okpo>66373694</okpo>
+      <okato>45293586000</okato>
+      <okfs>16</okfs>
+      <oktmo>45907000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Автобау"</short>
+        <full>Закрытое акционерное общество "Автобау"</full>
+        <date>2010-04-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117465</zipCode>
+          <kladrCode>770000000002956</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Генерала Тюленева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4А</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>4А</houseRaw>
+          <bulkRaw>СТР.3</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-04-19</date>
+        <firstDate>2010-04-19</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>629307</zipCode>
+            <kladrCode>890000060000019</kladrCode>
+            <regionCode>89</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ямало-Ненецкий</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Новый Уренгой</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Индустриальная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>14</topoValue>
+            </house>
+            <flat>
+              <topoValue>12</topoValue>
+            </flat>
+            <houseRaw>14</houseRaw>
+            <flatRaw>12</flatRaw>
+          </parsedAddressRF>
+          <date>2010-09-29</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-04-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Тарасов Владислав Владимирович</fio>
+          <innfl>772638576032</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-04-07</date>
+          <firstDate>2010-04-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>8</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

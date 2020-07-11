@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658466031</inn>
+    <ogrn>1156658000883</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1156658000883</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okpo>48561558</okpo>
+      <okato>65401364000</okato>
+      <okfs>23</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОМАРКЕТ"</short>
+        <full>Общество с ограниченной ответственностью "АВТОМАРКЕТ"</full>
+        <date>2015-02-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620131</zipCode>
+          <kladrCode>660000010000678</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Металлургов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>137</topoValue>
+          </flat>
+          <houseRaw>ДОМ 42</houseRaw>
+          <flatRaw>КВАРТИРА 137</flatRaw>
+        </parsedAddressRF>
+        <date>2015-02-02</date>
+        <firstDate>2015-02-02</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>620902</zipCode>
+            <kladrCode>660000010060025</kladrCode>
+            <regionCode>66</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Свердловская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Екатеринбург</topoValue>
+            </city>
+            <settlement>
+              <topoShortName>с</topoShortName>
+              <topoFullName>село</topoFullName>
+              <topoValue>Горный Щит</topoValue>
+            </settlement>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Ленина</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>10</topoValue>
+            </house>
+            <flat>
+              <topoShortName>пом</topoShortName>
+              <topoFullName>помещение</topoFullName>
+              <topoValue>21</topoValue>
+            </flat>
+            <houseRaw>ДОМ 10</houseRaw>
+            <flatRaw>ПОМЕЩЕНИЕ 21</flatRaw>
+          </parsedAddressRF>
+          <date>2015-04-24</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-02-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Муйдинов Мусирмонкул Эргошевич</fio>
+          <position>Директор</position>
+          <date>2018-04-19</date>
+          <firstDate>2018-04-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Джаджиев Марат Даттиевич</fio>
+            <innfl>151106699603</innfl>
+            <position>Директор</position>
+            <date>2017-12-11</date>
+            <firstDate>2017-12-11</firstDate>
+          </head>
+          <head>
+            <fio>Кирсанов Анатолий Александрович</fio>
+            <innfl>665896458144</innfl>
+            <position>Директор</position>
+            <date>2017-12-26</date>
+            <firstDate>2015-02-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7802840085</inn>
+    <ogrn>1137847393089</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1137847393089</focusHref>
+    <UL>
+      <kpp>780201001</kpp>
+      <okpo>31009673</okpo>
+      <okato>40265000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40315000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКМИ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКМИ"</full>
+        <date>2013-10-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>194017</zipCode>
+          <kladrCode>780000000001548</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Энгельса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>50</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 50</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-10-17</date>
+        <firstDate>2013-10-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-10-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Виденеева Галина Михайловна</fio>
+          <innfl>780532349579</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-03-12</date>
+          <firstDate>2013-10-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

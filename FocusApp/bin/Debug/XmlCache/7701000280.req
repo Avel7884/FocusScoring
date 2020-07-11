@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701000280</inn>
+    <ogrn>1027700177966</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700177966</focusHref>
+    <UL>
+      <kpp>771301001</kpp>
+      <okpo>03991362</okpo>
+      <okato>45277592000</okato>
+      <okfs>16</okfs>
+      <oktmo>45346000000</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "МТА"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "МОСТРАНСАГЕНТСТВО"</full>
+        <date>2016-05-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127238</zipCode>
+          <kladrCode>770000000000335</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Дмитровское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 30</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-05-25</date>
+        <firstDate>2014-04-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-02-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Горин Виктор Сергеевич</fio>
+          <innfl>772384187791</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-07-19</date>
+          <firstDate>2010-11-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770401001</kpp>
+            <date>2010-12-14</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ОАО "МТА"</short>
+            <full>Открытое акционерное общество "МОСТРАНСАГЕНТСТВО"</full>
+            <date>2010-11-17</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119146</zipCode>
+              <kladrCode>770000000001526</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Комсомольский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>25</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>25</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2010-11-17</date>
+            <firstDate>2010-11-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

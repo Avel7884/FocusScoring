@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3664213146</inn>
+    <ogrn>1153668067156</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1153668067156</focusHref>
+    <UL>
+      <kpp>366401001</kpp>
+      <okpo>42625978</okpo>
+      <okato>20401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>20701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛК "РУДГОРМАШ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННАЯ ЛОГИСТИЧЕСКАЯ КОМПАНИЯ "РУДГОРМАШ"</full>
+        <date>2015-11-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>394018</zipCode>
+          <kladrCode>360000010000939</kladrCode>
+          <regionCode>36</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Воронежская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Воронеж</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Фридриха Энгельса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>64А</topoValue>
+          </house>
+          <bulk>
+            <topoValue>помещение 21</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>9В</topoValue>
+          </flat>
+          <houseRaw>ДОМ 64А</houseRaw>
+          <bulkRaw>ПОМЕЩЕНИЕ 21</bulkRaw>
+          <flatRaw>КОМНАТА 9В</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-25</date>
+        <firstDate>2015-11-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-11-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Беляев Владимир Васильевич</fio>
+          <innfl>366300874800</innfl>
+          <position>Директор</position>
+          <date>2015-11-25</date>
+          <firstDate>2015-11-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>394018</zipCode>
+              <kladrCode>360000010000939</kladrCode>
+              <regionCode>36</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Воронежская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Воронеж</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Фридриха Энгельса</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>64А</topoValue>
+              </house>
+              <bulk>
+                <topoValue>21</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>9В</topoValue>
+              </flat>
+              <houseRaw>64А</houseRaw>
+              <bulkRaw>21</bulkRaw>
+              <flatRaw>9В</flatRaw>
+            </parsedAddressRF>
+            <date>2015-11-25</date>
+            <firstDate>2015-11-25</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5503108352</inn>
+    <ogrn>1075503003575</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075503003575</focusHref>
+    <UL>
+      <kpp>550301001</kpp>
+      <okpo>97889539</okpo>
+      <okato>52401382000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП "Сибпромарматура"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческое предприятие "Сибпромарматура"</full>
+        <date>2007-02-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644116</zipCode>
+          <kladrCode>550000010000034</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Амурская 2-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25</topoValue>
+          </house>
+          <houseRaw>25</houseRaw>
+        </parsedAddressRF>
+        <date>2007-02-22</date>
+        <firstDate>2007-02-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-02-19</date>
+      </status>
+      <registrationDate>2007-02-22</registrationDate>
+      <dissolutionDate>2018-02-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мерцев Александр Сергеевич</fio>
+          <innfl>550512491565</innfl>
+          <position>Генеральный Директор</position>
+          <date>2008-04-23</date>
+          <firstDate>2008-04-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

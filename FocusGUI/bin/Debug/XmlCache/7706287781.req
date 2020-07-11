@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7706287781</inn>
+    <ogrn>1027706024631</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027706024631</focusHref>
+    <UL>
+      <kpp>770601001</kpp>
+      <okpo>13543185</okpo>
+      <okato>45286596000</okato>
+      <okfs>23</okfs>
+      <oktmo>45384000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЮрсервисКонсалт"</short>
+        <full>Общество с ограниченной ответственностью "ЮрсервисКонсалт"</full>
+        <date>2002-12-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117049</zipCode>
+          <kladrCode>770000000001689</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1А</topoValue>
+          </bulk>
+          <houseRaw>4</houseRaw>
+          <bulkRaw>1А</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-12-25</date>
+        <firstDate>2002-12-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-07-22</date>
+      </status>
+      <registrationDate>2002-12-25</registrationDate>
+      <dissolutionDate>2019-07-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Преснов Николай Егорович</fio>
+          <innfl>772704987479</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-03-20</date>
+          <firstDate>2009-03-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

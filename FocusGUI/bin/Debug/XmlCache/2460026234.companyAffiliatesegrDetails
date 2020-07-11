@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>245800200619</inn>
+    <ogrn>304240416900074</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304240416900074</focusHref>
+    <IP>
+      <okpo>0102423458</okpo>
+      <pfrRegNumber>034022002671</pfrRegNumber>
+      <fssRegNumber>240254074224023</fssRegNumber>
+      <fomsRegNumber>117-6913</fomsRegNumber>
+      <okato>04433000000</okato>
+      <shortenedAddress>
+        <regionCode>24</regionCode>
+        <regionName>
+          <topoShortName>край</topoShortName>
+          <topoFullName>край</topoFullName>
+          <topoValue>Красноярский</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Сосновоборск</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>45.32</code>
+          <text>Торговля розничная автомобильными деталями, узлами и принадлежностями</text>
+          <date>2004-06-17</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>45.11.2</code>
+            <text>Торговля розничная легковыми автомобилями и легкими автотранспортными средствами в специализированных магазинах</text>
+            <date>2004-06-17</date>
+          </activity>
+          <activity>
+            <code>45.11.3</code>
+            <text>Торговля розничная легковыми автомобилями и легкими автотранспортными средствами прочая</text>
+            <date>2004-06-17</date>
+          </activity>
+          <activity>
+            <code>45.19.2</code>
+            <text>Торговля розничная прочими автотранспортными средствами, кроме пассажирских, в специализированных магазинах</text>
+            <date>2004-06-17</date>
+          </activity>
+          <activity>
+            <code>45.19.3</code>
+            <text>Торговля розничная прочими автотранспортными средствами, кроме пассажирских, прочая</text>
+            <date>2004-06-17</date>
+          </activity>
+          <activity>
+            <code>45.20.2</code>
+            <text>Техническое обслуживание и ремонт прочих автотранспортных средств</text>
+            <date>2004-06-17</date>
+          </activity>
+          <activity>
+            <code>45.31.1</code>
+            <text>Торговля оптовая автомобильными деталями, узлами и принадлежностями, кроме деятельности агентов</text>
+            <date>2005-11-29</date>
+          </activity>
+          <activity>
+            <code>46.69.2</code>
+            <text>Торговля оптовая эксплуатационными материалами и принадлежностями машин</text>
+            <date>2005-11-29</date>
+          </activity>
+          <activity>
+            <code>47.78.9</code>
+            <text>Торговля розничная непродовольственными товарами, не включенными в другие группировки, в специализированных магазинах</text>
+            <date>2005-11-29</date>
+          </activity>
+          <activity>
+            <code>49.41.2</code>
+            <text>Перевозка грузов неспециализированными автотранспортными средствами</text>
+            <date>2005-11-29</date>
+          </activity>
+          <activity>
+            <code>49.41.3</code>
+            <text>Аренда грузового автомобильного транспорта с водителем</text>
+            <date>2005-11-29</date>
+          </activity>
+          <activity>
+            <code>52.10.9</code>
+            <text>Хранение и складирование прочих грузов</text>
+            <date>2005-11-29</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2004-06-17</ogrnDate>
+        <regName>Администрация города Сосновоборска Красноярского края</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2452</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Красноярскому краю</nalogName>
+        <nalogRegDate>2012-12-21</nalogRegDate>
+        <date>2018-12-26</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2468</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 23 по Красноярскому краю</nalogName>
+        <date>2015-10-16</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>418246800948948</grn>
+          <date>2018-12-26</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>418246800948926</grn>
+          <date>2018-12-26</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+          <documents>
+            <document>
+              <name>Р26001 заявление о прекращении деятельности ИП</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-12-14</date>
+            </document>
+            <document>
+              <name>Расписка</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>416246801912251</grn>
+          <date>2016-10-21</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>416246801518005</grn>
+          <date>2016-05-10</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>409240408200055</grn>
+          <date>2009-03-23</date>
+          <name>Изменение сведений об индивидуальном предпринимателе, содержащихся в ЕГРИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 15 по Красноярскому Краю</regName>
+          <regCode>2404</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+              <date>2009-03-17</date>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>24 005190195</serialNumber>
+              <date>2009-03-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>407240419102021</grn>
+          <date>2007-07-10</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 15 по Красноярскому Краю</regName>
+          <regCode>2404</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>405240433300021</grn>
+          <date>2005-11-29</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Красноярскому Краю, Таймырскому (Долгано-Ненецкому) и Эвенкийскому Автономным Округам</regName>
+          <regCode>2404</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>405240433300010</grn>
+          <date>2005-11-29</date>
+          <name>Изменение сведений об индивидуальном предпринимателе, содержащихся в ЕГРИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Красноярскому Краю, Таймырскому (Долгано-Ненецкому) и Эвенкийскому Автономным Округам</regName>
+          <regCode>2404</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+              <date>2005-11-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>24 003323704</serialNumber>
+              <date>2005-11-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>405240431601006</grn>
+          <date>2005-11-12</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Красноярскому Краю, Таймырскому (Долгано-Ненецкому) и Эвенкийскому Автономным Округам</regName>
+          <regCode>2404</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>304240416900074</grn>
+          <date>2004-06-17</date>
+          <name>Внесение сведений об ИП, зарегистрированном до 01.01.2004</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №15 по Красноярскому Краю</regName>
+          <regCode>2404</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр индивидуальных предпринимателей записи об индивидуальном предпринимателе, зарегистрированном до 1 января 2004 г.</name>
+              <date>2004-06-10</date>
+            </document>
+            <document>
+              <name>Свидетельство о гос.регистрации</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>24 003449538</serialNumber>
+              <date>2004-06-17</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>2460026234</inn>
+    <ogrn>1022401796218</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022401796218</focusHref>
+    <UL>
+      <okpo>41061812</okpo>
+      <pfrRegNumber>034002051602</pfrRegNumber>
+      <fssRegNumber>240110114624011</fssRegNumber>
+      <fomsRegNumber>044019600220404</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>50.30.1</code>
+          <text>Оптовая торговля автомобильными деталями, узлами и принадлежностями</text>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>50.30.2</code>
+            <text>Розничная торговля автомобильными деталями, узлами и принадлежностями</text>
+          </activity>
+          <activity>
+            <code>74.13.1</code>
+            <text>Исследование конъюнктуры рынка</text>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-11-21</ogrnDate>
+        <regName>Администрация Железнодорожного района г.Красноярска</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2460</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Железнодорожному району г.Красноярска</nalogName>
+        <nalogRegDate>1996-03-18</nalogRegDate>
+        <kpp>246001001</kpp>
+        <date>2012-04-02</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2468</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 23 по Красноярскому краю</nalogName>
+        <date>2007-07-12</date>
+      </regBody>
+      <statedCapital />
+      <foundersFL>
+        <founderFL>
+          <fio>Сторожев Олег Александрович</fio>
+          <innfl>246003057416</innfl>
+          <share>
+            <sum>3712</sum>
+          </share>
+          <date>2002-11-21</date>
+          <firstDate>2002-11-21</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Генов Евгений Анатольевич</fio>
+          <innfl>245800200619</innfl>
+          <share>
+            <sum>2688</sum>
+          </share>
+          <date>2002-11-21</date>
+          <firstDate>2002-11-21</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2122468253060</grn>
+          <date>2012-04-02</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2011-12-06</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2011-12-06</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2011-12-09</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2122468252960</grn>
+          <date>2012-04-02</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102468449048</grn>
+          <date>2010-06-24</date>
+          <name>Исправление ошибок, допущенных регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092468955885</grn>
+          <date>2009-12-24</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Красноярскому Краю</regName>
+          <regCode>2468</regCode>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-11-23</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Железнодорожному Району г.Красноярска Красноярского Края</regName>
+          <regCode>2460</regCode>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-03-24</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Железнодорожному Району г.Красноярска Красноярского Края</regName>
+          <regCode>2460</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1022401796218</grn>
+          <date>2002-11-21</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Железнодорожному Району г.Красноярска Красноярского Края</regName>
+          <regCode>2460</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>24 002364181</serialNumber>
+              <date>2002-11-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

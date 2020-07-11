@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7713216742</inn>
+    <ogrn>1027739856572</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739856572</focusHref>
+    <UL>
+      <kpp>771301001</kpp>
+      <okpo>18949762</okpo>
+      <okato>45277592000</okato>
+      <okfs>16</okfs>
+      <oktmo>45346000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОРЕМГРАД"</short>
+        <full>Общество с ограниченной ответственностью "АВТОРЕМГРАД"</full>
+        <date>2002-12-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127550</zipCode>
+          <kladrCode>770000000002405</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Прянишникова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19А</topoValue>
+          </house>
+          <houseRaw>19А</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-23</date>
+        <firstDate>2002-12-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-03-03</date>
+      </status>
+      <registrationDate>1999-07-19</registrationDate>
+      <dissolutionDate>2014-03-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Киселев Виталий Владимирович</fio>
+          <position>Генеральный директор</position>
+          <date>2003-12-05</date>
+          <firstDate>2003-12-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

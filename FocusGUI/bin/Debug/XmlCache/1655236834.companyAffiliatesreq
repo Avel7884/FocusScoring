@@ -1,0 +1,4819 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1616024427</inn>
+    <ogrn>1131690062272</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1131690062272</focusHref>
+    <UL>
+      <kpp>161601001</kpp>
+      <okpo>27927400</okpo>
+      <okato>92222000001</okato>
+      <okfs>16</okfs>
+      <oktmo>92622440101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВИАЛЬ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ВИАЛЬ"</full>
+        <date>2013-09-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>422700</zipCode>
+          <kladrCode>160170000010071</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Высокогорский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>ж/д станции Высокая Гора</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 1</houseRaw>
+          <flatRaw>ОФИС 1</flatRaw>
+        </parsedAddressRF>
+        <date>2016-02-29</date>
+        <firstDate>2016-02-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-08-01</date>
+      </status>
+      <registrationDate>2013-09-18</registrationDate>
+      <dissolutionDate>2018-08-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-12-15</date>
+          <firstDate>2016-12-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>422700</zipCode>
+              <kladrCode>160170000010071</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <settlement>
+                <topoShortName>п</topoShortName>
+                <topoFullName>поселок</topoFullName>
+                <topoValue>ж/д станции Высокая Гора</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Советская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>1</topoValue>
+              </flat>
+              <houseRaw>ДОМ 1</houseRaw>
+              <flatRaw>ОФИС 1</flatRaw>
+            </parsedAddressRF>
+            <date>2015-11-11</date>
+            <firstDate>2015-11-11</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>422700</zipCode>
+              <kladrCode>160170000010071</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Высокогорский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>ж/д_ст</topoShortName>
+                <topoFullName>железнодорожная станция</topoFullName>
+                <topoValue>Высокая Гора</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Советская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <flat>
+                <topoValue>1</topoValue>
+              </flat>
+              <houseRaw>1</houseRaw>
+              <flatRaw>1</flatRaw>
+            </parsedAddressRF>
+            <date>2013-09-18</date>
+            <firstDate>2013-09-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Котельникова Альбина Рашитовна</fio>
+            <innfl>165807748203</innfl>
+            <position>Директор</position>
+            <date>2013-09-18</date>
+            <firstDate>2013-09-18</firstDate>
+          </head>
+          <head>
+            <fio>Семенов Евгений Александрович</fio>
+            <innfl>165908125533</innfl>
+            <position>Директор</position>
+            <date>2014-09-11</date>
+            <firstDate>2014-09-11</firstDate>
+          </head>
+          <head>
+            <fio>Верхунова Диана Вячеславовна</fio>
+            <innfl>165700824684</innfl>
+            <position>Директор</position>
+            <date>2016-10-11</date>
+            <firstDate>2015-06-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1650292867</inn>
+    <ogrn>1141650016595</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1141650016595</focusHref>
+    <UL>
+      <kpp>165001001</kpp>
+      <okpo>58649047</okpo>
+      <okato>92430000000</okato>
+      <okfs>16</okfs>
+      <oktmo>92730000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПРОФАВТО"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОФАВТО"</full>
+        <date>2014-09-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>423822</zipCode>
+          <kladrCode>160000020000055</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Набережные Челны</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Нариманова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <flat>
+            <topoValue>172А</topoValue>
+          </flat>
+          <houseRaw>40</houseRaw>
+          <flatRaw>172А</flatRaw>
+        </parsedAddressRF>
+        <date>2014-09-04</date>
+        <firstDate>2014-09-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-08-22</date>
+      </status>
+      <registrationDate>2014-09-04</registrationDate>
+      <dissolutionDate>2017-08-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2017-02-21</date>
+          <firstDate>2017-02-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Сахибгараев Эмиль Фаритович</fio>
+            <innfl>165056404809</innfl>
+            <position>Директор</position>
+            <date>2014-09-04</date>
+            <firstDate>2014-09-04</firstDate>
+          </head>
+          <head>
+            <fio>Нуруллин Ильмир Раисович</fio>
+            <innfl>165024559302</innfl>
+            <position>Директор</position>
+            <date>2016-12-12</date>
+            <firstDate>2016-12-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1651064920</inn>
+    <ogrn>1111651007962</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1111651007962</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>37458299</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Кама Экспресс Логистика"</short>
+        <full>Общество с ограниченной ответственностью "Кама Экспресс Логистика"</full>
+        <date>2011-12-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420061</zipCode>
+          <kladrCode>160000010001850</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Дорожный (Малые Клыки)</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1001</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>ОФИС 1001</flatRaw>
+        </parsedAddressRF>
+        <date>2014-08-12</date>
+        <firstDate>2014-08-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-09-20</date>
+      </status>
+      <registrationDate>2011-12-28</registrationDate>
+      <dissolutionDate>2018-09-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-12-14</date>
+          <firstDate>2016-12-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>165101001</kpp>
+            <date>2013-12-31</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>420061</zipCode>
+              <kladrCode>160000010000633</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Казань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Космонавтов</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>44</topoValue>
+              </house>
+              <houseRaw>44</houseRaw>
+            </parsedAddressRF>
+            <date>2013-12-31</date>
+            <firstDate>2013-12-31</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>423582</zipCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Нижнекамский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижнекамск</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Химиков</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>83</topoValue>
+              </house>
+              <flat>
+                <topoValue>128</topoValue>
+              </flat>
+              <houseRaw>83</houseRaw>
+              <flatRaw>128</flatRaw>
+            </parsedAddressRF>
+            <date>2012-07-09</date>
+            <firstDate>2012-07-09</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>423570</zipCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Нижнекамский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижнекамск</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Химиков</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>49A</topoValue>
+              </house>
+              <houseRaw>дом 49A</houseRaw>
+            </parsedAddressRF>
+            <date>2011-12-28</date>
+            <firstDate>2011-12-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Мансуров Андрей Валерьевич</fio>
+            <innfl>165111823190</innfl>
+            <position>Директор</position>
+            <date>2011-12-28</date>
+            <firstDate>2011-12-28</firstDate>
+          </head>
+          <head>
+            <fio>Гильмутдинова Ольга Геннадьевна</fio>
+            <innfl>165104646705</innfl>
+            <position>Директор</position>
+            <date>2013-12-31</date>
+            <firstDate>2013-12-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655191950</inn>
+    <ogrn>1101690022060</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1101690022060</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>66623292</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ФСК "Булгария"</short>
+        <full>Общество с ограниченной ответственностью "Финансово Строительная Компания "Булгария"</full>
+        <date>2010-04-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420012</zipCode>
+          <kladrCode>160000010000190</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бутлерова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>45</topoValue>
+          </house>
+          <houseRaw>45</houseRaw>
+        </parsedAddressRF>
+        <date>2010-04-13</date>
+        <firstDate>2010-04-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-07-18</date>
+      </status>
+      <registrationDate>2010-04-13</registrationDate>
+      <dissolutionDate>2017-07-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Борисова Дина Анатольевна</fio>
+          <innfl>741108543351</innfl>
+          <position>Директор</position>
+          <date>2016-05-16</date>
+          <firstDate>2016-05-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Елин Дмитрий Викторович</fio>
+            <innfl>165708872866</innfl>
+            <position>Директор</position>
+            <date>2010-04-13</date>
+            <firstDate>2010-04-13</firstDate>
+          </head>
+          <head>
+            <fio>Галяутдинов Адель Асхатович</fio>
+            <innfl>165610918680</innfl>
+            <position>Директор</position>
+            <date>2016-03-14</date>
+            <firstDate>2016-03-14</firstDate>
+          </head>
+          <head>
+            <fio>Абросин Сергей Юрьевич</fio>
+            <innfl>325701877625</innfl>
+            <position>Директор</position>
+            <date>2016-03-29</date>
+            <firstDate>2016-03-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655228833</inn>
+    <ogrn>1111690070403</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1111690070403</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>30384558</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ХИМРЕСУРС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ХИМРЕСУРС"</full>
+        <date>2013-10-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420111</zipCode>
+          <kladrCode>160000010001573</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чернышевского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <houseRaw>7</houseRaw>
+        </parsedAddressRF>
+        <date>2011-09-21</date>
+        <firstDate>2011-09-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-02-27</date>
+      </status>
+      <registrationDate>2011-09-21</registrationDate>
+      <dissolutionDate>2017-02-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Анфимов Сергей Александрович</fio>
+          <innfl>165910577375</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-08-20</date>
+          <firstDate>2015-08-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "АГРОРЕСУРС"</short>
+            <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АГРОРЕСУРС"</full>
+          </legalName>
+          <legalName>
+            <short>ООО "Агрохим"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью "Агрохим"</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Галимов Рустем Дамирович</fio>
+            <innfl>165500347949</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-09-21</date>
+            <firstDate>2011-09-21</firstDate>
+          </head>
+          <head>
+            <fio>Шамкин Руслан Альбертович</fio>
+            <innfl>164506125860</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-09-19</date>
+            <firstDate>2013-09-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655236834</inn>
+    <ogrn>1121690004622</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1121690004622</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>38711778</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Татхимреактив"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Татхимреактив"</full>
+        <date>2012-01-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420083</zipCode>
+          <kladrCode>160000010005366</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Натана Рахлина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1021</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>ОФИС 1021</flatRaw>
+        </parsedAddressRF>
+        <date>2014-07-23</date>
+        <firstDate>2014-07-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-11-08</date>
+      </status>
+      <registrationDate>2012-01-24</registrationDate>
+      <dissolutionDate>2019-11-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-01-27</date>
+          <firstDate>2017-01-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>165501001</kpp>
+            <date>2012-01-24</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>420061</zipCode>
+              <kladrCode>160000010000633</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Казань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Космонавтов</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>59</topoValue>
+              </house>
+              <flat>
+                <topoValue>Помещениеи 12</topoValue>
+              </flat>
+              <houseRaw>59</houseRaw>
+              <flatRaw>ПОМЕЩЕНИЕИ 12</flatRaw>
+            </parsedAddressRF>
+            <date>2013-08-28</date>
+            <firstDate>2013-08-28</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>420015</zipCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Казань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Касаткина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15а</topoValue>
+              </house>
+              <houseRaw>15а</houseRaw>
+            </parsedAddressRF>
+            <date>2012-01-24</date>
+            <firstDate>2012-01-24</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Галимов Рустем Дамирович</fio>
+            <innfl>165500347949</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-01-20</date>
+            <firstDate>2012-01-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655351957</inn>
+    <ogrn>1161690070442</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690070442</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>00050802</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВИТРА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ВИТРА"</full>
+        <date>2016-02-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420000</zipCode>
+          <kladrCode>160000010001533</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Хади Такташа</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>101</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 101</houseRaw>
+          <flatRaw>ОФИС 3</flatRaw>
+        </parsedAddressRF>
+        <date>2016-02-24</date>
+        <firstDate>2016-02-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-07-11</date>
+      </status>
+      <registrationDate>2016-02-24</registrationDate>
+      <dissolutionDate>2019-07-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-02-24</date>
+          <firstDate>2016-02-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655352238</inn>
+    <ogrn>1161690071795</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690071795</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>00071738</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВЕГА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ВЕГА"</full>
+        <date>2016-02-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420111</zipCode>
+          <kladrCode>160000010001199</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Профсоюзная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>ДОМ 34</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 5</flatRaw>
+        </parsedAddressRF>
+        <date>2016-02-26</date>
+        <firstDate>2016-02-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-09</date>
+      </status>
+      <registrationDate>2016-02-26</registrationDate>
+      <dissolutionDate>2019-08-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-06-27</date>
+          <firstDate>2016-06-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Дементьева Надежда Викторовна</fio>
+            <innfl>165811513532</innfl>
+            <position>Директор</position>
+            <date>2016-02-26</date>
+            <firstDate>2016-02-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655358198</inn>
+    <ogrn>1161690093806</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690093806</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>02131462</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГАММА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГАММА"</full>
+        <date>2016-04-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420000</zipCode>
+          <kladrCode>160000010000163</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Большая Красная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>37/2</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>7</topoValue>
+          </flat>
+          <houseRaw>ДОМ 37/2</houseRaw>
+          <flatRaw>ОФИС 7</flatRaw>
+        </parsedAddressRF>
+        <date>2016-04-21</date>
+        <firstDate>2016-04-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-04-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Тарасова Екатерина Андреевна</fio>
+          <innfl>164412029141</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-12-18</date>
+          <firstDate>2016-08-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Галяутдинов Адель Асхатович</fio>
+            <innfl>165610918680</innfl>
+            <position>Директор</position>
+            <date>2016-04-21</date>
+            <firstDate>2016-04-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655363328</inn>
+    <ogrn>1161690113870</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690113870</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>03048289</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭВЕРЕСТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ЭВЕРЕСТ"</full>
+        <date>2016-06-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420000</zipCode>
+          <kladrCode>160000010000999</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Островского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>88</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>6</topoValue>
+          </flat>
+          <houseRaw>ДОМ 88</houseRaw>
+          <flatRaw>ОФИС 6</flatRaw>
+        </parsedAddressRF>
+        <date>2016-06-14</date>
+        <firstDate>2016-06-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-07-11</date>
+      </status>
+      <registrationDate>2016-06-14</registrationDate>
+      <dissolutionDate>2019-07-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2016-06-14</date>
+          <firstDate>2016-06-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655370540</inn>
+    <ogrn>1161690143955</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690143955</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>04360281</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НТК"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "НТК"</full>
+        <date>2016-08-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420021</zipCode>
+          <kladrCode>160000010001460</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Габдуллы Тукая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>57</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>4</topoValue>
+          </flat>
+          <houseRaw>ДОМ 57</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 4</flatRaw>
+        </parsedAddressRF>
+        <date>2016-08-30</date>
+        <firstDate>2016-08-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-07-11</date>
+      </status>
+      <registrationDate>2016-08-30</registrationDate>
+      <dissolutionDate>2019-07-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2017-01-12</date>
+          <firstDate>2017-01-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Тарасова Екатерина Андреевна</fio>
+            <innfl>164412029141</innfl>
+            <position>Директор</position>
+            <date>2016-08-30</date>
+            <firstDate>2016-08-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655372675</inn>
+    <ogrn>1161690155307</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690155307</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>04935992</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СТРОЙТЕХНО"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СТРОЙТЕХНО"</full>
+        <date>2016-10-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420021</zipCode>
+          <kladrCode>160000010001460</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Габдуллы Тукая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>57</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>ДОМ 57</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 5</flatRaw>
+        </parsedAddressRF>
+        <date>2016-10-04</date>
+        <firstDate>2016-10-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-12-13</date>
+      </status>
+      <registrationDate>2016-10-04</registrationDate>
+      <dissolutionDate>2018-12-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2016-10-04</date>
+          <firstDate>2016-10-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655378532</inn>
+    <ogrn>1171690000130</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1171690000130</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>06308673</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "БЕЛЬВЕР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БЕЛЬВЕР"</full>
+        <date>2017-01-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420111</zipCode>
+          <kladrCode>160000010001163</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Право-Булачная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>8</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7</houseRaw>
+          <flatRaw>ОФИС 8</flatRaw>
+        </parsedAddressRF>
+        <date>2017-01-09</date>
+        <firstDate>2017-01-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-09</date>
+      </status>
+      <registrationDate>2017-01-09</registrationDate>
+      <dissolutionDate>2019-08-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2017-01-09</date>
+          <firstDate>2017-01-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1655401693</inn>
+    <ogrn>1181690034954</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1181690034954</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>28367877</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ХИМРЕСУРС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ХИМРЕСУРС"</full>
+        <date>2018-04-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420012</zipCode>
+          <kladrCode>160000010001198</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Профессорский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>ДОМ 5</houseRaw>
+          <flatRaw>КВАРТИРА 5</flatRaw>
+        </parsedAddressRF>
+        <date>2018-04-23</date>
+        <firstDate>2018-04-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-04-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Галимов Рустем Дамирович</fio>
+          <innfl>165500347949</innfl>
+          <position>Директор</position>
+          <date>2018-04-23</date>
+          <firstDate>2018-04-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>165608682389</inn>
+    <ogrn>316169000097298</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=316169000097298</focusHref>
+    <IP>
+      <fio>Парамонова Надежда Сергеевна</fio>
+      <okpo>0102960437</okpo>
+      <okato>92401377000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>92701000001</oktmo>
+      <registrationDate>2016-06-14</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>165610918680</inn>
+    <ogrn>316169000062611</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=316169000062611</focusHref>
+    <IP>
+      <fio>Галяутдинов Адель Асхатович</fio>
+      <okpo>0066650852</okpo>
+      <okato>92401370000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>92701000001</oktmo>
+      <registrationDate>2016-02-24</registrationDate>
+      <dissolutionDate>2017-10-04</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-10-04</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1657225965</inn>
+    <ogrn>1161690113892</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690113892</focusHref>
+    <UL>
+      <kpp>165701001</kpp>
+      <okpo>03039818</okpo>
+      <okato>92401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛЬТАИР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АЛЬТАИР"</full>
+        <date>2016-06-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420000</zipCode>
+          <kladrCode>160000010001583</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чистопольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>79</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>9</topoValue>
+          </flat>
+          <houseRaw>ДОМ 79</houseRaw>
+          <flatRaw>ОФИС 9</flatRaw>
+        </parsedAddressRF>
+        <date>2016-06-14</date>
+        <firstDate>2016-06-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-06-20</date>
+      </status>
+      <registrationDate>2016-06-14</registrationDate>
+      <dissolutionDate>2019-06-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2016-06-14</date>
+          <firstDate>2016-06-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1657227786</inn>
+    <ogrn>1161690132097</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690132097</focusHref>
+    <UL>
+      <kpp>165701001</kpp>
+      <okpo>03775305</okpo>
+      <okato>92401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СТРОЙСНАБ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СТРОЙСНАБ"</full>
+        <date>2016-07-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420136</zipCode>
+          <kladrCode>160000010001588</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Маршала Чуйкова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>4</topoValue>
+          </flat>
+          <houseRaw>ДОМ 27А</houseRaw>
+          <flatRaw>ОФИС 4</flatRaw>
+        </parsedAddressRF>
+        <date>2016-07-29</date>
+        <firstDate>2016-07-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Регистрирующим органом принято решение о предстоящем исключении юридического лица из ЕГРЮЛ (наличие в ЕГРЮЛ сведений о юридическом лице, в отношении которых внесена запись о недостоверности)</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-09-25</date>
+      </status>
+      <registrationDate>2016-07-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2016-07-29</date>
+          <firstDate>2016-07-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1658091150</inn>
+    <ogrn>1071690045206</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1071690045206</focusHref>
+    <UL>
+      <kpp>165801001</kpp>
+      <okpo>82318364</okpo>
+      <okato>92401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ДСР"</short>
+        <full>Общество с ограниченной ответственностью "Дорожные строительные работы"</full>
+        <date>2007-07-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420095</zipCode>
+          <kladrCode>160000010001349</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Васильченко</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>41</topoValue>
+          </house>
+          <houseRaw>41</houseRaw>
+        </parsedAddressRF>
+        <date>2007-07-27</date>
+        <firstDate>2007-07-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-04-11</date>
+      </status>
+      <registrationDate>2007-07-27</registrationDate>
+      <dissolutionDate>2018-04-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-12-30</date>
+          <firstDate>2016-12-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Нуретдинов Мубаракзян Султанович</fio>
+            <innfl>165000019555</innfl>
+            <position>Директор</position>
+            <date>2007-07-27</date>
+            <firstDate>2007-07-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1658108781</inn>
+    <ogrn>1091690029573</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1091690029573</focusHref>
+    <UL>
+      <kpp>165801001</kpp>
+      <okpo>61815130</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО НПО "Еврохим"</short>
+        <full>Общество с ограниченной ответственностью Научно-производственное объединение "Еврохим"</full>
+        <date>2009-06-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420095</zipCode>
+          <kladrCode>160000010000255</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Восстания</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>100</topoValue>
+          </house>
+          <bulk>
+            <topoValue>5</topoValue>
+          </bulk>
+          <houseRaw>100</houseRaw>
+          <bulkRaw>5</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-06-09</date>
+        <firstDate>2009-06-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-19</date>
+      </status>
+      <registrationDate>2009-06-09</registrationDate>
+      <dissolutionDate>2016-12-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мухин Никита Иванович</fio>
+          <innfl>165712976280</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-06-10</date>
+          <firstDate>2013-06-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шайхуллин Марат Ирекович</fio>
+            <innfl>164805585512</innfl>
+            <position>Генеральный директор</position>
+            <date>2009-06-09</date>
+            <firstDate>2009-06-09</firstDate>
+          </head>
+          <head>
+            <fio>Галимов Рустем Дамирович</fio>
+            <innfl>165500347949</innfl>
+            <position>Генеральный директор</position>
+            <date>2013-03-29</date>
+            <firstDate>2013-03-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1658183965</inn>
+    <ogrn>1151690088065</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1151690088065</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>46130216</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВРОРА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВРОРА"</full>
+        <date>2015-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420107</zipCode>
+          <kladrCode>160000010001284</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Петербургская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 40</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 1</flatRaw>
+        </parsedAddressRF>
+        <date>2016-10-26</date>
+        <firstDate>2016-10-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-06-06</date>
+      </status>
+      <registrationDate>2015-10-28</registrationDate>
+      <dissolutionDate>2018-06-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гайнанова Алина Равилевна</fio>
+          <innfl>166110513984</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-03-14</date>
+          <firstDate>2017-03-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>165801001</kpp>
+            <date>2015-10-29</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>420034</zipCode>
+              <kladrCode>160000010000371</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Казань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Декабристов</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>85Б</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>1002</topoValue>
+              </flat>
+              <houseRaw>ДОМ 85Б</houseRaw>
+              <flatRaw>ОФИС 1002</flatRaw>
+            </parsedAddressRF>
+            <date>2015-10-28</date>
+            <firstDate>2015-10-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Хасанова Айгуль Фаритовна</fio>
+            <innfl>165125864020</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-10-28</date>
+            <firstDate>2015-10-28</firstDate>
+          </head>
+          <head>
+            <fio>Шарафутдинова Диана Фанисовна</fio>
+            <innfl>164811958226</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-07-14</date>
+            <firstDate>2016-07-14</firstDate>
+          </head>
+          <head>
+            <fio>Хасанова Лилия Радифовна</fio>
+            <innfl>161000826784</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-02-09</date>
+            <firstDate>2017-02-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1659113791</inn>
+    <ogrn>1111690064859</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1111690064859</focusHref>
+    <UL>
+      <kpp>165901001</kpp>
+      <okpo>30396165</okpo>
+      <okato>92401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Санхауз"</short>
+        <full>Общество с ограниченной ответственностью "Санхауз"</full>
+        <date>2011-08-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420059</zipCode>
+          <kladrCode>160000010000987</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Оренбургский тракт</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>317К</topoValue>
+          </flat>
+          <houseRaw>20</houseRaw>
+          <flatRaw>ОФИС 317К</flatRaw>
+        </parsedAddressRF>
+        <date>2011-08-29</date>
+        <firstDate>2011-08-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-11-08</date>
+      </status>
+      <registrationDate>2011-08-29</registrationDate>
+      <dissolutionDate>2019-11-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-12-15</date>
+          <firstDate>2016-12-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Юнусов Руслан Шавкатович</fio>
+            <innfl>165503909473</innfl>
+            <position>Генеральный Директор</position>
+            <date>2011-08-29</date>
+            <firstDate>2011-08-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1659114555</inn>
+    <ogrn>1111690071932</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1111690071932</focusHref>
+    <UL>
+      <kpp>165901001</kpp>
+      <okpo>30385753</okpo>
+      <okato>92401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Нефтепродукт-Казань"</short>
+        <full>Общество с ограниченной ответственностью "Нефтепродукт-Казань"</full>
+        <date>2011-09-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420005</zipCode>
+          <kladrCode>160000010001634</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Южно-Промышленная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <houseRaw>3</houseRaw>
+        </parsedAddressRF>
+        <date>2011-09-28</date>
+        <firstDate>2011-09-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-01-30</date>
+      </status>
+      <registrationDate>2011-09-28</registrationDate>
+      <dissolutionDate>2019-01-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2017-02-09</date>
+          <firstDate>2017-02-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Кочнев Денис Александрович</fio>
+            <innfl>165713363705</innfl>
+            <position>Директор</position>
+            <date>2011-09-28</date>
+            <firstDate>2011-09-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1659116182</inn>
+    <ogrn>1111690090588</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1111690090588</focusHref>
+    <UL>
+      <kpp>165901001</kpp>
+      <okpo>37452180</okpo>
+      <okato>92401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГАТ-НК"</short>
+        <full>Общество с ограниченной ответственностью "АГАТ-НК"</full>
+        <date>2011-11-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420049</zipCode>
+          <kladrCode>160000010001623</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Нурсултана Назарбаева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <houseRaw>27</houseRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2015-11-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-11-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2017-02-09</date>
+          <firstDate>2017-02-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>420049</zipCode>
+              <kladrCode>160000010001623</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Казань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Эсперанто</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>27</topoValue>
+              </house>
+              <houseRaw>27</houseRaw>
+            </parsedAddressRF>
+            <date>2011-11-25</date>
+            <firstDate>2011-11-25</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Абдуллин Ильнар Халимович</fio>
+            <innfl>165602696829</innfl>
+            <position>Директор</position>
+            <date>2012-08-07</date>
+            <firstDate>2012-08-07</firstDate>
+          </head>
+          <head>
+            <fio>Шакиров Ильдар Ахатович</fio>
+            <innfl>162600043184</innfl>
+            <position>Директор</position>
+            <date>2013-11-08</date>
+            <firstDate>2011-11-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>1660123089</inn>
+    <ogrn>1091690002140</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1091690002140</focusHref>
+    <UL>
+      <kpp>027501001</kpp>
+      <okpo>60311812</okpo>
+      <okato>80401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>80701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ГаммаХим"</short>
+        <full>Закрытое акционерное общество "ГаммаХим"</full>
+        <date>2013-01-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>450076</zipCode>
+          <kladrCode>020000010001109</kladrCode>
+          <regionCode>02</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Башкортостан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Уфа</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гоголя</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>60/1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>этаж 2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>217</topoValue>
+          </flat>
+          <houseRaw>60/1</houseRaw>
+          <bulkRaw>ЭТАЖ 2</bulkRaw>
+          <flatRaw>ОФИС 217</flatRaw>
+        </parsedAddressRF>
+        <date>2013-01-15</date>
+        <firstDate>2013-01-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-28</date>
+      </status>
+      <registrationDate>2009-01-26</registrationDate>
+      <dissolutionDate>2016-12-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Хазиев Руслан Фиданович</fio>
+          <innfl>165918410811</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-06-28</date>
+          <firstDate>2013-01-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "Татхимреактив"</short>
+          </legalName>
+          <legalName>
+            <full>Закрытое акционерное общество "Татхимреактив"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>450076</zipCode>
+              <regionCode>02</regionCode>
+              <regionName>
+                <topoValue>Башкортостан</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Уфимский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Уфа</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Гоголя</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>60/1</topoValue>
+              </house>
+              <bulk>
+                <topoValue>этаж 2</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>217</topoValue>
+              </flat>
+              <houseRaw>60/1</houseRaw>
+              <bulkRaw>этаж 2</bulkRaw>
+              <flatRaw>офис 217</flatRaw>
+            </parsedAddressRF>
+            <date>2013-01-15</date>
+            <firstDate>2013-01-15</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>420088</zipCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Казань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Академика Арбузова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>8</topoValue>
+              </house>
+              <houseRaw>8</houseRaw>
+            </parsedAddressRF>
+            <date>2009-01-26</date>
+            <firstDate>2009-01-26</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Галимов Рустем Дамирович</fio>
+            <innfl>165500347949</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-10-20</date>
+            <firstDate>2010-10-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660127580</inn>
+    <ogrn>1091690029540</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1091690029540</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>61815087</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Татхимреактив"</short>
+        <full>Общество с ограниченной ответственностью "Татхимреактив"</full>
+        <date>2009-06-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420088</zipCode>
+          <kladrCode>160000010000076</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академика Арбузова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2009-06-09</date>
+        <firstDate>2009-06-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-06-14</date>
+      </status>
+      <registrationDate>2009-06-09</registrationDate>
+      <dissolutionDate>2016-06-14</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "УПРАВЛЯЮЩАЯ КОМПАНИЯ "ДИРЕКЦИЯ"</name>
+          <inn>1655236908</inn>
+          <ogrn>1121690005436</ogrn>
+          <date>2013-12-16</date>
+          <firstDate>2013-12-16</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <heads>
+          <head>
+            <fio>Галимов Рустем Дамирович</fio>
+            <innfl>165500347949</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-10-20</date>
+            <firstDate>2010-10-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660135550</inn>
+    <ogrn>1141690107998</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1141690107998</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>59925414</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "РЕГИОН"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РЕГИОН"</full>
+        <date>2014-12-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420073</zipCode>
+          <kladrCode>160000010000025</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Аделя Кутуя</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>50</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1-18</topoValue>
+          </flat>
+          <houseRaw>ДОМ 50</houseRaw>
+          <flatRaw>ОФИС 1-18</flatRaw>
+        </parsedAddressRF>
+        <date>2014-12-26</date>
+        <firstDate>2014-12-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Регистрирующим органом принято решение о предстоящем исключении юридического лица из ЕГРЮЛ (наличие в ЕГРЮЛ сведений о юридическом лице, в отношении которых внесена запись о недостоверности)</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-10-23</date>
+      </status>
+      <registrationDate>2014-12-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2017-03-07</date>
+          <firstDate>2017-03-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Кочнев Денис Александрович</fio>
+            <innfl>165713363705</innfl>
+            <position>Директор</position>
+            <date>2014-12-26</date>
+            <firstDate>2014-12-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660144875</inn>
+    <ogrn>1101690055312</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1101690055312</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>68724838</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТД "Татхимреактив"</short>
+        <full>Общество с ограниченной ответственностью "Торговый дом "Татхимреактив"</full>
+        <date>2010-10-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420088</zipCode>
+          <kladrCode>160000010000076</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академика Арбузова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2010-10-04</date>
+        <firstDate>2010-10-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Юридическое лицо находится в процессе реорганизации в форме присоединения к другому юридическому лицу</statusString>
+        <reorganizing>true</reorganizing>
+        <date>2018-06-13</date>
+      </status>
+      <registrationDate>2010-10-04</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "УК "ПРАВЛЕНИЕ"</name>
+          <inn>1655301184</inn>
+          <ogrn>1141690066297</ogrn>
+          <date>2015-02-13</date>
+          <firstDate>2015-02-13</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <heads>
+          <head>
+            <fio>Галимов Рустем Дамирович</fio>
+            <innfl>165500347949</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-01-20</date>
+            <firstDate>2010-10-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660162585</inn>
+    <ogrn>1121690004061</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1121690004061</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>38711761</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Компания "Татхимреактив"</short>
+        <full>Общество с ограниченной ответственностью "Компания "Татхимреактив"</full>
+        <date>2012-01-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420088</zipCode>
+          <kladrCode>160000010000076</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академика Арбузова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2012-01-24</date>
+        <firstDate>2012-01-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-08-09</date>
+      </status>
+      <registrationDate>2012-01-24</registrationDate>
+      <dissolutionDate>2018-08-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-01-09</date>
+          <firstDate>2017-01-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Галимов Рустем Дамирович</fio>
+            <innfl>165500347949</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-01-20</date>
+            <firstDate>2012-01-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660214226</inn>
+    <ogrn>1141690060478</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1141690060478</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>58648651</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВРЕМЕНА ГОДА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ВРЕМЕНА ГОДА"</full>
+        <date>2014-08-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420083</zipCode>
+          <kladrCode>160000010005366</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Натана Рахлина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1021</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>ОФИС 1021</flatRaw>
+        </parsedAddressRF>
+        <date>2014-08-26</date>
+        <firstDate>2014-08-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-08-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Лотфуллина Лилия Назимовна</fio>
+          <innfl>165807437102</innfl>
+          <position>Директор</position>
+          <date>2014-10-13</date>
+          <firstDate>2014-08-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>1660215773</inn>
+    <ogrn>1141690069014</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1141690069014</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>12971915</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СТРОЙЖИЛФОНД"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СТРОЙЖИЛФОНД"</full>
+        <date>2014-09-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420081</zipCode>
+          <kladrCode>160000010005183</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Альберта Камалеева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>1002</topoValue>
+          </flat>
+          <houseRaw>ДОМ 12</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 1002</flatRaw>
+        </parsedAddressRF>
+        <date>2014-09-26</date>
+        <firstDate>2014-09-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-02-07</date>
+      </status>
+      <registrationDate>2014-09-26</registrationDate>
+      <dissolutionDate>2018-02-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2016-09-28</date>
+          <firstDate>2016-09-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Лавренёва Полина Павловна</fio>
+            <innfl>165607347638</innfl>
+            <position>Директор</position>
+            <date>2014-09-26</date>
+            <firstDate>2014-09-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660220491</inn>
+    <ogrn>1141690092830</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1141690092830</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>42137813</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "РЕВЕРС СТРОЙ ГРУПП"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РЕВЕРС СТРОЙ ГРУПП"</full>
+        <date>2014-12-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420029</zipCode>
+          <kladrCode>160000010001310</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сибирский тракт</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>22</topoValue>
+          </flat>
+          <houseRaw>ДОМ 34</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 22</flatRaw>
+        </parsedAddressRF>
+        <date>2017-02-19</date>
+        <firstDate>2017-02-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-10-16</date>
+      </status>
+      <registrationDate>2014-12-08</registrationDate>
+      <dissolutionDate>2017-10-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2016-12-21</date>
+          <firstDate>2016-12-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>420029</zipCode>
+              <kladrCode>160000010001310</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Казань</topoValue>
+              </city>
+              <street>
+                <topoShortName>тракт</topoShortName>
+                <topoFullName>тракт</topoFullName>
+                <topoValue>Сибирский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>34</topoValue>
+              </house>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>22</topoValue>
+              </flat>
+              <houseRaw>ДОМ 34</houseRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 22</flatRaw>
+            </parsedAddressRF>
+            <date>2014-12-08</date>
+            <firstDate>2014-12-08</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Лавренёва Полина Павловна</fio>
+            <innfl>165607347638</innfl>
+            <position>Директор</position>
+            <date>2014-12-08</date>
+            <firstDate>2014-12-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660236389</inn>
+    <ogrn>1151690006820</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1151690006820</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>76298947</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТАТХИМРЕСУРС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ТАТХИМРЕСУРС"</full>
+        <date>2015-02-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420083</zipCode>
+          <kladrCode>160000010005366</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Натана Рахлина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1021</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>ОФИС 1021</flatRaw>
+        </parsedAddressRF>
+        <date>2015-02-02</date>
+        <firstDate>2015-02-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-02-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Галимов Рустем Дамирович</fio>
+          <innfl>165500347949</innfl>
+          <position>Директор</position>
+          <date>2016-02-24</date>
+          <firstDate>2016-02-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Галимова Лариса Филаретовна</fio>
+            <innfl>165502251255</innfl>
+            <position>Директор</position>
+            <date>2015-02-02</date>
+            <firstDate>2015-02-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>1660237833</inn>
+    <ogrn>1151690013507</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1151690013507</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>72652843</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГЛАВПОЛИМЕР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГЛАВПОЛИМЕР"</full>
+        <date>2015-02-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420087</zipCode>
+          <kladrCode>160000010001320</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Скрябина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>9</topoValue>
+          </flat>
+          <houseRaw>ДОМ 8А</houseRaw>
+          <flatRaw>ОФИС 9</flatRaw>
+        </parsedAddressRF>
+        <date>2015-02-19</date>
+        <firstDate>2015-02-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Регистрирующим органом принято решение о предстоящем исключении юридического лица из ЕГРЮЛ (наличие в ЕГРЮЛ сведений о юридическом лице, в отношении которых внесена запись о недостоверности)</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-10-30</date>
+      </status>
+      <registrationDate>2015-02-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-12-15</date>
+          <firstDate>2016-12-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Пилипенко Ольга Николаевна</fio>
+            <innfl>682502860410</innfl>
+            <position>Директор</position>
+            <date>2015-02-19</date>
+            <firstDate>2015-02-19</firstDate>
+          </head>
+          <head>
+            <fio>Пилипенко Алексей Валериевич</fio>
+            <innfl>212408429754</innfl>
+            <position>Директор</position>
+            <date>2016-03-31</date>
+            <firstDate>2016-03-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660264499</inn>
+    <ogrn>1161690068715</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690068715</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>00049147</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПРОМАЛЬЯНС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОМАЛЬЯНС"</full>
+        <date>2016-02-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420088</zipCode>
+          <kladrCode>160000010001535</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Халитова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>8</topoValue>
+          </flat>
+          <houseRaw>ДОМ 15</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 8</flatRaw>
+        </parsedAddressRF>
+        <date>2016-02-20</date>
+        <firstDate>2016-02-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-11-02</date>
+      </status>
+      <registrationDate>2016-02-20</registrationDate>
+      <dissolutionDate>2018-11-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-06-27</date>
+          <firstDate>2016-06-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Дементьева Надежда Викторовна</fio>
+            <innfl>165811513532</innfl>
+            <position>Директор</position>
+            <date>2016-02-20</date>
+            <firstDate>2016-02-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660264724</inn>
+    <ogrn>1161690069529</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690069529</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>00072376</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СТРОЙАЛЬЯНС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СТРОЙАЛЬЯНС"</full>
+        <date>2016-02-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420100</zipCode>
+          <kladrCode>160000010001282</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академика Сахарова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>ОФИС 5</flatRaw>
+        </parsedAddressRF>
+        <date>2016-02-20</date>
+        <firstDate>2016-02-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-23</date>
+      </status>
+      <registrationDate>2016-02-20</registrationDate>
+      <dissolutionDate>2019-08-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-02-20</date>
+          <firstDate>2016-02-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1660270686</inn>
+    <ogrn>1161690094433</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1161690094433</focusHref>
+    <UL>
+      <kpp>166001001</kpp>
+      <okpo>02201671</okpo>
+      <okato>92401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "УРМАН"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "УРМАН"</full>
+        <date>2016-04-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420000</zipCode>
+          <kladrCode>160000010001033</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Патриса Лумумбы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 26</houseRaw>
+          <flatRaw>ОФИС 3</flatRaw>
+        </parsedAddressRF>
+        <date>2016-04-21</date>
+        <firstDate>2016-04-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-23</date>
+      </status>
+      <registrationDate>2016-04-21</registrationDate>
+      <dissolutionDate>2019-08-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Тюгаева Карина Алексеевна</fio>
+          <innfl>161602725399</innfl>
+          <position>Директор</position>
+          <date>2016-08-02</date>
+          <firstDate>2016-08-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Галяутдинов Адель Асхатович</fio>
+            <innfl>165610918680</innfl>
+            <position>Директор</position>
+            <date>2016-04-21</date>
+            <firstDate>2016-04-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>1661040413</inn>
+    <ogrn>1141690028732</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1141690028732</focusHref>
+    <UL>
+      <kpp>166101001</kpp>
+      <okpo>47109840</okpo>
+      <okato>92401363000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "БАРС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БАРС"</full>
+        <date>2014-09-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420047</zipCode>
+          <kladrCode>160000010000094</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ашхабадская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <houseRaw>ДОМ 34</houseRaw>
+        </parsedAddressRF>
+        <date>2014-04-16</date>
+        <firstDate>2014-04-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-29</date>
+      </status>
+      <registrationDate>2014-04-16</registrationDate>
+      <dissolutionDate>2019-08-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-12-15</date>
+          <firstDate>2016-12-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ТЕРРАПЛЮС"</short>
+            <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ТЕРРАПЛЮС"</full>
+            <date>2014-04-16</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Назаров Андрей Викторович</fio>
+            <innfl>166101759300</innfl>
+            <position>Директор</position>
+            <date>2014-04-16</date>
+            <firstDate>2014-04-16</firstDate>
+          </head>
+          <head>
+            <fio>Потапов Сергей Анатольевич</fio>
+            <innfl>166106775779</innfl>
+            <position>Директор</position>
+            <date>2015-03-17</date>
+            <firstDate>2015-03-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>2317078987</inn>
+    <ogrn>1152367005262</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1152367005262</focusHref>
+    <UL>
+      <kpp>231701001</kpp>
+      <okpo>29591387</okpo>
+      <okato>03426362000</okato>
+      <okfs>16</okfs>
+      <oktmo>03726000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "С ЛЮБОВЬЮ СОЧИ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "С ЛЮБОВЬЮ СОЧИ"</full>
+        <date>2015-11-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>354340</zipCode>
+          <kladrCode>230000070001645</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сочи</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Голубая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>158</topoValue>
+          </flat>
+          <houseRaw>ДОМ 16</houseRaw>
+          <bulkRaw>КОРПУС А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 158</flatRaw>
+        </parsedAddressRF>
+        <date>2016-03-28</date>
+        <firstDate>2015-11-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-06-14</date>
+      </status>
+      <registrationDate>2015-11-03</registrationDate>
+      <dissolutionDate>2019-06-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гайнанова Алина Равилевна</fio>
+          <innfl>166110513984</innfl>
+          <position>Директор</position>
+          <date>2017-03-17</date>
+          <firstDate>2017-03-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шатунов Андрей Сергеевич</fio>
+            <innfl>183112092601</innfl>
+            <position>Директор</position>
+            <date>2015-11-03</date>
+            <firstDate>2015-11-03</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>4217111271</inn>
+    <ogrn>1084217010723</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1084217010723</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>87498553</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГОР"</short>
+        <full>Общество с ограниченной ответственностью "ГОР"</full>
+        <date>2008-12-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654041</zipCode>
+          <kladrCode>420000120000868</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сеченова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>15</topoValue>
+          </flat>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>15</flatRaw>
+        </parsedAddressRF>
+        <date>2008-12-17</date>
+        <firstDate>2008-12-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-09-18</date>
+      </status>
+      <registrationDate>2008-12-17</registrationDate>
+      <dissolutionDate>2018-09-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гайнанова Алина Равилевна</fio>
+          <innfl>166110513984</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-04-21</date>
+          <firstDate>2017-04-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Саркисян Саркис Азатович</fio>
+            <innfl>190208253233</innfl>
+            <position>Генеральный Директор</position>
+            <date>2008-12-17</date>
+            <firstDate>2008-12-17</firstDate>
+          </head>
+          <head>
+            <fio>Нагорная Надежда Васильевна</fio>
+            <innfl>421401195024</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-05-30</date>
+            <firstDate>2016-05-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5505048116</inn>
+    <ogrn>1155543017145</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1155543017145</focusHref>
+    <UL>
+      <kpp>550501001</kpp>
+      <okpo>23747606</okpo>
+      <okato>52401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ФРЕШТОРГ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ФРЕШТОРГ"</full>
+        <date>2015-04-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644121</zipCode>
+          <kladrCode>550000010001302</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Труда</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>9</topoValue>
+          </flat>
+          <houseRaw>ДОМ 10</houseRaw>
+          <flatRaw>ОФИС 9</flatRaw>
+        </parsedAddressRF>
+        <date>2015-04-28</date>
+        <firstDate>2015-04-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-05-21</date>
+      </status>
+      <registrationDate>2015-04-28</registrationDate>
+      <dissolutionDate>2019-05-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2017-01-10</date>
+          <firstDate>2017-01-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Маторкин Евгений Николаевич</fio>
+            <innfl>550308438667</innfl>
+            <position>Директор</position>
+            <date>2015-04-28</date>
+            <firstDate>2015-04-28</firstDate>
+          </head>
+          <head>
+            <fio>Мазанов Евгений Викторович</fio>
+            <innfl>165602972885</innfl>
+            <position>Директор</position>
+            <date>2016-06-14</date>
+            <firstDate>2016-06-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5505050595</inn>
+    <ogrn>1155543045327</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1155543045327</focusHref>
+    <UL>
+      <kpp>550501001</kpp>
+      <okpo>23779747</okpo>
+      <okato>52401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ФРУКТСИТИ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ФРУКТСИТИ"</full>
+        <date>2015-11-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644058</zipCode>
+          <kladrCode>550000010000751</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Молодогвардейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>2А</topoValue>
+          </flat>
+          <houseRaw>ДОМ 12</houseRaw>
+          <flatRaw>ОФИС 2А</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-20</date>
+        <firstDate>2015-11-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-08-30</date>
+      </status>
+      <registrationDate>2015-11-20</registrationDate>
+      <dissolutionDate>2018-08-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гайнанова Алина Равилевна</fio>
+          <innfl>166110513984</innfl>
+          <position>Директор</position>
+          <date>2017-04-04</date>
+          <firstDate>2017-04-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Баканова Анна Сергеевна</fio>
+            <innfl>550731330810</innfl>
+            <position>Директор</position>
+            <date>2015-11-20</date>
+            <firstDate>2015-11-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5507113931</inn>
+    <ogrn>1155543037363</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1155543037363</focusHref>
+    <UL>
+      <kpp>550701001</kpp>
+      <okpo>23769625</okpo>
+      <okato>52401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОРЕЙС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВТОРЕЙС"</full>
+        <date>2015-09-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644119</zipCode>
+          <kladrCode>550000010001230</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Степанца</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>302</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>КВАРТИРА 302</flatRaw>
+        </parsedAddressRF>
+        <date>2015-09-29</date>
+        <firstDate>2015-09-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-02-08</date>
+      </status>
+      <registrationDate>2015-09-29</registrationDate>
+      <dissolutionDate>2019-02-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гайнанова Алина Равилевна</fio>
+          <innfl>166110513984</innfl>
+          <position>Директор</position>
+          <date>2017-04-04</date>
+          <firstDate>2017-04-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Баканов Антон Владимирович</fio>
+            <innfl>550724854683</innfl>
+            <position>Директор</position>
+            <date>2015-09-29</date>
+            <firstDate>2015-09-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5507251890</inn>
+    <ogrn>1145543045779</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1145543045779</focusHref>
+    <UL>
+      <kpp>550701001</kpp>
+      <okpo>23720004</okpo>
+      <okato>52401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "РУСЬ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РУСЬ"</full>
+        <date>2014-11-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644112</zipCode>
+          <kladrCode>550000010001230</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Степанца</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>40П</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>ПОМ 40 П</flatRaw>
+        </parsedAddressRF>
+        <date>2014-11-13</date>
+        <firstDate>2014-11-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-08-31</date>
+      </status>
+      <registrationDate>2014-11-13</registrationDate>
+      <dissolutionDate>2018-08-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Парамонова Надежда Сергеевна</fio>
+          <innfl>165608682389</innfl>
+          <position>Директор</position>
+          <date>2017-02-06</date>
+          <firstDate>2017-02-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Ничитайлов Максим Николаевич</fio>
+            <innfl>550408645057</innfl>
+            <position>Директор</position>
+            <date>2014-11-13</date>
+            <firstDate>2014-11-13</firstDate>
+          </head>
+          <head>
+            <fio>Мазанов Евгений Викторович</fio>
+            <innfl>165602972885</innfl>
+            <position>Директор</position>
+            <date>2016-06-14</date>
+            <firstDate>2016-06-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5507252269</inn>
+    <ogrn>1145543047781</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1145543047781</focusHref>
+    <UL>
+      <kpp>550701001</kpp>
+      <okpo>23722606</okpo>
+      <okato>52401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "БЕРКУТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БЕРКУТ"</full>
+        <date>2014-11-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644103</zipCode>
+          <kladrCode>550000010006170</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Транссибирская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1/5</topoValue>
+          </flat>
+          <houseRaw>ДОМ 6</houseRaw>
+          <bulkRaw>КОРПУС 2</bulkRaw>
+          <flatRaw>ОФИС 1/5</flatRaw>
+        </parsedAddressRF>
+        <date>2014-11-27</date>
+        <firstDate>2014-11-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-05-21</date>
+      </status>
+      <registrationDate>2014-11-27</registrationDate>
+      <dissolutionDate>2019-05-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2017-01-10</date>
+          <firstDate>2017-01-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шапран Дмитрий Станиславович</fio>
+            <innfl>551202088904</innfl>
+            <position>Директор</position>
+            <date>2014-11-27</date>
+            <firstDate>2014-11-27</firstDate>
+          </head>
+          <head>
+            <fio>Карягин Сергей Анатольевич</fio>
+            <innfl>166011760132</innfl>
+            <position>Директор</position>
+            <date>2016-01-20</date>
+            <firstDate>2016-01-20</firstDate>
+          </head>
+          <head>
+            <fio>Мазанов Евгений Викторович</fio>
+            <innfl>165602972885</innfl>
+            <position>Директор</position>
+            <date>2016-06-14</date>
+            <firstDate>2016-06-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5803026929</inn>
+    <ogrn>1155803001089</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1155803001089</focusHref>
+    <UL>
+      <kpp>580301001</kpp>
+      <okpo>27742600</okpo>
+      <okato>56240831001</okato>
+      <okfs>16</okfs>
+      <oktmo>56640431101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГРОИНВЕСТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АГРОИНВЕСТ"</full>
+        <date>2015-10-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>442513</zipCode>
+          <kladrCode>580150000300009</kladrCode>
+          <regionCode>58</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Пензенская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Кузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Пионер</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Полевая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>ДОМ 17</houseRaw>
+        </parsedAddressRF>
+        <date>2015-10-09</date>
+        <firstDate>2015-10-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-03-28</date>
+      </status>
+      <registrationDate>2015-10-09</registrationDate>
+      <dissolutionDate>2019-03-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2016-12-30</date>
+          <firstDate>2016-12-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Мичалин Петр Федорович</fio>
+            <innfl>580302916676</innfl>
+            <position>Директор</position>
+            <date>2016-11-07</date>
+            <firstDate>2015-10-09</firstDate>
+          </head>
+          <head>
+            <fio>Якунин Вячеслав Иванович</fio>
+            <innfl>638177596005</innfl>
+            <position>Директор</position>
+            <date>2016-11-21</date>
+            <firstDate>2016-11-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>6312079536</inn>
+    <ogrn>1086312000774</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1086312000774</focusHref>
+    <UL>
+      <kpp>631301001</kpp>
+      <okpo>83712784</okpo>
+      <okato>36401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701315000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Волга"</short>
+        <full>Общество с ограниченной ответственностью "Волга"</full>
+        <date>2008-02-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443028</zipCode>
+          <kladrCode>630000010001283</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Московское (п Мехзавод)</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>75</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>416</topoValue>
+          </flat>
+          <houseRaw>20</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 75</bulkRaw>
+          <flatRaw>ОФИС 416</flatRaw>
+        </parsedAddressRF>
+        <date>2012-02-10</date>
+        <firstDate>2012-02-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-02-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Галяутдинов Адель Асхатович</fio>
+          <innfl>165610918680</innfl>
+          <position>Директор</position>
+          <date>2017-01-31</date>
+          <firstDate>2017-01-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>631201001</kpp>
+            <date>2008-02-19</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>443051</zipCode>
+              <regionCode>63</regionCode>
+              <regionName>
+                <topoValue>Самарская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Самара</topoValue>
+              </city>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Ракитовское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>38</topoValue>
+              </house>
+              <bulk>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>38</houseRaw>
+              <bulkRaw>А</bulkRaw>
+            </parsedAddressRF>
+            <date>2008-02-14</date>
+            <firstDate>2008-02-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Залунин Александр Алексеевич</fio>
+            <innfl>631901030054</innfl>
+            <position>Директор</position>
+            <date>2011-02-10</date>
+            <firstDate>2011-02-10</firstDate>
+          </head>
+          <head>
+            <fio>Сиротин Алексей Павлович</fio>
+            <innfl>631303226519</innfl>
+            <position>Директор</position>
+            <date>2012-01-25</date>
+            <firstDate>2012-01-25</firstDate>
+          </head>
+          <head>
+            <fio>Самыкин Владимир Владимирович</fio>
+            <innfl>631103718055</innfl>
+            <position>Директор</position>
+            <date>2012-05-15</date>
+            <firstDate>2012-05-15</firstDate>
+          </head>
+          <head>
+            <fio>Пыресев Игорь Юрьевич</fio>
+            <innfl>635000422350</innfl>
+            <position>Директор</position>
+            <date>2014-07-23</date>
+            <firstDate>2014-07-23</firstDate>
+          </head>
+          <head>
+            <fio>Калашников Евгений Юрьевич</fio>
+            <innfl>633064146510</innfl>
+            <position>Директор</position>
+            <date>2015-09-17</date>
+            <firstDate>2015-09-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>8602216114</inn>
+    <ogrn>1148602004385</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1148602004385</focusHref>
+    <UL>
+      <kpp>784101001</kpp>
+      <okpo>32730823</okpo>
+      <okato>40298000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40910000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СЕВЕРЦЕМЕНТ"</short>
+        <full>Общество с ограниченной ответственностью "СЕВЕРЦЕМЕНТ"</full>
+        <date>2014-06-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>191028</zipCode>
+          <kladrCode>780000000000715</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Литейный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>помещение 9н офис 2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 34</houseRaw>
+          <bulkRaw>ЛИТЕР Б</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 9Н ОФИС 2</flatRaw>
+        </parsedAddressRF>
+        <date>2017-08-24</date>
+        <firstDate>2017-08-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-20</date>
+      </status>
+      <registrationDate>2014-06-09</registrationDate>
+      <dissolutionDate>2019-08-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Першина Ольга Павловна</fio>
+          <innfl>290214088580</innfl>
+          <position>Директор</position>
+          <date>2017-09-04</date>
+          <firstDate>2017-09-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>781101001</kpp>
+            <date>2017-08-16</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>860201001</kpp>
+            <date>2014-06-10</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>192029</zipCode>
+              <kladrCode>780000000000944</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Ольги Берггольц</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>корп</topoShortName>
+                <topoFullName>корпус</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>кв</topoShortName>
+                <topoFullName>квартира</topoFullName>
+                <topoValue>199</topoValue>
+              </flat>
+              <houseRaw>ДОМ 9</houseRaw>
+              <bulkRaw>КОРПУС 1</bulkRaw>
+              <flatRaw>КВАРТИРА 199</flatRaw>
+            </parsedAddressRF>
+            <date>2017-08-15</date>
+            <firstDate>2017-08-15</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>628406</zipCode>
+              <kladrCode>860000100000001</kladrCode>
+              <regionCode>86</regionCode>
+              <regionName>
+                <topoShortName>ао</topoShortName>
+                <topoFullName>автономный округ</topoFullName>
+                <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Сургут</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>30 лет Победы</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>58</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>213</topoValue>
+              </flat>
+              <houseRaw>58</houseRaw>
+              <flatRaw>ОФИС 213</flatRaw>
+            </parsedAddressRF>
+            <date>2014-06-09</date>
+            <firstDate>2014-06-09</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Хоменко Игорь Анатольевич</fio>
+            <innfl>860205416803</innfl>
+            <position>Директор</position>
+            <date>2014-06-09</date>
+            <firstDate>2014-06-09</firstDate>
+          </head>
+          <head>
+            <fio>Кузьменко Людмила Леонидовна</fio>
+            <innfl>781128856894</innfl>
+            <position>Директор</position>
+            <date>2017-08-03</date>
+            <firstDate>2017-08-03</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

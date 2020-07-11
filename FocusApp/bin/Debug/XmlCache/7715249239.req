@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7715249239</inn>
+    <ogrn>1027739717862</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739717862</focusHref>
+    <UL>
+      <kpp>771501001</kpp>
+      <okpo>54900421</okpo>
+      <okato>45280569000</okato>
+      <okfs>16</okfs>
+      <oktmo>45357000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Адком техно"</short>
+        <full>Общество с ограниченной ответственностью "Адком техно"</full>
+        <date>2002-12-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127018</zipCode>
+          <kladrCode>770000000003213</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ямская 2-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6/8</topoValue>
+          </house>
+          <flat>
+            <topoValue>307</topoValue>
+          </flat>
+          <houseRaw>6 /8</houseRaw>
+          <flatRaw>307</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-06</date>
+        <firstDate>2002-12-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-08-07</date>
+      </status>
+      <registrationDate>2000-10-30</registrationDate>
+      <dissolutionDate>2017-08-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Морозов Сергей Владимирович</fio>
+          <innfl>330400669361</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-03-04</date>
+          <firstDate>2004-03-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

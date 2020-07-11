@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7535010650</inn>
+    <ogrn>1027501172478</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027501172478</focusHref>
+    <UL>
+      <kpp>753601001</kpp>
+      <okpo>46988198</okpo>
+      <okato>76401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>76701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АВТОМОСТ-ЧИТА"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО ЧИТИНСКАЯ МОСТОСТРОИТЕЛЬНАЯ ФИРМА "АВТОМОСТ"</full>
+        <date>2018-04-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>672014</zipCode>
+          <kladrCode>750000010000821</kladrCode>
+          <regionCode>75</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Забайкальский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Чита</topoValue>
+          </city>
+          <street>
+            <topoShortName>тракт</topoShortName>
+            <topoFullName>тракт</topoFullName>
+            <topoValue>Романовский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>41</topoValue>
+          </house>
+          <houseRaw>41</houseRaw>
+        </parsedAddressRF>
+        <date>2007-09-25</date>
+        <firstDate>2007-09-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2018-09-17</date>
+      </status>
+      <registrationDate>1997-09-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Ярыгин Юрий Николаевич</fio>
+          <innfl>800112280083</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2018-09-17</date>
+          <firstDate>2018-09-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "Автомост-Чита"</short>
+            <full>Закрытое акционерное общество Читинская Мостостроительная фирма "Автомост"</full>
+            <date>2007-09-25</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Ломако Олег Валерьевич</fio>
+            <innfl>753602971101</innfl>
+            <position>Директор</position>
+            <date>2018-04-24</date>
+            <firstDate>2018-04-24</firstDate>
+          </head>
+          <head>
+            <fio>Шаденок Дмитрий Александрович</fio>
+            <innfl>753604119485</innfl>
+            <position>Директор</position>
+            <date>2018-08-24</date>
+            <firstDate>2011-06-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

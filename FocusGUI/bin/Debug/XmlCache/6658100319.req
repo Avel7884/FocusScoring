@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658100319</inn>
+    <ogrn>1026602321107</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602321107</focusHref>
+    <UL>
+      <kpp>667201001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Поли-Колор"</short>
+        <full>Общество с ограниченной ответственностью "Поли-Колор"</full>
+        <date>2003-05-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620100</zipCode>
+          <kladrCode>660000010001003</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>тракт</topoShortName>
+            <topoFullName>тракт</topoFullName>
+            <topoValue>Сибирский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+          <bulkRaw>--</bulkRaw>
+          <flatRaw>--</flatRaw>
+        </parsedAddressRF>
+        <date>2003-05-07</date>
+        <firstDate>2003-05-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-03-02</date>
+      </status>
+      <registrationDate>1999-07-22</registrationDate>
+      <dissolutionDate>2007-03-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Зайцев Андрей Юрьевич</fio>
+          <innfl>667114272615</innfl>
+          <position>Директор</position>
+          <date>2003-05-07</date>
+          <firstDate>2003-05-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

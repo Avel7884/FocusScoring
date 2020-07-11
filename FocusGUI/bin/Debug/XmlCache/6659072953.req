@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6659072953</inn>
+    <ogrn>1026602970250</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602970250</focusHref>
+    <UL>
+      <kpp>665901001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Газ-Инвест-Прод"</short>
+        <full>Общество с ограниченной ответственностью "Газ-Инвест-Прод"</full>
+        <date>2002-12-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620141</zipCode>
+          <kladrCode>660000010000092</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Артинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>39З</topoValue>
+          </flat>
+          <houseRaw>23</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>39З</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-11</date>
+        <firstDate>2002-12-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-03-16</date>
+      </status>
+      <registrationDate>2001-10-02</registrationDate>
+      <dissolutionDate>2007-03-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кирилова Ирина Николаевна</fio>
+          <innfl>666007146090</innfl>
+          <position>Директор</position>
+          <date>2002-12-11</date>
+          <firstDate>2002-12-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2466133828</inn>
+    <ogrn>1052466191942</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1052466191942</focusHref>
+    <UL>
+      <kpp>246601001</kpp>
+      <okopf>81</okopf>
+      <opf>Учреждения</opf>
+      <legalName>
+        <full>Агентство транспорта, связи и дорожного хозяйства администрации Красноярского края</full>
+        <date>2007-09-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660009</zipCode>
+          <kladrCode>240000010000366</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>125</topoValue>
+          </house>
+          <houseRaw>125</houseRaw>
+        </parsedAddressRF>
+        <date>2005-11-15</date>
+        <firstDate>2005-11-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-09-17</date>
+      </status>
+      <registrationDate>2005-11-15</registrationDate>
+      <dissolutionDate>2008-09-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Михалкина Наталья Николаевна</fio>
+          <innfl>246513158362</innfl>
+          <position>Временно замещающая должность руководителя агентства транспорта, связи и дорожного хозяйства администрации Красноярского края</position>
+          <date>2007-09-20</date>
+          <firstDate>2007-09-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

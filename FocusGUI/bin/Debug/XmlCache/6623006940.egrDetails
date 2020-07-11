@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>6623006940</inn>
+    <ogrn>1026600009897</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026600009897</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2002-12-26</ogrnDate>
+        <regName>Главное управление Министерства юстиции Российской Федерации по Свердловской области</regName>
+      </regInfo>
+      <nalogRegBody>
+        <kpp>662301001</kpp>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6658</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Верх-Исетскому району г.Екатеринбурга</nalogName>
+        <date>2015-10-08</date>
+      </regBody>
+      <statedCapital />
+      <successors>
+        <successor>
+          <name>Фонд "Еврейский Общинно - Благотворительный Центр "Хэсэд-Алеф"</name>
+          <ogrn>1036601235923</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2036611220314</grn>
+          <date>2003-05-28</date>
+          <name>Прекращение деятельности своего ЮЛ при слиянии</name>
+          <regName>Инспекция МНС России по г.Нижнему Тагилу Свердловской Области</regName>
+          <regCode>6623</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>66 000433367</serialNumber>
+              <date>2003-05-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1026600009897</grn>
+          <date>2002-12-26</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Свердловской Области</regName>
+          <regCode>6600</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>66 003025015</serialNumber>
+              <date>2002-12-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

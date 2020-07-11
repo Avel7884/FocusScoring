@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217055041</inn>
+    <ogrn>1024201474098</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201474098</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>16371715</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Авто-стоп"</short>
+        <full>Закрытое акционерное общество "Авто-стоп"</full>
+        <date>2002-12-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654066</zipCode>
+          <kladrCode>420000120001157</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Октябрьский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>53</topoValue>
+          </house>
+          <houseRaw>53</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-02</date>
+        <firstDate>2002-12-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-02-08</date>
+      </status>
+      <registrationDate>2002-12-02</registrationDate>
+      <dissolutionDate>2012-02-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сафонов Александр Михайлович</fio>
+          <innfl>422000502488</innfl>
+          <position>Директор</position>
+          <date>2002-12-02</date>
+          <firstDate>2002-12-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

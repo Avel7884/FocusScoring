@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>422210130927</inn>
+    <ogrn>318420500101451</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=318420500101451</focusHref>
+    <IP>
+      <okpo>0140590846</okpo>
+      <pfrRegNumber>052019053428</pfrRegNumber>
+      <fssRegNumber>421510275442153</fssRegNumber>
+      <okato>32415000000</okato>
+      <shortenedAddress>
+        <regionCode>42</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Кемеровская область - Кузбасс</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Калтан</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>47.25.1</code>
+          <text>Торговля розничная алкогольными напитками, включая пиво, в специализированных магазинах</text>
+          <date>2018-11-26</date>
+        </principalActivity>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2018-11-26</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>4222</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 5 по Кемеровской области</nalogName>
+        <nalogRegDate>2018-11-26</nalogRegDate>
+        <date>2019-10-14</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>4205</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Кемерово</nalogName>
+        <date>2018-11-26</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>419420501011712</grn>
+          <date>2019-10-14</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>419420501011352</grn>
+          <date>2019-10-14</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+          <documents>
+            <document>
+              <name>Р26001 заявление о прекращении деятельности ИП</name>
+              <date>2019-10-08</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>419420500982072</grn>
+          <date>2019-10-11</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>419420500503204</grn>
+          <date>2019-09-30</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>419420500354993</grn>
+          <date>2019-07-04</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>418420500635238</grn>
+          <date>2018-11-29</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>418420500628141</grn>
+          <date>2018-11-26</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>318420500101451</grn>
+          <date>2018-11-26</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Кемерово</regName>
+          <regCode>4205</regCode>
+          <documents>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина РФ</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-11-21</date>
+            </document>
+            <document>
+              <name>Р21001 заявление о регистрации ФЛ в качестве ИП</name>
+              <date>2018-11-21</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+</ArrayOfegrDetails>

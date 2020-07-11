@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6663066737</inn>
+    <ogrn>1136686012495</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1136686012495</focusHref>
+    <UL>
+      <kpp>666301001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <full>Общество с ограниченной ответственностью "Алма-центр"</full>
+        <date>2013-03-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620012</zipCode>
+          <kladrCode>660000010000667</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Машиностроителей</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19А</topoValue>
+          </house>
+          <flat>
+            <topoValue>14</topoValue>
+          </flat>
+          <houseRaw>19А</houseRaw>
+          <flatRaw>14</flatRaw>
+        </parsedAddressRF>
+        <date>2013-03-06</date>
+        <firstDate>2013-03-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-03-06</date>
+      </status>
+      <registrationDate>1998-11-10</registrationDate>
+      <dissolutionDate>2013-03-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Скутина Елена Юрьевна</fio>
+          <position>Руководитель Юридического Лица</position>
+          <date>2013-03-06</date>
+          <firstDate>2013-03-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7450024854</inn>
+    <ogrn>1027402820169</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027402820169</focusHref>
+    <UL>
+      <kpp>668601001</kpp>
+      <okpo>36893901</okpo>
+      <okato>65401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алемар"</short>
+        <full>Общество с ограниченной ответственностью "Алемар"</full>
+        <date>2007-01-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620042</zipCode>
+          <kladrCode>660000010001302</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Энтузиастов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <flat>
+            <topoValue>21</topoValue>
+          </flat>
+          <houseRaw>23</houseRaw>
+          <flatRaw>21</flatRaw>
+        </parsedAddressRF>
+        <date>2012-05-10</date>
+        <firstDate>2012-05-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Юридическое лицо находится в процессе реорганизации в форме присоединения к другому юридическому лицу</statusString>
+        <reorganizing>true</reorganizing>
+        <date>2012-10-30</date>
+      </status>
+      <registrationDate>1994-09-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Новиков Георгий Александрович</fio>
+          <innfl>162403831073</innfl>
+          <position>Директор</position>
+          <date>2018-01-15</date>
+          <firstDate>2018-01-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454038</zipCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Героев Танкограда</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <bulk>
+                <topoValue>п</topoValue>
+              </bulk>
+              <houseRaw>17</houseRaw>
+              <bulkRaw>п</bulkRaw>
+            </parsedAddressRF>
+            <date>2009-12-30</date>
+            <firstDate>2009-12-30</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Леонтьев Александр Леонидович</fio>
+            <innfl>745100473822</innfl>
+            <position>Директор</position>
+            <date>2007-01-15</date>
+            <firstDate>2007-01-15</firstDate>
+          </head>
+          <head>
+            <fio>Карелин Леонид Юрьевич</fio>
+            <innfl>668200149871</innfl>
+            <position>Директор</position>
+            <date>2012-07-12</date>
+            <firstDate>2012-07-12</firstDate>
+          </head>
+          <head>
+            <fio>Обогрелова Елена Александровна</fio>
+            <innfl>021700244906</innfl>
+            <position>Директор</position>
+            <date>2012-11-12</date>
+            <firstDate>2012-11-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4228009537</inn>
+    <ogrn>1054228012200</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054228012200</focusHref>
+    <UL>
+      <kpp>422801001</kpp>
+      <okpo>04162113</okpo>
+      <okato>32227557000</okato>
+      <okfs>14</okfs>
+      <oktmo>32627157051</oktmo>
+      <okogu>3300400</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Мундыбашского городского поселения</full>
+        <date>2010-10-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652900</zipCode>
+          <kladrCode>420120030000012</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Таштагольский</topoValue>
+          </district>
+          <city>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Мундыбаш</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <houseRaw>22</houseRaw>
+        </parsedAddressRF>
+        <date>2005-12-29</date>
+        <firstDate>2005-12-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-12-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Камольцев Владимир Васильевич</fio>
+          <innfl>422801026826</innfl>
+          <position>Глава Мундыбашского Городского Поселения</position>
+          <date>2016-02-24</date>
+          <firstDate>2015-11-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Федорко Сергей Васильевич</fio>
+            <innfl>422801001170</innfl>
+            <position>Глава администрации поселка Мундыбаш</position>
+            <date>2010-06-25</date>
+            <firstDate>2010-06-25</firstDate>
+          </head>
+          <head>
+            <fio>Черенков Евгений Николаевич</fio>
+            <innfl>422801128289</innfl>
+            <position>Глава Городского Поселения</position>
+            <date>2011-08-15</date>
+            <firstDate>2011-08-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

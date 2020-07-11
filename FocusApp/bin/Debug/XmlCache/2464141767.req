@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2464141767</inn>
+    <ogrn>1182468011494</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1182468011494</focusHref>
+    <UL>
+      <kpp>246401001</kpp>
+      <okpo>25333719</okpo>
+      <okato>04401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>04701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТАЛЛТРЕЙД-УРАЛ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕТАЛЛТРЕЙД-УРАЛ"</full>
+        <date>2018-02-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660093</zipCode>
+          <kladrCode>240000010000101</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академика Вавилова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>помещение 9 Кабинет 2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 1</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 9 КАБИНЕТ 2</flatRaw>
+        </parsedAddressRF>
+        <date>2018-02-20</date>
+        <firstDate>2018-02-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-02-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Бахметьев Павел Владимирович</fio>
+          <innfl>244501475405</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-02-20</date>
+          <firstDate>2018-02-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

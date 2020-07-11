@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205348283</inn>
+    <ogrn>1164205084020</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1164205084020</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>05862976</okpo>
+      <okato>32401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>32701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕДИАСОЮЗ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕДИАСОЮЗ"</full>
+        <date>2016-12-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650021</zipCode>
+          <kladrCode>420000090000605</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Стахановская 1-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>39А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>214</topoValue>
+          </flat>
+          <houseRaw>ДОМ 39А</houseRaw>
+          <flatRaw>ОФИС 214</flatRaw>
+        </parsedAddressRF>
+        <date>2016-12-07</date>
+        <firstDate>2016-12-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-12-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Лабушкина Евгения Николаевна</fio>
+          <innfl>420215214831</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-12-07</date>
+          <firstDate>2016-12-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

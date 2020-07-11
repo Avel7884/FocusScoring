@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2462207677</inn>
+    <ogrn>1092468019225</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1092468019225</focusHref>
+    <UL>
+      <kpp>246501001</kpp>
+      <okpo>60365191</okpo>
+      <okato>04401374000</okato>
+      <okfs>16</okfs>
+      <oktmo>04701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП "СЭС"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческое предприятие "Спец Электрод Сервис"</full>
+        <date>2009-05-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660111</zipCode>
+          <kladrCode>240000010000915</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пограничников</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>347</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 40</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 347</bulkRaw>
+        </parsedAddressRF>
+        <date>2017-08-25</date>
+        <firstDate>2017-08-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-04-19</date>
+      </status>
+      <registrationDate>2009-05-19</registrationDate>
+      <dissolutionDate>2019-04-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Заболуев Олег Николаевич</fio>
+          <innfl>246100162102</innfl>
+          <position>Директор</position>
+          <date>2017-07-11</date>
+          <firstDate>2009-05-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>246201001</kpp>
+            <date>2009-05-19</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>660031</zipCode>
+              <kladrCode>240000010000145</kladrCode>
+              <regionCode>24</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Красноярский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Красноярск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Глинки</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>37Д</topoValue>
+              </house>
+              <bulk>
+                <topoValue>3</topoValue>
+              </bulk>
+              <houseRaw>37 "Д"</houseRaw>
+              <bulkRaw>3</bulkRaw>
+            </parsedAddressRF>
+            <date>2009-05-19</date>
+            <firstDate>2009-05-19</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

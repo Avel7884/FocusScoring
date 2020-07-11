@@ -1,0 +1,164 @@
+﻿<Window x:Class="FocusGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FocusGUI"
+        xmlns:focusApp="clr-namespace:FocusApp;assembly=FocusApp"
+        mc:Ignorable="d"
+        Title="FocusScoring 0.5"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        d:DesignHeight="587"  d:DesignWidth="1089">
+    <!-- WindowState="Maximized"-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" /><!--
+            <ColumnDefinition Width="150" />-->
+            <ColumnDefinition Width="140*" MinWidth="340"/><!--
+            <ColumnDefinition Width="218*" MinWidth="140"/>-->
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="212*" /><!--
+            <ColumnDefinition Width="25*" />-->
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="34*" MinHeight="45"/>
+            <RowDefinition Height="31*" MinHeight="20"/>
+            <RowDefinition Height="23*" MinHeight="40"/>
+            <RowDefinition Height="30" MinHeight="30"/>
+            <RowDefinition Height="416*" MinHeight="200"/>
+            <RowDefinition MinHeight="26" Height="26*"/>
+        </Grid.RowDefinitions>
+        
+        
+        <Button Grid.Row="0" Grid.Column="0" Click="AddList_Click" Cursor="Hand" Background="{x:Null}" BorderBrush="#FFABADB3" BorderThickness="2,2,2,0" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="22" MinWidth="109" Width="150" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                <Image Source="pack://application:,,,/src/plus.png" Height="18" Width="18"/>
+                <TextBlock Text=" Создать список" Foreground="White"/>
+            </StackPanel>
+        </Button>
+        
+        <!--
+        <Border BorderBrush="#FF7DD4A0" Height="1" Grid.Row="2" Grid.ColumnSpan="8" VerticalAlignment="Top" Background="#FF7DD4A0"/>
+        -->
+        <!--
+        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="2" Background="#FF4D9068"/>
+        -->
+        <ListView Name="Lists" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="5" 
+                  Background="#FF4D9068" Foreground="White">
+            <ListView.Resources>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="ToolTip" Value="{Binding Description}"/>
+                </Style>
+                <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                </Style>
+            </ListView.Resources>
+            
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource myHeaderStyle}">
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Length}"/>
+                    
+                </GridView>
+            </ListView.View>
+            
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <!--
+                        <MenuItem Header="Выгрузить в Excel" Click="UnloadExcel_Click"></MenuItem>
+                        <MenuItem Header="Удалить" Click="DeleteList_Click"></MenuItem>
+                        <MenuItem Header="Переименовать" Click="Rename_Click"></MenuItem>
+                    -->
+                </ContextMenu>
+            </ListView.ContextMenu>
+        </ListView>
+
+        <!--<local:MarkersList x:Name="MarkersControl" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="5" />-->
+        <!--<GridSplitter Grid.Column="2" Width="5" HorizontalAlignment="Stretch" />-->
+        <!--Manager="{Binding ElementName=_this, Path=FocusManager}"
+        <ListView Name="Companies" Grid.Column="1" Grid.Row="1" Grid.RowSpan="5"></ListView>-->
+        <DataGrid Grid.Column="1" Grid.Row="1" Grid.RowSpan="5" x:Name="Companies">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataTemplate DataType="focusApp:DataEntry">
+                        <Image MinHeight="16" MinWidth="16" MaxHeight="16" MaxWidth="16" Source="{Binding Path=ShieldCode}"/>
+                    </DataTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        
+        <ListView Grid.Column="1" Grid.Row="1" Grid.RowSpan="5" x:Name="Companies_T">
+            <!--<ListView.ContextMenu>
+                <ContextMenu>
+                    ~1~
+                    <MenuItem Header="Проверить" Click="Check_Context"/>
+                    @1@
+                    ~1~ <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/> @1@
+                    <MenuItem Header="Удалить" Click="DeleteCompany_Context"/>
+                </ContextMenu>
+            </ListView.ContextMenu>-->
+            <ListView.View>
+                <GridView>
+                    <!--<GridViewColumn CellTemplateSelector="local:DataBaseTemplateSelector">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="focusApp:DataEntry" Source>
+                                ~1~<Image MinHeight="16" MinWidth="16" MaxHeight="16" MaxWidth="16" Source="{Binding Path=ShieldCode}">@1@
+                                </Image>
+                                <Image.Source>
+                                    <Binding ConverterParameter="CLight">
+                                        <Binding.Converter>
+                                            <local:EntryToParameterConverter />
+                                        </Binding.Converter>
+                                    </Binding>
+                                </Image.Source>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>-->
+                    <!--
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Inn}">Инн</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="150">Компания</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Score}">Рейтинг</GridViewColumn>-->
+                </GridView>
+            </ListView.View>
+        </ListView>
+        
+        <GridSplitter Grid.Column="2" Grid.Row="3" Grid.RowSpan="3" Width="5" HorizontalAlignment="Stretch" />
+        <ListView Name="Markers" Grid.Column="3" Grid.Row="1" Grid.RowSpan="5"></ListView>
+        
+        <!--
+        <DockPanel Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Button Name="CheckButton"  
+                    FontSize="16" Foreground="White"
+                    HorizontalAlignment="Right" VerticalAlignment="Center" Height="45" Width="160" Click="ListCheck_OnClick" Background="#FF7DD4A0"/>
+        </DockPanel>-->
+        
+        <!--<DockPanel Grid.Row="5" Grid.ColumnSpan="8">
+            <TextBlock Name="KeyCounter" Text="Ключ: использовано" VerticalAlignment="Center"/>
+            <Menu HorizontalAlignment="Right">
+                <Menu.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <DockPanel HorizontalAlignment="Stretch"/>
+                    </ItemsPanelTemplate>
+                </Menu.ItemsPanel>
+                <MenuItem Header="Настройки"  FontSize="14" HorizontalAlignment="Left">
+                    <MenuItem.Icon>
+                        <Image Source="pack://application:,,,/src/stt.png"/>
+                    </MenuItem.Icon>
+                    <MenuItem Click="AllMarkers_OnClick" Header="Маркеры">
+                        <MenuItem.Icon>
+                            <Image Source="pack://application:,,,/src/flag.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Click="FocusWindowShow" Header="Основные настройки">
+                        <MenuItem.Icon>
+                            <Image Source="pack://application:,,,/src/key.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+        </DockPanel>-->
+
+    </Grid>
+</Window>

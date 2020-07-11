@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6661087146</inn>
+    <ogrn>1036603985098</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603985098</focusHref>
+    <UL>
+      <kpp>666101001</kpp>
+      <okpo>52310939</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Фирма "АВИС"</short>
+        <full>Общество с ограниченной ответственностью "Фирма "АВИС"</full>
+        <date>2003-01-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620142</zipCode>
+          <kladrCode>660000010001068</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Степана Разина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <flat>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>НЕТ</bulkRaw>
+          <flatRaw>2</flatRaw>
+        </parsedAddressRF>
+        <date>2003-01-21</date>
+        <firstDate>2003-01-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-09-01</date>
+      </status>
+      <registrationDate>1999-11-09</registrationDate>
+      <dissolutionDate>2011-09-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Иконникова Светлана Михайловна</fio>
+          <innfl>667405918124</innfl>
+          <position>Генеральный директор</position>
+          <date>2003-01-21</date>
+          <firstDate>2003-01-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>620000</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Екатеринбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Разина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <flat>
+                <topoValue>2</topoValue>
+              </flat>
+              <houseRaw>17</houseRaw>
+              <bulkRaw>нет</bulkRaw>
+              <flatRaw>2</flatRaw>
+            </parsedAddressRF>
+            <date>2003-01-21</date>
+            <firstDate>2003-01-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>666400156537</inn>
+    <ogrn>304667412700010</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304667412700010</focusHref>
+    <IP>
+      <fio>Аветисян Аветис Вазгенович</fio>
+      <okpo>0081733720</okpo>
+      <okato>65401390000</okato>
+      <okogu>49015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1996-07-11</registrationDate>
+      <dissolutionDate>2009-01-30</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-01-30</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

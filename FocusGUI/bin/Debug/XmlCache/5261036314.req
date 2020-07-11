@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5261036314</inn>
+    <ogrn>1035205637081</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035205637081</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>13912748</okpo>
+      <okato>22401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГОМОНТАЖ"</short>
+        <full>Общество с ограниченной ответственностью "ЭНЕРГОМОНТАЖ"</full>
+        <date>2003-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603028</zipCode>
+          <kladrCode>520000010000690</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Московское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Г</topoValue>
+          </bulk>
+          <houseRaw>52</houseRaw>
+          <bulkRaw>Г</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-03-05</date>
+        <firstDate>2013-03-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2018-06-29</date>
+      </status>
+      <registrationDate>2003-01-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Леонтьев Александр Юрьевич</fio>
+          <innfl>526223089747</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2018-07-23</date>
+          <firstDate>2018-07-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>526101001</kpp>
+            <date>2004-12-30</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603009</zipCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Пятигорская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4Б</topoValue>
+              </house>
+              <houseRaw>4Б</houseRaw>
+            </parsedAddressRF>
+            <date>2010-02-05</date>
+            <firstDate>2010-02-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Архипов Игорь Николаевич</fio>
+            <innfl>525703269307</innfl>
+            <position>Директор</position>
+            <date>2010-02-05</date>
+            <firstDate>2010-02-05</firstDate>
+          </head>
+          <head>
+            <fio>Понина Валентина Александровна</fio>
+            <innfl>525905010410</innfl>
+            <position>Исполнительный Директор</position>
+            <date>2013-11-25</date>
+            <firstDate>2013-11-25</firstDate>
+          </head>
+          <head>
+            <fio>Грязнов Юрий Александрович</fio>
+            <innfl>525700762610</innfl>
+            <position>Ликвидатор</position>
+            <date>2018-04-16</date>
+            <firstDate>2014-11-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

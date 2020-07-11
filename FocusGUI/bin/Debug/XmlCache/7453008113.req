@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7453008113</inn>
+    <ogrn>1027403892823</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027403892823</focusHref>
+    <UL>
+      <kpp>771501001</kpp>
+      <okpo>21540446</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Фирма "АКВА"</short>
+        <full>Общество с ограниченной ответственностью "Фирма "АКВА"</full>
+        <date>2002-12-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127018</zipCode>
+          <kladrCode>770000000003783</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Полковая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>4</topoValue>
+          </bulk>
+          <houseRaw>3</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 4</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-12-16</date>
+        <firstDate>2010-12-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-07-03</date>
+      </status>
+      <registrationDate>2002-12-24</registrationDate>
+      <dissolutionDate>2012-07-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Береснев Виктор Максимович</fio>
+          <innfl>741854834304</innfl>
+          <position>Директор</position>
+          <date>2010-11-30</date>
+          <firstDate>2010-11-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

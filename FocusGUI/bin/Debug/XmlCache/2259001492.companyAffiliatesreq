@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2259001492</inn>
+    <ogrn>1092210000101</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1092210000101</focusHref>
+    <UL>
+      <kpp>225901001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГРОПРОМ"</short>
+        <full>Общество с ограниченной ответственностью "АГРОПРОМ"</full>
+        <date>2009-01-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658870</zipCode>
+          <kladrCode>220300000010001</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Гальбштадт</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Восточная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <houseRaw>40</houseRaw>
+        </parsedAddressRF>
+        <date>2009-01-16</date>
+        <firstDate>2009-01-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-01-16</date>
+      </status>
+      <registrationDate>1997-11-12</registrationDate>
+      <dissolutionDate>2009-01-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гузь Сергей Васильевич</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2009-01-16</date>
+          <firstDate>2009-01-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>658870</zipCode>
+              <kladrCode>220300000010001</kladrCode>
+              <regionCode>22</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Алтайский</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Немецкий Национальный</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>с</topoShortName>
+                <topoFullName>село</topoFullName>
+                <topoValue>Гальбштадт</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Восточная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>40</topoValue>
+              </house>
+              <houseRaw>40</houseRaw>
+            </parsedAddressRF>
+            <date>2009-01-16</date>
+            <firstDate>2009-01-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

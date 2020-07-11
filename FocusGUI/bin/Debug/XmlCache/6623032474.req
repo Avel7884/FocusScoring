@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623032474</inn>
+    <ogrn>1069623032753</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1069623032753</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>96405026</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алекс"</short>
+        <full>Общество с ограниченной ответственностью "Алекс"</full>
+        <date>2006-06-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622002</zipCode>
+          <kladrCode>660000230000581</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Фрунзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>38</topoValue>
+          </house>
+          <houseRaw>38</houseRaw>
+        </parsedAddressRF>
+        <date>2006-06-28</date>
+        <firstDate>2006-06-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-10-26</date>
+      </status>
+      <registrationDate>2006-06-28</registrationDate>
+      <dissolutionDate>2012-10-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Белоусов Эдуард Валерьевич</fio>
+          <innfl>662330313923</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-11-23</date>
+          <firstDate>2009-11-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

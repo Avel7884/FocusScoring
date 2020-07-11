@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7708154723</inn>
+    <ogrn>5157746279170</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5157746279170</focusHref>
+    <UL>
+      <kpp>770801001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АВЕНТАЛ ООО</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВЕНТАЛ"</full>
+        <date>2015-12-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107140</zipCode>
+          <kladrCode>770000000000651</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Красносельский 1-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <houseRaw>3</houseRaw>
+        </parsedAddressRF>
+        <date>2015-12-30</date>
+        <firstDate>2015-12-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-12-30</date>
+      </status>
+      <registrationDate>2015-12-30</registrationDate>
+      <dissolutionDate>2015-12-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кудряшова Александра Сергеевна</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2015-12-30</date>
+          <firstDate>2015-12-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

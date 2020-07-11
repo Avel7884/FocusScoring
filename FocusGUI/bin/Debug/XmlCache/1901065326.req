@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1901065326</inn>
+    <ogrn>1041901024450</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1041901024450</focusHref>
+    <UL>
+      <kpp>190101001</kpp>
+      <okpo>71518628</okpo>
+      <okato>95401000000</okato>
+      <okfs>12</okfs>
+      <oktmo>95701000001</oktmo>
+      <okogu>1318025</okogu>
+      <okopf>75104</okopf>
+      <opf>Федеральные государственные казенные учреждения</opf>
+      <legalName>
+        <short>УФССП России по Республике Хакасия</short>
+        <full>Управление Федеральной службы судебных приставов по Республике Хакасия</full>
+        <date>2007-06-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655000</zipCode>
+          <kladrCode>190000010000030</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абакан</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вяткина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <houseRaw>12</houseRaw>
+        </parsedAddressRF>
+        <date>2004-12-21</date>
+        <firstDate>2004-12-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-12-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Романова Алёна Анатольевна</fio>
+          <innfl>701714272522</innfl>
+          <position>Руководитель Управления-Главный Судебный Пристав</position>
+          <date>2018-01-18</date>
+          <firstDate>2018-01-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Ильясов Радик Мударисович</fio>
+            <innfl>027718413514</innfl>
+            <position>Руководитель Управления-главный судебный пристав</position>
+            <date>2009-04-06</date>
+            <firstDate>2009-04-06</firstDate>
+          </head>
+          <head>
+            <fio>Конгаров Иван Павлович</fio>
+            <innfl>720403786300</innfl>
+            <position>Руководитель Управления - Главный Судебный Пристав</position>
+            <date>2012-12-14</date>
+            <firstDate>2012-12-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>9</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

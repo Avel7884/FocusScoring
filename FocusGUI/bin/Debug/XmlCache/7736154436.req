@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7736154436</inn>
+    <ogrn>5077746437918</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5077746437918</focusHref>
+    <UL>
+      <kpp>773601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автостройкомплект"</short>
+        <full>Общество с ограниченной ответственностью "Автостройкомплект"</full>
+        <date>2007-03-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119296</zipCode>
+          <kladrCode>770000000000924</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вавилова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>60</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>60</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-03-30</date>
+        <firstDate>2007-03-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-04-02</date>
+      </status>
+      <registrationDate>1996-05-21</registrationDate>
+      <dissolutionDate>2007-04-02</dissolutionDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

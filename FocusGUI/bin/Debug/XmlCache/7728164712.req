@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7728164712</inn>
+    <ogrn>1037739471384</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739471384</focusHref>
+    <UL>
+      <kpp>772801001</kpp>
+      <okpo>47359228</okpo>
+      <okato>45293554000</okato>
+      <okfs>16</okfs>
+      <oktmo>45397000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Аква Лого"</short>
+        <full>Закрытое акционерное общество "Аква Лого"</full>
+        <date>2003-02-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117312</zipCode>
+          <kladrCode>770000000002987</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ферсмана</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <houseRaw>9</houseRaw>
+        </parsedAddressRF>
+        <date>2006-12-29</date>
+        <firstDate>2006-12-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-10-03</date>
+      </status>
+      <registrationDate>1997-10-27</registrationDate>
+      <dissolutionDate>2016-10-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кутасова Татьяна Викторовна</fio>
+          <innfl>784100522801</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-12-29</date>
+          <firstDate>2006-12-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

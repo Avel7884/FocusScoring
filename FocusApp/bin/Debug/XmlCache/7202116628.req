@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7202116628</inn>
+    <ogrn>1037200611612</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037200611612</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>14868831</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "СИБУРТЮМЕНЬГАЗ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "СИБУРТЮМЕНЬГАЗ"</full>
+        <date>2015-04-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628616</zipCode>
+          <kladrCode>860000110000057</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Омская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>ДОМ 1</houseRaw>
+        </parsedAddressRF>
+        <date>2015-12-31</date>
+        <firstDate>2007-03-21</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>РЕГИОНАЛЬНЫЙ ЦЕНТР ОБЕСПЕЧЕНИЯ ПРОИЗВОДСТВА - ФИЛИАЛ АКЦИОНЕРНОГО ОБЩЕСТВА "СИБУРТЮМЕНЬГАЗ"</name>
+          <parsedAddressRF>
+            <zipCode>628600</zipCode>
+            <regionCode>86</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Нижневартовск</topoValue>
+            </city>
+          </parsedAddressRF>
+          <date>2015-04-22</date>
+        </branch>
+        <branch>
+          <name>ПРОИЗВОДСТВЕННАЯ ФИРМА "ЗАПСИБТРАНСГАЗ" - ФИЛИАЛ АКЦИОНЕРНОГО ОБЩЕСТВА "СИБУРТЮМЕНЬГАЗ"</name>
+          <parsedAddressRF>
+            <zipCode>628616</zipCode>
+            <kladrCode>860000110000057</kladrCode>
+            <regionCode>86</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Нижневартовск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Омская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>1</topoValue>
+            </house>
+            <houseRaw>ДОМ 1</houseRaw>
+          </parsedAddressRF>
+          <date>2015-12-08</date>
+        </branch>
+        <branch>
+          <name>"ГУБКИНСКИЙ ГАЗОПЕРЕРАБАТЫВАЮЩИЙ ЗАВОД" - ФИЛИАЛ АКЦИОНЕРНОГО ОБЩЕСТВА "СИБУРТЮМЕНЬГАЗ"</name>
+          <parsedAddressRF>
+            <zipCode>629830</zipCode>
+            <kladrCode>89000002016</kladrCode>
+            <regionCode>89</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ямало-Ненецкий</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Губкинский</topoValue>
+            </city>
+            <settlement>
+              <topoShortName>п</topoShortName>
+              <topoFullName>поселок</topoFullName>
+              <topoValue>Промышленная зона</topoValue>
+            </settlement>
+          </parsedAddressRF>
+          <date>2015-12-08</date>
+        </branch>
+        <branch>
+          <name>"ВЫНГАПУРОВСКИЙ ГАЗОПЕРЕРАБАТЫВАЮЩИЙ ЗАВОД" - ФИЛИАЛ АКЦИОНЕРНОГО ОБЩЕСТВА "СИБУРТЮМЕНЬГАЗ"</name>
+          <parsedAddressRF>
+            <zipCode>629850</zipCode>
+            <kladrCode>89004000028</kladrCode>
+            <regionCode>89</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ямало-Ненецкий</topoValue>
+            </regionName>
+            <district>
+              <topoShortName>р-н</topoShortName>
+              <topoFullName>район</topoFullName>
+              <topoValue>Пуровский</topoValue>
+            </district>
+            <settlement>
+              <topoShortName>тер</topoShortName>
+              <topoFullName>территория</topoFullName>
+              <topoValue>Вынгапуровское ГКМ</topoValue>
+            </settlement>
+          </parsedAddressRF>
+          <date>2015-12-08</date>
+        </branch>
+        <branch>
+          <name>"МУРАВЛЕНКОВСКИЙ ГАЗОПЕРЕРАБАТЫВАЮЩИЙ ЗАВОД" - ФИЛИАЛ АКЦИОНЕРНОГО ОБЩЕСТВА "СИБУРТЮМЕНЬГАЗ"</name>
+          <parsedAddressRF>
+            <zipCode>629850</zipCode>
+            <kladrCode>89004000043</kladrCode>
+            <regionCode>89</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ямало-Ненецкий</topoValue>
+            </regionName>
+            <district>
+              <topoShortName>р-н</topoShortName>
+              <topoFullName>район</topoFullName>
+              <topoValue>Пуровский</topoValue>
+            </district>
+            <settlement>
+              <topoShortName>тер</topoShortName>
+              <topoFullName>территория</topoFullName>
+              <topoValue>Суторминское ГКМ</topoValue>
+            </settlement>
+          </parsedAddressRF>
+          <date>2015-12-08</date>
+        </branch>
+        <branch>
+          <name>"ЮЖНО-БАЛЫКСКИЙ ГАЗОПЕРЕРАБАТЫВАЮЩИЙ ЗАВОД" - ФИЛИАЛ АКЦИОНЕРНОГО ОБЩЕСТВА "СИБУРТЮМЕНЬГАЗ"</name>
+          <parsedAddressRF>
+            <zipCode>628387</zipCode>
+            <kladrCode>860000070000147</kladrCode>
+            <regionCode>86</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Пыть-Ях</topoValue>
+            </city>
+            <street>
+              <topoShortName>мкр</topoShortName>
+              <topoFullName>микрорайон</topoFullName>
+              <topoValue>7-й</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>7</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>корп</topoShortName>
+              <topoFullName>корпус</topoFullName>
+              <topoValue>А</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 7</houseRaw>
+            <bulkRaw>КОРПУС А</bulkRaw>
+          </parsedAddressRF>
+          <date>2015-12-08</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ АКЦИОНЕРНОГО ОБЩЕСТВА "СИБУРТЮМЕНЬГАЗ" - "БЕЛОЗЕРНЫЙ ГАЗОПЕРЕРАБАТЫВАЮЩИЙ ЗАВОД"</name>
+          <parsedAddressRF>
+            <zipCode>628600</zipCode>
+            <regionCode>86</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+            </regionName>
+            <district>
+              <topoShortName>р-н</topoShortName>
+              <topoFullName>район</topoFullName>
+              <topoValue>Нижневартовский</topoValue>
+            </district>
+            <house>
+              <topoValue>Улица 62 км Автодороги Нижневартовск-Радужный</topoValue>
+            </house>
+            <houseRaw>УЛИЦА 62 КМ АВТОДОРОГИ НИЖНЕВАРТОВСК-РАДУЖНЫЙ</houseRaw>
+          </parsedAddressRF>
+          <date>2017-08-31</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ АКЦИОНЕРНОГО ОБЩЕСТВА "СИБУРТЮМЕНЬГАЗ" - "НЯГАНЬГАЗПЕРЕРАБОТКА"</name>
+          <parsedAddressRF>
+            <zipCode>628181</zipCode>
+            <kladrCode>860000050000177</kladrCode>
+            <regionCode>86</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Нягань</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>29 км а/д Нягань-Талинка</topoValue>
+            </street>
+            <house>
+              <topoValue>Строение 39</topoValue>
+            </house>
+            <houseRaw>СТРОЕНИЕ 39</houseRaw>
+          </parsedAddressRF>
+          <date>2017-08-31</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ АКЦИОНЕРНОГО ОБЩЕСТВА "СИБУРТЮМЕНЬГАЗ" - "НИЖНЕВАРТОВСКИЙ ГАЗОПЕРЕРАБАТЫВАЮЩИЙ ЗАВОД"</name>
+          <parsedAddressRF>
+            <zipCode>628606</zipCode>
+            <kladrCode>86000011000</kladrCode>
+            <regionCode>86</regionCode>
+            <regionName>
+              <topoShortName>ао</topoShortName>
+              <topoFullName>автономный округ</topoFullName>
+              <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Нижневартовск</topoValue>
+            </city>
+            <house>
+              <topoValue>Улица Р-Н НВ ГПЗ</topoValue>
+            </house>
+            <houseRaw>УЛИЦА Р-Н НВ ГПЗ</houseRaw>
+          </parsedAddressRF>
+          <date>2017-08-31</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-06-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Тепляков Александр Николаевич</fio>
+          <innfl>860304434994</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-03-21</date>
+          <firstDate>2010-12-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО "СибурТюменьГаз"</short>
+            <full>Открытое акционерное общество "СибурТюменьГаз"</full>
+            <date>2013-02-07</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Лим Борис Валерьевич</fio>
+            <innfl>503901514603</innfl>
+            <position>Генеральный директор</position>
+            <date>2009-01-11</date>
+            <firstDate>2009-01-11</firstDate>
+          </head>
+          <head>
+            <fio>Должиков Александр Сергеевич</fio>
+            <innfl>890504029618</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-12-02</date>
+            <firstDate>2014-12-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>18</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

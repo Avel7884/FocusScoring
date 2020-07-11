@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6659124520</inn>
+    <ogrn>1056603196682</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1056603196682</focusHref>
+    <UL>
+      <kpp>667801001</kpp>
+      <okpo>77921532</okpo>
+      <okato>65401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО НПО "РИК КОММ"</short>
+        <full>Общество с ограниченной ответственностью Научно-производственное объединение "РИК КОММ"</full>
+        <date>2011-04-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620050</zipCode>
+          <kladrCode>660000010000992</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Седова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25</topoValue>
+          </house>
+          <flat>
+            <topoValue>98</topoValue>
+          </flat>
+          <houseRaw>25</houseRaw>
+          <flatRaw>98</flatRaw>
+        </parsedAddressRF>
+        <date>2008-09-16</date>
+        <firstDate>2008-09-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-07-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Абдраманов Олег Ильич</fio>
+          <innfl>760213975859</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-04-01</date>
+          <firstDate>2014-04-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>665901001</kpp>
+            <date>2005-07-13</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Цыганцов Евгений Геннадьевич</fio>
+            <innfl>660300042278</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-04-06</date>
+            <firstDate>2011-04-06</firstDate>
+          </head>
+          <head>
+            <fio>Калинин Георгий Николаевич</fio>
+            <innfl>660600028764</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-08-17</date>
+            <firstDate>2012-08-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

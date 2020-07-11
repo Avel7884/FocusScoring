@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6450070834</inn>
+    <ogrn>1036405032333</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036405032333</focusHref>
+    <UL>
+      <kpp>645201001</kpp>
+      <okpo>70312505</okpo>
+      <okato>63401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>63701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агрегат"</short>
+        <full>Общество с ограниченной ответственностью "Агрегат"</full>
+        <date>2003-08-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>410005</zipCode>
+          <kladrCode>640000010001344</kladrCode>
+          <regionCode>64</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Саратовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Саратов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Университетская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>109</topoValue>
+          </house>
+          <houseRaw>ДОМ 109</houseRaw>
+        </parsedAddressRF>
+        <date>2015-08-14</date>
+        <firstDate>2015-08-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-08-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Тутубалин Николай Владимирович</fio>
+          <innfl>645493061383</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-02-08</date>
+          <firstDate>2017-02-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>645001001</kpp>
+            <date>2008-05-07</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>410002</zipCode>
+              <kladrCode>640000010000093</kladrCode>
+              <regionCode>64</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Саратовская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Саратов</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Бабушкин Взвоз</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <houseRaw>1</houseRaw>
+            </parsedAddressRF>
+            <date>2010-07-27</date>
+            <firstDate>2010-07-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Тупиков Константин Павлович</fio>
+            <innfl>645503455333</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-10-21</date>
+            <firstDate>2010-10-21</firstDate>
+          </head>
+          <head>
+            <fio>Сергеенко Алексей Викторович</fio>
+            <innfl>645294042717</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-05-27</date>
+            <firstDate>2015-05-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

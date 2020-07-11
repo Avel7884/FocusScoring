@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5261031002</inn>
+    <ogrn>1025203563021</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203563021</focusHref>
+    <UL>
+      <kpp>526101001</kpp>
+      <okpo>57844605</okpo>
+      <okato>22401376000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛМИНА"</short>
+        <full>Общество с ограниченной ответственностью "АЛМИНА"</full>
+        <date>2002-09-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603009</zipCode>
+          <kladrCode>520000010001144</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Углова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>4</topoValue>
+          </flat>
+          <houseRaw>6</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ №4</flatRaw>
+        </parsedAddressRF>
+        <date>2010-07-08</date>
+        <firstDate>2010-07-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-08-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Евстафьева Надежда Владимировна</fio>
+          <innfl>526100007208</innfl>
+          <position>Директор</position>
+          <date>2008-08-04</date>
+          <firstDate>2008-08-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>21</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

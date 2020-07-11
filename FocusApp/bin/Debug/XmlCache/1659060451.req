@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1659060451</inn>
+    <ogrn>1051672000214</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1051672000214</focusHref>
+    <UL>
+      <kpp>165901001</kpp>
+      <okpo>78698734</okpo>
+      <okato>92401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энерго-Теплоконтроль"</short>
+        <full>Общество с ограниченной ответственностью "Энерго-Теплоконтроль"</full>
+        <date>2009-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420054</zipCode>
+          <kladrCode>160000010001525</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Владимира Кулагина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2009-08-21</date>
+        <firstDate>2009-08-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-11-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Чеканов Артем Геннадьевич</fio>
+          <innfl>165910725023</innfl>
+          <position>Директор</position>
+          <date>2019-07-07</date>
+          <firstDate>2007-06-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

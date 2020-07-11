@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6661101760</inn>
+    <ogrn>1026605241497</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605241497</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>56969747</okpo>
+      <okato>45286555000</okato>
+      <okfs>16</okfs>
+      <oktmo>45375000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автосалон МС"</short>
+        <full>Общество с ограниченной ответственностью "Автосалон МС"</full>
+        <date>2002-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105062</zipCode>
+          <kladrCode>770000000001292</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Жуковского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>6</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2011-06-06</date>
+        <firstDate>2011-06-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-09-12</date>
+      </status>
+      <registrationDate>2001-02-21</registrationDate>
+      <dissolutionDate>2019-09-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Рябинина Наталья Сергеевна</fio>
+          <innfl>667330150072</innfl>
+          <position>Директор</position>
+          <date>2011-05-27</date>
+          <firstDate>2011-05-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

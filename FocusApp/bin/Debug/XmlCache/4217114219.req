@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217114219</inn>
+    <ogrn>1094217002472</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1094217002472</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>89925506</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МеталлТрейдСибирь"</short>
+        <full>Общество с ограниченной ответственностью "МеталлТрейдСибирь"</full>
+        <date>2014-02-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654006</zipCode>
+          <kladrCode>420000120001166</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чайкиной</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>106</topoValue>
+          </flat>
+          <houseRaw>ДОМ 2 А</houseRaw>
+          <flatRaw>ОФИС 106</flatRaw>
+        </parsedAddressRF>
+        <date>2014-02-05</date>
+        <firstDate>2014-02-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-04-07</date>
+      </status>
+      <registrationDate>2009-04-08</registrationDate>
+      <dissolutionDate>2015-04-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Скопинцев Юрий Владимирович</fio>
+          <innfl>422002441625</innfl>
+          <position>Директор</position>
+          <date>2010-05-13</date>
+          <firstDate>2010-05-13</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>654080</zipCode>
+              <kladrCode>420000120000419</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Кирова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>133</topoValue>
+              </house>
+              <houseRaw>133</houseRaw>
+            </parsedAddressRF>
+            <date>2010-03-15</date>
+            <firstDate>2010-03-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

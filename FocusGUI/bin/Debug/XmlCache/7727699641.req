@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7727699641</inn>
+    <ogrn>1097746589995</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097746589995</focusHref>
+    <UL>
+      <kpp>773101001</kpp>
+      <okpo>63629176</okpo>
+      <okato>45268569000</okato>
+      <okfs>16</okfs>
+      <oktmo>45321000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Планета-СМ"</short>
+        <full>Общество с ограниченной ответственностью "Планета-СМ"</full>
+        <date>2009-10-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121596</zipCode>
+          <kladrCode>770000000001117</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Горбунова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>204</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>43</topoValue>
+          </flat>
+          <houseRaw>ДОМ 2</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 204</bulkRaw>
+          <flatRaw>КОМНАТА 43</flatRaw>
+        </parsedAddressRF>
+        <date>2018-07-19</date>
+        <firstDate>2018-07-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-10-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Лабутьев Сергей Владимирович</fio>
+          <innfl>771901620502</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-04-11</date>
+          <firstDate>2009-10-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772701001</kpp>
+            <date>2009-10-02</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>117218</zipCode>
+              <kladrCode>770000000001610</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Кржижановского</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15</topoValue>
+              </house>
+              <bulk>
+                <topoValue>7</topoValue>
+              </bulk>
+              <houseRaw>15</houseRaw>
+              <bulkRaw>7</bulkRaw>
+            </parsedAddressRF>
+            <date>2009-10-02</date>
+            <firstDate>2009-10-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

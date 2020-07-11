@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3816006066</inn>
+    <ogrn>1033801969530</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033801969530</focusHref>
+    <UL>
+      <kpp>381601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Азейское ОПТУ"</short>
+        <full>Общество с ограниченной ответственностью "Азейское объединенное погрузочно-транспортное управление"</full>
+        <date>2003-01-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>665259</zipCode>
+          <kladrCode>380000100000003</kladrCode>
+          <regionCode>38</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Иркутская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тулун</topoValue>
+          </city>
+          <street>
+            <topoShortName>мкр</topoShortName>
+            <topoFullName>микрорайон</topoFullName>
+            <topoValue>Угольщиков</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22А</topoValue>
+          </house>
+          <houseRaw>22 А</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-16</date>
+        <firstDate>2003-01-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-12-07</date>
+      </status>
+      <registrationDate>2003-01-16</registrationDate>
+      <dissolutionDate>2006-12-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Крымский Иван Казимирович</fio>
+          <innfl>380807183023</innfl>
+          <position>Руководитель</position>
+          <date>2004-07-21</date>
+          <firstDate>2004-07-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6633001002</inn>
+    <ogrn>1036602080668</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036602080668</focusHref>
+    <UL>
+      <kpp>663301001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Сухоложский цемент"</short>
+        <full>Закрытое акционерное общество "Сухоложский цемент"</full>
+        <date>2003-02-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624800</zipCode>
+          <kladrCode>660000350000012</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сухой Лог</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Артиллеристов</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2003-02-18</date>
+        <firstDate>2003-02-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-04-04</date>
+      </status>
+      <registrationDate>1999-10-20</registrationDate>
+      <dissolutionDate>2005-04-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лутков Сегей Валентинович</fio>
+          <innfl>663300169216</innfl>
+          <position>Председатель ликвидационной комиссии</position>
+          <date>2003-02-18</date>
+          <firstDate>2003-02-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2463094401</inn>
+    <ogrn>1152468024224</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1152468024224</focusHref>
+    <UL>
+      <kpp>246301001</kpp>
+      <okpo>39703232</okpo>
+      <okato>04401371000</okato>
+      <okfs>16</okfs>
+      <oktmo>04701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТАЛЛТОРГ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕТАЛЛТОРГ"</full>
+        <date>2015-05-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660061</zipCode>
+          <kladrCode>240000010000246</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Калинина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>53А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>309</topoValue>
+          </flat>
+          <houseRaw>ДОМ 53 А</houseRaw>
+          <flatRaw>ОФИС 309</flatRaw>
+        </parsedAddressRF>
+        <date>2015-05-15</date>
+        <firstDate>2015-05-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-05-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Иващенко Наталия Игоревна</fio>
+          <innfl>380470390460</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-02-12</date>
+          <firstDate>2015-05-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5263095202</inn>
+    <ogrn>1125263006263</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1125263006263</focusHref>
+    <UL>
+      <kpp>526301001</kpp>
+      <okpo>25541300</okpo>
+      <okato>22401382000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКФ "МеталлЭксперт"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "МеталлЭксперт"</full>
+        <date>2012-10-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603158</zipCode>
+          <kladrCode>520000010000341</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Зайцева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>78</topoValue>
+          </flat>
+          <houseRaw>ДОМ 21</houseRaw>
+          <flatRaw>КВАРТИРА 78</flatRaw>
+        </parsedAddressRF>
+        <date>2015-07-16</date>
+        <firstDate>2015-07-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-03-21</date>
+      </status>
+      <registrationDate>2012-10-25</registrationDate>
+      <dissolutionDate>2018-03-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Диева Дарья Владимировна</fio>
+          <innfl>526318365226</innfl>
+          <position>Комерческий директор</position>
+          <date>2012-10-25</date>
+          <firstDate>2012-10-25</firstDate>
+        </head>
+        <head>
+          <fio>Русаков Алексей Владимирович</fio>
+          <innfl>524910596727</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-10-25</date>
+          <firstDate>2012-10-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603037</zipCode>
+              <kladrCode>520000010001123</kladrCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Торфяная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>30</topoValue>
+              </house>
+              <houseRaw>30</houseRaw>
+            </parsedAddressRF>
+            <date>2012-10-25</date>
+            <firstDate>2012-10-25</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

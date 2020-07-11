@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2222045888</inn>
+    <ogrn>1042202362421</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1042202362421</focusHref>
+    <UL>
+      <kpp>222201001</kpp>
+      <legalName>
+        <short>АКООИБГ "ГЕМО"</short>
+        <full>АЛТАЙСКАЯ КРАЕВАЯ ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ ИНВАЛИДОВ БОЛЬНЫХ ГЕМОФИЛИЕЙ "ГЕМО"</full>
+        <date>2004-08-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656057</zipCode>
+          <kladrCode>220000010000611</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сухэ-Батора</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>34</topoValue>
+          </flat>
+          <houseRaw>20</houseRaw>
+          <bulkRaw>2</bulkRaw>
+          <flatRaw>34</flatRaw>
+        </parsedAddressRF>
+        <date>2004-08-17</date>
+        <firstDate>2004-08-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-07-07</date>
+      </status>
+      <registrationDate>2004-08-17</registrationDate>
+      <dissolutionDate>2008-07-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Михайлов Сергей Николаевич</fio>
+          <innfl>222211297850</innfl>
+          <position>Председатель Правления</position>
+          <date>2004-08-17</date>
+          <firstDate>2004-08-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

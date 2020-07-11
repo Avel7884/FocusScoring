@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658099092</inn>
+    <ogrn>1026602330666</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602330666</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АБРИС" ООИ "ММЦ"</short>
+        <full>Общество с ограниченной ответственностью "АБРИС" Общественной организации инвалидов "Межрегиональный методологический центр"</full>
+        <date>2002-11-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620109</zipCode>
+          <kladrCode>660000010000368</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <flat>
+            <topoValue>100</topoValue>
+          </flat>
+          <houseRaw>27</houseRaw>
+          <flatRaw>100</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-12</date>
+        <firstDate>2002-11-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2003-07-04</date>
+      </status>
+      <registrationDate>1999-06-17</registrationDate>
+      <dissolutionDate>2003-07-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Плеханов Владимир Прокопьевич</fio>
+          <innfl>667350085801</innfl>
+          <position>Директор</position>
+          <date>2002-11-12</date>
+          <firstDate>2002-11-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7710237014</inn>
+    <ogrn>1027739115161</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739115161</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>46431923</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛЬБИОН-2"</short>
+        <full>Общество с ограниченной ответственностью "АЛЬБИОН-2"</full>
+        <date>2002-08-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123557</zipCode>
+          <kladrCode>770000000002905</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Тишинский Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <bulk>
+            <topoValue>13-14</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>XII</topoValue>
+          </flat>
+          <houseRaw>26</houseRaw>
+          <bulkRaw>13-14</bulkRaw>
+          <flatRaw>ПОМ. XII</flatRaw>
+        </parsedAddressRF>
+        <date>2010-08-24</date>
+        <firstDate>2010-08-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-06-04</date>
+      </status>
+      <registrationDate>1997-04-03</registrationDate>
+      <dissolutionDate>2012-06-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Осипов Юрий Константинович</fio>
+          <innfl>773603447800</innfl>
+          <position>Председатель ликвидационной комиссии</position>
+          <date>2011-12-30</date>
+          <firstDate>2011-12-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Дашян Эрик Саркисович</fio>
+            <innfl>771308288115</innfl>
+            <position>Директор</position>
+            <date>2007-12-20</date>
+            <firstDate>2007-12-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

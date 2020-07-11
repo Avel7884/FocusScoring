@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0411113410</inn>
+    <ogrn>1030400756121</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1030400756121</focusHref>
+    <UL>
+      <kpp>041101001</kpp>
+      <okpo>14348333</okpo>
+      <okato>84401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>84701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Компания "Аврора"</short>
+        <full>Общество с ограниченной ответственностью "Компания "Аврора"</full>
+        <date>2003-07-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>649006</zipCode>
+          <kladrCode>040000010000044</kladrCode>
+          <regionCode>04</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Алтай</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Горно-Алтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Коммунистический</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>53</topoValue>
+          </house>
+          <houseRaw>53</houseRaw>
+        </parsedAddressRF>
+        <date>2003-07-04</date>
+        <firstDate>2003-07-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-01-25</date>
+      </status>
+      <registrationDate>2003-07-04</registrationDate>
+      <dissolutionDate>2019-01-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бердникова Юлия Николаевна</fio>
+          <innfl>771301043363</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-09-10</date>
+          <firstDate>2010-12-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

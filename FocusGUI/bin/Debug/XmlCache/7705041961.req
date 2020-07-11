@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705041961</inn>
+    <ogrn>1027700536258</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700536258</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>17468049</okpo>
+      <okato>45286560000</okato>
+      <okfs>41</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210001</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>АО "НПП "ЭНЕРГОСТРОЙПРОМ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "НАУЧНО-ПРОИЗВОДСТВЕННОЕ ПРЕДПРИЯТИЕ "ЭНЕРГОСТРОЙПРОМ"</full>
+        <date>2015-08-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115035</zipCode>
+          <kladrCode>770000000002144</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Садовническая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24</topoValue>
+          </house>
+          <houseRaw>24</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-17</date>
+        <firstDate>2002-12-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-01-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Горшков Валентин Тимофеевич</fio>
+          <innfl>770300521946</innfl>
+          <position>Генеральный Директор</position>
+          <date>2011-08-29</date>
+          <firstDate>2011-08-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО НПП "Энергостройпром"</short>
+            <full>Открытое акционерное общество "Научно-производственное предприятие "Энергостройпром"</full>
+            <date>2002-12-17</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Тодаренко Александр Юрьевич</fio>
+            <innfl>771410639702</innfl>
+            <position>Генеральный директор</position>
+            <date>2009-12-29</date>
+            <firstDate>2009-12-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

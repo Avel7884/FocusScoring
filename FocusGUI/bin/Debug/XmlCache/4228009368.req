@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4228009368</inn>
+    <ogrn>1054228011914</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054228011914</focusHref>
+    <UL>
+      <kpp>422801001</kpp>
+      <okpo>04161935</okpo>
+      <okato>32227817001</okato>
+      <okfs>14</okfs>
+      <oktmo>32627417101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Коуринского сельского поселения</full>
+        <date>2010-10-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652982</zipCode>
+          <kladrCode>420120000100005</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Таштагольский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Алтамаш</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Терешковой</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2005-12-23</date>
+        <firstDate>2005-12-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-12-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Балабанова Ольга Александровна</fio>
+          <innfl>271306576675</innfl>
+          <position>Глава Коуринского Сельского Поселения</position>
+          <date>2018-09-28</date>
+          <firstDate>2018-09-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Иванов Григорий Михайлович</fio>
+            <innfl>422803927664</innfl>
+            <position>Глава Коуринского Сельского Поселения</position>
+            <date>2008-07-30</date>
+            <firstDate>2008-07-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

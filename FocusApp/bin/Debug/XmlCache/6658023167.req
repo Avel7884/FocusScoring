@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658023167</inn>
+    <ogrn>1026605409291</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605409291</focusHref>
+    <UL>
+      <kpp>667201001</kpp>
+      <okpo>25051777</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Адэкс-принт"</short>
+        <full>Общество с ограниченной ответственностью "Адэкс-принт"</full>
+        <date>2002-11-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620137</zipCode>
+          <kladrCode>660000010000543</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноармейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>202</topoValue>
+          </flat>
+          <houseRaw>4</houseRaw>
+          <bulkRaw>Б</bulkRaw>
+          <flatRaw>202</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-15</date>
+        <firstDate>2002-11-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-04-11</date>
+      </status>
+      <registrationDate>1993-09-17</registrationDate>
+      <dissolutionDate>2014-04-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ежов Максим Александрович</fio>
+          <innfl>663903487064</innfl>
+          <position>Директор</position>
+          <date>2010-05-07</date>
+          <firstDate>2010-05-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

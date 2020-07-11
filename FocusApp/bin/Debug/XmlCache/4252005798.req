@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4252005798</inn>
+    <ogrn>1134252001553</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1134252001553</focusHref>
+    <UL>
+      <kpp>425201001</kpp>
+      <okpo>16710577</okpo>
+      <okato>32227562000</okato>
+      <okfs>16</okfs>
+      <oktmo>32627162051</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМК "ФЕНИКС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОЕКТНО-МОНТАЖНАЯ КОМПАНИЯ "ФЕНИКС"</full>
+        <date>2013-12-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652980</zipCode>
+          <kladrCode>420120040000016</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Таштагольский</topoValue>
+          </district>
+          <city>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Спасск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2013-12-12</date>
+        <firstDate>2013-12-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-12-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Шульмин Вадим Николаевич</fio>
+          <innfl>422803855113</innfl>
+          <position>Директор</position>
+          <date>2018-03-13</date>
+          <firstDate>2018-03-13</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Козюков Александр Владимирович</fio>
+            <innfl>421702656060</innfl>
+            <position>Директор</position>
+            <date>2013-12-12</date>
+            <firstDate>2013-12-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

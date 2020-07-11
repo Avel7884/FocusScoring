@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5257164828</inn>
+    <ogrn>1165275047475</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1165275047475</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>04625518</okpo>
+      <okato>22401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАСТТАЙМ Н"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛАСТТАЙМ Н"</full>
+        <date>2016-09-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603086</zipCode>
+          <kladrCode>520000010001451</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бетанкура</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>П8</topoValue>
+          </flat>
+          <houseRaw>ДОМ 2</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ П8</flatRaw>
+        </parsedAddressRF>
+        <date>2019-03-18</date>
+        <firstDate>2019-03-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-09-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Иванов Антон Дмитриевич</fio>
+          <innfl>525715334575</innfl>
+          <position>Директор</position>
+          <date>2016-09-19</date>
+          <firstDate>2016-09-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603159</zipCode>
+              <kladrCode>520000010000635</kladrCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Карла Маркса</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>22</topoValue>
+              </house>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>П14</topoValue>
+              </flat>
+              <houseRaw>ДОМ 22</houseRaw>
+              <flatRaw>ПОМЕЩЕНИЕ П14</flatRaw>
+            </parsedAddressRF>
+            <date>2016-09-19</date>
+            <firstDate>2016-09-19</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

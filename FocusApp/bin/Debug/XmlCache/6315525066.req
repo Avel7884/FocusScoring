@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6315525066</inn>
+    <ogrn>1026300957011</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026300957011</focusHref>
+    <UL>
+      <kpp>631501001</kpp>
+      <okpo>21204534</okpo>
+      <okato>36401383000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701325000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "999"</short>
+        <full>Общество с ограниченной ответственностью "999"</full>
+        <date>2002-08-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443096</zipCode>
+          <kladrCode>630000010000067</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Карла Маркса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <flat>
+            <topoValue>41</topoValue>
+          </flat>
+          <houseRaw>18</houseRaw>
+          <flatRaw>41</flatRaw>
+        </parsedAddressRF>
+        <date>2002-08-29</date>
+        <firstDate>2002-08-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-02-16</date>
+      </status>
+      <registrationDate>1996-03-06</registrationDate>
+      <dissolutionDate>2015-02-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Хроликов Сергей Владимирович</fio>
+          <innfl>631501413408</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-08-29</date>
+          <firstDate>2002-08-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

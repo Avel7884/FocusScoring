@@ -29,7 +29,7 @@ namespace FocusScoringGUI
 
         private TextBlock Key;
         private bool ListSetted;
-        public FocusKeyManager Manager { get; set; } //TODO Consider refactor to not have it here 
+        public FocusKey Manager { get; set; } //TODO Consider refactor to not have it here 
         //public ListsCache<CompanyData> CompaniesCache{ get; set; }
         //public ICompanyFactory CompanyFactory { get; set; }
         public MarkersList markersList;

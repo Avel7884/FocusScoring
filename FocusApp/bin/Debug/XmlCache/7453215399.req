@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7453215399</inn>
+    <ogrn>1107453002249</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107453002249</focusHref>
+    <UL>
+      <kpp>745301001</kpp>
+      <okpo>65705674</okpo>
+      <okato>75401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>75701390000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>НАО "АВК МЕТАЛЛ ГРУПП"</short>
+        <full>НЕПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "АВК МЕТАЛЛ ГРУПП"</full>
+        <date>2016-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454091</zipCode>
+          <kladrCode>740000010001016</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Труда</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>82</topoValue>
+          </house>
+          <flat>
+            <topoValue>6</topoValue>
+          </flat>
+          <houseRaw>82</houseRaw>
+          <flatRaw>6</flatRaw>
+        </parsedAddressRF>
+        <date>2010-03-10</date>
+        <firstDate>2010-03-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-05-29</date>
+      </status>
+      <registrationDate>2010-03-10</registrationDate>
+      <dissolutionDate>2019-05-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кошевых Алексей Владимирович</fio>
+          <innfl>662601458403</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-07</date>
+          <firstDate>2014-07-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "АВК Металл Групп"</short>
+            <full>Закрытое акционерное общество "АВК Металл Групп"</full>
+            <date>2010-03-10</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Рычков Сергей Вячеславович</fio>
+            <position>Генеральный директор</position>
+            <date>2010-04-16</date>
+            <firstDate>2010-04-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

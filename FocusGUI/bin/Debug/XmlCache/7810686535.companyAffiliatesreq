@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7810686535</inn>
+    <ogrn>1037835034412</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037835034412</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>43442607</okpo>
+      <okato>40296563000</okato>
+      <okfs>16</okfs>
+      <oktmo>40904000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Азимут"</short>
+        <full>Общество с ограниченной ответственностью "Азимут"</full>
+        <date>2003-03-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192071</zipCode>
+          <kladrCode>780000000000200</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Будапештская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>38</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>38</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-03-11</date>
+        <firstDate>2003-03-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-28</date>
+      </status>
+      <registrationDate>2000-11-30</registrationDate>
+      <dissolutionDate>2016-12-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Жиров Виктор Константинович</fio>
+          <innfl>780514931520</innfl>
+          <position>Генеральный директор</position>
+          <date>2003-03-11</date>
+          <firstDate>2003-03-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

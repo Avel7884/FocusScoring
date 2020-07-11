@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705133757</inn>
+    <ogrn>1027700000151</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700000151</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okpo>46420693</okpo>
+      <okato>45290590000</okato>
+      <okfs>23</okfs>
+      <oktmo>45395000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АВИЛОН АГ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АВИЛОН АВТОМОБИЛЬНАЯ ГРУППА"</full>
+        <date>2015-02-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109316</zipCode>
+          <kladrCode>770000000000013</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Волгоградский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>41</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>офис Правление</topoValue>
+          </flat>
+          <houseRaw>ДОМ 41</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+          <flatRaw>ОФИС ПРАВЛЕНИЕ</flatRaw>
+        </parsedAddressRF>
+        <date>2017-12-11</date>
+        <firstDate>2017-12-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1997-02-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Павлович Андрей Николаевич</fio>
+          <innfl>772731091561</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-08-28</date>
+          <firstDate>2004-06-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774901001</kpp>
+            <date>2009-12-25</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "Авилон АГ"</short>
+            <full>Закрытое акционерное общество "Авилон Автомобильная Группа"</full>
+            <date>2009-06-26</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>109316</zipCode>
+              <kladrCode>770000000000013</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Волгоградский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>43</topoValue>
+              </house>
+              <bulk>
+                <topoValue>3</topoValue>
+              </bulk>
+              <houseRaw>43</houseRaw>
+              <bulkRaw>3</bulkRaw>
+            </parsedAddressRF>
+            <date>2009-06-26</date>
+            <firstDate>2009-06-26</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>32</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

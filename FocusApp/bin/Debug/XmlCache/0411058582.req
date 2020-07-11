@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0411058582</inn>
+    <ogrn>1020400759873</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020400759873</focusHref>
+    <UL>
+      <kpp>041101001</kpp>
+      <okpo>49571010</okpo>
+      <okato>84401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>84701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ДАК"</short>
+        <full>Общество с ограниченной ответственностью "ДАК"</full>
+        <date>2010-12-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>649006</zipCode>
+          <kladrCode>040000010000045</kladrCode>
+          <regionCode>04</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Алтай</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Горно-Алтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Комсомольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <houseRaw>13</houseRaw>
+        </parsedAddressRF>
+        <date>2007-05-18</date>
+        <firstDate>2007-05-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-03-14</date>
+      </status>
+      <registrationDate>1999-01-21</registrationDate>
+      <dissolutionDate>2014-03-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Крутов Виталий Владимирович</fio>
+          <innfl>773414428569</innfl>
+          <position>Генеральный Директор</position>
+          <date>2010-12-07</date>
+          <firstDate>2010-12-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

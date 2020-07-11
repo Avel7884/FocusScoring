@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>Среди учредителей найдены иностранные лица</Name>
+  <Colour>Yellow</Colour>
+  <Description>Среди учредителей найдены иностранные лица</Description>
+  <Code>return company.GetParam("FoundersForeign") == "true"; </Code>
+</items>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2309062510</inn>
+    <ogrn>1022301206641</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022301206641</focusHref>
+    <UL>
+      <kpp>230801001</kpp>
+      <okpo>47469684</okpo>
+      <okato>03401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А и С плюс"</short>
+        <full>Общество с ограниченной ответственностью "А и С плюс"</full>
+        <date>2007-01-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350020</zipCode>
+          <kladrCode>230000010000341</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красных Партизан</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>559</topoValue>
+          </house>
+          <houseRaw>559</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-18</date>
+        <firstDate>2002-11-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-08-18</date>
+      </status>
+      <registrationDate>2002-05-28</registrationDate>
+      <dissolutionDate>2017-08-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Золотарев Алексей Федорович</fio>
+          <innfl>231100887752</innfl>
+          <position>Директор</position>
+          <date>2013-12-20</date>
+          <firstDate>2013-12-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Терещенко Жанна Александровна</fio>
+            <position>Директор</position>
+            <date>2011-05-10</date>
+            <firstDate>2011-05-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

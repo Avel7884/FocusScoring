@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5405347521</inn>
+    <ogrn>1075400003744</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075400003744</focusHref>
+    <UL>
+      <kpp>540501001</kpp>
+      <okpo>81141874</okpo>
+      <okato>50401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>93</okopf>
+      <opf>Объединения юридических лиц (ассоциации и союзы)</opf>
+      <legalName>
+        <short>СААД</short>
+        <full>Сибирская Ассоциация Автомобильных Дилеров</full>
+        <date>2007-06-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630102</zipCode>
+          <kladrCode>540000010000128</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Большевистская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2007-06-18</date>
+        <firstDate>2007-06-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация некоммерческой организации по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-07</date>
+      </status>
+      <registrationDate>2007-06-18</registrationDate>
+      <dissolutionDate>2017-12-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Невмовенко Михаил Анатольевич</fio>
+          <innfl>540717915988</innfl>
+          <position>Исполнительный директор</position>
+          <date>2007-06-18</date>
+          <firstDate>2007-06-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5410139774</inn>
+    <ogrn>1025403907968</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025403907968</focusHref>
+    <UL>
+      <kpp>541001001</kpp>
+      <okpo>57891088</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автолэнд - Сибирь"</short>
+        <full>Общество с ограниченной ответственностью "Автолэнд - Сибирь"</full>
+        <date>2007-11-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630027</zipCode>
+          <kladrCode>540000010000900</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Объединения</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>59</topoValue>
+          </house>
+          <houseRaw>59</houseRaw>
+        </parsedAddressRF>
+        <date>2006-08-10</date>
+        <firstDate>2006-08-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-12-26</date>
+      </status>
+      <registrationDate>2001-09-24</registrationDate>
+      <dissolutionDate>2012-12-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лебедев Сергей Викторович</fio>
+          <innfl>541007327447</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2010-03-04</date>
+          <firstDate>2010-03-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

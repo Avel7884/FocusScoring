@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1903000660</inn>
+    <ogrn>1021900697730</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021900697730</focusHref>
+    <UL>
+      <kpp>190301001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "АВИК"</short>
+        <full>Открытое акционерное общество "АВИК"</full>
+        <date>2007-07-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655152</zipCode>
+          <kladrCode>190000030000146</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Черногорск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Промышленная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>05А</topoValue>
+          </house>
+          <houseRaw>05 А</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-25</date>
+        <firstDate>2002-09-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-09-30</date>
+      </status>
+      <registrationDate>1992-11-23</registrationDate>
+      <dissolutionDate>2009-09-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Капутский Валерий Иванович</fio>
+          <innfl>190101252340</innfl>
+          <position>Исполняющий обязанности генерального директора</position>
+          <date>2009-05-27</date>
+          <firstDate>2009-05-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

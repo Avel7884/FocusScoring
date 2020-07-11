@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7303024275</inn>
+    <ogrn>1027301483153</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027301483153</focusHref>
+    <UL>
+      <kpp>732701001</kpp>
+      <okpo>25375209</okpo>
+      <okato>73401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>73701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Пламя"</short>
+        <full>Общество с ограниченной ответственностью "Пламя"</full>
+        <date>2002-10-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>432066</zipCode>
+          <kladrCode>730000010000559</kladrCode>
+          <regionCode>73</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ульяновская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ульяновск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рябикова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>47Б</topoValue>
+          </house>
+          <houseRaw>47Б</houseRaw>
+          <bulkRaw>---------</bulkRaw>
+          <flatRaw>--------</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-06</date>
+        <firstDate>2002-11-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-12-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Жирков Борис Александрович</fio>
+          <innfl>732700728703</innfl>
+          <position>Директор</position>
+          <date>2019-10-24</date>
+          <firstDate>2010-11-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

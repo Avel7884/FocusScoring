@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>4</Score>
+  <Name>Организация зарегистрирована более 5 лет тому назад</Name>
+  <Colour>Green</Colour>
+  <Description>Организация зарегистрирована более 5 лет тому назад</Description>
+  <Code>DateTime date;
+ return (DateTime.TryParse(company.GetParam("regDate"), out date) &amp;&amp; (DateTime.Today - date).Days &gt; 365 * 5 + 1);</Code>
+</items>

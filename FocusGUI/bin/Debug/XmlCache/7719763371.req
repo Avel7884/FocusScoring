@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7719763371</inn>
+    <ogrn>1107746891570</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746891570</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>68919022</okpo>
+      <okato>45290572000</okato>
+      <okfs>16</okfs>
+      <oktmo>45390000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АБИТУР Сервис"</short>
+        <full>Общество с ограниченной ответственностью "АБИТУР Сервис"</full>
+        <date>2010-11-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109144</zipCode>
+          <kladrCode>770000000000199</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Маршала Голованова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>37</topoValue>
+          </flat>
+          <houseRaw>ДОМ 19</houseRaw>
+          <flatRaw>ОФИС 37</flatRaw>
+        </parsedAddressRF>
+        <date>2016-10-05</date>
+        <firstDate>2014-05-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-06-25</date>
+      </status>
+      <registrationDate>2010-11-01</registrationDate>
+      <dissolutionDate>2018-06-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Никифоров Михаил Алексеевич</fio>
+          <innfl>505500221441</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-05-12</date>
+          <firstDate>2014-05-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771901001</kpp>
+            <date>2010-11-01</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>105613</zipCode>
+              <kladrCode>770000000001384</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Измайловское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>71</topoValue>
+              </house>
+              <bulk>
+                <topoValue>4гд</topoValue>
+              </bulk>
+              <houseRaw>71</houseRaw>
+              <bulkRaw>4ГД</bulkRaw>
+            </parsedAddressRF>
+            <date>2010-11-01</date>
+            <firstDate>2010-11-01</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Зыбковец Ирина Юрьевна</fio>
+            <position>Генеральный Директор</position>
+            <date>2010-11-01</date>
+            <firstDate>2010-11-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

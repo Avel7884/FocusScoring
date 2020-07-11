@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623103358</inn>
+    <ogrn>1146623004670</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1146623004670</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>36427932</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ - СТРОЙДЕТАЛЬ"</short>
+        <full>Общество с ограниченной ответственностью "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА - СТРОЙДЕТАЛЬ"</full>
+        <date>2014-06-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622002</zipCode>
+          <kladrCode>660000230000241</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноармейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>79</topoValue>
+          </house>
+          <houseRaw>79</houseRaw>
+        </parsedAddressRF>
+        <date>2014-06-27</date>
+        <firstDate>2014-06-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-07-31</date>
+      </status>
+      <registrationDate>2014-06-27</registrationDate>
+      <dissolutionDate>2019-07-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Севрюгин Владимир Сергеевич</fio>
+          <innfl>662332231296</innfl>
+          <position>Директор</position>
+          <date>2014-06-27</date>
+          <firstDate>2014-06-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

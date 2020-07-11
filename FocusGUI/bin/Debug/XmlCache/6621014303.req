@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6621014303</inn>
+    <ogrn>1076621001181</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076621001181</focusHref>
+    <UL>
+      <kpp>667901001</kpp>
+      <okpo>83439130</okpo>
+      <okato>65401390000</okato>
+      <okfs>42</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агрофирма"Северная"</short>
+        <full>Общество с ограниченной ответственностью "Агрофирма "Северная"</full>
+        <date>2007-11-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>623750</zipCode>
+          <kladrCode>660000010001118</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Титова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <bulk>
+            <topoValue>В</topoValue>
+          </bulk>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>В</bulkRaw>
+        </parsedAddressRF>
+        <date>2011-05-04</date>
+        <firstDate>2011-05-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-11-14</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "УПРАВЛЯЮЩАЯ КОМПАНИЯ ЛИДЕР"</name>
+          <inn>6682008233</inn>
+          <ogrn>1156682000694</ogrn>
+          <date>2015-05-08</date>
+          <firstDate>2015-05-08</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>667401001</kpp>
+            <date>2013-03-15</date>
+          </kppWithDate>
+        </kpps>
+        <managementCompanies>
+          <managementCompany>
+            <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "УПРАВЛЯЮЩАЯ КОМПАНИЯ "ЛАЙТ"</name>
+            <inn>6674379890</inn>
+            <ogrn>1116674011772</ogrn>
+            <date>2013-09-13</date>
+            <firstDate>2011-08-02</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Маруняк Игорь Анатольевич</fio>
+            <innfl>667205653008</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-01-18</date>
+            <firstDate>2010-01-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

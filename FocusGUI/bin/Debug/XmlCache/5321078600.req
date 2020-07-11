@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5321078600</inn>
+    <ogrn>1025300796290</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025300796290</focusHref>
+    <UL>
+      <kpp>532101001</kpp>
+      <okpo>54593172</okpo>
+      <okato>49401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>49701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А-Альтум"</short>
+        <full>Общество с ограниченной ответственностью "А-Альтум"</full>
+        <date>2005-12-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>173008</zipCode>
+          <kladrCode>530000010000232</kladrCode>
+          <regionCode>53</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Великий Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Сырковское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Здание Административное</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <bulkRaw>ЗДАНИЕ АДМИНИСТРАТИВНОЕ</bulkRaw>
+          <flatRaw>ЭТАЖ 2</flatRaw>
+        </parsedAddressRF>
+        <date>2019-09-27</date>
+        <firstDate>2019-09-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-09-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Журав Виталий Георгиевич</fio>
+          <innfl>532101958043</innfl>
+          <position>Генеральный Директор</position>
+          <date>2010-08-27</date>
+          <firstDate>2010-08-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>173008</zipCode>
+              <kladrCode>530000010000232</kladrCode>
+              <regionCode>53</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Новгородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Великий Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Сырковское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>3</topoValue>
+              </house>
+              <houseRaw>3</houseRaw>
+            </parsedAddressRF>
+            <date>2014-07-22</date>
+            <firstDate>2014-07-22</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>173008</zipCode>
+              <kladrCode>530000010000232</kladrCode>
+              <regionCode>53</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Новгородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Великий Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Сырковское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>10</topoValue>
+              </house>
+              <houseRaw>10</houseRaw>
+            </parsedAddressRF>
+            <date>2008-01-18</date>
+            <firstDate>2008-01-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

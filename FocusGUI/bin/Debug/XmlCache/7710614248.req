@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7710614248</inn>
+    <ogrn>1067746055299</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067746055299</focusHref>
+    <UL>
+      <kpp>771001001</kpp>
+      <okpo>93283427</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АБМС"</short>
+        <full>Общество с ограниченной ответственностью "АБМС"</full>
+        <date>2006-01-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125009</zipCode>
+          <kladrCode>770000000000603</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Страстной</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>4</houseRaw>
+          <bulkRaw>СТР.3</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-01-16</date>
+        <firstDate>2006-01-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-01-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Трушников Михаил Алексеевич</fio>
+          <innfl>591880265026</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-01-12</date>
+          <firstDate>2018-01-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бондарь Татьяна Юрьевна</fio>
+            <position>Генеральный директор</position>
+            <date>2006-01-16</date>
+            <firstDate>2006-01-16</firstDate>
+          </head>
+          <head>
+            <fio>Морева Екатерина Владимировна</fio>
+            <innfl>773389868490</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-08-09</date>
+            <firstDate>2011-08-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

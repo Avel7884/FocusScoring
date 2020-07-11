@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5902163443</inn>
+    <ogrn>1085902002230</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1085902002230</focusHref>
+    <UL>
+      <kpp>590201001</kpp>
+      <okpo>85070404</okpo>
+      <okato>57401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>57701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "УТПК"</short>
+        <full>Общество с ограниченной ответственностью "Уральская торгово-промышленная компания"</full>
+        <date>2008-02-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614045</zipCode>
+          <kladrCode>590000010000468</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сибирская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>этаж Цоколь</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 1</houseRaw>
+          <bulkRaw>ЭТАЖ ЦОКОЛЬ</bulkRaw>
+          <flatRaw>ОФИС 1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-08-28</date>
+        <firstDate>2018-08-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-02-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Кирикова Наталья Александровна</fio>
+          <innfl>590310185747</innfl>
+          <position>Управляющий - индивидуальный предприниматель</position>
+          <date>2015-03-20</date>
+          <firstDate>2015-03-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>614045</zipCode>
+              <kladrCode>590000010000468</kladrCode>
+              <regionCode>59</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Пермский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Пермь</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Сибирская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <houseRaw>1</houseRaw>
+            </parsedAddressRF>
+            <date>2008-02-29</date>
+            <firstDate>2008-02-29</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Гельфенбуйм Илья Исаакович</fio>
+            <innfl>590580075706</innfl>
+            <position>Директор</position>
+            <date>2008-02-29</date>
+            <firstDate>2008-02-29</firstDate>
+          </head>
+          <head>
+            <fio>Царегородцев Андрей Геннадьевич</fio>
+            <innfl>590612532154</innfl>
+            <position>Директор</position>
+            <date>2011-03-17</date>
+            <firstDate>2011-03-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4220026643</inn>
+    <ogrn>1044220005059</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1044220005059</focusHref>
+    <UL>
+      <kpp>422001001</kpp>
+      <okpo>74285857</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКВАДОМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АКВАДОМ"</full>
+        <date>2006-05-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654063</zipCode>
+          <kladrCode>420000120000977</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Трамвайная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+        </parsedAddressRF>
+        <date>2006-05-02</date>
+        <firstDate>2006-05-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-06-16</date>
+      </status>
+      <registrationDate>2004-08-16</registrationDate>
+      <dissolutionDate>2009-06-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шашков Сергей Федорович</fio>
+          <innfl>422330441378</innfl>
+          <position>Директор</position>
+          <date>2006-05-02</date>
+          <firstDate>2006-05-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

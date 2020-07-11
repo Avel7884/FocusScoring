@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5029226440</inn>
+    <ogrn>1175029029339</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1175029029339</focusHref>
+    <UL>
+      <kpp>502901001</kpp>
+      <okpo>20456073</okpo>
+      <okato>46446000000</okato>
+      <okfs>16</okfs>
+      <oktmo>46746000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ПРОМЫШЛЕННЫЙ ИНСТРУМЕНТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "ПРОМЫШЛЕННЫЙ ИНСТРУМЕНТ"</full>
+        <date>2017-12-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141009</zipCode>
+          <kladrCode>500000440000216</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Мытищи</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Первомайская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>62</topoValue>
+          </flat>
+          <houseRaw>ДОМ 27</houseRaw>
+          <flatRaw>КВАРТИРА 62</flatRaw>
+        </parsedAddressRF>
+        <date>2017-12-07</date>
+        <firstDate>2017-12-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-12-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Реутов Игорь Геннадьевич</fio>
+          <innfl>502909329505</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-12-07</date>
+          <firstDate>2017-12-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

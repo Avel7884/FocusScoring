@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2222857304</inn>
+    <ogrn>1172225014224</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1172225014224</focusHref>
+    <UL>
+      <kpp>222201001</kpp>
+      <okpo>14310313</okpo>
+      <okato>01401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>01701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТАЛЛУРГ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕТАЛЛУРГ"</full>
+        <date>2017-04-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656057</zipCode>
+          <kladrCode>220000010000611</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сухэ-Батора</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>33В</topoValue>
+          </house>
+          <houseRaw>ДОМ 33В</houseRaw>
+        </parsedAddressRF>
+        <date>2017-04-07</date>
+        <firstDate>2017-04-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-04-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Закаурцев Владимир Александрович</fio>
+          <innfl>227910459534</innfl>
+          <position>Директор</position>
+          <date>2017-04-07</date>
+          <firstDate>2017-04-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

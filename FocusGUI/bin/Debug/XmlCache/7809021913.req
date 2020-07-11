@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7809021913</inn>
+    <ogrn>1137847157326</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1137847157326</focusHref>
+    <UL>
+      <kpp>783901010</kpp>
+      <okopf>65000</okopf>
+      <opf>Унитарные предприятия</opf>
+      <legalName>
+        <full>Авэкс-Эпстлон СНП МГП</full>
+        <date>2013-04-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>190005</zipCode>
+          <kladrCode>780000000000618</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>3-я Красноармейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <houseRaw>12</houseRaw>
+        </parsedAddressRF>
+        <date>2013-04-16</date>
+        <firstDate>2013-04-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-04-16</date>
+      </status>
+      <registrationDate>1990-04-12</registrationDate>
+      <dissolutionDate>2013-04-16</dissolutionDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6318186446</inn>
+    <ogrn>1106318003010</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1106318003010</focusHref>
+    <UL>
+      <kpp>631801001</kpp>
+      <okpo>64963635</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авангардстрой"</short>
+        <full>Общество с ограниченной ответственностью "Авангардстрой"</full>
+        <date>2010-05-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443022</zipCode>
+          <kladrCode>630000010000855</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Заводское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А2</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>41</topoValue>
+          </flat>
+          <houseRaw>9</houseRaw>
+          <bulkRaw>А2</bulkRaw>
+          <flatRaw>41</flatRaw>
+        </parsedAddressRF>
+        <date>2010-05-13</date>
+        <firstDate>2010-05-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-03-20</date>
+      </status>
+      <registrationDate>2010-05-13</registrationDate>
+      <dissolutionDate>2013-03-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Носов Антон Владимирович</fio>
+          <innfl>631217909350</innfl>
+          <position>Директор</position>
+          <date>2011-08-10</date>
+          <firstDate>2011-08-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Скворцов Петр Николаевич</fio>
+            <position>Директор</position>
+            <date>2010-05-13</date>
+            <firstDate>2010-05-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5903061067</inn>
+    <ogrn>1105903003348</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1105903003348</focusHref>
+    <UL>
+      <kpp>590301001</kpp>
+      <okpo>67268290</okpo>
+      <okato>57401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>57701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ГАСЗНАК"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "ГАСЗНАК"</full>
+        <date>2017-02-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614068</zipCode>
+          <kladrCode>590000010001572</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сергея Данщина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 6</houseRaw>
+          <bulkRaw>КОРПУС А</bulkRaw>
+        </parsedAddressRF>
+        <date>2017-02-09</date>
+        <firstDate>2010-07-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-07-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Молош Александр Федорович</fio>
+          <innfl>590848044207</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-06-06</date>
+          <firstDate>2019-06-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ПКФ "КАМАЗНАК"</short>
+            <full>Общество с ограниченной ответственностью "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "КАМАЗНАК"</full>
+            <date>2015-02-10</date>
+          </legalName>
+          <legalName>
+            <short>ООО "Промзнак-Пермь"</short>
+            <full>Общество с ограниченной ответственностью "Промзнак-Пермь"</full>
+            <date>2010-07-22</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Ситников Олег Александрович</fio>
+            <innfl>590404761932</innfl>
+            <position>Генеральный Директор</position>
+            <date>2010-07-22</date>
+            <firstDate>2010-07-22</firstDate>
+          </head>
+          <head>
+            <fio>Брагин Алексей Иванович</fio>
+            <innfl>590408359100</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-12-23</date>
+            <firstDate>2014-12-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

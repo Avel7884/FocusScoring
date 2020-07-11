@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4716009675</inn>
+    <ogrn>1024701894304</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024701894304</focusHref>
+    <UL>
+      <kpp>471601001</kpp>
+      <okpo>46244486</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Авто плюс"</short>
+        <full>Закрытое акционерное общество "Авто плюс"</full>
+        <date>2002-10-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>187029</zipCode>
+          <kladrCode>47018000590</kladrCode>
+          <regionCode>47</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ленинградская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Тосненский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>д</topoShortName>
+            <topoFullName>деревня</topoFullName>
+            <topoValue>Нурма</topoValue>
+          </settlement>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <flat>
+            <topoValue>31</topoValue>
+          </flat>
+          <houseRaw>23</houseRaw>
+          <flatRaw>31</flatRaw>
+        </parsedAddressRF>
+        <date>2004-12-15</date>
+        <firstDate>2004-12-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-06-09</date>
+      </status>
+      <registrationDate>1997-12-22</registrationDate>
+      <dissolutionDate>2011-06-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Маслов Константин Владимирович</fio>
+          <innfl>781120035913</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-12-15</date>
+          <firstDate>2004-12-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

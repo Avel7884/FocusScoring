@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2269006362</inn>
+    <ogrn>1022202612827</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022202612827</focusHref>
+    <UL>
+      <kpp>226901001</kpp>
+      <okpo>48025713</okpo>
+      <okato>01238862005</okato>
+      <okfs>16</okfs>
+      <oktmo>01638462121</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛТАЙСТРОЙСЕРВИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АЛТАЙСТРОЙСЕРВИС"</full>
+        <date>2002-11-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658256</zipCode>
+          <kladrCode>220400000250004</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Рубцовский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Мичуринский</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Центральная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <houseRaw>27</houseRaw>
+        </parsedAddressRF>
+        <date>2009-10-08</date>
+        <firstDate>2009-10-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-04-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Минакова Елена Владимировна</fio>
+          <innfl>222105634158</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2019-07-09</date>
+          <firstDate>2019-07-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Евсеев Анатолий Семенович</fio>
+            <innfl>220909694280</innfl>
+            <position>Директор</position>
+            <date>2019-02-19</date>
+            <firstDate>2009-10-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

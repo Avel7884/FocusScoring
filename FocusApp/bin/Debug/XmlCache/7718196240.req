@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7718196240</inn>
+    <ogrn>1027739602880</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739602880</focusHref>
+    <UL>
+      <kpp>771801001</kpp>
+      <okpo>57972898</okpo>
+      <okato>45263594000</okato>
+      <okfs>16</okfs>
+      <oktmo>45316000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МТК "АВТОТЕХНИКС"</short>
+        <full>Общество с ограниченной ответственностью "МТК "АВТОТЕХНИКС"</full>
+        <date>2002-11-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107061</zipCode>
+          <kladrCode>770000000002822</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Суворовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>32/34</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>32 /34</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-11-22</date>
+        <firstDate>2002-11-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-02-24</date>
+      </status>
+      <registrationDate>2001-10-29</registrationDate>
+      <dissolutionDate>2014-02-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Утюгин Юрий Александрович</fio>
+          <position>Генеральный Директор</position>
+          <date>2002-11-22</date>
+          <firstDate>2002-11-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

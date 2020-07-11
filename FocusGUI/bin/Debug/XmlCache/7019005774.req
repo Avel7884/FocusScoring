@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7019005774</inn>
+    <ogrn>1027000885064</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027000885064</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>20899155</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Автоколонна №2042"</short>
+        <full>Открытое акционерное общество "Автоколонна №2042"</full>
+        <date>2002-11-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634009</zipCode>
+          <kladrCode>700000010000627</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пролетарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>38В</topoValue>
+          </house>
+          <houseRaw>38В</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-19</date>
+        <firstDate>2002-11-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-11-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Прокопович Денис Александрович</fio>
+          <innfl>701734112196</innfl>
+          <position>Генеральный Директор</position>
+          <date>2008-09-17</date>
+          <firstDate>2008-09-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

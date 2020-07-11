@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>710307910990</inn>
+    <ogrn>311715433400183</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=311715433400183</focusHref>
+    <IP>
+      <fio>Гришин Андрей Анатольевич</fio>
+      <okpo>0180624611</okpo>
+      <okato>70401364000</okato>
+      <okogu>49015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2011-11-30</registrationDate>
+      <dissolutionDate>2012-05-04</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-05-04</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7105045957</inn>
+    <ogrn>1167154054320</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1167154054320</focusHref>
+    <UL>
+      <kpp>710501001</kpp>
+      <okpo>39027392</okpo>
+      <okato>70401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>70701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ТМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ ТУЛЬСКИЕ МАШИНЫ"</full>
+        <date>2016-02-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>300016</zipCode>
+          <kladrCode>710000010000587</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тула</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пржевальского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>Г</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 10</houseRaw>
+          <bulkRaw>КОРПУС Г</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-02-20</date>
+        <firstDate>2016-02-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-02-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Гришин Андрей Анатольевич</fio>
+          <innfl>710307910990</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-02-20</date>
+          <firstDate>2016-02-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7105510202</inn>
+    <ogrn>1107154022953</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107154022953</focusHref>
+    <UL>
+      <kpp>713001001</kpp>
+      <okpo>67619677</okpo>
+      <okato>70232884002</okato>
+      <okfs>16</okfs>
+      <oktmo>70701000826</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТУЛААРМКОМПЛЕКТ"</short>
+        <full>Общество с ограниченной ответственностью "ТУЛААРМКОМПЛЕКТ"</full>
+        <date>2010-10-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>301122</zipCode>
+          <kladrCode>71016000018</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Ленинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>д</topoShortName>
+            <topoFullName>деревня</topoFullName>
+            <topoValue>Барсуки</topoValue>
+          </settlement>
+          <house>
+            <topoValue>литер Н</topoValue>
+          </house>
+          <flat>
+            <topoValue>помещение 6 На 1 Этаже</topoValue>
+          </flat>
+          <houseRaw>ЛИТЕР Н</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 6 НА 1 ЭТАЖЕ</flatRaw>
+        </parsedAddressRF>
+        <date>2014-10-16</date>
+        <firstDate>2014-10-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-02-06</date>
+      </status>
+      <registrationDate>2010-10-14</registrationDate>
+      <dissolutionDate>2019-02-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Савицкий Александр Григорьевич</fio>
+          <innfl>301712247150</innfl>
+          <position>Директор</position>
+          <date>2017-12-04</date>
+          <firstDate>2015-09-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>710501001</kpp>
+            <date>2013-06-12</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>301122</zipCode>
+              <kladrCode>71016000018</kladrCode>
+              <regionCode>71</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Тульская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Ленинский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>д</topoShortName>
+                <topoFullName>деревня</topoFullName>
+                <topoValue>Барсуки</topoValue>
+              </settlement>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>Н</topoValue>
+              </house>
+              <flat>
+                <topoValue>6 На 1 Этаже</topoValue>
+              </flat>
+              <houseRaw>Н</houseRaw>
+              <flatRaw>6 НА 1 ЭТАЖЕ</flatRaw>
+            </parsedAddressRF>
+            <date>2014-10-16</date>
+            <firstDate>2014-10-16</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>300016</zipCode>
+              <kladrCode>710000010000587</kladrCode>
+              <regionCode>71</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Тульская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Тула</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Пржевальского</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>10</topoValue>
+              </house>
+              <houseRaw>10</houseRaw>
+            </parsedAddressRF>
+            <date>2010-10-14</date>
+            <firstDate>2010-10-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Дорофеев Алексей Евгеньевич</fio>
+            <innfl>713075813445</innfl>
+            <position>Директор</position>
+            <date>2010-10-14</date>
+            <firstDate>2010-10-14</firstDate>
+          </head>
+          <head>
+            <fio>Гришин Анатолий Андреевич</fio>
+            <innfl>713001737239</innfl>
+            <position>Директор</position>
+            <date>2013-02-15</date>
+            <firstDate>2013-02-15</firstDate>
+          </head>
+          <head>
+            <fio>Белянчев Олег Валентинович</fio>
+            <innfl>713003509333</innfl>
+            <position>Директор</position>
+            <date>2014-10-02</date>
+            <firstDate>2014-10-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7105520176</inn>
+    <ogrn>1137154038845</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1137154038845</focusHref>
+    <UL>
+      <kpp>710701001</kpp>
+      <okpo>24649366</okpo>
+      <okato>70401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>70701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ТУЛЬСКИЕ МАШИНЫ"</full>
+        <date>2013-12-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>300026</zipCode>
+          <kladrCode>710000010000014</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тула</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>157</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>218</topoValue>
+          </flat>
+          <houseRaw>ДОМ 157</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 218</flatRaw>
+        </parsedAddressRF>
+        <date>2019-05-31</date>
+        <firstDate>2017-06-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-12-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Путятин Сергей Владимирович</fio>
+          <innfl>713001861691</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-10-04</date>
+          <firstDate>2019-10-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>710501001</kpp>
+            <date>2013-12-10</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>300016</zipCode>
+              <kladrCode>710000010000587</kladrCode>
+              <regionCode>71</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Тульская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Тула</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Пржевальского</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>10</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>Г</topoValue>
+              </bulk>
+              <houseRaw>ДОМ 10</houseRaw>
+              <bulkRaw>ЛИТЕР Г</bulkRaw>
+            </parsedAddressRF>
+            <date>2013-12-10</date>
+            <firstDate>2013-12-10</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Гришин Андрей Анатольевич</fio>
+            <innfl>710307910990</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-12-10</date>
+            <firstDate>2013-12-10</firstDate>
+          </head>
+          <head>
+            <fio>Гришин Анатолий Андреевич</fio>
+            <innfl>713001737239</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-09-02</date>
+            <firstDate>2014-09-02</firstDate>
+          </head>
+          <head>
+            <fio>Тарасевич Антон Вадимович</fio>
+            <innfl>710514639802</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-03-24</date>
+            <firstDate>2017-03-24</firstDate>
+          </head>
+          <head>
+            <fio>Лымарев Григорий Анатольевич</fio>
+            <innfl>712802097395</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-04-09</date>
+            <firstDate>2018-04-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7106061670</inn>
+    <ogrn>1047100779175</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047100779175</focusHref>
+    <UL>
+      <kpp>710601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ИТФ Тульский электропривод"</short>
+        <full>Общество с ограниченной ответственностью "Инженерно Техническая Фирма Тульский электропривод"</full>
+        <date>2004-08-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>300041</zipCode>
+          <kladrCode>710000010000337</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тула</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Красноармейский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <houseRaw>7</houseRaw>
+        </parsedAddressRF>
+        <date>2004-08-03</date>
+        <firstDate>2004-08-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-02-01</date>
+      </status>
+      <registrationDate>2004-08-03</registrationDate>
+      <dissolutionDate>2007-02-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Баженова Татьяна Борисовна</fio>
+          <innfl>710509780951</innfl>
+          <position>Ликвидатор</position>
+          <date>2006-11-28</date>
+          <firstDate>2006-11-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

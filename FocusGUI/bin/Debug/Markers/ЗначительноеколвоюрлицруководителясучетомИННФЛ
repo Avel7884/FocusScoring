@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Значительное кол-во юр. лиц. руководителя (с учетом ИННФЛ)</Name>
+  <Colour>Yellow</Colour>
+  <Description>Значительное количество не ликвидированных юридических лиц, в которых в качестве действующего руководителя упомянут действующий руководитель текущей организации (с учетом ИННФЛ, если известен)</Description>
+  <Code>int count;
+return int.TryParse(company.GetParam("q7018"), out count) &amp;&amp; count &gt; 10;</Code>
+</items>

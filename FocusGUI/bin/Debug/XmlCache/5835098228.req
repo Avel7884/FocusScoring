@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5835098228</inn>
+    <ogrn>1125835005218</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1125835005218</focusHref>
+    <UL>
+      <kpp>583501001</kpp>
+      <okpo>09499188</okpo>
+      <okato>56401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>56701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>Ак-Рес, ООО</short>
+        <full>"Активы и ресурсы, общество с ограниченной ответственностью"</full>
+        <date>2012-08-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>440047</zipCode>
+          <kladrCode>580000010000493</kladrCode>
+          <regionCode>58</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Пензенская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пенза</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Минская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <flat>
+            <topoValue>72</topoValue>
+          </flat>
+          <houseRaw>2</houseRaw>
+          <flatRaw>72</flatRaw>
+        </parsedAddressRF>
+        <date>2012-08-14</date>
+        <firstDate>2012-08-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-05-16</date>
+      </status>
+      <registrationDate>2012-08-14</registrationDate>
+      <dissolutionDate>2019-05-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Красильников Виталий Анатольевич</fio>
+          <innfl>583706474235</innfl>
+          <position>Директор</position>
+          <date>2019-04-21</date>
+          <firstDate>2016-09-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Иконников Андрей Александрович</fio>
+            <innfl>583500596631</innfl>
+            <position>Директор</position>
+            <date>2012-08-14</date>
+            <firstDate>2012-08-14</firstDate>
+          </head>
+          <head>
+            <fio>Сальникова Екатерина Юрьевна</fio>
+            <innfl>583713665135</innfl>
+            <position>Директор</position>
+            <date>2013-10-16</date>
+            <firstDate>2013-10-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

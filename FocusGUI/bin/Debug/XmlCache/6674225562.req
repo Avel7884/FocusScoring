@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6674225562</inn>
+    <ogrn>1076674017155</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076674017155</focusHref>
+    <UL>
+      <kpp>667901001</kpp>
+      <okpo>81787602</okpo>
+      <okato>65401390000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергопром"</short>
+        <full>Общество с ограниченной ответственностью "Энергопром"</full>
+        <date>2007-06-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620076</zipCode>
+          <kladrCode>660000010000887</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Просторная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>146</topoValue>
+          </house>
+          <flat>
+            <topoValue>95</topoValue>
+          </flat>
+          <houseRaw>146</houseRaw>
+          <flatRaw>95</flatRaw>
+        </parsedAddressRF>
+        <date>2007-06-19</date>
+        <firstDate>2007-06-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-11-29</date>
+      </status>
+      <registrationDate>2007-06-19</registrationDate>
+      <dissolutionDate>2017-11-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шампаров Константин Борисович</fio>
+          <innfl>665811434034</innfl>
+          <position>Директор</position>
+          <date>2008-11-14</date>
+          <firstDate>2008-11-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>667401001</kpp>
+            <date>2007-06-21</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

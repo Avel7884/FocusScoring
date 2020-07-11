@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7801411076</inn>
+    <ogrn>5067847101361</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5067847101361</focusHref>
+    <UL>
+      <kpp>780101001</kpp>
+      <okpo>94658562</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГОКОНТРОЛЬ"</short>
+        <full>Общество с ограниченной ответственностью "ЭНЕРГОКОНТРОЛЬ"</full>
+        <date>2006-06-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>199004</zipCode>
+          <kladrCode>780000000001330</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Средний</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>4Н</topoValue>
+          </flat>
+          <houseRaw>34</houseRaw>
+          <bulkRaw>ЛИТ. А</bulkRaw>
+          <flatRaw>ПОМ. 4Н</flatRaw>
+        </parsedAddressRF>
+        <date>2006-06-22</date>
+        <firstDate>2006-06-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-06-25</date>
+      </status>
+      <registrationDate>2006-06-22</registrationDate>
+      <dissolutionDate>2012-06-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Павлов Владимир Владимирович</fio>
+          <innfl>783990113519</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-06-22</date>
+          <firstDate>2006-06-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

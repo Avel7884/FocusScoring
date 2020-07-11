@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714166621</inn>
+    <ogrn>1027739234500</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739234500</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>52651669</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВСС"</short>
+        <full>Общество с ограниченной ответственностью "Выставка Сотовой Связи"</full>
+        <date>2002-09-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125124</zipCode>
+          <kladrCode>770000000002358</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Правды</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3/1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>3/1</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-09-23</date>
+        <firstDate>2002-09-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-01-19</date>
+      </status>
+      <registrationDate>2000-02-22</registrationDate>
+      <dissolutionDate>2009-01-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Орел Сергей Андреевич</fio>
+          <innfl>502503557910</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-07-18</date>
+          <firstDate>2008-07-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5018161544</inn>
+    <ogrn>1145018001050</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1145018001050</focusHref>
+    <UL>
+      <kpp>502901001</kpp>
+      <okpo>31847859</okpo>
+      <okato>46446000000</okato>
+      <okfs>16</okfs>
+      <oktmo>46746000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Электротехническая компания "Спектр"</short>
+        <full>Общество с ограниченной ответственностью "Электротехническая компания "Спектр"</full>
+        <date>2014-02-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141009</zipCode>
+          <kladrCode>500000440000120</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Мытищи</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Колонцова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Подъезд 1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>15</topoValue>
+          </flat>
+          <houseRaw>ДОМ 15</houseRaw>
+          <bulkRaw>ПОДЪЕЗД 1</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 15</flatRaw>
+        </parsedAddressRF>
+        <date>2017-03-21</date>
+        <firstDate>2017-03-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-02-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Хакимов Рустем Равилевич</fio>
+          <innfl>165106786722</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-10-17</date>
+          <firstDate>2018-10-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>501801001</kpp>
+            <date>2014-02-21</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>141009</zipCode>
+              <kladrCode>500190010000063</kladrCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>городской округ</topoShortName>
+                <topoFullName>городской округ</topoFullName>
+                <topoValue>Мытищи</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Мытищи</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Колонцова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15</topoValue>
+              </house>
+              <bulk>
+                <topoValue>Подъезд 1</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>15</topoValue>
+              </flat>
+              <houseRaw>ДОМ 15</houseRaw>
+              <bulkRaw>ПОДЪЕЗД 1</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 15</flatRaw>
+            </parsedAddressRF>
+            <date>2017-03-20</date>
+            <firstDate>2017-03-20</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>141078</zipCode>
+              <kladrCode>500000090000068</kladrCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Королев</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Королева</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>8</topoValue>
+              </house>
+              <bulk>
+                <topoValue>помещение 108</topoValue>
+              </bulk>
+              <houseRaw>8</houseRaw>
+              <bulkRaw>ПОМЕЩЕНИЕ 108</bulkRaw>
+            </parsedAddressRF>
+            <date>2014-02-21</date>
+            <firstDate>2014-02-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Тихомиров Алексей Сергеевич</fio>
+            <innfl>503103310902</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-05-14</date>
+            <firstDate>2018-05-14</firstDate>
+          </head>
+          <head>
+            <fio>Аитов Дамир Рафикович</fio>
+            <innfl>165117221940</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-07-23</date>
+            <firstDate>2014-02-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7811194896</inn>
+    <ogrn>1157847151142</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1157847151142</focusHref>
+    <UL>
+      <kpp>780201001</kpp>
+      <okpo>01213092</okpo>
+      <okato>40265000000</okato>
+      <okfs>24</okfs>
+      <oktmo>40315000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАДИОН ГРУПП"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛАДИОН ГРУПП"</full>
+        <date>2015-04-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>194214</zipCode>
+          <kladrCode>780000000001548</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Энгельса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>93</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>479</topoValue>
+          </flat>
+          <houseRaw>ДОМ 93</houseRaw>
+          <flatRaw>КВАРТИРА 479</flatRaw>
+        </parsedAddressRF>
+        <date>2017-12-06</date>
+        <firstDate>2017-12-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2017-12-05</date>
+      </status>
+      <registrationDate>2015-04-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Иванушков Сергей Валентинович</fio>
+          <innfl>292800076799</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2017-12-06</date>
+          <firstDate>2017-12-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>780601001</kpp>
+            <date>2016-01-25</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>781101001</kpp>
+            <date>2015-04-27</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>195112</zipCode>
+              <kladrCode>780000000001798</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пл</topoShortName>
+                <topoFullName>площадь</topoFullName>
+                <topoValue>Карла Фаберже</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>8</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>10-Н</topoValue>
+              </flat>
+              <houseRaw>ДОМ 8</houseRaw>
+              <bulkRaw>ЛИТЕР А</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 10-Н</flatRaw>
+            </parsedAddressRF>
+            <date>2016-01-25</date>
+            <firstDate>2016-01-25</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>192148</zipCode>
+              <kladrCode>780000000001260</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Седова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>36</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>Б</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>4-Н</topoValue>
+              </flat>
+              <houseRaw>ДОМ 36</houseRaw>
+              <bulkRaw>ЛИТЕР Б</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 4-Н</flatRaw>
+            </parsedAddressRF>
+            <date>2015-04-27</date>
+            <firstDate>2015-04-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Каракозиди Георгий</fio>
+            <innfl>781149786038</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-04-20</date>
+            <firstDate>2015-04-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

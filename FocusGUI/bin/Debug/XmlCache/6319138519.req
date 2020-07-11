@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6319138519</inn>
+    <ogrn>1076319007830</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076319007830</focusHref>
+    <UL>
+      <kpp>631901001</kpp>
+      <okpo>80615690</okpo>
+      <okato>36401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Акватеп"</short>
+        <full>Общество с ограниченной ответственностью "Акватеп"</full>
+        <date>2007-03-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443052</zipCode>
+          <kladrCode>630000010000512</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Кирова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>73</topoValue>
+          </house>
+          <flat>
+            <topoValue>34</topoValue>
+          </flat>
+          <houseRaw>73</houseRaw>
+          <flatRaw>34</flatRaw>
+        </parsedAddressRF>
+        <date>2008-06-25</date>
+        <firstDate>2008-06-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-10-04</date>
+      </status>
+      <registrationDate>2007-03-22</registrationDate>
+      <dissolutionDate>2013-10-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Марфицин Алексей Викторович</fio>
+          <innfl>744910964707</innfl>
+          <position>Генеральный Директор</position>
+          <date>2010-01-11</date>
+          <firstDate>2010-01-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

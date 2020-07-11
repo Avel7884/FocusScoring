@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7017141700</inn>
+    <ogrn>1067017102811</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067017102811</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>79204059</okpo>
+      <okato>69401363000</okato>
+      <okfs>23</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергокомфорт" Сибирь"</short>
+        <full>Общество с ограниченной ответственностью "Энергокомфорт". Единая Томская сбытовая компания"</full>
+        <date>2006-03-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634034</zipCode>
+          <kladrCode>700000010000365</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Котовского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <houseRaw>19</houseRaw>
+        </parsedAddressRF>
+        <date>2008-03-05</date>
+        <firstDate>2008-03-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-05-27</date>
+      </status>
+      <registrationDate>2006-03-24</registrationDate>
+      <dissolutionDate>2016-05-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лизунов Сергей Михайлович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2013-12-24</date>
+          <firstDate>2013-12-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Корнилова Ирина Семеновна</fio>
+            <innfl>701713341036</innfl>
+            <position>Генеральный Директор</position>
+            <date>2010-08-10</date>
+            <firstDate>2010-08-10</firstDate>
+          </head>
+          <head>
+            <fio>Забарова Ольга Валерьевна</fio>
+            <innfl>701709137006</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-04-23</date>
+            <firstDate>2013-04-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

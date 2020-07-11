@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705714462</inn>
+    <ogrn>1067746268072</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067746268072</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>93475730</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКВИЛОН"</short>
+        <full>Общество с ограниченной ответственностью "АКВИЛОН"</full>
+        <date>2006-02-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127287</zipCode>
+          <kladrCode>770000000003056</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Хуторская 2-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>29</houseRaw>
+          <bulkRaw>СТР 2</bulkRaw>
+          <flatRaw>ПОМ 1</flatRaw>
+        </parsedAddressRF>
+        <date>2009-10-23</date>
+        <firstDate>2009-10-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-26</date>
+      </status>
+      <registrationDate>2006-02-13</registrationDate>
+      <dissolutionDate>2012-01-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кудряшова Анна Владимиовна</fio>
+          <innfl>560902447705</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-12-21</date>
+          <firstDate>2007-12-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

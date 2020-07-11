@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3338004346</inn>
+    <ogrn>1083338000723</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1083338000723</focusHref>
+    <UL>
+      <kpp>526301001</kpp>
+      <okpo>86017286</okpo>
+      <okato>22401382000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "АРАКС"</short>
+        <full>Общество с ограниченной ответственностью "Производственно коммерческая фирма "АРАКС"</full>
+        <date>2009-09-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603127</zipCode>
+          <kladrCode>520000010001391</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Коновалова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <flat>
+            <topoValue>311</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <flatRaw>311</flatRaw>
+        </parsedAddressRF>
+        <date>2009-09-16</date>
+        <firstDate>2009-09-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-08-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Будурян Грачя Гайкович</fio>
+          <innfl>526306685863</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-06-11</date>
+          <firstDate>2019-06-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Турутин Илья Александрович</fio>
+            <innfl>526301713852</innfl>
+            <position>Директор</position>
+            <date>2010-04-05</date>
+            <firstDate>2010-04-05</firstDate>
+          </head>
+          <head>
+            <fio>Будурян Гайк Грачикович</fio>
+            <innfl>526301066436</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-01-13</date>
+            <firstDate>2014-01-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

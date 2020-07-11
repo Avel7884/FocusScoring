@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusApiAccessTests", "Focu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusScoringTests", "FocusScoringTests\FocusScoringTests.csproj", "{80F9C2F6-2DC9-4A09-8552-EE5D6B99BF13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusGUI", "FocusGUI\FocusGUI.csproj", "{1A37B3A5-D0B0-415B-98F0-3124F716819C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FocusApp", "FocusApp\FocusApp.csproj", "{1260B3EE-A6E0-4D40-A95A-B0E694F3BFF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{80F9C2F6-2DC9-4A09-8552-EE5D6B99BF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80F9C2F6-2DC9-4A09-8552-EE5D6B99BF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80F9C2F6-2DC9-4A09-8552-EE5D6B99BF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A37B3A5-D0B0-415B-98F0-3124F716819C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A37B3A5-D0B0-415B-98F0-3124F716819C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A37B3A5-D0B0-415B-98F0-3124F716819C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A37B3A5-D0B0-415B-98F0-3124F716819C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1260B3EE-A6E0-4D40-A95A-B0E694F3BFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1260B3EE-A6E0-4D40-A95A-B0E694F3BFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1260B3EE-A6E0-4D40-A95A-B0E694F3BFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1260B3EE-A6E0-4D40-A95A-B0E694F3BFF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

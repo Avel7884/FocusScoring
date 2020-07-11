@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7743590144</inn>
+    <ogrn>1067746444435</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067746444435</focusHref>
+    <UL>
+      <kpp>774301001</kpp>
+      <okpo>95134482</okpo>
+      <okato>45277580000</okato>
+      <okfs>16</okfs>
+      <oktmo>45341000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Ай-Сток Инвест"</short>
+        <full>Общество с ограниченной ответственностью "Ай-Сток Инвест"</full>
+        <date>2006-04-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125438</zipCode>
+          <kladrCode>770000000000376</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Михалковская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>63Б</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Э/пом/К/оф 3/XIX/10/1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 63Б</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 2</bulkRaw>
+          <flatRaw>Э/ПОМ/К/ОФ 3/XIX/10/1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-05-28</date>
+        <firstDate>2018-05-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-04-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Бердичевская Владислава Ефимовна</fio>
+          <innfl>773065006401</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-04-04</date>
+          <firstDate>2006-04-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125493</zipCode>
+              <kladrCode>770000000000376</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Михалковская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>63Б</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>2</topoValue>
+              </bulk>
+              <houseRaw>63Б</houseRaw>
+              <bulkRaw>СТР.2</bulkRaw>
+            </parsedAddressRF>
+            <date>2006-04-04</date>
+            <firstDate>2006-04-04</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

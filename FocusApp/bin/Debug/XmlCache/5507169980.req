@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5507169980</inn>
+    <ogrn>1165543079954</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1165543079954</focusHref>
+    <UL>
+      <kpp>550101001</kpp>
+      <okpo>03877896</okpo>
+      <okato>52401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "МЕТАЛЛ-ПРОФИТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "МЕТАЛЛ-ПРОФИТ"</full>
+        <date>2016-08-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644035</zipCode>
+          <kladrCode>550000010000231</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Губкина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>В</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 16</houseRaw>
+          <bulkRaw>ЛИТЕРА В</bulkRaw>
+        </parsedAddressRF>
+        <date>2019-07-25</date>
+        <firstDate>2019-07-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-08-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Хайруллина Александра Юрьевна</fio>
+          <innfl>550114601917</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-10-07</date>
+          <firstDate>2019-10-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>550701001</kpp>
+            <date>2016-08-08</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>644022</zipCode>
+              <kladrCode>550000010000800</kladrCode>
+              <regionCode>55</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Омская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Омск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Новороссийская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>6</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>корп</topoShortName>
+                <topoFullName>корпус</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>ДОМ 6</houseRaw>
+              <bulkRaw>КОРПУС А</bulkRaw>
+            </parsedAddressRF>
+            <date>2016-08-08</date>
+            <firstDate>2016-08-08</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Лисин Иван Алексеевич</fio>
+            <innfl>550205800613</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-08-08</date>
+            <firstDate>2016-08-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7453213546</inn>
+    <ogrn>1107453000500</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107453000500</focusHref>
+    <UL>
+      <kpp>771501001</kpp>
+      <okpo>61321480</okpo>
+      <okato>45280583000</okato>
+      <okfs>16</okfs>
+      <oktmo>45362000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Абразив 74"</short>
+        <full>Общество с ограниченной ответственностью "Абразив 74"</full>
+        <date>2010-01-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127282</zipCode>
+          <kladrCode>770000000002344</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Полярная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>31А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>3</topoValue>
+          </flat>
+          <houseRaw>31А</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 3</flatRaw>
+        </parsedAddressRF>
+        <date>2013-04-19</date>
+        <firstDate>2013-04-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-01-10</date>
+      </status>
+      <registrationDate>2010-01-27</registrationDate>
+      <dissolutionDate>2017-01-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Беспаликов Юрий Александрович</fio>
+          <innfl>745100916312</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-04-08</date>
+          <firstDate>2013-04-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454082</zipCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Чапаева (Смолино)</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>60</topoValue>
+              </house>
+              <houseRaw>60</houseRaw>
+            </parsedAddressRF>
+            <date>2010-07-27</date>
+            <firstDate>2010-07-27</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454082</zipCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Чапаева (Смолинский)</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>60</topoValue>
+              </house>
+              <houseRaw>60</houseRaw>
+            </parsedAddressRF>
+            <date>2010-07-27</date>
+            <firstDate>2010-07-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Сидорович Евгений Витальевич</fio>
+            <innfl>745108602847</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-01-27</date>
+            <firstDate>2010-01-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

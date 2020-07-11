@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4209030477</inn>
+    <ogrn>1034205017461</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034205017461</focusHref>
+    <UL>
+      <kpp>420901001</kpp>
+      <okpo>50574769</okpo>
+      <okato>32401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>32701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ТД "АЗИЯ-ИНВЕСТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ТОРГОВЫЙ ДОМ "АЗИЯ-ИНВЕСТ"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650055</zipCode>
+          <kladrCode>420000090000864</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сибиряков-Гвардейцев</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <flat>
+            <topoValue>217</topoValue>
+          </flat>
+          <houseRaw>21</houseRaw>
+          <flatRaw>217</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-31</date>
+        <firstDate>2002-12-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-03-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Ионас Александр Иванович</fio>
+          <innfl>420900233058</innfl>
+          <position>Директор</position>
+          <date>2017-02-15</date>
+          <firstDate>2002-12-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

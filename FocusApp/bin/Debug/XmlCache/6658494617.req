@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658494617</inn>
+    <ogrn>1169658133688</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1169658133688</focusHref>
+    <UL>
+      <kpp>668201001</kpp>
+      <okpo>05677769</okpo>
+      <okato>65540000000</okato>
+      <okfs>16</okfs>
+      <oktmo>65752000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ СНАБКОМПЛЕКТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ СНАБКОМПЛЕКТ"</full>
+        <date>2016-11-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624130</zipCode>
+          <kladrCode>660000150000010</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новоуральск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Первомайская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>78</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>205</topoValue>
+          </flat>
+          <houseRaw>ДОМ 78</houseRaw>
+          <flatRaw>ОФИС 205</flatRaw>
+        </parsedAddressRF>
+        <date>2018-12-20</date>
+        <firstDate>2018-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-11-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Мироненко Андрей Владимирович</fio>
+          <innfl>662100365885</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-07-27</date>
+          <firstDate>2016-11-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>665801001</kpp>
+            <date>2016-11-23</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>620043</zipCode>
+              <kladrCode>660000010000929</kladrCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Екатеринбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Репина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>103</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>3</topoValue>
+              </flat>
+              <houseRaw>ДОМ 103</houseRaw>
+              <flatRaw>ОФИС 3</flatRaw>
+            </parsedAddressRF>
+            <date>2016-11-23</date>
+            <firstDate>2016-11-23</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

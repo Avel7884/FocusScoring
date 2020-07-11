@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7702328807</inn>
+    <ogrn>1027739715695</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739715695</focusHref>
+    <UL>
+      <kpp>770201001</kpp>
+      <okpo>58010769</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ТД Автопромподшипник"</short>
+        <full>Закрытое акционерное общество "ТД Автопромподшипник"</full>
+        <date>2002-12-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129090</zipCode>
+          <kladrCode>770000000003171</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Щепкина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25/20</topoValue>
+          </house>
+          <houseRaw>25/20</houseRaw>
+        </parsedAddressRF>
+        <date>2008-07-16</date>
+        <firstDate>2008-07-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-18</date>
+      </status>
+      <registrationDate>2001-11-21</registrationDate>
+      <dissolutionDate>2011-03-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Колесов Сергей Николаевич</fio>
+          <innfl>772318164745</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-06-07</date>
+          <firstDate>2008-06-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

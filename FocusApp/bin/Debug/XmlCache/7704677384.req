@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7704677384</inn>
+    <ogrn>1087746177166</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1087746177166</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>84742402</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЗМОЛ РУСТРЕЙД"</short>
+        <full>Общество с ограниченной ответственностью "АЗМОЛ РУСТРЕЙД"</full>
+        <date>2008-02-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119270</zipCode>
+          <kladrCode>770000000001737</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Лужнецкая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2/4</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>3А</topoValue>
+          </bulk>
+          <houseRaw>2/4</houseRaw>
+          <bulkRaw>СТР.3А</bulkRaw>
+        </parsedAddressRF>
+        <date>2008-02-06</date>
+        <firstDate>2008-02-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-09-12</date>
+      </status>
+      <registrationDate>2008-02-06</registrationDate>
+      <dissolutionDate>2012-09-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Орлов Михаил Владимирович</fio>
+          <innfl>132702543116</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-01-20</date>
+          <firstDate>2011-06-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

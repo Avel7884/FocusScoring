@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7726204293</inn>
+    <ogrn>1037700060914</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037700060914</focusHref>
+    <UL>
+      <kpp>772601001</kpp>
+      <okpo>42814024</okpo>
+      <okato>45296561000</okato>
+      <okfs>16</okfs>
+      <oktmo>45915000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Альта"</short>
+        <full>Закрытое акционерное общество "Альта"</full>
+        <date>2007-06-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>113105</zipCode>
+          <kladrCode>770000000000476</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Варшавское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-27</date>
+        <firstDate>2003-01-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-04-18</date>
+      </status>
+      <registrationDate>1996-03-26</registrationDate>
+      <dissolutionDate>2016-04-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Яковлев Валентин Вячеславович</fio>
+          <innfl>371001024009</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-06-05</date>
+          <firstDate>2007-06-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

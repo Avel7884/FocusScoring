@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4630000720</inn>
+    <ogrn>1024600949702</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024600949702</focusHref>
+    <UL>
+      <kpp>463201001</kpp>
+      <okpo>00897728</okpo>
+      <okato>38401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>38701000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Аграрник"</short>
+        <full>Открытое акционерное общество "Аграрник"</full>
+        <date>2007-06-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>305025</zipCode>
+          <kladrCode>460000010000401</kladrCode>
+          <regionCode>46</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Курская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Курск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Магистральная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-12</date>
+        <firstDate>2002-11-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-12-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Козявин Юрий Алексеевич</fio>
+          <innfl>460800817538</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-04-11</date>
+          <firstDate>2016-04-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шкилев Анатолий Александрович</fio>
+            <position>Генеральный директор</position>
+            <date>2009-06-02</date>
+            <firstDate>2009-06-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

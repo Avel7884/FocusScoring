@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>У группы компаний замечена активность в арбитражных делах</Name>
+  <Colour>GreenAffiliates</Colour>
+  <Description>Более 30% связаных компаний имеют арбитражную практику</Description>
+  <Code>    var q1 = company.GetMultiParam("q2001Affiliates");
+                        var q3 = company.GetMultiParam("q2003Affiliates");
+
+                        var count = .0;
+                        for (int i = 0; i &lt; q1.Length; i++)
+                            if (q1[i] != "" || q3[i] != "")
+                                count++;
+
+                        return count / q1.Length &gt; 0.3;</Code>
+</items>

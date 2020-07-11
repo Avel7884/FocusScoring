@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7805251560</inn>
+    <ogrn>5067847257638</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5067847257638</focusHref>
+    <UL>
+      <kpp>780501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <full>Общество с ограниченной ответственностью "Энергопром"</full>
+        <date>2006-08-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>190000</zipCode>
+          <kladrCode>78000000000</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+        </parsedAddressRF>
+        <date>2006-08-18</date>
+        <firstDate>2006-08-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-08-18</date>
+      </status>
+      <registrationDate>2002-04-12</registrationDate>
+      <dissolutionDate>2006-08-18</dissolutionDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

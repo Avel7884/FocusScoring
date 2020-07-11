@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623045353</inn>
+    <ogrn>1076623009022</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076623009022</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>85007535</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТЭК "20 тонн"</short>
+        <full>Общество с ограниченной ответственностью "Транспортно-экспедиционная компания "20 тонн"</full>
+        <date>2007-12-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622021</zipCode>
+          <kladrCode>660000230000029</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Балакинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-12-26</date>
+        <firstDate>2007-12-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-07-07</date>
+      </status>
+      <registrationDate>2007-12-26</registrationDate>
+      <dissolutionDate>2011-07-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ольховой Андрей Николаевич</fio>
+          <innfl>666101821993</innfl>
+          <position>Директор</position>
+          <date>2009-06-01</date>
+          <firstDate>2009-06-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

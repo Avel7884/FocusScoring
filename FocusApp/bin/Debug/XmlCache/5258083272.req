@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5258083272</inn>
+    <ogrn>1095258001629</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1095258001629</focusHref>
+    <UL>
+      <kpp>525801001</kpp>
+      <okpo>61344357</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автоцентр"</short>
+        <full>Общество с ограниченной ответственностью "Автоцентр"</full>
+        <date>2009-04-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603028</zipCode>
+          <kladrCode>520000010000469</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Комсомольское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2А</topoValue>
+          </house>
+          <houseRaw>2А</houseRaw>
+        </parsedAddressRF>
+        <date>2009-04-06</date>
+        <firstDate>2009-04-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-20</date>
+      </status>
+      <registrationDate>2009-04-06</registrationDate>
+      <dissolutionDate>2012-01-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Морозов Дмитрий Сергеевич</fio>
+          <innfl>526015558772</innfl>
+          <position>Директор</position>
+          <date>2009-09-28</date>
+          <firstDate>2009-09-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

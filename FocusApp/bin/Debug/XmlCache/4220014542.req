@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4220014542</inn>
+    <ogrn>1024201760220</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201760220</focusHref>
+    <UL>
+      <kpp>422001001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ЭНЕРГОСТРОЙКОМПЛЕКТ"</short>
+        <full>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "ЭНЕРГОСТРОЙКОМПЛЕКТ"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654027</zipCode>
+          <kladrCode>420000120000604</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мичурина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-31</date>
+        <firstDate>2002-12-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-06-18</date>
+      </status>
+      <registrationDate>1996-05-06</registrationDate>
+      <dissolutionDate>2008-06-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ломов Андрей Анатольевич</fio>
+          <innfl>423810457203</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-12-31</date>
+          <firstDate>2002-12-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

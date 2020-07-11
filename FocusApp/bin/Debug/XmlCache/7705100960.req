@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705100960</inn>
+    <ogrn>1027700410099</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700410099</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>44410615</okpo>
+      <okato>45286560000</okato>
+      <okfs>16</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергорегистратор"</short>
+        <full>Закрытое акционерное общество специлизированный регистратор "Энергорегистратор"</full>
+        <date>2002-11-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>113035</zipCode>
+          <kladrCode>770000000002144</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Садовническая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30/23</topoValue>
+          </house>
+          <bulk>
+            <topoValue>5</topoValue>
+          </bulk>
+          <houseRaw>30/23</houseRaw>
+          <bulkRaw>5</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-11-10</date>
+        <firstDate>2002-11-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-02-05</date>
+      </status>
+      <registrationDate>1996-03-25</registrationDate>
+      <dissolutionDate>2018-02-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Стёпин Александр Станиславович</fio>
+          <innfl>770403311330</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-09-14</date>
+          <firstDate>2016-09-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Ковернинская Елена Константиновна</fio>
+            <innfl>771904714903</innfl>
+            <position>Генеральный директор</position>
+            <date>2006-10-04</date>
+            <firstDate>2006-10-04</firstDate>
+          </head>
+          <head>
+            <fio>Голев Алексей Александрович</fio>
+            <innfl>505440717465</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-12-16</date>
+            <firstDate>2013-12-16</firstDate>
+          </head>
+          <head>
+            <fio>Бочаров Игорь Анатольевич</fio>
+            <innfl>781134353930</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-06-27</date>
+            <firstDate>2016-06-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

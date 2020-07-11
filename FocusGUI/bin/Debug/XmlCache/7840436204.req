@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7840436204</inn>
+    <ogrn>1107847244042</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107847244042</focusHref>
+    <UL>
+      <kpp>781001001</kpp>
+      <okpo>67407567</okpo>
+      <okato>40284000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40373000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "МСК"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-Коммерческая Фирма "МеталлСтройКонструкции"</full>
+        <date>2010-08-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>196084</zipCode>
+          <kladrCode>780000000000445</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заставская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>31</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>17</topoValue>
+          </flat>
+          <houseRaw>ДОМ 31</houseRaw>
+          <bulkRaw>КОРПУС 2</bulkRaw>
+          <flatRaw>ОФИС №17</flatRaw>
+        </parsedAddressRF>
+        <date>2018-03-07</date>
+        <firstDate>2018-03-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-08-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Рзаметов Кирилл Сайдахметович</fio>
+          <innfl>781429625001</innfl>
+          <position>Генеральный директор</position>
+          <date>2017-08-14</date>
+          <firstDate>2012-06-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>784001001</kpp>
+            <date>2010-08-02</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>191119</zipCode>
+              <kladrCode>780000000000187</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Боровая</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>14</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>5-Н</topoValue>
+              </flat>
+              <houseRaw>14</houseRaw>
+              <bulkRaw>ЛИТЕРА А</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 5-Н</flatRaw>
+            </parsedAddressRF>
+            <date>2010-08-02</date>
+            <firstDate>2010-08-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Пташиц Виталий Анатольевич</fio>
+            <position>Генеральный директор</position>
+            <date>2010-08-02</date>
+            <firstDate>2010-08-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

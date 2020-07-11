@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7709321222</inn>
+    <ogrn>1127746001041</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127746001041</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ЭНЕРГОСТРОЙСИСТЕМА-СТ ООО</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЭНЕРГОСТРОЙСИСТЕМА-СТ</full>
+        <date>2012-01-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105120</zipCode>
+          <kladrCode>770000000001340</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Земляной Вал</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>50/27</topoValue>
+          </house>
+          <flat>
+            <topoValue>стр.16</topoValue>
+          </flat>
+          <houseRaw>50/27</houseRaw>
+          <flatRaw>СТР.16</flatRaw>
+        </parsedAddressRF>
+        <date>2012-01-10</date>
+        <firstDate>2012-01-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-10</date>
+      </status>
+      <registrationDate>2000-10-24</registrationDate>
+      <dissolutionDate>2012-01-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Карасев Сергей Николаевич</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2012-01-10</date>
+          <firstDate>2012-01-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7723041192</inn>
+    <ogrn>1127746757060</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127746757060</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>РАДИС НТЦ</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ НАУЧНО-ТЕХНИЧЕСКИЙ ЦЕНТР "РАДИС"</full>
+        <date>2012-09-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115193</zipCode>
+          <kladrCode>770000000000180</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кожуховская 5-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <houseRaw>13</houseRaw>
+        </parsedAddressRF>
+        <date>2012-09-24</date>
+        <firstDate>2012-09-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-09-24</date>
+      </status>
+      <registrationDate>1991-11-06</registrationDate>
+      <dissolutionDate>2012-09-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Смирнов Михаил Валерьевич</fio>
+          <innfl>774307720916</innfl>
+          <position>Руководитель юридического лица</position>
+          <date>2012-09-24</date>
+          <firstDate>2012-09-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

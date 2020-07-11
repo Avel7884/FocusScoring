@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4345132284</inn>
+    <ogrn>1064345094296</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1064345094296</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>93228138</okpo>
+      <okato>45290582000</okato>
+      <okfs>16</okfs>
+      <oktmo>45393000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭПЗ"</short>
+        <full>Общество с ограниченной ответственностью "ЭнергоПромЗапчасть"</full>
+        <date>2006-04-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109383</zipCode>
+          <kladrCode>770000000000207</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Полбина</topoValue>
+          </street>
+          <house>
+            <topoValue>Вл. 35г</topoValue>
+          </house>
+          <bulk>
+            <topoValue>помещение I-20а</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>37</topoValue>
+          </flat>
+          <houseRaw>ВЛ. 35Г</houseRaw>
+          <bulkRaw>ПОМЕЩЕНИЕ I-20А</bulkRaw>
+          <flatRaw>КОМ. 37</flatRaw>
+        </parsedAddressRF>
+        <date>2012-12-20</date>
+        <firstDate>2012-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-05-28</date>
+      </status>
+      <registrationDate>2006-04-12</registrationDate>
+      <dissolutionDate>2018-05-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Полубоярцев Максим Александрович</fio>
+          <innfl>434538395579</innfl>
+          <position>Директор</position>
+          <date>2012-12-20</date>
+          <firstDate>2012-12-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>434501001</kpp>
+            <date>2012-12-20</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>610000</zipCode>
+              <regionCode>43</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кировская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Киров</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Захватаева</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>23</topoValue>
+              </house>
+              <flat>
+                <topoValue>16</topoValue>
+              </flat>
+              <houseRaw>23</houseRaw>
+              <flatRaw>16</flatRaw>
+            </parsedAddressRF>
+            <date>2009-11-05</date>
+            <firstDate>2009-11-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Тур Евгений Евгеньевич</fio>
+            <position>Директор</position>
+            <date>2006-04-12</date>
+            <firstDate>2006-04-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

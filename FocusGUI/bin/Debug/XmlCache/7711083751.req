@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7711083751</inn>
+    <ogrn>1027700112483</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700112483</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okpo>07607136</okpo>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "149 МЗ"</short>
+        <full>Открытое акционерное общество "149 механический завод"</full>
+        <date>2002-08-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105120</zipCode>
+          <kladrCode>770000000007131</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сергия Радонежского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-11-09</date>
+        <firstDate>2010-11-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-21</date>
+      </status>
+      <registrationDate>1998-12-04</registrationDate>
+      <dissolutionDate>2011-03-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Есипов Алексей Васильевич</fio>
+          <innfl>614308333718</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-12-15</date>
+          <firstDate>2010-12-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4713007197</inn>
+    <ogrn>1024701705896</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024701705896</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>56942352</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Нева-Финанс"</short>
+        <full>Закрытое акционерное общество "Нева-Финанс"</full>
+        <date>2009-10-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105064</zipCode>
+          <kladrCode>770000000000813</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Басманная с</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+        </parsedAddressRF>
+        <date>2008-07-03</date>
+        <firstDate>2008-07-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-12-09</date>
+      </status>
+      <registrationDate>2002-08-15</registrationDate>
+      <dissolutionDate>2014-12-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Филиппов Сергей Владимирович</fio>
+          <innfl>772636475328</innfl>
+          <position>Ликвидатор</position>
+          <date>2014-05-14</date>
+          <firstDate>2008-06-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

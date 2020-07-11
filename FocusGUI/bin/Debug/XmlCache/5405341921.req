@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5405341921</inn>
+    <ogrn>1075405010350</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075405010350</focusHref>
+    <UL>
+      <kpp>540501001</kpp>
+      <okpo>99859220</okpo>
+      <okato>50401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭнергоСиб"</short>
+        <full>Общество с ограниченной ответственностью "ЭнергоСиб"</full>
+        <date>2007-04-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630083</zipCode>
+          <kladrCode>540000010000128</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Большевистская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>177</topoValue>
+          </house>
+          <houseRaw>177</houseRaw>
+        </parsedAddressRF>
+        <date>2007-04-09</date>
+        <firstDate>2007-04-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-04-11</date>
+      </status>
+      <registrationDate>2007-04-09</registrationDate>
+      <dissolutionDate>2016-04-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вареных Владимир Владимирович</fio>
+          <innfl>540434285446</innfl>
+          <position>Директор</position>
+          <date>2014-05-05</date>
+          <firstDate>2014-05-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Тарасенко Андрей Иванович</fio>
+            <position>Директор</position>
+            <date>2007-04-09</date>
+            <firstDate>2007-04-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

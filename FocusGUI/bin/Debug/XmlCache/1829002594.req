@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1829002594</inn>
+    <ogrn>1021801095194</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021801095194</focusHref>
+    <UL>
+      <kpp>183701001</kpp>
+      <okpo>13044699</okpo>
+      <okato>94420000000</okato>
+      <okfs>16</okfs>
+      <oktmo>94720000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АРМС"</short>
+        <full>Закрытое акционерное общество "Автореммашсервис"</full>
+        <date>2002-11-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>427626</zipCode>
+          <kladrCode>180000040000025</kladrCode>
+          <regionCode>18</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Удмуртская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Глазов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Глинки</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2Б</topoValue>
+          </house>
+          <houseRaw>2Б</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-18</date>
+        <firstDate>2002-11-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-07-18</date>
+      </status>
+      <registrationDate>1999-06-09</registrationDate>
+      <dissolutionDate>2017-07-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ионов Андрей Викторович</fio>
+          <innfl>183207792993</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-05-28</date>
+          <firstDate>2012-05-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Домбровский Виктор Владимирович</fio>
+            <innfl>182900677427</innfl>
+            <position>Генеральный директор</position>
+            <date>2002-11-18</date>
+            <firstDate>2002-11-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

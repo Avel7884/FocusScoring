@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5263027629</inn>
+    <ogrn>1025202836834</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202836834</focusHref>
+    <UL>
+      <kpp>526201001</kpp>
+      <okpo>49781902</okpo>
+      <okato>22401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО СМУ АСИ</short>
+        <full>Общество с ограниченной ответственностью СМУ Авиастройинвест</full>
+        <date>2002-11-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603098</zipCode>
+          <kladrCode>520000010000916</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пушкина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26А</topoValue>
+          </house>
+          <flat>
+            <topoValue>12</topoValue>
+          </flat>
+          <houseRaw>26А</houseRaw>
+          <flatRaw>12</flatRaw>
+        </parsedAddressRF>
+        <date>2011-07-18</date>
+        <firstDate>2011-07-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-01-26</date>
+      </status>
+      <registrationDate>1998-09-03</registrationDate>
+      <dissolutionDate>2016-01-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мисливец Андрей Викторович</fio>
+          <innfl>524900455967</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2013-11-25</date>
+          <firstDate>2013-11-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Савина Валентина Владимировна</fio>
+            <innfl>212807960100</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-07-18</date>
+            <firstDate>2011-07-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

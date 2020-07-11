@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7723010860</inn>
+    <ogrn>1027700401156</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700401156</focusHref>
+    <UL>
+      <kpp>771501001</kpp>
+      <okpo>20937832</okpo>
+      <okato>45280558000</okato>
+      <okfs>23</okfs>
+      <oktmo>45352000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АЛТА М"</short>
+        <full>Закрытое акционерное общество "АЛТА М"</full>
+        <date>2002-11-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127543</zipCode>
+          <kladrCode>770000000001542</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Корнейчука</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24</topoValue>
+          </house>
+          <houseRaw>24</houseRaw>
+        </parsedAddressRF>
+        <date>2012-11-27</date>
+        <firstDate>2012-11-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-04-01</date>
+      </status>
+      <registrationDate>1992-09-16</registrationDate>
+      <dissolutionDate>2013-04-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Замятин Андрей Александрович</fio>
+          <innfl>773104490334</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2012-12-11</date>
+          <firstDate>2002-11-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>109387</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Краснодонская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>2</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2002-11-05</date>
+            <firstDate>2002-11-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

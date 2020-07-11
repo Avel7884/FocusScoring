@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6319091420</inn>
+    <ogrn>1026301715032</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026301715032</focusHref>
+    <UL>
+      <kpp>631901001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто-Лидер"</short>
+        <full>Общество с ограниченной ответственностью "Авто-Лидер"</full>
+        <date>2002-12-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <kladrCode>630000010000465</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Краснодонская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>70</topoValue>
+          </house>
+          <houseRaw>70</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-15</date>
+        <firstDate>2002-12-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-06-01</date>
+      </status>
+      <registrationDate>2002-12-15</registrationDate>
+      <dissolutionDate>2007-06-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Куницын Константин Евгеньевич</fio>
+          <innfl>631107133508</innfl>
+          <position>Директор</position>
+          <date>2007-03-29</date>
+          <firstDate>2007-03-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

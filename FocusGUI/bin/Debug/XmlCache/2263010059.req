@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2263010059</inn>
+    <ogrn>1072208005869</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072208005869</focusHref>
+    <UL>
+      <kpp>226301001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>АЛТАЙ КОКС НОВОСИБ.АКН ЗАО</short>
+        <full>АЛТАЙ КОКС НОВОСИБИРСК АКН ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО</full>
+        <date>2007-09-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658060</zipCode>
+          <kladrCode>220340000050046</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Первомайский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Березовка</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Центральная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>70</topoValue>
+          </house>
+          <houseRaw>70</houseRaw>
+        </parsedAddressRF>
+        <date>2007-09-05</date>
+        <firstDate>2007-09-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-09-05</date>
+      </status>
+      <registrationDate>1997-11-25</registrationDate>
+      <dissolutionDate>2007-09-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Моргунов Виталий Анатольевич</fio>
+          <position>Директор</position>
+          <date>2007-09-05</date>
+          <firstDate>2007-09-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

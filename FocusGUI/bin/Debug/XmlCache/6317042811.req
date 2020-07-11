@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6317042811</inn>
+    <ogrn>1036300667920</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036300667920</focusHref>
+    <UL>
+      <kpp>631701001</kpp>
+      <legalName>
+        <short>ФГУП "105 УНР"</short>
+        <full>Федеральное государственное унитарное предприятие "105 управление начальника работ"-дочернее предприятие Федерального государственного унитарного предприятия" Волжско-Уральское строительное управление Министерства обороны Российской Федерации</full>
+        <date>2003-03-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443099</zipCode>
+          <kladrCode>630000010000828</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Комсомольская</topoValue>
+          </street>
+          <bulk>
+            <topoValue>27А</topoValue>
+          </bulk>
+          <bulkRaw>27 А</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-03-07</date>
+        <firstDate>2003-03-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-03-09</date>
+      </status>
+      <registrationDate>2002-04-24</registrationDate>
+      <dissolutionDate>2004-03-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Волощик Сергей Яковлевич</fio>
+          <position>Начальник</position>
+          <date>2003-03-07</date>
+          <firstDate>2003-03-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

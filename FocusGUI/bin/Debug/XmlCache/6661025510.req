@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6661025510</inn>
+    <ogrn>1026605230068</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605230068</focusHref>
+    <UL>
+      <kpp>666101001</kpp>
+      <okpo>16888571</okpo>
+      <okato>65401377000</okato>
+      <okfs>13</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>2300219</okogu>
+      <legalName>
+        <short>ГУП СО "Агентство по развитию рынка продовольствия"</short>
+        <full>Государственное унитарное предприятие Свердловской области "Агентство по развитию рынка продовольствия"</full>
+        <date>2006-11-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620014</zipCode>
+          <kladrCode>660000010000018</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>8 Марта</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <houseRaw>13</houseRaw>
+        </parsedAddressRF>
+        <date>2006-11-09</date>
+        <firstDate>2006-11-09</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>ПЕРВОМАЙСКИЙ МУКОМОЛЬНЫЙ ЗАВОД</name>
+          <parsedAddressRF>
+            <zipCode>623480</zipCode>
+            <kladrCode>660130000490002</kladrCode>
+            <regionCode>66</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Свердловская</topoValue>
+            </regionName>
+            <district>
+              <topoShortName>р-н</topoShortName>
+              <topoFullName>район</topoFullName>
+              <topoValue>Каменский</topoValue>
+            </district>
+            <settlement>
+              <topoShortName>п</topoShortName>
+              <topoFullName>поселок</topoFullName>
+              <topoValue>Первомайский</topoValue>
+            </settlement>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Кирова</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>60</topoValue>
+            </house>
+            <houseRaw>60</houseRaw>
+          </parsedAddressRF>
+          <date>2012-07-03</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-02-20</date>
+      </status>
+      <registrationDate>1992-06-16</registrationDate>
+      <dissolutionDate>2015-02-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бакланов Евгений Владимирович</fio>
+          <innfl>666401582993</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-05-14</date>
+          <firstDate>2012-01-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шептий Виктор Анатольевич</fio>
+            <innfl>665811699947</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-02-24</date>
+            <firstDate>2011-02-24</firstDate>
+          </head>
+          <head>
+            <fio>Лацков Сергей Михайлович</fio>
+            <innfl>665803301111</innfl>
+            <position>И.О. генерального директора</position>
+            <date>2012-02-16</date>
+            <firstDate>2012-02-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

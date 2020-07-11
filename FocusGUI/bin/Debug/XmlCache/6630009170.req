@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6630009170</inn>
+    <ogrn>1036601880292</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036601880292</focusHref>
+    <UL>
+      <kpp>667401001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТФК "Автотранслизинг"</short>
+        <full>Общество с ограниченной ответственностью "Торгово-финансовая компания "Автотранслизинг"</full>
+        <date>2003-01-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620000</zipCode>
+          <kladrCode>660000010000637</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ляпустина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>60</topoValue>
+          </house>
+          <houseRaw>60</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2003-12-10</date>
+        <firstDate>2003-12-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-03-25</date>
+      </status>
+      <registrationDate>2003-01-28</registrationDate>
+      <dissolutionDate>2008-03-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Липин Вадим Михайлович</fio>
+          <innfl>666103554694</innfl>
+          <position>Директор</position>
+          <date>2007-11-15</date>
+          <firstDate>2007-11-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

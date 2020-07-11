@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1901056699</inn>
+    <ogrn>1031900517439</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1031900517439</focusHref>
+    <UL>
+      <kpp>190101001</kpp>
+      <okopf>97</okopf>
+      <opf>Автономные некоммерческие организации</opf>
+      <legalName>
+        <short>АНО "ЭНЕРГОСЕРВИС"</short>
+        <full>Автономная некоммерческая организация "ЭНЕРГОНАДЗОРСЕРВИС"</full>
+        <date>2003-01-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655017</zipCode>
+          <kladrCode>190000010000135</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абакан</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Нефтяной</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <houseRaw>20</houseRaw>
+        </parsedAddressRF>
+        <date>2007-01-15</date>
+        <firstDate>2007-01-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-10-09</date>
+      </status>
+      <registrationDate>2003-01-14</registrationDate>
+      <dissolutionDate>2008-10-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Барабаш Сергей Васильевич</fio>
+          <innfl>190101290137</innfl>
+          <position>Председатель ликвидационной комиссии</position>
+          <date>2007-11-26</date>
+          <firstDate>2007-11-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

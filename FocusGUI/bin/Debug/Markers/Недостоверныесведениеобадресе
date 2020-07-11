@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>4</Score>
+  <Name>Недостоверные сведение об адресе</Name>
+  <Colour>Yellow</Colour>
+  <Description>В ЕГРЮЛ указан  признак недостоверности сведений в отношении адреса</Description>
+  <Code>return company.GetParam("m5006") == "true"; </Code>
+</items>

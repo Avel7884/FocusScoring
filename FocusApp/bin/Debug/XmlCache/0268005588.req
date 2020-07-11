@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0268005588</inn>
+    <ogrn>1020202089115</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020202089115</focusHref>
+    <UL>
+      <kpp>026801001</kpp>
+      <okpo>07508405</okpo>
+      <okato>80445000000</okato>
+      <okfs>12</okfs>
+      <oktmo>80745000001</oktmo>
+      <okogu>1323500</okogu>
+      <okopf>65141</okopf>
+      <opf>Федеральные казенные предприятия</opf>
+      <legalName>
+        <short>ФКП "Авангард"</short>
+        <full>Федеральное казенное предприятие "Авангард"</full>
+        <date>2006-09-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>453102</zipCode>
+          <kladrCode>020000140000301</kladrCode>
+          <regionCode>02</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Башкортостан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Стерлитамак</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Олега Кошевого</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2013-01-25</date>
+        <firstDate>2002-12-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1991-10-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Шевчук Станислав Петрович</fio>
+          <innfl>143400493354</innfl>
+          <position>Исполняющий Обязанности Генерального Директора</position>
+          <date>2019-09-04</date>
+          <firstDate>2019-09-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>453102</zipCode>
+              <regionCode>02</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Башкортостан</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Стерлитамакский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Стерлитамак</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Олега Кошевого</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <houseRaw>2</houseRaw>
+            </parsedAddressRF>
+            <date>2002-12-13</date>
+            <firstDate>2002-12-13</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Шумский Юрий Федорович</fio>
+            <innfl>770408202159</innfl>
+            <position>Генеральный Директор</position>
+            <date>2019-04-15</date>
+            <firstDate>2019-04-15</firstDate>
+          </head>
+          <head>
+            <fio>Ибрагимов Азгат Ахатович</fio>
+            <innfl>026800712642</innfl>
+            <position>Генеральный Директор</position>
+            <date>2019-08-08</date>
+            <firstDate>2009-06-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>15</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

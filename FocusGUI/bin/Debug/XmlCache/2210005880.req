@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2210005880</inn>
+    <ogrn>1022200867886</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200867886</focusHref>
+    <UL>
+      <kpp>221101001</kpp>
+      <okpo>32243891</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "КЦ АЛТАЙХИМПРОМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "КОММЕРЧЕСКИЙ ЦЕНТР АЛТАЙХИМПРОМ"</full>
+        <date>2002-12-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658839</zipCode>
+          <kladrCode>220000120000016</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Яровое</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2003-05-13</date>
+        <firstDate>2003-05-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-04-12</date>
+      </status>
+      <registrationDate>2002-12-28</registrationDate>
+      <dissolutionDate>2012-04-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Смирнова Ксения Викторовна</fio>
+          <innfl>221100996875</innfl>
+          <position>Директор</position>
+          <date>2006-08-11</date>
+          <firstDate>2006-08-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Сыркина Марина Владимировна</fio>
+            <innfl>221100132956</innfl>
+            <position>Директор</position>
+            <date>2007-02-01</date>
+            <firstDate>2007-02-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

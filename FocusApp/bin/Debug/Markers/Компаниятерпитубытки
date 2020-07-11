@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Компания терпит убытки</Name>
+  <Colour>Yellow</Colour>
+  <Description>Чистая прибыль на конец отчетного периода (за последний отчетный год, оценка в рублях)</Description>
+  <Code>double value;
+return double.TryParse(company.GetParam("s6008").Replace(",","."), out value) &amp;&amp; value &lt; 0;</Code>
+</items>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7730243665</inn>
+    <ogrn>1184205009823</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1184205009823</focusHref>
+    <UL>
+      <kpp>773001001</kpp>
+      <okpo>28529854</okpo>
+      <okato>45268595000</okato>
+      <okfs>16</okfs>
+      <oktmo>45328000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ИНТЕРХАУС-Н-РЕГИОН"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ИНТЕРХАУС-Н-РЕГИОН"</full>
+        <date>2018-05-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121087</zipCode>
+          <kladrCode>770000000002388</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Промышленный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 7</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 3</bulkRaw>
+        </parsedAddressRF>
+        <date>2018-05-14</date>
+        <firstDate>2018-05-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-05-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Табухов Заудин Юрьевич</fio>
+          <innfl>773007429567</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-05-14</date>
+          <firstDate>2018-05-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

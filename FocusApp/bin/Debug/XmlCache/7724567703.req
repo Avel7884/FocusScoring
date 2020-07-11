@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7724567703</inn>
+    <ogrn>1067746246655</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067746246655</focusHref>
+    <UL>
+      <kpp>772401001</kpp>
+      <okpo>93428676</okpo>
+      <okato>45296571000</okato>
+      <okfs>16</okfs>
+      <oktmo>45918000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛМЕД"</short>
+        <full>Общество с ограниченной ответственностью "АЛМЕД"</full>
+        <date>2006-02-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117105</zipCode>
+          <kladrCode>770000000000511</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Нагатинский 1-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>4</houseRaw>
+        </parsedAddressRF>
+        <date>2006-02-08</date>
+        <firstDate>2006-02-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-03-12</date>
+      </status>
+      <registrationDate>2006-02-08</registrationDate>
+      <dissolutionDate>2019-03-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лось Елена Александровна</fio>
+          <innfl>672700173733</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-08-26</date>
+          <firstDate>2014-08-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Антипова Ирина Владимировна</fio>
+            <innfl>772471738149</innfl>
+            <position>Генеральный Директор</position>
+            <date>2010-04-16</date>
+            <firstDate>2010-04-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7710069585</inn>
+    <ogrn>1027700160212</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700160212</focusHref>
+    <UL>
+      <kpp>773401001</kpp>
+      <okpo>27551484</okpo>
+      <okato>45283582000</okato>
+      <okfs>23</okfs>
+      <oktmo>45371000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АПР"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АГЕНТСТВО ПОДПИСКИ И РОЗНИЦЫ"</full>
+        <date>2018-06-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123308</zipCode>
+          <kladrCode>770000000007055</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Маршала Жукова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <flat>
+            <topoValue>Комната 4 помещение V</topoValue>
+          </flat>
+          <houseRaw>ДОМ 4</houseRaw>
+          <flatRaw>КОМНАТА 4 ПОМЕЩЕНИЕ V</flatRaw>
+        </parsedAddressRF>
+        <date>2018-06-14</date>
+        <firstDate>2018-06-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-06-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Кокорев Виктор Иванович</fio>
+          <innfl>770303909977</innfl>
+          <position>Генеральный Директор</position>
+          <date>2004-09-06</date>
+          <firstDate>2004-09-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771001001</kpp>
+            <date>2013-01-16</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "АПР"</short>
+            <full>Закрытое акционерное общество "АГЕНТСТВО ПОДПИСКИ И РОЗНИЦЫ"</full>
+            <date>2002-08-27</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>123001</zipCode>
+              <kladrCode>770000000007022</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Ермолаевский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>25</topoValue>
+              </house>
+              <houseRaw>25</houseRaw>
+            </parsedAddressRF>
+            <date>2013-01-16</date>
+            <firstDate>2013-01-16</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125009</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>б-р</topoShortName>
+                <topoFullName>бульвар</topoFullName>
+                <topoValue>Страстной</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>4</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2002-08-27</date>
+            <firstDate>2002-08-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

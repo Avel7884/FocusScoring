@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>662302814364</inn>
+    <ogrn>305662309400176</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305662309400176</focusHref>
+    <IP>
+      <fio>Дудникова Оксана Анатольевна</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2005-04-04</registrationDate>
+      <dissolutionDate>2007-12-25</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-12-25</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>6623043564</inn>
+    <ogrn>1076600010453</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076600010453</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>83426541</okpo>
+      <okato>65476382000</okato>
+      <okfs>53</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4220003</okogu>
+      <okopf>20200</okopf>
+      <opf>Общественные организации</opf>
+      <legalName>
+        <short>"Доброе сердце"</short>
+        <full>Нижнетагильская общественная организация родителей детей-инвалидов "Доброе сердце"</full>
+        <date>2012-08-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622005</zipCode>
+          <kladrCode>660000230000099</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гвардейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <houseRaw>26</houseRaw>
+        </parsedAddressRF>
+        <date>2007-10-24</date>
+        <firstDate>2007-10-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-10-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Дудникова Оксана Анатольевна</fio>
+          <innfl>662302814364</innfl>
+          <position>Председатель</position>
+          <date>2019-06-10</date>
+          <firstDate>2007-10-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>НТОО ДИР</short>
+          </legalName>
+          <legalName>
+            <full>Нижнетагильская общественная организация детей-инвалидов и их родителей "Доброе сердце"</full>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

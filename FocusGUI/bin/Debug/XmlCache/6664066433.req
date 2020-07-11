@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6664066433</inn>
+    <ogrn>1026605763799</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605763799</focusHref>
+    <UL>
+      <kpp>667401001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГВА-СЕРВИС"</short>
+        <full>Общество с ограниченной ответственностью "АГВА-СЕРВИС"</full>
+        <date>2002-10-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620085</zipCode>
+          <kladrCode>660000010001190</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ферганская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <flat>
+            <topoValue>207</topoValue>
+          </flat>
+          <houseRaw>16</houseRaw>
+          <flatRaw>207</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-15</date>
+        <firstDate>2002-10-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2003-08-04</date>
+      </status>
+      <registrationDate>1999-07-08</registrationDate>
+      <dissolutionDate>2003-08-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Медведев Григорий Валерьевич</fio>
+          <innfl>666400006718</innfl>
+          <position>Директор</position>
+          <date>2002-10-15</date>
+          <firstDate>2002-10-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

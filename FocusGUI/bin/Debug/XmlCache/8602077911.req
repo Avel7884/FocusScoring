@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>8602077911</inn>
+    <ogrn>1088602007295</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1088602007295</focusHref>
+    <UL>
+      <kpp>860201001</kpp>
+      <okpo>87213730</okpo>
+      <okato>71136000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71876000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "100 тонн грузоперевозки"</short>
+        <full>Общество с ограниченной ответственностью "100 тонн грузоперевозки"</full>
+        <date>2011-12-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628403</zipCode>
+          <kladrCode>860000100000055</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сургут</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Маяковского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>57</topoValue>
+          </house>
+          <flat>
+            <topoValue>521</topoValue>
+          </flat>
+          <houseRaw>57</houseRaw>
+          <flatRaw>521</flatRaw>
+        </parsedAddressRF>
+        <date>2015-08-17</date>
+        <firstDate>2014-05-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-02-17</date>
+      </status>
+      <registrationDate>2008-08-21</registrationDate>
+      <dissolutionDate>2016-02-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Маринов Геннадий Петрович</fio>
+          <innfl>860230478715</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-03-28</date>
+          <firstDate>2014-03-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>861701001</kpp>
+            <date>2014-05-21</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "Галка Маркетинг"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью "Галка Маркетинг"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>628433</zipCode>
+              <kladrCode>860090000040044</kladrCode>
+              <regionCode>86</regionCode>
+              <regionName>
+                <topoShortName>ао</topoShortName>
+                <topoFullName>автономный округ</topoFullName>
+                <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Сургутский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>пгт</topoShortName>
+                <topoFullName>поселок городского типа</topoFullName>
+                <topoValue>Белый Яр</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Манежный</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <houseRaw>4</houseRaw>
+            </parsedAddressRF>
+            <date>2011-12-21</date>
+            <firstDate>2011-12-21</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>628403</zipCode>
+              <regionCode>86</regionCode>
+              <regionName>
+                <topoShortName>ао</topoShortName>
+                <topoFullName>автономный округ</topoFullName>
+                <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Сургут</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Ленина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>18</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>18</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2009-12-18</date>
+            <firstDate>2009-12-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Галка Руслан Витальевич</fio>
+            <innfl>860224174243</innfl>
+            <position>Директор</position>
+            <date>2008-08-21</date>
+            <firstDate>2008-08-21</firstDate>
+          </head>
+          <head>
+            <fio>Богомолов Александр Дмитриевич</fio>
+            <position>Директор</position>
+            <date>2011-11-01</date>
+            <firstDate>2011-11-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

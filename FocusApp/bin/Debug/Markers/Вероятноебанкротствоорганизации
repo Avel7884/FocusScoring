@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>5</Score>
+  <Name>Вероятное банкротство организации</Name>
+  <Colour>Red</Colour>
+  <Description>Обнаружены арбитражные дела о банкротстве за последние 3 месяца 
+ Обнаружены сообщение о банкротстве за последние 12 месяцев 
+ Обнаружены признаки завершенной процедуры банкротства</Description>
+  <Code>return company.GetParam("m7013") == "true" || company.GetParam("m7014") == "true" || company.GetParam("m7016") == "true";</Code>
+</items>

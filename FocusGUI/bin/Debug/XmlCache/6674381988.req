@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6674381988</inn>
+    <ogrn>1116674013928</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1116674013928</focusHref>
+    <UL>
+      <kpp>667901001</kpp>
+      <okpo>30813441</okpo>
+      <okato>65401390000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МеталлТрейд"</short>
+        <full>Общество с ограниченной ответственностью "МеталлТрейд"</full>
+        <date>2011-08-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620010</zipCode>
+          <kladrCode>660000010000291</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Грибоедова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>312</topoValue>
+          </flat>
+          <houseRaw>34</houseRaw>
+          <flatRaw>ОФИС 312</flatRaw>
+        </parsedAddressRF>
+        <date>2011-08-22</date>
+        <firstDate>2011-08-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2015-03-02</date>
+      </status>
+      <registrationDate>2011-08-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Рыбакова Елена Викторовна</fio>
+          <innfl>667474037864</innfl>
+          <position>Ликвидатор</position>
+          <date>2015-03-02</date>
+          <firstDate>2015-03-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>667401001</kpp>
+            <date>2013-03-21</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Зубкова Ирина Николаевна</fio>
+            <innfl>667471639684</innfl>
+            <position>Директор</position>
+            <date>2011-08-22</date>
+            <firstDate>2011-08-22</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

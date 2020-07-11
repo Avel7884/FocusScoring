@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0411151912</inn>
+    <ogrn>1100411007773</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1100411007773</focusHref>
+    <UL>
+      <kpp>041101001</kpp>
+      <okpo>66663305</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алтай Универсал"</short>
+        <full>Общество с ограниченной ответственностью "Алтай Универсал"</full>
+        <date>2010-10-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>649000</zipCode>
+          <kladrCode>040000010000151</kladrCode>
+          <regionCode>04</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Алтай</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Горно-Алтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чорос-Гуркина Г.И</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29</topoValue>
+          </house>
+          <houseRaw>29</houseRaw>
+        </parsedAddressRF>
+        <date>2010-10-20</date>
+        <firstDate>2010-10-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-09-18</date>
+      </status>
+      <registrationDate>2010-10-20</registrationDate>
+      <dissolutionDate>2012-09-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Курмаева Юлия Фяридовна</fio>
+          <innfl>421706843329</innfl>
+          <position>Ликвидатор</position>
+          <date>2012-06-20</date>
+          <firstDate>2010-11-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

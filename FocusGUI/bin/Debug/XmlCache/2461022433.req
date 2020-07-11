@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2461022433</inn>
+    <ogrn>1022401950702</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022401950702</focusHref>
+    <UL>
+      <kpp>246101001</kpp>
+      <okpo>53640076</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АДАЛЕТ"</short>
+        <full>Общество с ограниченной ответственностью "АДАЛЕТ"</full>
+        <date>2007-05-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660025</zipCode>
+          <kladrCode>240000010000817</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шелковая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <houseRaw>10</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-07</date>
+        <firstDate>2002-12-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-25</date>
+      </status>
+      <registrationDate>2000-04-27</registrationDate>
+      <dissolutionDate>2011-03-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Балуев Дмитрий Юрьевич</fio>
+          <innfl>246211729725</innfl>
+          <position>Директор</position>
+          <date>2007-05-30</date>
+          <firstDate>2007-05-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

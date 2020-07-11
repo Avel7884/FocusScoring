@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7706642161</inn>
+    <ogrn>1067760544906</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067760544906</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>98316539</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергокомплект"</short>
+        <full>Общество с ограниченной ответственностью "Энергокомплект"</full>
+        <date>2006-12-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105082</zipCode>
+          <kladrCode>770000000003507</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Фридриха Энгельса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>75</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>5</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>1-5</topoValue>
+          </flat>
+          <houseRaw>75</houseRaw>
+          <bulkRaw>СТР. 5</bulkRaw>
+          <flatRaw>КОМНАТА 1-5</flatRaw>
+        </parsedAddressRF>
+        <date>2009-10-29</date>
+        <firstDate>2009-10-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-10-13</date>
+      </status>
+      <registrationDate>2006-12-05</registrationDate>
+      <dissolutionDate>2015-10-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чистяков Роман Владимирович</fio>
+          <innfl>772478914918</innfl>
+          <position>Конкурсный Управдяющий</position>
+          <date>2015-03-11</date>
+          <firstDate>2015-03-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Давлетшина Ирина Васильевна</fio>
+            <position>Генеральный директор</position>
+            <date>2010-08-09</date>
+            <firstDate>2010-08-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

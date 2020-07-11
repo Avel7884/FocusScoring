@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7106020257</inn>
+    <ogrn>1027100743669</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027100743669</focusHref>
+    <UL>
+      <kpp>710601001</kpp>
+      <okpo>39006326</okpo>
+      <okato>70401375000</okato>
+      <okfs>16</okfs>
+      <oktmo>70701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ" АВТОМАТИКА"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "АВТОМАТИКА"</full>
+        <date>2002-10-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>300041</zipCode>
+          <kladrCode>710000010000337</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тула</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Красноармейский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <houseRaw>7</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-30</date>
+        <firstDate>2002-10-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2016-07-14</date>
+      </status>
+      <registrationDate>1994-12-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Носков Сергей Андреевич</fio>
+          <innfl>710500618947</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2019-10-23</date>
+          <firstDate>2016-07-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Каменев Михаил Юрьевич</fio>
+            <innfl>710700314897</innfl>
+            <position>Директор</position>
+            <date>2002-10-30</date>
+            <firstDate>2002-10-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

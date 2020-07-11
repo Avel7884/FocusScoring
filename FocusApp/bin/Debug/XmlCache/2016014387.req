@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2016014387</inn>
+    <ogrn>1042002600210</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1042002600210</focusHref>
+    <UL>
+      <kpp>201601001</kpp>
+      <okpo>51341091</okpo>
+      <okato>96401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>96701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКФ "ИДЕАЛ"</short>
+        <full>Общество с ограниченной ответственностью Производственно-коммерческая фирма "ИДЕАЛ"</full>
+        <date>2004-01-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>364058</zipCode>
+          <kladrCode>200000010001011</kladrCode>
+          <regionCode>20</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Чеченская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Грозный</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Щербакова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>170</topoValue>
+          </house>
+          <houseRaw>170</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2004-01-19</date>
+        <firstDate>2004-01-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-01-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Расухаджиев Исмаил Харонович</fio>
+          <innfl>200889033135</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-07</date>
+          <firstDate>2008-09-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6671457325</inn>
+    <ogrn>1146671018185</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1146671018185</focusHref>
+    <UL>
+      <kpp>667101001</kpp>
+      <okpo>39918435</okpo>
+      <okato>65401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Техноткань"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "Техноткань"</full>
+        <date>2014-07-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620146</zipCode>
+          <kladrCode>660000010000075</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Амундсена</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>69</topoValue>
+          </house>
+          <flat>
+            <topoValue>151</topoValue>
+          </flat>
+          <houseRaw>69</houseRaw>
+          <flatRaw>151</flatRaw>
+        </parsedAddressRF>
+        <date>2014-07-21</date>
+        <firstDate>2014-07-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-07-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Хомутов Алексей Владимирович</fio>
+          <innfl>667106235602</innfl>
+          <position>Директор</position>
+          <date>2014-07-21</date>
+          <firstDate>2014-07-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

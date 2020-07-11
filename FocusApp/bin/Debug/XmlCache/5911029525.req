@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5911029525</inn>
+    <ogrn>1025901703618</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025901703618</focusHref>
+    <UL>
+      <kpp>591101001</kpp>
+      <okpo>00203795</okpo>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Азот"</short>
+        <full>Открытое акционерное общество "Азот"</full>
+        <date>2007-11-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>618400</zipCode>
+          <kladrCode>590000020000225</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Березники</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Чуртанское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>75</topoValue>
+          </house>
+          <houseRaw>75</houseRaw>
+        </parsedAddressRF>
+        <date>2007-01-16</date>
+        <firstDate>2007-01-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-12-14</date>
+      </status>
+      <registrationDate>1992-12-02</registrationDate>
+      <dissolutionDate>2010-12-14</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО УПРАВЛЯЮЩАЯ КОМПАНИЯ "УРАЛХИМ"</name>
+          <inn>7703728678</inn>
+          <ogrn>1107746785850</ogrn>
+          <date>2010-10-08</date>
+          <firstDate>2010-10-08</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <heads>
+          <head>
+            <fio>Осипов Дмитрий Васильевич</fio>
+            <position>Представитель Управляющей компании</position>
+            <date>2010-10-08</date>
+            <firstDate>2010-10-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

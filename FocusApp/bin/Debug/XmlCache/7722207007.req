@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7722207007</inn>
+    <ogrn>1067759959343</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067759959343</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А.М.Н. - Трейд"</short>
+        <full>Общество с ограниченной ответственностью "А.М.Н. - Трейд"</full>
+        <date>2006-11-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109052</zipCode>
+          <kladrCode>770000000000071</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52</topoValue>
+          </house>
+          <houseRaw>52</houseRaw>
+        </parsedAddressRF>
+        <date>2006-11-21</date>
+        <firstDate>2006-11-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-11-27</date>
+      </status>
+      <registrationDate>2000-05-04</registrationDate>
+      <dissolutionDate>2006-11-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кантор Борис Абрамович</fio>
+          <innfl>502401456045</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2006-11-27</date>
+          <firstDate>2006-11-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

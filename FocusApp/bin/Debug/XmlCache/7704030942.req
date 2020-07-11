@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7704030942</inn>
+    <ogrn>1027739165970</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739165970</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>00516695</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "АЛМАЗЗОЛОТОКОМПЛЕКТ"</short>
+        <full>ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "АЛМАЗЗОЛОТОКОМПЛЕКТ"</full>
+        <date>2002-09-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127030</zipCode>
+          <kladrCode>770000000000597</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Селезневская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11Б</topoValue>
+          </house>
+          <houseRaw>11Б</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-30</date>
+        <firstDate>2002-09-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-05-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Бестолов Руслан Урусбиевич</fio>
+          <innfl>770402539685</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-12-25</date>
+          <firstDate>2010-04-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

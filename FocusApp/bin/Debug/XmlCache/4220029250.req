@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4220029250</inn>
+    <ogrn>1054220026520</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054220026520</focusHref>
+    <UL>
+      <kpp>422001001</kpp>
+      <okpo>76912092</okpo>
+      <okato>32431367000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Планета Боулинг"</short>
+        <full>Общество с ограниченной ответственностью "Планета Боулинг"</full>
+        <date>2012-03-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654027</zipCode>
+          <kladrCode>420000120001079</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Черноморская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2012-03-30</date>
+        <firstDate>2012-03-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-12-24</date>
+      </status>
+      <registrationDate>2005-10-20</registrationDate>
+      <dissolutionDate>2015-12-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Хомякова Нина Борисовна</fio>
+          <innfl>504007983086</innfl>
+          <position>Директор</position>
+          <date>2015-11-27</date>
+          <firstDate>2015-11-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ПЛАНЕТАБОУЛИНГ 1"</short>
+          </legalName>
+          <legalName>
+            <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛАНЕТАБОУЛИНГ 1"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>654027</zipCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Куйбышева</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <houseRaw>1</houseRaw>
+            </parsedAddressRF>
+            <date>2005-10-20</date>
+            <firstDate>2005-10-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <managementCompanies>
+          <managementCompany>
+            <name>Общество с ограниченной ответственностью Управляющая компания "Веста"</name>
+            <inn>4220031185</inn>
+            <ogrn>1064220010491</ogrn>
+            <date>2013-02-01</date>
+            <firstDate>2013-02-01</firstDate>
+          </managementCompany>
+          <managementCompany>
+            <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "УПРАВЛЯЮЩАЯ КОМПАНИЯ "АЙСБЕРГ"</name>
+            <inn>4217160007</inn>
+            <ogrn>1144217000564</ogrn>
+            <date>2014-02-26</date>
+            <firstDate>2014-02-26</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Ананина Елена Валерьевна</fio>
+            <innfl>421809761406</innfl>
+            <position>Представитель управляющей компании</position>
+            <date>2013-02-01</date>
+            <firstDate>2013-02-01</firstDate>
+          </head>
+          <head>
+            <fio>Парфенова Татьяна Сергеевна</fio>
+            <innfl>425001592070</innfl>
+            <position>Директор</position>
+            <date>2015-02-20</date>
+            <firstDate>2015-02-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

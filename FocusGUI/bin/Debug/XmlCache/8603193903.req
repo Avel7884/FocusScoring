@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>8603193903</inn>
+    <ogrn>1128603028730</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1128603028730</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>12522867</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плеяда"</short>
+        <full>Общество с ограниченной ответственностью "Плеяда"</full>
+        <date>2012-10-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628605</zipCode>
+          <kladrCode>860000110000083</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ханты-Мансийская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>49</topoValue>
+          </flat>
+          <houseRaw>21</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>49</flatRaw>
+        </parsedAddressRF>
+        <date>2015-07-19</date>
+        <firstDate>2012-10-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-10-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Грейсер Алексей Алексеевич</fio>
+          <innfl>701716149901</innfl>
+          <position>Генеральный Директор</position>
+          <date>2012-10-19</date>
+          <firstDate>2012-10-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

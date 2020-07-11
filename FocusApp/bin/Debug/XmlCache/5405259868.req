@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5405259868</inn>
+    <ogrn>1035401939231</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035401939231</focusHref>
+    <UL>
+      <kpp>540401001</kpp>
+      <okpo>70523679</okpo>
+      <okato>50401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плеяда Сибирь"</short>
+        <full>Общество с ограниченной ответственностью "Плеяда Сибирь"</full>
+        <date>2003-09-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630108</zipCode>
+          <kladrCode>540000010001697</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>1-й Пархоменко</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <flat>
+            <topoValue>этаж Подземный</topoValue>
+          </flat>
+          <houseRaw>ДОМ 6</houseRaw>
+          <flatRaw>ЭТАЖ ПОДЗЕМНЫЙ</flatRaw>
+        </parsedAddressRF>
+        <date>2017-04-17</date>
+        <firstDate>2017-04-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-09-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Комаров Андрей Дмитриевич</fio>
+          <innfl>540724654455</innfl>
+          <position>Директор</position>
+          <date>2019-09-25</date>
+          <firstDate>2003-09-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>540501001</kpp>
+            <date>2006-03-28</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>630009</zipCode>
+              <kladrCode>540000010000864</kladrCode>
+              <regionCode>54</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Новосибирская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новосибирск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Никитина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>20</topoValue>
+              </house>
+              <houseRaw>20</houseRaw>
+            </parsedAddressRF>
+            <date>2003-09-18</date>
+            <firstDate>2003-09-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5245021840</inn>
+    <ogrn>1025201453034</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025201453034</focusHref>
+    <UL>
+      <kpp>526201001</kpp>
+      <okpo>53673489</okpo>
+      <okato>22401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агрогазстрой"</short>
+        <full>Общество с ограниченной ответственностью "Агрогазстрой"</full>
+        <date>2002-11-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603115</zipCode>
+          <kladrCode>520000010000799</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ошарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>61</topoValue>
+          </house>
+          <houseRaw>61</houseRaw>
+        </parsedAddressRF>
+        <date>2008-01-18</date>
+        <firstDate>2008-01-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-10-25</date>
+      </status>
+      <registrationDate>2000-03-31</registrationDate>
+      <dissolutionDate>2019-10-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Цапанов Станислав Сергеевич</fio>
+          <innfl>525629485820</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2016-08-30</date>
+          <firstDate>2016-08-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Ефимов Дмитрий Викторович</fio>
+            <innfl>524503677410</innfl>
+            <position>Директор</position>
+            <date>2010-04-20</date>
+            <firstDate>2010-04-20</firstDate>
+          </head>
+          <head>
+            <fio>Абрамов Николай Юрьевич</fio>
+            <innfl>526101595104</innfl>
+            <position>Директор</position>
+            <date>2015-10-02</date>
+            <firstDate>2015-10-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

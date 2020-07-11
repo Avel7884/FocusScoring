@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7107517228</inn>
+    <ogrn>1097154015210</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097154015210</focusHref>
+    <UL>
+      <kpp>710701001</kpp>
+      <okpo>61842960</okpo>
+      <okato>70401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>70701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авангард"</short>
+        <full>Общество с ограниченной ответственностью "Авангард"</full>
+        <date>2009-06-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>300026</zipCode>
+          <kladrCode>710000010000064</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тула</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>1-й Южный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2012-10-23</date>
+        <firstDate>2012-10-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-01-09</date>
+      </status>
+      <registrationDate>2009-06-26</registrationDate>
+      <dissolutionDate>2018-01-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Спектор Владимир Сергеевич</fio>
+          <innfl>773301710652</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-06-26</date>
+          <firstDate>2009-06-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>300026</zipCode>
+              <regionCode>71</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Тульская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Тула</topoValue>
+              </city>
+              <street>
+                <topoShortName>проезд</topoShortName>
+                <topoFullName>проезд</topoFullName>
+                <topoValue>Южный 1-й</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>8</topoValue>
+              </house>
+              <houseRaw>8</houseRaw>
+            </parsedAddressRF>
+            <date>2009-06-26</date>
+            <firstDate>2009-06-26</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

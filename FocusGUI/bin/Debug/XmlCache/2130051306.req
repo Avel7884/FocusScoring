@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2130051306</inn>
+    <ogrn>1082130018255</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1082130018255</focusHref>
+    <UL>
+      <kpp>772401001</kpp>
+      <okpo>85860419</okpo>
+      <okato>45296571000</okato>
+      <okfs>16</okfs>
+      <oktmo>45918000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Запчастьэнерго"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-Коммерческая Фирма "Запчастьэнерго"</full>
+        <date>2008-12-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115230</zipCode>
+          <kladrCode>770000000000496</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Каширское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>5</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-01-24</date>
+        <firstDate>2013-01-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-10-12</date>
+      </status>
+      <registrationDate>2008-12-18</registrationDate>
+      <dissolutionDate>2015-10-12</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ЭТАЖИ"</name>
+          <inn>2130030634</inn>
+          <ogrn>1072130018729</ogrn>
+          <date>2014-02-07</date>
+          <firstDate>2014-02-07</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>213001001</kpp>
+            <date>2008-12-18</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>428011</zipCode>
+              <regionName>
+                <topoShortName>чувашия</topoShortName>
+                <topoFullName>чувашия</topoFullName>
+                <topoValue>Чувашская Республика</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Чебоксары</topoValue>
+              </city>
+              <settlement>
+                <topoShortName>п</topoShortName>
+                <topoFullName>поселок</topoFullName>
+                <topoValue>Восточный</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Восточная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <houseRaw>4</houseRaw>
+            </parsedAddressRF>
+            <date>2008-12-18</date>
+            <firstDate>2008-12-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Фомин Александр Михайлович</fio>
+            <innfl>212711058370</innfl>
+            <position>Директор</position>
+            <date>2008-12-18</date>
+            <firstDate>2008-12-18</firstDate>
+          </head>
+          <head>
+            <fio>Николаев Сергей Владимирович</fio>
+            <innfl>212709006880</innfl>
+            <position>Представитель управляющей компании</position>
+            <date>2014-02-07</date>
+            <firstDate>2014-02-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

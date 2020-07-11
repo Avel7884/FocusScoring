@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6625025602</inn>
+    <ogrn>1026601503565</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026601503565</focusHref>
+    <UL>
+      <kpp>662501001</kpp>
+      <okpo>57653443</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергопромметаллснаб"</short>
+        <full>Закрытое акционерное общество "Энергопромметаллснаб"</full>
+        <date>2002-10-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>623100</zipCode>
+          <kladrCode>66000016000</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Первоуральск</topoValue>
+          </city>
+          <street>
+            <topoShortName>км</topoShortName>
+            <topoFullName>километр</topoFullName>
+            <topoValue>Московское 3</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2003-04-14</date>
+        <firstDate>2003-04-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-10-25</date>
+      </status>
+      <registrationDate>2001-06-20</registrationDate>
+      <dissolutionDate>2007-10-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Курков Евгений Петрович</fio>
+          <innfl>662501959798</innfl>
+          <position>Генеральный Директор</position>
+          <date>2005-09-01</date>
+          <firstDate>2005-09-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

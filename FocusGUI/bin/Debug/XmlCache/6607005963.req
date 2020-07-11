@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6607005963</inn>
+    <ogrn>1026600787267</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026600787267</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>41735624</okpo>
+      <okato>65572000000</okato>
+      <okfs>14</okfs>
+      <oktmo>65765000051</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>АДМИНИСТРАЦИЯ ГО ЗАТО СВОБОДНЫЙ</short>
+        <full>Администрация городского округа ЗАТО Свободный</full>
+        <date>2017-03-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624790</zipCode>
+          <kladrCode>660000000020009</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Свободный</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Майского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>67</topoValue>
+          </house>
+          <houseRaw>ДОМ 67</houseRaw>
+        </parsedAddressRF>
+        <date>2018-03-18</date>
+        <firstDate>2006-01-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-11-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Соколов Артем Владимирович</fio>
+          <innfl>662200996683</innfl>
+          <position>Первый Заместитель Главы Администрации</position>
+          <date>2012-04-02</date>
+          <firstDate>2012-04-02</firstDate>
+        </head>
+        <head>
+          <fio>Матвеев Андрей Александрович</fio>
+          <innfl>660702489500</innfl>
+          <position>Глава Администрации</position>
+          <date>2017-03-07</date>
+          <firstDate>2017-03-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>660701001</kpp>
+            <date>2013-03-07</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <date>2006-01-18</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>624790</zipCode>
+              <kladrCode>660090000230009</kladrCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Верхнесалдинский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>п</topoShortName>
+                <topoFullName>поселок</topoFullName>
+                <topoValue>Свободный</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Майского</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>67</topoValue>
+              </house>
+              <houseRaw>67</houseRaw>
+            </parsedAddressRF>
+            <date>2006-01-18</date>
+            <firstDate>2006-01-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Поспелов Александр Александрович</fio>
+            <innfl>660703631597</innfl>
+            <position>Глава администрации городского округа ЗАТО Свободный</position>
+            <date>2009-01-16</date>
+            <firstDate>2009-01-16</firstDate>
+          </head>
+          <head>
+            <fio>Антошко Нина Владимировна</fio>
+            <innfl>660701205970</innfl>
+            <position>Глава Администрации</position>
+            <date>2012-07-04</date>
+            <firstDate>2012-07-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>7</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

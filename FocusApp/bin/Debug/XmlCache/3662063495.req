@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3662063495</inn>
+    <ogrn>1033600011356</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033600011356</focusHref>
+    <UL>
+      <kpp>772801001</kpp>
+      <okpo>56455801</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Первый Воронежский завод ЖБИ"</short>
+        <full>Закрытое акционерное общество "Первый Воронежский завод железобетонных изделий"</full>
+        <date>2003-01-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117246</zipCode>
+          <kladrCode>770000000001965</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Научный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>20</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-12-11</date>
+        <firstDate>2009-12-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-09-17</date>
+      </status>
+      <registrationDate>2001-04-16</registrationDate>
+      <dissolutionDate>2012-09-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ничков Алексей Викторович</fio>
+          <innfl>366484237439</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2011-07-27</date>
+          <firstDate>2011-07-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

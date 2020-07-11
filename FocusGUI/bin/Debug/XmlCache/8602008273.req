@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>8602008273</inn>
+    <ogrn>1068602052001</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1068602052001</focusHref>
+    <UL>
+      <kpp>860201001</kpp>
+      <okpo>93901992</okpo>
+      <okato>71136000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71876000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЗС-ПРОСТОР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АЗС-ПРОСТОР"</full>
+        <date>2018-08-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628401</zipCode>
+          <kladrCode>860000100000091</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сургут</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рационализаторов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 19</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2018-08-23</date>
+        <firstDate>2018-08-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-02-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Пискунова Марина Валерьевна</fio>
+          <innfl>860219228408</innfl>
+          <position>Директор</position>
+          <date>2014-04-22</date>
+          <firstDate>2014-04-22</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>628406</zipCode>
+              <kladrCode>860000100000136</kladrCode>
+              <regionCode>86</regionCode>
+              <regionName>
+                <topoShortName>ао</topoShortName>
+                <topoFullName>автономный округ</topoFullName>
+                <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Сургут</topoValue>
+              </city>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Нефтеюганское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>32/1</topoValue>
+              </house>
+              <houseRaw>32/1</houseRaw>
+            </parsedAddressRF>
+            <date>2010-10-15</date>
+            <firstDate>2010-10-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Риве Андрей Андреевич</fio>
+            <innfl>861701192912</innfl>
+            <position>Директор</position>
+            <date>2010-10-15</date>
+            <firstDate>2010-10-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

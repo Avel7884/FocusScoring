@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7743087068</inn>
+    <ogrn>1067799030848</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067799030848</focusHref>
+    <UL>
+      <kpp>774301001</kpp>
+      <okpo>98262832</okpo>
+      <okato>45277553000</okato>
+      <okfs>16</okfs>
+      <oktmo>45333000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>НОУ ДО "Академия Менеджмента Инталев"</short>
+        <full>Негосударственное образовательное учреждение дополнительного образования "Академия Менеджмента Инталев"</full>
+        <date>2006-11-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125315</zipCode>
+          <kladrCode>770000000001685</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинградский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>76</topoValue>
+          </house>
+          <bulk>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>76</houseRaw>
+          <bulkRaw>3</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-11-24</date>
+        <firstDate>2006-11-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-08-09</date>
+      </status>
+      <registrationDate>2006-11-24</registrationDate>
+      <dissolutionDate>2016-08-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Косолапова Евгения Александровна</fio>
+          <position>Ликвидатор</position>
+          <date>2016-06-16</date>
+          <firstDate>2016-06-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Добровольский Евгений Юрьевич</fio>
+            <position>Директор</position>
+            <date>2006-11-24</date>
+            <firstDate>2006-11-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

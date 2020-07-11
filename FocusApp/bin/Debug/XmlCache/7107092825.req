@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7107092825</inn>
+    <ogrn>1067107007868</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067107007868</focusHref>
+    <UL>
+      <kpp>710701001</kpp>
+      <okpo>93193813</okpo>
+      <okato>70401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>70701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП "ЭНЕРГОСЕРВИС"</short>
+        <full>Общество с ограниченной ответственностью "ПКП "ЭНЕРГОСЕРВИС"</full>
+        <date>2006-02-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>300041</zipCode>
+          <kladrCode>710000010000022</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тула</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>57</topoValue>
+          </house>
+          <houseRaw>57</houseRaw>
+        </parsedAddressRF>
+        <date>2006-02-20</date>
+        <firstDate>2006-02-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-22</date>
+      </status>
+      <registrationDate>2006-02-20</registrationDate>
+      <dissolutionDate>2017-12-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Семенов Михаил Игоревич</fio>
+          <innfl>710704158166</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2016-08-31</date>
+          <firstDate>2016-08-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Касаткин Сергей Петрович</fio>
+            <position>Директор</position>
+            <date>2006-02-20</date>
+            <firstDate>2006-02-20</firstDate>
+          </head>
+          <head>
+            <fio>Яковлев Дмитрий Сергеевич</fio>
+            <innfl>710514268121</innfl>
+            <position>Директор</position>
+            <date>2015-12-10</date>
+            <firstDate>2015-05-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

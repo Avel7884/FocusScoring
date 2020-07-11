@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Значительная сумма исполнительных производств по группе компаний</Name>
+  <Colour>YellowAffiliates</Colour>
+  <Description>Значительная сумма исполнительных производств по группе компаний</Description>
+  <Code>                        if (Критическаясуммаисполнительныхпроизводствпогруппекомпаний.Function(company))
+                            return false;
+
+
+                        var revs = company.GetMultiParam("s6004Affiliates");
+                        var cases = company.GetMultiParam("s1001Affiliates");
+                        var sums = company.GetMultiParam("SumAffiliates");
+
+double sum;
+double a;
+double b;
+
+                        var count = .0;
+                        for (int i = 0; i &lt; sums.Length; i++)
+                            if (DoubleTryParse(sums[i], out sum) &amp;&amp;
+                                DoubleTryParse(cases[i], out a) &amp;&amp;
+                                DoubleTryParse(revs[i], out b))
+                                if (a &gt; (0.2 * b) &amp;&amp; a &gt; sum &amp; a &gt; 100000)
+                                    count += 1;
+
+                        return count / sums.Length &gt; 0.3;</Code>
+</items>

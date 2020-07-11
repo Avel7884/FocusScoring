@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6663049266</inn>
+    <ogrn>1026605606939</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605606939</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АББ УЭТМ"</short>
+        <full>Закрытое акционерное общество "АББ УЭТМ"</full>
+        <date>2002-07-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620137</zipCode>
+          <kladrCode>660000010000124</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бархотская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2005-04-13</date>
+        <firstDate>2005-04-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-08-05</date>
+      </status>
+      <registrationDate>1995-04-26</registrationDate>
+      <dissolutionDate>2005-08-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Латыпов Дамир Ханифович</fio>
+          <innfl>667354850228</innfl>
+          <position>Генеральный Директор</position>
+          <date>2005-04-12</date>
+          <firstDate>2005-04-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

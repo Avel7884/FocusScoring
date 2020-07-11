@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>7805251560</inn>
+    <ogrn>5067847257638</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5067847257638</focusHref>
+    <UL>
+      <fssRegNumber>782401032978241</fssRegNumber>
+      <activities />
+      <regInfo>
+        <ogrnDate>2006-08-18</ogrnDate>
+        <regName>Регистрационная палата Администрации Санкт-Петербурга</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7805</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №19 по Санкт-Петербургу</nalogName>
+        <nalogRegDate>2002-04-12</nalogRegDate>
+        <kpp>780501001</kpp>
+        <date>2006-08-18</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7847</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №15 по Санкт-Петербургу</nalogName>
+        <date>2015-01-09</date>
+      </regBody>
+      <statedCapital />
+      <egrRecords>
+        <egrRecord>
+          <grn>8067847664371</grn>
+          <date>2006-09-04</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>8067847479263</grn>
+          <date>2006-08-18</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>8067847478560</grn>
+          <date>2006-08-18</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+          <documents>
+            <document>
+              <name>Справка о наличии признаков недействующего ЮЛ</name>
+              <date>2006-04-12</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2006-04-21</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>5067847257638</grn>
+          <date>2006-08-18</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002, по сведениям налоговых органов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №15 по Санкт-Петербургу</regName>
+          <regCode>7847</regCode>
+          <documents>
+            <document>
+              <name>Справка о наличии признаков недействующего ЮЛ</name>
+              <date>2006-04-12</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2006-04-21</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>0</sum>
+            <date>2006-08-18</date>
+          </statedCapital>
+        </statedCapitals>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

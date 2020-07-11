@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3025012902</inn>
+    <ogrn>1143025003230</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1143025003230</focusHref>
+    <UL>
+      <kpp>302501001</kpp>
+      <okpo>22205441</okpo>
+      <okato>12401381000</okato>
+      <okfs>16</okfs>
+      <oktmo>12701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ МД"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-Коммерческая Фирма МеталлДеталь"</full>
+        <date>2014-09-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>414000</zipCode>
+          <kladrCode>300000010001262</kladrCode>
+          <regionCode>30</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Астраханская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Астрахань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Н.Островского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>148</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>В</topoValue>
+          </bulk>
+          <houseRaw>148</houseRaw>
+          <bulkRaw>ЛИТЕР В</bulkRaw>
+        </parsedAddressRF>
+        <date>2014-09-25</date>
+        <firstDate>2014-09-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-09-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Пивоваров Алексей Васильевич</fio>
+          <innfl>301701598879</innfl>
+          <position>Директор</position>
+          <date>2017-12-15</date>
+          <firstDate>2015-03-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>414000</zipCode>
+              <kladrCode>300000010001262</kladrCode>
+              <regionCode>30</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Астраханская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Астрахань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Николая Островского</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>148</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>В</topoValue>
+              </bulk>
+              <houseRaw>148</houseRaw>
+              <bulkRaw>ЛИТЕР В</bulkRaw>
+            </parsedAddressRF>
+            <date>2015-12-16</date>
+            <firstDate>2015-12-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Голов Сергей Сергеевич</fio>
+            <innfl>301612503924</innfl>
+            <position>Директор</position>
+            <date>2014-09-25</date>
+            <firstDate>2014-09-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

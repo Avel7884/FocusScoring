@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5258052443</inn>
+    <ogrn>1045207252640</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045207252640</focusHref>
+    <UL>
+      <kpp>525801001</kpp>
+      <okpo>74442475</okpo>
+      <okato>22401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автоцентр Злата"</short>
+        <full>Общество с ограниченной ответственностью "Автоцентр Злата"</full>
+        <date>2009-06-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603004</zipCode>
+          <kladrCode>520000010000565</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>93</topoValue>
+          </house>
+          <houseRaw>93</houseRaw>
+        </parsedAddressRF>
+        <date>2004-10-18</date>
+        <firstDate>2004-10-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-10-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Тятинькин Александр Викторович</fio>
+          <innfl>526019486208</innfl>
+          <position>Директор</position>
+          <date>2014-10-13</date>
+          <firstDate>2014-10-13</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Тятинькин Виктор Викторович</fio>
+            <innfl>526015575859</innfl>
+            <position>Директор</position>
+            <date>2011-06-01</date>
+            <firstDate>2011-06-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6167131749</inn>
+    <ogrn>1156196071130</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1156196071130</focusHref>
+    <UL>
+      <kpp>616701001</kpp>
+      <okpo>27201778</okpo>
+      <okato>60401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>60701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "КАНАТ-КОМПЛЕКТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "КАНАТ-КОМПЛЕКТ"</full>
+        <date>2015-11-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>344111</zipCode>
+          <kladrCode>610000010000146</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ростов-на-Дону</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>40-летия Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>75</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>ДОМ 75</houseRaw>
+          <flatRaw>ОФИС 10</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-25</date>
+        <firstDate>2015-11-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-11-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Дубовик Наталья Григорьевна</fio>
+          <innfl>616402918161</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-11-25</date>
+          <firstDate>2015-11-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701235998</inn>
+    <ogrn>1027739876581</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739876581</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>52713598</okpo>
+      <okato>45286555000</okato>
+      <okfs>53</okfs>
+      <oktmo>45375000000</oktmo>
+      <okogu>4220002</okogu>
+      <okopf>70403</okopf>
+      <opf>Общественные фонды</opf>
+      <legalName>
+        <short>МО ФПА ФСБ России</short>
+        <full>Общественный фонд "Межрегиональный общественный фонд поддержки Академии Федеральной службы безопасности России"</full>
+        <date>2002-12-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <kladrCode>770000000002889</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Архангельский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>6</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-12-25</date>
+        <firstDate>2002-12-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-04-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Гыдин Хосе Викторович</fio>
+          <innfl>772137243339</innfl>
+          <position>Генеральный директор</position>
+          <date>2014-11-21</date>
+          <firstDate>2004-10-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

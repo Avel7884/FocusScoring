@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6673226098</inn>
+    <ogrn>1106673018847</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1106673018847</focusHref>
+    <UL>
+      <kpp>667301001</kpp>
+      <okpo>69530875</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Ресурс"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "Ресурс"</full>
+        <date>2010-11-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620039</zipCode>
+          <kladrCode>660000010000631</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Лукиных</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Щ</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>4</houseRaw>
+          <bulkRaw>ЛИТЕР Щ</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 2</flatRaw>
+        </parsedAddressRF>
+        <date>2010-11-17</date>
+        <firstDate>2010-11-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-08-31</date>
+      </status>
+      <registrationDate>2010-11-17</registrationDate>
+      <dissolutionDate>2015-08-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Безгодов Сергей Дмитриевич</fio>
+          <innfl>452302486030</innfl>
+          <position>Директор</position>
+          <date>2012-07-11</date>
+          <firstDate>2010-11-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

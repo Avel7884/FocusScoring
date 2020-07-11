@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217047474</inn>
+    <ogrn>1034217010300</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034217010300</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>АЛСИБМЕТ ЗАО</short>
+        <full>АЛСИБМЕТ Закрытое акционерное общество</full>
+        <date>2003-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654000</zipCode>
+          <kladrCode>42009001000</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <house>
+            <topoValue>Производственная</topoValue>
+          </house>
+          <bulk>
+            <topoValue>26</topoValue>
+          </bulk>
+          <houseRaw>ПРОИЗВОДСТВЕННАЯ</houseRaw>
+          <bulkRaw>26</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-02-07</date>
+        <firstDate>2003-02-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-11-24</date>
+      </status>
+      <registrationDate>2001-07-09</registrationDate>
+      <dissolutionDate>2006-11-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мицюк Анатолий Николаевич</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2005-03-31</date>
+          <firstDate>2005-03-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>654000</zipCode>
+              <kladrCode>42009001000</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Новокузнецкий</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <house>
+                <topoValue>Производственная</topoValue>
+              </house>
+              <bulk>
+                <topoValue>26</topoValue>
+              </bulk>
+              <houseRaw>ПРОИЗВОДСТВЕННАЯ</houseRaw>
+              <bulkRaw>26</bulkRaw>
+            </parsedAddressRF>
+            <date>2003-02-07</date>
+            <firstDate>2003-02-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

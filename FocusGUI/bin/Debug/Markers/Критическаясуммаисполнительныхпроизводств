@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>4</Score>
+  <Name>Критическая сумма исполнительных производств</Name>
+  <Colour>Red</Colour>
+  <Description>Критическая сумма исполнительных производств (сумма исполнительных производств составляет более 20% от выручки организации за последний отчетный период) и более суммы уставного капитала, и более 100 тыс. руб.</Description>
+  <Code>double sum;
+double a;
+double b;
+                        if (DoubleTryParse(company.GetParam("Sum"), out sum) &amp;&amp; DoubleTryParse(company.GetParam("s1001"), out a) &amp;&amp;
+                            DoubleTryParse(company.GetParam("s6004"), out b))
+                            return a &gt; (0.2 * b) &amp;&amp; a &gt; sum &amp; a &gt; 500000;
+                        return false;</Code>
+</items>

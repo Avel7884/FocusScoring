@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7712028714</inn>
+    <ogrn>1035009565480</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035009565480</focusHref>
+    <UL>
+      <kpp>504701001</kpp>
+      <okpo>11237745</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "А-АСтрой"</short>
+        <full>Закрытое акционерное общество "А-АСтрой"</full>
+        <date>2003-03-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141400</zipCode>
+          <kladrCode>50000030024</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Химки</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>тер</topoShortName>
+            <topoFullName>территория</topoFullName>
+            <topoValue>Шереметьево Аэропорт</topoValue>
+          </settlement>
+        </parsedAddressRF>
+        <date>2003-03-27</date>
+        <firstDate>2003-03-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-08-23</date>
+      </status>
+      <registrationDate>1995-08-10</registrationDate>
+      <dissolutionDate>2012-08-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Нефедов Герман Михайлович</fio>
+          <innfl>773100273603</innfl>
+          <position>Генеральный директор</position>
+          <date>2003-03-27</date>
+          <firstDate>2003-03-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>421811660684</inn>
+    <ogrn>317703100087482</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=317703100087482</focusHref>
+    <IP>
+      <fio>Гречухин Денис Юрьевич</fio>
+      <okpo>0118184342</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>69701000001</oktmo>
+      <registrationDate>2017-07-18</registrationDate>
+      <dissolutionDate>2018-01-19</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-01-19</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7017219322</inn>
+    <ogrn>1087017022256</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1087017022256</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>85259076</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Сибрегион инвест"</short>
+        <full>Общество с ограниченной ответственностью "Сибрегион инвест"</full>
+        <date>2008-08-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634040</zipCode>
+          <kladrCode>700000010000144</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Высоцкого Владимира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>33</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>9</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>28</topoValue>
+          </flat>
+          <houseRaw>ДОМ 33</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 9</bulkRaw>
+          <flatRaw>КВАРТИРА 28</flatRaw>
+        </parsedAddressRF>
+        <date>2015-12-10</date>
+        <firstDate>2015-12-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-01-30</date>
+      </status>
+      <registrationDate>2008-08-04</registrationDate>
+      <dissolutionDate>2017-01-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кузьмин Захар Евгеньевич</fio>
+          <innfl>701727355631</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-11-03</date>
+          <firstDate>2015-11-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>634029</zipCode>
+              <kladrCode>700000010000833</kladrCode>
+              <regionCode>70</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Томская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Томск</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Фрунзе</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>25</topoValue>
+              </house>
+              <houseRaw>25</houseRaw>
+            </parsedAddressRF>
+            <date>2009-05-07</date>
+            <firstDate>2009-05-07</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Агеев Иван Геннадьевич</fio>
+            <position>Генеральный Директор</position>
+            <date>2009-05-07</date>
+            <firstDate>2009-05-07</firstDate>
+          </head>
+          <head>
+            <fio>Гречухин Денис Юрьевич</fio>
+            <innfl>421811660684</innfl>
+            <position>Генеральный Директор</position>
+            <date>2011-11-28</date>
+            <firstDate>2011-11-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7017275736</inn>
+    <ogrn>1107017022529</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107017022529</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>67017783</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МАГИСТРАЛЬ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МАГИСТРАЛЬ"</full>
+        <date>2014-08-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634041</zipCode>
+          <kladrCode>700000010000776</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тверская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>88</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>43</topoValue>
+          </flat>
+          <houseRaw>ДОМ 88</houseRaw>
+          <flatRaw>КВАРТИРА 43</flatRaw>
+        </parsedAddressRF>
+        <date>2015-09-22</date>
+        <firstDate>2015-09-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-10-22</date>
+      </status>
+      <registrationDate>2010-12-23</registrationDate>
+      <dissolutionDate>2018-10-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Цветкова Юлия Геннадьевна</fio>
+          <innfl>701700137636</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-09-22</date>
+          <firstDate>2015-09-22</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ОПТИМА"</short>
+            <full>Общество с ограниченной ответственностью "ОПТИМА"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>634062</zipCode>
+              <kladrCode>700000010000241</kladrCode>
+              <regionCode>70</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Томская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Томск</topoValue>
+              </city>
+              <street>
+                <topoShortName>тракт</topoShortName>
+                <topoFullName>тракт</topoFullName>
+                <topoValue>Иркутский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>85</topoValue>
+              </house>
+              <flat>
+                <topoValue>56</topoValue>
+              </flat>
+              <houseRaw>85</houseRaw>
+              <flatRaw>56</flatRaw>
+            </parsedAddressRF>
+            <date>2014-08-27</date>
+            <firstDate>2014-08-27</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>634015</zipCode>
+              <regionCode>70</regionCode>
+              <regionName>
+                <topoValue>Томская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Томск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Циолковского</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>19</topoValue>
+              </house>
+              <houseRaw>19</houseRaw>
+            </parsedAddressRF>
+            <date>2010-12-23</date>
+            <firstDate>2010-12-23</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Баранцева Светлана Валерьевна</fio>
+            <innfl>701728027880</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-12-23</date>
+            <firstDate>2010-12-23</firstDate>
+          </head>
+          <head>
+            <fio>Корнеев Сергей Сергеевич</fio>
+            <innfl>701715622120</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-08-27</date>
+            <firstDate>2014-08-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7017276916</inn>
+    <ogrn>1117017000583</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117017000583</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>67017079</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТД Сибрегион"</short>
+        <full>Общество с ограниченной ответственностью "Торговый Дом Сибрегион"</full>
+        <date>2011-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634041</zipCode>
+          <kladrCode>700000010000776</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тверская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>88</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>43</topoValue>
+          </flat>
+          <houseRaw>ДОМ 88</houseRaw>
+          <flatRaw>КВАРТИРА 43</flatRaw>
+        </parsedAddressRF>
+        <date>2016-03-04</date>
+        <firstDate>2016-03-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-11-13</date>
+      </status>
+      <registrationDate>2011-01-20</registrationDate>
+      <dissolutionDate>2017-11-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Цветкова Юлия Геннадьевна</fio>
+          <innfl>701700137636</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-03-04</date>
+          <firstDate>2016-03-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>634029</zipCode>
+              <kladrCode>700000010000833</kladrCode>
+              <regionCode>70</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Томская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Томск</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Фрунзе</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>25</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>1001</topoValue>
+              </flat>
+              <houseRaw>25</houseRaw>
+              <flatRaw>ОФ. 1001</flatRaw>
+            </parsedAddressRF>
+            <date>2011-01-20</date>
+            <firstDate>2011-01-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Корнеев Сергей Сергеевич</fio>
+            <innfl>701715622120</innfl>
+            <position>Генеральный Директор</position>
+            <date>2011-01-20</date>
+            <firstDate>2011-01-20</firstDate>
+          </head>
+          <head>
+            <fio>Гречухин Денис Юрьевич</fio>
+            <innfl>421811660684</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-04-30</date>
+            <firstDate>2014-04-30</firstDate>
+          </head>
+          <head>
+            <fio>Фролов Анатолий Викторович</fio>
+            <position>Генеральный Директор</position>
+            <date>2015-10-09</date>
+            <firstDate>2015-10-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7017284628</inn>
+    <ogrn>1117017008371</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117017008371</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>90300757</okpo>
+      <okato>69401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКК-РегионСтрой"</short>
+        <full>Общество с ограниченной ответственностью "АКК-РегионСтрой"</full>
+        <date>2011-12-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634062</zipCode>
+          <kladrCode>700000010000241</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Иркутский тракт</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>85</topoValue>
+          </house>
+          <flat>
+            <topoValue>56</topoValue>
+          </flat>
+          <houseRaw>85</houseRaw>
+          <flatRaw>56</flatRaw>
+        </parsedAddressRF>
+        <date>2011-05-18</date>
+        <firstDate>2011-05-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-12-25</date>
+      </status>
+      <registrationDate>2011-05-18</registrationDate>
+      <dissolutionDate>2013-12-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Корнеев Сергей Сергеевич</fio>
+          <innfl>701715622120</innfl>
+          <position>Ликвидатор</position>
+          <date>2012-09-07</date>
+          <firstDate>2011-05-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "БИП Такси"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью "БИП Такси"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>634062</zipCode>
+              <regionCode>70</regionCode>
+              <regionName>
+                <topoValue>Томская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Томск</topoValue>
+              </city>
+              <street>
+                <topoShortName>тракт</topoShortName>
+                <topoFullName>тракт</topoFullName>
+                <topoValue>Иркутский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>85</topoValue>
+              </house>
+              <flat>
+                <topoValue>56</topoValue>
+              </flat>
+              <houseRaw>85</houseRaw>
+              <flatRaw>56</flatRaw>
+            </parsedAddressRF>
+            <date>2011-05-18</date>
+            <firstDate>2011-05-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7017346514</inn>
+    <ogrn>1147017001735</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1147017001735</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>20894034</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "РЖД"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РЕМОНТ ЖЕЛЕЗНЫХ ДОРОГ"</full>
+        <date>2014-01-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634029</zipCode>
+          <kladrCode>700000010000833</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Фрунзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1001</topoValue>
+          </flat>
+          <houseRaw>25</houseRaw>
+          <flatRaw>ОФИС 1001</flatRaw>
+        </parsedAddressRF>
+        <date>2014-01-28</date>
+        <firstDate>2014-01-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-04-18</date>
+      </status>
+      <registrationDate>2014-01-28</registrationDate>
+      <dissolutionDate>2018-04-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Фролов Анатолий Викторович</fio>
+          <innfl>540228837290</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-11-18</date>
+          <firstDate>2015-11-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Корнеев Сергей Сергеевич</fio>
+            <innfl>701715622120</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-01-28</date>
+            <firstDate>2014-01-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7017366119</inn>
+    <ogrn>1147017023713</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1147017023713</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>24629607</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Б-К"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БИЗ-КОНСАЛТ"</full>
+        <date>2014-11-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634062</zipCode>
+          <kladrCode>700000010000241</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>тракт</topoShortName>
+            <topoFullName>тракт</topoFullName>
+            <topoValue>Иркутский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>85</topoValue>
+          </house>
+          <flat>
+            <topoValue>56</topoValue>
+          </flat>
+          <houseRaw>85</houseRaw>
+          <flatRaw>56</flatRaw>
+        </parsedAddressRF>
+        <date>2014-11-28</date>
+        <firstDate>2014-11-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-11-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Корнеев Сергей Сергеевич</fio>
+          <innfl>701715622120</innfl>
+          <position>Директор</position>
+          <date>2018-05-04</date>
+          <firstDate>2014-11-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Антух Илья Валерьевич</fio>
+            <innfl>702406749851</innfl>
+            <position>Директор</position>
+            <date>2015-03-13</date>
+            <firstDate>2015-03-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7017402737</inn>
+    <ogrn>1167031061372</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1167031061372</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>02716955</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГСК-СЕВЕР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГЛАВНАЯ СНАБЖАЮЩАЯ КОМПАНИЯ-СЕВЕР"</full>
+        <date>2016-05-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634062</zipCode>
+          <kladrCode>700000010000241</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>тракт</topoShortName>
+            <topoFullName>тракт</topoFullName>
+            <topoValue>Иркутский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>85</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>56</topoValue>
+          </flat>
+          <houseRaw>ДОМ 85</houseRaw>
+          <flatRaw>КВАРТИРА 56</flatRaw>
+        </parsedAddressRF>
+        <date>2016-05-27</date>
+        <firstDate>2016-05-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-05-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Корнеев Сергей Сергеевич</fio>
+          <innfl>701715622120</innfl>
+          <position>Директор</position>
+          <date>2016-05-27</date>
+          <firstDate>2016-05-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7017450120</inn>
+    <ogrn>1187031065044</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1187031065044</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>32713026</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ССП"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СИБСНАБПУТЬ"</full>
+        <date>2018-09-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634049</zipCode>
+          <kladrCode>700000010000465</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мичурина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoValue>этаж 2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>24</topoValue>
+          </flat>
+          <houseRaw>ДОМ 20</houseRaw>
+          <bulkRaw>ЭТАЖ 2</bulkRaw>
+          <flatRaw>ОФИС 24</flatRaw>
+        </parsedAddressRF>
+        <date>2018-09-03</date>
+        <firstDate>2018-09-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-09-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Гречухин Денис Юрьевич</fio>
+          <innfl>421811660684</innfl>
+          <position>Директор</position>
+          <date>2018-09-03</date>
+          <firstDate>2018-09-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

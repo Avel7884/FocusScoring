@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7718752391</inn>
+    <ogrn>1097746055802</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097746055802</focusHref>
+    <UL>
+      <kpp>160901001</kpp>
+      <okpo>60404531</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Кондиционер"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "Кондиционер"</full>
+        <date>2009-02-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>422031</zipCode>
+          <kladrCode>160100000670001</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Арский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Новый Кинер</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Серп и Молот</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 2</houseRaw>
+          <flatRaw>ОФИС 1</flatRaw>
+        </parsedAddressRF>
+        <date>2015-07-31</date>
+        <firstDate>2015-07-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-11-20</date>
+      </status>
+      <registrationDate>2009-02-09</registrationDate>
+      <dissolutionDate>2015-11-20</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "УПРАВЛЯЮЩАЯ КОМПАНИЯ "КРОКУС"</name>
+          <inn>1657146939</inn>
+          <ogrn>1141690071995</ogrn>
+          <date>2015-09-08</date>
+          <firstDate>2015-09-08</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>773301001</kpp>
+            <date>2015-01-12</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>771801001</kpp>
+            <date>2009-02-09</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125368</zipCode>
+              <kladrCode>770000000003524</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Барышиха</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <flat>
+                <topoValue>1М</topoValue>
+              </flat>
+              <houseRaw>17</houseRaw>
+              <flatRaw>1М</flatRaw>
+            </parsedAddressRF>
+            <date>2015-01-12</date>
+            <firstDate>2015-01-12</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107497</zipCode>
+              <kladrCode>770000000001397</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Иркутская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>11/17</topoValue>
+              </house>
+              <bulk>
+                <topoValue>5</topoValue>
+              </bulk>
+              <houseRaw>11/17</houseRaw>
+              <bulkRaw>5</bulkRaw>
+            </parsedAddressRF>
+            <date>2009-02-09</date>
+            <firstDate>2009-02-09</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Ивкин Андрей Геннадьевич</fio>
+            <position>Генеральный директор</position>
+            <date>2010-08-20</date>
+            <firstDate>2010-08-20</firstDate>
+          </head>
+          <head>
+            <fio>Овчинников Антон Николаевич</fio>
+            <innfl>773371812560</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-01-12</date>
+            <firstDate>2015-01-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

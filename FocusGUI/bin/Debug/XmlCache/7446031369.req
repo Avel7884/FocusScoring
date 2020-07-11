@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7446031369</inn>
+    <ogrn>1027402236971</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027402236971</focusHref>
+    <UL>
+      <kpp>744601001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Магнитогорскгорснаб"</short>
+        <full>Открытое акционерное общество "Магнитогорскгорснаб"</full>
+        <date>2002-12-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>455038</zipCode>
+          <kladrCode>740000090000185</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Магнитогорск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>124</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>124</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-18</date>
+        <firstDate>2002-12-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-03-07</date>
+      </status>
+      <registrationDate>1999-08-30</registrationDate>
+      <dissolutionDate>2007-03-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чурилов Иван Иванович</fio>
+          <innfl>744503721603</innfl>
+          <position>Директор</position>
+          <date>2002-12-18</date>
+          <firstDate>2002-12-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

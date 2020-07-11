@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7730121096</inn>
+    <ogrn>1027739549859</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739549859</focusHref>
+    <UL>
+      <kpp>482501001</kpp>
+      <okpo>52572639</okpo>
+      <okato>42401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>42701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АкваТеп"</short>
+        <full>Закрытое акционерное общество Инженерный центр "Акватория Тепла"</full>
+        <date>2013-01-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>398037</zipCode>
+          <kladrCode>480000010000304</kladrCode>
+          <regionCode>48</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Липецкая</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Липецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Лебедянское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3А</topoValue>
+          </house>
+          <houseRaw>ДОМ 3А</houseRaw>
+        </parsedAddressRF>
+        <date>2018-03-06</date>
+        <firstDate>2018-03-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-12-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Шебаршин Дмитрий Николаевич</fio>
+          <innfl>773505865260</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-09-27</date>
+          <firstDate>2018-09-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>773001001</kpp>
+            <date>2005-11-07</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ЗАО ИЦ "Акватория Тепла"</short>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>121309</zipCode>
+              <kladrCode>770000000002993</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Филёвская Б</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>19/18</topoValue>
+              </house>
+              <bulk>
+                <topoValue>2</topoValue>
+              </bulk>
+              <houseRaw>19/18</houseRaw>
+              <bulkRaw>2</bulkRaw>
+            </parsedAddressRF>
+            <date>2016-06-25</date>
+            <firstDate>2002-11-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Терехов Александр Борисович</fio>
+            <innfl>774303683300</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-06-14</date>
+            <firstDate>2007-07-06</firstDate>
+          </head>
+          <head>
+            <fio>Ломакин Евгений Вячеславович</fio>
+            <innfl>772010345682</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-09-10</date>
+            <firstDate>2012-09-10</firstDate>
+          </head>
+          <head>
+            <fio>Кобельков Евгений Владимирович</fio>
+            <innfl>772829253441</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-07-12</date>
+            <firstDate>2017-07-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

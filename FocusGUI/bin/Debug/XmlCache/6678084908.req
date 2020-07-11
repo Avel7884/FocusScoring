@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6678084908</inn>
+    <ogrn>1176658071072</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1176658071072</focusHref>
+    <UL>
+      <kpp>667801001</kpp>
+      <okpo>16744889</okpo>
+      <okato>65401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ МЕГА-СЕРВИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННАЯ КОММЕРЧЕСКАЯ ФИРМА МЕГА-СЕРВИС"</full>
+        <date>2017-07-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620027</zipCode>
+          <kladrCode>660000010000046</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Азина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>52</topoValue>
+          </flat>
+          <houseRaw>ДОМ 30</houseRaw>
+          <flatRaw>КВАРТИРА 52</flatRaw>
+        </parsedAddressRF>
+        <date>2017-07-18</date>
+        <firstDate>2017-07-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-07-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Лапшин Виктор Олегович</fio>
+          <innfl>661507924503</innfl>
+          <position>Директор</position>
+          <date>2018-05-14</date>
+          <firstDate>2018-05-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Карпенко Валерий Павлович</fio>
+            <innfl>666102714730</innfl>
+            <position>Директор</position>
+            <date>2017-07-18</date>
+            <firstDate>2017-07-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

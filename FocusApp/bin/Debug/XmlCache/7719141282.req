@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7719141282</inn>
+    <ogrn>1027739185858</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739185858</focusHref>
+    <UL>
+      <kpp>771901001</kpp>
+      <okpo>45048240</okpo>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>НОУ ДПО ЦПК "АИС"</short>
+        <full>Негосударственное образовательное учреждение дополнительного профессионального образования центр повышения квалификации "АИС"</full>
+        <date>2011-04-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105203</zipCode>
+          <kladrCode>770000000002242</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Первомайская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>126</topoValue>
+          </house>
+          <houseRaw>126</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-12</date>
+        <firstDate>2002-09-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-07-07</date>
+      </status>
+      <registrationDate>2002-09-12</registrationDate>
+      <dissolutionDate>2016-07-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Малинин Юрий Витальевич</fio>
+          <innfl>121501025941</innfl>
+          <position>Ректор</position>
+          <date>2011-04-11</date>
+          <firstDate>2011-04-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

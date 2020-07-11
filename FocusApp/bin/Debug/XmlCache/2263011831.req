@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2263011831</inn>
+    <ogrn>1022202404762</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022202404762</focusHref>
+    <UL>
+      <kpp>220501001</kpp>
+      <okpo>33974160</okpo>
+      <okato>01406000000</okato>
+      <okfs>16</okfs>
+      <oktmo>01706000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЦР"</short>
+        <full>Общество с ограниченной ответственностью "Металлург-Цемремонт"</full>
+        <date>2009-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>659100</zipCode>
+          <kladrCode>220000110000192</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Заринск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Промышленная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>32</topoValue>
+          </house>
+          <houseRaw>32</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2006-06-08</date>
+        <firstDate>2006-06-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-04-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Иванов Борис Алексеевич</fio>
+          <innfl>220500967130</innfl>
+          <position>Генеральный Директор</position>
+          <date>2008-04-21</date>
+          <firstDate>2008-04-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

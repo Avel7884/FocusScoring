@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7831000637</inn>
+    <ogrn>1027800000062</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027800000062</focusHref>
+    <UL>
+      <kpp>783501001</kpp>
+      <okpo>20501951</okpo>
+      <okato>40298566000</okato>
+      <okfs>16</okfs>
+      <oktmo>40913000000</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>КИТ Финанс Инвестиционный банк (ОАО)</short>
+        <full>КИТ Финанс Инвестиционный банк (Открытое акционерное общество)</full>
+        <date>2007-09-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>191119</zipCode>
+          <kladrCode>780000000000774</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Марата</topoValue>
+          </street>
+          <house>
+            <topoValue>69-71 лит.А</topoValue>
+          </house>
+          <houseRaw>69-71 ЛИТ.А</houseRaw>
+        </parsedAddressRF>
+        <date>2009-03-02</date>
+        <firstDate>2009-03-02</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>125009</zipCode>
+            <kladrCode>770000000007111</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Никитская Б</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>17</topoValue>
+            </house>
+            <bulk>
+              <topoValue>2</topoValue>
+            </bulk>
+            <houseRaw>17</houseRaw>
+            <bulkRaw>2</bulkRaw>
+          </parsedAddressRF>
+          <date>2012-06-06</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-04-18</date>
+      </status>
+      <registrationDate>1992-06-11</registrationDate>
+      <dissolutionDate>2014-04-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Яковлев Константин Викторович</fio>
+          <innfl>780215815003</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-08-14</date>
+          <firstDate>2013-08-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Дегтярев Андрей Владимирович</fio>
+            <innfl>773110686656</innfl>
+            <position>Генеральный директор</position>
+            <date>2013-01-16</date>
+            <firstDate>2010-12-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

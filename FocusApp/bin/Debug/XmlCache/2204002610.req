@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2204002610</inn>
+    <ogrn>1022200564011</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200564011</focusHref>
+    <UL>
+      <kpp>220401001</kpp>
+      <okpo>52091163</okpo>
+      <okato>01405000000</okato>
+      <okfs>16</okfs>
+      <oktmo>01705000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКС"</short>
+        <full>Общество с ограниченной ответственностью "Алкомплектснаб"</full>
+        <date>2007-10-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>659321</zipCode>
+          <kladrCode>220000040000350</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Бийск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>212</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>212</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-05-17</date>
+        <firstDate>2004-05-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-02-16</date>
+      </status>
+      <registrationDate>2000-02-14</registrationDate>
+      <dissolutionDate>2018-02-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Крылов Александр Валерьевич</fio>
+          <innfl>673100857814</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2015-12-24</date>
+          <firstDate>2015-12-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Хлыновская Галина Юрьевна</fio>
+            <innfl>222700227633</innfl>
+            <position>Директор</position>
+            <date>2009-03-18</date>
+            <firstDate>2009-03-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

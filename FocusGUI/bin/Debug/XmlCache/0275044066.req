@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0275044066</inn>
+    <ogrn>1040204114708</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1040204114708</focusHref>
+    <UL>
+      <kpp>027501001</kpp>
+      <okpo>71864974</okpo>
+      <okato>80401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>80701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Агропромсинтез"</short>
+        <full>Закрытое акционерное общество "Агропромсинтез"</full>
+        <date>2008-06-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>450077</zipCode>
+          <kladrCode>020000010000544</kladrCode>
+          <regionCode>02</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Башкортостан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Уфа</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мустая Карима</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+        </parsedAddressRF>
+        <date>2012-10-13</date>
+        <firstDate>2012-10-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-04-11</date>
+      </status>
+      <registrationDate>2004-03-22</registrationDate>
+      <dissolutionDate>2017-04-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Зуева Алёна Владимировна</fio>
+          <innfl>667001820028</innfl>
+          <position>Директор</position>
+          <date>2012-03-29</date>
+          <firstDate>2012-03-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>450000</zipCode>
+              <regionCode>02</regionCode>
+              <regionName>
+                <topoValue>Башкортостан</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Уфимский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Уфа</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Мустая Карима</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>6</topoValue>
+              </house>
+              <houseRaw>6</houseRaw>
+            </parsedAddressRF>
+            <date>2008-06-05</date>
+            <firstDate>2008-06-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Уразаев Марат Уралович</fio>
+            <innfl>741600310233</innfl>
+            <position>Директор</position>
+            <date>2008-06-05</date>
+            <firstDate>2008-06-05</firstDate>
+          </head>
+          <head>
+            <fio>Батрутдинов Рустам Асхатович</fio>
+            <innfl>742501000881</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-04-20</date>
+            <firstDate>2011-04-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

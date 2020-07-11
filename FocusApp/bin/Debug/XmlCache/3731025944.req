@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3731025944</inn>
+    <ogrn>1033700055168</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033700055168</focusHref>
+    <UL>
+      <kpp>370201001</kpp>
+      <okpo>40881789</okpo>
+      <okato>24401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>24701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агро Плюс"</short>
+        <full>Общество с ограниченной ответственностью "Агро Плюс"</full>
+        <date>2007-04-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>153038</zipCode>
+          <kladrCode>370000010001007</kladrCode>
+          <regionCode>37</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ивановская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Иваново</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Текстильщиков</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>119</topoValue>
+          </house>
+          <flat>
+            <topoValue>49</topoValue>
+          </flat>
+          <houseRaw>119</houseRaw>
+          <flatRaw>49</flatRaw>
+        </parsedAddressRF>
+        <date>2008-12-05</date>
+        <firstDate>2008-12-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-02-01</registrationDate>
+      <heads>
+        <head>
+          <fio>Скотников Валерий Павлович</fio>
+          <innfl>371100166614</innfl>
+          <position>Директор</position>
+          <date>2003-01-23</date>
+          <firstDate>2003-01-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

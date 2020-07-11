@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7826709210</inn>
+    <ogrn>1027810308350</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027810308350</focusHref>
+    <UL>
+      <kpp>780501001</kpp>
+      <okpo>52141282</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НПО "ВЭМЗ-Энерго"</short>
+        <full>Общество с ограниченной ответственностью "НПО "ВЭМЗ-Энерго"</full>
+        <date>2002-12-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>198095</zipCode>
+          <kladrCode>780000000001480</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Химический</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Бе</topoValue>
+          </bulk>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>БЕ</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-12-27</date>
+        <firstDate>2002-12-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-12-08</date>
+      </status>
+      <registrationDate>1999-10-11</registrationDate>
+      <dissolutionDate>2009-12-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Акацкая Мария Александровна</fio>
+          <innfl>781135796452</innfl>
+          <position>Ликвидатор</position>
+          <date>2009-02-10</date>
+          <firstDate>2009-02-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>Критический сумма арбитражных дел в качестве ответчика</Name>
+  <Colour>Red</Colour>
+  <Description>Критическая сумма арбитражных дел в качестве истца.Т.е. сумма дел за последние 12 месяцев составляет более 20% от выручки организации за последний отчетный периоди более суммы уставного капитала, и более 500 тыс. руб.</Description>
+  <Code>double sumDel;
+double revenue;
+double statedCapitalFocus;
+
+                        if (DoubleTryParse(company.GetParam("s2003"), out sumDel) &amp;&amp;
+                            DoubleTryParse(company.GetParam("s6004"), out revenue) &amp;&amp;
+                            DoubleTryParse(company.GetParam("Sum"), out  statedCapitalFocus))
+                            return (sumDel &gt; (0.2 * revenue)) &amp; (sumDel &gt; 500000) &amp; (sumDel &gt; statedCapitalFocus);
+                        return false;</Code>
+</items>

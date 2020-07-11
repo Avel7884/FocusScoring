@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5404065570</inn>
+    <ogrn>1175476100140</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1175476100140</focusHref>
+    <UL>
+      <kpp>540401001</kpp>
+      <okpo>19534684</okpo>
+      <okato>50401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПО НЗРК"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННОЕ ОБЪЕДИНЕНИЕ НОВОСИБИРСКИЙ ЗАВОД РЕЗЕРВУАРОВ И КОНСТРУКЦИЙ"</full>
+        <date>2017-09-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630108</zipCode>
+          <kladrCode>540000010001281</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Станционная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>720</topoValue>
+          </flat>
+          <houseRaw>ДОМ 30А</houseRaw>
+          <flatRaw>ОФИС 720</flatRaw>
+        </parsedAddressRF>
+        <date>2017-09-15</date>
+        <firstDate>2017-09-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-09-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Кириченко Александр Владимирович</fio>
+          <innfl>420506660816</innfl>
+          <position>Исполняющий Обязанности Конкурсного Управляющего</position>
+          <date>2019-07-16</date>
+          <firstDate>2019-07-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Галкин Антон Евгеньевич</fio>
+            <innfl>540862437007</innfl>
+            <position>Директор</position>
+            <date>2017-09-15</date>
+            <firstDate>2017-09-15</firstDate>
+          </head>
+          <head>
+            <fio>Хликова Анастасия Сергеевна</fio>
+            <innfl>380121650965</innfl>
+            <position>Директор</position>
+            <date>2018-05-15</date>
+            <firstDate>2018-05-15</firstDate>
+          </head>
+          <head>
+            <fio>Султанов Санъат Мурадбаевич</fio>
+            <innfl>542007145706</innfl>
+            <position>Директор</position>
+            <date>2019-03-27</date>
+            <firstDate>2019-03-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

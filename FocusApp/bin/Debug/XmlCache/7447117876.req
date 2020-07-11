@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7447117876</inn>
+    <ogrn>1077447017120</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077447017120</focusHref>
+    <UL>
+      <kpp>745301001</kpp>
+      <okpo>99299412</okpo>
+      <okato>75401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>75701390000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АбразивКомплект"</short>
+        <full>Общество с ограниченной ответственностью "АбразивКомплект"</full>
+        <date>2007-08-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454000</zipCode>
+          <kladrCode>740000010001173</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Энгельса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26А</topoValue>
+          </house>
+          <houseRaw>26-А</houseRaw>
+        </parsedAddressRF>
+        <date>2010-08-30</date>
+        <firstDate>2010-08-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-04-03</date>
+      </status>
+      <registrationDate>2007-08-17</registrationDate>
+      <dissolutionDate>2017-04-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Новикова Елена Александровна</fio>
+          <innfl>745212104189</innfl>
+          <position>Директор</position>
+          <date>2010-08-30</date>
+          <firstDate>2010-08-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>744701001</kpp>
+            <date>2010-08-31</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

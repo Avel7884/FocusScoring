@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7801630328</inn>
+    <ogrn>1147847179457</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1147847179457</focusHref>
+    <UL>
+      <kpp>780101001</kpp>
+      <okpo>57933757</okpo>
+      <okato>40263000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40309000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАНЕТА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛАНЕТА"</full>
+        <date>2014-05-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>199406</zipCode>
+          <kladrCode>780000000000874</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Наличная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>В</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>60</topoValue>
+          </flat>
+          <houseRaw>ДОМ 20</houseRaw>
+          <bulkRaw>ЛИТЕР В</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 60</flatRaw>
+        </parsedAddressRF>
+        <date>2017-05-15</date>
+        <firstDate>2017-05-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-05-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Койфман Татьяна Владимировна</fio>
+          <innfl>780162717994</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-10-16</date>
+          <firstDate>2019-10-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>199106</zipCode>
+              <kladrCode>780000000001575</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Большой В.О</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>70</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>ДОМ 70</houseRaw>
+              <bulkRaw>ЛИТЕР А</bulkRaw>
+            </parsedAddressRF>
+            <date>2014-05-21</date>
+            <firstDate>2014-05-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Койфман Михаил Израилевич</fio>
+            <innfl>782701689801</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-05-21</date>
+            <firstDate>2014-05-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

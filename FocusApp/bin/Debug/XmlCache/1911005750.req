@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1911005750</inn>
+    <ogrn>1031900881429</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1031900881429</focusHref>
+    <UL>
+      <kpp>191101001</kpp>
+      <okpo>31903196</okpo>
+      <okato>95235551000</okato>
+      <okfs>16</okfs>
+      <oktmo>95635151</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоДорСервис"</short>
+        <full>Общество с ограниченной ответственностью "АвтоДорСервис"</full>
+        <date>2003-06-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655200</zipCode>
+          <kladrCode>190090000010036</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Ширинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Шира</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Курортная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>73</topoValue>
+          </house>
+          <houseRaw>73</houseRaw>
+          <bulkRaw>--------</bulkRaw>
+          <flatRaw>--------</flatRaw>
+        </parsedAddressRF>
+        <date>2003-06-27</date>
+        <firstDate>2003-06-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-12-27</date>
+      </status>
+      <registrationDate>2003-06-27</registrationDate>
+      <dissolutionDate>2012-12-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Андреев Михаил Александрович</fio>
+          <innfl>190300109866</innfl>
+          <position>Директор</position>
+          <date>2010-09-02</date>
+          <firstDate>2010-09-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

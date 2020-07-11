@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7726053220</inn>
+    <ogrn>1027739023344</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739023344</focusHref>
+    <UL>
+      <kpp>772601001</kpp>
+      <okpo>11256518</okpo>
+      <okato>45296559000</okato>
+      <okfs>41</okfs>
+      <oktmo>45914000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АВТОТЕМП"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АВТОТЕМП"</full>
+        <date>2016-07-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115191</zipCode>
+          <kladrCode>770000000003038</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Холодильный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+        </parsedAddressRF>
+        <date>2003-07-31</date>
+        <firstDate>2003-07-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-06-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Рыжкин Валерий Викторович</fio>
+          <innfl>772771157924</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-05-06</date>
+          <firstDate>2019-05-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774901001</kpp>
+            <date>2012-05-28</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ОАО "Автотемп"</short>
+            <full>Открытое акционерное общество "Автотемп"</full>
+            <date>2002-07-29</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Бурлаков Максим Вячеславович</fio>
+            <innfl>772801432539</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-06-24</date>
+            <firstDate>2011-06-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703293307</inn>
+    <ogrn>5077746390915</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5077746390915</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АКРЕКС</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ АКРЕКС</full>
+        <date>2007-03-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123001</zipCode>
+          <kladrCode>770000000002743</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Спиридоновка</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9/2</topoValue>
+          </house>
+          <bulk>
+            <topoValue>4</topoValue>
+          </bulk>
+          <houseRaw>9/2</houseRaw>
+          <bulkRaw>4</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-03-24</date>
+        <firstDate>2007-03-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-03-24</date>
+      </status>
+      <registrationDate>2001-10-05</registrationDate>
+      <dissolutionDate>2007-03-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Никишов Сергей Петрович</fio>
+          <position>Руководитель</position>
+          <date>2007-03-24</date>
+          <firstDate>2007-03-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Никишов Сергей Петрович С П</fio>
+            <position>Руководитель</position>
+            <date>2007-03-24</date>
+            <firstDate>2007-03-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

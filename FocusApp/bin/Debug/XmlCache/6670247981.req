@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6670247981</inn>
+    <ogrn>1096670006663</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1096670006663</focusHref>
+    <UL>
+      <kpp>770201001</kpp>
+      <okpo>60795678</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Мегаполис"</short>
+        <full>Общество с ограниченной ответственностью "Мегаполис"</full>
+        <date>2012-09-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127051</zipCode>
+          <kladrCode>770000000002834</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Сухаревский Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <flat>
+            <topoValue>87</topoValue>
+          </flat>
+          <houseRaw>7</houseRaw>
+          <flatRaw>87</flatRaw>
+        </parsedAddressRF>
+        <date>2012-09-21</date>
+        <firstDate>2012-09-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-04-13</date>
+      </status>
+      <registrationDate>2009-03-06</registrationDate>
+      <dissolutionDate>2015-04-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Суслопаров Андрей Вячеславович</fio>
+          <innfl>662515906299</innfl>
+          <position>Директор</position>
+          <date>2012-07-18</date>
+          <firstDate>2012-07-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>667001001</kpp>
+            <date>2009-03-12</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "Авилон"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью "Авилон"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>620072</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Екатеринбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Сыромолотова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>7</topoValue>
+              </house>
+              <flat>
+                <topoValue>87</topoValue>
+              </flat>
+              <houseRaw>7</houseRaw>
+              <flatRaw>87</flatRaw>
+            </parsedAddressRF>
+            <date>2009-03-06</date>
+            <firstDate>2009-03-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Солоницын Сергей Юрьевич</fio>
+            <innfl>667005852278</innfl>
+            <position>Директор</position>
+            <date>2009-03-06</date>
+            <firstDate>2009-03-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

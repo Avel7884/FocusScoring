@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2224132078</inn>
+    <ogrn>1092224001528</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1092224001528</focusHref>
+    <UL>
+      <kpp>222401001</kpp>
+      <okpo>60752203</okpo>
+      <okato>01401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>01701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергомаш (Барнаул) - Сибэнергомаш"</short>
+        <full>Закрытое акционерное общество "Энергомаш (Барнаул)-Сибэнергомаш"</full>
+        <date>2009-02-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656037</zipCode>
+          <kladrCode>220000010000278</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Калинина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <houseRaw>26</houseRaw>
+        </parsedAddressRF>
+        <date>2009-02-24</date>
+        <firstDate>2009-02-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-01-13</date>
+      </status>
+      <registrationDate>2009-02-24</registrationDate>
+      <dissolutionDate>2014-01-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пономаренко Дмитрий Сергеевич</fio>
+          <innfl>222509061470</innfl>
+          <position>Председатель Ликвидационной Комиссии</position>
+          <date>2012-10-16</date>
+          <firstDate>2011-11-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Степанов Александр Юрьевич</fio>
+            <innfl>772802665906</innfl>
+            <position>Генеральный директор</position>
+            <date>2009-02-24</date>
+            <firstDate>2009-02-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

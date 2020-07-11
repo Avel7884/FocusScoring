@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7709292934</inn>
+    <ogrn>5077746063709</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5077746063709</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АВАНГАРДТЕХСТРОЙ ООО</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ АВАНГАРДТЕХСТРОЙ</full>
+        <date>2007-03-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109004</zipCode>
+          <kladrCode>770000000002895</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Тетеринский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4/8</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>4/8</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-03-04</date>
+        <firstDate>2007-03-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-03-04</date>
+      </status>
+      <registrationDate>1999-12-06</registrationDate>
+      <dissolutionDate>2007-03-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Братищев Дмитрий Владимир</fio>
+          <position>Руководитель</position>
+          <date>2007-03-04</date>
+          <firstDate>2007-03-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Братищев Дмитрий Владимир Д В</fio>
+            <position>Руководитель</position>
+            <date>2007-03-04</date>
+            <firstDate>2007-03-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

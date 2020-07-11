@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6670034503</inn>
+    <ogrn>1036603525078</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603525078</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Выставка Мобильной Связи "РЕ"</short>
+        <full>Общество с ограниченной ответственностью "Выставка Мобильной Связи "РЕ"</full>
+        <date>2003-07-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620072</zipCode>
+          <kladrCode>660000010001089</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сыромолотова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <flat>
+            <topoValue>86</topoValue>
+          </flat>
+          <houseRaw>18</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>86</flatRaw>
+        </parsedAddressRF>
+        <date>2003-07-15</date>
+        <firstDate>2003-07-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-10-29</date>
+      </status>
+      <registrationDate>2003-07-15</registrationDate>
+      <dissolutionDate>2007-10-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Плявина Янина Викторовна</fio>
+          <innfl>665811388370</innfl>
+          <position>Ликвидатор</position>
+          <date>2007-05-11</date>
+          <firstDate>2007-05-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

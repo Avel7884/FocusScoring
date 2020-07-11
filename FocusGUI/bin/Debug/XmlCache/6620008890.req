@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6620008890</inn>
+    <ogrn>1036601121127</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036601121127</focusHref>
+    <UL>
+      <kpp>668101001</kpp>
+      <okpo>14509807</okpo>
+      <okato>65470000000</okato>
+      <okfs>16</okfs>
+      <oktmo>65748000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО База отдыха "Автомобилист"</short>
+        <full>Общество с ограниченной ответственностью База отдыха "Автомобилист"</full>
+        <date>2003-04-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624300</zipCode>
+          <kladrCode>660000120000080</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кушва</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Суворова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43</topoValue>
+          </house>
+          <houseRaw>43</houseRaw>
+        </parsedAddressRF>
+        <date>2003-04-17</date>
+        <firstDate>2003-04-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-03-13</date>
+      </status>
+      <registrationDate>2003-04-17</registrationDate>
+      <dissolutionDate>2017-03-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Штракбейн Галина Владимировна</fio>
+          <innfl>662004266200</innfl>
+          <position>Директор</position>
+          <date>2005-12-20</date>
+          <firstDate>2005-12-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>662001001</kpp>
+            <date>2005-03-21</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

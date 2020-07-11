@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1632015941</inn>
+    <ogrn>1151677001288</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1151677001288</focusHref>
+    <UL>
+      <kpp>163201001</kpp>
+      <okpo>01549768</okpo>
+      <okato>92437000000</okato>
+      <okfs>16</okfs>
+      <oktmo>92646101001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НУРЛАТ-АГРО"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "НУРЛАТ-АГРО"</full>
+        <date>2015-07-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>423040</zipCode>
+          <kladrCode>160330010000087</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Нурлатский</topoValue>
+          </district>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нурлат</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>96</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 96</houseRaw>
+          <flatRaw>ОФИС 2</flatRaw>
+        </parsedAddressRF>
+        <date>2018-04-06</date>
+        <firstDate>2018-04-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-07-31</registrationDate>
+      <heads>
+        <head>
+          <fio>Понин Дмитрий Германович</fio>
+          <innfl>525902829218</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-05-19</date>
+          <firstDate>2015-07-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>423040</zipCode>
+              <kladrCode>160330010000087</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Нурлатский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нурлат</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Советская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>96</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>5</topoValue>
+              </flat>
+              <houseRaw>ДОМ 96</houseRaw>
+              <flatRaw>ОФИС 5</flatRaw>
+            </parsedAddressRF>
+            <date>2017-10-06</date>
+            <firstDate>2017-10-06</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>423020</zipCode>
+              <kladrCode>160330000090008</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Нурлатский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>с</topoShortName>
+                <topoFullName>село</topoFullName>
+                <topoValue>Егоркино</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Центральная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>29</topoValue>
+              </house>
+              <houseRaw>ДОМ 29</houseRaw>
+            </parsedAddressRF>
+            <date>2015-07-31</date>
+            <firstDate>2015-07-31</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Понина Валентина Александровна</fio>
+            <innfl>525905010410</innfl>
+            <position>Управляющий - индивидуальный предприниматель</position>
+            <date>2016-10-24</date>
+            <firstDate>2016-10-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>525700762610</inn>
+    <ogrn>304525706900090</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304525706900090</focusHref>
+    <IP>
+      <fio>Грязнов Юрий Александрович</fio>
+      <okpo>0083980148</okpo>
+      <okato>22401379000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>22701000001</oktmo>
+      <registrationDate>1999-12-28</registrationDate>
+      <dissolutionDate>2018-08-23</dissolutionDate>
+      <status>
+        <statusString>Прекратил деятельность в связи с принятием судом решения о признании его несостоятельным (банкротом)</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-01-29</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5257043911</inn>
+    <ogrn>1025202396768</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202396768</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>52463399</okpo>
+      <okato>22401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергомонтаж-НН"</short>
+        <full>Общество с ограниченной ответственностью "Энергомонтаж-НН"</full>
+        <date>2002-10-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603116</zipCode>
+          <kladrCode>520000010000690</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Московское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52Г</topoValue>
+          </house>
+          <houseRaw>52Г</houseRaw>
+        </parsedAddressRF>
+        <date>2009-11-27</date>
+        <firstDate>2009-11-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2018-08-28</date>
+      </status>
+      <registrationDate>1999-10-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Малышев Максим Сергеевич</fio>
+          <innfl>525902733700</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2018-08-29</date>
+          <firstDate>2018-08-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Грязнов Юрий Александрович</fio>
+            <innfl>525700762610</innfl>
+            <position>Ликвидатор</position>
+            <date>2018-04-16</date>
+            <firstDate>2008-02-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>5257076402</inn>
+    <ogrn>1055230081411</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1055230081411</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>78722272</okpo>
+      <okato>22401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Высокая реклама"</short>
+        <full>Общество с ограниченной ответственностью "Высокая реклама"</full>
+        <date>2005-11-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603159</zipCode>
+          <kladrCode>520000010000183</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Волжская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>452</topoValue>
+          </flat>
+          <houseRaw>ДОМ 10</houseRaw>
+          <flatRaw>КВАРТИРА 452</flatRaw>
+        </parsedAddressRF>
+        <date>2017-09-26</date>
+        <firstDate>2017-09-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-11-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Матвеев Алексей Николаевич</fio>
+          <innfl>525903718292</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-08-15</date>
+          <firstDate>2008-03-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603116</zipCode>
+              <kladrCode>520000010000690</kladrCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Московское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>52Г</topoValue>
+              </house>
+              <houseRaw>52 "Г"</houseRaw>
+            </parsedAddressRF>
+            <date>2005-11-03</date>
+            <firstDate>2005-11-03</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>5257136588</inn>
+    <ogrn>1135257001626</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1135257001626</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>25540217</okpo>
+      <okato>22401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "САН РЕМО"</short>
+        <full>Общество с ограниченной ответственностью "САНтехника для РЕМОнта"</full>
+        <date>2013-03-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603116</zipCode>
+          <kladrCode>520000010000690</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Московское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52</topoValue>
+          </house>
+          <bulk>
+            <topoValue>И</topoValue>
+          </bulk>
+          <houseRaw>52</houseRaw>
+          <bulkRaw>И</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-03-07</date>
+        <firstDate>2013-03-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-10-24</date>
+      </status>
+      <registrationDate>2013-03-07</registrationDate>
+      <dissolutionDate>2019-10-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Леонтьев Александр Юрьевич</fio>
+          <innfl>526223089747</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2018-07-20</date>
+          <firstDate>2018-07-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Барабанов Валерий Константинович</fio>
+            <innfl>525714200900</innfl>
+            <position>Директор</position>
+            <date>2013-03-07</date>
+            <firstDate>2013-03-07</firstDate>
+          </head>
+          <head>
+            <fio>Понина Валентина Александровна</fio>
+            <innfl>525905010410</innfl>
+            <position>Исполнительный Директор</position>
+            <date>2013-11-25</date>
+            <firstDate>2013-11-25</firstDate>
+          </head>
+          <head>
+            <fio>Грязнов Юрий Александрович</fio>
+            <innfl>525700762610</innfl>
+            <position>Ликвидатор</position>
+            <date>2018-04-16</date>
+            <firstDate>2014-11-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>525905010410</inn>
+    <ogrn>316527500041970</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=316527500041970</focusHref>
+    <IP>
+      <fio>Понина Валентина Александровна</fio>
+      <okpo>0104542020</okpo>
+      <okato>22401379000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>22701000001</oktmo>
+      <registrationDate>2016-08-15</registrationDate>
+      <dissolutionDate>2017-08-29</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-08-29</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5260197598</inn>
+    <ogrn>1075200008993</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075200008993</focusHref>
+    <UL>
+      <kpp>526001001</kpp>
+      <okpo>81286001</okpo>
+      <okato>22401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20716</okopf>
+      <opf>Товарищества собственников жилья</opf>
+      <legalName>
+        <short>ТСЖ "Ильинка 55"</short>
+        <full>Товарищество собственников жилья "Ильинка 55"</full>
+        <date>2007-05-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603109</zipCode>
+          <kladrCode>520000010000383</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ильинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>55</topoValue>
+          </house>
+          <houseRaw>55</houseRaw>
+        </parsedAddressRF>
+        <date>2007-05-21</date>
+        <firstDate>2007-05-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-11-15</date>
+      </status>
+      <registrationDate>2007-05-21</registrationDate>
+      <dissolutionDate>2019-11-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Савчук Алексей Вадимович</fio>
+          <innfl>526018053402</innfl>
+          <position>Председатель правления</position>
+          <date>2011-11-24</date>
+          <firstDate>2007-09-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5261020233</inn>
+    <ogrn>1025203565881</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203565881</focusHref>
+    <UL>
+      <kpp>526101001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО фирма "Энергомонтаж-сервис"</short>
+        <full>Общество с ограниченной ответственностью фирма "Энергомонтаж-сервис"</full>
+        <date>2002-10-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603009</zipCode>
+          <kladrCode>520000010000069</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Батумская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5А</topoValue>
+          </house>
+          <houseRaw>5 А</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-25</date>
+        <firstDate>2002-10-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-12-29</date>
+      </status>
+      <registrationDate>1997-10-31</registrationDate>
+      <dissolutionDate>2004-12-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Грязнов Юрий Александрович</fio>
+          <innfl>525700762610</innfl>
+          <position>Генеральный директор</position>
+          <date>2003-04-22</date>
+          <firstDate>2003-04-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5261036314</inn>
+    <ogrn>1035205637081</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035205637081</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>13912748</okpo>
+      <okato>22401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГОМОНТАЖ"</short>
+        <full>Общество с ограниченной ответственностью "ЭНЕРГОМОНТАЖ"</full>
+        <date>2003-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603028</zipCode>
+          <kladrCode>520000010000690</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Московское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Г</topoValue>
+          </bulk>
+          <houseRaw>52</houseRaw>
+          <bulkRaw>Г</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-03-05</date>
+        <firstDate>2013-03-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2018-06-29</date>
+      </status>
+      <registrationDate>2003-01-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Леонтьев Александр Юрьевич</fio>
+          <innfl>526223089747</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2018-07-23</date>
+          <firstDate>2018-07-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>526101001</kpp>
+            <date>2004-12-30</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603009</zipCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Пятигорская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4Б</topoValue>
+              </house>
+              <houseRaw>4Б</houseRaw>
+            </parsedAddressRF>
+            <date>2010-02-05</date>
+            <firstDate>2010-02-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Архипов Игорь Николаевич</fio>
+            <innfl>525703269307</innfl>
+            <position>Директор</position>
+            <date>2010-02-05</date>
+            <firstDate>2010-02-05</firstDate>
+          </head>
+          <head>
+            <fio>Понина Валентина Александровна</fio>
+            <innfl>525905010410</innfl>
+            <position>Исполнительный Директор</position>
+            <date>2013-11-25</date>
+            <firstDate>2013-11-25</firstDate>
+          </head>
+          <head>
+            <fio>Грязнов Юрий Александрович</fio>
+            <innfl>525700762610</innfl>
+            <position>Ликвидатор</position>
+            <date>2018-04-16</date>
+            <firstDate>2014-11-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

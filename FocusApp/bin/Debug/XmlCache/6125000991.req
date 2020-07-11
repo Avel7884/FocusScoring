@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6125000991</inn>
+    <ogrn>1026101412743</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026101412743</focusHref>
+    <UL>
+      <kpp>612501001</kpp>
+      <okpo>12113948</okpo>
+      <okato>60241850001</okato>
+      <okfs>16</okfs>
+      <oktmo>60641450101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НИЦ " АДМ"</short>
+        <full>Общество с ограниченной ответственностью "Научно-инженерный центр " АДМ"</full>
+        <date>2006-04-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>346495</zipCode>
+          <kladrCode>610290000610028</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Октябрьский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Персиановский</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Садовая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>4</houseRaw>
+        </parsedAddressRF>
+        <date>2005-03-09</date>
+        <firstDate>2005-03-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-06-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Мальцев Анатолий Константинович</fio>
+          <position>Заместитель Директора</position>
+          <date>2002-11-21</date>
+          <firstDate>2002-11-21</firstDate>
+        </head>
+        <head>
+          <fio>Ладан Игорь Евгеньевич</fio>
+          <innfl>612501609135</innfl>
+          <position>Директор</position>
+          <date>2015-08-18</date>
+          <firstDate>2015-08-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Ладан Евгений Пантелеймонович</fio>
+            <position>Директор</position>
+            <date>2002-11-21</date>
+            <firstDate>2002-11-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

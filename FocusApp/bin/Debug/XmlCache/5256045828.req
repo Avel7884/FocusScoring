@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5256045828</inn>
+    <ogrn>1035204887992</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035204887992</focusHref>
+    <UL>
+      <kpp>525601001</kpp>
+      <okpo>70378349</okpo>
+      <okato>22401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЭС"</short>
+        <full>Общество с ограниченной ответственностью "Автозаводские энергетические сети"</full>
+        <date>2003-08-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603053</zipCode>
+          <kladrCode>520000010000216</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Газовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <flat>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>19</houseRaw>
+          <flatRaw>1</flatRaw>
+        </parsedAddressRF>
+        <date>2009-05-18</date>
+        <firstDate>2009-05-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-12-30</date>
+      </status>
+      <registrationDate>2003-08-11</registrationDate>
+      <dissolutionDate>2014-12-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Торгашев Валерий Павлович</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2013-07-17</date>
+          <firstDate>2013-07-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Варнаков Владимир Викторович</fio>
+            <innfl>246405317086</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-04-19</date>
+            <firstDate>2010-04-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

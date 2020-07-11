@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6662093400</inn>
+    <ogrn>1026605620249</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605620249</focusHref>
+    <UL>
+      <kpp>667301001</kpp>
+      <okpo>47678887</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГОРЕСУРС-ЕК"</short>
+        <full>Общество с ограниченной ответственностью "ЭНЕРГОРЕСУРС-ЕК"</full>
+        <date>2002-11-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620135</zipCode>
+          <kladrCode>660000010001278</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шефская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>98</topoValue>
+          </house>
+          <flat>
+            <topoValue>3</topoValue>
+          </flat>
+          <houseRaw>98</houseRaw>
+          <flatRaw>3</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-15</date>
+        <firstDate>2002-11-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-24</date>
+      </status>
+      <registrationDate>1997-10-21</registrationDate>
+      <dissolutionDate>2011-03-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Халилов Артур Хакимович</fio>
+          <innfl>666008344873</innfl>
+          <position>Директор</position>
+          <date>2003-04-24</date>
+          <firstDate>2003-04-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

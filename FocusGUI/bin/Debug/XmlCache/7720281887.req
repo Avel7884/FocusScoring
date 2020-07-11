@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7720281887</inn>
+    <ogrn>1037720024253</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037720024253</focusHref>
+    <UL>
+      <kpp>772001001</kpp>
+      <okpo>70184496</okpo>
+      <okato>45263567000</okato>
+      <okfs>16</okfs>
+      <oktmo>45306000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А.М.К."</short>
+        <full>Общество с ограниченной ответственностью "А.М.К."</full>
+        <date>2004-02-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111555</zipCode>
+          <kladrCode>770000000000417</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Молостовых</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3А</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>3А</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-08-11</date>
+        <firstDate>2003-08-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-08-15</date>
+      </status>
+      <registrationDate>2003-08-11</registrationDate>
+      <dissolutionDate>2016-08-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Смирнов Руслан Юрьевич</fio>
+          <innfl>370141696584</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-11-22</date>
+          <firstDate>2007-11-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5249122197</inn>
+    <ogrn>1125249004429</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1125249004429</focusHref>
+    <UL>
+      <kpp>231101001</kpp>
+      <okpo>10695598</okpo>
+      <okato>03401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВАЛЬТОРГ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ВАЛЬТОРГ"</full>
+        <date>2014-12-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350087</zipCode>
+          <kladrCode>230000010001298</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им. Дунаевского и.и</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>12</topoValue>
+          </flat>
+          <houseRaw>11</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 12</flatRaw>
+        </parsedAddressRF>
+        <date>2014-12-03</date>
+        <firstDate>2014-12-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-09</date>
+      </status>
+      <registrationDate>2012-08-30</registrationDate>
+      <dissolutionDate>2019-08-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Корноухова Ирина Александровна</fio>
+          <innfl>504307914830</innfl>
+          <position>Директор</position>
+          <date>2016-02-09</date>
+          <firstDate>2015-03-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>504301001</kpp>
+            <date>2015-07-27</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>524901001</kpp>
+            <date>2012-08-30</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "ПКФ "Стромк"</short>
+            <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Стромк"</full>
+            <date>2012-08-30</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>142211</zipCode>
+              <kladrCode>500000280000175</kladrCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Серпухов</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Народного Ополчения</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>37</topoValue>
+              </house>
+              <flat>
+                <topoShortName>кв</topoShortName>
+                <topoFullName>квартира</topoFullName>
+                <topoValue>62</topoValue>
+              </flat>
+              <houseRaw>ДОМ 37</houseRaw>
+              <flatRaw>КВАРТИРА 62</flatRaw>
+            </parsedAddressRF>
+            <date>2015-07-27</date>
+            <firstDate>2015-07-27</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>606016</zipCode>
+              <kladrCode>520000020000065</kladrCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Дзержинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Студенческая</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>34В</topoValue>
+              </house>
+              <houseRaw>34В</houseRaw>
+            </parsedAddressRF>
+            <date>2012-08-30</date>
+            <firstDate>2012-08-30</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Прудников Сергей Павлович</fio>
+            <innfl>525627700350</innfl>
+            <position>Директор</position>
+            <date>2012-08-30</date>
+            <firstDate>2012-08-30</firstDate>
+          </head>
+          <head>
+            <fio>Яковлев Игорь Юрьевич</fio>
+            <innfl>526311435280</innfl>
+            <position>Директор</position>
+            <date>2014-10-07</date>
+            <firstDate>2014-10-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

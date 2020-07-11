@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7453102211</inn>
+    <ogrn>1037403885298</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037403885298</focusHref>
+    <UL>
+      <kpp>745301001</kpp>
+      <okpo>70823387</okpo>
+      <okato>75401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>75701390000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алмаз"</short>
+        <full>Общество с ограниченной ответственностью "Алмаз"</full>
+        <date>2007-07-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454126</zipCode>
+          <kladrCode>740000010000515</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Лесопарковая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <houseRaw>ДОМ 15</houseRaw>
+        </parsedAddressRF>
+        <date>2015-09-03</date>
+        <firstDate>2003-09-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-09-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Дятлова Нина Николаевна</fio>
+          <innfl>745102927302</innfl>
+          <position>Директор</position>
+          <date>2007-07-31</date>
+          <firstDate>2007-07-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

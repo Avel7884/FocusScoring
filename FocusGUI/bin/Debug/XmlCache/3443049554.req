@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3443049554</inn>
+    <ogrn>1023402976630</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023402976630</focusHref>
+    <UL>
+      <kpp>344301001</kpp>
+      <okpo>34679291</okpo>
+      <okato>18401365000</okato>
+      <okfs>14</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210007</okogu>
+      <okopf>65243</okopf>
+      <opf>Муниципальные унитарные предприятия</opf>
+      <legalName>
+        <short>МУП "Автокоммунтранс"</short>
+        <full>Муниципальное унитарное предприятие "Автомобильный коммунальный транспорт Волгограда"</full>
+        <date>2002-11-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400081</zipCode>
+          <kladrCode>340000010000650</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новорядская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>118</topoValue>
+          </house>
+          <houseRaw>118</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-13</date>
+        <firstDate>2002-11-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2015-08-24</date>
+      </status>
+      <registrationDate>2001-12-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Левин Вячеслав Валерьевич</fio>
+          <innfl>343501197396</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2015-12-07</date>
+          <firstDate>2015-12-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Товт Андрей Юрьевич</fio>
+            <innfl>526100471963</innfl>
+            <position>Директор</position>
+            <date>2011-06-06</date>
+            <firstDate>2011-06-06</firstDate>
+          </head>
+          <head>
+            <fio>Швыдкий Виктор Юрьевич</fio>
+            <innfl>344204655020</innfl>
+            <position>Директор</position>
+            <date>2012-03-26</date>
+            <firstDate>2012-03-26</firstDate>
+          </head>
+          <head>
+            <fio>Молодой Юрий Николаевич</fio>
+            <innfl>344501749666</innfl>
+            <position>Руководитель</position>
+            <date>2013-09-17</date>
+            <firstDate>2013-06-28</firstDate>
+          </head>
+          <head>
+            <fio>Решетов Геннадий Валериевич</fio>
+            <innfl>343501217606</innfl>
+            <position>Руководитель</position>
+            <date>2013-12-05</date>
+            <firstDate>2013-12-05</firstDate>
+          </head>
+          <head>
+            <fio>Измайлов Михаил Викторович</fio>
+            <innfl>343504015414</innfl>
+            <position>Директор</position>
+            <date>2014-12-01</date>
+            <firstDate>2014-12-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>9</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

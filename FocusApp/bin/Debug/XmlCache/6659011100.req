@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6659011100</inn>
+    <ogrn>1025900912740</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025900912740</focusHref>
+    <UL>
+      <kpp>745101001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Екатеринбург-ОЙЛ"</short>
+        <full>Открытое акционерное общество "Екатеринбург-ОЙЛ"</full>
+        <date>2002-12-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454091</zipCode>
+          <kladrCode>740000010000685</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Орджоникидзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43</topoValue>
+          </house>
+          <houseRaw>43</houseRaw>
+        </parsedAddressRF>
+        <date>2005-03-21</date>
+        <firstDate>2005-03-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-12-24</date>
+      </status>
+      <registrationDate>2002-02-08</registrationDate>
+      <dissolutionDate>2007-12-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Симакин Евгений Альбертович</fio>
+          <innfl>590706106899</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-09-27</date>
+          <firstDate>2004-09-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7449000633</inn>
+    <ogrn>1027402546060</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027402546060</focusHref>
+    <UL>
+      <kpp>744801001</kpp>
+      <okpo>12585514</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГО-СПЕКТР"</short>
+        <full>Общество с ограниченной ответственностью "ЭНЕРГО-СПЕКТР"</full>
+        <date>2007-11-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454008</zipCode>
+          <kladrCode>740000010001101</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чайковского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <houseRaw>20</houseRaw>
+        </parsedAddressRF>
+        <date>2007-11-27</date>
+        <firstDate>2007-11-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-08-20</date>
+      </status>
+      <registrationDate>1998-12-28</registrationDate>
+      <dissolutionDate>2012-08-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Смирнова Галина Анатольевна</fio>
+          <innfl>744901063720</innfl>
+          <position>Ликвидатор</position>
+          <date>2012-05-11</date>
+          <firstDate>2007-11-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

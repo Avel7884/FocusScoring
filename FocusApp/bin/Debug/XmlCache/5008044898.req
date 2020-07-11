@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5008044898</inn>
+    <ogrn>1075047011995</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075047011995</focusHref>
+    <UL>
+      <kpp>500801001</kpp>
+      <okpo>81661249</okpo>
+      <okato>46416000000</okato>
+      <okfs>16</okfs>
+      <oktmo>46716000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТЦ "АвтоМАЗ"</short>
+        <full>Общество с ограниченной ответственностью "Технический Центр "АвтоМАЗ"</full>
+        <date>2007-09-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141700</zipCode>
+          <kladrCode>500000290000047</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Долгопрудный</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Жуковского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>4</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-09-13</date>
+        <firstDate>2007-09-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Юридическое лицо находится в процессе реорганизации в форме преобразования</statusString>
+        <reorganizing>true</reorganizing>
+        <date>2017-06-28</date>
+      </status>
+      <registrationDate>2007-09-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Иванов Александр Алексеевич</fio>
+          <innfl>774313779869</innfl>
+          <position>Директор</position>
+          <date>2019-01-17</date>
+          <firstDate>2010-09-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

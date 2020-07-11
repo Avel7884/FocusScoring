@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6648009646</inn>
+    <ogrn>1026602088700</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602088700</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>49538780</okpo>
+      <okato>65232832003</okato>
+      <okfs>16</okfs>
+      <oktmo>65717000286</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алгоритм НТ"</short>
+        <full>Общество с ограниченной ответственностью "Алгоритм НТ"</full>
+        <date>2002-11-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622913</zipCode>
+          <kladrCode>660190000640006</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Пригородный</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Первомайский</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42</topoValue>
+          </house>
+          <houseRaw>42</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-01</date>
+        <firstDate>2002-10-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-03-13</date>
+      </status>
+      <registrationDate>1998-06-08</registrationDate>
+      <dissolutionDate>2018-03-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Зворыгин Сергей Леонидович</fio>
+          <innfl>662304611715</innfl>
+          <position>Директор</position>
+          <date>2002-11-01</date>
+          <firstDate>2002-10-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>664801001</kpp>
+            <date>2006-04-27</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

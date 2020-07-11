@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6661085460</inn>
+    <ogrn>1026605227990</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605227990</focusHref>
+    <UL>
+      <kpp>666101001</kpp>
+      <okpo>51837917</okpo>
+      <okato>65401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ПО "Энергореконструкция"</short>
+        <full>Закрытое акционерное общество "ПО "Энергореконструкция"</full>
+        <date>2002-09-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620014</zipCode>
+          <kladrCode>660000010000605</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24</topoValue>
+          </house>
+          <bulk>
+            <topoValue>8</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>442</topoValue>
+          </flat>
+          <houseRaw>24</houseRaw>
+          <bulkRaw>8</bulkRaw>
+          <flatRaw>442</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-12</date>
+        <firstDate>2002-09-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-07-27</date>
+      </status>
+      <registrationDate>1999-09-13</registrationDate>
+      <dissolutionDate>2017-07-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Павлова Марина Вячеславовна</fio>
+          <innfl>666201799678</innfl>
+          <position>Главный Бухгалтер</position>
+          <date>2002-09-12</date>
+          <firstDate>2002-09-12</firstDate>
+        </head>
+        <head>
+          <fio>Маслов Виктор Германович</fio>
+          <innfl>667340453573</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-06-06</date>
+          <firstDate>2014-06-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бартенев Олег Семенович</fio>
+            <innfl>665803019210</innfl>
+            <position>Генеральный директор</position>
+            <date>2002-09-12</date>
+            <firstDate>2002-09-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

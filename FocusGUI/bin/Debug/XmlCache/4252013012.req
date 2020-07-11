@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4252013012</inn>
+    <ogrn>1164205080357</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1164205080357</focusHref>
+    <UL>
+      <kpp>425201001</kpp>
+      <okpo>05403122</okpo>
+      <okato>32219873004</okato>
+      <okfs>16</okfs>
+      <oktmo>32619473116</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НОР СТРОЙ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "НОР СТРОЙ"</full>
+        <date>2016-11-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654217</zipCode>
+          <kladrCode>420090001050003</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новокузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п/ст</topoShortName>
+            <topoFullName>поселок и(при) станция(и)</topoFullName>
+            <topoValue>Тальжино</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вокзальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5А</topoValue>
+          </house>
+          <houseRaw>ДОМ 5А</houseRaw>
+        </parsedAddressRF>
+        <date>2016-11-01</date>
+        <firstDate>2016-11-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-11-01</registrationDate>
+      <heads>
+        <head>
+          <fio>Никогосян Норайр Воротович</fio>
+          <innfl>422109158219</innfl>
+          <position>Директор</position>
+          <date>2018-08-13</date>
+          <firstDate>2016-11-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

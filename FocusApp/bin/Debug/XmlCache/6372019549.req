@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6372019549</inn>
+    <ogrn>1116372001360</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1116372001360</focusHref>
+    <UL>
+      <kpp>637201001</kpp>
+      <okpo>37045397</okpo>
+      <okato>36424000000</okato>
+      <okfs>16</okfs>
+      <oktmo>36724000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "БурТехРесурс"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "БурТехРесурс"</full>
+        <date>2011-12-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>446301</zipCode>
+          <kladrCode>630000050000070</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Отрадный</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Центральная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>ДОМ 6</houseRaw>
+        </parsedAddressRF>
+        <date>2011-12-05</date>
+        <firstDate>2011-12-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-12-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Козак Максим Васильевич</fio>
+          <innfl>634000092660</innfl>
+          <position>Руководитель Юридического Лица</position>
+          <date>2011-12-05</date>
+          <firstDate>2011-12-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

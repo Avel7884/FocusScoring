@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3446043800</inn>
+    <ogrn>1113460007528</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1113460007528</focusHref>
+    <UL>
+      <kpp>344601001</kpp>
+      <okpo>37375396</okpo>
+      <okato>18401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоСити"</short>
+        <full>Общество с ограниченной ответственностью "АвтоСити"</full>
+        <date>2011-11-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400019</zipCode>
+          <kladrCode>340000010002551</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Слесарная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>103</topoValue>
+          </house>
+          <houseRaw>103</houseRaw>
+        </parsedAddressRF>
+        <date>2011-11-24</date>
+        <firstDate>2011-11-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-10-17</date>
+      </status>
+      <registrationDate>2011-11-24</registrationDate>
+      <dissolutionDate>2014-10-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Козодаев Александр Геннадьевич</fio>
+          <innfl>773105248760</innfl>
+          <position>Директор</position>
+          <date>2014-10-13</date>
+          <firstDate>2014-04-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бакутина Екатерина Владимировна</fio>
+            <innfl>344703693141</innfl>
+            <position>Директор</position>
+            <date>2011-11-24</date>
+            <firstDate>2011-11-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

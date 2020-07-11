@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5259026534</inn>
+    <ogrn>1025202837219</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202837219</focusHref>
+    <UL>
+      <kpp>525901001</kpp>
+      <okpo>55083734</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Авиакорпорация "КОНКОР"</short>
+        <full>Закрытое акционерное общество "Авиакорпорация "КОНКОР"</full>
+        <date>2002-11-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603074</zipCode>
+          <kladrCode>520000010001551</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бурнаковская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <houseRaw>10</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-14</date>
+        <firstDate>2002-11-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-06-06</date>
+      </status>
+      <registrationDate>2000-09-20</registrationDate>
+      <dissolutionDate>2011-06-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пчелина Анастасия Николаевна</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2010-08-17</date>
+          <firstDate>2010-08-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

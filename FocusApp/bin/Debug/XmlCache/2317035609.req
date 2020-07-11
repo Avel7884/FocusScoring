@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2317035609</inn>
+    <ogrn>1022302725994</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022302725994</focusHref>
+    <UL>
+      <kpp>231701001</kpp>
+      <okpo>10152296</okpo>
+      <okato>03426907008</okato>
+      <okfs>16</okfs>
+      <oktmo>03726000396</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКО"</short>
+        <full>Общество с ограниченной ответственностью "АКО"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>354395</zipCode>
+          <kladrCode>230000071220021</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сочи</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Орел-Изумруд</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Лазурная Долина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <houseRaw>3</houseRaw>
+        </parsedAddressRF>
+        <date>2016-03-25</date>
+        <firstDate>2008-03-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-01-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Петросьян Григорий Ованесович</fio>
+          <innfl>232008418278</innfl>
+          <position>Директор</position>
+          <date>2012-10-31</date>
+          <firstDate>2012-10-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Хачатурян Акоп Альбертович</fio>
+            <position>Директор</position>
+            <date>2002-12-31</date>
+            <firstDate>2002-12-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

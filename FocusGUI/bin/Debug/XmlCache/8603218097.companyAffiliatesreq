@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>860310352771</inn>
+    <ogrn>312860311000023</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=312860311000023</focusHref>
+    <IP>
+      <fio>Русскина Елена Викторовна</fio>
+      <okpo>0184074630</okpo>
+      <okato>71135000000</okato>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2012-04-19</registrationDate>
+      <dissolutionDate>2012-12-20</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-12-20</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>8603202890</inn>
+    <ogrn>1138603010094</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1138603010094</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>29647604</okpo>
+      <okato>71135000000</okato>
+      <okfs>24</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТД "СИБИРЬМЕТАЛЛ"</short>
+        <full>Общество с ограниченной ответственностью "ТД "СИБИРЬМЕТАЛЛ"</full>
+        <date>2013-10-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628616</zipCode>
+          <kladrCode>860000110000308</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>11П</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <flat>
+            <topoShortName>панель</topoShortName>
+            <topoFullName>панель</topoFullName>
+            <topoValue>9</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <flatRaw>ПАНЕЛЬ 9</flatRaw>
+        </parsedAddressRF>
+        <date>2016-04-13</date>
+        <firstDate>2016-04-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-05-10</date>
+      </status>
+      <registrationDate>2013-10-31</registrationDate>
+      <dissolutionDate>2016-05-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Калиничева Татьяна Александровна</fio>
+          <innfl>614404601046</innfl>
+          <position>Директор</position>
+          <date>2016-01-11</date>
+          <firstDate>2016-01-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>628600</zipCode>
+              <kladrCode>860000110000257</kladrCode>
+              <regionCode>86</regionCode>
+              <regionName>
+                <topoShortName>ао</topoShortName>
+                <topoFullName>автономный округ</topoFullName>
+                <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижневартовск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>11П Западный промышленный узел</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>14</topoValue>
+              </house>
+              <flat>
+                <topoShortName>панель</topoShortName>
+                <topoFullName>панель</topoFullName>
+                <topoValue>9</topoValue>
+              </flat>
+              <houseRaw>14</houseRaw>
+              <flatRaw>ПАНЕЛЬ 9</flatRaw>
+            </parsedAddressRF>
+            <date>2013-10-31</date>
+            <firstDate>2013-10-31</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Русскин Алексей Александрович</fio>
+            <innfl>860323637397</innfl>
+            <position>Директор</position>
+            <date>2013-10-31</date>
+            <firstDate>2013-10-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>8603209159</inn>
+    <ogrn>1148603004912</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1148603004912</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>32746451</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ХСК МОНОЛИТ"</short>
+        <full>Общество с ограниченной ответственностью "ХСК МОНОЛИТ"</full>
+        <date>2014-07-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628602</zipCode>
+          <kladrCode>860000110000001</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>60 лет Октября</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>92</topoValue>
+          </flat>
+          <houseRaw>ДОМ 23</houseRaw>
+          <flatRaw>КВАРТИРА 92</flatRaw>
+        </parsedAddressRF>
+        <date>2018-09-17</date>
+        <firstDate>2018-09-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-07-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Бассауэр Тамара Васильевна</fio>
+          <innfl>860310352845</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-07-27</date>
+          <firstDate>2016-07-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>628616</zipCode>
+              <kladrCode>860000110000125</kladrCode>
+              <regionCode>86</regionCode>
+              <regionName>
+                <topoShortName>ао</topoShortName>
+                <topoFullName>автономный округ</topoFullName>
+                <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижневартовск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Индустриальная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>36</topoValue>
+              </house>
+              <flat>
+                <topoShortName>панель</topoShortName>
+                <topoFullName>панель</topoFullName>
+                <topoValue>16</topoValue>
+              </flat>
+              <houseRaw>36</houseRaw>
+              <flatRaw>ПАНЕЛЬ 16</flatRaw>
+            </parsedAddressRF>
+            <date>2014-07-23</date>
+            <firstDate>2014-07-23</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Чижевский Игорь Владимирович</fio>
+            <innfl>860318470858</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-07-23</date>
+            <firstDate>2014-07-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>8603218097</inn>
+    <ogrn>1158617009946</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1158617009946</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>33603146</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "СИБИРЬМЕТАЛЛ"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "СИБИРЬМЕТАЛЛ"</full>
+        <date>2015-10-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628602</zipCode>
+          <kladrCode>860000110000001</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>60 лет Октября</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>92</topoValue>
+          </flat>
+          <houseRaw>ДОМ 23</houseRaw>
+          <flatRaw>КВАРТИРА 92</flatRaw>
+        </parsedAddressRF>
+        <date>2015-10-08</date>
+        <firstDate>2015-10-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-10-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Русскина Елена Викторовна</fio>
+          <innfl>860310352771</innfl>
+          <position>Директор</position>
+          <date>2015-10-08</date>
+          <firstDate>2015-10-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

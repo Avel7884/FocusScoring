@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2461013252</inn>
+    <ogrn>1152468001465</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1152468001465</focusHref>
+    <UL>
+      <kpp>246101001</kpp>
+      <okpo>36145470</okpo>
+      <okato>04401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>04701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ АГРОПРОМЦЕНТР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ АГРОПРОМЦЕНТР"</full>
+        <date>2015-01-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660059</zipCode>
+          <kladrCode>240000010000335</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>им.Газеты "Красноярский Рабочий"</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>100Б</topoValue>
+          </house>
+          <houseRaw>ДОМ 100Б</houseRaw>
+        </parsedAddressRF>
+        <date>2015-01-21</date>
+        <firstDate>2015-01-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-01-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Козырев Василий Сергеевич</fio>
+          <innfl>246604558470</innfl>
+          <position>Директор</position>
+          <date>2015-01-21</date>
+          <firstDate>2015-01-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

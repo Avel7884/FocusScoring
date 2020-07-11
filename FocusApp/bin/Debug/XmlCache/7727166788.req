@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7727166788</inn>
+    <ogrn>1027739833330</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739833330</focusHref>
+    <UL>
+      <kpp>772701001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКТИВ МЕТАЛЛ ГРУПП"</short>
+        <full>Общество с ограниченной ответственностью "АКТИВ МЕТАЛЛ ГРУПП"</full>
+        <date>2002-12-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117449</zipCode>
+          <kladrCode>770000000000971</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Винокурова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <houseRaw>3</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-19</date>
+        <firstDate>2002-12-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-07-04</date>
+      </status>
+      <registrationDate>1999-04-29</registrationDate>
+      <dissolutionDate>2005-07-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чилингир Людмила Георгиевна</fio>
+          <position>Иное должностное лицо</position>
+          <date>2005-07-04</date>
+          <firstDate>2005-07-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707286773</inn>
+    <ogrn>1027739380151</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739380151</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>81013065</okpo>
+      <legalName>
+        <short>"АБОП"</short>
+        <full>Общероссийская общественная организация "Академия проблем безопасности, обороны и правопорядка"</full>
+        <date>2002-10-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119021</zipCode>
+          <kladrCode>770000000001526</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Комсомольский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>18</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-07-20</date>
+        <firstDate>2007-07-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-03-23</date>
+      </status>
+      <registrationDate>2000-08-31</registrationDate>
+      <dissolutionDate>2009-03-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шевченко Виктор Григорьевич</fio>
+          <position>Президент Академии</position>
+          <date>2005-08-11</date>
+          <firstDate>2005-08-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

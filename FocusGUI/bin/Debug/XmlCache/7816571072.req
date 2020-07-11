@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7816571072</inn>
+    <ogrn>1137847368823</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1137847368823</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>31006930</okpo>
+      <okato>40296000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40902000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ АЛЬЯНС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ АЛЬЯНС"</full>
+        <date>2013-10-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192007</zipCode>
+          <kladrCode>780000000000256</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Реки Волковки</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>помещение 2н офис 17</topoValue>
+          </flat>
+          <houseRaw>ДОМ 19</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 2Н ОФИС 17</flatRaw>
+        </parsedAddressRF>
+        <date>2019-10-25</date>
+        <firstDate>2019-10-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-10-01</registrationDate>
+      <heads>
+        <head>
+          <fio>Иванов Александр Сергеевич</fio>
+          <innfl>470316155567</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-10-01</date>
+          <firstDate>2013-10-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>192289</zipCode>
+              <kladrCode>780000000001320</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Софийская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>80</topoValue>
+              </house>
+              <houseRaw>ДОМ 80</houseRaw>
+            </parsedAddressRF>
+            <date>2013-10-01</date>
+            <firstDate>2013-10-01</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

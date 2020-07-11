@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7704772060</inn>
+    <ogrn>5107746032170</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5107746032170</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>69627735</okpo>
+      <okato>45277598000</okato>
+      <okfs>16</okfs>
+      <oktmo>45348000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Металлургинвест"</short>
+        <full>Общество с ограниченной ответственностью "Металлургические инвестиции"</full>
+        <date>2010-12-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125167</zipCode>
+          <kladrCode>770000000001685</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинградский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>37</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>9</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>пом XXIII Ком 93</topoValue>
+          </flat>
+          <houseRaw>ДОМ 37</houseRaw>
+          <bulkRaw>КОРПУС 9</bulkRaw>
+          <flatRaw>ПОМ XXIII КОМ 93</flatRaw>
+        </parsedAddressRF>
+        <date>2016-06-20</date>
+        <firstDate>2016-06-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-12-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Усов Олег Витальевич</fio>
+          <innfl>745006686870</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-07-21</date>
+          <firstDate>2017-07-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770401001</kpp>
+            <date>2010-12-17</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119034</zipCode>
+              <kladrCode>770000000007238</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Курсовой</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>12/5</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>5</topoValue>
+              </bulk>
+              <houseRaw>12/5</houseRaw>
+              <bulkRaw>СТР.5</bulkRaw>
+            </parsedAddressRF>
+            <date>2010-12-17</date>
+            <firstDate>2010-12-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Аверкин Александр Анатольевич</fio>
+            <innfl>772707415825</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-07-22</date>
+            <firstDate>2011-07-22</firstDate>
+          </head>
+          <head>
+            <fio>Попаденко Сергей Николаевич</fio>
+            <innfl>502405700840</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-05-04</date>
+            <firstDate>2012-05-04</firstDate>
+          </head>
+          <head>
+            <fio>Ивашкин Сергей Владимирович</fio>
+            <innfl>771908057529</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-11-17</date>
+            <firstDate>2015-11-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

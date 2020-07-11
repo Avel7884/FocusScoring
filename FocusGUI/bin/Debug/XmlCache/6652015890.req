@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6652015890</inn>
+    <ogrn>1036602420634</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036602420634</focusHref>
+    <UL>
+      <kpp>668501001</kpp>
+      <okpo>13711820</okpo>
+      <okato>65241503000</okato>
+      <okfs>16</okfs>
+      <oktmo>65729000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автоспецмаш-Сервис"</short>
+        <full>Общество с ограниченной ответственностью "Автоспецмаш-Сервис"</full>
+        <date>2006-05-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624002</zipCode>
+          <kladrCode>660250020000004</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Сысертский</topoValue>
+          </district>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Арамиль</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноармейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>118</topoValue>
+          </house>
+          <houseRaw>118</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-20</date>
+        <firstDate>2003-01-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-05-22</date>
+      </status>
+      <registrationDate>2003-01-20</registrationDate>
+      <dissolutionDate>2019-05-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Стратечук Мария Александровна</fio>
+          <innfl>450117179338</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-05-17</date>
+          <firstDate>2006-05-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>665201001</kpp>
+            <date>2005-12-30</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

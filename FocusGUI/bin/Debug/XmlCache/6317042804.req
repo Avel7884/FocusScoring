@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6317042804</inn>
+    <ogrn>1026301420420</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026301420420</focusHref>
+    <UL>
+      <kpp>631701001</kpp>
+      <okopf>68</okopf>
+      <opf>Дочерние унитарные предприятия</opf>
+      <legalName>
+        <short>ФГУП "1245 УКР"- дочернее предприятие ФГУП "ВУСУ МО РФ"</short>
+        <full>Федеральное государственное унитарное предприятие "1245 Управление начальника работ"- дочернее предприятие Федерального государственного унитарного предприятия "Волжско-Уральское строительное управление Министерства Обороны Российской Федерации"</full>
+        <date>2002-11-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443099</zipCode>
+          <kladrCode>630000010000828</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Комсомольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27А</topoValue>
+          </house>
+          <houseRaw>27-А</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-05</date>
+        <firstDate>2002-11-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-03-09</date>
+      </status>
+      <registrationDate>2002-04-17</registrationDate>
+      <dissolutionDate>2004-03-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шульга Петр Петрович</fio>
+          <innfl>631501318881</innfl>
+          <position>Начальник</position>
+          <date>2002-11-05</date>
+          <firstDate>2002-11-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

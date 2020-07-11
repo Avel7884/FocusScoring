@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7103047405</inn>
+    <ogrn>1167154059170</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1167154059170</focusHref>
+    <UL>
+      <kpp>710301001</kpp>
+      <okpo>01773721</okpo>
+      <okato>70401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>70701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ДЕЛЬТА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ "ДЕЛЬТА"</full>
+        <date>2016-04-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>300022</zipCode>
+          <kladrCode>710000010000407</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тула</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Октябрьская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>250</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>26</topoValue>
+          </flat>
+          <houseRaw>ДОМ 250</houseRaw>
+          <bulkRaw>КОРПУС 2</bulkRaw>
+          <flatRaw>КВАРТИРА 26</flatRaw>
+        </parsedAddressRF>
+        <date>2016-04-07</date>
+        <firstDate>2016-04-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-04-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Ивченков Геннадий Павлович</fio>
+          <innfl>711606071744</innfl>
+          <position>Директор</position>
+          <date>2016-04-07</date>
+          <firstDate>2016-04-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

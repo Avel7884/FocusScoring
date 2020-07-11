@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7704250916</inn>
+    <ogrn>1037704001928</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037704001928</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>59831216</okpo>
+      <okato>45286590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45383000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АвтоДорСтройМеханизация"</short>
+        <full>Закрытое акционерное общество "АвтоДорСтройМеханизация"</full>
+        <date>2003-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119146</zipCode>
+          <kladrCode>770000000001526</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Комсомольский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>33/11</topoValue>
+          </house>
+          <houseRaw>33/11</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-20</date>
+        <firstDate>2003-01-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-15</date>
+      </status>
+      <registrationDate>2003-01-20</registrationDate>
+      <dissolutionDate>2019-08-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Егоров Анатолий Иванович</fio>
+          <position>Генеральный Директор</position>
+          <date>2003-10-06</date>
+          <firstDate>2003-10-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

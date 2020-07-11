@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2313019123</inn>
+    <ogrn>1042307967085</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1042307967085</focusHref>
+    <UL>
+      <kpp>623001001</kpp>
+      <okpo>73200020</okpo>
+      <okato>61401375000</okato>
+      <okfs>16</okfs>
+      <oktmo>61701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО РАЗ "ТАНГСТОУН"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ РЯЗАНСКИЙ АККУМУЛЯТОРНЫЙ ЗАВОД "ТАНГСТОУН"</full>
+        <date>2015-06-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>390017</zipCode>
+          <kladrCode>620000010000641</kladrCode>
+          <regionCode>62</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Рязанская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Рязань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Ряжское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Ф</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 20</houseRaw>
+          <bulkRaw>ЛИТЕРА Ф</bulkRaw>
+        </parsedAddressRF>
+        <date>2017-04-27</date>
+        <firstDate>2017-04-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-05-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Васильев Юрий Валерьевич</fio>
+          <innfl>381201020865</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-09-12</date>
+          <firstDate>2012-08-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ТАНГСТОУН"</short>
+            <full>Общество с ограниченной ответственностью "ТАНГСТОУН"</full>
+            <date>2004-05-03</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>390011</zipCode>
+              <kladrCode>620000010000641</kladrCode>
+              <regionCode>62</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Рязанская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Рязань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Ряжское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>20</topoValue>
+              </house>
+              <houseRaw>20</houseRaw>
+            </parsedAddressRF>
+            <date>2006-05-16</date>
+            <firstDate>2006-05-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Перевезенцев Олег Анатольевич</fio>
+            <innfl>503205478132</innfl>
+            <position>Генеральный Директор</position>
+            <date>2007-06-04</date>
+            <firstDate>2007-06-04</firstDate>
+          </head>
+          <head>
+            <fio>Войналович Аркадий Владимирович</fio>
+            <innfl>773365102113</innfl>
+            <position>Генеральный Директор</position>
+            <date>2010-09-30</date>
+            <firstDate>2010-09-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

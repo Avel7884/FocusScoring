@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>7714258079</inn>
+    <ogrn>1027700212880</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700212880</focusHref>
+    <UL>
+      <fomsRegNumber>452140200600654</fomsRegNumber>
+      <activities />
+      <regInfo>
+        <ogrnDate>2002-09-12</ogrnDate>
+        <regName>Государственное учреждение Московская регистрационная палата</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7714</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы № 14 по г.Москве</nalogName>
+        <nalogRegDate>2002-04-16</nalogRegDate>
+        <kpp>771401001</kpp>
+        <date>2008-10-08</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2008-10-04</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2002-09-12</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Евдокимова Татьяна Александровна</fio>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2002-09-12</date>
+          <firstDate>2002-09-12</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2087762431865</grn>
+          <date>2008-10-08</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2087762320622</grn>
+          <date>2008-10-04</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1027700212880</grn>
+          <date>2002-09-12</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по г.Москве</regName>
+          <regCode>7700</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>77 007929919</serialNumber>
+              <date>2002-09-12</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

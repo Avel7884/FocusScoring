@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4824035792</inn>
+    <ogrn>1064823008799</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1064823008799</focusHref>
+    <UL>
+      <kpp>482401001</kpp>
+      <okpo>79328502</okpo>
+      <okato>42401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>42701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергостиль"</short>
+        <full>Общество с ограниченной ответственностью "Энергостиль"</full>
+        <date>2006-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>398024</zipCode>
+          <kladrCode>480000010000430</kladrCode>
+          <regionCode>48</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Липецкая</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Липецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>71</topoValue>
+          </house>
+          <flat>
+            <topoValue>145</topoValue>
+          </flat>
+          <houseRaw>71</houseRaw>
+          <flatRaw>145</flatRaw>
+        </parsedAddressRF>
+        <date>2006-02-07</date>
+        <firstDate>2006-02-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-04-15</date>
+      </status>
+      <registrationDate>2006-02-07</registrationDate>
+      <dissolutionDate>2019-04-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сидорова Наталья Александровна</fio>
+          <innfl>482417228388</innfl>
+          <position>Ликвидатор</position>
+          <date>2019-01-18</date>
+          <firstDate>2006-02-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>482417228388</inn>
+    <ogrn>311482608700012</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=311482608700012</focusHref>
+    <IP>
+      <fio>Сидорова Наталья Александровна</fio>
+      <okpo>0173762590</okpo>
+      <okato>42401368000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>42701000001</oktmo>
+      <registrationDate>2011-03-28</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

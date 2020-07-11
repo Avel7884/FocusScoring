@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6659053421</inn>
+    <ogrn>1036603165928</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603165928</focusHref>
+    <UL>
+      <kpp>665901001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <full>Общество с ограниченной ответственностью "Энергомаш-Сервис"</full>
+        <date>2003-12-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620027</zipCode>
+          <kladrCode>660000010001236</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Челюскинцев</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>62</topoValue>
+          </house>
+          <flat>
+            <topoValue>34</topoValue>
+          </flat>
+          <houseRaw>62</houseRaw>
+          <flatRaw>34</flatRaw>
+        </parsedAddressRF>
+        <date>2003-12-10</date>
+        <firstDate>2003-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2003-12-26</date>
+      </status>
+      <registrationDate>1999-09-01</registrationDate>
+      <dissolutionDate>2003-12-26</dissolutionDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

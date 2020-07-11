@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2221002497</inn>
+    <ogrn>1022200909455</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200909455</focusHref>
+    <UL>
+      <kpp>222101001</kpp>
+      <okpo>03083860</okpo>
+      <okato>01401363000</okato>
+      <okfs>16</okfs>
+      <oktmo>01701000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Алтайавтотехобслуживание"</short>
+        <full>Открытое акционерное общество "Алтайавтотехобслуживание"</full>
+        <date>2002-11-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656037</zipCode>
+          <kladrCode>220000010000566</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Северо-Западная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <houseRaw>15</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-28</date>
+        <firstDate>2002-11-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-10-05</date>
+      </status>
+      <registrationDate>1992-12-15</registrationDate>
+      <dissolutionDate>2016-10-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Прядун Юлия Евгеньевна</fio>
+          <innfl>222401947263</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-12-30</date>
+          <firstDate>2015-12-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Овчаренко Владимир Алексеевич</fio>
+            <innfl>222101200689</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-01-11</date>
+            <firstDate>2010-11-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

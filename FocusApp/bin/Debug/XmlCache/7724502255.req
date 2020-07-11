@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7724502255</inn>
+    <ogrn>1037789100755</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037789100755</focusHref>
+    <UL>
+      <kpp>771801001</kpp>
+      <okpo>72090380</okpo>
+      <okato>45263594000</okato>
+      <okfs>16</okfs>
+      <oktmo>45316000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Авиком-М"</short>
+        <full>Закрытое акционерное общество "Авиком-М"</full>
+        <date>2003-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107023</zipCode>
+          <kladrCode>770000000002606</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Семёновская М</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3А</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>3А</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-06-09</date>
+        <firstDate>2009-03-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-29</date>
+      </status>
+      <registrationDate>2003-12-31</registrationDate>
+      <dissolutionDate>2019-08-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Полунин Андрей Алексеевич</fio>
+          <innfl>774329489210</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-03-11</date>
+          <firstDate>2010-03-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707219671</inn>
+    <ogrn>1027739040053</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739040053</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>18405565</okpo>
+      <okato>45286585000</okato>
+      <okfs>23</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СТЕКСИМА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СТЕКСИМА"</full>
+        <date>2014-08-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127055</zipCode>
+          <kladrCode>770000000000604</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сущёвская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Эт 5 каб 88</topoValue>
+          </flat>
+          <houseRaw>ДОМ 12</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ЭТ 5 КАБ 88</flatRaw>
+        </parsedAddressRF>
+        <date>2017-08-25</date>
+        <firstDate>2017-08-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-03-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Трушин Михаил Васильевич</fio>
+          <innfl>772738191491</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-08-12</date>
+          <firstDate>2014-08-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "Автономные Энергосистемы"</short>
+            <full>Общество с ограниченной ответственностью "Автономные Энергосистемы"</full>
+            <date>2010-07-08</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127473</zipCode>
+              <kladrCode>770000000000592</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Самотёчная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1/15</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>14</topoValue>
+              </flat>
+              <houseRaw>1/15</houseRaw>
+              <flatRaw>ОФИС 14</flatRaw>
+            </parsedAddressRF>
+            <date>2016-05-26</date>
+            <firstDate>2008-11-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Сапожников Алексей Андреевич</fio>
+            <position>Генеральный Директор</position>
+            <date>2007-10-17</date>
+            <firstDate>2007-10-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

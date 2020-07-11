@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7017170839</inn>
+    <ogrn>1077017002776</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077017002776</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>97590787</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Адонис"</short>
+        <full>Общество с ограниченной ответственностью "Адонис"</full>
+        <date>2007-01-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634024</zipCode>
+          <kladrCode>700000010000633</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Профсоюзная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28/1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>8,10</topoValue>
+          </bulk>
+          <houseRaw>28/1</houseRaw>
+          <bulkRaw>8,10</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-01-26</date>
+        <firstDate>2007-01-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-07-02</date>
+      </status>
+      <registrationDate>2007-01-26</registrationDate>
+      <dissolutionDate>2009-07-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шандро Надежда Николаевна</fio>
+          <innfl>701726959849</innfl>
+          <position>Директор</position>
+          <date>2008-03-05</date>
+          <firstDate>2008-03-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

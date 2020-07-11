@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725106663</inn>
+    <ogrn>1027700396767</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700396767</focusHref>
+    <UL>
+      <kpp>772401001</kpp>
+      <okpo>51272421</okpo>
+      <okato>45296561000</okato>
+      <okfs>16</okfs>
+      <oktmo>45915000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГС Дистрибьюшн"</short>
+        <full>Общество с ограниченной ответственностью "АГС Дистрибьюшн"</full>
+        <date>2002-11-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117105</zipCode>
+          <kladrCode>770000000000476</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Варшавское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>39Б</topoValue>
+          </house>
+          <flat>
+            <topoValue>Эт 3 пом XIII Ком 12</topoValue>
+          </flat>
+          <houseRaw>ДОМ 39Б</houseRaw>
+          <flatRaw>ЭТ 3 ПОМ XIII КОМ 12</flatRaw>
+        </parsedAddressRF>
+        <date>2019-11-06</date>
+        <firstDate>2019-11-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-11-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Ивлев Юрий Михайлович</fio>
+          <innfl>773707033190</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-11-04</date>
+          <firstDate>2002-11-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772501001</kpp>
+            <date>2002-11-06</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119334</zipCode>
+              <kladrCode>770000000001222</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>проезд</topoShortName>
+                <topoFullName>проезд</topoFullName>
+                <topoValue>Донской 5-й</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>21Б</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>10</topoValue>
+              </bulk>
+              <houseRaw>21Б</houseRaw>
+              <bulkRaw>СТР. 10</bulkRaw>
+            </parsedAddressRF>
+            <date>2004-06-07</date>
+            <firstDate>2004-06-07</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

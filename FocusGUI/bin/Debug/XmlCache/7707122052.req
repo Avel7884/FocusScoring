@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707122052</inn>
+    <ogrn>1027739285430</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739285430</focusHref>
+    <UL>
+      <kpp>771001001</kpp>
+      <okpo>17084449</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВРОРА ИНТУР"</short>
+        <full>Общество с ограниченной ответственностью "АВРОРА ИНТУР"</full>
+        <date>2002-10-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125047</zipCode>
+          <kladrCode>770000000000535</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бутырский Вал</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-01</date>
+        <firstDate>2002-10-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-08-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Суровский Александр Борисович</fio>
+          <innfl>771518414687</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-03-13</date>
+          <firstDate>2004-12-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

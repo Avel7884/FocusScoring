@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705006815</inn>
+    <ogrn>1027739139273</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739139273</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>07628380</okpo>
+      <okato>45286560000</okato>
+      <okfs>41</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210001</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "ПЕРВЫЙ СМТ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "ПЕРВЫЙ СТРОИТЕЛЬНО-МОНТАЖНЫЙ ТРЕСТ"</full>
+        <date>2015-05-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119049</zipCode>
+          <kladrCode>770000000001756</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Люсиновский 1-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3Б</topoValue>
+          </house>
+          <houseRaw>3Б</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-02</date>
+        <firstDate>2002-09-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-06-30</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ЗНАМЕНКА"</name>
+          <inn>9701071020</inn>
+          <ogrn>1177746358987</ogrn>
+          <date>2017-04-27</date>
+          <firstDate>2016-02-19</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774501001</kpp>
+            <date>2009-05-08</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ОАО "Первый СМТ"</short>
+            <full>ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "ПЕРВЫЙ СТРОИТЕЛЬНО-МОНТАЖНЫЙ ТРЕСТ"</full>
+            <date>2002-09-02</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Хитров Павел Владимирович</fio>
+            <innfl>561401404808</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-02-11</date>
+            <firstDate>2013-02-11</firstDate>
+          </head>
+          <head>
+            <fio>Демин Андрей Анатольевич</fio>
+            <innfl>501000460966</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-09-19</date>
+            <firstDate>2014-09-19</firstDate>
+          </head>
+          <head>
+            <fio>Саморуков Михаил Михайлович</fio>
+            <innfl>771107158980</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-10-07</date>
+            <firstDate>2005-09-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

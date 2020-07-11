@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7702328740</inn>
+    <ogrn>1037739426372</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739426372</focusHref>
+    <UL>
+      <kpp>463201001</kpp>
+      <okpo>58114599</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Торговый дом "Автопром"</short>
+        <full>Закрытое акционерное общество "Торговый дом "Автопром"</full>
+        <date>2003-02-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>305022</zipCode>
+          <kladrCode>460000010000029</kladrCode>
+          <regionCode>46</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Курская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Курск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Агрегатная 3-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23З</topoValue>
+          </house>
+          <houseRaw>23З</houseRaw>
+        </parsedAddressRF>
+        <date>2008-12-24</date>
+        <firstDate>2008-12-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-07-27</date>
+      </status>
+      <registrationDate>2001-11-19</registrationDate>
+      <dissolutionDate>2012-07-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Колесников Иван Павлович</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2011-03-31</date>
+          <firstDate>2011-03-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

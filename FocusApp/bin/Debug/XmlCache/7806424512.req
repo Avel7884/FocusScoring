@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7806424512</inn>
+    <ogrn>1109847010020</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1109847010020</focusHref>
+    <UL>
+      <kpp>780201001</kpp>
+      <okpo>64238638</okpo>
+      <okato>40265000000</okato>
+      <okfs>23</okfs>
+      <oktmo>40314000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "1 ГСК"</short>
+        <full>Общество с ограниченной ответственностью "Первая горностроительная компания"</full>
+        <date>2012-06-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>194044</zipCode>
+          <kladrCode>780000000000566</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Комиссара Смирнова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Д</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 11</houseRaw>
+          <bulkRaw>ЛИТЕР Д</bulkRaw>
+        </parsedAddressRF>
+        <date>2015-02-27</date>
+        <firstDate>2015-02-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-12-16</date>
+      </status>
+      <registrationDate>2010-01-21</registrationDate>
+      <dissolutionDate>2018-12-16</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ЗАНКОМ ИНВЕСТ ЛТД</name>
+          <date>2015-03-13</date>
+          <firstDate>2015-03-13</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>194044</zipCode>
+              <kladrCode>780000000000269</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>наб</topoShortName>
+                <topoFullName>набережная</topoFullName>
+                <topoValue>Выборгская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>47</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>Д</topoValue>
+              </bulk>
+              <houseRaw>47</houseRaw>
+              <bulkRaw>лит. Д</bulkRaw>
+            </parsedAddressRF>
+            <date>2012-06-13</date>
+            <firstDate>2012-06-13</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>197022</zipCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>наб</topoShortName>
+                <topoFullName>набережная</topoFullName>
+                <topoValue>Аптекарская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>20</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>дом 20</houseRaw>
+              <bulkRaw>литер А</bulkRaw>
+            </parsedAddressRF>
+            <date>2010-12-02</date>
+            <firstDate>2010-12-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <managementCompanies>
+          <managementCompany>
+            <name>ЗАНКОМ ИНВЕСТ ЛТД</name>
+            <date>2015-03-13</date>
+            <firstDate>2015-03-13</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Партянский Андрей Александрович</fio>
+            <position>Генеральный директор</position>
+            <date>2011-02-01</date>
+            <firstDate>2011-02-01</firstDate>
+          </head>
+          <head>
+            <fio>Георгиу Панайотис</fio>
+            <date>2015-03-13</date>
+            <firstDate>2015-03-13</firstDate>
+          </head>
+          <head>
+            <fio>Горшков Николай Владимирович</fio>
+            <innfl>741802744265</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-06-13</date>
+            <firstDate>2012-02-14</firstDate>
+          </head>
+          <head>
+            <fio>Крохмаль Михаил Алексеевич</fio>
+            <innfl>540207781720</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-10-15</date>
+            <firstDate>2013-10-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

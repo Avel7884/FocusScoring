@@ -1,0 +1,1844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7708034497</inn>
+    <ogrn>1037739438285</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739438285</focusHref>
+    <UL>
+      <kpp>770801001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ГП ГВЦ МПС РОССИИ</short>
+        <full>Государственное предприятие главный вычислительный центр Министерства путей сообщения России</full>
+        <date>2003-02-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107174</zipCode>
+          <kladrCode>770000000000636</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Каланчевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2/1</topoValue>
+          </house>
+          <houseRaw>2/1</houseRaw>
+        </parsedAddressRF>
+        <date>2003-02-05</date>
+        <firstDate>2003-02-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение юридического лица, имущественный комплекс которого внесен в качестве вклада в уставный капитал открытого акционерного общества</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-06-08</date>
+      </status>
+      <registrationDate>1993-03-23</registrationDate>
+      <dissolutionDate>2004-06-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вишняков Валерий Федорович</fio>
+          <position>Начальник</position>
+          <date>2003-02-05</date>
+          <firstDate>2003-02-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7708503727</inn>
+    <ogrn>1037739877295</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739877295</focusHref>
+    <UL>
+      <kpp>770801001</kpp>
+      <okpo>00083262</okpo>
+      <okato>45286555000</okato>
+      <okfs>12</okfs>
+      <oktmo>45375000000</oktmo>
+      <okogu>4100612</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "РЖД"</short>
+        <full>Открытое акционерное общество "Российские железные дороги"</full>
+        <date>2014-04-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107174</zipCode>
+          <kladrCode>770000000000627</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Басманная Нов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>ДОМ 2</houseRaw>
+        </parsedAddressRF>
+        <date>2014-04-25</date>
+        <firstDate>2012-08-02</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>ЦЕНТРАЛЬНАЯ ДИРЕКЦИЯ ПАССАЖИРСКИХ ОБУСТРОЙСТВ</name>
+          <parsedAddressRF>
+            <zipCode>129090</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>35</topoValue>
+            </house>
+            <houseRaw>35</houseRaw>
+          </parsedAddressRF>
+          <date>2012-11-26</date>
+        </branch>
+        <branch>
+          <name>ВОСТОЧНО-СИБИРСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>664003</zipCode>
+            <kladrCode>380000030000227</kladrCode>
+            <regionCode>38</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Иркутская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Иркутск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Карла Маркса</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>7</topoValue>
+            </house>
+            <houseRaw>7</houseRaw>
+          </parsedAddressRF>
+          <date>2014-04-25</date>
+        </branch>
+        <branch>
+          <name>СЕВЕРНАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>150003</zipCode>
+            <kladrCode>760000010000128</kladrCode>
+            <regionCode>76</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Ярославская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Ярославль</topoValue>
+            </city>
+            <street>
+              <topoShortName>наб</topoShortName>
+              <topoFullName>набережная</topoFullName>
+              <topoValue>Волжская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>59</topoValue>
+            </house>
+            <houseRaw>59</houseRaw>
+          </parsedAddressRF>
+          <date>2014-07-29</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ РАЗВИТИЯ ЖЕЛЕЗНЫХ ДОРОГ ВОСТОЧНОГО ПОЛИГОНА</name>
+          <parsedAddressRF>
+            <zipCode>671700</zipCode>
+            <kladrCode>030000020000055</kladrCode>
+            <regionCode>03</regionCode>
+            <regionName>
+              <topoShortName>респ</topoShortName>
+              <topoFullName>республика</topoFullName>
+              <topoValue>Бурятия</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Северобайкальск</topoValue>
+            </city>
+            <street>
+              <topoShortName>пр-кт</topoShortName>
+              <topoFullName>проспект</topoFullName>
+              <topoValue>Ленинградский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>6Б</topoValue>
+            </house>
+            <houseRaw>6Б</houseRaw>
+          </parsedAddressRF>
+          <date>2014-07-29</date>
+        </branch>
+        <branch>
+          <name>ПРОЕКТНО-КОНСТРУКТОРСКОЕ БЮРО ПО ИНФРАСТРУКТУРЕ - ФИЛИАЛ ОАО "РЖД"</name>
+          <parsedAddressRF>
+            <zipCode>127299</zipCode>
+            <kladrCode>770000000001002</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Космонавта Волкова</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>6</topoValue>
+            </house>
+            <houseRaw>ДОМ 6</houseRaw>
+          </parsedAddressRF>
+          <date>2015-07-02</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТРАЛЬНАЯ СТАНЦИЯ СВЯЗИ</name>
+          <parsedAddressRF>
+            <zipCode>105082</zipCode>
+            <kladrCode>770000000002244</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пер</topoShortName>
+              <topoFullName>переулок</topoFullName>
+              <topoValue>Переведеновский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>13</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>9</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 13</houseRaw>
+            <bulkRaw>СТРОЕНИЕ 9</bulkRaw>
+          </parsedAddressRF>
+          <date>2016-05-06</date>
+        </branch>
+        <branch>
+          <name>ПРОЕКТНО-КОНСТРУКТОРСКО-ТЕХНОЛОГИЧЕСКОЕ БЮРО ПАССАЖИРСКОГО КОМПЛЕКСА</name>
+          <parsedAddressRF>
+            <zipCode>105082</zipCode>
+            <kladrCode>770000000002244</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пер</topoShortName>
+              <topoFullName>переулок</topoFullName>
+              <topoValue>Переведеновский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>13</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>18</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 13</houseRaw>
+            <bulkRaw>СТРОЕНИЕ 18</bulkRaw>
+          </parsedAddressRF>
+          <date>2016-05-06</date>
+        </branch>
+        <branch>
+          <name>СЕВЕРО-КАВКАЗСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>344019</zipCode>
+            <kladrCode>610000010001552</kladrCode>
+            <regionCode>61</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Ростовская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Ростов-на-Дону</topoValue>
+            </city>
+            <street>
+              <topoShortName>пл</topoShortName>
+              <topoFullName>площадь</topoFullName>
+              <topoValue>Театральная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>4</topoValue>
+            </house>
+            <houseRaw>ДОМ 4</houseRaw>
+          </parsedAddressRF>
+          <date>2016-11-01</date>
+        </branch>
+        <branch>
+          <name>ПРИВОЛЖСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>410031</zipCode>
+            <kladrCode>640000010000722</kladrCode>
+            <regionCode>64</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Саратовская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Саратов</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Московская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>8</topoValue>
+            </house>
+            <houseRaw>ДОМ 8</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>КАНАШСКИЙ ОРДЕНА ТРУДОВОГО КРАСНОГО ЗНАМЕНИ ВАГОНОРЕМОНТНЫЙ ЗАВОД</name>
+          <parsedAddressRF>
+            <zipCode>429330</zipCode>
+            <kladrCode>210000230000031</kladrCode>
+            <regionCode>21</regionCode>
+            <regionName>
+              <topoShortName>чувашия</topoShortName>
+              <topoFullName>чувашия</topoFullName>
+              <topoValue>Чувашская Республика</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Канаш</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Ильича</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>1А</topoValue>
+            </house>
+            <houseRaw>ДОМ 1А</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТРАЛЬНАЯ ДИРЕКЦИЯ ИНФРАСТРУКТУРЫ</name>
+          <parsedAddressRF>
+            <zipCode>129090</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>35</topoValue>
+            </house>
+            <houseRaw>ДОМ 35</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ ОАО "РЖД" В ОБЪЕДИНЕННЫХ АРАБСКИХ ЭМИРАТАХ</name>
+          <foreignAddress>
+            <countryName>ОБЪЕДИНЕННЫЕ АРАБСКИЕ ЭМИРАТЫ</countryName>
+            <addressString>Г. АБУ-ДАБИ</addressString>
+          </foreignAddress>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ ОАО "РЖД" В ГОСУДАРСТВЕ КАТАР</name>
+          <foreignAddress>
+            <countryName>ГОСУДАРСТВО КАТАР</countryName>
+            <addressString>Г. ДОХА</addressString>
+          </foreignAddress>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ПЕТРОПАВЛОВСКОЕ ОТДЕЛЕНИЕ ЮЖНО-УРАЛЬСКОЙ ЖЕЛЕЗНОЙ ДОРОГИ</name>
+          <foreignAddress>
+            <countryName>РЕСПУБЛИКА КАЗАХСТАН</countryName>
+            <addressString>150001 СЕВЕРО-КАЗАХСТАНСКАЯ ОБЛАСТЬ Г.ПЕТРОПАВЛОВСК УЛ.САТПАЕВА Д.44</addressString>
+          </foreignAddress>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ ПО СТРОИТЕЛЬСТВУ СЕТЕЙ СВЯЗИ</name>
+          <parsedAddressRF>
+            <zipCode>107228</zipCode>
+            <kladrCode>770000000000665</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Новорязанская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>12</topoValue>
+            </house>
+            <houseRaw>ДОМ 12</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ ПО СТРОИТЕЛЬСТВУ ОБЪЕКТОВ ЖЕЛЕЗНЫХ ДОРОГ ЮГА РОССИИ</name>
+          <parsedAddressRF>
+            <zipCode>344001</zipCode>
+            <kladrCode>610000010001835</kladrCode>
+            <regionCode>61</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Ростовская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Ростов-на-Дону</topoValue>
+            </city>
+            <street>
+              <topoShortName>пл</topoShortName>
+              <topoFullName>площадь</topoFullName>
+              <topoValue>Привокзальная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>1/2</topoValue>
+            </house>
+            <houseRaw>ДОМ 1/2</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>КУЙБЫШЕВСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>443030</zipCode>
+            <kladrCode>630000010000268</kladrCode>
+            <regionCode>63</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Самарская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Самара</topoValue>
+            </city>
+            <street>
+              <topoShortName>пл</topoShortName>
+              <topoFullName>площадь</topoFullName>
+              <topoValue>Комсомольская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>2/3</topoValue>
+            </house>
+            <houseRaw>ДОМ 2/3</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТР КОРПОРАТИВНОГО УЧЕТА И ОТЧЕТНОСТИ "ЖЕЛДОРУЧЕТ"</name>
+          <parsedAddressRF>
+            <zipCode>107078</zipCode>
+            <kladrCode>770000000000627</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Басманная Нов</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>14</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>2</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 14</houseRaw>
+            <bulkRaw>СТР. 2</bulkRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ОКТЯБРЬСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>191023</zipCode>
+            <kladrCode>780000000000990</kladrCode>
+            <regionCode>78</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Санкт-Петербург</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пл</topoShortName>
+              <topoFullName>площадь</topoFullName>
+              <topoValue>Островского</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>2</topoValue>
+            </house>
+            <houseRaw>ДОМ 2</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ПРОЕКТНО-КОНСТРУКТОРСКОЕ БЮРО ЛОКОМОТИВНОГО ХОЗЯЙСТВА</name>
+          <parsedAddressRF>
+            <zipCode>105066</zipCode>
+            <kladrCode>770000000000671</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пер</topoShortName>
+              <topoFullName>переулок</topoFullName>
+              <topoValue>Ольховский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>205</topoValue>
+            </house>
+            <houseRaw>ДОМ 205</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ ОАО "РЖД" В АЛЖИРСКОЙ НАРОДНОЙ ДЕМОКРАТИЧЕСКОЙ РЕСПУБЛИКИ</name>
+          <foreignAddress>
+            <countryName>АЛЖИРСКАЯ НАРОДНАЯ ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА</countryName>
+            <addressString>Г. АЛЖИР</addressString>
+          </foreignAddress>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ СКОРОСТНОГО СООБЩЕНИЯ</name>
+          <parsedAddressRF>
+            <zipCode>107174</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>22</topoValue>
+            </house>
+            <houseRaw>ДОМ 22</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТР ФИРМЕННОГО ТРАНСПОРТНОГО ОБСЛУЖИВАНИЯ</name>
+          <parsedAddressRF>
+            <zipCode>107174</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>6/2</topoValue>
+            </house>
+            <houseRaw>ДОМ 6/2</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТРАЛЬНАЯ ДИРЕКЦИЯ УПРАВЛЕНИЯ ДВИЖЕНИЕМ</name>
+          <parsedAddressRF>
+            <zipCode>107174</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>35</topoValue>
+            </house>
+            <houseRaw>ДОМ 35</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ ПО РЕМОНТУ ТЯГОВОГО ПОДВИЖНОГО СОСТАВА</name>
+          <parsedAddressRF>
+            <zipCode>107174</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>35</topoValue>
+            </house>
+            <houseRaw>ДОМ 35</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТРАЛЬНАЯ ДИРЕКЦИЯ ПО УПРАВЛЕНИЮ ТЕРМИНАЛЬНО-СКЛАДСКИМ КОМПЛЕКСОМ</name>
+          <parsedAddressRF>
+            <zipCode>107174</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>35</topoValue>
+            </house>
+            <houseRaw>ДОМ 35</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ТРАНСЭНЕРГО</name>
+          <parsedAddressRF>
+            <zipCode>107174</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>35</topoValue>
+            </house>
+            <houseRaw>ДОМ 35</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ ЖЕЛЕЗНОДОРОЖНЫХ ВОКЗАЛОВ</name>
+          <parsedAddressRF>
+            <zipCode>109544</zipCode>
+            <kladrCode>770000000002056</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Новорогожская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>29</topoValue>
+            </house>
+            <houseRaw>ДОМ 29</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТР НАУЧНО-ТЕХНИЧЕСКОЙ ИНФОРМАЦИИ И БИБЛИОТЕК</name>
+          <parsedAddressRF>
+            <zipCode>107078</zipCode>
+            <kladrCode>770000000000627</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Басманная Нов</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>4-6</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>11</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 4-6</houseRaw>
+            <bulkRaw>СТР. 11</bulkRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>МОСКОВСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>107140</zipCode>
+            <kladrCode>770000000000644</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Краснопрудная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>20</topoValue>
+            </house>
+            <houseRaw>ДОМ 20</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ТРАНСИНФОРМ</name>
+          <parsedAddressRF>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>2/1</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>2</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 2/1</houseRaw>
+            <bulkRaw>СТР. 2</bulkRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>АДМИНИСТРАТИВНО-ХОЗЯЙСТВЕННОЕ УПРАВЛЕНИЕ</name>
+          <parsedAddressRF>
+            <zipCode>107228</zipCode>
+            <kladrCode>770000000000665</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Новорязанская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>12</topoValue>
+            </house>
+            <houseRaw>ДОМ 12</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ПРОЕКТНО-КОНСТРУКТОРСКОЕ БЮРО ВАГОННОГО ХОЗЯЙСТВА</name>
+          <parsedAddressRF>
+            <zipCode>109316</zipCode>
+            <kladrCode>770000000000013</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пр-кт</topoShortName>
+              <topoFullName>проспект</topoFullName>
+              <topoValue>Волгоградский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>23</topoValue>
+            </house>
+            <houseRaw>ДОМ 23</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>КАЛИНИНГРАДСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>236039</zipCode>
+            <kladrCode>390000010000350</kladrCode>
+            <regionCode>39</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Калининградская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Калининград</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Киевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>1</topoValue>
+            </house>
+            <houseRaw>ДОМ 1</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>МИЧУРИНСКИЙ ЛОКОМОТИВОРЕМОНТНЫЙ ЗАВОД</name>
+          <parsedAddressRF>
+            <zipCode>393740</zipCode>
+            <kladrCode>680000060000133</kladrCode>
+            <regionCode>68</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Тамбовская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Мичуринск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Привокзальная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>1</topoValue>
+            </house>
+            <houseRaw>ДОМ 1</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЗАБАЙКАЛЬСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>672092</zipCode>
+            <kladrCode>750000010000297</kladrCode>
+            <regionCode>75</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Забайкальский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Чита</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Ленинградская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>34</topoValue>
+            </house>
+            <houseRaw>ДОМ 34</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ ПО СТРОИТЕЛЬСТВУ ОБЪЕКТОВ ЖЕЛЕЗНОДОРОЖНОГО ТРАНСПОРТА</name>
+          <parsedAddressRF>
+            <zipCode>680000</zipCode>
+            <kladrCode>270000010000302</kladrCode>
+            <regionCode>27</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Хабаровский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Хабаровск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Истомина</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>44</topoValue>
+            </house>
+            <houseRaw>ДОМ 44</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ДАЛЬНЕВОСТОЧНАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>680000</zipCode>
+            <kladrCode>270000010000548</kladrCode>
+            <regionCode>27</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Хабаровский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Хабаровск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Муравьева-Амурского</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>20</topoValue>
+            </house>
+            <houseRaw>ДОМ 20</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ГОРЬКОВСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>603011</zipCode>
+            <kladrCode>520000010000764</kladrCode>
+            <regionCode>52</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Нижегородская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Нижний Новгород</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Октябрьской Революции</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>78</topoValue>
+            </house>
+            <houseRaw>ДОМ 78</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>СВЕРДЛОВСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>620013</zipCode>
+            <kladrCode>660000010001236</kladrCode>
+            <regionCode>66</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Свердловская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Екатеринбург</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Челюскинцев</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>11</topoValue>
+            </house>
+            <houseRaw>ДОМ 11</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЗАПАДНО-СИБИРСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>630004</zipCode>
+            <kladrCode>540000010000233</kladrCode>
+            <regionCode>54</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Новосибирская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Новосибирск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Вокзальная магистраль</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>14</topoValue>
+            </house>
+            <houseRaw>ДОМ 14</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>КРАСНОЯРСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>660021</zipCode>
+            <kladrCode>240000010000151</kladrCode>
+            <regionCode>24</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Красноярский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Красноярск</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Горького</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>6</topoValue>
+            </house>
+            <houseRaw>ДОМ 6</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЮЖНО-УРАЛЬСКАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>454000</zipCode>
+            <kladrCode>740000010000822</kladrCode>
+            <regionCode>74</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Челябинская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Челябинск</topoValue>
+            </city>
+            <street>
+              <topoShortName>пл</topoShortName>
+              <topoFullName>площадь</topoFullName>
+              <topoValue>Революции</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>3</topoValue>
+            </house>
+            <houseRaw>ДОМ 3</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ГЛАВНЫЙ ВЫЧИСЛИТЕЛЬНЫЙ ЦЕНТР</name>
+          <parsedAddressRF>
+            <zipCode>107174</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>2/1</topoValue>
+            </house>
+            <houseRaw>ДОМ 2/1</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>НАУЧНО-ПРОИЗВОДСТВЕННЫЙ ЦЕНТР ПО ОХРАНЕ ОКРУЖАЮЩЕЙ СРЕДЫ</name>
+          <parsedAddressRF>
+            <zipCode>152007</zipCode>
+            <kladrCode>760000010001041</kladrCode>
+            <regionCode>76</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Ярославская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Ярославль</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Урочская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>27А</topoValue>
+            </house>
+            <houseRaw>ДОМ 27А</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ ОАО "РЖД" В ВЕЛИКОЙ СОЦИАЛИСТИЧЕСКОЙ НАРОДНОЙ ЛИВИЙСКОЙ АРАБСКОЙ ДЖАМАХИРИИ</name>
+          <foreignAddress>
+            <countryName>Государство Ливия</countryName>
+            <addressString>Г. ТРИПОЛИ</addressString>
+          </foreignAddress>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ ПО КОМПЛЕКСНОЙ РЕКОНСТРУКЦИИ ЖЕЛЕЗНЫХ ДОРОГ И СТРОИТЕЛЬСТВУ ОБЪЕКТОВ ЖЕЛЕЗНОДОРОЖНОГО ТРАНСПОРТА</name>
+          <parsedAddressRF>
+            <zipCode>105082</zipCode>
+            <kladrCode>770000000002244</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пер</topoShortName>
+              <topoFullName>переулок</topoFullName>
+              <topoValue>Переведеновский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>13</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>16</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 13</houseRaw>
+            <bulkRaw>СТРОЕНИЕ 16</bulkRaw>
+          </parsedAddressRF>
+          <date>2017-03-29</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ ТЯГИ</name>
+          <parsedAddressRF>
+            <zipCode>105064</zipCode>
+            <kladrCode>770000000000814</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>туп</topoShortName>
+              <topoFullName>тупик</topoFullName>
+              <topoValue>Басманный</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>6А</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>4</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 6А</houseRaw>
+            <bulkRaw>СТРОЕНИЕ 4</bulkRaw>
+          </parsedAddressRF>
+          <date>2017-03-29</date>
+        </branch>
+        <branch>
+          <name>ДИРЕКЦИЯ КАПИТАЛЬНОГО РЕМОНТА И РЕКОНСТРУКЦИИ ОБЪЕКТОВ ЭЛЕКТРИФИКАЦИИ И ЭЛЕКТРОСНАБЖЕНИЯ ЖЕЛЕЗНЫХ ДОРОГ</name>
+          <parsedAddressRF>
+            <zipCode>107078</zipCode>
+            <kladrCode>770000000000672</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пер</topoShortName>
+              <topoFullName>переулок</topoFullName>
+              <topoValue>Орликов</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>2</topoValue>
+            </house>
+            <houseRaw>ДОМ 2</houseRaw>
+          </parsedAddressRF>
+          <date>2017-03-29</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТРАЛЬНАЯ ДИРЕКЦИЯ ЗДРАВООХРАНЕНИЯ</name>
+          <parsedAddressRF>
+            <zipCode>123557</zipCode>
+            <kladrCode>770000000001147</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Грузинская М</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>52А</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>1</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 52А</houseRaw>
+            <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТРАЛЬНАЯ ДИРЕКЦИЯ МОТОРВАГОННОГО ПОДВИЖНОГО СОСТАВА</name>
+          <parsedAddressRF>
+            <zipCode>107078</zipCode>
+            <kladrCode>770000000000676</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Маши Порываевой</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>34</topoValue>
+            </house>
+            <houseRaw>ДОМ 34</houseRaw>
+          </parsedAddressRF>
+          <date>2017-07-26</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТРАЛЬНАЯ ДИРЕКЦИЯ ПО ТЕПЛОВОДОСНАБЖЕНИЮ</name>
+          <parsedAddressRF>
+            <zipCode>127078</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>15А</topoValue>
+            </house>
+            <houseRaw>ДОМ 15А</houseRaw>
+          </parsedAddressRF>
+          <date>2018-08-10</date>
+        </branch>
+        <branch>
+          <name>ПРОЕКТНО-КОНСТРУКТОРСКО-ТЕХНОЛОГИЧЕСКОЕ БЮРО ПО НОРМИРОВАНИЮ</name>
+          <parsedAddressRF>
+            <zipCode>105005</zipCode>
+            <kladrCode>770000000000904</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пер</topoShortName>
+              <topoFullName>переулок</topoFullName>
+              <topoValue>Бригадирский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>6</topoValue>
+            </house>
+            <houseRaw>ДОМ 6</houseRaw>
+          </parsedAddressRF>
+          <date>2018-08-10</date>
+        </branch>
+        <branch>
+          <name>ПРОЕКТНО-КОНСТРУКТОРСКО-ТЕХНОЛОГИЧЕСКОЕ БЮРО ПО СИСТЕМАМ ИНФОРМАТИЗАЦИИ-ЦЕНТР ЦИФРОВЫХ ТЕХНОЛОГИЙ</name>
+          <parsedAddressRF>
+            <zipCode>142060</zipCode>
+            <kladrCode>500000010070006</kladrCode>
+            <regionCode>50</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Московская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Домодедово</topoValue>
+            </city>
+            <settlement>
+              <topoShortName>мкр</topoShortName>
+              <topoFullName>микрорайон</topoFullName>
+              <topoValue>Барыбино</topoValue>
+            </settlement>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Южная</topoValue>
+            </street>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>12А</topoValue>
+            </bulk>
+            <bulkRaw>СТРОЕНИЕ 12А</bulkRaw>
+          </parsedAddressRF>
+          <date>2018-08-10</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТР ИННОВАЦИОННОГО РАЗВИТИЯ</name>
+          <parsedAddressRF>
+            <zipCode>107078</zipCode>
+            <kladrCode>770000000000636</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Каланчевская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>15</topoValue>
+            </house>
+            <houseRaw>ДОМ 15</houseRaw>
+          </parsedAddressRF>
+          <date>2019-08-08</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТР ОРГАНИЗАЦИИ ТРУДА И ПРОЕКТИРОВАНИЯ ЭКОНОМИЧЕСКИХ НОРМАТИВОВ</name>
+          <parsedAddressRF>
+            <zipCode>107078</zipCode>
+            <kladrCode>770000000000681</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Садовая-Спасская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>21/1</topoValue>
+            </house>
+            <houseRaw>ДОМ 21/1</houseRaw>
+          </parsedAddressRF>
+          <date>2019-08-08</date>
+        </branch>
+        <branch>
+          <name>ЮГО-ВОСТОЧНАЯ ЖЕЛЕЗНАЯ ДОРОГА</name>
+          <parsedAddressRF>
+            <zipCode>394036</zipCode>
+            <kladrCode>360000010000765</kladrCode>
+            <regionCode>36</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Воронежская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Воронеж</topoValue>
+            </city>
+            <street>
+              <topoShortName>пр-кт</topoShortName>
+              <topoFullName>проспект</topoFullName>
+              <topoValue>Революции</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>18</topoValue>
+            </house>
+            <houseRaw>ДОМ 18</houseRaw>
+          </parsedAddressRF>
+          <date>2019-11-14</date>
+        </branch>
+        <branch>
+          <name>ЦЕНТРАЛЬНАЯ ДИРЕКЦИЯ ЗАКУПОК И СНАБЖЕНИЯ</name>
+          <parsedAddressRF>
+            <zipCode>107228</zipCode>
+            <kladrCode>770000000000665</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Новорязанская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>12</topoValue>
+            </house>
+            <houseRaw>ДОМ 12</houseRaw>
+          </parsedAddressRF>
+          <date>2017-01-18</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В СЛОВАЦКОЙ РЕСПУБЛИКЕ</name>
+          <foreignAddress>
+            <countryName>СЛОВАЦКАЯ РЕСПУБЛИКА</countryName>
+            <addressString>СЛОВАЦКАЯ РЕСПУБЛИКА,Г.БРАТИСЛАВА 85102, УЛ.КУТЛИКОВА,Д.17</addressString>
+          </foreignAddress>
+          <date>2015-08-19</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" ВО ФРАНЦУЗСКОЙ РЕСПУБЛИКЕ</name>
+          <foreignAddress>
+            <countryName>ФРАНЦУЗСКАЯ РЕСПУБЛИКА</countryName>
+            <addressString>75008, ФРАНЦУСКАЯ РЕСПУБЛИКА,Г.ПАРИЖ, УЛ.ЕЛИСЕЙСКИЕ ПОЛЯ,Д.120</addressString>
+          </foreignAddress>
+          <date>2015-08-19</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В РЕСПУБЛИКЕ БЕЛАРУСЬ</name>
+          <foreignAddress>
+            <countryName>Республика Белоруссия</countryName>
+            <addressString>220116,РЕСПУБЛИКА БЕЛАРУСЬ,Г.МИНСК,ПРОСПЕКТ ДЗЕРЖИНСКОГО,74-129</addressString>
+          </foreignAddress>
+          <date>2015-08-19</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В ВЕНГРИИ</name>
+          <foreignAddress>
+            <countryName>Венгрия</countryName>
+            <addressString>ВЕНГРИЯ,1068,Г.БУДАПЕШТ,УЛ.БЕНЦУР,Д.43, 1-Й ЭТАЖ</addressString>
+          </foreignAddress>
+          <date>2015-08-19</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В КИТАЙСКОЙ НАРОДНОЙ РЕСПУБЛИКЕ</name>
+          <foreignAddress>
+            <countryName>КИТАЙСКАЯ НАРОДНАЯ РЕСПУБЛИКА (КНР)</countryName>
+            <addressString>Г. ПЕКИН, РАЙОН ЧАОЯН, ЮНАНЬ СИЛИ 9, ПЕКИНСКАЯ ЖЕЛЕЗНОДОРОЖНАЯ ГОСТИНИЦА, КОМН. 213</addressString>
+          </foreignAddress>
+          <date>2007-09-17</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В РЕСПУБЛИКЕ ПОЛЬША</name>
+          <foreignAddress>
+            <countryName>Польская Республика</countryName>
+            <addressString>РЕСПУБЛИКА ПОЛЬША,00 042,Г. ВАРШАВА, УЛ.НОВЫ СВЯТ,49/108</addressString>
+          </foreignAddress>
+          <date>2015-08-19</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В ЭСТОНСКОЙ РЕСПУБЛИКЕ</name>
+          <foreignAddress>
+            <countryName>ЭСТОНСКАЯ РЕСПУБЛИКА</countryName>
+            <addressString>Г. ТАЛЛИН 10130, УЛ. ПИКК ЯЛГ, Д. 5</addressString>
+          </foreignAddress>
+          <date>2007-09-17</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" НА УКРАИНЕ</name>
+          <foreignAddress>
+            <countryName>УКРАИНА</countryName>
+            <addressString>Г. КИЕВ, УЛ. НИКОЛЬСКО-БОТАНИЧЕСКАЯ, Д. 14, ОФИС 12</addressString>
+          </foreignAddress>
+          <date>2007-09-17</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В ИРАНЕ</name>
+          <foreignAddress>
+            <countryName>Исламская Республика Иран</countryName>
+            <addressString>ИРАН, Г.ТЕГЕРАН</addressString>
+          </foreignAddress>
+          <date>2015-08-19</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В КОРЕЙСКОЙ НАРОДНО-ДЕМОКРАТИЧЕСКОЙ РЕСПУБЛИКЕ</name>
+          <foreignAddress>
+            <countryName>Корейская Народно-Демократическая Республика</countryName>
+            <addressString>Г ПХЕНЬЯН Р-Н ТЭДОНГАН КВ-Л МУНСУ-3 ДОМ 9 ОФИС 9</addressString>
+          </foreignAddress>
+          <date>2019-08-08</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В ФИНЛЯНДСКОЙ РЕСПУБЛИКЕ</name>
+          <foreignAddress>
+            <countryName>ФИНЛЯНДСКАЯ РЕСПУБЛИКА</countryName>
+            <addressString>00100 Г ХЕЛЬСИНКИ УЛ КАЙВОКАТУ ДОМ 1А ОФИС 2101</addressString>
+          </foreignAddress>
+          <date>2019-08-08</date>
+        </branch>
+        <branch>
+          <name>ПРЕДСТАВИТЕЛЬСТВО ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "РОССИЙСКИЕ ЖЕЛЕЗНЫЕ ДОРОГИ" В ФЕДЕРАТИВНОЙ РЕСПУБЛИКЕ ГЕРМАНИЯ</name>
+          <foreignAddress>
+            <countryName>ФЕДЕРАТИВНАЯ РЕСПУБЛИКА ГЕРМАНИЯ</countryName>
+            <addressString>10117 Г БЕРЛИН УЛ РАЙНХАРДШТРАССЕ ДОМ 19</addressString>
+          </foreignAddress>
+          <date>2019-08-08</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-09-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Белозёров Олег Валентинович</fio>
+          <innfl>781306504007</innfl>
+          <position>Генеральный Директор-Председатель Правления</position>
+          <date>2015-08-28</date>
+          <firstDate>2015-08-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107174</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Басманная Н</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <houseRaw>2</houseRaw>
+            </parsedAddressRF>
+            <date>2007-09-18</date>
+            <firstDate>2007-09-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Якунин Владимир Иванович</fio>
+            <position>Президент</position>
+            <date>2007-09-17</date>
+            <firstDate>2007-09-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3786</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7717056948</inn>
+    <ogrn>1077759626130</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077759626130</focusHref>
+    <UL>
+      <kpp>771701050</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ТРАНСФРАКО ТР.-ФРАХТ. И СТРАХОВАЯ К-Я</short>
+        <full>ТРАНСФРАКО ТР.-ФРАХТ. И СТРАХОВАЯ К-Я АОЗТ</full>
+        <date>2007-09-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129223</zipCode>
+          <kladrCode>770000000004244</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ввц</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2007-09-01</date>
+        <firstDate>2007-09-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-09-01</date>
+      </status>
+      <registrationDate>1992-03-23</registrationDate>
+      <dissolutionDate>2007-09-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мирзабейли Вагиф Алибалаевич</fio>
+          <position>Руководитель</position>
+          <date>2007-09-01</date>
+          <firstDate>2007-09-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

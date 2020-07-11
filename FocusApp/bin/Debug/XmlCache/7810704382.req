@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7810704382</inn>
+    <ogrn>1177847285967</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1177847285967</focusHref>
+    <UL>
+      <kpp>781001001</kpp>
+      <okpo>19314385</okpo>
+      <okato>40284000000</okato>
+      <okfs>23</okfs>
+      <oktmo>40373000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АДВ-СЕРВИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АДВ-СЕРВИС"</full>
+        <date>2017-08-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>196084</zipCode>
+          <kladrCode>780000000001487</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Цветочная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>П</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>4,6</topoValue>
+          </flat>
+          <houseRaw>ДОМ 16</houseRaw>
+          <bulkRaw>ЛИТ. П</bulkRaw>
+          <flatRaw>ПОМ. 4,6</flatRaw>
+        </parsedAddressRF>
+        <date>2017-08-25</date>
+        <firstDate>2017-08-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-08-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Горбачев Максим Сергеевич</fio>
+          <innfl>781902090854</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-12-05</date>
+          <firstDate>2017-12-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Захаров Станислав Николаевич</fio>
+            <innfl>781902247505</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-08-25</date>
+            <firstDate>2017-08-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

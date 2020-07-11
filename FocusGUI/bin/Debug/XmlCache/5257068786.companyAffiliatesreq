@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5257068786</inn>
+    <ogrn>1045207154992</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045207154992</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>73949953</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто-Лидер"</short>
+        <full>Общество с ограниченной ответственностью "Авто-Лидер"</full>
+        <date>2004-08-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603116</zipCode>
+          <kladrCode>520000010000690</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Московское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52</topoValue>
+          </house>
+          <houseRaw>52</houseRaw>
+        </parsedAddressRF>
+        <date>2006-10-24</date>
+        <firstDate>2006-10-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-12-16</date>
+      </status>
+      <registrationDate>2004-08-17</registrationDate>
+      <dissolutionDate>2010-12-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Седов Юрий Степанович</fio>
+          <innfl>526001243003</innfl>
+          <position>Директор</position>
+          <date>2006-10-24</date>
+          <firstDate>2006-10-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

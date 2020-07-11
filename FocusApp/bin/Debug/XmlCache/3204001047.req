@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3204001047</inn>
+    <ogrn>1023201535994</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023201535994</focusHref>
+    <UL>
+      <kpp>324101001</kpp>
+      <okpo>00215155</okpo>
+      <okato>15420000000</okato>
+      <okfs>34</okfs>
+      <oktmo>15720000001</oktmo>
+      <okogu>4210001</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "НОВОЗЫБКОВСКИЙ МАШИНОСТРОИТЕЛЬНЫЙ ЗАВОД"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "НОВОЗЫБКОВСКИЙ МАШИНОСТРОИТЕЛЬНЫЙ ЗАВОД"</full>
+        <date>2016-06-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>243020</zipCode>
+          <kladrCode>320000040000137</kladrCode>
+          <regionCode>32</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Брянская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новозыбков</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рошаля</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>72</topoValue>
+          </house>
+          <houseRaw>72</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-07</date>
+        <firstDate>2002-10-06</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>"АРМАВИРСКИЙ МАШИНОСТРОИТЕЛЬНЫЙ ЗАВОД" ФИЛИАЛ ОТКРЫТОГО АКЦИОНЕРНОГО ОБЩЕСТВА "НОВОЗЫБКОВСКИЙ МАШИНОСТРОИТЕЛЬНЫЙ ЗАВОД" В Г. АРМАВИР</name>
+          <parsedAddressRF>
+            <zipCode>352913</zipCode>
+            <kladrCode>230000020000341</kladrCode>
+            <regionCode>23</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Краснодарский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Армавир</topoValue>
+            </city>
+            <street>
+              <topoShortName>тер</topoShortName>
+              <topoFullName>территория</topoFullName>
+              <topoValue>Северная промзона</topoValue>
+            </street>
+            <house>
+              <topoValue>Участок 121</topoValue>
+            </house>
+            <houseRaw>УЧАСТОК 121</houseRaw>
+          </parsedAddressRF>
+          <date>2017-02-15</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-05-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Коленков Дмитрий Анатольевич</fio>
+          <innfl>324107493710</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-08-15</date>
+          <firstDate>2019-08-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>320401001</kpp>
+            <date>2006-03-16</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ОАО "Новозыбковский машиностроительный завод"</short>
+            <full>Открытое акционерное общество "Новозыбковский машиностроительный завод"</full>
+            <date>2012-07-31</date>
+          </legalName>
+          <legalName>
+            <short>ОАО "Новозыбковский завод "Индуктор"</short>
+          </legalName>
+          <legalName>
+            <full>Открытое акционерное общество "Новозыбковский завод электротермического и электросварочного оборудования "Индуктор"</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Ромбах Григорий Гилич</fio>
+            <innfl>320400395756</innfl>
+            <position>Генеральный директор</position>
+            <date>2004-12-15</date>
+            <firstDate>2004-12-15</firstDate>
+          </head>
+          <head>
+            <fio>Полковников Сергей Геннадьевич</fio>
+            <innfl>320403161555</innfl>
+            <position>Временно исполняющий обязанности генерального директора</position>
+            <date>2012-08-21</date>
+            <firstDate>2012-08-21</firstDate>
+          </head>
+          <head>
+            <fio>Пилипчук Григорий Петрович</fio>
+            <position>Генеральный директор</position>
+            <date>2012-11-16</date>
+            <firstDate>2012-11-16</firstDate>
+          </head>
+          <head>
+            <fio>Шевченко Олег Владимирович</fio>
+            <innfl>230216496516</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-02-08</date>
+            <firstDate>2016-02-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>9</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

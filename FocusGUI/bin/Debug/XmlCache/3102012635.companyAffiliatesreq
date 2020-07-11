@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>310200152076</inn>
+    <ogrn>305313012300087</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305313012300087</focusHref>
+    <IP>
+      <fio>Загвоздин Александр Владимирович</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1998-10-23</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Утратил государственную регистрацию в качестве индивидуального предпринимателя на основании статьи 3 ФЗ от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-05-03</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3102012635</inn>
+    <ogrn>1023100509684</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023100509684</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>50992254</okpo>
+      <okato>14401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>14701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энерготехпроект"</short>
+        <full>Общество с ограниченной ответственностью "Энерготехпроект"</full>
+        <date>2002-11-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308014</zipCode>
+          <kladrCode>310000010000148</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Николая Чумичова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>124</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 124</houseRaw>
+          <flatRaw>ОФИС 1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-11-29</date>
+        <firstDate>2018-11-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-10-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Загвоздин Александр Владимирович</fio>
+          <innfl>310200152076</innfl>
+          <position>Директор</position>
+          <date>2018-11-29</date>
+          <firstDate>2018-11-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>308017</zipCode>
+              <kladrCode>310000010000095</kladrCode>
+              <regionCode>31</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Белгородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Белгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Константина Заслонова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>90</topoValue>
+              </house>
+              <bulk>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>90</houseRaw>
+              <bulkRaw>А</bulkRaw>
+            </parsedAddressRF>
+            <date>2006-12-12</date>
+            <firstDate>2006-12-12</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>308017</zipCode>
+              <regionCode>31</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Белгородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Белгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>К.Заслонова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>90</topoValue>
+              </house>
+              <bulk>
+                <topoValue>а</topoValue>
+              </bulk>
+              <houseRaw>90</houseRaw>
+              <bulkRaw>а</bulkRaw>
+            </parsedAddressRF>
+            <date>2006-12-12</date>
+            <firstDate>2006-12-12</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Мудрик Константин Григорьевич</fio>
+            <innfl>312302051306</innfl>
+            <position>Директор</position>
+            <date>2018-05-24</date>
+            <firstDate>2006-12-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3123047357</inn>
+    <ogrn>1183123011059</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1183123011059</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ТЕХНОПАРК ООО</short>
+        <full>ОБЩЕСТВО С ОГРНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ТЕХНОПАРК"</full>
+        <date>2018-03-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308000</zipCode>
+          <kladrCode>310000010000148</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Николая Чумичова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>124</topoValue>
+          </house>
+          <houseRaw>124</houseRaw>
+        </parsedAddressRF>
+        <date>2018-03-27</date>
+        <firstDate>2018-03-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-03-27</date>
+      </status>
+      <registrationDate>1998-11-30</registrationDate>
+      <dissolutionDate>2018-03-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Загвоздин Александр Владимирович</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2018-03-27</date>
+          <firstDate>2018-03-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3123066712</inn>
+    <ogrn>1023101680865</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023101680865</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>54651828</okpo>
+      <okato>14401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>14701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Технопарк-Импэкс"</short>
+        <full>Общество с ограниченной ответственностью "Технопарк-Импэкс"</full>
+        <date>2002-12-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308000</zipCode>
+          <kladrCode>310000010000148</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Николая Чумичова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>124</topoValue>
+          </house>
+          <houseRaw>124</houseRaw>
+        </parsedAddressRF>
+        <date>2007-03-27</date>
+        <firstDate>2007-03-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-01-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Загвоздин Александр Владимирович</fio>
+          <innfl>310200152076</innfl>
+          <position>Директор</position>
+          <date>2018-04-08</date>
+          <firstDate>2002-12-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3123097397</inn>
+    <ogrn>1033107023180</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033107023180</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>14950811</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергосистема"</short>
+        <full>Общество с ограниченной ответственностью "Энергосистема"</full>
+        <date>2003-09-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308002</zipCode>
+          <kladrCode>310000010000222</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мичурина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>39</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>416</topoValue>
+          </flat>
+          <houseRaw>39</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>416</flatRaw>
+        </parsedAddressRF>
+        <date>2003-09-08</date>
+        <firstDate>2003-09-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-12-04</date>
+      </status>
+      <registrationDate>2003-09-08</registrationDate>
+      <dissolutionDate>2015-12-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бреусова Ольга Васильевна</fio>
+          <innfl>312310915285</innfl>
+          <position>Директор</position>
+          <date>2003-09-08</date>
+          <firstDate>2003-09-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>312316391623</inn>
+    <ogrn>305312300229690</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305312300229690</focusHref>
+    <IP>
+      <fio>Сороколетова Татьяна Михайловна</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1996-08-15</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Утратил государственную регистрацию в качестве индивидуального предпринимателя на основании статьи 3 ФЗ от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-01-01</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3123301740</inn>
+    <ogrn>1123123009734</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1123123009734</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>38926071</okpo>
+      <okato>14401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>14701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "БК"</short>
+        <full>Общество с ограниченной ответственностью "Белый Край"</full>
+        <date>2012-05-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308014</zipCode>
+          <kladrCode>310000010000148</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Николая Чумичова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>124</topoValue>
+          </house>
+          <bulk>
+            <topoValue>этаж 1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 124</houseRaw>
+          <bulkRaw>ЭТАЖ 1</bulkRaw>
+          <flatRaw>ОФИС 1</flatRaw>
+        </parsedAddressRF>
+        <date>2012-10-24</date>
+        <firstDate>2012-05-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-10-22</date>
+      </status>
+      <registrationDate>2012-05-15</registrationDate>
+      <dissolutionDate>2015-10-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Звягина Анна Ивановна</fio>
+          <innfl>460100758051</innfl>
+          <position>Ликвидатор</position>
+          <date>2015-07-16</date>
+          <firstDate>2015-07-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Иванец Дмитрий Борисович</fio>
+            <innfl>312300389097</innfl>
+            <position>Директор</position>
+            <date>2012-05-15</date>
+            <firstDate>2012-05-15</firstDate>
+          </head>
+          <head>
+            <fio>Плашкин Геннадий Павлович</fio>
+            <innfl>312311065665</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-10-24</date>
+            <firstDate>2012-10-10</firstDate>
+          </head>
+          <head>
+            <fio>Кузьмин Николай Викторович</fio>
+            <innfl>312000187043</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-06-13</date>
+            <firstDate>2013-06-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3123309130</inn>
+    <ogrn>1123123017786</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1123123017786</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>38937620</okpo>
+      <okato>14401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>14701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Электроимпэкс"</short>
+        <full>Общество с ограниченной ответственностью "Электроимпэкс"</full>
+        <date>2012-09-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308001</zipCode>
+          <kladrCode>310000010000069</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Дзержинского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>4/1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 34А</houseRaw>
+          <flatRaw>ОФ 4/1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-11-01</date>
+        <firstDate>2018-11-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-09-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Веселова Ирина Сергеевна</fio>
+          <innfl>311601306335</innfl>
+          <position>Директор</position>
+          <date>2019-08-27</date>
+          <firstDate>2019-08-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>308014</zipCode>
+              <kladrCode>310000010000148</kladrCode>
+              <regionCode>31</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Белгородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Белгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Николая Чумичова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>124</topoValue>
+              </house>
+              <houseRaw>124</houseRaw>
+            </parsedAddressRF>
+            <date>2012-09-17</date>
+            <firstDate>2012-09-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Загвоздин Александр Владимирович</fio>
+            <innfl>310200152076</innfl>
+            <position>Директор</position>
+            <date>2012-09-17</date>
+            <firstDate>2012-09-17</firstDate>
+          </head>
+          <head>
+            <fio>Гридчин Сергей Юрьевич</fio>
+            <innfl>312328076383</innfl>
+            <position>Директор</position>
+            <date>2017-04-20</date>
+            <firstDate>2017-04-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3123315038</inn>
+    <ogrn>1123123023792</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1123123023792</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>38947469</okpo>
+      <okato>14401370000</okato>
+      <okfs>34</okfs>
+      <oktmo>14701000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Машиноремонт"</short>
+        <full>Общество с ограниченной ответственностью "Машиноремонт"</full>
+        <date>2012-12-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308014</zipCode>
+          <kladrCode>310000010000148</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Николая Чумичова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>124</topoValue>
+          </house>
+          <houseRaw>ДОМ 124</houseRaw>
+        </parsedAddressRF>
+        <date>2012-12-25</date>
+        <firstDate>2012-12-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-12-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Загвоздин Александр Владимирович</fio>
+          <innfl>310200152076</innfl>
+          <position>Директор</position>
+          <date>2018-04-08</date>
+          <firstDate>2012-12-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3123351861</inn>
+    <ogrn>1143123016145</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1143123016145</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>03525915</okpo>
+      <okato>14401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>14701000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "БЕЛГОРОДРАЙСНАБ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БЕЛГОРОДРАЙСНАБ"</full>
+        <date>2014-09-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308000</zipCode>
+          <kladrCode>310000010000148</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Николая Чумичова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>124</topoValue>
+          </house>
+          <houseRaw>124</houseRaw>
+        </parsedAddressRF>
+        <date>2014-09-05</date>
+        <firstDate>2014-09-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-09-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Мальцев Денис Николаевич</fio>
+          <innfl>310207563004</innfl>
+          <position>Директор</position>
+          <date>2019-05-16</date>
+          <firstDate>2019-05-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Золотарева Любовь Степановна</fio>
+            <innfl>312319229026</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-09-05</date>
+            <firstDate>2014-09-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3123422030</inn>
+    <ogrn>1173123033038</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1173123033038</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>19496206</okpo>
+      <okato>14401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>14701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПОДВОРЬЕ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПОДВОРЬЕ"</full>
+        <date>2017-09-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308034</zipCode>
+          <kladrCode>310000010000055</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Губкина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42З</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>ДОМ 42-З</houseRaw>
+          <flatRaw>КВАРТИРА 5</flatRaw>
+        </parsedAddressRF>
+        <date>2017-09-13</date>
+        <firstDate>2017-09-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-09-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Норцов Андрей Евгеньевич</fio>
+          <innfl>311602705678</innfl>
+          <position>Директор</position>
+          <date>2019-08-27</date>
+          <firstDate>2019-08-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Загвоздин Александр Владимирович</fio>
+            <innfl>310200152076</innfl>
+            <position>Директор</position>
+            <date>2018-04-08</date>
+            <firstDate>2017-09-13</firstDate>
+          </head>
+          <head>
+            <fio>Рыжков Алексей Николаевич</fio>
+            <innfl>312316841583</innfl>
+            <position>Директор</position>
+            <date>2018-06-28</date>
+            <firstDate>2018-06-28</firstDate>
+          </head>
+          <head>
+            <fio>Чугуев Денис Валентинович</fio>
+            <innfl>510890106801</innfl>
+            <position>Директор</position>
+            <date>2019-02-19</date>
+            <firstDate>2019-02-19</firstDate>
+          </head>
+          <head>
+            <fio>Климов Александр Николаевич</fio>
+            <innfl>312322341839</innfl>
+            <position>Директор</position>
+            <date>2019-07-19</date>
+            <firstDate>2019-07-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3123446880</inn>
+    <ogrn>1183123032828</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1183123032828</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>34733620</okpo>
+      <okato>14401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>14701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "БЕЛПРОДУКТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "БЕЛПРОДУКТ"</full>
+        <date>2018-12-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308014</zipCode>
+          <kladrCode>310000010000148</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Николая Чумичова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>124</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 124</houseRaw>
+          <flatRaw>ОФИС 1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-12-04</date>
+        <firstDate>2018-12-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-12-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Алюшина Юлия Анатольевна</fio>
+          <innfl>462002779120</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-07-10</date>
+          <firstDate>2019-07-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Дик Илья Александрович</fio>
+            <innfl>461105192290</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-12-04</date>
+            <firstDate>2018-12-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3124018790</inn>
+    <ogrn>1073123006670</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1073123006670</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <legalName>
+        <short>МИЦАР ИЧП</short>
+        <full>ИНДИВИДУАЛЬНОЕ ЧАСТНОЕ ПРЕДПРИЯТИЕ "МИЦАР"</full>
+        <date>2007-02-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308000</zipCode>
+          <kladrCode>310000010000570</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Славы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2007-02-06</date>
+        <firstDate>2007-02-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-02-06</date>
+      </status>
+      <registrationDate>2007-02-06</registrationDate>
+      <dissolutionDate>2007-02-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Загвоздин Александр Владимирович</fio>
+          <position>Директор</position>
+          <date>2007-02-06</date>
+          <firstDate>2007-02-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>308000</zipCode>
+              <regionCode>31</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Белгородская</topoValue>
+              </regionName>
+            </parsedAddressRF>
+            <date>2007-02-06</date>
+            <firstDate>2007-02-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

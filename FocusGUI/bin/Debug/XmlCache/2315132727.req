@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2315132727</inn>
+    <ogrn>1072315002781</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072315002781</focusHref>
+    <UL>
+      <kpp>231501001</kpp>
+      <okpo>80174004</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГИС Новороссийск"</short>
+        <full>Общество с ограниченной ответственностью "АГИС Новороссийск"</full>
+        <date>2007-04-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>353900</zipCode>
+          <kladrCode>230000060000228</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новороссийск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Набережная им Адмирала Серебрякова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <flat>
+            <topoValue>33</topoValue>
+          </flat>
+          <houseRaw>13</houseRaw>
+          <flatRaw>33</flatRaw>
+        </parsedAddressRF>
+        <date>2007-04-10</date>
+        <firstDate>2007-04-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-12-13</date>
+      </status>
+      <registrationDate>2007-04-10</registrationDate>
+      <dissolutionDate>2011-12-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кондырева Наталья Александровна</fio>
+          <innfl>590612459120</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-07-07</date>
+          <firstDate>2010-07-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Щерба Александр Григорьевич</fio>
+            <innfl>860304484339</innfl>
+            <position>Генеральный директор</position>
+            <date>2007-05-28</date>
+            <firstDate>2007-05-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

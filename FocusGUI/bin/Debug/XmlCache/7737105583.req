@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7737105583</inn>
+    <ogrn>5167746006600</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5167746006600</focusHref>
+    <UL>
+      <kpp>773701001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АВТОСТРОЙДОРМАШ ТМ ООО</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВТОСТРОЙДОРМАШ ТМ"</full>
+        <date>2016-10-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117403</zipCode>
+          <kladrCode>770000000001027</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Востряковский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>5</topoValue>
+          </bulk>
+          <houseRaw>15</houseRaw>
+          <bulkRaw>КОРП.5</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-10-04</date>
+        <firstDate>2016-10-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-10-04</date>
+      </status>
+      <registrationDate>1999-02-10</registrationDate>
+      <dissolutionDate>2016-10-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Иванова Елена Сергеевна</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2016-10-04</date>
+          <firstDate>2016-10-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

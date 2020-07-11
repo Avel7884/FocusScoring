@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2128704533</inn>
+    <ogrn>1052182846275</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1052182846275</focusHref>
+    <UL>
+      <kpp>213001001</kpp>
+      <okpo>75706350</okpo>
+      <okato>97401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>97701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Элика"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Элика"</full>
+        <date>2005-09-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>428000</zipCode>
+          <kladrCode>210000010000507</kladrCode>
+          <regionCode>21</regionCode>
+          <regionName>
+            <topoShortName>чувашия</topoShortName>
+            <topoFullName>чувашия</topoFullName>
+            <topoValue>Чувашская Республика</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Чебоксары</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>И.Я.Яковлева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 8</houseRaw>
+          <bulkRaw>КОРПУС А</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-10-26</date>
+        <firstDate>2007-10-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-09-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Кузьмина Анна Владимировна</fio>
+          <innfl>212907656382</innfl>
+          <position>Директор</position>
+          <date>2007-10-26</date>
+          <firstDate>2007-10-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>212801001</kpp>
+            <date>2006-01-16</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

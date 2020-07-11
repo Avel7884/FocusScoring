@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703434244</inn>
+    <ogrn>5177746026728</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5177746026728</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>19695200</okpo>
+      <okato>45277598000</okato>
+      <okfs>16</okfs>
+      <oktmo>45348000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛЮСЭЛЕКТРО"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛЮСЭЛЕКТРО"</full>
+        <date>2017-10-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125252</zipCode>
+          <kladrCode>770000000001660</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Куусинена</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>20</topoValue>
+          </flat>
+          <houseRaw>ДОМ 11</houseRaw>
+          <bulkRaw>КОРПУС 2</bulkRaw>
+          <flatRaw>КОМНАТА 20</flatRaw>
+        </parsedAddressRF>
+        <date>2018-09-10</date>
+        <firstDate>2018-09-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-10-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Бабий Александр Николаевич</fio>
+          <innfl>502480360431</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-10-02</date>
+          <firstDate>2017-10-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770301001</kpp>
+            <date>2017-10-02</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>123022</zipCode>
+              <kladrCode>770000000001177</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Декабрьская Б</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>3</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>2</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>этаж 1 офис 36</topoValue>
+              </flat>
+              <houseRaw>ДОМ 3</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 2</bulkRaw>
+              <flatRaw>ЭТАЖ 1 ОФИС 36</flatRaw>
+            </parsedAddressRF>
+            <date>2017-10-02</date>
+            <firstDate>2017-10-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

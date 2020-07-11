@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5321033984</inn>
+    <ogrn>1025300797037</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025300797037</focusHref>
+    <UL>
+      <kpp>532101001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ОГУП "Новгородский завод "Автоспецоборудование"</short>
+        <full>Областное государственное унитарное предприятие "Новгородский завод "Автоспецоборудование"</full>
+        <date>2002-11-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>173003</zipCode>
+          <kladrCode>530000010000024</kladrCode>
+          <regionCode>53</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Великий Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Большая Санкт-Петербургская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43</topoValue>
+          </house>
+          <houseRaw>43</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-26</date>
+        <firstDate>2002-11-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-06-08</date>
+      </status>
+      <registrationDate>1993-01-11</registrationDate>
+      <dissolutionDate>2007-06-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Уваров Владимир Михайлович</fio>
+          <innfl>532101957307</innfl>
+          <position>Директор</position>
+          <date>2005-05-31</date>
+          <firstDate>2005-05-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

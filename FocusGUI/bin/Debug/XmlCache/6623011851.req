@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623011851</inn>
+    <ogrn>1036601226815</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036601226815</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>14052970</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО СМП "Автоматика-НТ"</short>
+        <full>Общество с ограниченной ответственностью Строительно-монтажное предприятие "Автоматика-НТ"</full>
+        <date>2003-02-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622005</zipCode>
+          <kladrCode>660000230000179</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Индустриальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42</topoValue>
+          </house>
+          <houseRaw>42</houseRaw>
+        </parsedAddressRF>
+        <date>2003-02-18</date>
+        <firstDate>2003-02-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-27</date>
+      </status>
+      <registrationDate>2003-02-18</registrationDate>
+      <dissolutionDate>2012-01-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Идиатуллина Самия Натфулловна</fio>
+          <innfl>662313435336</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-12-28</date>
+          <firstDate>2011-12-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Щиклина Юлия Валерьевна</fio>
+            <innfl>662304627465</innfl>
+            <position>Директор</position>
+            <date>2011-02-28</date>
+            <firstDate>2011-02-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

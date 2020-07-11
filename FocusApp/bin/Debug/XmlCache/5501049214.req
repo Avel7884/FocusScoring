@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5501049214</inn>
+    <ogrn>1025500530461</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025500530461</focusHref>
+    <UL>
+      <kpp>550301001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НПЦ "Энергосервис"</short>
+        <full>Общество с ограниченной ответственностью "Научно-производственный центр "Энергосервис"</full>
+        <date>2002-12-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644086</zipCode>
+          <kladrCode>550000010000036</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Амурская 21-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20Б</topoValue>
+          </house>
+          <houseRaw>20 Б</houseRaw>
+        </parsedAddressRF>
+        <date>2006-01-26</date>
+        <firstDate>2006-01-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-01-12</date>
+      </status>
+      <registrationDate>1998-06-09</registrationDate>
+      <dissolutionDate>2007-01-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кривцов Дмитрий Валерьевич</fio>
+          <innfl>550709223387</innfl>
+          <position>Ликвидатор</position>
+          <date>2006-10-19</date>
+          <firstDate>2006-10-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

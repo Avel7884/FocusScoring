@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205150558</inn>
+    <ogrn>1084205003794</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1084205003794</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>85218427</okpo>
+      <okato>32401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>32701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОДИЗЕЛЬ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВТОДИЗЕЛЬ"</full>
+        <date>2008-02-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650025</zipCode>
+          <kladrCode>420000090000547</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сарыгина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <flat>
+            <topoValue>33</topoValue>
+          </flat>
+          <houseRaw>6</houseRaw>
+          <flatRaw>33</flatRaw>
+        </parsedAddressRF>
+        <date>2008-02-26</date>
+        <firstDate>2008-02-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-25</date>
+      </status>
+      <registrationDate>2008-02-26</registrationDate>
+      <dissolutionDate>2017-12-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Архипова Александра Михайловна</fio>
+          <innfl>420301311123</innfl>
+          <position>Директор</position>
+          <date>2012-07-20</date>
+          <firstDate>2012-07-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шаповалов Леонид Петрович</fio>
+            <innfl>420302782679</innfl>
+            <position>Директор</position>
+            <date>2008-02-26</date>
+            <firstDate>2008-02-26</firstDate>
+          </head>
+          <head>
+            <fio>Пеняйкин Вадим Александрович</fio>
+            <innfl>420542586935</innfl>
+            <position>Директор</position>
+            <date>2011-10-11</date>
+            <firstDate>2011-10-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

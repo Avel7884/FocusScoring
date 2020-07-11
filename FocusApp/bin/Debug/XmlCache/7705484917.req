@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705484917</inn>
+    <ogrn>1037705004787</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037705004787</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>59844621</okpo>
+      <okato>45286560000</okato>
+      <okfs>16</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВЕСТА"</short>
+        <full>Общество с ограниченной ответственностью "АВЕСТА"</full>
+        <date>2003-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115054</zipCode>
+          <kladrCode>770000000001320</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Зацепа</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43А</topoValue>
+          </house>
+          <houseRaw>43А</houseRaw>
+          <bulkRaw>-----</bulkRaw>
+          <flatRaw>-----</flatRaw>
+        </parsedAddressRF>
+        <date>2003-01-20</date>
+        <firstDate>2003-01-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-07-26</date>
+      </status>
+      <registrationDate>2003-01-20</registrationDate>
+      <dissolutionDate>2008-07-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дзю Екатерина Георгиевна</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2003-01-20</date>
+          <firstDate>2003-01-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6671262044</inn>
+    <ogrn>1086671009193</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1086671009193</focusHref>
+    <UL>
+      <kpp>667101001</kpp>
+      <okpo>87834314</okpo>
+      <okato>65401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП "Уралсервисплюс"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческое предприятие "Уралсервисплюс"</full>
+        <date>2008-06-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620014</zipCode>
+          <kladrCode>660000010000184</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вайнера</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <houseRaw>40</houseRaw>
+        </parsedAddressRF>
+        <date>2008-06-25</date>
+        <firstDate>2008-06-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-06-24</date>
+      </status>
+      <registrationDate>2008-06-25</registrationDate>
+      <dissolutionDate>2013-06-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бикмухаметов Тимур Камилевич</fio>
+          <innfl>026610406164</innfl>
+          <position>Руководитель Ликвидационной Комиссии</position>
+          <date>2012-12-13</date>
+          <firstDate>2012-12-13</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Дроздова Елена Ивановна</fio>
+            <position>Директор</position>
+            <date>2008-06-25</date>
+            <firstDate>2008-06-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3460068170</inn>
+    <ogrn>1173443005471</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1173443005471</focusHref>
+    <UL>
+      <kpp>346001001</kpp>
+      <okpo>06997783</okpo>
+      <okato>18401363000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТАЛЛТРАНССТРОЙ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕТАЛЛТРАНССТРОЙ"</full>
+        <date>2017-03-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400120</zipCode>
+          <kladrCode>340000010000954</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им Неждановой</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <flat>
+            <topoValue>помещение Т/1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 10</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ Т/1</flatRaw>
+        </parsedAddressRF>
+        <date>2017-03-09</date>
+        <firstDate>2017-03-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-09-17</date>
+      </status>
+      <registrationDate>2017-03-09</registrationDate>
+      <dissolutionDate>2019-09-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Алябьев Анатолий Борисович</fio>
+          <innfl>344403641400</innfl>
+          <position>Ликвидатор</position>
+          <date>2019-03-27</date>
+          <firstDate>2017-03-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

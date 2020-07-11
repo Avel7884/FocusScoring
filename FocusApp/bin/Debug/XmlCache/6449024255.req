@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6449024255</inn>
+    <ogrn>1026401975600</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026401975600</focusHref>
+    <UL>
+      <kpp>644901001</kpp>
+      <okpo>47736961</okpo>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "ЭМК-Волгоэнергоремонт"</short>
+        <full>Открытое акционерное общество "Энергомашиностроительная корпорация-Волгоэнергоремонт"</full>
+        <date>2002-08-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>413100</zipCode>
+          <kladrCode>640000130000619</kladrCode>
+          <regionCode>64</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Саратовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Энгельс</topoValue>
+          </city>
+          <street>
+            <topoShortName>тер</topoShortName>
+            <topoFullName>территория</topoFullName>
+            <topoValue>Промзона</topoValue>
+          </street>
+          <houseRaw>-</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-08-12</date>
+        <firstDate>2002-08-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-09-29</date>
+      </status>
+      <registrationDate>1997-12-11</registrationDate>
+      <dissolutionDate>2009-09-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Плещев Алексей Геннадьевич</fio>
+          <innfl>773601059833</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-08-30</date>
+          <firstDate>2007-08-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

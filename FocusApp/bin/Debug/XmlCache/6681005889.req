@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6681005889</inn>
+    <ogrn>1156681000255</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1156681000255</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>12326764</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТАЛЛТОРГ"</short>
+        <full>Общество с ограниченной ответственностью "МЕТАЛЛТОРГ"</full>
+        <date>2015-02-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622001</zipCode>
+          <kladrCode>660000230000095</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Газетная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <bulk>
+            <topoValue>этаж Цокольный</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>9</topoValue>
+          </flat>
+          <houseRaw>ДОМ 22</houseRaw>
+          <bulkRaw>ЭТАЖ ЦОКОЛЬНЫЙ</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 9</flatRaw>
+        </parsedAddressRF>
+        <date>2018-03-05</date>
+        <firstDate>2018-03-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-02-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Голубев Алексей Анатольевич</fio>
+          <innfl>662312376871</innfl>
+          <position>Директор</position>
+          <date>2018-12-17</date>
+          <firstDate>2015-02-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>668101001</kpp>
+            <date>2015-02-26</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>624356</zipCode>
+              <kladrCode>660000080000030</kladrCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Качканар</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Свердлова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>10</topoValue>
+              </house>
+              <houseRaw>ДОМ 10</houseRaw>
+            </parsedAddressRF>
+            <date>2015-02-26</date>
+            <firstDate>2015-02-26</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

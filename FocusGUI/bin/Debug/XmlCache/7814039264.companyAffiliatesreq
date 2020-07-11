@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>780156428289</inn>
+    <ogrn>305780113601106</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305780113601106</focusHref>
+    <IP>
+      <fio>Вычужанина Оксана Юрьевна</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2001-12-28</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Утратил государственную регистрацию в качестве индивидуального предпринимателя на основании статьи 3 ФЗ от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-05-16</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7808046270</inn>
+    <ogrn>1027809199010</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027809199010</focusHref>
+    <UL>
+      <kpp>784001001</kpp>
+      <okpo>01410527</okpo>
+      <okato>40298000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40909000000</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Монтажснаб"</short>
+        <full>Открытое акционерное общество "Монтажснаб"</full>
+        <date>2002-10-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>191023</zipCode>
+          <kladrCode>780000000000088</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Апраксин</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>4</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-24</date>
+        <firstDate>2002-10-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-05-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Сторожилов Сергей Николаевич</fio>
+          <innfl>781634457423</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-12-08</date>
+          <firstDate>2004-12-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7814039264</inn>
+    <ogrn>1027807579360</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027807579360</focusHref>
+    <UL>
+      <kpp>781401001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергопромкомплект"</short>
+        <full>Закрытое акционерное общество "Энергопромкомплект"</full>
+        <date>2002-11-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197227</zipCode>
+          <kladrCode>780000000000131</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Байконурская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>13</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-11-27</date>
+        <firstDate>2002-11-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-09-14</date>
+      </status>
+      <registrationDate>1995-10-27</registrationDate>
+      <dissolutionDate>2005-09-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вычужанина Оксана Юрьевна</fio>
+          <innfl>780156428289</innfl>
+          <date>2005-08-22</date>
+          <firstDate>2005-08-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

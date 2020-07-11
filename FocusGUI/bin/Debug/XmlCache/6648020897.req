@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6648020897</inn>
+    <ogrn>1026602087434</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602087434</focusHref>
+    <UL>
+      <kpp>664801001</kpp>
+      <okpo>59273087</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКМА-НТ"</short>
+        <full>Общество с ограниченной ответственностью "АКМА-НТ"</full>
+        <date>2002-07-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622034</zipCode>
+          <kladrCode>660000230000272</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>63</topoValue>
+          </house>
+          <flat>
+            <topoValue>11</topoValue>
+          </flat>
+          <houseRaw>63</houseRaw>
+          <flatRaw>11</flatRaw>
+        </parsedAddressRF>
+        <date>2002-07-31</date>
+        <firstDate>2002-07-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-07-31</registrationDate>
+      <heads>
+        <head>
+          <fio>Кожевникова Светлана Вениаминовна</fio>
+          <innfl>666800052740</innfl>
+          <position>Директор</position>
+          <date>2017-10-10</date>
+          <firstDate>2007-01-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

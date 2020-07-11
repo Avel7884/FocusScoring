@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7816226982</inn>
+    <ogrn>1037835066334</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037835066334</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>15183147</okpo>
+      <okato>40296000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40902000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто-Стар"</short>
+        <full>Общество с ограниченной ответственностью "Авто-Стар"</full>
+        <date>2003-07-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192102</zipCode>
+          <kladrCode>780000000001239</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Салова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>70</topoValue>
+          </house>
+          <houseRaw>70</houseRaw>
+        </parsedAddressRF>
+        <date>2011-05-26</date>
+        <firstDate>2011-05-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-07-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Верещагин Николай Александрович</fio>
+          <innfl>781696306858</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-04-11</date>
+          <firstDate>2019-04-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Богданов Иван Федорович</fio>
+            <innfl>781122832689</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-05-10</date>
+            <firstDate>2011-05-10</firstDate>
+          </head>
+          <head>
+            <fio>Алханов Муса Соин-Оглы</fio>
+            <innfl>781600760855</innfl>
+            <position>Генеральный Директор</position>
+            <date>2019-02-07</date>
+            <firstDate>2019-02-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

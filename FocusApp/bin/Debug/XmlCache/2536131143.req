@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2536131143</inn>
+    <ogrn>1032501284090</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1032501284090</focusHref>
+    <UL>
+      <kpp>253601001</kpp>
+      <okpo>03252512</okpo>
+      <okato>05401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>05701000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АКО-Холдинг"</short>
+        <full>Закрытое акционерное общество "АКО-Холдинг"</full>
+        <date>2003-02-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>690005</zipCode>
+          <kladrCode>250000010000492</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владивосток</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Светланская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>150</topoValue>
+          </house>
+          <houseRaw>150</houseRaw>
+        </parsedAddressRF>
+        <date>2003-02-03</date>
+        <firstDate>2003-02-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-02-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Омельянчук Алексей Антонович</fio>
+          <innfl>253608888801</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-05-03</date>
+          <firstDate>2006-05-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

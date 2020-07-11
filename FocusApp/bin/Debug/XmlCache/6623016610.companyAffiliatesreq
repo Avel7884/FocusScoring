@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623016610</inn>
+    <ogrn>1046601225604</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1046601225604</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>72906309</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоГаззапчасть"</short>
+        <full>Общество с ограниченной ответственностью "АвтоГаззапчасть"</full>
+        <date>2004-05-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622016</zipCode>
+          <kladrCode>660000230000241</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноармейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>147</topoValue>
+          </house>
+          <flat>
+            <topoValue>92</topoValue>
+          </flat>
+          <houseRaw>147</houseRaw>
+          <flatRaw>92</flatRaw>
+        </parsedAddressRF>
+        <date>2007-11-06</date>
+        <firstDate>2007-11-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-05-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Яровой Евгений Алексеевич</fio>
+          <innfl>666800070958</innfl>
+          <position>Директор</position>
+          <date>2009-12-09</date>
+          <firstDate>2009-12-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

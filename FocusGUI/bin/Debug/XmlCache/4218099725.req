@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4218099725</inn>
+    <ogrn>1064218007468</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1064218007468</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>93135939</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ЭНЕРГОРЕСУРС</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ЭНЕРГОРЕСУРС"</full>
+        <date>2006-03-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654007</zipCode>
+          <kladrCode>420000120000707</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Павловского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>502</topoValue>
+          </flat>
+          <houseRaw>11</houseRaw>
+          <bulkRaw>"А"</bulkRaw>
+          <flatRaw>502</flatRaw>
+        </parsedAddressRF>
+        <date>2007-12-28</date>
+        <firstDate>2007-12-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-09-25</date>
+      </status>
+      <registrationDate>2006-03-01</registrationDate>
+      <dissolutionDate>2017-09-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дедунова Екатерина Дмитриевна</fio>
+          <innfl>421814237660</innfl>
+          <position>Ликвидатор</position>
+          <date>2012-04-06</date>
+          <firstDate>2012-04-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Евсеев Олег Владимирович</fio>
+            <innfl>220502211148</innfl>
+            <position>Директор</position>
+            <date>2009-03-23</date>
+            <firstDate>2009-03-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

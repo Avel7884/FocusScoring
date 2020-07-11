@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2907006008</inn>
+    <ogrn>1022901216250</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022901216250</focusHref>
+    <UL>
+      <kpp>312301001</kpp>
+      <okpo>41405967</okpo>
+      <okato>14401365000</okato>
+      <okfs>34</okfs>
+      <oktmo>14701000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Энергомаш"</short>
+        <full>Открытое акционерное общество "Энергомашкорпорация"</full>
+        <date>2002-10-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308000</zipCode>
+          <kladrCode>310000010000402</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Б.Хмельницкого</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>111</topoValue>
+          </house>
+          <houseRaw>111</houseRaw>
+        </parsedAddressRF>
+        <date>2009-08-27</date>
+        <firstDate>2009-08-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-06-29</date>
+      </status>
+      <registrationDate>1998-08-11</registrationDate>
+      <dissolutionDate>2016-06-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Серебрянский Александр Валерьевич</fio>
+          <innfl>312317685915</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2014-12-04</date>
+          <firstDate>2014-12-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Агапов Данил Евгеньевич</fio>
+            <position>Конкурсный управляющий</position>
+            <date>2010-07-09</date>
+            <firstDate>2010-07-09</firstDate>
+          </head>
+          <head>
+            <fio>Овчинников А. В</fio>
+            <position>Конкурсный Управляющий</position>
+            <date>2013-12-11</date>
+            <firstDate>2013-12-11</firstDate>
+          </head>
+          <head>
+            <fio>Котов Михаил Сергеевич</fio>
+            <innfl>504700282785</innfl>
+            <position>Конкурсный управляющий</position>
+            <date>2012-03-30</date>
+            <firstDate>2012-03-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

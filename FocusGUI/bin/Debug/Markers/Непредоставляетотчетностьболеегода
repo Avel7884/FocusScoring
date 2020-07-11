@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>5</Score>
+  <Name>Не предоставляет отчетность более года</Name>
+  <Colour>Yellow</Colour>
+  <Description>Организация была найдена в списке юридических лиц, не представляющих налоговую отчетность более года</Description>
+  <Code>return company.GetParam("m5005") == "true"; </Code>
+</items>

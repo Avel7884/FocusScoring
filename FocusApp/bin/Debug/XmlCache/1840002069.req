@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1840002069</inn>
+    <ogrn>1111840008840</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1111840008840</focusHref>
+    <UL>
+      <kpp>184001001</kpp>
+      <okpo>90099522</okpo>
+      <okato>94401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>94701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКФ "ПРОМСТРОЙСНАБ"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "ПРОМСТРОЙСНАБ"</full>
+        <date>2011-07-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>426039</zipCode>
+          <kladrCode>180000010000067</kladrCode>
+          <regionCode>18</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Удмуртская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ижевск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Воткинское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>283</topoValue>
+          </house>
+          <houseRaw>283</houseRaw>
+        </parsedAddressRF>
+        <date>2011-07-07</date>
+        <firstDate>2011-07-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-05-02</date>
+      </status>
+      <registrationDate>2011-07-07</registrationDate>
+      <dissolutionDate>2017-05-02</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СТРАЖ"</name>
+          <inn>1832108939</inn>
+          <ogrn>1131832003731</ogrn>
+          <date>2015-07-20</date>
+          <firstDate>2015-07-20</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <heads>
+          <head>
+            <fio>Русских Игорь Сергеевич</fio>
+            <innfl>183504407789</innfl>
+            <position>Директор</position>
+            <date>2011-07-07</date>
+            <firstDate>2011-07-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

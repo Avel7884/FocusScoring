@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5031040605</inn>
+    <ogrn>1035006106310</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035006106310</focusHref>
+    <UL>
+      <kpp>505001001</kpp>
+      <okpo>53118635</okpo>
+      <okato>46480000000</okato>
+      <okfs>16</okfs>
+      <oktmo>46780000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Экотон"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Экотон"</full>
+        <date>2004-03-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141195</zipCode>
+          <kladrCode>500000190000045</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Фрязино</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Заводской</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>3</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2003-05-05</date>
+        <firstDate>2003-05-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-02-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Филимонова Лидия Дмитриевна</fio>
+          <innfl>770170204118</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-09-03</date>
+          <firstDate>2004-09-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>505201001</kpp>
+            <date>2005-07-12</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>745106635043</inn>
+    <ogrn>305745115016272</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305745115016272</focusHref>
+    <IP>
+      <fio>Чернышева Оксана Петровна</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2003-03-20</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Утратил государственную регистрацию в качестве индивидуального предпринимателя на основании статьи 3 ФЗ от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-05-30</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7451289155</inn>
+    <ogrn>1097451011514</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097451011514</focusHref>
+    <UL>
+      <kpp>745101001</kpp>
+      <okpo>61294027</okpo>
+      <okato>75401376000</okato>
+      <okfs>16</okfs>
+      <oktmo>75701370000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авилон-Урал"</short>
+        <full>Общество с ограниченной ответственностью "Авилон-Урал"</full>
+        <date>2009-10-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454000</zipCode>
+          <kladrCode>740000010001007</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>тракт</topoShortName>
+            <topoFullName>тракт</topoFullName>
+            <topoValue>Троицкий</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <bulk>
+            <topoValue>И</topoValue>
+          </bulk>
+          <houseRaw>21</houseRaw>
+          <bulkRaw>И</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-10-08</date>
+        <firstDate>2009-10-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-10-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Чернышева Оксана Петровна</fio>
+          <innfl>745106635043</innfl>
+          <position>Директор</position>
+          <date>2018-04-14</date>
+          <firstDate>2009-10-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

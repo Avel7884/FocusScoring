@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7736046991</inn>
+    <ogrn>1027700024560</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700024560</focusHref>
+    <UL>
+      <kpp>770201001</kpp>
+      <okpo>17527415</okpo>
+      <okato>45286570000</okato>
+      <okfs>16</okfs>
+      <oktmo>45379000000</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>АКБ "АБСОЛЮТ БАНК" (ПАО)</short>
+        <full>АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ БАНК "АБСОЛЮТ БАНК" (ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО)</full>
+        <date>2015-08-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127051</zipCode>
+          <kladrCode>770000000000618</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Цветной</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <houseRaw>18</houseRaw>
+        </parsedAddressRF>
+        <date>2005-06-23</date>
+        <firstDate>2005-06-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-04-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Ушкова Татьяна Васильевна</fio>
+          <innfl>665897349765</innfl>
+          <position>Председатель Правления</position>
+          <date>2018-05-29</date>
+          <firstDate>2018-05-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>775001001</kpp>
+            <date>2009-08-12</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>АКБ "Абсолют Банк" (ОАО)</short>
+            <full>Акционерный коммерческий банк "Абсолют Банк" (открытое акционерное общество)</full>
+            <date>2013-06-26</date>
+          </legalName>
+          <legalName>
+            <short>АКБ "Абсолют Банк" (ЗАО)</short>
+          </legalName>
+          <legalName>
+            <full>Акционерный коммерческий банк "Абсолют Банк" (закрытое акционерное общество)</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Сидоров Николай Владимирович</fio>
+            <innfl>772900612996</innfl>
+            <position>Председатель Правления</position>
+            <date>2005-04-06</date>
+            <firstDate>2005-04-06</firstDate>
+          </head>
+          <head>
+            <fio>Дегтярев Андрей Владимирович</fio>
+            <innfl>773110686656</innfl>
+            <position>Председатель Правления</position>
+            <date>2013-08-07</date>
+            <firstDate>2013-08-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>22</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

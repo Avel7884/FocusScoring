@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2130005250</inn>
+    <ogrn>1062130008126</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1062130008126</focusHref>
+    <UL>
+      <kpp>213001001</kpp>
+      <okpo>94084575</okpo>
+      <okato>97401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>97701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергосфера"</short>
+        <full>Общество с ограниченной ответственностью "Энергосфера"</full>
+        <date>2006-08-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>428027</zipCode>
+          <kladrCode>210000010000439</kladrCode>
+          <regionCode>21</regionCode>
+          <regionName>
+            <topoShortName>чувашия</topoShortName>
+            <topoFullName>чувашия</topoFullName>
+            <topoValue>Чувашская Республика</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Чебоксары</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Хузангая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <flat>
+            <topoValue>702</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <flatRaw>702</flatRaw>
+        </parsedAddressRF>
+        <date>2016-03-30</date>
+        <firstDate>2007-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-08-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Лебедев Сергей Николаевич</fio>
+          <innfl>212907673853</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-01-10</date>
+          <firstDate>2006-08-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

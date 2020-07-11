@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6319074061</inn>
+    <ogrn>1036300890108</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036300890108</focusHref>
+    <UL>
+      <kpp>631901001</kpp>
+      <okpo>55881789</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГРОПРОДМОНТАЖ-1"</short>
+        <full>Общество с ограниченной ответственностью "АГРОПРОДМОНТАЖ-1"</full>
+        <date>2003-02-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443063</zipCode>
+          <kladrCode>630000010000097</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ново-Вокзальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>38/19</topoValue>
+          </house>
+          <houseRaw>38/19</houseRaw>
+        </parsedAddressRF>
+        <date>2003-02-26</date>
+        <firstDate>2003-02-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-12-30</date>
+      </status>
+      <registrationDate>2001-01-17</registrationDate>
+      <dissolutionDate>2008-12-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гайсин Джавдят Исхакович</fio>
+          <position>Директор</position>
+          <date>2003-02-26</date>
+          <firstDate>2003-02-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

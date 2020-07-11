@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2540164896</inn>
+    <ogrn>1102540005809</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1102540005809</focusHref>
+    <UL>
+      <kpp>254001001</kpp>
+      <okpo>68520314</okpo>
+      <okato>05401376000</okato>
+      <okfs>16</okfs>
+      <oktmo>05701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плазма"</short>
+        <full>Общество с ограниченной ответственностью "Плазма"</full>
+        <date>2010-09-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>690091</zipCode>
+          <kladrCode>250000010000543</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владивосток</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тигровая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25</topoValue>
+          </house>
+          <houseRaw>25</houseRaw>
+        </parsedAddressRF>
+        <date>2010-09-06</date>
+        <firstDate>2010-09-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-02-26</date>
+      </status>
+      <registrationDate>2010-09-06</registrationDate>
+      <dissolutionDate>2016-02-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Коростей Людмила Владимировна</fio>
+          <innfl>254006535102</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-01-11</date>
+          <firstDate>2011-07-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

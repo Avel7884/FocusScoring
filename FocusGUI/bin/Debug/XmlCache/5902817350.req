@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5902817350</inn>
+    <ogrn>1035900081832</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035900081832</focusHref>
+    <UL>
+      <kpp>590201001</kpp>
+      <okpo>14676014</okpo>
+      <okato>57401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>57701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергостроймаркет"</short>
+        <full>Общество с ограниченной ответственностью "Энергостроймаркет"</full>
+        <date>2003-05-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614068</zipCode>
+          <kladrCode>590000010000139</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Борчанинова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <houseRaw>15</houseRaw>
+        </parsedAddressRF>
+        <date>2003-05-16</date>
+        <firstDate>2003-05-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-04-12</date>
+      </status>
+      <registrationDate>2003-05-16</registrationDate>
+      <dissolutionDate>2016-04-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сиротина Валентина Степановна</fio>
+          <innfl>660607851208</innfl>
+          <position>Директор</position>
+          <date>2014-04-15</date>
+          <firstDate>2003-12-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

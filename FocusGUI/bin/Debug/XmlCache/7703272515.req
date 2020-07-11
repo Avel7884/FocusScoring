@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703272515</inn>
+    <ogrn>1037739367687</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739367687</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>57029437</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энерго-химпромоборудование"</short>
+        <full>Закрытое акционерное общество "Энерго-химпромоборудование"</full>
+        <date>2003-02-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123022</zipCode>
+          <kladrCode>770000000001574</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красная Пресня</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1-2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>13</topoValue>
+          </flat>
+          <houseRaw>28</houseRaw>
+          <bulkRaw>СТР.1-2</bulkRaw>
+          <flatRaw>КОМН. 13</flatRaw>
+        </parsedAddressRF>
+        <date>2007-09-04</date>
+        <firstDate>2007-09-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-15</date>
+      </status>
+      <registrationDate>2001-04-23</registrationDate>
+      <dissolutionDate>2011-03-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Прохонов Алексей Константинович</fio>
+          <innfl>501304635230</innfl>
+          <position>Директор</position>
+          <date>2007-09-04</date>
+          <firstDate>2007-09-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

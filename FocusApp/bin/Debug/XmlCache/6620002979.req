@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6620002979</inn>
+    <ogrn>1026601302749</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026601302749</focusHref>
+    <UL>
+      <kpp>668101001</kpp>
+      <okpo>04041929</okpo>
+      <okato>65470000000</okato>
+      <okfs>14</okfs>
+      <oktmo>65748000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Кушвинского городского округа</full>
+        <date>2006-02-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624300</zipCode>
+          <kladrCode>660000120000006</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кушва</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноармейская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <houseRaw>16</houseRaw>
+        </parsedAddressRF>
+        <date>2012-06-18</date>
+        <firstDate>2002-12-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-02-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Слепухин Михаил Владимирович</fio>
+          <innfl>662002901055</innfl>
+          <position>Глава Кушвинского Городского Округа</position>
+          <date>2013-10-07</date>
+          <firstDate>2013-10-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>662001001</kpp>
+            <date>2004-10-01</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Трегубов Александр Геннадьевич</fio>
+            <innfl>662003557158</innfl>
+            <position>Глава администрации Кушвинского городского округа</position>
+            <date>2012-06-18</date>
+            <firstDate>2010-11-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>8</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

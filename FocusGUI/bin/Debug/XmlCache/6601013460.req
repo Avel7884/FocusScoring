@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6601013460</inn>
+    <ogrn>1096601000231</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1096601000231</focusHref>
+    <UL>
+      <kpp>660101001</kpp>
+      <okpo>60770141</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АЗМ-Стройдормаш"</short>
+        <full>Закрытое акционерное общество "Алапаевский завод манипуляторов-Стройдормаш"</full>
+        <date>2009-01-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624600</zipCode>
+          <kladrCode>660000240000052</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Алапаевск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Серова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2009-01-22</date>
+        <firstDate>2009-01-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-03-03</date>
+      </status>
+      <registrationDate>2009-01-22</registrationDate>
+      <dissolutionDate>2015-03-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Полякова Светлана Юрьевна</fio>
+          <innfl>666001668893</innfl>
+          <position>Ликвидатор</position>
+          <date>2014-04-21</date>
+          <firstDate>2014-04-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Дунаев Георгий Борисович</fio>
+            <innfl>660101397621</innfl>
+            <position>Генеральный Директор</position>
+            <date>2009-01-22</date>
+            <firstDate>2009-01-22</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

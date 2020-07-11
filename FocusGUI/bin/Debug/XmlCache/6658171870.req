@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658171870</inn>
+    <ogrn>1036602680608</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036602680608</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ТД "АЛЗ"</short>
+        <full>Закрытое акционерное общество "Торговый Дом "Алапаевский лопатный завод"</full>
+        <date>2003-09-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620014</zipCode>
+          <kladrCode>660000010000794</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Папанина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>63</topoValue>
+          </flat>
+          <houseRaw>18</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>63</flatRaw>
+        </parsedAddressRF>
+        <date>2003-09-17</date>
+        <firstDate>2003-09-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-11-13</date>
+      </status>
+      <registrationDate>2003-09-17</registrationDate>
+      <dissolutionDate>2008-11-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Белоусова Тамара Григорьевна</fio>
+          <innfl>666101637810</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2007-12-25</date>
+          <firstDate>2007-12-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

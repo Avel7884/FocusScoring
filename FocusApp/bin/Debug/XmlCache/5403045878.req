@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5403045878</inn>
+    <ogrn>1185476095485</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1185476095485</focusHref>
+    <UL>
+      <kpp>540301001</kpp>
+      <okpo>34344403</okpo>
+      <okato>50401374000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОМКОМПЛЕКТМЕТАЛЛ"</full>
+        <date>2018-11-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630024</zipCode>
+          <kladrCode>540000010000800</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>54</topoValue>
+          </house>
+          <bulk>
+            <topoValue>этаж 2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>12</topoValue>
+          </flat>
+          <houseRaw>ДОМ 54</houseRaw>
+          <bulkRaw>ЭТАЖ 2</bulkRaw>
+          <flatRaw>ОФИС 12</flatRaw>
+        </parsedAddressRF>
+        <date>2018-11-20</date>
+        <firstDate>2018-11-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-11-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Анисимова Наталья Владимировна</fio>
+          <innfl>540412993646</innfl>
+          <position>Директор</position>
+          <date>2018-11-20</date>
+          <firstDate>2018-11-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

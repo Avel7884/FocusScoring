@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2222032046</inn>
+    <ogrn>1022201143689</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022201143689</focusHref>
+    <UL>
+      <kpp>540401001</kpp>
+      <okpo>57350955</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛТАЙ-МЕТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АЛТАЙ-МЕТ"</full>
+        <date>2002-12-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630077</zipCode>
+          <kladrCode>540000010000626</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Костычева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40/2</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>333</topoValue>
+          </flat>
+          <houseRaw>40/2</houseRaw>
+          <flatRaw>ОФИС 333</flatRaw>
+        </parsedAddressRF>
+        <date>2011-04-26</date>
+        <firstDate>2011-04-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-12-29</date>
+      </status>
+      <registrationDate>2001-06-08</registrationDate>
+      <dissolutionDate>2011-12-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Свинцов Дмитрий Александрович</fio>
+          <position>Ликвидатор</position>
+          <date>2011-07-05</date>
+          <firstDate>2011-07-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772501001</kpp>
+            <date>2004-11-01</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Аксенов Игорь Алексеевич</fio>
+            <innfl>422303783189</innfl>
+            <position>Директор</position>
+            <date>2002-12-20</date>
+            <firstDate>2002-12-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

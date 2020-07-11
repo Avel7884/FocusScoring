@@ -1,0 +1,2249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>343501217606</inn>
+    <ogrn>304343533500295</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304343533500295</focusHref>
+    <IP>
+      <fio>Решетов Геннадий Валериевич</fio>
+      <okpo>0091356288</okpo>
+      <okato>18410000000</okato>
+      <okogu>49015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2002-08-13</registrationDate>
+      <dissolutionDate>2013-11-15</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-11-15</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3435122289</inn>
+    <ogrn>1153435005459</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1153435005459</focusHref>
+    <UL>
+      <kpp>343501001</kpp>
+      <okpo>22506697</okpo>
+      <okato>18410000000</okato>
+      <okfs>16</okfs>
+      <oktmo>18710000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "РИКСУС"</short>
+        <full>Общество с ограниченной ответственностью "РИКСУС"</full>
+        <date>2015-10-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>404106</zipCode>
+          <kladrCode>340000020000025</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волжский</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>им Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>259</topoValue>
+          </house>
+          <houseRaw>ДОМ 259</houseRaw>
+        </parsedAddressRF>
+        <date>2015-10-19</date>
+        <firstDate>2015-10-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-10-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Решетов Геннадий Валериевич</fio>
+          <innfl>343501217606</innfl>
+          <position>Директор</position>
+          <date>2015-10-19</date>
+          <firstDate>2015-10-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3435920760</inn>
+    <ogrn>1063400028340</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1063400028340</focusHref>
+    <UL>
+      <kpp>343501001</kpp>
+      <okpo>98527472</okpo>
+      <okato>18410000000</okato>
+      <okfs>16</okfs>
+      <oktmo>18710000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20716</okopf>
+      <opf>Товарищества собственников жилья</opf>
+      <legalName>
+        <short>ТСЖ "Карбышева, 57"</short>
+        <full>Товарищество собственников жилья "Карбышева, 57"</full>
+        <date>2006-12-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>404102</zipCode>
+          <kladrCode>340000020000017</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волжский</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им генерала Карбышева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>57</topoValue>
+          </house>
+          <flat>
+            <topoValue>75</topoValue>
+          </flat>
+          <houseRaw>57</houseRaw>
+          <flatRaw>75</flatRaw>
+        </parsedAddressRF>
+        <date>2006-12-28</date>
+        <firstDate>2006-12-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-12-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Крепак Виктор Иванович</fio>
+          <innfl>272424030901</innfl>
+          <position>Председатель</position>
+          <date>2008-12-23</date>
+          <firstDate>2008-12-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3442026353</inn>
+    <ogrn>1033400170286</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033400170286</focusHref>
+    <UL>
+      <kpp>344201001</kpp>
+      <okpo>04024500</okpo>
+      <okato>18401380000</okato>
+      <okfs>14</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация Краснооктябрьского района Волгограда</short>
+        <full>Администрация Краснооктябрьского района Волгограда</full>
+        <date>2012-06-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400105</zipCode>
+          <kladrCode>340000010002620</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>им В.И.Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>119</topoValue>
+          </house>
+          <houseRaw>119</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-05</date>
+        <firstDate>2003-01-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-03-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Дронов Иван Владимирович</fio>
+          <innfl>344308789004</innfl>
+          <position>Глава Администрации</position>
+          <date>2017-06-30</date>
+          <firstDate>2017-06-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400105</zipCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>119</topoValue>
+              </house>
+              <houseRaw>119</houseRaw>
+            </parsedAddressRF>
+            <date>2003-01-05</date>
+            <firstDate>2003-01-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Томарев Геннадий Иванович</fio>
+            <innfl>344200711203</innfl>
+            <position>Глава Администрации</position>
+            <date>2007-01-23</date>
+            <firstDate>2007-01-23</firstDate>
+          </head>
+          <head>
+            <fio>Белоусов Олег Викторович</fio>
+            <innfl>344501165300</innfl>
+            <position>Глава Администрации</position>
+            <date>2011-03-17</date>
+            <firstDate>2011-03-17</firstDate>
+          </head>
+          <head>
+            <fio>Хрустов Юрий Владимирович</fio>
+            <innfl>342800427695</innfl>
+            <position>Глава Администрации</position>
+            <date>2014-03-28</date>
+            <firstDate>2014-03-28</firstDate>
+          </head>
+          <head>
+            <fio>Швыдкий Виктор Юрьевич</fio>
+            <innfl>344204655020</innfl>
+            <position>Глава Администрации</position>
+            <date>2014-11-27</date>
+            <firstDate>2014-11-27</firstDate>
+          </head>
+          <head>
+            <fio>Чуйков Артемий Анатольевич</fio>
+            <innfl>025604830976</innfl>
+            <position>Глава Администрации</position>
+            <date>2015-11-30</date>
+            <firstDate>2015-11-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3442085729</inn>
+    <ogrn>1063459053382</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1063459053382</focusHref>
+    <UL>
+      <kpp>344201001</kpp>
+      <okpo>97021351</okpo>
+      <okato>18401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТАНАИТ"</short>
+        <full>Общество с ограниченной ответственностью "ТАНАИТ"</full>
+        <date>2006-08-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400007</zipCode>
+          <kladrCode>340000010002300</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Металлургов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>30</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-08-15</date>
+        <firstDate>2006-08-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-23</date>
+      </status>
+      <registrationDate>2006-08-15</registrationDate>
+      <dissolutionDate>2016-12-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Прокопов Игорь Игоревич</fio>
+          <innfl>344403611243</innfl>
+          <position>Генеральный Директор</position>
+          <date>2012-03-11</date>
+          <firstDate>2012-03-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Пегов Геннадий Прокофьевич</fio>
+            <innfl>344345505892</innfl>
+            <position>Генеральный директор</position>
+            <date>2006-08-15</date>
+            <firstDate>2006-08-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3443028434</inn>
+    <ogrn>1023402976728</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023402976728</focusHref>
+    <UL>
+      <kpp>344301001</kpp>
+      <okpo>41494008</okpo>
+      <okato>18401365000</okato>
+      <okfs>14</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210007</okogu>
+      <okopf>65243</okopf>
+      <opf>Муниципальные унитарные предприятия</opf>
+      <legalName>
+        <short>МУП "СЕВЕРНОЕ"</short>
+        <full>МУНИЦИПАЛЬНОЕ УНИТАРНОЕ ПРЕДПРИЯТИЕ "СЕВЕРНОЕ"</full>
+        <date>2014-09-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400075</zipCode>
+          <kladrCode>340000010000558</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Дорожников</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>ДОМ 1</houseRaw>
+        </parsedAddressRF>
+        <date>2015-07-09</date>
+        <firstDate>2015-07-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-08-26</date>
+      </status>
+      <registrationDate>1995-06-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Потапов Александр Павлович</fio>
+          <innfl>344303642463</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2018-06-26</date>
+          <firstDate>2016-02-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>344201001</kpp>
+            <date>2014-09-15</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>МУП "Кадастр"</short>
+            <full>Муниципальное унитарное предприятие "Кадастр"</full>
+            <date>2002-11-14</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400078</zipCode>
+              <kladrCode>340000010002620</kladrCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>им В.И.Ленина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>100</topoValue>
+              </house>
+              <houseRaw>100</houseRaw>
+            </parsedAddressRF>
+            <date>2009-03-17</date>
+            <firstDate>2009-03-17</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400078</zipCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>100</topoValue>
+              </house>
+              <houseRaw>100</houseRaw>
+            </parsedAddressRF>
+            <date>2009-03-17</date>
+            <firstDate>2009-03-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Соколова Татьяна Алексеевна</fio>
+            <innfl>344201099209</innfl>
+            <position>Директор</position>
+            <date>2007-11-29</date>
+            <firstDate>2007-11-29</firstDate>
+          </head>
+          <head>
+            <fio>Глуходедова Ирина Геннадьевна</fio>
+            <innfl>344101021223</innfl>
+            <position>Исполняющий Обязанности Директора</position>
+            <date>2012-09-03</date>
+            <firstDate>2012-09-03</firstDate>
+          </head>
+          <head>
+            <fio>Абакумов Михаил Юрьевич</fio>
+            <innfl>344701340870</innfl>
+            <position>Директор</position>
+            <date>2014-09-15</date>
+            <firstDate>2014-09-15</firstDate>
+          </head>
+          <head>
+            <fio>Солодилов Андрей Сергеевич</fio>
+            <innfl>614300732260</innfl>
+            <position>Директор</position>
+            <date>2015-03-27</date>
+            <firstDate>2015-03-27</firstDate>
+          </head>
+          <head>
+            <fio>Климашин Андрей Александрович</fio>
+            <position>Исполняющим Обязанности Директора</position>
+            <date>2015-12-08</date>
+            <firstDate>2015-12-08</firstDate>
+          </head>
+          <head>
+            <fio>Измайлов Михаил Викторович</fio>
+            <innfl>343504015414</innfl>
+            <position>Директор</position>
+            <date>2016-04-08</date>
+            <firstDate>2016-04-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>10</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3443049554</inn>
+    <ogrn>1023402976630</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023402976630</focusHref>
+    <UL>
+      <kpp>344301001</kpp>
+      <okpo>34679291</okpo>
+      <okato>18401365000</okato>
+      <okfs>14</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210007</okogu>
+      <okopf>65243</okopf>
+      <opf>Муниципальные унитарные предприятия</opf>
+      <legalName>
+        <short>МУП "Автокоммунтранс"</short>
+        <full>Муниципальное унитарное предприятие "Автомобильный коммунальный транспорт Волгограда"</full>
+        <date>2002-11-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400081</zipCode>
+          <kladrCode>340000010000650</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новорядская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>118</topoValue>
+          </house>
+          <houseRaw>118</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-13</date>
+        <firstDate>2002-11-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2015-08-24</date>
+      </status>
+      <registrationDate>2001-12-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Левин Вячеслав Валерьевич</fio>
+          <innfl>343501197396</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2015-12-07</date>
+          <firstDate>2015-12-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Товт Андрей Юрьевич</fio>
+            <innfl>526100471963</innfl>
+            <position>Директор</position>
+            <date>2011-06-06</date>
+            <firstDate>2011-06-06</firstDate>
+          </head>
+          <head>
+            <fio>Швыдкий Виктор Юрьевич</fio>
+            <innfl>344204655020</innfl>
+            <position>Директор</position>
+            <date>2012-03-26</date>
+            <firstDate>2012-03-26</firstDate>
+          </head>
+          <head>
+            <fio>Молодой Юрий Николаевич</fio>
+            <innfl>344501749666</innfl>
+            <position>Руководитель</position>
+            <date>2013-09-17</date>
+            <firstDate>2013-06-28</firstDate>
+          </head>
+          <head>
+            <fio>Решетов Геннадий Валериевич</fio>
+            <innfl>343501217606</innfl>
+            <position>Руководитель</position>
+            <date>2013-12-05</date>
+            <firstDate>2013-12-05</firstDate>
+          </head>
+          <head>
+            <fio>Измайлов Михаил Викторович</fio>
+            <innfl>343504015414</innfl>
+            <position>Директор</position>
+            <date>2014-12-01</date>
+            <firstDate>2014-12-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>9</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3443063559</inn>
+    <ogrn>1053443004933</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1053443004933</focusHref>
+    <UL>
+      <kpp>344301001</kpp>
+      <okpo>74928083</okpo>
+      <okato>18401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Управляющая компания "7 Ветров"</short>
+        <full>Общество с ограниченной ответственностью "Управляющая компания "7 Ветров"</full>
+        <date>2005-02-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400075</zipCode>
+          <kladrCode>340000010000754</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шекснинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>95</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>193</topoValue>
+          </flat>
+          <houseRaw>ДОМ 95</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 193</flatRaw>
+        </parsedAddressRF>
+        <date>2019-05-17</date>
+        <firstDate>2019-05-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-02-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Золотовский Юрий Геннадьевич</fio>
+          <innfl>344504624425</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-11-30</date>
+          <firstDate>2007-02-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400094</zipCode>
+              <kladrCode>340000010000604</kladrCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Космонавтов</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>36А</topoValue>
+              </house>
+              <houseRaw>36 А</houseRaw>
+            </parsedAddressRF>
+            <date>2005-02-28</date>
+            <firstDate>2005-02-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Ивкин Анатолий Анатольевич</fio>
+            <innfl>344405599351</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-10-08</date>
+            <firstDate>2014-10-08</firstDate>
+          </head>
+          <head>
+            <fio>Утешев Василий Григорьевич</fio>
+            <innfl>344202865030</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-01-12</date>
+            <firstDate>2016-01-12</firstDate>
+          </head>
+          <head>
+            <fio>Швыдкий Виктор Юрьевич</fio>
+            <innfl>344204655020</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-02-13</date>
+            <firstDate>2017-02-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3443127900</inn>
+    <ogrn>1163443052486</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1163443052486</focusHref>
+    <UL>
+      <kpp>344301001</kpp>
+      <okpo>22519783</okpo>
+      <okato>18401365000</okato>
+      <okfs>14</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210007</okogu>
+      <okopf>75403</okopf>
+      <opf>Муниципальные бюджетные учреждения</opf>
+      <legalName>
+        <short>МБУ "Северное"</short>
+        <full>Муниципальное бюджетное учреждение "Северное"</full>
+        <date>2016-01-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400075</zipCode>
+          <kladrCode>340000010000558</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Дорожников</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>ДОМ 1</houseRaw>
+        </parsedAddressRF>
+        <date>2016-01-27</date>
+        <firstDate>2016-01-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-01-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Головко Евгений Богданович</fio>
+          <innfl>344503301326</innfl>
+          <position>Директор</position>
+          <date>2016-11-29</date>
+          <firstDate>2016-11-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Климашин Андрей Александрович</fio>
+            <innfl>645000744089</innfl>
+            <position>Директор</position>
+            <date>2016-01-27</date>
+            <firstDate>2016-01-27</firstDate>
+          </head>
+          <head>
+            <fio>Измайлов Михаил Викторович</fio>
+            <innfl>343504015414</innfl>
+            <position>Директор</position>
+            <date>2016-08-01</date>
+            <firstDate>2016-08-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3444074200</inn>
+    <ogrn>1023403446362</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023403446362</focusHref>
+    <UL>
+      <kpp>344401001</kpp>
+      <okpo>50484799</okpo>
+      <okato>18401395000</okato>
+      <okfs>14</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Департамент муниципального имущества администрации Волгограда</full>
+        <date>2002-12-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400066</zipCode>
+          <kladrCode>340000010000777</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Волгодонская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <houseRaw>ДОМ 16</houseRaw>
+        </parsedAddressRF>
+        <date>2013-08-08</date>
+        <firstDate>2002-12-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-08-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Кондратенко Ирина Владимировна</fio>
+          <innfl>343607656113</innfl>
+          <position>Руководитель Департамента</position>
+          <date>2018-04-08</date>
+          <firstDate>2014-03-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Козлова Анна Ивановна</fio>
+            <innfl>344407458042</innfl>
+            <position>Руководитель департамента</position>
+            <date>2011-06-02</date>
+            <firstDate>2011-06-02</firstDate>
+          </head>
+          <head>
+            <fio>Гавва Владимир Алексеевич</fio>
+            <innfl>344600339004</innfl>
+            <position>Руководитель департамента</position>
+            <date>2011-11-11</date>
+            <firstDate>2011-11-11</firstDate>
+          </head>
+          <head>
+            <fio>Антонова Наталья Владимировна</fio>
+            <innfl>343506066446</innfl>
+            <position>Руководитель департамента</position>
+            <date>2012-02-01</date>
+            <firstDate>2012-02-01</firstDate>
+          </head>
+          <head>
+            <fio>Валюшкин Александр Алексеевич</fio>
+            <innfl>344402949431</innfl>
+            <position>Руководитель Департамента</position>
+            <date>2013-12-11</date>
+            <firstDate>2013-12-11</firstDate>
+          </head>
+          <head>
+            <fio>Боркунова Ольга Георгиевна</fio>
+            <innfl>343502162678</innfl>
+            <position>Руководитель Департамента</position>
+            <date>2014-03-03</date>
+            <firstDate>2014-03-03</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>22</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3444080557</inn>
+    <ogrn>1023403444790</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023403444790</focusHref>
+    <UL>
+      <kpp>346001001</kpp>
+      <okpo>53558877</okpo>
+      <okato>18401363000</okato>
+      <okfs>14</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>ДГХ АДМИНИСТРАЦИИ ВОЛГОГРАДА</short>
+        <full>Департамент городского хозяйства администрации Волгограда</full>
+        <date>2017-08-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400001</zipCode>
+          <kladrCode>340000010000646</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ковровская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16А</topoValue>
+          </house>
+          <houseRaw>ДОМ 16А</houseRaw>
+        </parsedAddressRF>
+        <date>2015-11-19</date>
+        <firstDate>2015-11-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-02-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Земцов Виталий Юрьевич</fio>
+          <innfl>344602518810</innfl>
+          <position>Руководитель</position>
+          <date>2015-01-30</date>
+          <firstDate>2015-01-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>344401001</kpp>
+            <date>2005-01-19</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>КДБ И ООС АДМИНИСТРАЦИИ ВОЛГОГРАДА</short>
+            <full>Комитет дорожного хозяйства, благоустройства и охраны окружающей среды администрации Волгограда</full>
+            <date>2015-07-21</date>
+          </legalName>
+          <legalName>
+            <full>КОМИТЕТ ТРАНСПОРТА И ДОРОЖНОГО ХОЗЯЙСТВА АДМИНИСТРАЦИИ ВОЛГОГРАДА</full>
+            <date>2015-04-23</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400066</zipCode>
+              <kladrCode>340000010002646</kladrCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>им маршала Чуйкова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15</topoValue>
+              </house>
+              <houseRaw>15</houseRaw>
+            </parsedAddressRF>
+            <date>2005-01-19</date>
+            <firstDate>2005-01-19</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400066</zipCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15</topoValue>
+              </house>
+              <houseRaw>15</houseRaw>
+            </parsedAddressRF>
+            <date>2005-01-19</date>
+            <firstDate>2005-01-19</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Юдин Олег Николаевич</fio>
+            <innfl>344205276071</innfl>
+            <position>Руководитель</position>
+            <date>2011-03-11</date>
+            <firstDate>2011-03-11</firstDate>
+          </head>
+          <head>
+            <fio>Твердохлебов Сергей Дмитрий</fio>
+            <innfl>344692408520</innfl>
+            <position>Руководитель</position>
+            <date>2011-10-28</date>
+            <firstDate>2011-10-28</firstDate>
+          </head>
+          <head>
+            <fio>Васильев Анатолий Николаевич</fio>
+            <innfl>344805036184</innfl>
+            <position>Руководитель</position>
+            <date>2012-06-20</date>
+            <firstDate>2012-06-20</firstDate>
+          </head>
+          <head>
+            <fio>Швыдкий Виктор Юрьевич</fio>
+            <innfl>344204655020</innfl>
+            <position>Руководитель</position>
+            <date>2013-06-25</date>
+            <firstDate>2013-06-25</firstDate>
+          </head>
+          <head>
+            <fio>Князев Василий Сергеевич</fio>
+            <innfl>344605692975</innfl>
+            <position>Руководитель</position>
+            <date>2014-08-27</date>
+            <firstDate>2014-08-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>8</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>3444114904</inn>
+    <ogrn>1043400322943</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1043400322943</focusHref>
+    <UL>
+      <kpp>344401001</kpp>
+      <okpo>72844086</okpo>
+      <okato>18401395000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Волгокомтехника"</short>
+        <full>Общество с ограниченной ответственностью "Волгоградская коммунальная техника"</full>
+        <date>2006-06-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400087</zipCode>
+          <kladrCode>340000010000804</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Невская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-06-09</date>
+        <firstDate>2004-06-09</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>400080</zipCode>
+            <kladrCode>340000010002772</kladrCode>
+            <regionCode>34</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Волгоградская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Волгоград</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>40 лет ВЛКСМ</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>94</topoValue>
+            </house>
+            <bulk>
+              <topoValue>А</topoValue>
+            </bulk>
+            <houseRaw>94</houseRaw>
+            <bulkRaw>А</bulkRaw>
+          </parsedAddressRF>
+          <date>2005-06-22</date>
+        </branch>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>404110</zipCode>
+            <kladrCode>340000020000023</kladrCode>
+            <regionCode>34</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Волгоградская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Волжский</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>им Космонавтов</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>14</topoValue>
+            </house>
+            <houseRaw>14</houseRaw>
+          </parsedAddressRF>
+          <date>2008-05-20</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-01-13</date>
+      </status>
+      <registrationDate>2004-06-09</registrationDate>
+      <dissolutionDate>2017-01-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бульдин Дмитрий Васильевич</fio>
+          <innfl>344404357078</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2015-10-09</date>
+          <firstDate>2015-10-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Швыдкий Виктор Юрьевич</fio>
+            <innfl>344204655020</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-10-24</date>
+            <firstDate>2008-02-06</firstDate>
+          </head>
+          <head>
+            <fio>Тарасов Евгений Васильевич</fio>
+            <innfl>344705106550</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-03-11</date>
+            <firstDate>2012-03-11</firstDate>
+          </head>
+          <head>
+            <fio>Чибисов Евгений Васильевич</fio>
+            <innfl>344205523789</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-08-17</date>
+            <firstDate>2012-08-17</firstDate>
+          </head>
+          <head>
+            <fio>Ежова Юлия Владимировна</fio>
+            <position>Конкурсный Управляющий</position>
+            <date>2013-08-09</date>
+            <firstDate>2013-08-09</firstDate>
+          </head>
+          <head>
+            <fio>Чернов Александр Николаевич</fio>
+            <innfl>344300075978</innfl>
+            <position>Конкурсный Управляющий</position>
+            <date>2014-10-27</date>
+            <firstDate>2014-10-27</firstDate>
+          </head>
+          <head>
+            <fio>Суворов Василий Викторович</fio>
+            <innfl>519100421584</innfl>
+            <position>Конкурсный Управляющий</position>
+            <date>2015-07-14</date>
+            <firstDate>2015-07-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3444253834</inn>
+    <ogrn>1153443018520</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1153443018520</focusHref>
+    <UL>
+      <kpp>344401001</kpp>
+      <okpo>22492943</okpo>
+      <okato>18401395000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МСК"</short>
+        <full>Общество с ограниченной ответственностью "Межрегиональная сервисная компания"</full>
+        <date>2015-07-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400052</zipCode>
+          <kladrCode>340000010002644</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им Рокоссовского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>62</topoValue>
+          </house>
+          <flat>
+            <topoValue>офис 15/26-2</topoValue>
+          </flat>
+          <houseRaw>ДОМ 62</houseRaw>
+          <flatRaw>ОФИС 15/26-2</flatRaw>
+        </parsedAddressRF>
+        <date>2015-07-20</date>
+        <firstDate>2015-07-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-06-07</date>
+      </status>
+      <registrationDate>2015-07-20</registrationDate>
+      <dissolutionDate>2019-06-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Измайлов Михаил Викторович</fio>
+          <innfl>343504015414</innfl>
+          <position>Директор</position>
+          <date>2017-12-04</date>
+          <firstDate>2017-12-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400052</zipCode>
+              <kladrCode>340000010002644</kladrCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>им Рокоссовского</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>62</topoValue>
+              </house>
+              <flat>
+                <topoValue>15/26-2</topoValue>
+              </flat>
+              <houseRaw>62</houseRaw>
+              <flatRaw>15/26-2</flatRaw>
+            </parsedAddressRF>
+            <date>2015-07-20</date>
+            <firstDate>2015-07-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Куликов Евгений Иванович</fio>
+            <innfl>340801747687</innfl>
+            <position>Директор</position>
+            <date>2015-07-20</date>
+            <firstDate>2015-07-20</firstDate>
+          </head>
+          <head>
+            <fio>Шагиахметов Марс Вакивович</fio>
+            <innfl>344206651173</innfl>
+            <position>Директор</position>
+            <date>2015-09-01</date>
+            <firstDate>2015-09-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3446032238</inn>
+    <ogrn>1083460007091</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1083460007091</focusHref>
+    <UL>
+      <kpp>344601001</kpp>
+      <okpo>88941199</okpo>
+      <okato>18401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Центр правовой поддержки Волгоградской области"</short>
+        <full>Общество с ограниченной ответственностью "Центр правовой поддержки Волгоградской области"</full>
+        <date>2008-12-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400119</zipCode>
+          <kladrCode>340000010002588</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им Тулака</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <houseRaw>9</houseRaw>
+        </parsedAddressRF>
+        <date>2008-12-01</date>
+        <firstDate>2008-12-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-10-03</date>
+      </status>
+      <registrationDate>2008-12-01</registrationDate>
+      <dissolutionDate>2014-10-03</dissolutionDate>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400119</zipCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Тулака</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9</topoValue>
+              </house>
+              <houseRaw>9</houseRaw>
+            </parsedAddressRF>
+            <date>2008-12-01</date>
+            <firstDate>2008-12-01</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Лазарева Ирина Евгеньевна</fio>
+            <innfl>344211230364</innfl>
+            <position>Директор</position>
+            <date>2011-05-12</date>
+            <firstDate>2011-05-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>3446040197</inn>
+    <ogrn>1103400003453</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1103400003453</focusHref>
+    <UL>
+      <kpp>344601001</kpp>
+      <okpo>69314887</okpo>
+      <legalName>
+        <short>ОО "Центр защиты прав потребителей Волгоградской области"</short>
+        <full>Общественная организация "Центр защиты прав потребителей Волгоградской области"</full>
+        <date>2010-11-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400119</zipCode>
+          <kladrCode>340000010000017</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Авиаторская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <houseRaw>7</houseRaw>
+        </parsedAddressRF>
+        <date>2010-11-01</date>
+        <firstDate>2010-11-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности общественного объединения в качестве юридического лица по решению суда на основании ст.29 Федерального закона от 19.05.1995 №82-ФЗ "Об общественных объединениях"</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-10-22</date>
+      </status>
+      <registrationDate>2010-11-01</registrationDate>
+      <dissolutionDate>2012-10-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Головин Валерий Александрович</fio>
+          <innfl>340300294517</innfl>
+          <position>Директор</position>
+          <date>2010-11-01</date>
+          <firstDate>2010-11-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5257148939</inn>
+    <ogrn>1145257006278</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1145257006278</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>43011066</okpo>
+      <okato>22401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АДС НН"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВТОДОРСЕРВИС НН"</full>
+        <date>2014-10-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603108</zipCode>
+          <kladrCode>520000010000757</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Героя Овчинникова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>51</topoValue>
+          </flat>
+          <houseRaw>1А</houseRaw>
+          <flatRaw>ОФИС 51</flatRaw>
+        </parsedAddressRF>
+        <date>2014-10-16</date>
+        <firstDate>2014-10-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-10-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Жислин Александр Львович</fio>
+          <innfl>525809597700</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-10-16</date>
+          <firstDate>2019-10-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Товт Андрей Юрьевич</fio>
+            <innfl>526100471963</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-09-27</date>
+            <firstDate>2014-10-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5258122475</inn>
+    <ogrn>1155258003196</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1155258003196</focusHref>
+    <UL>
+      <kpp>525701001</kpp>
+      <okpo>48313889</okpo>
+      <okato>22401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СИТИЛЮКС 52"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СИТИЛЮКС 52"</full>
+        <date>2015-04-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603002</zipCode>
+          <kladrCode>520000010000387</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Интернациональная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>100</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Т</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>13</topoValue>
+          </flat>
+          <houseRaw>ДОМ 100</houseRaw>
+          <bulkRaw>ЛИТЕР Т</bulkRaw>
+          <flatRaw>ОФИС 13</flatRaw>
+        </parsedAddressRF>
+        <date>2017-08-11</date>
+        <firstDate>2017-08-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-04-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Протасов Сергей Борисович</fio>
+          <innfl>330302669973</innfl>
+          <position>Директор</position>
+          <date>2019-01-30</date>
+          <firstDate>2019-01-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>525801001</kpp>
+            <date>2015-04-28</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603058</zipCode>
+              <kladrCode>520000010000736</kladrCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Новикова-Прибоя</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>4</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>14</topoValue>
+              </flat>
+              <houseRaw>ДОМ 4</houseRaw>
+              <flatRaw>ОФИС 14</flatRaw>
+            </parsedAddressRF>
+            <date>2015-04-28</date>
+            <firstDate>2015-04-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Товт Андрей Юрьевич</fio>
+            <innfl>526100471963</innfl>
+            <position>Директор</position>
+            <date>2018-09-27</date>
+            <firstDate>2015-04-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>5260403233</inn>
+    <ogrn>1145260048878</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1145260048878</focusHref>
+    <UL>
+      <kpp>526001001</kpp>
+      <okpo>43032140</okpo>
+      <okato>22401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СИТИЛЮКС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СИТИЛЮКС"</full>
+        <date>2014-12-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603000</zipCode>
+          <kladrCode>520000010000192</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Воровского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>31</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>ОФИС 31</flatRaw>
+        </parsedAddressRF>
+        <date>2014-12-30</date>
+        <firstDate>2014-12-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-12-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Товт Андрей Юрьевич</fio>
+          <innfl>526100471963</innfl>
+          <position>Директор</position>
+          <date>2019-04-10</date>
+          <firstDate>2019-04-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Мустафин Рашит Салехович</fio>
+            <innfl>524900383416</innfl>
+            <position>Директор</position>
+            <date>2014-12-30</date>
+            <firstDate>2014-12-30</firstDate>
+          </head>
+          <head>
+            <fio>Карпов Андрей Васильевич</fio>
+            <innfl>525802346930</innfl>
+            <position>Директор</position>
+            <date>2017-09-11</date>
+            <firstDate>2017-09-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>526100471963</inn>
+    <ogrn>305526113900465</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305526113900465</focusHref>
+    <IP>
+      <fio>Товт Андрей Юрьевич</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1999-11-18</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Утратил государственную регистрацию в качестве индивидуального предпринимателя на основании статьи 3 ФЗ от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-05-19</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5261018509</inn>
+    <ogrn>1025203562670</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203562670</focusHref>
+    <UL>
+      <kpp>526101001</kpp>
+      <okpo>47057556</okpo>
+      <okato>22401376000</okato>
+      <okfs>14</okfs>
+      <oktmo>22701000</oktmo>
+      <okogu>4210007</okogu>
+      <okopf>43</okopf>
+      <opf>Муниципальные предприятия</opf>
+      <legalName>
+        <short>МП "АДС" Приокского района</short>
+        <full>Муниципальное предприятие города Нижнего Новгорода "Аварийно-диспетчерская служба" Приокского района</full>
+        <date>2003-10-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603152</zipCode>
+          <kladrCode>520000010000554</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ларина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+        </parsedAddressRF>
+        <date>2010-03-05</date>
+        <firstDate>2010-03-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-09-15</date>
+      </status>
+      <registrationDate>1997-05-15</registrationDate>
+      <dissolutionDate>2014-09-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Слепов Сергей Иванович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2013-03-28</date>
+          <firstDate>2013-03-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Левашов Максим Валентинович</fio>
+            <position>Исполняющий обязанности директора</position>
+            <date>2011-11-01</date>
+            <firstDate>2011-11-01</firstDate>
+          </head>
+          <head>
+            <fio>Фырнин Юрий Анатольевич</fio>
+            <position>Директор</position>
+            <date>2012-06-19</date>
+            <firstDate>2012-06-19</firstDate>
+          </head>
+          <head>
+            <fio>Садов Антон Николаевич</fio>
+            <innfl>521475872241</innfl>
+            <position>Директор</position>
+            <date>2011-02-21</date>
+            <firstDate>2011-02-21</firstDate>
+          </head>
+          <head>
+            <fio>Товт Андрей Юрьевич</fio>
+            <innfl>526100471963</innfl>
+            <position>Директор</position>
+            <date>2012-09-24</date>
+            <firstDate>2012-09-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7729662453</inn>
+    <ogrn>1107746695627</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746695627</focusHref>
+    <UL>
+      <kpp>772901001</kpp>
+      <okpo>67999800</okpo>
+      <okato>45268579000</okato>
+      <okfs>16</okfs>
+      <oktmo>45323000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКВИЛОН"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АКВИЛОН"</full>
+        <date>2013-08-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119517</zipCode>
+          <kladrCode>770000000001822</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Матвеевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <bulk>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>10</houseRaw>
+          <bulkRaw>3</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-08-26</date>
+        <firstDate>2010-08-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-08-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Измайлов Михаил Викторович</fio>
+          <innfl>772472503781</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-05-04</date>
+          <firstDate>2018-05-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "Аквилон-Н"</short>
+            <full>Общество с ограниченной ответственностью "Аквилон-Н"</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Костенко Николай Иванович</fio>
+            <position>Генеральный директор</position>
+            <date>2010-08-26</date>
+            <firstDate>2010-08-26</firstDate>
+          </head>
+          <head>
+            <fio>Середа Руслан Викторович</fio>
+            <innfl>100118980798</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-09-09</date>
+            <firstDate>2014-10-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

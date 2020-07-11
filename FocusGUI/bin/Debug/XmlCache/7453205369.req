@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7453205369</inn>
+    <ogrn>1097453002448</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097453002448</focusHref>
+    <UL>
+      <kpp>744701001</kpp>
+      <okpo>61251911</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аврора-Трейд"</short>
+        <full>Общество с ограниченной ответственностью "Аврора-Трейд"</full>
+        <date>2009-04-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454074</zipCode>
+          <kladrCode>740000010001063</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ферросплавная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>80</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>105</topoValue>
+          </flat>
+          <houseRaw>80</houseRaw>
+          <flatRaw>ОФИС 105</flatRaw>
+        </parsedAddressRF>
+        <date>2012-05-03</date>
+        <firstDate>2012-05-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-08-21</date>
+      </status>
+      <registrationDate>2009-04-03</registrationDate>
+      <dissolutionDate>2012-08-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Иванцов Дмитрий Александрович</fio>
+          <position>Председатель ликвидационной комиссии</position>
+          <date>2012-05-23</date>
+          <firstDate>2009-04-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454000</zipCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Ленина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>34</topoValue>
+              </house>
+              <houseRaw>34</houseRaw>
+            </parsedAddressRF>
+            <date>2009-04-03</date>
+            <firstDate>2009-04-03</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

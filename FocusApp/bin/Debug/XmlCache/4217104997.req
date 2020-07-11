@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217104997</inn>
+    <ogrn>1084217004497</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1084217004497</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>85237123</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоГрад"</short>
+        <full>Общество с ограниченной ответственностью "АвтоГрад"</full>
+        <date>2008-05-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654079</zipCode>
+          <kladrCode>420000120001798</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кутузова (Центральный Р-Н)</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>5</houseRaw>
+        </parsedAddressRF>
+        <date>2008-05-27</date>
+        <firstDate>2008-05-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-05-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Теренина Светлана Анатольевна</fio>
+          <innfl>422102801060</innfl>
+          <position>Исполнительный директор</position>
+          <date>2008-05-27</date>
+          <firstDate>2008-05-27</firstDate>
+        </head>
+        <head>
+          <fio>Теренина Наталья Юрьевна</fio>
+          <innfl>421800969713</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-06-29</date>
+          <firstDate>2011-06-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>654079</zipCode>
+              <kladrCode>420000120001154</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Кутузова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <houseRaw>5</houseRaw>
+            </parsedAddressRF>
+            <date>2008-05-27</date>
+            <firstDate>2008-05-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

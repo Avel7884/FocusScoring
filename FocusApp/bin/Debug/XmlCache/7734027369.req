@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7734027369</inn>
+    <ogrn>1027700421869</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700421869</focusHref>
+    <UL>
+      <kpp>774501001</kpp>
+      <okpo>03989615</okpo>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "АБЗ №1"</short>
+        <full>Открытое акционерное общество "Асфальтобетонный завод №1"</full>
+        <date>2002-11-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123290</zipCode>
+          <kladrCode>770000000003139</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Шелепихинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <houseRaw>34</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-12</date>
+        <firstDate>2002-11-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-12-01</date>
+      </status>
+      <registrationDate>1993-01-18</registrationDate>
+      <dissolutionDate>2014-12-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Багаев Андрей Викторович</fio>
+          <innfl>772116982547</innfl>
+          <position>Ликвидатор</position>
+          <date>2014-06-02</date>
+          <firstDate>2011-12-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Темиров Аслан Хизирович</fio>
+            <position>Генеральный директор</position>
+            <date>2010-02-11</date>
+            <firstDate>2010-02-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6663011086</inn>
+    <ogrn>1026605629126</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605629126</focusHref>
+    <UL>
+      <kpp>668601001</kpp>
+      <okpo>32275425</okpo>
+      <okato>65401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Айвенго плюс"</short>
+        <full>Общество с ограниченной ответственностью "Айвенго плюс"</full>
+        <date>2002-12-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620039</zipCode>
+          <kladrCode>660000010000667</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Машиностроителей</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>61</topoValue>
+          </house>
+          <houseRaw>61</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-09</date>
+        <firstDate>2002-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-02-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Матфуллин Шамиль Саидгалиевич</fio>
+          <innfl>666300816003</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-04-17</date>
+          <firstDate>2002-12-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>667301001</kpp>
+            <date>2008-02-22</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

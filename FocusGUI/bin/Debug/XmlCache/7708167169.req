@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7708167169</inn>
+    <ogrn>1027700522871</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700522871</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>56673418</okpo>
+      <okato>45290568000</okato>
+      <okfs>16</okfs>
+      <oktmo>45389000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергосистемавтоматика"</short>
+        <full>Общество с ограниченной ответственностью "Энергосистемавтоматика"</full>
+        <date>2002-12-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109387</zipCode>
+          <kladrCode>770000000000082</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Люблинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>400</topoValue>
+          </flat>
+          <houseRaw>ДОМ 42</houseRaw>
+          <flatRaw>ОФИС 400</flatRaw>
+        </parsedAddressRF>
+        <date>2014-09-10</date>
+        <firstDate>2014-09-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-06-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Кремнев Александр Геннадьевич</fio>
+          <innfl>505601335413</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-04-26</date>
+          <firstDate>2007-04-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770801001</kpp>
+            <date>2007-04-26</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107140</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Красносельская Верхн</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>34</topoValue>
+              </house>
+              <houseRaw>34</houseRaw>
+            </parsedAddressRF>
+            <date>2007-04-26</date>
+            <firstDate>2007-04-26</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

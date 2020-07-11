@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6673083731</inn>
+    <ogrn>1026605611658</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605611658</focusHref>
+    <UL>
+      <kpp>667301001</kpp>
+      <okpo>00680710</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКП "Энергоремкомплект"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческое предприятие "Энергоремкомплект"</full>
+        <date>2006-05-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620098</zipCode>
+          <kladrCode>660000010000522</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Космонавтов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>258</topoValue>
+          </house>
+          <houseRaw>258</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-22</date>
+        <firstDate>2002-09-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-06-16</date>
+      </status>
+      <registrationDate>2001-09-13</registrationDate>
+      <dissolutionDate>2010-06-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вотти Анатолий Иванович</fio>
+          <innfl>667362929930</innfl>
+          <position>Директор</position>
+          <date>2010-01-25</date>
+          <firstDate>2010-01-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

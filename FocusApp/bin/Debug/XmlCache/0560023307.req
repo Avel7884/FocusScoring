@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0560023307</inn>
+    <ogrn>1020502460109</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020502460109</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>49189612</okpo>
+      <okato>45286590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45383000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аквамаг"</short>
+        <full>Общество с ограниченной ответственностью "Аквамаг"</full>
+        <date>2002-11-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119270</zipCode>
+          <kladrCode>770000000003007</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Фрунзенская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>38/1</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>174</topoValue>
+          </flat>
+          <houseRaw>ДОМ 38/1</houseRaw>
+          <flatRaw>ОФИС 174</flatRaw>
+        </parsedAddressRF>
+        <date>2019-02-04</date>
+        <firstDate>2019-02-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-12-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Алибеков Магомед Ахмедович</fio>
+          <innfl>056204935492</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-09-21</date>
+          <firstDate>2018-09-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770301001</kpp>
+            <date>2017-10-27</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>057301001</kpp>
+            <date>2015-12-07</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>054101001</kpp>
+            <date>2010-12-10</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>056001001</kpp>
+            <date>2007-01-06</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>123242</zipCode>
+              <kladrCode>770000000001146</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Грузинская Б</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>20</topoValue>
+              </house>
+              <flat>
+                <topoValue>Подвал пом IV К18 23а</topoValue>
+              </flat>
+              <houseRaw>ДОМ 20</houseRaw>
+              <flatRaw>ПОДВАЛ ПОМ IV К18 23А</flatRaw>
+            </parsedAddressRF>
+            <date>2017-10-18</date>
+            <firstDate>2017-10-18</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>367008</zipCode>
+              <kladrCode>050000010000331</kladrCode>
+              <regionCode>05</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Дагестан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Махачкала</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Буганова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <bulk>
+                <topoValue>В</topoValue>
+              </bulk>
+              <houseRaw>17</houseRaw>
+              <bulkRaw>В</bulkRaw>
+              <flatRaw>---</flatRaw>
+            </parsedAddressRF>
+            <date>2006-05-24</date>
+            <firstDate>2006-05-24</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Дибиров Магомед Гамзатович</fio>
+            <innfl>056007205602</innfl>
+            <position>Генеральный Директор</position>
+            <date>2009-12-08</date>
+            <firstDate>2009-12-08</firstDate>
+          </head>
+          <head>
+            <fio>Иванова Дарья Олеговна</fio>
+            <innfl>644924865189</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-11-22</date>
+            <firstDate>2017-11-22</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

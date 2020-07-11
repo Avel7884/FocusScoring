@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5012044121</inn>
+    <ogrn>1075012007003</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075012007003</focusHref>
+    <UL>
+      <kpp>504101001</kpp>
+      <okpo>81721030</okpo>
+      <okato>46464000000</okato>
+      <okfs>16</okfs>
+      <oktmo>46764000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГОПРОГРЕСС"</short>
+        <full>Общество с ограниченной ответственностью "ЭНЕРГОПРОГРЕСС"</full>
+        <date>2007-11-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>143965</zipCode>
+          <kladrCode>500000160000020</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Реутов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Молодежная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <houseRaw>7</houseRaw>
+        </parsedAddressRF>
+        <date>2007-11-07</date>
+        <firstDate>2007-11-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-11-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Литвинов Юрий Викторович</fio>
+          <innfl>772080582790</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-11-07</date>
+          <firstDate>2007-11-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

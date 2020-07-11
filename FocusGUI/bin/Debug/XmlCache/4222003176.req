@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4222003176</inn>
+    <ogrn>1034200005135</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034200005135</focusHref>
+    <UL>
+      <kpp>422201001</kpp>
+      <okpo>04029822</okpo>
+      <okato>32434000000</okato>
+      <okfs>14</okfs>
+      <oktmo>32734000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация городского округа</short>
+        <full>Администрация Осинниковского городского округа</full>
+        <date>2010-12-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652811</zipCode>
+          <kladrCode>420000070000237</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Осинники</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>----------</bulkRaw>
+          <flatRaw>---------</flatRaw>
+        </parsedAddressRF>
+        <date>2003-02-17</date>
+        <firstDate>2003-02-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-02-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Романов Игорь Васильевич</fio>
+          <innfl>422201440859</innfl>
+          <position>Глава Осинниковского городского округа</position>
+          <date>2012-11-07</date>
+          <firstDate>2012-06-22</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Дочев Петр Петрович</fio>
+            <position>Глава Города</position>
+            <date>2006-06-27</date>
+            <firstDate>2006-06-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

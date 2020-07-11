@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703558345</inn>
+    <ogrn>1057747627904</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1057747627904</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>78482342</okpo>
+      <okato>45286575000</okato>
+      <okfs>16</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аква-Территория"</short>
+        <full>Общество с ограниченной ответственностью "Аква-Территория"</full>
+        <date>2005-07-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123317</zipCode>
+          <kladrCode>770000000000756</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Антонова-Овсеенко</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>4</topoValue>
+          </bulk>
+          <houseRaw>15</houseRaw>
+          <bulkRaw>СТР.4</bulkRaw>
+        </parsedAddressRF>
+        <date>2005-07-29</date>
+        <firstDate>2005-07-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-07-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Маскурова Людмила Стефановна</fio>
+          <innfl>772470279975</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-10-26</date>
+          <firstDate>2015-10-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Беляев Алексей Валерьевич</fio>
+            <position>Генеральный Директор</position>
+            <date>2005-07-29</date>
+            <firstDate>2005-07-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

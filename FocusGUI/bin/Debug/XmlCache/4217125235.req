@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217125235</inn>
+    <ogrn>1104217003978</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1104217003978</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>65165746</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ТК "Айсен"</short>
+        <full>Общество с ограниченной ответственностью Торговая компания "Айсен"</full>
+        <date>2010-05-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654007</zipCode>
+          <kladrCode>420000120001207</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Н.С.Ермакова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <bulk>
+            <topoValue>4</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>6</topoValue>
+          </flat>
+          <houseRaw>11</houseRaw>
+          <bulkRaw>4</bulkRaw>
+          <flatRaw>6</flatRaw>
+        </parsedAddressRF>
+        <date>2010-05-31</date>
+        <firstDate>2010-05-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-08-07</date>
+      </status>
+      <registrationDate>2010-05-31</registrationDate>
+      <dissolutionDate>2014-08-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сидоров Илья Викторович</fio>
+          <innfl>421810869838</innfl>
+          <position>Ликвидатор</position>
+          <date>2013-11-14</date>
+          <firstDate>2013-11-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Трубицын Станислав Игоревич</fio>
+            <innfl>421813196203</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-05-31</date>
+            <firstDate>2010-05-31</firstDate>
+          </head>
+          <head>
+            <fio>Новоженова Олеся Александровна</fio>
+            <innfl>422007298263</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-02-08</date>
+            <firstDate>2012-02-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

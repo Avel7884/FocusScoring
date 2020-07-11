@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6660135238</inn>
+    <ogrn>1026604944486</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026604944486</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ДГУП № 652 ФКП "Управление торговли УрВО"</short>
+        <full>Дочернее государственное унитарное предприятие № 652 Федерального казенного предприятия "Управление Торговли Уральского военного округа"</full>
+        <date>2002-09-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620000</zipCode>
+          <kladrCode>660000010000606</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>93</topoValue>
+          </house>
+          <houseRaw>93</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-24</date>
+        <firstDate>2002-09-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-03-18</date>
+      </status>
+      <registrationDate>1999-11-02</registrationDate>
+      <dissolutionDate>2008-03-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мехонцева Екаткрина Александровна</fio>
+          <innfl>665803424459</innfl>
+          <position>Начальник</position>
+          <date>2007-06-08</date>
+          <firstDate>2007-06-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

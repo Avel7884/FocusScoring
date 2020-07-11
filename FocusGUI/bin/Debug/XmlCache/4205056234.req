@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205056234</inn>
+    <ogrn>1034205065520</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034205065520</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>70614423</okpo>
+      <okato>32401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>32701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВЕРС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВЕРС"</full>
+        <date>2007-07-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650051</zipCode>
+          <kladrCode>420000090000833</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Кузнецкий</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>125</topoValue>
+          </house>
+          <houseRaw>125</houseRaw>
+        </parsedAddressRF>
+        <date>2003-10-22</date>
+        <firstDate>2003-10-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-04-30</date>
+      </status>
+      <registrationDate>2003-10-22</registrationDate>
+      <dissolutionDate>2014-04-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гришков Юрий Анатольевич</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2013-09-05</date>
+          <firstDate>2013-09-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Свиридов Игорь Александрович</fio>
+            <innfl>420503769854</innfl>
+            <position>Директор</position>
+            <date>2010-08-24</date>
+            <firstDate>2010-08-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

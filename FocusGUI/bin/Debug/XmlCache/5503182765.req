@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5503182765</inn>
+    <ogrn>1185543024479</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1185543024479</focusHref>
+    <UL>
+      <kpp>550301001</kpp>
+      <okpo>32697178</okpo>
+      <okato>52401382000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "РАССВЕТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "РАССВЕТ"</full>
+        <date>2018-09-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644033</zipCode>
+          <kladrCode>550000010006870</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>В.М.Шукшина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>48</topoValue>
+          </flat>
+          <houseRaw>ДОМ 9</houseRaw>
+          <flatRaw>КВАРТИРА 48</flatRaw>
+        </parsedAddressRF>
+        <date>2018-09-03</date>
+        <firstDate>2018-09-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-09-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Френцель Алёна Леонидовна</fio>
+          <innfl>550101063281</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-09-03</date>
+          <firstDate>2018-09-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

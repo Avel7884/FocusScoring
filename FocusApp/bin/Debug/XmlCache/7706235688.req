@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7706235688</inn>
+    <ogrn>1027700491972</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700491972</focusHref>
+    <UL>
+      <kpp>770601001</kpp>
+      <okpo>56691878</okpo>
+      <okato>45263583000</okato>
+      <okfs>16</okfs>
+      <oktmo>45312000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АвтоДорМеханизация"</short>
+        <full>Закрытое акционерное общество "АвтоДорМеханизация"</full>
+        <date>2002-12-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111524</zipCode>
+          <kladrCode>770000000000432</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Плеханова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>99</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <bulkRaw>2</bulkRaw>
+          <flatRaw>99</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-04</date>
+        <firstDate>2002-12-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-08-21</date>
+      </status>
+      <registrationDate>2001-06-20</registrationDate>
+      <dissolutionDate>2013-08-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мудрак Василь Михайлович</fio>
+          <position>Генеральный директор</position>
+          <date>2003-03-18</date>
+          <firstDate>2003-03-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

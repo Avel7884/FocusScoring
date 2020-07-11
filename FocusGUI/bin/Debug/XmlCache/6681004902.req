@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6681004902</inn>
+    <ogrn>1146681000993</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1146681000993</focusHref>
+    <UL>
+      <kpp>668101001</kpp>
+      <okpo>39930465</okpo>
+      <okato>65542000000</okato>
+      <okfs>16</okfs>
+      <oktmo>65749000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКС БЕТОН"</short>
+        <full>Общество с ограниченной ответственностью "ПКС БЕТОН"</full>
+        <date>2014-07-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624201</zipCode>
+          <kladrCode>660000130000061</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Лесной</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Технический</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28</topoValue>
+          </house>
+          <houseRaw>28</houseRaw>
+        </parsedAddressRF>
+        <date>2014-08-22</date>
+        <firstDate>2014-08-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-05-03</date>
+      </status>
+      <registrationDate>2014-07-17</registrationDate>
+      <dissolutionDate>2018-05-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мизев Илья Николаевич</fio>
+          <innfl>662707905676</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-03-30</date>
+          <firstDate>2016-03-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>624214</zipCode>
+              <kladrCode>660000130030002</kladrCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Лесной</topoValue>
+              </city>
+              <settlement>
+                <topoShortName>рп</topoShortName>
+                <topoFullName>рабочий поселок</topoFullName>
+                <topoValue>Елкино</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Верхняя</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>101</topoValue>
+              </house>
+              <houseRaw>101</houseRaw>
+            </parsedAddressRF>
+            <date>2014-07-17</date>
+            <firstDate>2014-07-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Кудрявцев Александр Николаевич</fio>
+            <innfl>663002662722</innfl>
+            <position>Генральный Директор</position>
+            <date>2014-07-17</date>
+            <firstDate>2014-07-17</firstDate>
+          </head>
+          <head>
+            <fio>Тарасевич Евгений Сергеевич</fio>
+            <innfl>665802211698</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-11-17</date>
+            <firstDate>2014-11-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

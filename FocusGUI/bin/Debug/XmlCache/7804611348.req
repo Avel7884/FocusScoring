@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7804611348</inn>
+    <ogrn>1177847389026</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1177847389026</focusHref>
+    <UL>
+      <kpp>780401001</kpp>
+      <okpo>20393912</okpo>
+      <okato>40273000000</okato>
+      <okfs>23</okfs>
+      <oktmo>40330000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ХАРТИНГ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ХАРТИНГ"</full>
+        <date>2017-12-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>195027</zipCode>
+          <kladrCode>780000000001250</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>44</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Ю</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>16-Н</topoValue>
+          </flat>
+          <houseRaw>ДОМ 44</houseRaw>
+          <bulkRaw>ЛИТЕР Ю</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 16-Н</flatRaw>
+        </parsedAddressRF>
+        <date>2017-12-01</date>
+        <firstDate>2017-12-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-12-01</registrationDate>
+      <heads>
+        <head>
+          <fio>Марначева Лариса Андреевна</fio>
+          <innfl>773403585601</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-12-01</date>
+          <firstDate>2017-12-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

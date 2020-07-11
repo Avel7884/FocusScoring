@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1834023215</inn>
+    <ogrn>1021801582879</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021801582879</focusHref>
+    <UL>
+      <kpp>183201001</kpp>
+      <okpo>49658691</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергокомплект-Ижевск"</short>
+        <full>Общество с ограниченной ответственностью "Энергокомплект-Ижевск"</full>
+        <date>2006-04-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>426057</zipCode>
+          <kladrCode>180000010000094</kladrCode>
+          <regionCode>18</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Удмуртская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ижевск</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>им Дерябина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3/4</topoValue>
+          </house>
+          <houseRaw>3 /4</houseRaw>
+        </parsedAddressRF>
+        <date>2003-12-08</date>
+        <firstDate>2003-12-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-12-12</date>
+      </status>
+      <registrationDate>1999-12-16</registrationDate>
+      <dissolutionDate>2014-12-12</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ</name>
+          <inn>5905256897</inn>
+          <ogrn>1075905010983</ogrn>
+          <date>2009-11-18</date>
+          <firstDate>2009-11-18</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <heads>
+          <head>
+            <fio>Романов Вячеслав Юрьевич</fio>
+            <innfl>184100028385</innfl>
+            <position>Представитель Управляющей компании</position>
+            <date>2009-11-18</date>
+            <firstDate>2009-11-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

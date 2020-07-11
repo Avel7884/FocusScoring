@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7706083234</inn>
+    <ogrn>1027739394760</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739394760</focusHref>
+    <UL>
+      <kpp>772701001</kpp>
+      <okpo>11237969</okpo>
+      <okato>45293554000</okato>
+      <okfs>41</okfs>
+      <oktmo>45397000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20600</okopf>
+      <opf>Ассоциации (союзы)</opf>
+      <legalName>
+        <short>ААЦ "Аналитика"</short>
+        <full>Ассоциация аналитических Центров "Аналитика"</full>
+        <date>2002-10-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117218</zipCode>
+          <kladrCode>770000000001610</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кржижановского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 2, пом. XVI, Ком. 6</topoValue>
+          </flat>
+          <houseRaw>ДОМ 14</houseRaw>
+          <bulkRaw>КОРПУС 3</bulkRaw>
+          <flatRaw>ЭТАЖ 2, ПОМ. XVI, КОМ. 6</flatRaw>
+        </parsedAddressRF>
+        <date>2018-07-31</date>
+        <firstDate>2018-07-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-10-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Болдырев Иван Владимирович</fio>
+          <innfl>772327768101</innfl>
+          <position>Исполнительный Директор</position>
+          <date>2018-04-12</date>
+          <firstDate>2002-10-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770601001</kpp>
+            <date>2013-08-30</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119049</zipCode>
+              <kladrCode>770000000001689</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Ленинский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1/2</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>корп</topoShortName>
+                <topoFullName>корпус</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>ДОМ 1/2</houseRaw>
+              <bulkRaw>КОРПУС 1</bulkRaw>
+            </parsedAddressRF>
+            <date>2013-08-30</date>
+            <firstDate>2013-08-30</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119991</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Ленинский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9</topoValue>
+              </house>
+              <houseRaw>9</houseRaw>
+            </parsedAddressRF>
+            <date>2002-10-16</date>
+            <firstDate>2002-10-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>7</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

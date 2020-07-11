@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6603003845</inn>
+    <ogrn>1026600632475</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026600632475</focusHref>
+    <UL>
+      <kpp>660301001</kpp>
+      <okpo>12315163</okpo>
+      <okato>65409000000</okato>
+      <okfs>16</okfs>
+      <oktmo>65730000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АК "РОССО"</short>
+        <full>Закрытое акционерное общество "Акционерная компания "РОССО"</full>
+        <date>2002-12-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624260</zipCode>
+          <kladrCode>660000020000024</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Асбест</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <bulk>
+            <topoValue>3</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>117</topoValue>
+          </flat>
+          <houseRaw>4</houseRaw>
+          <bulkRaw>3</bulkRaw>
+          <flatRaw>117</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-09</date>
+        <firstDate>2002-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-04-20</date>
+      </status>
+      <registrationDate>2002-04-11</registrationDate>
+      <dissolutionDate>2015-04-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Флягин Сергей Владимирович</fio>
+          <innfl>660300004480</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-12-09</date>
+          <firstDate>2002-12-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

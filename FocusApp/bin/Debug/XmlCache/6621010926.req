@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6621010926</inn>
+    <ogrn>1056600925105</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1056600925105</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АДС-Энерго"</short>
+        <full>Общество с ограниченной ответственностью "АДС-Энерго"</full>
+        <date>2005-04-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620131</zipCode>
+          <kladrCode>660000010000559</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Крауля</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>83</topoValue>
+          </house>
+          <houseRaw>83</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2006-06-26</date>
+        <firstDate>2006-06-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-06-27</date>
+      </status>
+      <registrationDate>2005-04-26</registrationDate>
+      <dissolutionDate>2006-12-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Абашин Александр Михайлович</fio>
+          <innfl>667219669142</innfl>
+          <position>Директор</position>
+          <date>2006-06-26</date>
+          <firstDate>2006-06-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

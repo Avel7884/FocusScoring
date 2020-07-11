@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4252006209</inn>
+    <ogrn>1144252000276</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1144252000276</focusHref>
+    <UL>
+      <kpp>425201001</kpp>
+      <okpo>22919749</okpo>
+      <okato>32219860001</okato>
+      <okfs>14</okfs>
+      <oktmo>32619460101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Сосновского сельского поселения</full>
+        <date>2014-04-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654201</zipCode>
+          <kladrCode>420090001000005</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новокузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Сосновка</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кузнецкая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <houseRaw>10</houseRaw>
+        </parsedAddressRF>
+        <date>2014-04-11</date>
+        <firstDate>2014-04-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-04-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Стройкина Наталья Николаевна</fio>
+          <innfl>422003660404</innfl>
+          <position>Глава Сосновского Сельского Поселения</position>
+          <date>2017-04-25</date>
+          <firstDate>2014-04-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

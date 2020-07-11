@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2128023799</inn>
+    <ogrn>1022101143019</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022101143019</focusHref>
+    <UL>
+      <kpp>213001001</kpp>
+      <okpo>43221852</okpo>
+      <okato>97401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>97701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергопром"</short>
+        <full>Закрытое акционерное общество "Энергопром"</full>
+        <date>2008-03-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>428022</zipCode>
+          <kladrCode>210000010000084</kladrCode>
+          <regionCode>21</regionCode>
+          <regionName>
+            <topoShortName>чувашия</topoShortName>
+            <topoFullName>чувашия</topoFullName>
+            <topoValue>Чувашская Республика</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Чебоксары</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гагарина Ю</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>30</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 5</flatRaw>
+        </parsedAddressRF>
+        <date>2016-03-30</date>
+        <firstDate>2013-06-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1997-04-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Ярославлев Алексей Владимирович</fio>
+          <innfl>212908148078</innfl>
+          <position>Директор</position>
+          <date>2011-07-20</date>
+          <firstDate>2011-07-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>428012</zipCode>
+              <regionCode>21</regionCode>
+              <regionName>
+                <topoValue>Чувашская - Чувашия</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Чебоксары</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Сапожникова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <houseRaw>17</houseRaw>
+            </parsedAddressRF>
+            <date>2008-03-11</date>
+            <firstDate>2008-03-11</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

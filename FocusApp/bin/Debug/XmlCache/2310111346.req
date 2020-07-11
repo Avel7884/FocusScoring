@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2310111346</inn>
+    <ogrn>1062310006131</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1062310006131</focusHref>
+    <UL>
+      <kpp>231001001</kpp>
+      <okpo>93807066</okpo>
+      <okato>03401369000</okato>
+      <okfs>16</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автодом-Люкс"</short>
+        <full>Общество с ограниченной ответственностью "Автодом-Люкс"</full>
+        <date>2006-02-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350002</zipCode>
+          <kladrCode>230000010000262</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Казачья</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <houseRaw>22</houseRaw>
+        </parsedAddressRF>
+        <date>2006-02-13</date>
+        <firstDate>2006-02-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-02-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Добровольский Александр Владимирович</fio>
+          <innfl>231211063849</innfl>
+          <position>Директор</position>
+          <date>2014-09-30</date>
+          <firstDate>2014-09-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Кугук Дмитрий Юрьевич</fio>
+            <innfl>231150428874</innfl>
+            <position>Директор</position>
+            <date>2010-04-14</date>
+            <firstDate>2010-04-14</firstDate>
+          </head>
+          <head>
+            <fio>Заикин Сергей Михайлович</fio>
+            <innfl>231206623647</innfl>
+            <position>Директор</position>
+            <date>2012-11-21</date>
+            <firstDate>2012-11-21</firstDate>
+          </head>
+          <head>
+            <fio>Дубовой Павел Анатольевич</fio>
+            <innfl>231100907102</innfl>
+            <position>Директор</position>
+            <date>2013-03-12</date>
+            <firstDate>2013-03-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

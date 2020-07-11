@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701276049</inn>
+    <ogrn>1077746601844</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077746601844</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АКАЦИЯ ВЕСТ</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АКАЦИЯ ВЕСТ"</full>
+        <date>2007-02-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>101000</zipCode>
+          <kladrCode>770000000000817</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бауманская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>44</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>44</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-02-23</date>
+        <firstDate>2007-02-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-02-23</date>
+      </status>
+      <registrationDate>2001-10-02</registrationDate>
+      <dissolutionDate>2007-02-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Андреев Дмитрий Владимирович</fio>
+          <innfl>771813601123</innfl>
+          <position>Руководитель</position>
+          <date>2007-02-23</date>
+          <firstDate>2007-02-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7706245990</inn>
+    <ogrn>1077746698017</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077746698017</focusHref>
+    <UL>
+      <kpp>770601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АКАЦИЯ-ИНВЕСТ</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АКАЦИЯ-ИНВЕСТ"</full>
+        <date>2007-02-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117049</zipCode>
+          <kladrCode>770000000001411</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Казанский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2007-02-23</date>
+        <firstDate>2007-02-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-02-23</date>
+      </status>
+      <registrationDate>2001-10-02</registrationDate>
+      <dissolutionDate>2007-02-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Андреев Дмитрий Владимирович</fio>
+          <position>Руководитель</position>
+          <date>2007-02-23</date>
+          <firstDate>2007-02-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

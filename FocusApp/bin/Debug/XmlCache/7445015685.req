@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7445015685</inn>
+    <ogrn>1027402170729</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027402170729</focusHref>
+    <UL>
+      <kpp>744401001</kpp>
+      <okpo>49139784</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авантаж"</short>
+        <full>Общество с ограниченной ответственностью "Авантаж"</full>
+        <date>2002-10-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>455000</zipCode>
+          <kladrCode>740000090000354</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Магнитогорск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Уральская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>3</topoValue>
+          </flat>
+          <houseRaw>36</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>3</flatRaw>
+        </parsedAddressRF>
+        <date>2003-05-19</date>
+        <firstDate>2003-05-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-04-26</date>
+      </status>
+      <registrationDate>1999-06-09</registrationDate>
+      <dissolutionDate>2011-04-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Никитин Олег Александрович</fio>
+          <innfl>744604212641</innfl>
+          <position>Директор</position>
+          <date>2003-11-01</date>
+          <firstDate>2003-11-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

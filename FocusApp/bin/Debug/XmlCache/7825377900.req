@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7825377900</inn>
+    <ogrn>1027806863930</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027806863930</focusHref>
+    <UL>
+      <kpp>781301001</kpp>
+      <okpo>46926381</okpo>
+      <okato>40288000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40391000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АГРОТЕХМАШ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АГРОТЕХМАШ"</full>
+        <date>2018-10-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197046</zipCode>
+          <kladrCode>780000000000509</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Каменноостровский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-30</date>
+        <firstDate>2002-09-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1997-06-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Петров Александр Борисович</fio>
+          <innfl>782571287707</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-08</date>
+          <firstDate>2002-09-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "Агротехмаш"</short>
+            <full>Закрытое акционерное общество "Агротехмаш"</full>
+            <date>2002-09-30</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>8</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

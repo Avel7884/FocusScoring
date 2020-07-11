@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7726010700</inn>
+    <ogrn>1027739448461</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739448461</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okpo>11300099</okpo>
+      <okato>45296559000</okato>
+      <okfs>16</okfs>
+      <oktmo>45914000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО НПП "Энергоперспектива"</short>
+        <full>Общество с ограниченной ответственностью Научно-производственное предприятие "Энергоперспектива"</full>
+        <date>2007-01-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115280</zipCode>
+          <kladrCode>770000000000714</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Автозаводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <houseRaw>ДОМ 14</houseRaw>
+        </parsedAddressRF>
+        <date>2013-11-29</date>
+        <firstDate>2013-11-29</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <foreignAddress>
+            <countryName>УКРАИНА</countryName>
+            <addressString>04073, Г. КИЕВ, УЛ . ГАМАРНИКА, Д. 56</addressString>
+          </foreignAddress>
+          <date>2007-11-12</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1991-12-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Пославский Игорь Владимирович</fio>
+          <innfl>771908167867</innfl>
+          <position>Директор</position>
+          <date>2007-01-09</date>
+          <firstDate>2007-01-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115280</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Автозаводская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>14/23</topoValue>
+              </house>
+              <houseRaw>14 /23</houseRaw>
+            </parsedAddressRF>
+            <date>2002-10-25</date>
+            <firstDate>2002-10-25</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

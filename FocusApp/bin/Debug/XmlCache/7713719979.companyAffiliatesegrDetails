@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>505018300047</inn>
+    <ogrn>310505034900029</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=310505034900029</focusHref>
+    <IP>
+      <okpo>0175030812</okpo>
+      <pfrRegNumber>060054024225</pfrRegNumber>
+      <fomsRegNumber>462591000619580</fomsRegNumber>
+      <okato>46259558000</okato>
+      <shortenedAddress>
+        <regionCode>50</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Московская</topoValue>
+        </regionName>
+        <district>
+          <topoShortName>р-н</topoShortName>
+          <topoFullName>район</topoFullName>
+          <topoValue>Щелковский</topoValue>
+        </district>
+        <settlement>
+          <topoShortName>рп</topoShortName>
+          <topoFullName>рабочий поселок</topoFullName>
+          <topoValue>Свердловский</topoValue>
+        </settlement>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>46.4</code>
+          <text>Торговля оптовая непродовольственными потребительскими товарами</text>
+          <date>2010-12-15</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>41.2</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>43.3</code>
+            <text>Работы строительные отделочные</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>46.1</code>
+            <text>Торговля оптовая за вознаграждение или на договорной основе</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>46.2</code>
+            <text>Торговля оптовая сельскохозяйственным сырьем и живыми животными</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>46.3</code>
+            <text>Торговля оптовая пищевыми продуктами, напитками и табачными изделиями</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>46.6</code>
+            <text>Торговля оптовая прочими машинами, оборудованием и принадлежностями</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>46.7</code>
+            <text>Торговля оптовая специализированная прочая</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>46.73</code>
+            <text>Торговля оптовая лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>47.1</code>
+            <text>Торговля розничная в неспециализированных магазинах</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>47.2</code>
+            <text>Торговля розничная пищевыми продуктами, напитками и табачными изделиями в специализированных магазинах</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>47.5</code>
+            <text>Торговля розничная прочими бытовыми изделиями в специализированных магазинах</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>47.73</code>
+            <text>Торговля розничная лекарственными средствами в специализированных магазинах (аптеках)</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>47.74</code>
+            <text>Торговля розничная изделиями, применяемыми в медицинских целях, ортопедическими изделиями в специализированных магазинах</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>47.75</code>
+            <text>Торговля розничная косметическими и товарами личной гигиены в специализированных магазинах</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>47.79</code>
+            <text>Торговля розничная бывшими в употреблении товарами в магазинах</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>47.9</code>
+            <text>Торговля розничная вне магазинов, палаток, рынков</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>52.29</code>
+            <text>Деятельность вспомогательная прочая, связанная с перевозками</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>62.0</code>
+            <text>Разработка компьютерного программного обеспечения, консультационные услуги в данной области и другие сопутствующие услуги</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>62.02</code>
+            <text>Деятельность консультативная и работы в области компьютерных технологий</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>62.09</code>
+            <text>Деятельность, связанная с использованием вычислительной техники и информационных технологий, прочая</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>68.10</code>
+            <text>Покупка и продажа собственного недвижимого имущества</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>74.20</code>
+            <text>Деятельность в области фотографии</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>74.30</code>
+            <text>Деятельность по письменному и устному переводу</text>
+            <date>2010-12-15</date>
+          </activity>
+          <activity>
+            <code>82.92</code>
+            <text>Деятельность по упаковыванию товаров</text>
+            <date>2010-12-15</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2010-12-15</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>5050</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №16 по Московской области</nalogName>
+        <nalogRegDate>2010-12-15</nalogRegDate>
+        <date>2018-08-02</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>5081</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №23 по Московской области</nalogName>
+        <date>2019-11-20</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>418505000181776</grn>
+          <date>2018-08-02</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №16 по Московской Области</regName>
+          <regCode>5050</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>418505000181657</grn>
+          <date>2018-08-02</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №16 по Московской Области</regName>
+          <regCode>5050</regCode>
+          <documents>
+            <document>
+              <name>Р26001 заявление о прекращении деятельности ИП</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-07-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>418505000177323</grn>
+          <date>2018-07-27</date>
+          <name>Представление сведений о регистрации физического лица по месту жительства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №16 по Московской Области</regName>
+          <regCode>5050</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>410505036100695</grn>
+          <date>2010-12-27</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №16 по Московской Области</regName>
+          <regCode>5050</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>410505034900071</grn>
+          <date>2010-12-15</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №16 по Московской Области</regName>
+          <regCode>5050</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>310505034900029</grn>
+          <date>2010-12-15</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №16 по Московской Области</regName>
+          <regCode>5050</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации физического лица в качестве индивидуального предпринимателя</name>
+              <date>2010-12-08</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2010-12-08</date>
+            </document>
+            <document>
+              <name>Паспорт РФ</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>50 012699651</serialNumber>
+              <date>2010-12-15</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>7713719979</inn>
+    <ogrn>5107746003778</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5107746003778</focusHref>
+    <UL>
+      <okpo>69594332</okpo>
+      <pfrRegNumber>087210001939</pfrRegNumber>
+      <fssRegNumber>770302288577031</fssRegNumber>
+      <fomsRegNumber>452131001459505</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.90</code>
+          <text>Торговля оптовая неспециализированная</text>
+          <date>2010-12-08</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>41.2</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>43.2</code>
+            <text>Производство электромонтажных, санитарно-технических и прочих строительно-монтажных работ</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>43.3</code>
+            <text>Работы строительные отделочные</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>46.1</code>
+            <text>Торговля оптовая за вознаграждение или на договорной основе</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>46.3</code>
+            <text>Торговля оптовая пищевыми продуктами, напитками и табачными изделиями</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>46.4</code>
+            <text>Торговля оптовая непродовольственными потребительскими товарами</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>46.6</code>
+            <text>Торговля оптовая прочими машинами, оборудованием и принадлежностями</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>46.7</code>
+            <text>Торговля оптовая специализированная прочая</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>47.1</code>
+            <text>Торговля розничная в неспециализированных магазинах</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>47.5</code>
+            <text>Торговля розничная прочими бытовыми изделиями в специализированных магазинах</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>47.73</code>
+            <text>Торговля розничная лекарственными средствами в специализированных магазинах (аптеках)</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>47.74</code>
+            <text>Торговля розничная изделиями, применяемыми в медицинских целях, ортопедическими изделиями в специализированных магазинах</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>47.75</code>
+            <text>Торговля розничная косметическими и товарами личной гигиены в специализированных магазинах</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>47.79</code>
+            <text>Торговля розничная бывшими в употреблении товарами в магазинах</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>47.9</code>
+            <text>Торговля розничная вне магазинов, палаток, рынков</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>52.29</code>
+            <text>Деятельность вспомогательная прочая, связанная с перевозками</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>62.0</code>
+            <text>Разработка компьютерного программного обеспечения, консультационные услуги в данной области и другие сопутствующие услуги</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>62.02</code>
+            <text>Деятельность консультативная и работы в области компьютерных технологий</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>62.09</code>
+            <text>Деятельность, связанная с использованием вычислительной техники и информационных технологий, прочая</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>68.10</code>
+            <text>Покупка и продажа собственного недвижимого имущества</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>69</code>
+            <text>Деятельность в области права и бухгалтерского учета</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>73.1</code>
+            <text>Деятельность рекламная</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>74.20</code>
+            <text>Деятельность в области фотографии</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>74.30</code>
+            <text>Деятельность по письменному и устному переводу</text>
+            <date>2010-12-08</date>
+          </activity>
+          <activity>
+            <code>82.92</code>
+            <text>Деятельность по упаковыванию товаров</text>
+            <date>2010-12-08</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2010-12-08</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7713</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы № 13 по г.Москве</nalogName>
+        <nalogRegDate>2010-12-08</nalogRegDate>
+        <kpp>771301001</kpp>
+        <date>2017-10-23</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2010-12-08</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2010-12-08</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Павлюченко Марина Ивановна</fio>
+          <innfl>505018300047</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2010-12-08</date>
+          <firstDate>2010-12-08</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>8177748817920</grn>
+          <date>2017-10-23</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>8177748768080</grn>
+          <date>2017-10-23</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2017-06-14</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2017-06-14</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2017-06-30</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7177747225572</grn>
+          <date>2017-06-30</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2017-06-30</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>9107748781241</grn>
+          <date>2010-12-13</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>9107748752070</grn>
+          <date>2010-12-10</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>9107748700039</grn>
+          <date>2010-12-08</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>5107746003778</grn>
+          <date>2010-12-08</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Р11001 заявление о создании ЮЛ</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2010-12-03</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2010-11-25</date>
+            </document>
+            <document>
+              <name>Решение о создании ЮЛ</name>
+              <date>2010-11-25</date>
+            </document>
+            <document>
+              <name>Коп. уст</name>
+            </document>
+            <document>
+              <name>Запр,квит 225</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>77 012218407</serialNumber>
+              <date>2010-12-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>7718829446</inn>
+    <ogrn>5107746004977</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5107746004977</focusHref>
+    <UL>
+      <okpo>69566353</okpo>
+      <pfrRegNumber>087409002655</pfrRegNumber>
+      <fssRegNumber>773803676177381</fssRegNumber>
+      <fomsRegNumber>454181001463011</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.90</code>
+          <text>Торговля оптовая неспециализированная</text>
+          <date>2010-12-09</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>41.2</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>43.2</code>
+            <text>Производство электромонтажных, санитарно-технических и прочих строительно-монтажных работ</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>43.3</code>
+            <text>Работы строительные отделочные</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>46.1</code>
+            <text>Торговля оптовая за вознаграждение или на договорной основе</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>46.3</code>
+            <text>Торговля оптовая пищевыми продуктами, напитками и табачными изделиями</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>46.4</code>
+            <text>Торговля оптовая непродовольственными потребительскими товарами</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>46.6</code>
+            <text>Торговля оптовая прочими машинами, оборудованием и принадлежностями</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>46.7</code>
+            <text>Торговля оптовая специализированная прочая</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>47.1</code>
+            <text>Торговля розничная в неспециализированных магазинах</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>47.5</code>
+            <text>Торговля розничная прочими бытовыми изделиями в специализированных магазинах</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>47.73</code>
+            <text>Торговля розничная лекарственными средствами в специализированных магазинах (аптеках)</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>47.74</code>
+            <text>Торговля розничная изделиями, применяемыми в медицинских целях, ортопедическими изделиями в специализированных магазинах</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>47.75</code>
+            <text>Торговля розничная косметическими и товарами личной гигиены в специализированных магазинах</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>47.79</code>
+            <text>Торговля розничная бывшими в употреблении товарами в магазинах</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>47.9</code>
+            <text>Торговля розничная вне магазинов, палаток, рынков</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>52.29</code>
+            <text>Деятельность вспомогательная прочая, связанная с перевозками</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>62.0</code>
+            <text>Разработка компьютерного программного обеспечения, консультационные услуги в данной области и другие сопутствующие услуги</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>62.02</code>
+            <text>Деятельность консультативная и работы в области компьютерных технологий</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>62.09</code>
+            <text>Деятельность, связанная с использованием вычислительной техники и информационных технологий, прочая</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>68.10</code>
+            <text>Покупка и продажа собственного недвижимого имущества</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>69</code>
+            <text>Деятельность в области права и бухгалтерского учета</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>73.1</code>
+            <text>Деятельность рекламная</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>74.20</code>
+            <text>Деятельность в области фотографии</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>74.30</code>
+            <text>Деятельность по письменному и устному переводу</text>
+            <date>2010-12-09</date>
+          </activity>
+          <activity>
+            <code>82.92</code>
+            <text>Деятельность по упаковыванию товаров</text>
+            <date>2010-12-09</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2010-12-09</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7718</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы № 18 по г.Москве</nalogName>
+        <nalogRegDate>2010-12-09</nalogRegDate>
+        <kpp>771801001</kpp>
+        <date>2018-01-22</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2010-12-09</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2010-12-09</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Павлюченко Марина Ивановна</fio>
+          <innfl>505018300047</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2010-12-09</date>
+          <firstDate>2010-12-09</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2187746873059</grn>
+          <date>2018-01-22</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187746842435</grn>
+          <date>2018-01-22</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2017-09-25</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2017-09-25</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2017-09-29</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7177748366008</grn>
+          <date>2017-09-29</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2017-09-29</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>8127746973940</grn>
+          <date>2012-06-06</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Решение</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>77 015756184</serialNumber>
+              <date>2012-06-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2107749413627</grn>
+          <date>2010-12-24</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>9107748794331</grn>
+          <date>2010-12-13</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>9107748723172</grn>
+          <date>2010-12-09</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>5107746004977</grn>
+          <date>2010-12-09</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Р11001 заявление о создании ЮЛ</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2010-12-03</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2010-11-25</date>
+            </document>
+            <document>
+              <name>Решение о создании ЮЛ</name>
+              <date>2010-11-25</date>
+            </document>
+            <document>
+              <name>Коп. уст</name>
+            </document>
+            <document>
+              <name>Запр,квит 223</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>77 012218605</serialNumber>
+              <date>2010-12-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

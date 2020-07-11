@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7814006646</inn>
+    <ogrn>1037832006189</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037832006189</focusHref>
+    <UL>
+      <kpp>781401001</kpp>
+      <okpo>11122083</okpo>
+      <okato>40270000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40325000000</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ИПРИС"</short>
+        <full>Закрытое акционерное общество "Международные полиграфические системы "ИПРИС"</full>
+        <date>2003-01-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197183</zipCode>
+          <kladrCode>780000000001097</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Полевая Сабировская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43</topoValue>
+          </house>
+          <houseRaw>43</houseRaw>
+        </parsedAddressRF>
+        <date>2007-05-10</date>
+        <firstDate>2007-05-10</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>127282</zipCode>
+            <kladrCode>770000000003092</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>проезд</topoShortName>
+              <topoFullName>проезд</topoFullName>
+              <topoValue>Чермянский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>7</topoValue>
+            </house>
+            <flat>
+              <topoValue>661</topoValue>
+            </flat>
+            <houseRaw>7</houseRaw>
+            <flatRaw>661</flatRaw>
+          </parsedAddressRF>
+          <date>2010-10-07</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-12-20</date>
+      </status>
+      <registrationDate>1993-01-24</registrationDate>
+      <dissolutionDate>2018-12-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Баженов Александр Станиславович</fio>
+          <innfl>780507282507</innfl>
+          <position>Генеральный директор</position>
+          <date>2017-02-15</date>
+          <firstDate>2011-06-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

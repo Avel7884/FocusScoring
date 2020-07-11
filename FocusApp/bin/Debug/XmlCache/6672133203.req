@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6672133203</inn>
+    <ogrn>1026605404869</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605404869</focusHref>
+    <UL>
+      <kpp>667201001</kpp>
+      <okpo>03489604</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агролесснаб"</short>
+        <full>Общество с ограниченной ответственностью "Агролесснаб"</full>
+        <date>2002-11-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620097</zipCode>
+          <kladrCode>660000010001249</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Черняховского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>68</topoValue>
+          </house>
+          <flat>
+            <topoValue>202</topoValue>
+          </flat>
+          <houseRaw>68</houseRaw>
+          <flatRaw>202</flatRaw>
+        </parsedAddressRF>
+        <date>2007-07-18</date>
+        <firstDate>2007-07-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-12-25</date>
+      </status>
+      <registrationDate>2001-10-16</registrationDate>
+      <dissolutionDate>2007-12-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Беляев Иван Владимирович</fio>
+          <innfl>663600033103</innfl>
+          <position>Председатель ликвидационной комиссии</position>
+          <date>2007-08-17</date>
+          <firstDate>2007-08-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

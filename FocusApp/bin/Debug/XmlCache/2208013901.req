@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2208013901</inn>
+    <ogrn>1062208030004</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1062208030004</focusHref>
+    <UL>
+      <kpp>220801001</kpp>
+      <okpo>96967184</okpo>
+      <okato>01413000000</okato>
+      <okfs>16</okfs>
+      <oktmo>01713000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТД "Алтайка"</short>
+        <full>Общество с ограниченной ответственностью "Торговый дом "Алтайка"</full>
+        <date>2006-07-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658080</zipCode>
+          <kladrCode>220000080000142</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новоалтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Промплощадка</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2009-03-05</date>
+        <firstDate>2009-03-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-07-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Вернигора Владимир Анатольевич</fio>
+          <innfl>222206919600</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-03-05</date>
+          <firstDate>2009-03-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7014035542</inn>
+    <ogrn>1037000053056</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037000053056</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>02787470</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ Картель"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ Картель"</full>
+        <date>2003-01-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634015</zipCode>
+          <kladrCode>700000010000880</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Энергетическая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>308</topoValue>
+          </flat>
+          <houseRaw>6А</houseRaw>
+          <flatRaw>ОФ.308</flatRaw>
+        </parsedAddressRF>
+        <date>2007-01-12</date>
+        <firstDate>2007-01-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-10-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Корешков Алексей Анатольевич</fio>
+          <innfl>701735865932</innfl>
+          <position>Директор</position>
+          <date>2011-11-17</date>
+          <firstDate>2003-01-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

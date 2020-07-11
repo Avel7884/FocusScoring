@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7722714462</inn>
+    <ogrn>1107746280531</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746280531</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okpo>66346852</okpo>
+      <okato>45290564000</okato>
+      <okfs>16</okfs>
+      <oktmo>45388000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Торговый Дом ЭНЕРГОПРОМ"</short>
+        <full>Общество с ограниченной ответственностью "Торговый Дом ЭНЕРГОПРОМ"</full>
+        <date>2010-04-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111033</zipCode>
+          <kladrCode>770000000000264</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Волочаевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40Г</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>4</topoValue>
+          </bulk>
+          <houseRaw>40Г</houseRaw>
+          <bulkRaw>СТР.4</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-04-13</date>
+        <firstDate>2010-04-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-04-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Асеев Александр Николаевич</fio>
+          <innfl>770303975377</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-05-03</date>
+          <firstDate>2014-03-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Горохов Юрий Федорович</fio>
+            <innfl>501101089931</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-12-27</date>
+            <firstDate>2010-12-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

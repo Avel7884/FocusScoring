@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1215076040</inn>
+    <ogrn>1021200768291</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021200768291</focusHref>
+    <UL>
+      <kpp>121501001</kpp>
+      <okpo>57372750</okpo>
+      <okato>88401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>88701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГРОПРОМИНВЕСТ"</short>
+        <full>Общество с ограниченной ответственностью "АГРОПРОМИНВЕСТ"</full>
+        <date>2009-12-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>424006</zipCode>
+          <kladrCode>120000010000249</kladrCode>
+          <regionCode>12</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Марий Эл</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Йошкар-Ола</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Складская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>18</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-12-14</date>
+        <firstDate>2009-12-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-09-24</date>
+      </status>
+      <registrationDate>2001-10-25</registrationDate>
+      <dissolutionDate>2014-09-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лысюк Татьяна Эдуардовна</fio>
+          <innfl>121514812400</innfl>
+          <position>Директор</position>
+          <date>2009-12-14</date>
+          <firstDate>2009-12-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

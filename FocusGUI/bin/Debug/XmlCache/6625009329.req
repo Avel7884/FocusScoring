@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6625009329</inn>
+    <ogrn>1026601505699</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026601505699</focusHref>
+    <UL>
+      <kpp>668401001</kpp>
+      <okpo>35175753</okpo>
+      <okato>65480000000</okato>
+      <okfs>16</okfs>
+      <oktmo>65753000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП"ЭЛЕГРАНД"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЕРВОУРАЛЬСКОЕ КАМНЕОБРАБАТЫВАЮЩЕЕ ПРЕДПРИЯТИЕ"ЭЛЕГРАНД"</full>
+        <date>2018-02-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>623100</zipCode>
+          <kladrCode>660000160000215</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Первоуральск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ильича</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <houseRaw>30</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-30</date>
+        <firstDate>2002-10-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-01-31</registrationDate>
+      <heads>
+        <head>
+          <fio>Вашенков Дмитрий Олегович</fio>
+          <innfl>662510181088</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-01-15</date>
+          <firstDate>2006-01-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>662501001</kpp>
+            <date>2013-03-18</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "Эверест"</short>
+            <full>Общество с ограниченной ответственностью "Эверест"</full>
+            <date>2002-10-30</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

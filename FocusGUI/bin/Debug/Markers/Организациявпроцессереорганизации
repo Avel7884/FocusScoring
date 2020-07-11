@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Организация в процессе реорганизации</Name>
+  <Colour>Yellow</Colour>
+  <Description>Находится в процессе реорганизации в форме присоединения к другому юридическому лицу (слияние, присоединение и т.д.)</Description>
+  <Code>return company.GetParam("Reorganizing") == "true"; </Code>
+</items>

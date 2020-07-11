@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725105349</inn>
+    <ogrn>1037739175275</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739175275</focusHref>
+    <UL>
+      <kpp>772401001</kpp>
+      <okpo>51233941</okpo>
+      <okato>45296569000</okato>
+      <okfs>16</okfs>
+      <oktmo>45917000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Айсберг-Айс"</short>
+        <full>Общество с ограниченной ответственностью "Айсберг-Айс"</full>
+        <date>2003-01-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115409</zipCode>
+          <kladrCode>770000000000496</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Каширское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>48</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>48</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2008-10-03</date>
+        <firstDate>2008-10-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-08-21</date>
+      </status>
+      <registrationDate>1999-10-14</registrationDate>
+      <dissolutionDate>2017-08-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галеев Александр Мидхатович</fio>
+          <innfl>772632633742</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-03-28</date>
+          <firstDate>2008-10-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

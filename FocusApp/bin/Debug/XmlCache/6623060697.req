@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623060697</inn>
+    <ogrn>1096623005555</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1096623005555</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>62041305</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20716</okopf>
+      <opf>Товарищества собственников жилья</opf>
+      <legalName>
+        <short>ТСЖ "Вязовский уют"</short>
+        <full>Товарищество собственников жилья "Вязовский уют"</full>
+        <date>2009-06-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622034</zipCode>
+          <kladrCode>660000230000092</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вязовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+        </parsedAddressRF>
+        <date>2009-06-11</date>
+        <firstDate>2009-06-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-06-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Никкель Андрей Абрамович</fio>
+          <innfl>666900223679</innfl>
+          <position>Председатель Правления</position>
+          <date>2018-04-10</date>
+          <firstDate>2009-06-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

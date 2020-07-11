@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1657116275</inn>
+    <ogrn>1121690018713</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1121690018713</focusHref>
+    <UL>
+      <kpp>165801001</kpp>
+      <okpo>38730089</okpo>
+      <okato>92401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Планета"</short>
+        <full>Общество с ограниченной ответственностью "Планета"</full>
+        <date>2012-03-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420085</zipCode>
+          <kladrCode>160000010001541</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Химиков</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <flat>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>19</houseRaw>
+          <flatRaw>10</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2013-01-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-03-29</date>
+      </status>
+      <registrationDate>2012-03-13</registrationDate>
+      <dissolutionDate>2016-03-29</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "КОЛИБРИ"</name>
+          <inn>1658178901</inn>
+          <ogrn>1151690036816</ogrn>
+          <date>2015-12-08</date>
+          <firstDate>2015-12-08</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>165701001</kpp>
+            <date>2012-03-13</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>420057</zipCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Казань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Гагарина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>63</topoValue>
+              </house>
+              <flat>
+                <topoValue>41</topoValue>
+              </flat>
+              <houseRaw>63</houseRaw>
+              <flatRaw>41</flatRaw>
+            </parsedAddressRF>
+            <date>2012-03-13</date>
+            <firstDate>2012-03-13</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Сергеева Ксения Юрьевна</fio>
+            <innfl>165717579173</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-03-13</date>
+            <firstDate>2012-03-13</firstDate>
+          </head>
+          <head>
+            <fio>Богомолова Рамзия Мунавировна</fio>
+            <innfl>165803395853</innfl>
+            <position>Генеральный директор</position>
+            <date>2013-01-29</date>
+            <firstDate>2013-01-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

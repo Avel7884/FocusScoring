@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5231003819</inn>
+    <ogrn>1025202122593</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202122593</focusHref>
+    <UL>
+      <kpp>523101001</kpp>
+      <okpo>58600443</okpo>
+      <okato>22250551000</okato>
+      <okfs>16</okfs>
+      <oktmo>22650151051</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Автодеталь"</short>
+        <full>Закрытое акционерное общество "Автодеталь"</full>
+        <date>2002-11-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>606170</zipCode>
+          <kladrCode>520410000010062</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Сосновский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>рп</topoShortName>
+            <topoFullName>рабочий поселок</topoFullName>
+            <topoValue>Сосновское</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Совхозная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <houseRaw>16</houseRaw>
+        </parsedAddressRF>
+        <date>2016-03-03</date>
+        <firstDate>2004-04-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-06-28</date>
+      </status>
+      <registrationDate>2002-11-04</registrationDate>
+      <dissolutionDate>2017-06-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чикин Николай Иванович</fio>
+          <innfl>523100060478</innfl>
+          <position>Ликвидатор</position>
+          <date>2013-05-30</date>
+          <firstDate>2013-05-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>606170</zipCode>
+              <kladrCode>520410000010062</kladrCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <settlement>
+                <topoShortName>рп</topoShortName>
+                <topoFullName>рабочий поселок</topoFullName>
+                <topoValue>Сосновское</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Совхозная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>16</topoValue>
+              </house>
+              <houseRaw>16</houseRaw>
+            </parsedAddressRF>
+            <date>2015-11-13</date>
+            <firstDate>2004-04-26</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Смирнова Светлана Евгеньевна</fio>
+            <innfl>525606584303</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-12-20</date>
+            <firstDate>2010-12-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

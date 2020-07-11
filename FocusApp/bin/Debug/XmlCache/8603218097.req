@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>8603218097</inn>
+    <ogrn>1158617009946</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1158617009946</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>33603146</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "СИБИРЬМЕТАЛЛ"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "СИБИРЬМЕТАЛЛ"</full>
+        <date>2015-10-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628602</zipCode>
+          <kladrCode>860000110000001</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>60 лет Октября</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>92</topoValue>
+          </flat>
+          <houseRaw>ДОМ 23</houseRaw>
+          <flatRaw>КВАРТИРА 92</flatRaw>
+        </parsedAddressRF>
+        <date>2015-10-08</date>
+        <firstDate>2015-10-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-10-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Русскина Елена Викторовна</fio>
+          <innfl>860310352771</innfl>
+          <position>Директор</position>
+          <date>2015-10-08</date>
+          <firstDate>2015-10-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4345189259</inn>
+    <ogrn>1074345033113</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1074345033113</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Вельта"</short>
+        <full>Общество с ограниченной ответственностью "Вельта"</full>
+        <date>2007-06-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610014</zipCode>
+          <kladrCode>430000010000591</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Щорса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <houseRaw>21</houseRaw>
+        </parsedAddressRF>
+        <date>2007-06-20</date>
+        <firstDate>2007-06-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-08-07</date>
+      </status>
+      <registrationDate>2007-06-20</registrationDate>
+      <dissolutionDate>2007-08-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ившина Елена Геннадьевна</fio>
+          <innfl>434800609078</innfl>
+          <position>Директор</position>
+          <date>2007-06-20</date>
+          <firstDate>2007-06-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5258019742</inn>
+    <ogrn>1025202609420</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025202609420</focusHref>
+    <UL>
+      <kpp>525801001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТО-К"</short>
+        <full>Общество с ограниченной ответственностью "АВТО-К"</full>
+        <date>2002-10-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603090</zipCode>
+          <kladrCode>520000010000565</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>65</topoValue>
+          </house>
+          <bulk>
+            <topoValue>3</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>40</topoValue>
+          </flat>
+          <houseRaw>65</houseRaw>
+          <bulkRaw>3</bulkRaw>
+          <flatRaw>40</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-16</date>
+        <firstDate>2002-10-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-06-21</date>
+      </status>
+      <registrationDate>1994-02-04</registrationDate>
+      <dissolutionDate>2007-06-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Корзунов Александр Алексеевич</fio>
+          <innfl>525701825277</innfl>
+          <position>Директор</position>
+          <date>2002-10-16</date>
+          <firstDate>2002-10-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

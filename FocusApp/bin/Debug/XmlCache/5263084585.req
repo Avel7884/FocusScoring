@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5263084585</inn>
+    <ogrn>1115263001072</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1115263001072</focusHref>
+    <UL>
+      <kpp>526301001</kpp>
+      <okpo>90359325</okpo>
+      <okato>22401382000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МТИ"</short>
+        <full>Общество с ограниченной ответственностью "МеталлТрансИнвест"</full>
+        <date>2011-02-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603127</zipCode>
+          <kladrCode>520000010001391</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Коновалова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>211</topoValue>
+          </flat>
+          <houseRaw>6</houseRaw>
+          <flatRaw>ОФИС 211</flatRaw>
+        </parsedAddressRF>
+        <date>2011-02-11</date>
+        <firstDate>2011-02-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-02-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Семенов Артем Юрьевич</fio>
+          <innfl>524405629376</innfl>
+          <position>Директор</position>
+          <date>2011-02-11</date>
+          <firstDate>2011-02-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

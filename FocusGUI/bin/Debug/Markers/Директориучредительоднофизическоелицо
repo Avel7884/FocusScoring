@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>Директор и учредитель одно физическое лицо</Name>
+  <Colour>Yellow</Colour>
+  <Description>Директор и учредитель одно физическое лицо</Description>
+  <Code>
+                        var a = company.GetParams("head");
+                        var b = company.GetParams("FounderFL");
+                        return a.Any(x =&gt; b.Any(y =&gt; x == y));</Code>
+</items>

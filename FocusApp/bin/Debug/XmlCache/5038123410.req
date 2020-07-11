@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5038123410</inn>
+    <ogrn>1165038054675</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1165038054675</focusHref>
+    <UL>
+      <kpp>503801001</kpp>
+      <okpo>04448507</okpo>
+      <okato>46247501000</okato>
+      <okfs>16</okfs>
+      <oktmo>46647101001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКГТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННАЯ КОМПАНИЯ ГИДРОТЕХНИКА"</full>
+        <date>2016-09-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141207</zipCode>
+          <kladrCode>500270010000066</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Пушкинский</topoValue>
+          </district>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пушкино</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Надсоновская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24</topoValue>
+          </house>
+          <flat>
+            <topoValue>помещение 12, Комната 96</topoValue>
+          </flat>
+          <houseRaw>ДОМ 24</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 12, КОМНАТА 96</flatRaw>
+        </parsedAddressRF>
+        <date>2017-01-20</date>
+        <firstDate>2017-01-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-09-06</registrationDate>
+      <heads>
+        <head>
+          <fio>Корнилов Максим Владимирович</fio>
+          <innfl>503807217522</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-06-05</date>
+          <firstDate>2018-06-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>141207</zipCode>
+              <kladrCode>500270010000020</kladrCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Пушкинский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Пушкино</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Грибоедова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>3</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>34</topoValue>
+              </flat>
+              <houseRaw>ДОМ 3</houseRaw>
+              <flatRaw>ОФИС 34</flatRaw>
+            </parsedAddressRF>
+            <date>2016-09-06</date>
+            <firstDate>2016-09-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Корнилова Наталья Александровна</fio>
+            <innfl>503806442973</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-09-06</date>
+            <firstDate>2016-09-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

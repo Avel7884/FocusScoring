@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7414006722</inn>
+    <ogrn>1027400000638</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027400000638</focusHref>
+    <UL>
+      <kpp>745601001</kpp>
+      <okpo>21553996</okpo>
+      <okato>75438375000</okato>
+      <okfs>16</okfs>
+      <oktmo>75738000001</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>БАНК "КУБ" (АО)</short>
+        <full>"КРЕДИТ УРАЛ БАНК" (АКЦИОНЕРНОЕ ОБЩЕСТВО)</full>
+        <date>2015-09-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>455044</zipCode>
+          <kladrCode>740000090000068</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Магнитогорск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гагарина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>ДОМ 17</houseRaw>
+        </parsedAddressRF>
+        <date>2015-09-01</date>
+        <firstDate>2002-10-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-03-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Еремина Светлана Вадимовна</fio>
+          <innfl>744501164234</innfl>
+          <position>Председатель Правления</position>
+          <date>2018-11-26</date>
+          <firstDate>2015-12-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>744601001</kpp>
+            <date>2012-06-18</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>"КУБ" ОАО</short>
+            <full>"Кредит Урал Банк" открытое акционерное общество</full>
+            <date>2002-10-23</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Бердников Вячеслав Викторович</fio>
+            <innfl>744400416414</innfl>
+            <position>Председатель Правления</position>
+            <date>2010-12-10</date>
+            <firstDate>2010-12-10</firstDate>
+          </head>
+          <head>
+            <fio>Моисеева Оксана Викторовна</fio>
+            <innfl>744400429660</innfl>
+            <position>Временно Исполняющий Обязанности Председателя Правления</position>
+            <date>2015-11-20</date>
+            <firstDate>2015-11-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>13</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

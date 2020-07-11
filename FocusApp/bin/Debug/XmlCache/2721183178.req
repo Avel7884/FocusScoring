@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2721183178</inn>
+    <ogrn>1112721002503</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1112721002503</focusHref>
+    <UL>
+      <kpp>272501001</kpp>
+      <okpo>90231476</okpo>
+      <okato>08401371000</okato>
+      <okfs>16</okfs>
+      <oktmo>08701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Строй ДВ"</short>
+        <full>Общество с ограниченной ответственностью "Строй ДВ"</full>
+        <date>2011-04-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>680033</zipCode>
+          <kladrCode>270000010000879</kladrCode>
+          <regionCode>27</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Хабаровский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Хабаровск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тихоокеанская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>204</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>901</topoValue>
+          </flat>
+          <houseRaw>204</houseRaw>
+          <flatRaw>ОФИС 901</flatRaw>
+        </parsedAddressRF>
+        <date>2013-06-03</date>
+        <firstDate>2013-06-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-02-16</date>
+      </status>
+      <registrationDate>2011-04-12</registrationDate>
+      <dissolutionDate>2017-02-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кузнецова Евгения Анатольевна</fio>
+          <innfl>272512113160</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2016-08-29</date>
+          <firstDate>2016-08-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>272101001</kpp>
+            <date>2011-04-12</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>680000</zipCode>
+              <regionCode>27</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Хабаровский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Хабаровск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Шеронова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>103</topoValue>
+              </house>
+              <houseRaw>103</houseRaw>
+            </parsedAddressRF>
+            <date>2011-04-12</date>
+            <firstDate>2011-04-12</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Белошниченко Владимир Владимирович</fio>
+            <innfl>271101205856</innfl>
+            <position>Генеральный директор</position>
+            <date>2013-04-14</date>
+            <firstDate>2011-04-12</firstDate>
+          </head>
+          <head>
+            <fio>Корнилов Александр Алексеевич</fio>
+            <innfl>272508515853</innfl>
+            <position>Директор</position>
+            <date>2013-06-03</date>
+            <firstDate>2013-06-03</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

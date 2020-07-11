@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5609075530</inn>
+    <ogrn>1105658002670</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1105658002670</focusHref>
+    <UL>
+      <kpp>560901001</kpp>
+      <okpo>63189820</okpo>
+      <okato>53401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>53701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Орен-Карт"</short>
+        <full>Общество с ограниченной ответственностью "Орен-Карт"</full>
+        <date>2013-06-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>460048</zipCode>
+          <kladrCode>560000010000186</kladrCode>
+          <regionCode>56</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Оренбургская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Оренбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>164</topoValue>
+          </house>
+          <houseRaw>164</houseRaw>
+        </parsedAddressRF>
+        <date>2010-02-05</date>
+        <firstDate>2010-02-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-02-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Коновал Александр Яковлевич</fio>
+          <innfl>561017167700</innfl>
+          <position>Директор</position>
+          <date>2018-07-06</date>
+          <firstDate>2012-07-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Фролов Сергей Васильевич</fio>
+            <innfl>561100449273</innfl>
+            <position>Директор</position>
+            <date>2010-07-13</date>
+            <firstDate>2010-07-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

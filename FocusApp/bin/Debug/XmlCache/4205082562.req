@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205082562</inn>
+    <ogrn>1054205061107</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054205061107</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>70616524</okpo>
+      <okato>32401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>32701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ПАРАЛАКС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО КОММЕРЧЕСКАЯ ФИРМА "ПАРАЛАКС"</full>
+        <date>2005-03-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650000</zipCode>
+          <kladrCode>420000090000833</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Кузнецкий</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <flat>
+            <topoValue>3</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <flatRaw>3</flatRaw>
+        </parsedAddressRF>
+        <date>2006-05-23</date>
+        <firstDate>2006-05-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-03-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Иванникова Ольга Леонидовна</fio>
+          <innfl>420522824437</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-03-12</date>
+          <firstDate>2013-03-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Седнев Сергей Александрович</fio>
+            <position>Генеральный Директор</position>
+            <date>2005-03-28</date>
+            <firstDate>2005-03-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

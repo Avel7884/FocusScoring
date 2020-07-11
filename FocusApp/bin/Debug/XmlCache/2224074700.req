@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2224074700</inn>
+    <ogrn>1022201512365</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022201512365</focusHref>
+    <UL>
+      <kpp>222401001</kpp>
+      <okpo>31479657</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛТАЙТЕХГАЗ"</short>
+        <full>Общество с ограниченной ответственностью "АЛТАЙТЕХГАЗ"</full>
+        <date>2002-09-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656023</zipCode>
+          <kladrCode>220000010000627</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Германа Титова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1А</topoValue>
+          </house>
+          <houseRaw>1 А</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-10</date>
+        <firstDate>2002-09-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-09-27</date>
+      </status>
+      <registrationDate>2002-09-10</registrationDate>
+      <dissolutionDate>2012-09-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сигулин Юрий Александрович</fio>
+          <innfl>222200563330</innfl>
+          <position>Директор</position>
+          <date>2007-02-21</date>
+          <firstDate>2007-02-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

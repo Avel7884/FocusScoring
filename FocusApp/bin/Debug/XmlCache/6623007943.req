@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623007943</inn>
+    <ogrn>1026601379298</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026601379298</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>57669450</okpo>
+      <okato>65476382000</okato>
+      <okfs>41</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТАЛЛУРГ-ФОРУМ"</short>
+        <full>Общество с ограниченной ответственностью "МЕТАЛЛУРГ-ФОРУМ"</full>
+        <date>2002-11-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622025</zipCode>
+          <kladrCode>660000230000327</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Металлургов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-25</date>
+        <firstDate>2002-11-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-10-04</date>
+      </status>
+      <registrationDate>2001-08-10</registrationDate>
+      <dissolutionDate>2018-10-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Макарова Марина Евгеньевна</fio>
+          <innfl>662329247955</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2017-06-01</date>
+          <firstDate>2017-06-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Цветков Олег Викторович</fio>
+            <innfl>666900240508</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-01-13</date>
+            <firstDate>2011-01-13</firstDate>
+          </head>
+          <head>
+            <fio>Аккерман Александр Эдуардович</fio>
+            <innfl>666800351596</innfl>
+            <position>Генеральный директор</position>
+            <date>2013-03-19</date>
+            <firstDate>2013-03-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

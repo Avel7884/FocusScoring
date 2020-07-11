@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5249044284</inn>
+    <ogrn>1025201747999</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025201747999</focusHref>
+    <UL>
+      <kpp>524901001</kpp>
+      <okpo>47539491</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Агростройсервис"</short>
+        <full>Закрытое акционерное общество "Агростройсервис"</full>
+        <date>2002-09-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>606029</zipCode>
+          <kladrCode>520000020000008</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Дзержинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гайдара</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>75</topoValue>
+          </house>
+          <houseRaw>75</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-19</date>
+        <firstDate>2002-09-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-06-01</date>
+      </status>
+      <registrationDate>1997-10-08</registrationDate>
+      <dissolutionDate>2011-06-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Серебряков Александр Павлович</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2009-10-16</date>
+          <firstDate>2009-10-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>6205005392</inn>
+    <ogrn>1026200558592</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026200558592</focusHref>
+    <UL>
+      <kpp>620501001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ТУМСКИЙ ГОК"</short>
+        <full>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "ТУМСКИЙ ГОРНООБОГАТИТЕЛЬНЫЙ КОМБИНАТ"</full>
+        <date>2002-12-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>391001</zipCode>
+          <kladrCode>620060002400017</kladrCode>
+          <regionCode>62</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Рязанская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Клепиковский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>рп</topoShortName>
+            <topoFullName>рабочий поселок</topoFullName>
+            <topoValue>Тума</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>120</topoValue>
+          </house>
+          <houseRaw>120</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2002-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-07-07</date>
+      </status>
+      <registrationDate>2001-06-06</registrationDate>
+      <dissolutionDate>2008-07-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пономарев Николай Александрович</fio>
+          <innfl>621723115798</innfl>
+          <position>Председатель Ликвидационной Комисси</position>
+          <date>2008-05-16</date>
+          <firstDate>2007-09-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

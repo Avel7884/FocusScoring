@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2540001972</inn>
+    <ogrn>1022502272792</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022502272792</focusHref>
+    <UL>
+      <kpp>253801001</kpp>
+      <okpo>03933867</okpo>
+      <okato>05401369000</okato>
+      <okfs>16</okfs>
+      <oktmo>05701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АКОС"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АКОС"</full>
+        <date>2019-07-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>690048</zipCode>
+          <kladrCode>250000010000713</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владивосток</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>100-летия Владивостока</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>38А</topoValue>
+          </house>
+          <houseRaw>38А</houseRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2015-11-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-10-20</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "Т2 МОБАЙЛ"</name>
+          <inn>7743895280</inn>
+          <ogrn>1137746610088</ogrn>
+          <date>2015-03-26</date>
+          <firstDate>2014-04-22</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "АКОС"</short>
+            <full>Закрытое акционерное общество "АКОС"</full>
+            <date>2002-12-17</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>690048</zipCode>
+              <kladrCode>250000010000713</kladrCode>
+              <regionCode>25</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Приморский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Владивосток</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>100 лет Владивостоку</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>38А</topoValue>
+              </house>
+              <houseRaw>38А</houseRaw>
+            </parsedAddressRF>
+            <date>2006-03-21</date>
+            <firstDate>2006-03-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Темченко Дмитрий Викторович</fio>
+            <innfl>272112807540</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-04-22</date>
+            <firstDate>2011-04-22</firstDate>
+          </head>
+          <head>
+            <fio>Леоненко Сергей Николаевич</fio>
+            <innfl>246514313420</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-08-10</date>
+            <firstDate>2011-08-10</firstDate>
+          </head>
+          <head>
+            <fio>Волошин Константин Геннадьевич</fio>
+            <innfl>253603258958</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-11-09</date>
+            <firstDate>2012-08-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>18</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

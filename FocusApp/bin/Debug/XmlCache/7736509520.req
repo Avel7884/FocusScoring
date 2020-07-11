@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7736509520</inn>
+    <ogrn>1047796607704</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796607704</focusHref>
+    <UL>
+      <kpp>773601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКРОН"</short>
+        <full>Общество с ограниченной ответственностью "АКРОН"</full>
+        <date>2004-08-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119333</zipCode>
+          <kladrCode>770000000001689</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52</topoValue>
+          </house>
+          <houseRaw>52</houseRaw>
+        </parsedAddressRF>
+        <date>2004-08-17</date>
+        <firstDate>2004-08-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-08-09</date>
+      </status>
+      <registrationDate>2004-08-17</registrationDate>
+      <dissolutionDate>2008-08-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Боровков Борис Борисович</fio>
+          <innfl>503112114301</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-08-17</date>
+          <firstDate>2004-08-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

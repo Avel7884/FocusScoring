@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7730140476</inn>
+    <ogrn>1027739230716</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739230716</focusHref>
+    <UL>
+      <kpp>773001001</kpp>
+      <okpo>56693966</okpo>
+      <okato>45268554000</okato>
+      <okfs>16</okfs>
+      <oktmo>45318000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автомир-43"</short>
+        <full>Общество с ограниченной ответственностью "Автомир-43"</full>
+        <date>2002-09-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121170</zipCode>
+          <kladrCode>770000000001659</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Кутузовский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>43</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-09-20</date>
+        <firstDate>2002-09-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-06-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Лукьянов Валерий Александрович</fio>
+          <innfl>774333471127</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-11-14</date>
+          <firstDate>2014-11-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774901001</kpp>
+            <date>2012-11-13</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Кудрявцева Валентина Михайловна</fio>
+            <innfl>771604858012</innfl>
+            <position>Генеральный Директор</position>
+            <date>2007-08-15</date>
+            <firstDate>2007-08-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

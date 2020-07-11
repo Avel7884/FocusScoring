@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658123884</inn>
+    <ogrn>1026602342029</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602342029</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okpo>55781390</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "XXI ВЕК"</short>
+        <full>Общество с ограниченной ответственностью "XXI ВЕК"</full>
+        <date>2002-12-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620109</zipCode>
+          <kladrCode>660000010000079</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Анри Барбюса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <flat>
+            <topoValue>77</topoValue>
+          </flat>
+          <houseRaw>13</houseRaw>
+          <flatRaw>77</flatRaw>
+        </parsedAddressRF>
+        <date>2007-07-12</date>
+        <firstDate>2007-07-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-04-17</date>
+      </status>
+      <registrationDate>2000-12-19</registrationDate>
+      <dissolutionDate>2012-04-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мартынчук Сергей Николаевич</fio>
+          <innfl>667405926478</innfl>
+          <position>Директор</position>
+          <date>2007-07-12</date>
+          <firstDate>2007-07-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

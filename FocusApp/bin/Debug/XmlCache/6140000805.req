@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6140000805</inn>
+    <ogrn>1026101791715</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026101791715</focusHref>
+    <UL>
+      <kpp>614001001</kpp>
+      <okpo>12150762</okpo>
+      <okato>60404000000</okato>
+      <okfs>16</okfs>
+      <oktmo>60704000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АЗОВРЫБА"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АЗОВРЫБА"</full>
+        <date>2016-07-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>346780</zipCode>
+          <kladrCode>610000130000045</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Азов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Васильева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2010-01-19</date>
+        <firstDate>2010-01-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-06-17</date>
+      </status>
+      <registrationDate>2002-06-24</registrationDate>
+      <dissolutionDate>2019-06-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Степанова Елена Дмитриевна</fio>
+          <innfl>616131815963</innfl>
+          <position>Председатель Ликвидационной Комиссии</position>
+          <date>2019-01-14</date>
+          <firstDate>2019-01-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО "Азоврыба"</short>
+            <full>Открытое акционерное общество "Азоврыба"</full>
+            <date>2002-10-14</date>
+          </legalName>
+        </legalNames>
+        <managementCompanies>
+          <managementCompany>
+            <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ УК "РОСТЗЕРНОТРАНС"</name>
+            <inn>6165122890</inn>
+            <ogrn>1056165056584</ogrn>
+            <date>2012-10-23</date>
+            <firstDate>2012-10-23</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Яцук Анатолий Михайлович</fio>
+            <innfl>610700039750</innfl>
+            <position>Представитель Управляющей компании</position>
+            <date>2012-10-23</date>
+            <firstDate>2012-10-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

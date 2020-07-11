@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7723781133</inn>
+    <ogrn>5107746019552</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5107746019552</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>69608465</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Пластмасс Групп"</short>
+        <full>Общество с ограниченной ответственностью "Пластмасс Групп"</full>
+        <date>2010-12-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115088</zipCode>
+          <kladrCode>770000000000226</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шарикоподшипниковская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36/18</topoValue>
+          </house>
+          <houseRaw>36/18</houseRaw>
+        </parsedAddressRF>
+        <date>2010-12-14</date>
+        <firstDate>2010-12-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-03-31</date>
+      </status>
+      <registrationDate>2010-12-14</registrationDate>
+      <dissolutionDate>2015-03-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гребе Юрий Иванович</fio>
+          <innfl>502604826615</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-12-14</date>
+          <firstDate>2010-12-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

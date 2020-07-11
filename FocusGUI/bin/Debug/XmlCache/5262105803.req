@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5262105803</inn>
+    <ogrn>1025203752815</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203752815</focusHref>
+    <UL>
+      <kpp>784001001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агма-Н"</short>
+        <full>Общество с ограниченной ответственностью "Агма-Н"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>191002</zipCode>
+          <kladrCode>780000000000774</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Марата</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>35А</topoValue>
+          </house>
+          <flat>
+            <topoValue>2Н</topoValue>
+          </flat>
+          <houseRaw>35 А</houseRaw>
+          <bulkRaw>--</bulkRaw>
+          <flatRaw>2 Н</flatRaw>
+        </parsedAddressRF>
+        <date>2006-03-30</date>
+        <firstDate>2006-03-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-07-13</date>
+      </status>
+      <registrationDate>2002-03-29</registrationDate>
+      <dissolutionDate>2007-07-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шурыгин Олег Владимирович</fio>
+          <innfl>507560288300</innfl>
+          <position>Директор</position>
+          <date>2006-03-15</date>
+          <firstDate>2006-03-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2226002532</inn>
+    <ogrn>1022200553540</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200553540</focusHref>
+    <UL>
+      <kpp>222601001</kpp>
+      <okpo>05783969</okpo>
+      <okato>01405000000</okato>
+      <okfs>16</okfs>
+      <oktmo>01705000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АЛТАЙВИТАМИНЫ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АЛТАЙВИТАМИНЫ"</full>
+        <date>2019-08-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>659325</zipCode>
+          <kladrCode>220000040000110</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Бийск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>69</topoValue>
+          </house>
+          <houseRaw>69</houseRaw>
+        </parsedAddressRF>
+        <date>2002-07-17</date>
+        <firstDate>2002-07-17</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>109129</zipCode>
+            <kladrCode>770000000000218</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Текстильщиков 8-я</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>15</topoValue>
+            </house>
+            <houseRaw>15</houseRaw>
+          </parsedAddressRF>
+          <date>2006-09-13</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-12-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Кошелев Юрий Антонович</fio>
+          <innfl>222600656300</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-07-17</date>
+          <firstDate>2002-07-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "АЛТАЙВИТАМИНЫ"</short>
+            <full>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "АЛТАЙВИТАМИНЫ"</full>
+            <date>2002-07-17</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>10</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

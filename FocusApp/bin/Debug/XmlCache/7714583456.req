@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714583456</inn>
+    <ogrn>1047797012856</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047797012856</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>75575557</okpo>
+      <okato>45277556000</okato>
+      <okfs>16</okfs>
+      <oktmo>45334000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Айрон Бизнес"</short>
+        <full>Общество с ограниченной ответственностью "Айрон Бизнес"</full>
+        <date>2004-12-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125124</zipCode>
+          <kladrCode>770000000002451</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Расковой</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26/29</topoValue>
+          </house>
+          <houseRaw>26/29</houseRaw>
+        </parsedAddressRF>
+        <date>2004-12-22</date>
+        <firstDate>2004-12-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-03-14</date>
+      </status>
+      <registrationDate>2004-12-22</registrationDate>
+      <dissolutionDate>2016-03-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ямщиков Виктор Федорович</fio>
+          <innfl>772205755874</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-12-22</date>
+          <firstDate>2004-12-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

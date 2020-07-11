@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217050100</inn>
+    <ogrn>1024201472415</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201472415</focusHref>
+    <UL>
+      <kpp>421801001</kpp>
+      <okpo>57639839</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>Аквахим-К ООО</short>
+        <full>Аквахим-К Общество с ограниченной ответственностью</full>
+        <date>2002-11-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654067</zipCode>
+          <kladrCode>420000120000019</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Авиаторов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>101</topoValue>
+          </house>
+          <flat>
+            <topoValue>42</topoValue>
+          </flat>
+          <houseRaw>101</houseRaw>
+          <flatRaw>42</flatRaw>
+        </parsedAddressRF>
+        <date>2009-11-18</date>
+        <firstDate>2009-11-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-08-27</date>
+      </status>
+      <registrationDate>2002-01-29</registrationDate>
+      <dissolutionDate>2010-08-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Краснова Екатерина Георгиевна</fio>
+          <innfl>421811120946</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-05-14</date>
+          <firstDate>2010-05-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

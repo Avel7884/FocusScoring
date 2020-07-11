@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5262114759</inn>
+    <ogrn>1035205761876</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035205761876</focusHref>
+    <UL>
+      <kpp>636701001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВМС "НН"</short>
+        <full>Общество с ограниченной ответственностью "Выставка Мобильной Связи "НН"</full>
+        <date>2003-03-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443535</zipCode>
+          <kladrCode>630280000220011</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Волжский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Лопатино</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1А</topoValue>
+          </house>
+          <houseRaw>1А</houseRaw>
+        </parsedAddressRF>
+        <date>2007-08-20</date>
+        <firstDate>2007-08-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-12-25</date>
+      </status>
+      <registrationDate>2003-03-18</registrationDate>
+      <dissolutionDate>2007-12-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Григорьев Максим Дмитриевич</fio>
+          <innfl>400488912092</innfl>
+          <position>Генеральный Директор</position>
+          <date>2006-05-05</date>
+          <firstDate>2006-05-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

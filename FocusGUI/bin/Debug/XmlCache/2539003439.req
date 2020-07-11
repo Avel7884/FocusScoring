@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2539003439</inn>
+    <ogrn>1022502123819</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022502123819</focusHref>
+    <UL>
+      <kpp>253901001</kpp>
+      <okpo>27024885</okpo>
+      <okato>05401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>05701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ДИЦ "ВОСТОК"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ДАЛЬНЕВОСТОЧНЫЙ ИНЖИНИРИНГОВЫЙ ЦЕНТР "ВОСТОК"</full>
+        <date>2015-10-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>690022</zipCode>
+          <kladrCode>250000010000713</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владивосток</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>100-летия Владивостока</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>159</topoValue>
+          </house>
+          <houseRaw>159</houseRaw>
+        </parsedAddressRF>
+        <date>2013-10-02</date>
+        <firstDate>2002-11-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-06-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Дубошин Андрей Александрович</fio>
+          <innfl>253696325876</innfl>
+          <position>Директор</position>
+          <date>2019-07-09</date>
+          <firstDate>2019-07-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ДИЦ "МОДУЛЬ"</short>
+            <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ДАЛЬНЕВОСТОЧНАЯ ИНЖИНИРИНГОВАЯ КОМПАНИЯ "МОДУЛЬ"</full>
+            <date>2015-09-16</date>
+          </legalName>
+          <legalName>
+            <short>ООО "Академстрой"</short>
+            <full>Общество с ограниченной ответственностью "Академстрой"</full>
+            <date>2002-11-22</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <regionCode>25</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Приморский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Владивосток</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>100 лет Владивостоку</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>159</topoValue>
+              </house>
+              <houseRaw>159</houseRaw>
+            </parsedAddressRF>
+            <date>2002-11-22</date>
+            <firstDate>2002-11-22</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Вовденко Татьяна Владимировна</fio>
+            <position>Директор</position>
+            <date>2007-08-06</date>
+            <firstDate>2007-08-06</firstDate>
+          </head>
+          <head>
+            <fio>Ворона Виктория Анатольевна</fio>
+            <innfl>253904061641</innfl>
+            <position>Директор</position>
+            <date>2018-07-28</date>
+            <firstDate>2013-01-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

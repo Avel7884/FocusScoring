@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>Наличие арбитражной практики</Name>
+  <Colour>Green</Colour>
+  <Description>Кол-во арбитражных дел за последние 12 месяцев в качестве ответчика или истца больше нуля</Description>
+  <Code> return company.GetParam("q2001") != "" || company.GetParam("q2003") != "";</Code>
+</items>

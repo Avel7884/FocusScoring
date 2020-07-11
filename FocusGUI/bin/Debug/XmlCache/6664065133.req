@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6664065133</inn>
+    <ogrn>1146679016329</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1146679016329</focusHref>
+    <UL>
+      <kpp>666401001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <full>ОБЩЕСТВА С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ФИНАНСОВОЕ ОБЪЕДИНЕНИЕ "АЛАРМ"</full>
+        <date>2014-06-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620085</zipCode>
+          <kladrCode>660000010000018</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>8 Марта</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>205</topoValue>
+          </house>
+          <flat>
+            <topoValue>413С</topoValue>
+          </flat>
+          <houseRaw>205</houseRaw>
+          <flatRaw>413С</flatRaw>
+        </parsedAddressRF>
+        <date>2014-06-27</date>
+        <firstDate>2014-06-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-06-27</date>
+      </status>
+      <registrationDate>1999-06-01</registrationDate>
+      <dissolutionDate>2014-06-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кривых Алексей Георгиевич</fio>
+          <innfl>665900149656</innfl>
+          <position>Руководитель Юридического Лица</position>
+          <date>2014-06-27</date>
+          <firstDate>2014-06-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

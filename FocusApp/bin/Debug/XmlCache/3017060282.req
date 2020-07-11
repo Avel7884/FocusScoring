@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3017060282</inn>
+    <ogrn>1093017001439</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1093017001439</focusHref>
+    <UL>
+      <kpp>302501001</kpp>
+      <okpo>61515451</okpo>
+      <okato>12401381000</okato>
+      <okfs>16</okfs>
+      <oktmo>12701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Юг-Сервис Трейд"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Юг-Сервис Трейд"</full>
+        <date>2009-07-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>414024</zipCode>
+          <kladrCode>300000010001194</kladrCode>
+          <regionCode>30</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Астраханская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Астрахань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Набережная реки Царева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2009-07-06</date>
+        <firstDate>2009-07-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-07-06</registrationDate>
+      <heads>
+        <head>
+          <fio>Красильников Алексей Алексеевич</fio>
+          <innfl>301706416811</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-03-21</date>
+          <firstDate>2016-03-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бурняшев Александр Сергеевич</fio>
+            <innfl>301002980059</innfl>
+            <position>Генеральный Директор</position>
+            <date>2011-05-23</date>
+            <firstDate>2011-05-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

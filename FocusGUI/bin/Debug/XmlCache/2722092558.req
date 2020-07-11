@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2722092558</inn>
+    <ogrn>1102722001414</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1102722001414</focusHref>
+    <UL>
+      <kpp>272201001</kpp>
+      <okpo>64404002</okpo>
+      <okato>08401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>08701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ"</full>
+        <date>2010-03-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>680028</zipCode>
+          <kladrCode>270000010000803</kladrCode>
+          <regionCode>27</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Хабаровский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Хабаровск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Серышева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <flat>
+            <topoValue>423</topoValue>
+          </flat>
+          <houseRaw>22</houseRaw>
+          <flatRaw>423</flatRaw>
+        </parsedAddressRF>
+        <date>2010-03-03</date>
+        <firstDate>2010-03-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2018-12-03</date>
+      </status>
+      <registrationDate>2010-03-03</registrationDate>
+      <heads>
+        <head>
+          <fio>Красильников Никита Сергеевич</fio>
+          <innfl>272191080181</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2018-12-03</date>
+          <firstDate>2018-12-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Суховей Александр Юрьевич</fio>
+            <innfl>272103476469</innfl>
+            <position>Директор</position>
+            <date>2010-03-03</date>
+            <firstDate>2010-03-03</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7726080496</inn>
+    <ogrn>1027739443049</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739443049</focusHref>
+    <UL>
+      <kpp>771501001</kpp>
+      <okpo>11255507</okpo>
+      <okato>45280558000</okato>
+      <okfs>16</okfs>
+      <oktmo>45352000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Интеграционные Системы"</short>
+        <full>Закрытое акционерное общество "Интеграционные Системы"</full>
+        <date>2013-06-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127549</zipCode>
+          <kladrCode>770000000002379</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пришвина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>25</topoValue>
+          </flat>
+          <houseRaw>8</houseRaw>
+          <bulkRaw>2</bulkRaw>
+          <flatRaw>ОФИС 25</flatRaw>
+        </parsedAddressRF>
+        <date>2008-06-19</date>
+        <firstDate>2008-06-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-08-29</date>
+      </status>
+      <registrationDate>1994-10-04</registrationDate>
+      <dissolutionDate>2019-08-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Рудников Владимир Алексеевич</fio>
+          <innfl>504793509161</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-08</date>
+          <firstDate>2015-03-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "Компания ЭР-СТАЙЛ" (ЗАО "Компания R-Style")</short>
+            <full>Закрытое акционерное общество "Компания ЭР-СТАЙЛ" (Закрытое акционерное общество "Компания R-Style")</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Сундуков Игорь Борисович</fio>
+            <innfl>771510875083</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-03-11</date>
+            <firstDate>2014-03-11</firstDate>
+          </head>
+          <head>
+            <fio>Васин Василий Иванович</fio>
+            <innfl>772731069100</innfl>
+            <position>Генеральный Директор</position>
+            <date>2008-04-23</date>
+            <firstDate>2008-04-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

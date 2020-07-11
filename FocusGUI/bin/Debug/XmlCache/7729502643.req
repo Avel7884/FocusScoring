@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7729502643</inn>
+    <ogrn>1047796037145</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796037145</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>72109760</okpo>
+      <okato>45286555000</okato>
+      <okfs>16</okfs>
+      <oktmo>45375000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аванти"</short>
+        <full>Общество с ограниченной ответственностью "Аванти"</full>
+        <date>2004-01-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105094</zipCode>
+          <kladrCode>770000000001109</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гольяновская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3А</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>6</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3А</houseRaw>
+          <bulkRaw>КОРПУС 3</bulkRaw>
+          <flatRaw>ОФИС 6</flatRaw>
+        </parsedAddressRF>
+        <date>2013-12-05</date>
+        <firstDate>2013-12-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-09-09</date>
+      </status>
+      <registrationDate>2004-01-26</registrationDate>
+      <dissolutionDate>2014-09-09</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>"ПЛАТЕКС ГРУП ЛТД"</name>
+          <inn>9909386870</inn>
+          <date>2013-11-14</date>
+          <firstDate>2013-11-14</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772901001</kpp>
+            <date>2004-01-27</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119607</zipCode>
+              <kladrCode>770000000002448</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Раменки</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>17</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2004-01-26</date>
+            <firstDate>2004-01-26</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <managementCompanies>
+          <managementCompany>
+            <name>"ПЛАТЕКС ГРУП ЛТД"</name>
+            <date>2013-11-14</date>
+            <firstDate>2013-09-30</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Волошин Александр Петрович</fio>
+            <position>Генеральный директор</position>
+            <date>2005-04-19</date>
+            <firstDate>2005-04-19</firstDate>
+          </head>
+          <head>
+            <fio>Панченко Сергей Васильевич</fio>
+            <position>Генеральный Директор</position>
+            <date>2013-08-05</date>
+            <firstDate>2012-09-04</firstDate>
+          </head>
+          <head>
+            <fio>Антата Гаетан Шарон</fio>
+            <date>2013-09-30</date>
+            <firstDate>2013-09-30</firstDate>
+          </head>
+          <head>
+            <fio>Антат Гаетан Шарон</fio>
+            <date>2013-11-14</date>
+            <firstDate>2013-11-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

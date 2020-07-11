@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6319104421</inn>
+    <ogrn>1046300889689</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1046300889689</focusHref>
+    <UL>
+      <kpp>631201001</kpp>
+      <okpo>72221296</okpo>
+      <okato>36401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701310000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НПО "АГАТ"</short>
+        <full>Общество с ограниченной ответственностью "Научно-производственное объединение "Автоматизация газовых технологий"</full>
+        <date>2004-05-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443904</zipCode>
+          <kladrCode>630000010390023</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Зубчаниновка</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Зубчаниновское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>179А</topoValue>
+          </house>
+          <houseRaw>179 А</houseRaw>
+        </parsedAddressRF>
+        <date>2015-12-24</date>
+        <firstDate>2015-12-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-07-27</date>
+      </status>
+      <registrationDate>2004-05-05</registrationDate>
+      <dissolutionDate>2007-07-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кузнецов Николай Викторович</fio>
+          <innfl>638139919939</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-03-09</date>
+          <firstDate>2007-03-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>443109</zipCode>
+              <kladrCode>630000010000448</kladrCode>
+              <regionCode>63</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Самарская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Самара</topoValue>
+              </city>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Зубчаниновское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>179А</topoValue>
+              </house>
+              <houseRaw>179 А</houseRaw>
+            </parsedAddressRF>
+            <date>2005-12-29</date>
+            <firstDate>2005-12-29</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

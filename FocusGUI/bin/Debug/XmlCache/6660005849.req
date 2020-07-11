@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6660005849</inn>
+    <ogrn>1036603503133</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603503133</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okpo>25088415</okpo>
+      <okato>65401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ПАО ИФ "АЗ-КАПИТАЛ"</short>
+        <full>ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "ИННОВАЦИОННЫЙ ФОНД "АЗ-КАПИТАЛ"</full>
+        <date>2015-07-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620041</zipCode>
+          <kladrCode>660000010001136</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Трамвайный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <flat>
+            <topoValue>101</topoValue>
+          </flat>
+          <houseRaw>15</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>101</flatRaw>
+        </parsedAddressRF>
+        <date>2003-03-05</date>
+        <firstDate>2003-03-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-04-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Дронов Виктор Георгиевич</fio>
+          <innfl>666301094791</innfl>
+          <position>Генеральный Директор</position>
+          <date>2003-03-05</date>
+          <firstDate>2003-03-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>666001001</kpp>
+            <date>2006-03-27</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ОАО ИФ "Аз-Капитал"</short>
+            <full>Открытое акционерное общество "Инновационный фонд "Аз-Капитал"</full>
+            <date>2003-03-05</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

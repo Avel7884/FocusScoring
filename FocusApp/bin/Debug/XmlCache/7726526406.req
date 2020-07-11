@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7726526406</inn>
+    <ogrn>1057747962161</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1057747962161</focusHref>
+    <UL>
+      <kpp>370201001</kpp>
+      <okpo>78362425</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВАНГАРД"</short>
+        <full>Общество с ограниченной ответственностью "АВАНГАРД"</full>
+        <date>2005-08-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>153021</zipCode>
+          <kladrCode>370000010001150</kladrCode>
+          <regionCode>37</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ивановская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Иваново</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ярмарочная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <houseRaw>9</houseRaw>
+        </parsedAddressRF>
+        <date>2007-08-14</date>
+        <firstDate>2007-08-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-10-23</date>
+      </status>
+      <registrationDate>2005-08-24</registrationDate>
+      <dissolutionDate>2009-10-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гурбанов Юнус Фамиль Оглы</fio>
+          <innfl>401122744465</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-08-14</date>
+          <firstDate>2007-08-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7806444357</inn>
+    <ogrn>1107847398670</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107847398670</focusHref>
+    <UL>
+      <kpp>184001001</kpp>
+      <okpo>69201539</okpo>
+      <okato>94401363000</okato>
+      <okfs>16</okfs>
+      <oktmo>94701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "КОНДОР плюс"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-Коммерческая Фирма "КОНДОР плюс"</full>
+        <date>2010-12-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>426039</zipCode>
+          <kladrCode>180000010000067</kladrCode>
+          <regionCode>18</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Удмуртская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ижевск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Воткинское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>146</topoValue>
+          </house>
+          <houseRaw>146</houseRaw>
+        </parsedAddressRF>
+        <date>2014-03-17</date>
+        <firstDate>2014-03-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-07-18</date>
+      </status>
+      <registrationDate>2010-12-02</registrationDate>
+      <dissolutionDate>2017-07-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Черных Василий Юрьевич</fio>
+          <innfl>183311118981</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-03-28</date>
+          <firstDate>2014-03-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>780601001</kpp>
+            <date>2014-03-17</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>195196</zipCode>
+              <kladrCode>780000000001346</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Стахановцев</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>14</topoValue>
+              </house>
+              <bulk>
+                <topoValue>литер А Корпус 1</topoValue>
+              </bulk>
+              <houseRaw>14</houseRaw>
+              <bulkRaw>ЛИТЕР А КОРПУС 1</bulkRaw>
+            </parsedAddressRF>
+            <date>2010-12-02</date>
+            <firstDate>2010-12-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Евсенов Вячеслав Игоревич</fio>
+            <innfl>780614949023</innfl>
+            <position>Генеральный Директор</position>
+            <date>2010-12-02</date>
+            <firstDate>2010-12-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

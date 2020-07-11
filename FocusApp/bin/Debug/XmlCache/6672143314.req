@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6672143314</inn>
+    <ogrn>1026605393231</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605393231</focusHref>
+    <UL>
+      <kpp>667201001</kpp>
+      <okpo>59279428</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СК Академ-Град"</short>
+        <full>Общество с ограниченной ответственностью "СК Академ-Град"</full>
+        <date>2008-04-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620000</zipCode>
+          <kladrCode>66000001000</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoValue>Белинского/К.Маркса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>54/20А</topoValue>
+          </house>
+          <flat>
+            <topoValue>21</topoValue>
+          </flat>
+          <houseRaw>54/20А</houseRaw>
+          <flatRaw>21</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-10</date>
+        <firstDate>2002-09-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-02-29</date>
+      </status>
+      <registrationDate>2002-09-10</registrationDate>
+      <dissolutionDate>2012-02-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Домась Сергей Владимирович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2010-12-03</date>
+          <firstDate>2010-12-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Сагутдинов Шайхит Зыябович</fio>
+            <innfl>666300490369</innfl>
+            <position>Директор</position>
+            <date>2008-04-28</date>
+            <firstDate>2008-04-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

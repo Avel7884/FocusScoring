@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0400001947</inn>
+    <ogrn>1160400054264</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1160400054264</focusHref>
+    <UL>
+      <kpp>040001001</kpp>
+      <okpo>05694154</okpo>
+      <okato>84401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>84701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ СИБПРОМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ СИБПРОМ"</full>
+        <date>2016-11-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>649000</zipCode>
+          <kladrCode>040000010000151</kladrCode>
+          <regionCode>04</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Алтай</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Горно-Алтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чорос-Гуркина Г.И</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>39/14</topoValue>
+          </house>
+          <flat>
+            <topoShortName>каб</topoShortName>
+            <topoFullName>кабинет</topoFullName>
+            <topoValue>304</topoValue>
+          </flat>
+          <houseRaw>ДОМ 39/14</houseRaw>
+          <flatRaw>КАБИНЕТ 304</flatRaw>
+        </parsedAddressRF>
+        <date>2018-05-24</date>
+        <firstDate>2018-05-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-11-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Пронин Андрей Николаевич</fio>
+          <innfl>420213003000</innfl>
+          <position>Директор</position>
+          <date>2016-11-23</date>
+          <firstDate>2016-11-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>649000</zipCode>
+              <kladrCode>040000010000115</kladrCode>
+              <regionCode>04</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Алтай</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Горно-Алтайск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Социалистическая</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>22</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>8</topoValue>
+              </flat>
+              <houseRaw>ДОМ 22</houseRaw>
+              <flatRaw>ОФИС 8</flatRaw>
+            </parsedAddressRF>
+            <date>2016-11-23</date>
+            <firstDate>2016-11-23</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

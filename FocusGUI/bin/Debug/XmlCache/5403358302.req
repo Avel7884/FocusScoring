@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5403358302</inn>
+    <ogrn>1145476050697</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1145476050697</focusHref>
+    <UL>
+      <kpp>540301001</kpp>
+      <okpo>14779895</okpo>
+      <okato>50401374000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКВА СЕРВИС НСК"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АКВА СЕРВИС НСК"</full>
+        <date>2014-04-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630048</zipCode>
+          <kladrCode>540000010001223</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сибиряков-Гвардейцев</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23/1</topoValue>
+          </house>
+          <houseRaw>ДОМ 23/1</houseRaw>
+        </parsedAddressRF>
+        <date>2014-04-17</date>
+        <firstDate>2014-04-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-04-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Бондаренко Виктор Борисович</fio>
+          <innfl>540505404276</innfl>
+          <position>Директор</position>
+          <date>2018-09-13</date>
+          <firstDate>2014-04-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Сидорова Ирина Валерьевна</fio>
+            <innfl>540414589069</innfl>
+            <position>Директор</position>
+            <date>2014-05-12</date>
+            <firstDate>2014-05-12</firstDate>
+          </head>
+          <head>
+            <fio>Журавлев Александр Сергеевич</fio>
+            <innfl>540403918000</innfl>
+            <position>Директор</position>
+            <date>2017-12-04</date>
+            <firstDate>2017-12-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

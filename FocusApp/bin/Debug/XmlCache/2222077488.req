@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2222077488</inn>
+    <ogrn>1082222009033</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1082222009033</focusHref>
+    <UL>
+      <kpp>222201001</kpp>
+      <okpo>88952458</okpo>
+      <okato>01401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>01701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО Компания "АлтайМАЗсервис"</short>
+        <full>Общество с ограниченной ответственностью Компания "АлтайМАЗсервис"</full>
+        <date>2009-01-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656905</zipCode>
+          <kladrCode>220000010000814</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Южный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>45</topoValue>
+          </house>
+          <houseRaw>45</houseRaw>
+          <bulkRaw>НЕТ</bulkRaw>
+          <flatRaw>НЕТ</flatRaw>
+        </parsedAddressRF>
+        <date>2008-10-28</date>
+        <firstDate>2008-10-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-12-02</date>
+      </status>
+      <registrationDate>2008-10-28</registrationDate>
+      <dissolutionDate>2014-12-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Титов Сергей Витальевич</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2013-01-11</date>
+          <firstDate>2013-01-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Гаврилин Гаврил Гаврилович</fio>
+            <innfl>222203101951</innfl>
+            <position>Генеральный директор</position>
+            <date>2008-10-28</date>
+            <firstDate>2008-10-28</firstDate>
+          </head>
+          <head>
+            <fio>Быстрицкая Елена Юрьевна</fio>
+            <innfl>222102571118</innfl>
+            <position>Ликвидатор</position>
+            <date>2012-09-24</date>
+            <firstDate>2012-09-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

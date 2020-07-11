@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7729639662</inn>
+    <ogrn>1097746554025</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097746554025</focusHref>
+    <UL>
+      <kpp>772901001</kpp>
+      <okpo>62832461</okpo>
+      <okato>45268592000</okato>
+      <okfs>16</okfs>
+      <oktmo>45327000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Спецкомплектприбор"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "Спецкомплектприбор"</full>
+        <date>2009-09-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119602</zipCode>
+          <kladrCode>770000000000754</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академика Анохина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>38</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Эт 1 пом II Ком 8в</topoValue>
+          </flat>
+          <houseRaw>ДОМ 38</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+          <flatRaw>ЭТ 1 ПОМ II КОМ 8В</flatRaw>
+        </parsedAddressRF>
+        <date>2018-09-07</date>
+        <firstDate>2018-09-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-09-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Каверин Александр Анатольевич</fio>
+          <innfl>500305586129</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-09-21</date>
+          <firstDate>2009-09-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119602</zipCode>
+              <kladrCode>770000000000754</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Академика Анохина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>38</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>38</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2009-09-21</date>
+            <firstDate>2009-09-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

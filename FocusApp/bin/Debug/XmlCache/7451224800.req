@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7451224800</inn>
+    <ogrn>1057423654584</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1057423654584</focusHref>
+    <UL>
+      <kpp>745101001</kpp>
+      <okpo>78828317</okpo>
+      <okato>75401376000</okato>
+      <okfs>16</okfs>
+      <oktmo>75701370000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВС ЛТД"</short>
+        <full>Общество с ограниченной ответственностью "АВС ЛТД"</full>
+        <date>2005-11-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454091</zipCode>
+          <kladrCode>740000010000881</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Свободы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>155</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <houseRaw>155</houseRaw>
+          <bulkRaw>Б</bulkRaw>
+        </parsedAddressRF>
+        <date>2005-11-30</date>
+        <firstDate>2005-11-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-11-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Тихонов Эдуард Николаевич</fio>
+          <innfl>745102145873</innfl>
+          <position>Директор</position>
+          <date>2012-10-05</date>
+          <firstDate>2005-11-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

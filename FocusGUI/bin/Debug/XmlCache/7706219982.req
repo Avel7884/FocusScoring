@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7706219982</inn>
+    <ogrn>1027700076513</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700076513</focusHref>
+    <UL>
+      <kpp>772601001</kpp>
+      <okpo>55220220</okpo>
+      <okato>45296593000</okato>
+      <okfs>16</okfs>
+      <oktmo>45924000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "УК "АГАНА"</short>
+        <full>Общество с ограниченной ответственностью "Управляющая компания "АГАНА"</full>
+        <date>2003-11-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117556</zipCode>
+          <kladrCode>770000000000476</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Варшавское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>95</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Эт/пом/Ком 4/XXXII/Ком 67</topoValue>
+          </flat>
+          <houseRaw>ДОМ 95</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+          <flatRaw>ЭТ/ПОМ/КОМ 4/XXXII/КОМ 67</flatRaw>
+        </parsedAddressRF>
+        <date>2019-05-29</date>
+        <firstDate>2019-05-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-11-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Кругляк Любовь Израильевна</fio>
+          <innfl>505004322192</innfl>
+          <position>Генеральный Директор</position>
+          <date>2012-06-28</date>
+          <firstDate>2012-06-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772501001</kpp>
+            <date>2017-01-20</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>775001001</kpp>
+            <date>2014-03-14</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>770601001</kpp>
+            <date>2003-03-28</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115162</zipCode>
+              <kladrCode>770000000003133</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Шаболовка</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>31</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>Б</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>Эт/пом/Ком 2/VII/25п</topoValue>
+              </flat>
+              <houseRaw>ДОМ 31</houseRaw>
+              <bulkRaw>СТРОЕНИЕ Б</bulkRaw>
+              <flatRaw>ЭТ/ПОМ/КОМ 2/VII/25П</flatRaw>
+            </parsedAddressRF>
+            <date>2017-12-22</date>
+            <firstDate>2017-12-22</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115162</zipCode>
+              <kladrCode>770000000003133</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Шаболовка</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>31</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>Б</topoValue>
+              </bulk>
+              <houseRaw>31</houseRaw>
+              <bulkRaw>СТР.Б</bulkRaw>
+            </parsedAddressRF>
+            <date>2011-12-21</date>
+            <firstDate>2011-12-21</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>109017</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Старомонетный</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>9</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2002-07-30</date>
+            <firstDate>2002-07-30</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Телипко Олег Васильевич</fio>
+            <position>Генеральный директор</position>
+            <date>2011-04-12</date>
+            <firstDate>2011-04-12</firstDate>
+          </head>
+          <head>
+            <fio>Ретунских Дмитрий Геннадьевич</fio>
+            <position>Генеральный директор</position>
+            <date>2011-11-03</date>
+            <firstDate>2011-11-03</firstDate>
+          </head>
+          <head>
+            <fio>Ретунский Дмитрий Геннадьевич</fio>
+            <position>Генеральный директор</position>
+            <date>2011-09-05</date>
+            <firstDate>2011-09-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

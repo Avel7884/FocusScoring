@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7409007463</inn>
+    <ogrn>1027400731555</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027400731555</focusHref>
+    <UL>
+      <kpp>745901001</kpp>
+      <okpo>21576454</okpo>
+      <okato>75226805001</okato>
+      <okfs>16</okfs>
+      <oktmo>75626405101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энерго-Сервис"</short>
+        <full>Общество с ограниченной ответственностью "Энерго-Сервис"</full>
+        <date>2002-12-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>456850</zipCode>
+          <kladrCode>740090000050017</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Каслинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Багаряк</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Павлова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <houseRaw>19</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-26</date>
+        <firstDate>2002-12-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-28</date>
+      </status>
+      <registrationDate>2002-12-26</registrationDate>
+      <dissolutionDate>2016-12-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Выгузов Виктор Иванович</fio>
+          <innfl>740900901500</innfl>
+          <position>Директор</position>
+          <date>2007-02-06</date>
+          <firstDate>2007-02-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>740901001</kpp>
+            <date>2006-06-22</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

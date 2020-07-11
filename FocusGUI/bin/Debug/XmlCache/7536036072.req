@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7536036072</inn>
+    <ogrn>1047550009528</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047550009528</focusHref>
+    <UL>
+      <kpp>753601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>Группа "Аверс"</short>
+        <full>Общество с ограниченной ответственностью Группа "Аверс"</full>
+        <date>2004-04-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>672000</zipCode>
+          <kladrCode>750000010000299</kladrCode>
+          <regionCode>75</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Забайкальский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Чита</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Лермонтова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2004-04-29</date>
+        <firstDate>2004-04-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-08-22</date>
+      </status>
+      <registrationDate>1995-11-30</registrationDate>
+      <dissolutionDate>2006-08-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сахненко Сергей Александрович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2006-08-08</date>
+          <firstDate>2006-08-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

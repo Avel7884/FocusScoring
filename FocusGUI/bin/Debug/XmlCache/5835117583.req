@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5835117583</inn>
+    <ogrn>1165835058410</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1165835058410</focusHref>
+    <UL>
+      <kpp>583501001</kpp>
+      <okpo>02385091</okpo>
+      <okato>56401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>56701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАНЕТА КОЛБАС 58"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛАНЕТА КОЛБАС 58"</full>
+        <date>2016-05-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>440015</zipCode>
+          <kladrCode>580000010000798</kladrCode>
+          <regionCode>58</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Пензенская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пенза</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Совхозная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <houseRaw>ДОМ 15</houseRaw>
+        </parsedAddressRF>
+        <date>2016-05-05</date>
+        <firstDate>2016-05-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-05-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Петросян Арамаис Гургенович</fio>
+          <innfl>582300060030</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-06-27</date>
+          <firstDate>2016-06-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Медведев Андрей Владимирович</fio>
+            <innfl>583513050470</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-05-05</date>
+            <firstDate>2016-05-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

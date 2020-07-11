@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1326024785</inn>
+    <ogrn>1021300001029</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021300001029</focusHref>
+    <UL>
+      <kpp>132601001</kpp>
+      <okpo>27800243</okpo>
+      <okato>89401364000</okato>
+      <okfs>49</okfs>
+      <oktmo>89701000001</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>АКБ "АКТИВ БАНК" (ПАО)</short>
+        <full>АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ БАНК "АКТИВ БАНК" (ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО)</full>
+        <date>2015-03-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>430005</zipCode>
+          <kladrCode>130000010000019</kladrCode>
+          <regionCode>13</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Мордовия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Саранск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Б.Хмельницкого</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36А</topoValue>
+          </house>
+          <houseRaw>ДОМ 36А</houseRaw>
+        </parsedAddressRF>
+        <date>2019-07-08</date>
+        <firstDate>2019-07-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-12-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Буданова Галина Сергеевна</fio>
+          <innfl>132602738376</innfl>
+          <position>Президент Банка</position>
+          <date>2017-11-10</date>
+          <firstDate>2017-11-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО АКБ "АКТИВ БАНК"</short>
+            <full>АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ БАНК "АКТИВ БАНК" (ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО)</full>
+            <date>2014-05-23</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>430005</zipCode>
+              <kladrCode>130000010000083</kladrCode>
+              <regionCode>13</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Мордовия</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Саранск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Коммунистическая</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>52</topoValue>
+              </house>
+              <houseRaw>ДОМ 52</houseRaw>
+            </parsedAddressRF>
+            <date>2014-05-23</date>
+            <firstDate>2008-06-10</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Николаев Николай Николаевич</fio>
+            <innfl>132602486930</innfl>
+            <position>Президент Банка</position>
+            <date>2002-10-07</date>
+            <firstDate>2002-10-07</firstDate>
+          </head>
+          <head>
+            <fio>Полетаева Елена Николаевна</fio>
+            <innfl>132808517973</innfl>
+            <position>Исполняющий Обязанности Президента Банка</position>
+            <date>2017-09-05</date>
+            <firstDate>2017-09-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>7</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

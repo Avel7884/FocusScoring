@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6663055238</inn>
+    <ogrn>1036604789737</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036604789737</focusHref>
+    <UL>
+      <kpp>668601001</kpp>
+      <okpo>44122371</okpo>
+      <okato>65401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГОТЕХНО"</short>
+        <full>Общество с ограниченной ответственностью "ЭНЕРГОТЕХНО"</full>
+        <date>2003-01-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620058</zipCode>
+          <kladrCode>660000010001445</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Полевая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>76</topoValue>
+          </house>
+          <flat>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>76</houseRaw>
+          <flatRaw>10</flatRaw>
+        </parsedAddressRF>
+        <date>2009-03-20</date>
+        <firstDate>2009-03-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-09-11</date>
+      </status>
+      <registrationDate>1996-02-16</registrationDate>
+      <dissolutionDate>2019-09-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Эпп Дмитрий Евгеньевич</fio>
+          <innfl>742205100879</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-08-26</date>
+          <firstDate>2014-08-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>667301001</kpp>
+            <date>2010-01-19</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Савельев Валерий Николаевич</fio>
+            <innfl>666300550868</innfl>
+            <position>Директор</position>
+            <date>2003-01-31</date>
+            <firstDate>2003-01-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

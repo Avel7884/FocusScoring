@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7708653218</inn>
+    <ogrn>1077762142050</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077762142050</focusHref>
+    <UL>
+      <kpp>770801001</kpp>
+      <okpo>83211680</okpo>
+      <okato>45286565000</okato>
+      <okfs>16</okfs>
+      <oktmo>45378000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "1С-Обучение"</short>
+        <full>Общество с ограниченной ответственностью "1С-Обучение"</full>
+        <date>2007-11-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107140</zipCode>
+          <kladrCode>770000000000651</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Красносельский 1-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoValue>Подвал 1 пом I Ком 17 офис Б</topoValue>
+          </flat>
+          <houseRaw>ДОМ 3</houseRaw>
+          <flatRaw>ПОДВАЛ 1 ПОМ I КОМ 17 ОФИС Б</flatRaw>
+        </parsedAddressRF>
+        <date>2017-10-11</date>
+        <firstDate>2017-10-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-11-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Бурина Ольга Алексеевна</fio>
+          <innfl>660600022025</innfl>
+          <position>Директор</position>
+          <date>2018-02-28</date>
+          <firstDate>2007-11-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>105066</zipCode>
+              <kladrCode>770000000000669</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Ольховская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>45</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>45</houseRaw>
+              <bulkRaw>СТР.1</bulkRaw>
+            </parsedAddressRF>
+            <date>2007-11-07</date>
+            <firstDate>2007-11-07</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

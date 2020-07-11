@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5920018079</inn>
+    <ogrn>1025902033651</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025902033651</focusHref>
+    <UL>
+      <kpp>592001001</kpp>
+      <okpo>57452687</okpo>
+      <okato>57435000000</okato>
+      <okfs>16</okfs>
+      <oktmo>57735000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Элдвиг"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Элдвиг"</full>
+        <date>2002-11-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>617766</zipCode>
+          <kladrCode>590000120000012</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Чайковский</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Декабристов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <bulk>
+            <topoValue>14</topoValue>
+          </bulk>
+          <houseRaw>23</houseRaw>
+          <bulkRaw>14</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-07-19</date>
+        <firstDate>2006-07-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-02-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Пономарев Дмитрий Николаевич</fio>
+          <innfl>592002916121</innfl>
+          <position>Директор</position>
+          <date>2018-05-03</date>
+          <firstDate>2002-11-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205048219</inn>
+    <ogrn>1034205037206</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034205037206</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>26623201</okpo>
+      <okato>32401370000</okato>
+      <okfs>13</okfs>
+      <oktmo>32701000</oktmo>
+      <okogu>2300223</okogu>
+      <okopf>81</okopf>
+      <opf>Учреждения</opf>
+      <legalName>
+        <full>ДЕПАРТАМЕНТ НАУКИ И ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ КЕМЕРОВСКОЙ ОБЛАСТИ</full>
+        <date>2003-04-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650000</zipCode>
+          <kladrCode>420000090000871</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Советский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>62</topoValue>
+          </house>
+          <houseRaw>62</houseRaw>
+        </parsedAddressRF>
+        <date>2003-04-03</date>
+        <firstDate>2003-04-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-10-22</date>
+      </status>
+      <registrationDate>2003-04-03</registrationDate>
+      <dissolutionDate>2013-10-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Попов Иван Павлович</fio>
+          <innfl>422900824103</innfl>
+          <position>Председатель Ликидационной Комиссии</position>
+          <date>2007-01-19</date>
+          <firstDate>2007-01-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

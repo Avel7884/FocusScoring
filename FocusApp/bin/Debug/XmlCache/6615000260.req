@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6615000260</inn>
+    <ogrn>1026601125264</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026601125264</focusHref>
+    <UL>
+      <kpp>668101001</kpp>
+      <okpo>04041912</okpo>
+      <okato>65448000000</okato>
+      <okfs>14</okfs>
+      <oktmo>65743000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Качканарского городского округа</full>
+        <date>2006-01-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624351</zipCode>
+          <kladrCode>660000080000030</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Качканар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Свердлова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+          <bulkRaw>НЕТ</bulkRaw>
+          <flatRaw>НЕТ</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-23</date>
+        <firstDate>2002-09-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-09-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Румянцев Василий Анатольевич</fio>
+          <innfl>661500718999</innfl>
+          <position>Первый Заместитель Главы Администрации Качканарского Городского Округа</position>
+          <date>2018-07-12</date>
+          <firstDate>2018-07-12</firstDate>
+        </head>
+        <head>
+          <fio>Ярославцев Андрей Александрович</fio>
+          <innfl>662319164499</innfl>
+          <position>Глава Качканарского Городского Округа</position>
+          <date>2018-08-16</date>
+          <firstDate>2018-08-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>661501001</kpp>
+            <date>2005-05-30</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Набоких Сергей Михайлович</fio>
+            <innfl>661504416607</innfl>
+            <position>Глава Качканарского Городского Округа</position>
+            <date>2009-03-25</date>
+            <firstDate>2009-03-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>20</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

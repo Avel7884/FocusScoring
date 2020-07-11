@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1659132466</inn>
+    <ogrn>1131690049040</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1131690049040</focusHref>
+    <UL>
+      <kpp>165901001</kpp>
+      <okpo>44931248</okpo>
+      <okato>92401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ЛИДЕР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "ЛИДЕР"</full>
+        <date>2013-07-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420054</zipCode>
+          <kladrCode>160000010001525</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Владимира Кулагина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>308</topoValue>
+          </flat>
+          <houseRaw>ДОМ 10</houseRaw>
+          <flatRaw>ОФИС 308</flatRaw>
+        </parsedAddressRF>
+        <date>2013-07-23</date>
+        <firstDate>2013-07-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-02-14</date>
+      </status>
+      <registrationDate>2013-07-23</registrationDate>
+      <dissolutionDate>2019-02-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Баталов Сергей Леонидович</fio>
+          <innfl>183207639650</innfl>
+          <position>Директор</position>
+          <date>2015-05-06</date>
+          <firstDate>2015-05-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Лузянин Иван Владимирович</fio>
+            <innfl>183112114397</innfl>
+            <position>Директор</position>
+            <date>2013-07-23</date>
+            <firstDate>2013-07-23</firstDate>
+          </head>
+          <head>
+            <fio>Иютина Елена Сергеевна</fio>
+            <innfl>183112180255</innfl>
+            <position>Директор</position>
+            <date>2014-10-10</date>
+            <firstDate>2014-10-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

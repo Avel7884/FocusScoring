@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3663079280</inn>
+    <ogrn>1093668046218</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1093668046218</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>63852572</okpo>
+      <okato>45290558000</okato>
+      <okfs>16</okfs>
+      <oktmo>45386000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергосталь Плюс"</short>
+        <full>Общество с ограниченной ответственностью "Энергосталь Плюс"</full>
+        <date>2009-11-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109429</zipCode>
+          <kladrCode>770000000003651</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Капотнинский 1-й</topoValue>
+          </street>
+          <house>
+            <topoValue>12стр2</topoValue>
+          </house>
+          <houseRaw>12СТР2</houseRaw>
+        </parsedAddressRF>
+        <date>2013-06-25</date>
+        <firstDate>2013-06-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-06-25</date>
+      </status>
+      <registrationDate>2009-11-12</registrationDate>
+      <dissolutionDate>2018-06-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Корниенко Александр Николаевич</fio>
+          <innfl>366600500309</innfl>
+          <position>Директор</position>
+          <date>2013-06-25</date>
+          <firstDate>2013-06-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>394074</zipCode>
+              <regionCode>36</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Воронежская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Воронеж</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Новосибирская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>13Б</topoValue>
+              </house>
+              <houseRaw>13Б</houseRaw>
+            </parsedAddressRF>
+            <date>2009-11-12</date>
+            <firstDate>2009-11-12</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Бобряшов Юрий Васильевич</fio>
+            <innfl>366218810949</innfl>
+            <position>Директор</position>
+            <date>2009-11-12</date>
+            <firstDate>2009-11-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

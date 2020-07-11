@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705342341</inn>
+    <ogrn>1097760143612</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097760143612</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АЙЛИТ-СЕРВИС</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ АЙЛИТ-СЕРВИС</full>
+        <date>2009-01-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119049</zipCode>
+          <kladrCode>770000000001756</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Люсиновский 1-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3Б</topoValue>
+          </house>
+          <houseRaw>3Б</houseRaw>
+        </parsedAddressRF>
+        <date>2009-01-16</date>
+        <firstDate>2009-01-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-01-16</date>
+      </status>
+      <registrationDate>2000-02-24</registrationDate>
+      <dissolutionDate>2009-01-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Миненок Е В</fio>
+          <position>Руководитель</position>
+          <date>2009-01-16</date>
+          <firstDate>2009-01-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

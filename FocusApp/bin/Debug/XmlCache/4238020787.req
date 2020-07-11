@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4238020787</inn>
+    <ogrn>1074238000726</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1074238000726</focusHref>
+    <UL>
+      <kpp>423801001</kpp>
+      <okpo>80298226</okpo>
+      <okato>32219802012</okato>
+      <okfs>16</okfs>
+      <oktmo>32619422156</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плюс-4 Стройсвязь"</short>
+        <full>Общество с ограниченной ответственностью "Плюс-4 Стройсвязь"</full>
+        <date>2009-12-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654207</zipCode>
+          <kladrCode>420090000530006</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новокузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Костенково</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ключевая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <houseRaw>10</houseRaw>
+        </parsedAddressRF>
+        <date>2007-05-02</date>
+        <firstDate>2007-05-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-05-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Сизов Василий Васильевич</fio>
+          <innfl>421705658644</innfl>
+          <position>Директор</position>
+          <date>2019-04-12</date>
+          <firstDate>2019-04-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Вегнер Александр Рудольфович</fio>
+            <innfl>421700512345</innfl>
+            <position>Директор</position>
+            <date>2007-05-02</date>
+            <firstDate>2007-05-02</firstDate>
+          </head>
+          <head>
+            <fio>Косарев Андрей Иванович</fio>
+            <innfl>421716020902</innfl>
+            <position>Директор</position>
+            <date>2018-05-08</date>
+            <firstDate>2018-05-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

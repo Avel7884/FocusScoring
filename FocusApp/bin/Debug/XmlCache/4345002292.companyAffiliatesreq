@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>434100210129</inn>
+    <ogrn>304431236400092</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304431236400092</focusHref>
+    <IP>
+      <fio>Дюкин Альфрит Мухамадиярович</fio>
+      <okpo>0080842968</okpo>
+      <okato>33401361000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>33701000001</oktmo>
+      <registrationDate>1998-04-29</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>4345002292</inn>
+    <ogrn>1034316523548</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034316523548</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Вятка Металл-Центр"</short>
+        <full>Общество с ограниченной ответственностью "Вятка Металл-Центр"</full>
+        <date>2003-03-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610044</zipCode>
+          <kladrCode>430000010000227</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Лепсе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>77</topoValue>
+          </house>
+          <flat>
+            <topoValue>8</topoValue>
+          </flat>
+          <houseRaw>77</houseRaw>
+          <flatRaw>8</flatRaw>
+        </parsedAddressRF>
+        <date>2003-03-04</date>
+        <firstDate>2003-03-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-03-03</date>
+      </status>
+      <registrationDate>2000-01-27</registrationDate>
+      <dissolutionDate>2004-03-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Слаутин Лев Георгиевич</fio>
+          <innfl>434900060313</innfl>
+          <position>Руководитель юридического лица</position>
+          <date>2003-03-04</date>
+          <firstDate>2003-03-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>4345039729</inn>
+    <ogrn>1034316523372</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034316523372</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>02387115</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Вятка-Металл-Строй"</short>
+        <full>Общество с ограниченной ответственностью "Вятка-Металл-Строй"</full>
+        <date>2003-03-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610014</zipCode>
+          <kladrCode>430000010000591</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Щорса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>95</topoValue>
+          </house>
+          <flat>
+            <topoValue>228</topoValue>
+          </flat>
+          <houseRaw>95</houseRaw>
+          <flatRaw>228</flatRaw>
+        </parsedAddressRF>
+        <date>2007-05-21</date>
+        <firstDate>2007-05-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-04-22</date>
+      </status>
+      <registrationDate>2002-03-21</registrationDate>
+      <dissolutionDate>2011-04-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дюкин Альфрит Мухамадиярович</fio>
+          <innfl>434100210129</innfl>
+          <position>Директор</position>
+          <date>2007-05-21</date>
+          <firstDate>2007-05-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>4345206031</inn>
+    <ogrn>1074345049778</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1074345049778</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>82352734</okpo>
+      <okato>33401361000</okato>
+      <okfs>16</okfs>
+      <oktmo>33701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПСП "ВМС"</short>
+        <full>Общество с ограниченной ответственностью ПСП "ВМС"</full>
+        <date>2007-09-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610014</zipCode>
+          <kladrCode>430000010000591</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Щорса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>95</topoValue>
+          </house>
+          <flat>
+            <topoValue>228</topoValue>
+          </flat>
+          <houseRaw>95</houseRaw>
+          <flatRaw>228</flatRaw>
+        </parsedAddressRF>
+        <date>2007-09-21</date>
+        <firstDate>2007-09-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-09-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Дюкин Альфрит Мухамадиярович</fio>
+          <innfl>434100210129</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-05-02</date>
+          <firstDate>2007-09-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>4345275290</inn>
+    <ogrn>1104345005291</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1104345005291</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>60639091</okpo>
+      <okato>33401361000</okato>
+      <okfs>16</okfs>
+      <oktmo>33701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПСК "ВМС"</short>
+        <full>Общество с ограниченной ответственностью ПСК "ВМС"</full>
+        <date>2010-03-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610998</zipCode>
+          <kladrCode>430000010000591</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Щорса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>95</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>228</topoValue>
+          </flat>
+          <houseRaw>ДОМ 95</houseRaw>
+          <flatRaw>ОФИС 228</flatRaw>
+        </parsedAddressRF>
+        <date>2017-10-02</date>
+        <firstDate>2017-10-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-03-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Дюкин Альфрит Мухамадиярович</fio>
+          <innfl>434100210129</innfl>
+          <position>Директор</position>
+          <date>2014-05-02</date>
+          <firstDate>2010-03-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>619035</zipCode>
+              <kladrCode>430000010000591</kladrCode>
+              <regionCode>43</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кировская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Киров</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Щорса</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>95</topoValue>
+              </house>
+              <houseRaw>95</houseRaw>
+            </parsedAddressRF>
+            <date>2010-03-16</date>
+            <firstDate>2010-03-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>4345982549</inn>
+    <ogrn>1144300000470</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1144300000470</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>32875711</okpo>
+      <okato>33401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>33701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20400</okopf>
+      <opf>Фонды</opf>
+      <legalName>
+        <short>ФОНД ИСЛАМСКОЙ КУЛЬТУРЫ</short>
+        <full>ФОНД РАЗВИТИЯ ИСЛАМСКОЙ КУЛЬТУРЫ В КИРОВСКОЙ ОБЛАСТИ</full>
+        <date>2014-05-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610000</zipCode>
+          <kladrCode>430000010000511</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Труда</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>ДОМ 4</houseRaw>
+        </parsedAddressRF>
+        <date>2014-05-23</date>
+        <firstDate>2014-05-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация некоммерческой организации по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-10-11</date>
+      </status>
+      <registrationDate>2014-05-23</registrationDate>
+      <dissolutionDate>2019-10-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галиуллин Зуфар Шайдуллович</fio>
+          <innfl>165910758004</innfl>
+          <position>Директор</position>
+          <date>2014-05-23</date>
+          <firstDate>2014-05-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>4346056276</inn>
+    <ogrn>1034316542700</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034316542700</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>52333930</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аркадатеплосервис"</short>
+        <full>Общество с ограниченной ответственностью "Аркадатеплосервис"</full>
+        <date>2003-03-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610048</zipCode>
+          <kladrCode>430000010000292</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Московская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>130</topoValue>
+          </house>
+          <houseRaw>130</houseRaw>
+        </parsedAddressRF>
+        <date>2003-03-22</date>
+        <firstDate>2003-03-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-10-26</date>
+      </status>
+      <registrationDate>1999-10-28</registrationDate>
+      <dissolutionDate>2011-10-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гончаров Валерий Николаевич</fio>
+          <innfl>434521153437</innfl>
+          <position>Директор</position>
+          <date>2003-03-22</date>
+          <firstDate>2003-03-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>434700173172</inn>
+    <ogrn>314434502000041</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=314434502000041</focusHref>
+    <IP>
+      <fio>Ситников Николай Николаевич</fio>
+      <okpo>0188203346</okpo>
+      <okato>33401364000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2014-01-20</registrationDate>
+      <dissolutionDate>2015-03-13</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-03-13</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>434700173172</inn>
+    <ogrn>305434500282451</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305434500282451</focusHref>
+    <IP>
+      <fio>Ситников Николай Николаевич</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1996-10-28</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Утратил государственную регистрацию в качестве индивидуального предпринимателя на основании статьи 3 ФЗ от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-01-01</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>434700173246</inn>
+    <ogrn>317435000027309</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=317435000027309</focusHref>
+    <IP>
+      <fio>Сунцов Владимир Николаевич</fio>
+      <okpo>0060542063</okpo>
+      <okato>33401364000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>33701000001</oktmo>
+      <registrationDate>2017-06-20</registrationDate>
+      <dissolutionDate>2019-09-30</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-09-30</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>434700173246</inn>
+    <ogrn>304434529900681</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304434529900681</focusHref>
+    <IP>
+      <fio>Сунцов Владимир Николаевич</fio>
+      <okpo>0060542063</okpo>
+      <okato>33401364000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1999-11-09</registrationDate>
+      <dissolutionDate>2015-07-03</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-07-03</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>434900060313</inn>
+    <ogrn>304434529900651</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304434529900651</focusHref>
+    <IP>
+      <fio>Слаутин Лев Георгиевич</fio>
+      <okpo>0112596800</okpo>
+      <okato>33401364000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>33701000001</oktmo>
+      <registrationDate>1999-12-21</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>5010037175</inn>
+    <ogrn>1085010001284</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1085010001284</focusHref>
+    <UL>
+      <kpp>501001001</kpp>
+      <okpo>86648519</okpo>
+      <okato>46418000000</okato>
+      <okfs>16</okfs>
+      <oktmo>46718000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Формоза-Джет"</short>
+        <full>Общество с ограниченной ответственностью "Формоза-Джет"</full>
+        <date>2008-04-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141981</zipCode>
+          <kladrCode>500000030000092</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Дубна</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Энтузиастов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6А</topoValue>
+          </house>
+          <houseRaw>6А</houseRaw>
+        </parsedAddressRF>
+        <date>2008-04-24</date>
+        <firstDate>2008-04-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-04-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Солтанович Игорь Александрович</fio>
+          <innfl>774322794528</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-05-30</date>
+          <firstDate>2016-05-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Слаутин Лев Георгиевич</fio>
+            <innfl>434900060313</innfl>
+            <position>Генеральный директор</position>
+            <date>2008-04-24</date>
+            <firstDate>2008-04-24</firstDate>
+          </head>
+          <head>
+            <fio>Николаев Виктор Владимирович</fio>
+            <innfl>501000163410</innfl>
+            <position>Генеральный директор</position>
+            <date>2008-04-24</date>
+            <firstDate>2008-04-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>8603186293</inn>
+    <ogrn>1118603015915</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1118603015915</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>30529749</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ СибСтальТорг"</short>
+        <full>Общество с ограниченной ответственностью "Производственно - Коммерческая Фирма СибСтальТорг"</full>
+        <date>2011-12-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628600</zipCode>
+          <kladrCode>860000110000125</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Индустриальная</topoValue>
+          </street>
+          <house>
+            <topoValue>Западный Промышленный Узел 66 в</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>панель</topoShortName>
+            <topoFullName>панель</topoFullName>
+            <topoValue>13</topoValue>
+          </flat>
+          <houseRaw>ЗАПАДНЫЙ ПРОМЫШЛЕННЫЙ УЗЕЛ 66 В</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>ПАНЕЛЬ № 13</flatRaw>
+        </parsedAddressRF>
+        <date>2011-12-09</date>
+        <firstDate>2011-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-01-11</date>
+      </status>
+      <registrationDate>2011-12-09</registrationDate>
+      <dissolutionDate>2017-01-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Тимченко Владимир Михайлович</fio>
+          <innfl>860301326944</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-02-15</date>
+          <firstDate>2013-02-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Золоедов Андрей Николаевич</fio>
+            <innfl>164906777806</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-12-09</date>
+            <firstDate>2011-12-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

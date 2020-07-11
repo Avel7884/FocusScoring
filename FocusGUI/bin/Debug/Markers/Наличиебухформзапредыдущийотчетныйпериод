@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Наличие бух. форм за предыдущий отчетный период</Name>
+  <Colour>Green</Colour>
+  <Description>Наличие бухгалтерских форм за предыдущий отчетный период</Description>
+  <Code>return company.GetParam("m6002") != ""; </Code>
+</items>

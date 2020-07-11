@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6453126860</inn>
+    <ogrn>1136453000771</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1136453000771</focusHref>
+    <UL>
+      <kpp>645301001</kpp>
+      <okpo>12223691</okpo>
+      <okato>63401376000</okato>
+      <okfs>16</okfs>
+      <oktmo>63701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СТРОЙТРЕЙД"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СТРОЙТРЕЙД"</full>
+        <date>2015-11-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>410052</zipCode>
+          <kladrCode>640000010000883</kladrCode>
+          <regionCode>64</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Саратовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Саратов</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>им 50 лет Октября</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>118А</topoValue>
+          </house>
+          <houseRaw>118А</houseRaw>
+        </parsedAddressRF>
+        <date>2013-02-13</date>
+        <firstDate>2013-02-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-08-04</date>
+      </status>
+      <registrationDate>2013-02-13</registrationDate>
+      <dissolutionDate>2016-08-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Щербакова Вероника Сергеевна</fio>
+          <innfl>380110132601</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-04-07</date>
+          <firstDate>2016-04-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "МеталлТрейд"</short>
+            <full>Общество с ограниченной ответственностью "МеталлТрейд"</full>
+            <date>2013-02-13</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Мазилкин Алексей Викторович</fio>
+            <innfl>645391479157</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-02-13</date>
+            <firstDate>2013-02-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

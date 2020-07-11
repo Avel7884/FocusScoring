@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6321123277</inn>
+    <ogrn>1036301087910</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036301087910</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>15340196</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоМет"</short>
+        <full>Общество с ограниченной ответственностью "АвтоМет"</full>
+        <date>2003-06-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>190000</zipCode>
+          <kladrCode>780000000000659</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Купчинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1 лит А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>14Н</topoValue>
+          </flat>
+          <houseRaw>15</houseRaw>
+          <bulkRaw>1 ЛИТ А</bulkRaw>
+          <flatRaw>ПОМ.14Н</flatRaw>
+        </parsedAddressRF>
+        <date>2009-01-26</date>
+        <firstDate>2009-01-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-05-19</date>
+      </status>
+      <registrationDate>2003-06-30</registrationDate>
+      <dissolutionDate>2014-05-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шрамко Татьяна Викторовна</fio>
+          <innfl>781608105560</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-01-26</date>
+          <firstDate>2009-01-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

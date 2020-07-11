@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6455031726</inn>
+    <ogrn>1026403671909</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026403671909</focusHref>
+    <UL>
+      <kpp>645201001</kpp>
+      <okpo>04664889</okpo>
+      <okato>63401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>63701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП "Теплосфера"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческое предприятие "Теплосфера"</full>
+        <date>2008-09-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>410005</zipCode>
+          <kladrCode>640000010000391</kladrCode>
+          <regionCode>64</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Саратовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Саратов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Железнодорожная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>112</topoValue>
+          </house>
+          <houseRaw>112</houseRaw>
+        </parsedAddressRF>
+        <date>2008-09-25</date>
+        <firstDate>2008-09-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-11-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Земцов Александр Юрьевич</fio>
+          <innfl>645403195593</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-09-25</date>
+          <firstDate>2008-09-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1909010400</inn>
+    <ogrn>1021900759330</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021900759330</focusHref>
+    <UL>
+      <kpp>190901001</kpp>
+      <okpo>39083686</okpo>
+      <okato>95402000000</okato>
+      <okfs>14</okfs>
+      <oktmo>95702000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация г. Абазы</short>
+        <full>Администрация города Абазы</full>
+        <date>2012-01-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655750</zipCode>
+          <kladrCode>190000040000058</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абаза</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>35</topoValue>
+          </house>
+          <houseRaw>35</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-10</date>
+        <firstDate>2002-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-12-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Филимонова Валентина Николаевна</fio>
+          <innfl>190900345801</innfl>
+          <position>Глава Города Абазы</position>
+          <date>2017-10-05</date>
+          <firstDate>2017-10-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>Администрация МО г. Абаза</short>
+          </legalName>
+          <legalName>
+            <full>Администрация муниципального образования город Абаза</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>655750</zipCode>
+              <regionCode>19</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Хакасия</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Таштыпский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Абаза</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Ленина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>35</topoValue>
+              </house>
+              <houseRaw>35</houseRaw>
+            </parsedAddressRF>
+            <date>2005-03-15</date>
+            <firstDate>2005-03-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Фефелов Сергей Владимирович</fio>
+            <innfl>190900892360</innfl>
+            <position>Глава города Абазы</position>
+            <date>2012-01-19</date>
+            <firstDate>2009-03-25</firstDate>
+          </head>
+          <head>
+            <fio>Байбородов Николай Иванович</fio>
+            <innfl>190900908349</innfl>
+            <position>Глава Города Абазы</position>
+            <date>2013-10-10</date>
+            <firstDate>2013-10-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>9</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

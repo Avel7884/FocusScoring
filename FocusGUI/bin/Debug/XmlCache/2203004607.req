@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2203004607</inn>
+    <ogrn>1022200535280</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200535280</focusHref>
+    <UL>
+      <kpp>220301001</kpp>
+      <okpo>00974050</okpo>
+      <okato>01404000000</okato>
+      <okfs>14</okfs>
+      <oktmo>01704000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация города</short>
+        <full>Администрация города Белокуриха Алтайского края</full>
+        <date>2012-05-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>659900</zipCode>
+          <kladrCode>220000030000142</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Белокуриха</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Братьев Ждановых</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9А</topoValue>
+          </house>
+          <houseRaw>9А</houseRaw>
+        </parsedAddressRF>
+        <date>2012-05-22</date>
+        <firstDate>2012-05-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-01-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Базаров Константин Исламджанович</fio>
+          <innfl>220300100340</innfl>
+          <position>Глава Города</position>
+          <date>2017-01-17</date>
+          <firstDate>2012-05-22</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <full>АДМИНИСТРАЦИЯ ГОРОДА БЕЛОКУРИХА АЛТАЙСКИЙ КРАЙ</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>659900</zipCode>
+              <regionCode>22</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Алтайский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Белокуриха</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Ждановых</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9А</topoValue>
+              </house>
+              <houseRaw>9А</houseRaw>
+              <bulkRaw>-</bulkRaw>
+              <flatRaw>-</flatRaw>
+            </parsedAddressRF>
+            <date>2002-09-14</date>
+            <firstDate>2002-09-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Каменев Александр Филиппович</fio>
+            <innfl>220300396908</innfl>
+            <position>Глава Администрации города Белокурихи</position>
+            <date>2004-04-27</date>
+            <firstDate>2004-04-27</firstDate>
+          </head>
+          <head>
+            <fio>Киунов Александр Владимирович</fio>
+            <innfl>220300428860</innfl>
+            <position>Первый Заместитель Главы Админитсрации Города по Общим Вопрсам</position>
+            <date>2016-10-25</date>
+            <firstDate>2016-10-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>9</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

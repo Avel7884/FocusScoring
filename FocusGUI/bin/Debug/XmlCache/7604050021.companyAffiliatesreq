@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7604050021</inn>
+    <ogrn>1027600679897</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027600679897</focusHref>
+    <UL>
+      <kpp>760401001</kpp>
+      <okpo>52931558</okpo>
+      <okato>78401368000</okato>
+      <okfs>24</okfs>
+      <oktmo>78701000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергомаш"</short>
+        <full>Общество с ограниченной ответственностью "Энергомаш"</full>
+        <date>2002-10-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>150003</zipCode>
+          <kladrCode>760000010000358</kladrCode>
+          <regionCode>76</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ярославская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ярославль</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красный Съезд</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>6</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-10-10</date>
+        <firstDate>2002-10-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-11-26</date>
+      </status>
+      <registrationDate>2000-03-17</registrationDate>
+      <dissolutionDate>2018-11-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Богданова Ирина Георгиевна</fio>
+          <position>Генеральный директор</position>
+          <date>2002-10-10</date>
+          <firstDate>2002-10-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5406255513</inn>
+    <ogrn>1035402492872</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035402492872</focusHref>
+    <UL>
+      <kpp>540601001</kpp>
+      <okpo>14776324</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агротехпром"</short>
+        <full>Общество с ограниченной ответственностью "Агротехпром"</full>
+        <date>2003-06-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630000</zipCode>
+          <kladrCode>540000010000666</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Красный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42</topoValue>
+          </house>
+          <houseRaw>42</houseRaw>
+        </parsedAddressRF>
+        <date>2003-06-17</date>
+        <firstDate>2003-06-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-05-05</date>
+      </status>
+      <registrationDate>2003-06-17</registrationDate>
+      <dissolutionDate>2012-05-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Логачев Юрий Михайлович</fio>
+          <position>Директор</position>
+          <date>2003-06-17</date>
+          <firstDate>2003-06-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

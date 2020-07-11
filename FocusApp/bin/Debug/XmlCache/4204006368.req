@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4204006368</inn>
+    <ogrn>1054204012378</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054204012378</focusHref>
+    <UL>
+      <kpp>420401001</kpp>
+      <okpo>03558493</okpo>
+      <okato>32202830001</okato>
+      <okfs>14</okfs>
+      <oktmo>32602430101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация Раздольного поселения</short>
+        <full>Администрация Раздольного сельского поселения</full>
+        <date>2010-11-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652765</zipCode>
+          <kladrCode>420030000210001</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Гурьевский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Раздольный</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Центральная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <houseRaw>14</houseRaw>
+        </parsedAddressRF>
+        <date>2005-12-23</date>
+        <firstDate>2005-12-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-12-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Александров Андрей Геннадьевич</fio>
+          <innfl>420402537511</innfl>
+          <position>Глава Сельского Поселения</position>
+          <date>2015-10-06</date>
+          <firstDate>2015-10-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Лукашик Валентина Николаевна</fio>
+            <innfl>420401302919</innfl>
+            <position>Глава Администрации</position>
+            <date>2005-12-23</date>
+            <firstDate>2005-12-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

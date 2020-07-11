@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5611032615</inn>
+    <ogrn>1045605473308</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045605473308</focusHref>
+    <UL>
+      <kpp>561101001</kpp>
+      <okpo>74718115</okpo>
+      <okato>53401368000</okato>
+      <okfs>12</okfs>
+      <oktmo>53701000001</oktmo>
+      <okogu>1318025</okogu>
+      <okopf>75104</okopf>
+      <opf>Федеральные государственные казенные учреждения</opf>
+      <legalName>
+        <short>УФССП России по Оренбургской области</short>
+        <full>Управление Федеральной службы судебных приставов по Оренбургской области</full>
+        <date>2007-06-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>460025</zipCode>
+          <kladrCode>560000010000945</kladrCode>
+          <regionCode>56</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Оренбургская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Оренбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ткачева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2004-12-17</date>
+        <firstDate>2004-12-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-12-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Очкалов Алексей Валерьевич</fio>
+          <innfl>561108203120</innfl>
+          <position>Руководитель</position>
+          <date>2017-09-25</date>
+          <firstDate>2015-02-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Божимова Ольга Алексеевна</fio>
+            <innfl>561006207301</innfl>
+            <position>Руководитель Уфссп России по Оренбургской Области -Главный Судебный Пристав Оренбургской Области</position>
+            <date>2010-05-06</date>
+            <firstDate>2010-05-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>7</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

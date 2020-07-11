@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701246125</inn>
+    <ogrn>1037739625615</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739625615</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>54814561</okpo>
+      <okato>45286555000</okato>
+      <okfs>16</okfs>
+      <oktmo>45375000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКЦ СОЭКОН"</short>
+        <full>Общество с ограниченной ответственностью "АКЦ СОЭКОН"</full>
+        <date>2003-02-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>101000</zipCode>
+          <kladrCode>770000000001612</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Кривоколенный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-02-13</date>
+        <firstDate>2003-02-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-05</date>
+      </status>
+      <registrationDate>2000-08-09</registrationDate>
+      <dissolutionDate>2016-09-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Макушин Иван Анатольевич</fio>
+          <innfl>183209028021</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-07-30</date>
+          <firstDate>2008-07-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

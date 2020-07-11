@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1905008801</inn>
+    <ogrn>1061902002810</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1061902002810</focusHref>
+    <UL>
+      <kpp>190501001</kpp>
+      <okpo>31898822</okpo>
+      <okato>95208569000</okato>
+      <okfs>14</okfs>
+      <oktmo>95608169051</oktmo>
+      <okogu>3300400</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация Вершино-Тейского поссовета</short>
+        <full>Администрация Вершино-Тейского поссовета Аскизского района Республики Хакасия</full>
+        <date>2011-12-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655731</zipCode>
+          <kladrCode>190030000160009</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Аскизский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>рп</topoShortName>
+            <topoFullName>рабочий поселок</topoFullName>
+            <topoValue>Вершина Тёи</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Набережная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <houseRaw>9</houseRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2006-02-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-02-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Елистратова Галина Николаевна</fio>
+          <innfl>190500755338</innfl>
+          <position>Глава Вершино-Тейского Поссовета</position>
+          <date>2016-06-01</date>
+          <firstDate>2016-06-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>Администрация МО Вершино-Тейский поссовет</short>
+          </legalName>
+          <legalName>
+            <full>Администрация муниципального образования Вершино-Тейский поссовет</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Романов Сергей Леонидович</fio>
+            <innfl>190500137606</innfl>
+            <position>Глава Муниципального Образования</position>
+            <date>2011-02-21</date>
+            <firstDate>2011-02-21</firstDate>
+          </head>
+          <head>
+            <fio>Дегтярёв Сергей Николаевич</fio>
+            <innfl>190500852500</innfl>
+            <position>Глава Вершино-Тейского Поссовета</position>
+            <date>2015-04-08</date>
+            <firstDate>2015-04-08</firstDate>
+          </head>
+          <head>
+            <fio>Шульмина Галина Александровна</fio>
+            <innfl>190501669353</innfl>
+            <position>Временно И.О. Главы</position>
+            <date>2016-03-25</date>
+            <firstDate>2016-03-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

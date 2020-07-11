@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2312000539</inn>
+    <ogrn>1022301222987</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022301222987</focusHref>
+    <UL>
+      <kpp>230801001</kpp>
+      <okpo>16852165</okpo>
+      <okato>03401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ФИРМА АКСИОМА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ФИРМА АКСИОМА"</full>
+        <date>2007-09-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350020</zipCode>
+          <kladrCode>230000010000039</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Им. Бабушкина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>246</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>В</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>офис 7, 1/1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 246</houseRaw>
+          <bulkRaw>ЛИТЕР В</bulkRaw>
+          <flatRaw>ОФИС 7, 1/1</flatRaw>
+        </parsedAddressRF>
+        <date>2019-03-18</date>
+        <firstDate>2019-03-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-06-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Тимохин Олег Дмитриевич</fio>
+          <innfl>231210962000</innfl>
+          <position>Директор</position>
+          <date>2019-03-18</date>
+          <firstDate>2002-12-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>350020</zipCode>
+              <kladrCode>230000010000039</kladrCode>
+              <regionCode>23</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Краснодарский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Краснодар</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>им Бабушкина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>246</topoValue>
+              </house>
+              <houseRaw>ДОМ 246</houseRaw>
+            </parsedAddressRF>
+            <date>2008-03-18</date>
+            <firstDate>2002-12-30</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>350020</zipCode>
+              <kladrCode>230000010000039</kladrCode>
+              <regionCode>23</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Краснодарский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Краснодар</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Бабушкина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>246</topoValue>
+              </house>
+              <houseRaw>246</houseRaw>
+            </parsedAddressRF>
+            <date>2002-12-30</date>
+            <firstDate>2002-12-29</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Федюн Валерий Александрович</fio>
+            <position>Директор</position>
+            <date>2014-04-21</date>
+            <firstDate>2014-04-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

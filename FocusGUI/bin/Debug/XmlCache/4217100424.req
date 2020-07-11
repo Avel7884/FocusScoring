@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217100424</inn>
+    <ogrn>1084217000130</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1084217000130</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>82749443</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВИКС"</short>
+        <full>Общество с ограниченной ответственностью "АВИКС"</full>
+        <date>2008-01-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654041</zipCode>
+          <kladrCode>420000120000498</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кузнецова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <houseRaw>12</houseRaw>
+        </parsedAddressRF>
+        <date>2008-01-17</date>
+        <firstDate>2008-01-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-09-06</date>
+      </status>
+      <registrationDate>2008-01-17</registrationDate>
+      <dissolutionDate>2012-09-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Петроченко Марина Сергеевна</fio>
+          <innfl>421701077448</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-12-15</date>
+          <firstDate>2011-12-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Еремченко Борис Владимирович</fio>
+            <innfl>422102193983</innfl>
+            <position>Директор</position>
+            <date>2009-07-20</date>
+            <firstDate>2009-07-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

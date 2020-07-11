@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1835079806</inn>
+    <ogrn>1071841007457</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1071841007457</focusHref>
+    <UL>
+      <kpp>183301001</kpp>
+      <okpo>81253734</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПФ "Авес"</short>
+        <full>Общество с ограниченной ответственностью Производственная фирма "Авес"</full>
+        <date>2007-08-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>426039</zipCode>
+          <kladrCode>180000010000046</kladrCode>
+          <regionCode>18</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Удмуртская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ижевск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Буммашевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <bulk>
+            <topoValue>10</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>3</topoValue>
+          </flat>
+          <houseRaw>7</houseRaw>
+          <bulkRaw>10</bulkRaw>
+          <flatRaw>3</flatRaw>
+        </parsedAddressRF>
+        <date>2007-11-01</date>
+        <firstDate>2007-11-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-25</date>
+      </status>
+      <registrationDate>2007-08-16</registrationDate>
+      <dissolutionDate>2012-01-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кокорин Олег Владиславович</fio>
+          <innfl>665810252169</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-12-16</date>
+          <firstDate>2009-12-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Сивенцев Евгений Сергеевич</fio>
+            <innfl>181001282385</innfl>
+            <position>Генеральный директор</position>
+            <date>2009-10-20</date>
+            <firstDate>2009-10-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

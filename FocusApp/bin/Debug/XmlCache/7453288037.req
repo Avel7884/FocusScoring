@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7453288037</inn>
+    <ogrn>1157453010582</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1157453010582</focusHref>
+    <UL>
+      <kpp>745301001</kpp>
+      <okpo>70816855</okpo>
+      <okato>75401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>75701390000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАНТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛАНТ"</full>
+        <date>2015-10-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454080</zipCode>
+          <kladrCode>740000010001176</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Энтузиастов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11В</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>12</topoValue>
+          </flat>
+          <houseRaw>ДОМ 11В</houseRaw>
+          <flatRaw>ОФИС 12</flatRaw>
+        </parsedAddressRF>
+        <date>2018-03-20</date>
+        <firstDate>2015-10-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Юридическое лицо находится в процессе реорганизации в форме присоединения к нему других юридических лиц</statusString>
+        <reorganizing>true</reorganizing>
+        <date>2019-11-05</date>
+      </status>
+      <registrationDate>2015-10-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Пермяков Александр Олегович</fio>
+          <innfl>741502539402</innfl>
+          <position>Директор</position>
+          <date>2019-09-09</date>
+          <firstDate>2015-10-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

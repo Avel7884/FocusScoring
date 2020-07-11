@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6672359271</inn>
+    <ogrn>1116672031211</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1116672031211</focusHref>
+    <UL>
+      <kpp>668501001</kpp>
+      <okpo>37920681</okpo>
+      <okato>65401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Стройтехснаб"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Стройтехснаб"</full>
+        <date>2011-12-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620026</zipCode>
+          <kladrCode>660000010000133</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Белинского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>83</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>207</topoValue>
+          </flat>
+          <houseRaw>83</houseRaw>
+          <flatRaw>ОФИС 207</flatRaw>
+        </parsedAddressRF>
+        <date>2011-12-02</date>
+        <firstDate>2011-12-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-05-31</date>
+      </status>
+      <registrationDate>2011-12-02</registrationDate>
+      <dissolutionDate>2017-05-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бушков Александр Сергеевич</fio>
+          <innfl>664702201165</innfl>
+          <position>Директор</position>
+          <date>2013-05-27</date>
+          <firstDate>2013-05-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>667201001</kpp>
+            <date>2011-12-02</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Демина Наталья Николаевна</fio>
+            <innfl>667359481430</innfl>
+            <position>Директор</position>
+            <date>2011-12-02</date>
+            <firstDate>2011-12-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

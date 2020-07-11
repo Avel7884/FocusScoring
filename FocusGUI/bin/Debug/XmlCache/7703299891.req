@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703299891</inn>
+    <ogrn>1037739707939</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739707939</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>57988633</okpo>
+      <okato>45286575000</okato>
+      <okfs>16</okfs>
+      <oktmo>45380000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Ардион"</short>
+        <full>Общество с ограниченной ответственностью "Ардион"</full>
+        <date>2003-02-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103009</zipCode>
+          <kladrCode>770000000003277</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Газетный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3-5</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>3-5</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-02-18</date>
+        <firstDate>2003-02-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-02-24</date>
+      </status>
+      <registrationDate>2001-11-08</registrationDate>
+      <dissolutionDate>2014-02-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Борисов Сергей Витальевич</fio>
+          <innfl>773121879307</innfl>
+          <position>Генеральный Директор</position>
+          <date>2003-02-18</date>
+          <firstDate>2003-02-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

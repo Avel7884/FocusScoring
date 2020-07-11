@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>Критический рост суммы арбитражных дел в качестве ответчика</Name>
+  <Colour>Red</Colour>
+  <Description>Критический рост суммы арбитражных дел в качестве ответчика за последние 12 месяцев. Т.е. сумма дел за последние 12 месяцев составляет более 50% по сравнению с суммой дел за предыдущие 2 года. При этом сумма арбитражных дел за последние 12 месяцев более 5 млн. руб.</Description>
+  <Code>double sumDel;
+double sumDelPast;
+                        if (DoubleTryParse(company.GetParam("s2001"), out sumDel) &amp;&amp;
+                            DoubleTryParse(company.GetParam("s2002"), out sumDelPast))
+                            return (sumDelPast &gt; sumDel) &amp; (sumDel &gt; ((sumDelPast - sumDel) / 2)) &amp; (sumDel &gt; 5000000);
+                        return false;</Code>
+</items>

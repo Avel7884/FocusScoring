@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5256064468</inn>
+    <ogrn>1065256043214</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1065256043214</focusHref>
+    <UL>
+      <kpp>525601001</kpp>
+      <okpo>97574334</okpo>
+      <okato>22401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>22701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Автострой"</short>
+        <full>Закрытое акционерное общество "Автострой"</full>
+        <date>2006-11-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603004</zipCode>
+          <kladrCode>520000010000565</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>88</topoValue>
+          </house>
+          <houseRaw>88</houseRaw>
+        </parsedAddressRF>
+        <date>2007-02-26</date>
+        <firstDate>2007-02-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-06-27</date>
+      </status>
+      <registrationDate>2006-11-07</registrationDate>
+      <dissolutionDate>2014-06-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Торгашев Валерий Павлович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2013-11-06</date>
+          <firstDate>2013-11-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Иванов Александр Степанович</fio>
+            <position>Исполняющий обязанности Генерального директора</position>
+            <date>2011-05-25</date>
+            <firstDate>2011-05-25</firstDate>
+          </head>
+          <head>
+            <fio>Сурженко Геннадий Аркадьевич</fio>
+            <position>Ликвидатор</position>
+            <date>2013-03-29</date>
+            <firstDate>2013-03-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

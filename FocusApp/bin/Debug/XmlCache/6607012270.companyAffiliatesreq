@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6607012270</inn>
+    <ogrn>1086607000248</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1086607000248</focusHref>
+    <UL>
+      <kpp>660701001</kpp>
+      <okpo>86896490</okpo>
+      <okato>65477000000</okato>
+      <okfs>16</okfs>
+      <oktmo>65750000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автомобилист"</short>
+        <full>Общество с ограниченной ответственностью "Автомобилист"</full>
+        <date>2008-05-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624742</zipCode>
+          <kladrCode>660000270000085</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижняя Салда</topoValue>
+          </city>
+          <street>
+            <topoShortName>пл</topoShortName>
+            <topoFullName>площадь</topoFullName>
+            <topoValue>Свободы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2014-03-14</date>
+        <firstDate>2014-03-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-05-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Волкова Ольга Ивановна</fio>
+          <innfl>662200749204</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-06-02</date>
+          <firstDate>2008-05-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>624740</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижняя Салда</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Фрунзе</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>137</topoValue>
+              </house>
+              <houseRaw>137</houseRaw>
+            </parsedAddressRF>
+            <date>2008-05-12</date>
+            <firstDate>2008-05-12</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>662200302960</inn>
+    <ogrn>315665800080899</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=315665800080899</focusHref>
+    <IP>
+      <fio>Волков Дмитрий Юрьевич</fio>
+      <okpo>0201730146</okpo>
+      <okato>65477000000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>65750000001</oktmo>
+      <registrationDate>2015-11-27</registrationDate>
+      <dissolutionDate>2018-06-08</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-06-08</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>662200749204</inn>
+    <ogrn>307660719800028</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=307660719800028</focusHref>
+    <IP>
+      <fio>Волкова Ольга Ивановна</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2007-07-17</registrationDate>
+      <dissolutionDate>2007-11-08</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-11-08</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

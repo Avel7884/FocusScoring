@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205059250</inn>
+    <ogrn>1034205076025</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034205076025</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>72270053</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПГ "Автоагрегат"</short>
+        <full>Общество с ограниченной ответственностью "Промышленная группа "Автоагрегат"</full>
+        <date>2010-03-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650902</zipCode>
+          <kladrCode>420000090001243</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Декабрьская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2011-02-16</date>
+        <firstDate>2011-02-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-24</date>
+      </status>
+      <registrationDate>2003-12-26</registrationDate>
+      <dissolutionDate>2012-01-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Черешко Максим Николаевич</fio>
+          <innfl>420504986700</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2011-05-25</date>
+          <firstDate>2011-05-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

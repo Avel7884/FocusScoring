@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4246005574</inn>
+    <ogrn>1054246023061</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054246023061</focusHref>
+    <UL>
+      <kpp>424601001</kpp>
+      <okpo>04162308</okpo>
+      <okato>32243551000</okato>
+      <okfs>14</okfs>
+      <oktmo>32643151051</oktmo>
+      <okogu>3300400</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Яйского городского поселения</full>
+        <date>2016-12-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652100</zipCode>
+          <kladrCode>420180010000036</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Яйский</topoValue>
+          </district>
+          <city>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Яя</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>ДОМ 2</houseRaw>
+        </parsedAddressRF>
+        <date>2016-12-28</date>
+        <firstDate>2012-01-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-11-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Реймер Евгений Валерьевич</fio>
+          <innfl>424601190438</innfl>
+          <position>Глава Яйского Городского Поселения</position>
+          <date>2017-02-01</date>
+          <firstDate>2017-02-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>652100</zipCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Яйский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>рп</topoShortName>
+                <topoFullName>рабочий поселок</topoFullName>
+                <topoValue>Яя</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Ленина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <houseRaw>2</houseRaw>
+            </parsedAddressRF>
+            <date>2005-11-24</date>
+            <firstDate>2005-11-24</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Мяленко Евгений Владимирович</fio>
+            <innfl>424600223169</innfl>
+            <position>Глава</position>
+            <date>2012-01-13</date>
+            <firstDate>2010-03-26</firstDate>
+          </head>
+          <head>
+            <fio>Громов Василий Федорович</fio>
+            <innfl>424600647400</innfl>
+            <position>И. О. Главы Яйского Городского Поселения</position>
+            <date>2016-12-28</date>
+            <firstDate>2016-12-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

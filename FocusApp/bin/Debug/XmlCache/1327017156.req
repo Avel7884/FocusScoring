@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1327017156</inn>
+    <ogrn>1121327002180</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1121327002180</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>91687445</okpo>
+      <okato>89401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>89701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМК-417"</short>
+        <full>Общество с ограниченной ответственностью "ПМК-417"</full>
+        <date>2012-10-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420021</zipCode>
+          <kladrCode>160000010001460</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Габдуллы Тукая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>62А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 62А</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 1</flatRaw>
+        </parsedAddressRF>
+        <date>2015-06-26</date>
+        <firstDate>2015-06-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-10-22</date>
+      </status>
+      <registrationDate>2012-10-04</registrationDate>
+      <dissolutionDate>2015-10-22</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АЙ"</name>
+          <inn>3702713417</inn>
+          <ogrn>1133702027953</ogrn>
+          <date>2015-04-09</date>
+          <firstDate>2015-04-09</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>132701001</kpp>
+            <date>2012-10-05</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>430034</zipCode>
+              <kladrCode>130000010000281</kladrCode>
+              <regionCode>13</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Мордовия</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Саранск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Промышленная 1-я</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>23</topoValue>
+              </house>
+              <houseRaw>23</houseRaw>
+            </parsedAddressRF>
+            <date>2012-10-04</date>
+            <firstDate>2012-10-04</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Фролов Олег Геннадиевич</fio>
+            <innfl>132701631994</innfl>
+            <position>Директор</position>
+            <date>2015-03-02</date>
+            <firstDate>2012-10-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2311106973</inn>
+    <ogrn>1082311002135</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1082311002135</focusHref>
+    <UL>
+      <kpp>231101001</kpp>
+      <okpo>85411897</okpo>
+      <okato>03401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аз-МонолитЮг"</short>
+        <full>Общество с ограниченной ответственностью "Аз-МонолитЮг"</full>
+        <date>2008-03-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350000</zipCode>
+          <kladrCode>230000010000341</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красных Партизан</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2/1</topoValue>
+          </house>
+          <houseRaw>2/1</houseRaw>
+        </parsedAddressRF>
+        <date>2008-03-19</date>
+        <firstDate>2008-03-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-03-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Алиев Фариз Тофик Оглы</fio>
+          <innfl>231121165620</innfl>
+          <position>Заместитель Директора</position>
+          <date>2017-05-05</date>
+          <firstDate>2008-03-19</firstDate>
+        </head>
+        <head>
+          <fio>Алиев Фаиг Тофиг Оглы</fio>
+          <innfl>231205835536</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-07</date>
+          <firstDate>2008-03-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>500300187120</inn>
+    <ogrn>317774600198012</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=317774600198012</focusHref>
+    <IP>
+      <fio>Вевиорский Петр Александрович</fio>
+      <okpo>0112864546</okpo>
+      <okato>45297552102</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>45941000000</oktmo>
+      <registrationDate>2017-04-20</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>500300187120</inn>
+    <ogrn>305500322900555</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305500322900555</focusHref>
+    <IP>
+      <fio>Вевиорский Петр Александрович</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1998-08-18</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Утратил государственную регистрацию в качестве индивидуального предпринимателя на основании статьи 3 ФЗ от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-08-17</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7722469940</inn>
+    <ogrn>1187746994170</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1187746994170</focusHref>
+    <UL>
+      <kpp>770801001</kpp>
+      <okpo>34879363</okpo>
+      <okato>45290578000</okato>
+      <okfs>16</okfs>
+      <oktmo>45392000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ИСТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ИНФОРМАЦИОННЫЕ СИСТЕМЫ ТРАНСПОРТА"</full>
+        <date>2018-12-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129090</zipCode>
+          <kladrCode>770000000004215</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>туп</topoShortName>
+            <topoFullName>тупик</topoFullName>
+            <topoValue>Спасский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Эт/пом 2/10</topoValue>
+          </flat>
+          <houseRaw>ДОМ 2</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ЭТ/ПОМ 2/10</flatRaw>
+        </parsedAddressRF>
+        <date>2019-11-19</date>
+        <firstDate>2019-11-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-12-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Вевиорский Петр Александрович</fio>
+          <innfl>500300187120</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-10-30</date>
+          <firstDate>2018-12-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772201001</kpp>
+            <date>2018-12-11</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>109052</zipCode>
+              <kladrCode>770000000000071</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>29-33</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>7</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>Эт 2 пом V Ком 10</topoValue>
+              </flat>
+              <houseRaw>ДОМ 29-33</houseRaw>
+              <bulkRaw>СТРОЕНИЕ 7</bulkRaw>
+              <flatRaw>ЭТ 2 ПОМ V КОМ 10</flatRaw>
+            </parsedAddressRF>
+            <date>2018-12-10</date>
+            <firstDate>2018-12-10</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7730711560</inn>
+    <ogrn>1147746945720</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1147746945720</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okpo>17571020</okpo>
+      <okato>45296561000</okato>
+      <okfs>16</okfs>
+      <oktmo>45915000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕДИАФИНАНССЕРВИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕДИАФИНАНССЕРВИС"</full>
+        <date>2017-12-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115162</zipCode>
+          <kladrCode>770000000003167</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шухова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>6</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Подъезд 5</topoValue>
+          </flat>
+          <houseRaw>ДОМ 14</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 6</bulkRaw>
+          <flatRaw>ПОДЪЕЗД 5</flatRaw>
+        </parsedAddressRF>
+        <date>2015-12-09</date>
+        <firstDate>2015-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-08-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Александров Денис Андреевич</fio>
+          <innfl>773104259247</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-09-19</date>
+          <firstDate>2015-12-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>773001001</kpp>
+            <date>2014-08-20</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "АВТОМОБИЛИ ОНЛАЙН"</short>
+            <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВТОМОБИЛИ ОНЛАЙН"</full>
+            <date>2014-08-20</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115162</zipCode>
+              <kladrCode>770000000003167</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Шухова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>14</topoValue>
+              </house>
+              <bulk>
+                <topoValue>6</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>5</topoValue>
+              </flat>
+              <houseRaw>14</houseRaw>
+              <bulkRaw>6</bulkRaw>
+              <flatRaw>5</flatRaw>
+            </parsedAddressRF>
+            <date>2015-12-09</date>
+            <firstDate>2015-12-09</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>121059</zipCode>
+              <kladrCode>770000000000909</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Брянская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <houseRaw>2</houseRaw>
+            </parsedAddressRF>
+            <date>2014-08-20</date>
+            <firstDate>2014-08-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Алексашкин Максим Вадимович</fio>
+            <innfl>772446282529</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-08-20</date>
+            <firstDate>2014-08-20</firstDate>
+          </head>
+          <head>
+            <fio>Вевиорский Петр Александрович</fio>
+            <innfl>500300187120</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-01-14</date>
+            <firstDate>2015-01-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7731188375</inn>
+    <ogrn>1037739028910</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739028910</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>51184912</okpo>
+      <okato>45286560000</okato>
+      <okfs>16</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВэйКом"</short>
+        <full>Общество с ограниченной ответственностью "ВэйКом"</full>
+        <date>2003-01-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115114</zipCode>
+          <kladrCode>770000000001488</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кожевническая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-02-28</date>
+        <firstDate>2013-02-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-09-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Вевиорский Петр Александрович</fio>
+          <innfl>500300187120</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-10-30</date>
+          <firstDate>2009-10-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>773101001</kpp>
+            <date>2004-12-29</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>117513</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Ленинский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>135</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>739</topoValue>
+              </flat>
+              <houseRaw>135</houseRaw>
+              <bulkRaw>1</bulkRaw>
+              <flatRaw>739</flatRaw>
+            </parsedAddressRF>
+            <date>2003-01-08</date>
+            <firstDate>2003-01-08</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

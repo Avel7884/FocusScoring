@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5835023783</inn>
+    <ogrn>1035800002402</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035800002402</focusHref>
+    <UL>
+      <kpp>583501001</kpp>
+      <okpo>41400259</okpo>
+      <okopf>75505</okopf>
+      <opf>Общественные учреждения</opf>
+      <legalName>
+        <short>ПРОУ "УЦ "Алгоритм"</short>
+        <full>Пензенское региональное общественное учреждение "Учебный центр "Алгоритм"</full>
+        <date>2012-08-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>440060</zipCode>
+          <kladrCode>580000010000651</kladrCode>
+          <regionCode>58</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Пензенская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пенза</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>146</topoValue>
+          </house>
+          <flat>
+            <topoValue>117</topoValue>
+          </flat>
+          <houseRaw>146</houseRaw>
+          <flatRaw>117</flatRaw>
+        </parsedAddressRF>
+        <date>2003-01-24</date>
+        <firstDate>2003-01-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-07-29</date>
+      </status>
+      <registrationDate>1998-03-14</registrationDate>
+      <dissolutionDate>2015-07-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гераймович Анна Сергеевна</fio>
+          <innfl>583502587713</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2015-05-18</date>
+          <firstDate>2003-01-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ПОУ "НТО Алгоритм"</short>
+          </legalName>
+          <legalName>
+            <full>Пензенское общественое учреждение "НТО Алгоритм"</full>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

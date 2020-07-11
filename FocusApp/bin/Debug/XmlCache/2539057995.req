@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2539057995</inn>
+    <ogrn>1032502131837</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1032502131837</focusHref>
+    <UL>
+      <kpp>253601001</kpp>
+      <okpo>15257087</okpo>
+      <okato>05401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>05701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП"</short>
+        <full>Общество с ограниченной ответственностью "ПКП"</full>
+        <date>2003-08-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>690001</zipCode>
+          <kladrCode>250000010000492</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владивосток</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Светланская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>167</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>31</topoValue>
+          </flat>
+          <houseRaw>ДОМ 167</houseRaw>
+          <flatRaw>ОФИС 31</flatRaw>
+        </parsedAddressRF>
+        <date>2018-08-16</date>
+        <firstDate>2018-08-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-08-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Хохлов Дмитрий Арнольдович</fio>
+          <innfl>253702786050</innfl>
+          <position>Генеральный Директор</position>
+          <date>2011-10-19</date>
+          <firstDate>2006-06-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>690000</zipCode>
+              <kladrCode>250000010000492</kladrCode>
+              <regionCode>25</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Приморский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Владивосток</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Светланская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>167</topoValue>
+              </house>
+              <houseRaw>167</houseRaw>
+            </parsedAddressRF>
+            <date>2006-06-28</date>
+            <firstDate>2006-06-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2210005880</inn>
+    <ogrn>1022200867886</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200867886</focusHref>
+    <UL>
+      <kpp>221101001</kpp>
+      <okpo>32243891</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "КЦ АЛТАЙХИМПРОМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "КОММЕРЧЕСКИЙ ЦЕНТР АЛТАЙХИМПРОМ"</full>
+        <date>2002-12-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658839</zipCode>
+          <kladrCode>220000120000016</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Яровое</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2003-05-13</date>
+        <firstDate>2003-05-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-04-12</date>
+      </status>
+      <registrationDate>2002-12-28</registrationDate>
+      <dissolutionDate>2012-04-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Смирнова Ксения Викторовна</fio>
+          <innfl>221100996875</innfl>
+          <position>Директор</position>
+          <date>2006-08-11</date>
+          <firstDate>2006-08-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Сыркина Марина Владимировна</fio>
+            <innfl>221100132956</innfl>
+            <position>Директор</position>
+            <date>2007-02-01</date>
+            <firstDate>2007-02-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>221100132956</inn>
+    <ogrn>311221036200014</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=311221036200014</focusHref>
+    <IP>
+      <fio>Сыркина Марина Владимировна</fio>
+      <okpo>0182270984</okpo>
+      <okato>01430000000</okato>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2011-12-28</registrationDate>
+      <dissolutionDate>2012-12-29</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-12-29</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>2211002378</inn>
+    <ogrn>1022200882880</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200882880</focusHref>
+    <UL>
+      <kpp>221101001</kpp>
+      <okpo>40836843</okpo>
+      <okato>01430000000</okato>
+      <okfs>16</okfs>
+      <oktmo>01730000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>20101</okopf>
+      <opf>Гаражные и гаражно-строительные кооперативы</opf>
+      <legalName>
+        <short>Гаражный кооператив "ЮЖНЫЙ"</short>
+        <full>Потребительский гаражный кооператив "ЮЖНЫЙ"</full>
+        <date>2006-04-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658839</zipCode>
+          <kladrCode>220000120000014</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Яровое</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гагарина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <houseRaw>9</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-31</date>
+        <firstDate>2002-10-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-09-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Сыркина Марина Владимировна</fio>
+          <innfl>221100132956</innfl>
+          <position>Председатель</position>
+          <date>2019-08-19</date>
+          <firstDate>2019-08-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Бернгардт Владимир Климентьевич</fio>
+            <innfl>221100705043</innfl>
+            <position>Председатель</position>
+            <date>2010-03-17</date>
+            <firstDate>2010-03-17</firstDate>
+          </head>
+          <head>
+            <fio>Тамурко Иван Иванович</fio>
+            <innfl>221100708647</innfl>
+            <position>Председатель</position>
+            <date>2014-03-26</date>
+            <firstDate>2014-03-26</firstDate>
+          </head>
+          <head>
+            <fio>Решетько Михаил Константинович</fio>
+            <innfl>221101270772</innfl>
+            <position>Председатель</position>
+            <date>2014-08-12</date>
+            <firstDate>2014-08-12</firstDate>
+          </head>
+          <head>
+            <fio>Казакова Нина Владимировна</fio>
+            <innfl>221101093107</innfl>
+            <position>Председатель</position>
+            <date>2017-08-01</date>
+            <firstDate>2016-03-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>2211005587</inn>
+    <ogrn>1152225026722</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1152225026722</focusHref>
+    <UL>
+      <kpp>221101001</kpp>
+      <okpo>33992637</okpo>
+      <okato>01430000000</okato>
+      <okfs>16</okfs>
+      <oktmo>01730000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЛИДЕР"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ЛИДЕР"</full>
+        <date>2015-11-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658839</zipCode>
+          <kladrCode>220000120000053</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Яровое</topoValue>
+          </city>
+          <street>
+            <topoShortName>мкр</topoShortName>
+            <topoFullName>микрорайон</topoFullName>
+            <topoValue>Промзона</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <houseRaw>ДОМ 18</houseRaw>
+        </parsedAddressRF>
+        <date>2015-11-27</date>
+        <firstDate>2015-11-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-11-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Смирнова Ксения Викторовна</fio>
+          <innfl>221100996875</innfl>
+          <position>Директор</position>
+          <date>2015-11-27</date>
+          <firstDate>2015-11-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>2224125627</inn>
+    <ogrn>1082224008305</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1082224008305</focusHref>
+    <UL>
+      <kpp>222201001</kpp>
+      <okpo>87196888</okpo>
+      <okato>01401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>01701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СибТепло"</short>
+        <full>Общество с ограниченной ответственностью "СибТепло"</full>
+        <date>2009-09-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656064</zipCode>
+          <kladrCode>220000010000453</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>тракт</topoShortName>
+            <topoFullName>тракт</topoFullName>
+            <topoValue>Павловский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>76А</topoValue>
+          </house>
+          <houseRaw>ДОМ 76А</houseRaw>
+        </parsedAddressRF>
+        <date>2019-06-26</date>
+        <firstDate>2019-06-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-07-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Шумейко Евгения Сергеевна</fio>
+          <innfl>221101057892</innfl>
+          <position>Директор</position>
+          <date>2010-05-17</date>
+          <firstDate>2010-05-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>222401001</kpp>
+            <date>2008-07-17</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>656012</zipCode>
+              <kladrCode>220000010000615</kladrCode>
+              <regionCode>22</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Алтайский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Барнаул</topoValue>
+              </city>
+              <street>
+                <topoShortName>проезд</topoShortName>
+                <topoFullName>проезд</topoFullName>
+                <topoValue>Тальменский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <houseRaw>5</houseRaw>
+            </parsedAddressRF>
+            <date>2008-07-16</date>
+            <firstDate>2008-07-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7705583964</inn>
+    <ogrn>1047796103596</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796103596</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>72065318</okpo>
+      <okato>45286560000</okato>
+      <okfs>23</okfs>
+      <oktmo>45376000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Реформа"</short>
+        <full>Закрытое акционерное общество "Реформа"</full>
+        <date>2004-02-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115035</zipCode>
+          <kladrCode>770000000002144</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Садовническая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>76/71</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>76/71</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-02-20</date>
+        <firstDate>2004-02-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-25</date>
+      </status>
+      <registrationDate>2004-02-20</registrationDate>
+      <dissolutionDate>2017-12-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Глембо Сергей Сергеевич</fio>
+          <innfl>772565028000</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-01-31</date>
+          <firstDate>2010-11-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7706288383</inn>
+    <ogrn>1037706001992</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037706001992</focusHref>
+    <UL>
+      <kpp>770601001</kpp>
+      <okpo>13544262</okpo>
+      <okato>45286596000</okato>
+      <okfs>16</okfs>
+      <oktmo>45384000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ФинансПроект"</short>
+        <full>Общество с ограниченной ответственностью "ФинансПроект"</full>
+        <date>2003-01-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119049</zipCode>
+          <kladrCode>770000000001689</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1А</topoValue>
+          </bulk>
+          <houseRaw>4</houseRaw>
+          <bulkRaw>1А</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-01-15</date>
+        <firstDate>2003-01-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-06-26</date>
+      </status>
+      <registrationDate>2003-01-15</registrationDate>
+      <dissolutionDate>2017-06-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Нетесова Татьяна Васильевна</fio>
+          <position>Генеральный директор</position>
+          <date>2008-04-22</date>
+          <firstDate>2008-04-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7713697154</inn>
+    <ogrn>1097746772551</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097746772551</focusHref>
+    <UL>
+      <kpp>771301001</kpp>
+      <okpo>64431335</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Урбан-Проект"</short>
+        <full>Общество с ограниченной ответственностью "Урбан-Проект"</full>
+        <date>2009-12-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127299</zipCode>
+          <kladrCode>770000000000723</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академическая Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>5</houseRaw>
+        </parsedAddressRF>
+        <date>2009-12-03</date>
+        <firstDate>2009-12-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-03-30</date>
+      </status>
+      <registrationDate>2009-12-03</registrationDate>
+      <dissolutionDate>2015-03-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Асмоловский Сергей Викторович</fio>
+          <innfl>312803560223</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-11-02</date>
+          <firstDate>2010-11-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7728511518</inn>
+    <ogrn>1047796292004</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796292004</focusHref>
+    <UL>
+      <kpp>772801001</kpp>
+      <okpo>72774316</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Инвест менеджмент групп"</short>
+        <full>Общество с ограниченной ответственностью "Инвест менеджмент групп"</full>
+        <date>2004-04-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117292</zipCode>
+          <kladrCode>770000000001967</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Нахимовский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52/27</topoValue>
+          </house>
+          <houseRaw>52/27</houseRaw>
+        </parsedAddressRF>
+        <date>2004-04-28</date>
+        <firstDate>2004-04-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-03-30</date>
+      </status>
+      <registrationDate>2004-04-28</registrationDate>
+      <dissolutionDate>2010-03-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Клименко Егор Юрьевич</fio>
+          <innfl>770406607551</innfl>
+          <position>Генеральный Директор</position>
+          <date>2004-12-03</date>
+          <firstDate>2004-12-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7728515992</inn>
+    <ogrn>1047796435268</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796435268</focusHref>
+    <UL>
+      <kpp>772801001</kpp>
+      <okpo>73539913</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Финтрейд"</short>
+        <full>Общество с ограниченной ответственностью "Финтрейд"</full>
+        <date>2004-06-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117292</zipCode>
+          <kladrCode>770000000001967</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Нахимовский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>52/27</topoValue>
+          </house>
+          <houseRaw>52/27</houseRaw>
+        </parsedAddressRF>
+        <date>2004-06-17</date>
+        <firstDate>2004-06-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-05-17</date>
+      </status>
+      <registrationDate>2004-06-17</registrationDate>
+      <dissolutionDate>2010-05-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Клименко Егор Юрьевич</fio>
+          <innfl>770406607551</innfl>
+          <position>Генеральный Директор</position>
+          <date>2004-11-29</date>
+          <firstDate>2004-11-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7736506092</inn>
+    <ogrn>1047796374273</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796374273</focusHref>
+    <UL>
+      <kpp>773601001</kpp>
+      <okpo>73485594</okpo>
+      <okato>45293574000</okato>
+      <okfs>16</okfs>
+      <oktmo>45904000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Астра"</short>
+        <full>Общество с ограниченной ответственностью "Астра"</full>
+        <date>2004-05-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119017</zipCode>
+          <kladrCode>770000000000953</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Вернадского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11/19</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>11/19</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-05-27</date>
+        <firstDate>2004-05-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-07-22</date>
+      </status>
+      <registrationDate>2004-05-27</registrationDate>
+      <dissolutionDate>2013-07-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Асмоловский Сергей Викторович</fio>
+          <innfl>312803560223</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-06-15</date>
+          <firstDate>2004-06-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

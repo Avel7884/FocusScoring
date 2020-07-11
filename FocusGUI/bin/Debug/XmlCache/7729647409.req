@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7729647409</inn>
+    <ogrn>1107746006246</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746006246</focusHref>
+    <UL>
+      <kpp>772901001</kpp>
+      <okpo>64569938</okpo>
+      <okato>45268579000</okato>
+      <okfs>16</okfs>
+      <oktmo>45323000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Сталь-Сплав"</short>
+        <full>Общество с ограниченной ответственностью "Сталь-Сплав"</full>
+        <date>2010-01-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119517</zipCode>
+          <kladrCode>770000000001822</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Матвеевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>46</topoValue>
+          </flat>
+          <houseRaw>10</houseRaw>
+          <bulkRaw>2</bulkRaw>
+          <flatRaw>46</flatRaw>
+        </parsedAddressRF>
+        <date>2010-01-12</date>
+        <firstDate>2010-01-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-09-27</date>
+      </status>
+      <registrationDate>2010-01-12</registrationDate>
+      <dissolutionDate>2013-09-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Борзенков Роман Алексеевич</fio>
+          <innfl>482411836407</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-01-12</date>
+          <firstDate>2010-01-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

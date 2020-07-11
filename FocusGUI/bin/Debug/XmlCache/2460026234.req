@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2460026234</inn>
+    <ogrn>1022401796218</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022401796218</focusHref>
+    <UL>
+      <kpp>246001001</kpp>
+      <okpo>41061812</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергоснаб"</short>
+        <full>Общество с ограниченной ответственностью "Энергоснаб"</full>
+        <date>2002-11-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660075</zipCode>
+          <kladrCode>240000010000411</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Маерчака</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>313</topoValue>
+          </flat>
+          <houseRaw>18</houseRaw>
+          <bulkRaw>Б</bulkRaw>
+          <flatRaw>313</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-21</date>
+        <firstDate>2002-11-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-04-02</date>
+      </status>
+      <registrationDate>1996-02-27</registrationDate>
+      <dissolutionDate>2012-04-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Генов Евгений Анатольевич</fio>
+          <innfl>245800200619</innfl>
+          <position>Директор</position>
+          <date>2002-11-21</date>
+          <firstDate>2002-11-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

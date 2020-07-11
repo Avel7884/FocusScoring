@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705456229</inn>
+    <ogrn>1027700180012</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700180012</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛГРИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АЛГРИС"</full>
+        <date>2002-09-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>113035</zipCode>
+          <kladrCode>770000000002144</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Садовническая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoValue>9</topoValue>
+          </bulk>
+          <houseRaw>14</houseRaw>
+          <bulkRaw>9</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-09-03</date>
+        <firstDate>2002-09-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-23</date>
+      </status>
+      <registrationDate>2002-06-26</registrationDate>
+      <dissolutionDate>2012-01-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Березовский Владимир Евгеньевич</fio>
+          <position>Генеральный Директор</position>
+          <date>2002-09-03</date>
+          <firstDate>2002-09-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

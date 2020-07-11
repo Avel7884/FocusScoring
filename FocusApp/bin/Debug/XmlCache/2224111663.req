@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2224111663</inn>
+    <ogrn>1072224002806</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072224002806</focusHref>
+    <UL>
+      <kpp>222401001</kpp>
+      <okpo>80329984</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛТАЙВТОРЧЕРМЕТ"</short>
+        <full>Общество с ограниченной ответственностью "АЛТАЙВТОРЧЕРМЕТ"</full>
+        <date>2007-03-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656037</zipCode>
+          <kladrCode>220000010000150</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бриллиантовая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <houseRaw>22</houseRaw>
+        </parsedAddressRF>
+        <date>2007-03-14</date>
+        <firstDate>2007-03-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-12-30</date>
+      </status>
+      <registrationDate>2007-03-14</registrationDate>
+      <dissolutionDate>2009-12-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Титов Сергей Витальевич</fio>
+          <innfl>222200776226</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2009-05-13</date>
+          <firstDate>2009-05-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

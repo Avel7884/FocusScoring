@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6314006452</inn>
+    <ogrn>1026300896676</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026300896676</focusHref>
+    <UL>
+      <kpp>631401001</kpp>
+      <okpo>04757964</okpo>
+      <okato>36401378000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701320000</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Автотранс"</short>
+        <full>Закрытое акционерное общество "Автотранс"</full>
+        <date>2013-02-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443101</zipCode>
+          <kladrCode>630000010001022</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Гаражный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-29</date>
+        <firstDate>2002-11-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-06-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Уполовникова Елена Валерьевна</fio>
+          <innfl>631408692429</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-06-10</date>
+          <firstDate>2015-06-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО "Автотранс"</short>
+            <full>Открытое акционерное общество "Автотранс"</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Иванов Валерий Владимирович</fio>
+            <innfl>631400552290</innfl>
+            <position>Генеральный директор</position>
+            <date>2002-11-29</date>
+            <firstDate>2002-11-29</firstDate>
+          </head>
+          <head>
+            <fio>Кривченко Ирина Николаевна</fio>
+            <position>Генеральный Директор</position>
+            <date>2014-04-10</date>
+            <firstDate>2014-04-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

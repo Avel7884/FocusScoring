@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2423002154</inn>
+    <ogrn>1022400877586</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022400877586</focusHref>
+    <UL>
+      <kpp>242301001</kpp>
+      <okpo>00356375</okpo>
+      <okato>04230552000</okato>
+      <okfs>14</okfs>
+      <oktmo>04630152051</oktmo>
+      <okogu>3300400</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>АДМИНИСТРАЦИЯ ПОСЕЛКА БОЛЬШАЯ ИРБА</short>
+        <full>АДМИНИСТРАЦИЯ ПОСЕЛКА БОЛЬШАЯ ИРБА</full>
+        <date>2018-01-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>662943</zipCode>
+          <kladrCode>240240000630005</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Курагинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Большая Ирба</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>ДОМ 2</houseRaw>
+        </parsedAddressRF>
+        <date>2018-01-19</date>
+        <firstDate>2010-03-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1991-07-06</registrationDate>
+      <heads>
+        <head>
+          <fio>Кузик Галина Григорьевна</fio>
+          <innfl>242301065870</innfl>
+          <position>Глава Поселка</position>
+          <date>2015-06-11</date>
+          <firstDate>2015-06-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <date>2010-03-12</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Корнева Наталья Николаевна</fio>
+            <innfl>242303134248</innfl>
+            <position>Глава посёлка</position>
+            <date>2010-04-06</date>
+            <firstDate>2010-04-06</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

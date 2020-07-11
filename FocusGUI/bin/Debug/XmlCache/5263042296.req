@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5263042296</inn>
+    <ogrn>1035206166060</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1035206166060</focusHref>
+    <UL>
+      <kpp>526301001</kpp>
+      <okpo>71160084</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АйПи-Центр"</short>
+        <full>Общество с ограниченной ответственностью "Интернет компания АйПи-Центр"</full>
+        <date>2003-10-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603040</zipCode>
+          <kladrCode>520000010001040</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Союзный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <flat>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>1</houseRaw>
+          <flatRaw>10</flatRaw>
+        </parsedAddressRF>
+        <date>2003-10-15</date>
+        <firstDate>2003-10-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-11-24</date>
+      </status>
+      <registrationDate>2003-10-15</registrationDate>
+      <dissolutionDate>2011-11-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Телелюхин Игорь Юрьевич</fio>
+          <innfl>027813300670</innfl>
+          <position>Директор</position>
+          <date>2008-05-20</date>
+          <firstDate>2008-05-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

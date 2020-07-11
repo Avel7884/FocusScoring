@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5262095295</inn>
+    <ogrn>1025203749218</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203749218</focusHref>
+    <UL>
+      <kpp>526201001</kpp>
+      <okpo>57174412</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Алтехнокон - Металл"</short>
+        <full>Закрытое акционерное общество "Алтехнокон - Металл"</full>
+        <date>2002-12-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603146</zipCode>
+          <kladrCode>520000010000077</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бекетова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>47</topoValue>
+          </house>
+          <flat>
+            <topoValue>15</topoValue>
+          </flat>
+          <houseRaw>47</houseRaw>
+          <flatRaw>15</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-27</date>
+        <firstDate>2002-12-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-12-30</date>
+      </status>
+      <registrationDate>2001-04-28</registrationDate>
+      <dissolutionDate>2011-12-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Слакаева Евгения Валерьевна</fio>
+          <innfl>526213043038</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-10-17</date>
+          <firstDate>2007-10-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

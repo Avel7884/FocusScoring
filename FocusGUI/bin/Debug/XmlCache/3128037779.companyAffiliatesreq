@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3128037779</inn>
+    <ogrn>1033109204435</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033109204435</focusHref>
+    <UL>
+      <kpp>312801001</kpp>
+      <okpo>54672996</okpo>
+      <okato>14440000000</okato>
+      <okfs>16</okfs>
+      <oktmo>14740000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Адидже"</short>
+        <full>Общество с ограниченной ответственностью "Адидже"</full>
+        <date>2009-01-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>309540</zipCode>
+          <kladrCode>31000002002</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Старый Оскол</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>промзона</topoShortName>
+            <topoFullName>промышленная зона</topoFullName>
+            <topoValue>Северная</topoValue>
+          </settlement>
+        </parsedAddressRF>
+        <date>2016-10-24</date>
+        <firstDate>2016-10-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-01-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Диденко Евгений Александрович</fio>
+          <innfl>312822209726</innfl>
+          <position>Директор</position>
+          <date>2016-07-01</date>
+          <firstDate>2016-07-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>309540</zipCode>
+              <kladrCode>31018001005</kladrCode>
+              <regionCode>31</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Белгородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Старый Оскол</topoValue>
+              </city>
+              <settlement>
+                <topoShortName>промзона</topoShortName>
+                <topoFullName>промышленная зона</topoFullName>
+                <topoValue>Северная</topoValue>
+              </settlement>
+              <street>
+                <topoValue>Район Канатной Фабрики</topoValue>
+              </street>
+            </parsedAddressRF>
+            <date>2011-06-08</date>
+            <firstDate>2011-06-08</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>309540</zipCode>
+              <regionCode>31</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Белгородская</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Старооскольский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Старый Оскол</topoValue>
+              </city>
+              <settlement>
+                <topoShortName>промзона</topoShortName>
+                <topoFullName>промышленная зона</topoFullName>
+                <topoValue>Северная</topoValue>
+              </settlement>
+              <street>
+                <topoValue>район канатной фабрики</topoValue>
+              </street>
+            </parsedAddressRF>
+            <date>2011-06-08</date>
+            <firstDate>2011-06-08</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Диденко Александр Ильич</fio>
+            <position>Директор</position>
+            <date>2011-06-08</date>
+            <firstDate>2011-06-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>312807416020</inn>
+    <ogrn>317312300087294</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=317312300087294</focusHref>
+    <IP>
+      <fio>Диденко Александр Ильич</fio>
+      <okpo>0124224695</okpo>
+      <okato>14440000000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>14740000001</oktmo>
+      <registrationDate>2017-12-18</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

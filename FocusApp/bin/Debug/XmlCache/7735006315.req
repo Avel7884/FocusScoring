@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7735006315</inn>
+    <ogrn>1027700592435</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700592435</focusHref>
+    <UL>
+      <kpp>773501001</kpp>
+      <okpo>17577614</okpo>
+      <okato>45272572000</okato>
+      <okfs>16</okfs>
+      <oktmo>45332000000</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО предприятие "Алекс и К"</short>
+        <full>Общество с ограниченной ответственностью предприятие "Алекс и К"</full>
+        <date>2002-12-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>124460</zipCode>
+          <kladrCode>77000002000</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Зеленоград</topoValue>
+          </city>
+          <bulk>
+            <topoValue>1106</topoValue>
+          </bulk>
+          <bulkRaw>1106</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-06-21</date>
+        <firstDate>2009-06-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-11-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Иванов Александр Олегович</fio>
+          <innfl>680602440687</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-06-04</date>
+          <firstDate>2009-06-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

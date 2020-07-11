@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6615001169</inn>
+    <ogrn>1026601126188</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026601126188</focusHref>
+    <UL>
+      <kpp>661501001</kpp>
+      <okopf>41</okopf>
+      <opf>Унитарные предприятия, основанные на праве оперативного управления</opf>
+      <legalName>
+        <short>МУП "Автовокзал"</short>
+        <full>Муниципальное унитарное предприятие Качканарского городского округа "Автовокзал"</full>
+        <date>2006-03-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624351</zipCode>
+          <kladrCode>660000080000026</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Качканар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Крылова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+          <bulkRaw>НЕТ</bulkRaw>
+          <flatRaw>НЕТ</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-31</date>
+        <firstDate>2002-10-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-10-05</date>
+      </status>
+      <registrationDate>1999-04-28</registrationDate>
+      <dissolutionDate>2007-10-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кикоть Наталья Александровна</fio>
+          <innfl>661501750480</innfl>
+          <position>Руководитель Ликвидационной Комиссии</position>
+          <date>2007-04-05</date>
+          <firstDate>2007-04-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

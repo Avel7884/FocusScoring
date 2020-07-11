@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725116848</inn>
+    <ogrn>1027739932373</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739932373</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агро Поиск СХ"</short>
+        <full>Общество с ограниченной ответственностью "Агро Поиск СХ"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117334</zipCode>
+          <kladrCode>770000000001689</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>37А</topoValue>
+          </house>
+          <houseRaw>37А</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-31</date>
+        <firstDate>2002-12-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-12-07</date>
+      </status>
+      <registrationDate>2000-06-13</registrationDate>
+      <dissolutionDate>2010-12-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Карпов Валентин Николаевич</fio>
+          <position>Генеральный Директор</position>
+          <date>2002-12-31</date>
+          <firstDate>2002-12-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

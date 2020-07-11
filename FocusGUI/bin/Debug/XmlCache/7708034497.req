@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7708034497</inn>
+    <ogrn>1037739438285</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739438285</focusHref>
+    <UL>
+      <kpp>770801001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ГП ГВЦ МПС РОССИИ</short>
+        <full>Государственное предприятие главный вычислительный центр Министерства путей сообщения России</full>
+        <date>2003-02-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107174</zipCode>
+          <kladrCode>770000000000636</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Каланчевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2/1</topoValue>
+          </house>
+          <houseRaw>2/1</houseRaw>
+        </parsedAddressRF>
+        <date>2003-02-05</date>
+        <firstDate>2003-02-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение юридического лица, имущественный комплекс которого внесен в качестве вклада в уставный капитал открытого акционерного общества</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-06-08</date>
+      </status>
+      <registrationDate>1993-03-23</registrationDate>
+      <dissolutionDate>2004-06-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Вишняков Валерий Федорович</fio>
+          <position>Начальник</position>
+          <date>2003-02-05</date>
+          <firstDate>2003-02-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

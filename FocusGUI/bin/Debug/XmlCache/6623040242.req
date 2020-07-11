@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623040242</inn>
+    <ogrn>1076623004215</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076623004215</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>81775674</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ТПК "Авеста-Трейд"</short>
+        <full>Общество с ограниченной ответственностью Торгово-промышленная компания "Авеста-Трейд"</full>
+        <date>2007-06-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622001</zipCode>
+          <kladrCode>660000230000404</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Первомайская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>54</topoValue>
+          </house>
+          <houseRaw>54</houseRaw>
+        </parsedAddressRF>
+        <date>2007-06-06</date>
+        <firstDate>2007-06-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-12-12</date>
+      </status>
+      <registrationDate>2007-06-06</registrationDate>
+      <dissolutionDate>2018-12-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Скрябин Евгений Иванович</fio>
+          <innfl>664898054868</innfl>
+          <position>Директор</position>
+          <date>2007-06-06</date>
+          <firstDate>2007-06-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

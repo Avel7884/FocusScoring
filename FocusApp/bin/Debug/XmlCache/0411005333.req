@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0411005333</inn>
+    <ogrn>1020400000081</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020400000081</focusHref>
+    <UL>
+      <kpp>774301001</kpp>
+      <okpo>16249960</okpo>
+      <okato>45277565000</okato>
+      <okfs>16</okfs>
+      <oktmo>45336000000</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО КБ "АйМаниБанк"</short>
+        <full>Общество с ограниченной ответственностью Коммерческий Банк "АйМаниБанк"</full>
+        <date>2012-12-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125212</zipCode>
+          <kladrCode>770000000001046</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Выборгская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>16</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-01-10</date>
+        <firstDate>2013-01-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2017-02-20</date>
+      </status>
+      <registrationDate>1992-07-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Воробьев Сергей Иванович</fio>
+          <innfl>730500048506</innfl>
+          <position>Представитель Конкурсного Управляющего</position>
+          <date>2017-02-20</date>
+          <firstDate>2017-02-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>775001001</kpp>
+            <date>2013-01-15</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>041101001</kpp>
+            <date>2012-12-24</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО КБ "Алтайэнергобанк"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью Коммерческий Банк "Алтайэнергобанк"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>649006</zipCode>
+              <regionCode>04</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Алтай</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Горно-Алтайск</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Коммунистический</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>80</topoValue>
+              </house>
+              <houseRaw>80</houseRaw>
+            </parsedAddressRF>
+            <date>2012-04-09</date>
+            <firstDate>2012-04-09</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>649000</zipCode>
+              <regionCode>04</regionCode>
+              <regionName>
+                <topoValue>Алтай</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Горно-Алтайск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Чорос-Гуркина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>53/1</topoValue>
+              </house>
+              <houseRaw>53\1</houseRaw>
+            </parsedAddressRF>
+            <date>2002-08-14</date>
+            <firstDate>2002-08-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Спиваков Андрей Дмитриевич</fio>
+            <innfl>773506560292</innfl>
+            <position>Председатель Правления</position>
+            <date>2009-10-20</date>
+            <firstDate>2009-10-20</firstDate>
+          </head>
+          <head>
+            <fio>Сулейманов Руслан Сулейманович</fio>
+            <innfl>773603092321</innfl>
+            <position>Председатель Правления</position>
+            <date>2012-09-20</date>
+            <firstDate>2012-09-20</firstDate>
+          </head>
+          <head>
+            <fio>Волчихин Игорь Владимирович</fio>
+            <innfl>772910313362</innfl>
+            <position>Исполняющий Обязанности Председателя Правления</position>
+            <date>2014-01-13</date>
+            <firstDate>2014-01-13</firstDate>
+          </head>
+          <head>
+            <fio>Тимохина Жанна Валерьевна</fio>
+            <innfl>503201930189</innfl>
+            <position>Руководитель Временной Администрации</position>
+            <date>2016-10-21</date>
+            <firstDate>2016-10-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

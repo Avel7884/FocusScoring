@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3664076958</inn>
+    <ogrn>1063667283811</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1063667283811</focusHref>
+    <UL>
+      <kpp>366401001</kpp>
+      <okpo>97900319</okpo>
+      <okato>20401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>20701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭнергоПромКомплект"</short>
+        <full>Общество с ограниченной ответственностью "ЭнергоПромКомплект"</full>
+        <date>2006-10-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>394006</zipCode>
+          <kladrCode>360000010000626</kladrCode>
+          <regionCode>36</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Воронежская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Воронеж</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>20-летия Октября</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>119</topoValue>
+          </house>
+          <flat>
+            <topoValue>901</topoValue>
+          </flat>
+          <houseRaw>119</houseRaw>
+          <flatRaw>901</flatRaw>
+        </parsedAddressRF>
+        <date>2006-10-25</date>
+        <firstDate>2006-10-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-07-10</date>
+      </status>
+      <registrationDate>2006-10-25</registrationDate>
+      <dissolutionDate>2017-07-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Корняков Владимир Евгеньевич</fio>
+          <innfl>501807277180</innfl>
+          <position>Директор</position>
+          <date>2008-09-30</date>
+          <firstDate>2008-09-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

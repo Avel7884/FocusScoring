@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5906091246</inn>
+    <ogrn>1095906002510</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1095906002510</focusHref>
+    <UL>
+      <kpp>590601001</kpp>
+      <okpo>60707993</okpo>
+      <okato>57401375000</okato>
+      <okfs>16</okfs>
+      <oktmo>57701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "МПК "ЭНЕРГОСФЕРА"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "МОНТАЖНО-ПРОИЗВОДСТВЕННАЯ КОМПАНИЯ "ЭНЕРГОСФЕРА"</full>
+        <date>2015-10-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614077</zipCode>
+          <kladrCode>590000010000988</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пушкарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>140</topoValue>
+          </house>
+          <flat>
+            <topoValue>217</topoValue>
+          </flat>
+          <houseRaw>140</houseRaw>
+          <flatRaw>217</flatRaw>
+        </parsedAddressRF>
+        <date>2011-02-04</date>
+        <firstDate>2011-02-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-07-06</date>
+      </status>
+      <registrationDate>2009-04-23</registrationDate>
+      <dissolutionDate>2017-07-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дударев Дмитрий Сергеевич</fio>
+          <innfl>614203248198</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-03-29</date>
+          <firstDate>2009-04-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "МПК "Энергосфера"</short>
+            <full>Закрытое акционерное общество "Монтажно-производственная компания "Энергосфера"</full>
+            <date>2009-04-23</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

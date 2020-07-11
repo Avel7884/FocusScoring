@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1650205590</inn>
+    <ogrn>1101650003740</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1101650003740</focusHref>
+    <UL>
+      <kpp>231201001</kpp>
+      <okpo>65517895</okpo>
+      <okato>03401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКМ-Сервис"</short>
+        <full>Общество с ограниченной ответственностью "ПКМ-Сервис"</full>
+        <date>2010-03-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350912</zipCode>
+          <kladrCode>230000010001464</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им Фадеева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>429/3</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>11</topoValue>
+          </flat>
+          <houseRaw>ДОМ 429/3</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 11</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-30</date>
+        <firstDate>2015-11-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-07-28</date>
+      </status>
+      <registrationDate>2010-03-30</registrationDate>
+      <dissolutionDate>2017-07-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Садыков Руслан Нургалеевич</fio>
+          <innfl>164609184465</innfl>
+          <position>Директор</position>
+          <date>2015-10-30</date>
+          <firstDate>2015-10-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>165001001</kpp>
+            <date>2010-04-01</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>423800</zipCode>
+              <kladrCode>160000020000001</kladrCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Набережные Челны</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>40 лет Победы</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>63</topoValue>
+              </house>
+              <flat>
+                <topoValue>186</topoValue>
+              </flat>
+              <houseRaw>63</houseRaw>
+              <flatRaw>186</flatRaw>
+            </parsedAddressRF>
+            <date>2012-04-24</date>
+            <firstDate>2012-04-24</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>423800</zipCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Набережные Челны</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Автозаводский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>21</topoValue>
+              </house>
+              <flat>
+                <topoValue>73</topoValue>
+              </flat>
+              <houseRaw>21</houseRaw>
+              <flatRaw>73</flatRaw>
+            </parsedAddressRF>
+            <date>2010-03-30</date>
+            <firstDate>2010-03-30</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Малафеев Артем Николаевич</fio>
+            <innfl>166300032559</innfl>
+            <position>Директор</position>
+            <date>2010-03-30</date>
+            <firstDate>2010-03-30</firstDate>
+          </head>
+          <head>
+            <fio>Галушко Руслан Васильевич</fio>
+            <innfl>165023428233</innfl>
+            <position>Директор</position>
+            <date>2012-02-24</date>
+            <firstDate>2012-02-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217051093</inn>
+    <ogrn>1034217007692</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034217007692</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>02445166</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СПФ Энергоремсервис"</short>
+        <full>Общество с ограниченной ответственностью "СПФ Энергоремсервис"</full>
+        <date>2003-02-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654036</zipCode>
+          <kladrCode>42000012000</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoValue>Халтурина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <flat>
+            <topoValue>А/Я 2009</topoValue>
+          </flat>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>А/Я 2009</flatRaw>
+        </parsedAddressRF>
+        <date>2003-02-06</date>
+        <firstDate>2003-02-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-06-19</date>
+      </status>
+      <registrationDate>2002-04-15</registrationDate>
+      <dissolutionDate>2013-06-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ориякова Ольга Леонидовна</fio>
+          <innfl>421400065488</innfl>
+          <position>Директор</position>
+          <date>2003-02-06</date>
+          <firstDate>2003-02-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>654000</zipCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Новокузнецкий</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <street>
+                <topoValue>Халтурина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <flat>
+                <topoValue>а/я 2009</topoValue>
+              </flat>
+              <houseRaw>1</houseRaw>
+              <bulkRaw>-</bulkRaw>
+              <flatRaw>а/я 2009</flatRaw>
+            </parsedAddressRF>
+            <date>2006-10-16</date>
+            <firstDate>2006-10-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

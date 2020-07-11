@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2224005739</inn>
+    <ogrn>1022201515104</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022201515104</focusHref>
+    <UL>
+      <kpp>222401001</kpp>
+      <okpo>01439264</okpo>
+      <okato>01401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>01701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>14200</okopf>
+      <opf>Производственные кооперативы (кроме сельскохозяйственных производственных кооперативов)</opf>
+      <legalName>
+        <short>ПК "АЛТАЙТОРГТЕХНИКА"</short>
+        <full>ПРОИЗВОДСТВЕННЫЙ КООПЕРАТИВ "АЛТАЙТОРГТЕХНИКА"</full>
+        <date>2002-09-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656023</zipCode>
+          <kladrCode>220000010000327</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Космонавтов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <houseRaw>15</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-26</date>
+        <firstDate>2002-09-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1995-08-11</registrationDate>
+      <heads>
+        <head>
+          <fio>Жигулин Юрий Андреевич</fio>
+          <innfl>222101758071</innfl>
+          <position>Директор</position>
+          <date>2013-04-04</date>
+          <firstDate>2013-04-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Тришкин Виктор Петрович</fio>
+            <innfl>222503869705</innfl>
+            <position>Директор</position>
+            <date>2012-04-20</date>
+            <firstDate>2002-09-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

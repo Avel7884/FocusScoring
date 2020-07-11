@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7719730697</inn>
+    <ogrn>1097746536150</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097746536150</focusHref>
+    <UL>
+      <kpp>771901001</kpp>
+      <okpo>62812116</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МТМ"</short>
+        <full>Общество с ограниченной ответственностью "МеталлТрансМаркет"</full>
+        <date>2009-09-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105318</zipCode>
+          <kladrCode>770000000003527</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Благуша</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <houseRaw>15</houseRaw>
+        </parsedAddressRF>
+        <date>2009-09-15</date>
+        <firstDate>2009-09-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-04-02</date>
+      </status>
+      <registrationDate>2009-09-15</registrationDate>
+      <dissolutionDate>2015-04-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Наумов Дмитрий Андреевич</fio>
+          <innfl>230205898333</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-09-15</date>
+          <firstDate>2009-09-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

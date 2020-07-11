@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7728168509</inn>
+    <ogrn>1037739031285</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739031285</focusHref>
+    <UL>
+      <kpp>771801001</kpp>
+      <okpo>18356602</okpo>
+      <okato>45263591000</okato>
+      <okfs>16</okfs>
+      <oktmo>45315000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АДЛ Групп"</short>
+        <full>Общество с ограниченной ответственностью "АДЛ Групп"</full>
+        <date>2003-01-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107076</zipCode>
+          <kladrCode>770000000002813</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Стромынка</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>21</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-01-29</date>
+        <firstDate>2003-01-29</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>ФИЛИАЛ ОБЩЕСТВА С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АДЛ ГРУПП"</name>
+          <parsedAddressRF>
+            <zipCode>140483</zipCode>
+            <kladrCode>50012000110</kladrCode>
+            <regionCode>50</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Московская</topoValue>
+            </regionName>
+            <district>
+              <topoShortName>р-н</topoShortName>
+              <topoFullName>район</topoFullName>
+              <topoValue>Коломенский</topoValue>
+            </district>
+            <settlement>
+              <topoShortName>п</topoShortName>
+              <topoFullName>поселок</topoFullName>
+              <topoValue>Радужный</topoValue>
+            </settlement>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>45</topoValue>
+            </house>
+            <houseRaw>45</houseRaw>
+          </parsedAddressRF>
+          <date>2012-04-23</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-02-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Невзоров Сергей Петрович</fio>
+          <innfl>772131808455</innfl>
+          <position>Генеральный директор</position>
+          <date>2014-05-05</date>
+          <firstDate>2007-10-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5260108608</inn>
+    <ogrn>1025203014980</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203014980</focusHref>
+    <UL>
+      <legalName>
+        <short>ООО "НЦО"</short>
+        <full>Общество с ограниченной ответственностью "Независимый Центр Оценки"</full>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603011</zipCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Июльских Дней</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2003-07-02</date>
+        <firstDate>2003-07-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Регдело передано в другой регорган</statusString>
+      </status>
+      <registrationDate>2002-08-05</registrationDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>526013401984</inn>
+    <ogrn>304526030800118</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304526030800118</focusHref>
+    <IP>
+      <fio>Плугаторик Светлана Евгеньевна</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1995-06-21</registrationDate>
+      <dissolutionDate>2008-03-26</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-03-26</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5402144611</inn>
+    <ogrn>1025401020281</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025401020281</focusHref>
+    <UL>
+      <kpp>540201001</kpp>
+      <okpo>39127952</okpo>
+      <okato>50401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКОР"</short>
+        <full>Общество с ограниченной ответственностью "АКОР"</full>
+        <date>2007-01-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630040</zipCode>
+          <kladrCode>540000010000994</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Петрозаводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <houseRaw>18</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-04</date>
+        <firstDate>2002-12-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-07-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Колесниченко Александр Александрович</fio>
+          <innfl>540607280196</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-04-06</date>
+          <firstDate>2011-11-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Смолко Константин Викторович</fio>
+            <innfl>540206497628</innfl>
+            <position>Ликвидатор</position>
+            <date>2011-07-19</date>
+            <firstDate>2011-07-19</firstDate>
+          </head>
+          <head>
+            <fio>Гройсман Марина Владимировна</fio>
+            <position>Конкурсный Управляющий</position>
+            <date>2013-12-25</date>
+            <firstDate>2013-12-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3443072306</inn>
+    <ogrn>1063443052716</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1063443052716</focusHref>
+    <UL>
+      <kpp>344301001</kpp>
+      <okpo>97020771</okpo>
+      <okato>18401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автотрейдинг-Волгоград"</short>
+        <full>Общество с ограниченной ответственностью "Автотрейдинг-Волгоград"</full>
+        <date>2006-08-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400075</zipCode>
+          <kladrCode>340000010010023</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>рп</topoShortName>
+            <topoFullName>рабочий поселок</topoFullName>
+            <topoValue>Гумрак</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Моторная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <houseRaw>9</houseRaw>
+        </parsedAddressRF>
+        <date>2011-01-18</date>
+        <firstDate>2011-01-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-04-10</date>
+      </status>
+      <registrationDate>2006-08-16</registrationDate>
+      <dissolutionDate>2014-04-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Горшков Андрей Васильевич</fio>
+          <innfl>860203197673</innfl>
+          <position>Директор</position>
+          <date>2010-11-18</date>
+          <firstDate>2010-11-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

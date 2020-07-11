@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7723521495</inn>
+    <ogrn>1047796717572</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796717572</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>74637055</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Торговая сеть "АКВАСАНТ"</short>
+        <full>Общество с ограниченной ответственностью "Торговая сеть "АКВАСАНТ"</full>
+        <date>2004-09-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109548</zipCode>
+          <kladrCode>770000000000228</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Шоссейная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-09-27</date>
+        <firstDate>2004-09-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-06-30</date>
+      </status>
+      <registrationDate>2004-09-27</registrationDate>
+      <dissolutionDate>2009-06-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Акимов Юрий Петрович</fio>
+          <position>Генеральный директор</position>
+          <date>2008-06-10</date>
+          <firstDate>2008-06-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

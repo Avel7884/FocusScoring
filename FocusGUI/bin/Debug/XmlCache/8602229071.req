@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>8602229071</inn>
+    <ogrn>1038600503215</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1038600503215</focusHref>
+    <UL>
+      <kpp>860201001</kpp>
+      <okpo>14071630</okpo>
+      <okato>71136000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71876000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Пластформ"</short>
+        <full>Общество с ограниченной ответственностью "Пластформ"</full>
+        <date>2003-01-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628402</zipCode>
+          <kladrCode>860000100000018</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сургут</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Геологическая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <houseRaw>22</houseRaw>
+        </parsedAddressRF>
+        <date>2007-04-13</date>
+        <firstDate>2007-04-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-01-31</registrationDate>
+      <heads>
+        <head>
+          <fio>Сосов Сергей Васильевич</fio>
+          <innfl>860210691717</innfl>
+          <position>Директор</position>
+          <date>2013-09-02</date>
+          <firstDate>2013-09-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Данилюк Людмила Анатольевна</fio>
+            <position>Директор</position>
+            <date>2005-09-26</date>
+            <firstDate>2005-09-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

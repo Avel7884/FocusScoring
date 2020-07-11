@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6663048826</inn>
+    <ogrn>1026605607192</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026605607192</focusHref>
+    <UL>
+      <kpp>667301001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автосалон Татьяна"</short>
+        <full>Общество с ограниченной ответственностью "Автосалон Татьяна"</full>
+        <date>2002-07-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620017</zipCode>
+          <kladrCode>660000010001297</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Электриков</topoValue>
+          </street>
+          <house>
+            <topoValue>15 (общ.)</topoValue>
+          </house>
+          <houseRaw>15 (ОБЩ.)</houseRaw>
+        </parsedAddressRF>
+        <date>2002-07-31</date>
+        <firstDate>2002-07-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-03-30</date>
+      </status>
+      <registrationDate>1995-04-12</registrationDate>
+      <dissolutionDate>2007-03-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Орехова Марина Евгеньевна</fio>
+          <innfl>667400832949</innfl>
+          <position>Директор</position>
+          <date>2006-12-21</date>
+          <firstDate>2006-12-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

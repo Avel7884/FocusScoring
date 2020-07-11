@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>6660123345</inn>
+    <ogrn>1136670003700</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1136670003700</focusHref>
+    <UL>
+      <pfrRegNumber>075030022306</pfrRegNumber>
+      <activities />
+      <regInfo>
+        <ogrnDate>2013-02-22</ogrnDate>
+        <regName>Управление государственной регистрации г.Екатеринбурга (Кировский территориальный отдел)</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6670</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Кировскому району г.Екатеринбурга</nalogName>
+        <nalogRegDate>1998-06-05</nalogRegDate>
+        <kpp>666001001</kpp>
+        <date>2013-02-22</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6658</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Верх-Исетскому району г.Екатеринбурга</nalogName>
+        <date>2015-03-26</date>
+      </regBody>
+      <statedCapital />
+      <egrRecords>
+        <egrRecord>
+          <grn>2136670075815</grn>
+          <date>2013-03-05</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2136670063132</grn>
+          <date>2013-02-22</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии в течение последних 12 месяцев движения по б/счетам или об отсутствии у ЮЛ открытых б/счетов</name>
+              <date>2012-10-26</date>
+            </document>
+            <document>
+              <name>Cправка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2012-10-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>1136670003700</grn>
+          <date>2013-02-22</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002, по сведениям налоговых органов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Кировскому Району г.Екатеринбурга</regName>
+          <regCode>6670</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии в течение последних 12 месяцев движения по б/счетам или об отсутствии у ЮЛ открытых б/счетов</name>
+              <date>2012-10-26</date>
+            </document>
+            <document>
+              <name>Cправка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2012-10-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5250029410</inn>
+    <ogrn>1025201982849</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025201982849</focusHref>
+    <UL>
+      <kpp>665901001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Инженерно-технологическая компания"</short>
+        <full>Общество с ограниченной ответственностью "Инженерно-технологическая компания"</full>
+        <date>2006-08-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620027</zipCode>
+          <kladrCode>660000010000672</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мельковская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12А</topoValue>
+          </house>
+          <flat>
+            <topoValue>203</topoValue>
+          </flat>
+          <houseRaw>12А</houseRaw>
+          <flatRaw>203</flatRaw>
+        </parsedAddressRF>
+        <date>2006-08-30</date>
+        <firstDate>2006-08-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-01-11</date>
+      </status>
+      <registrationDate>2002-07-24</registrationDate>
+      <dissolutionDate>2007-01-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Юрков Максим Анатольевич</fio>
+          <innfl>525619161619</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-08-15</date>
+          <firstDate>2006-08-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

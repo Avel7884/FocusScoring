@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>421800304275</inn>
+    <ogrn>305421714700614</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305421714700614</focusHref>
+    <IP>
+      <fio>Шашкова Татьяна Петровна</fio>
+      <okpo>0089318587</okpo>
+      <okato>32219868016</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>32619468105</oktmo>
+      <registrationDate>2005-05-27</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>421800304275</inn>
+    <ogrn>304421811100063</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304421811100063</focusHref>
+    <IP>
+      <fio>Шашкова Татьяна Петровна</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1998-06-18</registrationDate>
+      <dissolutionDate>2005-04-20</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-04-20</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>4238017791</inn>
+    <ogrn>1054238047600</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054238047600</focusHref>
+    <UL>
+      <kpp>423801001</kpp>
+      <okpo>76916813</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКВАФОР"</short>
+        <full>Общество с ограниченной ответственностью "АКВАФОР"</full>
+        <date>2005-11-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654031</zipCode>
+          <kladrCode>420090000350005</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новокузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>д</topoShortName>
+            <topoFullName>деревня</topoFullName>
+            <topoValue>Есаулка</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Нагорная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36</topoValue>
+          </house>
+          <houseRaw>36</houseRaw>
+        </parsedAddressRF>
+        <date>2005-11-18</date>
+        <firstDate>2005-11-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-05-03</date>
+      </status>
+      <registrationDate>2005-11-18</registrationDate>
+      <dissolutionDate>2011-05-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шашкова Татьяна Петровна</fio>
+          <innfl>421800304275</innfl>
+          <position>Директор</position>
+          <date>2005-11-18</date>
+          <firstDate>2005-11-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

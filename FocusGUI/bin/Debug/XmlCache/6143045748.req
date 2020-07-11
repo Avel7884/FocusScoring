@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6143045748</inn>
+    <ogrn>1026101935309</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026101935309</focusHref>
+    <UL>
+      <kpp>614301001</kpp>
+      <okpo>51605153</okpo>
+      <okato>60412000000</okato>
+      <okfs>16</okfs>
+      <oktmo>60712000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МеталлСервис"</short>
+        <full>Общество с ограниченной ответственностью "МеталлСервис"</full>
+        <date>2010-02-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>347381</zipCode>
+          <kladrCode>610000040000049</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгодонск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>120</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>120</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>10</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-02</date>
+        <firstDate>2002-12-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-11-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Еремин Аркадий Георгиевич</fio>
+          <innfl>614300228951</innfl>
+          <position>Директор</position>
+          <date>2013-08-06</date>
+          <firstDate>2010-02-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

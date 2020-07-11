@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217058980</inn>
+    <ogrn>1034217020507</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034217020507</focusHref>
+    <UL>
+      <kpp>041101001</kpp>
+      <okpo>14792982</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АСС"</short>
+        <full>Общество с ограниченной ответственностью "Аглостройсервис"</full>
+        <date>2003-06-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>649000</zipCode>
+          <kladrCode>040000010000151</kladrCode>
+          <regionCode>04</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Алтай</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Горно-Алтайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чорос-Гуркина Г.И</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <houseRaw>40</houseRaw>
+        </parsedAddressRF>
+        <date>2010-12-01</date>
+        <firstDate>2010-12-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-08-17</date>
+      </status>
+      <registrationDate>2003-06-16</registrationDate>
+      <dissolutionDate>2011-08-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Качан Сергей Валерьевич</fio>
+          <innfl>421708426384</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-04-20</date>
+          <firstDate>2011-04-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

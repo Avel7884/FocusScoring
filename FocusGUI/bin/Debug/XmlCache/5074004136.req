@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5074004136</inn>
+    <ogrn>1025007511539</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025007511539</focusHref>
+    <UL>
+      <kpp>507401001</kpp>
+      <okpo>34874762</okpo>
+      <okato>46460000256</okato>
+      <okfs>16</okfs>
+      <oktmo>46760000431</oktmo>
+      <okogu>4100601</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автотрансгаз"</short>
+        <full>Общество с ограниченной ответственностью "Автотрансгаз"</full>
+        <date>2002-10-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>142184</zipCode>
+          <kladrCode>50026000273</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Подольский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>МИС</topoValue>
+          </settlement>
+        </parsedAddressRF>
+        <date>2002-10-08</date>
+        <firstDate>2002-10-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-04-23</date>
+      </status>
+      <registrationDate>1999-07-15</registrationDate>
+      <dissolutionDate>2019-04-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Косинов Игорь Александрович</fio>
+          <innfl>772739811349</innfl>
+          <position>Директор</position>
+          <date>2013-08-14</date>
+          <firstDate>2011-08-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Глабчастый Алексей Игоревич</fio>
+            <innfl>713000694800</innfl>
+            <position>Директор</position>
+            <date>2010-03-18</date>
+            <firstDate>2010-03-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

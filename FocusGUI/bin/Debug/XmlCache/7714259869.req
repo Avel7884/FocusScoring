@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714259869</inn>
+    <ogrn>1027700444276</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700444276</focusHref>
+    <UL>
+      <kpp>774901001</kpp>
+      <okpo>58660770</okpo>
+      <okato>45286580000</okato>
+      <okfs>23</okfs>
+      <oktmo>45381000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АВТО ГАНЗА"</short>
+        <full>Закрытое акционерное общество "АВТО ГАНЗА"</full>
+        <date>2002-11-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109147</zipCode>
+          <kladrCode>770000000001792</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Марксистская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <bulk>
+            <topoValue>7</topoValue>
+          </bulk>
+          <houseRaw>34</houseRaw>
+          <bulkRaw>7</bulkRaw>
+        </parsedAddressRF>
+        <date>2012-07-06</date>
+        <firstDate>2012-07-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-02-20</date>
+      </status>
+      <registrationDate>2002-04-22</registrationDate>
+      <dissolutionDate>2016-02-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кошелев Александр Леонидович</fio>
+          <innfl>502706249572</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-09-07</date>
+          <firstDate>2015-09-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770901001</kpp>
+            <date>2012-07-06</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>771401001</kpp>
+            <date>2008-10-24</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125167</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Ленинградский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>36</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>21</topoValue>
+              </bulk>
+              <houseRaw>36</houseRaw>
+              <bulkRaw>СТР.21</bulkRaw>
+            </parsedAddressRF>
+            <date>2008-10-24</date>
+            <firstDate>2008-10-24</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Иванов Дмитрий Евгеньевич</fio>
+            <innfl>773714676322</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-02-09</date>
+            <firstDate>2012-02-09</firstDate>
+          </head>
+          <head>
+            <fio>Чайковский Дмитрий Петрович</fio>
+            <position>Генеральный Директор</position>
+            <date>2014-08-07</date>
+            <firstDate>2007-06-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

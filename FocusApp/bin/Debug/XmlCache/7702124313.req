@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7702124313</inn>
+    <ogrn>1027739919250</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739919250</focusHref>
+    <UL>
+      <kpp>770201001</kpp>
+      <okpo>29905615</okpo>
+      <okato>45286570000</okato>
+      <okfs>16</okfs>
+      <oktmo>45379000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Вэлд"</short>
+        <full>Общество с ограниченной ответственностью "Вэлд"</full>
+        <date>2002-12-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129010</zipCode>
+          <kladrCode>770000000000623</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Астраханский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1/15</topoValue>
+          </house>
+          <houseRaw>1/15</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-27</date>
+        <firstDate>2002-12-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-08-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Суренкова Валентина Павловна</fio>
+          <innfl>771000186199</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-13</date>
+          <firstDate>2002-12-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

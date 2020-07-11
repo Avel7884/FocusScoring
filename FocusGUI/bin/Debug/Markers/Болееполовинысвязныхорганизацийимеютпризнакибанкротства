@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>5</Score>
+  <Name>Более половины связных организаций имеют признаки банкротства</Name>
+  <Colour>RedAffiliates</Colour>
+  <Description>У более чем 50% связанных организаций присутствуют маркеры, свидетельствующие о вероятном банкротстве компаний</Description>
+  <Code>
+                        int affiliatesCount = company.GetParams("InnAffilalates").Length;
+                        var m7013 = company.GetParams("m7013Affiliates").Length;
+                        var m7014 = company.GetParams("m7014Affiliates").Length;
+                        var m7016 = company.GetParams("m7016Affiliates").Length;
+                        if (affiliatesCount == 0) return false;
+                        return (m7013 + m7014 + m7016) / (double)affiliatesCount &gt; 0.5;</Code>
+</items>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7706558569</inn>
+    <ogrn>1047796880108</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796880108</focusHref>
+    <UL>
+      <kpp>772101001</kpp>
+      <okpo>74511236</okpo>
+      <okato>45290554000</okato>
+      <okfs>16</okfs>
+      <oktmo>45385000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АКАДЕМЛАЙН"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АКАДЕМЛАЙН"</full>
+        <date>2018-11-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109431</zipCode>
+          <kladrCode>770000000002374</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Привольная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>70</topoValue>
+          </house>
+          <flat>
+            <topoValue>Эт 9 пом XXXII Ком 5</topoValue>
+          </flat>
+          <houseRaw>ДОМ 70</houseRaw>
+          <flatRaw>ЭТ 9 ПОМ XXXII КОМ 5</flatRaw>
+        </parsedAddressRF>
+        <date>2018-11-08</date>
+        <firstDate>2018-11-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-11-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Афонская Анна Владимировна</fio>
+          <innfl>772141105839</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-13</date>
+          <firstDate>2008-10-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "Академлайн"</short>
+            <full>Закрытое акционерное общество "Академлайн"</full>
+            <date>2004-11-18</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>109431</zipCode>
+              <kladrCode>770000000002374</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Привольная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>70</topoValue>
+              </house>
+              <houseRaw>70</houseRaw>
+            </parsedAddressRF>
+            <date>2009-08-10</date>
+            <firstDate>2009-08-10</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

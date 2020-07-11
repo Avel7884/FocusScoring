@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6659187552</inn>
+    <ogrn>1096659001933</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1096659001933</focusHref>
+    <UL>
+      <kpp>665901001</kpp>
+      <okpo>60786299</okpo>
+      <okato>65401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Ай Ви Урал"</short>
+        <full>Общество с ограниченной ответственностью "Ай Ви Урал"</full>
+        <date>2009-02-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620141</zipCode>
+          <kladrCode>660000010000037</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Автомагистральная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <flat>
+            <topoValue>29</topoValue>
+          </flat>
+          <houseRaw>23</houseRaw>
+          <flatRaw>29</flatRaw>
+        </parsedAddressRF>
+        <date>2009-02-17</date>
+        <firstDate>2009-02-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-05-27</date>
+      </status>
+      <registrationDate>2009-02-17</registrationDate>
+      <dissolutionDate>2013-05-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Колодкин Андрей Александрович</fio>
+          <innfl>667107082525</innfl>
+          <position>Директор</position>
+          <date>2012-09-27</date>
+          <firstDate>2011-06-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

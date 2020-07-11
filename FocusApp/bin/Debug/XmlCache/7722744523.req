@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7722744523</inn>
+    <ogrn>1117746284677</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117746284677</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okpo>91460635</okpo>
+      <okato>45290564000</okato>
+      <okfs>16</okfs>
+      <oktmo>45388000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ М и М"</short>
+        <full>Общество с ограниченной ответственностью "ПКФирма М и М"</full>
+        <date>2011-04-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111020</zipCode>
+          <kladrCode>770000000000240</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Боровая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>10</topoValue>
+          </bulk>
+          <houseRaw>7</houseRaw>
+          <bulkRaw>СТР.10</bulkRaw>
+        </parsedAddressRF>
+        <date>2011-04-12</date>
+        <firstDate>2011-04-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Регистрирующим органом принято решение о предстоящем исключении юридического лица из ЕГРЮЛ (недействующее юридическое лицо)</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-10-02</date>
+      </status>
+      <registrationDate>2011-04-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Вересов Александр Васильевич</fio>
+          <innfl>772438102765</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-04-12</date>
+          <firstDate>2011-04-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

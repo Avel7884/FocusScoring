@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5190408490</inn>
+    <ogrn>1025100843580</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025100843580</focusHref>
+    <UL>
+      <kpp>519001001</kpp>
+      <okpo>51697089</okpo>
+      <okato>47401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>47701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКВИЛОН-МЕБЕЛЬ"</short>
+        <full>Общество с ограниченной ответственностью "АКВИЛОН-МЕБЕЛЬ"</full>
+        <date>2002-10-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>183052</zipCode>
+          <kladrCode>510000010000068</kladrCode>
+          <regionCode>51</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Мурманская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Мурманск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Кольский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>71</topoValue>
+          </house>
+          <houseRaw>71</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-07</date>
+        <firstDate>2002-10-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-01-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Хлебушкин Сергей Владимирович</fio>
+          <innfl>519200096641</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-03-27</date>
+          <firstDate>2002-10-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

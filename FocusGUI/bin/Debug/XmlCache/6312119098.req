@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6312119098</inn>
+    <ogrn>1146312110823</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1146312110823</focusHref>
+    <UL>
+      <kpp>631201001</kpp>
+      <okpo>39950870</okpo>
+      <okato>36401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701310000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "МТК"</short>
+        <full>Общество с ограниченной ответственностью "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "МЕТАЛЛОТЕХКОНСТРУКЦИЯ"</full>
+        <date>2014-12-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443051</zipCode>
+          <kladrCode>630000010000501</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Олимпийская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>63</topoValue>
+          </house>
+          <houseRaw>ДОМ 63</houseRaw>
+        </parsedAddressRF>
+        <date>2014-12-26</date>
+        <firstDate>2014-12-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-12-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Туманов Альбек Майранович</fio>
+          <innfl>642202880515</innfl>
+          <position>Директор</position>
+          <date>2016-06-28</date>
+          <firstDate>2016-06-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Маслов Олег Вячеславович</fio>
+            <innfl>631808087754</innfl>
+            <position>Директор</position>
+            <date>2014-12-26</date>
+            <firstDate>2014-12-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

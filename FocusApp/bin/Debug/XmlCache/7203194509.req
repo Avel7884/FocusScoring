@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7203194509</inn>
+    <ogrn>1077203028176</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077203028176</focusHref>
+    <UL>
+      <kpp>773101001</kpp>
+      <okpo>80143044</okpo>
+      <okato>45268560000</okato>
+      <okfs>16</okfs>
+      <oktmo>45319000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АДС"</short>
+        <full>Закрытое акционерное общество "Аэродромдорстрой"</full>
+        <date>2007-05-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <kladrCode>770000000001629</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Крылатские Холмы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>5</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>1149</topoValue>
+          </flat>
+          <houseRaw>ДОМ 30</houseRaw>
+          <bulkRaw>КОРПУС 5</bulkRaw>
+          <flatRaw>КВАРТИРА 1149</flatRaw>
+        </parsedAddressRF>
+        <date>2017-12-11</date>
+        <firstDate>2017-12-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-07-25</date>
+      </status>
+      <registrationDate>2007-05-02</registrationDate>
+      <dissolutionDate>2018-07-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ланцов Андрей Николаевич</fio>
+          <innfl>773100304040</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2017-04-10</date>
+          <firstDate>2017-04-10</firstDate>
+        </head>
+      </heads>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МАНУЛ"</name>
+          <inn>7702391622</inn>
+          <ogrn>1157746933112</ogrn>
+          <date>2016-06-20</date>
+          <firstDate>2016-06-17</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771401001</kpp>
+            <date>2017-03-06</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>772401001</kpp>
+            <date>2016-12-30</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>770301001</kpp>
+            <date>2012-07-20</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>773601001</kpp>
+            <date>2010-04-14</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>АО "АДС"</short>
+            <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АЭРОДРОМДОРСТРОЙ"</full>
+            <date>2016-12-30</date>
+          </legalName>
+          <legalName>
+            <full>ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО</full>
+            <date>2016-12-30</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127083</zipCode>
+              <kladrCode>770000000001881</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Мишина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>46</topoValue>
+              </house>
+              <houseRaw>ДОМ 46</houseRaw>
+            </parsedAddressRF>
+            <date>2013-08-21</date>
+            <firstDate>2013-08-21</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115034</zipCode>
+              <kladrCode>770000000000494</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Каспийская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>22</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>корп</topoShortName>
+                <topoFullName>корпус</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>Пмещение IX, Комната 17а</topoValue>
+              </flat>
+              <houseRaw>ДОМ 22</houseRaw>
+              <bulkRaw>КОРПУС 1</bulkRaw>
+              <flatRaw>ПМЕЩЕНИЕ IX, КОМНАТА 17А</flatRaw>
+            </parsedAddressRF>
+            <date>2016-12-30</date>
+            <firstDate>2016-12-30</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>123056</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Грузинская Б</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>42</topoValue>
+              </house>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>II</topoValue>
+              </flat>
+              <houseRaw>42</houseRaw>
+              <flatRaw>пом.II</flatRaw>
+            </parsedAddressRF>
+            <date>2012-07-20</date>
+            <firstDate>2012-07-20</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>119296</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Ленинский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>68/10</topoValue>
+              </house>
+              <houseRaw>68/10</houseRaw>
+            </parsedAddressRF>
+            <date>2010-04-14</date>
+            <firstDate>2010-04-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Савченко Алексей Сергеевич</fio>
+            <position>Генеральный директор</position>
+            <date>2010-06-21</date>
+            <firstDate>2010-06-21</firstDate>
+          </head>
+          <head>
+            <fio>Коробейник Евгений Дмитриевич</fio>
+            <innfl>720320205440</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-10-12</date>
+            <firstDate>2012-10-12</firstDate>
+          </head>
+          <head>
+            <fio>Солодовников Сергей Иванович</fio>
+            <innfl>720203086598</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-07-15</date>
+            <firstDate>2015-07-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

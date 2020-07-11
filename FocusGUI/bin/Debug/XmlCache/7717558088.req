@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7717558088</inn>
+    <ogrn>1067746582529</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067746582529</focusHref>
+    <UL>
+      <kpp>771701001</kpp>
+      <okpo>95527715</okpo>
+      <okato>45280572000</okato>
+      <okfs>16</okfs>
+      <oktmo>45358000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭНЕРГОРЕСУРС"</short>
+        <full>Общество с ограниченной ответственностью "ЭНЕРГОРЕСУРС"</full>
+        <date>2006-05-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129075</zipCode>
+          <kladrCode>770000000002040</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новоостанкинская 3-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>4</houseRaw>
+        </parsedAddressRF>
+        <date>2006-05-10</date>
+        <firstDate>2006-05-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-10-03</date>
+      </status>
+      <registrationDate>2006-05-10</registrationDate>
+      <dissolutionDate>2008-10-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Карапетян Степа Бабкенович</fio>
+          <innfl>773117760588</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-05-10</date>
+          <firstDate>2006-05-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6319038264</inn>
+    <ogrn>1036300886600</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036300886600</focusHref>
+    <UL>
+      <kpp>631901001</kpp>
+      <okpo>40952331</okpo>
+      <okato>36401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701335000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АиС"</short>
+        <full>Общество с ограниченной ответственностью "АиС"</full>
+        <date>2003-02-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443081</zipCode>
+          <kladrCode>630000010000153</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Стара Загора</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>89</topoValue>
+          </house>
+          <flat>
+            <topoValue>40</topoValue>
+          </flat>
+          <houseRaw>89</houseRaw>
+          <flatRaw>40</flatRaw>
+        </parsedAddressRF>
+        <date>2008-03-31</date>
+        <firstDate>2008-03-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1995-05-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Адгезалова Елена Витальевна</fio>
+          <innfl>631695701106</innfl>
+          <position>Директор</position>
+          <date>2011-12-01</date>
+          <firstDate>2009-02-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2508005860</inn>
+    <ogrn>1022500697075</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022500697075</focusHref>
+    <UL>
+      <kpp>250801001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Акция"</short>
+        <full>Закрытое акционерное общество "Акция"</full>
+        <date>2002-08-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>692922</zipCode>
+          <kladrCode>250000040000107</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Находка</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мичурина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <flat>
+            <topoValue>6</topoValue>
+          </flat>
+          <houseRaw>16</houseRaw>
+          <flatRaw>6</flatRaw>
+        </parsedAddressRF>
+        <date>2006-09-08</date>
+        <firstDate>2006-09-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-09-07</date>
+      </status>
+      <registrationDate>1994-05-18</registrationDate>
+      <dissolutionDate>2009-09-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Воробьев Иван Васильевич</fio>
+          <innfl>250804369878</innfl>
+          <position>Директор</position>
+          <date>2006-11-15</date>
+          <firstDate>2006-11-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

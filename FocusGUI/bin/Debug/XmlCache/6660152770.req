@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6660152770</inn>
+    <ogrn>1026604945190</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026604945190</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okpo>55791106</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Апрайт-Урал"</short>
+        <full>Общество с ограниченной ответственностью "Апрайт-Урал"</full>
+        <date>2005-08-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620049</zipCode>
+          <kladrCode>660000010000685</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <flat>
+            <topoValue>229</topoValue>
+          </flat>
+          <houseRaw>23</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>229</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-27</date>
+        <firstDate>2002-09-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-04-24</date>
+      </status>
+      <registrationDate>2001-01-30</registrationDate>
+      <dissolutionDate>2015-04-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Черемных Владимир Михайлович</fio>
+          <innfl>665895699235</innfl>
+          <position>Директор</position>
+          <date>2014-11-21</date>
+          <firstDate>2014-11-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шуйская Елена Николаевна</fio>
+            <position>Директор</position>
+            <date>2008-09-01</date>
+            <firstDate>2008-09-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

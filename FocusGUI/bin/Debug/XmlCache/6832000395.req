@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6832000395</inn>
+    <ogrn>1026801223371</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026801223371</focusHref>
+    <UL>
+      <kpp>682901001</kpp>
+      <okpo>12390839</okpo>
+      <okato>68401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>68701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ПМК "АЛВИ"</short>
+        <full>Закрытое акционерное общество "Промышленно-маркетинговая компания "АЛВИ"</full>
+        <date>2002-10-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>392000</zipCode>
+          <kladrCode>680000040000545</kladrCode>
+          <regionCode>68</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тамбовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тамбов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Монтажников</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <houseRaw>3</houseRaw>
+        </parsedAddressRF>
+        <date>2005-05-05</date>
+        <firstDate>2005-05-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-09-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Аленкин Алексей Витальевич</fio>
+          <innfl>683204888700</innfl>
+          <position>Генеральный директор</position>
+          <date>2018-05-24</date>
+          <firstDate>2002-10-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

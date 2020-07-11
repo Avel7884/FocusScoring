@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6648008272</inn>
+    <ogrn>1026602090745</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602090745</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>44645749</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>НПАО "ТД АВЕРС"</short>
+        <full>НЕПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "ТОРГОВЫЙ ДОМ АВЕРС"</full>
+        <date>2016-05-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622001</zipCode>
+          <kladrCode>660000230000290</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ломоносова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>126</topoValue>
+          </flat>
+          <houseRaw>ДОМ 18</houseRaw>
+          <flatRaw>КВАРТИРА 126</flatRaw>
+        </parsedAddressRF>
+        <date>2016-05-23</date>
+        <firstDate>2016-05-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Юридическое лицо находится в процессе реорганизации в форме преобразования</statusString>
+        <reorganizing>true</reorganizing>
+        <date>2019-01-31</date>
+      </status>
+      <registrationDate>1996-05-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Зашляпин Владимир Александрович</fio>
+          <innfl>662306067402</innfl>
+          <position>Директор</position>
+          <date>2018-04-09</date>
+          <firstDate>2006-12-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>664801001</kpp>
+            <date>2006-04-27</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ЗАО ТД Аверс</short>
+            <full>Закрытое акционерное общество "Торговый дом АВЕРС"</full>
+            <date>2002-12-16</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>622911</zipCode>
+              <kladrCode>660190000580011</kladrCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Пригородный</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>с</topoShortName>
+                <topoFullName>село</topoFullName>
+                <topoValue>Николо-Павловское</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Совхозная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <houseRaw>2</houseRaw>
+            </parsedAddressRF>
+            <date>2004-01-14</date>
+            <firstDate>2004-01-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

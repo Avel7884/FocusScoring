@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217177392</inn>
+    <ogrn>1164205063516</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1164205063516</focusHref>
+    <UL>
+      <kpp>425301001</kpp>
+      <okpo>02562133</okpo>
+      <okato>32431362000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НОПС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "НОПС"</full>
+        <date>2016-05-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654055</zipCode>
+          <kladrCode>420000120001130</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Эльтонская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>114</topoValue>
+          </house>
+          <houseRaw>ДОМ 114</houseRaw>
+        </parsedAddressRF>
+        <date>2018-01-15</date>
+        <firstDate>2018-01-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-05-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Ожерелов Павел Николаевич</fio>
+          <innfl>422109710479</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-01-15</date>
+          <firstDate>2018-01-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>421701001</kpp>
+            <date>2016-05-19</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>654041</zipCode>
+              <kladrCode>420000120000868</kladrCode>
+              <regionCode>42</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Кемеровская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новокузнецк</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Сеченова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>19</topoValue>
+              </house>
+              <flat>
+                <topoShortName>кв</topoShortName>
+                <topoFullName>квартира</topoFullName>
+                <topoValue>2</topoValue>
+              </flat>
+              <houseRaw>ДОМ 19</houseRaw>
+              <flatRaw>КВАРТИРА 2</flatRaw>
+            </parsedAddressRF>
+            <date>2016-05-19</date>
+            <firstDate>2016-05-19</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Нохрин Александр Алексеевич</fio>
+            <innfl>422104983507</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-05-19</date>
+            <firstDate>2016-05-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

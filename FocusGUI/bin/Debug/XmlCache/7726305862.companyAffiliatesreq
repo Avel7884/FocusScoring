@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2465242895</inn>
+    <ogrn>1102468045712</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1102468045712</focusHref>
+    <UL>
+      <kpp>246501001</kpp>
+      <okpo>67658884</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Люкс-Сервис"</short>
+        <full>Общество с ограниченной ответственностью "Люкс-Сервис"</full>
+        <date>2010-10-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660111</zipCode>
+          <kladrCode>240000010000914</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Башиловская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>5</houseRaw>
+        </parsedAddressRF>
+        <date>2010-10-07</date>
+        <firstDate>2010-10-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-11-24</date>
+      </status>
+      <registrationDate>2010-10-07</registrationDate>
+      <dissolutionDate>2015-11-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Олунин Александр Сергеевич</fio>
+          <innfl>526310183658</innfl>
+          <position>Директор</position>
+          <date>2010-10-07</date>
+          <firstDate>2010-10-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7726305862</inn>
+    <ogrn>1027739538661</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739538661</focusHref>
+    <UL>
+      <kpp>772601001</kpp>
+      <okpo>55001009</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКМ Агроника"</short>
+        <full>Общество с ограниченной ответственностью "ПКМ Агроника"</full>
+        <date>2002-11-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>113405</zipCode>
+          <kladrCode>770000000000476</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Варшавское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>170Г</topoValue>
+          </house>
+          <houseRaw>170Г</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-14</date>
+        <firstDate>2002-11-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-10-07</date>
+      </status>
+      <registrationDate>2001-01-31</registrationDate>
+      <dissolutionDate>2010-10-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Соколов Владимир Алексеевич</fio>
+          <innfl>773403292309</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-11-14</date>
+          <firstDate>2002-11-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

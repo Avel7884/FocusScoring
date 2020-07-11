@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7802201018</inn>
+    <ogrn>1027801550369</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027801550369</focusHref>
+    <UL>
+      <kpp>784201001</kpp>
+      <okpo>59473142</okpo>
+      <okato>40298565000</okato>
+      <okfs>16</okfs>
+      <oktmo>40912000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Алиса"</short>
+        <full>Закрытое акционерное общество "Алиса"</full>
+        <date>2002-11-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>191036</zipCode>
+          <kladrCode>780000000000313</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гончарная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>9</houseRaw>
+          <bulkRaw>ЛИТ. А</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-10-20</date>
+        <firstDate>2006-10-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-12-16</date>
+      </status>
+      <registrationDate>2002-11-12</registrationDate>
+      <dissolutionDate>2013-12-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Богданов Александр Николаевич</fio>
+          <innfl>470600949646</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-10-20</date>
+          <firstDate>2006-10-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

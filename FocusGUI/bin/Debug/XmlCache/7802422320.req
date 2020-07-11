@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7802422320</inn>
+    <ogrn>1089847048818</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1089847048818</focusHref>
+    <UL>
+      <kpp>781301001</kpp>
+      <okpo>83853912</okpo>
+      <okato>40288000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40392000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Пластик Система"</short>
+        <full>Общество с ограниченной ответственностью "Пластик Система"</full>
+        <date>2008-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197376</zipCode>
+          <kladrCode>780000000001149</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Профессора Попова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>М</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>33-Н</topoValue>
+          </flat>
+          <houseRaw>ДОМ 23</houseRaw>
+          <bulkRaw>ЛИТ М</bulkRaw>
+          <flatRaw>ПОМ 33-Н</flatRaw>
+        </parsedAddressRF>
+        <date>2018-09-06</date>
+        <firstDate>2018-09-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-02-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Савченко Олег Сергеевич</fio>
+          <innfl>781431238747</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-10-06</date>
+          <firstDate>2008-10-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>197110</zipCode>
+              <kladrCode>780000000001185</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Ремесленная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17</topoValue>
+              </house>
+              <houseRaw>17</houseRaw>
+            </parsedAddressRF>
+            <date>2009-03-06</date>
+            <firstDate>2009-03-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

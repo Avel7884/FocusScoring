@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5260076522</inn>
+    <ogrn>1025203047033</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203047033</focusHref>
+    <UL>
+      <kpp>668501001</kpp>
+      <okpo>50683866</okpo>
+      <okato>65401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аванти НН"</short>
+        <full>Общество с ограниченной ответственностью "Аванти НН"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620138</zipCode>
+          <kladrCode>660000010001221</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Хрустальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>35А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>84Б</topoValue>
+          </flat>
+          <houseRaw>35А</houseRaw>
+          <flatRaw>ОФИС 84Б</flatRaw>
+        </parsedAddressRF>
+        <date>2013-02-08</date>
+        <firstDate>2013-02-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-11-18</date>
+      </status>
+      <registrationDate>1999-01-20</registrationDate>
+      <dissolutionDate>2013-11-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гвоздякова Галина Кузьмовна</fio>
+          <innfl>667356320762</innfl>
+          <position>Ликвидатор</position>
+          <date>2013-03-27</date>
+          <firstDate>2011-11-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603001</zipCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>наб</topoShortName>
+                <topoFullName>набережная</topoFullName>
+                <topoValue>Нижневолжская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9</topoValue>
+              </house>
+              <houseRaw>9</houseRaw>
+            </parsedAddressRF>
+            <date>2002-12-31</date>
+            <firstDate>2002-12-31</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Краснов Олег Владимирович</fio>
+            <innfl>526201108026</innfl>
+            <position>Директор</position>
+            <date>2002-12-31</date>
+            <firstDate>2002-12-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

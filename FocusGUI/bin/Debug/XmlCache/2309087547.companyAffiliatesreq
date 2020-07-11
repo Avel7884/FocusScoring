@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2309087547</inn>
+    <ogrn>1042304933868</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1042304933868</focusHref>
+    <UL>
+      <kpp>230901001</kpp>
+      <okpo>74249962</okpo>
+      <okato>03401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВАНГАРД"</short>
+        <full>Общество с ограниченной ответственностью "АВАНГАРД"</full>
+        <date>2004-05-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350007</zipCode>
+          <kladrCode>230000010000237</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им. Захарова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>55</topoValue>
+          </house>
+          <houseRaw>55</houseRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2015-11-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-05-06</registrationDate>
+      <heads>
+        <head>
+          <fio>Грушенко Сергей Александрович</fio>
+          <innfl>231210496261</innfl>
+          <position>Директор</position>
+          <date>2018-04-07</date>
+          <firstDate>2009-04-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>350007</zipCode>
+              <kladrCode>230000010000237</kladrCode>
+              <regionCode>23</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Краснодарский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Краснодар</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Захарова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>55</topoValue>
+              </house>
+              <houseRaw>55</houseRaw>
+            </parsedAddressRF>
+            <date>2004-05-06</date>
+            <firstDate>2004-05-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>231210496261</inn>
+    <ogrn>309231208600061</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=309231208600061</focusHref>
+    <IP>
+      <fio>Грушенко Сергей Александрович</fio>
+      <okpo>0165292245</okpo>
+      <okato>03401973002</okato>
+      <okogu>49015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2009-03-27</registrationDate>
+      <dissolutionDate>2012-03-19</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-03-19</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

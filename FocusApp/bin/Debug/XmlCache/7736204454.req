@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7736204454</inn>
+    <ogrn>1027739411677</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739411677</focusHref>
+    <UL>
+      <kpp>773601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АДВЕРКС КОРПОРЕЙШН"</short>
+        <full>Общество с ограниченной ответственностью "АДВЕРКС КОРПОРЕЙШН"</full>
+        <date>2002-10-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117333</zipCode>
+          <kladrCode>770000000001689</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>59</topoValue>
+          </house>
+          <flat>
+            <topoValue>Икран Ком.113</topoValue>
+          </flat>
+          <houseRaw>59</houseRaw>
+          <flatRaw>ИКРАН КОМ.113</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-18</date>
+        <firstDate>2002-10-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-09-02</date>
+      </status>
+      <registrationDate>2000-05-10</registrationDate>
+      <dissolutionDate>2008-09-02</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Киселев Алексей Николаевич</fio>
+          <innfl>772816734081</innfl>
+          <position>Ликвидатор</position>
+          <date>2007-10-09</date>
+          <firstDate>2007-10-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

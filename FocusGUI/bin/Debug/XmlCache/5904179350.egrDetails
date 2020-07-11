@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>5904179350</inn>
+    <ogrn>1085904000236</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1085904000236</focusHref>
+    <UL>
+      <okpo>95915943</okpo>
+      <pfrRegNumber>069004068694</pfrRegNumber>
+      <fssRegNumber>590084832159001</fssRegNumber>
+      <fomsRegNumber>574010880137852</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>68.1</code>
+          <text>Покупка и продажа собственного недвижимого имущества</text>
+          <date>2008-01-10</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>64.99.1</code>
+            <text>Вложения в ценные бумаги</text>
+            <date>2008-01-10</date>
+          </activity>
+          <activity>
+            <code>64.99.3</code>
+            <text>Капиталовложения в уставные капиталы, венчурное инвестирование, в том числе посредством инвестиционных компаний</text>
+            <date>2008-01-10</date>
+          </activity>
+          <activity>
+            <code>68.2</code>
+            <text>Аренда и управление собственным или арендованным недвижимым имуществом</text>
+            <date>2008-01-10</date>
+          </activity>
+          <activity>
+            <code>68.3</code>
+            <text>Операции с недвижимым имуществом за вознаграждение или на договорной основе</text>
+            <date>2008-01-10</date>
+          </activity>
+          <activity>
+            <code>68.32</code>
+            <text>Управление недвижимым имуществом за вознаграждение или на договорной основе</text>
+            <date>2008-01-10</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2008-01-10</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>5904</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Свердловскому району г. Перми</nalogName>
+        <nalogRegDate>2008-01-10</nalogRegDate>
+        <kpp>590401001</kpp>
+        <date>2008-01-15</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>5958</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 17 по Пермскому краю</nalogName>
+        <date>2014-01-04</date>
+      </regBody>
+      <statedCapital>
+        <sum>83069265</sum>
+        <date>2009-03-11</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Савельева Екатерина Олеговна</fio>
+          <innfl>590421473638</innfl>
+          <share>
+            <sum>23305651.5</sum>
+            <percentagePlain>28.055</percentagePlain>
+          </share>
+          <date>2013-10-29</date>
+          <firstDate>2011-11-02</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Старков Никита Викторович</fio>
+          <innfl>590610283223</innfl>
+          <share>
+            <sum>11866747</sum>
+            <percentagePlain>14.29</percentagePlain>
+          </share>
+          <date>2011-11-02</date>
+          <firstDate>2008-04-01</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Безденежных Андрей Валерьевич</fio>
+          <innfl>590501189510</innfl>
+          <share>
+            <sum>9228842.5</sum>
+            <percentagePlain>11.11</percentagePlain>
+          </share>
+          <date>2018-12-20</date>
+          <firstDate>2018-12-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Гараев Валерий Назарович</fio>
+          <innfl>590601546846</innfl>
+          <share>
+            <sum>9228842.5</sum>
+            <percentagePlain>11.11</percentagePlain>
+          </share>
+          <date>2018-12-20</date>
+          <firstDate>2018-12-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Перхун Дмитрий Юрьевич</fio>
+          <innfl>590200052529</innfl>
+          <share>
+            <sum>4347497</sum>
+            <percentagePlain>5.23</percentagePlain>
+          </share>
+          <date>2012-09-12</date>
+          <firstDate>2008-11-13</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Дерюшев Александр Геннадьевич</fio>
+          <innfl>590847353033</innfl>
+          <share>
+            <sum>4238712.75</sum>
+            <percentagePlain>5.1025</percentagePlain>
+          </share>
+          <date>2013-09-12</date>
+          <firstDate>2013-09-12</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Антипов Александр Сергеевич</fio>
+          <innfl>590313408705</innfl>
+          <share>
+            <sum>4238712.75</sum>
+            <percentagePlain>5.1025</percentagePlain>
+          </share>
+          <date>2017-11-21</date>
+          <firstDate>2013-09-12</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1095904007154</ogrn>
+          <inn>5904208393</inn>
+          <fullName>Общество с ограниченной ответственностью "Инвестиционная Компания "Развитие"</fullName>
+          <share>
+            <sum>16614259</sum>
+            <percentagePlain>20</percentagePlain>
+          </share>
+          <date>2011-12-21</date>
+          <firstDate>2011-12-21</firstDate>
+        </founderUL>
+      </foundersUL>
+      <predecessors>
+        <predecessor>
+          <name>Закрытое акционерное общество "Пм-Девелопмент"</name>
+          <inn>5904149998</inn>
+          <ogrn>1065904122877</ogrn>
+        </predecessor>
+        <predecessor>
+          <name>Общество с ограниченной ответственностью "Деловой Центр"</name>
+          <inn>5904143080</inn>
+          <ogrn>1065904108049</ogrn>
+        </predecessor>
+      </predecessors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2195958798143</grn>
+          <date>2019-09-25</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Пермскому Краю</regName>
+          <regCode>5958</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2019-09-18</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2195958571334</grn>
+          <date>2019-06-30</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Пермскому Краю</regName>
+          <regCode>5958</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6185958186947</grn>
+          <date>2018-12-20</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Пермскому Краю</regName>
+          <regCode>5958</regCode>
+          <documents>
+            <document>
+              <name>Заявление по форме р14001</name>
+              <date>2018-12-13</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6185958186452</grn>
+          <date>2018-12-20</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Пермскому Краю</regName>
+          <regCode>5958</regCode>
+          <documents>
+            <document>
+              <name>Заявление по форме р14001</name>
+              <date>2018-12-13</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6175958036160</grn>
+          <date>2017-11-21</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Пермскому Краю</regName>
+          <regCode>5958</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6175958030132</grn>
+          <date>2017-11-17</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Пермскому Краю</regName>
+          <regCode>5958</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2017-11-10</date>
+            </document>
+            <document>
+              <name>Доверенность нотар коп на гильмутдинову</name>
+              <date>2014-10-22</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6145958865695</grn>
+          <date>2014-10-30</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Пермскому Краю</regName>
+          <regCode>5958</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2014-10-23</date>
+            </document>
+            <document>
+              <name>Доверенность на чемоданову н.о., гильмутдинову к.и., мамонова а.с., артемьеву о.н. (нотар. копия)</name>
+              <date>2014-10-22</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6145958865673</grn>
+          <date>2014-10-30</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Пермскому Краю</regName>
+          <regCode>5958</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2014-10-23</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2014-10-21</date>
+            </document>
+            <document>
+              <name>Доверенность на чемоданову н.о., гильмутдинову к.и., мамонова а.с., артемьеву о.н. (нотар. копия)</name>
+              <date>2014-10-22</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2014-10-10</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2014-10-21</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2135904197119</grn>
+          <date>2013-10-29</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2135904166693</grn>
+          <date>2013-09-13</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-09-06</date>
+            </document>
+            <document>
+              <name>Договор к-п</name>
+            </document>
+            <document>
+              <name>Оферта</name>
+            </document>
+            <document>
+              <name>Акцепт</name>
+            </document>
+            <document>
+              <name>Копия доверенности</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2135904166176</grn>
+          <date>2013-09-12</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-09-05</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2135904166165</grn>
+          <date>2013-09-12</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-09-05</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2125904152438</grn>
+          <date>2012-09-12</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2125904036256</grn>
+          <date>2012-03-11</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2012-03-01</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 004384351</serialNumber>
+              <date>2012-03-11</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2115904187310</grn>
+          <date>2011-12-21</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-12-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 004379480</serialNumber>
+              <date>2011-12-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2115904154804</grn>
+          <date>2011-11-02</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2011-10-26</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2011-02-02</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 004375050</serialNumber>
+              <date>2011-11-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2115904114544</grn>
+          <date>2011-08-05</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-07-29</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 004348248</serialNumber>
+              <date>2011-08-05</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2115904071072</grn>
+          <date>2011-05-10</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-04-29</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 004299731</serialNumber>
+              <date>2011-05-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2105904404208</grn>
+          <date>2010-12-20</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-12-13</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 004305123</serialNumber>
+              <date>2010-12-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2105904206153</grn>
+          <date>2010-06-30</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-06-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003767943</serialNumber>
+              <date>2010-06-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2105904169380</grn>
+          <date>2010-05-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-05-06</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003998812</serialNumber>
+              <date>2010-05-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2095904127284</grn>
+          <date>2009-04-30</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2009-04-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003989960</serialNumber>
+              <date>2009-04-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2095904127273</grn>
+          <date>2009-04-30</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-04-23</date>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Чек-ордер</name>
+              <date>2009-04-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003989959</serialNumber>
+              <date>2009-04-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2095904055498</grn>
+          <date>2009-03-19</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2009-03-12</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003987802</serialNumber>
+              <date>2009-03-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2095904049371</grn>
+          <date>2009-03-11</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-03-03</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Квитанция к пко № 1 от 26.02.2009</name>
+            </document>
+            <document>
+              <name>Чек-ордер</name>
+              <date>2009-03-03</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003987599</serialNumber>
+              <date>2009-03-11</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2095904018065</grn>
+          <date>2009-02-02</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085904205033</grn>
+          <date>2008-11-13</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2008-11-06</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 004013850</serialNumber>
+              <date>2008-11-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085904191734</grn>
+          <date>2008-10-31</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2008-10-24</date>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+            </document>
+            <document>
+              <name>Заявление</name>
+            </document>
+            <document>
+              <name>Квитанция к пко № 22 от 15.10.2008</name>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2008-10-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 004013624</serialNumber>
+              <date>2008-10-31</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085904047502</grn>
+          <date>2008-04-01</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2008-03-25</date>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2008-03-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003179975</serialNumber>
+              <date>2008-04-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085904047491</grn>
+          <date>2008-04-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2008-03-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003179974</serialNumber>
+              <date>2008-04-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085904047480</grn>
+          <date>2008-04-01</date>
+          <name>Реорганизация ЮЛ в форме присоединения к нему другого ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2008-03-25</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003179973</serialNumber>
+              <date>2008-04-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085904018726</grn>
+          <date>2008-01-29</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085904016328</grn>
+          <date>2008-01-24</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2008-01-17</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003414205</serialNumber>
+              <date>2008-01-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085904016262</grn>
+          <date>2008-01-24</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2008-01-17</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Чек-ордер</name>
+              <date>2008-01-17</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003414204</serialNumber>
+              <date>2008-01-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2085904004954</grn>
+          <date>2008-01-15</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1085904000236</grn>
+          <date>2008-01-10</date>
+          <name>Создание ЮЛ в форме преобразования</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Свердловскому Району г. Перми</regName>
+          <regCode>5904</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица, создаваемого путем реорганизации в форме преобразования</name>
+              <date>2007-12-26</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Документ, подтверждающий представление сведений в территориальный орган ПФ РФ</name>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+            </document>
+            <document>
+              <name>Сопроводительное письмо</name>
+            </document>
+            <document>
+              <name>Решение единственного акционера ЗАО "Пм-девелопмент"</name>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2007-12-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>59 003187951</serialNumber>
+              <date>2008-01-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>83069300</sum>
+            <date>2009-03-11</date>
+          </statedCapital>
+        </statedCapitals>
+        <foundersUL>
+          <founderUL>
+            <ogrn>1025900521789</ogrn>
+            <inn>5902141263</inn>
+            <fullName>Общество с ограниченной ответственностью "Луч-1"</fullName>
+            <share>
+              <sum>18457685</sum>
+              <percentagePlain>22.22</percentagePlain>
+            </share>
+            <date>2011-11-02</date>
+            <firstDate>2008-04-01</firstDate>
+          </founderUL>
+          <founderUL>
+            <ogrn>1065908028570</ogrn>
+            <inn>5908034444</inn>
+            <fullName>Закрытое акционерное общество "ТМ-Недвижимость"</fullName>
+            <share>
+              <sum>16954851</sum>
+            </share>
+            <date>2011-11-02</date>
+            <firstDate>2009-04-30</firstDate>
+          </founderUL>
+          <founderUL>
+            <ogrn>1025901609007</ogrn>
+            <inn>5908024559</inn>
+            <fullName>Общество с ограниченной ответственностью "Химпрод"</fullName>
+            <share>
+              <sum>16954851</sum>
+            </share>
+            <date>2012-03-11</date>
+            <firstDate>2012-03-11</firstDate>
+          </founderUL>
+          <founderUL>
+            <ogrn>1025900910133</ogrn>
+            <inn>5904099810</inn>
+            <fullName>Общество с ограниченной ответственностью "Сальтус"</fullName>
+            <share>
+              <sum>16614259</sum>
+            </share>
+            <date>2009-04-30</date>
+            <firstDate>2009-04-30</firstDate>
+          </founderUL>
+          <founderUL>
+            <ogrn>1025900889519</ogrn>
+            <inn>5904031393</inn>
+            <fullName>Общество с ограниченной ответственностью "Авиа-Траст-Инвест"</fullName>
+            <share>
+              <sum>16614259</sum>
+            </share>
+            <date>2011-11-02</date>
+            <firstDate>2011-11-02</firstDate>
+          </founderUL>
+        </foundersUL>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

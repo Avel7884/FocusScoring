@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5262112230</inn>
+    <ogrn>1025203742772</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203742772</focusHref>
+    <UL>
+      <kpp>526201001</kpp>
+      <okpo>59637000</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агат-2002"</short>
+        <full>Общество с ограниченной ответственностью "Агат-2002"</full>
+        <date>2002-12-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603089</zipCode>
+          <kladrCode>520000010000805</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бориса Панина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <houseRaw>13</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-11</date>
+        <firstDate>2002-12-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-12-20</date>
+      </status>
+      <registrationDate>2002-12-11</registrationDate>
+      <dissolutionDate>2010-12-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лепендин Валентин Львович</fio>
+          <position>Директор</position>
+          <date>2002-12-11</date>
+          <firstDate>2002-12-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

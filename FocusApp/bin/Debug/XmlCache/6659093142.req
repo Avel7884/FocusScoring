@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6659093142</inn>
+    <ogrn>1036603152574</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603152574</focusHref>
+    <UL>
+      <kpp>665901001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Производственная Компания "Авалон-МТ"</short>
+        <full>Общество с ограниченной ответственностью "Производственная Компания "Авалон-МТ"</full>
+        <date>2003-07-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620027</zipCode>
+          <kladrCode>660000010000426</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Испанских рабочих</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>29</topoValue>
+          </house>
+          <flat>
+            <topoValue>8</topoValue>
+          </flat>
+          <houseRaw>29</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>8</flatRaw>
+        </parsedAddressRF>
+        <date>2003-07-10</date>
+        <firstDate>2003-07-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-06-23</date>
+      </status>
+      <registrationDate>2003-07-10</registrationDate>
+      <dissolutionDate>2006-06-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Башлыков Максим Андреевич</fio>
+          <innfl>660607400300</innfl>
+          <position>Директор</position>
+          <date>2003-07-10</date>
+          <firstDate>2003-07-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

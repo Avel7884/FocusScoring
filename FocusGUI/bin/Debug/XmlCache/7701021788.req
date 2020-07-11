@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701021788</inn>
+    <ogrn>1027700431417</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700431417</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okpo>11299982</okpo>
+      <okato>45290564000</okato>
+      <okfs>16</okfs>
+      <oktmo>45388000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО НТФ "ЭНЕРГОПРОГРЕСС" КОРПОРАЦИИ "ЕЭЭК"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "НАУЧНО-ТЕХНИЧЕСКАЯ ФИРМА "ЭНЕРГОПРОГРЕСС" КОРПОРАЦИИ - ЕДИНЫЙ ЭЛЕКТРОЭНЕРГЕТИЧЕСКИЙ КОМПЛЕКС"</full>
+        <date>2017-04-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111250</zipCode>
+          <kladrCode>770000000000287</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноказарменная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1А</topoValue>
+          </bulk>
+          <houseRaw>14</houseRaw>
+          <bulkRaw>СТР.1А</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-11-14</date>
+        <firstDate>2002-11-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-27</date>
+      </status>
+      <registrationDate>1994-03-28</registrationDate>
+      <dissolutionDate>2017-12-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мамонова Татьяна Михайловна</fio>
+          <innfl>772004298770</innfl>
+          <position>Ликвидатор</position>
+          <date>2017-07-25</date>
+          <firstDate>2011-01-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО НТФ "Энергопрогресс" Корпорации "ЕЭЭК"</short>
+            <full>Закрытое акционерное общество "Научно-техническая фирма "Энергопрогресс" Корпорации - Единый электроэнергетический комплекс"</full>
+            <date>2002-11-14</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

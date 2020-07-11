@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Организация зарегистрирована менее 6 мес назад</Name>
+  <Colour>Yellow</Colour>
+  <Description>Организация зарегистрирована менее 6 месяцев тому назад</Description>
+  <Code> return company.GetParam("m7004") != "true" &amp;&amp; company.GetParam("m7003") == "true"; </Code>
+</items>

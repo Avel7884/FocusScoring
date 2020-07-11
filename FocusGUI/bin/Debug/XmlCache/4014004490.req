@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4014004490</inn>
+    <ogrn>1024000761564</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024000761564</focusHref>
+    <UL>
+      <kpp>773401001</kpp>
+      <okpo>25923510</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "i2 СНГ"</short>
+        <full>Общество с ограниченной ответственностью "i2 СНГ"</full>
+        <date>2008-06-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123060</zipCode>
+          <kladrCode>770000000002452</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Расплетина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>19</houseRaw>
+          <flatRaw>ОФ.2</flatRaw>
+        </parsedAddressRF>
+        <date>2009-09-07</date>
+        <firstDate>2009-09-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-04-11</date>
+      </status>
+      <registrationDate>2002-08-07</registrationDate>
+      <dissolutionDate>2012-04-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Куликов Алексей Константинович</fio>
+          <innfl>501303902589</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2011-06-29</date>
+          <firstDate>2011-06-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

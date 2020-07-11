@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725243846</inn>
+    <ogrn>1037725061330</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037725061330</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okpo>71660119</okpo>
+      <okato>45296561000</okato>
+      <okfs>16</okfs>
+      <oktmo>45915000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Автодизельмаш"</short>
+        <full>Закрытое акционерное общество "Автодизельмаш"</full>
+        <date>2003-11-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115419</zipCode>
+          <kladrCode>770000000002134</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Орджоникидзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>9</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-11-28</date>
+        <firstDate>2003-11-28</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>650099</zipCode>
+            <kladrCode>420010010000003</kladrCode>
+            <regionCode>42</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Кемеровская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Кемерово</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>50 лет Октября</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>12А</topoValue>
+            </house>
+            <houseRaw>12А</houseRaw>
+          </parsedAddressRF>
+          <date>2007-11-23</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-02-26</date>
+      </status>
+      <registrationDate>2003-11-28</registrationDate>
+      <dissolutionDate>2018-02-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Филипповских Вера Владимировна</fio>
+          <innfl>771301318378</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2017-01-20</date>
+          <firstDate>2015-12-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Масленников Дмитрий Всеволодович</fio>
+            <position>Генеральный Директор</position>
+            <date>2011-05-12</date>
+            <firstDate>2011-05-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>4</Score>
+  <Name>Руководство в реестре дисквалифицированных лиц</Name>
+  <Colour>Red</Colour>
+  <Description>ФИО руководителей или учредителей были найдены в реестре дисквалифицированных лиц (ФНС)</Description>
+  <Code>return company.GetParam("m5008") == "true";</Code>
+</items>

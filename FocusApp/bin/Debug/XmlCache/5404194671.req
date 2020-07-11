@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5404194671</inn>
+    <ogrn>1025401499155</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025401499155</focusHref>
+    <UL>
+      <kpp>540401001</kpp>
+      <okpo>58781676</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОСТИЛЬ"</short>
+        <full>Общество с ограниченной ответственностью "АВТОСТИЛЬ"</full>
+        <date>2002-12-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630000</zipCode>
+          <kladrCode>540000010000781</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Карла Маркса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <houseRaw>30</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-10</date>
+        <firstDate>2002-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-11-13</date>
+      </status>
+      <registrationDate>2002-06-18</registrationDate>
+      <dissolutionDate>2014-11-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дегтярева Мария Викторовна</fio>
+          <position>Директор</position>
+          <date>2013-03-20</date>
+          <firstDate>2011-05-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

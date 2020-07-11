@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725112184</inn>
+    <ogrn>1027739896755</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739896755</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okpo>52643138</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО ТД "АСМ"</short>
+        <full>Закрытое акционерное общество Торговый Дом "Алтайсельмаш"</full>
+        <date>2002-12-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115419</zipCode>
+          <kladrCode>770000000002134</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Орджоникидзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-26</date>
+        <firstDate>2002-12-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-04-06</date>
+      </status>
+      <registrationDate>2000-02-24</registrationDate>
+      <dissolutionDate>2015-04-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Крымов Вячеслав Михайлович</fio>
+          <innfl>772731251800</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-12-26</date>
+          <firstDate>2002-12-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,3757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>2508084526</inn>
+    <ogrn>1082508002521</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1082508002521</focusHref>
+    <UL>
+      <okpo>84650720</okpo>
+      <pfrRegNumber>035013049875</pfrRegNumber>
+      <fomsRegNumber>054140800084684</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>70.1</code>
+          <text>Подготовка к продаже, покупка и продажа собственного недвижимого имущества</text>
+          <date>2008-05-30</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>70.3</code>
+            <text>Предоставление посреднических услуг, связанных с недвижимым имуществом</text>
+            <date>2008-05-30</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2008-05-30</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2508</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г.Находке Приморского края</nalogName>
+        <nalogRegDate>2008-05-30</nalogRegDate>
+        <kpp>250801001</kpp>
+        <date>2009-04-16</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-04-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2008-05-30</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Синельников Денис Николаевич</fio>
+          <innfl>251203325469</innfl>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2008-05-30</date>
+          <firstDate>2008-05-30</firstDate>
+        </founderFL>
+      </foundersFL>
+      <successors>
+        <successor>
+          <name>Общество с ограниченной ответственностью "Трансмедиа"</name>
+          <inn>2540148830</inn>
+          <ogrn>1082540009672</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2102508085513</grn>
+          <date>2010-11-19</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508015917</grn>
+          <date>2009-04-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092536071329</grn>
+          <date>2009-04-15</date>
+          <name>Прекращение деятельности чужого ЮЛ при присоединении</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2009-04-08</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2008-12-14</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2008-12-14</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2008-12-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003287214</serialNumber>
+              <date>2009-04-15</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082508024267</grn>
+          <date>2008-06-17</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082508021726</grn>
+          <date>2008-05-30</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1082508002521</grn>
+          <date>2008-05-30</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2008-05-26</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2008-05-26</date>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+              <date>2008-05-26</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи</name>
+              <date>2008-05-26</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2008-05-26</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003007821</serialNumber>
+              <date>2008-05-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2508085544</inn>
+    <ogrn>1082508003490</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1082508003490</focusHref>
+    <UL>
+      <okpo>84660309</okpo>
+      <pfrRegNumber>035013050116</pfrRegNumber>
+      <fssRegNumber>250508561425051</fssRegNumber>
+      <fomsRegNumber>054140800107090</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>51.53</code>
+          <text>Оптовая торговля лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+          <date>2008-07-18</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>51.51</code>
+            <text>Оптовая торговля топливом</text>
+            <date>2008-07-18</date>
+          </activity>
+          <activity>
+            <code>51.54</code>
+            <text>Оптовая торговля скобяными изделиями, ручными инструментами, водопроводным и отопительным оборудованием</text>
+            <date>2008-07-18</date>
+          </activity>
+          <activity>
+            <code>51.61</code>
+            <text>Оптовая торговля станками</text>
+            <date>2008-07-18</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2008-07-18</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2508</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г.Находке Приморского края</nalogName>
+        <nalogRegDate>2008-07-18</nalogRegDate>
+        <kpp>250801001</kpp>
+        <date>2009-02-12</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-04-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2008-07-18</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Синельников Денис Николаевич</fio>
+          <innfl>251203325469</innfl>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2008-07-18</date>
+          <firstDate>2008-07-18</firstDate>
+        </founderFL>
+      </foundersFL>
+      <successors>
+        <successor>
+          <name>Общество с ограниченной ответственностью "Трансмедиа"</name>
+          <inn>2540148830</inn>
+          <ogrn>1082540009672</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2102508085524</grn>
+          <date>2010-11-19</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508004136</grn>
+          <date>2009-02-13</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508004015</grn>
+          <date>2009-02-12</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092536029804</grn>
+          <date>2009-02-11</date>
+          <name>Прекращение ЮЛ путем реорганизации в форме присоединения</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2009-02-04</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2008-10-29</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2008-10-29</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2009-01-29</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2008-10-29</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003252007</serialNumber>
+              <date>2009-02-11</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082508030482</grn>
+          <date>2008-07-31</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082508030372</grn>
+          <date>2008-07-31</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082508028997</grn>
+          <date>2008-07-18</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1082508003490</grn>
+          <date>2008-07-18</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2008-07-14</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-07-14</date>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+              <date>2008-07-14</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2008-07-14</date>
+            </document>
+            <document>
+              <name>Акт приемо-передачи</name>
+              <date>2008-07-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003295199</serialNumber>
+              <date>2008-07-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2508088295</inn>
+    <ogrn>1092508000705</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1092508000705</focusHref>
+    <UL>
+      <okpo>88264652</okpo>
+      <pfrRegNumber>035013051092</pfrRegNumber>
+      <fssRegNumber>250508603525051</fssRegNumber>
+      <fomsRegNumber>054140900021413</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>37.10</code>
+          <text>Обработка металлических отходов и лома</text>
+          <date>2011-04-04</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>37.10.1</code>
+            <text>Обработка отходов и лома черных металлов</text>
+            <date>2011-04-04</date>
+          </activity>
+          <activity>
+            <code>37.10.2</code>
+            <text>Обработка отходов и лома цветных металлов</text>
+            <date>2011-04-04</date>
+          </activity>
+          <activity>
+            <code>37.20</code>
+            <text>Обработка неметаллических отходов и лома</text>
+            <date>2011-04-04</date>
+          </activity>
+          <activity>
+            <code>37.20.1</code>
+            <text>Обработка отходов резины</text>
+            <date>2011-04-04</date>
+          </activity>
+          <activity>
+            <code>37.20.2</code>
+            <text>Обработка отходов и лома пластмасс</text>
+            <date>2011-04-04</date>
+          </activity>
+          <activity>
+            <code>37.20.3</code>
+            <text>Обработка отходов и лома стекла</text>
+            <date>2011-04-04</date>
+          </activity>
+          <activity>
+            <code>37.20.4</code>
+            <text>Обработка отходов текстильных материалов</text>
+            <date>2011-04-04</date>
+          </activity>
+          <activity>
+            <code>37.20.5</code>
+            <text>Обработка отходов бумаги и картона</text>
+            <date>2011-04-04</date>
+          </activity>
+          <activity>
+            <code>37.20.7</code>
+            <text>Обработка прочих неметаллических отходов и лома</text>
+            <date>2011-04-04</date>
+          </activity>
+          <activity>
+            <code>51.1</code>
+            <text>Оптовая торговля через агентов (за вознаграждение или на договорной основе)</text>
+            <date>2009-02-24</date>
+          </activity>
+          <activity>
+            <code>51.12.1</code>
+            <text>Деятельность агентов по оптовой торговле топливом</text>
+            <date>2009-02-24</date>
+          </activity>
+          <activity>
+            <code>51.13.2</code>
+            <text>Деятельность агентов по оптовой торговле строительными материалами</text>
+            <date>2009-02-24</date>
+          </activity>
+          <activity>
+            <code>51.47</code>
+            <text>Оптовая торговля прочими непродовольственными потребительскими товарами</text>
+            <date>2009-02-24</date>
+          </activity>
+          <activity>
+            <code>51.7</code>
+            <text>Прочая оптовая торговля</text>
+            <date>2009-02-24</date>
+          </activity>
+          <activity>
+            <code>52.46.7</code>
+            <text>Розничная торговля строительными материалами, не включенными в другие группировки</text>
+            <date>2009-02-24</date>
+          </activity>
+          <activity>
+            <code>52.6</code>
+            <text>Розничная торговля вне магазинов</text>
+            <date>2009-02-24</date>
+          </activity>
+          <activity>
+            <code>52.61</code>
+            <text>Розничная торговля по заказам</text>
+            <date>2009-02-24</date>
+          </activity>
+          <activity>
+            <code>63.40</code>
+            <text>Организация перевозок грузов</text>
+            <date>2009-02-24</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2009-02-24</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2508</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г.Находке Приморского края</nalogName>
+        <nalogRegDate>2009-02-24</nalogRegDate>
+        <kpp>250801001</kpp>
+        <date>2012-02-21</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-04-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>25000</sum>
+        <date>2011-01-20</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Бабаев Сергей Анатольевич</fio>
+          <innfl>250801594057</innfl>
+          <share>
+            <sum>15000</sum>
+            <percentagePlain>60</percentagePlain>
+          </share>
+          <date>2011-01-20</date>
+          <firstDate>2011-01-20</firstDate>
+        </founderFL>
+      </foundersFL>
+      <successors>
+        <successor>
+          <name>Общество с ограниченной ответственностью "Раймокс"</name>
+          <inn>2539118888</inn>
+          <ogrn>1112539013510</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2122508014792</grn>
+          <date>2012-03-29</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2122508009347</grn>
+          <date>2012-03-14</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2122508007092</grn>
+          <date>2012-02-21</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2122543230852</grn>
+          <date>2012-02-16</date>
+          <name>Прекращение ЮЛ путем реорганизации в форме присоединения</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Приморскому Краю</regName>
+          <regCode>2543</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003564217</serialNumber>
+              <date>2012-02-16</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539191048</grn>
+          <date>2011-12-08</date>
+          <name>Начало процедуры реорганизации ЮЛ в форме присоединения</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>P12003 заявление - уведомление о начале процедуры реорганизации в форме присоединения</name>
+              <date>2011-12-05</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2011-12-02</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2011-11-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003578506</serialNumber>
+              <date>2011-12-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112536198333</grn>
+          <date>2011-10-28</date>
+          <name>Начало процедуры реорганизации ЮЛ в форме присоединения</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>P12003 заявление - уведомление о начале процедуры реорганизации в форме присоединения</name>
+              <date>2011-10-25</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2011-10-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003600124</serialNumber>
+              <date>2011-10-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112508023857</grn>
+          <date>2011-04-04</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-03-28</date>
+            </document>
+            <document>
+              <name>Решение учредителя</name>
+              <date>2011-03-24</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003291055</serialNumber>
+              <date>2011-04-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112508004300</grn>
+          <date>2011-02-01</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2011-01-25</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2011-01-25</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+              <date>2011-01-24</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2011-01-24</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003505583</serialNumber>
+              <date>2011-02-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112508004299</grn>
+          <date>2011-02-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-01-25</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+              <date>2011-01-24</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003505582</serialNumber>
+              <date>2011-02-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112508002836</grn>
+          <date>2011-01-20</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2011-01-13</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2010-12-21</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2010-12-20</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+              <date>2011-01-12</date>
+            </document>
+            <document>
+              <name>Заявление лица о принятии его в общество с ограниченной ответственностью и внесении вклада</name>
+              <date>2010-12-20</date>
+            </document>
+            <document>
+              <name>Акт передачи имущества</name>
+              <date>2010-12-20</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2010-12-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003505511</serialNumber>
+              <date>2011-01-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112508002825</grn>
+          <date>2011-01-20</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-01-13</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003505510</serialNumber>
+              <date>2011-01-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102508005158</grn>
+          <date>2010-01-05</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508116260</grn>
+          <date>2009-10-27</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508036531</grn>
+          <date>2009-05-20</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2009-05-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003116412</serialNumber>
+              <date>2009-05-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508036520</grn>
+          <date>2009-05-20</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-05-14</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2009-05-14</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2009-05-13</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-05-13</date>
+            </document>
+            <document>
+              <name>Договор купли-продажи</name>
+              <date>2009-05-13</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003116411</serialNumber>
+              <date>2009-05-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508006193</grn>
+          <date>2009-02-24</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1092508000705</grn>
+          <date>2009-02-24</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2009-02-17</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2009-02-16</date>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+              <date>2009-02-16</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи</name>
+              <date>2009-02-16</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-02-16</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003018728</serialNumber>
+              <date>2009-02-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2508089404</inn>
+    <ogrn>1092508001761</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1092508001761</focusHref>
+    <UL>
+      <okpo>88279234</okpo>
+      <pfrRegNumber>035013051476</pfrRegNumber>
+      <fssRegNumber>250508627225051</fssRegNumber>
+      <fomsRegNumber>054140900067844</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>65.23.3</code>
+          <text>Капиталовложения в собственность</text>
+          <date>2009-05-20</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>51.31.2</code>
+            <text>Оптовая торговля непереработанными овощами, фруктами и орехами</text>
+            <date>2009-05-20</date>
+          </activity>
+          <activity>
+            <code>51.32.1</code>
+            <text>Оптовая торговля мясом и мясом птицы, включая субпродукты</text>
+            <date>2009-05-20</date>
+          </activity>
+          <activity>
+            <code>67.13.4</code>
+            <text>Консультирование по вопросам финансового посредничества</text>
+            <date>2009-05-20</date>
+          </activity>
+          <activity>
+            <code>70.31.1</code>
+            <text>Предоставление посреднических услуг при покупке, продаже и аренде недвижимого имущества</text>
+            <date>2009-05-20</date>
+          </activity>
+          <activity>
+            <code>72.40</code>
+            <text>Деятельность по созданию и использованию баз данных и информационных ресурсов</text>
+            <date>2009-05-20</date>
+          </activity>
+          <activity>
+            <code>74.11</code>
+            <text>Деятельность в области права</text>
+            <date>2009-05-20</date>
+          </activity>
+          <activity>
+            <code>74.12</code>
+            <text>Деятельность в области бухгалтерского учета и аудита</text>
+            <date>2009-05-20</date>
+          </activity>
+          <activity>
+            <code>74.13.1</code>
+            <text>Исследование конъюнктуры рынка</text>
+            <date>2009-05-20</date>
+          </activity>
+          <activity>
+            <code>74.50.1</code>
+            <text>Предоставление услуг по найму рабочей силы</text>
+            <date>2009-05-20</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2009-05-20</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2508</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г.Находке Приморского края</nalogName>
+        <nalogRegDate>2009-05-20</nalogRegDate>
+        <kpp>250801001</kpp>
+        <date>2010-11-16</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-04-29</date>
+      </regBody>
+      <statedCapital />
+      <foundersFL>
+        <founderFL>
+          <fio>Синельников Денис Николаевич</fio>
+          <innfl>251203325469</innfl>
+          <share />
+          <date>2009-05-20</date>
+          <firstDate>2009-05-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Панцер Виктор Васильевич</fio>
+          <innfl>250806767560</innfl>
+          <share />
+          <date>2009-05-20</date>
+          <firstDate>2009-05-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Садовников Валерий Михайлович</fio>
+          <innfl>250806945301</innfl>
+          <share />
+          <date>2009-05-20</date>
+          <firstDate>2009-05-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Захарова Евгения Владимировна</fio>
+          <innfl>250815486051</innfl>
+          <share />
+          <date>2009-05-20</date>
+          <firstDate>2009-05-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Шульц Александр Адольфович</fio>
+          <innfl>250801430429</innfl>
+          <share />
+          <date>2009-05-20</date>
+          <firstDate>2009-05-20</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1072539008629</ogrn>
+          <inn>2539087823</inn>
+          <fullName>Общество с ограниченной ответственностью "ПКФ Ависта"</fullName>
+          <share />
+          <date>2009-05-20</date>
+          <firstDate>2009-05-20</firstDate>
+        </founderUL>
+      </foundersUL>
+      <successors>
+        <successor>
+          <name>Кредитный Потребительский Кооператив "Бизнес-Актив"</name>
+          <inn>2536162293</inn>
+          <ogrn>1052503126136</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2102508089836</grn>
+          <date>2010-12-07</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102508085205</grn>
+          <date>2010-11-19</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102508083852</grn>
+          <date>2010-11-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102536339772</grn>
+          <date>2010-11-09</date>
+          <name>Прекращение ЮЛ путем реорганизации в форме присоединения</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2010-10-29</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2010-07-13</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2010-07-13</date>
+            </document>
+            <document>
+              <name>Справка</name>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2010-07-13</date>
+            </document>
+            <document>
+              <name>Вестник</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003365696</serialNumber>
+              <date>2010-11-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102536186916</grn>
+          <date>2010-07-26</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003362053</serialNumber>
+              <date>2010-07-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102536186894</grn>
+          <date>2010-07-26</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102536184045</grn>
+          <date>2010-07-22</date>
+          <name>Начало процедуры реорганизации ЮЛ в форме присоединения</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>P12003 заявление - уведомление о начале процедуры реорганизации в форме присоединения</name>
+              <date>2010-07-19</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2010-07-13</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102508005356</grn>
+          <date>2010-01-05</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508048940</grn>
+          <date>2009-06-17</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2009-06-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003116622</serialNumber>
+              <date>2009-06-17</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508044044</grn>
+          <date>2009-06-03</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508043516</grn>
+          <date>2009-06-02</date>
+          <name>Внесение изменений в связи с допущенными заявителем ошибками в ранее представленном заявлении</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, при исправлении ошибок, допущенных заявителем ранее</name>
+              <date>2009-05-27</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003116512</serialNumber>
+              <date>2009-06-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092508036652</grn>
+          <date>2009-05-20</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1092508001761</grn>
+          <date>2009-05-20</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2009-05-14</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2009-05-14</date>
+            </document>
+            <document>
+              <name>Протокол учредительного собрания</name>
+              <date>2009-05-05</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-05-05</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003116399</serialNumber>
+              <date>2009-05-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2508113150</inn>
+    <ogrn>1132508000195</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1132508000195</focusHref>
+    <UL>
+      <okpo>20775192</okpo>
+      <pfrRegNumber>035013056461</pfrRegNumber>
+      <fssRegNumber>250507026225051</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.73</code>
+          <text>Торговля оптовая лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+          <date>2013-01-23</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>46.3</code>
+            <text>Торговля оптовая пищевыми продуктами, напитками и табачными изделиями</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>46.38.2</code>
+            <text>Торговля оптовая прочими пищевыми продуктами</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>46.38.29</code>
+            <text>Торговля оптовая прочими пищевыми продуктами, не включенными в другие группировки</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>46.49.49</code>
+            <text>Торговля оптовая прочими потребительскими товарами, не включенными в другие группировки</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>49.4</code>
+            <text>Деятельность автомобильного грузового транспорта и услуги по перевозкам</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>52.10</code>
+            <text>Деятельность по складированию и хранению</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>52.10.9</code>
+            <text>Хранение и складирование прочих грузов</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>52.2</code>
+            <text>Деятельность транспортная вспомогательная</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>52.21.2</code>
+            <text>Деятельность вспомогательная, связанная с автомобильным транспортом</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>52.24</code>
+            <text>Транспортная обработка грузов</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>52.24.1</code>
+            <text>Транспортная обработка контейнеров</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>52.24.2</code>
+            <text>Транспортная обработка прочих грузов</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>52.29</code>
+            <text>Деятельность вспомогательная прочая, связанная с перевозками</text>
+            <date>2013-01-23</date>
+          </activity>
+          <activity>
+            <code>82.99</code>
+            <text>Деятельность по предоставлению прочих вспомогательных услуг для бизнеса, не включенная в другие группировки</text>
+            <date>2013-01-23</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2013-01-23</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2508</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г.Находке Приморского края</nalogName>
+        <nalogRegDate>2013-01-23</nalogRegDate>
+        <kpp>250801001</kpp>
+        <date>2019-01-28</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-04-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>315000</sum>
+        <date>2017-02-02</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Синельников Денис Николаевич</fio>
+          <innfl>251203325469</innfl>
+          <share>
+            <sum>5000</sum>
+            <percentageNominator>1</percentageNominator>
+            <percentageDenominator>63</percentageDenominator>
+          </share>
+          <date>2017-02-02</date>
+          <firstDate>2017-02-02</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1132508000195</ogrn>
+          <inn>2508113150</inn>
+          <fullName>ООО "Альфа"</fullName>
+          <share>
+            <sum>310000</sum>
+            <percentageNominator>62</percentageNominator>
+            <percentageDenominator>63</percentageDenominator>
+          </share>
+          <date>2017-02-16</date>
+          <firstDate>2017-02-16</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2192536087258</grn>
+          <date>2019-01-28</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2192536086940</grn>
+          <date>2019-01-28</date>
+          <name>Прекращение юридического лица (исключение из ЕГРЮЛ юридического лица в связи с наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности)</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2018-10-08</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182536789653</grn>
+          <date>2018-10-10</date>
+          <name>Принятие регистрирующим органом решения о предстоящем исключении ЮЛ из ЕГРЮЛ (наличие в ЕГРЮЛ сведений о юридическом лице, в отношении которых внесена запись о недостоверности)</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2018-10-08</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172536499892</grn>
+          <date>2017-06-20</date>
+          <name>Запись о недостоверности сведений, включенных в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172536175601</grn>
+          <date>2017-02-16</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2017-02-09</date>
+            </document>
+            <document>
+              <name>Решение участника общества</name>
+              <date>2017-02-09</date>
+            </document>
+            <document>
+              <name>Заявление о выходе</name>
+              <date>2017-02-07</date>
+            </document>
+            <document>
+              <name>Заявление</name>
+              <date>2017-02-07</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172536132008</grn>
+          <date>2017-02-02</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2017-01-26</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2017-01-26</date>
+            </document>
+            <document>
+              <name>Квитанция у приходному кассовому органу</name>
+              <date>2017-01-26</date>
+            </document>
+            <document>
+              <name>Свидетельство об удостоверении факта принятия решения</name>
+              <date>2017-01-26</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2017-01-26</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2017-01-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172536131986</grn>
+          <date>2017-02-02</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2017-01-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6162536046139</grn>
+          <date>2016-12-29</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2016-12-22</date>
+            </document>
+            <document>
+              <name>Договор аренды</name>
+              <date>2016-12-07</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142508039562</grn>
+          <date>2014-09-10</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2014-09-03</date>
+            </document>
+            <document>
+              <name>Квитанция об уплате государственной пошлины</name>
+              <date>2014-09-01</date>
+            </document>
+            <document>
+              <name>Квитанция, подтверждающий оплату капитала ООО</name>
+              <date>2014-07-08</date>
+            </document>
+            <document>
+              <name>Устав ООО</name>
+              <date>2014-08-04</date>
+            </document>
+            <document>
+              <name>Решение единственного участника ООО</name>
+              <date>2014-07-04</date>
+            </document>
+            <document>
+              <name>Решение единственного участника ООО</name>
+              <date>2014-08-04</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132508006640</grn>
+          <date>2013-02-07</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132508003153</grn>
+          <date>2013-01-31</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132508002449</grn>
+          <date>2013-01-23</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1132508000195</grn>
+          <date>2013-01-23</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2013-01-16</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2013-01-16</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2013-01-15</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2013-01-15</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003830402</serialNumber>
+              <date>2013-01-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>310000</sum>
+            <date>2014-09-10</date>
+          </statedCapital>
+          <statedCapital>
+            <sum>10000</sum>
+            <date>2013-01-23</date>
+          </statedCapital>
+        </statedCapitals>
+        <foundersFL>
+          <founderFL>
+            <fio>Лехкун Сергей Вячеславович</fio>
+            <innfl>343908096401</innfl>
+            <share>
+              <sum>310000</sum>
+              <percentageNominator>62</percentageNominator>
+              <percentageDenominator>63</percentageDenominator>
+            </share>
+            <date>2014-09-10</date>
+            <firstDate>2013-01-23</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2508117965</inn>
+    <ogrn>1142508000403</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1142508000403</focusHref>
+    <UL>
+      <okpo>31149339</okpo>
+      <pfrRegNumber>035013057806</pfrRegNumber>
+      <fssRegNumber>250507089425051</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.66</code>
+          <text>Торговля оптовая прочей офисной техникой и оборудованием</text>
+          <date>2014-02-11</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>46.43</code>
+            <text>Торговля оптовая бытовыми электротоварами</text>
+            <date>2014-02-11</date>
+          </activity>
+          <activity>
+            <code>46.49</code>
+            <text>Торговля оптовая прочими бытовыми товарами</text>
+            <date>2014-02-11</date>
+          </activity>
+          <activity>
+            <code>46.61</code>
+            <text>Торговля оптовая машинами, оборудованием и инструментами для сельского хозяйства</text>
+            <date>2014-02-11</date>
+          </activity>
+          <activity>
+            <code>46.62</code>
+            <text>Торговля оптовая станками</text>
+            <date>2014-02-11</date>
+          </activity>
+          <activity>
+            <code>46.63</code>
+            <text>Торговля оптовая машинами и оборудованием для добычи полезных ископаемых и строительства</text>
+            <date>2014-02-11</date>
+          </activity>
+          <activity>
+            <code>46.69</code>
+            <text>Торговля оптовая прочими машинами и оборудованием</text>
+            <date>2014-02-11</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2014-02-11</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2014-02-11</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2508</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г.Находке Приморского края</nalogName>
+        <nalogRegDate>2014-02-11</nalogRegDate>
+        <kpp>250801001</kpp>
+        <date>2018-08-13</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-04-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>20000</sum>
+        <date>2014-04-03</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Озеров Алексей Петрович</fio>
+          <innfl>250815872346</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>50</percentagePlain>
+          </share>
+          <date>2014-04-03</date>
+          <firstDate>2014-04-03</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1142508000403</ogrn>
+          <inn>2508117965</inn>
+          <fullName>ООО "Уссури"</fullName>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>50</percentagePlain>
+          </share>
+          <date>2014-04-21</date>
+          <firstDate>2014-04-21</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2182536618669</grn>
+          <date>2018-08-13</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182536618262</grn>
+          <date>2018-08-13</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2018-04-16</date>
+            </document>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2018-04-11</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2018-04-11</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182536362721</grn>
+          <date>2018-04-18</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2018-04-16</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172536751165</grn>
+          <date>2017-10-16</date>
+          <name>Запись о недостоверности сведений, включенных в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172536430889</grn>
+          <date>2017-05-18</date>
+          <name>Признание записи в ЕГРЮЛ недействительной</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Иной докум. в соотв.с законодательством РФ</name>
+              <date>2017-05-18</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172536274524</grn>
+          <date>2017-03-25</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <isInvalid>true</isInvalid>
+          <invalidSince>2017-05-18</invalidSince>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162536934943</grn>
+          <date>2016-11-12</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162536722104</grn>
+          <date>2016-08-04</date>
+          <name>Признание внесенной в ЕГРЮЛ в отношении ЮЛ записи недействительной на основании решения вышестоящего налогового органа</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Решение вышестоящего но о признании внесения записи в ЕГРЮЛ недействительной (ГРН)</name>
+              <date>2016-07-13</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162536722093</grn>
+          <date>2016-08-04</date>
+          <name>Признание внесенной в ЕГРЮЛ в отношении ЮЛ записи недействительной на основании решения вышестоящего налогового органа</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Решение вышестоящего но о признании внесения записи в ЕГРЮЛ недействительной (ГРН)</name>
+              <date>2016-07-13</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162543052274</grn>
+          <date>2016-01-12</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Приморскому Краю</regName>
+          <regCode>2543</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162543052021</grn>
+          <date>2016-01-12</date>
+          <name>Прекращение ЮЛ путем реорганизации в форме присоединения</name>
+          <isInvalid>true</isInvalid>
+          <invalidSince>2016-08-04</invalidSince>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Приморскому Краю</regName>
+          <regCode>2543</regCode>
+          <documents>
+            <document>
+              <name>Р16003 заявление о прекращении деятельности при присоединении</name>
+              <date>2015-12-28</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2015-05-26</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2015-05-26</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2015-06-09</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152543185782</grn>
+          <date>2015-06-15</date>
+          <name>Начало процедуры реорганизации ЮЛ в форме присоединения</name>
+          <isInvalid>true</isInvalid>
+          <invalidSince>2016-08-04</invalidSince>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Приморскому Краю</regName>
+          <regCode>2543</regCode>
+          <documents>
+            <document>
+              <name>Р12003 уведомление о начале процедуры реорганизации</name>
+              <date>2015-06-09</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации ЮЛ</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142508035228</grn>
+          <date>2014-07-29</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142508024272</grn>
+          <date>2014-04-21</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2014-04-14</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников ООО</name>
+              <date>2014-04-10</date>
+            </document>
+            <document>
+              <name>Заявление участника ООО</name>
+              <date>2014-04-10</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142508015461</grn>
+          <date>2014-04-03</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2014-03-27</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142508015450</grn>
+          <date>2014-04-03</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2014-03-27</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2014-03-27</date>
+            </document>
+            <document>
+              <name>Решение единственного учредителя</name>
+              <date>2014-03-25</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2014-03-25</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи имущества</name>
+              <date>2014-03-25</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142508005891</grn>
+          <date>2014-02-13</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142508005550</grn>
+          <date>2014-02-11</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1142508000403</grn>
+          <date>2014-02-11</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Находке Приморского Края</regName>
+          <regCode>2508</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2014-02-04</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2014-02-04</date>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+              <date>2014-02-03</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2014-02-03</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003831549</serialNumber>
+              <date>2014-02-11</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>10000</sum>
+            <date>2014-02-11</date>
+          </statedCapital>
+        </statedCapitals>
+        <foundersFL>
+          <founderFL>
+            <fio>Синельников Денис Николаевич</fio>
+            <innfl>251203325469</innfl>
+            <share>
+              <sum>10000</sum>
+            </share>
+            <date>2014-02-11</date>
+            <firstDate>2014-02-11</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2537082509</inn>
+    <ogrn>1102537002622</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1102537002622</focusHref>
+    <UL>
+      <okpo>65472069</okpo>
+      <pfrRegNumber>035007052164</pfrRegNumber>
+      <fssRegNumber>250037699625031</fssRegNumber>
+      <fomsRegNumber>054011000104353</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>74.84</code>
+          <text>Предоставление прочих услуг</text>
+          <date>2010-06-02</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>74.11</code>
+            <text>Деятельность в области права</text>
+            <date>2010-06-02</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2010-06-02</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2539</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Советскому району г. Владивостока</nalogName>
+        <nalogRegDate>2010-07-16</nalogRegDate>
+        <kpp>253901001</kpp>
+        <date>2011-08-26</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-02-08</date>
+      </regBody>
+      <statedCapital>
+        <sum>36000</sum>
+        <date>2011-03-14</date>
+      </statedCapital>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1102537002622</ogrn>
+          <inn>2537082509</inn>
+          <fullName>ООО "Вист"</fullName>
+          <share>
+            <sum>18000</sum>
+            <percentagePlain>50</percentagePlain>
+          </share>
+          <date>2011-06-02</date>
+          <firstDate>2011-06-02</firstDate>
+        </founderUL>
+        <founderUL>
+          <ogrn>1102536001644</ogrn>
+          <inn>2536225225</inn>
+          <fullName>Общество с ограниченной ответственностью "Галком"</fullName>
+          <share>
+            <sum>18000</sum>
+            <percentagePlain>50</percentagePlain>
+          </share>
+          <date>2011-03-14</date>
+          <firstDate>2011-03-14</firstDate>
+        </founderUL>
+      </foundersUL>
+      <predecessors>
+        <predecessor>
+          <name>Общество с ограниченной ответственностью "ПКФ Ависта"</name>
+          <inn>2539087823</inn>
+          <ogrn>1072539008629</ogrn>
+        </predecessor>
+      </predecessors>
+      <successors>
+        <successor>
+          <name>Общество с ограниченной ответственностью "Интеральянс"</name>
+          <inn>7727743354</inn>
+          <ogrn>1117746164920</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2112539125785</grn>
+          <date>2011-10-20</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539095502</grn>
+          <date>2011-09-28</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539088275</grn>
+          <date>2011-09-02</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539085921</grn>
+          <date>2011-08-26</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6117747036467</grn>
+          <date>2011-08-23</date>
+          <name>Прекращение ЮЛ путем реорганизации в форме присоединения</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+            </document>
+            <document>
+              <name>Решение о реорганизации ЮЛ</name>
+              <date>2011-06-07</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2011-06-07</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2011-06-07</date>
+            </document>
+            <document>
+              <name>Конверт</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>77 011777419</serialNumber>
+              <date>2011-08-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539054692</grn>
+          <date>2011-06-10</date>
+          <name>Начало процедуры реорганизации ЮЛ в форме присоединения</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>P12003 заявление - уведомление о начале процедуры реорганизации в форме присоединения</name>
+              <date>2011-06-07</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2011-06-07</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003530865</serialNumber>
+              <date>2011-06-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539051546</grn>
+          <date>2011-06-02</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-05-26</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2011-03-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003530675</serialNumber>
+              <date>2011-06-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539013497</grn>
+          <date>2011-03-14</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2011-03-04</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2011-01-12</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2011-01-12</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2011-03-03</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003527951</serialNumber>
+              <date>2011-03-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539013486</grn>
+          <date>2011-03-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-03-04</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003527950</serialNumber>
+              <date>2011-03-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539084382</grn>
+          <date>2010-10-26</date>
+          <name>Реорганизация ЮЛ в форме присоединения к нему другого ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2010-10-19</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2010-06-08</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2010-06-08</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2010-06-08</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2010-06-08</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003459933</serialNumber>
+              <date>2010-10-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539071501</grn>
+          <date>2010-09-13</date>
+          <name>Реорганизация ЮЛ в форме присоединения к нему другого ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003459274</serialNumber>
+              <date>2010-09-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539071480</grn>
+          <date>2010-09-13</date>
+          <name>Реорганизация ЮЛ в форме присоединения к нему другого ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2010-09-06</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003459272</serialNumber>
+              <date>2010-09-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539061953</grn>
+          <date>2010-07-29</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539060875</grn>
+          <date>2010-07-23</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539060831</grn>
+          <date>2010-07-23</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539060237</grn>
+          <date>2010-07-20</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102537069600</grn>
+          <date>2010-07-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первомайскому Району г. Владивостока</regName>
+          <regCode>2537</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102537069226</grn>
+          <date>2010-07-16</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первомайскому Району г. Владивостока</regName>
+          <regCode>2537</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2010-07-09</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2010-07-08</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2010-07-08</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2010-07-08</date>
+            </document>
+            <document>
+              <name>Гарантийное письмо</name>
+              <date>2010-06-19</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003324630</serialNumber>
+              <date>2010-07-16</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102537069215</grn>
+          <date>2010-07-16</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первомайскому Району г. Владивостока</regName>
+          <regCode>2537</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-07-09</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003324629</serialNumber>
+              <date>2010-07-16</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102537068490</grn>
+          <date>2010-07-14</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первомайскому Району г. Владивостока</regName>
+          <regCode>2537</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102537062329</grn>
+          <date>2010-06-15</date>
+          <name>Начало процедуры реорганизации ЮЛ в форме присоединения</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первомайскому Району г. Владивостока</regName>
+          <regCode>2537</regCode>
+          <documents>
+            <document>
+              <name>P12003 заявление - уведомление о начале процедуры реорганизации в форме присоединения</name>
+              <date>2010-06-09</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица ООО "ПКФ Ависта"</name>
+              <date>2010-06-08</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания</name>
+              <date>2010-06-08</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003324390</serialNumber>
+              <date>2010-06-15</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102537061801</grn>
+          <date>2010-06-11</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первомайскому Району г. Владивостока</regName>
+          <regCode>2537</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102537059910</grn>
+          <date>2010-06-02</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первомайскому Району г. Владивостока</regName>
+          <regCode>2537</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1102537002622</grn>
+          <date>2010-06-02</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первомайскому Району г. Владивостока</regName>
+          <regCode>2537</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2010-05-26</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2010-05-21</date>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+              <date>2010-04-07</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2010-04-07</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи</name>
+              <date>2010-04-07</date>
+            </document>
+            <document>
+              <name>Гарантийное письмо с приложением</name>
+              <date>2010-05-24</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003324305</serialNumber>
+              <date>2010-06-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <foundersUL>
+          <founderUL>
+            <fullName>Общество с ограниченной ответственностью Нотил</fullName>
+            <share>
+              <sum>18000</sum>
+            </share>
+          </founderUL>
+        </foundersUL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2538114224</inn>
+    <ogrn>1072538008905</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072538008905</focusHref>
+    <UL>
+      <okpo>80942970</okpo>
+      <pfrRegNumber>035004086828</pfrRegNumber>
+      <fssRegNumber>250038834225031</fssRegNumber>
+      <fomsRegNumber>054010700241475</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.19</code>
+          <text>Деятельность агентов по оптовой торговле универсальным ассортиментом товаров</text>
+          <date>2007-10-16</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>45.11.1</code>
+            <text>Торговля оптовая легковыми автомобилями и легкими автотранспортными средствами</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>45.11.4</code>
+            <text>Торговля оптовая легковыми автомобилями и легкими автотранспортными средствами за вознаграждение или на договорной основе</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>45.19.1</code>
+            <text>Торговля оптовая прочими автотранспортными средствами, кроме пассажирских</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>45.19.4</code>
+            <text>Торговля оптовая прочими автотранспортными средствами, кроме пассажирских, за вознаграждение или на договорной основе</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>46.14.1</code>
+            <text>Деятельность агентов по оптовой торговле вычислительной техникой, телекоммуникационным оборудованием и прочим офисным оборудованием</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>46.17</code>
+            <text>Деятельность агентов по оптовой торговле пищевыми продуктами, напитками и табачными изделиями</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>46.3</code>
+            <text>Торговля оптовая пищевыми продуктами, напитками и табачными изделиями</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>46.51</code>
+            <text>Торговля оптовая компьютерами, периферийными устройствами к компьютерам и программным обеспечением</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>46.71</code>
+            <text>Торговля оптовая твердым, жидким и газообразным топливом и подобными продуктами</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>46.71.2</code>
+            <text>Торговля оптовая моторным топливом, включая авиационный бензин</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2007-10-16</date>
+          </activity>
+          <activity>
+            <code>73.11</code>
+            <text>Деятельность рекламных агентств</text>
+            <date>2007-10-16</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2007-10-16</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г.Владивостока</nalogName>
+        <nalogRegDate>2008-11-27</nalogRegDate>
+        <kpp>253601001</kpp>
+        <date>2018-03-06</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2008-11-27</date>
+      </regBody>
+      <statedCapital>
+        <sum>18000</sum>
+        <date>2007-10-16</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Мирянин Кирилл Витальевич</fio>
+          <innfl>253812690311</innfl>
+          <share>
+            <sum>16200</sum>
+          </share>
+          <date>2007-10-16</date>
+          <firstDate>2007-10-16</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1072539004328</ogrn>
+          <inn>2539083265</inn>
+          <fullName>Общество с ограниченной ответственностью "Миллениумс"</fullName>
+          <share>
+            <sum>1800</sum>
+          </share>
+          <date>2008-11-27</date>
+          <firstDate>2008-11-27</firstDate>
+        </founderUL>
+      </foundersUL>
+      <predecessors>
+        <predecessor>
+          <name>Общество с ограниченной ответственностью "Корона"</name>
+          <inn>7728559781</inn>
+          <ogrn>1057748341397</ogrn>
+        </predecessor>
+        <predecessor>
+          <name>Общество с ограниченной ответственностью "Универсал"</name>
+          <inn>7743644657</inn>
+          <ogrn>5077746805186</ogrn>
+        </predecessor>
+        <predecessor>
+          <name>Общество с ограниченной ответственностью "Фасадстрой"</name>
+          <inn>7716533468</inn>
+          <ogrn>1057748348976</ogrn>
+        </predecessor>
+      </predecessors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2182536149167</grn>
+          <date>2018-03-06</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182536148375</grn>
+          <date>2018-03-06</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2017-11-01</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2017-11-01</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2017-11-03</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172536811082</grn>
+          <date>2017-11-10</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2017-11-03</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6162536186180</grn>
+          <date>2016-12-30</date>
+          <name>Запись о недостоверности сведений, включенных в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162536939970</grn>
+          <date>2016-11-14</date>
+          <name>Запись о недостоверности сведений, включенных в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2122536210399</grn>
+          <date>2012-08-21</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2012-08-14</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003609911</serialNumber>
+              <date>2012-08-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2122536169941</grn>
+          <date>2012-06-13</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2012-06-05</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003611785</serialNumber>
+              <date>2012-06-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112536256094</grn>
+          <date>2011-12-01</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112536131035</grn>
+          <date>2011-07-06</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003536326</serialNumber>
+              <date>2011-07-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092536016351</grn>
+          <date>2009-01-12</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082536162905</grn>
+          <date>2008-12-12</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082536162608</grn>
+          <date>2008-12-12</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082536160287</grn>
+          <date>2008-12-09</date>
+          <name>Реорганизация ЮЛ в форме присоединения к нему другого ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2008-12-02</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2008-10-20</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2008-10-20</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2008-12-01</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений</name>
+              <date>2008-10-20</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2008-10-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003199921</serialNumber>
+              <date>2008-12-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082536159935</grn>
+          <date>2008-12-09</date>
+          <name>Реорганизация ЮЛ в форме присоединения к нему другого ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2008-12-02</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2008-12-01</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2008-10-20</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2008-10-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003199919</serialNumber>
+              <date>2008-12-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082536159913</grn>
+          <date>2008-12-09</date>
+          <name>Реорганизация ЮЛ в форме присоединения к нему другого ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2008-12-02</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2008-10-20</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2008-10-20</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2008-10-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003199918</serialNumber>
+              <date>2008-12-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082538114283</grn>
+          <date>2008-11-27</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первореченскому г. Владивостока</regName>
+          <regCode>2538</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082538114272</grn>
+          <date>2008-11-27</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первореченскому г. Владивостока</regName>
+          <regCode>2538</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082538114261</grn>
+          <date>2008-11-27</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первореченскому г. Владивостока</regName>
+          <regCode>2538</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082538114240</grn>
+          <date>2008-11-27</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первореченскому г. Владивостока</regName>
+          <regCode>2538</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003225383</serialNumber>
+              <date>2008-11-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082538114239</grn>
+          <date>2008-11-27</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первореченскому г. Владивостока</regName>
+          <regCode>2538</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-11-18</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2008-11-18</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2008-11-18</date>
+            </document>
+            <document>
+              <name>Иной документ в соответствии с законодательством РФ</name>
+              <date>2008-11-19</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003225382</serialNumber>
+              <date>2008-11-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082538110356</grn>
+          <date>2008-11-12</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первореченскому г. Владивостока</regName>
+          <regCode>2538</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003225212</serialNumber>
+              <date>2008-11-12</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082538018737</grn>
+          <date>2008-03-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первореченскому г. Владивостока</regName>
+          <regCode>2538</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072538021092</grn>
+          <date>2007-10-18</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первореченскому г. Владивостока</regName>
+          <regCode>2538</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1072538008905</grn>
+          <date>2007-10-16</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первореченскому г. Владивостока</regName>
+          <regCode>2538</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-10-05</date>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2539087823</inn>
+    <ogrn>1072539008629</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072539008629</focusHref>
+    <UL>
+      <okpo>84615043</okpo>
+      <pfrRegNumber>035007047251</pfrRegNumber>
+      <fssRegNumber>250039648525001</fssRegNumber>
+      <fomsRegNumber>054010700273216</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>51.70</code>
+          <text>Прочая оптовая торговля</text>
+          <date>2007-12-19</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>51.1</code>
+            <text>Оптовая торговля через агентов (за вознаграждение или на договорной основе)</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.13.2</code>
+            <text>Деятельность агентов по оптовой торговле строительными материалами</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.15.5</code>
+            <text>Деятельность агентов по оптовой торговле прочими бытовыми товарами хозяйственного назначения</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.43</code>
+            <text>Оптовая торговля бытовыми электротоварами, радио- и телеаппаратурой</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.44</code>
+            <text>Оптовая торговля изделиями из керамики и стекла, обоями, чистящими средствами</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.47</code>
+            <text>Оптовая торговля прочими непродовольственными потребительскими товарами</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.52</code>
+            <text>Оптовая торговля металлами и металлическими рудами</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.54</code>
+            <text>Оптовая торговля скобяными изделиями, ручными инструментами, водопроводным и отопительным оборудованием</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.57</code>
+            <text>Оптовая торговля отходами и ломом</text>
+            <date>2007-12-19</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2007-12-19</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2539</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Советскому району г. Владивостока</nalogName>
+        <nalogRegDate>2007-12-19</nalogRegDate>
+        <kpp>253901001</kpp>
+        <date>2007-12-19</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-02-08</date>
+      </regBody>
+      <statedCapital>
+        <sum>17000</sum>
+        <date>2007-12-19</date>
+      </statedCapital>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1072538008905</ogrn>
+          <inn>2538114224</inn>
+          <fullName>Общество с ограниченной ответственностью "Лиана"</fullName>
+          <share>
+            <sum>17000</sum>
+          </share>
+          <date>2007-12-19</date>
+          <firstDate>2007-12-19</firstDate>
+        </founderUL>
+      </foundersUL>
+      <successors>
+        <successor>
+          <name>Общество с ограниченной ответственностью "Вист"</name>
+          <inn>2537082509</inn>
+          <ogrn>1102537002622</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2102539097769</grn>
+          <date>2010-11-22</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539086230</grn>
+          <date>2010-11-03</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539084371</grn>
+          <date>2010-10-26</date>
+          <name>Прекращение деятельности чужого ЮЛ при присоединении</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2010-10-19</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2010-06-08</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2010-06-08</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2010-06-08</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2010-06-08</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003459932</serialNumber>
+              <date>2010-10-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102537062330</grn>
+          <date>2010-06-15</date>
+          <name>Внесение сведений о начале реорганизации своего ЮЛ в форме присоединения к другому ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Первомайскому Району г. Владивостока</regName>
+          <regCode>2537</regCode>
+          <documents>
+            <document>
+              <name>P12003 заявление - уведомление о начале процедуры реорганизации в форме присоединения</name>
+              <date>2010-06-09</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица ООО "ПКФ Ависта"</name>
+              <date>2010-06-08</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания</name>
+              <date>2010-06-08</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003324391</serialNumber>
+              <date>2010-06-15</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092539091962</grn>
+          <date>2009-08-31</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003194110</serialNumber>
+              <date>2009-08-31</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092539082931</grn>
+          <date>2009-08-17</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082539081843</grn>
+          <date>2008-10-17</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072539086123</grn>
+          <date>2007-12-27</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-12-25</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003031255</serialNumber>
+              <date>2007-12-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072539084154</grn>
+          <date>2007-12-19</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1072539008629</grn>
+          <date>2007-12-19</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2007-12-13</date>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003031153</serialNumber>
+              <date>2007-12-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2539087830</inn>
+    <ogrn>1072539008630</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072539008630</focusHref>
+    <UL>
+      <okpo>84615014</okpo>
+      <pfrRegNumber>035007047254</pfrRegNumber>
+      <fssRegNumber>250039648625001</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>51.70</code>
+          <text>Прочая оптовая торговля</text>
+          <date>2007-12-19</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>51.6</code>
+            <text>Оптовая торговля машинами и оборудованием</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>52.44</code>
+            <text>Розничная торговля мебелью и товарами для дома</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>52.45</code>
+            <text>Розничная торговля бытовыми электротоварами, радио- и телеаппаратурой</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>52.46</code>
+            <text>Розничная торговля скобяными изделиями, лакокрасочными материалами и материалами для остекления</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>52.48</code>
+            <text>Прочая розничная торговля в специализированных магазинах</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>60.24</code>
+            <text>Деятельность автомобильного грузового транспорта</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>63.40</code>
+            <text>Организация перевозок грузов</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>70.20.2</code>
+            <text>Сдача внаем собственного нежилого недвижимого имущества</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>70.3</code>
+            <text>Предоставление посреднических услуг, связанных с недвижимым имуществом</text>
+            <date>2007-12-19</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2007-12-19</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2539</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Советскому району г. Владивостока</nalogName>
+        <nalogRegDate>2007-12-19</nalogRegDate>
+        <kpp>253901001</kpp>
+        <date>2011-03-03</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-02-07</date>
+      </regBody>
+      <statedCapital>
+        <sum>17000</sum>
+        <date>2007-12-19</date>
+      </statedCapital>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1072538008905</ogrn>
+          <inn>2538114224</inn>
+          <fullName>Общество с ограниченной ответственностью "Лиана"</fullName>
+          <share>
+            <sum>17000</sum>
+          </share>
+          <date>2007-12-19</date>
+          <firstDate>2007-12-19</firstDate>
+        </founderUL>
+      </foundersUL>
+      <successors>
+        <successor>
+          <name>Общество с ограниченной ответственностью "Бутон"</name>
+          <inn>2536236876</inn>
+          <ogrn>1102536012952</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2112539021990</grn>
+          <date>2011-03-31</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539016720</grn>
+          <date>2011-03-21</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539011176</grn>
+          <date>2011-03-03</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112536026194</grn>
+          <date>2011-03-01</date>
+          <name>Прекращение деятельности своего ЮЛ при присоединении</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2011-02-21</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2010-12-14</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2010-12-14</date>
+            </document>
+            <document>
+              <name>Вестник</name>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2010-12-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003510763</serialNumber>
+              <date>2011-03-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102539112400</grn>
+          <date>2010-12-23</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-12-16</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений</name>
+              <date>2010-12-16</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003455805</serialNumber>
+              <date>2010-12-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102536368218</grn>
+          <date>2010-12-20</date>
+          <name>Внесение сведений о начале реорганизации своего ЮЛ в форме присоединения к другому ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>P12003 заявление - уведомление о начале процедуры реорганизации в форме присоединения</name>
+              <date>2010-12-15</date>
+            </document>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2010-12-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003366717</serialNumber>
+              <date>2010-12-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092539082403</grn>
+          <date>2009-08-17</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082539081865</grn>
+          <date>2008-10-17</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072539086101</grn>
+          <date>2007-12-27</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-12-25</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003031257</serialNumber>
+              <date>2007-12-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072539084143</grn>
+          <date>2007-12-19</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1072539008630</grn>
+          <date>2007-12-19</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2007-12-13</date>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003031154</serialNumber>
+              <date>2007-12-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2539087848</inn>
+    <ogrn>1072539008640</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072539008640</focusHref>
+    <UL>
+      <okpo>84615037</okpo>
+      <pfrRegNumber>035007047255</pfrRegNumber>
+      <fssRegNumber>250039648725031</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>51.70</code>
+          <text>Прочая оптовая торговля</text>
+          <date>2007-12-19</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>51.19</code>
+            <text>Деятельность агентов по оптовой торговле универсальным ассортиментом товаров</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.65.5</code>
+            <text>Оптовая торговля производственным электрическим и электронным оборудованием, включая оборудование электросвязи</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>51.7</code>
+            <text>Прочая оптовая торговля</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>63.12</code>
+            <text>Хранение и складирование</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>63.40</code>
+            <text>Организация перевозок грузов</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>74.13</code>
+            <text>Исследование конъюнктуры рынка и выявление общественного мнения</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>74.15</code>
+            <text>Деятельность по управлению финансово-промышленными группами и холдинг-компаниями</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>74.40</code>
+            <text>Рекламная деятельность</text>
+            <date>2007-12-19</date>
+          </activity>
+          <activity>
+            <code>74.84</code>
+            <text>Предоставление прочих услуг</text>
+            <date>2007-12-19</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2007-12-19</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2543</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 12 по Приморскому краю</nalogName>
+        <nalogRegDate>2007-12-19</nalogRegDate>
+        <kpp>253901001</kpp>
+        <date>2016-02-26</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2536</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Владивостока</nalogName>
+        <date>2016-02-05</date>
+      </regBody>
+      <statedCapital>
+        <sum>17000</sum>
+        <date>2007-12-19</date>
+      </statedCapital>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1072538008905</ogrn>
+          <inn>2538114224</inn>
+          <fullName>Общество с ограниченной ответственностью "Лиана"</fullName>
+          <share>
+            <sum>17000</sum>
+          </share>
+          <date>2007-12-19</date>
+          <firstDate>2007-12-19</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2162536139643</grn>
+          <date>2016-02-26</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162536139368</grn>
+          <date>2016-02-26</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Владивостока</regName>
+          <regCode>2536</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2015-10-19</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2015-10-19</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2015-10-23</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152543315890</grn>
+          <date>2015-10-23</date>
+          <name>Внесение сведений о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Приморскому Краю</regName>
+          <regCode>2543</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2015-10-23</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142543103569</grn>
+          <date>2014-04-16</date>
+          <name>Внесение сведений об изменении паспортных данных ФЛ (по данным ФМС)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 12 по Приморскому Краю</regName>
+          <regCode>2543</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+              <date>2014-04-16</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112539130130</grn>
+          <date>2011-10-20</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092539082920</grn>
+          <date>2009-08-17</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082539081876</grn>
+          <date>2008-10-17</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072539084132</grn>
+          <date>2007-12-19</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1072539008640</grn>
+          <date>2007-12-19</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Советскому Району г. Владивостока</regName>
+          <regCode>2539</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2007-12-13</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>25 003031155</serialNumber>
+              <date>2007-12-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5218001185</inn>
+    <ogrn>1025201679436</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025201679436</focusHref>
+    <UL>
+      <kpp>521801001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ФГУП "Агроплемкомбинат Мир"</short>
+        <full>Федеральное государственное унитарное предприятие "Агроплемкомбинат Мир"</full>
+        <date>2002-11-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>606587</zipCode>
+          <kladrCode>52024000032</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Ковернинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>д</topoShortName>
+            <topoFullName>деревня</topoFullName>
+            <topoValue>Гавриловка</topoValue>
+          </settlement>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <houseRaw>4</houseRaw>
+          <bulkRaw>НЕТ</bulkRaw>
+          <flatRaw>НЕТ</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-03</date>
+        <firstDate>2002-11-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-02-13</date>
+      </status>
+      <registrationDate>2001-10-02</registrationDate>
+      <dissolutionDate>2006-02-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Семенов Александр Анатольевичй</fio>
+          <innfl>521800555480</innfl>
+          <position>Директор</position>
+          <date>2004-05-11</date>
+          <firstDate>2004-05-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

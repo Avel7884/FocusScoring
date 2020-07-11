@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623041380</inn>
+    <ogrn>1076600008638</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076600008638</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>82103304</okpo>
+      <okato>65476374000</okato>
+      <okfs>50</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4220003</okogu>
+      <okopf>70401</okopf>
+      <opf>Благотворительные фонды</opf>
+      <legalName>
+        <short>"Благотворительный фонд "Евраза" - Урал"</short>
+        <full>Некоммерческая организация "Благотворительный фонд "Евраза" - Урал"</full>
+        <date>2007-07-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622001</zipCode>
+          <kladrCode>660000230000311</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Карла Маркса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>39</topoValue>
+          </house>
+          <flat>
+            <topoValue>4</topoValue>
+          </flat>
+          <houseRaw>39</houseRaw>
+          <flatRaw>4</flatRaw>
+        </parsedAddressRF>
+        <date>2007-07-27</date>
+        <firstDate>2007-07-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-07-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Раудштейн Елена Анатольевна</fio>
+          <position>Директор Благотворительного Фонда</position>
+          <date>2009-06-01</date>
+          <firstDate>2009-06-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5259030675</inn>
+    <ogrn>1095259003850</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1095259003850</focusHref>
+    <UL>
+      <kpp>525901001</kpp>
+      <okopf>82</okopf>
+      <opf>Государственные корпорации</opf>
+      <legalName>
+        <short>ООО "НП"АЛЛЕГРИ"</short>
+        <full>Общество с ограниченной ответственностью "НИЖЕГОРОДСКОЕ ПРЕДПРИЯТИЕ"АЛЛЕГРИ"</full>
+        <date>2009-09-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603047</zipCode>
+          <kladrCode>520000010000273</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Им Героя Давыдова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <flat>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>9</houseRaw>
+          <flatRaw>5</flatRaw>
+        </parsedAddressRF>
+        <date>2009-09-01</date>
+        <firstDate>2009-09-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-09-01</date>
+      </status>
+      <registrationDate>2001-12-14</registrationDate>
+      <dissolutionDate>2009-09-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Нестеров Владимир Владимирович</fio>
+          <innfl>525912770965</innfl>
+          <position>Руководитель Юридического Лица</position>
+          <date>2009-09-01</date>
+          <firstDate>2009-09-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603047</zipCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Героя Давыдова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9</topoValue>
+              </house>
+              <flat>
+                <topoValue>5</topoValue>
+              </flat>
+              <houseRaw>9</houseRaw>
+              <flatRaw>5</flatRaw>
+            </parsedAddressRF>
+            <date>2009-09-01</date>
+            <firstDate>2009-09-01</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

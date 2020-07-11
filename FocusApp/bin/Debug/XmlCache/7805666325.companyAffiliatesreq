@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>780154653433</inn>
+    <ogrn>316784700073660</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=316784700073660</focusHref>
+    <IP>
+      <fio>Захарченко Алексей Валерьевич</fio>
+      <okpo>0203008189</okpo>
+      <okato>40263565000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2016-02-04</registrationDate>
+      <dissolutionDate>2018-04-17</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-04-17</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7805666325</inn>
+    <ogrn>1147847433700</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1147847433700</focusHref>
+    <UL>
+      <kpp>780501001</kpp>
+      <okpo>77792299</okpo>
+      <okato>40276000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40338000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТАЛЛТРАНССТРОЙ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕТАЛЛТРАНССТРОЙ"</full>
+        <date>2014-12-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>198152</zipCode>
+          <kladrCode>780000000000629</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Краснопутиловская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>67</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>248</topoValue>
+          </flat>
+          <houseRaw>ДОМ 67</houseRaw>
+          <flatRaw>ОФИС 248</flatRaw>
+        </parsedAddressRF>
+        <date>2014-12-10</date>
+        <firstDate>2014-12-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-12-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Захарченко Алексей Валерьевич</fio>
+          <innfl>780154653433</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-12-10</date>
+          <firstDate>2014-12-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>7810761888</inn>
+    <ogrn>1137847363851</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1137847363851</focusHref>
+    <UL>
+      <kpp>781001001</kpp>
+      <okpo>58301692</okpo>
+      <okato>40284000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40375000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕТПРОМЗАЩИТА"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕТПРОМЗАЩИТА"</full>
+        <date>2013-09-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>196247</zipCode>
+          <kladrCode>780000000000583</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пл</topoShortName>
+            <topoFullName>площадь</topoFullName>
+            <topoValue>Конституции</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>626</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7</houseRaw>
+          <flatRaw>ОФИС 626</flatRaw>
+        </parsedAddressRF>
+        <date>2013-09-30</date>
+        <firstDate>2013-09-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-09-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Захарченко Алексей Валерьевич</fio>
+          <innfl>780154653433</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-09-30</date>
+          <firstDate>2013-09-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

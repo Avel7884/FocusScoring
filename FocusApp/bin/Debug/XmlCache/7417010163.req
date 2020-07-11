@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7417010163</inn>
+    <ogrn>1027401061379</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027401061379</focusHref>
+    <UL>
+      <kpp>741701001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВЭСПП "Геопроект"</short>
+        <full>Общество с ограниченной ответственностью "Внешнеэкономическое специализированно-промышленное предприятие "Геопроект"</full>
+        <date>2002-09-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>456910</zipCode>
+          <kladrCode>740000260000093</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сатка</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пролетарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>55</topoValue>
+          </house>
+          <flat>
+            <topoValue>13</topoValue>
+          </flat>
+          <houseRaw>55</houseRaw>
+          <flatRaw>13</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-25</date>
+        <firstDate>2002-09-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-10-17</date>
+      </status>
+      <registrationDate>2002-09-25</registrationDate>
+      <dissolutionDate>2007-10-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мельник Сергей Вячеславович</fio>
+          <innfl>741700280374</innfl>
+          <position>Председатель Ликвидационной Комиссии</position>
+          <date>2007-07-11</date>
+          <firstDate>2007-07-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

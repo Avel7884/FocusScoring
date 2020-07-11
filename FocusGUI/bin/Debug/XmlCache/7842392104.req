@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7842392104</inn>
+    <ogrn>1089847319704</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1089847319704</focusHref>
+    <UL>
+      <kpp>784201001</kpp>
+      <okpo>87368450</okpo>
+      <okato>40298000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40911000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП "Современная лаборатория"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческое предприятие "Современная лаборатория"</full>
+        <date>2008-08-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>191014</zipCode>
+          <kladrCode>780000000000710</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Лиговский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3/9</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>1Н</topoValue>
+          </flat>
+          <houseRaw>3/9</houseRaw>
+          <flatRaw>ПОМ.1Н</flatRaw>
+        </parsedAddressRF>
+        <date>2008-08-13</date>
+        <firstDate>2008-08-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-08-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Иванов Иван Сергеевич</fio>
+          <innfl>781713090136</innfl>
+          <position>Директор</position>
+          <date>2017-12-04</date>
+          <firstDate>2008-08-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

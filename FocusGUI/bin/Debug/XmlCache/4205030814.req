@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205030814</inn>
+    <ogrn>1034205002919</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034205002919</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>01379059</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКФ "АЗИЯТОРГ ПЛЮС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "АЗИЯТОРГ ПЛЮС"</full>
+        <date>2002-12-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650010</zipCode>
+          <kladrCode>420000090000365</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Карболитовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1/1</topoValue>
+          </house>
+          <flat>
+            <topoValue>18</topoValue>
+          </flat>
+          <houseRaw>1/1</houseRaw>
+          <flatRaw>18</flatRaw>
+        </parsedAddressRF>
+        <date>2010-09-23</date>
+        <firstDate>2010-09-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-06-27</date>
+      </status>
+      <registrationDate>2002-03-18</registrationDate>
+      <dissolutionDate>2012-06-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мельникова Марина Ивановна</fio>
+          <innfl>422900067703</innfl>
+          <position>Ликвидатор</position>
+          <date>2012-03-15</date>
+          <firstDate>2012-03-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Чертенков Алексей Викторович</fio>
+            <innfl>420520969691</innfl>
+            <position>Директор</position>
+            <date>2002-12-04</date>
+            <firstDate>2002-12-04</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

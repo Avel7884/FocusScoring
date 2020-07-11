@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7713342722</inn>
+    <ogrn>1037713019563</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037713019563</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>14598604</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЛГОРИТМ СБ"</short>
+        <full>Общество с ограниченной ответственностью "АЛГОРИТМ СБ"</full>
+        <date>2003-04-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127473</zipCode>
+          <kladrCode>770000000000597</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Селезневская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>34</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-04-17</date>
+        <firstDate>2013-04-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-08-15</date>
+      </status>
+      <registrationDate>2003-04-17</registrationDate>
+      <dissolutionDate>2016-08-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Новосельцев Петр Петрович</fio>
+          <innfl>771680318315</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-04-08</date>
+          <firstDate>2013-04-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771301001</kpp>
+            <date>2007-03-22</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127422</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Тимирязевская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2/3</topoValue>
+              </house>
+              <houseRaw>2/3</houseRaw>
+            </parsedAddressRF>
+            <date>2007-03-22</date>
+            <firstDate>2007-03-22</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Храмцова Юлия Борисовна</fio>
+            <position>Генеральный директор</position>
+            <date>2006-12-14</date>
+            <firstDate>2006-12-14</firstDate>
+          </head>
+          <head>
+            <fio>Морозов Сергей Федорович</fio>
+            <innfl>770170391482</innfl>
+            <position>Генеральный директор</position>
+            <date>2013-02-11</date>
+            <firstDate>2013-02-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5918011076</inn>
+    <ogrn>1025901928722</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025901928722</focusHref>
+    <UL>
+      <kpp>591801001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АПС"</short>
+        <full>Закрытое акционерное общество "Агропромснаб"</full>
+        <date>2002-12-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>618910</zipCode>
+          <kladrCode>590000100000156</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Лысьва</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Перовской</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>3</houseRaw>
+          <flatRaw>2</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-02</date>
+        <firstDate>2002-12-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-08-03</date>
+      </status>
+      <registrationDate>1998-08-31</registrationDate>
+      <dissolutionDate>2007-08-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шаймухаметов Ринат Султанович</fio>
+          <innfl>027408517834</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2007-03-09</date>
+          <firstDate>2007-03-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

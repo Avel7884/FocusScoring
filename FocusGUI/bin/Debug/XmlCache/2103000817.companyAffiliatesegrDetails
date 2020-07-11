@@ -1,0 +1,4070 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>210300004294</inn>
+    <ogrn>304213235300683</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304213235300683</focusHref>
+    <IP>
+      <okpo>0082371431</okpo>
+      <pfrRegNumber>015093000013</pfrRegNumber>
+      <fssRegNumber>210300601921003</fssRegNumber>
+      <fomsRegNumber>972070400301484</fomsRegNumber>
+      <okato>97207875001</okato>
+      <shortenedAddress>
+        <regionCode>21</regionCode>
+        <regionName>
+          <topoShortName>чувашия</topoShortName>
+          <topoFullName>чувашия</topoFullName>
+          <topoValue>Чувашская Республика</topoValue>
+        </regionName>
+        <district>
+          <topoShortName>р-н</topoShortName>
+          <topoFullName>район</topoFullName>
+          <topoValue>Батыревский</topoValue>
+        </district>
+        <settlement>
+          <topoShortName>с</topoShortName>
+          <topoFullName>село</topoFullName>
+          <topoValue>Шыгырдан</topoValue>
+        </settlement>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>47.30</code>
+          <text>Торговля розничная моторным топливом в специализированных магазинах</text>
+          <date>2013-03-28</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>01.11</code>
+            <text>Выращивание зерновых (кроме риса), зернобобовых культур и семян масличных культур</text>
+            <date>2013-03-28</date>
+          </activity>
+          <activity>
+            <code>01.13</code>
+            <text>Выращивание овощей, бахчевых, корнеплодных и клубнеплодных культур, грибов и трюфелей</text>
+            <date>2006-07-25</date>
+          </activity>
+          <activity>
+            <code>01.25</code>
+            <text>Выращивание прочих плодовых деревьев, кустарников и орехов</text>
+            <date>2006-07-25</date>
+          </activity>
+          <activity>
+            <code>01.30</code>
+            <text>Выращивание рассады</text>
+            <date>2006-07-25</date>
+          </activity>
+          <activity>
+            <code>01.4</code>
+            <text>Животноводство</text>
+            <date>2006-07-25</date>
+          </activity>
+          <activity>
+            <code>01.5</code>
+            <text>Смешанное сельское хозяйство</text>
+            <date>2006-07-25</date>
+          </activity>
+          <activity>
+            <code>46.21.11</code>
+            <text>Торговля оптовая зерном</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>46.3</code>
+            <text>Торговля оптовая пищевыми продуктами, напитками и табачными изделиями</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>46.4</code>
+            <text>Торговля оптовая непродовольственными потребительскими товарами</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>46.6</code>
+            <text>Торговля оптовая прочими машинами, оборудованием и принадлежностями</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>46.71</code>
+            <text>Торговля оптовая твердым, жидким и газообразным топливом и подобными продуктами</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>46.73</code>
+            <text>Торговля оптовая лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>46.9</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>47.2</code>
+            <text>Торговля розничная пищевыми продуктами, напитками и табачными изделиями в специализированных магазинах</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>47.5</code>
+            <text>Торговля розничная прочими бытовыми изделиями в специализированных магазинах</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>47.73</code>
+            <text>Торговля розничная лекарственными средствами в специализированных магазинах (аптеках)</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>47.74</code>
+            <text>Торговля розничная изделиями, применяемыми в медицинских целях, ортопедическими изделиями в специализированных магазинах</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>47.75</code>
+            <text>Торговля розничная косметическими и товарами личной гигиены в специализированных магазинах</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>47.9</code>
+            <text>Торговля розничная вне магазинов, палаток, рынков</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>49.20.1</code>
+            <text>Перевозка опасных грузов</text>
+            <date>2018-11-29</date>
+          </activity>
+          <activity>
+            <code>49.20.9</code>
+            <text>Перевозка прочих грузов</text>
+            <date>2018-11-29</date>
+          </activity>
+          <activity>
+            <code>49.41.1</code>
+            <text>Перевозка грузов специализированными автотранспортными средствами</text>
+            <date>2018-11-29</date>
+          </activity>
+          <activity>
+            <code>49.41.2</code>
+            <text>Перевозка грузов неспециализированными автотранспортными средствами</text>
+            <date>2018-11-29</date>
+          </activity>
+          <activity>
+            <code>49.41.3</code>
+            <text>Аренда грузового автомобильного транспорта с водителем</text>
+            <date>2018-11-29</date>
+          </activity>
+          <activity>
+            <code>55.1</code>
+            <text>Деятельность гостиниц и прочих мест для временного проживания</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>56.1</code>
+            <text>Деятельность ресторанов и услуги по доставке продуктов питания</text>
+            <date>2004-12-18</date>
+          </activity>
+          <activity>
+            <code>68.1</code>
+            <text>Покупка и продажа собственного недвижимого имущества</text>
+            <date>2007-07-18</date>
+          </activity>
+          <activity>
+            <code>68.10.23</code>
+            <text>Покупка и продажа земельных участков</text>
+            <date>2007-07-18</date>
+          </activity>
+          <activity>
+            <code>68.2</code>
+            <text>Аренда и управление собственным или арендованным недвижимым имуществом</text>
+            <date>2012-01-27</date>
+          </activity>
+          <activity>
+            <code>68.20.2</code>
+            <text>Аренда и управление собственным или арендованным нежилым недвижимым имуществом</text>
+            <date>2012-01-27</date>
+          </activity>
+          <activity>
+            <code>68.3</code>
+            <text>Операции с недвижимым имуществом за вознаграждение или на договорной основе</text>
+            <date>2007-07-18</date>
+          </activity>
+          <activity>
+            <code>68.31</code>
+            <text>Деятельность агентств недвижимости за вознаграждение или на договорной основе</text>
+            <date>2007-07-18</date>
+          </activity>
+          <activity>
+            <code>68.32</code>
+            <text>Управление недвижимым имуществом за вознаграждение или на договорной основе</text>
+            <date>2007-07-18</date>
+          </activity>
+          <activity>
+            <code>96.02</code>
+            <text>Предоставление услуг парикмахерскими и салонами красоты</text>
+            <date>2007-12-07</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2004-12-18</ogrnDate>
+        <regName>Администрация Батыревского района Чувашской Республики</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2132</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 2 по Чувашской Республике</nalogName>
+        <nalogRegDate>2004-12-18</nalogRegDate>
+        <date>2008-09-11</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2130</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Чебоксары</nalogName>
+        <date>2016-01-29</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>418213000395018</grn>
+          <date>2018-11-29</date>
+          <name>Изменение сведений об индивидуальном предпринимателе, содержащихся в ЕГРИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+          <documents>
+            <document>
+              <name>Р24001 заявление о внесении изменений в сведения об ИП (п.2.1)</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>416213001785979</grn>
+          <date>2016-07-09</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>416213001104215</grn>
+          <date>2016-03-29</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>416213000990454</grn>
+          <date>2016-03-28</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>416213000187358</grn>
+          <date>2016-02-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>415213200053893</grn>
+          <date>2015-11-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>414213231900011</grn>
+          <date>2014-11-15</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>413213208700068</grn>
+          <date>2013-03-28</date>
+          <name>Внесение изменений в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>413213208700057</grn>
+          <date>2013-03-28</date>
+          <name>Изменение сведений об индивидуальном предпринимателе, содержащихся в ЕГРИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+              <date>2013-03-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002316618</serialNumber>
+              <date>2013-03-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>412213202700033</grn>
+          <date>2012-01-27</date>
+          <name>Изменение сведений об индивидуальном предпринимателе, содержащихся в ЕГРИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+              <date>2012-01-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002276668</serialNumber>
+              <date>2012-01-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>410213234000191</grn>
+          <date>2010-12-06</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>408213225500332</grn>
+          <date>2008-09-11</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>407213234100021</grn>
+          <date>2007-12-07</date>
+          <name>Изменение сведений об индивидуальном предпринимателе, содержащихся в ЕГРИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+              <date>2007-11-30</date>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001961307</serialNumber>
+              <date>2007-12-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>407213219900024</grn>
+          <date>2007-07-18</date>
+          <name>Изменение сведений об индивидуальном предпринимателе, содержащихся в ЕГРИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001792956</serialNumber>
+              <date>2007-07-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>406213220600040</grn>
+          <date>2006-07-25</date>
+          <name>Изменение сведений об индивидуальном предпринимателе, содержащихся в ЕГРИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+            <document>
+              <name>Иной документ</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001793633</serialNumber>
+              <date>2006-07-25</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>304213235300683</grn>
+          <date>2004-12-18</date>
+          <name>Внесение сведений об ИП, зарегистрированном до 01.01.2004</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр индивидуальных предпринимателей записи об индивидуальном предпринимателе, зарегистрированном до 1 января 2004 г.</name>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+            <document>
+              <name>Документ, подтверждающий госрегистрацию в качестве индивидуального предпринимателя</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000535778</serialNumber>
+              <date>2004-12-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>2103000817</inn>
+    <ogrn>1022101829970</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022101829970</focusHref>
+    <UL>
+      <okpo>43224402</okpo>
+      <pfrRegNumber>087202002459</pfrRegNumber>
+      <fssRegNumber>210300601777201</fssRegNumber>
+      <fomsRegNumber>452141001361201</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>33.12</code>
+          <text>Ремонт машин и оборудования</text>
+          <date>2005-03-14</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>45.3</code>
+            <text>Торговля автомобильными деталями, узлами и принадлежностями</text>
+            <date>2005-03-14</date>
+          </activity>
+          <activity>
+            <code>46.21.11</code>
+            <text>Торговля оптовая зерном</text>
+            <date>2005-03-14</date>
+          </activity>
+          <activity>
+            <code>46.4</code>
+            <text>Торговля оптовая непродовольственными потребительскими товарами</text>
+            <date>2005-03-14</date>
+          </activity>
+          <activity>
+            <code>46.71</code>
+            <text>Торговля оптовая твердым, жидким и газообразным топливом и подобными продуктами</text>
+            <date>2005-03-14</date>
+          </activity>
+          <activity>
+            <code>46.73</code>
+            <text>Торговля оптовая лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2005-03-14</date>
+          </activity>
+          <activity>
+            <code>46.9</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2005-03-14</date>
+          </activity>
+          <activity>
+            <code>49.4</code>
+            <text>Деятельность автомобильного грузового транспорта и услуги по перевозкам</text>
+            <date>2005-03-14</date>
+          </activity>
+          <activity>
+            <code>49.41.3</code>
+            <text>Аренда грузового автомобильного транспорта с водителем</text>
+            <date>2005-03-14</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-11-06</ogrnDate>
+        <regName>Администрация Батыревского района Чувашской Республики</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7714</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы № 14 по г.Москве</nalogName>
+        <nalogRegDate>2008-12-02</nalogRegDate>
+        <kpp>771401001</kpp>
+        <date>2016-09-19</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2008-12-03</date>
+      </regBody>
+      <statedCapital />
+      <foundersFL>
+        <founderFL>
+          <fio>Абдулвалеев Ринат Абдулахатович</fio>
+          <innfl>210300004294</innfl>
+          <share>
+            <sum>360000</sum>
+          </share>
+          <date>2002-11-06</date>
+          <firstDate>2002-11-05</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <inn>2105001894</inn>
+          <fullName>Общество с ограниченной ответственностью "Агрокомплект"</fullName>
+          <share>
+            <sum>640000</sum>
+          </share>
+          <date>2002-11-06</date>
+          <firstDate>2002-11-05</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2167749503183</grn>
+          <date>2016-09-19</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167749317921</grn>
+          <date>2016-09-19</date>
+          <name>Исключение из ЕГРЮЛ (п.2 ст.21.1 ФЗ от 08.08.2001 №129-ФЗ)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2016-05-12</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2016-05-12</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2016-05-27</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>9167748718986</grn>
+          <date>2016-09-18</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>9167747672490</grn>
+          <date>2016-07-10</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>7167747056437</grn>
+          <date>2016-05-27</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2016-05-27</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6167747581446</grn>
+          <date>2016-05-25</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167747668196</grn>
+          <date>2016-05-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6117747483892</grn>
+          <date>2011-09-09</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>9107748066978</grn>
+          <date>2010-11-19</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132017306</grn>
+          <date>2008-12-02</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2008-11-25</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-11-25</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2008-11-21</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2008-11-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001969601</serialNumber>
+              <date>2008-12-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132017295</grn>
+          <date>2008-12-02</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2008-11-25</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+              <date>2008-11-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001968500</serialNumber>
+              <date>2008-12-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132014909</grn>
+          <date>2007-05-14</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132004437</grn>
+          <date>2007-02-06</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132004426</grn>
+          <date>2007-02-06</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132004415</grn>
+          <date>2007-02-06</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132007034</grn>
+          <date>2006-02-04</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2052132002360</grn>
+          <date>2005-03-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000498385</serialNumber>
+              <date>2005-03-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2042132001536</grn>
+          <date>2004-03-29</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2004-03-24</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000777696</serialNumber>
+              <date>2004-03-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2032132000327</grn>
+          <date>2003-03-04</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000804635</serialNumber>
+              <date>2003-03-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1022101829970</grn>
+          <date>2002-11-06</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000804206</serialNumber>
+              <date>2002-11-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2103004730</inn>
+    <ogrn>1022101830728</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022101830728</focusHref>
+    <UL>
+      <okpo>03244493</okpo>
+      <pfrRegNumber>015003000397</pfrRegNumber>
+      <fssRegNumber>210301267921001</fssRegNumber>
+      <fomsRegNumber>972070400107640</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>43.12</code>
+          <text>Подготовка строительной площадки</text>
+          <date>2011-05-16</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>41.2</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>41.20</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>42.11</code>
+            <text>Строительство автомобильных дорог и автомагистралей</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>42.12</code>
+            <text>Строительство железных дорог и метро</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>42.13</code>
+            <text>Строительство мостов и тоннелей</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>42.21</code>
+            <text>Строительство инженерных коммуникаций для водоснабжения и водоотведения, газоснабжения</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>42.22.2</code>
+            <text>Строительство местных линий электропередачи и связи</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>42.91.2</code>
+            <text>Строительство гидротехнических сооружений</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>42.99</code>
+            <text>Строительство прочих инженерных сооружений, не включенных в другие группировки</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.11</code>
+            <text>Разборка и снос зданий</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.12.1</code>
+            <text>Расчистка территории строительной площадки</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.12.3</code>
+            <text>Производство земляных работ</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.2</code>
+            <text>Производство электромонтажных, санитарно-технических и прочих строительно-монтажных работ</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.21</code>
+            <text>Производство электромонтажных работ</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.22</code>
+            <text>Производство санитарно-технических работ, монтаж отопительных систем и систем кондиционирования воздуха</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.29</code>
+            <text>Производство прочих строительно-монтажных работ</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.3</code>
+            <text>Работы строительные отделочные</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.31</code>
+            <text>Производство штукатурных работ</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.32</code>
+            <text>Работы столярные и плотничные</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.33</code>
+            <text>Работы по устройству покрытий полов и облицовке стен</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.34</code>
+            <text>Производство малярных и стекольных работ</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.91</code>
+            <text>Производство кровельных работ</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.99.1</code>
+            <text>Работы гидроизоляционные</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.99.3</code>
+            <text>Работы свайные и работы по строительству фундаментов</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.99.4</code>
+            <text>Работы бетонные и железобетонные</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.99.5</code>
+            <text>Работы по монтажу стальных строительных конструкций</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.99.6</code>
+            <text>Работы каменные и кирпичные</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>43.99.7</code>
+            <text>Работы по сборке и монтажу сборных конструкций</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>46.71</code>
+            <text>Торговля оптовая твердым, жидким и газообразным топливом и подобными продуктами</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>46.71.2</code>
+            <text>Торговля оптовая моторным топливом, включая авиационный бензин</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>46.73</code>
+            <text>Торговля оптовая лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>47.25.2</code>
+            <text>Торговля розничная безалкогольными напитками в специализированных магазинах</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>47.29</code>
+            <text>Торговля розничная прочими пищевыми продуктами в специализированных магазинах</text>
+            <date>2012-05-30</date>
+          </activity>
+          <activity>
+            <code>47.5</code>
+            <text>Торговля розничная прочими бытовыми изделиями в специализированных магазинах</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>47.52.7</code>
+            <text>Торговля розничная строительными материалами, не включенными в другие группировки, в специализированных магазинах</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>47.73</code>
+            <text>Торговля розничная лекарственными средствами в специализированных магазинах (аптеках)</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>47.74</code>
+            <text>Торговля розничная изделиями, применяемыми в медицинских целях, ортопедическими изделиями в специализированных магазинах</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>47.75</code>
+            <text>Торговля розничная косметическими и товарами личной гигиены в специализированных магазинах</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>52.29</code>
+            <text>Деятельность вспомогательная прочая, связанная с перевозками</text>
+            <date>2005-06-10</date>
+          </activity>
+          <activity>
+            <code>56.10</code>
+            <text>Деятельность ресторанов и услуги по доставке продуктов питания</text>
+            <date>2011-05-16</date>
+          </activity>
+          <activity>
+            <code>56.10.1</code>
+            <text>Деятельность ресторанов и кафе с полным ресторанным обслуживанием, кафетериев, ресторанов быстрого питания и самообслуживания</text>
+            <date>2011-05-16</date>
+          </activity>
+          <activity>
+            <code>56.10.3</code>
+            <text>Деятельность ресторанов и баров по обеспечению питанием в железнодорожных вагонах-ресторанах и на судах</text>
+            <date>2011-05-16</date>
+          </activity>
+          <activity>
+            <code>68.1</code>
+            <text>Покупка и продажа собственного недвижимого имущества</text>
+            <date>2007-07-26</date>
+          </activity>
+          <activity>
+            <code>71.11.1</code>
+            <text>Деятельность в области архитектуры, связанная с созданием архитектурного объекта</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>71.12</code>
+            <text>Деятельность в области инженерных изысканий, инженерно-технического проектирования, управления проектами строительства, выполнения строительного контроля и авторского надзора, предоставление технических консультаций в этих областях</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>71.12.1</code>
+            <text>Деятельность, связанная с инженерно-техническим проектированием, управлением проектами строительства, выполнением строительного контроля и авторского надзора</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>71.12.45</code>
+            <text>Инженерные изыскания в строительстве</text>
+            <date>2006-04-04</date>
+          </activity>
+          <activity>
+            <code>73.1</code>
+            <text>Деятельность рекламная</text>
+            <date>2006-04-04</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-11-20</ogrnDate>
+        <regName>Администрация Батыревского района Чувашской Республики</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2132</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 2 по Чувашской Республике</nalogName>
+        <nalogRegDate>2001-09-03</nalogRegDate>
+        <kpp>210301001</kpp>
+        <date>2006-02-04</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2130</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Чебоксары</nalogName>
+        <date>2016-01-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>300000</sum>
+        <date>2006-04-04</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Абдулвалеев Ринат Абдулахатович</fio>
+          <innfl>210300004294</innfl>
+          <share>
+            <sum>270000</sum>
+            <percentagePlain>90</percentagePlain>
+          </share>
+          <date>2014-11-15</date>
+          <firstDate>2007-01-28</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Абдулвалеева Флюра Расиковна</fio>
+          <innfl>210300098239</innfl>
+          <share>
+            <sum>30000</sum>
+            <percentagePlain>10</percentagePlain>
+          </share>
+          <date>2014-04-16</date>
+          <firstDate>2009-12-14</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2162130728384</grn>
+          <date>2016-03-30</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162130470643</grn>
+          <date>2016-03-29</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162130180419</grn>
+          <date>2016-02-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152132040839</grn>
+          <date>2015-11-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142132008819</grn>
+          <date>2014-12-10</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2014-12-03</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2014-12-02</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2014-12-02</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2014-12-02</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142132008456</grn>
+          <date>2014-11-15</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142132004133</grn>
+          <date>2014-04-16</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2122132004817</grn>
+          <date>2012-05-30</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2012-05-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002312076</serialNumber>
+              <date>2012-05-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112132003740</grn>
+          <date>2011-05-16</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-05-06</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002229245</serialNumber>
+              <date>2011-05-16</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102132006678</grn>
+          <date>2010-06-12</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132018560</grn>
+          <date>2009-12-14</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-12-07</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2009-11-27</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-11-27</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2009-12-04</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002133375</serialNumber>
+              <date>2009-12-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132012619</grn>
+          <date>2009-07-21</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132002676</grn>
+          <date>2008-03-25</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001963600</serialNumber>
+              <date>2008-03-25</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132000883</grn>
+          <date>2008-02-13</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2008-02-13</date>
+            </document>
+            <document>
+              <name>Приказ о приеме на работу</name>
+              <date>2008-02-11</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания учредителей</name>
+              <date>2008-02-11</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001963539</serialNumber>
+              <date>2008-02-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132019122</grn>
+          <date>2007-08-03</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Изменения к учредительному договору юридического лица</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-06-27</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001798648</serialNumber>
+              <date>2007-08-03</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132018737</grn>
+          <date>2007-07-26</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Протокол общего собрания членов</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001798634</serialNumber>
+              <date>2007-07-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132003887</grn>
+          <date>2007-01-28</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132034226</grn>
+          <date>2006-10-20</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132022720</grn>
+          <date>2006-07-24</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2006-07-17</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-07-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001794551</serialNumber>
+              <date>2006-07-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132022710</grn>
+          <date>2006-07-24</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Заявление</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-07-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001794550</serialNumber>
+              <date>2006-07-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132016549</grn>
+          <date>2006-04-04</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-03-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001794224</serialNumber>
+              <date>2006-04-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132016538</grn>
+          <date>2006-04-04</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2006-03-24</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-03-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001794223</serialNumber>
+              <date>2006-04-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132007640</grn>
+          <date>2006-02-04</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2052132004440</grn>
+          <date>2005-06-10</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000498573</serialNumber>
+              <date>2005-06-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2052132002338</grn>
+          <date>2005-03-03</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2052132002327</grn>
+          <date>2005-03-03</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2042132004121</grn>
+          <date>2004-11-09</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2004-10-27</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2004-10-27</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000498130</serialNumber>
+              <date>2004-11-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2042132001987</grn>
+          <date>2004-05-07</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2042132001657</grn>
+          <date>2004-04-06</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2004-04-02</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>1022101830728</grn>
+          <date>2002-11-20</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000804281</serialNumber>
+              <date>2002-11-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2103006230</inn>
+    <ogrn>1042132000756</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1042132000756</focusHref>
+    <UL>
+      <okpo>71021224</okpo>
+      <pfrRegNumber>015003004065</pfrRegNumber>
+      <fssRegNumber>210301950221001</fssRegNumber>
+      <fomsRegNumber>972070400002386</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.71.2</code>
+          <text>Торговля оптовая моторным топливом, включая авиационный бензин</text>
+          <date>2011-10-28</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>01.11</code>
+            <text>Выращивание зерновых (кроме риса), зернобобовых культур и семян масличных культур</text>
+            <date>2011-10-28</date>
+          </activity>
+          <activity>
+            <code>01.11.1</code>
+            <text>Выращивание зерновых культур</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.11.2</code>
+            <text>Выращивание зернобобовых культур</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.11.3</code>
+            <text>Выращивание семян масличных культур</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.13.1</code>
+            <text>Выращивание овощей</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.13.3</code>
+            <text>Выращивание столовых корнеплодных и клубнеплодных культур с высоким содержанием крахмала или инулина</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.13.51</code>
+            <text>Выращивание сахарной свеклы</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.19.1</code>
+            <text>Выращивание однолетних кормовых культур</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.19.2</code>
+            <text>Цветоводство</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.25.1</code>
+            <text>Выращивание прочих плодовых и ягодных культур</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.25.2</code>
+            <text>Выращивание семян плодовых и ягодных культур</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.30</code>
+            <text>Выращивание рассады</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.41</code>
+            <text>Разведение молочного крупного рогатого скота, производство сырого молока</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.42</code>
+            <text>Разведение прочих пород крупного рогатого скота и буйволов, производство спермы</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.43.1</code>
+            <text>Разведение лошадей, ослов, мулов, лошаков</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.45.1</code>
+            <text>Разведение овец и коз</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.47</code>
+            <text>Разведение сельскохозяйственной птицы</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.49.1</code>
+            <text>Пчеловодство</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.49.2</code>
+            <text>Разведение кроликов и прочих пушных зверей на фермах</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.49.7</code>
+            <text>Разведение дождевых червей</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.50</code>
+            <text>Смешанное сельское хозяйство</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.61</code>
+            <text>Предоставление услуг в области растениеводства</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.62</code>
+            <text>Предоставление услуг в области животноводства</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>01.70</code>
+            <text>Охота, отлов и отстрел диких животных, включая предоставление услуг в этих областях</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>03.22.2</code>
+            <text>Рыбоводство пресноводное пастбищное</text>
+            <date>2009-11-13</date>
+          </activity>
+          <activity>
+            <code>41.20</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>43.11</code>
+            <text>Разборка и снос зданий</text>
+            <date>2016-06-06</date>
+          </activity>
+          <activity>
+            <code>43.12.3</code>
+            <text>Производство земляных работ</text>
+            <date>2016-06-06</date>
+          </activity>
+          <activity>
+            <code>43.21</code>
+            <text>Производство электромонтажных работ</text>
+            <date>2016-06-06</date>
+          </activity>
+          <activity>
+            <code>43.3</code>
+            <text>Работы строительные отделочные</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>45.20</code>
+            <text>Техническое обслуживание и ремонт автотранспортных средств</text>
+            <date>2013-02-22</date>
+          </activity>
+          <activity>
+            <code>45.20.2</code>
+            <text>Техническое обслуживание и ремонт прочих автотранспортных средств</text>
+            <date>2013-02-22</date>
+          </activity>
+          <activity>
+            <code>45.32</code>
+            <text>Торговля розничная автомобильными деталями, узлами и принадлежностями</text>
+            <date>2004-02-05</date>
+          </activity>
+          <activity>
+            <code>46.21.11</code>
+            <text>Торговля оптовая зерном</text>
+            <date>2004-02-05</date>
+          </activity>
+          <activity>
+            <code>46.32.1</code>
+            <text>Торговля оптовая мясом и мясом птицы, включая субпродукты</text>
+            <date>2004-02-05</date>
+          </activity>
+          <activity>
+            <code>46.4</code>
+            <text>Торговля оптовая непродовольственными потребительскими товарами</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>46.73.3</code>
+            <text>Торговля оптовая санитарно-техническим оборудованием</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>46.73.4</code>
+            <text>Торговля оптовая лакокрасочными материалами</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>46.73.5</code>
+            <text>Торговля оптовая листовым стеклом</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>46.73.6</code>
+            <text>Торговля оптовая прочими строительными материалами и изделиями</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>46.74.2</code>
+            <text>Торговля оптовая водопроводным и отопительным оборудованием и санитарно-технической арматурой</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>46.74.3</code>
+            <text>Торговля оптовая ручными инструментами</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>46.9</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>47.29</code>
+            <text>Торговля розничная прочими пищевыми продуктами в специализированных магазинах</text>
+            <date>2013-02-22</date>
+          </activity>
+          <activity>
+            <code>47.30</code>
+            <text>Торговля розничная моторным топливом в специализированных магазинах</text>
+            <date>2011-02-21</date>
+          </activity>
+          <activity>
+            <code>47.5</code>
+            <text>Торговля розничная прочими бытовыми изделиями в специализированных магазинах</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>47.73</code>
+            <text>Торговля розничная лекарственными средствами в специализированных магазинах (аптеках)</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>47.74</code>
+            <text>Торговля розничная изделиями, применяемыми в медицинских целях, ортопедическими изделиями в специализированных магазинах</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>47.75</code>
+            <text>Торговля розничная косметическими и товарами личной гигиены в специализированных магазинах</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>47.9</code>
+            <text>Торговля розничная вне магазинов, палаток, рынков</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>61.10.1</code>
+            <text>Деятельность по предоставлению услуг телефонной связи</text>
+            <date>2013-01-29</date>
+          </activity>
+          <activity>
+            <code>68.10</code>
+            <text>Покупка и продажа собственного недвижимого имущества</text>
+            <date>2016-06-06</date>
+          </activity>
+          <activity>
+            <code>68.2</code>
+            <text>Аренда и управление собственным или арендованным недвижимым имуществом</text>
+            <date>2012-01-30</date>
+          </activity>
+          <activity>
+            <code>68.20.2</code>
+            <text>Аренда и управление собственным или арендованным нежилым недвижимым имуществом</text>
+            <date>2012-01-30</date>
+          </activity>
+          <activity>
+            <code>71.1</code>
+            <text>Деятельность в области архитектуры, инженерных изысканий и предоставление технических консультаций в этих областях</text>
+            <date>2016-06-06</date>
+          </activity>
+          <activity>
+            <code>71.12.5</code>
+            <text>Деятельность в области гидрометеорологии и смежных с ней областях, мониторинга состояния окружающей среды, ее загрязнения</text>
+            <date>2016-06-06</date>
+          </activity>
+          <activity>
+            <code>71.12.6</code>
+            <text>Деятельность в области технического регулирования, стандартизации, метрологии, аккредитации, каталогизации продукции</text>
+            <date>2016-06-06</date>
+          </activity>
+          <activity>
+            <code>82.99</code>
+            <text>Деятельность по предоставлению прочих вспомогательных услуг для бизнеса, не включенная в другие группировки</text>
+            <date>2012-01-30</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2004-02-05</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2132</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 2 по Чувашской Республике</nalogName>
+        <nalogRegDate>2004-02-05</nalogRegDate>
+        <kpp>210301001</kpp>
+        <date>2006-02-04</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2130</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Чебоксары</nalogName>
+        <date>2016-01-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2004-02-05</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Абдулвалеев Ринат Абдулахатович</fio>
+          <innfl>210300004294</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2014-11-15</date>
+          <firstDate>2009-11-13</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2162130813557</grn>
+          <date>2016-06-06</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162130353438</grn>
+          <date>2016-03-25</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162130107621</grn>
+          <date>2016-02-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152132039684</grn>
+          <date>2015-11-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142132008423</grn>
+          <date>2014-11-15</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132132001648</grn>
+          <date>2013-02-22</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-02-15</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002316035</serialNumber>
+              <date>2013-02-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132132000526</grn>
+          <date>2013-01-29</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-01-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002315316</serialNumber>
+              <date>2013-01-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2122132000956</grn>
+          <date>2012-01-30</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2012-01-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002276415</serialNumber>
+              <date>2012-01-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112132009207</grn>
+          <date>2011-10-28</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-10-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002014961</serialNumber>
+              <date>2011-10-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2112132001463</grn>
+          <date>2011-02-21</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-02-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002228015</serialNumber>
+              <date>2011-02-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132016722</grn>
+          <date>2009-11-13</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-11-06</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2009-11-06</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-10-27</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002132522</serialNumber>
+              <date>2009-11-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132020750</grn>
+          <date>2007-09-13</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-08-30</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001798754</serialNumber>
+              <date>2007-09-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132020740</grn>
+          <date>2007-09-13</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001798753</serialNumber>
+              <date>2007-09-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132036426</grn>
+          <date>2006-12-23</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132009300</grn>
+          <date>2006-02-04</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-11-02</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-11-02</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1042132000756</grn>
+          <date>2004-02-05</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2004-01-28</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000777628</serialNumber>
+              <date>2004-02-05</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-02-05</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2103903632</inn>
+    <ogrn>1062132018431</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1062132018431</focusHref>
+    <UL>
+      <okpo>94083676</okpo>
+      <pfrRegNumber>015003004667</pfrRegNumber>
+      <fssRegNumber>210302687621001</fssRegNumber>
+      <fomsRegNumber>972070600118957</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>15.1</code>
+          <text>Производство мяса и мясопродуктов</text>
+          <date>2007-11-26</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>15.5</code>
+            <text>Производство молочных продуктов</text>
+            <date>2006-07-20</date>
+          </activity>
+          <activity>
+            <code>15.8</code>
+            <text>Производство прочих пищевых продуктов</text>
+            <date>2007-11-26</date>
+          </activity>
+          <activity>
+            <code>51.2</code>
+            <text>Оптовая торговля сельскохозяйственным сырьем и живыми животными</text>
+            <date>2006-07-20</date>
+          </activity>
+          <activity>
+            <code>51.21</code>
+            <text>Оптовая торговля зерном, семенами и кормами для сельскохозяйственных животных</text>
+            <date>2006-07-20</date>
+          </activity>
+          <activity>
+            <code>51.31</code>
+            <text>Оптовая торговля фруктами, овощами и картофелем</text>
+            <date>2006-07-20</date>
+          </activity>
+          <activity>
+            <code>51.32</code>
+            <text>Оптовая торговля мясом, мясом птицы, продуктами и консервами из мяса и мяса птицы</text>
+            <date>2006-07-20</date>
+          </activity>
+          <activity>
+            <code>51.56</code>
+            <text>Оптовая торговля прочими промежуточными продуктами</text>
+            <date>2006-07-20</date>
+          </activity>
+          <activity>
+            <code>51.57</code>
+            <text>Оптовая торговля отходами и ломом</text>
+            <date>2006-07-20</date>
+          </activity>
+          <activity>
+            <code>60.24</code>
+            <text>Деятельность автомобильного грузового транспорта</text>
+            <date>2006-07-20</date>
+          </activity>
+          <activity>
+            <code>63.21.2</code>
+            <text>Прочая вспомогательная деятельность автомобильного транспорта</text>
+            <date>2006-07-20</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2006-07-20</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2132</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 2 по Чувашской Республике</nalogName>
+        <nalogRegDate>2006-07-20</nalogRegDate>
+        <kpp>210301001</kpp>
+        <date>2013-05-06</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2130</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Чебоксары</nalogName>
+        <date>2016-01-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>40000</sum>
+        <date>2006-07-20</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Абдулвалеев Асхать Абдулахатович</fio>
+          <innfl>210300009197</innfl>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2006-07-20</date>
+          <firstDate>2006-07-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Абдулвалеева Зекия Минехалимовна</fio>
+          <innfl>210300795705</innfl>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2006-07-20</date>
+          <firstDate>2006-07-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Абдулвалеев Ильназ Асхатович</fio>
+          <innfl>210300106673</innfl>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2006-07-20</date>
+          <firstDate>2006-07-20</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Абдулвалеев Ринат Абдулахатович</fio>
+          <innfl>210300004294</innfl>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2006-07-20</date>
+          <firstDate>2006-07-20</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2132132003661</grn>
+          <date>2013-06-10</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132132002836</grn>
+          <date>2013-05-06</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132132002770</grn>
+          <date>2013-05-06</date>
+          <name>Ликвидация ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица в связи с его ликвидацией по решению учредителей (участников) или органа юридического лица, уполномоченного на то учредительными документами</name>
+              <date>2013-04-24</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2013-04-18</date>
+            </document>
+            <document>
+              <name>Ликвидационный баланс</name>
+              <date>2013-04-22</date>
+            </document>
+            <document>
+              <name>Документ, подтверждающий представление сведений в территориальный орган ПФ РФ</name>
+              <date>2013-04-18</date>
+            </document>
+            <document>
+              <name>Решение об утверждение ликв. баланса</name>
+              <date>2013-04-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002316946</serialNumber>
+              <date>2013-05-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132132002616</grn>
+          <date>2013-04-23</date>
+          <name>Составление промежуточного ликвидационного баланса ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о составлении промежуточного ликвидационного баланса юридического лица</name>
+              <date>2013-04-16</date>
+            </document>
+            <document>
+              <name>Промежуточный ликвидационный баланс</name>
+            </document>
+            <document>
+              <name>Решение об утверждение промеж. ликвид. баланса</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002316932</serialNumber>
+              <date>2013-04-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132132000460</grn>
+          <date>2013-01-24</date>
+          <name>Внесение сведений о формировании ликвидационной комиссии, назначении ликвидатора (конкурсного управляющего)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о формировании ликвидационной комиссии юридического или назначении ликвидатора</name>
+              <date>2013-01-17</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2013-01-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002315310</serialNumber>
+              <date>2013-01-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132132000438</grn>
+          <date>2013-01-23</date>
+          <name>Принятие юридическим лицом решения о ликвидации</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о принятии решения о ликвидации юридического лица</name>
+              <date>2013-01-16</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2013-01-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002315306</serialNumber>
+              <date>2013-01-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132021652</grn>
+          <date>2007-11-26</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-11-19</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001962415</serialNumber>
+              <date>2007-11-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072132013666</grn>
+          <date>2007-10-22</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-10-15</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001798818</serialNumber>
+              <date>2007-10-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132035656</grn>
+          <date>2006-12-14</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132023237</grn>
+          <date>2006-08-03</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132023138</grn>
+          <date>2006-08-03</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062132022687</grn>
+          <date>2006-07-24</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1062132018431</grn>
+          <date>2006-07-20</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-07-03</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2006-07-12</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001794539</serialNumber>
+              <date>2006-07-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital />
+        </statedCapitals>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2103903738</inn>
+    <ogrn>1062100024150</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1062100024150</focusHref>
+    <UL>
+      <okpo>94093195</okpo>
+      <pfrRegNumber>015003004754</pfrRegNumber>
+      <fssRegNumber>210302803321001</fssRegNumber>
+      <fomsRegNumber>972070600161427</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>94.99</code>
+          <text>Деятельность прочих общественных организаций, не включенных в другие группировки</text>
+          <date>2006-11-10</date>
+        </principalActivity>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2006-11-10</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2132</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 2 по Чувашской Республике</nalogName>
+        <nalogRegDate>2016-03-09</nalogRegDate>
+        <kpp>210301001</kpp>
+        <date>2016-03-09</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2130</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Чебоксары</nalogName>
+        <date>2016-12-30</date>
+      </regBody>
+      <statedCapital />
+      <foundersFL>
+        <founderFL>
+          <fio>Янешев Минсур Сеитгалиевич</fio>
+          <innfl>210323379966</innfl>
+          <share />
+          <date>2006-11-10</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Карама Асхать Минигалиевич</fio>
+          <innfl>210301705729</innfl>
+          <share />
+          <date>2006-11-10</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Алеев Ильфак Фиркатович</fio>
+          <innfl>210323317303</innfl>
+          <share />
+          <date>2017-11-13</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Хамбиков Решит Экремович</fio>
+          <innfl>210800106488</innfl>
+          <share />
+          <date>2017-11-13</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Янешев Минереис Саитгалиевич</fio>
+          <innfl>210300005499</innfl>
+          <share />
+          <date>2017-11-13</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Чабатов Ферид Кияметдинович</fio>
+          <innfl>210300319953</innfl>
+          <share />
+          <date>2017-11-13</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Гибатдинов Ферит Абдуллович</fio>
+          <innfl>210800088408</innfl>
+          <share />
+          <date>2017-11-13</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Абдулвалеев Ринат Абдулахатович</fio>
+          <innfl>210300004294</innfl>
+          <share />
+          <date>2017-11-13</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Козлов Илдар Алиаскерович</fio>
+          <innfl>210300164756</innfl>
+          <share />
+          <date>2018-02-15</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Купкенов Минсеит Минтагирович</fio>
+          <innfl>164406399105</innfl>
+          <share />
+          <date>2018-03-12</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Фазуллин Фарит Газизович</fio>
+          <innfl>210300749032</innfl>
+          <share />
+          <date>2018-09-26</date>
+          <firstDate>2006-11-10</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2182130244998</grn>
+          <date>2018-09-26</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182130081021</grn>
+          <date>2018-03-12</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182130059186</grn>
+          <date>2018-02-15</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2172130335617</grn>
+          <date>2017-11-13</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных ФЛ (по данным ФМС России)</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162100074585</grn>
+          <date>2016-03-29</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162100068843</grn>
+          <date>2016-03-28</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162100066115</grn>
+          <date>2016-03-09</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162100059526</grn>
+          <date>2016-02-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152100049055</grn>
+          <date>2015-11-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152100031257</grn>
+          <date>2015-03-19</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+          <documents>
+            <document>
+              <name>Распоряжение</name>
+              <date>2015-03-12</date>
+            </document>
+            <document>
+              <name>(р13001) заявление об изм.сведений, вносимых в уч.докум.но</name>
+            </document>
+            <document>
+              <name>Протокол общего собрания</name>
+              <date>2015-02-03</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2132100010359</grn>
+          <date>2013-12-12</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных ФЛ (по данным ФМС России)</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062100038340</grn>
+          <date>2006-12-12</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062100037536</grn>
+          <date>2006-11-29</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062100037338</grn>
+          <date>2006-11-10</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1062100024150</grn>
+          <date>2006-11-10</date>
+          <name>Создание ЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+          <documents>
+            <document>
+              <name>Распоряжение</name>
+              <date>2006-11-03</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2006-10-27</date>
+            </document>
+            <document>
+              <name>Рн0001 заявление о создании но</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-09-14</date>
+            </document>
+            <document>
+              <name>Гарантийное письмо (справка)</name>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001871312</serialNumber>
+              <date>2006-11-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2103904139</inn>
+    <ogrn>1082132000059</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1082132000059</focusHref>
+    <UL>
+      <okpo>99501473</okpo>
+      <pfrRegNumber>015003005131</pfrRegNumber>
+      <fssRegNumber>210303246321001</fssRegNumber>
+      <fomsRegNumber>972070800007727</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>43.12</code>
+          <text>Подготовка строительной площадки</text>
+          <date>2008-01-24</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>41.2</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>41.20</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>42.11</code>
+            <text>Строительство автомобильных дорог и автомагистралей</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>42.21</code>
+            <text>Строительство инженерных коммуникаций для водоснабжения и водоотведения, газоснабжения</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>42.91.2</code>
+            <text>Строительство гидротехнических сооружений</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>42.99</code>
+            <text>Строительство прочих инженерных сооружений, не включенных в другие группировки</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.11</code>
+            <text>Разборка и снос зданий</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.12.3</code>
+            <text>Производство земляных работ</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.2</code>
+            <text>Производство электромонтажных, санитарно-технических и прочих строительно-монтажных работ</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.21</code>
+            <text>Производство электромонтажных работ</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.22</code>
+            <text>Производство санитарно-технических работ, монтаж отопительных систем и систем кондиционирования воздуха</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.29</code>
+            <text>Производство прочих строительно-монтажных работ</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.3</code>
+            <text>Работы строительные отделочные</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.31</code>
+            <text>Производство штукатурных работ</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.32</code>
+            <text>Работы столярные и плотничные</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.33</code>
+            <text>Работы по устройству покрытий полов и облицовке стен</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.34</code>
+            <text>Производство малярных и стекольных работ</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.91</code>
+            <text>Производство кровельных работ</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.99.1</code>
+            <text>Работы гидроизоляционные</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.99.3</code>
+            <text>Работы свайные и работы по строительству фундаментов</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.99.4</code>
+            <text>Работы бетонные и железобетонные</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.99.5</code>
+            <text>Работы по монтажу стальных строительных конструкций</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>43.99.6</code>
+            <text>Работы каменные и кирпичные</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>46.1</code>
+            <text>Торговля оптовая за вознаграждение или на договорной основе</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>46.15.3</code>
+            <text>Деятельность агентов по оптовой торговле электротоварами и бытовыми электроустановочными изделиями</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>46.15.4</code>
+            <text>Деятельность агентов по оптовой торговле радио- и телеаппаратурой, техническими носителями информации</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>46.43</code>
+            <text>Торговля оптовая бытовыми электротоварами</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>46.51</code>
+            <text>Торговля оптовая компьютерами, периферийными устройствами к компьютерам и программным обеспечением</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>46.66</code>
+            <text>Торговля оптовая прочей офисной техникой и оборудованием</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>46.73</code>
+            <text>Торговля оптовая лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2012-01-30</date>
+          </activity>
+          <activity>
+            <code>46.73.6</code>
+            <text>Торговля оптовая прочими строительными материалами и изделиями</text>
+            <date>2012-01-30</date>
+          </activity>
+          <activity>
+            <code>47.41</code>
+            <text>Торговля розничная компьютерами, периферийными устройствами к ним и программным обеспечением в специализированных магазинах</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>47.41.4</code>
+            <text>Торговля розничная офисными машинами и оборудованием в специализированных магазинах</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>47.43</code>
+            <text>Торговля розничная аудио- и видеотехникой в специализированных магазинах</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>47.54</code>
+            <text>Торговля розничная бытовыми электротоварами в специализированных магазинах</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>47.59.3</code>
+            <text>Торговля розничная осветительными приборами в специализированных магазинах</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>47.59.9</code>
+            <text>Торговля розничная бытовыми изделиями и приборами, не включенными в другие группировки, в специализированных магазинах</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>47.9</code>
+            <text>Торговля розничная вне магазинов, палаток, рынков</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>71.11.1</code>
+            <text>Деятельность в области архитектуры, связанная с созданием архитектурного объекта</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>71.12</code>
+            <text>Деятельность в области инженерных изысканий, инженерно-технического проектирования, управления проектами строительства, выполнения строительного контроля и авторского надзора, предоставление технических консультаций в этих областях</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>71.12.1</code>
+            <text>Деятельность, связанная с инженерно-техническим проектированием, управлением проектами строительства, выполнением строительного контроля и авторского надзора</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>71.12.45</code>
+            <text>Инженерные изыскания в строительстве</text>
+            <date>2008-01-24</date>
+          </activity>
+          <activity>
+            <code>73.1</code>
+            <text>Деятельность рекламная</text>
+            <date>2008-01-24</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2008-01-24</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2132</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 2 по Чувашской Республике</nalogName>
+        <nalogRegDate>2008-01-24</nalogRegDate>
+        <kpp>210301001</kpp>
+        <date>2008-01-24</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2130</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Чебоксары</nalogName>
+        <date>2016-01-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2008-01-24</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Маков Ирек Морзиянович</fio>
+          <innfl>210300148306</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2018-03-19</date>
+          <firstDate>2009-12-21</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2182130286116</grn>
+          <date>2018-11-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Заявление</name>
+            </document>
+            <document>
+              <name>Решение</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2182130086763</grn>
+          <date>2018-03-19</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162130737998</grn>
+          <date>2016-03-30</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162130470852</grn>
+          <date>2016-03-29</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2162130265405</grn>
+          <date>2016-02-17</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г. Чебоксары</regName>
+          <regCode>2130</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152132041213</grn>
+          <date>2015-11-14</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2142132008445</grn>
+          <date>2014-11-15</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2122132000945</grn>
+          <date>2012-01-30</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2012-01-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002276414</serialNumber>
+              <date>2012-01-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132019076</grn>
+          <date>2009-12-21</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-12-14</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2009-12-09</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-12-09</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2009-12-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002133526</serialNumber>
+              <date>2009-12-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132012575</grn>
+          <date>2009-07-21</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132008428</grn>
+          <date>2009-04-10</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2009-04-03</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001970899</serialNumber>
+              <date>2009-04-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132009133</grn>
+          <date>2008-06-30</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132001840</grn>
+          <date>2008-03-04</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132000311</grn>
+          <date>2008-01-24</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1082132000059</grn>
+          <date>2008-01-24</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2008-01-17</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-01-14</date>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+              <date>2007-11-27</date>
+            </document>
+            <document>
+              <name>Протокол собрания учредителей</name>
+              <date>2007-11-27</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2007-11-27</date>
+            </document>
+            <document>
+              <name>Приходный кассовый ордер</name>
+              <date>2008-01-10</date>
+            </document>
+            <document>
+              <name>Гарантийное письмо</name>
+              <date>2008-01-17</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001963505</serialNumber>
+              <date>2008-01-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <foundersFL>
+          <founderFL>
+            <fio>Абдулвалеев Ринат Абдулахатович</fio>
+            <innfl>210300004294</innfl>
+            <share>
+              <sum>5000</sum>
+              <percentagePlain>50</percentagePlain>
+            </share>
+            <date>2014-11-15</date>
+            <firstDate>2009-12-21</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2103904192</inn>
+    <ogrn>1082132000170</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1082132000170</focusHref>
+    <UL>
+      <okpo>85840641</okpo>
+      <pfrRegNumber>015003005213</pfrRegNumber>
+      <fssRegNumber>210303309021001</fssRegNumber>
+      <fomsRegNumber>972070800026924</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>01.1</code>
+          <text>Растениеводство</text>
+          <date>2008-03-07</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>01.2</code>
+            <text>Животноводство</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>01.41.1</code>
+            <text>Предоставление услуг, связанных с производством сельскохозяйственных культур</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>01.42</code>
+            <text>Предоставление услуг в области животноводства, кроме ветеринарных услуг</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>02.01</code>
+            <text>Лесоводство и лесозаготовки</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>15.1</code>
+            <text>Производство мяса и мясопродуктов</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>20.1</code>
+            <text>Распиловка и строгание древесины; пропитка древесины</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>45.1</code>
+            <text>Подготовка строительного участка</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>51.2</code>
+            <text>Оптовая торговля сельскохозяйственным сырьем и живыми животными</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>51.31</code>
+            <text>Оптовая торговля фруктами, овощами и картофелем</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>51.38.26</code>
+            <text>Оптовая торговля мукой и макаронными изделиями</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>52.12</code>
+            <text>Прочая розничная торговля в неспециализированных магазинах</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>52.21</code>
+            <text>Розничная торговля фруктами, овощами и картофелем</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>52.22.1</code>
+            <text>Розничная торговля мясом и мясом птицы, включая субпродукты</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>52.27.31</code>
+            <text>Розничная торговля мукой и макаронными изделиями</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>60.24</code>
+            <text>Деятельность автомобильного грузового транспорта</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>65.1</code>
+            <text>Денежное посредничество</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>65.21</code>
+            <text>Финансовый лизинг</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>70.3</code>
+            <text>Предоставление посреднических услуг, связанных с недвижимым имуществом</text>
+            <date>2008-03-07</date>
+          </activity>
+          <activity>
+            <code>72.6</code>
+            <text>Прочая деятельность, связанная с использованием вычислительной техники и информационных технологий</text>
+            <date>2008-03-07</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2008-03-07</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2132</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 2 по Чувашской Республике</nalogName>
+        <nalogRegDate>2008-03-07</nalogRegDate>
+        <kpp>210301001</kpp>
+        <date>2009-10-05</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2130</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Чебоксары</nalogName>
+        <date>2016-01-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2008-03-07</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Абдулвалеев Ринат Абдулахатович</fio>
+          <innfl>210300004294</innfl>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2008-03-07</date>
+          <firstDate>2008-03-07</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2102132010594</grn>
+          <date>2010-09-22</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132017085</grn>
+          <date>2009-11-17</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132014896</grn>
+          <date>2009-10-05</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132014885</grn>
+          <date>2009-10-05</date>
+          <name>Ликвидация ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица в связи с его ликвидацией по решению учредителей (участников) или органа юридического лица, уполномоченного на то учредительными документами</name>
+              <date>2009-09-28</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2009-04-20</date>
+            </document>
+            <document>
+              <name>Документ, подтверждающий представление сведений в территориальный орган ПФ РФ</name>
+              <date>2009-09-21</date>
+            </document>
+            <document>
+              <name>Решение об утверждении ликвидационного баланса</name>
+              <date>2009-09-18</date>
+            </document>
+            <document>
+              <name>Ликвидационный баланс</name>
+              <date>2009-09-18</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002132016</serialNumber>
+              <date>2009-10-05</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132014247</grn>
+          <date>2009-09-17</date>
+          <name>Составление промежуточного ликвидационного баланса ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о составлении промежуточного ликвидационного баланса юридического лица</name>
+              <date>2009-09-10</date>
+            </document>
+            <document>
+              <name>Решение об утверждении промежуточного ликвидационного баланса</name>
+              <date>2009-09-03</date>
+            </document>
+            <document>
+              <name>Промежуточный ликвидационный баланс</name>
+              <date>2009-09-03</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002130570</serialNumber>
+              <date>2009-09-17</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132008890</grn>
+          <date>2009-04-28</date>
+          <name>Внесение сведений о формировании ликвидационной комиссии, назначении ликвидатора (конкурсного управляющего)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о формировании ликвидационной комиссии юридического или назначении ликвидатора</name>
+              <date>2009-04-21</date>
+            </document>
+            <document>
+              <name>Решение единственного учредителя общества</name>
+              <date>2009-04-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002129023</serialNumber>
+              <date>2009-04-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2092132008879</grn>
+          <date>2009-04-28</date>
+          <name>Принятие юридическим лицом решения о ликвидации</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о принятии решения о ликвидации юридического лица</name>
+              <date>2009-04-21</date>
+            </document>
+            <document>
+              <name>Решение о ликвидации, принятое учредителями (участниками) или органом ЮЛ</name>
+              <date>2009-04-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002129022</serialNumber>
+              <date>2009-04-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132010167</grn>
+          <date>2008-07-17</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132003083</grn>
+          <date>2008-03-26</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132003017</grn>
+          <date>2008-03-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2082132002225</grn>
+          <date>2008-03-07</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1082132000170</grn>
+          <date>2008-03-07</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 2 по Чувашской Республике</regName>
+          <regCode>2132</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2008-02-29</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-02-28</date>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+              <date>2008-02-01</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2008-02-01</date>
+            </document>
+            <document>
+              <name>Приходный кассовый ордер о внесении уставного капитала</name>
+              <date>2008-02-28</date>
+            </document>
+            <document>
+              <name>Гарантийное письмо</name>
+              <date>2008-02-29</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001963583</serialNumber>
+              <date>2008-03-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2103904756</inn>
+    <ogrn>1102100000133</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1102100000133</focusHref>
+    <UL>
+      <okpo>61937376</okpo>
+      <pfrRegNumber>015003005754</pfrRegNumber>
+      <fssRegNumber>210303917421001</fssRegNumber>
+      <fomsRegNumber>972071000012233</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>91.33</code>
+          <text>Деятельность прочих общественных организаций, не включенных в другие группировки</text>
+          <date>2010-02-10</date>
+        </principalActivity>
+      </activities>
+      <regInfo>
+        <ogrnDate>2010-02-10</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2132</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 2 по Чувашской Республике</nalogName>
+        <nalogRegDate>2010-02-10</nalogRegDate>
+        <kpp>210301001</kpp>
+        <date>2015-07-22</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2130</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Чебоксары</nalogName>
+        <date>2016-12-30</date>
+      </regBody>
+      <statedCapital />
+      <foundersFL>
+        <founderFL>
+          <fio>Халитова Алсу Салахутдиновна</fio>
+          <innfl>211701019243</innfl>
+          <share />
+          <date>2010-02-10</date>
+          <firstDate>2010-02-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Тухфетуллов Элфис Фиргатович</fio>
+          <innfl>210300113007</innfl>
+          <share />
+          <date>2010-02-10</date>
+          <firstDate>2010-02-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Айнетдинова Минсейдя Салахутдиновна</fio>
+          <innfl>210300438566</innfl>
+          <share />
+          <date>2010-02-10</date>
+          <firstDate>2010-02-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Халитов Зофер Тауфикович</fio>
+          <innfl>210300275336</innfl>
+          <share />
+          <date>2010-02-10</date>
+          <firstDate>2010-02-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Земдиханов Дамир Минхайдерович</fio>
+          <innfl>210301170576</innfl>
+          <share />
+          <date>2010-02-10</date>
+          <firstDate>2010-02-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Абдулвалеев Ринат Абдулахатович</fio>
+          <innfl>210300004294</innfl>
+          <share />
+          <date>2010-02-10</date>
+          <firstDate>2010-02-10</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Якушева Миндания Шарифзяновна</fio>
+          <innfl>732200920399</innfl>
+          <share />
+          <date>2010-02-10</date>
+          <firstDate>2010-02-10</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2152100034722</grn>
+          <date>2015-07-22</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2152100034700</grn>
+          <date>2015-07-22</date>
+          <name>Прекращение деятельности общественного объединения по ст.29 ФЗ №82-ФЗ</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+          <documents>
+            <document>
+              <name>Распоряжение</name>
+              <date>2015-05-18</date>
+            </document>
+            <document>
+              <name>Решение суда</name>
+              <date>2015-05-18</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102100005038</grn>
+          <date>2010-03-11</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102100004400</grn>
+          <date>2010-02-17</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2102100004170</grn>
+          <date>2010-02-10</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1102100000133</grn>
+          <date>2010-02-10</date>
+          <name>Создание ЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Чувашской Республике</regName>
+          <regCode>2100</regCode>
+          <documents>
+            <document>
+              <name>Распоряжение</name>
+              <date>2010-02-03</date>
+            </document>
+            <document>
+              <name>Рн0001 заявление о создании но</name>
+            </document>
+            <document>
+              <name>Гарантийное письмо</name>
+              <date>2009-12-29</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2009-12-28</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2009-12-28</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 002012366</serialNumber>
+              <date>2010-02-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>2105001894</inn>
+    <ogrn>1022102029180</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022102029180</focusHref>
+    <UL>
+      <pfrRegNumber>015005000196</pfrRegNumber>
+      <fssRegNumber>210500649021001</fssRegNumber>
+      <fomsRegNumber>972130500096272</fomsRegNumber>
+      <activities />
+      <regInfo>
+        <ogrnDate>2002-10-07</ogrnDate>
+        <regName>Администрация Ибресинского района Чувашской Республики</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>2105</nalogCode>
+        <nalogName>Территориально-обособленное рабочее место Межрайонной инспекции Федеральной налоговой службы № 3 по Чувашской Республике в Ибресинском районе</nalogName>
+        <nalogRegDate>1998-01-20</nalogRegDate>
+        <kpp>210501001</kpp>
+        <date>2007-03-09</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>2130</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по г. Чебоксары</nalogName>
+        <date>2016-01-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2004-03-02</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Алимов Асхат Расикович</fio>
+          <innfl>210500008507</innfl>
+          <share>
+            <sum>5000</sum>
+          </share>
+          <date>2004-03-02</date>
+          <firstDate>2004-03-02</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Алимов Расик Садыкович</fio>
+          <innfl>210500008433</innfl>
+          <share>
+            <sum>2500</sum>
+          </share>
+          <date>2004-03-02</date>
+          <firstDate>2004-03-02</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Алимова Зейтуна Бедертдинова</fio>
+          <innfl>212905687508</innfl>
+          <share>
+            <sum>2000</sum>
+          </share>
+          <date>2004-03-02</date>
+          <firstDate>2004-03-02</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Хамзина Гельфия Расиковна</fio>
+          <innfl>210500051502</innfl>
+          <share>
+            <sum>500</sum>
+          </share>
+          <date>2004-03-02</date>
+          <firstDate>2004-03-02</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2072133009826</grn>
+          <date>2007-05-07</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072133007220</grn>
+          <date>2007-03-15</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072133006405</grn>
+          <date>2007-03-09</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2072133006394</grn>
+          <date>2007-03-07</date>
+          <name>Ликвидация ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица в связи с его ликвидацией по решению учредителей (участников) или органа юридического лица, уполномоченного на то учредительными документами</name>
+              <date>2007-02-28</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-02-28</date>
+            </document>
+            <document>
+              <name>Ликвидационный баланс</name>
+              <date>2007-02-28</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001803987</serialNumber>
+              <date>2007-03-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062133014029</grn>
+          <date>2006-10-03</date>
+          <name>Внесение сведений о ликвидацонной комиссии (назначении ликвидатора)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о формировании ликвидационной комиссии юридического или назначении ликвидатора</name>
+              <date>2006-09-26</date>
+            </document>
+            <document>
+              <name>Документ о формировании ликвидационной комиссии</name>
+              <date>2006-09-26</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001803578</serialNumber>
+              <date>2006-10-03</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2062133014018</grn>
+          <date>2006-10-03</date>
+          <name>Внесение сведений о решении о ликвидации</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о принятии решения о ликвидации юридического лица</name>
+              <date>2006-09-26</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001803577</serialNumber>
+              <date>2006-10-03</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2052133003460</grn>
+          <date>2005-08-11</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2042133001546</grn>
+          <date>2004-04-24</date>
+          <name>Внесение сведений о выдаче лицензии</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2042133000941</grn>
+          <date>2004-03-02</date>
+          <name>Внесение изменений в учредительные документы</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2004-01-26</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2004-01-15</date>
+            </document>
+            <document>
+              <name>Учредительный договор</name>
+              <date>2004-01-15</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2004-02-06</date>
+            </document>
+            <document>
+              <name>Протокол соьрания учредителей</name>
+              <date>2004-01-15</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>21 001393093</serialNumber>
+              <date>2004-03-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <date>2003-09-16</date>
+          <name>Исправление ошибок, допущенных регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1022102029180</grn>
+          <date>2002-10-07</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам № 3 по Чувашской Республике</regName>
+          <regCode>2133</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>21 000752223</serialNumber>
+              <date>2002-10-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

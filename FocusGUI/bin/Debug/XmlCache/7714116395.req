@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714116395</inn>
+    <ogrn>1027700009765</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700009765</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>47341211</okpo>
+      <okato>45277598000</okato>
+      <okfs>16</okfs>
+      <oktmo>45348000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "А17"</short>
+        <full>Открытое акционерное общество "А17"</full>
+        <date>2010-12-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125252</zipCode>
+          <kladrCode>770000000001352</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Зорге</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+        </parsedAddressRF>
+        <date>2016-10-05</date>
+        <firstDate>2002-07-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1997-09-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Вермеенко Владимир Иванович</fio>
+          <innfl>770304314034</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-02-15</date>
+          <firstDate>2012-02-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774901001</kpp>
+            <date>2012-05-22</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Яровой Станислав Владимирович</fio>
+            <position>Генеральный директор</position>
+            <date>2010-12-17</date>
+            <firstDate>2010-12-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

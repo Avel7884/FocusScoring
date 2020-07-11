@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3328408460</inn>
+    <ogrn>1033302006099</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033302006099</focusHref>
+    <UL>
+      <kpp>332801001</kpp>
+      <okpo>21083237</okpo>
+      <okato>17401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>17701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО Техцентр "Гранд"</short>
+        <full>Общество с ограниченной ответственностью Техцентр "Гранд"</full>
+        <date>2012-09-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>600026</zipCode>
+          <kladrCode>330000010000355</kladrCode>
+          <regionCode>33</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Владимирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владимир</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тракторная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>33</topoValue>
+          </house>
+          <bulk>
+            <topoValue>этаж 2</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>12</topoValue>
+          </flat>
+          <houseRaw>ДОМ 33</houseRaw>
+          <bulkRaw>ЭТАЖ 2</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 12</flatRaw>
+        </parsedAddressRF>
+        <date>2017-04-03</date>
+        <firstDate>2017-04-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-08-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Лаукарт Тарас Всеволодович</fio>
+          <innfl>332800054768</innfl>
+          <position>Директор</position>
+          <date>2018-04-13</date>
+          <firstDate>2006-04-10</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО фирма "Агротрактор"</short>
+            <full>Общество с ограниченной ответственностью фирма "Агротрактор"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>600026</zipCode>
+              <kladrCode>330000010000355</kladrCode>
+              <regionCode>33</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Владимирская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Владимир</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Тракторная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>33</topoValue>
+              </house>
+              <houseRaw>33</houseRaw>
+            </parsedAddressRF>
+            <date>2003-02-03</date>
+            <firstDate>2003-02-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>10</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714539023</inn>
+    <ogrn>1047796114673</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796114673</focusHref>
+    <UL>
+      <kpp>773101001</kpp>
+      <okpo>72138945</okpo>
+      <okato>45268562000</okato>
+      <okfs>34</okfs>
+      <oktmo>45320000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "ЭНЕРГОРЫНОК"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЭНЕРГОРЫНОК"</full>
+        <date>2017-12-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121615</zipCode>
+          <kladrCode>770000000002512</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Рублёвское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>104</topoValue>
+          </flat>
+          <houseRaw>ДОМ 14</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+          <flatRaw>КВАРТИРА 104</flatRaw>
+        </parsedAddressRF>
+        <date>2017-12-29</date>
+        <firstDate>2017-12-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-02-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Коланьков Андрей Валерьевич</fio>
+          <innfl>773100575650</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-06-17</date>
+          <firstDate>2014-06-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771401001</kpp>
+            <date>2008-11-17</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "ЭнергоРынок"</short>
+            <full>Закрытое акционерное общество "ЭнергоРынок"</full>
+            <date>2004-02-25</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125167</zipCode>
+              <kladrCode>770000000003189</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Эльдорадовский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <houseRaw>5</houseRaw>
+            </parsedAddressRF>
+            <date>2016-05-25</date>
+            <firstDate>2008-11-17</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125167</zipCode>
+              <kladrCode>770000000003189</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Эльдорадовский переулок</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <houseRaw>5</houseRaw>
+            </parsedAddressRF>
+            <date>2016-05-14</date>
+            <firstDate>2016-05-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Коланьков Александр Валерьевич</fio>
+            <innfl>773114902428</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-03-24</date>
+            <firstDate>2008-11-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

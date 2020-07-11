@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2722031675</inn>
+    <ogrn>1022701131980</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022701131980</focusHref>
+    <UL>
+      <kpp>272201001</kpp>
+      <okpo>01032025</okpo>
+      <okato>08401368000</okato>
+      <okfs>12</okfs>
+      <oktmo>08701000001</oktmo>
+      <okogu>1323055</okogu>
+      <okopf>75104</okopf>
+      <opf>Федеральные государственные казенные учреждения</opf>
+      <legalName>
+        <short>Амурское БВУ</short>
+        <full>Амурское бассейновое водное управление Федерального агентства водных ресурсов</full>
+        <date>2005-04-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>680021</zipCode>
+          <kladrCode>270000010000184</kladrCode>
+          <regionCode>27</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Хабаровский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Хабаровск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Герасимова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>31</topoValue>
+          </house>
+          <houseRaw>31</houseRaw>
+        </parsedAddressRF>
+        <date>2010-07-07</date>
+        <firstDate>2010-07-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-04-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Макаров Андрей Валентинович</fio>
+          <innfl>280101241087</innfl>
+          <position>Руководитель Управления</position>
+          <date>2010-07-07</date>
+          <firstDate>2010-07-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>9</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

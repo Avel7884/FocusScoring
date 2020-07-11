@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7722270217</inn>
+    <ogrn>1027722006476</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027722006476</focusHref>
+    <UL>
+      <kpp>772001001</kpp>
+      <okpo>59143491</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аби Софтвер"</short>
+        <full>Общество с ограниченной ртветственностью "Аби Софтвер"</full>
+        <date>2002-09-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>111622</zipCode>
+          <kladrCode>770000000000383</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Косинская Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>139</topoValue>
+          </house>
+          <bulk>
+            <topoValue>7</topoValue>
+          </bulk>
+          <houseRaw>139</houseRaw>
+          <bulkRaw>7</bulkRaw>
+        </parsedAddressRF>
+        <date>2005-06-08</date>
+        <firstDate>2005-06-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-04-23</date>
+      </status>
+      <registrationDate>2002-09-27</registrationDate>
+      <dissolutionDate>2009-04-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Магдич Ольга Викторовна</fio>
+          <innfl>550410950410</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-03-14</date>
+          <firstDate>2008-03-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

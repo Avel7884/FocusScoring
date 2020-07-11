@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5907034642</inn>
+    <ogrn>1075907002049</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075907002049</focusHref>
+    <UL>
+      <kpp>590701001</kpp>
+      <okpo>83269573</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергоинвест"</short>
+        <full>Закрытое акционерное общество "Энергоинвест"</full>
+        <date>2007-10-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614112</zipCode>
+          <kladrCode>590000010000171</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Васнецова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-10-11</date>
+        <firstDate>2007-10-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-13</date>
+      </status>
+      <registrationDate>2007-10-11</registrationDate>
+      <dissolutionDate>2012-01-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Колегов Валерий Анатольевич</fio>
+          <innfl>590709110903</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-10-11</date>
+          <firstDate>2007-10-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

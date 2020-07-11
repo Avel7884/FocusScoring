@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705508011</inn>
+    <ogrn>1037705061393</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037705061393</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>08823273</okpo>
+      <okopf>81</okopf>
+      <opf>Учреждения</opf>
+      <legalName>
+        <short>УВО при УВД по ЦАО г. Москвы</short>
+        <full>Государственное учреждение Управление вневедомственной охраны при Управлении внутренних дел по Центральному административному округу города Москвы</full>
+        <date>2007-07-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123001</zipCode>
+          <kladrCode>770000000007195</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Гранатный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>3</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-03-19</date>
+        <firstDate>2009-03-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-02-01</date>
+      </status>
+      <registrationDate>2003-07-30</registrationDate>
+      <dissolutionDate>2012-02-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Плотников Александр Михайлович</fio>
+          <innfl>772901365519</innfl>
+          <position>Начальник</position>
+          <date>2011-01-12</date>
+          <firstDate>2011-01-12</firstDate>
+        </head>
+      </heads>
+      <managementCompanies>
+        <managementCompany>
+          <name>УПРАВЛЕНИЕ ВНЕВЕДОМСТВЕННОЙ ОХРАНЫ ПРИ УВД ЦАО Г. МОСКВЫ</name>
+          <inn>7705508011</inn>
+          <ogrn>1037705061393</ogrn>
+          <date>2006-02-27</date>
+          <firstDate>2006-02-27</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <heads>
+          <head>
+            <fio>Харебава Александр Георгиевич</fio>
+            <date>2006-02-27</date>
+            <firstDate>2006-02-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

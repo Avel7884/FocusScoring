@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3461005670</inn>
+    <ogrn>1133443006102</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1133443006102</focusHref>
+    <UL>
+      <kpp>346101001</kpp>
+      <okpo>10546906</okpo>
+      <okato>18401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агроснаб"</short>
+        <full>Общество с ограниченной ответственностью "Агроснаб"</full>
+        <date>2013-03-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400021</zipCode>
+          <kladrCode>340000010001511</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им генерала Шумилова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28</topoValue>
+          </house>
+          <houseRaw>28</houseRaw>
+        </parsedAddressRF>
+        <date>2013-03-06</date>
+        <firstDate>2013-03-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-02-05</date>
+      </status>
+      <registrationDate>2013-03-06</registrationDate>
+      <dissolutionDate>2016-02-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Хвастовцев Владимир Владимирович</fio>
+          <innfl>344300122515</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2015-10-05</date>
+          <firstDate>2015-10-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Орешкин Дмитрий Юрьевич</fio>
+            <innfl>341900449235</innfl>
+            <position>Директор</position>
+            <date>2013-03-06</date>
+            <firstDate>2013-03-06</firstDate>
+          </head>
+          <head>
+            <fio>Баукова Мария Валентиновна</fio>
+            <innfl>344809668561</innfl>
+            <position>Директор</position>
+            <date>2014-10-24</date>
+            <firstDate>2014-10-24</firstDate>
+          </head>
+          <head>
+            <fio>Бекмухаметов Рамиль Равильевич</fio>
+            <innfl>344691771995</innfl>
+            <position>Директор</position>
+            <date>2015-05-25</date>
+            <firstDate>2015-05-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

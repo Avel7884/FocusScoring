@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6143071427</inn>
+    <ogrn>1096174000383</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1096174000383</focusHref>
+    <UL>
+      <kpp>614301001</kpp>
+      <okpo>89227989</okpo>
+      <okato>60412000000</okato>
+      <okfs>16</okfs>
+      <oktmo>60712000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергомаш (Волгодонск) - Атоммаш"</short>
+        <full>Закрытое акционерное общество "Энергомаш (Волгодонск) - Атоммаш"</full>
+        <date>2009-02-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>347360</zipCode>
+          <kladrCode>610000040000158</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгодонск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Жуковское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <houseRaw>10</houseRaw>
+        </parsedAddressRF>
+        <date>2009-02-27</date>
+        <firstDate>2009-02-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-06-17</date>
+      </status>
+      <registrationDate>2009-02-27</registrationDate>
+      <dissolutionDate>2016-06-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Павличенко Александр Александрович</fio>
+          <innfl>771920210621</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2013-12-18</date>
+          <firstDate>2013-12-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <managementCompanies>
+          <managementCompany>
+            <name>ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "ЭНЕРГОМАШ (ХОЛДИНГ)"</name>
+            <inn>5048023238</inn>
+            <ogrn>1105048000507</ogrn>
+            <date>2010-12-28</date>
+            <firstDate>2010-12-28</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Беляев Илья Александрович</fio>
+            <innfl>645291939763</innfl>
+            <position>Представитель управляющей компании</position>
+            <date>2010-12-28</date>
+            <firstDate>2010-12-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

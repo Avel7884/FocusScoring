@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2221020390</inn>
+    <ogrn>1032201860899</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1032201860899</focusHref>
+    <UL>
+      <kpp>222101001</kpp>
+      <okpo>35026160</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <full>Общество с ограниченной ответственностью "Агарцин"</full>
+        <date>2003-01-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656015</zipCode>
+          <kladrCode>220000010000592</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Социалистический</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>109</topoValue>
+          </house>
+          <houseRaw>109</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-17</date>
+        <firstDate>2003-01-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-06-13</date>
+      </status>
+      <registrationDate>1999-06-30</registrationDate>
+      <dissolutionDate>2012-06-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гладких Александр Иванович</fio>
+          <innfl>222302154489</innfl>
+          <position>Директор</position>
+          <date>2003-01-17</date>
+          <firstDate>2003-01-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>222300804702</inn>
+    <ogrn>304222317500121</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304222317500121</focusHref>
+    <IP>
+      <fio>Ушакова Нина Васильевна</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2000-11-20</registrationDate>
+      <dissolutionDate>2006-07-31</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-07-31</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>222302154489</inn>
+    <ogrn>304222234500451</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304222234500451</focusHref>
+    <IP>
+      <fio>Гладких Александр Иванович</fio>
+      <okpo>0136239358</okpo>
+      <okato>01401364000</okato>
+      <okogu>49015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2002-04-22</registrationDate>
+      <dissolutionDate>2013-05-28</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-05-28</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707309893</inn>
+    <ogrn>1027707003060</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027707003060</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>59099583</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аксессуар"</short>
+        <full>Общество с ограниченной ответственностью "Аксессуар"</full>
+        <date>2002-09-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103051</zipCode>
+          <kladrCode>770000000000580</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Петровский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17/1</topoValue>
+          </house>
+          <flat>
+            <topoValue>47</topoValue>
+          </flat>
+          <houseRaw>17/1</houseRaw>
+          <flatRaw>47</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-02</date>
+        <firstDate>2002-09-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-26</date>
+      </status>
+      <registrationDate>2002-09-02</registrationDate>
+      <dissolutionDate>2016-09-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Фирстов Михаил Александрович</fio>
+          <position>Генеральный директор</position>
+          <date>2002-09-02</date>
+          <firstDate>2002-09-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

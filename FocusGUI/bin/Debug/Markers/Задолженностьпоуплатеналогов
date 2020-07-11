@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>4</Score>
+  <Name>Задолженность по уплате налогов</Name>
+  <Colour>Yellow</Colour>
+  <Description>Организация была найдена в списке юридических лиц, имеющих задолженность по уплате налогов более 1000руб, которая направлялась на взыскание судебному приставу-исполнителю (ФНС)</Description>
+  <Code>return company.GetParam("m5004") == "true"; </Code>
+</items>

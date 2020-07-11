@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2202000399</inn>
+    <ogrn>1022201511420</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022201511420</focusHref>
+    <UL>
+      <kpp>220201001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "АЛТАЙЭНЕРГО"</short>
+        <full>Открытое акционерное общество ЭНЕРГЕТИКИ И ЭЛЕКТРИФИКАЦИИ АЛТАЙСКОГО КРАЯ "АЛТАЙЭНЕРГО"</full>
+        <date>2002-09-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656002</zipCode>
+          <kladrCode>220000010000481</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>П.С.Кулагина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <houseRaw>16</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-02</date>
+        <firstDate>2002-09-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-03-31</date>
+      </status>
+      <registrationDate>1993-07-30</registrationDate>
+      <dissolutionDate>2008-03-31</dissolutionDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "МЕЖРЕГИОНАЛЬНАЯ РАСПРЕДЕЛИТЕЛЬНАЯ СЕТЕВАЯ КОМПАНИЯ СИБИРИ"</name>
+          <inn>2460069527</inn>
+          <ogrn>1052460054327</ogrn>
+          <date>2008-01-17</date>
+          <firstDate>2008-01-17</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>656000</zipCode>
+              <regionCode>22</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Алтайский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Барнаул</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Кулагина П.С</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>16</topoValue>
+              </house>
+              <houseRaw>16</houseRaw>
+            </parsedAddressRF>
+            <date>2002-09-02</date>
+            <firstDate>2002-09-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Антропенко Александр Владимирович</fio>
+            <innfl>550201101614</innfl>
+            <position>Представитель управляющей компании</position>
+            <date>2008-01-17</date>
+            <firstDate>2008-01-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

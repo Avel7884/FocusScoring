@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7715363929</inn>
+    <ogrn>1027715028461</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027715028461</focusHref>
+    <UL>
+      <kpp>771501001</kpp>
+      <okpo>13539462</okpo>
+      <okato>45280561000</okato>
+      <okfs>16</okfs>
+      <oktmo>45353000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПРОМБИЗНЕССНАБ"</short>
+        <full>Общество с ограниченной ответственностью "ПРОМБИЗНЕССНАБ"</full>
+        <date>2002-12-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127254</zipCode>
+          <kladrCode>770000000001200</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Добролюбова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <flat>
+            <topoValue>32</topoValue>
+          </flat>
+          <houseRaw>19</houseRaw>
+          <bulkRaw>---</bulkRaw>
+          <flatRaw>32</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-26</date>
+        <firstDate>2002-12-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-02-18</date>
+      </status>
+      <registrationDate>2002-12-26</registrationDate>
+      <dissolutionDate>2019-02-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Талашев Александр Юрьевич</fio>
+          <innfl>503409844806</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-01-27</date>
+          <firstDate>2011-01-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7715608417</inn>
+    <ogrn>1067746791860</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067746791860</focusHref>
+    <UL>
+      <kpp>771501001</kpp>
+      <okpo>96453396</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А-ПРОМ"</short>
+        <full>Общество с ограниченной ответственностью "А-ПРОМ"</full>
+        <date>2006-07-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127254</zipCode>
+          <kladrCode>770000000001200</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Добролюбова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <flat>
+            <topoValue>33</topoValue>
+          </flat>
+          <houseRaw>19</houseRaw>
+          <flatRaw>33</flatRaw>
+        </parsedAddressRF>
+        <date>2006-07-10</date>
+        <firstDate>2006-07-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-05-19</date>
+      </status>
+      <registrationDate>2006-07-10</registrationDate>
+      <dissolutionDate>2014-05-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Анохин Сергей Владимирович</fio>
+          <innfl>570600060401</innfl>
+          <position>Генеральный директор</position>
+          <date>2006-07-10</date>
+          <firstDate>2006-07-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

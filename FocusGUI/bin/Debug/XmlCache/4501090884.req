@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4501090884</inn>
+    <ogrn>1024500522826</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024500522826</focusHref>
+    <UL>
+      <kpp>450101001</kpp>
+      <okpo>51133725</okpo>
+      <okato>37401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>37701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Техника"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Техника"</full>
+        <date>2006-12-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>640000</zipCode>
+          <kladrCode>450000010000170</kladrCode>
+          <regionCode>45</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Курганская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Курган</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Машиностроителей</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <houseRaw>23</houseRaw>
+        </parsedAddressRF>
+        <date>2008-05-22</date>
+        <firstDate>2008-05-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-12-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Живцов Александр Васильевич</fio>
+          <innfl>451000452643</innfl>
+          <position>Генеральный Директор</position>
+          <date>2012-05-22</date>
+          <firstDate>2006-12-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

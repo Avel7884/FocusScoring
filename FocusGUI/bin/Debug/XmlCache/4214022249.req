@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4214022249</inn>
+    <ogrn>1054214007792</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054214007792</focusHref>
+    <UL>
+      <kpp>421401001</kpp>
+      <okpo>72282339</okpo>
+      <okato>32425000000</okato>
+      <okfs>16</okfs>
+      <oktmo>32725000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОЦЕНТР ТРАНЗИТ"</short>
+        <full>Общество с ограниченной ответственностью "АВТОЦЕНТР ТРАНЗИТ"</full>
+        <date>2005-04-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652870</zipCode>
+          <kladrCode>420000160000902</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Междуреченск</topoValue>
+          </city>
+          <street>
+            <topoShortName>тер</topoShortName>
+            <topoFullName>территория</topoFullName>
+            <topoValue>Ольжерасская автобаза</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2005-04-22</date>
+        <firstDate>2005-04-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-04-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Захарова Светлана Алексеевна</fio>
+          <innfl>421400395119</innfl>
+          <position>Директор</position>
+          <date>2017-06-21</date>
+          <firstDate>2016-01-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Дицель Василий Александрович</fio>
+            <innfl>421400226600</innfl>
+            <position>Директор</position>
+            <date>2011-08-22</date>
+            <firstDate>2010-08-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

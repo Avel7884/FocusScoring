@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5410015419</inn>
+    <ogrn>1075410007485</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075410007485</focusHref>
+    <UL>
+      <kpp>540601001</kpp>
+      <okpo>83537743</okpo>
+      <okato>50401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто Сфера"</short>
+        <full>Общество с ограниченной ответственностью "Авто Сфера"</full>
+        <date>2007-10-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630005</zipCode>
+          <kladrCode>540000010001467</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Фрунзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>55</topoValue>
+          </house>
+          <flat>
+            <topoValue>этаж 1 пом. 7</topoValue>
+          </flat>
+          <houseRaw>ДОМ 55</houseRaw>
+          <flatRaw>ЭТАЖ 1 ПОМ. 7</flatRaw>
+        </parsedAddressRF>
+        <date>2015-12-10</date>
+        <firstDate>2015-12-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2018-12-11</date>
+      </status>
+      <registrationDate>2007-10-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Филонов Вадим Иванович</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2018-12-11</date>
+          <firstDate>2018-12-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>541001001</kpp>
+            <date>2007-11-14</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>630020</zipCode>
+              <kladrCode>540000010000900</kladrCode>
+              <regionCode>54</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Новосибирская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Новосибирск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Объединения</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>34</topoValue>
+              </house>
+              <houseRaw>34</houseRaw>
+            </parsedAddressRF>
+            <date>2007-10-25</date>
+            <firstDate>2007-10-25</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Андреев Владислав Витальевич</fio>
+            <innfl>540806270019</innfl>
+            <position>Генеральный директор</position>
+            <date>2007-10-25</date>
+            <firstDate>2007-10-25</firstDate>
+          </head>
+          <head>
+            <fio>Югай Сергей Миронович</fio>
+            <innfl>540436290184</innfl>
+            <position>Генеральный Директор</position>
+            <date>2014-08-18</date>
+            <firstDate>2014-08-18</firstDate>
+          </head>
+          <head>
+            <fio>Бороздин Дмитрий Александрович</fio>
+            <innfl>540726082845</innfl>
+            <position>Ликвидатор</position>
+            <date>2018-10-15</date>
+            <firstDate>2018-10-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

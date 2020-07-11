@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7717668845</inn>
+    <ogrn>1107746106544</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746106544</focusHref>
+    <UL>
+      <kpp>771701001</kpp>
+      <okpo>65221002</okpo>
+      <okato>45280552000</okato>
+      <okfs>24</okfs>
+      <oktmo>45349000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Айон Индустрия"</short>
+        <full>Общество с ограниченной ответственностью "Айон Индустрия"</full>
+        <date>2010-02-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129301</zipCode>
+          <kladrCode>770000000000884</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Бориса Галушкина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>10</houseRaw>
+          <bulkRaw>СТР 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-02-18</date>
+        <firstDate>2010-02-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-02-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Зажигин Сергей</fio>
+          <innfl>381810411377</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-10-15</date>
+          <firstDate>2010-04-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Митрофанова Наталья Васильевна</fio>
+            <innfl>772208181346</innfl>
+            <position>Генеральный Директор</position>
+            <date>2011-12-15</date>
+            <firstDate>2011-12-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

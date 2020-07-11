@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7733187930</inn>
+    <ogrn>1157746024721</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1157746024721</focusHref>
+    <UL>
+      <kpp>773301001</kpp>
+      <okpo>42949764</okpo>
+      <okato>45283569000</okato>
+      <okfs>16</okfs>
+      <oktmo>45368000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ АВАНГАРД"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА АВАНГАРД"</full>
+        <date>2015-01-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125310</zipCode>
+          <kladrCode>770000000001009</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Волоколамское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>112</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Корпус 1, Строение 3</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 112</houseRaw>
+          <bulkRaw>КОРПУС 1, СТРОЕНИЕ 3</bulkRaw>
+        </parsedAddressRF>
+        <date>2015-01-15</date>
+        <firstDate>2015-01-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-01-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Соболев Алексей Анатольевич</fio>
+          <innfl>773002638655</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-01-15</date>
+          <firstDate>2015-01-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125310</zipCode>
+              <kladrCode>770000000001009</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Волоколамское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>112</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1, Строение 3</topoValue>
+              </bulk>
+              <houseRaw>112</houseRaw>
+              <bulkRaw>1, СТРОЕНИЕ 3</bulkRaw>
+            </parsedAddressRF>
+            <date>2015-01-15</date>
+            <firstDate>2015-01-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

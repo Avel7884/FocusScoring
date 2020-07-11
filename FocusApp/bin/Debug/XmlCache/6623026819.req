@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623026819</inn>
+    <ogrn>1069623000260</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1069623000260</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>93629067</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Пламя"</short>
+        <full>Общество с ограниченной ответственностью "Пламя"</full>
+        <date>2006-01-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622000</zipCode>
+          <kladrCode>660000230000759</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>тракт</topoShortName>
+            <topoFullName>тракт</topoFullName>
+            <topoValue>Кушвинский</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2006-01-10</date>
+        <firstDate>2006-01-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-01-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Дермугин Алексей Александрович</fio>
+          <innfl>662331883080</innfl>
+          <position>Директор</position>
+          <date>2009-12-31</date>
+          <firstDate>2009-12-31</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Пронин Владимир Николаевич</fio>
+            <innfl>662319204913</innfl>
+            <position>Директор</position>
+            <date>2006-01-10</date>
+            <firstDate>2006-01-10</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217077422</inn>
+    <ogrn>1054217105458</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1054217105458</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>76910779</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Акком"</short>
+        <full>Общество с ограниченной ответственностью "Акком"</full>
+        <date>2008-09-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654027</zipCode>
+          <kladrCode>420000120000920</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Суворова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>4</topoValue>
+          </house>
+          <flat>
+            <topoValue>29</topoValue>
+          </flat>
+          <houseRaw>4</houseRaw>
+          <flatRaw>29</flatRaw>
+        </parsedAddressRF>
+        <date>2005-10-11</date>
+        <firstDate>2005-10-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-02-12</date>
+      </status>
+      <registrationDate>2005-10-11</registrationDate>
+      <dissolutionDate>2013-02-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шушаков Андрей Владимирович</fio>
+          <innfl>422002529100</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2011-02-10</date>
+          <firstDate>2011-02-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

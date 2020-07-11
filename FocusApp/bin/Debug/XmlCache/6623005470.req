@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623005470</inn>
+    <ogrn>1036601222228</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036601222228</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>55179434</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергопроект"</short>
+        <full>Общество с ограниченной ответственностью "Энергопроект"</full>
+        <date>2003-01-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622034</zipCode>
+          <kladrCode>660000230000271</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>67</topoValue>
+          </house>
+          <flat>
+            <topoValue>415</topoValue>
+          </flat>
+          <houseRaw>67</houseRaw>
+          <flatRaw>415</flatRaw>
+        </parsedAddressRF>
+        <date>2003-01-24</date>
+        <firstDate>2003-01-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-06-18</date>
+      </status>
+      <registrationDate>2000-10-26</registrationDate>
+      <dissolutionDate>2019-06-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шипунов Анатолий Дмитриевич</fio>
+          <innfl>666700172882</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2019-02-07</date>
+          <firstDate>2003-01-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6660092200</inn>
+    <ogrn>1026604939316</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026604939316</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okpo>43085768</okpo>
+      <okato>65401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ТК Адити"</short>
+        <full>Закрытое акционерное общество "Торговая компания Адити"</full>
+        <date>2002-09-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <kladrCode>660000010000797</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Парковый</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-10-17</date>
+        <firstDate>2007-10-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-03-23</date>
+      </status>
+      <registrationDate>1995-12-15</registrationDate>
+      <dissolutionDate>2016-03-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Толмачев Юрий Алексеевич</fio>
+          <innfl>666200539571</innfl>
+          <position>Директор</position>
+          <date>2015-11-20</date>
+          <firstDate>2002-09-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

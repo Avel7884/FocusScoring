@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7804159058</inn>
+    <ogrn>1027802488845</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027802488845</focusHref>
+    <UL>
+      <kpp>780401001</kpp>
+      <okpo>59434975</okpo>
+      <okato>40273000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40330000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энерговыбор"</short>
+        <full>Закрытое акционерное общество "Энерговыбор"</full>
+        <date>2002-09-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>195009</zipCode>
+          <kladrCode>780000000000827</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Михайлова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-17</date>
+        <firstDate>2002-09-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Юридическое лицо находится в процессе реорганизации в форме преобразования</statusString>
+        <reorganizing>true</reorganizing>
+        <date>2016-10-03</date>
+      </status>
+      <registrationDate>2002-09-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Аветов Александр Константинович</fio>
+          <innfl>470409722339</innfl>
+          <position>Генеральный Директор</position>
+          <date>2010-05-19</date>
+          <firstDate>2010-05-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

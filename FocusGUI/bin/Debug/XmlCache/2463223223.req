@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2463223223</inn>
+    <ogrn>1102468045195</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1102468045195</focusHref>
+    <UL>
+      <kpp>246401001</kpp>
+      <okpo>67658275</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ Производство"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ Производство"</full>
+        <date>2011-06-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660012</zipCode>
+          <kladrCode>240000010000661</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Семафорная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>219</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>307</topoValue>
+          </flat>
+          <houseRaw>ДОМ 219</houseRaw>
+          <flatRaw>ОФИС 307</flatRaw>
+        </parsedAddressRF>
+        <date>2014-10-28</date>
+        <firstDate>2014-10-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-04-24</date>
+      </status>
+      <registrationDate>2010-10-05</registrationDate>
+      <dissolutionDate>2015-04-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Жук Илья Сергеевич</fio>
+          <innfl>246003888682</innfl>
+          <position>Ликвидатор</position>
+          <date>2014-11-12</date>
+          <firstDate>2011-11-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>246301001</kpp>
+            <date>2011-06-07</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>660113</zipCode>
+              <kladrCode>240000010001025</kladrCode>
+              <regionCode>24</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Красноярский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Красноярск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Юшкова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>14</topoValue>
+              </house>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>67</topoValue>
+              </flat>
+              <houseRaw>14</houseRaw>
+              <flatRaw>помещение 67</flatRaw>
+            </parsedAddressRF>
+            <date>2010-10-05</date>
+            <firstDate>2010-10-05</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Тимошенко Валерия Валерьевна</fio>
+            <position>Директор</position>
+            <date>2011-06-07</date>
+            <firstDate>2011-06-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6670024640</inn>
+    <ogrn>1036603490307</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036603490307</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okpo>14049990</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автоматизированные системы"</short>
+        <full>Общество с ограниченной ответственностью "Автоматизированные системы"</full>
+        <date>2003-02-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620072</zipCode>
+          <kladrCode>660000010000010</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>40-летия Комсомола</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <flat>
+            <topoValue>44</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>44</flatRaw>
+        </parsedAddressRF>
+        <date>2003-02-10</date>
+        <firstDate>2003-02-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-06-24</date>
+      </status>
+      <registrationDate>2003-02-10</registrationDate>
+      <dissolutionDate>2014-06-24</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бунькова Елена Ильинична</fio>
+          <position>Директор</position>
+          <date>2004-04-05</date>
+          <firstDate>2004-04-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

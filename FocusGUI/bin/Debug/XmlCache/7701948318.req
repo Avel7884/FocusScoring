@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701948318</inn>
+    <ogrn>1127746115595</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127746115595</focusHref>
+    <UL>
+      <kpp>775101001</kpp>
+      <okpo>38354947</okpo>
+      <okato>45297552110</okato>
+      <okfs>16</okfs>
+      <oktmo>45941000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Пломба XXI век"</short>
+        <full>Общество с ограниченной ответственностью "Пломба XXI век"</full>
+        <date>2012-02-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>108811</zipCode>
+          <kladrCode>770010000000010</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>поселение</topoShortName>
+            <topoFullName>поселение</topoFullName>
+            <topoValue>Внуковское</topoValue>
+          </district>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Самуила Маршака</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>72</topoValue>
+          </flat>
+          <houseRaw>ДОМ 10</houseRaw>
+          <flatRaw>КВАРТИРА 72</flatRaw>
+        </parsedAddressRF>
+        <date>2018-03-01</date>
+        <firstDate>2018-03-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-02-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Кушнир Виталий Владимирович</fio>
+          <innfl>771206507777</innfl>
+          <position>Генеральный Директор</position>
+          <date>2012-02-21</date>
+          <firstDate>2012-02-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770101001</kpp>
+            <date>2012-02-21</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>105094</zipCode>
+              <kladrCode>770000000001109</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Гольяновская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>3А</topoValue>
+              </house>
+              <bulk>
+                <topoValue>3</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>помещение VI Комната 5</topoValue>
+              </flat>
+              <houseRaw>3А</houseRaw>
+              <bulkRaw>3</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ VI КОМНАТА 5</flatRaw>
+            </parsedAddressRF>
+            <date>2012-02-21</date>
+            <firstDate>2012-02-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

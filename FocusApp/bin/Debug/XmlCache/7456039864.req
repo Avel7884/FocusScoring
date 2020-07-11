@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7456039864</inn>
+    <ogrn>1187456023842</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1187456023842</focusHref>
+    <UL>
+      <kpp>745601001</kpp>
+      <okpo>28760534</okpo>
+      <okato>75438372000</okato>
+      <okfs>16</okfs>
+      <oktmo>75738000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ УСМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА УСМ"</full>
+        <date>2019-04-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>455000</zipCode>
+          <kladrCode>740000090000158</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Магнитогорск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Комсомольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <flat>
+            <topoValue>Неж.пом. 15, каб.1</topoValue>
+          </flat>
+          <houseRaw>ДОМ 23</houseRaw>
+          <flatRaw>НЕЖ.ПОМ. 15, КАБ.1</flatRaw>
+        </parsedAddressRF>
+        <date>2018-06-05</date>
+        <firstDate>2018-06-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-06-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Степанова Юлия Александровна</fio>
+          <innfl>744407918389</innfl>
+          <position>Директор</position>
+          <date>2018-06-05</date>
+          <firstDate>2018-06-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ПКФ РУМЕТАЛЛ"</short>
+            <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА РУМЕТАЛЛ"</full>
+            <date>2018-06-05</date>
+          </legalName>
+          <legalName>
+            <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА РУМЕТАЛЛ"</full>
+            <date>2018-06-05</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7839385724</inn>
+    <ogrn>1089847261151</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1089847261151</focusHref>
+    <UL>
+      <kpp>780701001</kpp>
+      <okpo>87303628</okpo>
+      <okato>40279000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40355000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Планета Металла"</short>
+        <full>Общество с ограниченной ответственностью "Планета Металла"</full>
+        <date>2008-07-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>198332</zipCode>
+          <kladrCode>780000000000691</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>79</topoValue>
+          </house>
+          <bulk>
+            <topoValue>3 лит.А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>8Н</topoValue>
+          </flat>
+          <houseRaw>79</houseRaw>
+          <bulkRaw>3 ЛИТ.А</bulkRaw>
+          <flatRaw>ПОМ 8Н</flatRaw>
+        </parsedAddressRF>
+        <date>2009-03-13</date>
+        <firstDate>2009-03-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-07-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Ермаков Алексей Юрьевич</fio>
+          <innfl>470201011897</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-07-02</date>
+          <firstDate>2008-07-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

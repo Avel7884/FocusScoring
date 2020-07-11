@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3327137030</inn>
+    <ogrn>1173328006037</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1173328006037</focusHref>
+    <UL>
+      <kpp>332801001</kpp>
+      <okpo>15425490</okpo>
+      <okato>17401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>17701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛЭНЕТ ОФ СПОРТС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛЭНЕТ ОФ СПОРТС"</full>
+        <date>2017-04-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>600026</zipCode>
+          <kladrCode>330000010000177</kladrCode>
+          <regionCode>33</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Владимирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владимир</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Куйбышева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <bulk>
+            <topoValue>помещение III</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>22</topoValue>
+          </flat>
+          <houseRaw>ДОМ 5</houseRaw>
+          <bulkRaw>ПОМЕЩЕНИЕ III</bulkRaw>
+          <flatRaw>ОФИС 22</flatRaw>
+        </parsedAddressRF>
+        <date>2019-01-31</date>
+        <firstDate>2019-01-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-04-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Макеев Сергей Анатольевич</fio>
+          <innfl>502702020171</innfl>
+          <position>Генеральный Директор</position>
+          <date>2019-04-22</date>
+          <firstDate>2019-04-22</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>332701001</kpp>
+            <date>2017-04-20</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>600015</zipCode>
+              <kladrCode>330000010000246</kladrCode>
+              <regionCode>33</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Владимирская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Владимир</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Ново-Ямская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>26А</topoValue>
+              </house>
+              <bulk>
+                <topoValue>этаж Подвал</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>помещение 1 Кабинет 1</topoValue>
+              </flat>
+              <houseRaw>ДОМ 26А</houseRaw>
+              <bulkRaw>ЭТАЖ ПОДВАЛ</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 1 КАБИНЕТ 1</flatRaw>
+            </parsedAddressRF>
+            <date>2017-04-20</date>
+            <firstDate>2017-04-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Кузнецов Дмитрий Сергеевич</fio>
+            <innfl>332803654932</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-04-20</date>
+            <firstDate>2017-04-20</firstDate>
+          </head>
+          <head>
+            <fio>Агапов Антон Викторович</fio>
+            <innfl>505399008070</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-07-13</date>
+            <firstDate>2017-07-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

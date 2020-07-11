@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5401248336</inn>
+    <ogrn>1055401086234</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1055401086234</focusHref>
+    <UL>
+      <kpp>540101001</kpp>
+      <okpo>77568314</okpo>
+      <okato>50401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Автостройснаб"</short>
+        <full>Закрытое акционерное общество "Автостройснаб"</full>
+        <date>2005-06-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630015</zipCode>
+          <kladrCode>540000010000375</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Дзержинского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <houseRaw>7</houseRaw>
+        </parsedAddressRF>
+        <date>2005-06-06</date>
+        <firstDate>2005-06-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-03-15</date>
+      </status>
+      <registrationDate>2005-06-06</registrationDate>
+      <dissolutionDate>2016-03-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Матвиенко Денис Валерьевич</fio>
+          <innfl>543210594789</innfl>
+          <position>Генеральный директор</position>
+          <date>2014-04-18</date>
+          <firstDate>2005-06-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

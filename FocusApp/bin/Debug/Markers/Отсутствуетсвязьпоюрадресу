@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Отсутствует связь по юр. адресу</Name>
+  <Colour>Yellow</Colour>
+  <Description>Организация была найдена в списке организаций, связь с которыми по указанному или юридическому адресу отсутствует(ФНС)</Description>
+  <Code>return company.GetParam("m5002") == "true"; </Code>
+</items>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2209001144</inn>
+    <ogrn>1022200805153</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022200805153</focusHref>
+    <UL>
+      <kpp>220901001</kpp>
+      <okpo>05785632</okpo>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "АЛТТРАК"</short>
+        <full>Открытое акционерное общество "Алтайский трактор"</full>
+        <date>2002-09-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658212</zipCode>
+          <kladrCode>220000090000303</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Рубцовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Тракторная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2002-09-03</date>
+        <firstDate>2002-09-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-12-28</date>
+      </status>
+      <registrationDate>1992-10-17</registrationDate>
+      <dissolutionDate>2011-12-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Заева Надежда Николаевна</fio>
+          <innfl>220901319961</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2011-02-17</date>
+          <firstDate>2011-02-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>220250001</kpp>
+            <date>2012-04-16</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Варыгин Алексей Анатольевич</fio>
+            <innfl>645203753226</innfl>
+            <position>Конкурсный управляющий</position>
+            <date>2008-10-02</date>
+            <firstDate>2008-10-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7719038888</inn>
+    <ogrn>1027739042572</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739042572</focusHref>
+    <UL>
+      <kpp>774301001</kpp>
+      <okpo>17527102</okpo>
+      <okato>45277583000</okato>
+      <okfs>16</okfs>
+      <oktmo>45342000000</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АБ "БПФ" (ЗАО)</short>
+        <full>АКЦИОНЕРНЫЙ БАНК "БАНК ПРОЕКТНОГО ФИНАНСИРОВАНИЯ" (ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО)</full>
+        <date>2002-08-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125195</zipCode>
+          <kladrCode>770000000001686</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Ленинградское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>59</topoValue>
+          </house>
+          <houseRaw>59</houseRaw>
+        </parsedAddressRF>
+        <date>2010-06-17</date>
+        <firstDate>2010-06-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2014-03-17</date>
+      </status>
+      <registrationDate>1991-12-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Мантрова Анастасия Александровна</fio>
+          <innfl>504008542630</innfl>
+          <position>Представитель Конкурсного Управляющего</position>
+          <date>2018-12-03</date>
+          <firstDate>2018-12-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>775001001</kpp>
+            <date>2009-05-04</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Исаев Олег Борисович</fio>
+            <position>Председатель Правления</position>
+            <date>2011-09-29</date>
+            <firstDate>2011-04-13</firstDate>
+          </head>
+          <head>
+            <fio>Атциев Мурад Абдулкадырович</fio>
+            <innfl>502912265940</innfl>
+            <position>Исполняющий обязанности Председателя Правления</position>
+            <date>2013-02-27</date>
+            <firstDate>2013-02-27</firstDate>
+          </head>
+          <head>
+            <fio>Вечканова Оксана Яковлевна</fio>
+            <innfl>771608015285</innfl>
+            <position>Руководитель Временной Администрации</position>
+            <date>2014-01-15</date>
+            <firstDate>2014-01-15</firstDate>
+          </head>
+          <head>
+            <fio>Бельков Андрей Олегович</fio>
+            <innfl>773702360540</innfl>
+            <position>Представитель Конкурсного Управляющего</position>
+            <date>2018-04-11</date>
+            <firstDate>2014-03-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1909000271</inn>
+    <ogrn>1061902001765</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1061902001765</focusHref>
+    <UL>
+      <kpp>190901001</kpp>
+      <okpo>35055693</okpo>
+      <okato>95225808001</okato>
+      <okfs>14</okfs>
+      <oktmo>95625408101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация Арбатского сельсовета</short>
+        <full>Администрация Арбатского сельсовета Таштыпского района Республики Хакасия</full>
+        <date>2011-09-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655753</zipCode>
+          <kladrCode>190070000030008</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Таштыпский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Арбаты</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Октябрьская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <houseRaw>18</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2006-02-07</date>
+        <firstDate>2006-02-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-02-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Лебедев Александр Сергеевич</fio>
+          <innfl>190900046985</innfl>
+          <position>Глава Арбатского Сельсовета</position>
+          <date>2017-06-26</date>
+          <firstDate>2015-09-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>Администрация МО Арбатский сельсовет</short>
+          </legalName>
+          <legalName>
+            <full>Арбатский сельсовет Таштыпского района Республики Хакасия</full>
+          </legalName>
+          <legalName>
+            <full>Администрация муниципального образования Арбатский сельсовет Таштыпского района Республики Хакасия</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Чебодаев Сергей Николаевич</fio>
+            <innfl>190900365237</innfl>
+            <position>Глава Муниципального Образования</position>
+            <date>2014-04-16</date>
+            <firstDate>2006-02-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

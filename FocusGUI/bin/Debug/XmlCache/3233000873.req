@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3233000873</inn>
+    <ogrn>1023201098030</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023201098030</focusHref>
+    <UL>
+      <kpp>325701001</kpp>
+      <okpo>05779005</okpo>
+      <okato>15401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>15701000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Энергозапчасть"</short>
+        <full>Открытое акционерное общество "Энергозапчасть"</full>
+        <date>2002-07-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>241047</zipCode>
+          <kladrCode>320000010001003</kladrCode>
+          <regionCode>32</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Брянская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Брянск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Фосфоритная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>Б</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-07-19</date>
+        <firstDate>2002-07-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Регистрирующим органом принято решение о предстоящем исключении юридического лица из ЕГРЮЛ (недействующее юридическое лицо)</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-10-23</date>
+      </status>
+      <registrationDate>1996-06-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Полошак Сергей Николаевич</fio>
+          <innfl>323406513306</innfl>
+          <position>Председатель ликвидационной комиссии</position>
+          <date>2010-05-17</date>
+          <firstDate>2010-05-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3102002644</inn>
+    <ogrn>1023100509299</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023100509299</focusHref>
+    <UL>
+      <kpp>310201001</kpp>
+      <okpo>01022328</okpo>
+      <okato>14210565000</okato>
+      <okfs>16</okfs>
+      <oktmo>14610165051</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Авторейс"</short>
+        <full>Открытое акционерное общество "Авторейс"</full>
+        <date>2006-09-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>308510</zipCode>
+          <kladrCode>310220000670038</kladrCode>
+          <regionCode>31</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Белгородская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Белгородский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Разумное</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Железнодорожная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>21</topoValue>
+          </house>
+          <houseRaw>21</houseRaw>
+        </parsedAddressRF>
+        <date>2006-06-01</date>
+        <firstDate>2006-06-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-03-05</date>
+      </status>
+      <registrationDate>1996-05-06</registrationDate>
+      <dissolutionDate>2018-03-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бунин Василий Иванович</fio>
+          <innfl>312301570789</innfl>
+          <position>Генеральный Директор</position>
+          <date>2006-03-15</date>
+          <firstDate>2006-03-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6154554610</inn>
+    <ogrn>1086154002791</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1086154002791</focusHref>
+    <UL>
+      <kpp>615401001</kpp>
+      <okpo>86242617</okpo>
+      <okato>60437000000</okato>
+      <okfs>16</okfs>
+      <oktmo>60737000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агат-Сервис"</short>
+        <full>Общество с ограниченной ответственностью "Агат-Сервис"</full>
+        <date>2008-05-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>347910</zipCode>
+          <kladrCode>610000110000172</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Таганрог</topoValue>
+          </city>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Каркасный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <flat>
+            <topoValue>59</topoValue>
+          </flat>
+          <houseRaw>7</houseRaw>
+          <flatRaw>59</flatRaw>
+        </parsedAddressRF>
+        <date>2008-05-22</date>
+        <firstDate>2008-05-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-05-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Чебанов Евгений Витальевич</fio>
+          <innfl>615408868807</innfl>
+          <position>Директор</position>
+          <date>2010-12-31</date>
+          <firstDate>2008-05-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

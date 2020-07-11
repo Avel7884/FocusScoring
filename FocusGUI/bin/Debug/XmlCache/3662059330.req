@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3662059330</inn>
+    <ogrn>1033600023423</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033600023423</focusHref>
+    <UL>
+      <kpp>366201001</kpp>
+      <okpo>54688197</okpo>
+      <okato>20401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>20701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО ПК "Газ -Турбо"</short>
+        <full>Закрытое акционерное общество производственная компания "Газ -Турбо"</full>
+        <date>2003-01-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>394026</zipCode>
+          <kladrCode>360000010000563</kladrCode>
+          <regionCode>36</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Воронежская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Воронеж</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Московский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>26</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-01-29</date>
+        <firstDate>2003-01-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-07-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Печенкина Татьяна Валентиновна</fio>
+          <innfl>366501732193</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-03-11</date>
+          <firstDate>2010-03-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

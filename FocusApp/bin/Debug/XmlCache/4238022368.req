@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4238022368</inn>
+    <ogrn>1084238000571</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1084238000571</focusHref>
+    <UL>
+      <kpp>423801001</kpp>
+      <okpo>85237749</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭнергоРесурс"</short>
+        <full>Общество с ограниченной ответственностью "ЭнергоРесурс"</full>
+        <date>2010-02-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654217</zipCode>
+          <kladrCode>420090001050013</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новокузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п/ст</topoShortName>
+            <topoFullName>поселок и(при) станция(и)</topoFullName>
+            <topoValue>Тальжино</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2008-05-29</date>
+        <firstDate>2008-05-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-05-05</date>
+      </status>
+      <registrationDate>2008-05-29</registrationDate>
+      <dissolutionDate>2011-05-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Килина Ирина Александровна</fio>
+          <innfl>422103502659</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-11-01</date>
+          <firstDate>2010-11-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

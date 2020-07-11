@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217110101</inn>
+    <ogrn>1084217009612</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1084217009612</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>87491854</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автотехцентр Мобил 1"</short>
+        <full>Общество с ограниченной ответственностью "Автотехцентр Мобил 1"</full>
+        <date>2008-11-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654027</zipCode>
+          <kladrCode>420000120001151</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Курако</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>53</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>53</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2008-11-10</date>
+        <firstDate>2008-11-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-02-08</date>
+      </status>
+      <registrationDate>2008-11-10</registrationDate>
+      <dissolutionDate>2012-02-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Червяков Александр Анатольевич</fio>
+          <innfl>421700085421</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-04-02</date>
+          <firstDate>2010-04-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

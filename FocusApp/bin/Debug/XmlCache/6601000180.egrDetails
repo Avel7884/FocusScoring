@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>6601000180</inn>
+    <ogrn>1026600508164</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026600508164</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2002-11-05</ogrnDate>
+        <regName>Администрация муниципального образования 'город Алапаевск'</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6601</nalogCode>
+        <nalogName>Территориально-обособленное подразделение № 1 Межрайонной инспекции Федеральной налоговой службы № 23 по Свердловской области</nalogName>
+        <nalogRegDate>2004-01-01</nalogRegDate>
+        <kpp>660101001</kpp>
+        <date>2006-10-12</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6658</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Верх-Исетскому району г.Екатеринбурга</nalogName>
+        <date>2015-10-08</date>
+      </regBody>
+      <statedCapital />
+      <egrRecords>
+        <egrRecord>
+          <grn>2069601014503</grn>
+          <date>2006-10-12</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Алапаевску Свердловской Области</regName>
+          <regCode>6601</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2026600508251</grn>
+          <date>2002-11-11</date>
+          <name>Ликвидация ЮЛ по решению суда</name>
+          <regName>Инспекция МНС России по г.Алапаевску Свердловской Области</regName>
+          <regCode>6601</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>66 002216435</serialNumber>
+              <date>2002-11-11</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1026600508164</grn>
+          <date>2002-11-05</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002</name>
+          <regName>Инспекция МНС России по г.Алапаевску Свердловской Области</regName>
+          <regCode>6601</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>66 002216352</serialNumber>
+              <date>2002-11-05</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

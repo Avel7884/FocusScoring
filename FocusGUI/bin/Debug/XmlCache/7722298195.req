@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7722298195</inn>
+    <ogrn>1037722038925</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037722038925</focusHref>
+    <UL>
+      <kpp>772201001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто Леон Арт Центр"</short>
+        <full>Общество с ограниченной ответственностью "Авто Леон Арт Центр"</full>
+        <date>2003-07-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109316</zipCode>
+          <kladrCode>770000000000254</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Остаповский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>6</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>6</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-07-10</date>
+        <firstDate>2003-07-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-12-11</date>
+      </status>
+      <registrationDate>2003-07-10</registrationDate>
+      <dissolutionDate>2007-12-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ефремов Кирилл Александрович</fio>
+          <innfl>772819073351</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-09-05</date>
+          <firstDate>2007-09-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

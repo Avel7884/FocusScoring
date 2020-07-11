@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>1</Score>
+  <Name>Существенное снижение выручки</Name>
+  <Colour>Red</Colour>
+  <Description>Выручка снизилась более, чем на 50%</Description>
+  <Code>long s6004;
+long s6003;
+                        if (long.TryParse(company.GetParam("s6004").Replace('.', ','), out s6004) &amp;
+                            long.TryParse(company.GetParam("s6003").Replace('.', ','), out s6003))
+                            return s6004 &lt; (0.5 * s6003);
+                        return false;</Code>
+</items>

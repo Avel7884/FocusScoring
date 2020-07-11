@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7816183908</inn>
+    <ogrn>1037835029044</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037835029044</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>56231438</okpo>
+      <okato>40296561000</okato>
+      <okfs>16</okfs>
+      <oktmo>40902000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НПП ЭНЕРГОКОМПЛЕКС"</short>
+        <full>Общество с ограниченной ответственностью "Научно-производственное предприятие ЭНЕРГОКОМПЛЕКС"</full>
+        <date>2011-12-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192102</zipCode>
+          <kladrCode>780000000001239</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Салова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>27</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-02-28</date>
+        <firstDate>2003-02-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-11-07</date>
+      </status>
+      <registrationDate>2001-05-04</registrationDate>
+      <dissolutionDate>2012-11-07</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Смирнова Вероника Владимировна</fio>
+          <innfl>781018670537</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-12-15</date>
+          <firstDate>2011-12-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Коломиец Андрей Григорьевич</fio>
+            <innfl>780208959830</innfl>
+            <position>Генеральный директор</position>
+            <date>2004-08-02</date>
+            <firstDate>2004-08-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

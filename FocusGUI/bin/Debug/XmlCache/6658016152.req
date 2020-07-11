@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658016152</inn>
+    <ogrn>1026602350257</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602350257</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okpo>26434434</okpo>
+      <okato>65401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО Предприятие "Абсолют"</short>
+        <full>Общество с ограниченной ответственностью Предприятие "Абсолют"</full>
+        <date>2002-12-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620000</zipCode>
+          <kladrCode>660000010000368</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <flat>
+            <topoValue>151</topoValue>
+          </flat>
+          <houseRaw>27</houseRaw>
+          <flatRaw>151</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-20</date>
+        <firstDate>2002-12-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-03-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Медведев Сергей Владимирович</fio>
+          <position>Директор</position>
+          <date>2002-12-20</date>
+          <firstDate>2002-12-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

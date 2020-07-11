@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4252006329</inn>
+    <ogrn>1144252000397</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1144252000397</focusHref>
+    <UL>
+      <kpp>425201001</kpp>
+      <okpo>22920391</okpo>
+      <okato>32219832001</okato>
+      <okfs>14</okfs>
+      <oktmo>32619432101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Красулинского сельского поселения</full>
+        <date>2014-04-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654212</zipCode>
+          <kladrCode>420090000590012</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новокузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Красулино</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Центральная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>31</topoValue>
+          </house>
+          <houseRaw>31</houseRaw>
+        </parsedAddressRF>
+        <date>2014-04-15</date>
+        <firstDate>2014-04-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-04-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Иванова Евгения Геннадьевна</fio>
+          <innfl>423802252932</innfl>
+          <position>И.О.Главы Красулинского Сел-Го Поселения</position>
+          <date>2019-10-15</date>
+          <firstDate>2018-05-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Васильев Сергей Федорович</fio>
+            <innfl>423810441700</innfl>
+            <position>Глава Красулинского Сельского Поселения</position>
+            <date>2014-04-15</date>
+            <firstDate>2014-04-15</firstDate>
+          </head>
+          <head>
+            <fio>Седов Дмитрий Евгеньевич</fio>
+            <innfl>423802870103</innfl>
+            <position>Глава Красулинского Сельского Поселения</position>
+            <date>2018-07-09</date>
+            <firstDate>2018-07-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

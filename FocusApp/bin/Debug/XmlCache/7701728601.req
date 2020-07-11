@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701728601</inn>
+    <ogrn>5077746947702</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5077746947702</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>80889938</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергосервис"</short>
+        <full>Общество с ограниченной ответственностью "Энергосервис"</full>
+        <date>2007-06-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>101000</zipCode>
+          <kladrCode>770000000002009</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пл</topoShortName>
+            <topoFullName>площадь</topoFullName>
+            <topoValue>Новая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3/4</topoValue>
+          </house>
+          <flat>
+            <topoValue>Под. 7в</topoValue>
+          </flat>
+          <houseRaw>3/4</houseRaw>
+          <flatRaw>ПОД. 7В</flatRaw>
+        </parsedAddressRF>
+        <date>2007-06-18</date>
+        <firstDate>2007-06-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-07-11</date>
+      </status>
+      <registrationDate>2007-06-18</registrationDate>
+      <dissolutionDate>2016-07-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Петренко Олег Владиславович</fio>
+          <innfl>772783587738</innfl>
+          <position>Генеральный директор</position>
+          <date>2013-01-31</date>
+          <firstDate>2009-10-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

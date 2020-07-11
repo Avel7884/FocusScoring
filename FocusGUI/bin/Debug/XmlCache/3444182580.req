@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3444182580</inn>
+    <ogrn>1103444008062</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1103444008062</focusHref>
+    <UL>
+      <kpp>344401001</kpp>
+      <okpo>69322585</okpo>
+      <okato>18401395000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГРОСЕТЬ-ИМПОРТ"</short>
+        <full>Общество с ограниченной ответственностью "АГРОСЕТЬ-ИМПОРТ"</full>
+        <date>2010-12-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400087</zipCode>
+          <kladrCode>340000010002432</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Двинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <flat>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>15</houseRaw>
+          <flatRaw>2</flatRaw>
+        </parsedAddressRF>
+        <date>2010-12-24</date>
+        <firstDate>2010-12-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Регистрирующим органом принято решение о предстоящем исключении юридического лица из ЕГРЮЛ (наличие в ЕГРЮЛ сведений о юридическом лице, в отношении которых внесена запись о недостоверности)</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-11-06</date>
+      </status>
+      <registrationDate>2010-12-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Болбас Александр Анатольевич</fio>
+          <innfl>595602419529</innfl>
+          <position>Директор</position>
+          <date>2018-02-08</date>
+          <firstDate>2018-02-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Чекунов Михаил Васильевич</fio>
+            <innfl>340331034244</innfl>
+            <position>Директор</position>
+            <date>2010-12-24</date>
+            <firstDate>2010-12-24</firstDate>
+          </head>
+          <head>
+            <fio>Малышев Владимир Владимирович</fio>
+            <innfl>344106736232</innfl>
+            <position>Директор</position>
+            <date>2016-06-28</date>
+            <firstDate>2016-06-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

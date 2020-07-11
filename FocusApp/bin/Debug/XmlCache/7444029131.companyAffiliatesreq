@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7444029131</inn>
+    <ogrn>1027402068308</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027402068308</focusHref>
+    <UL>
+      <kpp>744401001</kpp>
+      <okpo>51486334</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЗУР"</short>
+        <full>Общество с ограниченной ответственностью "АЗУР"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>455000</zipCode>
+          <kladrCode>740000090000158</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Магнитогорск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Комсомольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>25</topoValue>
+          </house>
+          <flat>
+            <topoValue>29</topoValue>
+          </flat>
+          <houseRaw>25</houseRaw>
+          <flatRaw>29</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-31</date>
+        <firstDate>2002-12-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-30</date>
+      </status>
+      <registrationDate>2000-03-17</registrationDate>
+      <dissolutionDate>2011-03-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сергеев Анатолий Александрович</fio>
+          <position>Директор</position>
+          <date>2002-12-31</date>
+          <firstDate>2002-12-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

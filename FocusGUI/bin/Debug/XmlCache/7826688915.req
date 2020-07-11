@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7826688915</inn>
+    <ogrn>1027810279782</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027810279782</focusHref>
+    <UL>
+      <kpp>783901001</kpp>
+      <okpo>48007767</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Агис-Невский"</short>
+        <full>Закрытое акционерное общество "Агис-Невский"</full>
+        <date>2002-11-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>190005</zipCode>
+          <kladrCode>780000000000617</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноармейская 2-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>12-Н</topoValue>
+          </flat>
+          <houseRaw>13</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 12-Н</flatRaw>
+        </parsedAddressRF>
+        <date>2010-10-22</date>
+        <firstDate>2010-10-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-02-08</date>
+      </status>
+      <registrationDate>1998-03-30</registrationDate>
+      <dissolutionDate>2011-02-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шведюк Игорь Валерьевич</fio>
+          <innfl>781705347074</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-11-12</date>
+          <firstDate>2010-11-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

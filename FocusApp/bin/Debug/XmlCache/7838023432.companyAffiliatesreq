@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7802307494</inn>
+    <ogrn>1047855102965</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047855102965</focusHref>
+    <UL>
+      <kpp>780201001</kpp>
+      <okpo>74762470</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВИРТУС"</short>
+        <full>Общество с ограниченной ответственностью "ВИРТУС"</full>
+        <date>2004-10-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>194156</zipCode>
+          <kladrCode>780000000001548</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Энгельса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13/2</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Л</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>15-Н</topoValue>
+          </flat>
+          <houseRaw>13/2</houseRaw>
+          <bulkRaw>ЛИТ.Л</bulkRaw>
+          <flatRaw>ПОМ.15-Н</flatRaw>
+        </parsedAddressRF>
+        <date>2004-10-07</date>
+        <firstDate>2004-10-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-30</date>
+      </status>
+      <registrationDate>2004-10-07</registrationDate>
+      <dissolutionDate>2012-01-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Абаимов Андрей Дмитриевич</fio>
+          <innfl>780229881905</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-11-19</date>
+          <firstDate>2004-11-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7838023432</inn>
+    <ogrn>1047833017671</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047833017671</focusHref>
+    <UL>
+      <kpp>783801001</kpp>
+      <okpo>72460997</okpo>
+      <okato>40262000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40304000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоДока"</short>
+        <full>Общество с ограниченной ответственностью "АвтоДока"</full>
+        <date>2004-04-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>198013</zipCode>
+          <kladrCode>780000000001089</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Подольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <flat>
+            <topoValue>П.13</topoValue>
+          </flat>
+          <houseRaw>40</houseRaw>
+          <flatRaw>П.13</flatRaw>
+        </parsedAddressRF>
+        <date>2004-04-12</date>
+        <firstDate>2004-04-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-11-26</date>
+      </status>
+      <registrationDate>2004-04-12</registrationDate>
+      <dissolutionDate>2018-11-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Рожкова Ольга Владимировна</fio>
+          <position>Генеральный директор</position>
+          <date>2005-06-10</date>
+          <firstDate>2005-06-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

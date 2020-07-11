@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7107547529</inn>
+    <ogrn>1147154005844</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1147154005844</focusHref>
+    <UL>
+      <kpp>710701001</kpp>
+      <okpo>24682211</okpo>
+      <okato>70401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>70701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ" ЭНЕРГОСЕРВИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ"ЭНЕРГОСЕРВИС"</full>
+        <date>2014-02-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>300041</zipCode>
+          <kladrCode>710000010000009</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тула</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Оборонная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>ДОМ 12</houseRaw>
+          <flatRaw>ОФИС 10</flatRaw>
+        </parsedAddressRF>
+        <date>2014-02-12</date>
+        <firstDate>2014-02-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-02-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Касаткин Сергей Петрович</fio>
+          <innfl>711202630796</innfl>
+          <position>Директор</position>
+          <date>2014-05-24</date>
+          <firstDate>2014-02-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

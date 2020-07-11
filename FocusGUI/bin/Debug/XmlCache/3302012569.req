@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3302012569</inn>
+    <ogrn>1023301290737</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023301290737</focusHref>
+    <UL>
+      <kpp>332701001</kpp>
+      <okpo>01333790</okpo>
+      <okato>17401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>17701000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО УПТК "Агрострой"</short>
+        <full>Открытое акционерное общество Управление производственно-технологической комплектации "Агрострой"</full>
+        <date>2002-12-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>600033</zipCode>
+          <kladrCode>330000010000451</kladrCode>
+          <regionCode>33</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Владимирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владимир</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Складская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2003-09-26</date>
+        <firstDate>2003-09-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1995-04-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Бабаков Виктор Алексеевич</fio>
+          <innfl>332802323102</innfl>
+          <position>Директор</position>
+          <date>2003-09-25</date>
+          <firstDate>2003-09-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

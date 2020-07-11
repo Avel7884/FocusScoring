@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6665006814</inn>
+    <ogrn>1026600938430</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026600938430</focusHref>
+    <UL>
+      <kpp>661201001</kpp>
+      <okpo>43092248</okpo>
+      <okato>65436369000</okato>
+      <okfs>16</okfs>
+      <oktmo>65740000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергомашкомплект"</short>
+        <full>Общество с ограниченной ответственностью "Энергомашкомплект"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>623428</zipCode>
+          <kladrCode>660000220000258</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Каменск-Уральский</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>64</topoValue>
+          </house>
+          <houseRaw>64</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-31</date>
+        <firstDate>2002-12-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-09-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Лопатин Герман Михайлович</fio>
+          <innfl>661200022706</innfl>
+          <position>Директор</position>
+          <date>2010-03-18</date>
+          <firstDate>2010-03-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

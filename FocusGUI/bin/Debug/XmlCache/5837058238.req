@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5837058238</inn>
+    <ogrn>1145837000913</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1145837000913</focusHref>
+    <UL>
+      <kpp>583701001</kpp>
+      <okpo>24007863</okpo>
+      <okato>56401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>56701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП НГО"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКОЕ ПРЕДПРИЯТИЕ НЕФТЕГАЗОВОГО ОБОРУДОВАНИЯ"</full>
+        <date>2014-04-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>440046</zipCode>
+          <kladrCode>580000010000494</kladrCode>
+          <regionCode>58</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Пензенская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пенза</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9А</topoValue>
+          </house>
+          <houseRaw>9А</houseRaw>
+        </parsedAddressRF>
+        <date>2014-04-02</date>
+        <firstDate>2014-04-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-04-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Жучков Юрий Иванович</fio>
+          <innfl>583401765127</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-04-02</date>
+          <firstDate>2014-04-02</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>8</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

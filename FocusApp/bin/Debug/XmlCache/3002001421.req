@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3002001421</inn>
+    <ogrn>1023001541320</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1023001541320</focusHref>
+    <UL>
+      <kpp>300201001</kpp>
+      <okpo>04111535</okpo>
+      <okato>12210836001</okato>
+      <okfs>14</okfs>
+      <oktmo>12610436101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация МО "Мултановский сельсовет"</short>
+        <full>Администрация муниципального образования "Мултановский сельсовет"</full>
+        <date>2002-11-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>416182</zipCode>
+          <kladrCode>300030000550004</kladrCode>
+          <regionCode>30</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Астраханская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Володарский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Мултаново</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <houseRaw>15</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-22</date>
+        <firstDate>2002-11-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1996-12-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Кадралиева Светлана Ислямовна</fio>
+          <innfl>300200377387</innfl>
+          <position>Глава Администрации</position>
+          <date>2015-10-05</date>
+          <firstDate>2015-10-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Федорченко Павел Иванович</fio>
+            <innfl>300200950248</innfl>
+            <position>Глава администрации</position>
+            <date>2012-04-10</date>
+            <firstDate>2012-04-10</firstDate>
+          </head>
+          <head>
+            <fio>Бисенов Гумар Уакиевич</fio>
+            <innfl>300201401716</innfl>
+            <position>Глава Администрации</position>
+            <date>2013-06-21</date>
+            <firstDate>2011-03-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

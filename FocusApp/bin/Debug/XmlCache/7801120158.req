@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7801120158</inn>
+    <ogrn>1037800008465</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037800008465</focusHref>
+    <UL>
+      <kpp>780101001</kpp>
+      <okpo>50056342</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Планета"</short>
+        <full>Общество с ограниченной ответственностью "Планета"</full>
+        <date>2003-01-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>199155</zipCode>
+          <kladrCode>780000000000353</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Декабристов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <houseRaw>20</houseRaw>
+        </parsedAddressRF>
+        <date>2009-11-23</date>
+        <firstDate>2009-11-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-12-17</date>
+      </status>
+      <registrationDate>1999-02-23</registrationDate>
+      <dissolutionDate>2012-12-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Койфман Михаил Израилевич</fio>
+          <innfl>782701689801</innfl>
+          <position>Генеральный директор</position>
+          <date>2009-09-16</date>
+          <firstDate>2009-09-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

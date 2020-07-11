@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725041617</inn>
+    <ogrn>1027739475081</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739475081</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okpo>26945672</okpo>
+      <okato>45296559000</okato>
+      <okfs>16</okfs>
+      <oktmo>45914000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ЭПМ"</short>
+        <full>Закрытое акционерное общество "Энергопроммаркет"</full>
+        <date>2002-10-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115280</zipCode>
+          <kladrCode>770000000001688</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленинская Слобода</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <houseRaw>23</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-29</date>
+        <firstDate>2002-10-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1993-03-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Серегин Сергей Валериевич</fio>
+          <innfl>773311890267</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-07</date>
+          <firstDate>2002-10-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

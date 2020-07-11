@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7724293940</inn>
+    <ogrn>1037724067006</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037724067006</focusHref>
+    <UL>
+      <kpp>632101001</kpp>
+      <okpo>71350643</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоКомИнвест"</short>
+        <full>Общество с ограниченной ответственностью "АвтоКомИнвест"</full>
+        <date>2003-11-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>445031</zipCode>
+          <kladrCode>630000070000501</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тольятти</topoValue>
+          </city>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Татищева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <flat>
+            <topoValue>12</topoValue>
+          </flat>
+          <houseRaw>16</houseRaw>
+          <flatRaw>12</flatRaw>
+        </parsedAddressRF>
+        <date>2007-12-28</date>
+        <firstDate>2007-12-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-10-08</date>
+      </status>
+      <registrationDate>2003-11-24</registrationDate>
+      <dissolutionDate>2010-10-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Душевский Владислав Михайлович</fio>
+          <innfl>230600123760</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-12-28</date>
+          <firstDate>2007-12-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

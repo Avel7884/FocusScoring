@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2211004801</inn>
+    <ogrn>1072210000598</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072210000598</focusHref>
+    <UL>
+      <kpp>221101001</kpp>
+      <okpo>99767327</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "КЦ АЛТАЙХИМПРОМ"</short>
+        <full>Общество с ограниченной ответственностью "Коммерческий центр АЛТАЙХИМПРОМ"</full>
+        <date>2007-03-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>658839</zipCode>
+          <kladrCode>220000120000016</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Яровое</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заводская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <houseRaw>2</houseRaw>
+        </parsedAddressRF>
+        <date>2007-03-14</date>
+        <firstDate>2007-03-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-01-27</date>
+      </status>
+      <registrationDate>2007-03-14</registrationDate>
+      <dissolutionDate>2012-01-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Лысенко Светлана Сергеевна</fio>
+          <innfl>221101135967</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-12-03</date>
+          <firstDate>2007-12-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3448048699</inn>
+    <ogrn>1093461004042</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1093461004042</focusHref>
+    <UL>
+      <kpp>343501001</kpp>
+      <okpo>64668617</okpo>
+      <okato>18410000000</okato>
+      <okfs>16</okfs>
+      <oktmo>18710000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "СоюзСталь"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "СоюзСталь"</full>
+        <date>2009-12-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>404111</zipCode>
+          <kladrCode>340000020000032</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волжский</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Молодежная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>30</topoValue>
+          </house>
+          <houseRaw>30</houseRaw>
+        </parsedAddressRF>
+        <date>2012-07-10</date>
+        <firstDate>2012-07-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-11-21</date>
+      </status>
+      <registrationDate>2009-12-21</registrationDate>
+      <dissolutionDate>2013-11-21</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Коннова Людмила Ивановна</fio>
+          <innfl>343519658305</innfl>
+          <position>Руководитель Ликвидационной Комиссии</position>
+          <date>2013-08-28</date>
+          <firstDate>2011-02-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>344801001</kpp>
+            <date>2009-12-21</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400051</zipCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Динамовская 2-я</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>19</topoValue>
+              </house>
+              <houseRaw>19</houseRaw>
+            </parsedAddressRF>
+            <date>2009-12-21</date>
+            <firstDate>2009-12-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

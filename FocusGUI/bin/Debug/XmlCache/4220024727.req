@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4220024727</inn>
+    <ogrn>1034220003784</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034220003784</focusHref>
+    <UL>
+      <kpp>422001001</kpp>
+      <okpo>70606617</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКВА-ТРАНС НК"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АКВА-ТРАНС НК"</full>
+        <date>2003-08-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654004</zipCode>
+          <kladrCode>420000120001125</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Щорса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15А</topoValue>
+          </house>
+          <houseRaw>15 А</houseRaw>
+        </parsedAddressRF>
+        <date>2003-08-12</date>
+        <firstDate>2003-08-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-04-10</date>
+      </status>
+      <registrationDate>2003-08-12</registrationDate>
+      <dissolutionDate>2012-04-10</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пойкин Владимир Леонидович</fio>
+          <innfl>540121732618</innfl>
+          <position>Генеральный Директор</position>
+          <date>2006-07-26</date>
+          <firstDate>2006-07-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

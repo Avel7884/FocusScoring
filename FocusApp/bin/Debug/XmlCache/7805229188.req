@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7805229188</inn>
+    <ogrn>1037811021665</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037811021665</focusHref>
+    <UL>
+      <kpp>780501001</kpp>
+      <okpo>50046846</okpo>
+      <okato>40276000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40338000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "НПО "Агротехкомплект"</short>
+        <full>Закрытое акционерное общество "Научно-производственное объединение "Агротехкомплект"</full>
+        <date>2003-01-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>198096</zipCode>
+          <kladrCode>780000000000458</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Зенитчиков</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <houseRaw>5</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-31</date>
+        <firstDate>2003-01-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2017-07-13</date>
+      </status>
+      <registrationDate>2001-10-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Степанов Александр Владимирович</fio>
+          <innfl>690202825103</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2015-07-03</date>
+          <firstDate>2015-07-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Сахарова Ольга Владимировна</fio>
+            <innfl>781012374926</innfl>
+            <position>Генеральный директор</position>
+            <date>2003-01-30</date>
+            <firstDate>2003-01-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

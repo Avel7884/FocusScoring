@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7731430234</inn>
+    <ogrn>1127746555606</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127746555606</focusHref>
+    <UL>
+      <kpp>773101001</kpp>
+      <okpo>11264446</okpo>
+      <okato>45268562000</okato>
+      <okfs>16</okfs>
+      <oktmo>45320000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛАТЭК"</short>
+        <full>Общество с ограниченной ответственностью "ПЛАТЭК"</full>
+        <date>2012-07-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121351</zipCode>
+          <kladrCode>770000000003313</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ивана Франко</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>40</houseRaw>
+          <bulkRaw>СТР.2</bulkRaw>
+        </parsedAddressRF>
+        <date>2012-07-18</date>
+        <firstDate>2012-07-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-07-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Рябов Олег Владимирович</fio>
+          <innfl>771307619597</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-07-18</date>
+          <firstDate>2012-07-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

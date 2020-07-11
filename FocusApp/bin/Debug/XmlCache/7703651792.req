@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703651792</inn>
+    <ogrn>1077763818450</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077763818450</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>84099305</okpo>
+      <okato>45286575000</okato>
+      <okfs>16</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АТС"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АДМИНИСТРАТОР ТОРГОВОЙ СИСТЕМЫ ОПТОВОГО РЫНКА ЭЛЕКТРОЭНЕРГИИ"</full>
+        <date>2016-07-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123610</zipCode>
+          <kladrCode>770000000001592</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Краснопресненская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Подьезд 7</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 8</topoValue>
+          </flat>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>ПОДЬЕЗД 7</bulkRaw>
+          <flatRaw>ЭТАЖ 8</flatRaw>
+        </parsedAddressRF>
+        <date>2007-12-13</date>
+        <firstDate>2007-12-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-12-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Быстров Максим Сергеевич</fio>
+          <innfl>773400437605</innfl>
+          <position>Председатель Правления</position>
+          <date>2013-11-28</date>
+          <firstDate>2013-11-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО "АТС"</short>
+            <full>Открытое акционерное общество "Администратор торговой системы оптового рынка электроэнергии"</full>
+            <date>2007-12-13</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Пономарев Дмитрий Валерьевич</fio>
+            <innfl>770300861935</innfl>
+            <position>Председатель Правления</position>
+            <date>2007-12-13</date>
+            <firstDate>2007-12-13</firstDate>
+          </head>
+          <head>
+            <fio>Кравченко Вячеслав Михайлович</fio>
+            <position>Председатель Правления</position>
+            <date>2013-01-17</date>
+            <firstDate>2012-01-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

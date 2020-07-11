@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6319135652</inn>
+    <ogrn>1076319004288</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076319004288</focusHref>
+    <UL>
+      <kpp>631901001</kpp>
+      <okpo>99396173</okpo>
+      <okato>36401386000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701335000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭнергоСнаб"</short>
+        <full>Общество с ограниченной ответственностью "ЭнергоСнаб"</full>
+        <date>2007-01-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443125</zipCode>
+          <kladrCode>630000010000097</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ново-Вокзальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>255</topoValue>
+          </house>
+          <flat>
+            <topoValue>37</topoValue>
+          </flat>
+          <houseRaw>255</houseRaw>
+          <flatRaw>37</flatRaw>
+        </parsedAddressRF>
+        <date>2007-01-25</date>
+        <firstDate>2007-01-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-01-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Макаров Владимир Борисович</fio>
+          <innfl>631920946607</innfl>
+          <position>Директор</position>
+          <date>2018-04-11</date>
+          <firstDate>2007-01-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

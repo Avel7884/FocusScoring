@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7814414405</inn>
+    <ogrn>1089847300289</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1089847300289</focusHref>
+    <UL>
+      <kpp>781401001</kpp>
+      <okpo>87346218</okpo>
+      <okato>40270000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40324000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМ-Ресурс"</short>
+        <full>Общество с ограниченной ответственностью "ПМ-Ресурс"</full>
+        <date>2008-07-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197348</zipCode>
+          <kladrCode>780000000000561</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Коломяжский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10</topoValue>
+          </house>
+          <bulk>
+            <topoValue>литер Ах</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 10</houseRaw>
+          <bulkRaw>ЛИТЕР АХ</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-06-21</date>
+        <firstDate>2008-07-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-07-31</registrationDate>
+      <heads>
+        <head>
+          <fio>Цветков Антон Николаевич</fio>
+          <innfl>660900462531</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-11-19</date>
+          <firstDate>2012-11-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>197372</zipCode>
+              <kladrCode>780000000000281</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Гаккелевская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>21</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <houseRaw>21</houseRaw>
+              <bulkRaw>ЛИТЕР А</bulkRaw>
+            </parsedAddressRF>
+            <date>2012-05-16</date>
+            <firstDate>2012-05-16</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Вихров Александр Геннадьевич</fio>
+            <position>Генеральный директор</position>
+            <date>2009-12-21</date>
+            <firstDate>2009-12-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

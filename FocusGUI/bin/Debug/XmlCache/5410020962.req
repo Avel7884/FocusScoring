@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5410020962</inn>
+    <ogrn>1085410005229</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1085410005229</focusHref>
+    <UL>
+      <kpp>541001001</kpp>
+      <okpo>86854585</okpo>
+      <okato>50401373000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плазма-сервис"</short>
+        <full>Общество с ограниченной ответственностью "Плазма-сервис"</full>
+        <date>2008-08-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630110</zipCode>
+          <kladrCode>540000010000850</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Народная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>77</topoValue>
+          </house>
+          <houseRaw>77</houseRaw>
+        </parsedAddressRF>
+        <date>2008-08-13</date>
+        <firstDate>2008-08-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-08-13</registrationDate>
+      <heads>
+        <head>
+          <fio>Облызалов Олег Николаевич</fio>
+          <innfl>540317337690</innfl>
+          <position>Директор</position>
+          <date>2018-04-13</date>
+          <firstDate>2008-08-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

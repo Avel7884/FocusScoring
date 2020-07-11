@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4810002363</inn>
+    <ogrn>1034800063715</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034800063715</focusHref>
+    <UL>
+      <kpp>481001001</kpp>
+      <okpo>14889589</okpo>
+      <okato>42230812001</okato>
+      <okfs>16</okfs>
+      <oktmo>42630412101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АФ "имени Калинина"</short>
+        <full>Общество с ограниченной ответственностью "Агрофирма "имени Калинина"</full>
+        <date>2003-10-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>399663</zipCode>
+          <kladrCode>48011000010</kladrCode>
+          <regionCode>48</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Липецкая</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Краснинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Верхнедрезгалово</topoValue>
+          </settlement>
+          <houseRaw>0</houseRaw>
+          <bulkRaw>-</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2003-10-14</date>
+        <firstDate>2003-10-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Юридическое лицо находится в процессе реорганизации в форме присоединения к другому юридическому лицу</statusString>
+        <reorganizing>true</reorganizing>
+        <date>2019-09-13</date>
+      </status>
+      <registrationDate>2003-10-14</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АГРОСЕРВИС"</name>
+          <inn>5032095822</inn>
+          <ogrn>1035006497393</ogrn>
+          <date>2019-06-25</date>
+          <firstDate>2019-06-25</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <managementCompanies>
+          <managementCompany>
+            <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ГРУППА КОМПАНИЙ ТРИО"</name>
+            <inn>4823037028</inn>
+            <ogrn>1094823005298</ogrn>
+            <date>2016-05-04</date>
+            <firstDate>2011-09-29</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Турбанова Елена Владимировна</fio>
+            <innfl>482601425684</innfl>
+            <position>Представитель Управляющей компании</position>
+            <date>2011-09-29</date>
+            <firstDate>2011-09-29</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

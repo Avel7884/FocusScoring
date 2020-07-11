@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5401182607</inn>
+    <ogrn>1025400511091</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025400511091</focusHref>
+    <UL>
+      <kpp>540101001</kpp>
+      <okpo>57875190</okpo>
+      <okato>50401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АДЭКС-Сервис"</short>
+        <full>Общество с ограниченной ответственностью "АДЭКС-Сервис"</full>
+        <date>2002-09-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630051</zipCode>
+          <kladrCode>540000010000375</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Дзержинского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>87</topoValue>
+          </house>
+          <bulk>
+            <topoValue>9</topoValue>
+          </bulk>
+          <houseRaw>87</houseRaw>
+          <bulkRaw>9</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-10-19</date>
+        <firstDate>2006-10-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-07-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Афанасьев Вячеслав Борисович</fio>
+          <position>Генеральный директор</position>
+          <date>2014-06-05</date>
+          <firstDate>2006-10-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

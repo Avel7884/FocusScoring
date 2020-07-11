@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7724619165</inn>
+    <ogrn>5077746786530</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5077746786530</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>80861561</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Павлово-Центр"</short>
+        <full>Общество с ограниченной ответственностью "Павлово-Центр"</full>
+        <date>2012-02-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127055</zipCode>
+          <kladrCode>770000000000533</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новослободская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>23</topoValue>
+          </house>
+          <flat>
+            <topoValue>Эт/пом/Ком 3/1/58</topoValue>
+          </flat>
+          <houseRaw>ДОМ 23</houseRaw>
+          <flatRaw>ЭТ/ПОМ/КОМ 3/1/58</flatRaw>
+        </parsedAddressRF>
+        <date>2018-07-26</date>
+        <firstDate>2018-07-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-11-26</date>
+      </status>
+      <registrationDate>2007-05-14</registrationDate>
+      <dissolutionDate>2018-11-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Мухина Нина Ивановна</fio>
+          <innfl>773603020824</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-09-27</date>
+          <firstDate>2017-09-27</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "АКТИВ+"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью "АКТИВ+"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127055</zipCode>
+              <kladrCode>770000000000533</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Новослободская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>23</topoValue>
+              </house>
+              <houseRaw>23</houseRaw>
+            </parsedAddressRF>
+            <date>2012-10-19</date>
+            <firstDate>2012-10-19</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127055</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Новослободская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>24</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>4</topoValue>
+              </bulk>
+              <houseRaw>24</houseRaw>
+              <bulkRaw>СТР.4</bulkRaw>
+            </parsedAddressRF>
+            <date>2007-09-17</date>
+            <firstDate>2007-09-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Анпилогов Игорь Сергеевич</fio>
+            <innfl>504102345809</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-08-28</date>
+            <firstDate>2012-08-28</firstDate>
+          </head>
+          <head>
+            <fio>Костин Алексей Михайлович</fio>
+            <innfl>772426478523</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-05-18</date>
+            <firstDate>2011-07-12</firstDate>
+          </head>
+          <head>
+            <fio>Лагутин Владимир Александрович</fio>
+            <innfl>770402114604</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-10-05</date>
+            <firstDate>2016-10-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

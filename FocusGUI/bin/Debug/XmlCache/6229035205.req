@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6229035205</inn>
+    <ogrn>1036206007584</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036206007584</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>70346473</okpo>
+      <okato>45290572000</okato>
+      <okfs>16</okfs>
+      <oktmo>45390000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ПРОМСТРОЙ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "ПРОМСТРОЙ"</full>
+        <date>2003-10-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109469</zipCode>
+          <kladrCode>770000000004347</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Перервинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>17</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2013-12-26</date>
+        <firstDate>2013-12-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-04-09</date>
+      </status>
+      <registrationDate>2003-10-27</registrationDate>
+      <dissolutionDate>2018-04-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Михайлова Анна Владимировна</fio>
+          <innfl>621302327980</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-07-19</date>
+          <firstDate>2013-12-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>623401001</kpp>
+            <date>2013-12-26</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>390005</zipCode>
+              <regionCode>62</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Рязанская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Рязань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Татарская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15</topoValue>
+              </house>
+              <houseRaw>15</houseRaw>
+            </parsedAddressRF>
+            <date>2011-01-14</date>
+            <firstDate>2011-01-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Лобанов Павел Сергеевич</fio>
+            <position>Генеральный директор</position>
+            <date>2011-05-25</date>
+            <firstDate>2011-05-25</firstDate>
+          </head>
+          <head>
+            <fio>Клочков Александр Юрьевич</fio>
+            <position>Генеральный директор</position>
+            <date>2012-07-19</date>
+            <firstDate>2012-07-19</firstDate>
+          </head>
+          <head>
+            <fio>Моранга-Итуа Артур Франсуаевич</fio>
+            <innfl>623411416521</innfl>
+            <position>Генеральный Директор</position>
+            <date>2013-09-30</date>
+            <firstDate>2013-09-30</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

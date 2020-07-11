@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5042094144</inn>
+    <ogrn>1075038011091</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075038011091</focusHref>
+    <UL>
+      <kpp>504201001</kpp>
+      <okpo>81640738</okpo>
+      <okato>46215501000</okato>
+      <okfs>16</okfs>
+      <oktmo>46615101001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АБК ЭНЕРГОСИСТЕМА"</short>
+        <full>Общество с ограниченной ответственностью "АБК ЭНЕРГОСИСТЕМА"</full>
+        <date>2009-09-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>141304</zipCode>
+          <kladrCode>500300050000133</kladrCode>
+          <regionCode>50</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Московская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Сергиев Посад</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Московское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>42</topoValue>
+          </house>
+          <houseRaw>42</houseRaw>
+        </parsedAddressRF>
+        <date>2010-06-11</date>
+        <firstDate>2010-06-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-05-19</date>
+      </status>
+      <registrationDate>2007-07-02</registrationDate>
+      <dissolutionDate>2011-05-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Титова Галина Алексеевна</fio>
+          <innfl>504211977170</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-04-28</date>
+          <firstDate>2010-04-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>141304</zipCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Сергиево-Посадский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Сергиев Посад</topoValue>
+              </city>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Московское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>42</topoValue>
+              </house>
+              <houseRaw>42</houseRaw>
+            </parsedAddressRF>
+            <date>2010-06-11</date>
+            <firstDate>2010-06-11</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

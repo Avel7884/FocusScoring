@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7708716490</inn>
+    <ogrn>1107746229392</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746229392</focusHref>
+    <UL>
+      <kpp>770801001</kpp>
+      <okpo>66314711</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Абсолют"</short>
+        <full>Общество с ограниченной ответственностью "Абсолют"</full>
+        <date>2010-03-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107045</zipCode>
+          <kladrCode>770000000000690</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Уланский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>5</topoValue>
+          </bulk>
+          <houseRaw>11</houseRaw>
+          <bulkRaw>СТР. 5</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-03-26</date>
+        <firstDate>2010-03-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-08-06</date>
+      </status>
+      <registrationDate>2010-03-26</registrationDate>
+      <dissolutionDate>2012-08-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чиликов Павел Михайлович</fio>
+          <innfl>772607857996</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-03-26</date>
+          <firstDate>2010-03-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

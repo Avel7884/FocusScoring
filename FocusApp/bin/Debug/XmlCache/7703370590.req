@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703370590</inn>
+    <ogrn>1037703017791</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037703017791</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>14599093</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ГАЗ-Ойл"</short>
+        <full>Общество с ограниченной ответственностью "ГАЗ-Ойл"</full>
+        <date>2003-04-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123290</zipCode>
+          <kladrCode>770000000003158</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Шмитовский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34-36</topoValue>
+          </house>
+          <houseRaw>34-36</houseRaw>
+        </parsedAddressRF>
+        <date>2003-04-14</date>
+        <firstDate>2003-04-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-03-19</date>
+      </status>
+      <registrationDate>2003-04-14</registrationDate>
+      <dissolutionDate>2013-03-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кочуров Сергей Михайлович</fio>
+          <innfl>772338174100</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2011-08-25</date>
+          <firstDate>2010-03-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

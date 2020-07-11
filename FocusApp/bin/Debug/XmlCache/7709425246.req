@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7709425246</inn>
+    <ogrn>1037709047738</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037709047738</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okpo>14658358</okpo>
+      <okato>45286580000</okato>
+      <okfs>23</okfs>
+      <oktmo>45381000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Айтрон"</short>
+        <full>Общество с ограниченной ответственностью "Айтрон"</full>
+        <date>2010-04-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109147</zipCode>
+          <kladrCode>770000000001018</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Воронцовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17</topoValue>
+          </house>
+          <houseRaw>17</houseRaw>
+        </parsedAddressRF>
+        <date>2010-05-12</date>
+        <firstDate>2010-05-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-06-03</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МК-ЛО"</name>
+          <inn>7801613481</inn>
+          <ogrn>1137847383948</ogrn>
+          <date>2017-02-27</date>
+          <firstDate>2017-02-27</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <heads>
+          <head>
+            <fio>Неволин Максим</fio>
+            <position>Генеральный директор</position>
+            <date>2010-04-26</date>
+            <firstDate>2010-04-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

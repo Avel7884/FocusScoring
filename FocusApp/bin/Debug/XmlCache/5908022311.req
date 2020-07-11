@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5908022311</inn>
+    <ogrn>1025901608633</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025901608633</focusHref>
+    <UL>
+      <kpp>590401001</kpp>
+      <okpo>53505740</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭТК "Энергокомплекс"</short>
+        <full>Общество с ограниченной ответственностью "Электротехническая корпорация "Энергокомплекс"</full>
+        <date>2002-11-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614007</zipCode>
+          <kladrCode>590000010000567</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красноармейская 1-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <flat>
+            <topoValue>17</topoValue>
+          </flat>
+          <houseRaw>40</houseRaw>
+          <flatRaw>17</flatRaw>
+        </parsedAddressRF>
+        <date>2010-12-09</date>
+        <firstDate>2010-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-05-26</date>
+      </status>
+      <registrationDate>2000-07-10</registrationDate>
+      <dissolutionDate>2011-05-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Курашов Денис Александрович</fio>
+          <innfl>590800351496</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-01-14</date>
+          <firstDate>2011-01-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

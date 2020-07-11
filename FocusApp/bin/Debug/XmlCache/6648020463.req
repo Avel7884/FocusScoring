@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6648020463</inn>
+    <ogrn>1036602352412</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036602352412</focusHref>
+    <UL>
+      <kpp>664801001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <full>Общество с ограниченной ответственностью "Агро - Комплектация"</full>
+        <date>2003-02-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622000</zipCode>
+          <kladrCode>660000230000146</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ермака</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>24</topoValue>
+          </house>
+          <flat>
+            <topoValue>17</topoValue>
+          </flat>
+          <houseRaw>24</houseRaw>
+          <flatRaw>17</flatRaw>
+        </parsedAddressRF>
+        <date>2003-02-09</date>
+        <firstDate>2003-02-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-01-09</date>
+      </status>
+      <registrationDate>2000-07-20</registrationDate>
+      <dissolutionDate>2007-01-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чипеев Игорь Николаевич</fio>
+          <position>Директор</position>
+          <date>2003-02-09</date>
+          <firstDate>2003-02-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4221013541</inn>
+    <ogrn>1034221000263</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034221000263</focusHref>
+    <UL>
+      <kpp>422101001</kpp>
+      <okpo>22925431</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОРЕМЗАВОД"</short>
+        <full>Общество с ограниченной ответственностью "АВТОРЕМЗАВОД"</full>
+        <date>2003-02-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654000</zipCode>
+          <kladrCode>420000120000332</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Защитная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>113</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <houseRaw>113</houseRaw>
+          <bulkRaw>Б</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-02-03</date>
+        <firstDate>2003-02-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-05-20</date>
+      </status>
+      <registrationDate>2003-02-03</registrationDate>
+      <dissolutionDate>2011-05-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Попов Игорь Петрович</fio>
+          <innfl>422004184500</innfl>
+          <position>Директор</position>
+          <date>2011-05-20</date>
+          <firstDate>2005-03-30</firstDate>
+        </head>
+        <head>
+          <fio>Черемнов Андрей Владимирович</fio>
+          <innfl>422103493972</innfl>
+          <position>Директор</position>
+          <date>2011-05-20</date>
+          <firstDate>2011-05-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

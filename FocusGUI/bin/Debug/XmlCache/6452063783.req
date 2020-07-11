@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6452063783</inn>
+    <ogrn>1026402654651</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026402654651</focusHref>
+    <UL>
+      <kpp>645201001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО ЭТЗ "А и Т"</short>
+        <full>Открытое акционерное общество Электротехнический завод "Автоматики и телемеханики"</full>
+        <date>2002-08-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>410012</zipCode>
+          <kladrCode>640000010000995</kladrCode>
+          <regionCode>64</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Саратовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Саратов</topoValue>
+          </city>
+          <street>
+            <topoShortName>пл</topoShortName>
+            <topoFullName>площадь</topoFullName>
+            <topoValue>Привокзальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2002-08-06</date>
+        <firstDate>2002-08-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-07-06</date>
+      </status>
+      <registrationDate>2000-03-15</registrationDate>
+      <dissolutionDate>2006-04-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ганеев Эдуард Анварович</fio>
+          <position>Генеральный директор</position>
+          <date>2002-08-06</date>
+          <firstDate>2002-08-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

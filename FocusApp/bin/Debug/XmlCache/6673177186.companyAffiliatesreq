@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6663007178</inn>
+    <ogrn>1076673007124</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076673007124</focusHref>
+    <UL>
+      <kpp>667301010</kpp>
+      <okopf>46</okopf>
+      <opf>Индивидуальное (семейное) частное предприятие (с привлечением наемного труда)</opf>
+      <legalName>
+        <full>Индивидуальное частное предприятие Ромашова В.В. "ОПТИМА-ЕКАТЕРИНБУРГ"</full>
+        <date>2007-02-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620042</zipCode>
+          <kladrCode>660000010000831</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40/1</topoValue>
+          </house>
+          <flat>
+            <topoValue>58</topoValue>
+          </flat>
+          <houseRaw>40/1</houseRaw>
+          <flatRaw>58</flatRaw>
+        </parsedAddressRF>
+        <date>2007-02-12</date>
+        <firstDate>2007-02-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-02-12</date>
+      </status>
+      <registrationDate>1993-10-14</registrationDate>
+      <dissolutionDate>2007-02-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ромашов Валерий Викторович</fio>
+          <position>Директор</position>
+          <date>2007-02-12</date>
+          <firstDate>2007-02-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>6673177186</inn>
+    <ogrn>1086673000260</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1086673000260</focusHref>
+    <UL>
+      <kpp>668601001</kpp>
+      <okpo>85011755</okpo>
+      <okato>65401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ РОМУР"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ РОМУР"</full>
+        <date>2008-01-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620017</zipCode>
+          <kladrCode>660000010000522</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Космонавтов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <houseRaw>18</houseRaw>
+        </parsedAddressRF>
+        <date>2008-01-11</date>
+        <firstDate>2008-01-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-10-15</date>
+      </status>
+      <registrationDate>2008-01-11</registrationDate>
+      <dissolutionDate>2018-10-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ромашов Валерий Викторович</fio>
+          <innfl>666307119971</innfl>
+          <position>Директор</position>
+          <date>2008-01-11</date>
+          <firstDate>2008-01-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>667301001</kpp>
+            <date>2008-01-15</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

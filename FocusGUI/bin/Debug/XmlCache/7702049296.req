@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7702049296</inn>
+    <ogrn>1037711004870</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037711004870</focusHref>
+    <UL>
+      <kpp>774401001</kpp>
+      <legalName>
+        <full>Московский акционерный банк содействия предпринимательству (открытое акционерное общество) Мосбизнесбанк</full>
+        <date>2003-07-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103780</zipCode>
+          <kladrCode>770000000000557</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кузнецкий Мост</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <houseRaw>15</houseRaw>
+        </parsedAddressRF>
+        <date>2003-07-07</date>
+        <firstDate>2003-07-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2003-07-08</date>
+      </status>
+      <registrationDate>1993-09-14</registrationDate>
+      <dissolutionDate>2003-07-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Акулин Дмитрий Викторович</fio>
+          <position>Руководитель</position>
+          <date>2003-07-07</date>
+          <firstDate>2003-07-07</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>7702049296</inn>
+    <ogrn>1027700258266</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700258266</focusHref>
+    <UL>
+      <kpp>774401001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Мосбизнесбанк"</short>
+        <full>Открытое акционерное общество "Московский акционерный банк содействия предпринимательству"</full>
+        <date>2002-09-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>103780</zipCode>
+          <kladrCode>770000000000557</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кузнецкий Мост</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <houseRaw>15</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-27</date>
+        <firstDate>2002-09-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Регистрация признана ошибочной по решению регоргана</statusString>
+        <dissolved>true</dissolved>
+        <date>2003-11-06</date>
+      </status>
+      <registrationDate>1993-09-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Ребгун Эдуард Константинович</fio>
+          <innfl>772700325932</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2002-09-27</date>
+          <firstDate>2002-09-27</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

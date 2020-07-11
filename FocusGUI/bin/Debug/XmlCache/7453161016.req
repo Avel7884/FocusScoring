@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7453161016</inn>
+    <ogrn>1067453062291</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067453062291</focusHref>
+    <UL>
+      <kpp>745201001</kpp>
+      <okpo>94763247</okpo>
+      <okato>03401370000</okato>
+      <okfs>16</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энерготерм инжиниринг"</short>
+        <full>Общество с ограниченной ответственностью "Энерготерм инжиниринг"</full>
+        <date>2006-10-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454081</zipCode>
+          <kladrCode>740000010000236</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Горького</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>63</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>169</topoValue>
+          </flat>
+          <houseRaw>ДОМ 63</houseRaw>
+          <flatRaw>КВАРТИРА 169</flatRaw>
+        </parsedAddressRF>
+        <date>2015-06-16</date>
+        <firstDate>2015-06-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-07-13</date>
+      </status>
+      <registrationDate>2006-05-24</registrationDate>
+      <dissolutionDate>2016-07-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Веснин Александр Михайлович</fio>
+          <innfl>745209139150</innfl>
+          <position>Директор</position>
+          <date>2013-12-13</date>
+          <firstDate>2013-12-13</firstDate>
+        </head>
+        <head>
+          <fio>Курмаев Андрей Юрьевич</fio>
+          <innfl>741901601469</innfl>
+          <position>Директор</position>
+          <date>2014-04-02</date>
+          <firstDate>2014-04-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>231101001</kpp>
+            <date>2014-02-19</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>745301001</kpp>
+            <date>2006-05-24</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>350072</zipCode>
+              <kladrCode>230000010000275</kladrCode>
+              <regionCode>23</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Краснодарский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Краснодар</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>им Карякина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15</topoValue>
+              </house>
+              <bulk>
+                <topoValue>литер Под/А</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>76</topoValue>
+              </flat>
+              <houseRaw>15</houseRaw>
+              <bulkRaw>ЛИТЕР ПОД/А</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 76</flatRaw>
+            </parsedAddressRF>
+            <date>2013-12-13</date>
+            <firstDate>2013-12-13</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454091</zipCode>
+              <kladrCode>740000010000401</kladrCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Клары Цеткин</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>32</topoValue>
+              </house>
+              <flat>
+                <topoValue>24</topoValue>
+              </flat>
+              <houseRaw>32</houseRaw>
+              <flatRaw>24</flatRaw>
+            </parsedAddressRF>
+            <date>2010-01-21</date>
+            <firstDate>2010-01-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Первушин Александр Валентинович</fio>
+            <position>Директор</position>
+            <date>2006-12-23</date>
+            <firstDate>2006-12-23</firstDate>
+          </head>
+          <head>
+            <fio>Черных Николай Николаевич</fio>
+            <innfl>744916766250</innfl>
+            <position>Директор</position>
+            <date>2013-09-05</date>
+            <firstDate>2013-09-05</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

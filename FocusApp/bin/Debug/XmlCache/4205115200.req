@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4205115200</inn>
+    <ogrn>1064205122288</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1064205122288</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>97755202</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АЭРОТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АГЕНТСТВО ЭКСПЕРТИЗЫ РАБОТ ПО ОХРАНЕ ТРУДА"</full>
+        <date>2006-10-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650066</zipCode>
+          <kladrCode>420000090000853</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Октябрьский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28</topoValue>
+          </house>
+          <flat>
+            <topoValue>816</topoValue>
+          </flat>
+          <houseRaw>28</houseRaw>
+          <flatRaw>816</flatRaw>
+        </parsedAddressRF>
+        <date>2006-10-11</date>
+        <firstDate>2006-10-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-07-05</date>
+      </status>
+      <registrationDate>2006-10-11</registrationDate>
+      <dissolutionDate>2012-07-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Устинов Николай Семенович</fio>
+          <innfl>420512621237</innfl>
+          <position>Ликвидатор</position>
+          <date>2012-03-21</date>
+          <firstDate>2008-08-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

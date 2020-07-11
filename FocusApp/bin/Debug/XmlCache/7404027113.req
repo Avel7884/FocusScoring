@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7404027113</inn>
+    <ogrn>1027400586146</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027400586146</focusHref>
+    <UL>
+      <kpp>740401001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Авиком"</short>
+        <full>Закрытое акционерное общество "Авиком"</full>
+        <date>2002-12-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>456200</zipCode>
+          <kladrCode>740000040000167</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Златоуст</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им В.И.Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>НЕТ</bulkRaw>
+          <flatRaw>НЕТ</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-20</date>
+        <firstDate>2002-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-09-01</date>
+      </status>
+      <registrationDate>1997-04-22</registrationDate>
+      <dissolutionDate>2004-09-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Белов Алексей Викторович</fio>
+          <innfl>740403035890</innfl>
+          <position>Генеральный директор</position>
+          <date>2002-12-24</date>
+          <firstDate>2002-12-24</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

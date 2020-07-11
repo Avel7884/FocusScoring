@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7730569353</inn>
+    <ogrn>1077761079263</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077761079263</focusHref>
+    <UL>
+      <kpp>771801001</kpp>
+      <okpo>83121511</okpo>
+      <okato>45263564000</okato>
+      <okfs>16</okfs>
+      <oktmo>45305000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автомир-Трейд"</short>
+        <full>Общество с ограниченной ответственностью "Автомир-Трейд"</full>
+        <date>2012-11-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107497</zipCode>
+          <kladrCode>770000000001397</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Иркутская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5/6</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>321</topoValue>
+          </flat>
+          <houseRaw>ДОМ 5/6</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 321</flatRaw>
+        </parsedAddressRF>
+        <date>2014-02-26</date>
+        <firstDate>2014-02-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-10-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Рябушко Владимир Николаевич</fio>
+          <innfl>505401016307</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-04-12</date>
+          <firstDate>2013-05-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774901001</kpp>
+            <date>2013-05-29</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>773001001</kpp>
+            <date>2012-11-27</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "Автомир-Фили"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью "Автомир-Фили"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>121087</zipCode>
+              <kladrCode>770000000002993</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Филевская Б</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>3</topoValue>
+              </house>
+              <houseRaw>3</houseRaw>
+            </parsedAddressRF>
+            <date>2007-10-09</date>
+            <firstDate>2007-10-09</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Мальгинов Михаил Всеволодович</fio>
+            <position>Генеральный директор</position>
+            <date>2011-07-07</date>
+            <firstDate>2011-07-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>11</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

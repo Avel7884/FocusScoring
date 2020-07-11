@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7810865742</inn>
+    <ogrn>1127847215924</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127847215924</focusHref>
+    <UL>
+      <kpp>781001001</kpp>
+      <okpo>38129370</okpo>
+      <okato>40284000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40375000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "МеталПромДеталь"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ "МеталПромДеталь"</full>
+        <date>2012-10-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>196191</zipCode>
+          <kladrCode>780000000000922</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Новоизмайловский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>литер А</topoValue>
+          </flat>
+          <houseRaw>22</houseRaw>
+          <bulkRaw>2</bulkRaw>
+          <flatRaw>ЛИТЕР А</flatRaw>
+        </parsedAddressRF>
+        <date>2012-04-13</date>
+        <firstDate>2012-04-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-05-08</date>
+      </status>
+      <registrationDate>2012-04-13</registrationDate>
+      <dissolutionDate>2018-05-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Федоренко Ксения Николаевна</fio>
+          <innfl>780537316841</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-04-01</date>
+          <firstDate>2016-04-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "Омега"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью "Омега"</full>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Новикова Мария Юрьевна</fio>
+            <innfl>780420927180</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-04-13</date>
+            <firstDate>2012-04-13</firstDate>
+          </head>
+          <head>
+            <fio>Шестаков Дмитрий Викторович</fio>
+            <innfl>292203403227</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-10-12</date>
+            <firstDate>2012-10-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

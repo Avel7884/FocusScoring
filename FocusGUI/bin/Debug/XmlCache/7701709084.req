@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701709084</inn>
+    <ogrn>5077746264019</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5077746264019</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>99643499</okpo>
+      <okato>45286555000</okato>
+      <okfs>16</okfs>
+      <oktmo>45375000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЭКС"</short>
+        <full>Общество с ограниченной ответственностью "ЭнергоКомплектСервис"</full>
+        <date>2009-07-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>101000</zipCode>
+          <kladrCode>770000000000638</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мясницкая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>46</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>7</topoValue>
+          </bulk>
+          <houseRaw>46</houseRaw>
+          <bulkRaw>СТР.7</bulkRaw>
+        </parsedAddressRF>
+        <date>2007-03-07</date>
+        <firstDate>2007-03-07</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <parsedAddressRF>
+            <zipCode>350059</zipCode>
+            <kladrCode>230000010000498</kladrCode>
+            <regionCode>23</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Краснодарский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Краснодар</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Новороссийская</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>238</topoValue>
+            </house>
+            <houseRaw>238</houseRaw>
+          </parsedAddressRF>
+          <date>2009-07-30</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-05-16</date>
+      </status>
+      <registrationDate>2007-03-07</registrationDate>
+      <dissolutionDate>2016-05-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галиуллина Светлана Михайловна</fio>
+          <innfl>164906285755</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-07-20</date>
+          <firstDate>2012-07-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Кузнецов Геннадий Михайлович</fio>
+            <position>Генеральный директор</position>
+            <date>2010-02-08</date>
+            <firstDate>2010-02-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

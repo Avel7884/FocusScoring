@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7703007316</inn>
+    <ogrn>1037700056020</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037700056020</focusHref>
+    <UL>
+      <kpp>770301001</kpp>
+      <okpo>26669730</okpo>
+      <okato>45286575000</okato>
+      <okfs>16</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергосистемоавтоматика"</short>
+        <full>Закрытое акционерное общество "Энергосистемоавтоматика"</full>
+        <date>2003-01-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123557</zipCode>
+          <kladrCode>770000000002905</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Тишинский Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>43</topoValue>
+          </house>
+          <houseRaw>43</houseRaw>
+        </parsedAddressRF>
+        <date>2007-12-25</date>
+        <firstDate>2007-12-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-06-05</date>
+      </status>
+      <registrationDate>1993-03-15</registrationDate>
+      <dissolutionDate>2017-06-05</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кудрина Наталья Александровна</fio>
+          <innfl>772013726164</innfl>
+          <position>Гл. (Ст.) Бухгалтер</position>
+          <date>2003-01-24</date>
+          <firstDate>2003-01-24</firstDate>
+        </head>
+        <head>
+          <fio>Кремнев Александр Геннадьевич</fio>
+          <innfl>505601335413</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-12-12</date>
+          <firstDate>2014-12-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Кремнев Геннадий Леонтьевич</fio>
+            <innfl>501104786803</innfl>
+            <position>Генеральный Директор</position>
+            <date>2003-01-24</date>
+            <firstDate>2003-01-24</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

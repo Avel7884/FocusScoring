@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6671405239</inn>
+    <ogrn>1126671018484</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1126671018484</focusHref>
+    <UL>
+      <kpp>667101001</kpp>
+      <okpo>16765472</okpo>
+      <okato>65401377000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Планета"</short>
+        <full>Общество с ограниченной ответственностью "Планета"</full>
+        <date>2012-10-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620014</zipCode>
+          <kladrCode>660000010000909</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Радищева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6А</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>603</topoValue>
+          </flat>
+          <houseRaw>6А</houseRaw>
+          <flatRaw>ОФИС 603</flatRaw>
+        </parsedAddressRF>
+        <date>2012-10-24</date>
+        <firstDate>2012-10-24</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-12-11</date>
+      </status>
+      <registrationDate>2012-10-24</registrationDate>
+      <dissolutionDate>2018-12-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Отческих Юлия Юрьевна</fio>
+          <innfl>667324593608</innfl>
+          <position>Директор</position>
+          <date>2016-04-01</date>
+          <firstDate>2016-04-01</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Порцев Сергей Леонидович</fio>
+            <innfl>666101131005</innfl>
+            <position>Директор</position>
+            <date>2012-10-24</date>
+            <firstDate>2012-10-24</firstDate>
+          </head>
+          <head>
+            <fio>Яковлев Евгений Александрович</fio>
+            <innfl>667358467834</innfl>
+            <position>Директор</position>
+            <date>2015-10-19</date>
+            <firstDate>2015-10-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

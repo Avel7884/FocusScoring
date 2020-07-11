@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7816318369</inn>
+    <ogrn>1167847084756</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1167847084756</focusHref>
+    <UL>
+      <kpp>781601001</kpp>
+      <okpo>34391271</okpo>
+      <okato>40296000000</okato>
+      <okfs>24</okfs>
+      <oktmo>40906000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМК МЕТАЛЛРЕЗЕРВ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-МЕТАЛЛУРГИЧЕСКАЯ КОМПАНИЯ "МЕТАЛЛРЕЗЕРВ"</full>
+        <date>2016-02-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>192241</zipCode>
+          <kladrCode>780000000001320</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Софийская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>63</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 63</houseRaw>
+          <bulkRaw>ЛИТЕР Б</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-02-09</date>
+        <firstDate>2016-02-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-02-09</registrationDate>
+      <heads>
+        <head>
+          <fio>Петров Филипп Юрьевич</fio>
+          <innfl>784811263551</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-02-09</date>
+          <firstDate>2016-02-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

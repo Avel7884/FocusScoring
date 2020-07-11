@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2508020000</inn>
+    <ogrn>1022500699704</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022500699704</focusHref>
+    <UL>
+      <kpp>250801001</kpp>
+      <okpo>04020815</okpo>
+      <okato>05414000000</okato>
+      <okfs>14</okfs>
+      <oktmo>05714000001</oktmo>
+      <okogu>3300200</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Находкинского городского округа</full>
+        <date>2006-01-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>692904</zipCode>
+          <kladrCode>250000040000113</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Находка</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Находкинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <houseRaw>16</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-04</date>
+        <firstDate>2002-10-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-10-26</registrationDate>
+      <heads>
+        <head>
+          <fio>Гладких Борис Иннокентьевич</fio>
+          <innfl>252401107464</innfl>
+          <position>Глава Находкинского Городского Округа</position>
+          <date>2018-04-26</date>
+          <firstDate>2018-04-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Колядин Олег Геннадиевич</fio>
+            <innfl>253602929071</innfl>
+            <position>Глава Администрации Находкинского Городского Округа</position>
+            <date>2014-08-27</date>
+            <firstDate>2005-05-24</firstDate>
+          </head>
+          <head>
+            <fio>Горелов Андрей Евгеньевич</fio>
+            <innfl>252102919299</innfl>
+            <position>Глава Находкинского Городского Округа</position>
+            <date>2017-03-04</date>
+            <firstDate>2016-03-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>32</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0323034568</inn>
+    <ogrn>1030302952415</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1030302952415</focusHref>
+    <UL>
+      <kpp>032601001</kpp>
+      <okpo>12785733</okpo>
+      <okato>81401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>81701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Адонис-К"</short>
+        <full>Общество с ограниченной ответственностью "Адонис-К"</full>
+        <date>2003-01-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>670034</zipCode>
+          <kladrCode>030000010000266</kladrCode>
+          <regionCode>03</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Бурятия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Улан-Удэ</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Московская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <houseRaw>12</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-09</date>
+        <firstDate>2003-01-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-07-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Колпаков Владимир Васильевич</fio>
+          <innfl>032601232256</innfl>
+          <position>Директор</position>
+          <date>2019-07-26</date>
+          <firstDate>2003-01-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Сидинкина Ольга Николаевна</fio>
+            <innfl>032301320141</innfl>
+            <position>Генеральный Директор</position>
+            <date>2018-05-25</date>
+            <firstDate>2018-05-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

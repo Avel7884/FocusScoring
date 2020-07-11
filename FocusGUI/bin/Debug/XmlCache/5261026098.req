@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5261026098</inn>
+    <ogrn>1025203579939</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025203579939</focusHref>
+    <UL>
+      <kpp>526101001</kpp>
+      <okpo>52482971</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Азия-Нижний Новгород"</short>
+        <full>Общество с ограниченной ответственностью "Азия-Нижний Новгород"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603141</zipCode>
+          <kladrCode>520000010000424</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кащенко</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <flat>
+            <topoValue>214</topoValue>
+          </flat>
+          <houseRaw>6</houseRaw>
+          <flatRaw>214</flatRaw>
+        </parsedAddressRF>
+        <date>2003-01-04</date>
+        <firstDate>2003-01-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-05-26</date>
+      </status>
+      <registrationDate>2000-02-18</registrationDate>
+      <dissolutionDate>2011-05-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бердюгин Яков Анатольевич</fio>
+          <innfl>667001297390</innfl>
+          <position>Генеральный директор</position>
+          <date>2003-02-03</date>
+          <firstDate>2003-02-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1901017690</inn>
+    <ogrn>1021900002695</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1021900002695</focusHref>
+    <UL>
+      <kpp>190101001</kpp>
+      <okpo>31901079</okpo>
+      <okato>95401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>95701000001</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО КБЦА</short>
+        <full>Коммерческий банк "Центрально-Азиатский" (общество с ограниченной ответственностью)</full>
+        <date>2016-01-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>655017</zipCode>
+          <kladrCode>190000010000187</kladrCode>
+          <regionCode>19</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Хакасия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Абакан</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Советская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>69</topoValue>
+          </house>
+          <houseRaw>ДОМ 69</houseRaw>
+        </parsedAddressRF>
+        <date>2016-01-15</date>
+        <firstDate>2005-01-21</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>СОЧИНСКИЙ ФИЛИАЛ КОММЕРЧЕСКОГО БАНКА "ЦЕНТРАЛЬНО-АЗИАТСКИЙ" (ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ)</name>
+          <parsedAddressRF>
+            <zipCode>354000</zipCode>
+            <kladrCode>230000070000409</kladrCode>
+            <regionCode>23</regionCode>
+            <regionName>
+              <topoShortName>край</topoShortName>
+              <topoFullName>край</topoFullName>
+              <topoValue>Краснодарский</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Сочи</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Нагорная</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>25</topoValue>
+            </house>
+            <houseRaw>ДОМ 25</houseRaw>
+          </parsedAddressRF>
+          <date>2013-07-26</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1994-08-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Шадрин Николай Николаевич</fio>
+          <innfl>190101558176</innfl>
+          <position>Руководитель юридического лица</position>
+          <date>2013-08-06</date>
+          <firstDate>2009-02-25</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

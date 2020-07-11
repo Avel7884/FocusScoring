@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7302043300</inn>
+    <ogrn>1097302002247</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097302002247</focusHref>
+    <UL>
+      <kpp>730201001</kpp>
+      <okpo>87750184</okpo>
+      <okato>73405000000</okato>
+      <okfs>16</okfs>
+      <oktmo>73705000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ Атика"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ Атика"</full>
+        <date>2009-12-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>433504</zipCode>
+          <kladrCode>730000020000155</kladrCode>
+          <regionCode>73</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ульяновская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Димитровград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Промышленная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36</topoValue>
+          </house>
+          <flat>
+            <topoValue>320</topoValue>
+          </flat>
+          <houseRaw>36</houseRaw>
+          <flatRaw>320</flatRaw>
+        </parsedAddressRF>
+        <date>2009-12-16</date>
+        <firstDate>2009-12-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-12-16</registrationDate>
+      <heads>
+        <head>
+          <fio>Клюканов Антон Александрович</fio>
+          <innfl>730208465780</innfl>
+          <position>Директор</position>
+          <date>2009-12-16</date>
+          <firstDate>2009-12-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

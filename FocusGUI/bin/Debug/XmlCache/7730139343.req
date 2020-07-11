@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7730139343</inn>
+    <ogrn>1027700292223</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700292223</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okpo>56667035</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Компания "Авента-Люкс"</short>
+        <full>Общество с ограниченной ответственностью "Компания "Авента-Люкс"</full>
+        <date>2002-10-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109028</zipCode>
+          <kladrCode>770000000002894</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Тессинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>1;7</topoValue>
+          </flat>
+          <houseRaw>5</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>1;7</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-08</date>
+        <firstDate>2002-10-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-05-06</date>
+      </status>
+      <registrationDate>2001-05-18</registrationDate>
+      <dissolutionDate>2013-05-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Анфимова Зинаида Александровна</fio>
+          <innfl>561404412557</innfl>
+          <position>Генеральный директор,Главный бухгалтер</position>
+          <date>2006-05-23</date>
+          <firstDate>2006-05-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

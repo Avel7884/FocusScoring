@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7717096531</inn>
+    <ogrn>1037700113747</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037700113747</focusHref>
+    <UL>
+      <kpp>771701001</kpp>
+      <okpo>48462885</okpo>
+      <okato>45293590000</okato>
+      <okfs>16</okfs>
+      <oktmo>45908000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКМР"</short>
+        <full>Общество с ограниченной ответственностью "Агентство кадрового менеджмента и рекрутинга"</full>
+        <date>2003-02-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117335</zipCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Власова Архитектора</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <houseRaw>3</houseRaw>
+        </parsedAddressRF>
+        <date>2003-02-28</date>
+        <firstDate>2003-02-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-04-18</date>
+      </status>
+      <registrationDate>1997-12-03</registrationDate>
+      <dissolutionDate>2009-04-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Евсеев Дмитрий Александрович</fio>
+          <innfl>761203762194</innfl>
+          <position>Генеральный директор</position>
+          <date>2005-04-19</date>
+          <firstDate>2005-04-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Прокофьева Ольга Викторовна</fio>
+            <position>Генеральный Директор</position>
+            <date>2003-02-03</date>
+            <firstDate>2003-02-03</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

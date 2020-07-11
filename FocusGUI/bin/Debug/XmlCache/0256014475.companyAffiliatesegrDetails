@@ -1,0 +1,4450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>0211005262</inn>
+    <ogrn>1030202046610</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1030202046610</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2003-01-30</ogrnDate>
+        <regName>Администрация города Белорецка и Белорецкого района Республики Башкортостан</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>0256</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 20 по Республике Башкортостан</nalogName>
+        <nalogRegDate>1997-01-10</nalogRegDate>
+        <kpp>025601001</kpp>
+        <date>2006-03-30</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>0280</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 39 по Республике Башкортостан</nalogName>
+        <date>2012-12-10</date>
+      </regBody>
+      <statedCapital />
+      <foundersUL>
+        <founderUL>
+          <ogrn>1027402166835</ogrn>
+          <inn>7414003633</inn>
+          <fullName>Открытое акционерное общество "Магнитогорский Металлургический Комбинат"</fullName>
+          <share />
+          <date>2003-01-30</date>
+          <firstDate>2003-01-30</firstDate>
+        </founderUL>
+      </foundersUL>
+      <successors>
+        <successor>
+          <name>Общество с ограниченной ответственностью "Абзаково"</name>
+          <ogrn>1030202053122</ogrn>
+        </successor>
+      </successors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2060256005258</grn>
+          <date>2006-03-30</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2030202053132</grn>
+          <date>2003-11-28</date>
+          <name>Прекращение ЮЛ путем реорганизации в форме преобразования</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 003952118</serialNumber>
+              <date>2003-11-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1030202046610</grn>
+          <date>2003-01-30</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 003179682</serialNumber>
+              <date>2003-01-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>0256013513</inn>
+    <ogrn>1020201623056</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020201623056</focusHref>
+    <UL>
+      <okpo>26796841</okpo>
+      <pfrRegNumber>084037091207</pfrRegNumber>
+      <fssRegNumber>025600081974041</fssRegNumber>
+      <fomsRegNumber>804010501429520</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>93.11</code>
+          <text>Деятельность спортивных объектов</text>
+          <date>2015-11-12</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>47.11</code>
+            <text>Торговля розничная преимущественно пищевыми продуктами, включая напитки, и табачными изделиями в неспециализированных магазинах</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>47.25.1</code>
+            <text>Торговля розничная алкогольными напитками, включая пиво, в специализированных магазинах</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>55.20</code>
+            <text>Деятельность по предоставлению мест для краткосрочного проживания</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>55.30</code>
+            <text>Деятельность по предоставлению мест для временного проживания в кемпингах, жилых автофургонах и туристических автоприцепах</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>55.90</code>
+            <text>Деятельность по предоставлению прочих мест для временного проживания</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>56.10</code>
+            <text>Деятельность ресторанов и услуги по доставке продуктов питания</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>56.10.1</code>
+            <text>Деятельность ресторанов и кафе с полным ресторанным обслуживанием, кафетериев, ресторанов быстрого питания и самообслуживания</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>56.10.3</code>
+            <text>Деятельность ресторанов и баров по обеспечению питанием в железнодорожных вагонах-ресторанах и на судах</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>56.29</code>
+            <text>Деятельность предприятий общественного питания по прочим видам организации питания</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>56.30</code>
+            <text>Подача напитков</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>77.21</code>
+            <text>Прокат и аренда товаров для отдыха и спортивных товаров</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>79.11</code>
+            <text>Деятельность туристических агентств</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>82.99</code>
+            <text>Деятельность по предоставлению прочих вспомогательных услуг для бизнеса, не включенная в другие группировки</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>93.19</code>
+            <text>Деятельность в области спорта прочая</text>
+            <date>2015-11-12</date>
+          </activity>
+          <activity>
+            <code>93.29.9</code>
+            <text>Деятельность зрелищно-развлекательная прочая, не включенная в другие группировки</text>
+            <date>2015-11-12</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-09-09</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7455</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 16 по Челябинской области</nalogName>
+        <nalogRegDate>2018-12-11</nalogRegDate>
+        <kpp>745501001</kpp>
+        <date>2018-12-11</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7456</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 17 по Челябинской области</nalogName>
+        <date>2018-12-11</date>
+      </regBody>
+      <statedCapital>
+        <sum>50000</sum>
+        <date>2002-09-09</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Новиков Николай Александрович</fio>
+          <innfl>744508822669</innfl>
+          <share>
+            <sum>25000</sum>
+          </share>
+          <date>2014-04-22</date>
+          <firstDate>2002-09-09</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Новикова Ольга Дмитриевна</fio>
+          <innfl>744500113646</innfl>
+          <share>
+            <sum>25000</sum>
+          </share>
+          <date>2014-04-22</date>
+          <firstDate>2002-09-09</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>6187456394471</grn>
+          <date>2018-12-19</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6187456370997</grn>
+          <date>2018-12-17</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6187456368357</grn>
+          <date>2018-12-15</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6187456368049</grn>
+          <date>2018-12-15</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6187456338987</grn>
+          <date>2018-12-11</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6187456338976</grn>
+          <date>2018-12-11</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6187456338833</grn>
+          <date>2018-12-11</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2018-11-12</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6187456338789</grn>
+          <date>2018-12-11</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2018-11-12</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников ЮЛ</name>
+              <date>2018-11-12</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+            </document>
+            <document>
+              <name>Свидетельство</name>
+            </document>
+            <document>
+              <name>Доверенность</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2150280923967</grn>
+          <date>2015-11-12</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2015-11-06</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2150280918280</grn>
+          <date>2015-11-11</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2140280303810</grn>
+          <date>2014-04-22</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных ФЛ (по данным ФМС России)</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2140280303800</grn>
+          <date>2014-04-22</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных ФЛ (по данным ФМС России)</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2110256027495</grn>
+          <date>2011-08-02</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2100256003461</grn>
+          <date>2010-01-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256025046</grn>
+          <date>2007-12-26</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-12-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005748354</serialNumber>
+              <date>2007-12-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2060256005820</grn>
+          <date>2006-03-30</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2050202070576</grn>
+          <date>2005-12-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1020201623056</grn>
+          <date>2002-09-09</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 003880028</serialNumber>
+              <date>2002-09-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>0256014475</inn>
+    <ogrn>1030202053122</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1030202053122</focusHref>
+    <UL>
+      <okpo>45223750</okpo>
+      <pfrRegNumber>002856010693</pfrRegNumber>
+      <fssRegNumber>025600070202061</fssRegNumber>
+      <fomsRegNumber>804010500341885</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>55.90</code>
+          <text>Деятельность по предоставлению прочих мест для временного проживания</text>
+          <date>2004-08-13</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>10.71</code>
+            <text>Производство хлеба и мучных кондитерских изделий, тортов и пирожных недлительного хранения</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>35.12</code>
+            <text>Передача электроэнергии и технологическое присоединение к распределительным электросетям</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>35.22</code>
+            <text>Распределение газообразного топлива по газораспределительным сетям</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>35.30.5</code>
+            <text>Обеспечение работоспособности тепловых сетей</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>36.00.1</code>
+            <text>Забор и очистка воды для питьевых и промышленных нужд</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>47.11.2</code>
+            <text>Торговля розничная незамороженными продуктами, включая напитки и табачные изделия, в неспециализированных магазинах</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>47.19</code>
+            <text>Торговля розничная прочая в неспециализированных магазинах</text>
+            <date>2008-11-14</date>
+          </activity>
+          <activity>
+            <code>47.73</code>
+            <text>Торговля розничная лекарственными средствами в специализированных магазинах (аптеках)</text>
+            <date>2009-12-04</date>
+          </activity>
+          <activity>
+            <code>47.74</code>
+            <text>Торговля розничная изделиями, применяемыми в медицинских целях, ортопедическими изделиями в специализированных магазинах</text>
+            <date>2009-12-04</date>
+          </activity>
+          <activity>
+            <code>49.3</code>
+            <text>Деятельность прочего сухопутного пассажирского транспорта</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>52.10.21</code>
+            <text>Хранение и складирование нефти и продуктов ее переработки</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>56.10</code>
+            <text>Деятельность ресторанов и услуги по доставке продуктов питания</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>56.10.1</code>
+            <text>Деятельность ресторанов и кафе с полным ресторанным обслуживанием, кафетериев, ресторанов быстрого питания и самообслуживания</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>56.10.3</code>
+            <text>Деятельность ресторанов и баров по обеспечению питанием в железнодорожных вагонах-ресторанах и на судах</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>56.30</code>
+            <text>Подача напитков</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>86.21</code>
+            <text>Общая врачебная практика</text>
+            <date>2004-08-13</date>
+          </activity>
+          <activity>
+            <code>86.90.9</code>
+            <text>Деятельность в области медицины прочая, не включенная в другие группировки</text>
+            <date>2012-08-13</date>
+          </activity>
+          <activity>
+            <code>91.01</code>
+            <text>Деятельность библиотек и архивов</text>
+            <date>2005-04-13</date>
+          </activity>
+          <activity>
+            <code>91.04</code>
+            <text>Деятельность ботанических садов, зоопарков, государственных природных заповедников и национальных парков</text>
+            <date>2005-04-13</date>
+          </activity>
+          <activity>
+            <code>93.29.9</code>
+            <text>Деятельность зрелищно-развлекательная прочая, не включенная в другие группировки</text>
+            <date>2005-04-13</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2003-11-28</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>0256</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 20 по Республике Башкортостан</nalogName>
+        <nalogRegDate>2003-11-28</nalogRegDate>
+        <kpp>025601001</kpp>
+        <date>2004-08-13</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>0280</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 39 по Республике Башкортостан</nalogName>
+        <date>2012-12-10</date>
+      </regBody>
+      <statedCapital>
+        <sum>524579245</sum>
+        <date>2008-11-14</date>
+      </statedCapital>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1027402166835</ogrn>
+          <inn>7414003633</inn>
+          <fullName>Публичное акционерное общество "Магнитогорский Металлургический Комбинат"</fullName>
+          <share>
+            <sum>524579245</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2017-06-20</date>
+          <firstDate>2003-11-28</firstDate>
+        </founderUL>
+      </foundersUL>
+      <predecessors>
+        <predecessor>
+          <name>Учреждение открытого Акционерного Общества "Магнитогорский Металлургический Комбинат" "Оздоровительно-Спортивный Комплекс "Абзаково"</name>
+          <inn>0211005262</inn>
+          <ogrn>1030202046610</ogrn>
+        </predecessor>
+      </predecessors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2190280667432</grn>
+          <date>2019-07-19</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2190280044557</grn>
+          <date>2019-01-10</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2180280602775</grn>
+          <date>2018-05-10</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2018-04-28</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2018-04-23</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2018-04-26</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2018-04-23</date>
+            </document>
+            <document>
+              <name>Сведения о платеже</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-04-24</date>
+            </document>
+            <document>
+              <name>Почтовая накладная</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2180280602764</grn>
+          <date>2018-05-10</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2018-04-28</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2018-04-23</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2018-04-26</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2017-09-04</date>
+            </document>
+            <document>
+              <name>Почтовая накладная</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2180280083840</grn>
+          <date>2018-01-19</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2018-01-12</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2018-01-10</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2018-01-10</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2017-09-04</date>
+            </document>
+            <document>
+              <name>Доверенность СП самсончева мн</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-01-10</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2170280969439</grn>
+          <date>2017-08-11</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2170280730453</grn>
+          <date>2017-06-20</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2017-06-13</date>
+            </document>
+            <document>
+              <name>Копия листов паспорта</name>
+            </document>
+            <document>
+              <name>Доверенность</name>
+            </document>
+            <document>
+              <name>Письмо</name>
+            </document>
+            <document>
+              <name>Расписка</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2160280720994</grn>
+          <date>2016-06-30</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2160280500390</grn>
+          <date>2016-04-22</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2016-04-15</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2016-04-15</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2016-03-23</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2016-03-31</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2016-02-18</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2160280127270</grn>
+          <date>2016-02-04</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6150280028960</grn>
+          <date>2015-12-04</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2015-12-02</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2015-12-01</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2015-11-27</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2015-11-27</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2150280405031</grn>
+          <date>2015-05-22</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2150280399949</grn>
+          <date>2015-05-21</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2150280399718</grn>
+          <date>2015-05-21</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2150280173140</grn>
+          <date>2015-03-10</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6140280123142</grn>
+          <date>2014-12-03</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Сопроводительное письмо</name>
+            </document>
+            <document>
+              <name>Приказ</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6140280008830</grn>
+          <date>2014-10-29</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6130280005443</grn>
+          <date>2013-10-03</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 39 по Республике Башкортостан</regName>
+          <regCode>0280</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2013-09-26</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2013-09-19</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2013-09-25</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2013-09-19</date>
+            </document>
+            <document>
+              <name>Доверенность служеникина валентина александровна СП</name>
+              <date>2013-09-18</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2120256019640</grn>
+          <date>2012-08-13</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2012-08-06</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2012-08-06</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2012-08-06</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2012-08-02</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 006831847</serialNumber>
+              <date>2012-08-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2120256004889</grn>
+          <date>2012-02-17</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2012-02-10</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2012-02-10</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2012-02-10</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2012-02-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 006832189</serialNumber>
+              <date>2012-02-17</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2110256045513</grn>
+          <date>2011-12-15</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-12-08</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 006834453</serialNumber>
+              <date>2011-12-15</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2110256043852</grn>
+          <date>2011-12-06</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2011-11-29</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2011-11-29</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2011-11-29</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2011-11-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 006834005</serialNumber>
+              <date>2011-12-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2110256030938</grn>
+          <date>2011-08-02</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2110256010544</grn>
+          <date>2011-05-30</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2100256060496</grn>
+          <date>2010-12-31</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2100256022095</grn>
+          <date>2010-03-03</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2100256021666</grn>
+          <date>2010-02-18</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2100256012228</grn>
+          <date>2010-02-03</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2100256012217</grn>
+          <date>2010-02-03</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090256012922</grn>
+          <date>2009-12-04</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-11-30</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2009-11-24</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-11-24</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2009-11-24</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005992851</serialNumber>
+              <date>2009-12-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2090256011680</grn>
+          <date>2009-10-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2080256015740</grn>
+          <date>2008-11-14</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2008-11-10</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2008-11-10</date>
+            </document>
+            <document>
+              <name>Изменения</name>
+              <date>2008-11-10</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2008-11-06</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 006062522</serialNumber>
+              <date>2008-11-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2080256015739</grn>
+          <date>2008-11-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2008-11-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 006062521</serialNumber>
+              <date>2008-11-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2080256009139</grn>
+          <date>2008-07-09</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2080256008908</grn>
+          <date>2008-07-01</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2008-06-25</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2008-06-25</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2008-06-25</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-06-17</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005749608</serialNumber>
+              <date>2008-07-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2080256008897</grn>
+          <date>2008-07-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2008-06-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005749606</serialNumber>
+              <date>2008-07-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2080256001857</grn>
+          <date>2008-02-06</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2080256000174</grn>
+          <date>2008-01-15</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256024155</grn>
+          <date>2007-12-10</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005748229</serialNumber>
+              <date>2007-12-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256024144</grn>
+          <date>2007-12-10</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005748228</serialNumber>
+              <date>2007-12-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256024133</grn>
+          <date>2007-12-10</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005748227</serialNumber>
+              <date>2007-12-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256024122</grn>
+          <date>2007-12-10</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005748226</serialNumber>
+              <date>2007-12-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256024111</grn>
+          <date>2007-12-10</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005748225</serialNumber>
+              <date>2007-12-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256024100</grn>
+          <date>2007-12-10</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005748224</serialNumber>
+              <date>2007-12-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256024090</grn>
+          <date>2007-12-10</date>
+          <name>Внесение сведений о повторной выдаче свидетельства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005748223</serialNumber>
+              <date>2007-12-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256016785</grn>
+          <date>2007-09-05</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256011637</grn>
+          <date>2007-06-18</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256010427</grn>
+          <date>2007-06-07</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-06-01</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005252839</serialNumber>
+              <date>2007-06-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256007699</grn>
+          <date>2007-04-28</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256003233</grn>
+          <date>2007-03-23</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2007-03-22</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2007-03-21</date>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+              <date>2007-03-21</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2007-03-21</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-03-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005252163</serialNumber>
+              <date>2007-03-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256003222</grn>
+          <date>2007-03-23</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-03-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 005252162</serialNumber>
+              <date>2007-03-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256000835</grn>
+          <date>2007-02-01</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2070256000626</grn>
+          <date>2007-01-29</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2060256031405</grn>
+          <date>2006-12-14</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2050202055506</grn>
+          <date>2005-07-05</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2050202055495</grn>
+          <date>2005-07-05</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2050202050083</grn>
+          <date>2005-04-22</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2050202049533</grn>
+          <date>2005-04-13</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-12-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 004327914</serialNumber>
+              <date>2005-04-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2050202049225</grn>
+          <date>2005-04-07</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2050202047311</grn>
+          <date>2005-03-18</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-12-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 004327195</serialNumber>
+              <date>2005-03-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2050202047300</grn>
+          <date>2005-03-18</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-12-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 004327194</serialNumber>
+              <date>2005-03-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2040202047037</grn>
+          <date>2004-10-01</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-12-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 004062990</serialNumber>
+              <date>2004-10-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2040202047026</grn>
+          <date>2004-10-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-12-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 004062989</serialNumber>
+              <date>2004-10-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2040202046234</grn>
+          <date>2004-08-13</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <documents>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-11-28</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>02 004062228</serialNumber>
+              <date>2004-08-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-08-13</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2040202046003</grn>
+          <date>2004-07-22</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1030202053122</grn>
+          <date>2003-11-28</date>
+          <name>Создание ЮЛ в форме преобразования</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №20 по Республике Башкортостан</regName>
+          <regCode>0256</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>02 003952117</serialNumber>
+              <date>2003-11-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>7414003633</inn>
+    <ogrn>1027402166835</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027402166835</focusHref>
+    <UL>
+      <okpo>00186424</okpo>
+      <pfrRegNumber>084037001291</pfrRegNumber>
+      <fssRegNumber>740900131574041</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>24.10</code>
+          <text>Производство чугуна, стали и ферросплавов</text>
+          <date>2005-04-11</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>01.70</code>
+            <text>Охота, отлов и отстрел диких животных, включая предоставление услуг в этих областях</text>
+            <date>2006-12-05</date>
+          </activity>
+          <activity>
+            <code>07.10.2</code>
+            <text>Добыча железных руд открытым способом</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>08.11.1</code>
+            <text>Добыча и первичная обработка камня для памятников и строительства</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>08.11.2</code>
+            <text>Добыча и первичная обработка известняка и гипсового камня</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>08.11.3</code>
+            <text>Добыча мела и некальцинированного доломита</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>08.12.2</code>
+            <text>Добыча глины и каолина</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>08.9</code>
+            <text>Добыча полезных ископаемых, не включенных в другие группировки</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>08.99</code>
+            <text>Добыча прочих полезных ископаемых, не включенных в другие группировки</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>19.10</code>
+            <text>Производство кокса</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>20.11</code>
+            <text>Производство промышленных газов</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>20.14.1</code>
+            <text>Производство углеводородов и их производных</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>20.14.7</code>
+            <text>Производство прочих химических органических основных веществ</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>20.15</code>
+            <text>Производство удобрений и азотных соединений</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>20.15.3</code>
+            <text>Производство азотных минеральных или химических удобрений</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>20.59.5</code>
+            <text>Производство прочих химических продуктов, не включенных в другие группировки</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>23.52.1</code>
+            <text>Производство негашеной, гашеной и гидравлической извести</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>24.10.11</code>
+            <text>Производство чугуна</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>24.10.14</code>
+            <text>Производство гранул и порошков из чугуна или стали</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>24.10.2</code>
+            <text>Производство стали в слитках</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>24.10.3</code>
+            <text>Производство листового горячекатаного стального проката</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>24.10.4</code>
+            <text>Производство листового холоднокатаного стального проката</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>24.10.5</code>
+            <text>Производство листового холоднокатаного стального проката, плакированного, с гальваническим или иным покрытием</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>24.10.6</code>
+            <text>Производство сортового горячекатаного проката и катанки</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>24.20</code>
+            <text>Производство стальных труб, полых профилей и фитингов</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>24.20.2</code>
+            <text>Производство сварных труб</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>24.32</code>
+            <text>Производство холоднотянутого штрипса</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>24.33</code>
+            <text>Производство профилей с помощью холодной штамповки или гибки</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>24.42</code>
+            <text>Производство алюминия</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>24.45.2</code>
+            <text>Производство титана</text>
+            <date>2019-03-04</date>
+          </activity>
+          <activity>
+            <code>24.52</code>
+            <text>Литье стали</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>25.61</code>
+            <text>Обработка металлов и нанесение покрытий на металлы</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>25.73</code>
+            <text>Производство инструмента</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>25.94</code>
+            <text>Производство крепежных изделий</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>25.99.29</code>
+            <text>Производство прочих изделий из недрагоценных металлов, не включенных в другие группировки</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>33.12</code>
+            <text>Ремонт машин и оборудования</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>33.13</code>
+            <text>Ремонт электронного и оптического оборудования</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>35.11.1</code>
+            <text>Производство электроэнергии тепловыми электростанциями, в том числе деятельность по обеспечению работоспособности электростанций</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>35.11.4</code>
+            <text>Производство электроэнергии, получаемой из возобновляемых источников энергии, включая выработанную солнечными, ветровыми, геотермальными электростанциями, в том числе деятельность по обеспечению их работоспособности</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>35.12</code>
+            <text>Передача электроэнергии и технологическое присоединение к распределительным электросетям</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>35.12.1</code>
+            <text>Передача электроэнергии</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>35.13</code>
+            <text>Распределение электроэнергии</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>35.22.12</code>
+            <text>Распределение природного, сухого (отбензиненного) газа по газораспределительным сетям по тарифам, не регулируемым государством</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>35.30.11</code>
+            <text>Производство пара и горячей воды (тепловой энергии) тепловыми электростанциями</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>35.30.13</code>
+            <text>Производство пара и горячей воды (тепловой энергии) прочими электростанциями и промышленными блок-станциями</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>35.30.2</code>
+            <text>Передача пара и горячей воды (тепловой энергии)</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>35.30.5</code>
+            <text>Обеспечение работоспособности тепловых сетей</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>36.00.1</code>
+            <text>Забор и очистка воды для питьевых и промышленных нужд</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>36.00.2</code>
+            <text>Распределение воды для питьевых и промышленных нужд</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>37.00</code>
+            <text>Сбор и обработка сточных вод</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>38.1</code>
+            <text>Сбор отходов</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>38.2</code>
+            <text>Обработка и утилизация отходов</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>38.32.3</code>
+            <text>Обработка отходов и лома черных металлов</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>38.32.4</code>
+            <text>Обработка отходов и лома цветных металлов</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>41.2</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>43.13</code>
+            <text>Разведочное бурение</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>46.12.22</code>
+            <text>Деятельность агентов по оптовой торговле металлами в первичных формах</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>46.4</code>
+            <text>Торговля оптовая непродовольственными потребительскими товарами</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>46.69</code>
+            <text>Торговля оптовая прочими машинами и оборудованием</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>46.71</code>
+            <text>Торговля оптовая твердым, жидким и газообразным топливом и подобными продуктами</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>46.72.21</code>
+            <text>Торговля оптовая черными металлами в первичных формах</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>46.72.22</code>
+            <text>Торговля оптовая цветными металлами в первичных формах, кроме драгоценных</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>46.73</code>
+            <text>Торговля оптовая лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>46.75</code>
+            <text>Торговля оптовая химическими продуктами</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>46.76</code>
+            <text>Торговля оптовая прочими промежуточными продуктами</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>46.77</code>
+            <text>Торговля оптовая отходами и ломом</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>47.99</code>
+            <text>Торговля розничная прочая вне магазинов, палаток, рынков</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>49.20</code>
+            <text>Деятельность железнодорожного транспорта: грузовые перевозки</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>49.20.9</code>
+            <text>Перевозка прочих грузов</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>52.10.9</code>
+            <text>Хранение и складирование прочих грузов</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>52.21.1</code>
+            <text>Деятельность вспомогательная, связанная с железнодорожным транспортом</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>52.21.19</code>
+            <text>Деятельность вспомогательная прочая, связанная с железнодорожным транспортом</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>52.29</code>
+            <text>Деятельность вспомогательная прочая, связанная с перевозками</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>61.10.1</code>
+            <text>Деятельность по предоставлению услуг телефонной связи</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>61.10.9</code>
+            <text>Деятельность в области связи на базе проводных технологий прочая</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>61.90</code>
+            <text>Деятельность в области телекоммуникаций прочая</text>
+            <date>2019-03-04</date>
+          </activity>
+          <activity>
+            <code>62.09</code>
+            <text>Деятельность, связанная с использованием вычислительной техники и информационных технологий, прочая</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>63.11.1</code>
+            <text>Деятельность по созданию и использованию баз данных и информационных ресурсов</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>64.19</code>
+            <text>Денежное посредничество прочее</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>68.20.1</code>
+            <text>Аренда и управление собственным или арендованным жилым недвижимым имуществом</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>68.20.2</code>
+            <text>Аренда и управление собственным или арендованным нежилым недвижимым имуществом</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>68.32.1</code>
+            <text>Управление эксплуатацией жилого фонда за вознаграждение или на договорной основе</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>71.12.3</code>
+            <text>Работы геолого-разведочные, геофизические и геохимические в области изучения недр и воспроизводства минерально-сырьевой базы</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>71.12.41</code>
+            <text>Деятельность топографо-геодезическая</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>71.20.3</code>
+            <text>Испытания и анализ физико-механических свойств материалов и веществ</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>71.20.9</code>
+            <text>Деятельность по техническому контролю, испытаниям и анализу прочая</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>72.19</code>
+            <text>Научные исследования и разработки в области естественных и технических наук прочие</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>77.39.12</code>
+            <text>Аренда и лизинг железнодорожного транспорта и оборудования</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>77.39.2</code>
+            <text>Аренда и лизинг прочих машин и оборудования, не включенных в другие группировки</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>77.39.29</code>
+            <text>Аренда и лизинг прочих машин и оборудования научного и промышленного назначения</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>80.10</code>
+            <text>Деятельность частных охранных служб</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>80.20</code>
+            <text>Деятельность систем обеспечения безопасности</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>80.30</code>
+            <text>Деятельность по расследованию</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>82.19</code>
+            <text>Деятельность по фотокопированию и подготовке документов и прочая специализированная вспомогательная деятельность по обеспечению деятельности офиса</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>82.99</code>
+            <text>Деятельность по предоставлению прочих вспомогательных услуг для бизнеса, не включенная в другие группировки</text>
+            <date>2009-03-03</date>
+          </activity>
+          <activity>
+            <code>84.25.9</code>
+            <text>Деятельность по обеспечению безопасности в чрезвычайных ситуациях прочая</text>
+            <date>2018-03-26</date>
+          </activity>
+          <activity>
+            <code>88.10</code>
+            <text>Предоставление социальных услуг без обеспечения проживания престарелым и инвалидам</text>
+            <date>2005-04-11</date>
+          </activity>
+          <activity>
+            <code>93.29.9</code>
+            <text>Деятельность зрелищно-развлекательная прочая, не включенная в другие группировки</text>
+            <date>2005-04-11</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-08-12</ogrnDate>
+        <regName>Администрация города Магнитогорска</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7455</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 16 по Челябинской области</nalogName>
+        <nalogRegDate>2010-06-25</nalogRegDate>
+        <kpp>745501001</kpp>
+        <date>2016-05-31</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7456</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 17 по Челябинской области</nalogName>
+        <date>2013-08-07</date>
+      </regBody>
+      <shareholders>
+        <date>2019-09-30</date>
+        <shareholdersFL>
+          <shareholderFL>
+            <fio>Шиляев Павел Владимирович</fio>
+            <votingSharesPercent>0.0032</votingSharesPercent>
+            <capitalSharesPercent>0.0032</capitalSharesPercent>
+            <date>2019-03-31</date>
+          </shareholderFL>
+          <shareholderFL>
+            <fio>Ушаков Сергей Николаевич</fio>
+            <votingSharesPercent>0.0015</votingSharesPercent>
+            <capitalSharesPercent>0.0015</capitalSharesPercent>
+            <date>2017-03-31</date>
+          </shareholderFL>
+          <shareholderFL>
+            <fio>Ерёмин Андрей Анатольевич</fio>
+            <votingSharesPercent>0.001</votingSharesPercent>
+            <capitalSharesPercent>0.001</capitalSharesPercent>
+            <date>2016-12-31</date>
+          </shareholderFL>
+          <shareholderFL>
+            <fio>Щуров Григорий Викторович</fio>
+            <votingSharesPercent>0.001</votingSharesPercent>
+            <capitalSharesPercent>0.001</capitalSharesPercent>
+            <date>2017-06-30</date>
+          </shareholderFL>
+          <shareholderFL>
+            <fio>Шепилов Сергей Викторович</fio>
+            <votingSharesPercent>0.0006</votingSharesPercent>
+            <capitalSharesPercent>0.0006</capitalSharesPercent>
+            <date>2016-12-31</date>
+          </shareholderFL>
+          <shareholderFL>
+            <fio>Кийков Олег Вячеславович</fio>
+            <votingSharesPercent>0.0005</votingSharesPercent>
+            <capitalSharesPercent>0.0005</capitalSharesPercent>
+            <date>2017-09-30</date>
+          </shareholderFL>
+        </shareholdersFL>
+        <shareholdersOther>
+          <shareholderOther>
+            <fullName>Минта Холдинг Лимитед</fullName>
+            <address>11, Kosta Charaki, Office 301 3041 Limassol, Cyprus</address>
+            <votingSharesPercent>84.26</votingSharesPercent>
+            <capitalSharesPercent>84.26</capitalSharesPercent>
+            <date>2006-12-15</date>
+          </shareholderOther>
+        </shareholdersOther>
+      </shareholders>
+      <statedCapital>
+        <sum>11174330000</sum>
+        <date>2007-12-24</date>
+      </statedCapital>
+      <foundersUL>
+        <founderUL>
+          <inn>7453042570</inn>
+          <fullName>Фонд Имущества Челябинской Области</fullName>
+          <share>
+            <sum>8858518</sum>
+          </share>
+          <date>2002-08-12</date>
+          <firstDate>2002-08-12</firstDate>
+        </founderUL>
+      </foundersUL>
+      <predecessors>
+        <predecessor>
+          <name>Закрытое акционерное общество "Рфц"</name>
+          <inn>7445030316</inn>
+          <ogrn>1067445030531</ogrn>
+        </predecessor>
+        <predecessor>
+          <name>Закрытое акционерное общество "Ммк-Капитал"</name>
+          <inn>7445034840</inn>
+          <ogrn>1077445002084</ogrn>
+        </predecessor>
+      </predecessors>
+      <egrRecords>
+        <egrRecord>
+          <grn>2197456774513</grn>
+          <date>2019-07-24</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2197456475380</grn>
+          <date>2019-05-08</date>
+          <name>Внесение сведений об аннулировании лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2197456440168</grn>
+          <date>2019-04-26</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2197456289809</grn>
+          <date>2019-03-22</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2197456289094</grn>
+          <date>2019-03-22</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2197456253388</grn>
+          <date>2019-03-11</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2019-02-28</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2019-02-25</date>
+            </document>
+            <document>
+              <name>Изменения к уставу ЮЛ</name>
+              <date>2019-02-25</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2019-02-27</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2019-02-28</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2197456237317</grn>
+          <date>2019-03-04</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2019-02-25</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2018-03-19</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6187456404118</grn>
+          <date>2018-12-24</date>
+          <name>Признание записи в ЕГРЮЛ недействительной</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6187456117348</grn>
+          <date>2018-10-25</date>
+          <name>Внесение изменений в связи с переименованием (переподчинением) адресных объектов</name>
+          <isInvalid>true</isInvalid>
+          <invalidSince>2018-12-24</invalidSince>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187456933211</grn>
+          <date>2018-08-22</date>
+          <name>Внесение сведений об аннулировании лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187456595148</grn>
+          <date>2018-05-17</date>
+          <name>Представление лицензирующим органом сведений об отзыве лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187456449376</grn>
+          <date>2018-04-11</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187456276050</grn>
+          <date>2018-03-26</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2018-03-19</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2017-05-29</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187456038328</grn>
+          <date>2018-01-10</date>
+          <name>Внесение сведений об аннулировании лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6177456394109</grn>
+          <date>2017-11-16</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6177456138359</grn>
+          <date>2017-09-07</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6177456138337</grn>
+          <date>2017-09-07</date>
+          <name>Внесение сведений об аннулировании лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2177456947578</grn>
+          <date>2017-07-20</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2177456779421</grn>
+          <date>2017-06-05</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2017-05-29</date>
+            </document>
+            <document>
+              <name>Протокол годового общего собрания акционеров ОАО "Ммк"</name>
+              <date>2017-05-26</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2017-05-26</date>
+            </document>
+            <document>
+              <name>Доверенность на сафина е.р.</name>
+              <date>2017-05-29</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6167456199905</grn>
+          <date>2016-07-29</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6167456199894</grn>
+          <date>2016-07-29</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6167456137568</grn>
+          <date>2016-07-28</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167456784768</grn>
+          <date>2016-06-17</date>
+          <name>Внесение сведений об аннулировании лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167456752483</grn>
+          <date>2016-06-09</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167456715248</grn>
+          <date>2016-05-31</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167456400186</grn>
+          <date>2016-03-30</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167456192495</grn>
+          <date>2016-02-25</date>
+          <name>Представление лицензирующим органом сведений об отзыве лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456369981</grn>
+          <date>2015-11-23</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456369970</grn>
+          <date>2015-11-23</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456306203</grn>
+          <date>2015-11-03</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456299768</grn>
+          <date>2015-10-29</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456290550</grn>
+          <date>2015-10-23</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456104914</grn>
+          <date>2015-06-06</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456103539</grn>
+          <date>2015-06-05</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456103517</grn>
+          <date>2015-06-05</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456045129</grn>
+          <date>2015-02-27</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157456045052</grn>
+          <date>2015-02-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2147456020545</grn>
+          <date>2014-03-06</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2014-02-27</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2014-02-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2147456017927</grn>
+          <date>2014-02-26</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Решение о выдаче лицензии</name>
+              <date>2014-02-19</date>
+            </document>
+            <document>
+              <name>Сопроводительное письмо</name>
+              <date>2014-02-18</date>
+            </document>
+            <document>
+              <name>Регистрационная карточка</name>
+            </document>
+            <document>
+              <name>Лицензия</name>
+              <date>2014-02-19</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2147456017894</grn>
+          <date>2014-02-26</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Решение ло о переоформлении лицензии</name>
+              <date>2014-02-19</date>
+            </document>
+            <document>
+              <name>Сопроводительное письмо</name>
+              <date>2014-02-18</date>
+            </document>
+            <document>
+              <name>Лицензия</name>
+              <date>2014-02-19</date>
+            </document>
+            <document>
+              <name>Регистрационная карточка</name>
+              <date>2014-02-24</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2147456005442</grn>
+          <date>2014-01-22</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2014-01-21</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2014-01-17</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137455049830</grn>
+          <date>2013-08-07</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137455048520</grn>
+          <date>2013-07-26</date>
+          <name>Внесение изменений в сведения, содержащиеся в ЕГРЮЛ, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137455048510</grn>
+          <date>2013-07-26</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137455048509</grn>
+          <date>2013-07-26</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137455040260</grn>
+          <date>2013-06-04</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2013-05-28</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2013-05-24</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2013-05-24</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2013-05-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 006015033</serialNumber>
+              <date>2013-06-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137455040259</grn>
+          <date>2013-06-04</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-05-28</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 006015032</serialNumber>
+              <date>2013-06-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137455033880</grn>
+          <date>2013-04-29</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2013-04-22</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2013-04-19</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2013-04-19</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2013-04-19</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 006014567</serialNumber>
+              <date>2013-04-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137455010670</grn>
+          <date>2013-02-13</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2013-02-05</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2013-01-31</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2013-01-31</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2013-01-31</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 006009858</serialNumber>
+              <date>2013-02-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455041701</grn>
+          <date>2012-07-15</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455039105</grn>
+          <date>2012-06-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455039094</grn>
+          <date>2012-06-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455039083</grn>
+          <date>2012-06-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455039061</grn>
+          <date>2012-06-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455039039</grn>
+          <date>2012-06-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455039028</grn>
+          <date>2012-06-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455039017</grn>
+          <date>2012-06-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455038995</grn>
+          <date>2012-06-27</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455036146</grn>
+          <date>2012-06-05</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2012-05-29</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2012-05-16</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2012-05-25</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2012-05-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005900285</serialNumber>
+              <date>2012-06-05</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455019404</grn>
+          <date>2012-03-22</date>
+          <name>Представление лицензирующим органом сведений о признании лицензии утратившей силу</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455013596</grn>
+          <date>2012-02-28</date>
+          <name>Представление лицензирующим органом сведений о признании лицензии утратившей силу</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127455013277</grn>
+          <date>2012-02-25</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455054396</grn>
+          <date>2011-10-18</date>
+          <name>Внесение изменений в сведения, содержащиеся в ЕГРЮЛ, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455054341</grn>
+          <date>2011-10-18</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455054330</grn>
+          <date>2011-10-18</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455054320</grn>
+          <date>2011-10-18</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455043836</grn>
+          <date>2011-08-09</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455042780</grn>
+          <date>2011-08-04</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455033430</grn>
+          <date>2011-06-10</date>
+          <name>Внесение изменений в связи с допущенными заявителем ошибками в ранее представленном заявлении</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, при исправлении ошибок, допущенных заявителем ранее</name>
+              <date>2011-06-03</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005722345</serialNumber>
+              <date>2011-06-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455031330</grn>
+          <date>2011-06-02</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2011-05-26</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2011-05-20</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2011-05-25</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2011-05-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005722271</serialNumber>
+              <date>2011-06-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455030053</grn>
+          <date>2011-06-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2011-05-25</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2011-05-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005722266</serialNumber>
+              <date>2011-06-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2117455012640</grn>
+          <date>2011-03-24</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2107455061954</grn>
+          <date>2010-08-02</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-07-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005652023</serialNumber>
+              <date>2010-08-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2107445018668</grn>
+          <date>2010-05-19</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2107445017865</grn>
+          <date>2010-05-12</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2107445017590</grn>
+          <date>2010-05-07</date>
+          <name>Внесение изменений в сведения, содержащиеся в ЕГРЮЛ, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2107445003081</grn>
+          <date>2010-01-26</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2097445073560</grn>
+          <date>2009-12-27</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2097445022574</grn>
+          <date>2009-06-03</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-05-27</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2009-05-15</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-05-22</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2009-05-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005183921</serialNumber>
+              <date>2009-06-03</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2097445007427</grn>
+          <date>2009-03-03</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2009-02-17</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005186438</serialNumber>
+              <date>2009-03-03</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2097445002620</grn>
+          <date>2009-01-26</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2087445048690</grn>
+          <date>2008-12-03</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2008-11-25</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2008-09-05</date>
+            </document>
+            <document>
+              <name>Изменения и дополнения в устав</name>
+              <date>2008-09-05</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2008-11-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005182544</serialNumber>
+              <date>2008-12-03</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445048404</grn>
+          <date>2007-12-24</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2007-12-17</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2007-12-14</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2007-08-30</date>
+            </document>
+            <document>
+              <name>Изменения и дополнения</name>
+              <date>2007-08-30</date>
+            </document>
+            <document>
+              <name>Изменения и дополнения</name>
+              <date>2007-12-14</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2007-11-09</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004507246</serialNumber>
+              <date>2007-12-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445046424</grn>
+          <date>2007-12-03</date>
+          <name>Реорганизация ЮЛ в форме присоединения к нему другого ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2007-11-16</date>
+            </document>
+            <document>
+              <name>Справка</name>
+              <date>2007-11-23</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2007-08-30</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2007-08-30</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2007-08-30</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004507136</serialNumber>
+              <date>2007-12-03</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445030683</grn>
+          <date>2007-07-13</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445025403</grn>
+          <date>2007-06-01</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2007-05-25</date>
+            </document>
+            <document>
+              <name>Изменения и дополнения</name>
+              <date>2006-12-15</date>
+            </document>
+            <document>
+              <name>Платежное поручение № 10491</name>
+              <date>2007-05-08</date>
+            </document>
+            <document>
+              <name>Выписка из протокола № 8</name>
+              <date>2006-12-15</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004494362</serialNumber>
+              <date>2007-06-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445025392</grn>
+          <date>2007-06-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2007-05-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004494361</serialNumber>
+              <date>2007-06-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445024127</grn>
+          <date>2007-05-25</date>
+          <name>Реорганизация ЮЛ в форме присоединения к нему другого ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Решение о реорганизации юридического лица</name>
+              <date>2006-11-28</date>
+            </document>
+            <document>
+              <name>Передаточный акт</name>
+              <date>2007-05-17</date>
+            </document>
+            <document>
+              <name>Договор о присоединении</name>
+              <date>2006-11-28</date>
+            </document>
+            <document>
+              <name>Заявление о внесении записи о прекращении деятельности присоединяемого юридического лица</name>
+              <date>2007-05-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004494326</serialNumber>
+              <date>2007-05-25</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445013204</grn>
+          <date>2007-04-09</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2007-04-03</date>
+            </document>
+            <document>
+              <name>Изменения и дополнения</name>
+              <date>2007-03-30</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2007-03-21</date>
+            </document>
+            <document>
+              <name>Выписка из протокола</name>
+              <date>2007-03-30</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004495676</serialNumber>
+              <date>2007-04-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445011499</grn>
+          <date>2007-03-15</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445062595</grn>
+          <date>2006-12-05</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2006-11-29</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004493220</serialNumber>
+              <date>2006-12-05</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445058547</grn>
+          <date>2006-11-16</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445055380</grn>
+          <date>2006-10-13</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445055379</grn>
+          <date>2006-10-13</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445045820</grn>
+          <date>2006-08-18</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445023050</grn>
+          <date>2006-06-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2006-05-26</date>
+            </document>
+            <document>
+              <name>Выписка из протокола № 19</name>
+              <date>2006-05-26</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004492414</serialNumber>
+              <date>2006-06-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445019541</grn>
+          <date>2006-04-27</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2006-04-20</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2006-04-21</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2006-04-17</date>
+            </document>
+            <document>
+              <name>Выписка из протокола №18</name>
+              <date>2006-04-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004490967</serialNumber>
+              <date>2006-04-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057420526271</grn>
+          <date>2005-11-07</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2005-10-19</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+            </document>
+            <document>
+              <name>Платежное поручение № 23145</name>
+            </document>
+            <document>
+              <name>Выписка из протокола № 10</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001630473</serialNumber>
+              <date>2005-11-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057420526260</grn>
+          <date>2005-11-07</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057420516613</grn>
+          <date>2005-09-07</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2005-09-01</date>
+            </document>
+            <document>
+              <name>Изменения</name>
+              <date>2005-08-30</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2005-08-31</date>
+            </document>
+            <document>
+              <name>Выписка из протокола № 16</name>
+              <date>2005-08-30</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001629470</serialNumber>
+              <date>2005-09-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057420513247</grn>
+          <date>2005-07-26</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2005-07-22</date>
+            </document>
+            <document>
+              <name>Изменения</name>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2005-07-22</date>
+            </document>
+            <document>
+              <name>Выписка из протокола № 15</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001627264</serialNumber>
+              <date>2005-07-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057420506251</grn>
+          <date>2005-04-26</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2005-04-22</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2005-04-22</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2005-04-26</date>
+            </document>
+            <document>
+              <name>Выписка из протокола № 15</name>
+              <date>2005-04-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001622179</serialNumber>
+              <date>2005-04-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057420506240</grn>
+          <date>2005-04-26</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2005-04-22</date>
+            </document>
+            <document>
+              <name>Выписка из протокола № 15</name>
+              <date>2005-04-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001622178</serialNumber>
+              <date>2005-04-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057420504690</grn>
+          <date>2005-04-15</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057420504183</grn>
+          <date>2005-04-11</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2005-04-01</date>
+            </document>
+            <document>
+              <name>Протокол № 1</name>
+              <date>2005-03-30</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001622123</serialNumber>
+              <date>2005-04-11</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2047420509101</grn>
+          <date>2004-12-01</date>
+          <name>Внесение сведений о предоставлении лицензии</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2047420504316</grn>
+          <date>2004-07-09</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2004-06-29</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2004-05-28</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2004-07-01</date>
+            </document>
+            <document>
+              <name>Выписка из протокола №13</name>
+              <date>2004-05-28</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001603089</serialNumber>
+              <date>2004-07-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2047420502831</grn>
+          <date>2004-05-07</date>
+          <name>Уведомление о внесении изменений в учредительные документы</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о внесении изменений в учредительные документы юридического лица</name>
+              <date>2004-04-30</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2004-03-26</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2004-04-27</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2004-03-26</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001601147</serialNumber>
+              <date>2004-05-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2037402170628</grn>
+          <date>2003-06-10</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001580226</serialNumber>
+              <date>2003-06-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2027402174765</grn>
+          <date>2002-12-19</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001568766</serialNumber>
+              <date>2002-12-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2027402168176</grn>
+          <date>2002-09-20</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>74 000605136</serialNumber>
+              <date>2002-09-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1027402166835</grn>
+          <date>2002-08-12</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>74 000603904</serialNumber>
+              <date>2002-08-12</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <shareholders>
+          <date>2019-09-30</date>
+          <shareholdersFL>
+            <shareholderFL>
+              <fio>Ласьков Сергей Алексеевич</fio>
+              <votingSharesPercent>0.0022</votingSharesPercent>
+              <capitalSharesPercent>0.0022</capitalSharesPercent>
+              <date>2016-12-31</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Крепкогорский Александр Леонидович</fio>
+              <votingSharesPercent>0.0017</votingSharesPercent>
+              <capitalSharesPercent>0.0017</capitalSharesPercent>
+              <date>2009-09-30</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Чуланов Тулеген Кажикеевич</fio>
+              <votingSharesPercent>0.0015</votingSharesPercent>
+              <capitalSharesPercent>0.0015</capitalSharesPercent>
+              <date>2009-09-30</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Лапин Максим Вячеславович</fio>
+              <votingSharesPercent>0.0007</votingSharesPercent>
+              <capitalSharesPercent>0.0007</capitalSharesPercent>
+              <date>2016-06-30</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Носов Алексей Дмитриевич</fio>
+              <votingSharesPercent>0.0005</votingSharesPercent>
+              <capitalSharesPercent>0.0005</capitalSharesPercent>
+              <date>2009-09-30</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Чернов Аркадий Владимирович</fio>
+              <votingSharesPercent>0.0004</votingSharesPercent>
+              <capitalSharesPercent>0.0004</capitalSharesPercent>
+              <date>2009-09-30</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Стариков Дмитрий Анатольевич</fio>
+              <votingSharesPercent>0.0004</votingSharesPercent>
+              <capitalSharesPercent>0.0004</capitalSharesPercent>
+              <date>2009-12-31</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Гампер Любовь Тимофеевна</fio>
+              <address>г. Магнитогорск </address>
+              <votingSharesPercent>0.0002</votingSharesPercent>
+              <capitalSharesPercent>0.0002</capitalSharesPercent>
+              <date>2009-09-30</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Малков Владимир Александрович</fio>
+              <votingSharesPercent>0.0002</votingSharesPercent>
+              <capitalSharesPercent>0.0002</capitalSharesPercent>
+              <date>2009-09-30</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Гаврилюк Александр Иванович</fio>
+              <votingSharesPercent>0.0002</votingSharesPercent>
+              <capitalSharesPercent>0.0002</capitalSharesPercent>
+              <date>2009-09-30</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Сулимов Сергей Алексеевич</fio>
+              <votingSharesPercent>0.0002</votingSharesPercent>
+              <capitalSharesPercent>0.0002</capitalSharesPercent>
+              <date>2015-03-31</date>
+            </shareholderFL>
+            <shareholderFL>
+              <fio>Лядов Николай Владимирович</fio>
+              <votingSharesPercent>0.000001</votingSharesPercent>
+              <capitalSharesPercent>0.000001</capitalSharesPercent>
+              <date>2019-03-31</date>
+            </shareholderFL>
+          </shareholdersFL>
+          <shareholdersUL>
+            <shareholderUL>
+              <ogrn>1027402052347</ogrn>
+              <inn>7444036805</inn>
+              <fullName>Общество с ограниченной ответственностью Управляющая компания «РФЦ-Капитал»</fullName>
+              <address>Российская Федерация, Челябинская обл., 455049 город Магнитогорск, ул.Завенягина, дом 9 </address>
+              <votingSharesPercent>0.019</votingSharesPercent>
+              <capitalSharesPercent>0.019</capitalSharesPercent>
+              <date>2014-06-30</date>
+            </shareholderUL>
+          </shareholdersUL>
+          <shareholdersOther>
+            <shareholderOther>
+              <fullName>Минта Холдинг Лимитед (Mintha Holding Limited)</fullName>
+              <address>11, Kosta Charaki, Office 301 3041 Limassol, Cyprus</address>
+              <votingSharesPercent>84.26</votingSharesPercent>
+              <capitalSharesPercent>84.26</capitalSharesPercent>
+              <date>2017-09-30</date>
+            </shareholderOther>
+            <shareholderOther>
+              <fullName>Фулнек Энтерпрайзис Лимитед (Fulnek Enterprises Limited)</fullName>
+              <address>Арк. Макариос III Авеню, 199, Неоклеус Хауз, Лимассол, Кипр </address>
+              <votingSharesPercent>41.01</votingSharesPercent>
+              <capitalSharesPercent>41.01</capitalSharesPercent>
+              <date>2006-12-15</date>
+            </shareholderOther>
+            <shareholderOther>
+              <fullName>Фулнек Энтерпрайсис Лимитед (Fulnek Enterprises Limited)</fullName>
+              <address>Арк. Макариос III Авеню, 199, Неоклеус Хауз, Лимассол, Кипр </address>
+              <votingSharesPercent>41</votingSharesPercent>
+              <capitalSharesPercent>41</capitalSharesPercent>
+              <date>2006-12-15</date>
+            </shareholderOther>
+            <shareholderOther>
+              <fullName>Общество с ограниченной ответственностью Управляющая компания «РФЦКапитал»</fullName>
+              <address>Российская Федерация, Челябинская обл., 455049 город Магнитогорск, ул.Завенягина, дом 9 </address>
+              <votingSharesPercent>0.212</votingSharesPercent>
+              <capitalSharesPercent>0.212</capitalSharesPercent>
+              <date>2013-09-30</date>
+            </shareholderOther>
+            <shareholderOther>
+              <fullName>Общество с ограниченной ответственностью Инвестиционная компания "Расчетнофондовый центр"</fullName>
+              <address>Российская Федерация, город Магнитогорск Челябинской области, ул. Завенягина, 9 </address>
+              <votingSharesPercent>0.1985</votingSharesPercent>
+              <capitalSharesPercent>0.1985</capitalSharesPercent>
+              <date>2014-09-30</date>
+            </shareholderOther>
+            <shareholderOther>
+              <fullName>Общество с ограниченной ответственностью Инвестиционная компания «ММК-Финанс» (ООО ИК «ММК-Финанс»)</fullName>
+              <address>Российская Федерация, Челябинская область, город Магнитогорск </address>
+              <votingSharesPercent>0.0007</votingSharesPercent>
+              <capitalSharesPercent>0.0007</capitalSharesPercent>
+              <date>2016-09-30</date>
+            </shareholderOther>
+          </shareholdersOther>
+        </shareholders>
+        <statedCapitals>
+          <statedCapital>
+            <sum>11174300000</sum>
+            <date>2007-12-24</date>
+          </statedCapital>
+        </statedCapitals>
+        <foundersUL>
+          <founderUL>
+            <fullName>ООО Ик "Рфц"</fullName>
+            <share>
+              <sum>9751054322</sum>
+            </share>
+          </founderUL>
+          <founderUL>
+            <fullName>ЗАО "Инг Банк"</fullName>
+            <share>
+              <sum>1052780055</sum>
+            </share>
+          </founderUL>
+          <founderUL>
+            <fullName>Общество с ограниченной ответственностью Инвестиционная компания Расчетно-фондовый центр</fullName>
+            <share />
+          </founderUL>
+          <founderUL>
+            <fullName>Инг Банк (Евразия) ЗАО (закрытое акционерное общество)</fullName>
+            <share />
+          </founderUL>
+        </foundersUL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>7445022629</inn>
+    <ogrn>1037402173610</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037402173610</focusHref>
+    <UL>
+      <okpo>71690178</okpo>
+      <pfrRegNumber>084037022043</pfrRegNumber>
+      <fssRegNumber>742100247374041</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>70.22</code>
+          <text>Консультирование по вопросам коммерческой деятельности и управления</text>
+          <date>2017-08-14</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>55.90</code>
+            <text>Деятельность по предоставлению прочих мест для временного проживания</text>
+            <date>2017-08-14</date>
+          </activity>
+          <activity>
+            <code>68.20.1</code>
+            <text>Аренда и управление собственным или арендованным жилым недвижимым имуществом</text>
+            <date>2017-08-14</date>
+          </activity>
+          <activity>
+            <code>68.20.2</code>
+            <text>Аренда и управление собственным или арендованным нежилым недвижимым имуществом</text>
+            <date>2017-08-14</date>
+          </activity>
+          <activity>
+            <code>68.32.1</code>
+            <text>Управление эксплуатацией жилого фонда за вознаграждение или на договорной основе</text>
+            <date>2017-08-14</date>
+          </activity>
+          <activity>
+            <code>68.32.2</code>
+            <text>Управление эксплуатацией нежилого фонда за вознаграждение или на договорной основе</text>
+            <date>2009-12-22</date>
+          </activity>
+          <activity>
+            <code>82.99</code>
+            <text>Деятельность по предоставлению прочих вспомогательных услуг для бизнеса, не включенная в другие группировки</text>
+            <date>2007-12-06</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2003-11-12</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7456</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 17 по Челябинской области</nalogName>
+        <nalogRegDate>2016-08-16</nalogRegDate>
+        <kpp>745601001</kpp>
+        <date>2016-08-16</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7456</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 17 по Челябинской области</nalogName>
+        <date>2013-08-07</date>
+      </regBody>
+      <statedCapital>
+        <sum>70000000</sum>
+        <date>2018-02-19</date>
+      </statedCapital>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1027402166835</ogrn>
+          <inn>7414003633</inn>
+          <fullName>Публичное акционерное общество "Магнитогорский Металлургический Комбинат"</fullName>
+          <share>
+            <sum>70000000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2017-06-27</date>
+          <firstDate>2009-12-22</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>6187456374055</grn>
+          <date>2018-12-18</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2018-12-11</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2018-12-07</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2018-06-05</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187456532283</grn>
+          <date>2018-04-23</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2018-04-16</date>
+            </document>
+            <document>
+              <name>Доверенность на максимова е.ю.</name>
+              <date>2018-04-16</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2018-04-13</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2017-12-18</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187456164663</grn>
+          <date>2018-02-19</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2018-02-09</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2017-12-13</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-02-02</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2017-12-18</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2018-02-06</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6177456542081</grn>
+          <date>2017-12-22</date>
+          <name>Внесение сведений о том, что хозяйственное общество находится в процессе уменьшения уставного капитала</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14002 заявление о нахождении хозяйственного общества в процессе уменьшения уставного капитала</name>
+              <date>2017-12-14</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2017-12-13</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2017-09-04</date>
+            </document>
+            <document>
+              <name>Доверенность на максимова е.ю.</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6177456038314</grn>
+          <date>2017-08-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2017-08-02</date>
+            </document>
+            <document>
+              <name>Конверт</name>
+              <date>2017-08-03</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2177456854694</grn>
+          <date>2017-06-27</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2017-06-06</date>
+            </document>
+            <document>
+              <name>Опись</name>
+              <date>2017-06-08</date>
+            </document>
+            <document>
+              <name>Конверт</name>
+              <date>2017-06-08</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7167456129977</grn>
+          <date>2016-12-21</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2016-12-09</date>
+            </document>
+            <document>
+              <name>Конверт</name>
+              <date>2016-12-13</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6167456329683</grn>
+          <date>2016-08-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6167456329672</grn>
+          <date>2016-08-16</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>6167456329551</grn>
+          <date>2016-08-16</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2016-08-02</date>
+            </document>
+            <document>
+              <name>Св-во грп</name>
+              <date>2007-10-23</date>
+            </document>
+            <document>
+              <name>Сопроводительное письмо</name>
+              <date>2016-08-04</date>
+            </document>
+            <document>
+              <name>Конверт</name>
+              <date>2016-08-04</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6167456109034</grn>
+          <date>2016-07-28</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167456601420</grn>
+          <date>2016-05-06</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137456173919</grn>
+          <date>2013-11-28</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 17 по Челябинской Области</regName>
+          <regCode>7456</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2013-11-15</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2013-11-11</date>
+            </document>
+            <document>
+              <name>Довереннсть</name>
+              <date>2013-09-10</date>
+            </document>
+            <document>
+              <name>Сопроводительное письмо</name>
+            </document>
+            <document>
+              <name>Конверт</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2013-11-06</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2013-11-11</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2107455081710</grn>
+          <date>2010-10-26</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 16 по Челябинской Области</regName>
+          <regCode>7455</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-10-18</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2010-10-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005655590</serialNumber>
+              <date>2010-10-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2097445066079</grn>
+          <date>2009-12-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2097445059006</grn>
+          <date>2009-12-22</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-12-11</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2009-10-27</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи</name>
+              <date>2009-11-27</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2009-12-10</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-12-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 005200843</serialNumber>
+              <date>2009-12-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445046809</grn>
+          <date>2007-12-06</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2007-11-27</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2007-10-10</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2007-11-29</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2007-11-29</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004507156</serialNumber>
+              <date>2007-12-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445007704</grn>
+          <date>2007-02-17</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077445007693</grn>
+          <date>2007-02-17</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445011830</grn>
+          <date>2006-04-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2006-04-04</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004490911</serialNumber>
+              <date>2006-04-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445005593</grn>
+          <date>2006-03-21</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004490570</serialNumber>
+              <date>2006-03-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067445000445</grn>
+          <date>2006-01-19</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2006-01-12</date>
+            </document>
+            <document>
+              <name>Решение</name>
+              <date>2006-01-12</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 004490129</serialNumber>
+              <date>2006-01-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2047420510498</grn>
+          <date>2004-12-29</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Орджоникидзевскому Району г. Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2004-12-21</date>
+            </document>
+            <document>
+              <name>Изменения № 1</name>
+              <date>2004-12-23</date>
+            </document>
+            <document>
+              <name>Платежное поручение № 228</name>
+              <date>2004-12-14</date>
+            </document>
+            <document>
+              <name>Решение № 4</name>
+              <date>2004-12-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 01616266</serialNumber>
+              <date>2004-12-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2047420506032</grn>
+          <date>2004-09-16</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2004-09-08</date>
+            </document>
+            <document>
+              <name>Решение № 3</name>
+              <date>2004-09-07</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001607787</serialNumber>
+              <date>2004-09-16</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2047420501533</grn>
+          <date>2004-03-29</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2004-03-22</date>
+            </document>
+            <document>
+              <name>Решение №2</name>
+              <date>2004-03-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001598017</serialNumber>
+              <date>2004-03-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <date>2003-11-18</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1037402173610</grn>
+          <date>2003-11-12</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Орджоникидзевскому Району г.Магнитогорска Челябинской Области</regName>
+          <regCode>7445</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>74 001588333</serialNumber>
+              <date>2003-11-12</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>154935474</sum>
+            <date>2009-12-22</date>
+          </statedCapital>
+          <statedCapital>
+            <sum>154935000</sum>
+            <date>2009-12-22</date>
+          </statedCapital>
+        </statedCapitals>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

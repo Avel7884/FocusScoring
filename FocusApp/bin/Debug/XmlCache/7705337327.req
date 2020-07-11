@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705337327</inn>
+    <ogrn>1147746251740</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1147746251740</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ВЭД-МАСТЕР</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ВЭД-МАСТЕР</full>
+        <date>2014-03-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115035</zipCode>
+          <kladrCode>770000000002549</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Садовническая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>79</topoValue>
+          </house>
+          <bulk>
+            <topoValue>стр.55-57</topoValue>
+          </bulk>
+          <houseRaw>79</houseRaw>
+          <bulkRaw>СТР.55-57</bulkRaw>
+        </parsedAddressRF>
+        <date>2014-03-11</date>
+        <firstDate>2014-03-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-03-11</date>
+      </status>
+      <registrationDate>2000-02-07</registrationDate>
+      <dissolutionDate>2014-03-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кудрявцев А С</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2014-03-11</date>
+          <firstDate>2014-03-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

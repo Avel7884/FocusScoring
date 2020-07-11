@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7719253564</inn>
+    <ogrn>1027719003003</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027719003003</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okpo>58729160</okpo>
+      <okato>45296559000</okato>
+      <okfs>16</okfs>
+      <oktmo>45914000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОДАТА"</short>
+        <full>Общество с ограниченной ответственностью "АВТОДАТА"</full>
+        <date>2002-08-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115280</zipCode>
+          <kladrCode>770000000001026</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Восточная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>11</topoValue>
+          </flat>
+          <houseRaw>ДОМ 9</houseRaw>
+          <flatRaw>КВАРТИРА 11</flatRaw>
+        </parsedAddressRF>
+        <date>2018-06-01</date>
+        <firstDate>2018-06-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-11-30</date>
+      </status>
+      <registrationDate>2002-08-15</registrationDate>
+      <dissolutionDate>2018-11-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сухоруков Сергей Михайлович</fio>
+          <innfl>772638099132</innfl>
+          <position>Ликвидатор</position>
+          <date>2018-06-19</date>
+          <firstDate>2011-03-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771901001</kpp>
+            <date>2005-01-24</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>105318</zipCode>
+              <kladrCode>770000000002908</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Ткацкая</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>1</topoValue>
+              </house>
+              <houseRaw>1</houseRaw>
+            </parsedAddressRF>
+            <date>2002-08-15</date>
+            <firstDate>2002-08-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

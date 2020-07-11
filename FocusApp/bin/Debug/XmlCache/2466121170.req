@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2466121170</inn>
+    <ogrn>1042402960313</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1042402960313</focusHref>
+    <UL>
+      <kpp>246301001</kpp>
+      <okopf>81</okopf>
+      <opf>Учреждения</opf>
+      <legalName>
+        <full>Агентство лесного хозяйства по Красноярскому краю, Таймырскому (Долгано-Ненецкому) и Эвенкийскому автономным округам</full>
+        <date>2006-02-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660036</zipCode>
+          <kladrCode>240000010000032</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Академгородок</topoValue>
+          </street>
+          <house>
+            <topoValue>Здание Вниипомлесхоза</topoValue>
+          </house>
+          <houseRaw>ЗДАНИЕ ВНИИПОМЛЕСХОЗА</houseRaw>
+        </parsedAddressRF>
+        <date>2006-02-28</date>
+        <firstDate>2006-02-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-05-28</date>
+      </status>
+      <registrationDate>2004-09-03</registrationDate>
+      <dissolutionDate>2007-05-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Векшин Владимир Николаевич</fio>
+          <innfl>246502561379</innfl>
+          <position>Председатель</position>
+          <date>2007-01-22</date>
+          <firstDate>2007-01-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

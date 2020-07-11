@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7714293740</inn>
+    <ogrn>1037714003920</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037714003920</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>59827700</okpo>
+      <okato>45277598000</okato>
+      <okfs>16</okfs>
+      <oktmo>45348000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АлВа-Строй"</short>
+        <full>Общество с ограниченной ответственностью "АлВа-Строй"</full>
+        <date>2003-01-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>123007</zipCode>
+          <kladrCode>770000000003049</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Хорошевское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>35/2</topoValue>
+          </house>
+          <bulk>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>35/2</houseRaw>
+          <bulkRaw>3</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-01-20</date>
+        <firstDate>2003-01-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-11-29</date>
+      </status>
+      <registrationDate>2003-01-20</registrationDate>
+      <dissolutionDate>2007-11-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Канкия Валентина Алексеевна</fio>
+          <innfl>771512347843</innfl>
+          <position>Генеральный директор</position>
+          <date>2003-01-20</date>
+          <firstDate>2003-01-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

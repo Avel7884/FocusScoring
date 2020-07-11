@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6163146399</inn>
+    <ogrn>1166196068763</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1166196068763</focusHref>
+    <UL>
+      <kpp>614101001</kpp>
+      <okpo>01775140</okpo>
+      <okato>60407000000</okato>
+      <okfs>16</okfs>
+      <oktmo>60707000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ВОСТОК"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "ВОСТОК"</full>
+        <date>2016-04-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>346880</zipCode>
+          <kladrCode>610000030000147</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Батайск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>1-й Пятилетки</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>Г</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>201</topoValue>
+          </flat>
+          <houseRaw>ДОМ 12</houseRaw>
+          <bulkRaw>КОРПУС Г</bulkRaw>
+          <flatRaw>ОФИС 201</flatRaw>
+        </parsedAddressRF>
+        <date>2018-05-23</date>
+        <firstDate>2018-05-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2016-04-06</registrationDate>
+      <heads>
+        <head>
+          <fio>Карасиков Михаил Николаевич</fio>
+          <innfl>010201062229</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-04-06</date>
+          <firstDate>2016-04-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>616301001</kpp>
+            <date>2016-04-06</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <kladrCode>610000010001462</kladrCode>
+              <regionCode>61</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Ростовская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Ростов-на-Дону</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Соколова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>80</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>707А</topoValue>
+              </flat>
+              <houseRaw>ДОМ 80</houseRaw>
+              <flatRaw>ОФИС 707А</flatRaw>
+            </parsedAddressRF>
+            <date>2016-04-06</date>
+            <firstDate>2016-04-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

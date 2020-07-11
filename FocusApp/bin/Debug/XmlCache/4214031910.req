@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4214031910</inn>
+    <ogrn>1104200000717</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1104200000717</focusHref>
+    <UL>
+      <kpp>421401001</kpp>
+      <okpo>65161116</okpo>
+      <okato>32425000000</okato>
+      <okfs>50</okfs>
+      <oktmo>32725000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>70401</okopf>
+      <opf>Благотворительные фонды</opf>
+      <legalName>
+        <short>"БФ "Развитие"</short>
+        <full>"Благотворительный фонд развития спорта, творчества и социального обеспечения "Развитие"</full>
+        <date>2010-04-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>652884</zipCode>
+          <kladrCode>420000160000018</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Междуреченск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вокзальная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28</topoValue>
+          </house>
+          <flat>
+            <topoValue>17</topoValue>
+          </flat>
+          <houseRaw>28</houseRaw>
+          <flatRaw>17</flatRaw>
+        </parsedAddressRF>
+        <date>2010-04-15</date>
+        <firstDate>2010-04-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-04-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Жуковский Анатолий Николаевич</fio>
+          <innfl>421403578350</innfl>
+          <position>Президент</position>
+          <date>2010-04-15</date>
+          <firstDate>2010-04-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

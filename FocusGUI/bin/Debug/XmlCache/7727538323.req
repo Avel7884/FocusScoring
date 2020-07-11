@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7727538323</inn>
+    <ogrn>1057746551774</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1057746551774</focusHref>
+    <UL>
+      <kpp>773101001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "А.Р.Лаб"</short>
+        <full>Общество с ограниченной ответственностью "А.Р.Лаб"</full>
+        <date>2005-04-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121500</zipCode>
+          <kladrCode>770000000000935</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Василия Ботылева</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>33</topoValue>
+          </house>
+          <houseRaw>33</houseRaw>
+        </parsedAddressRF>
+        <date>2006-11-23</date>
+        <firstDate>2006-11-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-06-14</date>
+      </status>
+      <registrationDate>2005-04-01</registrationDate>
+      <dissolutionDate>2008-06-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Почуева Зинаида Фёдоровна</fio>
+          <innfl>503203668956</innfl>
+          <position>Генеральный директор</position>
+          <date>2007-01-22</date>
+          <firstDate>2007-01-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2453008957</inn>
+    <ogrn>1022401483720</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022401483720</focusHref>
+    <UL>
+      <kpp>245301001</kpp>
+      <okpo>58806185</okpo>
+      <okato>04537000000</okato>
+      <okfs>16</okfs>
+      <oktmo>04737000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергосервис"</short>
+        <full>Общество с ограниченной ответственностью "Энергосервис"</full>
+        <date>2017-04-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>663690</zipCode>
+          <kladrCode>240000050000053</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Зеленогорск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Майское шоссе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 27</houseRaw>
+          <bulkRaw>КОРПУС 3</bulkRaw>
+        </parsedAddressRF>
+        <date>2017-04-07</date>
+        <firstDate>2009-02-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-09-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Костромин Владимир Викторович</fio>
+          <innfl>245304534220</innfl>
+          <position>Директор</position>
+          <date>2018-11-16</date>
+          <firstDate>2009-02-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7017132230</inn>
+    <ogrn>1057002659669</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1057002659669</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>79193382</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ АСТРОН"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "А С Т Р О Н"</full>
+        <date>2005-12-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634009</zipCode>
+          <kladrCode>700000010000627</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Пролетарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>59/1</topoValue>
+          </house>
+          <houseRaw>59/1</houseRaw>
+        </parsedAddressRF>
+        <date>2009-11-11</date>
+        <firstDate>2009-11-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-12-05</registrationDate>
+      <heads>
+        <head>
+          <fio>Мартынов Дмитрий Владимирович</fio>
+          <innfl>702000587896</innfl>
+          <position>Директор</position>
+          <date>2017-03-05</date>
+          <firstDate>2005-12-05</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

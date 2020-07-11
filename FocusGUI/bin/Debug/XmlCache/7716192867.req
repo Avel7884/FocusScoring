@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7716192867</inn>
+    <ogrn>1027739303283</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739303283</focusHref>
+    <UL>
+      <kpp>771601001</kpp>
+      <okpo>52775271</okpo>
+      <okato>45280597000</okato>
+      <okfs>16</okfs>
+      <oktmo>45365000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Г.А.И."</short>
+        <full>Общество с ограниченной ответственностью "Г.А.И."</full>
+        <date>2012-10-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129337</zipCode>
+          <kladrCode>770000000003221</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Ярославское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>28</topoValue>
+          </house>
+          <houseRaw>28</houseRaw>
+        </parsedAddressRF>
+        <date>2008-10-22</date>
+        <firstDate>2008-10-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2000-05-24</registrationDate>
+      <heads>
+        <head>
+          <fio>Шевцов Иван Валерьевич</fio>
+          <innfl>381259767220</innfl>
+          <position>Генеральный Директор</position>
+          <date>2016-12-07</date>
+          <firstDate>2016-12-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Михайлов Андрей Германович</fio>
+            <position>Генеральный директор</position>
+            <date>2011-07-15</date>
+            <firstDate>2011-07-15</firstDate>
+          </head>
+          <head>
+            <fio>Волкова Наталья Анатольевна</fio>
+            <innfl>501205186464</innfl>
+            <position>Генеральный Директор</position>
+            <date>2012-10-22</date>
+            <firstDate>2012-10-22</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

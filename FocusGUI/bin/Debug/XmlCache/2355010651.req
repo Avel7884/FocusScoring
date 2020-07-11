@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2355010651</inn>
+    <ogrn>1022304918206</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022304918206</focusHref>
+    <UL>
+      <kpp>235501001</kpp>
+      <okpo>48430661</okpo>
+      <okato>03255804005</okato>
+      <okfs>16</okfs>
+      <oktmo>03655404116</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>Фирма "Аврора" ООО</short>
+        <full>Фирма "Аврора" общество с ограниченной ответственностью</full>
+        <date>2002-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>352820</zipCode>
+          <kladrCode>23036000032</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Туапсинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Красное</topoValue>
+          </settlement>
+          <street>
+            <topoValue>241</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2007-02-09</date>
+        <firstDate>2007-02-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-01-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Чернышев Борис Григорьевич</fio>
+          <innfl>235500735085</innfl>
+          <position>Директор</position>
+          <date>2007-03-09</date>
+          <firstDate>2007-03-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

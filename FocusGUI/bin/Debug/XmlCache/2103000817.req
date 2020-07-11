@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2103000817</inn>
+    <ogrn>1022101829970</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022101829970</focusHref>
+    <UL>
+      <kpp>771401001</kpp>
+      <okpo>43224402</okpo>
+      <okato>45277556000</okato>
+      <okfs>16</okfs>
+      <oktmo>45334000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Агротехснаб"</short>
+        <full>Закрытое акционерное общество "Агротехснаб"</full>
+        <date>2002-11-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125040</zipCode>
+          <kladrCode>770000000003215</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ямского Поля 3-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>17/19</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>17/19</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2016-05-25</date>
+        <firstDate>2008-12-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-19</date>
+      </status>
+      <registrationDate>1997-07-18</registrationDate>
+      <dissolutionDate>2016-09-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Яснов Игорь Леонидович</fio>
+          <innfl>212712229967</innfl>
+          <position>Директор</position>
+          <date>2008-12-02</date>
+          <firstDate>2008-12-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125040</zipCode>
+              <kladrCode>770000000003215</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>3-я улица Ямского Поля</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>17/19</topoValue>
+              </house>
+              <bulk>
+                <topoValue>2</topoValue>
+              </bulk>
+              <houseRaw>17/19</houseRaw>
+              <bulkRaw>2</bulkRaw>
+            </parsedAddressRF>
+            <date>2016-05-14</date>
+            <firstDate>2016-05-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

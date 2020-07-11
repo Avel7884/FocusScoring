@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3255500478</inn>
+    <ogrn>1073254003525</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1073254003525</focusHref>
+    <UL>
+      <kpp>324501001</kpp>
+      <okpo>81910899</okpo>
+      <okato>15208842005</okato>
+      <okfs>16</okfs>
+      <oktmo>15608442121</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МеталлТрейд 32"</short>
+        <full>Общество с ограниченной ответственностью "МеталлТрейд 32"</full>
+        <date>2007-09-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>241517</zipCode>
+          <kladrCode>320010000280010</kladrCode>
+          <regionCode>32</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Брянская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Брянский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>д</topoShortName>
+            <topoFullName>деревня</topoFullName>
+            <topoValue>Дубровка</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+        </parsedAddressRF>
+        <date>2011-02-11</date>
+        <firstDate>2011-02-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-09-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Рафеева Екатерина Геннадьевна</fio>
+          <innfl>323207223909</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-10-13</date>
+          <firstDate>2010-10-13</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

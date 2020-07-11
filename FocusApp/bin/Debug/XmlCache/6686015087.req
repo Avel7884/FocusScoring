@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6686015087</inn>
+    <ogrn>1126686018205</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1126686018205</focusHref>
+    <UL>
+      <kpp>668601001</kpp>
+      <okpo>16623938</okpo>
+      <okato>65401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ Витэкс"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма Витэкс"</full>
+        <date>2012-09-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620012</zipCode>
+          <kladrCode>660000010001066</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Стахановская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <flat>
+            <topoValue>101</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <flatRaw>101</flatRaw>
+        </parsedAddressRF>
+        <date>2012-09-27</date>
+        <firstDate>2012-09-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-09-22</date>
+      </status>
+      <registrationDate>2012-09-27</registrationDate>
+      <dissolutionDate>2016-09-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Костина Ольга Сергеевна</fio>
+          <innfl>661219860980</innfl>
+          <position>Директор</position>
+          <date>2015-12-29</date>
+          <firstDate>2015-12-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Лубенцов Виктор Владимирович</fio>
+            <innfl>667306131689</innfl>
+            <position>Директор</position>
+            <date>2012-09-27</date>
+            <firstDate>2012-09-27</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2407009650</inn>
+    <ogrn>1022400593907</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022400593907</focusHref>
+    <UL>
+      <kpp>240701001</kpp>
+      <okpo>49695150</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АДАР"</short>
+        <full>Закрытое акционерное общество "АДАР"</full>
+        <date>2002-12-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>663449</zipCode>
+          <kladrCode>240080000290004</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Богучанский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>д</topoShortName>
+            <topoFullName>деревня</topoFullName>
+            <topoValue>Ярки</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>тер</topoShortName>
+            <topoFullName>территория</topoFullName>
+            <topoValue>Урочище Абакан</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2011-09-02</date>
+        <firstDate>2011-09-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-09-04</date>
+      </status>
+      <registrationDate>1998-08-24</registrationDate>
+      <dissolutionDate>2012-09-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Карпенков Эдуард Владимирович</fio>
+          <innfl>242000324401</innfl>
+          <position>Генеральный Директор</position>
+          <date>2012-01-13</date>
+          <firstDate>2012-01-13</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>663431</zipCode>
+              <regionCode>24</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Красноярский</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Богучанский</topoValue>
+              </district>
+              <settlement>
+                <topoValue>Урочище Абакан</topoValue>
+              </settlement>
+              <street>
+                <topoValue>8 км восточнее деревни Ярки</topoValue>
+              </street>
+            </parsedAddressRF>
+            <date>2011-09-02</date>
+            <firstDate>2011-09-02</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>663467</zipCode>
+              <regionCode>24</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Красноярский</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Богучанский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>п</topoShortName>
+                <topoFullName>поселок</topoFullName>
+                <topoValue>Таежный</topoValue>
+              </settlement>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Зеленая</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>7Б</topoValue>
+              </house>
+              <houseRaw>7 Б</houseRaw>
+            </parsedAddressRF>
+            <date>2010-06-09</date>
+            <firstDate>2010-06-09</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Михайлов Василий Михайлович</fio>
+            <innfl>240716214452</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-06-24</date>
+            <firstDate>2010-06-24</firstDate>
+          </head>
+          <head>
+            <fio>Атаманюк Василий Николаевич</fio>
+            <innfl>381703951346</innfl>
+            <position>Генеральный диретор</position>
+            <date>2011-09-02</date>
+            <firstDate>2011-09-02</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

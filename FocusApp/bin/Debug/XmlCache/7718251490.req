@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7718251490</inn>
+    <ogrn>1037718038082</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037718038082</focusHref>
+    <UL>
+      <kpp>771801001</kpp>
+      <okpo>70176060</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Аксиома"</short>
+        <full>Закрытое акционерное общество "Аксиома"</full>
+        <date>2003-08-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107113</zipCode>
+          <kladrCode>770000000002526</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Рыбинская 3-я</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <bulk>
+            <topoValue>5</topoValue>
+          </bulk>
+          <houseRaw>26</houseRaw>
+          <bulkRaw>5</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-08-14</date>
+        <firstDate>2003-08-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-02-03</date>
+      </status>
+      <registrationDate>2003-08-14</registrationDate>
+      <dissolutionDate>2015-02-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Стахий Андрей Николаевич</fio>
+          <innfl>772327143090</innfl>
+          <position>Директор</position>
+          <date>2015-01-20</date>
+          <firstDate>2015-01-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Тепляков Игорь Владимирович</fio>
+            <position>Директор</position>
+            <date>2006-12-21</date>
+            <firstDate>2006-12-21</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

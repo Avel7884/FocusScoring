@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658111568</inn>
+    <ogrn>1026602321943</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602321943</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okpo>53399367</okpo>
+      <okato>65401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Энергоремстрой-М"</short>
+        <full>Закрытое акционерное общество "Энергоремстрой-М"</full>
+        <date>2002-10-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620014</zipCode>
+          <kladrCode>660000010000794</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Папанина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>51</topoValue>
+          </flat>
+          <houseRaw>7</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>51</flatRaw>
+        </parsedAddressRF>
+        <date>2002-10-09</date>
+        <firstDate>2002-10-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-03-29</date>
+      </status>
+      <registrationDate>2000-04-06</registrationDate>
+      <dissolutionDate>2013-03-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ширяева Татьяна Александровна</fio>
+          <innfl>666005281054</innfl>
+          <position>Генеральный Директор</position>
+          <date>2002-10-09</date>
+          <firstDate>2002-10-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

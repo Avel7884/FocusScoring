@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623038652</inn>
+    <ogrn>1076623002444</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076623002444</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>80356202</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АвтоЩит"</short>
+        <full>Общество с ограниченной ответственностью "АвтоЩит"</full>
+        <date>2007-04-03</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622013</zipCode>
+          <kladrCode>660000230000682</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Кулибина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>64</topoValue>
+          </house>
+          <houseRaw>64</houseRaw>
+        </parsedAddressRF>
+        <date>2007-04-03</date>
+        <firstDate>2007-04-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-11-20</date>
+      </status>
+      <registrationDate>2007-04-03</registrationDate>
+      <dissolutionDate>2009-11-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Цыганков Сергей Васильевич</fio>
+          <innfl>662301457543</innfl>
+          <position>Директор</position>
+          <date>2007-04-03</date>
+          <firstDate>2007-04-03</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

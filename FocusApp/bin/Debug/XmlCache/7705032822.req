@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705032822</inn>
+    <ogrn>1027739130704</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739130704</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okpo>07509209</okpo>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>ФГУП "ЦНКБ"</short>
+        <full>ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ УНИТАРНОЕ ПРЕДПРИЯТИЕ "ЦЕНТРАЛЬНОЕ НАУЧНО-КОНСТРУКТОРСКОЕ БЮРО"</full>
+        <date>2002-08-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109240</zipCode>
+          <kladrCode>770000000001112</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Гончарная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>20</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-08-29</date>
+        <firstDate>2002-08-29</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>"АЛЕКСИНСКОЕ СПЕЦИАЛЬНОЕ КОНСТРУКТОРСКО-ТЕХНОЛОГИЧЕСКОЕ БЮРО" - ФИЛИАЛ ФГУП "ЦНКБ"</name>
+          <parsedAddressRF>
+            <zipCode>301365</zipCode>
+            <kladrCode>710020010000088</kladrCode>
+            <regionCode>71</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Тульская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Алексин</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Металлистов</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>10</topoValue>
+            </house>
+            <houseRaw>10</houseRaw>
+          </parsedAddressRF>
+          <date>2011-02-14</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-03-29</date>
+      </status>
+      <registrationDate>1992-03-31</registrationDate>
+      <dissolutionDate>2013-03-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шакиров Фанис Раушанович</fio>
+          <innfl>505400912519</innfl>
+          <position>Временно исполняющий обязанности генерального директора</position>
+          <date>2011-11-17</date>
+          <firstDate>2011-11-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Залесский Борис Эдуардович</fio>
+            <innfl>710506874986</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-09-01</date>
+            <firstDate>2007-07-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

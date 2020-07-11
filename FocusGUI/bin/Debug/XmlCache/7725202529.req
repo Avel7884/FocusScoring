@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725202529</inn>
+    <ogrn>1027725000621</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027725000621</focusHref>
+    <UL>
+      <kpp>772501001</kpp>
+      <okpo>58719121</okpo>
+      <okato>45296561000</okato>
+      <okfs>16</okfs>
+      <oktmo>45915000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "АВРОРА-СЕРВИС"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "АВРОРА-СЕРВИС"</full>
+        <date>2015-02-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119991</zipCode>
+          <kladrCode>770000000001689</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Ленинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>31</topoValue>
+          </house>
+          <bulk>
+            <topoValue>2</topoValue>
+          </bulk>
+          <houseRaw>31</houseRaw>
+          <bulkRaw>2</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-07-26</date>
+        <firstDate>2002-07-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-04-06</date>
+      </status>
+      <registrationDate>2002-07-26</registrationDate>
+      <dissolutionDate>2016-04-06</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Калугин Павел Юрьевич</fio>
+          <innfl>773303448182</innfl>
+          <position>Генеральный Директор</position>
+          <date>2011-08-16</date>
+          <firstDate>2008-04-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "АВРОРА-СЕРВИС"</short>
+            <full>Закрытое акционерное общество "АВРОРА-СЕРВИС"</full>
+            <date>2002-07-26</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

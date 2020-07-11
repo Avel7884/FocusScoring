@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7451189552</inn>
+    <ogrn>1027402908224</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027402908224</focusHref>
+    <UL>
+      <kpp>745101001</kpp>
+      <okpo>13414737</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ТД "Автодорсервис"</short>
+        <full>Общество с ограниченной ответственностью Торговый Дом "Автодорсервис"</full>
+        <date>2002-12-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454005</zipCode>
+          <kladrCode>740000010000819</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Разина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <flat>
+            <topoValue>303</topoValue>
+          </flat>
+          <houseRaw>3</houseRaw>
+          <flatRaw>303</flatRaw>
+        </parsedAddressRF>
+        <date>2005-05-26</date>
+        <firstDate>2005-05-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-08-28</date>
+      </status>
+      <registrationDate>2002-12-01</registrationDate>
+      <dissolutionDate>2007-08-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ганиева Сания Касимовна</fio>
+          <innfl>742601463001</innfl>
+          <position>Директор</position>
+          <date>2007-06-01</date>
+          <firstDate>2007-06-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4345350412</inn>
+    <ogrn>1134345003946</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1134345003946</focusHref>
+    <UL>
+      <kpp>434501001</kpp>
+      <okpo>10960362</okpo>
+      <okato>33401361000</okato>
+      <okfs>16</okfs>
+      <oktmo>33701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Сатурн"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Сатурн"</full>
+        <date>2013-02-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>610017</zipCode>
+          <kladrCode>430000010000251</kladrCode>
+          <regionCode>43</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кировская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Киров</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Маклина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>39</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>1008</topoValue>
+          </flat>
+          <houseRaw>39</houseRaw>
+          <flatRaw>ПОМ. 1008</flatRaw>
+        </parsedAddressRF>
+        <date>2013-02-15</date>
+        <firstDate>2013-02-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2013-02-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Дудин Антон Анатольевич</fio>
+          <innfl>434581147163</innfl>
+          <position>Директор</position>
+          <date>2019-02-19</date>
+          <firstDate>2019-02-19</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Шабардин Павел Юрьевич</fio>
+            <innfl>432400037827</innfl>
+            <position>Директор</position>
+            <date>2014-09-24</date>
+            <firstDate>2013-02-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

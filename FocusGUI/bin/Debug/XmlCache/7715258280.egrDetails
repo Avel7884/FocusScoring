@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>7715258280</inn>
+    <ogrn>5087746621310</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5087746621310</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2008-12-20</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7715</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы № 15 по г. Москве</nalogName>
+        <nalogRegDate>2001-02-09</nalogRegDate>
+        <kpp>771501001</kpp>
+        <date>2008-12-20</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2008-12-20</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2008-12-20</date>
+      </statedCapital>
+      <foundersUL>
+        <founderUL>
+          <inn>7708135880</inn>
+          <fullName>ООО "Анжи Рд"</fullName>
+          <share>
+            <sum>10000</sum>
+          </share>
+          <date>2008-12-20</date>
+          <firstDate>2008-12-20</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>5087746621310</grn>
+          <date>2008-12-20</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года на основании сведений в налоговых органах</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2087765755340</grn>
+          <date>2008-12-20</date>
+          <name>Исключение из ЕГРЮЛ (п.2 ст.21.1 ФЗ от 08.08.2001 №129-ФЗ)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital />
+        </statedCapitals>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

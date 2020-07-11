@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6452068407</inn>
+    <ogrn>1066450119031</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1066450119031</focusHref>
+    <UL>
+      <kpp>645201001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГРОДОРТЕХСЕРВИС"</short>
+        <full>Общество с ограниченной ответственностью "АГРОДОРТЕХСЕРВИС"</full>
+        <date>2006-09-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>410000</zipCode>
+          <kladrCode>640000010001506</kladrCode>
+          <regionCode>64</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Саратовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Саратов</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Танкистов</topoValue>
+          </street>
+        </parsedAddressRF>
+        <date>2006-09-12</date>
+        <firstDate>2006-09-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-09-12</date>
+      </status>
+      <registrationDate>2000-11-01</registrationDate>
+      <dissolutionDate>2006-09-12</dissolutionDate>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

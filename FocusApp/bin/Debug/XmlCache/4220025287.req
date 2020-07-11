@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4220025287</inn>
+    <ogrn>1034220005258</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034220005258</focusHref>
+    <UL>
+      <kpp>422001001</kpp>
+      <okpo>70615625</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОМАТИК-СЕРВИС"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АВТОМАТИК-СЕРВИС"</full>
+        <date>2007-04-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654004</zipCode>
+          <kladrCode>420000120001125</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Щорса</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>9А</topoValue>
+          </house>
+          <houseRaw>9 А</houseRaw>
+        </parsedAddressRF>
+        <date>2003-11-05</date>
+        <firstDate>2003-11-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-03-31</date>
+      </status>
+      <registrationDate>2003-11-05</registrationDate>
+      <dissolutionDate>2011-03-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Тимофеева Людмила Алексеевна</fio>
+          <innfl>421706798549</innfl>
+          <position>Директор</position>
+          <date>2007-10-26</date>
+          <firstDate>2007-10-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

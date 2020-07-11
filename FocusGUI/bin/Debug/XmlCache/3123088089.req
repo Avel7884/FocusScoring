@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3123088089</inn>
+    <ogrn>1033107000410</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033107000410</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>59390752</okpo>
+      <okato>45290594000</okato>
+      <okfs>16</okfs>
+      <oktmo>45396000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Плюс"</short>
+        <full>Общество с ограниченной ответственностью "Плюс"</full>
+        <date>2003-01-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109316</zipCode>
+          <kladrCode>770000000000013</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Волгоградский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>32</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>13</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 2 офис 254</topoValue>
+          </flat>
+          <houseRaw>ДОМ 32</houseRaw>
+          <bulkRaw>КОРПУС 13</bulkRaw>
+          <flatRaw>ЭТАЖ 2 ОФИС 254</flatRaw>
+        </parsedAddressRF>
+        <date>2012-05-04</date>
+        <firstDate>2012-05-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-01-11</date>
+      </status>
+      <registrationDate>2003-01-14</registrationDate>
+      <dissolutionDate>2019-01-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Варенко Любовь Александровна</fio>
+          <innfl>770502521603</innfl>
+          <position>Директор</position>
+          <date>2012-05-04</date>
+          <firstDate>2012-05-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>308033</zipCode>
+              <regionCode>31</regionCode>
+              <regionName>
+                <topoValue>Белгородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Белгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Королева</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2</topoValue>
+              </house>
+              <houseRaw>2</houseRaw>
+              <bulkRaw>-</bulkRaw>
+              <flatRaw>-</flatRaw>
+            </parsedAddressRF>
+            <date>2003-01-14</date>
+            <firstDate>2003-01-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Паршин Павел Юрьевич</fio>
+            <position>Директор</position>
+            <date>2009-11-11</date>
+            <firstDate>2009-11-11</firstDate>
+          </head>
+          <head>
+            <fio>Пименов Сергей Владимирович</fio>
+            <innfl>111603285678</innfl>
+            <position>Директор</position>
+            <date>2012-02-08</date>
+            <firstDate>2012-02-08</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

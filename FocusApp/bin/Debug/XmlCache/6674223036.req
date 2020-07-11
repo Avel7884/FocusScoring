@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6674223036</inn>
+    <ogrn>1076674014449</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076674014449</focusHref>
+    <UL>
+      <kpp>667001001</kpp>
+      <okpo>81192429</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Компания Энергоприбор"</short>
+        <full>Общество с ограниченной ответственностью "Компания Энергоприбор"</full>
+        <date>2007-04-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620000</zipCode>
+          <kladrCode>660000010000211</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вилонова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>41</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>20</topoValue>
+          </flat>
+          <houseRaw>41</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+          <flatRaw>ОФИС 20</flatRaw>
+        </parsedAddressRF>
+        <date>2010-08-20</date>
+        <firstDate>2010-08-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-03-13</date>
+      </status>
+      <registrationDate>2007-04-26</registrationDate>
+      <dissolutionDate>2015-03-13</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Черепанов Виктор Васильевич</fio>
+          <innfl>666404790455</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-09-22</date>
+          <firstDate>2010-09-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

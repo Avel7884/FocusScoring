@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7826160561</inn>
+    <ogrn>1037851027136</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037851027136</focusHref>
+    <UL>
+      <kpp>783801001</kpp>
+      <okpo>59524052</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аксесс-сервис"</short>
+        <full>Общество с ограниченной ответственностью "Аксесс-сервис"</full>
+        <date>2003-01-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>198013</zipCode>
+          <kladrCode>780000000000430</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Загородный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>62</topoValue>
+          </house>
+          <houseRaw>62</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-27</date>
+        <firstDate>2003-01-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-06-29</date>
+      </status>
+      <registrationDate>2003-01-27</registrationDate>
+      <dissolutionDate>2009-06-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Малышев Валерий Геннадьевич</fio>
+          <innfl>780421790450</innfl>
+          <position>Ликвидатор</position>
+          <date>2009-04-16</date>
+          <firstDate>2009-04-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

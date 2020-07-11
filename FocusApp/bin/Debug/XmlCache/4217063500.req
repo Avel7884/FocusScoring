@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217063500</inn>
+    <ogrn>1044217003753</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1044217003753</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АМС ООО</short>
+        <full>Адельвейс Металл Снаб Общество с ограниченной ответственностью</full>
+        <date>2004-03-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634021</zipCode>
+          <kladrCode>700000010000348</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Комсомольский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>58</topoValue>
+          </house>
+          <houseRaw>58</houseRaw>
+        </parsedAddressRF>
+        <date>2006-05-30</date>
+        <firstDate>2006-05-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-10-20</date>
+      </status>
+      <registrationDate>2004-03-05</registrationDate>
+      <dissolutionDate>2006-10-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ильина Ирина Александровна</fio>
+          <innfl>421700084080</innfl>
+          <position>Генеральный Директор</position>
+          <date>2004-08-20</date>
+          <firstDate>2004-08-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

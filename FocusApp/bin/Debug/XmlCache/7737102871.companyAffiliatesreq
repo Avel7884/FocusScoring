@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7737102871</inn>
+    <ogrn>1187746818126</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1187746818126</focusHref>
+    <UL>
+      <kpp>773701001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>А-АВАНГАРД ООО</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "А-АВАНГАРД"</full>
+        <date>2018-09-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>115569</zipCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>82</topoValue>
+          </house>
+          <flat>
+            <topoValue>К.Пр.71</topoValue>
+          </flat>
+          <houseRaw>82</houseRaw>
+          <flatRaw>К.ПР.71</flatRaw>
+        </parsedAddressRF>
+        <date>2018-09-17</date>
+        <firstDate>2018-09-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-09-17</date>
+      </status>
+      <registrationDate>2001-01-23</registrationDate>
+      <dissolutionDate>2018-09-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кириленко Владимир Виктор</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2018-09-17</date>
+          <firstDate>2018-09-17</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

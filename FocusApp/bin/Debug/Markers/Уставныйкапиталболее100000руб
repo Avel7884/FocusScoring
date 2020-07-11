@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Уставный капитал более 100 000 руб.</Name>
+  <Colour>Green</Colour>
+  <Description>Уставный капитал более 100 000 руб.</Description>
+  <Code>double sum;
+return double.TryParse(company.GetParam("Sum").Replace(".",","), out sum) &amp;&amp; sum &gt; 100000.0;</Code>
+</items>

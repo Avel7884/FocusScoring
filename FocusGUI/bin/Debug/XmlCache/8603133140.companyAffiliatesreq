@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7103031740</inn>
+    <ogrn>1037100123323</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037100123323</focusHref>
+    <UL>
+      <kpp>711801001</kpp>
+      <okpo>14362741</okpo>
+      <okato>70248808002</okato>
+      <okfs>16</okfs>
+      <oktmo>70648408106</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ЧОП "ОХРАНА-СЕРВИС"</short>
+        <full>Общество с ограниченной ответственностью частное охранное предприятие "ОХРАНА-СЕРВИС"</full>
+        <date>2003-05-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>301246</zipCode>
+          <kladrCode>71024000016</kladrCode>
+          <regionCode>71</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тульская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Щекинский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>д</topoShortName>
+            <topoFullName>деревня</topoFullName>
+            <topoValue>Большая Тросна</topoValue>
+          </settlement>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26А</topoValue>
+          </house>
+          <flat>
+            <topoValue>офис А1/3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 26А</houseRaw>
+          <flatRaw>ОФИС А1/3</flatRaw>
+        </parsedAddressRF>
+        <date>2014-10-03</date>
+        <firstDate>2014-10-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-06-25</date>
+      </status>
+      <registrationDate>2003-05-20</registrationDate>
+      <dissolutionDate>2018-06-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бурцев Юрий Александрович</fio>
+          <innfl>711801672354</innfl>
+          <position>Ликвидатор</position>
+          <date>2018-03-06</date>
+          <firstDate>2017-08-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>710301001</kpp>
+            <date>2013-06-14</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>301246</zipCode>
+              <kladrCode>71024000016</kladrCode>
+              <regionCode>71</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Тульская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Щекинский</topoValue>
+              </district>
+              <settlement>
+                <topoShortName>д</topoShortName>
+                <topoFullName>деревня</topoFullName>
+                <topoValue>Большая Тросна</topoValue>
+              </settlement>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>26А</topoValue>
+              </house>
+              <flat>
+                <topoValue>А1/3</topoValue>
+              </flat>
+              <houseRaw>26А</houseRaw>
+              <flatRaw>А1/3</flatRaw>
+            </parsedAddressRF>
+            <date>2014-10-03</date>
+            <firstDate>2014-10-03</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>300057</zipCode>
+              <kladrCode>710000010000391</kladrCode>
+              <regionCode>71</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Тульская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Тула</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Железнодорожная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>51</topoValue>
+              </house>
+              <houseRaw>51</houseRaw>
+            </parsedAddressRF>
+            <date>2003-05-20</date>
+            <firstDate>2003-05-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Гусева Ирина Васильевна</fio>
+            <innfl>710602864317</innfl>
+            <position>Директор</position>
+            <date>2008-11-18</date>
+            <firstDate>2008-11-18</firstDate>
+          </head>
+          <head>
+            <fio>Коржуков Виктор Васильевич</fio>
+            <innfl>860300895120</innfl>
+            <position>Директор</position>
+            <date>2014-10-03</date>
+            <firstDate>2014-10-03</firstDate>
+          </head>
+          <head>
+            <fio>Шашков Дмитрий Иванович</fio>
+            <innfl>711613711226</innfl>
+            <position>Директор</position>
+            <date>2017-02-01</date>
+            <firstDate>2017-02-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>860300895120</inn>
+    <ogrn>317723200011460</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=317723200011460</focusHref>
+    <IP>
+      <fio>Коржуков Виктор Васильевич</fio>
+      <okpo>0110586565</okpo>
+      <okato>71401364000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>71701000001</oktmo>
+      <registrationDate>2017-02-17</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>860300895120</inn>
+    <ogrn>305860300145422</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305860300145422</focusHref>
+    <IP>
+      <fio>Коржуков Виктор Васильевич</fio>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>1997-10-30</registrationDate>
+      <dissolutionDate>2005-01-01</dissolutionDate>
+      <status>
+        <statusString>Утратил государственную регистрацию в качестве индивидуального предпринимателя на основании статьи 3 ФЗ от 23.06.2003 №76-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-01-01</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>860301771800</inn>
+    <ogrn>316861700075302</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=316861700075302</focusHref>
+    <IP>
+      <fio>Коржуков Николай Васильевич</fio>
+      <okpo>0100250270</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <oktmo>71875000001</oktmo>
+      <registrationDate>2016-04-08</registrationDate>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>8603029318</inn>
+    <ogrn>1028600970540</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1028600970540</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okopf>42</okopf>
+      <opf>Унитарные предприятия, основанные на праве хозяйственного ведения</opf>
+      <legalName>
+        <short>МУП "ПДДОВ "Голубое озеро"</short>
+        <full>Муниципальное унитарное предприятие "Пансионат для детей с ограниченными возможностями "Голубое озеро"</full>
+        <date>2002-12-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <kladrCode>86000011000</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <house>
+            <topoValue>13 км Самотлорской Дороги</topoValue>
+          </house>
+          <houseRaw>13 КМ САМОТЛОРСКОЙ ДОРОГИ</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-30</date>
+        <firstDate>2002-12-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2005-03-09</date>
+      </status>
+      <registrationDate>1994-06-06</registrationDate>
+      <dissolutionDate>2005-03-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Коржуков Николай Васильевич</fio>
+          <position>Директор</position>
+          <date>2002-12-30</date>
+          <firstDate>2002-12-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>628600</zipCode>
+              <regionCode>86</regionCode>
+              <regionName>
+                <topoShortName>ао</topoShortName>
+                <topoFullName>автономный округ</topoFullName>
+                <topoValue>Ханты-Мансийский</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Нижневартовский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижневартовск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>13 км Самотлорской дороги</topoValue>
+              </street>
+            </parsedAddressRF>
+            <date>2002-12-30</date>
+            <firstDate>2002-12-30</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>8603079598</inn>
+    <ogrn>1128603016035</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1128603016035</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО Квиком</short>
+        <full>Общество с ограниченной ответственностью Квиком</full>
+        <date>2012-06-04</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628602</zipCode>
+          <kladrCode>860000110000014</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Дружбы Народов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <flat>
+            <topoValue>38</topoValue>
+          </flat>
+          <houseRaw>15</houseRaw>
+          <flatRaw>38</flatRaw>
+        </parsedAddressRF>
+        <date>2012-06-04</date>
+        <firstDate>2012-06-04</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-06-04</date>
+      </status>
+      <registrationDate>1997-05-26</registrationDate>
+      <dissolutionDate>2012-06-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Коржуков Виктор Васильевич</fio>
+          <position>Руководитель Юридического Лица</position>
+          <date>2012-06-04</date>
+          <firstDate>2012-06-04</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>860311997726</inn>
+    <ogrn>305860310300048</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305860310300048</focusHref>
+    <IP>
+      <fio>Соколов Владимир Валерьевич</fio>
+      <okpo>0145708578</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <okogu>4210015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2005-04-13</registrationDate>
+      <dissolutionDate>2014-04-28</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-04-28</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>8603121352</inn>
+    <ogrn>1058600512420</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1058600512420</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>34942009</okpo>
+      <okato>71135000000</okato>
+      <okfs>13</okfs>
+      <oktmo>71875000</oktmo>
+      <okogu>2300220</okogu>
+      <okopf>81</okopf>
+      <opf>Учреждения</opf>
+      <legalName>
+        <short>АУ "Социально-оздоровительный центр семьи и детей "Голубое озеро"</short>
+        <full>Автономное учреждение Ханты-Мансийского автономного округа - Югры "Социально-оздоровительный центр семьи и детей "Голубое озеро"</full>
+        <date>2010-02-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628600</zipCode>
+          <kladrCode>86000011000</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <house>
+            <topoValue>13 км Самотлорской Дороги</topoValue>
+          </house>
+          <houseRaw>13 КМ САМОТЛОРСКОЙ ДОРОГИ</houseRaw>
+        </parsedAddressRF>
+        <date>2006-02-08</date>
+        <firstDate>2006-02-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-12-26</date>
+      </status>
+      <registrationDate>2005-03-09</registrationDate>
+      <dissolutionDate>2014-12-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Коржуков Николай Васильевич</fio>
+          <innfl>860301771800</innfl>
+          <position>Директор</position>
+          <date>2010-02-09</date>
+          <firstDate>2010-02-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>8603133125</inn>
+    <ogrn>1068603062164</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1068603062164</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>95839774</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Ампир"</short>
+        <full>Общество с ограниченной ответственностью "Ампир"</full>
+        <date>2006-05-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628624</zipCode>
+          <kladrCode>860000110000022</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Интернациональная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <flat>
+            <topoValue>96</topoValue>
+          </flat>
+          <houseRaw>26</houseRaw>
+          <flatRaw>96</flatRaw>
+        </parsedAddressRF>
+        <date>2006-05-12</date>
+        <firstDate>2006-05-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-08-09</date>
+      </status>
+      <registrationDate>2006-05-12</registrationDate>
+      <dissolutionDate>2007-08-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Иванов Андрей Николаевич</fio>
+          <innfl>860307438098</innfl>
+          <position>Генеральный Директор</position>
+          <date>2006-05-12</date>
+          <firstDate>2006-05-12</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>8603133140</inn>
+    <ogrn>1068603062186</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1068603062186</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>95839780</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ЮГРА-ЗНАК"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ ЮГРА-ЗНАК"</full>
+        <date>2006-05-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628600</zipCode>
+          <kladrCode>860000110000125</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Индустриальная</topoValue>
+          </street>
+          <house>
+            <topoValue>Западный Промышленный Узел 36</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Панель16</topoValue>
+          </bulk>
+          <houseRaw>ЗАПАДНЫЙ ПРОМЫШЛЕННЫЙ УЗЕЛ 36</houseRaw>
+          <bulkRaw>ПАНЕЛЬ16</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-12-18</date>
+        <firstDate>2009-12-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2006-05-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Соколов Владимир Валерьевич</fio>
+          <innfl>860311997726</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-07-02</date>
+          <firstDate>2018-07-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Коржуков Николай Васильевич</fio>
+            <innfl>860301771800</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-06-05</date>
+            <firstDate>2015-06-05</firstDate>
+          </head>
+          <head>
+            <fio>Коржуков Виктор Васильевич</fio>
+            <innfl>860300895120</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-06-02</date>
+            <firstDate>2006-05-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+  <req>
+    <inn>8603139712</inn>
+    <ogrn>1068603072405</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1068603072405</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>98761392</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "К-Сервис"</short>
+        <full>Общество с ограниченной ответственностью "К-Сервис"</full>
+        <date>2009-12-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628600</zipCode>
+          <kladrCode>860000110000125</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Индустриальная</topoValue>
+          </street>
+          <house>
+            <topoValue>Западный Промышленный Узел 36</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Панель16</topoValue>
+          </bulk>
+          <houseRaw>ЗАПАДНЫЙ ПРОМЫШЛЕННЫЙ УЗЕЛ 36</houseRaw>
+          <bulkRaw>ПАНЕЛЬ16</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-12-18</date>
+        <firstDate>2009-12-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-07-11</date>
+      </status>
+      <registrationDate>2006-12-21</registrationDate>
+      <dissolutionDate>2016-07-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Коржуков Виктор Васильевич</fio>
+          <innfl>860300895120</innfl>
+          <position>Директор</position>
+          <date>2009-12-18</date>
+          <firstDate>2009-12-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>8603180277</inn>
+    <ogrn>1118603003254</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1118603003254</focusHref>
+    <UL>
+      <kpp>860301001</kpp>
+      <okpo>90889402</okpo>
+      <okato>71135000000</okato>
+      <okfs>16</okfs>
+      <oktmo>71875000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Мега-Знак"</short>
+        <full>Общество с ограниченной ответственностью "Мега-Знак"</full>
+        <date>2011-03-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>628600</zipCode>
+          <kladrCode>860000110000125</kladrCode>
+          <regionCode>86</regionCode>
+          <regionName>
+            <topoShortName>ао</topoShortName>
+            <topoFullName>автономный округ</topoFullName>
+            <topoValue>Ханты-Мансийский Автономный округ - Югра</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижневартовск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Индустриальная</topoValue>
+          </street>
+          <house>
+            <topoValue>Западный Промышленный Узел 36</topoValue>
+          </house>
+          <bulk>
+            <topoValue>5</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>панель</topoShortName>
+            <topoFullName>панель</topoFullName>
+            <topoValue>16</topoValue>
+          </flat>
+          <houseRaw>ЗАПАДНЫЙ ПРОМЫШЛЕННЫЙ УЗЕЛ 36</houseRaw>
+          <bulkRaw>5</bulkRaw>
+          <flatRaw>ПАНЕЛЬ 16</flatRaw>
+        </parsedAddressRF>
+        <date>2011-03-18</date>
+        <firstDate>2011-03-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-03-18</registrationDate>
+      <heads>
+        <head>
+          <fio>Соколов Владимир Валерьевич</fio>
+          <innfl>860311997726</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-06-05</date>
+          <firstDate>2018-06-05</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Радченко Леонид Павлович</fio>
+            <innfl>860502441954</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-03-18</date>
+            <firstDate>2011-03-18</firstDate>
+          </head>
+          <head>
+            <fio>Коржуков Николай Васильевич</fio>
+            <innfl>860301771800</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-06-05</date>
+            <firstDate>2015-06-05</firstDate>
+          </head>
+          <head>
+            <fio>Коржуков Виктор Васильевич</fio>
+            <innfl>860300895120</innfl>
+            <position>Генеральный Директор</position>
+            <date>2016-06-02</date>
+            <firstDate>2012-08-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

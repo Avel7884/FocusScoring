@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7719181817</inn>
+    <ogrn>1027739007361</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739007361</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>07622130</okpo>
+      <okato>45290568000</okato>
+      <okfs>16</okfs>
+      <oktmo>45389000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "179 ПСК"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "179 ПРОМЫШЛЕННО-СТРОИТЕЛЬНЫЙ КОМБИНАТ"</full>
+        <date>2019-02-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109387</zipCode>
+          <kladrCode>770000000000169</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Егорьевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>16</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>каб</topoShortName>
+            <topoFullName>кабинет</topoFullName>
+            <topoValue>34</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 16</bulkRaw>
+          <flatRaw>КАБИНЕТ 34</flatRaw>
+        </parsedAddressRF>
+        <date>2019-02-12</date>
+        <firstDate>2019-02-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1998-12-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Горолюк Владимир Валентинович</fio>
+          <innfl>502502967864</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-12-20</date>
+          <firstDate>2017-12-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>502901001</kpp>
+            <date>2011-11-15</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ЗАО "179 ПСК"</short>
+            <full>Закрытое акционерное общество "179 Промышленно-строительный комбинат"</full>
+            <date>2010-08-03</date>
+          </legalName>
+          <legalName>
+            <full>АКЦИОНЕРНОЕ ОБЩЕСТВО</full>
+            <date>2019-02-12</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>141006</zipCode>
+              <kladrCode>500190010000138</kladrCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>городской округ</topoShortName>
+                <topoFullName>городской округ</topoFullName>
+                <topoValue>Мытищи</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Мытищи</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Олимпийский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>52А</topoValue>
+              </house>
+              <houseRaw>52А</houseRaw>
+            </parsedAddressRF>
+            <date>2016-08-10</date>
+            <firstDate>2016-08-10</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>141006</zipCode>
+              <kladrCode>500190010000138</kladrCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <district>
+                <topoShortName>р-н</topoShortName>
+                <topoFullName>район</topoFullName>
+                <topoValue>Мытищинский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Мытищи</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Олимпийский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>52А</topoValue>
+              </house>
+              <houseRaw>52А</houseRaw>
+            </parsedAddressRF>
+            <date>2016-02-22</date>
+            <firstDate>2011-07-15</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>141006</zipCode>
+              <kladrCode>500190010000138</kladrCode>
+              <regionCode>50</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Московская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Мытищи</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Олимпийский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>52А</topoValue>
+              </house>
+              <houseRaw>52А</houseRaw>
+            </parsedAddressRF>
+            <date>2011-07-15</date>
+            <firstDate>2011-07-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Стецишин Зиновий Владимирович</fio>
+            <position>Генеральный директор</position>
+            <date>2008-10-02</date>
+            <firstDate>2008-10-02</firstDate>
+          </head>
+          <head>
+            <fio>Семдянов Владимир Александрович</fio>
+            <innfl>771540888770</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-02-15</date>
+            <firstDate>2012-02-15</firstDate>
+          </head>
+          <head>
+            <fio>Аверьянов Геннадий Иванович</fio>
+            <innfl>772435062120</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-08-09</date>
+            <firstDate>2012-08-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

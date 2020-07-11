@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6154112019</inn>
+    <ogrn>1076154005894</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076154005894</focusHref>
+    <UL>
+      <kpp>783901001</kpp>
+      <okpo>83341945</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АГИС-ЮГ"</short>
+        <full>Общество с ограниченной ответственностью "АГИС-ЮГ"</full>
+        <date>2007-11-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>190020</zipCode>
+          <kladrCode>780000000000947</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>наб</topoShortName>
+            <topoFullName>набережная</topoFullName>
+            <topoValue>Обводного Канала</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>229</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>Д</topoValue>
+          </flat>
+          <houseRaw>229</houseRaw>
+          <flatRaw>ПОМ Д</flatRaw>
+        </parsedAddressRF>
+        <date>2011-09-28</date>
+        <firstDate>2011-09-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-02-09</date>
+      </status>
+      <registrationDate>2007-11-06</registrationDate>
+      <dissolutionDate>2012-02-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Русскова Екатерина Владимировна</fio>
+          <innfl>471703612420</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-10-20</date>
+          <firstDate>2011-10-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>347900</zipCode>
+              <regionCode>61</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Ростовская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Таганрог</topoValue>
+              </city>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Гоголевский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>6</topoValue>
+              </house>
+              <flat>
+                <topoValue>210</topoValue>
+              </flat>
+              <houseRaw>6</houseRaw>
+              <flatRaw>210</flatRaw>
+            </parsedAddressRF>
+            <date>2007-11-06</date>
+            <firstDate>2007-11-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Кондырева Наталья Александровна</fio>
+            <position>Генеральный директор</position>
+            <date>2010-07-26</date>
+            <firstDate>2010-07-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

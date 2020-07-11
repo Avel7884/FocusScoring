@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7452100437</inn>
+    <ogrn>1127452001159</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1127452001159</focusHref>
+    <UL>
+      <kpp>745201001</kpp>
+      <okpo>37884146</okpo>
+      <okato>75401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>75701380000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПМЗ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРУЖИННО-МЕХАНИЧЕСКИЙ ЗАВОД"</full>
+        <date>2016-01-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454079</zipCode>
+          <kladrCode>740000010002697</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Конструктора Духова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>32</topoValue>
+          </flat>
+          <houseRaw>ДОМ 15</houseRaw>
+          <flatRaw>КВАРТИРА 32</flatRaw>
+        </parsedAddressRF>
+        <date>2017-10-09</date>
+        <firstDate>2017-10-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2012-02-21</registrationDate>
+      <heads>
+        <head>
+          <fio>Сорокин Александр Владимирович</fio>
+          <innfl>744914909418</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-02-21</date>
+          <firstDate>2012-02-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО ПО "РосТехСервис"</short>
+            <full>Общество с ограниченной ответственностью Производственное объединение "Региональная организация службы технического сервиса"</full>
+            <date>2013-06-11</date>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью Производственное объединение "РосТехСервис"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454085</zipCode>
+              <kladrCode>740000010000490</kladrCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Кулибина</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>3</topoValue>
+              </house>
+              <houseRaw>3</houseRaw>
+            </parsedAddressRF>
+            <date>2012-02-21</date>
+            <firstDate>2012-02-21</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

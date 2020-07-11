@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3443117645</inn>
+    <ogrn>1123443004662</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1123443004662</focusHref>
+    <UL>
+      <kpp>344301001</kpp>
+      <okpo>10505474</okpo>
+      <okato>18401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агропромстрой"</short>
+        <full>Общество с ограниченной ответственностью "Агропромстрой"</full>
+        <date>2012-09-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400048</zipCode>
+          <kladrCode>340000010002832</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>им Маршала Советского Союза Г.К.Жукова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>108</topoValue>
+          </house>
+          <houseRaw>108</houseRaw>
+        </parsedAddressRF>
+        <date>2015-12-16</date>
+        <firstDate>2015-11-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-06-19</date>
+      </status>
+      <registrationDate>2012-09-18</registrationDate>
+      <dissolutionDate>2018-06-19</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чирина Татьяна Александровна</fio>
+          <innfl>344344962430</innfl>
+          <position>Директор</position>
+          <date>2014-09-03</date>
+          <firstDate>2014-04-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>400048</zipCode>
+              <kladrCode>340000010002832</kladrCode>
+              <regionCode>34</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Волгоградская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Волгоград</topoValue>
+              </city>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>им маршала Г.К.Жукова</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>108</topoValue>
+              </house>
+              <houseRaw>108</houseRaw>
+            </parsedAddressRF>
+            <date>2012-09-18</date>
+            <firstDate>2012-09-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Мещерский Владимир Александрович</fio>
+            <innfl>344700167743</innfl>
+            <position>Директор</position>
+            <date>2012-09-18</date>
+            <firstDate>2012-09-18</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

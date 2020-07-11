@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4207013451</inn>
+    <ogrn>1034205001907</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034205001907</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>34771111</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО ИЗДАТЕЛЬСКИЙ ДОМ "АЗИЯ"</short>
+        <full>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО ИЗДАТЕЛЬСКИЙ ДОМ "АЗИЯ"</full>
+        <date>2007-07-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650004</zipCode>
+          <kladrCode>420000090000861</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сибирская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>35</topoValue>
+          </house>
+          <houseRaw>35</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-23</date>
+        <firstDate>2002-12-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-03-20</date>
+      </status>
+      <registrationDate>1997-10-30</registrationDate>
+      <dissolutionDate>2015-03-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дубиковский Дмитрий Вадимович</fio>
+          <innfl>420507506574</innfl>
+          <position>Директор</position>
+          <date>2010-06-30</date>
+          <firstDate>2010-06-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

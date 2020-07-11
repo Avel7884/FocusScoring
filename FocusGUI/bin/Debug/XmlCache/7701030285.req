@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7701030285</inn>
+    <ogrn>1027739154310</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739154310</focusHref>
+    <UL>
+      <kpp>770901001</kpp>
+      <okpo>28942844</okpo>
+      <okato>45286580000</okato>
+      <okfs>16</okfs>
+      <oktmo>45381000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АзовМет"</short>
+        <full>Закрытое акционерное общество "АзовМет"</full>
+        <date>2005-04-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105120</zipCode>
+          <kladrCode>770000000001552</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Костомаровский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>12</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>20</topoValue>
+          </flat>
+          <houseRaw>3</houseRaw>
+          <bulkRaw>СТР.12</bulkRaw>
+          <flatRaw>ОФИС 20</flatRaw>
+        </parsedAddressRF>
+        <date>2010-12-10</date>
+        <firstDate>2010-12-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-01-23</date>
+      </status>
+      <registrationDate>1993-10-26</registrationDate>
+      <dissolutionDate>2017-01-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Юдина Нонна Николаевна</fio>
+          <innfl>773605819115</innfl>
+          <position>Генеральный директор</position>
+          <date>2014-02-21</date>
+          <firstDate>2010-11-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

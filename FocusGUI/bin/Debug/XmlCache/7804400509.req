@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7804400509</inn>
+    <ogrn>1089847377388</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1089847377388</focusHref>
+    <UL>
+      <kpp>780401001</kpp>
+      <okpo>87416918</okpo>
+      <okato>40273000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40328000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Аксиома ТД"</short>
+        <full>Общество с ограниченной ответственностью "Аксиома ТД"</full>
+        <date>2010-07-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>195067</zipCode>
+          <kladrCode>780000000000891</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Непокорённых</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <houseRaw>13</houseRaw>
+        </parsedAddressRF>
+        <date>2016-08-24</date>
+        <firstDate>2008-09-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-10-18</date>
+      </status>
+      <registrationDate>2008-09-25</registrationDate>
+      <dissolutionDate>2017-10-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дмитриев Сергей Евгеньевич</fio>
+          <innfl>532006232406</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-08-14</date>
+          <firstDate>2013-08-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Васильева Светлана Николаевна</fio>
+            <position>Генеральный директор</position>
+            <date>2009-04-08</date>
+            <firstDate>2009-04-08</firstDate>
+          </head>
+          <head>
+            <fio>Блинова Ольга Евгеньевна</fio>
+            <position>Генеральный директор</position>
+            <date>2013-02-14</date>
+            <firstDate>2013-02-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>616106501120</inn>
+    <ogrn>309619332700061</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=309619332700061</focusHref>
+    <IP>
+      <okpo>0162947348</okpo>
+      <pfrRegNumber>071062034735</pfrRegNumber>
+      <fssRegNumber>610601038661063</fssRegNumber>
+      <fomsRegNumber>604660920233036</fomsRegNumber>
+      <okato>60401362000</okato>
+      <shortenedAddress>
+        <regionCode>61</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Ростовская</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Ростов-на-Дону</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>74.70.2</code>
+          <text>Чистка и уборка транспортных средств</text>
+          <date>2011-09-22</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>50.2</code>
+            <text>Техническое обслуживание и ремонт автотранспортных средств</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>50.20.1</code>
+            <text>Техническое обслуживание и ремонт легковых автомобилей</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>50.20.2</code>
+            <text>Техническое обслуживание и ремонт прочих автотранспортных средств</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>50.20.3</code>
+            <text>Предоставление прочих видов услуг по техническому обслуживанию автотранспортных средств</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>50.3</code>
+            <text>Торговля автомобильными деталями, узлами и принадлежностями</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>51.6</code>
+            <text>Оптовая торговля машинами и оборудованием</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>51.7</code>
+            <text>Прочая оптовая торговля</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.1</code>
+            <text>Розничная торговля в неспециализированных магазинах</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.11</code>
+            <text>Розничная торговля в неспециализированных магазинах преимущественно пищевыми продуктами, включая напитки, и табачными изделиями</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.12</code>
+            <text>Прочая розничная торговля в неспециализированных магазинах</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.2</code>
+            <text>Розничная торговля пищевыми продуктами, включая напитки, и табачными изделиями в специализированных магазинах</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.21</code>
+            <text>Розничная торговля фруктами, овощами и картофелем</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.24</code>
+            <text>Розничная торговля хлебом, хлебобулочными и кондитерскими изделиями</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.25</code>
+            <text>Розничная торговля алкогольными и другими напитками</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.26</code>
+            <text>Розничная торговля табачными изделиями</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.42.4</code>
+            <text>Розничная торговля одеждой из кожи</text>
+            <date>2009-11-23</date>
+          </activity>
+          <activity>
+            <code>52.42.8</code>
+            <text>Розничная торговля аксессуарами одежды: перчатками, галстуками, шарфами, ремнями, подтяжками и т.п.</text>
+            <date>2009-11-23</date>
+          </activity>
+          <activity>
+            <code>52.43</code>
+            <text>Розничная торговля обувью и изделиями из кожи</text>
+            <date>2009-11-23</date>
+          </activity>
+          <activity>
+            <code>52.43.2</code>
+            <text>Розничная торговля изделиями из кожи и дорожными принадлежностями</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>52.48.31</code>
+            <text>Розничная торговля товарами бытовой химии, синтетическими моющими средствами, обоями и напольными покрытиями</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>70.20</code>
+            <text>Сдача внаем собственного недвижимого имущества</text>
+            <date>2011-09-22</date>
+          </activity>
+          <activity>
+            <code>74.8</code>
+            <text>Предоставление различных видов услуг</text>
+            <date>2011-09-22</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2009-11-23</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6193</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 23 по Ростовской области</nalogName>
+        <nalogRegDate>2009-11-23</nalogRegDate>
+        <date>2013-03-25</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6196</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Ростовской области</nalogName>
+        <date>2014-09-18</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>413619308400405</grn>
+          <date>2013-03-25</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Ростовской Области</regName>
+          <regCode>6193</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>413619308400297</grn>
+          <date>2013-03-25</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Ростовской Области</regName>
+          <regCode>6193</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации прекращения физическим лицом деятельности в качестве индивидуального предпринимателя в связи с принятием им решения о прекращении данной деятельности</name>
+              <date>2013-03-19</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2013-03-15</date>
+            </document>
+            <document>
+              <name>Справка</name>
+              <date>2013-03-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 007587698</serialNumber>
+              <date>2013-03-25</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>411619326500125</grn>
+          <date>2011-09-22</date>
+          <name>Внесение изменений в сведения об ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Ростовской Области</regName>
+          <regCode>6193</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+              <date>2011-09-16</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006543306</serialNumber>
+              <date>2011-09-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>410619301500211</grn>
+          <date>2010-01-15</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Ростовской Области</regName>
+          <regCode>6193</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>409619335301053</grn>
+          <date>2009-12-19</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Ростовской Области</regName>
+          <regCode>6193</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>409619332900822</grn>
+          <date>2009-11-25</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Ростовской Области</regName>
+          <regCode>6193</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>309619332700061</grn>
+          <date>2009-11-23</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Ростовской Области</regName>
+          <regCode>6193</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации физического лица в качестве индивидуального предпринимателя</name>
+              <date>2009-11-17</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+              <date>2009-11-17</date>
+            </document>
+            <document>
+              <name>Паспорт</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006289000</serialNumber>
+              <date>2009-11-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>616106501120</inn>
+    <ogrn>304616109700154</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304616109700154</focusHref>
+    <IP>
+      <pfrRegNumber>071062013321</pfrRegNumber>
+      <shortenedAddress>
+        <regionCode>61</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Ростовская</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Ростов-на-Дону</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>50.20.1</code>
+          <text>Техническое обслуживание и ремонт легковых автомобилей</text>
+          <date>2004-04-06</date>
+        </principalActivity>
+      </activities>
+      <regInfo>
+        <ogrnDate>2004-04-06</ogrnDate>
+        <regName>Администрация города Ростова-на-Дону</regName>
+      </regInfo>
+      <nalogRegBody />
+      <regBody>
+        <nalogCode>6196</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Ростовской области</nalogName>
+        <date>2014-09-18</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>407616102000338</grn>
+          <date>2007-01-20</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ворошиловскому Району г.Ростова-На-Дону</regName>
+          <regCode>6161</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>404616131600028</grn>
+          <date>2004-11-11</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Инспекция МНС России по Ворошиловскому Району г.Ростова-На-Дону</regName>
+          <regCode>6161</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации прекращения физическим лицом деятельности в качестве индивидуального предпринимателя в связи с принятием им решения о прекращении данной деятельности</name>
+              <date>2004-09-30</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2005-08-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 000285788</serialNumber>
+              <date>2004-11-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>304616109700154</grn>
+          <date>2004-04-06</date>
+          <name>Внесение сведений об ИП, зарегистрированном до 01.01.2004</name>
+          <regName>Инспекция МНС России по Ворошиловскому Району г.Ростова-На-Дону</regName>
+          <regCode>6161</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр индивидуальных предпринимателей записи об индивидуальном предпринимателе, зарегистрированном до 1 января 2004 г.</name>
+              <date>2004-05-26</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 000346899</serialNumber>
+              <date>2004-04-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>6163109397</inn>
+    <ogrn>1116195009809</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1116195009809</focusHref>
+    <UL>
+      <okpo>92167481</okpo>
+      <pfrRegNumber>071062043783</pfrRegNumber>
+      <fssRegNumber>610330521261061</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.69.2</code>
+          <text>Торговля оптовая эксплуатационными материалами и принадлежностями машин</text>
+          <date>2011-08-22</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>28.49.4</code>
+            <text>Производство делительных головок и прочих специальных приспособлений для станков</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>33.12</code>
+            <text>Ремонт машин и оборудования</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.6</code>
+            <text>Торговля оптовая прочими машинами, оборудованием и принадлежностями</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.62</code>
+            <text>Торговля оптовая станками</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.62.1</code>
+            <text>Торговля оптовая деревообрабатывающими станками</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.62.2</code>
+            <text>Торговля оптовая металлообрабатывающими станками</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.62.3</code>
+            <text>Торговля оптовая станками для обработки прочих материалов</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.69</code>
+            <text>Торговля оптовая прочими машинами и оборудованием</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.69.1</code>
+            <text>Торговля оптовая транспортными средствами, кроме автомобилей, мотоциклов и велосипедов</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.69.3</code>
+            <text>Торговля оптовая подъемно-транспортными машинами и оборудованием</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.69.9</code>
+            <text>Торговля оптовая прочими машинами, приборами, аппаратурой и оборудованием общепромышленного и специального назначения</text>
+            <date>2011-08-22</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2011-08-22</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2011-08-22</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6193</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 23 по Ростовской области</nalogName>
+        <nalogRegDate>2014-06-05</nalogRegDate>
+        <kpp>616101001</kpp>
+        <date>2014-06-10</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6196</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Ростовской области</nalogName>
+        <date>2014-08-23</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2011-08-22</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Ткаченко Александр Анатольевич</fio>
+          <innfl>616106501120</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2011-08-22</date>
+          <firstDate>2011-08-22</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2176196392106</grn>
+          <date>2017-04-25</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2176196315414</grn>
+          <date>2017-04-04</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+            </document>
+            <document>
+              <name>Изменения к уставу ЮЛ</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2017-03-21</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6166196055591</grn>
+          <date>2016-09-02</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2156196378435</grn>
+          <date>2015-09-11</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2146193037330</grn>
+          <date>2014-06-27</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Ростовской Области</regName>
+          <regCode>6193</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2146193034117</grn>
+          <date>2014-06-10</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 23 по Ростовской Области</regName>
+          <regCode>6193</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2146195047150</grn>
+          <date>2014-06-05</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 25 по Ростовской Области</regName>
+          <regCode>6195</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2146195046842</grn>
+          <date>2014-06-05</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 25 по Ростовской Области</regName>
+          <regCode>6195</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2014-05-29</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2014-05-20</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2014-05-29</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2014-05-29</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2116195078921</grn>
+          <date>2011-08-23</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 25 по Ростовской Области</regName>
+          <regCode>6195</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1116195009809</grn>
+          <date>2011-08-22</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 25 по Ростовской Области</regName>
+          <regCode>6195</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2011-08-15</date>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+              <date>2011-08-04</date>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2011-08-08</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 007307856</serialNumber>
+              <date>2011-08-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>6164272798</inn>
+    <ogrn>1076164016114</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1076164016114</focusHref>
+    <UL>
+      <okpo>83350691</okpo>
+      <pfrRegNumber>071059035076</pfrRegNumber>
+      <fssRegNumber>610402020161041</fssRegNumber>
+      <fomsRegNumber>604640810007652</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>51.65.2</code>
+          <text>Оптовая торговля эксплуатационными материалами и принадлежностями машин и оборудования</text>
+          <date>2007-11-29</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>51.14.2</code>
+            <text>Деятельность агентов по оптовой торговле прочими видами машин и оборудования</text>
+            <date>2007-11-29</date>
+          </activity>
+          <activity>
+            <code>51.19</code>
+            <text>Деятельность агентов по оптовой торговле универсальным ассортиментом товаров</text>
+            <date>2007-11-29</date>
+          </activity>
+          <activity>
+            <code>51.53</code>
+            <text>Оптовая торговля лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2009-09-09</date>
+          </activity>
+          <activity>
+            <code>51.53.24</code>
+            <text>Оптовая торговля прочими строительными материалами</text>
+            <date>2009-09-09</date>
+          </activity>
+          <activity>
+            <code>51.6</code>
+            <text>Оптовая торговля машинами и оборудованием</text>
+            <date>2007-11-29</date>
+          </activity>
+          <activity>
+            <code>51.61.2</code>
+            <text>Оптовая торговля станками для обработки металлов</text>
+            <date>2007-11-29</date>
+          </activity>
+          <activity>
+            <code>51.65.6</code>
+            <text>Оптовая торговля прочими машинами, приборами, оборудованием общепромышленного и специального назначения</text>
+            <date>2007-11-29</date>
+          </activity>
+          <activity>
+            <code>51.70</code>
+            <text>Прочая оптовая торговля</text>
+            <date>2007-11-29</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2007-11-29</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6164</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г.Ростова-на-Дону</nalogName>
+        <nalogRegDate>2007-11-29</nalogRegDate>
+        <kpp>616401001</kpp>
+        <date>2015-02-04</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6196</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Ростовской области</nalogName>
+        <date>2014-08-08</date>
+      </regBody>
+      <statedCapital>
+        <sum>12500</sum>
+        <date>2012-07-20</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Кувикова Елена Викторовна</fio>
+          <innfl>616185612889</innfl>
+          <share>
+            <sum>2500</sum>
+            <percentagePlain>20</percentagePlain>
+          </share>
+          <date>2012-07-20</date>
+          <firstDate>2012-07-20</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1076164016114</ogrn>
+          <inn>6164272798</inn>
+          <fullName>ООО "РосТехКомплект"</fullName>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>80</percentagePlain>
+          </share>
+          <date>2012-08-08</date>
+          <firstDate>2012-08-08</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2156196063791</grn>
+          <date>2015-02-04</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2156196063241</grn>
+          <date>2015-02-04</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2014-09-25</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2014-09-25</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2014-09-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2146196800583</grn>
+          <date>2014-09-26</date>
+          <name>Внесение сведений о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействующего юридического лица из единого государственного реестра юридических лиц</name>
+              <date>2014-09-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2126164087047</grn>
+          <date>2012-08-08</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2012-08-01</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 007213204</serialNumber>
+              <date>2012-08-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2126164081855</grn>
+          <date>2012-07-20</date>
+          <name>Внесение изменений в учредительные документы</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2012-07-13</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2012-07-13</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2012-07-13</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2012-07-13</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 007213025</serialNumber>
+              <date>2012-07-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2126164081844</grn>
+          <date>2012-07-20</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2012-07-13</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 007213024</serialNumber>
+              <date>2012-07-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096164066315</grn>
+          <date>2009-09-09</date>
+          <name>Приведение устава ООО в соответствие с 312-ФЗ, а также изменение сведений, вносимых в учр.документы</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-08-31</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2009-08-31</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2009-08-31</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006834897</serialNumber>
+              <date>2009-09-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2086164173148</grn>
+          <date>2008-06-02</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2086164078570</grn>
+          <date>2008-01-29</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2086164073895</grn>
+          <date>2008-01-23</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2086164069869</grn>
+          <date>2008-01-18</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2076164368421</grn>
+          <date>2007-12-03</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1076164016114</grn>
+          <date>2007-11-29</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-11-23</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 005605859</serialNumber>
+              <date>2007-11-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>10000</sum>
+            <date>2007-11-29</date>
+          </statedCapital>
+        </statedCapitals>
+        <foundersFL>
+          <founderFL>
+            <fio>Ткаченко Александр Анатольевич</fio>
+            <innfl>616106501120</innfl>
+            <share>
+              <sum>10000</sum>
+            </share>
+            <date>2012-07-20</date>
+            <firstDate>2009-09-09</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>6164307225</inn>
+    <ogrn>1126164004988</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1126164004988</focusHref>
+    <UL>
+      <okpo>38425328</okpo>
+      <pfrRegNumber>071059042643</pfrRegNumber>
+      <fssRegNumber>610402964861041</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.69.2</code>
+          <text>Торговля оптовая эксплуатационными материалами и принадлежностями машин</text>
+          <date>2012-03-28</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>28.49.4</code>
+            <text>Производство делительных головок и прочих специальных приспособлений для станков</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>33.12</code>
+            <text>Ремонт машин и оборудования</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.6</code>
+            <text>Торговля оптовая прочими машинами, оборудованием и принадлежностями</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.62</code>
+            <text>Торговля оптовая станками</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.62.1</code>
+            <text>Торговля оптовая деревообрабатывающими станками</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.62.2</code>
+            <text>Торговля оптовая металлообрабатывающими станками</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.62.3</code>
+            <text>Торговля оптовая станками для обработки прочих материалов</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.69</code>
+            <text>Торговля оптовая прочими машинами и оборудованием</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.69.1</code>
+            <text>Торговля оптовая транспортными средствами, кроме автомобилей, мотоциклов и велосипедов</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.69.3</code>
+            <text>Торговля оптовая подъемно-транспортными машинами и оборудованием</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.69.9</code>
+            <text>Торговля оптовая прочими машинами, приборами, аппаратурой и оборудованием общепромышленного и специального назначения</text>
+            <date>2012-03-28</date>
+          </activity>
+          <activity>
+            <code>46.90</code>
+            <text>Торговля оптовая неспециализированная</text>
+            <date>2012-03-28</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2012-03-28</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6164</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г.Ростова-на-Дону</nalogName>
+        <nalogRegDate>2012-03-28</nalogRegDate>
+        <kpp>616401001</kpp>
+        <date>2012-04-06</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6196</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Ростовской области</nalogName>
+        <date>2014-08-08</date>
+      </regBody>
+      <statedCapital>
+        <sum>12500</sum>
+        <date>2013-03-06</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Сухаревский Анатолий Владимирович</fio>
+          <innfl>611603802707</innfl>
+          <share>
+            <sum>2500</sum>
+            <percentagePlain>20</percentagePlain>
+          </share>
+          <date>2013-03-06</date>
+          <firstDate>2013-03-06</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1126164004988</ogrn>
+          <inn>6164307225</inn>
+          <fullName>ООО производственно-коммерческая фирма "Ростехкомплект"</fullName>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>80</percentagePlain>
+          </share>
+          <date>2013-03-14</date>
+          <firstDate>2013-03-14</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>6166196154712</grn>
+          <date>2016-09-12</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2136164027085</grn>
+          <date>2013-03-14</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-03-06</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников юридического лица</name>
+              <date>2013-03-01</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 007381517</serialNumber>
+              <date>2013-03-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2136164022817</grn>
+          <date>2013-03-06</date>
+          <name>Внесение изменений в учредительные документы</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2013-02-27</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2013-02-27</date>
+            </document>
+            <document>
+              <name>Решение о внесении изменений</name>
+              <date>2013-02-22</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2013-02-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 007381395</serialNumber>
+              <date>2013-03-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2136164022806</grn>
+          <date>2013-03-06</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2013-02-27</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2013-02-22</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 007381394</serialNumber>
+              <date>2013-03-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2126164036051</grn>
+          <date>2012-04-16</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2126164027273</grn>
+          <date>2012-04-06</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1126164004988</grn>
+          <date>2012-03-28</date>
+          <name>Создание ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г.Ростова-На-Дону</regName>
+          <regCode>6164</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица при создании</name>
+              <date>2012-03-21</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2011-07-12</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2011-07-11</date>
+            </document>
+            <document>
+              <name>Решение о создании юридического лица</name>
+              <date>2011-07-11</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи имущества</name>
+              <date>2011-07-11</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006998834</serialNumber>
+              <date>2012-03-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>10000</sum>
+            <date>2012-03-28</date>
+          </statedCapital>
+        </statedCapitals>
+        <foundersFL>
+          <founderFL>
+            <fio>Ткаченко Александр Анатольевич</fio>
+            <innfl>616106501120</innfl>
+            <share>
+              <sum>10000</sum>
+            </share>
+            <date>2013-03-06</date>
+            <firstDate>2012-03-28</firstDate>
+          </founderFL>
+        </foundersFL>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

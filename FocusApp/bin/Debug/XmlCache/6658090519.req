@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658090519</inn>
+    <ogrn>1026602323550</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026602323550</focusHref>
+    <UL>
+      <kpp>667801001</kpp>
+      <okpo>49556447</okpo>
+      <okato>65401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО Торговая компания "Айвенго"</short>
+        <full>Общество с ограниченной ответственностью Торговая компания "Айвенго"</full>
+        <date>2002-10-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620027</zipCode>
+          <kladrCode>660000010000518</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Короленко</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5</topoValue>
+          </house>
+          <flat>
+            <topoValue>28</topoValue>
+          </flat>
+          <houseRaw>5</houseRaw>
+          <flatRaw>28</flatRaw>
+        </parsedAddressRF>
+        <date>2007-04-23</date>
+        <firstDate>2007-04-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-15</date>
+      </status>
+      <registrationDate>1998-09-29</registrationDate>
+      <dissolutionDate>2016-12-15</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Потлачев Владислав Юрьевич</fio>
+          <innfl>666300484661</innfl>
+          <position>Директор</position>
+          <date>2002-10-16</date>
+          <firstDate>2002-10-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>665901001</kpp>
+            <date>2007-05-08</date>
+          </kppWithDate>
+          <kppWithDate>
+            <kpp>665801001</kpp>
+            <date>2007-05-08</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

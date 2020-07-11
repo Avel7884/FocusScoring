@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6314021059</inn>
+    <ogrn>1026300898645</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026300898645</focusHref>
+    <UL>
+      <kpp>631401001</kpp>
+      <okpo>59665901</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автолюкс"</short>
+        <full>Общество с ограниченной ответственностью "Автолюкс"</full>
+        <date>2002-12-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443101</zipCode>
+          <kladrCode>630000010000691</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Утевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20А</topoValue>
+          </house>
+          <houseRaw>20А</houseRaw>
+        </parsedAddressRF>
+        <date>2009-08-13</date>
+        <firstDate>2009-08-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-08-12</date>
+      </status>
+      <registrationDate>2002-12-19</registrationDate>
+      <dissolutionDate>2014-08-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Стрельникова Юлия Станиславна</fio>
+          <position>Конкурсный Управляющий</position>
+          <date>2014-07-07</date>
+          <firstDate>2014-07-07</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Субботин Алексей Евгеньевич</fio>
+            <position>Директор</position>
+            <date>2008-03-17</date>
+            <firstDate>2008-03-17</firstDate>
+          </head>
+          <head>
+            <fio>Лапкин Роман Борисович</fio>
+            <position>Конкурсный управляющий</position>
+            <date>2011-12-09</date>
+            <firstDate>2011-12-09</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

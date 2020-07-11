@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2536223820</inn>
+    <ogrn>1102536000203</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1102536000203</focusHref>
+    <UL>
+      <kpp>253601001</kpp>
+      <okpo>65440365</okpo>
+      <okato>05401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>05701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "МЕДАЛ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "МЕДАЛ"</full>
+        <date>2015-02-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>690014</zipCode>
+          <kladrCode>250000010000343</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владивосток</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Некрасовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>48А</topoValue>
+          </house>
+          <houseRaw>48А</houseRaw>
+        </parsedAddressRF>
+        <date>2010-01-22</date>
+        <firstDate>2010-01-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Юридическое лицо находится в процессе реорганизации в форме присоединения к нему других юридических лиц</statusString>
+        <reorganizing>true</reorganizing>
+        <date>2018-09-05</date>
+      </status>
+      <registrationDate>2010-01-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Медведев Владимир Александрович</fio>
+          <innfl>253600741765</innfl>
+          <position>Директор</position>
+          <date>2018-12-07</date>
+          <firstDate>2010-01-22</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "1С-Юманс"</short>
+            <full>Общество с ограниченной ответственностью "1С-Юманс"</full>
+            <date>2010-01-22</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

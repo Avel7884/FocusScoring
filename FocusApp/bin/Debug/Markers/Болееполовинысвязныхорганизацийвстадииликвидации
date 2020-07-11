@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>4</Score>
+  <Name>Более половины связных организаций в стадии ликвидации</Name>
+  <Colour>RedAffiliates</Colour>
+  <Description>У более чем 50% связанных организаций статус связан с произошедшей или планируемой ликвидацией</Description>
+  <Code>
+                       // var Dissolved = company.GetParams("DissolvedAffiliates").Length;
+                        // var Dissolving = company.GetParams("DissolvingAffiliates").Length;
+                        int affiliatesCount = company.GetParams("InnAffilalates").Length;
+                        // if (affiliatesCount == 0) return false;
+                        // return (Dissolved + Dissolving) / (double)affiliatesCount &gt;= 0.5;
+	          if (affiliatesCount &lt; 5) return false;
+                        int liquCount = company.GetParams("q7005").Length;
+		return (liquCount/affiliatesCount &gt;= 0.5);</Code>
+</items>

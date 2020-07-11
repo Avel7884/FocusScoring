@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4720012568</inn>
+    <ogrn>1034702181183</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034702181183</focusHref>
+    <UL>
+      <kpp>472001001</kpp>
+      <okpo>46286250</okpo>
+      <okato>41230844001</okato>
+      <okfs>16</okfs>
+      <oktmo>41630444101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АПС"</short>
+        <full>Общество с ограниченной ответственностью "Агропромсервис"</full>
+        <date>2003-01-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>188516</zipCode>
+          <kladrCode>47012000020</kladrCode>
+          <regionCode>47</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ленинградская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Ломоносовский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Русско-Высоцкое</topoValue>
+          </settlement>
+        </parsedAddressRF>
+        <date>2003-01-13</date>
+        <firstDate>2003-01-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-01-22</date>
+      </status>
+      <registrationDate>1999-07-07</registrationDate>
+      <dissolutionDate>2013-01-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Киселев Сергей Васильевич</fio>
+          <position>Генеральный Директор</position>
+          <date>2011-05-16</date>
+          <firstDate>2011-05-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

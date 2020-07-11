@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7715536730</inn>
+    <ogrn>1047796701897</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796701897</focusHref>
+    <UL>
+      <kpp>771501001</kpp>
+      <okpo>74626330</okpo>
+      <okato>45280574000</okato>
+      <okfs>16</okfs>
+      <oktmo>45359000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авеста"</short>
+        <full>Общество с ограниченной ответственностью "Авеста"</full>
+        <date>2004-09-21</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127273</zipCode>
+          <kladrCode>770000000001176</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Декабристов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>20</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>20</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-09-21</date>
+        <firstDate>2004-09-21</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-10-22</date>
+      </status>
+      <registrationDate>2004-09-21</registrationDate>
+      <dissolutionDate>2018-10-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бородина Екатерина Владиславна</fio>
+          <innfl>771977431819</innfl>
+          <position>Генеральный директор</position>
+          <date>2004-09-21</date>
+          <firstDate>2004-09-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6714022272</inn>
+    <ogrn>1026700668994</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026700668994</focusHref>
+    <UL>
+      <kpp>673101001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агрокомплект"</short>
+        <full>Общество с ограниченной ответственностью "Агрокомплект"</full>
+        <date>2002-11-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>214000</zipCode>
+          <kladrCode>670000030000251</kladrCode>
+          <regionCode>67</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Смоленская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Смоленск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ленина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>37</topoValue>
+          </house>
+          <houseRaw>37</houseRaw>
+        </parsedAddressRF>
+        <date>2004-03-01</date>
+        <firstDate>2004-03-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-01-30</date>
+      </status>
+      <registrationDate>2002-11-11</registrationDate>
+      <dissolutionDate>2008-01-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Морозов Леонид Михайлович</fio>
+          <position>Директор</position>
+          <date>2002-11-11</date>
+          <firstDate>2002-11-11</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

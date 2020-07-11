@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7017007977</inn>
+    <ogrn>1027000876121</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027000876121</focusHref>
+    <UL>
+      <kpp>701701001</kpp>
+      <okpo>49394186</okpo>
+      <okato>69401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>69701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКЦ "Север"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческий центр "Север"</full>
+        <date>2002-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>634024</zipCode>
+          <kladrCode>700000010000633</kladrCode>
+          <regionCode>70</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Томская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Томск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Профсоюзная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2/2</topoValue>
+          </house>
+          <houseRaw>2/2</houseRaw>
+        </parsedAddressRF>
+        <date>2009-09-23</date>
+        <firstDate>2009-09-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1999-10-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Косых Владимир Валентинович</fio>
+          <innfl>701802131834</innfl>
+          <position>Директор</position>
+          <date>2002-10-28</date>
+          <firstDate>2002-10-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

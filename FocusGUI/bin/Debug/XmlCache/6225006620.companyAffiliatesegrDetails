@@ -1,0 +1,2230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>500107003632</inn>
+    <ogrn>313774616201150</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=313774616201150</focusHref>
+    <IP>
+      <pfrRegNumber>087206005909</pfrRegNumber>
+      <shortenedAddress>
+        <regionCode>77</regionCode>
+        <regionName>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Москва</topoValue>
+        </regionName>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>55.52</code>
+          <text>Поставка продукции общественного питания</text>
+          <date>2013-06-11</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>15.33.1</code>
+            <text>Переработка и консервирование овощей</text>
+            <date>2013-06-11</date>
+          </activity>
+          <activity>
+            <code>15.33.2</code>
+            <text>Переработка и консервирование фруктов и орехов</text>
+            <date>2013-06-11</date>
+          </activity>
+          <activity>
+            <code>15.8</code>
+            <text>Производство прочих пищевых продуктов</text>
+            <date>2013-06-11</date>
+          </activity>
+          <activity>
+            <code>15.81</code>
+            <text>Производство хлеба и мучных кондитерских изделий недлительного хранения</text>
+            <date>2013-06-11</date>
+          </activity>
+          <activity>
+            <code>15.82</code>
+            <text>Производство сухих хлебобулочных изделий и мучных кондитерских изделий длительного хранения</text>
+            <date>2013-06-11</date>
+          </activity>
+          <activity>
+            <code>15.84.2</code>
+            <text>Производство шоколада и сахаристых кондитерских изделий</text>
+            <date>2013-06-11</date>
+          </activity>
+          <activity>
+            <code>15.86</code>
+            <text>Производство чая и кофе</text>
+            <date>2013-06-11</date>
+          </activity>
+          <activity>
+            <code>15.87</code>
+            <text>Производство пряностей и приправ</text>
+            <date>2013-06-11</date>
+          </activity>
+          <activity>
+            <code>15.89</code>
+            <text>Производство прочих пищевых продуктов, не включенных в другие группировки</text>
+            <date>2013-06-11</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2013-06-11</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7743</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы № 43 по г. Москве</nalogName>
+        <nalogRegDate>2013-06-11</nalogRegDate>
+        <date>2014-12-12</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2013-06-11</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>414774634619800</grn>
+          <date>2014-12-12</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>414774634619792</grn>
+          <date>2014-12-12</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Р26001 заявление о прекращении деятельности ИП</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2014-12-11</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>413774616500896</grn>
+          <date>2013-06-14</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>413774616208590</grn>
+          <date>2013-06-11</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>313774616201150</grn>
+          <date>2013-06-11</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Р21001 заявление о регистрации ФЛ в качестве ИП</name>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина РФ</name>
+            </document>
+            <document>
+              <name>Копия ИНН</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2013-06-06</date>
+            </document>
+            <document>
+              <name>Заявление о переходе на упрощённую систему налогообложения</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>77 016029496</serialNumber>
+              <date>2013-06-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>500107003632</inn>
+    <ogrn>305770002581724</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=305770002581724</focusHref>
+    <IP>
+      <shortenedAddress>
+        <regionCode>77</regionCode>
+        <regionName>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Москва</topoValue>
+        </regionName>
+      </shortenedAddress>
+      <activities />
+      <regInfo>
+        <ogrnDate>2005-01-01</ogrnDate>
+        <regName>Государственное учреждение Московская регистрационная палата</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7704</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы № 4 по г.Москве</nalogName>
+        <nalogRegDate>2003-11-05</nalogRegDate>
+        <date>2005-01-01</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2005-01-01</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>405770002581743</grn>
+          <date>2005-01-01</date>
+          <name>Утрата ИП государственной регистрации с 01.01.2005 (ст.3 №76-ФЗ от 23.06.2003)</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>405770002581732</grn>
+          <date>2005-01-01</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>305770002581724</grn>
+          <date>2005-01-01</date>
+          <name>Внесение сведений об ИП, зарегистрированном до 01.01.2004, по данным налоговых органов</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>500107003632</inn>
+    <ogrn>304503230200122</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=304503230200122</focusHref>
+    <IP>
+      <okpo>0144919974</okpo>
+      <pfrRegNumber>060001008901</pfrRegNumber>
+      <okato>46241804010</okato>
+      <shortenedAddress>
+        <regionCode>50</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Московская</topoValue>
+        </regionName>
+        <district>
+          <topoShortName>р-н</topoShortName>
+          <topoFullName>район</topoFullName>
+          <topoValue>Одинцовский</topoValue>
+        </district>
+        <settlement>
+          <topoShortName>п</topoShortName>
+          <topoFullName>поселок</topoFullName>
+          <topoValue>Усово-Тупик</topoValue>
+        </settlement>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>74.13.1</code>
+          <text>Исследование конъюнктуры рынка</text>
+          <date>2004-10-28</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>74.13.2</code>
+            <text>Деятельность по изучению общественного мнения</text>
+            <date>2004-10-28</date>
+          </activity>
+          <activity>
+            <code>74.14</code>
+            <text>Консультирование по вопросам коммерческой деятельности и управления</text>
+            <date>2004-10-28</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2004-10-28</ogrnDate>
+        <regName>Государственное учреждение Московская регистрационная палата</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>5032</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №22 по Московской области</nalogName>
+        <nalogRegDate>2004-10-28</nalogRegDate>
+        <date>2004-12-16</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>5081</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №23 по Московской области</nalogName>
+        <date>2019-01-31</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>410503206100011</grn>
+          <date>2010-03-02</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Одинцово Московской Области</regName>
+          <regCode>5032</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>406503214535600</grn>
+          <date>2006-05-25</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Инспекция Федеральной Налоговой Службы по г.Одинцово Московской Области</regName>
+          <regCode>5032</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>404503235100012</grn>
+          <date>2004-12-16</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Городу Одинцово Московской Области</regName>
+          <regCode>5032</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>404503234100022</grn>
+          <date>2004-12-06</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Городу Одинцово Московской Области</regName>
+          <regCode>5032</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации прекращения физическим лицом деятельности в качестве индивидуального предпринимателя в связи с принятием им решения о прекращении данной деятельности</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>50 007740802</serialNumber>
+              <date>2004-12-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>404503230200011</grn>
+          <date>2004-10-28</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Городу Одинцово Московской Области</regName>
+          <regCode>5032</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>304503230200122</grn>
+          <date>2004-10-28</date>
+          <name>Внесение сведений об ИП, зарегистрированном до 01.01.2004</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Городу Одинцово Московской Области</regName>
+          <regCode>5032</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр индивидуальных предпринимателей записи об индивидуальном предпринимателе, зарегистрированном до 1 января 2004 г.</name>
+            </document>
+            <document>
+              <name>Документ, удостоверяющий личность гражданина России</name>
+            </document>
+            <document>
+              <name>Документ, подтверждающий госрегистрацию в качестве индивидуального предпринимателя</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>50 007859301</serialNumber>
+              <date>2004-11-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>6225006620</inn>
+    <ogrn>1026200850532</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026200850532</focusHref>
+    <UL>
+      <pfrRegNumber>072024000865</pfrRegNumber>
+      <fssRegNumber>620025048962001</fssRegNumber>
+      <activities />
+      <regInfo>
+        <ogrnDate>2002-07-24</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6225</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №10 по Рязанской области</nalogName>
+        <nalogRegDate>2002-07-24</nalogRegDate>
+        <kpp>622501001</kpp>
+        <date>2008-05-26</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6234</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы №2 по Рязанской области</nalogName>
+        <date>2016-01-05</date>
+      </regBody>
+      <statedCapital>
+        <sum>85000</sum>
+        <date>2002-07-24</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Петрова Александра Николаевна</fio>
+          <innfl>500107003632</innfl>
+          <share>
+            <sum>85000</sum>
+          </share>
+          <date>2004-09-08</date>
+          <firstDate>2004-09-08</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2096225027127</grn>
+          <date>2009-12-29</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №10 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2086225008582</grn>
+          <date>2008-05-26</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №10 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2066225015899</grn>
+          <date>2006-05-11</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №10 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2066225007286</grn>
+          <date>2006-02-10</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №10 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2056220001088</grn>
+          <date>2005-02-07</date>
+          <name>Повторная выдача свидетельства</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №10 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000629086</serialNumber>
+              <date>2005-02-07</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2056220000175</grn>
+          <date>2005-01-19</date>
+          <name>Ликвидация ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №10 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации юридического лица в связи с его ликвидацией по решению учредителей (участников) или органа юридического лица, уполномоченного на то учредительными документами</name>
+            </document>
+            <document>
+              <name>Ликвидационный баланс</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2046234007510</grn>
+          <date>2004-12-30</date>
+          <name>Внесение сведений о промежуточном ликвидационном балансе</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о составлении промежуточного ликвидационного баланса юридического лица</name>
+            </document>
+            <document>
+              <name>Промежуточный ликвидационный баланс</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000629019</serialNumber>
+              <date>2004-12-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2046234002164</grn>
+          <date>2004-09-21</date>
+          <name>Внесение сведений о ликвидацонной комиссии (назначении ликвидатора)</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о формировании ликвидационной комиссии юридического или назначении ликвидатора</name>
+            </document>
+            <document>
+              <name>Решение учредителя</name>
+              <date>2004-08-18</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000628841</serialNumber>
+              <date>2004-09-21</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2046234002153</grn>
+          <date>2004-09-20</date>
+          <name>Внесение сведений о решении о ликвидации</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <documents>
+            <document>
+              <name>Уведомление о принятии решения о ликвидации юридического лица</name>
+            </document>
+            <document>
+              <name>Решение учредителя</name>
+              <date>2004-08-18</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000628840</serialNumber>
+              <date>2004-09-20</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2046234001944</grn>
+          <date>2004-09-08</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000628824</serialNumber>
+              <date>2004-09-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2046234001933</grn>
+          <date>2004-09-08</date>
+          <name>Внесение изменений в учредительные документы</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Решение о внесении изменений в учредительные документы</name>
+              <date>2004-07-26</date>
+            </document>
+            <document>
+              <name>Квитанция</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000628823</serialNumber>
+              <date>2004-09-08</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2046234001097</grn>
+          <date>2004-07-01</date>
+          <name>Внесение изменений в учредительные документы</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+            </document>
+            <document>
+              <name>Квитанция</name>
+            </document>
+            <document>
+              <name>Протокол общего собрания</name>
+              <date>2004-06-16</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000628735</serialNumber>
+              <date>2004-07-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-04-01</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2036234001725</grn>
+          <date>2003-09-26</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000628556</serialNumber>
+              <date>2003-09-26</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2036234001428</grn>
+          <date>2003-06-27</date>
+          <name>Внесение изменений не связанных с учредительными документами</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000628522</serialNumber>
+              <date>2003-06-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1026200850532</grn>
+          <date>2002-07-24</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Министерства Российской Федерации по Налогам и Сборам №11 по Рязанской Области</regName>
+          <regCode>6225</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>62 000628003</serialNumber>
+              <date>2002-07-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>7000000719</inn>
+    <ogrn>1027000000059</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027000000059</focusHref>
+    <UL>
+      <okpo>24635252</okpo>
+      <pfrRegNumber>087105109042</pfrRegNumber>
+      <fssRegNumber>700400212277271</fssRegNumber>
+      <fomsRegNumber>03.01.79.10701</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>64.19</code>
+          <text>Денежное посредничество прочее</text>
+          <date>2004-11-24</date>
+        </principalActivity>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-07-29</ogrnDate>
+        <regName>Центральный банк Российской Федерации</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7705</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы № 5 по г. Москве</nalogName>
+        <nalogRegDate>2017-01-06</nalogRegDate>
+        <kpp>770501001</kpp>
+        <date>2017-01-20</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7700</nalogCode>
+        <nalogName>Управление Федеральной налоговой службы по г.Москве</nalogName>
+        <date>2016-04-11</date>
+      </regBody>
+      <statedCapital>
+        <sum>625000000</sum>
+        <date>2014-09-25</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Ковалькова Анастасия Анатольевна</fio>
+          <innfl>773703125556</innfl>
+          <share>
+            <sum>62480000</sum>
+            <percentagePlain>9.9968</percentagePlain>
+          </share>
+          <date>2013-10-07</date>
+          <firstDate>2013-10-07</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Ерастов Игорь Дмитриевич</fio>
+          <innfl>501205091371</innfl>
+          <share>
+            <sum>62480000</sum>
+            <percentagePlain>9.9968</percentagePlain>
+          </share>
+          <date>2013-10-07</date>
+          <firstDate>2013-10-07</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Гайдуков Юрий Алексеевич</fio>
+          <innfl>770506011177</innfl>
+          <share>
+            <sum>61875000</sum>
+            <percentagePlain>9.9</percentagePlain>
+          </share>
+          <date>2015-08-14</date>
+          <firstDate>2015-08-14</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Романов Сергей Васильевич</fio>
+          <innfl>772365056803</innfl>
+          <share>
+            <sum>61875000</sum>
+            <percentagePlain>9.9</percentagePlain>
+          </share>
+          <date>2018-09-26</date>
+          <firstDate>2015-08-14</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Цаголов Николай Георгиевич</fio>
+          <innfl>771002996495</innfl>
+          <share>
+            <sum>61250000</sum>
+            <percentagePlain>9.8</percentagePlain>
+          </share>
+          <date>2015-08-14</date>
+          <firstDate>2015-08-14</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Чураков Андрей Александрович</fio>
+          <innfl>781111424335</innfl>
+          <share>
+            <sum>59980000</sum>
+            <percentagePlain>9.5968</percentagePlain>
+          </share>
+          <date>2013-10-07</date>
+          <firstDate>2013-10-07</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Абрамов Вячеслав Алексеевич</fio>
+          <innfl>402705485302</innfl>
+          <share>
+            <sum>39375000</sum>
+            <percentagePlain>6.3</percentagePlain>
+          </share>
+          <date>2015-04-17</date>
+          <firstDate>2015-04-17</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Пилосян Артур Нельсонович</fio>
+          <innfl>263100574270</innfl>
+          <share>
+            <sum>38050000</sum>
+            <percentagePlain>6.088</percentagePlain>
+          </share>
+          <date>2013-10-07</date>
+          <firstDate>2013-10-07</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Попенко Анатолий Валерьевич</fio>
+          <innfl>501803501627</innfl>
+          <share>
+            <sum>30000000</sum>
+            <percentagePlain>4.8</percentagePlain>
+          </share>
+          <date>2015-04-17</date>
+          <firstDate>2015-04-17</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Капустин Владимир Владимирович</fio>
+          <innfl>772265006904</innfl>
+          <share>
+            <sum>24500000</sum>
+            <percentagePlain>3.92</percentagePlain>
+          </share>
+          <date>2014-03-21</date>
+          <firstDate>2014-03-21</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Швецов Андрей Викторович</fio>
+          <innfl>782508244723</innfl>
+          <share>
+            <sum>24500000</sum>
+            <percentagePlain>3.92</percentagePlain>
+          </share>
+          <date>2014-03-21</date>
+          <firstDate>2014-03-21</firstDate>
+        </founderFL>
+      </foundersFL>
+      <foundersUL>
+        <founderUL>
+          <ogrn>1107746707881</ogrn>
+          <inn>7708726392</inn>
+          <fullName>Общество с ограниченной ответственностью "Бокуто"</fullName>
+          <share>
+            <sum>59375000</sum>
+            <percentagePlain>9.5</percentagePlain>
+          </share>
+          <date>2015-08-14</date>
+          <firstDate>2015-08-14</firstDate>
+        </founderUL>
+        <founderUL>
+          <ogrn>1047796958274</ogrn>
+          <inn>7727529262</inn>
+          <fullName>Общество с ограниченной ответственностью "См Капитал"</fullName>
+          <share>
+            <sum>20000000</sum>
+            <percentagePlain>3.2</percentagePlain>
+          </share>
+          <date>2013-10-30</date>
+          <firstDate>2013-10-07</firstDate>
+        </founderUL>
+        <founderUL>
+          <ogrn>1047796958274</ogrn>
+          <inn>7727529262</inn>
+          <fullName>Общество с ограниченной ответственностью "См Капитал"</fullName>
+          <share>
+            <sum>19260000</sum>
+            <percentagePlain>3.0816</percentagePlain>
+          </share>
+          <date>2013-10-30</date>
+          <firstDate>2013-10-07</firstDate>
+        </founderUL>
+      </foundersUL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2197700093336</grn>
+          <date>2019-03-21</date>
+          <name>Представление сведений об учете юридического лица в налоговом органе по месту нахождения филиала/представительства</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187700633448</grn>
+          <date>2018-12-03</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Выписка из протокола № 130 заседания правления государственной корпорации "Агентство по страхованию вкладов"</name>
+              <date>2018-11-12</date>
+            </document>
+            <document>
+              <name>Копия доверенности</name>
+              <date>2018-11-12</date>
+            </document>
+            <document>
+              <name>Копия паспорта гражданина российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2187700516012</grn>
+          <date>2018-09-26</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2177700045554</grn>
+          <date>2017-01-20</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700353126</grn>
+          <date>2016-09-14</date>
+          <name>Юридическое лицо признано несостоятельным (банкротом) и в отношении него открыто конкурсное производство</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+          <documents>
+            <document>
+              <name>Копия pешения</name>
+              <date>2016-08-11</date>
+            </document>
+            <document>
+              <name>Заявление по форме № р14001</name>
+            </document>
+            <document>
+              <name>Копия доверенности № 953 от 11.08.2016</name>
+              <date>2016-08-23</date>
+            </document>
+            <document>
+              <name>Выписка из протокола № 109</name>
+              <date>2016-08-11</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700288765</grn>
+          <date>2016-08-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700229728</grn>
+          <date>2016-06-25</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700212172</grn>
+          <date>2016-06-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Копии приказов № од-1690 и № 1689</name>
+              <date>2016-05-30</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700195397</grn>
+          <date>2016-05-30</date>
+          <name>Представление лицензирующим органом сведений об отзыве лицензии</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700140200</grn>
+          <date>2016-04-22</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700135810</grn>
+          <date>2016-04-19</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700133665</grn>
+          <date>2016-04-18</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700133500</grn>
+          <date>2016-04-15</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700133490</grn>
+          <date>2016-04-15</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700126988</grn>
+          <date>2016-04-11</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700126977</grn>
+          <date>2016-04-11</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167700126944</grn>
+          <date>2016-04-11</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по г.Москве</regName>
+          <regCode>7700</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+            </document>
+            <document>
+              <name>Изменения № 1, вносимые в устав</name>
+              <date>2016-03-21</date>
+            </document>
+            <document>
+              <name>Протокол № 212</name>
+              <date>2016-01-20</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2016-02-29</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2016-04-06</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2167000050677</grn>
+          <date>2016-02-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2016-01-22</date>
+            </document>
+            <document>
+              <name>Решение о регистрации принятое органами цб РФ</name>
+              <date>2016-01-26</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников ЮЛ</name>
+              <date>2016-01-20</date>
+            </document>
+            <document>
+              <name>Опись на вложение в пакет</name>
+              <date>2016-01-26</date>
+            </document>
+            <document>
+              <name>Конверт</name>
+              <date>2016-01-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157000035443</grn>
+          <date>2015-08-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2015-08-06</date>
+            </document>
+            <document>
+              <name>Решение о регистрации принятое органами цб РФ</name>
+              <date>2015-08-13</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157000034904</grn>
+          <date>2015-07-30</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157000033661</grn>
+          <date>2015-06-02</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2015-05-25</date>
+            </document>
+            <document>
+              <name>Отчет очередного годового собрания</name>
+              <date>2015-04-13</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ в новой редакции</name>
+              <date>2015-05-28</date>
+            </document>
+            <document>
+              <name>Приказ</name>
+              <date>2015-05-20</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2015-04-28</date>
+            </document>
+            <document>
+              <name>Решение о регистрации принятое органами цб РФ</name>
+              <date>2015-05-28</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157000032132</grn>
+          <date>2015-04-17</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2015-04-14</date>
+            </document>
+            <document>
+              <name>Решение о регистрации принятое органами цб РФ</name>
+              <date>2015-04-17</date>
+            </document>
+            <document>
+              <name>Конверт</name>
+              <date>2015-04-17</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2157000030592</grn>
+          <date>2015-02-17</date>
+          <name>Внесение сведений о переоформлении документов, подтверждающих наличие лицензии (продление срока действия)</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2147000014060</grn>
+          <date>2014-12-08</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2014-10-17</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2014-09-19</date>
+            </document>
+            <document>
+              <name>Опись вложения</name>
+              <date>2014-11-28</date>
+            </document>
+            <document>
+              <name>Решение о регистрации принятое органами ЦБ РФ</name>
+              <date>2014-11-28</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников ЮЛ</name>
+              <date>2014-09-19</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2014-10-16</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2147000012201</grn>
+          <date>2014-10-24</date>
+          <name>Уведомление о внесении изменений в учредительные документы</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р13002 уведомление о внесении изменений в учред.документы</name>
+            </document>
+            <document>
+              <name>Письмо</name>
+              <date>2014-10-20</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2014-09-18</date>
+            </document>
+            <document>
+              <name>Изменения № 4, вносимые в устав</name>
+              <date>2014-10-20</date>
+            </document>
+            <document>
+              <name>Протокол внеочередного собрания участников</name>
+              <date>2014-09-16</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2147000010221</grn>
+          <date>2014-09-25</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2014-08-21</date>
+            </document>
+            <document>
+              <name>Письмо</name>
+              <date>2014-09-22</date>
+            </document>
+            <document>
+              <name>Изменения № 3 вносимые в устав</name>
+              <date>2014-09-22</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2014-08-21</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2014-07-07</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2014-08-07</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2147000002037</grn>
+          <date>2014-03-21</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+              <date>2014-02-12</date>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+              <date>2014-03-14</date>
+            </document>
+            <document>
+              <name>Сопроводительное письмо</name>
+              <date>2014-03-17</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2014-02-13</date>
+            </document>
+            <document>
+              <name>Решение о регистрации принятое органами цб РФ</name>
+              <date>2014-03-14</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников ЮЛ</name>
+              <date>2014-01-28</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137000012576</grn>
+          <date>2013-11-28</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2013-11-26</date>
+            </document>
+            <document>
+              <name>Опись вложения</name>
+              <date>2013-11-28</date>
+            </document>
+            <document>
+              <name>Решение о регистрации принятое органами цб РФ</name>
+              <date>2013-11-28</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137000011377</grn>
+          <date>2013-10-30</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+              <date>2013-10-23</date>
+            </document>
+            <document>
+              <name>Сопроводительное письмо</name>
+              <date>2013-10-25</date>
+            </document>
+            <document>
+              <name>Опись вложения</name>
+              <date>2013-10-25</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137000010629</grn>
+          <date>2013-10-07</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Письмо</name>
+              <date>2013-10-01</date>
+            </document>
+            <document>
+              <name>Договор купли -продажи</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2137000003006</grn>
+          <date>2013-03-12</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2013-03-01</date>
+            </document>
+            <document>
+              <name>Расписка</name>
+            </document>
+            <document>
+              <name>Опись</name>
+            </document>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Договор купли-продажи доли в уставном капитале</name>
+              <date>2013-02-20</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи</name>
+              <date>2013-02-25</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников ЮЛ</name>
+              <date>2013-02-19</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2013-02-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001668642</serialNumber>
+              <date>2013-03-12</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127000012236</grn>
+          <date>2012-12-03</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2012-11-29</date>
+            </document>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2012-10-31</date>
+            </document>
+            <document>
+              <name>Протокол общего собрания участников ЮЛ</name>
+              <date>2012-10-10</date>
+            </document>
+            <document>
+              <name>Изменения в устав ЮЛ</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001668431</serialNumber>
+              <date>2012-12-03</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2127000006945</grn>
+          <date>2012-07-06</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2012-07-06</date>
+            </document>
+            <document>
+              <name>Р14001 заявление об изм.сведений, не связанных с изм. учред.документов (п.2.1)</name>
+            </document>
+            <document>
+              <name>Договор купли-продажи</name>
+              <date>2012-07-04</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи доли в уставном капитале</name>
+              <date>2012-07-04</date>
+            </document>
+            <document>
+              <name>Извещение</name>
+              <date>2012-05-11</date>
+            </document>
+            <document>
+              <name>Уведомление</name>
+              <date>2012-05-11</date>
+            </document>
+            <document>
+              <name>Заявление</name>
+              <date>2012-06-13</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001668118</serialNumber>
+              <date>2012-07-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2107000014438</grn>
+          <date>2010-11-22</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2010-11-16</date>
+            </document>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2010-10-11</date>
+            </document>
+            <document>
+              <name>Протокол внеочередного общего собрания участников</name>
+              <date>2010-09-30</date>
+            </document>
+            <document>
+              <name>Устав</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001514576</serialNumber>
+              <date>2010-11-22</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2107000001755</grn>
+          <date>2010-02-25</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2010-02-19</date>
+            </document>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2010-01-12</date>
+            </document>
+            <document>
+              <name>Протокол внеочередного общего собрания участников</name>
+              <date>2009-12-25</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001458958</serialNumber>
+              <date>2010-02-25</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2097000032017</grn>
+          <date>2009-11-25</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2009-11-20</date>
+            </document>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2009-10-19</date>
+            </document>
+            <document>
+              <name>Протокол внеочередного общего собрания</name>
+              <date>2009-10-20</date>
+            </document>
+            <document>
+              <name>Изменения вносимые в устав</name>
+              <date>2009-11-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001458809</serialNumber>
+              <date>2009-11-25</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2097000019004</grn>
+          <date>2009-06-08</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2087000016310</grn>
+          <date>2008-08-29</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2008-08-25</date>
+            </document>
+            <document>
+              <name>P13001 заявление об изм.сведений, вносимых в учред.докум.</name>
+              <date>2008-08-25</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-07-30</date>
+            </document>
+            <document>
+              <name>Протокол внеочередного общего собрания</name>
+              <date>2008-08-05</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2008-08-05</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001458112</serialNumber>
+              <date>2008-08-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2087000007851</grn>
+          <date>2008-05-13</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2008-05-05</date>
+            </document>
+            <document>
+              <name>P13001 заявление об изм.сведений, вносимых в учред.докум.</name>
+              <date>2008-05-06</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2008-03-31</date>
+            </document>
+            <document>
+              <name>Протокол внеочередного собрания</name>
+              <date>2008-03-17</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2008-05-05</date>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+              <date>2008-05-05</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001312677</serialNumber>
+              <date>2008-05-13</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077000038344</grn>
+          <date>2007-12-28</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2007-12-24</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-11-21</date>
+            </document>
+            <document>
+              <name>P13001 заявление об изм.сведений, вносимых в учред.докум.</name>
+              <date>2007-12-26</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2007-12-24</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2007-11-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001312455</serialNumber>
+              <date>2007-12-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077000030149</grn>
+          <date>2007-09-04</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2007-08-31</date>
+            </document>
+            <document>
+              <name>P13001 заявление об изм.сведений, вносимых в учред.докум.</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2007-09-03</date>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+              <date>2007-07-11</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2007-07-11</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2007-07-11</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001312187</serialNumber>
+              <date>2007-09-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077000030127</grn>
+          <date>2007-09-04</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Письмо</name>
+              <date>2007-08-31</date>
+            </document>
+            <document>
+              <name>P14001 заявление о изм.сведений, не связанных с учред.докум.</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001312186</serialNumber>
+              <date>2007-09-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077000011955</grn>
+          <date>2007-04-17</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2077000000383</grn>
+          <date>2007-01-09</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Сопроводительное письмо</name>
+              <date>2006-12-22</date>
+            </document>
+            <document>
+              <name>P13001 заявление об изм.сведений, вносимых в учред.докум.</name>
+            </document>
+            <document>
+              <name>Опись</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-11-17</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2006-12-22</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2006-11-09</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001265570</serialNumber>
+              <date>2007-01-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067000007138</grn>
+          <date>2006-05-19</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>P13001 заявление об изм.сведений, вносимых в учред.докум.</name>
+              <date>2006-04-06</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-03-31</date>
+            </document>
+            <document>
+              <name>Изменения в устав юридического лица</name>
+              <date>2006-05-10</date>
+            </document>
+            <document>
+              <name>Изменения в учредительный договор юридического лица</name>
+              <date>2006-05-10</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2006-05-03</date>
+            </document>
+            <document>
+              <name>Письмо</name>
+              <date>2006-05-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001265119</serialNumber>
+              <date>2006-05-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067000007127</grn>
+          <date>2006-05-19</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>P14001 заявление о изм.сведений, не связанных с учред.докум.</name>
+              <date>2006-04-06</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2006-03-31</date>
+            </document>
+            <document>
+              <name>Письмо</name>
+              <date>2006-05-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 001265116</serialNumber>
+              <date>2006-05-19</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067000001473</grn>
+          <date>2006-02-21</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2067000001363</grn>
+          <date>2006-02-15</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057000030481</grn>
+          <date>2005-12-12</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>P13001 заявление об изм.сведений, вносимых в учред.докум.</name>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2005-10-31</date>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2005-10-28</date>
+            </document>
+            <document>
+              <name>Устав юридического лица</name>
+              <date>2005-10-28</date>
+            </document>
+            <document>
+              <name>Учредительный договор юридического лица</name>
+              <date>2005-10-28</date>
+            </document>
+            <document>
+              <name>Письмо</name>
+              <date>2005-12-05</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000956187</serialNumber>
+              <date>2005-12-12</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057000018865</grn>
+          <date>2005-07-06</date>
+          <name>Внесение изменений в связи с допущенными заявителем ошибками в ранее представленном заявлении</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Заявление</name>
+            </document>
+            <document>
+              <name>Письмо</name>
+              <date>2005-06-27</date>
+            </document>
+            <document>
+              <name>Письмо</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000772879</serialNumber>
+              <date>2005-07-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057000015631</grn>
+          <date>2005-03-30</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Заявление об изменении сведений, вносимых в учредительные документы</name>
+            </document>
+            <document>
+              <name>Протокол №125</name>
+              <date>2005-02-18</date>
+            </document>
+            <document>
+              <name>Изменения №17 вносимые в учредительные документы ООО "Промрегионбанк"</name>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2005-02-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000772731</serialNumber>
+              <date>2005-03-30</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057000000935</grn>
+          <date>2005-03-09</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Заявление об изм. сведений, несвязанных с учрред.докум.</name>
+            </document>
+            <document>
+              <name>Письмо ГУ цб РФ по томской области</name>
+              <date>2005-02-24</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000772694</serialNumber>
+              <date>2005-03-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2057000000297</grn>
+          <date>2005-02-09</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Р13001 заявление об изменениях, вносимых в учред.документы</name>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2004-12-10</date>
+            </document>
+            <document>
+              <name>Изменентя №11</name>
+              <date>2005-01-27</date>
+            </document>
+            <document>
+              <name>Изменения</name>
+              <date>2004-01-27</date>
+            </document>
+            <document>
+              <name>Письмо цб РФ главное управление по томской области</name>
+              <date>2005-01-28</date>
+            </document>
+            <document>
+              <name>Протокол №124</name>
+              <date>2004-12-20</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000772658</serialNumber>
+              <date>2005-02-09</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2047000014268</grn>
+          <date>2004-11-24</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Федеральной Налоговой Службы по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>P13001 заявление об изм.сведений, вносимых в учред.докум.</name>
+            </document>
+            <document>
+              <name>Протокол</name>
+              <date>2004-09-20</date>
+            </document>
+            <document>
+              <name>Изменения №15</name>
+              <date>2004-11-15</date>
+            </document>
+            <document>
+              <name>Письмо ГУ цб РФ по томской области</name>
+              <date>2004-11-16</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2004-08-03</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000772622</serialNumber>
+              <date>2004-11-24</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-06-09</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Томской Области</regName>
+          <regCode>7000</regCode>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-06-09</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Томской Области</regName>
+          <regCode>7000</regCode>
+        </egrRecord>
+        <egrRecord>
+          <date>2004-02-13</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Томской Области</regName>
+          <regCode>7000</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2047000000276</grn>
+          <date>2004-02-04</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Томской Области</regName>
+          <regCode>7000</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2003-12-29</date>
+            </document>
+            <document>
+              <name>Изменения и дополнения, вносимые в устав</name>
+              <date>2004-01-30</date>
+            </document>
+            <document>
+              <name>Изменения и дополнения, вносимые в учредительный договор</name>
+              <date>2004-01-30</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2003-12-26</date>
+            </document>
+            <document>
+              <name>Протокол внеочередного общего собрания участников ООО "Промрегионбанк"</name>
+              <date>2003-12-03</date>
+            </document>
+            <document>
+              <name>Доверенность</name>
+              <date>2003-12-26</date>
+            </document>
+            <document>
+              <name>Сопроводительное письмо (с описью)</name>
+              <date>2004-01-30</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000772369</serialNumber>
+              <date>2004-02-04</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2037000003577</grn>
+          <date>2003-02-06</date>
+          <name>Уведомление о внесении изменений в учредительные документы</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Томской Области</regName>
+          <regCode>7000</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000772048</serialNumber>
+              <date>2003-02-06</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2027000004997</grn>
+          <date>2002-12-18</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Томской Области</regName>
+          <regCode>7000</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000771519</serialNumber>
+              <date>2002-12-18</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2027000000245</grn>
+          <date>2002-09-11</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Томской Области</regName>
+          <regCode>7000</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000771033</serialNumber>
+              <date>2002-09-11</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2027000000070</grn>
+          <date>2002-08-14</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Томской Области</regName>
+          <regCode>7000</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000771007</serialNumber>
+              <date>2002-08-14</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1027000000059</grn>
+          <date>2002-07-29</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Управление Министерства Российской Федерации по Налогам и Сборам по Томской Области</regName>
+          <regCode>7000</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>70 000771005</serialNumber>
+              <date>2002-07-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history>
+        <statedCapitals>
+          <statedCapital>
+            <sum>249000000</sum>
+            <date>2014-03-21</date>
+          </statedCapital>
+          <statedCapital>
+            <sum>200000000</sum>
+            <date>2004-02-04</date>
+          </statedCapital>
+        </statedCapitals>
+        <foundersFL>
+          <founderFL>
+            <fio>Ульская Мария Александровна</fio>
+            <innfl>772442241546</innfl>
+            <share>
+              <sum>286625000</sum>
+            </share>
+            <date>2015-04-17</date>
+            <firstDate>2014-09-25</firstDate>
+          </founderFL>
+          <founderFL>
+            <fio>Иваницкий Андрей Юрьевич</fio>
+            <innfl>771201058454</innfl>
+            <share>
+              <sum>60060000</sum>
+            </share>
+            <date>2009-11-25</date>
+            <firstDate>2009-11-25</firstDate>
+          </founderFL>
+          <founderFL>
+            <fio>Мурашко Сергей Владиславович</fio>
+            <share>
+              <sum>39000000</sum>
+            </share>
+            <date>2014-09-25</date>
+            <firstDate>2013-10-07</firstDate>
+          </founderFL>
+          <founderFL>
+            <fio>Петрова Александра Николаевна</fio>
+            <innfl>500107003632</innfl>
+            <share>
+              <sum>20000000</sum>
+            </share>
+            <date>2009-11-25</date>
+            <firstDate>2009-11-25</firstDate>
+          </founderFL>
+          <founderFL>
+            <fio>Андрианов Михаил Михайлович</fio>
+            <innfl>702100589400</innfl>
+            <share>
+              <sum>20000000</sum>
+            </share>
+            <date>2013-03-12</date>
+            <firstDate>2013-03-12</firstDate>
+          </founderFL>
+        </foundersFL>
+        <foundersUL>
+          <founderUL>
+            <ogrn>1027000859544</ogrn>
+            <inn>7017036030</inn>
+            <fullName>Общество с ограниченной ответственностью "Ост-Финанс"</fullName>
+            <share>
+              <sum>39980000</sum>
+            </share>
+            <date>2009-11-25</date>
+            <firstDate>2009-11-25</firstDate>
+          </founderUL>
+          <founderUL>
+            <ogrn>1027000859511</ogrn>
+            <inn>7017036022</inn>
+            <fullName>Общество с ограниченной ответственностью "Грац"</fullName>
+            <share>
+              <sum>39980000</sum>
+            </share>
+            <date>2009-11-25</date>
+            <firstDate>2009-11-25</firstDate>
+          </founderUL>
+          <founderUL>
+            <ogrn>1027000859522</ogrn>
+            <inn>7017036015</inn>
+            <fullName>Общество с ограниченной ответственностью "Центр-Плюс"</fullName>
+            <share>
+              <sum>39980000</sum>
+            </share>
+            <date>2009-11-25</date>
+            <firstDate>2009-11-25</firstDate>
+          </founderUL>
+        </foundersUL>
+      </history>
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

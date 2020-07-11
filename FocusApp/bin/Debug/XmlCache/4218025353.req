@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4218025353</inn>
+    <ogrn>1044218001508</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1044218001508</focusHref>
+    <UL>
+      <kpp>423801001</kpp>
+      <okpo>72276021</okpo>
+      <okato>32219868001</okato>
+      <okfs>16</okfs>
+      <oktmo>32619468101</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВТОЛАЙН"</short>
+        <full>Общество с ограниченной ответственностью "АВТОЛАЙН"</full>
+        <date>2004-03-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654235</zipCode>
+          <kladrCode>42009000121</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новокузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>п</topoShortName>
+            <topoFullName>поселок</topoFullName>
+            <topoValue>Чистогорский</topoValue>
+          </settlement>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <flat>
+            <topoValue>5</topoValue>
+          </flat>
+          <houseRaw>13</houseRaw>
+          <flatRaw>5</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2008-05-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2016-06-22</date>
+      </status>
+      <registrationDate>2004-03-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Гудников Александр Евгеньевич</fio>
+          <innfl>421809199924</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2016-06-22</date>
+          <firstDate>2016-06-22</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Корюкова Евгения Александровна</fio>
+            <innfl>421800980097</innfl>
+            <position>Ликвидатор</position>
+            <date>2014-10-17</date>
+            <firstDate>2011-05-04</firstDate>
+          </head>
+          <head>
+            <fio>Артамонов Вадим Александрович</fio>
+            <innfl>421802208760</innfl>
+            <position>Ликвидатор</position>
+            <date>2014-12-12</date>
+            <firstDate>2014-12-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4221012121</inn>
+    <ogrn>1024201825834</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024201825834</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>57636114</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Абагурский ЗЖБК"</short>
+        <full>Общество с ограниченной ответственностью "Абагурский завод железобетонных конструкций"</full>
+        <date>2007-07-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654000</zipCode>
+          <kladrCode>420000120000419</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кирова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>102</topoValue>
+          </house>
+          <houseRaw>102</houseRaw>
+        </parsedAddressRF>
+        <date>2009-08-07</date>
+        <firstDate>2009-08-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-09-20</date>
+      </status>
+      <registrationDate>2002-01-08</registrationDate>
+      <dissolutionDate>2010-09-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Покосов Евгений Борисович</fio>
+          <innfl>420532091404</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2010-02-19</date>
+          <firstDate>2010-02-19</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

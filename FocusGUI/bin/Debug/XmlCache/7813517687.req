@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7813517687</inn>
+    <ogrn>1117847469739</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117847469739</focusHref>
+    <UL>
+      <kpp>781401001</kpp>
+      <okpo>30660975</okpo>
+      <okato>40270000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40325000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ППК"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Петербургская Промышленная Компания"</full>
+        <date>2011-11-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>197183</zipCode>
+          <kladrCode>780000000000446</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Заусадебная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>15</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>Б</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>10</topoValue>
+          </flat>
+          <houseRaw>ДОМ 15</houseRaw>
+          <bulkRaw>ЛИТЕР Б</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 10</flatRaw>
+        </parsedAddressRF>
+        <date>2019-07-02</date>
+        <firstDate>2019-07-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-11-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Солянкин Роман Владимирович</fio>
+          <innfl>780434469525</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-11-02</date>
+          <firstDate>2011-11-02</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>781301001</kpp>
+            <date>2011-11-02</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>197110</zipCode>
+              <kladrCode>780000000000687</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пр-кт</topoShortName>
+                <topoFullName>проспект</topoFullName>
+                <topoValue>Левашовский</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>12</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>помещение 1-Н №347</topoValue>
+              </flat>
+              <houseRaw>12</houseRaw>
+              <bulkRaw>ЛИТЕР А</bulkRaw>
+              <flatRaw>ПОМЕЩЕНИЕ 1-Н №347</flatRaw>
+            </parsedAddressRF>
+            <date>2011-11-02</date>
+            <firstDate>2011-11-02</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6316213310</inn>
+    <ogrn>1156313057295</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1156313057295</focusHref>
+    <UL>
+      <kpp>631601001</kpp>
+      <okpo>40945391</okpo>
+      <okato>36401385000</okato>
+      <okfs>16</okfs>
+      <oktmo>36701330000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ТСК"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКФ "ТСК"</full>
+        <date>2017-05-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443080</zipCode>
+          <kladrCode>630000010000338</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Революционная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>70</topoValue>
+          </house>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 70</houseRaw>
+          <flatRaw>КОМНАТА 3</flatRaw>
+        </parsedAddressRF>
+        <date>2017-05-23</date>
+        <firstDate>2017-05-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2015-09-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Зайцев Александр Анатольевич</fio>
+          <innfl>631901523300</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-05-23</date>
+          <firstDate>2017-05-23</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "ПКФ "ОМП"</short>
+            <full>Общество с ограниченной ответственностью "ПКФ "ОМП"</full>
+            <date>2015-09-28</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>443029</zipCode>
+              <kladrCode>630000010000876</kladrCode>
+              <regionCode>63</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Самарская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Самара</topoValue>
+              </city>
+              <street>
+                <topoShortName>просека</topoShortName>
+                <topoFullName>просека</topoFullName>
+                <topoValue>5-я</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>99А</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>4</topoValue>
+              </flat>
+              <houseRaw>ДОМ 99А</houseRaw>
+              <flatRaw>ОФИС 4</flatRaw>
+            </parsedAddressRF>
+            <date>2015-09-28</date>
+            <firstDate>2015-09-28</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Саломатин Андрей Вячеславович</fio>
+            <innfl>583805837930</innfl>
+            <position>Генеральный Директор</position>
+            <date>2015-09-28</date>
+            <firstDate>2015-09-28</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

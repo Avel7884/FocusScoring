@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5501249372</inn>
+    <ogrn>1135543020326</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1135543020326</focusHref>
+    <UL>
+      <kpp>550101001</kpp>
+      <okpo>11904621</okpo>
+      <okato>52401380000</okato>
+      <okfs>16</okfs>
+      <oktmo>52701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "АльянсИнвест"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "АльянсИнвест"</full>
+        <date>2013-04-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644033</zipCode>
+          <kladrCode>550000010000543</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красный Путь</topoValue>
+          </street>
+          <house>
+            <topoValue>Дом 30 Секция 15</topoValue>
+          </house>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>810</topoValue>
+          </flat>
+          <houseRaw>ДОМ 30 СЕКЦИЯ 15</houseRaw>
+          <flatRaw>КОМНАТА 810</flatRaw>
+        </parsedAddressRF>
+        <date>2013-04-26</date>
+        <firstDate>2013-04-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-10-04</date>
+      </status>
+      <registrationDate>2013-04-26</registrationDate>
+      <dissolutionDate>2019-10-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Миклашова Жанна Константиновна</fio>
+          <innfl>550204694585</innfl>
+          <position>Директор</position>
+          <date>2014-02-07</date>
+          <firstDate>2013-04-26</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

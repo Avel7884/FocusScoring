@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7202019575</inn>
+    <ogrn>1027200861841</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027200861841</focusHref>
+    <UL>
+      <kpp>720301001</kpp>
+      <okpo>34437872</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Азот"</short>
+        <full>Общество с ограниченной ответственностью "Азот"</full>
+        <date>2009-10-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>625047</zipCode>
+          <kladrCode>720000010410001</kladrCode>
+          <regionCode>72</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Тюменская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тюмень</topoValue>
+          </city>
+          <settlement>
+            <topoShortName>пгт</topoShortName>
+            <topoFullName>поселок городского типа</topoFullName>
+            <topoValue>Антипино</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Береговая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1, стр. 1/1</topoValue>
+          </bulk>
+          <houseRaw>1</houseRaw>
+          <bulkRaw>1, СТР. 1/1</bulkRaw>
+          <flatRaw>-</flatRaw>
+        </parsedAddressRF>
+        <date>2004-08-30</date>
+        <firstDate>2004-08-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-12-29</date>
+      </status>
+      <registrationDate>1998-12-11</registrationDate>
+      <dissolutionDate>2011-12-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ульянова Юлиана Райчева</fio>
+          <innfl>720317018930</innfl>
+          <position>Ликвидатор</position>
+          <date>2011-10-03</date>
+          <firstDate>2011-10-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Музыченко Юрий Александрович</fio>
+            <position>Генеральный директор</position>
+            <date>2010-11-11</date>
+            <firstDate>2010-11-11</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

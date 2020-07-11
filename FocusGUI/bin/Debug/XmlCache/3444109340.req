@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3444109340</inn>
+    <ogrn>1033400334516</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033400334516</focusHref>
+    <UL>
+      <kpp>344401001</kpp>
+      <okpo>70586007</okpo>
+      <okato>18401395000</okato>
+      <okfs>16</okfs>
+      <oktmo>18701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Агроснаб"</short>
+        <full>Общество с ограниченной ответственностью "Агроснаб"</full>
+        <date>2003-08-22</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>400087</zipCode>
+          <kladrCode>340000010000804</kladrCode>
+          <regionCode>34</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Волгоградская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Волгоград</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Невская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13А</topoValue>
+          </house>
+          <houseRaw>13А</houseRaw>
+          <bulkRaw>--</bulkRaw>
+          <flatRaw>--</flatRaw>
+        </parsedAddressRF>
+        <date>2003-08-22</date>
+        <firstDate>2003-08-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-08-22</registrationDate>
+      <heads>
+        <head>
+          <fio>Азаров Сергей Васильевич</fio>
+          <innfl>344503556807</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-06-15</date>
+          <firstDate>2015-06-15</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Токарев Владимир Иванович</fio>
+            <innfl>344305662507</innfl>
+            <position>Генеральный Директор</position>
+            <date>2009-04-15</date>
+            <firstDate>2009-04-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

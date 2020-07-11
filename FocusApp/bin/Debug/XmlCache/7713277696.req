@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7713277696</inn>
+    <ogrn>1027700544387</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700544387</focusHref>
+    <UL>
+      <kpp>771301001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто ЛАЗ инвест"</short>
+        <full>Общество с ограниченной ответственностью "Авто ЛАЗ инвест"</full>
+        <date>2002-12-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127238</zipCode>
+          <kladrCode>770000000001985</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Нижнелихоборский 3-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3А</topoValue>
+          </house>
+          <bulk>
+            <topoValue>6</topoValue>
+          </bulk>
+          <houseRaw>3 А</houseRaw>
+          <bulkRaw>6</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-12-18</date>
+        <firstDate>2002-12-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-11-28</date>
+      </status>
+      <registrationDate>2001-04-17</registrationDate>
+      <dissolutionDate>2006-11-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Суворов Сергей Сергеевич</fio>
+          <innfl>421200369143</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2006-11-28</date>
+          <firstDate>2006-11-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

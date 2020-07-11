@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3525268740</inn>
+    <ogrn>1113525015438</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1113525015438</focusHref>
+    <UL>
+      <kpp>352501001</kpp>
+      <okpo>30558573</okpo>
+      <okato>19401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>19701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПневмоГидроОборудование"</short>
+        <full>Общество с ограниченной ответственностью "ПневмоГидроОборудование"</full>
+        <date>2011-10-28</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>160034</zipCode>
+          <kladrCode>350000010000052</kladrCode>
+          <regionCode>35</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Вологодская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Вологда</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Возрождения</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>72</topoValue>
+          </house>
+          <flat>
+            <topoValue>11</topoValue>
+          </flat>
+          <houseRaw>72</houseRaw>
+          <flatRaw>11</flatRaw>
+        </parsedAddressRF>
+        <date>2011-10-28</date>
+        <firstDate>2011-10-28</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-10-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Неженский Виталий Анатольевич</fio>
+          <innfl>532102152400</innfl>
+          <position>Директор</position>
+          <date>2011-10-28</date>
+          <firstDate>2011-10-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

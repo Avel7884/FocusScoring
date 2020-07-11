@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7722756617</inn>
+    <ogrn>1117746741111</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117746741111</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>30259623</okpo>
+      <okato>45286552000</okato>
+      <okfs>16</okfs>
+      <oktmo>45374000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ГТТ"</short>
+        <full>Общество с ограниченной ответственностью "ПКФ Гидротехтрейд"</full>
+        <date>2011-09-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119002</zipCode>
+          <kladrCode>770000000007207</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Николопесковский Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>13</topoValue>
+          </house>
+          <flat>
+            <topoValue>пом III Ком 4</topoValue>
+          </flat>
+          <houseRaw>ДОМ 13</houseRaw>
+          <flatRaw>ПОМ III КОМ 4</flatRaw>
+        </parsedAddressRF>
+        <date>2016-02-18</date>
+        <firstDate>2016-02-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-09-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Павлов Антон Михайлович</fio>
+          <innfl>771672270525</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-09-20</date>
+          <firstDate>2011-09-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>772201001</kpp>
+            <date>2011-09-20</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>111024</zipCode>
+              <kladrCode>770000000000241</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Авиамоторная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>44</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>44</houseRaw>
+              <bulkRaw>СТР.1</bulkRaw>
+            </parsedAddressRF>
+            <date>2011-09-20</date>
+            <firstDate>2011-09-20</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

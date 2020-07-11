@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705498959</inn>
+    <ogrn>1037705038535</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037705038535</focusHref>
+    <UL>
+      <kpp>770401001</kpp>
+      <okpo>14255703</okpo>
+      <okato>45286575000</okato>
+      <okfs>16</okfs>
+      <oktmo>45380000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ОАО "АМХ"</short>
+        <full>Открытое акционерное общество "Агромашхолдинг"</full>
+        <date>2007-02-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121099</zipCode>
+          <kladrCode>770000000002015</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>б-р</topoShortName>
+            <topoFullName>бульвар</topoFullName>
+            <topoValue>Новинский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <houseRaw>11</houseRaw>
+        </parsedAddressRF>
+        <date>2007-02-26</date>
+        <firstDate>2007-02-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2003-05-19</registrationDate>
+      <heads>
+        <head>
+          <fio>Кружкова Алла Михайловна</fio>
+          <innfl>500800276957</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-12-11</date>
+          <firstDate>2014-12-11</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Алексеев Евгений Леонидович</fio>
+            <innfl>772813942100</innfl>
+            <position>Генеральный Директор</position>
+            <date>2009-10-19</date>
+            <firstDate>2009-10-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

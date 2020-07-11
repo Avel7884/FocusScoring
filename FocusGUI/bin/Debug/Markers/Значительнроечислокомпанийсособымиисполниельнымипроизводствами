@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Значительнрое число компаний с особыми исполниельными производствами</Name>
+  <Colour>YellowAffiliates</Colour>
+  <Description>Более чем 30% связаных компаний имеют исполнительные производства предметом которых являются зарплата,наложение ареста, кредитные платежи, обращение взыскания на заложенное иммущество.</Description>
+  <Code>
+                    var zp = company.GetMultiParam("s1003Affiliates");
+                    var na = company.GetMultiParam("s1004Affiliates");
+                    var kp = company.GetMultiParam("s1005Affiliates");
+                    var zi = company.GetMultiParam("s1006Affiliates");
+                    var count = .0;
+                    for (int i = 0; i &lt; zp.Length; i++)
+                        if (zp[i] == "true" || na[i] == "true" || kp[i] == "true" || zi[i] == "true")
+                            count++;
+                    return count / zp.Length &gt; 0.3;</Code>
+</items>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2225019300</inn>
+    <ogrn>1022201762219</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022201762219</focusHref>
+    <UL>
+      <kpp>222501001</kpp>
+      <okpo>03963035</okpo>
+      <okato>01401370000</okato>
+      <okfs>53</okfs>
+      <oktmo>01701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АПК ВМО"</short>
+        <full>Общество с ограниченной ответственностью "Алтайский производственный комбинат Всероссийского музыкального общества"</full>
+        <date>2010-01-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656049</zipCode>
+          <kladrCode>220000010000482</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ползунова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <houseRaw>40</houseRaw>
+        </parsedAddressRF>
+        <date>2002-09-25</date>
+        <firstDate>2002-09-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-01-18</date>
+      </status>
+      <registrationDate>1992-03-13</registrationDate>
+      <dissolutionDate>2016-01-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Жидков Алексей Иванович</fio>
+          <innfl>772703902850</innfl>
+          <position>И.О. директора, представитель собственника</position>
+          <date>2011-03-17</date>
+          <firstDate>2011-03-17</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Михайлова Надежда Викторовна</fio>
+            <innfl>222304712650</innfl>
+            <position>Директор</position>
+            <date>2002-09-25</date>
+            <firstDate>2002-09-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

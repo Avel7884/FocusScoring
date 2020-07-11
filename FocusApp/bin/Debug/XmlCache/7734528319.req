@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7734528319</inn>
+    <ogrn>1057747326856</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1057747326856</focusHref>
+    <UL>
+      <kpp>773301001</kpp>
+      <okpo>77969929</okpo>
+      <okato>45283559000</okato>
+      <okfs>16</okfs>
+      <oktmo>45367000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СанТрест"</short>
+        <full>Общество с ограниченной ответственностью "СанТрест"</full>
+        <date>2012-11-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>125464</zipCode>
+          <kladrCode>770000000001009</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Волоколамское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>142</topoValue>
+          </house>
+          <flat>
+            <topoValue>помещение 1, Ком (Ч) 52, Эт5, Оф552</topoValue>
+          </flat>
+          <houseRaw>ДОМ 142</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 1, КОМ (Ч) 52, ЭТ5, ОФ552</flatRaw>
+        </parsedAddressRF>
+        <date>2018-08-09</date>
+        <firstDate>2018-08-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-06-27</registrationDate>
+      <heads>
+        <head>
+          <fio>Остапчук Максим Валентинович</fio>
+          <innfl>771300403084</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-04-28</date>
+          <firstDate>2012-07-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125310</zipCode>
+              <kladrCode>770000000001009</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Волоколамское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>142</topoValue>
+              </house>
+              <houseRaw>ДОМ 142</houseRaw>
+            </parsedAddressRF>
+            <date>2014-11-13</date>
+            <firstDate>2014-11-13</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>125424</zipCode>
+              <kladrCode>770000000001009</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Волоколамское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>73</topoValue>
+              </house>
+              <houseRaw>73</houseRaw>
+            </parsedAddressRF>
+            <date>2009-04-15</date>
+            <firstDate>2009-04-15</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Божко Анатолий Анатольевич</fio>
+            <innfl>503205486870</innfl>
+            <position>Генеральный директор</position>
+            <date>2009-04-15</date>
+            <firstDate>2009-04-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7716147416</inn>
+    <ogrn>1027700257958</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700257958</focusHref>
+    <UL>
+      <kpp>771601001</kpp>
+      <okpo>48470695</okpo>
+      <okato>45280565000</okato>
+      <okfs>16</okfs>
+      <oktmo>45355000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Кириол"</short>
+        <full>Закрытое акционерное общество "Кириол"</full>
+        <date>2005-08-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129128</zipCode>
+          <kladrCode>770000000003079</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Челюскинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-09-27</date>
+        <firstDate>2002-09-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-10-23</date>
+      </status>
+      <registrationDate>1997-12-16</registrationDate>
+      <dissolutionDate>2018-10-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кириченко Олег Яковлевович</fio>
+          <innfl>010515194522</innfl>
+          <position>Генеральный директор</position>
+          <date>2005-08-01</date>
+          <firstDate>2005-08-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

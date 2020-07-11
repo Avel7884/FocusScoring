@@ -38,6 +38,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FIOCache.cs" />
+    <Compile Include="FIODictionarySerializer.cs" />
     <Compile Include="ListMonitorer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5611052185</inn>
+    <ogrn>1075658009371</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1075658009371</focusHref>
+    <UL>
+      <kpp>560901001</kpp>
+      <okpo>99874425</okpo>
+      <okato>53401362000</okato>
+      <okfs>16</okfs>
+      <oktmo>53701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПКМ"</full>
+        <date>2014-06-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>460048</zipCode>
+          <kladrCode>560000010000186</kladrCode>
+          <regionCode>56</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Оренбургская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Оренбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>164/1</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>59</topoValue>
+          </flat>
+          <houseRaw>ДОМ 164/1</houseRaw>
+          <flatRaw>КВАРТИРА 59</flatRaw>
+        </parsedAddressRF>
+        <date>2014-06-06</date>
+        <firstDate>2014-06-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-05-04</registrationDate>
+      <heads>
+        <head>
+          <fio>Крикунов Евгений Андреевич</fio>
+          <innfl>561111191241</innfl>
+          <position>Директор</position>
+          <date>2019-09-12</date>
+          <firstDate>2019-09-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>561101001</kpp>
+            <date>2007-05-04</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ООО "МеталлТрейд"</short>
+          </legalName>
+          <legalName>
+            <full>Общество с ограниченной ответственностью "МеталлТрейд"</full>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>460009</zipCode>
+              <regionCode>56</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Оренбургская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Оренбург</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Бебеля</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>70</topoValue>
+              </house>
+              <houseRaw>70</houseRaw>
+            </parsedAddressRF>
+            <date>2007-05-04</date>
+            <firstDate>2007-05-04</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Крикунова Ирина Владимировна</fio>
+            <innfl>565000062826</innfl>
+            <position>Директор</position>
+            <date>2013-10-12</date>
+            <firstDate>2007-05-04</firstDate>
+          </head>
+          <head>
+            <fio>Скотаренко Андрей Александрович</fio>
+            <innfl>560918958173</innfl>
+            <position>Директор</position>
+            <date>2014-07-17</date>
+            <firstDate>2014-07-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

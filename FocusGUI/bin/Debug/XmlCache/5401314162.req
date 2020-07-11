@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5401314162</inn>
+    <ogrn>1085401016205</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1085401016205</focusHref>
+    <UL>
+      <kpp>540101001</kpp>
+      <okpo>86858241</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ТЭК "АзияТранс"</short>
+        <full>Общество с ограниченной ответственностью Транспортно-экспедиционная компания "АзияТранс"</full>
+        <date>2008-08-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630112</zipCode>
+          <kladrCode>540000010000639</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>54</topoValue>
+          </house>
+          <houseRaw>54</houseRaw>
+        </parsedAddressRF>
+        <date>2008-08-20</date>
+        <firstDate>2008-08-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-06-03</date>
+      </status>
+      <registrationDate>2008-08-20</registrationDate>
+      <dissolutionDate>2014-06-03</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Прытков Александр Владимирович</fio>
+          <innfl>540410783403</innfl>
+          <position>Ликвидатор</position>
+          <date>2014-02-14</date>
+          <firstDate>2008-08-20</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

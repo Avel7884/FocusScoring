@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7447048615</inn>
+    <ogrn>1027402335245</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027402335245</focusHref>
+    <UL>
+      <kpp>744701001</kpp>
+      <okpo>53867124</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО Торговый дом "Авто-Реал"</short>
+        <full>Общество с ограниченной ответственностью Торговый дом "Авто-Реал"</full>
+        <date>2002-12-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>454091</zipCode>
+          <kladrCode>740000010000756</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Челябинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Победы</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>140</topoValue>
+          </house>
+          <houseRaw>140</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-24</date>
+        <firstDate>2002-12-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-11-16</date>
+      </status>
+      <registrationDate>2000-12-25</registrationDate>
+      <dissolutionDate>2015-11-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пыхтеев Сергей Владимирович</fio>
+          <innfl>744808061670</innfl>
+          <position>Ликвидатор</position>
+          <date>2015-07-27</date>
+          <firstDate>2009-12-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

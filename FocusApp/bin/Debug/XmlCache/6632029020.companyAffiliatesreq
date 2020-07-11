@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>661703864314</inn>
+    <ogrn>309661705000020</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=309661705000020</focusHref>
+    <IP>
+      <fio>Галимзянов Валерий Фаильевич</fio>
+      <okpo>0164125140</okpo>
+      <okato>65456000000</okato>
+      <okogu>49015</okogu>
+      <okopf>50102</okopf>
+      <opf>Индивидуальные предприниматели</opf>
+      <registrationDate>2009-02-19</registrationDate>
+      <dissolutionDate>2012-08-29</dissolutionDate>
+      <status>
+        <statusString>Индивидуальный предприниматель прекратил деятельность в связи с принятием им соответствующего решения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-08-29</date>
+      </status>
+    </IP>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+  <req>
+    <inn>6632029020</inn>
+    <ogrn>1086632001620</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1086632001620</focusHref>
+    <UL>
+      <kpp>661701001</kpp>
+      <okpo>88688518</okpo>
+      <okato>65456000000</okato>
+      <okfs>16</okfs>
+      <oktmo>65745000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автотрак"</short>
+        <full>Общество с ограниченной ответственностью "Автотрак"</full>
+        <date>2008-09-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>624450</zipCode>
+          <kladrCode>660000100000155</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснотурьинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Парковая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <flat>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>1</houseRaw>
+          <flatRaw>2</flatRaw>
+        </parsedAddressRF>
+        <date>2009-04-01</date>
+        <firstDate>2009-04-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-12-28</date>
+      </status>
+      <registrationDate>2008-09-10</registrationDate>
+      <dissolutionDate>2016-12-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Галимзянов Валерий Фаильевич</fio>
+          <innfl>661703864314</innfl>
+          <position>Ликвидатор</position>
+          <date>2010-07-14</date>
+          <firstDate>2010-07-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7722019300</inn>
+    <ogrn>1037739322708</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739322708</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>08338164</okpo>
+      <okato>45286555000</okato>
+      <okfs>12</okfs>
+      <oktmo>45375000000</oktmo>
+      <okogu>1313500</okogu>
+      <okopf>65241</okopf>
+      <opf>Федеральные государственные унитарные предприятия</opf>
+      <legalName>
+        <short>ГУП 350 УНР КЭУ г. Москвы МО РФ</short>
+        <full>Государственное унитарное предприятие 350 управление начальника работ квартирно-эксплуатационного управления г. Москвы Министерства Обороны Российской Федерации</full>
+        <date>2003-01-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>105094</zipCode>
+          <kladrCode>770000000002008</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новая Дорога</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <houseRaw>11</houseRaw>
+          <bulkRaw>А</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-01-30</date>
+        <firstDate>2003-01-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-05-30</date>
+      </status>
+      <registrationDate>1994-05-17</registrationDate>
+      <dissolutionDate>2019-05-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Могущий Владимир Владимирович</fio>
+          <position>Начальник</position>
+          <date>2003-01-30</date>
+          <firstDate>2003-01-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

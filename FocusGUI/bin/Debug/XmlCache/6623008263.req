@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623008263</inn>
+    <ogrn>1026601382720</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026601382720</focusHref>
+    <UL>
+      <kpp>662301001</kpp>
+      <okpo>00393241</okpo>
+      <okato>65476374000</okato>
+      <okfs>16</okfs>
+      <oktmo>65751000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автом-НТ"</short>
+        <full>Общество с ограниченной ответственностью "Автом-НТ"</full>
+        <date>2002-12-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>622002</zipCode>
+          <kladrCode>660000230000232</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Тагил</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Космонавтов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <flat>
+            <topoValue>7</topoValue>
+          </flat>
+          <houseRaw>26</houseRaw>
+          <flatRaw>7</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-15</date>
+        <firstDate>2002-12-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-09-28</registrationDate>
+      <heads>
+        <head>
+          <fio>Панин Николай Юрьевич</fio>
+          <innfl>662304650954</innfl>
+          <position>Директор</position>
+          <date>2010-03-22</date>
+          <firstDate>2010-03-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

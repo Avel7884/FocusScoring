@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>0814132990</inn>
+    <ogrn>1020800753940</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1020800753940</focusHref>
+    <UL>
+      <kpp>081401001</kpp>
+      <okpo>53450246</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ЭНЕРГОПРОМ"</short>
+        <full>Закрытое акционерное общество "ЭНЕРГОПРОМ"</full>
+        <date>2002-10-02</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>358014</zipCode>
+          <kladrCode>080000010000420</kladrCode>
+          <regionCode>08</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Калмыкия</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Элиста</topoValue>
+          </city>
+          <street>
+            <topoShortName>тер</topoShortName>
+            <topoFullName>территория</topoFullName>
+            <topoValue>Город шахмат</topoValue>
+          </street>
+          <house>
+            <topoValue>2.1.5</topoValue>
+          </house>
+          <houseRaw>2.1.5</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-02</date>
+        <firstDate>2002-10-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-06-29</date>
+      </status>
+      <registrationDate>2000-12-27</registrationDate>
+      <dissolutionDate>2009-06-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Даржинов Леонид Эдуардович</fio>
+          <innfl>081400564244</innfl>
+          <position>Конкурсный Управляющий</position>
+          <date>2008-12-09</date>
+          <firstDate>2008-12-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

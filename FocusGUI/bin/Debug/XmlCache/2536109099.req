@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2536109099</inn>
+    <ogrn>1022501294782</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022501294782</focusHref>
+    <UL>
+      <kpp>253601001</kpp>
+      <okpo>56782718</okpo>
+      <okato>05401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>05701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Абсолют"</short>
+        <full>Общество с ограниченной ответственностью "Абсолют"</full>
+        <date>2002-11-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>690091</zipCode>
+          <kladrCode>250000010000567</kladrCode>
+          <regionCode>25</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Приморский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Владивосток</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Уборевича</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>19</topoValue>
+          </house>
+          <houseRaw>19</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-29</date>
+        <firstDate>2002-11-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-10-12</date>
+      </status>
+      <registrationDate>2001-04-28</registrationDate>
+      <dissolutionDate>2018-10-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Ильминский Эдуард Леонидович</fio>
+          <innfl>253600990049</innfl>
+          <position>Директор</position>
+          <date>2002-11-29</date>
+          <firstDate>2002-11-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7302018335</inn>
+    <ogrn>1027300539859</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027300539859</focusHref>
+    <UL>
+      <kpp>730201001</kpp>
+      <okpo>25373759</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКФ "АвангардСтрой"</short>
+        <full>Общество с ограниченной ответственностью производственно-коммерческая фирма "АвангардСтрой""</full>
+        <date>2002-12-05</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>433513</zipCode>
+          <kladrCode>730000020000012</kladrCode>
+          <regionCode>73</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ульяновская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Димитровград</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Автостроителей</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>91</topoValue>
+          </house>
+          <flat>
+            <topoValue>4</topoValue>
+          </flat>
+          <houseRaw>91</houseRaw>
+          <flatRaw>4</flatRaw>
+        </parsedAddressRF>
+        <date>2002-12-05</date>
+        <firstDate>2002-12-05</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2014-06-20</date>
+      </status>
+      <registrationDate>1999-08-26</registrationDate>
+      <dissolutionDate>2014-06-20</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Михиенко Игорь Владимирович</fio>
+          <innfl>730205679511</innfl>
+          <position>Ликвидатор</position>
+          <date>2006-08-22</date>
+          <firstDate>2006-08-22</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

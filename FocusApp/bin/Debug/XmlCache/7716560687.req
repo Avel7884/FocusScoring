@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7716560687</inn>
+    <ogrn>1067757884028</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067757884028</focusHref>
+    <UL>
+      <kpp>771601001</kpp>
+      <okpo>97343066</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ВЭЙМАРТ"</short>
+        <full>Общество с ограниченной ответственностью "ВЭЙМАРТ"</full>
+        <date>2006-10-13</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129327</zipCode>
+          <kladrCode>770000000001517</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Коминтерна</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11/7</topoValue>
+          </house>
+          <houseRaw>11/7</houseRaw>
+        </parsedAddressRF>
+        <date>2006-10-13</date>
+        <firstDate>2006-10-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме слияния</statusString>
+        <dissolved>true</dissolved>
+        <date>2010-06-17</date>
+      </status>
+      <registrationDate>2006-10-13</registrationDate>
+      <dissolutionDate>2010-06-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Михалько Сергей Геннадьевич</fio>
+          <innfl>501004685495</innfl>
+          <position>Генеральный директор</position>
+          <date>2010-02-18</date>
+          <firstDate>2010-02-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

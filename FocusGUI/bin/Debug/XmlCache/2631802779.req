@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2631802779</inn>
+    <ogrn>1122651017202</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1122651017202</focusHref>
+    <UL>
+      <kpp>616301001</kpp>
+      <okpo>38857720</okpo>
+      <okato>60401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>60701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "Евромаш"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческая фирма "Евромаш"</full>
+        <date>2012-06-08</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>344002</zipCode>
+          <kladrCode>610000010001495</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ростов-на-Дону</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Станиславского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>110Б</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>1В</topoValue>
+          </flat>
+          <houseRaw>ДОМ 110Б</houseRaw>
+          <flatRaw>ОФИС 1В</flatRaw>
+        </parsedAddressRF>
+        <date>2015-03-12</date>
+        <firstDate>2015-03-12</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-04-30</date>
+      </status>
+      <registrationDate>2012-06-08</registrationDate>
+      <dissolutionDate>2019-04-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гречкин Игорь Викторович</fio>
+          <innfl>263103817900</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-06-08</date>
+          <firstDate>2012-06-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>263101001</kpp>
+            <date>2012-06-08</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>357100</zipCode>
+              <kladrCode>260000060000135</kladrCode>
+              <regionCode>26</regionCode>
+              <regionName>
+                <topoShortName>край</topoShortName>
+                <topoFullName>край</topoFullName>
+                <topoValue>Ставропольский</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Невинномысск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Монтажная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>5</topoValue>
+              </house>
+              <flat>
+                <topoValue>302</topoValue>
+              </flat>
+              <houseRaw>5</houseRaw>
+              <flatRaw>302</flatRaw>
+            </parsedAddressRF>
+            <date>2012-06-08</date>
+            <firstDate>2012-06-08</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1660104618</inn>
+    <ogrn>1071690048870</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1071690048870</focusHref>
+    <UL>
+      <kpp>165701001</kpp>
+      <okpo>82323537</okpo>
+      <okato>92401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Металлургическая группа Континент"</short>
+        <full>Общество с ограниченной ответственностью "Металлургическая группа Континент"</full>
+        <date>2010-06-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>421001</zipCode>
+          <kladrCode>160000010001583</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чистопольская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>79</topoValue>
+          </house>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>31</topoValue>
+          </flat>
+          <houseRaw>79</houseRaw>
+          <flatRaw>ОФ.31</flatRaw>
+        </parsedAddressRF>
+        <date>2015-11-11</date>
+        <firstDate>2010-06-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ юридического лица в связи наличием в ЕГРЮЛ сведений о нем, в отношении которых внесена запись о недостоверности</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-07-12</date>
+      </status>
+      <registrationDate>2007-08-15</registrationDate>
+      <dissolutionDate>2019-07-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Сагитов Линар Ринатович</fio>
+          <innfl>165720964023</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-10-09</date>
+          <firstDate>2017-10-09</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>421001</zipCode>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Казань</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Чистопольская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>79</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>31</topoValue>
+              </flat>
+              <houseRaw>79</houseRaw>
+              <flatRaw>оф.31</flatRaw>
+            </parsedAddressRF>
+            <date>2010-06-29</date>
+            <firstDate>2010-06-29</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Воробьева Светлана Александровна</fio>
+            <innfl>164803430344</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-05-26</date>
+            <firstDate>2011-05-26</firstDate>
+          </head>
+          <head>
+            <fio>Файзуллин Денис Альбертович</fio>
+            <innfl>165801086056</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-07-25</date>
+            <firstDate>2012-07-25</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2801023444</inn>
+    <ogrn>1022800000079</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022800000079</focusHref>
+    <UL>
+      <kpp>280101001</kpp>
+      <okpo>09272303</okpo>
+      <okato>10401000000</okato>
+      <okfs>16</okfs>
+      <oktmo>10701000001</oktmo>
+      <okogu>1500010</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>"АЗИАТСКО-ТИХООКЕАНСКИЙ БАНК" (ПАО)</short>
+        <full>"АЗИАТСКО-ТИХООКЕАНСКИЙ БАНК" (ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО)</full>
+        <date>2015-07-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>675000</zipCode>
+          <kladrCode>280000010000002</kladrCode>
+          <regionCode>28</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Амурская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Благовещенск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Амурская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>225</topoValue>
+          </house>
+          <houseRaw>ДОМ 225</houseRaw>
+        </parsedAddressRF>
+        <date>2017-09-11</date>
+        <firstDate>2002-08-22</firstDate>
+      </legalAddress>
+      <branches>
+        <branch>
+          <name>ФИЛИАЛ "АЗИАТСКО-ТИХООКЕАНСКИЙ БАНК" (ПАО) В Г УЛАН-УДЭ</name>
+          <parsedAddressRF>
+            <zipCode>670000</zipCode>
+            <kladrCode>030000010000191</kladrCode>
+            <regionCode>03</regionCode>
+            <regionName>
+              <topoShortName>респ</topoShortName>
+              <topoFullName>республика</topoFullName>
+              <topoValue>Бурятия</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Улан-Удэ</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Коммунистическая</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>49</topoValue>
+            </house>
+            <houseRaw>49</houseRaw>
+          </parsedAddressRF>
+          <date>2006-09-15</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "АЗИАТСКО-ТИХООКЕАНСКИЙ БАНК" (ПАО) В Г МОСКВА</name>
+          <parsedAddressRF>
+            <zipCode>125009</zipCode>
+            <kladrCode>770000000007168</kladrCode>
+            <regionCode>77</regionCode>
+            <regionName>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Москва</topoValue>
+            </regionName>
+            <street>
+              <topoShortName>пер</topoShortName>
+              <topoFullName>переулок</topoFullName>
+              <topoValue>Вознесенский</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>11</topoValue>
+            </house>
+            <bulk>
+              <topoShortName>стр</topoShortName>
+              <topoFullName>строение</topoFullName>
+              <topoValue>1</topoValue>
+            </bulk>
+            <houseRaw>ДОМ 11</houseRaw>
+            <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          </parsedAddressRF>
+          <date>2015-07-23</date>
+        </branch>
+        <branch>
+          <name>ФИЛИАЛ "АЗИАТСКО-ТИХООКЕАНСКИЙ БАНК" (ПАО) В Г ЕКАТЕРИНБУРГ</name>
+          <parsedAddressRF>
+            <zipCode>620000</zipCode>
+            <kladrCode>660000010000633</kladrCode>
+            <regionCode>66</regionCode>
+            <regionName>
+              <topoShortName>обл</topoShortName>
+              <topoFullName>область</topoFullName>
+              <topoValue>Свердловская</topoValue>
+            </regionName>
+            <city>
+              <topoShortName>г</topoShortName>
+              <topoFullName>город</topoFullName>
+              <topoValue>Екатеринбург</topoValue>
+            </city>
+            <street>
+              <topoShortName>ул</topoShortName>
+              <topoFullName>улица</topoFullName>
+              <topoValue>Луначарского</topoValue>
+            </street>
+            <house>
+              <topoShortName>дом</topoShortName>
+              <topoFullName>дом</topoFullName>
+              <topoValue>57</topoValue>
+            </house>
+            <houseRaw>57</houseRaw>
+          </parsedAddressRF>
+          <date>2011-10-24</date>
+        </branch>
+      </branches>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-02-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Аврамов Сергей Владимирович</fio>
+          <innfl>771904480998</innfl>
+          <position>Председатель Правления</position>
+          <date>2019-02-13</date>
+          <firstDate>2019-02-13</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>"Азиатско-Тихоокеанский Банк" (ОАО)</short>
+            <full>"Азиатско-Тихоокеанский Банк" (открытое акционерное общество)</full>
+            <date>2014-12-26</date>
+          </legalName>
+        </legalNames>
+        <managementCompanies>
+          <managementCompany>
+            <name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "УПРАВЛЯЮЩАЯ КОМПАНИЯ ФОНДА КОНСОЛИДАЦИИ БАНКОВСКОГО СЕКТОРА"</name>
+            <inn>7714997584</inn>
+            <ogrn>1177746688130</ogrn>
+            <date>2019-02-13</date>
+            <firstDate>2018-05-07</firstDate>
+          </managementCompany>
+        </managementCompanies>
+        <heads>
+          <head>
+            <fio>Аксенов Евгений Владимирович</fio>
+            <innfl>272420459440</innfl>
+            <position>Председатель правления</position>
+            <date>2011-04-06</date>
+            <firstDate>2008-11-01</firstDate>
+          </head>
+          <head>
+            <fio>Тырцев Сергей Александрович</fio>
+            <innfl>272113268323</innfl>
+            <position>Председатель Правления</position>
+            <date>2013-07-10</date>
+            <firstDate>2013-07-10</firstDate>
+          </head>
+          <head>
+            <fio>Абазов Игорь Владимирович</fio>
+            <innfl>090101650228</innfl>
+            <position>Исполняющий Обязанности Председателя</position>
+            <date>2014-11-21</date>
+            <firstDate>2014-11-21</firstDate>
+          </head>
+          <head>
+            <fio>Вдовин Андрей Вадимович</fio>
+            <innfl>771600605733</innfl>
+            <position>Председатель Правления</position>
+            <date>2016-03-04</date>
+            <firstDate>2014-12-12</firstDate>
+          </head>
+          <head>
+            <fio>Новиков Андрей Валентинович</fio>
+            <innfl>503001847134</innfl>
+            <position>Председатель Правления</position>
+            <date>2016-05-13</date>
+            <firstDate>2016-05-13</firstDate>
+          </head>
+          <head>
+            <fio>Макаров Дмитрий Николаевич</fio>
+            <innfl>280701674340</innfl>
+            <position>И.О. Председателя Правления</position>
+            <date>2017-04-05</date>
+            <firstDate>2017-04-05</firstDate>
+          </head>
+          <head>
+            <fio>Романенко Роман Владимирович</fio>
+            <innfl>263600490050</innfl>
+            <position>Руководитель Временной Администрации по Управлению Банком "Азиатско-Тихоокеанский Банк" (ПАО)</position>
+            <date>2018-05-07</date>
+            <firstDate>2018-05-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>64</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

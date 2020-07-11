@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7723322764</inn>
+    <ogrn>1027723008477</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027723008477</focusHref>
+    <UL>
+      <kpp>772301001</kpp>
+      <okpo>59734507</okpo>
+      <okato>45290572000</okato>
+      <okfs>16</okfs>
+      <oktmo>45390000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКТ "Адастра"</short>
+        <full>Общество с ограниченной ответственностью "Агенство кадровых технологий "Адастра"</full>
+        <date>2002-11-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109382</zipCode>
+          <kladrCode>770000000000163</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Верхние Поля</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <houseRaw>18</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-18</date>
+        <firstDate>2002-11-18</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-05-22</date>
+      </status>
+      <registrationDate>2002-11-18</registrationDate>
+      <dissolutionDate>2017-05-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Жулева Ирина Григорьевна</fio>
+          <position>Генеральный директор</position>
+          <date>2002-11-18</date>
+          <firstDate>2002-11-18</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5902139521</inn>
+    <ogrn>1025900538685</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025900538685</focusHref>
+    <UL>
+      <kpp>590201001</kpp>
+      <okpo>01470736</okpo>
+      <okato>57401372000</okato>
+      <okfs>16</okfs>
+      <oktmo>57701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>65</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АВТОРЕГИСТР ООО</short>
+        <full>Общество с ограниченной ответственностью "АвтоРегистр"</full>
+        <date>2002-12-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>614010</zipCode>
+          <kladrCode>590000010000689</kladrCode>
+          <regionCode>59</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Пермский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Пермь</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Луначарского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>65</topoValue>
+          </house>
+          <houseRaw>65</houseRaw>
+        </parsedAddressRF>
+        <date>2002-12-31</date>
+        <firstDate>2002-12-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-07-12</date>
+      </status>
+      <registrationDate>2002-03-13</registrationDate>
+      <dissolutionDate>2016-07-12</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гельфенбуйм Сергей Борисович</fio>
+          <innfl>590301716688</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-04-15</date>
+          <firstDate>2002-12-31</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

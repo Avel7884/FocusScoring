@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6321219980</inn>
+    <ogrn>1086320025770</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1086320025770</focusHref>
+    <UL>
+      <kpp>771601001</kpp>
+      <okpo>88562510</okpo>
+      <okato>45280580000</okato>
+      <okfs>16</okfs>
+      <oktmo>45361000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Автотрансформатор"</short>
+        <full>Общество с ограниченной ответственностью "Автотрансформатор"</full>
+        <date>2008-10-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129323</zipCode>
+          <kladrCode>770000000001674</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Лазоревый</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <houseRaw>14</houseRaw>
+        </parsedAddressRF>
+        <date>2011-09-30</date>
+        <firstDate>2011-09-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2018-05-14</date>
+      </status>
+      <registrationDate>2008-10-17</registrationDate>
+      <dissolutionDate>2018-05-14</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Дрягалин Алексей Николаевич</fio>
+          <innfl>731306471279</innfl>
+          <position>Генеральный директор</position>
+          <date>2011-09-30</date>
+          <firstDate>2011-09-30</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>445044</zipCode>
+              <regionCode>63</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Самарская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Тольятти</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Офицерская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>15</topoValue>
+              </house>
+              <flat>
+                <topoValue>7</topoValue>
+              </flat>
+              <houseRaw>15</houseRaw>
+              <flatRaw>7</flatRaw>
+            </parsedAddressRF>
+            <date>2008-10-17</date>
+            <firstDate>2008-10-17</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Проскурин Евгений Анатольевич</fio>
+            <innfl>632310846508</innfl>
+            <position>Генеральный директор</position>
+            <date>2008-10-17</date>
+            <firstDate>2008-10-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

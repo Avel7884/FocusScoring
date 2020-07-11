@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6316056120</inn>
+    <ogrn>1096316013749</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1096316013749</focusHref>
+    <UL>
+      <kpp>631601001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "S-МЕТАЛЛ"</short>
+        <full>Общество с ограниченной ответственностью "S-МЕТАЛЛ"</full>
+        <date>2009-12-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>443056</zipCode>
+          <kladrCode>630000010000716</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Самара</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Московское</topoValue>
+          </street>
+          <house>
+            <topoValue>литер Р</topoValue>
+          </house>
+          <houseRaw>ЛИТЕР Р</houseRaw>
+        </parsedAddressRF>
+        <date>2009-12-09</date>
+        <firstDate>2009-12-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-12-09</date>
+      </status>
+      <registrationDate>1999-09-02</registrationDate>
+      <dissolutionDate>2009-12-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Гусаров Владимир Юрьевич</fio>
+          <position>Директор</position>
+          <date>2009-12-09</date>
+          <firstDate>2009-12-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

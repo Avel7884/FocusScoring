@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7721030163</inn>
+    <ogrn>1027739611041</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739611041</focusHref>
+    <UL>
+      <kpp>772101001</kpp>
+      <okpo>36554317</okpo>
+      <okato>45290554000</okato>
+      <okfs>16</okfs>
+      <oktmo>45385000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "ААМ Системз"</short>
+        <full>Закрытое акционерное общество "ААМ Системз"</full>
+        <date>2002-11-25</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>109044</zipCode>
+          <kladrCode>770000000000051</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сормовская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>комн. Правления</topoValue>
+          </flat>
+          <houseRaw>3</houseRaw>
+          <bulkRaw>1</bulkRaw>
+          <flatRaw>КОМН. ПРАВЛЕНИЯ</flatRaw>
+        </parsedAddressRF>
+        <date>2002-11-25</date>
+        <firstDate>2002-11-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-08-08</date>
+      </status>
+      <registrationDate>1997-07-07</registrationDate>
+      <dissolutionDate>2016-08-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Бреев Андрей Львович</fio>
+          <innfl>771534875195</innfl>
+          <position>Директор</position>
+          <date>2009-04-09</date>
+          <firstDate>2009-04-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

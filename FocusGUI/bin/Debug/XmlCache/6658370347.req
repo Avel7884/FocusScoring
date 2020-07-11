@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6658370347</inn>
+    <ogrn>1106658017674</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1106658017674</focusHref>
+    <UL>
+      <kpp>665801001</kpp>
+      <okpo>69056847</okpo>
+      <okato>65401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>65701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПневмоГидроСервис"</short>
+        <full>Общество с ограниченной ответственностью "ПневмоГидроСервис"</full>
+        <date>2010-10-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620043</zipCode>
+          <kladrCode>660000010001182</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Ухтомская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>47</topoValue>
+          </house>
+          <flat>
+            <topoValue>26</topoValue>
+          </flat>
+          <houseRaw>47</houseRaw>
+          <flatRaw>26</flatRaw>
+        </parsedAddressRF>
+        <date>2010-10-29</date>
+        <firstDate>2010-10-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2010-10-29</registrationDate>
+      <heads>
+        <head>
+          <fio>Карымов Евгений Раисович</fio>
+          <innfl>860100089958</innfl>
+          <position>Директор</position>
+          <date>2019-09-27</date>
+          <firstDate>2010-10-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

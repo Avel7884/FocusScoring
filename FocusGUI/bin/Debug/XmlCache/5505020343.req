@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5505020343</inn>
+    <ogrn>1025501177437</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1025501177437</focusHref>
+    <UL>
+      <kpp>550501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "НПП "АЛЕКТО"</short>
+        <full>Общество с ограниченной ответственностью "НПП "АЛЕКТО"</full>
+        <date>2002-11-29</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>644048</zipCode>
+          <kladrCode>550000010001176</kladrCode>
+          <regionCode>55</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Омская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Омск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Серова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7</topoValue>
+          </house>
+          <houseRaw>7</houseRaw>
+        </parsedAddressRF>
+        <date>2002-11-29</date>
+        <firstDate>2002-11-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-03-16</date>
+      </status>
+      <registrationDate>1995-02-28</registrationDate>
+      <dissolutionDate>2007-03-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Юров Сергей Валентинович</fio>
+          <position>Конкурсный упрвляющий</position>
+          <date>2006-11-08</date>
+          <firstDate>2006-11-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

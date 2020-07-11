@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4206033230</inn>
+    <ogrn>1024200684870</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024200684870</focusHref>
+    <UL>
+      <kpp>420501001</kpp>
+      <okpo>48640163</okpo>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "КОМПАНИЯ "АГРОТЕХУГОЛЬ"</short>
+        <full>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "КОМПАНИЯ "АГРОТЕХУГОЛЬ"</full>
+        <date>2008-06-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>650055</zipCode>
+          <kladrCode>420000090000547</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Кемерово</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Сарыгина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>27</topoValue>
+          </house>
+          <flat>
+            <topoValue>312</topoValue>
+          </flat>
+          <houseRaw>27</houseRaw>
+          <flatRaw>312</flatRaw>
+        </parsedAddressRF>
+        <date>2008-11-26</date>
+        <firstDate>2008-11-26</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2011-08-31</date>
+      </status>
+      <registrationDate>1998-10-27</registrationDate>
+      <dissolutionDate>2011-08-31</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Трофимов Валерий Климентьевич</fio>
+          <innfl>420600553709</innfl>
+          <position>Конкурсный управляющий</position>
+          <date>2010-03-10</date>
+          <firstDate>2010-03-10</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

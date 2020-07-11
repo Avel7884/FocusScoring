@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5405010334</inn>
+    <ogrn>1175476110644</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1175476110644</focusHref>
+    <UL>
+      <kpp>540501001</kpp>
+      <okpo>19938527</okpo>
+      <okato>50401379000</okato>
+      <okfs>16</okfs>
+      <oktmo>50701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПЛЮС-4 СТРОЙСВЯЗЬ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПЛЮС-4 СТРОЙСВЯЗЬ"</full>
+        <date>2017-10-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>630133</zipCode>
+          <kladrCode>540000010002401</kladrCode>
+          <regionCode>54</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Новосибирская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новосибирск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Виталия Потылицына</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <flat>
+            <topoShortName>кв</topoShortName>
+            <topoFullName>квартира</topoFullName>
+            <topoValue>72</topoValue>
+          </flat>
+          <houseRaw>ДОМ 1</houseRaw>
+          <flatRaw>КВАРТИРА 72</flatRaw>
+        </parsedAddressRF>
+        <date>2017-10-23</date>
+        <firstDate>2017-10-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2017-10-23</registrationDate>
+      <heads>
+        <head>
+          <fio>Собянин Михаил Юрьевич</fio>
+          <innfl>423888300455</innfl>
+          <position>Директор</position>
+          <date>2017-10-23</date>
+          <firstDate>2017-10-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

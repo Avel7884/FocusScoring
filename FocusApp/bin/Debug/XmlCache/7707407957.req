@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707407957</inn>
+    <ogrn>1187746163175</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1187746163175</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>25175841</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ "ЛАНН-КОМ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА "ЛАНН-КОМ"</full>
+        <date>2018-02-15</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127055</zipCode>
+          <kladrCode>770000000000576</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Палиха</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>7-9</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>4</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Эт 1 пом I Ком 1и</topoValue>
+          </flat>
+          <houseRaw>ДОМ 7-9</houseRaw>
+          <bulkRaw>КОРПУС 4</bulkRaw>
+          <flatRaw>ЭТ 1 ПОМ I КОМ 1И</flatRaw>
+        </parsedAddressRF>
+        <date>2018-02-15</date>
+        <firstDate>2018-02-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2018-02-15</registrationDate>
+      <heads>
+        <head>
+          <fio>Лукин Николай Николаевич</fio>
+          <innfl>182802700798</innfl>
+          <position>Генеральный Директор</position>
+          <date>2018-02-15</date>
+          <firstDate>2018-02-15</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

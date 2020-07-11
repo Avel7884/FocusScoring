@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7707142362</inn>
+    <ogrn>1027739716950</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027739716950</focusHref>
+    <UL>
+      <kpp>760401001</kpp>
+      <okpo>45923682</okpo>
+      <okato>78401387000</okato>
+      <okfs>16</okfs>
+      <oktmo>78701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авиртус"</short>
+        <full>Общество с ограниченной ответственностью "Авиртус"</full>
+        <date>2002-12-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>150001</zipCode>
+          <kladrCode>760000010000626</kladrCode>
+          <regionCode>76</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ярославская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ярославль</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Песочная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>55</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>В1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>комн</topoShortName>
+            <topoFullName>комната</topoFullName>
+            <topoValue>2</topoValue>
+          </flat>
+          <houseRaw>55</houseRaw>
+          <bulkRaw>ЛИТЕР В1</bulkRaw>
+          <flatRaw>КОМН 2</flatRaw>
+        </parsedAddressRF>
+        <date>2010-06-09</date>
+        <firstDate>2010-06-09</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-02-01</date>
+      </status>
+      <registrationDate>1997-02-20</registrationDate>
+      <dissolutionDate>2016-02-01</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Кириченко Виктор Олегович</fio>
+          <innfl>772617302009</innfl>
+          <position>Генеральный Директор</position>
+          <date>2010-06-09</date>
+          <firstDate>2010-06-09</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7453077212</inn>
+    <ogrn>1027403877357</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027403877357</focusHref>
+    <UL>
+      <kpp>231101001</kpp>
+      <okpo>56400740</okpo>
+      <okato>03401370000</okato>
+      <okfs>23</okfs>
+      <oktmo>03701000001</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКП "ЮжУралАрматура"</short>
+        <full>Общество с ограниченной ответственностью "Производственно-коммерческое предприятие "ЮжУралАрматура"</full>
+        <date>2002-12-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350016</zipCode>
+          <kladrCode>230000010000275</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>им. Карякина</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <flat>
+            <topoShortName>пом</topoShortName>
+            <topoFullName>помещение</topoFullName>
+            <topoValue>80</topoValue>
+          </flat>
+          <houseRaw>ДОМ 18</houseRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 80</flatRaw>
+        </parsedAddressRF>
+        <date>2015-10-02</date>
+        <firstDate>2015-10-02</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Исключение из ЕГРЮЛ недействующего юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-09-27</date>
+      </status>
+      <registrationDate>2001-10-01</registrationDate>
+      <dissolutionDate>2019-09-27</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шупта Валентина Николаевна</fio>
+          <innfl>503022158470</innfl>
+          <position>Генеральный Директор</position>
+          <date>2015-11-06</date>
+          <firstDate>2015-11-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>744801001</kpp>
+            <date>2005-12-22</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>454008</zipCode>
+              <kladrCode>740000010000015</kladrCode>
+              <regionCode>74</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Челябинская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Челябинск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Автодорожная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>7</topoValue>
+              </house>
+              <bulk>
+                <topoValue>Б</topoValue>
+              </bulk>
+              <houseRaw>7</houseRaw>
+              <bulkRaw>Б</bulkRaw>
+            </parsedAddressRF>
+            <date>2004-11-18</date>
+            <firstDate>2004-11-18</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Яковлев Андрей Сергеевич</fio>
+            <innfl>744912906789</innfl>
+            <position>Директор</position>
+            <date>2007-06-29</date>
+            <firstDate>2007-06-29</firstDate>
+          </head>
+          <head>
+            <fio>Бабенков Дмитрий Анатольевич</fio>
+            <innfl>741106237084</innfl>
+            <position>Директор</position>
+            <date>2012-06-21</date>
+            <firstDate>2012-06-21</firstDate>
+          </head>
+          <head>
+            <fio>Аветисян Рачья Исраелович</fio>
+            <position>Директор</position>
+            <date>2015-10-19</date>
+            <firstDate>2015-10-19</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

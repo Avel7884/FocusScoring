@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7825462619</inn>
+    <ogrn>1037843087875</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037843087875</focusHref>
+    <UL>
+      <kpp>784201001</kpp>
+      <okpo>33096899</okpo>
+      <okato>40298000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40911000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>75500</okopf>
+      <opf>Частные учреждения</opf>
+      <legalName>
+        <short>НОУ ДО "Академия Менеджмента Инталев"</short>
+        <full>Негосударственное образовательное учреждение дополнительного образования "Академия Менеджмента Инталев"</full>
+        <date>2003-02-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>193036</zipCode>
+          <kladrCode>780000000000885</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Невский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>140</topoValue>
+          </house>
+          <houseRaw>140</houseRaw>
+        </parsedAddressRF>
+        <date>2003-02-11</date>
+        <firstDate>2003-02-11</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-22</date>
+      </status>
+      <registrationDate>2001-10-16</registrationDate>
+      <dissolutionDate>2017-12-22</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Добровольский Евгений Юрьевич</fio>
+          <innfl>781012242077</innfl>
+          <position>Генеральный Директор</position>
+          <date>2007-07-03</date>
+          <firstDate>2007-07-03</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>782501001</kpp>
+            <date>2006-10-30</date>
+          </kppWithDate>
+        </kpps>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

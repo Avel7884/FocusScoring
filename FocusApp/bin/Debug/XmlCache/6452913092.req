@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6452913092</inn>
+    <ogrn>1056405053165</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1056405053165</focusHref>
+    <UL>
+      <kpp>645001001</kpp>
+      <okpo>75977379</okpo>
+      <okato>63401364000</okato>
+      <okfs>16</okfs>
+      <oktmo>63701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергосервис"</short>
+        <full>Общество с ограниченной ответственностью "Энергосервис"</full>
+        <date>2005-08-19</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>410003</zipCode>
+          <kladrCode>640000010000264</kladrCode>
+          <regionCode>64</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Саратовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Саратов</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Глебучев 1-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2А</topoValue>
+          </house>
+          <houseRaw>2А</houseRaw>
+        </parsedAddressRF>
+        <date>2007-12-20</date>
+        <firstDate>2007-12-20</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2016-01-11</date>
+      </status>
+      <registrationDate>2005-08-19</registrationDate>
+      <dissolutionDate>2016-01-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Фролов Александр Сергеевич</fio>
+          <innfl>645306876413</innfl>
+          <position>Директор</position>
+          <date>2012-03-26</date>
+          <firstDate>2012-03-26</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Донченко Роман Борисович</fio>
+            <position>Директор</position>
+            <date>2007-12-20</date>
+            <firstDate>2007-12-20</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

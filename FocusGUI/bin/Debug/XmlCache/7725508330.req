@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7725508330</inn>
+    <ogrn>1047796270741</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796270741</focusHref>
+    <UL>
+      <kpp>772601001</kpp>
+      <okpo>72771232</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Вятекс"</short>
+        <full>Общество с ограниченной ответственностью "Вятекс"</full>
+        <date>2004-04-20</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117105</zipCode>
+          <kladrCode>770000000003734</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Нагорный</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>12</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>12</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2010-01-27</date>
+        <firstDate>2010-01-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-05-17</date>
+      </status>
+      <registrationDate>2004-04-20</registrationDate>
+      <dissolutionDate>2012-05-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Павлова Кира Васильевна</fio>
+          <innfl>771522367133</innfl>
+          <position>Генеральный директор</position>
+          <date>2012-02-24</date>
+          <firstDate>2012-02-24</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Татаринов Сергей Николаевич</fio>
+            <position>Генеральный директор</position>
+            <date>2011-02-03</date>
+            <firstDate>2011-02-03</firstDate>
+          </head>
+          <head>
+            <fio>Рзаков Анар Эльшанович</fio>
+            <position>Генеральный директор</position>
+            <date>2012-01-23</date>
+            <firstDate>2012-01-23</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

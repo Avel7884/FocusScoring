@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4252006230</inn>
+    <ogrn>1144252000309</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1144252000309</focusHref>
+    <UL>
+      <kpp>425201001</kpp>
+      <okpo>22919821</okpo>
+      <okato>32219873001</okato>
+      <okfs>14</okfs>
+      <oktmo>32619473101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <full>Администрация Центрального сельского поселения</full>
+        <date>2014-04-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654216</zipCode>
+          <kladrCode>420090000080018</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская область - Кузбасс</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Новокузнецкий</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Атаманово</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Центральная</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>109А</topoValue>
+          </house>
+          <houseRaw>109 А</houseRaw>
+        </parsedAddressRF>
+        <date>2014-04-14</date>
+        <firstDate>2014-04-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2014-04-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Курлис Елена Александровна</fio>
+          <innfl>423810259561</innfl>
+          <position>Глава Центрального Сельского Поселения</position>
+          <date>2017-01-12</date>
+          <firstDate>2017-01-12</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Одров Владимир Сергеевич</fio>
+            <innfl>423802577786</innfl>
+            <position>Глава Центрального Сельского Поселения</position>
+            <date>2014-04-14</date>
+            <firstDate>2014-04-14</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>5</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

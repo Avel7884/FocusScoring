@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>631103649429</inn>
+    <ogrn>308631114900011</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=308631114900011</focusHref>
+    <IP>
+      <okpo>0159061318</okpo>
+      <pfrRegNumber>077001100000</pfrRegNumber>
+      <fomsRegNumber>360000800112502</fomsRegNumber>
+      <okato>36401364000</okato>
+      <shortenedAddress>
+        <regionCode>63</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Самарская</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Самара</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>60.22</code>
+          <text>Деятельность такси</text>
+          <date>2013-08-07</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>26.61</code>
+            <text>Производство изделий из бетона для использования в строительстве</text>
+            <date>2013-08-07</date>
+          </activity>
+          <activity>
+            <code>45.11.2</code>
+            <text>Производство земляных работ</text>
+            <date>2008-05-28</date>
+          </activity>
+          <activity>
+            <code>45.21.1</code>
+            <text>Производство общестроительных работ по возведению зданий</text>
+            <date>2008-05-28</date>
+          </activity>
+          <activity>
+            <code>50.20</code>
+            <text>Техническое обслуживание и ремонт автотранспортных средств</text>
+            <date>2008-05-28</date>
+          </activity>
+          <activity>
+            <code>51.13</code>
+            <text>Деятельность агентов по оптовой торговле лесоматериалами и строительными материалами</text>
+            <date>2008-05-28</date>
+          </activity>
+          <activity>
+            <code>52.46.7</code>
+            <text>Розничная торговля строительными материалами, не включенными в другие группировки</text>
+            <date>2008-05-28</date>
+          </activity>
+          <activity>
+            <code>71.10</code>
+            <text>Аренда легковых автомобилей</text>
+            <date>2013-08-07</date>
+          </activity>
+          <activity>
+            <code>85.14.1</code>
+            <text>Деятельность среднего медицинского персонала</text>
+            <date>2013-08-07</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2008-05-28</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6311</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Железнодорожному району г. Самары</nalogName>
+        <nalogRegDate>2010-11-18</nalogRegDate>
+        <date>2015-12-22</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6313</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Красноглинскому району г. Самары</nalogName>
+        <date>2015-04-18</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>415631300499602</grn>
+          <date>2015-12-22</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Красноглинскому Району г. Самары</regName>
+          <regCode>6313</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>415631300499427</grn>
+          <date>2015-12-22</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Красноглинскому Району г. Самары</regName>
+          <regCode>6313</regCode>
+          <documents>
+            <document>
+              <name>Р26001 заявление о прекращении деятельности ИП</name>
+              <date>2015-12-15</date>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2015-12-10</date>
+            </document>
+            <document>
+              <name>Копия паспорта</name>
+              <date>2011-04-29</date>
+            </document>
+            <document>
+              <name>Опись документов мфц</name>
+              <date>2015-12-14</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>413631121900036</grn>
+          <date>2013-08-07</date>
+          <name>Внесение изменений в сведения об ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Железнодорожному Району г. Самары</regName>
+          <regCode>6311</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении изменений в сведения об индивидуальном предпринимателе, содержащиеся в едином государственном реестре индивидуальных предпринимателей</name>
+              <date>2013-08-01</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>413631103101148</grn>
+          <date>2013-01-31</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Железнодорожному Району г. Самары</regName>
+          <regCode>6311</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>412631102600016</grn>
+          <date>2012-01-26</date>
+          <name>Повторная выдача свидетельства</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Железнодорожному Району г. Самары</regName>
+          <regCode>6311</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>63 005244435</serialNumber>
+              <date>2008-05-28</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>408631117100321</grn>
+          <date>2008-06-19</date>
+          <name>Внесение сведений о регистрации в ПФ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Железнодорожному Району г. Самары</regName>
+          <regCode>6311</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>408631114900041</grn>
+          <date>2008-05-28</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Железнодорожному Району г. Самары</regName>
+          <regCode>6311</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>308631114900011</grn>
+          <date>2008-05-28</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Железнодорожному Району г. Самары</regName>
+          <regCode>6311</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации физического лица в качестве индивидуального предпринимателя</name>
+              <date>2008-05-27</date>
+            </document>
+            <document>
+              <name>Паспорт</name>
+            </document>
+            <document>
+              <name>Чек-ордер</name>
+              <date>2008-05-27</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>6315525066</inn>
+    <ogrn>1026300957011</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026300957011</focusHref>
+    <UL>
+      <okpo>21204534</okpo>
+      <fomsRegNumber>364010510951343</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>51.65.2</code>
+          <text>Оптовая торговля эксплуатационными материалами и принадлежностями машин и оборудования</text>
+          <date>2006-02-27</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>22.22</code>
+            <text>Полиграфическая деятельность, не включенная в другие группировки</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>25.23</code>
+            <text>Производство пластмассовых изделий, используемых в строительстве</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>45.21.1</code>
+            <text>Производство общестроительных работ по возведению зданий</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>51.13.2</code>
+            <text>Деятельность агентов по оптовой торговле строительными материалами</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>51.14.2</code>
+            <text>Деятельность агентов по оптовой торговле прочими видами машин и оборудования</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>51.53.24</code>
+            <text>Оптовая торговля прочими строительными материалами</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>51.70</code>
+            <text>Прочая оптовая торговля</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>52.12</code>
+            <text>Прочая розничная торговля в неспециализированных магазинах</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>52.46.7</code>
+            <text>Розничная торговля строительными материалами, не включенными в другие группировки</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>70.20.2</code>
+            <text>Сдача внаем собственного нежилого недвижимого имущества</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>74.40</code>
+            <text>Рекламная деятельность</text>
+            <date>2006-02-27</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-08-29</ogrnDate>
+        <regName>АДМИНИСТРАЦИЯ ЛЕНИНСКОГО РАЙОНА ГОРОДА САМАРЫ</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6315</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Самары</nalogName>
+        <nalogRegDate>1996-03-21</nalogRegDate>
+        <kpp>631501001</kpp>
+        <date>2005-08-31</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6313</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Красноглинскому району г. Самары</nalogName>
+        <date>2019-02-23</date>
+      </regBody>
+      <statedCapital />
+      <foundersFL>
+        <founderFL>
+          <fio>Хроликов Сергей Владимирович</fio>
+          <innfl>631501413408</innfl>
+          <share>
+            <sum>3250</sum>
+          </share>
+          <date>2002-08-29</date>
+          <firstDate>2002-08-29</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Курбатов Игорь Винаитович</fio>
+          <share>
+            <sum>3250</sum>
+          </share>
+          <date>2002-08-29</date>
+          <firstDate>2002-08-29</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2156315000994</grn>
+          <date>2015-02-16</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+          <documents>
+            <document>
+              <name>Cправка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2014-09-26</date>
+            </document>
+            <document>
+              <name>Справка об отсутствии в течение последних 12 месяцев движения по б/счетам или об отсутствии у ЮЛ открытых б/счетов</name>
+              <date>2014-09-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2146315078952</grn>
+          <date>2014-10-16</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействующего юридического лица из единого государственного реестра юридических лиц</name>
+              <date>2014-09-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2066315018394</grn>
+          <date>2006-02-27</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>63 004520493</serialNumber>
+              <date>2006-02-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2056315096495</grn>
+          <date>2005-08-31</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2056315070854</grn>
+          <date>2005-08-04</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1026300957011</grn>
+          <date>2002-08-29</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Ленинскому Району Города Самары</regName>
+          <regCode>6315</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>63 0094321</serialNumber>
+              <date>2002-08-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>6315625060</inn>
+    <ogrn>1086315011001</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1086315011001</focusHref>
+    <UL>
+      <fomsRegNumber>360000800195786</fomsRegNumber>
+      <activities />
+      <regInfo>
+        <ogrnDate>2008-10-03</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6315</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Самары</nalogName>
+        <nalogRegDate>1993-10-03</nalogRegDate>
+        <kpp>631501001</kpp>
+        <date>2008-10-03</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6313</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Красноглинскому району г. Самары</nalogName>
+        <date>2015-04-15</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2008-10-03</date>
+      </statedCapital>
+      <egrRecords>
+        <egrRecord>
+          <grn>2086315104269</grn>
+          <date>2008-10-03</date>
+          <name>Исключение из ЕГРЮЛ ЮЛ, фактически прекратившего свою деятельность</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+          <documents>
+            <document>
+              <name>Cправка об отсутствии в течение последних 12 месяцев движения денежных средств по банковским счетам или об отсутствии у юридического лица открытых банковских счетов</name>
+              <date>2008-05-23</date>
+            </document>
+            <document>
+              <name>Cправка о непредставлении юридическим лицом в течение последних 12 месяцев документов отчетности, предусмотренных законодательством российской федерации о налогах и сборах</name>
+              <date>2008-05-23</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>1086315011001</grn>
+          <date>2008-10-03</date>
+          <name>Внесение в ЕГРЮЛ сведений о ЮЛ, созданном до 01.07.2002, по сведениям налоговых органов</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+          <documents>
+            <document>
+              <name>Cправка об отсутствии в течение последних 12 месяцев движения денежных средств по банковским счетам или об отсутствии у юридического лица открытых банковских счетов</name>
+              <date>2008-05-23</date>
+            </document>
+            <document>
+              <name>Cправка о непредставлении юридическим лицом в течение последних 12 месяцев документов отчетности, предусмотренных законодательством российской федерации о налогах и сборах</name>
+              <date>2008-05-23</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>6319015299</inn>
+    <ogrn>1026300956956</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026300956956</focusHref>
+    <UL>
+      <okpo>21131278</okpo>
+      <fomsRegNumber>364010510951332</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>51.65.2</code>
+          <text>Оптовая торговля эксплуатационными материалами и принадлежностями машин и оборудования</text>
+          <date>2006-02-27</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>25.23</code>
+            <text>Производство пластмассовых изделий, используемых в строительстве</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>51.13.2</code>
+            <text>Деятельность агентов по оптовой торговле строительными материалами</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>51.14.2</code>
+            <text>Деятельность агентов по оптовой торговле прочими видами машин и оборудования</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>51.53.24</code>
+            <text>Оптовая торговля прочими строительными материалами</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>51.70</code>
+            <text>Прочая оптовая торговля</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>52.12</code>
+            <text>Прочая розничная торговля в неспециализированных магазинах</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>52.46.7</code>
+            <text>Розничная торговля строительными материалами, не включенными в другие группировки</text>
+            <date>2006-02-27</date>
+          </activity>
+          <activity>
+            <code>74.40</code>
+            <text>Рекламная деятельность</text>
+            <date>2006-02-27</date>
+          </activity>
+        </complementaryActivities>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-08-29</ogrnDate>
+        <regName>Инспекция Федеральной налоговой службы по Промышленному району г. Самары</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6315</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Ленинскому району г. Самары</nalogName>
+        <nalogRegDate>2002-08-29</nalogRegDate>
+        <kpp>631501001</kpp>
+        <date>2017-05-29</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6313</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы по Красноглинскому району г. Самары</nalogName>
+        <date>2019-02-23</date>
+      </regBody>
+      <statedCapital />
+      <foundersFL>
+        <founderFL>
+          <fio>Хроликов Сергей Владимирович</fio>
+          <share>
+            <sum>8400</sum>
+          </share>
+          <date>2002-08-29</date>
+          <firstDate>2002-08-29</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2176313782225</grn>
+          <date>2017-05-29</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Красноглинскому Району г. Самары</regName>
+          <regCode>6313</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2156315001093</grn>
+          <date>2015-02-16</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+          <documents>
+            <document>
+              <name>Cправка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2014-09-23</date>
+            </document>
+            <document>
+              <name>Справка об отсутствии в течение последних 12 месяцев движения по б/счетам или об отсутствии у ЮЛ открытых б/счетов</name>
+              <date>2014-09-23</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2146315078842</grn>
+          <date>2014-10-16</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействующего юридического лица из единого государственного реестра юридических лиц</name>
+              <date>2014-09-26</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2066315018427</grn>
+          <date>2006-02-27</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>63 004520494</serialNumber>
+              <date>2006-02-27</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2056315100114</grn>
+          <date>2005-08-31</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2056315070843</grn>
+          <date>2005-08-04</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Инспекция Федеральной Налоговой Службы по Ленинскому Району г. Самары</regName>
+          <regCode>6315</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1026300956956</grn>
+          <date>2002-08-29</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Инспекция Министерства Российской Федерации по Налогам и Сборам по Ленинскому Району Города Самары</regName>
+          <regCode>6315</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>63 0094315</serialNumber>
+              <date>2002-08-29</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

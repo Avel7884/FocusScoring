@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>5</Score>
+  <Name>Значительное количество компаний, по которым требуется дополнительная проверка</Name>
+  <Colour>YellowAffiliates</Colour>
+  <Description>Значительное количество компаний, по которым требуется дополнительная проверка</Description>
+  <Code> var zi = company.GetMultiParam("m7001Affiliates");
+                        //TODO Rename
+                        var count = .0;
+                        for (int i = 0; i &lt; zi.Length; i++)
+                            if (zi[i] == "true")
+                                count++;
+                        return count / zi.Length &gt; 0.1;</Code>
+</items>

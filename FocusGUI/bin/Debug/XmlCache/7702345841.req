@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7702345841</inn>
+    <ogrn>1037702008915</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037702008915</focusHref>
+    <UL>
+      <kpp>770101001</kpp>
+      <okpo>13593349</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Алеф"</short>
+        <full>Общество с ограниченной ответственностью "Алеф-салон индивидуальных путешествий"</full>
+        <date>2003-02-26</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>101000</zipCode>
+          <kladrCode>770000000000638</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Мясницкая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22/2/5</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>22/2/5</houseRaw>
+          <bulkRaw>СТР.1</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-08-15</date>
+        <firstDate>2006-08-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме присоединения</statusString>
+        <dissolved>true</dissolved>
+        <date>2009-02-11</date>
+      </status>
+      <registrationDate>2003-02-26</registrationDate>
+      <dissolutionDate>2009-02-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Прозуменщиков Виктор Сергеевич</fio>
+          <innfl>760304552586</innfl>
+          <position>Генеральный директор</position>
+          <date>2008-10-28</date>
+          <firstDate>2008-10-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

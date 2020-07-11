@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705408970</inn>
+    <ogrn>1027700158969</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700158969</focusHref>
+    <UL>
+      <kpp>772401001</kpp>
+      <okpo>11563516</okpo>
+      <okato>45296555000</okato>
+      <okfs>24</okfs>
+      <oktmo>45912000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ХК "Энергостоксервисстрой"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ХОЛДИНГОВАЯ КОРПОРАЦИЯ "ЭНЕРГОСТОКСЕРВИССТРОЙ"</full>
+        <date>2002-08-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117403</zipCode>
+          <kladrCode>770000000001027</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Востряковский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>10Б</topoValue>
+          </house>
+          <bulk>
+            <topoValue>3</topoValue>
+          </bulk>
+          <houseRaw>10Б</houseRaw>
+          <bulkRaw>3</bulkRaw>
+        </parsedAddressRF>
+        <date>2003-04-03</date>
+        <firstDate>2003-04-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2001-08-20</registrationDate>
+      <heads>
+        <head>
+          <fio>Жусупбеков Асхатбек</fio>
+          <innfl>772309870906</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-08-21</date>
+          <firstDate>2017-08-21</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>774501001</kpp>
+            <date>2010-09-02</date>
+          </kppWithDate>
+        </kpps>
+        <heads>
+          <head>
+            <fio>Брага Денис Николаевич</fio>
+            <innfl>773705935789</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-10-29</date>
+            <firstDate>2010-10-29</firstDate>
+          </head>
+          <head>
+            <fio>Шатилов Николай Николаевич</fio>
+            <innfl>772780784946</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-05-15</date>
+            <firstDate>2017-05-15</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

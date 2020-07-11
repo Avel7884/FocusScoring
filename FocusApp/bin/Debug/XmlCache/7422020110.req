@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7422020110</inn>
+    <ogrn>1037401175041</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037401175041</focusHref>
+    <UL>
+      <kpp>742201001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Энергопром"</short>
+        <full>Общество с ограниченной ответственностью "Энергопром"</full>
+        <date>2003-07-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>456790</zipCode>
+          <kladrCode>740000110000050</kladrCode>
+          <regionCode>74</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Челябинская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Озерск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Семенова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>22</topoValue>
+          </house>
+          <flat>
+            <topoValue>102</topoValue>
+          </flat>
+          <houseRaw>22</houseRaw>
+          <flatRaw>102</flatRaw>
+        </parsedAddressRF>
+        <date>2003-07-16</date>
+        <firstDate>2003-07-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2004-02-09</date>
+      </status>
+      <registrationDate>1997-12-17</registrationDate>
+      <dissolutionDate>2004-02-09</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Нерода Владислав Николаевич</fio>
+          <innfl>742204891956</innfl>
+          <position>Генеральный директор</position>
+          <date>2003-07-16</date>
+          <firstDate>2003-07-16</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

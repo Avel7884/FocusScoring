@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2223004130</inn>
+    <ogrn>1022201384039</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1022201384039</focusHref>
+    <UL>
+      <kpp>222301001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "АЗСИиТО"</short>
+        <full>Закрытое акционерное общество "Алтайский завод специнструмента и технологической оснастки"</full>
+        <date>2002-10-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656023</zipCode>
+          <kladrCode>220000010000327</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Космонавтов</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>8</topoValue>
+          </house>
+          <houseRaw>8</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-11</date>
+        <firstDate>2002-10-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2007-04-11</date>
+      </status>
+      <registrationDate>1991-03-04</registrationDate>
+      <dissolutionDate>2007-04-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Аксенов Николай Иванович</fio>
+          <position>Конкурсный управляющий</position>
+          <date>2006-08-29</date>
+          <firstDate>2006-08-29</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

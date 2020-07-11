@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2223965140</inn>
+    <ogrn>1072223006074</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1072223006074</focusHref>
+    <UL>
+      <kpp>222301001</kpp>
+      <okpo>83928018</okpo>
+      <okato>01401365000</okato>
+      <okfs>16</okfs>
+      <oktmo>01701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АМС+"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АМС+"</full>
+        <date>2014-09-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>656062</zipCode>
+          <kladrCode>220000010000486</kladrCode>
+          <regionCode>22</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Алтайский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Барнаул</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Попова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>88</topoValue>
+          </house>
+          <flat>
+            <topoValue>424</topoValue>
+          </flat>
+          <houseRaw>88</houseRaw>
+          <flatRaw>424</flatRaw>
+        </parsedAddressRF>
+        <date>2009-11-19</date>
+        <firstDate>2009-11-19</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-12-25</registrationDate>
+      <heads>
+        <head>
+          <fio>Синяговский Василий Анатольевич</fio>
+          <innfl>222303297803</innfl>
+          <position>Директор</position>
+          <date>2012-05-16</date>
+          <firstDate>2007-12-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ООО "Алтай-метран-сервис +"</short>
+            <full>Общество с ограниченной ответственностью "Алтай-метран-сервис +"</full>
+            <date>2007-12-25</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

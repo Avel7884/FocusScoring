@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1650144354</inn>
+    <ogrn>1061650058513</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1061650058513</focusHref>
+    <UL>
+      <kpp>165001001</kpp>
+      <okpo>96880537</okpo>
+      <okato>92430000000</okato>
+      <okfs>16</okfs>
+      <oktmo>92730000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПСК "АЗС"</short>
+        <full>Общество с ограниченной ответственностью "Промышленная строительная компания "Автозаводстрой"</full>
+        <date>2006-07-27</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>423827</zipCode>
+          <kladrCode>16000002000</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Набережные Челны</topoValue>
+          </city>
+          <bulk>
+            <topoValue>6-Ая Промплощадка</topoValue>
+          </bulk>
+          <bulkRaw>6-АЯ ПРОМПЛОЩАДКА</bulkRaw>
+        </parsedAddressRF>
+        <date>2006-07-27</date>
+        <firstDate>2006-07-27</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с его ликвидацией на основании определения арбитражного суда о завершении конкурсного производства</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-02-25</date>
+      </status>
+      <registrationDate>2006-07-27</registrationDate>
+      <dissolutionDate>2015-02-25</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Матвеев Сергей Леонтьевич</fio>
+          <position>Руководитель юридического лица</position>
+          <date>2011-02-28</date>
+          <firstDate>2011-02-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>423827</zipCode>
+              <regionCode>16</regionCode>
+              <regionName>
+                <topoShortName>респ</topoShortName>
+                <topoFullName>республика</topoFullName>
+                <topoValue>Татарстан</topoValue>
+              </regionName>
+              <district>
+                <topoValue>Тукаевский</topoValue>
+              </district>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Набережные Челны</topoValue>
+              </city>
+              <house>
+                <topoValue>6-ая промплощадка</topoValue>
+              </house>
+              <houseRaw>6-ая промплощадка</houseRaw>
+            </parsedAddressRF>
+            <date>2006-07-27</date>
+            <firstDate>2006-07-27</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Онуфриенко Юрий Вячеславович</fio>
+            <position>Конкурсный управляющий</position>
+            <date>2010-12-22</date>
+            <firstDate>2010-12-22</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

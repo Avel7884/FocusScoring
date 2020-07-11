@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7728053603</inn>
+    <ogrn>1037739330067</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739330067</focusHref>
+    <UL>
+      <kpp>772801001</kpp>
+      <okpo>11520795</okpo>
+      <okato>45293578000</okato>
+      <okfs>16</okfs>
+      <oktmo>45905000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ЕВРОСОФТ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ЕВРОСОФТ"</full>
+        <date>2003-01-31</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>117393</zipCode>
+          <kladrCode>770000000000978</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Архитектора Власова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>51</topoValue>
+          </house>
+          <houseRaw>51</houseRaw>
+        </parsedAddressRF>
+        <date>2003-01-31</date>
+        <firstDate>2003-01-31</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>1992-03-02</registrationDate>
+      <heads>
+        <head>
+          <fio>Назаров Юрий Павлович</fio>
+          <innfl>773423649927</innfl>
+          <position>Директор</position>
+          <date>2010-07-14</date>
+          <firstDate>2010-07-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <full>Общество с ограниченной ответственносью "ЕВРОСОФТ"</full>
+            <date>2003-01-31</date>
+          </legalName>
+        </legalNames>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>117393</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Власова Архитектора</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>51</topoValue>
+              </house>
+              <houseRaw>51</houseRaw>
+            </parsedAddressRF>
+            <date>2003-01-31</date>
+            <firstDate>2003-01-31</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

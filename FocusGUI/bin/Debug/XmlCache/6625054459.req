@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6625054459</inn>
+    <ogrn>1096625003133</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1096625003133</focusHref>
+    <UL>
+      <kpp>661901001</kpp>
+      <okpo>62579447</okpo>
+      <okato>65228504000</okato>
+      <okfs>16</okfs>
+      <oktmo>65628104</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АВС"</short>
+        <full>Общество с ограниченной ответственностью "Автоматические Воротные Системы"</full>
+        <date>2009-08-24</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>623080</zipCode>
+          <kladrCode>660170020000023</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Нижнесергинский</topoValue>
+          </district>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Михайловск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Уральская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>16</topoValue>
+          </house>
+          <flat>
+            <topoValue>102</topoValue>
+          </flat>
+          <houseRaw>16</houseRaw>
+          <flatRaw>102</flatRaw>
+        </parsedAddressRF>
+        <date>2012-08-15</date>
+        <firstDate>2012-08-15</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2015-12-23</date>
+      </status>
+      <registrationDate>2009-08-24</registrationDate>
+      <dissolutionDate>2015-12-23</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Арзамазова Наталья Александровна</fio>
+          <innfl>667405930097</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-08-13</date>
+          <firstDate>2013-04-04</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>662501001</kpp>
+            <date>2009-08-24</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>623100</zipCode>
+              <regionCode>66</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Свердловская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Первоуральск</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Комсомольская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>27А</topoValue>
+              </house>
+              <flat>
+                <topoValue>82</topoValue>
+              </flat>
+              <houseRaw>27-А</houseRaw>
+              <flatRaw>82</flatRaw>
+            </parsedAddressRF>
+            <date>2009-08-24</date>
+            <firstDate>2009-08-24</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Бызов Андрей Евгеньевич</fio>
+            <innfl>662509519534</innfl>
+            <position>Генеральный директор</position>
+            <date>2009-08-24</date>
+            <firstDate>2009-08-24</firstDate>
+          </head>
+          <head>
+            <fio>Зуев Александр Викторович</fio>
+            <innfl>661303006390</innfl>
+            <position>Генеральный директор</position>
+            <date>2012-07-26</date>
+            <firstDate>2012-07-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

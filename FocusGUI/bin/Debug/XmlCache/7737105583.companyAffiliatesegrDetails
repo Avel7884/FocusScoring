@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>7737105583</inn>
+    <ogrn>5167746006600</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=5167746006600</focusHref>
+    <UL>
+      <activities />
+      <regInfo>
+        <ogrnDate>2016-10-04</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>7737</nalogCode>
+        <nalogName>Инспекция Федеральной налоговой службы №37 по г.Москве</nalogName>
+        <nalogRegDate>1999-02-24</nalogRegDate>
+        <kpp>773701001</kpp>
+        <date>2016-11-15</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>7746</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 46 по г. Москве</nalogName>
+        <date>2016-10-04</date>
+      </regBody>
+      <statedCapital />
+      <egrRecords>
+        <egrRecord>
+          <grn>2167750915396</grn>
+          <date>2016-11-15</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Акт</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>7167749490440</grn>
+          <date>2016-10-04</date>
+          <name>Исключение из ЕГРЮЛ недействующего ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>5167746006600</grn>
+          <date>2016-10-04</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года на основании сведений в налоговых органах</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 46 по г. Москве</regName>
+          <regCode>7746</regCode>
+          <documents>
+            <document>
+              <name>Справка об отсутствии движения средств по счетам или отсутствии открытых счетов</name>
+              <date>2016-04-15</date>
+            </document>
+            <document>
+              <name>Справка о непредставлении ЮЛ в течение последних 12 месяцев документов отчетности</name>
+              <date>2016-04-15</date>
+            </document>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2016-04-22</date>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

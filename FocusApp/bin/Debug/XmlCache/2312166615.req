@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2312166615</inn>
+    <ogrn>1092312009570</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1092312009570</focusHref>
+    <UL>
+      <kpp>231201001</kpp>
+      <okpo>64026333</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ТК "Авто-Магнат"</short>
+        <full>Общество с ограниченной ответственностью "Транспортная компания "Авто-Магнат"</full>
+        <date>2009-12-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>350059</zipCode>
+          <kladrCode>230000010000498</kladrCode>
+          <regionCode>23</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Краснодарский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Краснодар</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Новороссийская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>236</topoValue>
+          </house>
+          <bulk>
+            <topoValue>Е</topoValue>
+          </bulk>
+          <houseRaw>236</houseRaw>
+          <bulkRaw>Е</bulkRaw>
+        </parsedAddressRF>
+        <date>2009-12-01</date>
+        <firstDate>2009-12-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-08-16</date>
+      </status>
+      <registrationDate>2009-12-01</registrationDate>
+      <dissolutionDate>2012-08-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Чернов Кирилл Сергеевич</fio>
+          <innfl>232308541716</innfl>
+          <position>Ликвидатор</position>
+          <date>2012-05-25</date>
+          <firstDate>2012-05-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Агошкин Василий Витальевич</fio>
+            <innfl>231002703904</innfl>
+            <position>Директор</position>
+            <date>2011-11-08</date>
+            <firstDate>2011-01-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4217048654</inn>
+    <ogrn>1034217008330</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1034217008330</focusHref>
+    <UL>
+      <kpp>421701001</kpp>
+      <okpo>57626972</okpo>
+      <okato>32431373000</okato>
+      <okfs>16</okfs>
+      <oktmo>32731000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>АкваСиб ООО</short>
+        <full>АкваСиб Общество с ограниченной ответственностью</full>
+        <date>2003-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>654005</zipCode>
+          <kladrCode>420000120000685</kladrCode>
+          <regionCode>42</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Кемеровская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новокузнецк</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Орджоникидзе</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>18</topoValue>
+          </house>
+          <flat>
+            <topoValue>425</topoValue>
+          </flat>
+          <houseRaw>18</houseRaw>
+          <flatRaw>425</flatRaw>
+        </parsedAddressRF>
+        <date>2003-02-07</date>
+        <firstDate>2003-02-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-03-29</date>
+      </status>
+      <registrationDate>2001-10-16</registrationDate>
+      <dissolutionDate>2017-03-29</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Важенин Владимир Александрович</fio>
+          <innfl>423810349688</innfl>
+          <position>Ликвидатор</position>
+          <date>2016-12-27</date>
+          <firstDate>2003-02-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

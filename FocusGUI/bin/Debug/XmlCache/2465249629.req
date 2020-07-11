@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>2465249629</inn>
+    <ogrn>1112468007662</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1112468007662</focusHref>
+    <UL>
+      <kpp>246501001</kpp>
+      <okpo>90377228</okpo>
+      <okato>04401374000</okato>
+      <okfs>16</okfs>
+      <oktmo>04701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ПКП "СТК"</short>
+        <full>Общество с ограниченной ответственностью Производственно-коммерческое предприятие "СТК"</full>
+        <date>2011-02-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>660125</zipCode>
+          <kladrCode>240000010000017</kladrCode>
+          <regionCode>24</regionCode>
+          <regionName>
+            <topoShortName>край</topoShortName>
+            <topoFullName>край</topoFullName>
+            <topoValue>Красноярский</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Красноярск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>9 Мая</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>40</topoValue>
+          </house>
+          <houseRaw>ДОМ 40</houseRaw>
+        </parsedAddressRF>
+        <date>2011-02-16</date>
+        <firstDate>2011-02-16</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-12-18</date>
+      </status>
+      <registrationDate>2011-02-16</registrationDate>
+      <dissolutionDate>2017-12-18</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Егоров Сергей Анатольевич</fio>
+          <innfl>246404574764</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-11-28</date>
+          <firstDate>2014-11-28</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>525701001</kpp>
+            <date>2014-12-14</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>603033</zipCode>
+              <kladrCode>520000010000915</kladrCode>
+              <regionCode>52</regionCode>
+              <regionName>
+                <topoShortName>обл</topoShortName>
+                <topoFullName>область</topoFullName>
+                <topoValue>Нижегородская</topoValue>
+              </regionName>
+              <city>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Нижний Новгород</topoValue>
+              </city>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Путейская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>28</topoValue>
+              </house>
+              <flat>
+                <topoValue>П1</topoValue>
+              </flat>
+              <houseRaw>28</houseRaw>
+              <flatRaw>П1</flatRaw>
+            </parsedAddressRF>
+            <date>2014-12-11</date>
+            <firstDate>2014-12-11</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Кокорин Вадим Александрович</fio>
+            <innfl>246510999208</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-02-16</date>
+            <firstDate>2011-02-16</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

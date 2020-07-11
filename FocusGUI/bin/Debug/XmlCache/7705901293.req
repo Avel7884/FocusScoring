@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705901293</inn>
+    <ogrn>1097746674156</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1097746674156</focusHref>
+    <UL>
+      <kpp>770701001</kpp>
+      <okpo>63743742</okpo>
+      <okato>45286585000</okato>
+      <okfs>16</okfs>
+      <oktmo>45382000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Академия маркетинга"</short>
+        <full>Общество с ограниченной ответственностью "Академия маркетинга"</full>
+        <date>2009-10-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>127473</zipCode>
+          <kladrCode>770000000000595</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Самотёчный 3-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>11</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoShortName>оф</topoShortName>
+            <topoFullName>офис</topoFullName>
+            <topoValue>8</topoValue>
+          </flat>
+          <houseRaw>ДОМ 11</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 1</bulkRaw>
+          <flatRaw>ОФИС 8</flatRaw>
+        </parsedAddressRF>
+        <date>2018-01-25</date>
+        <firstDate>2018-01-25</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2009-10-30</registrationDate>
+      <heads>
+        <head>
+          <fio>Стоян Евгений Викторович</fio>
+          <innfl>773580556302</innfl>
+          <position>Генеральный Директор</position>
+          <date>2017-03-20</date>
+          <firstDate>2017-03-20</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>770501001</kpp>
+            <date>2009-10-30</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>115093</zipCode>
+              <kladrCode>770000000002625</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Серпуховская Б</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>44</topoValue>
+              </house>
+              <flat>
+                <topoShortName>оф</topoShortName>
+                <topoFullName>офис</topoFullName>
+                <topoValue>19</topoValue>
+              </flat>
+              <houseRaw>44</houseRaw>
+              <flatRaw>ОФИС 19</flatRaw>
+            </parsedAddressRF>
+            <date>2009-10-30</date>
+            <firstDate>2009-10-30</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Хаев Олег Николаевич</fio>
+            <innfl>772813054507</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-10-12</date>
+            <firstDate>2010-10-12</firstDate>
+          </head>
+          <head>
+            <fio>Жуманова Гульсум Магзумовна</fio>
+            <innfl>544127779271</innfl>
+            <position>Генеральный Директор</position>
+            <date>2017-02-07</date>
+            <firstDate>2017-02-07</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

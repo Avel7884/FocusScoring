@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7804600949</inn>
+    <ogrn>1177847207790</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1177847207790</focusHref>
+    <UL>
+      <kpp>780401001</kpp>
+      <okpo>15996873</okpo>
+      <okato>40273000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40331000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "ПКФ ЛЕНУРАЛСНАБ"</short>
+        <full>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА ЛЕНУРАЛСНАБ"</full>
+        <date>2017-06-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>195299</zipCode>
+          <kladrCode>780000000000542</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Киришская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>помещение 7н офис 15</topoValue>
+          </flat>
+          <houseRaw>ДОМ 2</houseRaw>
+          <bulkRaw>ЛИТЕР А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 7Н ОФИС 15</flatRaw>
+        </parsedAddressRF>
+        <date>2017-06-14</date>
+        <firstDate>2017-06-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Находится в стадии ликвидации</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-03-25</date>
+      </status>
+      <registrationDate>2017-06-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Попова Юлия Викторовна</fio>
+          <innfl>510205328184</innfl>
+          <position>Ликвидатор</position>
+          <date>2019-03-25</date>
+          <firstDate>2017-06-14</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

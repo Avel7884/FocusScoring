@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7717541951</inn>
+    <ogrn>1057748534920</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1057748534920</focusHref>
+    <UL>
+      <kpp>771701001</kpp>
+      <okpo>48472783</okpo>
+      <okato>45280572000</okato>
+      <okfs>16</okfs>
+      <oktmo>45358000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12267</okopf>
+      <opf>Непубличные акционерные общества</opf>
+      <legalName>
+        <short>АО "ЭЛЕКТРИФИКАЦИЯ"</short>
+        <full>АКЦИОНЕРНОЕ ОБЩЕСТВО "ЭЛЕКТРИФИКАЦИЯ"</full>
+        <date>2018-02-16</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>129344</zipCode>
+          <kladrCode>770000000001856</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Мира</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>119</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>55</topoValue>
+          </bulk>
+          <houseRaw>119</houseRaw>
+          <bulkRaw>СТР.55</bulkRaw>
+        </parsedAddressRF>
+        <date>2005-10-07</date>
+        <firstDate>2005-10-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-10-07</registrationDate>
+      <heads>
+        <head>
+          <fio>Затынайко Владимир Владимирович</fio>
+          <innfl>500305541103</innfl>
+          <position>Генеральный Директор</position>
+          <date>2009-09-18</date>
+          <firstDate>2009-09-18</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>ОАО "Выставочный павильон "Электрификация"</short>
+            <full>Открытое акционерное общество "Выставочный павильон "Электрификация"</full>
+            <date>2005-10-07</date>
+          </legalName>
+          <legalName>
+            <full>АКЦИОНЕРНОЕ ОБЩЕСТВО;НЕПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО</full>
+            <date>2018-02-16</date>
+          </legalName>
+        </legalNames>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>6</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

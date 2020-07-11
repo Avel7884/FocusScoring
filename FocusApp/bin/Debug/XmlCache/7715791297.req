@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7715791297</inn>
+    <ogrn>1107746005520</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1107746005520</focusHref>
+    <UL>
+      <kpp>732801001</kpp>
+      <okpo>64556427</okpo>
+      <okato>73401368000</okato>
+      <okfs>16</okfs>
+      <oktmo>73701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Ависма Сталь"</short>
+        <full>Общество с ограниченной ответственностью "Ависма Сталь"</full>
+        <date>2010-01-12</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>432072</zipCode>
+          <kladrCode>730000010000929</kladrCode>
+          <regionCode>73</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ульяновская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Ульяновск</topoValue>
+          </city>
+          <street>
+            <topoShortName>проезд</topoShortName>
+            <topoFullName>проезд</topoFullName>
+            <topoValue>Инженерный 4-й</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>3</topoValue>
+          </house>
+          <houseRaw>3</houseRaw>
+        </parsedAddressRF>
+        <date>2013-11-22</date>
+        <firstDate>2013-11-22</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Регистрирующим органом принято решение о предстоящем исключении юридического лица из ЕГРЮЛ (недействующее юридическое лицо)</statusString>
+        <dissolving>true</dissolving>
+        <date>2019-10-09</date>
+      </status>
+      <registrationDate>2010-01-12</registrationDate>
+      <heads>
+        <head>
+          <fio>Захарцев Михаил Николаевич</fio>
+          <innfl>732716690501</innfl>
+          <position>Генеральный Директор</position>
+          <date>2013-10-29</date>
+          <firstDate>2013-10-29</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771501001</kpp>
+            <date>2013-11-22</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127282</zipCode>
+              <kladrCode>770000000002344</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Полярная</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>31Г</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>стр</topoShortName>
+                <topoFullName>строение</topoFullName>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>31Г</houseRaw>
+              <bulkRaw>СТР. 1</bulkRaw>
+            </parsedAddressRF>
+            <date>2010-01-12</date>
+            <firstDate>2010-01-12</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Айсин Ринат Шавкатович</fio>
+            <innfl>504214281399</innfl>
+            <position>Генеральный директор</position>
+            <date>2010-01-12</date>
+            <firstDate>2010-01-12</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

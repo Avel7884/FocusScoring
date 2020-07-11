@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7710256754</inn>
+    <ogrn>1027700076315</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1027700076315</focusHref>
+    <UL>
+      <kpp>771001001</kpp>
+      <okopf>47</okopf>
+      <opf>Открытые акционерные общества</opf>
+      <legalName>
+        <short>ОАО "Агро-КооП"</short>
+        <full>ОТКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "АГРО-КООП"</full>
+        <date>2002-07-30</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <kladrCode>770000000003323</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Козихинский Б</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2</topoValue>
+          </house>
+          <bulk>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>2</houseRaw>
+          <bulkRaw>1</bulkRaw>
+        </parsedAddressRF>
+        <date>2002-07-30</date>
+        <firstDate>2002-07-30</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-12-04</date>
+      </status>
+      <registrationDate>1997-09-09</registrationDate>
+      <dissolutionDate>2006-12-04</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пархоменко Алексей Александрович</fio>
+          <position>Генеральный директор</position>
+          <date>2003-06-30</date>
+          <firstDate>2003-06-30</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

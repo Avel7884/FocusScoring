@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6150030051</inn>
+    <ogrn>1026102215369</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026102215369</focusHref>
+    <UL>
+      <kpp>615001001</kpp>
+      <okpo>02716180</okpo>
+      <okato>60427000000</okato>
+      <okfs>16</okfs>
+      <oktmo>60727000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКСА-ЮГ"</short>
+        <full>Общество с ограниченной ответственностью "АКСА-ЮГ"</full>
+        <date>2002-07-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>346400</zipCode>
+          <kladrCode>610000090000281</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Новочеркасск</topoValue>
+          </city>
+          <street>
+            <topoShortName>пер</topoShortName>
+            <topoFullName>переулок</topoFullName>
+            <topoValue>Одесский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>41</topoValue>
+          </house>
+          <houseRaw>41</houseRaw>
+        </parsedAddressRF>
+        <date>2002-07-23</date>
+        <firstDate>2002-07-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2002-10-16</date>
+      </status>
+      <registrationDate>1999-07-23</registrationDate>
+      <dissolutionDate>2002-10-16</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Андрющенко Юрий Александрович</fio>
+          <innfl>615002914146</innfl>
+          <position>Директор</position>
+          <date>2002-07-23</date>
+          <firstDate>2002-07-23</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

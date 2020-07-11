@@ -2,14 +2,14 @@ using FocusScoring;
 
 namespace FocusApiAccess
 {
-    public class ScoringResult<T> : IScoringResult<T>
+    internal class ScoringResult<T> : IScoringResult<T>
     {
 
-        public MarkerResult[] Markers { get; }
+        public MarkerResult<T>[] Markers { get; }
         public int Score { get; }
         public T Target { get; }
         
-        public ScoringResult(MarkerResult[] markers, int score, T target)
+        public ScoringResult(MarkerResult<T>[] markers, int score, T target)
         {
             Markers = markers;
             Score = score;

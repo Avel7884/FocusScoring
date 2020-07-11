@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6320004630</inn>
+    <ogrn>1036301039631</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1036301039631</focusHref>
+    <UL>
+      <kpp>632401001</kpp>
+      <okpo>05770777</okpo>
+      <okato>36440368000</okato>
+      <okfs>16</okfs>
+      <oktmo>36740000001</oktmo>
+      <okogu>4210008</okogu>
+      <okopf>12247</okopf>
+      <opf>Публичные акционерные общества</opf>
+      <legalName>
+        <short>ПАО "АЗОТРЕММАШ"</short>
+        <full>ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "АЗОТРЕММАШ"</full>
+        <date>2019-04-09</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>445000</zipCode>
+          <kladrCode>630000070000798</kladrCode>
+          <regionCode>63</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Самарская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Тольятти</topoValue>
+          </city>
+          <street>
+            <topoShortName>ш</topoShortName>
+            <topoFullName>шоссе</topoFullName>
+            <topoValue>Поволжское</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <houseRaw>34</houseRaw>
+        </parsedAddressRF>
+        <date>2003-03-13</date>
+        <firstDate>2003-03-13</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2002-06-28</registrationDate>
+      <managementCompanies>
+        <managementCompany>
+          <name>ЗАКРЫТОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО КОРПОРАЦИЯ "ТОЛЬЯТТИАЗОТ"</name>
+          <inn>6320012750</inn>
+          <ogrn>1036301046638</ogrn>
+          <date>2011-08-17</date>
+          <firstDate>2011-08-17</firstDate>
+        </managementCompany>
+      </managementCompanies>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>632001001</kpp>
+            <date>2005-01-18</date>
+          </kppWithDate>
+        </kpps>
+        <legalNames>
+          <legalName>
+            <short>ОАО "Азотреммаш"</short>
+            <full>Открытое акционерное общество "Азотреммаш"</full>
+            <date>2003-03-13</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Королев Евгений Анатольевич</fio>
+            <innfl>631600485587</innfl>
+            <position>Представитель Управляющей компании</position>
+            <date>2011-08-17</date>
+            <firstDate>2011-08-17</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>4</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

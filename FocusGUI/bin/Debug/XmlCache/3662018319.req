@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>3662018319</inn>
+    <ogrn>1033600047007</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1033600047007</focusHref>
+    <UL>
+      <kpp>366201001</kpp>
+      <okpo>26495988</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО ТД "Автоген-Сервис"</short>
+        <full>Общество с ограниченной ответственностью торговый дом "Автоген-Сервис"</full>
+        <date>2003-02-07</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>394000</zipCode>
+          <kladrCode>360000010000563</kladrCode>
+          <regionCode>36</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Воронежская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Воронеж</topoValue>
+          </city>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Московский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>26</topoValue>
+          </house>
+          <houseRaw>26</houseRaw>
+        </parsedAddressRF>
+        <date>2003-02-07</date>
+        <firstDate>2003-02-07</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2012-08-17</date>
+      </status>
+      <registrationDate>1996-12-15</registrationDate>
+      <dissolutionDate>2012-08-17</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Жигулина Ирина Николаевна</fio>
+          <innfl>366201319669</innfl>
+          <position>Директор</position>
+          <date>2003-06-21</date>
+          <firstDate>2003-06-21</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

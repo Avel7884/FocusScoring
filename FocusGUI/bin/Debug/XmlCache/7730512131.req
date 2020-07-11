@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7730512131</inn>
+    <ogrn>1047796651320</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1047796651320</focusHref>
+    <UL>
+      <kpp>773001001</kpp>
+      <okpo>74100906</okpo>
+      <okato>45268554000</okato>
+      <okfs>16</okfs>
+      <oktmo>45318000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АСФ"</short>
+        <full>Общество с ограниченной ответственностью "Аларм Сервис ФЕРГАНСКАЯ"</full>
+        <date>2004-09-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>121170</zipCode>
+          <kladrCode>770000000001659</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>пр-кт</topoShortName>
+            <topoFullName>проспект</topoFullName>
+            <topoValue>Кутузовский</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>36</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>7</topoValue>
+          </bulk>
+          <houseRaw>36</houseRaw>
+          <bulkRaw>СТР.7</bulkRaw>
+        </parsedAddressRF>
+        <date>2004-09-01</date>
+        <firstDate>2004-09-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2019-03-26</date>
+      </status>
+      <registrationDate>2004-09-01</registrationDate>
+      <dissolutionDate>2019-03-26</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Шмидт Вячеслав Владимирович</fio>
+          <innfl>581601783345</innfl>
+          <position>Ликвидатор</position>
+          <date>2018-09-25</date>
+          <firstDate>2018-09-25</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Травкин Сергей Владимирович</fio>
+            <innfl>771532262429</innfl>
+            <position>Генеральный директор</position>
+            <date>2008-10-01</date>
+            <firstDate>2008-10-01</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

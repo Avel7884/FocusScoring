@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Score>3</Score>
+  <Name>Руководитель либо учредитель компании банкрот</Name>
+  <Colour>Red</Colour>
+  <Description>Наличие сообщений о банкротстве физлица, являющегося руководителем (лицом с правом подписи без доверенности), учредителем, либо индивидуальным предпринимателем. Необходимо изучить сообщения</Description>
+  <Code>return company.GetParam("m7022") == "true"; </Code>
+</items>

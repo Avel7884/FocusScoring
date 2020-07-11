@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7705408899</inn>
+    <ogrn>1037739192633</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1037739192633</focusHref>
+    <UL>
+      <kpp>770501001</kpp>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Авто карум"</short>
+        <full>Общество с ограниченной ответственностью "Авто карум"</full>
+        <date>2003-01-23</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>113054</zipCode>
+          <kladrCode>770000000002871</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Татарская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14</topoValue>
+          </house>
+          <flat>
+            <topoValue>86</topoValue>
+          </flat>
+          <houseRaw>14</houseRaw>
+          <flatRaw>86</flatRaw>
+        </parsedAddressRF>
+        <date>2003-01-23</date>
+        <firstDate>2003-01-23</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица по решению суда</statusString>
+        <dissolved>true</dissolved>
+        <date>2008-09-11</date>
+      </status>
+      <registrationDate>2001-06-04</registrationDate>
+      <dissolutionDate>2008-09-11</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Барташов Виктор Георгиевич</fio>
+          <innfl>770503677882</innfl>
+          <position>Генеральный Директор</position>
+          <date>2004-09-28</date>
+          <firstDate>2004-09-28</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

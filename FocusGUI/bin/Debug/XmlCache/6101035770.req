@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6101035770</inn>
+    <ogrn>1056101023681</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1056101023681</focusHref>
+    <UL>
+      <kpp>610101001</kpp>
+      <okpo>04228645</okpo>
+      <okato>60201820001</okato>
+      <okfs>14</okfs>
+      <oktmo>60601420101</oktmo>
+      <okogu>3300500</okogu>
+      <okopf>75404</okopf>
+      <opf>Муниципальные казенные учреждения</opf>
+      <legalName>
+        <short>Администрация Елизаветовского сельского поселения</short>
+        <full>Администрация Елизаветовского сельского поселения</full>
+        <date>2005-11-11</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>346767</zipCode>
+          <kladrCode>610020000260006</kladrCode>
+          <regionCode>61</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Ростовская</topoValue>
+          </regionName>
+          <district>
+            <topoShortName>р-н</topoShortName>
+            <topoFullName>район</topoFullName>
+            <topoValue>Азовский</topoValue>
+          </district>
+          <settlement>
+            <topoShortName>с</topoShortName>
+            <topoFullName>село</topoFullName>
+            <topoValue>Елизаветовка</topoValue>
+          </settlement>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Дзержинского</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>50</topoValue>
+          </house>
+          <houseRaw>50</houseRaw>
+        </parsedAddressRF>
+        <date>2005-11-08</date>
+        <firstDate>2005-11-08</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2005-11-08</registrationDate>
+      <heads>
+        <head>
+          <fio>Луговой Владимир Степанович</fio>
+          <innfl>610101707568</innfl>
+          <position>Глава Администрации Елизаветовского Сельского Поселения</position>
+          <date>2017-08-16</date>
+          <firstDate>2005-11-08</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>3</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>4025057990</inn>
+    <ogrn>1024000937058</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1024000937058</focusHref>
+    <UL>
+      <kpp>402501001</kpp>
+      <okopf>67</okopf>
+      <opf>Закрытые акционерные общества</opf>
+      <legalName>
+        <short>ЗАО "Агригазполимер"</short>
+        <full>Закрытое акционерное общество "Агригазполимер"</full>
+        <date>2002-10-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>249030</zipCode>
+          <kladrCode>400000020000100</kladrCode>
+          <regionCode>40</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Калужская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Обнинск</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Кабицинская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>1</topoValue>
+          </house>
+          <houseRaw>1</houseRaw>
+        </parsedAddressRF>
+        <date>2002-10-01</date>
+        <firstDate>2002-10-01</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица путем реорганизации в форме преобразования</statusString>
+        <dissolved>true</dissolved>
+        <date>2006-08-08</date>
+      </status>
+      <registrationDate>2000-07-27</registrationDate>
+      <dissolutionDate>2006-08-08</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Пигин Александр Васильевич</fio>
+          <innfl>401101651065</innfl>
+          <position>Директор</position>
+          <date>2002-10-01</date>
+          <firstDate>2002-10-01</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

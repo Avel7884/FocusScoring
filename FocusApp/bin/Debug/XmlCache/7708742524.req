@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7708742524</inn>
+    <ogrn>1117746552593</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1117746552593</focusHref>
+    <UL>
+      <kpp>770801001</kpp>
+      <okpo>92593226</okpo>
+      <okato>45286565000</okato>
+      <okfs>24</okfs>
+      <oktmo>45378000000</oktmo>
+      <okogu>4210011</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Адванта-М"</short>
+        <full>Общество с ограниченной ответственностью "Адванта-М"</full>
+        <date>2011-07-14</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>107140</zipCode>
+          <kladrCode>770000000000648</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Красносельская Верхн</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>2/1</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>стр</topoShortName>
+            <topoFullName>строение</topoFullName>
+            <topoValue>3</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>этаж 3 пом I Комната 1.3</topoValue>
+          </flat>
+          <houseRaw>ДОМ 2/1</houseRaw>
+          <bulkRaw>СТРОЕНИЕ 3</bulkRaw>
+          <flatRaw>ЭТАЖ 3 ПОМ I КОМНАТА 1.3</flatRaw>
+        </parsedAddressRF>
+        <date>2015-06-03</date>
+        <firstDate>2015-06-03</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2011-07-14</registrationDate>
+      <heads>
+        <head>
+          <fio>Тюшкевич Виталий Викторович</fio>
+          <position>Генеральный директор</position>
+          <date>2017-12-07</date>
+          <firstDate>2011-07-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107140</zipCode>
+              <kladrCode>770000000000648</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Красносельская Верхн</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>2/1</topoValue>
+              </house>
+              <bulk>
+                <topoValue>3</topoValue>
+              </bulk>
+              <flat>
+                <topoValue>3 пом I Комната 1.3</topoValue>
+              </flat>
+              <houseRaw>2/1</houseRaw>
+              <bulkRaw>3</bulkRaw>
+              <flatRaw>3 ПОМ I КОМНАТА 1.3</flatRaw>
+            </parsedAddressRF>
+            <date>2015-06-03</date>
+            <firstDate>2015-06-03</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>107140</zipCode>
+              <kladrCode>770000000000651</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>пер</topoShortName>
+                <topoFullName>переулок</topoFullName>
+                <topoValue>Красносельский 1-й</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>3</topoValue>
+              </house>
+              <houseRaw>3</houseRaw>
+            </parsedAddressRF>
+            <date>2011-07-14</date>
+            <firstDate>2011-07-14</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

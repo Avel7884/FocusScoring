@@ -2,19 +2,19 @@ using FocusApiAccess;
 
 namespace FocusScoring
 {
-    public class MarkerResult
+    public class MarkerResult<T>
     {
         private readonly bool check;
-        public Marker Marker { get; }
+        public Marker<T> Marker { get; }
         public string Verbose { get; }
 
-        public MarkerResult(bool check, Marker Marker, string verbose)
+        public MarkerResult(bool check, Marker<T> Marker, string verbose)
         {
             this.check = check;
             this.Marker = Marker;
             Verbose = verbose;
         }
 
-        public static implicit operator bool(MarkerResult result) => result.check;
+        public static implicit operator bool(MarkerResult<T> result) => result.check;
     }
 }

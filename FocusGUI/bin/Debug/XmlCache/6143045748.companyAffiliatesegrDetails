@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfegrDetails xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <egrDetails>
+    <inn>614300228951</inn>
+    <ogrn>314617428300057</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=314617428300057</focusHref>
+    <IP>
+      <okpo>0194630692</okpo>
+      <pfrRegNumber>071043041657</pfrRegNumber>
+      <okato>60412000000</okato>
+      <shortenedAddress>
+        <regionCode>61</regionCode>
+        <regionName>
+          <topoShortName>обл</topoShortName>
+          <topoFullName>область</topoFullName>
+          <topoValue>Ростовская</topoValue>
+        </regionName>
+        <city>
+          <topoShortName>г</topoShortName>
+          <topoFullName>город</topoFullName>
+          <topoValue>Волгодонск</topoValue>
+        </city>
+      </shortenedAddress>
+      <activities>
+        <principalActivity>
+          <code>47.52</code>
+          <text>Торговля розничная скобяными изделиями, лакокрасочными материалами и стеклом в специализированных магазинах</text>
+          <date>2014-10-10</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>47.52.7</code>
+            <text>Торговля розничная строительными материалами, не включенными в другие группировки, в специализированных магазинах</text>
+            <date>2014-10-10</date>
+          </activity>
+          <activity>
+            <code>47.52.71</code>
+            <text>Торговля розничная пиломатериалами в специализированных магазинах</text>
+            <date>2014-10-10</date>
+          </activity>
+          <activity>
+            <code>47.52.72</code>
+            <text>Торговля розничная кирпичом в специализированных магазинах</text>
+            <date>2014-10-10</date>
+          </activity>
+          <activity>
+            <code>47.52.73</code>
+            <text>Торговля розничная металлическими и неметаллическими конструкциями в специализированных магазинах</text>
+            <date>2014-10-10</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2014-10-10</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6174</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 4 по Ростовской области</nalogName>
+        <nalogRegDate>2014-10-10</nalogRegDate>
+        <date>2018-04-02</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6196</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Ростовской области</nalogName>
+        <date>2015-09-29</date>
+      </regBody>
+      <egrRecords>
+        <egrRecord>
+          <grn>418619600393714</grn>
+          <date>2018-04-02</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>418619600393639</grn>
+          <date>2018-04-02</date>
+          <name>Прекращение деятельности ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Р26001 заявление о прекращении деятельности ИП</name>
+            </document>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2018-03-27</date>
+            </document>
+            <document>
+              <name>Паспорт гражданина РФ</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>416619602270010</grn>
+          <date>2016-10-31</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>414617428700042</grn>
+          <date>2014-10-14</date>
+          <name>Представление сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>314617428300057</grn>
+          <date>2014-10-10</date>
+          <name>Регистрация в качестве ИП</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации физического лица в качестве индивидуального предпринимателя</name>
+              <date>2014-10-03</date>
+            </document>
+            <document>
+              <name>Документ об уплате государственной пошлины</name>
+              <date>2014-10-03</date>
+            </document>
+            <document>
+              <name>Паспорт</name>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 007662921</serialNumber>
+              <date>2014-10-10</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+    </IP>
+  </egrDetails>
+  <egrDetails>
+    <inn>6143045748</inn>
+    <ogrn>1026101935309</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026101935309</focusHref>
+    <UL>
+      <okpo>51605153</okpo>
+      <pfrRegNumber>071043017873</pfrRegNumber>
+      <fssRegNumber>611800364561181</fssRegNumber>
+      <fomsRegNumber>604120610149678</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.72</code>
+          <text>Торговля оптовая металлами и металлическими рудами</text>
+          <date>2004-12-23</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>25.1</code>
+            <text>Производство строительных металлических конструкций и изделий</text>
+            <date>2004-12-23</date>
+          </activity>
+          <activity>
+            <code>46.76</code>
+            <text>Торговля оптовая прочими промежуточными продуктами</text>
+            <date>2004-12-23</date>
+          </activity>
+          <activity>
+            <code>94.1</code>
+            <text>Деятельность коммерческих, предпринимательских и профессиональных организаций</text>
+            <date>2004-12-23</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-12-02</ogrnDate>
+        <regName>Администрация города Волгодонск Ростовской области</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6174</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 4 по Ростовской области</nalogName>
+        <nalogRegDate>1999-12-17</nalogRegDate>
+        <kpp>614301001</kpp>
+        <date>2015-12-17</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6196</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Ростовской области</nalogName>
+        <date>2015-09-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2010-02-01</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Еремин Аркадий Георгиевич</fio>
+          <innfl>614300228951</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2013-08-06</date>
+          <firstDate>2010-02-01</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>6186196095838</grn>
+          <date>2018-11-01</date>
+          <name>Внесение сведений о представлении заявления заинтересованным лицом в связи с исключением недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Заявление лица, чьи права затрагиваются исключением ЮЛ из ЕГРЮЛ</name>
+              <date>2018-11-01</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2186196996764</grn>
+          <date>2018-10-03</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2018-10-01</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6166196019445</grn>
+          <date>2016-09-02</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2156196971764</grn>
+          <date>2015-12-17</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2136174027812</grn>
+          <date>2013-08-06</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2106174004055</grn>
+          <date>2010-02-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-01-25</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006320808</serialNumber>
+              <date>2010-02-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2106174004044</grn>
+          <date>2010-02-01</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2010-01-25</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2010-01-22</date>
+            </document>
+            <document>
+              <name>Решение единственного учредителя (участника)</name>
+              <date>2010-01-19</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2009-11-24</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи имущества</name>
+              <date>2010-01-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006320807</serialNumber>
+              <date>2010-02-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096174079197</grn>
+          <date>2009-12-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096174006597</grn>
+          <date>2009-02-17</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2009-02-10</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006539435</serialNumber>
+              <date>2009-02-17</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096174006586</grn>
+          <date>2009-02-17</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-02-10</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2009-02-06</date>
+            </document>
+            <document>
+              <name>Решение единственного учредителя (участника)</name>
+              <date>2009-02-09</date>
+            </document>
+            <document>
+              <name>Изменения в устав</name>
+              <date>2009-02-09</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006539434</serialNumber>
+              <date>2009-02-17</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2056143031481</grn>
+          <date>2005-06-29</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Ростовской Области Территориальный Участок 6143 по г.Волгодонску</regName>
+          <regCode>6143</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2046143025806</grn>
+          <date>2004-12-23</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция МНС России №4 по Ростовской Области Территориальный Участок 6143 по г.Волгодонску</regName>
+          <regCode>6143</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2004-12-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 004123204</serialNumber>
+              <date>2004-12-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1026101935309</grn>
+          <date>2002-12-02</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Межрайонная Инспекция МНС России №4 по Ростовской Области Территориальный Участок 6143 по г.Волгодонску</regName>
+          <regCode>6143</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>61 003059887</serialNumber>
+              <date>2002-12-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>6143045850</inn>
+    <ogrn>1026101934924</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1026101934924</focusHref>
+    <UL>
+      <okpo>51610102</okpo>
+      <pfrRegNumber>071043018040</pfrRegNumber>
+      <fssRegNumber>611800366361181</fssRegNumber>
+      <fomsRegNumber>604120610149345</fomsRegNumber>
+      <activities>
+        <principalActivity>
+          <code>46.72</code>
+          <text>Торговля оптовая металлами и металлическими рудами</text>
+          <date>2004-12-23</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>25.1</code>
+            <text>Производство строительных металлических конструкций и изделий</text>
+            <date>2004-12-23</date>
+          </activity>
+          <activity>
+            <code>41.20</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2004-12-23</date>
+          </activity>
+          <activity>
+            <code>46.76</code>
+            <text>Торговля оптовая прочими промежуточными продуктами</text>
+            <date>2004-12-23</date>
+          </activity>
+          <activity>
+            <code>49.41.2</code>
+            <text>Перевозка грузов неспециализированными автотранспортными средствами</text>
+            <date>2004-12-23</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2002-12-02</ogrnDate>
+        <regName>Администрация города Волгодонск Ростовской области</regName>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6174</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 4 по Ростовской области</nalogName>
+        <nalogRegDate>2000-01-11</nalogRegDate>
+        <kpp>614301001</kpp>
+        <date>2015-12-17</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6196</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Ростовской области</nalogName>
+        <date>2015-09-29</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2010-02-01</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Еремин Аркадий Георгиевич</fio>
+          <innfl>614300228951</innfl>
+          <share>
+            <sum>10000</sum>
+            <percentagePlain>100</percentagePlain>
+          </share>
+          <date>2013-07-30</date>
+          <firstDate>2010-02-01</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>6186196095827</grn>
+          <date>2018-11-01</date>
+          <name>Внесение сведений о представлении заявления заинтересованным лицом в связи с исключением недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Заявление лица, чьи права затрагиваются исключением ЮЛ из ЕГРЮЛ</name>
+              <date>2018-11-01</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2186196997501</grn>
+          <date>2018-10-03</date>
+          <name>Принятие решения о предстоящем исключении недействующего ЮЛ из ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Решение о предстоящем исключении недействуюшего ЮЛ из ЕГРЮЛ</name>
+              <date>2018-10-01</date>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>6166196019489</grn>
+          <date>2016-09-02</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2156196954824</grn>
+          <date>2015-12-17</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2136174026932</grn>
+          <date>2013-07-30</date>
+          <name>Внесение изменений в сведения о документах, удостоверяющих личность гражданина РФ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Сведения об изменении паспортных данных физического лица, представленные органами, осуществляющими выдачу и замену документов, удостоверяющих личность гражданина российской федерации на территории российской федерации</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2106174004077</grn>
+          <date>2010-02-01</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2010-01-25</date>
+            </document>
+            <document>
+              <name>Решение единственного учредителя (участника)</name>
+              <date>2010-01-12</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006320810</serialNumber>
+              <date>2010-02-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2106174004066</grn>
+          <date>2010-02-01</date>
+          <name>Внесение сведений, связанных с приведением устава ООО в соответствие с ФЗ-312 от 30.12.2008</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2010-01-25</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2009-11-25</date>
+            </document>
+            <document>
+              <name>Решение единственного учредителя (участника)</name>
+              <date>2010-01-14</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2010-01-14</date>
+            </document>
+            <document>
+              <name>Акт приема-передачи имущества</name>
+              <date>2010-01-14</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006320809</serialNumber>
+              <date>2010-02-01</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096174091363</grn>
+          <date>2009-12-26</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096174004925</grn>
+          <date>2009-02-12</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2009-02-05</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006539356</serialNumber>
+              <date>2009-02-12</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2096174004914</grn>
+          <date>2009-02-12</date>
+          <name>Регистрация изменений в учредительных документах на основании заявления</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 4 по Ростовской Области</regName>
+          <regCode>6174</regCode>
+          <documents>
+            <document>
+              <name>Заявление о государственной регистрации изменений, вносимых в учредительные документы юридического лица</name>
+              <date>2009-02-05</date>
+            </document>
+            <document>
+              <name>Платежное поручение</name>
+              <date>2009-01-30</date>
+            </document>
+            <document>
+              <name>Решение единственного учредителя (участника)</name>
+              <date>2009-02-02</date>
+            </document>
+            <document>
+              <name>Устав</name>
+              <date>2009-02-02</date>
+            </document>
+            <document>
+              <name>Заявление</name>
+              <date>2008-12-31</date>
+            </document>
+            <document>
+              <name>Уведомление</name>
+              <date>2008-12-31</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 006539355</serialNumber>
+              <date>2009-02-12</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>2056143046573</grn>
+          <date>2005-08-22</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы №4 по Ростовской Области Территориальный Участок 6143 по г.Волгодонску</regName>
+          <regCode>6143</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2046143025850</grn>
+          <date>2004-12-23</date>
+          <name>Изменение сведений о ЮЛ, содержащихся в ЕГРЮЛ</name>
+          <regName>Межрайонная Инспекция МНС России №4 по Ростовской Области Территориальный Участок 6143 по г.Волгодонску</regName>
+          <regCode>6143</regCode>
+          <documents>
+            <document>
+              <name>Заявление о внесении в единый государственный реестр юридических лиц изменений в сведения о юридическом лице, не связанных с внесением изменений в учредительные документы</name>
+              <date>2004-12-21</date>
+            </document>
+          </documents>
+          <certificates>
+            <certificate>
+              <serialNumber>61 004123208</serialNumber>
+              <date>2004-12-23</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+        <egrRecord>
+          <grn>1026101934924</grn>
+          <date>2002-12-02</date>
+          <name>Внесение сведений о регистрации до 1 июля 2002 года</name>
+          <regName>Межрайонная Инспекция МНС России №4 по Ростовской Области Территориальный Участок 6143 по г.Волгодонску</regName>
+          <regCode>6143</regCode>
+          <certificates>
+            <certificate>
+              <serialNumber>61 003059847</serialNumber>
+              <date>2002-12-02</date>
+            </certificate>
+          </certificates>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+  <egrDetails>
+    <inn>6143095001</inn>
+    <ogrn>1176196032143</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1176196032143</focusHref>
+    <UL>
+      <okpo>16307752</okpo>
+      <pfrRegNumber>071043044684</pfrRegNumber>
+      <fssRegNumber>611801370561181</fssRegNumber>
+      <activities>
+        <principalActivity>
+          <code>25.11</code>
+          <text>Производство строительных металлических конструкций, изделий и их частей</text>
+          <date>2017-07-07</date>
+        </principalActivity>
+        <complementaryActivities>
+          <activity>
+            <code>41.10</code>
+            <text>Разработка строительных проектов</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>41.20</code>
+            <text>Строительство жилых и нежилых зданий</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>42.21</code>
+            <text>Строительство инженерных коммуникаций для водоснабжения и водоотведения, газоснабжения</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>42.22</code>
+            <text>Строительство коммунальных объектов для обеспечения электроэнергией и телекоммуникациями</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>43.31</code>
+            <text>Производство штукатурных работ</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>43.32</code>
+            <text>Работы столярные и плотничные</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>43.33</code>
+            <text>Работы по устройству покрытий полов и облицовке стен</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>43.34</code>
+            <text>Производство малярных и стекольных работ</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>43.39</code>
+            <text>Производство прочих отделочных и завершающих работ</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>43.91</code>
+            <text>Производство кровельных работ</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>43.99</code>
+            <text>Работы строительные специализированные прочие, не включенные в другие группировки</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>46.72</code>
+            <text>Торговля оптовая металлами и металлическими рудами</text>
+            <date>2017-07-07</date>
+          </activity>
+          <activity>
+            <code>46.73</code>
+            <text>Торговля оптовая лесоматериалами, строительными материалами и санитарно-техническим оборудованием</text>
+            <date>2017-07-07</date>
+          </activity>
+        </complementaryActivities>
+        <okvedVersion>2</okvedVersion>
+      </activities>
+      <regInfo>
+        <ogrnDate>2017-07-07</ogrnDate>
+      </regInfo>
+      <nalogRegBody>
+        <nalogCode>6174</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 4 по Ростовской области</nalogName>
+        <nalogRegDate>2017-07-07</nalogRegDate>
+        <kpp>614301001</kpp>
+        <date>2017-07-07</date>
+      </nalogRegBody>
+      <regBody>
+        <nalogCode>6196</nalogCode>
+        <nalogName>Межрайонная инспекция Федеральной налоговой службы № 26 по Ростовской области</nalogName>
+        <date>2017-07-07</date>
+      </regBody>
+      <statedCapital>
+        <sum>10000</sum>
+        <date>2017-07-07</date>
+      </statedCapital>
+      <foundersFL>
+        <founderFL>
+          <fio>Еремин Дмитрий Аркадьевич</fio>
+          <innfl>614315244321</innfl>
+          <share>
+            <sum>7000</sum>
+            <percentagePlain>70</percentagePlain>
+          </share>
+          <date>2017-07-07</date>
+          <firstDate>2017-07-07</firstDate>
+        </founderFL>
+        <founderFL>
+          <fio>Зерщиков Игорь Геннадьевич</fio>
+          <innfl>615077796411</innfl>
+          <share>
+            <sum>3000</sum>
+            <percentagePlain>30</percentagePlain>
+          </share>
+          <date>2017-07-07</date>
+          <firstDate>2017-07-07</firstDate>
+        </founderFL>
+      </foundersFL>
+      <egrRecords>
+        <egrRecord>
+          <grn>2176196641861</grn>
+          <date>2017-07-13</date>
+          <name>Внесение сведений о регистрации в ФСС</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2176196636218</grn>
+          <date>2017-07-12</date>
+          <name>Внесение сведений о регистрации в ПФР</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>2176196626274</grn>
+          <date>2017-07-07</date>
+          <name>Внесение изменений в сведения о юридическом лице, в связи ошибками, допущенными регистрирующим органом</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Решение о внесении изменений в ЕГРЮЛ в связи с допущенными ошибками</name>
+            </document>
+          </documents>
+        </egrRecord>
+        <egrRecord>
+          <grn>2176196625471</grn>
+          <date>2017-07-07</date>
+          <name>Внесение сведений об учете в налоговом органе</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+        </egrRecord>
+        <egrRecord>
+          <grn>1176196032143</grn>
+          <date>2017-07-07</date>
+          <name>Создание ЮЛ</name>
+          <regName>Межрайонная Инспекция Федеральной Налоговой Службы № 26 по Ростовской Области</regName>
+          <regCode>6196</regCode>
+          <documents>
+            <document>
+              <name>Документ об оплате государственной пошлины</name>
+              <date>2017-07-03</date>
+            </document>
+            <document>
+              <name>Р11001 заявление о создании ЮЛ</name>
+            </document>
+            <document>
+              <name>Копии паспортов заявителей</name>
+            </document>
+            <document>
+              <name>Протокол об учреждении ЮЛ</name>
+            </document>
+            <document>
+              <name>Договор об учреждении</name>
+            </document>
+            <document>
+              <name>Список участников</name>
+            </document>
+            <document>
+              <name>Устав ЮЛ</name>
+            </document>
+          </documents>
+        </egrRecord>
+      </egrRecords>
+      <history />
+    </UL>
+  </egrDetails>
+</ArrayOfegrDetails>

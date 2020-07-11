@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>5263047008</inn>
+    <ogrn>1045207492461</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1045207492461</focusHref>
+    <UL>
+      <kpp>526301001</kpp>
+      <okpo>75675023</okpo>
+      <okato>22401382000</okato>
+      <okfs>12</okfs>
+      <oktmo>22701000001</oktmo>
+      <okogu>1318025</okogu>
+      <okopf>75104</okopf>
+      <opf>Федеральные государственные казенные учреждения</opf>
+      <legalName>
+        <short>УФССП России по Нижегородской области</short>
+        <full>Управление Федеральной службы судебных приставов по Нижегородской области</full>
+        <date>2015-12-01</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>603950</zipCode>
+          <kladrCode>520000010000179</kladrCode>
+          <regionCode>52</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Нижегородская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Нижний Новгород</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Вождей Революции</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>5А</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <houseRaw>ДОМ 5А</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+        </parsedAddressRF>
+        <date>2015-01-14</date>
+        <firstDate>2004-12-17</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2004-12-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Морковкин Леонид Игоревич</fio>
+          <innfl>500104434905</innfl>
+          <position>Руководитель</position>
+          <date>2019-02-08</date>
+          <firstDate>2019-02-08</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalNames>
+          <legalName>
+            <short>УФССП ПО НИЖЕГОРОДСКОЙ ОБЛАСТИ</short>
+            <date>2015-01-14</date>
+          </legalName>
+        </legalNames>
+        <heads>
+          <head>
+            <fio>Корсаков Игорь Юрьевич</fio>
+            <innfl>212801321210</innfl>
+            <position>Руководитель</position>
+            <date>2010-02-11</date>
+            <firstDate>2010-02-11</firstDate>
+          </head>
+          <head>
+            <fio>Сметанин Владимир Васильевич</fio>
+            <innfl>290129199900</innfl>
+            <position>И.О.Руководителя</position>
+            <date>2018-01-26</date>
+            <firstDate>2018-01-26</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>39</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

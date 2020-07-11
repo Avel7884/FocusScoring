@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7841372708</inn>
+    <ogrn>1077847643235</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1077847643235</focusHref>
+    <UL>
+      <kpp>784101001</kpp>
+      <okpo>82245412</okpo>
+      <okato>40298000000</okato>
+      <okfs>16</okfs>
+      <oktmo>40910000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "СЗТК"</short>
+        <full>Общество с ограниченной ответственностью "Северо-Западная трубная компания"</full>
+        <date>2007-10-17</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>191014</zipCode>
+          <kladrCode>780000000001511</kladrCode>
+          <regionCode>78</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Санкт-Петербург</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Чехова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>14Б</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>лит</topoShortName>
+            <topoFullName>литера</topoFullName>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>помещение 6-Н, офис 4</topoValue>
+          </flat>
+          <houseRaw>ДОМ 14Б</houseRaw>
+          <bulkRaw>ЛИТ. А</bulkRaw>
+          <flatRaw>ПОМЕЩЕНИЕ 6-Н, ОФИС 4</flatRaw>
+        </parsedAddressRF>
+        <date>2017-11-14</date>
+        <firstDate>2017-11-14</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2007-10-17</registrationDate>
+      <heads>
+        <head>
+          <fio>Елисеев Иван Сергеевич</fio>
+          <innfl>771472275050</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-07-16</date>
+          <firstDate>2014-07-16</firstDate>
+        </head>
+      </heads>
+      <history>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>191123</zipCode>
+              <kladrCode>780000000001223</kladrCode>
+              <regionCode>78</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Санкт-Петербург</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Рылеева</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>8</topoValue>
+              </house>
+              <bulk>
+                <topoShortName>лит</topoShortName>
+                <topoFullName>литера</topoFullName>
+                <topoValue>А</topoValue>
+              </bulk>
+              <flat>
+                <topoShortName>пом</topoShortName>
+                <topoFullName>помещение</topoFullName>
+                <topoValue>8-Н</topoValue>
+              </flat>
+              <houseRaw>8</houseRaw>
+              <bulkRaw>ЛИТ. А</bulkRaw>
+              <flatRaw>ПОМ. 8-Н</flatRaw>
+            </parsedAddressRF>
+            <date>2008-10-31</date>
+            <firstDate>2008-10-31</firstDate>
+          </legalAddress>
+        </legalAddresses>
+        <heads>
+          <head>
+            <fio>Власюк Людмила Петровна</fio>
+            <position>Генеральный директор</position>
+            <date>2008-10-31</date>
+            <firstDate>2008-10-31</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>2</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>6623030276</inn>
+    <ogrn>1069623030586</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1069623030586</focusHref>
+    <UL>
+      <kpp>667101001</kpp>
+      <okpo>95782169</okpo>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Virtu"</short>
+        <full>Общество с ограниченной ответственностью "Virtu"</full>
+        <date>2006-04-18</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>620142</zipCode>
+          <kladrCode>660000010000160</kladrCode>
+          <regionCode>66</regionCode>
+          <regionName>
+            <topoShortName>обл</topoShortName>
+            <topoFullName>область</topoFullName>
+            <topoValue>Свердловская</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Екатеринбург</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Большакова</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>77</topoValue>
+          </house>
+          <bulk>
+            <topoValue>А</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>общ</topoValue>
+          </flat>
+          <houseRaw>77</houseRaw>
+          <bulkRaw>А</bulkRaw>
+          <flatRaw>ОБЩ.</flatRaw>
+        </parsedAddressRF>
+        <date>2009-03-06</date>
+        <firstDate>2009-03-06</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Прекращение деятельности юридического лица в связи с исключением из ЕГРЮЛ на основании п.2 ст.21.1 Федерального закона от 08.08.2001 №129-ФЗ</statusString>
+        <dissolved>true</dissolved>
+        <date>2013-09-28</date>
+      </status>
+      <registrationDate>2006-04-18</registrationDate>
+      <dissolutionDate>2013-09-28</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Новоселова Елена Павловна</fio>
+          <innfl>664607359988</innfl>
+          <position>Директор</position>
+          <date>2009-03-06</date>
+          <firstDate>2009-03-06</firstDate>
+        </head>
+      </heads>
+      <history />
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

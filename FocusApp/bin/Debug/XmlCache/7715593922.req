@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>7715593922</inn>
+    <ogrn>1067746343191</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1067746343191</focusHref>
+    <UL>
+      <kpp>772901001</kpp>
+      <okpo>94429063</okpo>
+      <okato>45268579000</okato>
+      <okfs>16</okfs>
+      <oktmo>45323000000</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "Русимпульс Проект"</short>
+        <full>Общество с ограниченной ответственностью "Русимпульс Проект"</full>
+        <date>2006-03-06</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>119517</zipCode>
+          <kladrCode>770000000001822</kladrCode>
+          <regionCode>77</regionCode>
+          <regionName>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Москва</topoValue>
+          </regionName>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Матвеевская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>34</topoValue>
+          </house>
+          <bulk>
+            <topoShortName>корп</topoShortName>
+            <topoFullName>корпус</topoFullName>
+            <topoValue>1</topoValue>
+          </bulk>
+          <flat>
+            <topoValue>Подвал пом I Ком 38</topoValue>
+          </flat>
+          <houseRaw>ДОМ 34</houseRaw>
+          <bulkRaw>КОРПУС 1</bulkRaw>
+          <flatRaw>ПОДВАЛ ПОМ I КОМ 38</flatRaw>
+        </parsedAddressRF>
+        <date>2016-11-29</date>
+        <firstDate>2016-11-29</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Ликвидация юридического лица</statusString>
+        <dissolved>true</dissolved>
+        <date>2017-03-30</date>
+      </status>
+      <registrationDate>2006-03-06</registrationDate>
+      <dissolutionDate>2017-03-30</dissolutionDate>
+      <heads>
+        <head>
+          <fio>Поликарпов Александр Александрович</fio>
+          <innfl>773512457906</innfl>
+          <position>Руководитель ликвидационной комиссии</position>
+          <date>2016-12-14</date>
+          <firstDate>2006-03-06</firstDate>
+        </head>
+      </heads>
+      <history>
+        <kpps>
+          <kppWithDate>
+            <kpp>771501001</kpp>
+            <date>2012-02-21</date>
+          </kppWithDate>
+        </kpps>
+        <legalAddresses>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127549</zipCode>
+              <kladrCode>770000000000733</kladrCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ш</topoShortName>
+                <topoFullName>шоссе</topoFullName>
+                <topoValue>Алтуфьевское</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>56</topoValue>
+              </house>
+              <houseRaw>56</houseRaw>
+            </parsedAddressRF>
+            <date>2012-02-21</date>
+            <firstDate>2012-02-21</firstDate>
+          </legalAddress>
+          <legalAddress>
+            <parsedAddressRF>
+              <zipCode>127572</zipCode>
+              <regionCode>77</regionCode>
+              <regionName>
+                <topoShortName>г</topoShortName>
+                <topoFullName>город</topoFullName>
+                <topoValue>Москва</topoValue>
+              </regionName>
+              <street>
+                <topoShortName>ул</topoShortName>
+                <topoFullName>улица</topoFullName>
+                <topoValue>Абрамцевская</topoValue>
+              </street>
+              <house>
+                <topoShortName>дом</topoShortName>
+                <topoFullName>дом</topoFullName>
+                <topoValue>9</topoValue>
+              </house>
+              <bulk>
+                <topoValue>1</topoValue>
+              </bulk>
+              <houseRaw>9</houseRaw>
+              <bulkRaw>1</bulkRaw>
+            </parsedAddressRF>
+            <date>2006-03-06</date>
+            <firstDate>2006-03-06</firstDate>
+          </legalAddress>
+        </legalAddresses>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones />
+  </req>
+</ArrayOfreq>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfreq xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <req>
+    <inn>1655165686</inn>
+    <ogrn>1081690064114</ogrn>
+    <focusHref>https://focus.kontur.ru/entity?query=1081690064114</focusHref>
+    <UL>
+      <kpp>165501001</kpp>
+      <okpo>89178133</okpo>
+      <okato>92401367000</okato>
+      <okfs>16</okfs>
+      <oktmo>92701000001</oktmo>
+      <okogu>4210014</okogu>
+      <okopf>12300</okopf>
+      <opf>Общества с ограниченной ответственностью</opf>
+      <legalName>
+        <short>ООО "АКПН"</short>
+        <full>Общество с ограниченной ответственностью "АКПН"</full>
+        <date>2008-10-10</date>
+      </legalName>
+      <legalAddress>
+        <parsedAddressRF>
+          <zipCode>420107</zipCode>
+          <kladrCode>160000010001352</kladrCode>
+          <regionCode>16</regionCode>
+          <regionName>
+            <topoShortName>респ</topoShortName>
+            <topoFullName>республика</topoFullName>
+            <topoValue>Татарстан</topoValue>
+          </regionName>
+          <city>
+            <topoShortName>г</topoShortName>
+            <topoFullName>город</topoFullName>
+            <topoValue>Казань</topoValue>
+          </city>
+          <street>
+            <topoShortName>ул</topoShortName>
+            <topoFullName>улица</topoFullName>
+            <topoValue>Спартаковская</topoValue>
+          </street>
+          <house>
+            <topoShortName>дом</topoShortName>
+            <topoFullName>дом</topoFullName>
+            <topoValue>6</topoValue>
+          </house>
+          <houseRaw>6</houseRaw>
+        </parsedAddressRF>
+        <date>2008-10-10</date>
+        <firstDate>2008-10-10</firstDate>
+      </legalAddress>
+      <status>
+        <statusString>Действующее</statusString>
+      </status>
+      <registrationDate>2008-10-10</registrationDate>
+      <heads>
+        <head>
+          <fio>Терещенко Артур Анатольевич</fio>
+          <innfl>166012124556</innfl>
+          <position>Генеральный Директор</position>
+          <date>2014-05-20</date>
+          <firstDate>2011-11-14</firstDate>
+        </head>
+      </heads>
+      <history>
+        <heads>
+          <head>
+            <fio>Нурмухамедов Искандер Фаридович</fio>
+            <innfl>166003948204</innfl>
+            <position>Генеральный директор</position>
+            <date>2009-08-11</date>
+            <firstDate>2009-08-11</firstDate>
+          </head>
+          <head>
+            <fio>Сагитов Данис Фанисович</fio>
+            <innfl>161403178230</innfl>
+            <position>Генеральный директор</position>
+            <date>2011-10-13</date>
+            <firstDate>2011-10-13</firstDate>
+          </head>
+        </heads>
+      </history>
+    </UL>
+    <briefReport>
+      <summary>
+        <greenStatements>true</greenStatements>
+        <yellowStatements>true</yellowStatements>
+        <redStatements>true</redStatements>
+      </summary>
+    </briefReport>
+    <contactPhones>
+      <count>1</count>
+    </contactPhones>
+  </req>
+</ArrayOfreq>
