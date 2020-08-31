@@ -1,4 +1,4 @@
-namespace FocusApiAccess
+namespace FocusAccess
 {
     public enum ApiMethodEnum
     {

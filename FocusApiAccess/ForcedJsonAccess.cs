@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using FocusApiAccess.Methods;
-using FocusApiAccess.ResponseClasses;
+using FocusAccess.Methods;
+using FocusAccess.ResponseClasses;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     internal class ForcedJsonAccess : IJsonAccess
     {

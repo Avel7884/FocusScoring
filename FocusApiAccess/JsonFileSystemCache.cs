@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using FocusApiAccess.Methods;
-using FocusApiAccess.ResponseClasses;
+using FocusAccess.Methods;
+using FocusAccess.ResponseClasses;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     internal class JsonFileSystemCache : IJsonCache
     {

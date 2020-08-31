@@ -50,6 +50,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ListCreationResult.cs" />
     <Compile Include="TargetColumnController.cs" />
     <Page Include="ListDialog.xaml">
       <SubType>Designer</SubType>

@@ -1,6 +1,6 @@
 using FocusScoring;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     public interface IScoringResult<T>
     {

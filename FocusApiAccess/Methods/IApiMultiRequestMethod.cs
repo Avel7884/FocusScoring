@@ -1,6 +1,6 @@
-using FocusApiAccess.ResponseClasses;
+using FocusAccess.ResponseClasses;
 
-namespace FocusApiAccess.Methods
+namespace FocusAccess.Methods
 {
     public interface IApiMultiRequestMethod <out TData, in TQuery> :
         IApiSingleValueMethod<TData, TQuery>

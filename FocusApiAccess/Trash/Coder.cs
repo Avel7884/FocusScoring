@@ -1,6 +1,6 @@
 ﻿using Microsoft.Win32;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     public class Coder
     {

@@ -1,30 +1,30 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using FocusApiAccess;
+using FocusAccess;
 using FocusScoring;
 
 namespace FocusApp
 {
     public interface IEntryFactory<TSubject>
     {
-        IList<SubjectParameter> Parameters { get; }
+        IReadOnlyList<SubjectParameter> Parameters { get; }
         DataEntry<TSubject> CreateEntry(TSubject subject);
         void UpdateEntry(DataEntry<TSubject> entry, SubjectParameter[] parameters);
     }
 
     public interface ISettableEntryFactory<TSubject> : IEntryFactory<TSubject>
     {
-        new IList<SubjectParameter> Parameters { get; set; }
+        new IReadOnlyList<SubjectParameter> Parameters { get; set; }
     } 
 
     public class EntryFactory : ISettableEntryFactory<INN>
     {
         private readonly Api3 api;
         private readonly IScorer<INN> scorer;
-        private IList<SubjectParameter> parameters;
+        private IReadOnlyList<SubjectParameter> parameters;
 
-        public IList<SubjectParameter> Parameters //TODO from constructor
+        public IReadOnlyList<SubjectParameter> Parameters //TODO from constructor
         {
             get => parameters;
             set => parameters = value;
@@ -39,20 +39,16 @@ namespace FocusApp
         public DataEntry<INN> CreateEntry(INN subject)
         {
             var result = scorer.Score(subject);
-            return new DataEntry<INN>
-            {
-                Subject = subject,
-                Score = result.Score,
-                Data = parameters.Select(p=>ExtractParameter(p,subject,result.Score)).ToList(),
-                Light = GetLight(result.Score),
-                Markers = result.Markers
-            };
+            return new DataEntry<INN>(subject,result.Score
+                ,GetLight(result.Score),
+                parameters.Select(p=>ExtractParameter(p,subject,result.Score)).ToList(),
+                result.Markers);
         }
 
         public void UpdateEntry(DataEntry<INN> entry, SubjectParameter[] parameters)
         {
             foreach (var parameter in parameters)
-                entry.Data.Add(ExtractParameter(parameter,entry.Subject,entry.Score));
+                entry.Insert(entry.Data.Count,ExtractParameter(parameter,entry.Subject,entry.Score));
         }
 
         private Light GetLight(int score)
@@ -67,13 +63,23 @@ namespace FocusApp
             switch (parameter)
             {
                 case SubjectParameter.Address:
-                    return api.Req.MakeRequest(subject).Ul.LegalAddress.ParsedAddressRf.House.TopoFullName;
+                    return subject.IsFL
+                        ? "У ИП отсутствует адресс."
+                        : api.Req.MakeRequest(subject).Address;
                 case SubjectParameter.Name:
-                    return api.Req.MakeRequest(subject).Ul.LegalName.Short;
+                    return subject.IsFL 
+                        ? api.Req.MakeRequest(subject).Ip.Fio 
+                        : api.Req.MakeRequest(subject).Ul.LegalName.Short;
                 case SubjectParameter.Inn:
                     return subject.ToString();
                 case SubjectParameter.Score:
                     return score.ToString();
+                case SubjectParameter.FIO:
+                    return subject.IsFL
+                        ? api.Req.MakeRequest(subject).Ip.Fio
+                        : api.Req.MakeRequest(subject).Ul.Heads[0].Fio;
+                case SubjectParameter.Site:
+                    return api.Sites.MakeRequest(subject).Sites[0];
                 default:
                     throw new ArgumentOutOfRangeException(nameof(parameter), parameter, null);
             }

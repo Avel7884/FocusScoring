@@ -12,6 +12,12 @@
         d:DesignHeight="587"  d:DesignWidth="1089">
     <!-- WindowState="Maximized"-->
     <Grid>
+        <!--<Grid.Resources>
+            <DataTemplate DataType="focusApp:DataEntry" x:Key="ImageTemplate"> 
+                <Image MinHeight="16" MinWidth="16" MaxHeight="16" MaxWidth="16" Source="{Binding Path=ShieldCode}"/>
+            </DataTemplate>
+        </Grid.Resources>-->
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300" /><!--
             <ColumnDefinition Width="150" />-->
@@ -68,9 +74,10 @@
                 <ContextMenu>
                     <!--
                         <MenuItem Header="Выгрузить в Excel" Click="UnloadExcel_Click"></MenuItem>
-                        <MenuItem Header="Удалить" Click="DeleteList_Click"></MenuItem>
-                        <MenuItem Header="Переименовать" Click="Rename_Click"></MenuItem>
                     -->
+                        <MenuItem Header="Удалить" Click="DeleteList_Click"></MenuItem>
+                        <MenuItem Header="Изменить" Click="Rename_Click"></MenuItem>
+                        <MenuItem Header="Выгрузить в Excel" Click="Rename_Click"></MenuItem>
                 </ContextMenu>
             </ListView.ContextMenu>
         </ListView>
@@ -79,32 +86,48 @@
         <!--<GridSplitter Grid.Column="2" Width="5" HorizontalAlignment="Stretch" />-->
         <!--Manager="{Binding ElementName=_this, Path=FocusManager}"
         <ListView Name="Companies" Grid.Column="1" Grid.Row="1" Grid.RowSpan="5"></ListView>-->
-        <DataGrid Grid.Column="1" Grid.Row="1" Grid.RowSpan="5" x:Name="Companies">
-            <DataGrid.Columns>
-                <DataGridTemplateColumn>
-                    <DataTemplate DataType="focusApp:DataEntry">
-                        <Image MinHeight="16" MinWidth="16" MaxHeight="16" MaxWidth="16" Source="{Binding Path=ShieldCode}"/>
-                    </DataTemplate>
-                </DataGridTemplateColumn>
-            </DataGrid.Columns>
-        </DataGrid>
-        
-        <ListView Grid.Column="1" Grid.Row="1" Grid.RowSpan="5" x:Name="Companies_T">
-            <!--<ListView.ContextMenu>
+        <DataGrid Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" AutoGenerateColumns="False" x:Name="Companies">
+            <DataGrid.ContextMenu>
                 <ContextMenu>
-                    ~1~
+                    <MenuItem Header="Добавить ИНН" Click="AddTarget_Click"></MenuItem>
+                    <MenuItem Header="Удалить ИНН" Click="DeleteTarget_Click"></MenuItem>
+                    <MenuItem Header="Изменить" Click="Rename_Click"></MenuItem>
+                    <MenuItem Header="Выгрузить в Excel" Click="Rename_Click"></MenuItem>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+        <!--<DataGridTemplateColumn>
+                <DataTemplate DataType="focusApp:DataEntry" Source>
+                    ~3~<Image MinHeight="16" MinWidth="16" MaxHeight="16" MaxWidth="16" Source="{Binding Path=ShieldCode}">@3@
+                    </Image>
+                    <Image.Source>
+                        <Binding ConverterParameter="CLight">
+                            <Binding.Converter>
+                                <local:EntryToParameterConverter/>
+                            </Binding.Converter>
+                        </Binding>
+                    </Image.Source>
+                </DataTemplate>
+            </DataGridTemplateColumn>
+        </DataGrid>
+        -->
+
+        <!--<ListView Grid.Column="1" Grid.Row="1" Grid.RowSpan="5" x:Name="Companies_T">
+            ~1~<ListView.ContextMenu>
+                <ContextMenu>
+                    ~2~
                     <MenuItem Header="Проверить" Click="Check_Context"/>
-                    @1@
-                    ~1~ <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/> @1@
+                    @2@
+                    ~2~ <MenuItem Header="Вкл/Выкл Автопроверку" Click="SwitchAutoUpdate_Context"/> @2@
                     <MenuItem Header="Удалить" Click="DeleteCompany_Context"/>
                 </ContextMenu>
-            </ListView.ContextMenu>-->
+            </ListView.ContextMenu>@1@
             <ListView.View>
                 <GridView>
-                    <!--<GridViewColumn CellTemplateSelector="local:DataBaseTemplateSelector">
+                    ~1~<GridViewColumn CellTemplateSelector="local:DataBaseTemplateSelector">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate DataType="focusApp:DataEntry" Source>
-                                ~1~<Image MinHeight="16" MinWidth="16" MaxHeight="16" MaxWidth="16" Source="{Binding Path=ShieldCode}">@1@
+                                ~2~<Image MinHeight="16" MinWidth="16" MaxHeight="16" MaxWidth="16" Source="{Binding Path=ShieldCode}">@2@
                                 </Image>
                                 <Image.Source>
                                     <Binding ConverterParameter="CLight">
@@ -115,14 +138,15 @@
                                 </Image.Source>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
-                    </GridViewColumn>-->
-                    <!--
+                    </GridViewColumn>@1@
+                    ~1~
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Inn}">Инн</GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="150">Компания</GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Path=Score}">Рейтинг</GridViewColumn>-->
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Score}">Рейтинг</GridViewColumn>@1@
                 </GridView>
             </ListView.View>
         </ListView>
+        -->
         
         <GridSplitter Grid.Column="2" Grid.Row="3" Grid.RowSpan="3" Width="5" HorizontalAlignment="Stretch" />
         <ListView Name="Markers" Grid.Column="3" Grid.Row="1" Grid.RowSpan="5"></ListView>

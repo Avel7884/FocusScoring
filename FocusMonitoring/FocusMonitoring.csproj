@@ -11,6 +11,7 @@
     <AssemblyName>FocusMonitoring</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <LangVersion>8</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,16 +33,31 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FIOCache.cs" />
-    <Compile Include="FIODictionarySerializer.cs" />
-    <Compile Include="ListMonitorer.cs" />
+    <Compile Include="ChangesCollection.cs" />
+    <Compile Include="MonitoringFactory.cs" />
+    <Compile Include="Monitorer.cs" />
+    <Compile Include="MonitoringChange.cs" />
+    <Compile Include="MonitoringCollection.cs" />
+    <Compile Include="MonitoringResult.cs" />
+    <Compile Include="MonitoringSet.cs" />
+    <Compile Include="MonitoringTarget.cs" />
+    <Compile Include="IMonitoringSet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FocusAccess\FocusAccess.csproj">
+      <Project>{ad281cfe-f1c3-4c1e-b2af-22b2bb5d5eb2}</Project>
+      <Name>FocusAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

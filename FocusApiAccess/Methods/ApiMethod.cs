@@ -1,6 +1,6 @@
-using FocusApiAccess.ResponseClasses;
+using FocusAccess.ResponseClasses;
 
-namespace FocusApiAccess.Methods
+namespace FocusAccess.Methods
 {
 
     internal abstract class ApiMethod<TData,TQuery> : IApiMethod <TData,TQuery> where TData : IParameterValue

@@ -6,9 +6,9 @@ using System.Net;
 using System.Text;
 using System.Timers;
 using System.Xml;
-using FocusApiAccess;
+using FocusAccess;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     public class ListMonitorer
     {/* TODO Someday you will work

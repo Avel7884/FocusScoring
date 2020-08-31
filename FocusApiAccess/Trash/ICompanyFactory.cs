@@ -1,6 +1,6 @@
 using System;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     /*public interface ICompanyFactory
     {

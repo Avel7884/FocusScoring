@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Documents;
 using System.Xml;
-using FocusApiAccess;
+using FocusAccess;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     public class Company_past //TODO 2 responsability class is baaad
     {

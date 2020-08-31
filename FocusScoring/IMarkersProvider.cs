@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml.Serialization;
-using FocusApiAccess;
+using FocusAccess;
 
 namespace FocusScoring
 {
@@ -33,17 +33,17 @@ namespace FocusScoring
                 using (var file = File.Open( fileName, FileMode.OpenOrCreate))
                 {
                     var marker = (Marker<TTarget>)serializer.Deserialize(file);
-                    if (marker != null )//&&
-        //                marker.CheckArguments.TryGetValue(checksProvider.MarkerArgName, out var value))
-                        yield return ProvideCheck(marker);
+                    if (marker != null) //&&
+                        //                marker.CheckArguments.TryGetValue(checksProvider.MarkerArgName, out var value))
+                        yield return marker; //ProvideCheck(marker);
                 }
-        }
+        }/*
 
-        public Marker<TTarget> ProvideCheck(Marker<TTarget> marker)
+        private Marker<TTarget> ProvideCheck(Marker<TTarget> marker)
         {
             marker.SetCheck(checksProvider.Provide(marker));
             return marker;
-        }
+        }*/
 
         public void Include(Marker<TTarget> marker)
         {

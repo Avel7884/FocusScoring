@@ -1,5 +1,5 @@
-using FocusApiAccess;
-using FocusApiAccess.ResponseClasses;
+using FocusAccess;
+using FocusAccess.ResponseClasses;
 
 namespace FocusScoring
 {

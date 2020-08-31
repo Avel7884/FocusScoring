@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusMonitorerService\\FocusMonitorerService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusApiAccess\\FocusApiAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusApiAccess\\FocusApiAccess.csproj",
+        "projectName": "FocusApiAccess",
+        "projectPath": "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusApiAccess\\FocusApiAccess.csproj"
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusMonitorerService\\FocusMonitorerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusMonitorerService\\FocusMonitorerService.csproj",
+        "projectName": "FocusMonitorerService",
+        "projectPath": "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusMonitorerService\\FocusMonitorerService.csproj",
+        "packagesPath": "C:\\Users\\shetnikov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusMonitorerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shetnikov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusApiAccess\\FocusApiAccess.csproj": {
+                "projectPath": "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusApiAccess\\FocusApiAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

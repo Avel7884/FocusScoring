@@ -81,6 +81,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api.cs" />
     <Compile Include="Api3.cs" />
     <Compile Include="AvailabilityAccess.cs" />
     <Compile Include="FocusKey.cs" />

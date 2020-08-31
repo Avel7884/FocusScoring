@@ -1,17 +1,26 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using FocusApiAccess;
+using FocusAccess;
+using Newtonsoft.Json;
 
 namespace FocusApp
 {
+    [JsonArray]
     public class DataBase<TSubject> : IDataBase<TSubject>
     {
         private readonly List<DataEntry<TSubject>> data;
 
         public IEnumerable<DataEntry<TSubject>> Data => data;
+
+
+        public DataBase()
+        {
+            data = new List<DataEntry<TSubject>>();
+        }
 
         public DataBase(DataEntry<TSubject>[] entries)
         {                                             
@@ -47,13 +56,13 @@ namespace FocusApp
                 entry.RemoveAt(column);
         }
         public int Length => data.Count;
-        
-        /*IEnumerator<DataEntry<TSubject>> IEnumerable<DataEntry<TSubject>>.GetEnumerator() =>
+        public IEnumerator<DataEntry<TSubject>> GetEnumerator() =>
             data.GetEnumerator();
 
-        public IEnumerator GetEnumerator() => data.GetEnumerator();
-        
+        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 
-        public DataEntry<TSubject> this[int index] => data[index];*/
+        public int Count => data.Count;
+
+        public DataEntry<TSubject> this[int index] => data[index];
     }
 }

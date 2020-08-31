@@ -5,13 +5,13 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
-using FocusApiAccess;
+using FocusAccess;
 
 namespace FocusScoring
 {
     public class Marker<T>
     {
-        private Func<T, MarkerResult<T>> check;
+        //private Func<T, MarkerResult<T>> check;
         
         private int score;
 
@@ -33,25 +33,30 @@ namespace FocusScoring
             Colour = MarkerColour.Yellow;
             Score = 3;
             //Code = "return true;";
-        }
+        }    
 
-        public HashSet<ApiMethodEnum> Methods {get; set;}   //TODO remove setters after serialization tests
+        public ApiMethodEnum[] Methods {get; set;}   //TODO remove setters after serialization tests
         public string Name { get; set; }
         public MarkerColour Colour { get; set; }
+        
+        
         public string Description { get; set; }
-
-        public string Code { get; set; } //TODO Make hidden version for compiled
-        //public IReadOnlyDictionary<string, string> CheckArguments { get; }
+        
+        public Marker<T> Parent { get; set; }
+        
+        public IReadOnlyDictionary<string, string> CheckArguments { get; set; }
 
         internal string GetCodeClassName()
         {
             return string.Concat(Name.Split(' ','-','_','.',',',')','(','%','&','$','#','\\','/','?','!','\'','\"'));
         }
+        /*
+        public string Code { get; set; } //TODO Make hidden version for compiled
         internal void SetCheck(Func<T, MarkerResult<T>> check)
         {
             this.check = check;
         }
-        public MarkerResult<T> Check(T target) => check(target);
+        public MarkerResult<T> Check(T target) => check(target);*/
     }
 
     public enum MarkerColour

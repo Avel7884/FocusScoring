@@ -38,9 +38,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckResult.cs" />
+    <Compile Include="CodeChecksProvider.cs" />
     <Compile Include="Company.cs" />
     <Compile Include="IChecksProvider.cs" />
+    <Compile Include="IMarkerChecker.cs" />
+    <Compile Include="IMarkerCompiler.cs" />
     <Compile Include="Light.cs" />
+    <Compile Include="MarkerCheck.cs" />
     <Compile Include="MarkerCompiler.cs" />
     <Compile Include="IMarkerFromJSONFactory.cs" />
     <Compile Include="IMarkersProvider.cs" />
@@ -49,6 +54,7 @@
     <Compile Include="IScoringResult.cs" />
     <Compile Include="Marker.cs" />
     <Compile Include="MarkerFromJsonFactory.cs" />
+    <Compile Include="CodeMarkerProvider.cs" />
     <Compile Include="MarkerResult.cs" />
     <Compile Include="MarkerRTCompiler.cs" />
     <Compile Include="MarkersProviderFactory.cs" />

@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     public class DateUrlArg : QueryComponents
     {

@@ -2,23 +2,29 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FocusApiAccess;
+using FocusAccess;
 
 namespace FocusScoring
 {
     class Scorer<T> : IScorer<T>
     {
-        private readonly IMarkersProvider<T> provider;
+        private readonly Api3 api;
+        private readonly IList<IMarkerChecker<T>> markerCheckers;
 
-        public Scorer(IMarkersProvider<T> provider)
+        public Scorer(Api3 api, IMarkersProvider<T> markersProvider, IChecksProvider<T> checksProvider)
         {
-            this.provider = provider;
+            this.api = api;
+            markerCheckers = markersProvider.Markers
+                .Select(x=>new MarkerChecker<T>(x,checksProvider.Provide(x)))
+                .Cast<IMarkerChecker<T>>().ToList();
         }
 
-        public IScoringResult<T> Score(T inn)
+        public IScoringResult<T> Score(T target)
         {
-            var markers = provider.Markers.Select(marker => marker.Check(inn)).Where(x => x).ToArray();
-            return new ScoringResult<T>(markers, CountScore(markers.Select(x => x.Marker).ToArray()),inn);
+            var markers = markerCheckers
+                .Select(c => c.Check(target, c.Methods.Select(m => api.GetMethodResult(m, target)).ToArray()))
+                .Where(x => x).ToArray();
+            return new ScoringResult<T>(markers, CountScore(markers.Select(x => x.Marker).ToArray()),target);
         }
 
         /*public async Task<IScoringResult<T>> ScoreAsync(T inn)

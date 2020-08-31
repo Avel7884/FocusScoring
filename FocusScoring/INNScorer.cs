@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,7 +8,7 @@ using FocusApiAccess;
 
 namespace FocusScoring
 {
-    internal class INNScorer : IScorer<INN>
+    internal class INNScorer : IScorer<INN> //TODO remove obsolete class
     {    
 
         private XmlSerializer serializer = new XmlSerializer(typeof(Marker<INN>),
@@ -35,13 +35,13 @@ namespace FocusScoring
             var fioMarker = new Marker("Индивидуальный предприниматель сменил ФИО", MarkerColour.Yellow,
                 "Индивидуальный предприниматель сменил ФИО", 3,
                 company => FIOCache.HasChanged(company.Inn, company.GetParam("FIO")));
-*/
+#1#
             /*
             var tmarker =
                 new Marker("Статус компании связан с произошедшей или планируемой ликвидацией", MarkerColour.Red,
                     "Статус организации принимает значение: недействующее, в стадии ликвидации", 5,
                     "return company.GetParam(\"Dissolving\") == \"true\" || company.GetParam(\"Dissolved\") == \"true\";"); 
-            */
+            #1#
 
             //markersDict[fioMarker.Name] = fioMarker;
             //markersDict[tmarker.Name] = tmarker;
@@ -52,7 +52,7 @@ namespace FocusScoring
         {
             return markersDict[markerName].Check(inn);
         }
-*/
+#1#
 
         public IScoringResult<INN> Score(INN inn)
         {
@@ -69,7 +69,7 @@ namespace FocusScoring
             //var results = new MarkerResult<INN>[markersDict.Count];
             //markers = markersDict.Values.Select(marker => marker.Check(inn)).Where(x => x).ToArray();
             //Task.WaitAll(Enumerable.Range(0,markersDict.Count).Select(i=>new Task()));
-        }*/
+        }#1#
 /*
 
         public async Task<IScoringResult<INN>[]> ScoreAsync(INN[] inns)
@@ -78,7 +78,7 @@ namespace FocusScoring
              await Task.WhenAll(Enumerable.Range(0, inns.Length)
                 .Select(i => ScoreAsync(inns[i])).ToArray());
             return results; //TODO error thing!
-        }*/
+        }#1#
 
         public IList<Marker<INN>> Markers => markersDict.Values.ToList();
 
@@ -341,7 +341,7 @@ namespace FocusScoring
 
                 new Marker("Индивидуальный предприниматель сменил ФИО", MarkerColour.Yellow,
                     "Индивидуальный предприниматель сменил ФИО", 3,
-                    company => FIOCache.HasChanged(company.Inn, company.GetParam("FIO"))),#1#
+                    company => FIOCache.HasChanged(company.Inn, company.GetParam("FIO"))),#2#
 
                 new Marker("Организация в процессе реорганизации", MarkerColour.Yellow,
                     "Находится в процессе реорганизации в форме присоединения к другому юридическому лицу (слияние, присоединение и т.д.)",
@@ -935,6 +935,6 @@ namespace FocusScoring
             markersDict = markersList.ToDictionary(x => x.GetCodeClassName());
 
         }
-    */
+    #1#
     }
-}
+}*/

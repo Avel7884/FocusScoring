@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD281CFE-F1C3-4C1E-B2AF-22B2BB5D5EB2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FocusAccess</RootNamespace>
+    <AssemblyName>FocusAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JsonDiffPatchDotNet, Version=2.2.0.0, Culture=neutral, PublicKeyToken=a407b9994a6d66d5">
+      <HintPath>..\packages\JsonDiffPatch.Net.2.2.0\lib\net45\JsonDiffPatchDotNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api.cs" />
+    <Compile Include="ApiMethodEnum.cs" />
+    <Compile Include="AvailabilityAccess.cs" />
+    <Compile Include="DifferentialCache.cs" />
+    <Compile Include="FocusKey.cs" />
+    <Compile Include="ForcedJsonAccess.cs" />
+    <Compile Include="IDifferentialApi.cs" />
+    <Compile Include="IJsonAccess.cs" />
+    <Compile Include="IJsonCache.cs" />
+    <Compile Include="INN.cs" />
+    <Compile Include="JsonAccess.cs" />
+    <Compile Include="JsonDownload.cs" />
+    <Compile Include="JsonFileSystemCache.cs" />
+    <Compile Include="MultiRequestCache.cs" />
+    <Compile Include="Parameters\ByUrlArg.cs" />
+    <Compile Include="Parameters\DatedPersonUrlArg.cs" />
+    <Compile Include="Parameters\DatedQueryUrlArg.cs" />
+    <Compile Include="Parameters\DateUrlArg.cs" />
+    <Compile Include="Parameters\EmptyUrlArg.cs" />
+    <Compile Include="Parameters\InnflUrlArg.cs" />
+    <Compile Include="Parameters\InnListUrlArg.cs" />
+    <Compile Include="Parameters\InnUrlArg.cs" />
+    <Compile Include="Parameters\IPostArguments.cs" />
+    <Compile Include="Parameters\IQueryComponents.cs" />
+    <Compile Include="Parameters\IUrlQueryArg.cs" />
+    <Compile Include="Parameters\KzUrlArg.cs" />
+    <Compile Include="Parameters\NzaUrlArg.cs" />
+    <Compile Include="Parameters\PassportsUrlArg.cs" />
+    <Compile Include="Parameters\QueryComponents.cs" />
+    <Compile Include="Parameters\QueryUrlArg.cs" />
+    <Compile Include="Parameters\QUrlArg.cs" />
+    <Compile Include="Parameters\SingleQuery.cs" />
+    <Compile Include="Parameters\SkipableInnUrlArg.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponseClasses\Analytic.cs" />
+    <Compile Include="ResponseClasses\BankGuarantees.cs" />
+    <Compile Include="ResponseClasses\BeneficialOwners.cs" />
+    <Compile Include="ResponseClasses\Buh.cs" />
+    <Compile Include="ResponseClasses\ByCompanyDetails.cs" />
+    <Compile Include="ResponseClasses\CheckPassportValue.cs" />
+    <Compile Include="ResponseClasses\Contacts.cs" />
+    <Compile Include="ResponseClasses\EgrDetails.cs" />
+    <Compile Include="ResponseClasses\FizBankr.cs" />
+    <Compile Include="ResponseClasses\FnsBlockedBankAccounts.cs" />
+    <Compile Include="ResponseClasses\ForeignRepresentatives.cs" />
+    <Compile Include="ResponseClasses\FsaValue.cs" />
+    <Compile Include="ResponseClasses\Fssp.cs" />
+    <Compile Include="ResponseClasses\GovPurchasesOfCustomerValue.cs" />
+    <Compile Include="ResponseClasses\GovPurchasesOfParticipantValue.cs" />
+    <Compile Include="ResponseClasses\IMultiValue.cs" />
+    <Compile Include="ResponseClasses\IParameterValue.cs" />
+    <Compile Include="ResponseClasses\KzCompanyDetails.cs" />
+    <Compile Include="ResponseClasses\Licenses.cs" />
+    <Compile Include="ResponseClasses\MonValue.cs" />
+    <Compile Include="ResponseClasses\PepSearch.cs" />
+    <Compile Include="ResponseClasses\PersonBankruptcy.cs" />
+    <Compile Include="ResponseClasses\Req.cs" />
+    <Compile Include="ResponseClasses\ReqBase.cs" />
+    <Compile Include="ResponseClasses\SanctionedPersonsValue.cs" />
+    <Compile Include="ResponseClasses\Sites.cs" />
+    <Compile Include="ResponseClasses\StatValue.cs" />
+    <Compile Include="ResponseClasses\Suggest.cs" />
+    <Compile Include="ResponseClasses\Taxes.cs" />
+    <Compile Include="ResponseClasses\Trademarks.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SingleJsonMemoryCache.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

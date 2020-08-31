@@ -3,11 +3,11 @@ using System.IO;
 using System.Net;
 using System.Runtime.InteropServices;
 using System.Text;
-using FocusApiAccess.Methods;
-using FocusApiAccess.ResponseClasses;
+using FocusAccess.Methods;
+using FocusAccess.ResponseClasses;
 using Newtonsoft.Json;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     internal class JsonDownload : IJsonAccess
     {

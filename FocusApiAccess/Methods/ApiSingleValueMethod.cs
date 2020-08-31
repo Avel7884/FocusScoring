@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using FocusApiAccess.ResponseClasses;
+using FocusAccess.ResponseClasses;
 using Newtonsoft.Json;
 
-namespace FocusApiAccess.Methods
+namespace FocusAccess.Methods
 {
     internal class ApiSingleValueMethod<TData, TQuery> : 
         ApiMethod<TData,TQuery>,

@@ -1,7 +1,7 @@
 using System;
 using System.Dynamic;
 using System.Net.Sockets;
-using FocusApiAccess;
+using FocusAccess;
 
 namespace FocusApp
 {
@@ -18,9 +18,13 @@ namespace FocusApp
 
     public enum SubjectParameter
     {
-        Address,
-        Name,
         Inn,
-        Score
+        Name,
+        Address,
+        Score,
+        FIO,
+        Phone,
+        Site,
+        Shield
     }
 }

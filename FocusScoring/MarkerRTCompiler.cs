@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
@@ -93,7 +93,7 @@ namespace FocusScoring
 
             public ResultHolder(Marker<TTarget> marker)
             {
-                this.Name = 
+                Name = marker.GetCodeClassName();
                             //TODO rewrite with @$ or something
                 Code = classCore.Replace("__Name", Name)
                                 .Replace("__Code", marker.Code)//CheckArguments["C#Code"])
@@ -111,4 +111,4 @@ namespace FocusScoring
             }
         }
     }
-}
+}*/

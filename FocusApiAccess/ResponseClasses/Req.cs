@@ -1,4 +1,8 @@
-namespace FocusApiAccess.ResponseClasses
+using System.Linq;
+using System.Runtime.Remoting;
+using System.Text;
+
+namespace FocusAccess.ResponseClasses
 {
     using System;
     using System.Collections.Generic;
@@ -52,6 +56,73 @@ namespace FocusApiAccess.ResponseClasses
         /// </summary>
         [JsonProperty("UL", NullValueHandling = NullValueHandling.Ignore)]
         public Ul Ul { get; set; }
+        
+        [JsonIgnore]
+        public string Address
+        {
+            get
+            {
+                var addr = Ul?.LegalAddress.ParsedAddressRf; //?? Ip.
+                var parsed = new List<string>();
+                
+                if (addr.RegionName != null)
+                {
+                    parsed.Add(addr.RegionName.TopoShortName);
+                    parsed.Add(". ");
+                    parsed.Add(addr.RegionName.TopoValue);
+                }
+                if (addr.City != null)
+                {
+                    parsed.Add(addr.City.TopoShortName);
+                    parsed.Add(". ");
+                    parsed.Add(addr.City.TopoValue);
+                }
+                if (addr.Settlement != null)
+                {
+                    parsed.Add(addr.Settlement.TopoShortName);
+                    parsed.Add(". ");
+                    parsed.Add(addr.Settlement.TopoValue);
+                }
+                if (addr.District != null)
+                {
+                    parsed.Add(addr.District.TopoShortName);
+                    parsed.Add(". ");
+                    parsed.Add(addr.District.TopoValue);
+                }
+                if (addr.Street != null)
+                {
+                    parsed.Add(addr.Street.TopoShortName);
+                    parsed.Add(". ");
+                    parsed.Add(addr.Street.TopoValue);
+                }
+                if (addr.House != null)
+                {
+                    parsed.Add(addr.House.TopoShortName);
+                    parsed.Add(". ");
+                    parsed.Add(addr.House.TopoValue);
+                }
+                if (addr.Bulk != null)
+                {
+                    parsed.Add(addr.Bulk.TopoShortName);
+                    parsed.Add(". ");
+                    parsed.Add(addr.Bulk.TopoValue);
+                }
+                if (addr.Flat != null)
+                {
+                    parsed.Add(addr.Flat.TopoShortName);
+                    parsed.Add(". ");
+                    parsed.Add(addr.Flat.TopoValue);
+                }
+
+                return string.Join(" ", parsed);
+            }
+        }
+
+        public string Status() =>
+            Ip?.Status.Value.String ?? Ul?.Status.Value.String; 
+        
+        public DateTime RegistrationDate => 
+            DateTime.Parse(Ul?.RegistrationDate ?? Ip.RegistrationDate ?? throw new ServerException("Bad thing happened!"));
     }
 
     /// <summary>

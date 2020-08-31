@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Xml;
-using FocusApiAccess.Methods;
-using FocusApiAccess.ResponseClasses;
+using FocusAccess.Methods;
+using FocusAccess.ResponseClasses;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     internal class JsonAccess : IJsonAccess
     {

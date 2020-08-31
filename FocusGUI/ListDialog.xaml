@@ -13,6 +13,15 @@
     <StackPanel>
         <Label Content="Название списка" Background="{x:Null}" FontFamily="Leelawadee UI Semilight" MinHeight="27" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
         <TextBox Name="ListName" TextWrapping="Wrap" Text=""  Margin='5' Width="150" HorizontalAlignment="Left"/>
+        
+        <Label Content="Отображаемые параметры" Background="{x:Null}" FontFamily="Leelawadee UI Semilight" MinHeight="27" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        <DataGrid AutoGenerateColumns="False" Name="ParametersGrid"/><!--
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="Binding Item1" />
+                <DataGridCheckBoxColumn Binding="Binding Item2" />
+            </DataGrid.Columns>
+        </DataGrid>-->
+        
         <Label Content="Список ИНН" Background="{x:Null}" FontFamily="Leelawadee UI Semilight" MinHeight="27" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>        
         <TextBox Name="Inns"  TextWrapping="Wrap" Text=""  Margin="5,5,5,10"
                  Height="120"

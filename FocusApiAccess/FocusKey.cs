@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Xml;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     public class FocusKey : IUrlQueryArg
     {

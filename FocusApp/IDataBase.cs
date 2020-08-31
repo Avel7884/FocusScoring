@@ -2,9 +2,9 @@ using System.Collections.Generic;
 
 namespace FocusApp
 {
-    public interface IDataBase<TSubject>
+    public interface IDataBase<TSubject> : IReadOnlyList<DataEntry<TSubject>>
     {
-        IEnumerable<DataEntry<TSubject>> Data { get; }
+        //IEnumerable<DataEntry<TSubject>> Data { get; }
         void Write(params DataEntry<TSubject>[] writeData);
         void AddColumns(string[][] columns);
         void Delete(TSubject subject);

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using FocusApiAccess.Methods;
-using FocusApiAccess.Response;
-using FocusApiAccess.ResponseClasses;
+using FocusAccess.Methods;
+using FocusAccess.Response;
+using FocusAccess.ResponseClasses;
 
-namespace FocusApiAccess
+namespace FocusAccess
 {
     public class Api3
     {
@@ -51,6 +51,19 @@ namespace FocusApiAccess
         public static Type GetType(ApiMethodEnum eValue)
         {   // TODO implement switch
             return typeof(Api3).GetProperty(eValue.ToString())?.PropertyType.GenericTypeArguments[0];
+        }
+
+        public object GetMethodResult(ApiMethodEnum method, object inn)
+        {
+            switch (method)
+            {
+                case ApiMethodEnum.analytics: 
+                    return Analytics.MakeRequest(new InnUrlArg(inn as INN));
+                case ApiMethodEnum.req:
+                    return Req.MakeRequest(new InnUrlArg(inn as INN));
+                default: 
+                    throw new NotSupportedException("You just wait.");
+            }
         }
         
         public IApiMultiRequestMethod<ByCompanyDetailsValue, ByUrlArg> ByCompanyDetails { get; }
