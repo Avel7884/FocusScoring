@@ -15,7 +15,7 @@ namespace FocusAccess
         }
 
         public bool TryGetJson< TQuery>(ApiMethodEnum method, TQuery args, out string json)
-            where TQuery : IQueryComponents
+            where TQuery : IQuery
         {
             for (int i = 0; i < caches.Count; i++)
                 if (caches[i].TryGetJson(method,args, out json))

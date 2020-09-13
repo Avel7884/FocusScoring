@@ -18,13 +18,13 @@ namespace FocusAccess
             string EgrDetailsMon(DateUrlArg date);
             string ReqMon(DateUrlArg date);
             string Stat();*/
-            string GetValue(ApiMethodEnum method,IQueryComponents arg);
+            string GetValue(ApiMethodEnum method,IQuery arg);
 
             string GetValue<TQuery>(ApiMethodEnum method,TQuery[] arg)
-                where TQuery : IQueryComponents, new() //TODO Deserialization
+                where TQuery : IQuery, new() //TODO Deserialization
             ;
 
-            string GetValues(ApiMethodEnum method,IQueryComponents arg);
+            string GetValues(ApiMethodEnum method,IQuery arg);
         }
 
     public class DifferentialApi : IDifferentialApi
@@ -36,17 +36,17 @@ namespace FocusAccess
             access = key.Access;
         }
         
-        public string GetValue(ApiMethodEnum method, IQueryComponents arg)
+        public string GetValue(ApiMethodEnum method, IQuery arg)
+        {
+            return access.TryGetJson(method, arg, out var json) ? json : default;
+        }
+
+        public string GetValue<TQuery>(ApiMethodEnum method, TQuery[] arg) where TQuery : IQuery, new()
         {
             throw new System.NotImplementedException();
         }
 
-        public string GetValue<TQuery>(ApiMethodEnum method, TQuery[] arg) where TQuery : IQueryComponents, new()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public string GetValues(ApiMethodEnum method, IQueryComponents arg)
+        public string GetValues(ApiMethodEnum method, IQuery arg)
         {
             throw new System.NotImplementedException();
         }

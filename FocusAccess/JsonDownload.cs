@@ -17,7 +17,7 @@ namespace FocusAccess
         }
 
         public bool TryGetJson<TQuery>(ApiMethodEnum method, TQuery args, out string json)
-            where TQuery : IQueryComponents
+            where TQuery : IQuery
         {                                
             var req = $"{Settings.ApiUrl}{method}?{focusKey.ToQueryArg()}&{args.AssembleQuery()}";
             if (args is IPostArguments postArguments)

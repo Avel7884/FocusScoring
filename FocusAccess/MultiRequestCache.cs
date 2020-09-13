@@ -9,17 +9,17 @@ namespace FocusAccess
             this.cache = cache;
         }
 
-        public bool TryGetJson<TQuery>(ApiMethodEnum parameter, TQuery args, out string json) where TQuery : IQueryComponents
+        public bool TryGetJson<TQuery>(ApiMethodEnum parameter, TQuery args, out string json) where TQuery : IQuery
         {
             throw new System.NotImplementedException();
         }
 
-        public void Update<TQuery>(ApiMethodEnum method, TQuery args, string json) where TQuery : IQueryComponents
+        public void Update<TQuery>(ApiMethodEnum method, TQuery args, string json) where TQuery : IQuery
         {
             throw new System.NotImplementedException();
         }
 
-        public void Clear<TQuery>(ApiMethodEnum method, TQuery args) where TQuery : IQueryComponents
+        public void Clear<TQuery>(ApiMethodEnum method, TQuery args) where TQuery : IQuery
         {
             throw new System.NotImplementedException();
         }

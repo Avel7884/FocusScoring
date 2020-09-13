@@ -19,13 +19,13 @@ namespace FocusAccess
             this.cache = cache;
         }
     
-        public bool TryGetJson<TQuery>(ApiMethodEnum parameter, TQuery args, out string json) where TQuery : IQueryComponents
+        public bool TryGetJson<TQuery>(ApiMethodEnum parameter, TQuery args, out string json) where TQuery : IQuery
         {
             json = default;
             return false;
         }
 
-        public void Update<TQuery>(ApiMethodEnum method, TQuery args, string json) where TQuery : IQueryComponents
+        public void Update<TQuery>(ApiMethodEnum method, TQuery args, string json) where TQuery : IQuery
         {
             if (!cache.TryGetJson(method, args, out var pastJson))
             {
@@ -38,7 +38,7 @@ namespace FocusAccess
             stack.Push(diff);
         }
 
-        public void Clear<TQuery>(ApiMethodEnum method, TQuery args) where TQuery : IQueryComponents
+        public void Clear<TQuery>(ApiMethodEnum method, TQuery args) where TQuery : IQuery
         {
             throw new System.NotImplementedException();
         }

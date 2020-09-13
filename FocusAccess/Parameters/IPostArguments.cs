@@ -1,6 +1,6 @@
 namespace FocusAccess
 {
-    public interface IPostArguments : IQueryComponents
+    public interface IPostArguments : IQuery
     {
         string Data { get; }
     }

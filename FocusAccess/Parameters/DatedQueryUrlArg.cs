@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace FocusAccess
 {
-    public class DatedQueryUrlArg : QueryComponents
+    public class DatedQueryUrlArg : Query
     {
 
         public DatedQueryUrlArg(string query, DateTime date) 

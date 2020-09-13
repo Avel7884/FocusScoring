@@ -43,9 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChangesCollection.cs" />
+    <Compile Include="JsonConverters.cs" />
     <Compile Include="MonitoringFactory.cs" />
     <Compile Include="Monitorer.cs" />
-    <Compile Include="MonitoringChange.cs" />
+    <Compile Include="MonitoringChanges.cs" />
     <Compile Include="MonitoringCollection.cs" />
     <Compile Include="MonitoringResult.cs" />
     <Compile Include="MonitoringSet.cs" />

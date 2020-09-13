@@ -2,7 +2,7 @@ using System.Linq;
 
 namespace FocusAccess
 {
-    public class InnListUrlArg : QueryComponents, IPostArguments
+    public class InnListUrlArg : Query, IPostArguments
     {
         public InnListUrlArg(params string[] inns)
         {

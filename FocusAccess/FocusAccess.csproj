@@ -70,12 +70,12 @@
     <Compile Include="Parameters\InnListUrlArg.cs" />
     <Compile Include="Parameters\InnUrlArg.cs" />
     <Compile Include="Parameters\IPostArguments.cs" />
-    <Compile Include="Parameters\IQueryComponents.cs" />
+    <Compile Include="Parameters\IQuery.cs" />
     <Compile Include="Parameters\IUrlQueryArg.cs" />
     <Compile Include="Parameters\KzUrlArg.cs" />
     <Compile Include="Parameters\NzaUrlArg.cs" />
     <Compile Include="Parameters\PassportsUrlArg.cs" />
-    <Compile Include="Parameters\QueryComponents.cs" />
+    <Compile Include="Parameters\Query.cs" />
     <Compile Include="Parameters\QueryUrlArg.cs" />
     <Compile Include="Parameters\QUrlArg.cs" />
     <Compile Include="Parameters\SingleQuery.cs" />

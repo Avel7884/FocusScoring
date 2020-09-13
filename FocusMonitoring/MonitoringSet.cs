@@ -8,38 +8,41 @@ namespace FocusMonitoring
 {
     public class MonitoringSet : IRelivingChangesMonitoringSet
     {
-        internal readonly string filePath;
+        [JsonIgnore]
+        private readonly MonitoringFactory factory;
         //private FileStream file;
         //private IRelivingChangesMonitoringSet source;
 
-        public MonitoringSet(string filePath)
+        internal MonitoringSet(MonitoringFactory factory)
         {
+            this.factory = factory;
             //this.filePath = filePath;
         }
+/*
 
+        [JsonIgnore]
+        public string FilePath { get; set; }
+        */
 
         public bool HasNewChanges
         {
-            get => source.HasNewChanges;
-            set => source.HasNewChanges = value;
+            get;
+            set;
         }
 
         public IList<MonitoringTarget> Targets 
         {
-            get => source.Targets;
-            set => source.Targets = value;
-        }
-        public DateTime Date 
-        {
-            get => source.Date;
-            set => source.Date = value;
+            get;
+            set;
         }
         
-        public void Dispose()
+        public DateTime Date 
         {
-            using (var writer = new StreamWriter(file))
-                writer.Write(JsonConvert.SerializeObject(source));
-            file.Dispose();
+            get;
+            set;
         }
+
+        public void Dispose() =>
+            factory.SaveSet(this);
     }
 }

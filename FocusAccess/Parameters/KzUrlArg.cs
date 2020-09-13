@@ -1,6 +1,6 @@
 namespace FocusAccess
 {
-    public class KzUrlArg : QueryComponents
+    public class KzUrlArg : Query
     {
         public KzUrlArg(string query) : base(query)
         {}

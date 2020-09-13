@@ -16,13 +16,14 @@ namespace FocusMonitoring
 
     public interface IMonitorer
     {
-        MonitoringResult[] PerformMonitoring();
+        void PerformMonitoring();
     }
 
     public class Monitorer : IMonitorer
     {
         private readonly IApi3 api;
         private readonly IDifferentialApi differentialApi;
+        private readonly MonitoringFactory factory;
         private readonly string monitoringFolder;
         private readonly string monitoringSetFile;
 
@@ -33,22 +34,27 @@ namespace FocusMonitoring
         private readonly IReadOnlyCollection<MonitoringChange> onMonitoring;*/
         //private readonly IMonitoringSet monitoringSet;
 
-        public Monitorer(IApi3 api, IDifferentialApi differentialApi, string monitoringFolder = "./", string monitoringSetFile = "OnMonitoring")//,string onMonitoringPastFile = "OnMonitoringPast")
+        public Monitorer(IApi3 api, IDifferentialApi differentialApi, MonitoringFactory factory, bool enableShortLog = true)//,string onMonitoringPastFile = "OnMonitoringPast")
         {
             this.api = api;/*
             onMonitoringPast = new ChangesCollection(monitoringFolder + onMonitoringPastFile);
             onMonitoring = new ChangesCollection(monitoringFolder + onMonitoringFile);*/
             this.differentialApi = differentialApi;
-            this.monitoringFolder = monitoringFolder;
-            this.monitoringSetFile = monitoringSetFile;
+            this.factory = factory;
+            //this.monitoringFolder = monitoringFolder;
+            //this.monitoringSetFile = monitoringSetFile;
             //monitoringSet = new MonitoringSet(monitoringFolder + monitoringSetFile);
         }
 
-        public MonitoringResult[] PerformMonitoring()
+        public void PerformMonitoring()
         {
             //var monitoringSet = JsonConvert.DeserializeObject<MonitoringSet>(File.ReadAllText(monitoringFolder + monitoringSetFile));
-            using var monitoringSet = new MonitoringSet(monitoringFolder + monitoringSetFile);
+            using var monitoringSet = factory.OpenRelivingSet();
             EnsureMonitoringList(monitoringSet);
+
+            var updateTime = DateTime.Today + TimeSpan.FromHours(9);
+            if (DateTime.UtcNow > updateTime || monitoringSet.Date.ToUniversalTime() > updateTime)
+                return;// new MonitoringResult[0];
             
             reqMon = api.ReqMon(monitoringSet.Date);
             egrMon = api.EgrDetailsMon(monitoringSet.Date);
@@ -57,15 +63,15 @@ namespace FocusMonitoring
             
             foreach (var t in monitoringSet.Targets)
                 if((diff = TryExtractDifference(t)) != "")
-                {
+                { //TODO non interruptible region needed
                     using (var file = File.AppendText(t.MakeFileName()))
-                        file.WriteLine(diff);
+                        file.WriteLine(DateTime.Today + " " + diff);
                     targets.Add(new MonitoringResult{Target = t, Changes = diff});
                 }
 
             monitoringSet.HasNewChanges = false;
             monitoringSet.Date = DateTime.Now;
-            return targets.ToArray();
+            factory.WriteShortLog(targets);
         }
 
         private string TryExtractDifference(MonitoringTarget target) => //To avoid using braces in switch
@@ -80,7 +86,7 @@ namespace FocusMonitoring
                 _ => differentialApi.GetValue(target.Method, target.Target)
             };
 
-        private void EnsureMonitoringList( IMonitoringSet monitoringSet)
+        private void EnsureMonitoringList(IRelivingChangesMonitoringSet monitoringSet)
         {
             /*var ad = onMonitoringPast.ToHashSet();
             var sa = onMonitoring.ToHashSet();
@@ -92,7 +98,7 @@ namespace FocusMonitoring
                         .Where(t => t.Method == ApiMethodEnum.req || t.Method == ApiMethodEnum.egrDetails)
                         .Select(t => t.Target as InnUrlArg)
                         .ToArray()));
-
+            monitoringSet.HasNewChanges = false;
         }
     }
 }

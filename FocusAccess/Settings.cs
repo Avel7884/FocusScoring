@@ -27,6 +27,6 @@ namespace FocusAccess
             }
         }*/
 
-        public static string ApiUrl { get; set; } = "https://focus-api.kontur.ru/api3";
+        public static string ApiUrl { get; set; } = "https://focus-api.kontur.ru/api3/";
     }
 }

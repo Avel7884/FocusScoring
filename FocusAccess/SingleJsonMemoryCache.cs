@@ -6,13 +6,13 @@ namespace FocusAccess
 {
     internal class SingleJsonMemoryCache : IJsonCache
     {
-        private IQueryComponents qComponents;
+        private IQuery q;
         private string method;
         private bool cleared = false; 
         private object document; //TODO something
 
         public bool TryGetJson<TQuery>(ApiMethodEnum method, TQuery args, out string json)
-            where TQuery : IQueryComponents
+            where TQuery : IQuery
         {
             /*if (!cleared && qComponents == args && method.Url == this.method)
             {
@@ -26,16 +26,16 @@ namespace FocusAccess
         }
 
         public void Update<TQuery>(ApiMethodEnum method, TQuery args, string json)
-            where TQuery : IQueryComponents
+            where TQuery : IQuery
         {
             cleared = false;
-            qComponents = args;
+            q = args;
             this.method = method.ToString();//.Url;//TODO Make proper property
             document = json;
         }
 
         public void Clear<TQuery>(ApiMethodEnum method, TQuery args)
-            where TQuery : IQueryComponents
+            where TQuery : IQuery
         {
             cleared = true;
         }

@@ -6,12 +6,12 @@ using FocusAccess;
 
 namespace FocusScoring
 {
-    class Scorer<T> : IScorer<T>
+    class Scorer<T> : IScorer<T> where T : IQuery
     {
-        private readonly Api3 api;
+        private readonly IApi3 api;
         private readonly IList<IMarkerChecker<T>> markerCheckers;
 
-        public Scorer(Api3 api, IMarkersProvider<T> markersProvider, IChecksProvider<T> checksProvider)
+        public Scorer(IApi3 api, IMarkersProvider<T> markersProvider, IChecksProvider<T> checksProvider)
         {
             this.api = api;
             markerCheckers = markersProvider.Markers
@@ -22,7 +22,7 @@ namespace FocusScoring
         public IScoringResult<T> Score(T target)
         {
             var markers = markerCheckers
-                .Select(c => c.Check(target, c.Methods.Select(m => api.GetMethodResult(m, target)).ToArray()))
+                .Select(c => c.Check(target, c.Methods.Select(m => api.GetValue(m, target)).ToArray()))
                 .Where(x => x).ToArray();
             return new ScoringResult<T>(markers, CountScore(markers.Select(x => x.Marker).ToArray()),target);
         }

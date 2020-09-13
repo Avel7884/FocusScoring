@@ -1,10 +1,10 @@
 namespace FocusAccess
 {
-    public class InnUrlArg : QueryComponents
+    public class InnUrlArg : Query
     {
-
-        public InnUrlArg(INN inn) : base(inn.ToString())
-        {}
+        public INN Inn { get; }
+        
+        public InnUrlArg(INN inn) : base(inn.ToString()) => Inn = inn;
 
         public InnUrlArg() : base("")
         {}

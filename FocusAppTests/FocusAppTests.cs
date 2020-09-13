@@ -13,7 +13,7 @@ namespace FocusAppTests
     public class FocusAppTests
     {
         private IDataManager manager;
-        private Api3 Api;
+        private IApi3 Api;
         private FocusKey Key;
         private IFocusDataBase<INN> CurrentDataBase;
 
@@ -27,7 +27,7 @@ namespace FocusAppTests
         public void SetUp()
         {
             Key = new FocusKey("3208d29d15c507395db770d0e65f3711e40374df");
-            Api = Key.StartApiAccess();
+            Api = new Api(Key);
             Directory.CreateDirectory(Settings.CachePath + Settings.AppCacheFolder);
             var scorer = ScorerFactory.CreateEmptyINNScorer();
             manager = new DataManager(new EntryFactory(Api, scorer));

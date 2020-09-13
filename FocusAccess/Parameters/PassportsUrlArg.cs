@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace FocusAccess
 {
-    public class PassportsUrlArg : QueryComponents
+    public class PassportsUrlArg : Query
     {
         public PassportsUrlArg(string[] query) 
             : base(string.Join(",",query)) {}

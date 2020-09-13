@@ -16,7 +16,7 @@ namespace FocusGUI
     public partial class MainWindow
     {
         private FocusKey Key;
-        private Api3 Api;
+        private IApi3 Api;
         private readonly IDataManager dataManager;
         private readonly TargetColumnController<INN> targetColumnController;
         
@@ -32,7 +32,7 @@ namespace FocusGUI
         {
             InitializeComponent();
             Key = new FocusKey("3208d29d15c507395db770d0e65f3711e40374df");
-            Api = Key.StartApiAccess();
+            Api = new Api(Key);
             var scorer = ScorerFactory.CreateLibraryINNScorer(Api);
             /*var markers = new MarkersView(); 
             var subjects = new SubjectsView(Api,scorer,markers);

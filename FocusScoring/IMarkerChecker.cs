@@ -8,22 +8,22 @@ namespace FocusScoring
     public interface IMarkerChecker<TTarget>
     {
         ApiMethodEnum[] Methods { get; }
-        MarkerResult<TTarget> Check(TTarget target, object[] values);
+        MarkerResult<TTarget> Check(TTarget target, IParameterValue[] values);
     }
 
     public class MarkerChecker<TTarget> : IMarkerChecker<TTarget>
     {
         protected Marker<TTarget> marker;
-        protected Func<object[], CheckResult> check;
+        protected Func<IParameterValue[], CheckResult> check;
 
-        public MarkerChecker(Marker<TTarget> marker,Func<object[], CheckResult> check)
+        public MarkerChecker(Marker<TTarget> marker,Func<IParameterValue[], CheckResult> check)
         {
             this.marker = marker;
             this.check = check;
             Methods = marker.Methods;
         }
         
-        public MarkerResult<TTarget> Check(TTarget target, object[] values)
+        public MarkerResult<TTarget> Check(TTarget target, IParameterValue[] values)
         {
             var checkResult = check.Invoke(values);
             return new MarkerResult<TTarget>(checkResult.Result, marker, checkResult.Verbose, target);

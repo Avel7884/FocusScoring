@@ -1,17 +1,18 @@
 using System;
+using FocusAccess.ResponseClasses;
 
 namespace FocusScoring
 {
     public interface IChecksProvider<TTarget>
     {
          string MarkerArgName { get; }
-         Func<object[], CheckResult> Provide(Marker<TTarget> Marker);
+         Func<IParameterValue[], CheckResult> Provide(Marker<TTarget> Marker);
     }
 
     class ChecksProviderFromLibrary<TTarget> : IChecksProvider<TTarget>
     {
         public string MarkerArgName { get; }
-        public Func<object[], CheckResult> Provide(Marker<TTarget> Marker)
+        public Func<IParameterValue[], CheckResult> Provide(Marker<TTarget> Marker)
         {
             throw new NotImplementedException();
         }
@@ -27,7 +28,7 @@ namespace FocusScoring
             this.compiler = compiler;
         }
 
-        public Func<object[], CheckResult> Provide(Marker<TTarget> Marker) =>
+        public Func<IParameterValue[], CheckResult> Provide(Marker<TTarget> Marker) =>
             compiler.AddToCompilation(Marker.CheckArguments[MarkerArgName]);
     }
 }

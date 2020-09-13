@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace FocusAccess
 {
-    public class FocusKey : IUrlQueryArg
+    public class FocusKey_past : IUrlQueryArg
     {
         private string key;
         private Api3 api;

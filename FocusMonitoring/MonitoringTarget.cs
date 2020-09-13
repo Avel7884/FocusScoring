@@ -4,13 +4,13 @@ namespace FocusMonitoring
 {
     public class MonitoringTarget 
     {
-        public MonitoringTarget(ApiMethodEnum method, IQueryComponents target)
+        public MonitoringTarget(ApiMethodEnum method, IQuery target)
         {
             Target = target;
             Method = method;
         }
         
-        public IQueryComponents Target { get; set; }
+        public IQuery Target { get; set; }
         public ApiMethodEnum Method { get; set; }
 
         public string MakeFileName()

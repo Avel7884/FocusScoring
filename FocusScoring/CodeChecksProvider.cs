@@ -12,7 +12,7 @@ using FocusScoring;
 
 namespace FocusMarkers
 {
-    public abstract class CodeChecksProvider : IChecksProvider<INN>
+    public abstract class CodeChecksProvider : IChecksProvider<InnUrlArg>
     {
         public string MarkerArgName => "LibraryCheckMethodName";
         /*
@@ -29,12 +29,12 @@ namespace FocusMarkers
             throw new KeyNotFoundException("Things went wrong."); //TODO make exception
         }*/
 
-        private static bool IsParameterMatch(object[] objects, MethodInfo info) => 
+        private static bool IsParameterMatch(IParameterValue[] objects, MethodInfo info) => 
             objects.Length == info.GetParameters().Length &&
             objects.All(x => x != null) &&
             info.GetParameters().Zip(objects,(t,o)=>o.GetType() == t.ParameterType).All(x=>x);
 
-        public Func<object[], CheckResult> Provide(Marker<INN> Marker)
+        public Func<IParameterValue[], CheckResult> Provide(Marker<InnUrlArg> Marker)
         {
             MethodInfo methodInfo;
             if (!Marker.CheckArguments.TryGetValue(MarkerArgName, out var checkArg) ||

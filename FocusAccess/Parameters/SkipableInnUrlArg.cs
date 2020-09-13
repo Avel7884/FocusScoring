@@ -2,7 +2,7 @@ using System.Linq;
 
 namespace FocusAccess
 {
-    public class SkipableInnUrlArg : QueryComponents
+    public class SkipableInnUrlArg : Query
     {
 
         public SkipableInnUrlArg(INN inn, int skip ) 

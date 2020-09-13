@@ -1,6 +1,6 @@
 namespace FocusAccess
 {
-    public class NzaUrlArg : QueryComponents
+    public class NzaUrlArg : Query
     {
         public NzaUrlArg(string query)
         {}

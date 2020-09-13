@@ -20,8 +20,8 @@ namespace FocusApp
 
     public class EntryFactory : ISettableEntryFactory<INN>
     {
-        private readonly Api3 api;
-        private readonly IScorer<INN> scorer;
+        private readonly IApi3 api;
+        private readonly IScorer<InnUrlArg> scorer;
         private IReadOnlyList<SubjectParameter> parameters;
 
         public IReadOnlyList<SubjectParameter> Parameters //TODO from constructor
@@ -30,7 +30,7 @@ namespace FocusApp
             set => parameters = value;
         }
 
-        public EntryFactory(Api3 api, IScorer<INN> scorer)
+        public EntryFactory(IApi3 api, IScorer<InnUrlArg> scorer)
         {
             this.api = api;
             this.scorer = scorer;
@@ -65,21 +65,21 @@ namespace FocusApp
                 case SubjectParameter.Address:
                     return subject.IsFL
                         ? "У ИП отсутствует адресс."
-                        : api.Req.MakeRequest(subject).Address;
+                        : api.Req(subject).Address;
                 case SubjectParameter.Name:
                     return subject.IsFL 
-                        ? api.Req.MakeRequest(subject).Ip.Fio 
-                        : api.Req.MakeRequest(subject).Ul.LegalName.Short;
+                        ? api.Req(subject).Ip.Fio 
+                        : api.Req(subject).Ul.LegalName.Short;
                 case SubjectParameter.Inn:
                     return subject.ToString();
                 case SubjectParameter.Score:
                     return score.ToString();
                 case SubjectParameter.FIO:
                     return subject.IsFL
-                        ? api.Req.MakeRequest(subject).Ip.Fio
-                        : api.Req.MakeRequest(subject).Ul.Heads[0].Fio;
+                        ? api.Req(subject).Ip.Fio
+                        : api.Req(subject).Ul.Heads[0].Fio;
                 case SubjectParameter.Site:
-                    return api.Sites.MakeRequest(subject).Sites[0];
+                    return api.Sites(subject).Sites[0];
                 default:
                     throw new ArgumentOutOfRangeException(nameof(parameter), parameter, null);
             }

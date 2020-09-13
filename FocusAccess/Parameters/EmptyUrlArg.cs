@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace FocusAccess
 {
-    internal class EmptyUrlArg: IQueryComponents
+    internal class EmptyUrlArg: IQuery
     {
         public string AssembleQuery()
         {

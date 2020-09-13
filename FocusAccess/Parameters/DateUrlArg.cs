@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace FocusAccess
 {
-    public class DateUrlArg : QueryComponents
+    public class DateUrlArg : Query
     {
         public DateUrlArg(DateTime query) 
             : base(query.ToString(CultureInfo.InvariantCulture))

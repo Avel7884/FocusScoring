@@ -1051,7 +1051,7 @@ namespace FocusAccess.ResponseClasses
     /// </summary>
     public enum E7014 { ВнешнееУправление, КонкурсноеПроизводство, КонкурсноеПроизводствоЗавершено, Наблюдение, НеУдалосьОпределитьСтадию, ОтказаноВПризнанииДолжникаБанкротом, ПроизводствоПоДелуПрекращено, РеализацияИмущества, РеализацияИмуществаЗавершена, РеструктуризацияДолгов, РеструктуризацияДолговЗавершена, ФинансовоеОздоровление };
 
-    internal static class Converter
+    public static class Converter
     {
         public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
         {

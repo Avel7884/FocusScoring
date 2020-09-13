@@ -19,7 +19,7 @@ namespace FocusAccess
         }
 
         public bool TryGetJson<TQuery>(ApiMethodEnum method, TQuery args, out string json)
-            where TQuery : IQueryComponents
+            where TQuery : IQuery
         {
             json = default;
             if (!method.DiscCache())
@@ -32,7 +32,7 @@ namespace FocusAccess
         }
 
         public void Update<TQuery>(ApiMethodEnum method, TQuery args, string json)
-            where TQuery : IQueryComponents
+            where TQuery : IQuery
         {
             if (!method.DiscCache()) return;
             var path = $"{Settings.CachePath}{cacheFolder}/{args.MakeAlias()}.{method.Alias()}";
@@ -41,7 +41,7 @@ namespace FocusAccess
         }
 
         public void Clear<TQuery>(ApiMethodEnum method, TQuery json)
-            where TQuery : IQueryComponents
+            where TQuery : IQuery
         {
             if (!method.DiscCache()) return;
             File.Delete($"{Settings.CachePath}{cacheFolder}/{json.MakeAlias()}.{method}");

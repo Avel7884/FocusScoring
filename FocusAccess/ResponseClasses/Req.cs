@@ -117,6 +117,8 @@ namespace FocusAccess.ResponseClasses
                 return string.Join(" ", parsed);
             }
         }
+        public string Status() =>
+            Ip?.Status.Value.String ?? Ul?.Status.Value.String; 
 
         public DateTime RegistrationDate => 
             DateTime.Parse(Ul?.RegistrationDate ?? Ip.RegistrationDate ?? throw new ServerException("Bad thing happened!"));

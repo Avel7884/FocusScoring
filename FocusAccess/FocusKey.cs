@@ -11,14 +11,17 @@ namespace FocusAccess
         private string key;
         private Api api;
 
-        public IApi3 Api => api ?? throw new InvalidOperationException("Should start api access before any action");
+        //public IApi3 Api => new Api(this);// ?? throw new InvalidOperationException("Should start api access before any action");
+        //public IDifferentialApi DifferentialApi => new DifferentialApi(this);
 
         public FocusKey(string key)
         {
             this.key = key;
             Access = CreateAccess();
             DifferentialAccess = CreateDifferentialAccess();
+            api = new Api(this);
         }
+        
 
         private JsonAccess CreateAccess()
         {
@@ -98,7 +101,7 @@ namespace FocusAccess
             get
             {
                 if (expirationDate == DateTime.MinValue)
-                    expirationDate = Api.Stat()
+                    expirationDate = api.Stat()
                         .Select(x => x.PeriodEndDate).Select(DateTime.Parse).Min();
                 return expirationDate;
             }
@@ -106,7 +109,7 @@ namespace FocusAccess
 
         private bool CheckUsages()
         {
-            var stat = Api.Stat();
+            var stat = api.Stat();
             Nominator = stat.Select(x=>x.Spent).Max() ?? throw new Exception();
             Denominator = stat[0].Limit ?? throw new Exception();
 

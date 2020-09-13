@@ -1,6 +1,6 @@
 namespace FocusAccess
 {
-    public class QueryUrlArg : QueryComponents //TODO rename to fio
+    public class QueryUrlArg : Query //TODO rename to fio
     {
         public QueryUrlArg(string fio) : base(fio) {}
 

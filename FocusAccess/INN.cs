@@ -31,7 +31,7 @@ namespace FocusAccess
 
         private static readonly int[] k = { 3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8 };
 
-        private static bool InnCheckSum(string inn)//TODO remove terreble naming it makes
+        private static bool InnCheckSum(string inn)    
         {
             var numbers = inn.Select(x => new string(new[] { x })).Select(int.Parse).ToArray();
             if (numbers.All(x => x == 0))
@@ -62,9 +62,9 @@ namespace FocusAccess
 
         public static implicit operator INN(string val)
         {
-            if(!TryParse(val,out var req))
-                throw new FormatException();
-            return req;
+            if(!TryParse(val,out var inn))
+                throw new FormatException("Некорректный инн.");
+            return inn;
         }
     }
 }

@@ -2,7 +2,7 @@ using System.Linq;
 
 namespace FocusAccess
 {
-    public abstract class SingleQuerys : IQueryComponents
+    public abstract class SingleQuerys : IQuery
     {
         private const string filter = " /\\?:*\"\'<>|";
         protected readonly string query;

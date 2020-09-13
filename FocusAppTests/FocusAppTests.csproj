@@ -46,9 +46,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FocusApiAccess\FocusApiAccess.csproj">
-      <Project>{4e3b55a1-9a1e-46c9-bcee-663e78b24dfd}</Project>
-      <Name>FocusApiAccess</Name>
+    <ProjectReference Include="..\FocusAccess\FocusAccess.csproj">
+      <Project>{ad281cfe-f1c3-4c1e-b2af-22b2bb5d5eb2}</Project>
+      <Name>FocusAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\FocusApp\FocusApp.csproj">
       <Project>{1260b3ee-a6e0-4d40-a95a-b0e694f3bff3}</Project>
