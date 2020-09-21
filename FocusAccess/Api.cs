@@ -48,7 +48,7 @@ namespace FocusAccess
             access = key.Access;  
         }
         
-        public IDifferencesStack DifferencesStack { get; }
+        //public IDifferencesStack DifferencesStack { get; }
 
         public ReqValue Req(InnUrlArg arg)
         {
@@ -93,12 +93,14 @@ namespace FocusAccess
 
         public MonValue[] EgrDetailsMon(DateUrlArg date)
         {
-            throw new NotImplementedException();
+            string json = access.TryGetJson(ApiMethodEnum.egrMon, date, out var obj) ? obj : default;
+            return JsonConvert.DeserializeObject<IList<MonValue>>(json,Converter.Settings).ToArray();
         } 
         
         public MonValue[] ReqMon(DateUrlArg date)
         {
-            throw new NotImplementedException();
+            string json = access.TryGetJson(ApiMethodEnum.reqMon, date, out var obj) ? obj : default;
+            return JsonConvert.DeserializeObject<IList<MonValue>>(json,Converter.Settings).ToArray();
         }
         
         public StatValue[] Stat()

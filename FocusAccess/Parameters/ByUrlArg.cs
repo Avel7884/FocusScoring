@@ -6,7 +6,10 @@ namespace FocusAccess
         {
             Target = target;
         }
-        
+
+        public ByUrlArg() : base()
+        {}
+
         public override string[] Keys { get; } = {"unp"};
         public UNP Target { get; }
     }

@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\JsonDiffPatchDotNet\\JsonDiffPatchDotNet.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\JsonDiffPatchDotNet\\JsonDiffPatchDotNet.csproj": {
+      "version": "2.2.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\JsonDiffPatchDotNet\\JsonDiffPatchDotNet.csproj",
+        "projectName": "JsonDiffPatch.Net",
+        "projectPath": "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\JsonDiffPatchDotNet\\JsonDiffPatchDotNet.csproj",
+        "packagesPath": "C:\\Users\\shetnikov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\JsonDiffPatchDotNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shetnikov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

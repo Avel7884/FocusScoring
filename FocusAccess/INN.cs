@@ -4,13 +4,13 @@ using System.Linq;
 
 namespace FocusAccess
 {
-    public class INN //: IUrlQueryArg
+    public class INN : IQueryable//: IUrlQueryArg
     {
         private string value;
         private bool isOGRN;
 
 
-        public bool IsFL => value.Length == 12;
+        public bool IsFL() => value.Length == 12;
         
         public static bool TryParse(string str,out INN req)
         {

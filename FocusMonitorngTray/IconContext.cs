@@ -12,6 +12,13 @@ namespace FocusMonitorngTray
         private Timer timer;
         private IMonitorer mon;
 
+        
+        
+        //TODO Begin tests
+        
+        
+        
+        
         public IconContext(IMonitorer mon)
         {
             this.mon = mon;
@@ -25,14 +32,16 @@ namespace FocusMonitorngTray
                 Visible = true
             };
             
-            Notify();
+            TryNotify();
             InitTimer();
             
         }
 
-        private void Notify()
+        private void TryNotify()
         {
-            trayIcon.BalloonTipText = File.ReadAllText("./ShortLog");
+            var text = File.ReadAllText("./ShortLog");
+            if(text == "") return;
+            trayIcon.BalloonTipText = text; 
             trayIcon.ShowBalloonTip(3000);
             mon.PerformMonitoring();
         }
@@ -47,7 +56,7 @@ namespace FocusMonitorngTray
             {
                 if (timer.Interval < TimeSpan.TicksPerDay)
                     timer.Interval = unchecked((int)TimeSpan.TicksPerDay);
-                Notify();
+                TryNotify();
             };
             timer.Start();
         }

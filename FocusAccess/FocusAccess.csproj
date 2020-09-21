@@ -33,10 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JsonDiffPatchDotNet, Version=2.2.0.0, Culture=neutral, PublicKeyToken=a407b9994a6d66d5">
-      <HintPath>..\packages\JsonDiffPatch.Net.2.2.0\lib\net45\JsonDiffPatchDotNet.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -57,6 +53,7 @@
     <Compile Include="IJsonAccess.cs" />
     <Compile Include="IJsonCache.cs" />
     <Compile Include="INN.cs" />
+    <Compile Include="IQueryable.cs" />
     <Compile Include="JsonAccess.cs" />
     <Compile Include="JsonDownload.cs" />
     <Compile Include="JsonFileSystemCache.cs" />
@@ -81,6 +78,7 @@
     <Compile Include="Parameters\SingleQuery.cs" />
     <Compile Include="Parameters\SkipableInnUrlArg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryFactory.cs" />
     <Compile Include="ResponseClasses\Analytic.cs" />
     <Compile Include="ResponseClasses\BankGuarantees.cs" />
     <Compile Include="ResponseClasses\BeneficialOwners.cs" />
@@ -116,6 +114,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JsonDiffPatchDotNet\JsonDiffPatchDotNet.csproj">
+      <Project>{f653aa1a-9c8d-484a-80cd-b067ac679fed}</Project>
+      <Name>JsonDiffPatchDotNet</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

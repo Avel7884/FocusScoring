@@ -8,15 +8,23 @@ namespace FocusAccess
     {
         req, contacts, egrDetails, analytics, licences, buh, companyAffiliatesanalytics, companyAffiliatesegrDetails, companyAffiliatesreq, stat,    
         sites, monList, briefReport,
+        reqMon,
+        egrMon
     }
     
     public static class ApiMethodEnumExtensions 
     {
         public static string Url(this ApiMethodEnum method)
         {
-            throw method switch
+            return method switch
             {
-                _ => new NotImplementedException()
+                ApiMethodEnum.req => "req",
+                ApiMethodEnum.analytics => "analytics",
+                ApiMethodEnum.egrDetails => "egrDetails",
+                ApiMethodEnum.contacts => "contacts",
+                ApiMethodEnum.reqMon => "req/mon",
+                ApiMethodEnum.egrMon => "egrDetails/mon",
+                _ => throw new NotImplementedException()
             };
         }
         public static bool DiscCache(this ApiMethodEnum method) =>
@@ -26,6 +34,8 @@ namespace FocusAccess
                 ApiMethodEnum.analytics => true,
                 ApiMethodEnum.egrDetails => true,
                 ApiMethodEnum.contacts => true,
+                ApiMethodEnum.reqMon => false,
+                ApiMethodEnum.egrMon => false,
                 _ => throw new NotImplementedException()
             };
 
@@ -33,9 +43,9 @@ namespace FocusAccess
             method switch
             {
                 ApiMethodEnum.req => true,
-                ApiMethodEnum.analytics => true,
+                //ApiMethodEnum.analytics => true,
                 ApiMethodEnum.egrDetails => true,
-                ApiMethodEnum.contacts => true,
+                //ApiMethodEnum.contacts => true,
                 _ => false
             };
 

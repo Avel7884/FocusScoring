@@ -11,14 +11,14 @@ namespace FocusScoring
             return new Scorer<INN>(new MarkersProviderController<INN>(new MarkersDeserializer<INN>(new MarkerRTCompiler<INN>())));
         }*/
 
-        public static IScorer<InnUrlArg> CreateEmptyINNScorer() => 
-            new EmptyScorer<InnUrlArg>();
+        public static IScorer<INN> CreateEmptyINNScorer() => 
+            new EmptyScorer<INN>();
         
-        public static IScorer<InnUrlArg> CreateLibraryINNScorer(IApi3 api) =>
-            new Scorer<InnUrlArg>(api, new CodeMarkerProvider(), new FocusChecksProvider());
+        public static IScorer<INN> CreateLibraryINNScorer(IApi3 api) =>
+            new Scorer<INN>(api, new CodeMarkerProvider(), new FocusChecksProvider());
     }
 
-    public class EmptyScorer<TTarget> : IScorer<TTarget> where TTarget : IQuery
+    public class EmptyScorer<TTarget> : IScorer<TTarget> where TTarget : IQueryable
     {
         public IScoringResult<TTarget> Score(TTarget target) => 
             new ScoringResult<TTarget>(new MarkerResult<TTarget>[0],0,target);

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -33,6 +34,15 @@ namespace FocusAccess
                 //TODO make errors more informative
                 var webStream = WebRequest.Create(request).GetResponseAsync();
                 webStream.Wait(5000); //TODO possible error here
+                /*try
+                {
+                    webStream.Wait(5000); //TODO possible error here
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }*/               
                 var code = ((HttpWebResponse) webStream.Result).StatusCode;
                 if ((int)code < 200 && (int)code >= 300)
                 {

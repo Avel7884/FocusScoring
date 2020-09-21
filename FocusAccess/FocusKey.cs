@@ -92,7 +92,7 @@ namespace FocusAccess
         public long Denominator { get; private set; }
         
         private DateTime expirationDate = DateTime.MinValue;
-        private JsonAccess DifferentialAccess { get; }
+        internal JsonAccess DifferentialAccess { get; }
 
         internal JsonAccess Access { get; }
 

@@ -32,7 +32,7 @@ namespace FocusAccess
                 cache.Update(method,args,json);
                 return;
             }
-
+            
             var jdp = new JsonDiffPatch();
             JToken diff = jdp.Diff(json, pastJson);
             stack.Push(diff);

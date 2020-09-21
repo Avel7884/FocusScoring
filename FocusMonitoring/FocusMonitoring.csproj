@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayExtensions.cs" />
     <Compile Include="ChangesCollection.cs" />
     <Compile Include="JsonConverters.cs" />
     <Compile Include="MonitoringFactory.cs" />

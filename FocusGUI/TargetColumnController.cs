@@ -56,7 +56,7 @@ namespace FocusGUI
                     grid.Columns.Add(new DataGridTextColumn
                     {
                         Header = dataBase.Info.Parameters[i].ToString(),
-                        Binding = new Binding($"[{i}]")
+                        Binding = new Binding($"Data[{i}]")
                     });
         }     
     }

@@ -21,7 +21,7 @@ namespace FocusApp
     public class EntryFactory : ISettableEntryFactory<INN>
     {
         private readonly IApi3 api;
-        private readonly IScorer<InnUrlArg> scorer;
+        private readonly IScorer<INN> scorer;
         private IReadOnlyList<SubjectParameter> parameters;
 
         public IReadOnlyList<SubjectParameter> Parameters //TODO from constructor
@@ -30,7 +30,7 @@ namespace FocusApp
             set => parameters = value;
         }
 
-        public EntryFactory(IApi3 api, IScorer<InnUrlArg> scorer)
+        public EntryFactory(IApi3 api, IScorer<INN> scorer)
         {
             this.api = api;
             this.scorer = scorer;
@@ -63,11 +63,11 @@ namespace FocusApp
             switch (parameter)
             {
                 case SubjectParameter.Address:
-                    return subject.IsFL
+                    return subject.IsFL()
                         ? "У ИП отсутствует адресс."
                         : api.Req(subject).Address;
                 case SubjectParameter.Name:
-                    return subject.IsFL 
+                    return subject.IsFL() 
                         ? api.Req(subject).Ip.Fio 
                         : api.Req(subject).Ul.LegalName.Short;
                 case SubjectParameter.Inn:
@@ -75,7 +75,7 @@ namespace FocusApp
                 case SubjectParameter.Score:
                     return score.ToString();
                 case SubjectParameter.FIO:
-                    return subject.IsFL
+                    return subject.IsFL()
                         ? api.Req(subject).Ip.Fio
                         : api.Req(subject).Ul.Heads[0].Fio;
                 case SubjectParameter.Site:

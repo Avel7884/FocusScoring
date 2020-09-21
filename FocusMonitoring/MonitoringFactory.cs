@@ -12,7 +12,7 @@ namespace FocusMonitoring
     public interface IMonitoringFactory
     {
         IMonitoringSet OpenSet();
-        MonitoringChanges<TResultValue> OpenChanges<TResultValue>(MonitoringTarget target);
+        MonitoringChange[] OpenChanges<TResultValue>(MonitoringTarget target);
     }
 
     public class MonitoringFactory : IMonitoringFactory
@@ -33,11 +33,11 @@ namespace FocusMonitoring
         public IMonitoringSet OpenSet() =>
             OpenRelivingSet();
 
-        public MonitoringChanges<TResultValue> OpenChanges<TResultValue>(MonitoringTarget target)
-        {
-            throw new NotImplementedException();
-        }
-        
+        public MonitoringChange[] OpenChanges<TResultValue>(MonitoringTarget target) => 
+            File.ReadAllLines(monitoringFolder + target.MakeFileName())
+                .Select(x => new MonitoringChange(x))
+                .ToArray();
+
         internal IRelivingChangesMonitoringSet OpenRelivingSet()
         { 
             file = AwaitFile(monitoringSetFilePath);

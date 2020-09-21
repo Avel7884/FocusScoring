@@ -33,7 +33,7 @@ namespace FocusAccess
 
         public DifferentialApi(FocusKey key)
         {
-            access = key.Access;
+            access = key.DifferentialAccess;
         }
         
         public string GetValue(ApiMethodEnum method, IQuery arg)

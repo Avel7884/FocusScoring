@@ -12,7 +12,7 @@ using FocusScoring;
 
 namespace FocusMarkers
 {
-    public abstract class CodeChecksProvider : IChecksProvider<InnUrlArg>
+    public abstract class CodeChecksProvider : IChecksProvider<INN>
     {
         public string MarkerArgName => "LibraryCheckMethodName";
         /*
@@ -34,7 +34,7 @@ namespace FocusMarkers
             objects.All(x => x != null) &&
             info.GetParameters().Zip(objects,(t,o)=>o.GetType() == t.ParameterType).All(x=>x);
 
-        public Func<IParameterValue[], CheckResult> Provide(Marker<InnUrlArg> Marker)
+        public Func<IParameterValue[], CheckResult> Provide(Marker<INN> Marker)
         {
             MethodInfo methodInfo;
             if (!Marker.CheckArguments.TryGetValue(MarkerArgName, out var checkArg) ||

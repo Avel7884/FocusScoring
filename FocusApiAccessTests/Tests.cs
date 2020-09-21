@@ -17,6 +17,7 @@ using NUnit.Framework;
 using NUnit.Framework.Internal;
 using Enum = System.Enum;
 using Is = NUnit.DeepObjectCompare.Is;
+using MoreLinq;
 
 namespace FocusApiAccessTests
 {
@@ -24,6 +25,7 @@ namespace FocusApiAccessTests
     public class Tests
     {
         private Api Api;
+        private DifferentialApi DiffApi { get; set; }
 
         private const string test = "[{\"inn \":\"7708037057\",\"ogrn\":\"1037739696466\",\"focusHref\":\"https:\\/\\/focus.kontur.ru\\/entity?query=1037739696466\",\"UL\":{\"kpp\":\"773001001\",\"legalName\":{\"short\":\"ГТК России\",\"full\":\"Государственный таможенный комитет Российской Федерации\",\"date\":\"2003-02-18\"},\"legalAddress\":{\"parsedAddressRF\":{\"zipCode\":\"121087\",\"kladrCode\":\"770000000002027\",\"regionCode\":\"77\",\"regionName\":{\"topoShortName\":\"г\",\"topoFullName\":\"город\",\"topoValue\":\"Москва\"},\"street\":{\"topoShortName\":\"ул\",\"topoFullName\":\"улица\",\"topoValue\":\"Новозаводская\"},\"house\":{\"topoShortName\":\"дом\",\"topoFullName\":\"дом\",\"topoValue\":\"11\"},\"bulk\":{\"topoValue\":\"5\"},\"houseRaw\":\"11\",\"bulkRaw\":\"5\"},\"date\":\"2003-02-18\",\"firstDate\":\"2003-02-18\"},\"status\":{\"statusString\":\"Прекращение деятельности юридического лица путем реорганизации в форме преобразования\",\"dissolved\":true,\"date\":\"2004-09-09\"},\"registrationDate\":\"1994-10-25\",\"dissolutionDate\":\"2004-09-09\",\"history\":{}},\"briefReport\":{\"summary\":{\"redStatements\":true}},\"contactPhones\":{}}]";
         private const string keyString = "3208d29d15c507395db770d0e65f3711e40374df";
@@ -44,8 +46,12 @@ namespace FocusApiAccessTests
         {
             Settings.CachePath = "C:\\Users\\shetnikov\\Desktop\\";
             Settings.ApiUrl = "http://localhost:"+61666+"/";
-            Api = new Api(new FocusKey(keyString)); //FocusKeyManager.StartAccess("fdc7d0cd30185a63331724bc69d6dc625476048b").GetApi();
+            var key = new FocusKey(keyString);
+            Api = new Api(key); //FocusKeyManager.StartAccess("fdc7d0cd30185a63331724bc69d6dc625476048b").GetApi();
+            DiffApi = new DifferentialApi(key);
         }
+
+
         /*
 
         [Test]
@@ -115,12 +121,12 @@ namespace FocusApiAccessTests
             const string path = "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusApiAccessTests\\JSONServerResponces";
             foreach (var method in Enum.GetValues(typeof(ApiMethodEnum)).Cast<ApiMethodEnum>().Where(m=>m.GoodDbg()))
             {
-                var json = File.ReadAllText($"{path}\\{inn}.{method.Alias()}");
+                var file = $"{path}\\{inn}.{method.Alias()}";
+                if(!File.Exists(file)) continue;
+                var json = File.ReadAllText(file);
                 
-                using (new MockServer(61666, $"/req?key={keyString}&inn={inn}",
-                    (req, rsp, prm) => json))  //TODO error here
-                    
-                    
+                using (new MockServer(61666, $"/{method.Url()}?key={keyString}&inn={inn}",
+                    (req, rsp, prm) => json))  
                 {
                     var actual = Api.GetValue(method, (InnUrlArg) (INN) inn);
                     var value = JsonConvert.DeserializeObject(json, method.ValueType(),Converter.Settings);
@@ -131,21 +137,71 @@ namespace FocusApiAccessTests
         }
                 
             //TODO finish both of them
+
+        /*private static List<MockHttpHandler> Handlers()
+        {
+            Enum.GetValues(typeof(ApiMethodEnum))
+                .Cast<ApiMethodEnum>()
+                .Where(m=>m.GoodDbg())
+                .Cartesian(testableInns,
+                    (method, inn) =>
+                    {
+                        new MockHttpHandler("/req?key={keyString}&inn={inn}",(req, rsp, prm) => expected))
+                    })
+        };*/
         
         [TestCaseSource(nameof(testableInns))]
-        public void DifferentialTest(string inn) 
+        public void DifferentialTest(string inn)
         {
+            const ApiMethodEnum method = ApiMethodEnum.req;
             const string path = "C:\\Users\\shetnikov\\Documents\\GitHub\\FocusScoring\\FocusApiAccessTests\\JSONServerResponces";
-            foreach (var method in Enum.GetValues(typeof(ApiMethodEnum)).Cast<ApiMethodEnum>().Where(m=>m.GoodDbg()))
+            var file = $"{path}\\{inn}.{method.Alias()}";
+            if(!File.Exists(file)) throw new Exception("No memes here! It's a Cristian server.");
+            var origJson = File.ReadAllText(file);
+            var apiUsed = false;
+            var origObj = JsonConvert.DeserializeObject<IList<ReqValue>>(origJson);
+            try
             {
-                var expected = File.ReadAllText($"{path}\\{inn}.{method.Alias()}");
-                using (new MockServer(61666, $"/req?key={keyString}&inn={inn}",
-                    (req, rsp, prm) => expected))
+                var newJson = origJson.Replace("\"statusString\":\"","\"statusString\":\"Prefix is here ");
+                var isFl = ((INN) origObj[0].Inn).IsFL();
+
+                using (new MockServer(61666, $"/{method.Url()}?key={keyString}&inn={inn}",
+                    (req, rsp, prm) =>
+                    {
+                        var result = apiUsed ? origJson : newJson;
+                        apiUsed = false;   
+                        return result;
+                    }))
                 {
-                    var actual = JsonConvert.SerializeObject(Api.GetValue(method,(InnUrlArg)(INN)inn));
-                    Assert.AreEqual(expected,actual);
+                    var actual = DiffApi.GetValue(method, (InnUrlArg) (INN) inn);
+                    //var value = JsonConvert.DeserializeObject(origJson, method.ValueType(),Converter.Settings);
+                    //var expected = ((IList) value).Cast<IParameterValue>().First();
+                    Assert.AreEqual("Where were Gondor?",actual );
                 }
             }
+            catch (Exception e)
+            {
+                throw;
+            }
+            finally
+            {
+                File.WriteAllText(file,origJson);
+            }
+            
+        }
+
+        private string ChangeJson(string origJson)
+        {
+            //"statusString":"
+            /*
+            var origObj = JsonConvert.DeserializeObject<IList<ReqValue>>(origJson);
+            if ()
+                origObj[0].Ip.Oktmo = "Embrace the futility of your mum!";
+            else
+                origObj[0].Ul.Oktmo = "Embrace the futility of your mum!";
+            var newJson = JsonConvert.SerializeObject(origObj);*/
+            origJson.Replace("\"statusString\":\"","\"statusString\":\"Prefix is here ");
+            return null;
         }
         
         //[TestCaseSource(nameof(testableInns))]

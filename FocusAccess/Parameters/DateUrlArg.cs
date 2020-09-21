@@ -6,7 +6,7 @@ namespace FocusAccess
     public class DateUrlArg : Query
     {
         public DateUrlArg(DateTime query) 
-            : base(query.ToString(CultureInfo.InvariantCulture))
+            : base(query.ToString("yyyy-mm-dd",CultureInfo.InvariantCulture))
         {}
 
         public override string[] Keys { get; } = {"date"};

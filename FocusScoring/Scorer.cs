@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FocusAccess;
+using IQueryable = FocusAccess.IQueryable;
 
 namespace FocusScoring
 {
-    class Scorer<T> : IScorer<T> where T : IQuery
+    class Scorer<T> : IScorer<T> where T : IQueryable 
     {
         private readonly IApi3 api;
         private readonly IList<IMarkerChecker<T>> markerCheckers;
@@ -21,8 +22,9 @@ namespace FocusScoring
 
         public IScoringResult<T> Score(T target)
         {
+            var query = QueryFactory.CreateForm(target);
             var markers = markerCheckers
-                .Select(c => c.Check(target, c.Methods.Select(m => api.GetValue(m, target)).ToArray()))
+                .Select(c => c.Check(target, c.Methods.Select(m => api.GetValue(m, query)).ToArray()))
                 .Where(x => x).ToArray();
             return new ScoringResult<T>(markers, CountScore(markers.Select(x => x.Marker).ToArray()),target);
         }
