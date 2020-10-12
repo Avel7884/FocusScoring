@@ -34,9 +34,7 @@ namespace FocusScoring
             Score = 3;
             //Code = "return true;";
         }    
-
-        public ApiMethodEnum[] Methods {get; set;}   //TODO remove setters after serialization tests
-        public string Name { get; set; }
+public string Name { get; set; }
         public MarkerColour Colour { get; set; }
         
         
@@ -57,6 +55,12 @@ namespace FocusScoring
             this.check = check;
         }
         public MarkerResult<T> Check(T target) => check(target);*/
+    }
+
+    public class ParametrizedMarker<T> : Marker<T>
+    {
+        public IMarkerParameters Parameters {get; set;}
+        //TODO remove setters after serialization tests
     }
 
     public enum MarkerColour

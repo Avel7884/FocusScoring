@@ -13,7 +13,7 @@ namespace FocusScoring
 
     class MarkersDeserializer<TTarget> : IMarkersProviderController<TTarget>
     {
-        private readonly IChecksProvider<TTarget> checksProvider;
+        //private readonly IChecksProvider<TTarget> checksProvider;
         private readonly string markersPath;
         private static readonly XmlSerializer serializer = new XmlSerializer(typeof(Marker<TTarget>),
             new XmlRootAttribute() {ElementName = "items"});
@@ -23,10 +23,17 @@ namespace FocusScoring
         public MarkersDeserializer(IChecksProvider<TTarget> checksProvider, string path = null)
         { //TODO ensure uniques by name of markers created
             markersPath = path ?? Settings.CachePath + Settings.MarkersFolder;
-            this.checksProvider = checksProvider;
+            //this.checksProvider = checksProvider;
             markers = GetMarkers().ToArray();
         }
-        
+
+        public MarkersDeserializer(string path = null)
+        { //TODO ensure uniques by name of markers created
+            markersPath = path ?? Settings.CachePath + Settings.MarkersFolder;
+            //this.checksProvider = checksProvider;
+            markers = GetMarkers().ToArray();
+        }
+
         private IEnumerable<Marker<TTarget>> GetMarkers()
         {
             foreach (var fileName in Directory.EnumerateFiles(markersPath))

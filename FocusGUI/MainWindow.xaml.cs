@@ -40,7 +40,7 @@ namespace FocusGUI
 
             dataManager = new DataManager(new EntryFactory(Api, scorer));
             targetColumnController = new TargetColumnController<INN>(Companies);
-            
+            UpdateKeyCounter();
             
             Lists.ItemsSource = dataManager.Infos;
             Lists.MouseDoubleClick += (o, a) =>
@@ -58,7 +58,10 @@ namespace FocusGUI
             
             Companies.MouseDoubleClick += (o, a) =>
             {
-                Markers.ItemsSource = currentDataBase[Companies.SelectedIndex].Markers;
+                if (!Companies.SelectedCells.Any())
+                    return;
+                Markers.ItemsSource = (Companies.SelectedCells.First().Item as DataEntry<INN>)?.Markers 
+                                      ?? throw new ApplicationException("Selection error.");
                 Markers.Items.Refresh();
             };
 
@@ -69,12 +72,20 @@ namespace FocusGUI
             };
         }
 
+        private void UpdateKeyCounter()
+        {
+            Key.CheckUsages();
+            KeyCounter.Text = $"Ключ: использовано {Key.Nominator} из {Key.Denominator}";
+        }
+
         private void AddList_Click(object sender, RoutedEventArgs e)
         {
             new ListDialog((info, list) =>
             {
                 var result = GetListResult(info, list);
                 if (!result.Success) return result;
+                SetList(info, list);
+                return result; //TODO remove
                 try
                 {
                     SetList(info, list);
@@ -83,6 +94,10 @@ namespace FocusGUI
                 catch (Exception ex)
                 {
                     return ListCreationResult.FailWithError(ex.Message);
+                }
+                finally
+                {
+                    UpdateKeyCounter();
                 }
             }).Show();
         }
@@ -95,21 +110,18 @@ namespace FocusGUI
             if (dataManager.Infos.Any(x=>x.Name == info.Name))
                 return ListCreationResult.FromError("Лист с данным названием уже существует");
             
-            /*
+            /*if(!Key.AbleToUseMore(1)) TODO return
+                return ListCreationResult.FailWithError("Ключ требует продления!");
 
-                if(!Manager.AbleToUseMore(1))
-                    return "Ключ требует продления!";
-
-                var usagesNeeded = Manager.IsCompanyUsed(list);//TODO use ienumerable instead
-                if (usagesNeeded == 0)
-                    return true;
-                
-                
-                if (!Manager.AbleToUseMore(usagesNeeded))
-                    return "Непроверенных компаний больше чем осталось использовний ключа. Уменьшите список или продлите ключ.";
-            */
+            var usagesNeeded = Key.QueryUsage(Query.Unify(list.Select(i => (InnUrlArg) (INN) i)));
+            if (usagesNeeded == 0)
+                return ListCreationResult.Succsess();
+            if (!Key.AbleToUseMore(usagesNeeded))
+                return ListCreationResult.FailWithError("Непроверенных компаний больше чем осталось использовний ключа. Уменьшите список или продлите ключ.");
             
-            var mb = MessageBox.Show($"Ключ будет использован {10/*usagesNeeded*/} раз.",
+            */
+            var usagesNeeded = 10;
+            var mb = MessageBox.Show($"Ключ будет использован {usagesNeeded} раз.",
                 "Внимание", MessageBoxButton.YesNo);
             return mb == MessageBoxResult.Yes ? 
                 ListCreationResult.Succsess() : 
@@ -160,6 +172,16 @@ namespace FocusGUI
                 return;
             }
             CurrentDataBase.Delete((Companies.SelectedItem as DataEntry<INN>)?.Subject ?? throw new Exception("Wut?!"));
+        }
+
+        private void FocusWindowShow(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void AllMarkers_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }    
 }

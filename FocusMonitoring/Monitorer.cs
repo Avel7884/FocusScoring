@@ -23,7 +23,7 @@ namespace FocusMonitoring
     {
         private readonly IApi3 api;
         private readonly IDifferentialApi differentialApi;
-        private readonly MonitoringFactory factory;
+        private readonly MonitoringFactory factory; //TODO access with interface
         private readonly string monitoringFolder;
         private readonly string monitoringSetFile;
 

@@ -12,16 +12,27 @@ namespace FocusGUI
     {
         private readonly DataGrid grid;
         private IFocusDataBase<TTarget> dataBase;
+        private int reorderingColumnIndex;
 
         public TargetColumnController(DataGrid grid)
         {
             this.grid = grid;
-            grid.ColumnReordered += ReorderedHandler;
+            grid.ColumnDisplayIndexChanged += ReorderedHandler;
+            grid.ColumnReordering += ReorderingHandler;
         }
 
-        private void ReorderedHandler(object sender, DataGridColumnEventArgs e)
+        private void ReorderingHandler(object sender, DataGridColumnReorderingEventArgs e)
         {
-           // e.Column.DisplayIndex
+            reorderingColumnIndex = e.Column.DisplayIndex;
+        }
+
+        private void ReorderedHandler(object sender,  DataGridColumnEventArgs e)
+        {
+            //return;
+            //TODO continue here with mass 
+            
+            if(dataBase == null || e.Column.DisplayIndex == reorderingColumnIndex) return;
+            dataBase.ReorderColumns(reorderingColumnIndex,e.Column.DisplayIndex);
         }
 
         public void SetNewData(IFocusDataBase<TTarget> dataBase)
@@ -42,7 +53,7 @@ namespace FocusGUI
                     var image = new FrameworkElementFactory(typeof(Image));
                     image.SetBinding(
                         Image.SourceProperty,
-                        new Binding("ShieldCode"));
+                        new Binding {Converter = new EntryToUrlConverter()});
                     grid.Columns.Add(new DataGridTemplateColumn
                     {
                         CellTemplate = new DataTemplate

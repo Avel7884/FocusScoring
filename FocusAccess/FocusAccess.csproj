@@ -99,6 +99,7 @@
     <Compile Include="ResponseClasses\KzCompanyDetails.cs" />
     <Compile Include="ResponseClasses\Licenses.cs" />
     <Compile Include="ResponseClasses\MonValue.cs" />
+    <Compile Include="ResponseClasses\MultiQuery.cs" />
     <Compile Include="ResponseClasses\PepSearch.cs" />
     <Compile Include="ResponseClasses\PersonBankruptcy.cs" />
     <Compile Include="ResponseClasses\Req.cs" />
@@ -109,6 +110,7 @@
     <Compile Include="ResponseClasses\Suggest.cs" />
     <Compile Include="ResponseClasses\Taxes.cs" />
     <Compile Include="ResponseClasses\Trademarks.cs" />
+    <Compile Include="ResponseClasses\UsageValue.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="SingleJsonMemoryCache.cs" />
   </ItemGroup>

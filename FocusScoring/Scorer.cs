@@ -1,8 +1,11 @@
 using System;
+using System.CodeDom.Compiler;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FocusAccess;
+using FocusAccess.ResponseClasses;
 using IQueryable = FocusAccess.IQueryable;
 
 namespace FocusScoring
@@ -12,24 +15,30 @@ namespace FocusScoring
         private readonly IApi3 api;
         private readonly IList<IMarkerChecker<T>> markerCheckers;
 
-        public Scorer(IApi3 api, IMarkersProvider<T> markersProvider, IChecksProvider<T> checksProvider)
+        public Scorer(IApi3 api, MarkerCheckers<T> checkers)
         {
             this.api = api;
-            markerCheckers = markersProvider.Markers
-                .Select(x=>new MarkerChecker<T>(x,checksProvider.Provide(x)))
-                .Cast<IMarkerChecker<T>>().ToList();
+            markerCheckers = checkers.ToList(); 
         }
 
         public IScoringResult<T> Score(T target)
         {
             var query = QueryFactory.CreateForm(target);
             var markers = markerCheckers
-                .Select(c => c.Check(target, c.Methods.Select(m => api.GetValue(m, query)).ToArray()))
+                .Select(c => c.Check(target, GenerateValues(c.Parameters, query)))
                 .Where(x => x).ToArray();
             return new ScoringResult<T>(markers, CountScore(markers.Select(x => x.Marker).ToArray()),target);
         }
 
-        /*public async Task<IScoringResult<T>> ScoreAsync(T inn)
+        private object[] GenerateValues(IMarkerParameters parameters, IQuery query)
+        {                                 
+            return parameters.MethodsUsed
+                .Select(m => m.IsMultiValue() ? api.GetValues(m, query).Cast(m.ValueType().GenericTypeArguments.First()) : api.GetValue(m, query))
+                .Concat(parameters.History.Select(m => api.GetValue(m, query)))
+                .ToArray();
+        }
+
+        /*    public async Task<IScoringResult<T>> ScoreAsync(T inn)
         {        
             var markers = await Task.WhenAll(Markers.Select(m=>m.CheckAsync(inn)));
             return new ScoringResult<T>(markers,CountScore(markers.Where(r=>r).Select(r=>r.Marker).ToArray()),inn);
@@ -70,6 +79,17 @@ namespace FocusScoring
             colourScore = markers.Where(m => m.Colour == MarkerColour.Green || m.Colour == MarkerColour.GreenAffiliates)
                 .Select(m => m.Score).Sum();
             return colourScore > 0 ? Math.Min(100, yellowBound + 1 + colourScore) : 0;
+        }
+    }
+
+    static class IEnumerableExtensions
+    {
+        //TODO Move to separate place somewere
+        private static object Cast<T>(this T[] sourceArray, Type elementType)
+        {
+            var destinationArray = Array.CreateInstance(elementType, sourceArray.Length);
+            Array.Copy(sourceArray,destinationArray,sourceArray.Length);
+            return destinationArray;
         }
     }
 }

@@ -10,6 +10,12 @@
         WindowState="Maximized"
         WindowStartupLocation="CenterScreen"
         d:DesignHeight="587"  d:DesignWidth="1089">
+    
+    <Window.Resources>
+        <local:MarkerToUrlConverter x:Key="MarkerToUrlConverter" />
+        <local:EntryToUrlConverter x:Key="EntryToUrlConverter" />
+        
+    </Window.Resources>
     <!-- WindowState="Maximized"-->
     <Grid>
         <!--<Grid.Resources>
@@ -86,7 +92,10 @@
         <!--<GridSplitter Grid.Column="2" Width="5" HorizontalAlignment="Stretch" />-->
         <!--Manager="{Binding ElementName=_this, Path=FocusManager}"
         <ListView Name="Companies" Grid.Column="1" Grid.Row="1" Grid.RowSpan="5"></ListView>-->
-        <DataGrid Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" AutoGenerateColumns="False" x:Name="Companies">
+        <DataGrid Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" AutoGenerateColumns="False" x:Name="Companies" SelectionMode="Single" SelectionUnit="Cell" ClipboardCopyMode="ExcludeHeader" IsReadOnly="True" 
+                  CanUserAddRows="False"
+                  GridLinesVisibility = "None"
+                  AlternatingRowBackground="WhiteSmoke" AlternationCount="2" >
             <DataGrid.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Добавить ИНН" Click="AddTarget_Click"></MenuItem>
@@ -149,8 +158,49 @@
         -->
         
         <GridSplitter Grid.Column="2" Grid.Row="3" Grid.RowSpan="3" Width="5" HorizontalAlignment="Stretch" />
-        <ListView Name="Markers" Grid.Column="3" Grid.Row="1" Grid.RowSpan="5"></ListView>
-        
+        <!--<ListView Name="Markers" Grid.Column="3" Grid.Row="1" Grid.RowSpan="5" d:DataContext="{d:MarkerResult MarkerResult[INN] |(in FocusScoring)}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Marker.Name}"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Verbose}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>-->
+        <DataGrid Name="Markers" Grid.Column="3" Grid.Row="1" Grid.RowSpan="5" 
+                  d:DataContext="{d:MarkerResult MarkerResult[INN] |(in FocusScoring)}"
+                  AutoGenerateColumns="False"
+                  GridLinesVisibility = "None"
+                  AlternatingRowBackground="WhiteSmoke" AlternationCount="2" >
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <!--<Image>
+                                <Image.Source>
+                                    <Binding ConverterParameter="CLight">
+                                        <Binding.Converter>
+                                            <local:MarkerToUrlConverter />
+                                        </Binding.Converter>
+                                    </Binding>
+                                </Image.Source>
+                            </Image>-->
+                            <Image Source="{Binding Converter={StaticResource MarkerToUrlConverter}}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="{Binding Marker.Name}" />
+                                <TextBlock Text="{Binding Verbose}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
         <!--
         <DockPanel Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Center">
             <Button Name="CheckButton"  
@@ -158,7 +208,7 @@
                     HorizontalAlignment="Right" VerticalAlignment="Center" Height="45" Width="160" Click="ListCheck_OnClick" Background="#FF7DD4A0"/>
         </DockPanel>-->
         
-        <!--<DockPanel Grid.Row="5" Grid.ColumnSpan="8">
+        <DockPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="4">
             <TextBlock Name="KeyCounter" Text="Ключ: использовано" VerticalAlignment="Center"/>
             <Menu HorizontalAlignment="Right">
                 <Menu.ItemsPanel>
@@ -182,7 +232,7 @@
                     </MenuItem>
                 </MenuItem>
             </Menu>
-        </DockPanel>-->
-
+        </DockPanel>
+        
     </Grid>
 </Window>

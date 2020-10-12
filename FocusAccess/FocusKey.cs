@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Xml;
+using FocusAccess.ResponseClasses;
+using Newtonsoft.Json;
 
 namespace FocusAccess
 {
@@ -25,7 +27,7 @@ namespace FocusAccess
 
         private JsonAccess CreateAccess()
         {
-            var downloader = new JsonDownload(this);
+            downloader = new JsonDownload(this);
             var a = new List<IJsonCache>()
             {
                 //TODO Get it back
@@ -38,7 +40,7 @@ namespace FocusAccess
         
         private JsonAccess CreateDifferentialAccess()
         {
-            var downloader = new JsonDownload(this);
+            downloader = new JsonDownload(this);
             var a = new List<IJsonCache>()
             {
                 new DifferentialCache(new JsonFileSystemCache())
@@ -67,21 +69,12 @@ namespace FocusAccess
         }*/
 
         
-        /*public int IsCompanyUsed(IList<string> inns)
-         { //TODO figure it out
-            var usagesCount = 0;
-            for (var i = 0; i < inns.Count; i += 50)
-            {
-                var innString = string.Join(",", inns.Skip(i).Take(50));
-                if (!downloader.TryGetXml(
-                    $"https://focus-api.kontur.ru/api3/req/expectedLimitUsage?key={focusKey}&inn={innString}&xml",
-                    out var doc))
-                    return 0;
-                var usagesResult = doc.SelectNodes("/expectedLimitUsage/count").Cast<XmlNode>().First().InnerText;
-                usagesCount += int.Parse(usagesResult);
-            }
-            return usagesCount;
-        }*/
+        public int QueryUsage(IQuery query)
+         { 
+             if (!downloader.TryGetJson(ApiMethodEnum.reqUsage,query,out var doc))
+                 return 0;
+             return JsonConvert.DeserializeObject<UsageValue>(doc).Count ?? 0;  
+        }
 
         private bool CheckValidity()
         {
@@ -92,6 +85,7 @@ namespace FocusAccess
         public long Denominator { get; private set; }
         
         private DateTime expirationDate = DateTime.MinValue;
+        private JsonDownload downloader;
         internal JsonAccess DifferentialAccess { get; }
 
         internal JsonAccess Access { get; }
@@ -107,7 +101,7 @@ namespace FocusAccess
             }
         }
 
-        private bool CheckUsages()
+        public bool CheckUsages()
         {
             var stat = api.Stat();
             Nominator = stat.Select(x=>x.Spent).Max() ?? throw new Exception();

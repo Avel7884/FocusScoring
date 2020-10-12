@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 
 namespace FocusAccess
@@ -19,6 +20,18 @@ namespace FocusAccess
         public virtual string MakeAlias()
         {
             return string.Join("_", Values);
+        }
+        
+        public static TQuery Unify<TQuery>(IEnumerable<TQuery> query) // TODO move to TQuery class 
+            where TQuery : Query, new()
+        {
+            using var enumerator = query.GetEnumerator();
+            if(!enumerator.MoveNext()) return new TQuery();
+            var args = enumerator.Current.Values.Select(x => new List<string> {x}).ToArray();
+            while (enumerator.MoveNext())
+                for (int i = 0; i < args.Length; i++)
+                    args[i].Add(enumerator.Current.Values[i]);
+            return new TQuery{Values = args.Select(x=>string.Join(",",x)).ToArray()};
         }
     }
 }

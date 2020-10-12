@@ -1,3 +1,4 @@
+using MoreLinq;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -51,7 +52,7 @@ namespace FocusApp
             foreach (var entry in Base)
                 factory.UpdateEntry(entry,newParameters);
             foreach (var parameter in newParameters) 
-                Info.InsertColumn(Info.Length, parameter);
+                Info.TryRecallOrCreateColumn(Info.Length, parameter);
             DataChanged = true;
         }
 
@@ -64,20 +65,30 @@ namespace FocusApp
 
         public void RemoveColumn(int column)
         {
-            Info.RemoveColumn(column);
+            Info.ForgetColumn(column);
         }
 
         public void ReorderColumns(int targetIndex, int newIndex)
         {
             var param = Info.Parameters[targetIndex];
-            Info.RemoveColumn(targetIndex);
-            Info.InsertColumn(newIndex,param);
+            /*var columnMemIndex = Info.MemoryOrderOfParameters[targetIndex];
+            Info.MemoryOrderOfParameters[targetIndex] = Info.MemoryOrderOfParameters[newIndex];*/
+            Info.ForgetColumn(targetIndex);
+            Info.TryRecallOrCreateColumn(newIndex,param);
         }
 
-        public IEnumerator<DataEntry<TSubject>> GetEnumerator() =>
-            Base.Select(x=>new DataEntry<TSubject>(x,Reorder(x.Data,Info.MemoryOrderOfParameters))).GetEnumerator();
+        public IEnumerator<DataEntry<TSubject>> GetEnumerator()
+        {
+            var memDict = Info.MemoryOrderOfParameters
+                .Index().ToDictionary(p => p.Value,p=>p.Key);
+            var order = Info.Parameters.Select(p => memDict[p]).ToArray();
+            return Base.Select(x => new DataEntry<TSubject>(x, Reorder(x.Data, order)))
+                .GetEnumerator();
+        }
 
-        private static T[] Reorder<T>(IReadOnlyList<T> source,IReadOnlyList<int> newIndexes)
+        private static T[] Reorder<T>(
+            IReadOnlyCollection<T> source,
+            IReadOnlyCollection<int> newIndexes)
         {
             if(newIndexes.Count != source.Count)
                 throw new ArgumentException(); //TODO make exception

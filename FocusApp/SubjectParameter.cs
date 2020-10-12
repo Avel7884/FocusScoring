@@ -27,4 +27,18 @@ namespace FocusApp
         Site,
         Shield
     }
+
+    public static class SubjectParameterExtensions
+    {
+        public static bool IsGenerated(this SubjectParameter parameter) =>
+            parameter == SubjectParameter.Shield;
+
+        public static bool IsEssential(this SubjectParameter parameter) =>
+            parameter switch
+            {
+                SubjectParameter.Inn => true,
+                SubjectParameter.Score => true,
+                _ => false
+            };
+    }
 }

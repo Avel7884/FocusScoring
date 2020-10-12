@@ -28,7 +28,7 @@ namespace FocusAccess
             where TQuery : Query, new() //TODO Deserialization
         ;
 
-        IParameterValue[] GetValues(ApiMethodEnum method,Query arg);
+        IParameterValue[] GetValues(ApiMethodEnum method,IQuery arg);
         SitesValue Sites(InnUrlArg subject);
     }
 
@@ -53,41 +53,41 @@ namespace FocusAccess
         public ReqValue Req(InnUrlArg arg)
         {
             string json = access.TryGetJson(ApiMethodEnum.req, arg, out var obj) ? obj : default;
-            return JsonConvert.DeserializeObject<ReqValue>(json,Converter.Settings);
+            return JsonConvert.DeserializeObject<IList<ReqValue>>(json,Converter.Settings).First();
         }
         public ReqValue[] Req(InnUrlArg[] arg)
         {
-            string json = access.TryGetJson(ApiMethodEnum.req, UnifyQuery(arg), out var obj) ? obj : default;
+            string json = access.TryGetJson(ApiMethodEnum.req, Query.Unify(arg), out var obj) ? obj : default;
             return JsonConvert.DeserializeObject<IList<ReqValue>>(json,Converter.Settings).ToArray();
         }
         public ByCompanyDetailsValue ByCompanyDetails(ByUrlArg arg)
         {
             string json = access.TryGetJson(ApiMethodEnum.req, arg, out var obj) ? obj : default;
-            return JsonConvert.DeserializeObject<ByCompanyDetailsValue>(json,Converter.Settings);
+            return JsonConvert.DeserializeObject<IList<ByCompanyDetailsValue>>(json,Converter.Settings).First();
         }
         public ByCompanyDetailsValue[] ByCompanyDetails(ByUrlArg[] arg)
         {
-            string json = access.TryGetJson(ApiMethodEnum.req, UnifyQuery(arg), out var obj) ? obj : default;
+            string json = access.TryGetJson(ApiMethodEnum.req, Query.Unify(arg), out var obj) ? obj : default;
             return JsonConvert.DeserializeObject<IList<ByCompanyDetailsValue>>(json,Converter.Settings).ToArray();
         }
         public KzCompanyDetailsValue KzCompanyDetails(KzUrlArg arg)
         {
             string json = access.TryGetJson(ApiMethodEnum.req, arg, out var obj) ? obj : default;
-            return JsonConvert.DeserializeObject<KzCompanyDetailsValue>(json,Converter.Settings);
+            return JsonConvert.DeserializeObject<IList<KzCompanyDetailsValue>>(json,Converter.Settings).First();
         }
         public KzCompanyDetailsValue[] KzCompanyDetails(KzUrlArg[] arg)
         {
-            string json = access.TryGetJson(ApiMethodEnum.req, UnifyQuery(arg), out var obj) ? obj : default;
+            string json = access.TryGetJson(ApiMethodEnum.req, Query.Unify(arg), out var obj) ? obj : default;
             return JsonConvert.DeserializeObject<IList<KzCompanyDetailsValue>>(json,Converter.Settings).ToArray();
         }
         public EgrDetailsValue EgrDetails(InnUrlArg arg)
         {
-            string json = access.TryGetJson(ApiMethodEnum.req, arg, out var obj) ? obj : default;
-            return JsonConvert.DeserializeObject<EgrDetailsValue>(json,Converter.Settings);
+            string json = access.TryGetJson(ApiMethodEnum.egrDetails, arg, out var obj) ? obj : default;
+            return JsonConvert.DeserializeObject<IList<EgrDetailsValue>>(json,Converter.Settings).First();
         }
         public EgrDetailsValue[] EgrDetails(InnUrlArg[] arg)
         {
-            string json = access.TryGetJson(ApiMethodEnum.req, UnifyQuery(arg), out var obj) ? obj : default;
+            string json = access.TryGetJson(ApiMethodEnum.egrDetails, Query.Unify(arg), out var obj) ? obj : default;
             return JsonConvert.DeserializeObject<IList<EgrDetailsValue>>(json,Converter.Settings).ToArray();
         }
 
@@ -105,7 +105,8 @@ namespace FocusAccess
         
         public StatValue[] Stat()
         {
-            throw new NotImplementedException();
+            string json = access.TryGetJson(ApiMethodEnum.stat, new EmptyUrlArg(), out var obj) ? obj : default;
+            return JsonConvert.DeserializeObject<IList<StatValue>>(json,Converter.Settings).ToArray();
         }
 
         public IParameterValue GetValue(ApiMethodEnum method, IQuery arg)
@@ -117,20 +118,22 @@ namespace FocusAccess
         public IParameterValue[] GetValue<TQuery>(ApiMethodEnum method,TQuery[] arg)
             where TQuery : Query, new() //TODO Deserialization
         {
-            string json = access.TryGetJson(method, UnifyQuery(arg), out var obj) ? obj : default;
+            string json = access.TryGetJson(method, Query.Unify(arg), out var obj) ? obj : default;
             return ((IList)JsonConvert.DeserializeObject(json,method.ValueType(),Converter.Settings)).Cast<IParameterValue>().ToArray();
         }
 
-        public IParameterValue[] GetValues(ApiMethodEnum method, Query arg)
+        public IParameterValue[] GetValues(ApiMethodEnum method, IQuery arg)
         {
             string json = access.TryGetJson(method, arg, out var obj) ? obj : default;
-            return JsonConvert.DeserializeObject<IParameterValue[]>(json, Converter.Settings);
+            return ((IList) JsonConvert.DeserializeObject(json, method.ValueType(), Converter.Settings)).Cast<IParameterValue>().ToArray();
         }
 
         public SitesValue Sites(InnUrlArg subject)
         {
-            throw new NotImplementedException();
+            string json = access.TryGetJson(ApiMethodEnum.sites, new EmptyUrlArg(), out var obj) ? obj : default;
+            return JsonConvert.DeserializeObject<IList<SitesValue>>(json,Converter.Settings).First();   
         }
+/*
 
         private TQuery UnifyQuery<TQuery>(TQuery[] query) // TODO move to TQuery class 
             where TQuery : Query, new()
@@ -140,6 +143,6 @@ namespace FocusAccess
                 for (int i = 0; i < args.Length; i++)
                     args[i].Add(q.Values[i]);
             return new TQuery{Values = args.Select(x=>string.Join(",",x)).ToArray()};
-        }
+        }*/
     }
 }

@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -25,7 +25,7 @@ namespace FocusMonitoring
             else
                 new Timer(timerTime.TotalMilliseconds).Elapsed += (s, a) =>
                     monitorer.PerformMonitoring();
-        }*/
+        }#1#
         public ChangesCollection(string path = "./") => 
             this.path = path;
 
@@ -47,4 +47,4 @@ namespace FocusMonitoring
             throw new NotImplementedException();
         }
     }
-}
+}*/

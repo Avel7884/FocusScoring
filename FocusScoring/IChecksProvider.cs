@@ -1,4 +1,5 @@
 using System;
+using FocusAccess;
 using FocusAccess.ResponseClasses;
 
 namespace FocusScoring
@@ -6,10 +7,27 @@ namespace FocusScoring
     public interface IChecksProvider<TTarget>
     {
          string MarkerArgName { get; }
-         Func<IParameterValue[], CheckResult> Provide(Marker<TTarget> Marker);
+         Func<object[], CheckResult> ProvideCheck(string markerKey);
     }
 
-    class ChecksProviderFromLibrary<TTarget> : IChecksProvider<TTarget>
+    public interface IParameterizedChecksProvider<TTarget> : IChecksProvider<TTarget>
+    {
+        IMarkerParameters ProvideParameters(string markerKey);
+    }
+
+    public interface IMarkerParameters
+    {
+        ApiMethodEnum[] MethodsUsed { get; set; }
+        ApiMethodEnum[] History { get; set; }
+    }
+
+    class MarkerParameters : IMarkerParameters
+    {
+        public ApiMethodEnum[] MethodsUsed { get; set; }
+        public ApiMethodEnum[] History { get; set; }
+    }
+
+    /*class ChecksProviderFromLibrary<TTarget> : IChecksProvider<TTarget>
     {
         public string MarkerArgName { get; }
         public Func<IParameterValue[], CheckResult> Provide(Marker<TTarget> Marker)
@@ -30,5 +48,5 @@ namespace FocusScoring
 
         public Func<IParameterValue[], CheckResult> Provide(Marker<TTarget> Marker) =>
             compiler.AddToCompilation(Marker.CheckArguments[MarkerArgName]);
-    }
+    }*/
 }

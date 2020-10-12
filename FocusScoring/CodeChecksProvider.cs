@@ -4,15 +4,15 @@ using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using System.Runtime.Remoting.Messaging;
-using System.Xml;
 using FocusAccess;
+using FocusAccess.Response;
 using FocusAccess.ResponseClasses;
-using FocusScoring;
+using FocusMonitoring;
+using OfficeOpenXml.FormulaParsing.Excel.Functions.Text;
 
-namespace FocusMarkers
+namespace FocusScoring
 {
-    public abstract class CodeChecksProvider : IChecksProvider<INN>
+    public abstract class CodeChecksProvider : IParameterizedChecksProvider<INN>
     {
         public string MarkerArgName => "LibraryCheckMethodName";
         /*
@@ -29,22 +29,32 @@ namespace FocusMarkers
             throw new KeyNotFoundException("Things went wrong."); //TODO make exception
         }*/
 
-        private static bool IsParameterMatch(IParameterValue[] objects, MethodInfo info) => 
-            objects.Length == info.GetParameters().Length &&
+        
+        private static bool IsParametersMatch(IReadOnlyCollection<object> objects, MethodInfo info) => 
+            objects.Count == info.GetParameters().Length &&
             objects.All(x => x != null) &&
-            info.GetParameters().Zip(objects,(t,o)=>o.GetType() == t.ParameterType).All(x=>x);
+            info.GetParameters().Zip(objects,IsMatch).All(x=>x);
 
-        public Func<IParameterValue[], CheckResult> Provide(Marker<INN> Marker)
+        private static bool IsMatch(ParameterInfo t, object o) => !o.GetType().IsArray
+            ? o.GetType() == t.ParameterType
+            : o is Array array && t.ParameterType.IsArray &&
+              array.Cast<IParameterValue>().All(v => v.GetType() == t.ParameterType.GetElementType());
+        
+        /*private static bool IsShallowMatch(ParameterInfo t, object o) => !o.GetType().IsArray
+            ? o.GetType() == t.ParameterType
+            : o is Array array && t.ParameterType.IsArray &&
+              array.Cast<IParameterValue>().First(v => v.GetType() == t.ParameterType.GetElementType());*/
+        
+        public Func<object[], CheckResult> ProvideCheck(string markerKey)
         {
-            MethodInfo methodInfo;
-            if (!Marker.CheckArguments.TryGetValue(MarkerArgName, out var checkArg) ||
-                (methodInfo = GetType().GetMethod(checkArg)) == null)
+            MethodInfo methodInfo; //!Marker.CheckArguments.TryGetValue(MarkerArgName, out var checkArg) ||
+            if ((methodInfo = GetType().GetMethod(markerKey)) == null)
                 throw new KeyNotFoundException("Things went wrong.");
             var paramArray = methodInfo.GetParameters().Select(p => Expression.Parameter(p.ParameterType)).ToArray();
             var expr = Expression.Lambda(Expression.Call(methodInfo,paramArray),paramArray).Compile();
             return p =>
             {
-                if (!IsParameterMatch(p, methodInfo))
+                if (!IsParametersMatch(p, methodInfo))//TODO error with affil arrays 
                     throw new Exception(); //TODO make exception
                 return (CheckResult)expr.DynamicInvoke(p);
             };
@@ -57,13 +67,28 @@ namespace FocusMarkers
                 return value;
             throw new KeyNotFoundException("Things went wrong."); 
         }*/
+        
+        public IMarkerParameters ProvideParameters(string markerKey)
+        {
+            var parameters = GetType().GetMethod(markerKey)?.GetParameters() 
+                ?? throw new ArgumentException("Invalid marker key.");
+            return new MarkerParameters
+            {
+                MethodsUsed = parameters.Where(p=>typeof(IParameterValue).IsAssignableFrom(p.ParameterType)
+                                                ||typeof(IParameterValue[]).IsAssignableFrom(p.ParameterType))
+                        .Select(p => p.ParameterType.OriginalMethodOf()).ToArray(),
+                History = parameters.Where(p=>typeof(MonitoringChanges<>).IsAssignableFrom(p.ParameterType))
+                    .Select(p => p.ParameterType.OriginalMethodOf()).ToArray(),
+            };
+        }
     }
 
     class FocusChecksProvider : CodeChecksProvider
     {
-        public static CheckResult Marker0(ReqValue req, AnalyticsValue analytics)=>new CheckResult {Result = true};
+        public static CheckResult Marker1(AnalyticsValue[] analytics)=>
+            new CheckResult {Result = true};
         
-        public static CheckResult Marker1(ReqValue req,AnalyticsValue analytics)
+        public static CheckResult Marker123(ReqValue req,AnalyticsValue analytics)
         {
             var pureProfit = analytics.Analytics.S6008;
             return new CheckResult
@@ -125,12 +150,23 @@ namespace FocusMarkers
                 Verbose = "Организация была найдена в реестре недобросовестных поставщиков (ФАС, Федеральное Казначейство)"
             };
         
-        public static CheckResult Marker9(AnalyticsValue analytics)=>
-            new CheckResult
+        public static CheckResult Marker9(AnalyticsValue analytics)
+        {
+            var sanctions = new (bool Check, string Descripion)[]
             {
-                Result = analytics.Analytics?.M5008 ?? false,
-                Verbose = "ФИО руководителей были найдены в реестре дисквалифицированных лиц (ФНС)"
+                (analytics.Analytics.M8001 ?? false, "Организация в санкционном списке США"),
+                (analytics.Analytics.M8002 ?? false, "Организация в секторальном санкционном списке США"),
+                (analytics.Analytics.M8003 ?? false, "Организация в санкционном списке Евросоюза"),
+                (analytics.Analytics.M8004 ?? false, "Организация в санкционном списке Великобритании"),
+                (analytics.Analytics.M8005 ?? false, "Организация в санкционном списке Украины"),
+                (analytics.Analytics.M8006 ?? false, "Организация в санкционном списке Швейцарии")
             };
+            return new CheckResult
+            {
+                Result = sanctions.Any(s=>s.Check),
+                Verbose = string.Join("\r\n",sanctions.Where(s => s.Check).Select(s => s.Descripion))
+            };
+        }
 
         public static CheckResult Marker10(AnalyticsValue analytics)=>
             new CheckResult {Result = analytics.Analytics?.M7022 ?? false };
@@ -142,13 +178,16 @@ namespace FocusMarkers
                 Verbose = "ФИО руководителей были найдены в реестре дисквалифицированных лиц (ФНС)"
             };
         
-        public static CheckResult Marker12(AnalyticsValue analytics)=>
-        new CheckResult
+        public static CheckResult Marker12(AnalyticsValue analytics)
         {
-            Result = analytics.Analytics?.M7010 ?? false,
-            Verbose = "По состоянию на указанную дату действовало ограничение на операции по банковским счетам организации, установленное ИФНС - %1."
-        };
-        
+            var lastCheck = DateTime.Parse(analytics.Analytics?.D7010);
+            return new CheckResult
+            {
+                Result = (analytics.Analytics?.M7010 ?? false) && DateTime.Today - lastCheck < TimeSpan.FromDays(30),
+                Verbose = $"По состоянию на указанную дату действовало ограничение на операции по банковским счетам организации, установленное ИФНС - {lastCheck}. В настоящий момент это решение может быть уже отменено. Рекомендуем проверить текущее состояние банковских счетов."
+            };
+        }
+
         public static CheckResult Marker13(ReqValue req, AnalyticsValue analytics)
         {
             var status = req.Status();
@@ -338,15 +377,49 @@ namespace FocusMarkers
         public static CheckResult Marker34(AnalyticsValue analytics)=>
             new CheckResult {Result = analytics.Analytics?.M5005 ?? false};
 
-        public static CheckResult Marker35(AnalyticsValue analytics)=>
-            CheckResult.Failed();
+        public static CheckResult Marker35(MonitoringChanges<ReqValue> reqs)
+        {
+            var managerChanges = reqs.ParseAsParameterValue(x => x.Ul.Heads, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            var ownerChanges = reqs.ParseAsParameterValue(x => x.Ul.ManagementCompanies, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            
+            var sanctions = new (bool Check, string Descripion)[]
+            {
+                (managerChanges >= 3, $"руководителей: {managerChanges}"),
+                (ownerChanges > 0, $"упр. компаний: {ownerChanges}")
+            };
+            
+            return new CheckResult
+            {
+                Result = sanctions.Any(s=>s.Check),
+                Verbose = string.Join("\r\n",sanctions.Where(s => s.Check).Select(s => s.Descripion))
+            };
+        }
         
-        public static CheckResult Marker36(AnalyticsValue analytics)=>
-            CheckResult.Failed();
+        public static CheckResult Marker36(MonitoringChanges<EgrDetailsValue> egrs)  
+        {
+            var changes = egrs.ParseAsParameterValue(x => x.Ul.FoundersFl, DateTime.Now - TimeSpan.FromDays(365)).Length
+            + egrs.ParseAsParameterValue(x => x.Ul.FoundersUl, DateTime.Now - TimeSpan.FromDays(365)).Length
+            + egrs.ParseAsParameterValue(x => x.Ul.FoundersForeign, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            
+            
+            return new CheckResult
+            {
+                Result = changes >= 3,
+                Verbose = $"Количество изменений за 12 месяцев: {changes}"
+            };
+        }
         
-        public static CheckResult Marker37(AnalyticsValue analytics)=>
-            CheckResult.Failed();
-        
+        public static CheckResult Marker37(MonitoringChanges<ReqValue> reqs)
+        {
+            var changes = reqs.ParseAsParameterValue(x => x.Ul.LegalAddress, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            
+            return new CheckResult
+            {
+                Result = changes >= 3,
+                Verbose = $"Организация сменила юр. адрес за последние 12 месяцев: {changes}"
+            };
+        }
+
         public static CheckResult Marker38(AnalyticsValue analytics)=>
             new CheckResult
             {
@@ -407,7 +480,7 @@ namespace FocusMarkers
 
             casesCount = analytics.Analytics?.Q2033 ?? 0;
             if (casesCount > 0)
-                reports[0] = $"\n- Договорами поставки. Всего дел {casesCount} на сумму {analytics.Analytics?.Q2033}";
+                reports[2] = $"\n- Договорами поставки. Всего дел {casesCount} на сумму {analytics.Analytics?.Q2033}";
 
             return reports.Any(x => x != "") ? 
                 CheckResult.Checked(string.Join("", reports)):
@@ -495,9 +568,14 @@ namespace FocusMarkers
                 : CheckResult.Failed();
         }
 
-        public static CheckResult Marker52(EgrDetailsValue egrDetails, AnalyticsValue analytics)=>
-            CheckResult.Failed();
-        
+        public static CheckResult Marker52(ReqValue req, MonitoringChanges<ReqValue> reqChanges)
+        {
+            var fios = reqChanges.ParseAsParameterValue(r => r.Ip.Fio);
+            return fios.Length > 0
+                ? CheckResult.Checked($"Новое ФИО: {req.Inn} Старое ФИО:{fios[fios.Length - 1]}")
+                : CheckResult.Failed();
+        }
+
         public static CheckResult Marker53(AnalyticsValue analytics)=>
             new CheckResult{Result = analytics.Analytics?.M1006 ?? false};
         
@@ -507,16 +585,61 @@ namespace FocusMarkers
         public static CheckResult Marker55(AnalyticsValue analytics)=>
             new CheckResult{Result = (!analytics.Analytics?.M7003 ?? false) && (analytics.Analytics.M7004 ?? false)};
         
-        public static CheckResult Marker56(AnalyticsValue analytics)=>
-            CheckResult.Failed();
-        public static CheckResult Marker57(AnalyticsValue analytics)=>
-            CheckResult.Failed();
-        public static CheckResult Marker58(AnalyticsValue analytics)=>
-            CheckResult.Failed();
-        public static CheckResult Marker59(AnalyticsValue analytics)=>
-            CheckResult.Failed();
-        public static CheckResult Marker60(AnalyticsValue analytics)=>
-            CheckResult.Failed();
+        public static CheckResult Marker56(MonitoringChanges<EgrDetailsValue> egrs)
+        {
+            var changes = egrs.ParseAsParameterValue(x => x.Ul.StatedCapital, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            return new CheckResult
+            {
+                Result = changes > 1,
+                Verbose = $"Количество изменений уставного капитала за полгода: {changes}"
+            };
+        }
+        
+        public static CheckResult Marker57(MonitoringChanges<ReqValue> req)
+        {
+            var changes = req.ParseAsParameterValue(x => x.Ul.Kpp, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            return new CheckResult
+            {
+                Result = changes > 1,
+                Verbose = $"Количество изменений КПП за полгода: {changes}"
+            };
+        }
+        
+        public static CheckResult Marker58(MonitoringChanges<ReqValue> req)
+        {
+            var changes = req.ParseAsParameterValue(x => x.Ul.Kpp, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            return new CheckResult
+            {
+                Result = changes > 1,
+                Verbose = $"Количество изменений уставного капитала за полгода: {changes}"
+            };
+        }
+        
+        public static CheckResult Marker59(MonitoringChanges<ReqValue> req)
+        {
+            var changes = req.ParseAsParameterValue(x => x.Ul.LegalName, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            return new CheckResult
+            {
+                Result = changes > 1,
+                Verbose = $"Организация сменила название за последние 12 месяцев: {changes}"
+            };
+        }
+        
+        public static CheckResult Marker60(MonitoringChanges<EgrDetailsValue> egrs)
+        {
+            var changes12 = egrs.ParseAsParameterValue(x => x.Ul.FoundersFl, DateTime.Now - TimeSpan.FromDays(365)).Length
+                            +egrs.ParseAsParameterValue(x => x.Ul.FoundersUl, DateTime.Now - TimeSpan.FromDays(365)).Length
+                            +egrs.ParseAsParameterValue(x => x.Ul.FoundersForeign, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            var changes6 = egrs.ParseAsParameterValue(x => x.Ul.FoundersFl, DateTime.Now - TimeSpan.FromDays(182)).Length
+                            +egrs.ParseAsParameterValue(x => x.Ul.FoundersUl, DateTime.Now - TimeSpan.FromDays(182)).Length
+                            +egrs.ParseAsParameterValue(x => x.Ul.FoundersForeign, DateTime.Now - TimeSpan.FromDays(182)).Length;
+            
+            return new CheckResult
+            {
+                Result = changes12 > 1 && changes6 > 0,
+                Verbose = $"Количество изменений за 6 месяцев:  {changes6}"
+            };
+        }
 
         public static CheckResult Marker61(AnalyticsValue analytics)
         {
@@ -578,20 +701,429 @@ namespace FocusMarkers
                 : CheckResult.Failed();
         }
 
-        public static CheckResult Marker66(AnalyticsValue analytics) =>
-            CheckResult.Failed();
-        
+        public static CheckResult Marker66(EgrDetailsValue egr, MonitoringChanges<EgrDetailsValue> egrs)
+        {
+            var changes = egrs
+                .ParseAsParameterValue(
+                    x => x.Ip.Activities.PrincipalActivity, DateTime.Now - TimeSpan.FromDays(365))
+                .Concat(egrs
+                    .ParseAsParameterValue(
+                    x => x.Ul.Activities.PrincipalActivity,
+                        DateTime.Now - TimeSpan.FromDays(365)))
+                .ToArray();
+
+            var activity = egr.Ip.Activities.PrincipalActivity ?? egr.Ul.Activities.PrincipalActivity;
+            
+            return new CheckResult
+            {
+                Result = changes.Length > 1,
+                Verbose = $"Новое значение: {activity}, \r\n Старое значение: {changes[changes.Length-1]}"
+            };
+        }
         public static CheckResult Marker67(AnalyticsValue analytics)=>
             new CheckResult{Result = analytics.Analytics?.M7004 ?? false};
 
-        public static CheckResult Marker68(AnalyticsValue analytics) =>
-            CheckResult.Failed();
-        
-        public static CheckResult Marker69(AnalyticsValue analytics) =>
-            CheckResult.Failed();
+        public static CheckResult Marker68(MonitoringChanges<ReqValue> req)
+        {
+            var changes12 = req.ParseAsParameterValue(x => x.Ul.Kpp, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            var changes6 = req.ParseAsParameterValue(x => x.Ul.Kpp, DateTime.Now - TimeSpan.FromDays(182)).Length;
+            //TODO ask Why check 12?
+            return new CheckResult
+            {
+                Result = changes12 > 1 && changes6 > 0,
+                Verbose = $"Количество изменений наименования за полгода: {changes6}"
+            };
+        }
+
+        public static CheckResult Marker69(MonitoringChanges<ReqValue> req)
+        {
+            var changes12 = req.ParseAsParameterValue(x => x.Ul.LegalAddress, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            return new CheckResult
+            {
+                Result = changes12 > 2,
+                Verbose = $"Организация сменила юр. адрес дважды за последние 12 месяцев"
+            };
+        }
+
         
         public static CheckResult Marker70(AnalyticsValue analytics) =>
             CheckResult.Failed();
+
+        public static CheckResult Marker71(AnalyticsValue analytics)
+        {
+            var diff = (analytics.Analytics?.Q7018 ?? 0) - (analytics.Analytics?.Q7020 ?? 0);
+            return diff < 10
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"Количество не ликвидированных организаций: {diff}.");
+        }
+        
+        public static CheckResult Marker72 (AnalyticsValue analytics)
+        {
+            var diff = analytics.Analytics?.Q7021 ?? 0;
+            return diff < 10
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"Количество ликвидированных юридических лиц: {diff}.");
+        }
+        
+        public static CheckResult Marker73 (AnalyticsValue analytics)
+        {
+            var diff = analytics.Analytics?.Q7017 ?? 0;
+            return diff < 10
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"Количество юрлиц, в уставном капитале которых есть доля текущего юрлица: {diff}.");
+        }
+        
+        public static CheckResult Marker74 (AnalyticsValue analytics)
+        {
+            var diff = analytics.Analytics?.Q7019 ?? 0;
+            return diff < 10
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"Количество не ликвидированных юридических лиц: {diff}.");
+        }
+        
+        public static CheckResult Marker75(EgrDetailsValue egr,MonitoringChanges<EgrDetailsValue> egrs)
+        {
+            var changes = egrs
+                .ParseAsParameterValue(
+                    x => x.Ip.NalogRegBody.NalogCode, DateTime.Now - TimeSpan.FromDays(365))
+                .Concat(egrs
+                    .ParseAsParameterValue(
+                        x => x.Ul.NalogRegBody.NalogCode,
+                        DateTime.Now - TimeSpan.FromDays(365)))
+                .ToArray();
+
+            var code = egr.Ip.NalogRegBody.NalogCode ?? egr.Ul.NalogRegBody.NalogCode;
+
+            return changes.Length > 0
+                ? CheckResult.Checked($"Новое значение: {code}, \r\n Старое значение: {changes[changes.Length - 1]}")
+                : CheckResult.Failed();
+        }
+
+        public static CheckResult Marker76 ( EgrDetailsValue egr, MonitoringChanges<EgrDetailsValue> egrs)
+        {
+            var changes = egrs
+                .ParseAsParameterValue(
+                    x => x.Ip.Activities.ComplementaryActivities, DateTime.Now - TimeSpan.FromDays(365))
+                .Concat(egrs
+                    .ParseAsParameterValue(
+                        x => x.Ul.Activities.ComplementaryActivities,
+                        DateTime.Now - TimeSpan.FromDays(365)))
+                .ToArray();
+
+            var activities = egr.Ip.Activities.ComplementaryActivities ?? egr.Ul.Activities.ComplementaryActivities;
+
+            return changes.Length > 0
+                ? CheckResult.Checked($"Новое значение: {activities}, \r\n Старое значение: {changes[changes.Length - 1]}")
+                : CheckResult.Failed();
+        }
+
+        public static CheckResult Marker77(MonitoringChanges<EgrDetailsValue> egr)
+        {
+            var changes12 = egr.ParseAsParameterValue(x => x.Ul.StatedCapital, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            var changes6 = egr.ParseAsParameterValue(x => x.Ul.StatedCapital, DateTime.Now - TimeSpan.FromDays(182)).Length;
+            //TODO ask Why check 12?
+            return new CheckResult
+            {
+                Result = changes12<=1 && changes6 > 0,
+                Verbose = $"Количество изменений уставного капитала за полгода: {changes6}"
+            };
+        }
+
+        public static CheckResult Marker78(MonitoringChanges<ReqValue> req)
+        {
+            var changes12 = req.ParseAsParameterValue(x => x.Ul.LegalName, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            var changes6 = req.ParseAsParameterValue(x => x.Ul.LegalName, DateTime.Now - TimeSpan.FromDays(182)).Length;
+            //TODO ask Why check 12?
+            return new CheckResult
+            {
+                Result = changes12 > 1 && changes6 > 0,
+                Verbose = $"Количество изменений наименования за полгода: {changes6}"
+            };
+        }
+
+        public static CheckResult Marker79(MonitoringChanges<ReqValue> req)
+        {
+            var changes12 = req.ParseAsParameterValue(x => x.Ul.Heads, DateTime.Now - TimeSpan.FromDays(365)).Length
+                +req.ParseAsParameterValue(x => x.Ul.ManagementCompanies, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            var changes6 = req.ParseAsParameterValue(x => x.Ul.Heads, DateTime.Now - TimeSpan.FromDays(182)).Length
+                +req.ParseAsParameterValue(x => x.Ul.ManagementCompanies, DateTime.Now - TimeSpan.FromDays(182)).Length;
+            //TODO ask Why check 12?
+            return new CheckResult
+            {
+                Result = changes12 > 1 && changes6 > 0,
+                Verbose = $"Количество изменений руководителей и упр. компаний за полгода: {changes6}"
+            };
+        }
+        public static CheckResult Marker80(MonitoringChanges<ReqValue> req)
+        {
+            var changes12 = req.ParseAsParameterValue(x => x.Ul.LegalAddress, DateTime.Now - TimeSpan.FromDays(365)).Length;
+            var changes6 = req.ParseAsParameterValue(x => x.Ul.LegalAddress, DateTime.Now - TimeSpan.FromDays(182)).Length;
+            //TODO ask Why check 12?
+            return new CheckResult
+            {
+                Result = changes12 > 1 && changes6 > 0,
+                Verbose = $"Количество изменений наименования за полгода: {changes6}"
+            };
+        }
+        public static CheckResult Marker81(EgrDetailsValue egr)
+        {
+            var forCount = egr.Ul.FoundersForeign.Length;
+            return forCount < 1
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"Количество иностранных учредителей: {forCount}.");
+        }
+
+        public static CheckResult Marker82(ReqValue flreq, ReqValue[] reqs, EgrDetailsValue[] egrs)
+        {
+            var list = new List<ReqValue>();
+            foreach (var (egr, req) in egrs.Zip(reqs,ValueTuple.Create))
+            {
+                var innCheck = false;
+                FounderFl[] founders;
+                Head[] managers;
+                if (req.Ul != null)
+                {
+                    if (req.Ul.Status?.FluffyStatus?.Dissolved ?? false)
+                    {
+                        founders = egr.Ul.FoundersFl ?? new FounderFl[0];
+                        managers = req.Ul.Heads;
+                    }
+                    else
+                    {
+                        founders = egr.Ul.History.FoundersFl ?? new FounderFl[0];
+                        managers = req.Ul.History.Heads;
+                    }
+
+                    foreach (var founder in founders)
+                        if(founder.Innfl == flreq.Inn)
+                        {
+                            list.Add(req);
+                            innCheck = true;
+                        }
+
+                    if (innCheck) continue;
+                    
+                    foreach (var manager in managers)
+                        if(manager.Innfl == flreq.Inn)
+                        {
+                            list.Add(req);
+                            innCheck = true;
+                        }
+                }
+                else if(req.Ip.Status?.PurpleStatus?.Dissolved ?? false) 
+                    list.Add(req);
+            }
+            return list.Count < 1
+                ? CheckResult.Failed()
+                : CheckResult.Checked(string.Join("\r\n",
+                    list.Select(r=>$"{r.Inn}: {r.Ul?.LegalName.Short ?? r.Ip.Fio}")));
+        }
+        
+        public static CheckResult Marker83(EgrDetailsValue[] egrs, AnalyticsValue[] analyticses)
+        {
+            var count = analyticses.Zip(egrs, ValueTuple.Create).Count(t => Marker40(t.Item2, t.Item1).Result);
+            return count * 10 < egrs.Length * 3
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"У {count} из {egrs.Length} связанных организаций значительная сумма исполнительных производств");
+        }
+        
+        public static CheckResult Marker84(AnalyticsValue[] analyticses)
+        {
+            var count = analyticses.Count(a => Marker38(a).Result);
+            return count * 10 < analyticses.Length
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"У {count} из {analyticses.Length} связанных организаций рекомендована дополнительная проверка");
+        }
+        
+        public static CheckResult Marker85(EgrDetailsValue[] egrs, AnalyticsValue[] analyticses)
+        {/*
+            var counts = new int[] { };
+            var countDisqual = analyticses.Count(a => Marker11(a).Result);
+            var countAddr = analyticses.Count(a => Marker16(a).Result);
+            var countTax = analyticses.Count(a => Marker39(a).Result);
+            var countReport = analyticses.Count(a => Marker34(a).Result);*/
+
+            var results = analyticses.Select(a =>
+                    ValueTuple.Create(
+                        Marker11(a).Result, 
+                        Marker16(a).Result, 
+                        Marker39(a).Result, 
+                        Marker34(a).Result))
+                .ToArray();
+
+            var count = results.Count(t => t.Item1 || t.Item2 || t.Item3 || t.Item4);
+
+            return  count * 10 < analyticses.Length * 3
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"У {count} из {egrs.Length} связанных организаций рекомендована дополнительная проверка");
+        }
+        public static CheckResult Marker86(EgrDetailsValue[] egrs, AnalyticsValue[] analyticses)
+        {/*
+            var counts = new int[] { };
+            var countDisqual = analyticses.Count(a => Marker11(a).Result);
+            var countAddr = analyticses.Count(a => Marker16(a).Result);
+            var countTax = analyticses.Count(a => Marker39(a).Result);
+            var countReport = analyticses.Count(a => Marker34(a).Result);*/
+
+            var results = analyticses.Select(a =>
+                    ValueTuple.Create(
+                        Marker7(a).Result, 
+                        Marker33(a).Result, 
+                        Marker32(a).Result, 
+                        Marker53(a).Result))
+                .ToArray();
+
+            var count = results.Count(t => t.Item1 || t.Item2 || t.Item3 || t.Item4);
+
+            return  count * 10 < analyticses.Length * 3
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"У {count} из {egrs.Length} связанных организаций рекомендована дополнительная проверка");
+        }
+        
+        public static CheckResult Marker87(AnalyticsValue[] analyticses)
+        {
+            var revPast = analyticses.Sum(a => a.Analytics.S6003 ?? .0);
+            var rev = analyticses.Sum(a => a.Analytics.S6004 ?? .0);
+            return rev != .0 && rev * 10 > revPast * 7
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"По группе компаний выручка снизилась на {100*(revPast-rev)/revPast}%.");
+        }
+        
+        public static CheckResult Marker88(ReqValue[] reqs)
+        {
+            return CheckResult.Failed();
+            /*var revPast = reqs.Sum(a => Marker80());
+            var rev = analyticses.Sum(a => a.Analytics.S6004 ?? .0);
+            return rev != .0 && rev * 10 > revPast * 7
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"По группе компаний выручка снизилась на {100*(revPast-rev)/revPast}%.");*/
+        }
+        
+        public static CheckResult Marker89(EgrDetailsValue[] egrs, AnalyticsValue[] analyticses)
+        {
+            var count = analyticses
+                .Zip(egrs, ValueTuple.Create)
+                .Count(t => Marker48(t.Item2, t.Item1).Result || 
+                            Marker32(t.Item1).Result);
+            return count * 10 < egrs.Length * 3
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"У {count} из {egrs.Length} связанных организаций значительная сумма арбитражных дел");
+        }
+        
+        public static CheckResult Marker90(MonitoringChanges<ReqValue>[] reqs)
+        {
+            var count = reqs
+                .Count(t => Marker68(t).Result);
+            return count * 10 > reqs.Length * 3
+                ? CheckResult.Failed()
+                : CheckResult.Checked($"У {count} из {reqs.Length} зарегистрированы менее 12 мес назад");
+        }
+        
+        public static CheckResult Marker91(AnalyticsValue analyticses)
+        {
+            var prop1 = analyticses.Analytics.Q4002;
+            var sum1 = analyticses.Analytics.S4002;
+            var prop2 = analyticses.Analytics.Q4004;
+            var sum2 = analyticses.Analytics.S4004;
+            return prop1 + prop2 > 0
+                ? CheckResult.Checked(
+                    $"Участвовал в качестве поставщика: {prop1} (на сумму: {sum1}).\r\n|Участвовал в качестве заказчика: {prop2} (на сумму {sum2}).")
+                : CheckResult.Failed();
+        }
+
+        public static CheckResult Marker92(AnalyticsValue analytics)=>
+            new CheckResult
+            {
+                Result = analytics.Analytics.M5005.HasValue,
+                Verbose =  "Количество товарных знаков, действующих или недействующих, в которых упоминается текущая компания:"+ analytics.Analytics.M5005 ?? ""
+            };
+        
+        public static CheckResult Marker93(ReqValue req)=>
+            new CheckResult
+            {
+                Result = DateTime.Today - req.RegistrationDate < TimeSpan.FromDays(5 * 365),
+                Verbose =  "Дата образования: "+ (req.RegistrationDate.ToString() ?? "")
+            };
+
+        public static CheckResult Marker94(AnalyticsValue analytics) =>
+            new CheckResult {Result = analytics.Analytics.M6002 ?? false};
+        public static CheckResult Marker95(EgrDetailsValue egr)=>
+            new CheckResult
+            {
+                Result = (egr.Ul.StatedCapital.Sum ?? 0) > 100000.0,
+                Verbose =  "Уставный капитал: " + (egr.Ul.StatedCapital.Sum ?? 0)
+            };
+
+        public static CheckResult Marker96(AnalyticsValue analytics)
+        {
+            var defend = analytics.Analytics.Q2001;
+            var plaintiff = analytics.Analytics.Q2003;
+            return defend.HasValue || plaintiff.HasValue
+                ? CheckResult.Checked($"Кол-во дел в качестве ответчика: {defend}.\r\nКол-во дел в качестве истца: {plaintiff}.")
+                : CheckResult.Failed();
+        }
+        
+        public static CheckResult Marker97(ReqValue req)=>
+            new CheckResult
+            {
+                Result = req.Ul != null && req.Ul.Branches!= null && req.Ul.Branches.Length>0,
+                Verbose =  "Количество филиалов\\представительств: " + (req.Ul?.Branches?.Length ?? 0)
+            };
+        
+        public static CheckResult Marker98(AnalyticsValue[] analyticses)
+        {
+            var count = analyticses
+                .Count(t => Marker92(t).Result);
+            return count * 10 > analyticses.Length * 2
+                ? CheckResult.Checked(
+                    $"У {count} из {analyticses.Length} связанных организаций имеют государственные контракты.")
+                : CheckResult.Failed();
+        }
+        public static CheckResult Marker99(ReqValue[] reqs) =>
+            new CheckResult {Result = reqs?.Any() ?? false};
+        
+        public static CheckResult Marker100(ReqValue[] reqs)
+        {
+            var count = reqs
+                .Count(t => Marker93(t).Result);
+            return count * 10 > reqs.Length * 3
+                ? CheckResult.Checked(
+                    $"У {count} из {reqs.Length} связанных организаций зарегистрированы более 5 лет тому назад")
+                : CheckResult.Failed();
+        }
+        
+        public static CheckResult Marker101(AnalyticsValue[] analyticses)
+        {
+            var count = analyticses
+                .Count(t => Marker94(t).Result);
+            return count * 10 > analyticses.Length * 5
+                ? CheckResult.Checked(
+                    $"У {count} из {analyticses.Length} связанных организаций предоставили бухгалтерскую отчетность за предыдущий период.")
+                : CheckResult.Failed();
+        }
+        
+        public static CheckResult Marker102(EgrDetailsValue[] egrs)
+        {
+            var count = egrs
+                .Count(t => Marker95(t).Result);
+            return count * 10 > egrs.Length * 3
+                ? CheckResult.Checked(
+                    $"У {count} из {egrs.Length} связанных организаций есть практика арбитражных дел за последние 12 мес.")
+                : CheckResult.Failed();
+        }
+
+        public static CheckResult Marker103(EgrDetailsValue[] egrs) =>
+            CheckResult.Failed();
+        
+        public static CheckResult Marker104(LicencesValue licenses)
+        {
+            var count = licenses.Licenses
+                .Count(l => l.DateEnd == null || DateTime.Parse(l.DateEnd) > DateTime.Today);
+            return count * 10 > 0
+                ? CheckResult.Checked(
+                    $"Количество действующих лицензий: {count}")
+                : CheckResult.Failed();
+        }
 
 
 

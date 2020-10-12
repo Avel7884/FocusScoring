@@ -1,5 +1,4 @@
 using FocusAccess;
-using FocusMarkers;
 
 namespace FocusScoring
 {
@@ -14,8 +13,8 @@ namespace FocusScoring
         public static IScorer<INN> CreateEmptyINNScorer() => 
             new EmptyScorer<INN>();
         
-        public static IScorer<INN> CreateLibraryINNScorer(IApi3 api) =>
-            new Scorer<INN>(api, new CodeMarkerProvider(), new FocusChecksProvider());
+        public static IScorer<INN> CreateLibraryINNScorer(IApi3 api) => 
+            new Scorer<INN>(api, new MarkerCheckers<INN>(new ExcelMarkerProvider(), new FocusChecksProvider()));
     }
 
     public class EmptyScorer<TTarget> : IScorer<TTarget> where TTarget : IQueryable

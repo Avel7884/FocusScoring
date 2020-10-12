@@ -1,8 +1,7 @@
-﻿using System.Collections.Generic;
+﻿/*using System.Collections.Generic;
 using FocusAccess;
-using FocusScoring;
 
-namespace FocusMarkers
+namespace FocusScoring
 {
     public class CodeMarkerProvider : IMarkersProvider<INN>
     {
@@ -127,4 +126,4 @@ namespace FocusMarkers
             },
         };
     }
-}
+}*/

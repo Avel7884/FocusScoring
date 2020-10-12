@@ -117,6 +117,7 @@ namespace FocusAccess.ResponseClasses
                 return string.Join(" ", parsed);
             }
         }
+        
         public string Status() =>
             Ip?.Status.Value.String ?? Ul?.Status.Value.String; 
 

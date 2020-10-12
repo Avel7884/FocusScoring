@@ -23,6 +23,10 @@ namespace FocusGUI
     public partial class ListDialog : Window
     {
         private readonly Func<DataInfo, string[],ListCreationResult> addList;
+
+        private readonly ParameterRowData[] paramsData;
+
+        //private readonly string[] parameters;
         //private ListsCache<CompanyData> CompanyCache;
 
         public ListDialog(Func<DataInfo,string[],ListCreationResult> addList)//,ListsCache<CompanyData> companyCache)
@@ -34,13 +38,14 @@ namespace FocusGUI
             var parameters = Enum.GetNames(typeof(SubjectParameter));
             var checkboxes = Enumerable.Repeat(false, parameters.Length).ToArray();
             checkboxes[0] = checkboxes[1] = true;
+            paramsData = parameters.Zip(checkboxes, ParameterRowData.Create).ToArray();
             /*
             "Включен"
             ParametersGrid.Columns.Add("Параметер",typeof(string));*/
             ParametersGrid.Columns.Add(new DataGridTextColumn{Binding = new Binding("Parameter")});
             ParametersGrid.Columns.Add(new DataGridCheckBoxColumn{Binding = new Binding("Enabled")});
-            
-            ParametersGrid.ItemsSource = parameters.Zip(checkboxes, ParameterRowData.Create).ToArray();
+
+            ParametersGrid.ItemsSource = paramsData;
         }
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
@@ -51,7 +56,15 @@ namespace FocusGUI
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             var inns = Inns.Text.Split("\n\r\t,.    ,".ToArray(), StringSplitOptions.RemoveEmptyEntries);
-            var result = addList.Invoke(new DataInfo(ListName.Text), inns);
+            //var param = (ParametersGrid.Columns[0] as DataGridCheckBoxColumn).
+
+            var selectedParams = paramsData
+                .Zip(Enum.GetValues(typeof(SubjectParameter)).Cast<SubjectParameter>(),ValueTuple.Create)
+                .Where(t=>t.Item1.Enabled)//&& !t.Item2.IsGenerated())
+                .Select(t=>t.Item2)
+                .ToList();
+            
+            var result = addList.Invoke(new DataInfo(ListName.Text,selectedParams), inns);
             if (result.Success)
                 Close();
             if (result.HasErrors)

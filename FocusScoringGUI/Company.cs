@@ -4,7 +4,7 @@ using System.Linq;
 using FocusAccess;
 using FocusScoring;
 
-namespace FocusScoringGUI
+namespace 1FocusScoringGUI
 {
     public class Company_past //TODO 2 responsability class is baaad
     {

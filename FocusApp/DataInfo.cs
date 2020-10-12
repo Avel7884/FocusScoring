@@ -11,48 +11,58 @@ namespace FocusApp
         string Description { get; set; }
         int Length { get; set; }
         IReadOnlyList<SubjectParameter> Parameters { get; }
-        IReadOnlyList<int> MemoryOrderOfParameters { get; }
-        void InsertColumn(int index, SubjectParameter newParameter);
-        void RemoveColumn(int index);
+        IReadOnlyList<SubjectParameter> MemoryOrderOfParameters { get; }
+        bool TryRecallOrCreateColumn(int index, SubjectParameter newParameter);
+        void ForgetColumn(int index);
     }
 
     public class DataInfo : IDataInfo
     {
         private int? length;
-        private readonly IList<int> memoryOrderOfParameters;
+        private readonly IList<SubjectParameter> memoryOrderOfParameters;
         private readonly IList<SubjectParameter> parameters;
-        private Dictionary<SubjectParameter, int> dictionaryOfParameters;
+        //private Dictionary<SubjectParameter, int> dictionaryOfParameters;
 
-        public DataInfo(string name, IList<SubjectParameter> parameters = null)
+        public DataInfo(string name, IList<SubjectParameter> parameters = null,IList<SubjectParameter> memoryOrder =null)
         {
             Name = name;
             this.parameters = parameters ?? new []{SubjectParameter.Address,SubjectParameter.Score};
-            dictionaryOfParameters = this.parameters.Zip(Enumerable.Range(0, this.parameters.Count), ValueTuple.Create)
-                .ToDictionary(x => x.Item1, x => x.Item2);
-            memoryOrderOfParameters = Enumerable.Range(0, this.parameters.Count).ToList();
+            /*dictionaryOfParameters = this.parameters
+                .Zip(Enumerable.Range(0, this.parameters.Count), ValueTuple.Create)
+                .ToDictionary(x => x.Item1, x => x.Item2);*/
+            memoryOrderOfParameters = memoryOrder ?? this.parameters; //Enumerable.Range(0, this.parameters.Count).ToList();
         }
 
         public string Name { get; set; }
         public string Description  { get; set; }
 
-            public int Length
-            {
-                get => length ?? throw new ArgumentException();
-                set => length = value;
-            }
+        public int Length
+        {
+            get => length ?? throw new ArgumentException();
+            set => length = value;
+        }
 
         public IReadOnlyList<SubjectParameter> Parameters => parameters as IReadOnlyList<SubjectParameter>; //TODO check data integrity 
 
-        public IReadOnlyList<int> MemoryOrderOfParameters => memoryOrderOfParameters as IReadOnlyList<int>;
-        public void InsertColumn(int index, SubjectParameter newParameter)
+        public IReadOnlyList<SubjectParameter> MemoryOrderOfParameters => memoryOrderOfParameters as IReadOnlyList<SubjectParameter>;
+        public bool TryRecallOrCreateColumn(int index, SubjectParameter newParameter)
         {
             parameters.Insert(index,newParameter);
-            if(!dictionaryOfParameters.TryGetValue(newParameter,out var memoryIndex))
-                memoryIndex = dictionaryOfParameters.Count;
-            memoryOrderOfParameters.Insert(index,memoryIndex);
+            /*if(!dictionaryOfParameters.TryGetValue(newParameter,out var memoryIndex))
+                memoryIndex = dictionaryOfParameters.Count;*/
+            var hasRecall = MemoryOrderOfParameters.Contains(newParameter);
+            if(!hasRecall) memoryOrderOfParameters.Add(newParameter);
+            return hasRecall;
+            /*
+            var memoryIndex = MemoryOrderOfParameters.Index()
+                .Where(x => x.Value == newParameter)
+                .Select(x => x.Key)
+                .DefaultIfEmpty(-1)
+                .First();*/
+
         }
 
-        public void RemoveColumn(int index)
+        public void ForgetColumn(int index)
         {
             parameters.RemoveAt(index);
             memoryOrderOfParameters.RemoveAt(index);

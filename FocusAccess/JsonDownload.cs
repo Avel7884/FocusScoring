@@ -20,13 +20,13 @@ namespace FocusAccess
         public bool TryGetJson<TQuery>(ApiMethodEnum method, TQuery args, out string json)
             where TQuery : IQuery
         {                                
-            var req = $"{Settings.ApiUrl}{method}?{focusKey.ToQueryArg()}&{args.AssembleQuery()}";
+            var req = $"{Settings.ApiUrl}{method.Url()}?{focusKey.ToQueryArg()}&{args.AssembleQuery()}";
             if (args is IPostArguments postArguments)
-                return TryPostXml(req,postArguments.Data,out json);
-            return TryGetXml(req, out json);
+                return TryPostJson(req,postArguments.Data,out json);
+            return TryGetJson(req, out json);
         }
 
-        private bool TryGetXml(string request, out string json)
+        private bool TryGetJson(string request, out string json)
         {
             json = default;
             try
@@ -71,7 +71,7 @@ namespace FocusAccess
             return true;
         }
 
-        private bool TryPostXml(string request, string Data, out string json)
+        private bool TryPostJson(string request, string Data, out string json)
         {
             json = default;
             try

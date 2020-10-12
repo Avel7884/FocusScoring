@@ -50,6 +50,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EntryToUrlConverter.cs" />
+    <Compile Include="MarkerToUrlConverter.cs" />
     <Compile Include="ListCreationResult.cs" />
     <Compile Include="TargetColumnController.cs" />
     <Page Include="ListDialog.xaml">

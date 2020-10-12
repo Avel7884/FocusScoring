@@ -41,7 +41,10 @@ namespace FocusApp
             var result = scorer.Score(subject);
             return new DataEntry<INN>(subject,result.Score
                 ,GetLight(result.Score),
-                parameters.Select(p=>ExtractParameter(p,subject,result.Score)).ToList(),
+                parameters
+                    //.Where(p=>!p.IsGenerated())
+                    .Select(p=>ExtractParameter(p,subject,result.Score))
+                    .ToList(),
                 result.Markers);
         }
 
@@ -59,30 +62,26 @@ namespace FocusApp
         }
 
         private string ExtractParameter(SubjectParameter parameter,INN subject, int score)
-        {                    //TODO consider better option
-            switch (parameter)
+        {
+            //TODO consider better option
+            if (parameter.IsGenerated()) return "";
+            return parameter switch
             {
-                case SubjectParameter.Address:
-                    return subject.IsFL()
-                        ? "У ИП отсутствует адресс."
-                        : api.Req(subject).Address;
-                case SubjectParameter.Name:
-                    return subject.IsFL() 
-                        ? api.Req(subject).Ip.Fio 
-                        : api.Req(subject).Ul.LegalName.Short;
-                case SubjectParameter.Inn:
-                    return subject.ToString();
-                case SubjectParameter.Score:
-                    return score.ToString();
-                case SubjectParameter.FIO:
-                    return subject.IsFL()
-                        ? api.Req(subject).Ip.Fio
-                        : api.Req(subject).Ul.Heads[0].Fio;
-                case SubjectParameter.Site:
-                    return api.Sites(subject).Sites[0];
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(parameter), parameter, null);
-            }
+                SubjectParameter.Address => (subject.IsFL() ? "У ИП отсутствует адресс." : api.Req(subject).Address),
+                SubjectParameter.Name => (subject.IsFL()
+                    ? api.Req(subject).Ip.Fio
+                    : api.Req(subject).Ul.LegalName.Short),
+                SubjectParameter.Inn => subject.ToString(),
+                SubjectParameter.Score => score.ToString(),
+                SubjectParameter.FIO => (subject.IsFL() ? api.Req(subject).Ip.Fio : api.Req(subject).Ul.Heads[0].Fio),
+                SubjectParameter.Site => api.Sites(subject).Sites[0] /*
+                case SubjectParameter.Shield:
+                    return ShieldFile(score);*/,
+                _ => throw new ArgumentOutOfRangeException(nameof(parameter), parameter, null)
+            };
         }
+/*
+
+        */
     }
 }

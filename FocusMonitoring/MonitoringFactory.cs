@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using FocusAccess;
+using FocusAccess.ResponseClasses;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
@@ -12,10 +14,16 @@ namespace FocusMonitoring
     public interface IMonitoringFactory
     {
         IMonitoringSet OpenSet();
-        MonitoringChange[] OpenChanges<TResultValue>(MonitoringTarget target);
+        MonitoringChanges<TResultValue> OpenChanges<TResultValue>(MonitoringTarget target) 
+            where TResultValue : IParameterValue;
     }
 
-    public class MonitoringFactory : IMonitoringFactory
+    internal interface IRelivingMonitoringFactory
+    {
+        IRelivingChangesMonitoringSet OpenRelivingSet();
+    }
+
+    public class MonitoringFactory : IMonitoringFactory //,IRelivingMonitoringFactory
     {
         private readonly string monitoringFolder;
         private readonly string shortLog;
@@ -33,10 +41,16 @@ namespace FocusMonitoring
         public IMonitoringSet OpenSet() =>
             OpenRelivingSet();
 
-        public MonitoringChange[] OpenChanges<TResultValue>(MonitoringTarget target) => 
-            File.ReadAllLines(monitoringFolder + target.MakeFileName())
-                .Select(x => new MonitoringChange(x))
-                .ToArray();
+        public MonitoringChanges<TResultValue> OpenChanges<TResultValue>
+            (MonitoringTarget target) where TResultValue : IParameterValue
+        {
+            if(target.Method.ValueType() != typeof(TResultValue))
+                throw new ArgumentException();//TODO make exception
+            return new MonitoringChanges<TResultValue>(
+                File.ReadAllLines(monitoringFolder + target.MakeFileName())
+                .Select(MonitoringChange.Parse)
+                .ToArray());
+        }
 
         internal IRelivingChangesMonitoringSet OpenRelivingSet()
         { 
@@ -56,7 +70,7 @@ namespace FocusMonitoring
         private static FileStream AwaitFile(string filePath)
         {
             Exception exception = default;
-            for(var i =0;i<10;i++)
+            for(var i =0; i<10; i++)
             {
                 try
                 {
